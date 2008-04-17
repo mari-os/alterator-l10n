@@ -1,0 +1,27 @@
+#!/bin/sh
+
+repoprefix="git.alt"
+repolist=modules.list
+repodir=repositories
+langlist="ru"
+potfile=alterator.pot
+
+mkdir -p "$repodir"
+grep '^[^#]' "$repolist"|
+while read repo; do
+    mkdir -p "$repodir/${repo%/*}"
+    git-clone "$repoprefix:$repo" "$repodir/$repo"
+    make -C "$repodir/$repo" update-po ||:
+    make -C "$repodir/$repo/${repo##*/}" update-po ||:
+done
+
+touch $potfile
+for i in $langlist; do touch $i.po; done
+
+msgcat -o $potfile $potfile `find "$repodir" -name '*.pot'`
+
+for i in $langlist; do
+    msgcat -o $i.po $i.po `find "$repodir" -name "$i.po"`
+done
+
+rm -rf "$repodir"
