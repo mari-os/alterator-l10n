@@ -7,6 +7,7 @@
 msgid ""
 msgstr ""
 "#-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-17 16:49+0400\n"
@@ -46,6 +47,46 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-19 11:28+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  alterator-tzone.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-19 11:28+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  alterator-alternatives.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-19 11:28+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  alterator-spamassassin.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-19 11:28+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: ui/timezone/index.scm:51 стандартный ввод:2
 msgid "Please, select country:"
@@ -62,6 +103,7 @@ msgstr ""
 
 #: ui/timezone/index.scm:75 стандартный ввод:6
 #: ui/users/index.scm:118 ввод:17 ui/alternatives/index.scm:129 ввод:7
+#: ввод:11 ввод:9 ввод:18
 msgid "Apply"
 msgstr ""
 
@@ -73,11 +115,11 @@ msgstr ""
 msgid "Time zone"
 msgstr ""
 
-#: стандартный ввод:3 ввод:9
+#: стандартный ввод:3 ввод:9 ввод:15
 msgid "Select"
 msgstr ""
 
-#: стандартный ввод:7 ввод:8
+#: стандартный ввод:7 ввод:8 ввод:10 ввод:19
 msgid "Reset"
 msgstr ""
 
@@ -93,13 +135,13 @@ msgstr ""
 msgid "Passwords mismatch"
 msgstr ""
 
-#: ui/users/add/index.scm:53 стандартный ввод:2
+#: ui/users/add/index.scm:53 стандартный ввод:2 ввод:14
 msgid "Account name:"
 msgstr ""
 
 #.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
-#: ввод:3 ввод:14
+#: ввод:3 ввод:14 ввод:8 ввод:15
 msgid "Password:"
 msgstr ""
 
@@ -115,31 +157,31 @@ msgstr ""
 msgid "Do you really want to delete user "
 msgstr ""
 
-#: ui/users/index.scm:78 стандартный ввод:8
+#: ui/users/index.scm:78 стандартный ввод:8 ввод:2
 msgid "New user..."
 msgstr ""
 
 #.
-#: ui/users/index.scm:93 стандартный ввод:10
+#: ui/users/index.scm:93 стандартный ввод:10 ввод:4
 msgid "Comment:"
 msgstr ""
 
 #.
-#: ui/users/index.scm:96 стандартный ввод:11
+#: ui/users/index.scm:96 стандартный ввод:11 ввод:5
 msgid "Home directory:"
 msgstr ""
 
 #.
-#: ui/users/index.scm:99 стандартный ввод:12
+#: ui/users/index.scm:99 стандартный ввод:12 ввод:6
 msgid "Shell:"
 msgstr ""
 
 #: ui/users/index.scm:103 backend3/users:161 стандартный
-#: ввод:13
+#: ввод:13 ввод:7
 msgid "Switching to superuser"
 msgstr ""
 
-#: ui/users/index.scm:123 стандартный ввод:18
+#: ui/users/index.scm:123 стандартный ввод:18 ввод:12
 msgid "Delete user"
 msgstr ""
 
@@ -248,23 +290,23 @@ msgstr ""
 msgid "Gecos"
 msgstr ""
 
-#: стандартный ввод:1
+#: стандартный ввод:1 ввод:13
 msgid "New user"
 msgstr ""
 
-#: стандартный ввод:4 ввод:15
+#: стандартный ввод:4 ввод:15 ввод:9 ввод:16
 msgid "(enter passphrase)"
 msgstr ""
 
-#: стандартный ввод:5 ввод:16
+#: стандартный ввод:5 ввод:16 ввод:10 ввод:17
 msgid "(repeat passphrase)"
 msgstr ""
 
-#: стандартный ввод:6
+#: стандартный ввод:6 ввод:18
 msgid "Create"
 msgstr ""
 
-#: стандартный ввод:7
+#: стандартный ввод:7 ввод:1
 msgid "User accounts"
 msgstr ""
 
@@ -306,4 +348,112 @@ msgstr ""
 
 #: стандартный ввод:1
 msgid "Alternatives subsystem"
+msgstr ""
+
+#: backend3/spamassassin:71
+msgid "SMTP transport status"
+msgstr ""
+
+#: backend3/spamassassin:72
+msgid "Spam filter mode"
+msgstr ""
+
+#: backend3/spamassassin:74
+msgid "Required score"
+msgstr ""
+
+#: backend3/spamassassin:75
+msgid "should be number"
+msgstr ""
+
+#: backend3/spamassassin:76
+msgid "Use automatic sender whitelist"
+msgstr ""
+
+#: backend3/spamassassin:78 стандартный ввод:22
+msgid "Rule"
+msgstr ""
+
+#: backend3/spamassassin:79 стандартный ввод:23
+msgid "Score"
+msgstr ""
+
+#: backend3/spamassassin:86
+msgid "Off"
+msgstr ""
+
+#: backend3/spamassassin:87
+msgid "On, without content filter"
+msgstr ""
+
+#: backend3/spamassassin:88
+msgid "On, with content filter"
+msgstr ""
+
+#: backend3/spamassassin:91
+msgid "Mark only"
+msgstr ""
+
+#: backend3/spamassassin:92
+msgid "Drop mail"
+msgstr ""
+
+#: стандартный ввод:1 ввод:11 ввод:20
+msgid "Spam filter"
+msgstr ""
+
+#: стандартный ввод:2
+msgid "start, stop or restart mail service"
+msgstr ""
+
+#: стандартный ввод:3
+msgid "start, stop or restart anti-spam service"
+msgstr ""
+
+#: стандартный ввод:4
+msgid "SMTP transport status:"
+msgstr ""
+
+#: стандартный ввод:5
+msgid "Required score:"
+msgstr ""
+
+#: стандартный ввод:6
+msgid "Setup rules and scores..."
+msgstr ""
+
+#: стандартный ввод:7
+msgid "Spam filter mode:"
+msgstr ""
+
+#: стандартный ввод:8
+msgid "Use automatic sender whitelist:"
+msgstr ""
+
+#: стандартный ввод:12 ввод:21
+msgid "Rules and scores"
+msgstr ""
+
+#: стандартный ввод:13
+msgid "Add rule"
+msgstr ""
+
+#: стандартный ввод:14
+msgid "Rule:"
+msgstr ""
+
+#: стандартный ввод:16
+msgid "Description:"
+msgstr ""
+
+#: стандартный ввод:17
+msgid "Score:"
+msgstr ""
+
+#: стандартный ввод:24
+msgid "Remove selected"
+msgstr ""
+
+#: стандартный ввод:25
+msgid "Add rule..."
 msgstr ""

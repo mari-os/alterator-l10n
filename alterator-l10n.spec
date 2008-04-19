@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.1
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -27,6 +27,9 @@ translations for all alterator modules
 
 
 %changelog
+* Sat Apr 19 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt2
+- add alterator-spamassassin
+
 * Thu Apr 17 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt1
 - Initial build
 

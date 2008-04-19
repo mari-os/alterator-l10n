@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-17 16:49+0400\n"
+"POT-Creation-Date: 2007-06-14 17:42+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,7 @@ msgstr "Хранить время в BIOS по Гринвичу"
 
 #: ui/timezone/index.scm:75 стандартный ввод:6
 #: ui/users/index.scm:118 ввод:17 ui/alternatives/index.scm:129 ввод:7
+#: ввод:11 ввод:9 ввод:18
 msgid "Apply"
 msgstr "Применить"
 
@@ -41,11 +42,11 @@ msgstr "Страна"
 msgid "Time zone"
 msgstr "Часовой пояс"
 
-#: стандартный ввод:3 ввод:9
+#: стандартный ввод:3 ввод:9 ввод:15
 msgid "Select"
 msgstr "Выбрать"
 
-#: стандартный ввод:7 ввод:8
+#: стандартный ввод:7 ввод:8 ввод:10 ввод:19
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -1641,13 +1642,13 @@ msgstr "Вы должны указать пароль"
 msgid "Passwords mismatch"
 msgstr "Введённые пароли не совпадают"
 
-#: ui/users/add/index.scm:53 стандартный ввод:2
+#: ui/users/add/index.scm:53 стандартный ввод:2 ввод:14
 msgid "Account name:"
 msgstr "Имя пользователя:"
 
 #.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
-#: ввод:3 ввод:14
+#: ввод:3 ввод:14 ввод:8 ввод:15
 msgid "Password:"
 msgstr "Пароль:"
 
@@ -1663,31 +1664,31 @@ msgstr "Отмена"
 msgid "Do you really want to delete user "
 msgstr "Вы действительно хотите удалить пользователя "
 
-#: ui/users/index.scm:78 стандартный ввод:8
+#: ui/users/index.scm:78 стандартный ввод:8 ввод:2
 msgid "New user..."
 msgstr "Создать пользователя..."
 
 #.
-#: ui/users/index.scm:93 стандартный ввод:10
+#: ui/users/index.scm:93 стандартный ввод:10 ввод:4
 msgid "Comment:"
 msgstr "Комментарий:"
 
 #.
-#: ui/users/index.scm:96 стандартный ввод:11
+#: ui/users/index.scm:96 стандартный ввод:11 ввод:5
 msgid "Home directory:"
 msgstr "Домашний каталог:"
 
 #.
-#: ui/users/index.scm:99 стандартный ввод:12
+#: ui/users/index.scm:99 стандартный ввод:12 ввод:6
 msgid "Shell:"
 msgstr "Интерпретатор команд:"
 
 #: ui/users/index.scm:103 backend3/users:161 стандартный
-#: ввод:13
+#: ввод:13 ввод:7
 msgid "Switching to superuser"
 msgstr "Переключение на администратора"
 
-#: ui/users/index.scm:123 стандартный ввод:18
+#: ui/users/index.scm:123 стандартный ввод:18 ввод:12
 msgid "Delete user"
 msgstr "Удалить пользователя"
 
@@ -1796,23 +1797,23 @@ msgstr "Пароль (повтор)"
 msgid "Gecos"
 msgstr "Комментарий"
 
-#: стандартный ввод:1
+#: стандартный ввод:1 ввод:13
 msgid "New user"
 msgstr "Создать пользователя"
 
-#: стандартный ввод:4 ввод:15
+#: стандартный ввод:4 ввод:15 ввод:9 ввод:16
 msgid "(enter passphrase)"
 msgstr "(введите фразу)"
 
-#: стандартный ввод:5 ввод:16
+#: стандартный ввод:5 ввод:16 ввод:10 ввод:17
 msgid "(repeat passphrase)"
 msgstr "(повторите фразу)"
 
-#: стандартный ввод:6
+#: стандартный ввод:6 ввод:18
 msgid "Create"
 msgstr "Создать"
 
-#: стандартный ввод:7
+#: стандартный ввод:7 ввод:1
 msgid "User accounts"
 msgstr "Учётные записи"
 
@@ -1860,3 +1861,111 @@ msgstr "настройка вручную"
 #: стандартный ввод:1
 msgid "Alternatives subsystem"
 msgstr "Альтернативы"
+
+#: backend3/spamassassin:71
+msgid "SMTP transport status"
+msgstr "Состояние SMTP транспорта"
+
+#: backend3/spamassassin:72
+msgid "Spam filter mode"
+msgstr "Режим cпам-фильтра"
+
+#: backend3/spamassassin:74
+msgid "Required score"
+msgstr "Пороговое значение"
+
+#: backend3/spamassassin:75
+msgid "should be number"
+msgstr "должно быть число"
+
+#: backend3/spamassassin:76
+msgid "Use automatic sender whitelist"
+msgstr "Вести белый список отправителей"
+
+#: backend3/spamassassin:78 стандартный ввод:22
+msgid "Rule"
+msgstr "Правило"
+
+#: backend3/spamassassin:79 стандартный ввод:23
+msgid "Score"
+msgstr "Баллы"
+
+#: backend3/spamassassin:86
+msgid "Off"
+msgstr "Выключен"
+
+#: backend3/spamassassin:87
+msgid "On, without content filter"
+msgstr "Включен, без фильтра"
+
+#: backend3/spamassassin:88
+msgid "On, with content filter"
+msgstr "Включен, с фильтром"
+
+#: backend3/spamassassin:91
+msgid "Mark only"
+msgstr "Только помечать"
+
+#: backend3/spamassassin:92
+msgid "Drop mail"
+msgstr "Удалять почту"
+
+#: стандартный ввод:1 ввод:11 ввод:20
+msgid "Spam filter"
+msgstr "Спам-фильтр"
+
+#: стандартный ввод:2
+msgid "start, stop or restart mail service"
+msgstr "запустить, остановить или перезапустить почтовую службу"
+
+#: стандартный ввод:3
+msgid "start, stop or restart anti-spam service"
+msgstr "запустить, остановить или перезапустить антиспам"
+
+#: стандартный ввод:4
+msgid "SMTP transport status:"
+msgstr "Состояние SMTP транспорта:"
+
+#: стандартный ввод:5
+msgid "Required score:"
+msgstr "Пороговое значение:"
+
+#: стандартный ввод:6
+msgid "Setup rules and scores..."
+msgstr "Настроить правила и баллы..."
+
+#: стандартный ввод:7
+msgid "Spam filter mode:"
+msgstr "Режим cпам-фильтра:"
+
+#: стандартный ввод:8
+msgid "Use automatic sender whitelist:"
+msgstr "Вести белый список отправителей:"
+
+#: стандартный ввод:12 ввод:21
+msgid "Rules and scores"
+msgstr "Правила и баллы"
+
+#: стандартный ввод:13
+msgid "Add rule"
+msgstr "Добавить правило"
+
+#: стандартный ввод:14
+msgid "Rule:"
+msgstr "Правило:"
+
+#: стандартный ввод:16
+msgid "Description:"
+msgstr "Описание:"
+
+#: стандартный ввод:17
+msgid "Score:"
+msgstr "Баллы:"
+
+#: стандартный ввод:24
+msgid "Remove selected"
+msgstr "Удалить выделенные"
+
+#: стандартный ввод:25
+msgid "Add rule..."
+msgstr "Добавить правило..."
