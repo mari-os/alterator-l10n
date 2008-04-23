@@ -31,7 +31,8 @@ msgstr "Хранить время в BIOS по Гринвичу"
 #: ui/timezone/index.scm:75 стандартный ввод:6
 #: ui/users/index.scm:118 ввод:17 ui/alternatives/index.scm:129 ввод:7
 #: ввод:11 ввод:9 ввод:18 ui/auth/index.scm:76 ввод:5
-#: ввод:10 ввод:8 ввод:24
+#: ввод:10 ввод:8 ввод:24 ui/x11/index.scm:134 ввод:4
+#: ввод:22
 msgid "Apply"
 msgstr "Применить"
 
@@ -49,6 +50,7 @@ msgstr "Выбрать"
 
 #: стандартный ввод:7 ввод:8 ввод:10 ввод:19
 #: ui/auth/index.scm:77 ввод:6 ввод:11 ввод:9 ввод:25
+#: ввод:5 ввод:18 ввод:23
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -1654,11 +1656,12 @@ msgstr "Имя пользователя:"
 msgid "Password:"
 msgstr "Пароль:"
 
-#: ui/users/add/index.scm:73
+#: ui/x11/driver/index.scm:46 ui/x11/monitor/index.scm:36
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
-#: ui/users/add/index.scm:76
+#: ui/users/add/index.scm:76 ui/x11/driver/index.scm:50
+#: ui/x11/monitor/index.scm:39
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -2009,3 +2012,142 @@ msgstr "Аутентификация"
 #: стандартный ввод:3
 msgid "Change"
 msgstr "Изменить"
+
+#. messages from C tools
+#: ui/x11/c-messages.scm:2
+msgid "Yes"
+msgstr "Да"
+
+#: ui/x11/c-messages.scm:3
+msgid "No"
+msgstr "Нет"
+
+#: ui/x11/c-messages.scm:4
+msgid "Pause"
+msgstr "Стоп"
+
+#: ui/x11/c-messages.scm:5
+msgid "Press 'Yes' if you see a correct picture!"
+msgstr "Нажмите 'Да' если изображение правильное!"
+
+#: ui/x11/c-messages.scm:6
+msgid "Resume"
+msgstr "Пуск"
+
+#: ui/x11/driver/index.scm:30 стандартный ввод:3
+msgid "Drivers:"
+msgstr "Драйверы:"
+
+#: ui/x11/index.scm:62 стандартный ввод:7
+msgid "Detected hardware"
+msgstr "Обнаруженное оборудование"
+
+#: ui/x11/index.scm:67 стандартный ввод:8
+msgid "Video card:"
+msgstr "Видеокарта:"
+
+#: ui/x11/index.scm:73 ui/x11/index.scm:89 стандартный ввод:9
+#: ввод:11
+msgid "Monitor:"
+msgstr "Монитор:"
+
+#: ui/x11/index.scm:84 стандартный ввод:10
+msgid "Current settings"
+msgstr "Текущие настройки"
+
+#: ui/x11/index.scm:93 стандартный ввод:12
+msgid "Other vendor..."
+msgstr "Другой производитель..."
+
+#: ui/x11/index.scm:98 стандартный ввод:13
+msgid "Driver:"
+msgstr "Драйвер:"
+
+#: ui/x11/index.scm:102 стандартный ввод:14
+msgid "Other driver..."
+msgstr "Другой драйвер..."
+
+#: ui/x11/index.scm:107 стандартный ввод:15
+msgid "Color depth:"
+msgstr "Глубина цвета:"
+
+#: ui/x11/index.scm:116 стандартный ввод:16
+msgid "Resolution:"
+msgstr "Разрешение:"
+
+#: ui/x11/index.scm:131 backend3/x11:172
+msgid "Test"
+msgstr "Проверить"
+
+#: ui/x11/monitor/index.scm:20 стандартный ввод:21
+msgid "Monitor vendors:"
+msgstr "Производители мониторов:"
+
+#: backend3/x11:170
+msgid "Test current display settings"
+msgstr "Проверьте текущие настройки дисплея"
+
+#: backend3/x11:171
+msgid "Test failed"
+msgstr "Проверка не прошла"
+
+#: backend3/x11:180
+msgid "recommended"
+msgstr "рекомендовано"
+
+#: backend3/x11:198
+msgid "256 colors (8 bit)"
+msgstr "256 цветов (8 бит)"
+
+#: backend3/x11:199
+msgid "32 thousand colors (15 bits)"
+msgstr "32 тысячи цветов (15 бит)"
+
+#: backend3/x11:200
+msgid "65 thousand colors (16 bits)"
+msgstr "65 тысяч цветов (16 бит)"
+
+#: backend3/x11:201
+msgid "16 million colors (24 bits)"
+msgstr "16 миллионов цветов (24 бита)"
+
+#: backend3/x11:202
+msgid "4 billion colors (32 bits)"
+msgstr "4 миллиарда цветов (32 бита)"
+
+#: backend3/x11:203
+msgid "bits"
+msgstr ""
+
+#: backend3/x11:255
+msgid "Automatically detected"
+msgstr "Автоматически определённый"
+
+#. config
+#: backend3/x11:324
+msgid "config file doesn't exist"
+msgstr "конфигурационный файл не существует"
+
+#: backend3/x11:375
+msgid "no workcopy was found"
+msgstr "не найдено рабочей копии конфигурационного файла"
+
+#: backend3/x11:379
+msgid "X11 test failed"
+msgstr "Проверка не прошла"
+
+#: стандартный ввод:1 ввод:19
+msgid "Display"
+msgstr "Дисплей"
+
+#: стандартный ввод:2
+msgid "Drivers"
+msgstr "Драйверы"
+
+#: стандартный ввод:6
+msgid "Graphic display"
+msgstr "Графический дисплей"
+
+#: стандартный ввод:20
+msgid "Monitor vendors"
+msgstr "Производители мониторов"

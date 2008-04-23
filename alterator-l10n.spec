@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.1
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -27,6 +27,9 @@ translations for all alterator modules
 
 
 %changelog
+* Wed Apr 23 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt4
+- add alterator-x11
+
 * Tue Apr 22 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt3
 - add alterator-auth
 
