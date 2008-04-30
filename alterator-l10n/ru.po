@@ -32,7 +32,7 @@ msgstr "Хранить время в BIOS по Гринвичу"
 #: ui/users/index.scm:118 ввод:17 ui/alternatives/index.scm:129 ввод:7
 #: ввод:11 ввод:9 ввод:18 ui/auth/index.scm:76 ввод:5
 #: ввод:10 ввод:8 ввод:24 ui/x11/index.scm:134 ввод:4
-#: ввод:22
+#: ввод:22 ui/net-eth/index.scm:201 ввод:14 ui/x11/index.scm:136
 msgid "Apply"
 msgstr "Применить"
 
@@ -45,12 +45,13 @@ msgid "Time zone"
 msgstr "Часовой пояс"
 
 #: стандартный ввод:3 ввод:9 ввод:15 ввод:5
+#: ввод:6
 msgid "Select"
 msgstr "Выбрать"
 
 #: стандартный ввод:7 ввод:8 ввод:10 ввод:19
 #: ui/auth/index.scm:77 ввод:6 ввод:11 ввод:9 ввод:25
-#: ввод:5 ввод:18 ввод:23
+#: ввод:5 ввод:18 ввод:23 ui/net-eth/index.scm:202 ввод:15
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -1981,11 +1982,11 @@ msgstr "Добавить правило..."
 msgid "Auth type:"
 msgstr "Тип аутентификации:"
 
-#: ui/auth/index.scm:62 стандартный ввод:8
+#: ui/auth/index.scm:62 стандартный ввод:8 ввод:5
 msgid "LDAP server:"
 msgstr "LDAP-сервер:"
 
-#: ui/auth/index.scm:67 стандартный ввод:9
+#: ui/auth/index.scm:67 стандартный ввод:9 ввод:6
 msgid "Base DN:"
 msgstr "Базовый DN:"
 
@@ -2042,40 +2043,43 @@ msgstr "Драйверы:"
 msgid "Detected hardware"
 msgstr "Обнаруженное оборудование"
 
-#: ui/x11/index.scm:67 стандартный ввод:8
+#: ui/x11/index.scm:67 стандартный ввод:8 ui/x11/index.scm:68
 msgid "Video card:"
 msgstr "Видеокарта:"
 
 #: ui/x11/index.scm:73 ui/x11/index.scm:89 стандартный ввод:9
-#: ввод:11
+#: ввод:11 ui/x11/index.scm:74 ui/x11/index.scm:91
 msgid "Monitor:"
 msgstr "Монитор:"
 
-#: ui/x11/index.scm:84 стандартный ввод:10
+#: ui/x11/index.scm:84 стандартный ввод:10 ui/x11/index.scm:85
 msgid "Current settings"
 msgstr "Текущие настройки"
 
-#: ui/x11/index.scm:93 стандартный ввод:12
+#: ui/x11/index.scm:93 стандартный ввод:12 ui/x11/index.scm:95
 msgid "Other vendor..."
 msgstr "Другой производитель..."
 
-#: ui/x11/index.scm:98 стандартный ввод:13
+#: ui/x11/index.scm:98 стандартный ввод:13 ui/x11/index.scm:100
 msgid "Driver:"
 msgstr "Драйвер:"
 
 #: ui/x11/index.scm:102 стандартный ввод:14
+#: ui/x11/index.scm:104
 msgid "Other driver..."
 msgstr "Другой драйвер..."
 
 #: ui/x11/index.scm:107 стандартный ввод:15
+#: ui/x11/index.scm:109
 msgid "Color depth:"
 msgstr "Глубина цвета:"
 
 #: ui/x11/index.scm:116 стандартный ввод:16
+#: ui/x11/index.scm:118
 msgid "Resolution:"
 msgstr "Разрешение:"
 
-#: ui/x11/index.scm:131 backend3/x11:172
+#: ui/x11/index.scm:131 backend3/x11:172 ui/x11/index.scm:133
 msgid "Test"
 msgstr "Проверить"
 
@@ -2151,3 +2155,124 @@ msgstr "Графический дисплей"
 #: стандартный ввод:20
 msgid "Monitor vendors"
 msgstr "Производители мониторов"
+
+#.
+#: ui/net-eth/index.scm:110 стандартный ввод:2
+msgid "Host name:"
+msgstr "Имя компьютера:"
+
+#.
+#: ui/net-eth/index.scm:118 стандартный ввод:3
+msgid "DNS servers:"
+msgstr "DNS-серверы:"
+
+#.
+#: ui/net-eth/index.scm:123 стандартный ввод:4
+msgid "Search domains:"
+msgstr "Домены поиска:"
+
+#: ui/net-eth/index.scm:129
+msgid "multiple values should be space separated"
+msgstr "несколько значений записываются через пробел"
+
+#: ui/net-eth/index.scm:137 стандартный ввод:5
+msgid "Interfaces"
+msgstr "Интерфейсы"
+
+#.
+#: ui/net-eth/index.scm:152 стандартный ввод:7
+msgid "Status:"
+msgstr "Состояние:"
+
+#.
+#: ui/net-eth/index.scm:156 стандартный ввод:8
+msgid "Configuration:"
+msgstr "Конфигурация:"
+
+#.
+#: ui/net-eth/index.scm:166 стандартный ввод:9
+msgid "IP address:"
+msgstr "IP-адрес:"
+
+#.
+#: ui/net-eth/index.scm:170 стандартный ввод:10
+msgid "Netmask:"
+msgstr "Маска сети:"
+
+#.
+#: ui/net-eth/index.scm:174 стандартный ввод:11
+msgid "Default gateway:"
+msgstr "Шлюз по умолчанию:"
+
+#.
+#: ui/net-eth/index.scm:178 стандартный ввод:12
+msgid "Hardware binding:"
+msgstr "Привязка:"
+
+#: ui/net-eth/index.scm:183 стандартный ввод:13
+msgid "Wireless settings..."
+msgstr "Параметры для беспроводных интерфейсов..."
+
+#: backend3/net-eth:145
+msgid "missing"
+msgstr "отсутствует"
+
+#: backend3/net-eth:146
+msgid "by MAC address"
+msgstr "по  аппаратному адресу (MAC)"
+
+#: backend3/net-eth:147
+msgid "by bus location"
+msgstr "по местоположению на шине"
+
+#: backend3/net-eth:152
+msgid "Turned off"
+msgstr "Выключено"
+
+#: backend3/net-eth:153 backend3/net-eth:351
+msgid "Use DHCP"
+msgstr "Использовать DHCP"
+
+#: backend3/net-eth:154
+msgid "Manually"
+msgstr "Вручную"
+
+#: backend3/net-eth:185
+msgid "interface is up"
+msgstr "интерфейс включён"
+
+#: backend3/net-eth:185
+msgid "interface is down"
+msgstr "интерфейс выключен"
+
+#: backend3/net-eth:190
+msgid "plugged"
+msgstr "провод подсоединён"
+
+#: backend3/net-eth:191
+msgid "unplugged"
+msgstr "провод отсоединён"
+
+#: backend3/net-eth:345
+msgid "Host name"
+msgstr "Имя компьютера"
+
+#: backend3/net-eth:347
+msgid "Search domains"
+msgstr "Домены поиска"
+
+#: backend3/net-eth:349
+msgid "DNS servers"
+msgstr "DNS-серверы"
+
+#: backend3/net-eth:353
+msgid "IP address"
+msgstr "IP-адрес"
+
+#: backend3/net-eth:355
+msgid "Default gateway"
+msgstr "Шлюз по умолчанию"
+
+#: стандартный ввод:1
+msgid "IP interfaces"
+msgstr "IP-интерфейсы"
