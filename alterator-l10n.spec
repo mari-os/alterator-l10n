@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.1
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -27,6 +27,9 @@ translations for all alterator modules
 
 
 %changelog
+* Wed Apr 30 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt6
+- add alterator-vsftpd
+
 * Wed Apr 30 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt5
 - add alterator-net-eth
 

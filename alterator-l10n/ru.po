@@ -2229,7 +2229,7 @@ msgstr "по местоположению на шине"
 msgid "Turned off"
 msgstr "Выключено"
 
-#: backend3/net-eth:153 backend3/net-eth:351
+#: backend3/net-eth:153 backend3/net-eth:351 backend3/net-eth:353
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
@@ -2253,26 +2253,127 @@ msgstr "провод подсоединён"
 msgid "unplugged"
 msgstr "провод отсоединён"
 
-#: backend3/net-eth:345
+#: backend3/net-eth:345 backend3/net-eth:347
 msgid "Host name"
 msgstr "Имя компьютера"
 
-#: backend3/net-eth:347
+#: backend3/net-eth:347 backend3/net-eth:349
 msgid "Search domains"
 msgstr "Домены поиска"
 
-#: backend3/net-eth:349
+#: backend3/net-eth:349 backend3/net-eth:351
 msgid "DNS servers"
 msgstr "DNS-серверы"
 
-#: backend3/net-eth:353
+#: backend3/net-eth:353 backend3/net-eth:355
 msgid "IP address"
 msgstr "IP-адрес"
 
-#: backend3/net-eth:355
+#: backend3/net-eth:355 backend3/net-eth:357
 msgid "Default gateway"
 msgstr "Шлюз по умолчанию"
 
 #: стандартный ввод:1
 msgid "IP interfaces"
 msgstr "IP-интерфейсы"
+
+#: backend3/vsftpd:63
+msgid "yes"
+msgstr "есть"
+
+#: backend3/vsftpd:63
+msgid "no"
+msgstr "нет"
+
+#: backend3/vsftpd:63
+msgid "default"
+msgstr "по-умолчанию"
+
+#: backend3/vsftpd:75 стандартный ввод:4
+msgid "Enable FTP service"
+msgstr "Включить службу FTP"
+
+#: backend3/vsftpd:80 стандартный ввод:5
+msgid "Allow anonymous login"
+msgstr "Разрешить вход анонимному пользователю"
+
+#: backend3/vsftpd:82 стандартный ввод:10
+msgid "Allow mkdir"
+msgstr "Разрешить создание каталогов"
+
+#: backend3/vsftpd:84 стандартный ввод:11
+msgid "Allow upload"
+msgstr "Разрешить закачку файлов"
+
+#: backend3/vsftpd:86 стандартный ввод:12
+msgid "Default upload directory (/var/ftp/incoming)"
+msgstr "Стандартный каталог для приёма файлов (/var/ftp/incoming)"
+
+#. "
+#: backend3/vsftpd:88 стандартный ввод:13
+msgid "Allow rename/delete"
+msgstr "Разрешить переименование/удаление файлов"
+
+#: backend3/vsftpd:91 стандартный ввод:6
+msgid "Allow write"
+msgstr "Разрешить запись"
+
+#: backend3/vsftpd:94
+msgid "Write access"
+msgstr "Доступ на запись"
+
+#: backend3/vsftpd:97 стандартный ввод:7
+msgid "Allow local users login"
+msgstr "Разрешить вход локальных пользователей"
+
+#: backend3/vsftpd:99 стандартный ввод:8
+msgid "Enable per user settings"
+msgstr "Разрешить настройки для локальных пользователей"
+
+#: backend3/vsftpd:156
+msgid "enable write access"
+msgstr "разрешить запись"
+
+#: backend3/vsftpd:157
+msgid "disable write access"
+msgstr "запретить запись"
+
+#: backend3/vsftpd:158
+msgid "remove from list"
+msgstr "удалить из списка"
+
+#: backend3/vsftpd:218
+msgid "Same user already exists"
+msgstr "Подобный пользователь уже существует"
+
+#: стандартный ввод:1
+msgid "FTP server"
+msgstr "FTP-сервер"
+
+#: стандартный ввод:2
+msgid "start, stop or restart service"
+msgstr "запустить, остановить или перезапустить службу"
+
+#: стандартный ввод:3
+msgid "General options"
+msgstr "Общие параметры"
+
+#: стандартный ввод:9
+msgid "Anonymous user options"
+msgstr "Параметры анонимного пользователя"
+
+#: стандартный ввод:16
+msgid "Local users settings"
+msgstr "Параметры локальных пользователей"
+
+#: стандартный ввод:17
+msgid "For selected:"
+msgstr "Для выделенных:"
+
+#: стандартный ввод:19
+msgid "Add user:"
+msgstr "Добавить пользователя:"
+
+#: стандартный ввод:21
+msgid "System users administration..."
+msgstr "Управление системными пользователями..."
