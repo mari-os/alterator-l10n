@@ -34,6 +34,7 @@ msgstr ""
 #: ввод:11 ввод:9 ввод:18 ui/auth/index.scm:76 ввод:5
 #: ввод:10 ввод:8 ввод:24 ui/x11/index.scm:134 ввод:4
 #: ввод:22 ui/net-eth/index.scm:201 ввод:14 ui/x11/index.scm:136
+#: ui/root/index.scm:39
 msgid "Apply"
 msgstr ""
 
@@ -64,18 +65,12 @@ msgstr ""
 msgid "You should define a password"
 msgstr ""
 
-#: ui/users/add/index.scm:24 ui/users/index.scm:64
+#: ui/users/add/index.scm:24 ui/users/index.scm:64 ui/root/index.scm:22
 msgid "Passwords mismatch"
 msgstr ""
 
 #: ui/users/add/index.scm:53 стандартный ввод:2 ввод:14
 msgid "Account name:"
-msgstr ""
-
-#.
-#: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
-#: ввод:3 ввод:14 ввод:8 ввод:15
-msgid "Password:"
 msgstr ""
 
 #: ui/users/add/index.scm:73 ui/x11/driver/index.scm:46
@@ -213,7 +208,8 @@ msgstr ""
 msgid "Home directory"
 msgstr ""
 
-#: backend3/users:162
+#: backend3/users:162 backend3/root:20 backend3/root:21 стандартный
+#: ввод:2
 msgid "Password"
 msgstr ""
 
@@ -230,10 +226,12 @@ msgid "New user"
 msgstr ""
 
 #: стандартный ввод:4 ввод:15 ввод:9 ввод:16
+#: ui/root/passwd.scm:54 ввод:3
 msgid "(enter passphrase)"
 msgstr ""
 
 #: стандартный ввод:5 ввод:16 ввод:10 ввод:17
+#: ui/root/passwd.scm:56 ввод:4
 msgid "(repeat passphrase)"
 msgstr ""
 
@@ -793,4 +791,38 @@ msgstr ""
 
 #: стандартный ввод:21
 msgid "System users administration..."
+msgstr ""
+
+#: ui/root/index.scm:19
+msgid "You should define a password for system administrator"
+msgstr ""
+
+#: ui/root/index.scm:32
+msgid "Setup password for system administrator"
+msgstr ""
+
+#: ui/root/passwd.scm:63 design/scripts/password.js:59
+msgid "Generate"
+msgstr ""
+
+#: ui/root/passwd.scm:68 design/scripts/password.js:65
+msgid "Generate automatically"
+msgstr ""
+
+#: backend3/root:29
+msgid "Unable to change password"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "System administrator"
+msgstr ""
+
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
+#: ввод:3 ввод:14 ввод:2
+msgid "Password:"
 msgstr ""

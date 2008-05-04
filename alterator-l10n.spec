@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.1
-Release: alt6
+Release: alt7
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -27,6 +27,9 @@ translations for all alterator modules
 
 
 %changelog
+* Sun May 04 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt7
+- add alterator-root
+
 * Wed Apr 30 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt6
 - add alterator-vsftpd
 
