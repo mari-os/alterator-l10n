@@ -34,7 +34,7 @@ msgstr ""
 #: ввод:11 ввод:9 ввод:18 ui/auth/index.scm:76 ввод:5
 #: ввод:10 ввод:8 ввод:24 ui/x11/index.scm:134 ввод:4
 #: ввод:22 ui/net-eth/index.scm:201 ввод:14 ui/x11/index.scm:136
-#: ui/root/index.scm:39
+#: ui/root/index.scm:39 ui/x11/index.scm:97
 msgid "Apply"
 msgstr ""
 
@@ -75,11 +75,13 @@ msgstr ""
 
 #: ui/users/add/index.scm:73 ui/x11/driver/index.scm:46
 #: ui/x11/monitor/index.scm:36 стандартный ввод:18 ввод:20
+#: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24
 msgid "OK"
 msgstr ""
 
 #: ui/users/add/index.scm:76 ui/x11/driver/index.scm:50
-#: ui/x11/monitor/index.scm:39
+#: ui/x11/monitor/index.scm:39 ui/x11/driver/index.scm:32
+#: ui/x11/monitor/index.scm:30
 msgid "Cancel"
 msgstr ""
 
@@ -451,107 +453,117 @@ msgid "Resume"
 msgstr ""
 
 #: ui/x11/driver/index.scm:30 стандартный ввод:3
+#: ui/x11/driver/index.scm:11
 msgid "Drivers:"
 msgstr ""
 
-#: ui/x11/index.scm:62 стандартный ввод:7
+#: ui/x11/index.scm:62 стандартный ввод:7 ui/x11/index.scm:29
 msgid "Detected hardware"
 msgstr ""
 
 #: ui/x11/index.scm:67 стандартный ввод:8 ui/x11/index.scm:68
+#: ui/x11/index.scm:35
 msgid "Video card:"
 msgstr ""
 
 #: ui/x11/index.scm:73 ui/x11/index.scm:89 стандартный ввод:9
-#: ввод:11 ui/x11/index.scm:74 ui/x11/index.scm:91
+#: ввод:11 ui/x11/index.scm:74 ui/x11/index.scm:91 ui/x11/index.scm:41
+#: ui/x11/index.scm:58
 msgid "Monitor:"
 msgstr ""
 
 #: ui/x11/index.scm:84 стандартный ввод:10 ui/x11/index.scm:85
+#: ui/x11/index.scm:52
 msgid "Current settings"
 msgstr ""
 
 #: ui/x11/index.scm:93 стандартный ввод:12 ui/x11/index.scm:95
+#: ui/x11/index.scm:62
 msgid "Other vendor..."
 msgstr ""
 
 #: ui/x11/index.scm:98 стандартный ввод:13 ui/x11/index.scm:100
+#: ui/x11/index.scm:67
 msgid "Driver:"
 msgstr ""
 
 #: ui/x11/index.scm:102 стандартный ввод:14
-#: ui/x11/index.scm:104
+#: ui/x11/index.scm:104 ui/x11/index.scm:71
 msgid "Other driver..."
 msgstr ""
 
 #: ui/x11/index.scm:107 стандартный ввод:15
-#: ui/x11/index.scm:109
+#: ui/x11/index.scm:109 ui/x11/index.scm:76
 msgid "Color depth:"
 msgstr ""
 
 #: ui/x11/index.scm:116 стандартный ввод:16
-#: ui/x11/index.scm:118
+#: ui/x11/index.scm:118 ui/x11/index.scm:82
 msgid "Resolution:"
 msgstr ""
 
 #: ui/x11/index.scm:131 backend3/x11:172 ui/x11/index.scm:133
+#: ui/x11/index.scm:94 backend3/x11:173
 msgid "Test"
 msgstr ""
 
 #: ui/x11/monitor/index.scm:20 стандартный ввод:21
+#: ui/x11/monitor/index.scm:10
 msgid "Monitor vendors:"
 msgstr ""
 
-#: backend3/x11:170
+#: backend3/x11:170 backend3/x11:171
 msgid "Test current display settings"
 msgstr ""
 
-#: backend3/x11:171
+#: backend3/x11:171 backend3/x11:172
 msgid "Test failed"
 msgstr ""
 
-#: backend3/x11:180
+#: backend3/x11:180 backend3/x11:181
 msgid "recommended"
 msgstr ""
 
-#: backend3/x11:198
+#: backend3/x11:198 backend3/x11:199
 msgid "256 colors (8 bit)"
 msgstr ""
 
-#: backend3/x11:199
+#: backend3/x11:199 backend3/x11:200
 msgid "32 thousand colors (15 bits)"
 msgstr ""
 
-#: backend3/x11:200
+#: backend3/x11:200 backend3/x11:201
 msgid "65 thousand colors (16 bits)"
 msgstr ""
 
-#: backend3/x11:201
+#: backend3/x11:201 backend3/x11:202
 msgid "16 million colors (24 bits)"
 msgstr ""
 
-#: backend3/x11:202
+#: backend3/x11:202 backend3/x11:203
 msgid "4 billion colors (32 bits)"
 msgstr ""
 
-#: backend3/x11:203
+#: backend3/x11:203 backend3/x11:204
 msgid "bits"
 msgstr ""
 
-#: backend3/x11:255
+#. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
+#. for write_enum_item
+#: backend3/x11:255 backend3/x11:254
 msgid "Automatically detected"
 msgstr ""
 
 #. config
-#: backend3/x11:324
+#: backend3/x11:324 backend3/x11:323
 msgid "config file doesn't exist"
 msgstr ""
 
-#: backend3/x11:375
+#: backend3/x11:375 backend3/x11:374
 msgid "no workcopy was found"
 msgstr ""
 
-#: backend3/x11:379
+#: backend3/x11:379 backend3/x11:378
 msgid "X11 test failed"
 msgstr ""
 
@@ -817,12 +829,12 @@ msgstr ""
 msgid "System administrator"
 msgstr ""
 
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
 #: ввод:3 ввод:14 ввод:2
 msgid "Password:"
+msgstr ""
+
+#: backend3/x11:214
+msgid "automatically"
 msgstr ""
