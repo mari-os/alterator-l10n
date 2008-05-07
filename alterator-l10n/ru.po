@@ -2010,7 +2010,7 @@ msgstr "должно быть ldap://host или ldapi://host или ldaps://hos
 msgid "Authentication"
 msgstr "Аутентификация"
 
-#: стандартный ввод:3
+#: стандартный ввод:3 ввод:8
 msgid "Change"
 msgstr "Изменить"
 
@@ -2131,6 +2131,9 @@ msgstr "4 миллиарда цветов (32 бита)"
 msgid "bits"
 msgstr ""
 
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. for write_enum_item
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. for write_enum_item
 #: backend3/x11:255 backend3/x11:254
@@ -2412,6 +2415,9 @@ msgstr "Невозможно сменить пароль"
 msgid "System administrator"
 msgstr "Администратор системы"
 
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
 #: ввод:3 ввод:14 ввод:2
@@ -2421,3 +2427,189 @@ msgstr "Пароль:"
 #: backend3/x11:214
 msgid "automatically"
 msgstr "автоматически"
+
+#: backend3/ahttpd:128
+msgid "all connections"
+msgstr "все соединения"
+
+#: backend3/ahttpd:129
+msgid "errors only"
+msgstr "только ошибки"
+
+#: backend3/ahttpd:130
+msgid "nothing"
+msgstr "отсутствует"
+
+#: backend3/ahttpd:193
+msgid "Invalid certificate file"
+msgstr "Неверный сертификат"
+
+#: стандартный ввод:1
+msgid "HTTP server"
+msgstr "HTTP-сервер"
+
+#: стандартный ввод:2
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: стандартный ввод:3
+msgid "Port"
+msgstr "Порт"
+
+#: стандартный ввод:4
+msgid "TCP port where server listen on"
+msgstr "TCP порт на котором сервер принимает соединения"
+
+#: стандартный ввод:5
+msgid "Listen address"
+msgstr "Адрес"
+
+#: стандартный ввод:6
+msgid ""
+"IP address where server listen on, or '*' for listening on all interfaces"
+msgstr ""
+"IP адрес на котором сервер принимает соединения или '*' для работы на всех "
+"интерфейсах"
+
+#: стандартный ввод:7
+msgid "Log"
+msgstr "Протоколирование"
+
+#: стандартный ввод:8
+msgid "Granularity of the log influences its size"
+msgstr "Подробность влияет на размер файла протокола"
+
+#: стандартный ввод:9
+msgid "Hostname"
+msgstr "Имя хоста"
+
+#: стандартный ввод:10
+msgid "parameter or HTTP/1.0 clients only, adress we use to redirect to itself"
+msgstr ""
+"Параметр для HTTP/1.0 клиентов, адрес используемый для перенаправления на "
+"самого себя"
+
+#: стандартный ввод:12
+msgid "Restart HTTP server"
+msgstr "Перезапустить HTTP-сервер"
+
+#: стандартный ввод:13
+msgid "TLS settings"
+msgstr "Настройки TLS"
+
+#: стандартный ввод:14
+msgid "Certificate"
+msgstr "Сертификат"
+
+#: стандартный ввод:15
+msgid "Common Name (CN)"
+msgstr "Общее Имя (CN)"
+
+#: стандартный ввод:16
+msgid "should be a public hostname"
+msgstr "должно быть публичное имя хоста"
+
+#: стандартный ввод:17
+msgid "Country (C)"
+msgstr "Страна (C)"
+
+#: стандартный ввод:18
+msgid "two letter country code"
+msgstr "двухбуквенный код страны"
+
+#: стандартный ввод:19
+msgid "Location (L)"
+msgstr "Местоположение (L)"
+
+#: стандартный ввод:20
+msgid "state or city, written in latin letters"
+msgstr "название города или области, написанное латинскими буквами"
+
+#: стандартный ввод:21
+msgid "Organization (O)"
+msgstr "Организация (O)"
+
+#: стандартный ввод:22
+msgid "organization name, written in latin letters"
+msgstr "название организации, написанное латинскими буквами"
+
+#: стандартный ввод:23
+msgid "Organizational Unit (OU)"
+msgstr "Подразделение (OU)"
+
+#: стандартный ввод:24
+msgid "organizational unit name, written in latin letters"
+msgstr "название подразделения, написанное латинскими буквами"
+
+#: стандартный ввод:25
+msgid "Recreate"
+msgstr "Пересоздать"
+
+#: стандартный ввод:26
+msgid "recreate private key, sign request and self-signed certificate"
+msgstr ""
+"пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат"
+
+#: стандартный ввод:27
+msgid "Sign"
+msgstr "Подпись"
+
+#: стандартный ввод:28
+msgid "Download sign request"
+msgstr "Забрать запрос на подпись"
+
+#: стандартный ввод:29
+msgid "Upload certificate signed by CA"
+msgstr "Положить сертификат, подписанный УЦ"
+
+#: стандартный ввод:30
+msgid "Upload"
+msgstr "Положить"
+
+#: backend3/logs:98
+msgid "Lines %s-%s of %s"
+msgstr "Строки %s-%s из %s"
+
+#: backend3/logs:117
+msgid "10 lines"
+msgstr "10 строк"
+
+#: backend3/logs:118
+msgid "20 lines"
+msgstr "20 строк"
+
+#: backend3/logs:119
+msgid "50 lines"
+msgstr "50 строк"
+
+#: backend3/logs:120
+msgid "100 lines"
+msgstr "100 строк"
+
+#: стандартный ввод:1
+msgid "Logs:"
+msgstr "Журналы:"
+
+#: стандартный ввод:2
+msgid "View"
+msgstr "Посмотреть"
+
+#: стандартный ввод:3
+msgid "Previous"
+msgstr "Назад"
+
+#: стандартный ввод:4
+msgid "Next"
+msgstr "Далее"
+
+#: стандартный ввод:5
+msgid "Fist page"
+msgstr "Первая страница"
+
+#: стандартный ввод:6
+msgid "Last page"
+msgstr "Последняя страница"
+
+#: стандартный ввод:7
+msgid "Show:"
+msgstr "Показывать:"

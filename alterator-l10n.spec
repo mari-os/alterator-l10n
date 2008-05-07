@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.1
-Release: alt8
+Release: alt9
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -27,6 +27,10 @@ translations for all alterator modules
 
 
 %changelog
+* Wed May 07 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt9
+- add alterator-ahttpd
+- add alterator-logs
+
 * Tue May 06 2008 Stanislav Ievlev <inger@altlinux.org> 0.1-alt8
 - update alterator-x11
 
