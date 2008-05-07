@@ -34,7 +34,7 @@ msgstr ""
 #: ввод:11 ввод:9 ввод:18 ui/auth/index.scm:76 ввод:5
 #: ввод:10 ввод:8 ввод:24 ui/x11/index.scm:134 ввод:4
 #: ввод:22 ui/net-eth/index.scm:201 ввод:14 ui/x11/index.scm:136
-#: ui/root/index.scm:39 ui/x11/index.scm:97
+#: ui/root/index.scm:39 ui/x11/index.scm:97 ui/services/index.scm:94
 msgid "Apply"
 msgstr ""
 
@@ -54,6 +54,7 @@ msgstr ""
 #: стандартный ввод:7 ввод:8 ввод:10 ввод:19
 #: ui/auth/index.scm:77 ввод:6 ввод:11 ввод:9 ввод:25
 #: ввод:5 ввод:18 ввод:23 ui/net-eth/index.scm:202 ввод:15
+#: ui/services/index.scm:95
 msgid "Reset"
 msgstr ""
 
@@ -458,47 +459,48 @@ msgid "Drivers:"
 msgstr ""
 
 #: ui/x11/index.scm:62 стандартный ввод:7 ui/x11/index.scm:29
+#: ввод:12
 msgid "Detected hardware"
 msgstr ""
 
 #: ui/x11/index.scm:67 стандартный ввод:8 ui/x11/index.scm:68
-#: ui/x11/index.scm:35
+#: ui/x11/index.scm:35 ввод:13
 msgid "Video card:"
 msgstr ""
 
 #: ui/x11/index.scm:73 ui/x11/index.scm:89 стандартный ввод:9
 #: ввод:11 ui/x11/index.scm:74 ui/x11/index.scm:91 ui/x11/index.scm:41
-#: ui/x11/index.scm:58
+#: ui/x11/index.scm:58 ввод:14 ввод:16
 msgid "Monitor:"
 msgstr ""
 
 #: ui/x11/index.scm:84 стандартный ввод:10 ui/x11/index.scm:85
-#: ui/x11/index.scm:52
+#: ui/x11/index.scm:52 ввод:15
 msgid "Current settings"
 msgstr ""
 
 #: ui/x11/index.scm:93 стандартный ввод:12 ui/x11/index.scm:95
-#: ui/x11/index.scm:62
+#: ui/x11/index.scm:62 ввод:17
 msgid "Other vendor..."
 msgstr ""
 
 #: ui/x11/index.scm:98 стандартный ввод:13 ui/x11/index.scm:100
-#: ui/x11/index.scm:67
+#: ui/x11/index.scm:67 ввод:18
 msgid "Driver:"
 msgstr ""
 
 #: ui/x11/index.scm:102 стандартный ввод:14
-#: ui/x11/index.scm:104 ui/x11/index.scm:71
+#: ui/x11/index.scm:104 ui/x11/index.scm:71 ввод:19
 msgid "Other driver..."
 msgstr ""
 
 #: ui/x11/index.scm:107 стандартный ввод:15
-#: ui/x11/index.scm:109 ui/x11/index.scm:76
+#: ui/x11/index.scm:109 ui/x11/index.scm:76 ввод:20
 msgid "Color depth:"
 msgstr ""
 
 #: ui/x11/index.scm:116 стандартный ввод:16
-#: ui/x11/index.scm:118 ui/x11/index.scm:82
+#: ui/x11/index.scm:118 ui/x11/index.scm:82 ввод:21
 msgid "Resolution:"
 msgstr ""
 
@@ -508,7 +510,7 @@ msgid "Test"
 msgstr ""
 
 #: ui/x11/monitor/index.scm:20 стандартный ввод:21
-#: ui/x11/monitor/index.scm:10
+#: ui/x11/monitor/index.scm:10 ввод:8
 msgid "Monitor vendors:"
 msgstr ""
 
@@ -549,6 +551,12 @@ msgid "bits"
 msgstr ""
 
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
+#. for write_enum_item
+#. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
+#. for write_enum_item
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. for write_enum_item
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -570,7 +578,7 @@ msgstr ""
 msgid "X11 test failed"
 msgstr ""
 
-#: стандартный ввод:1 ввод:19
+#: стандартный ввод:1 ввод:19 ввод:6
 msgid "Display"
 msgstr ""
 
@@ -578,11 +586,11 @@ msgstr ""
 msgid "Drivers"
 msgstr ""
 
-#: стандартный ввод:6
+#: стандартный ввод:6 ввод:11
 msgid "Graphic display"
 msgstr ""
 
-#: стандартный ввод:20
+#: стандартный ввод:20 ввод:7
 msgid "Monitor vendors"
 msgstr ""
 
@@ -833,6 +841,12 @@ msgid "System administrator"
 msgstr ""
 
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -1024,4 +1038,67 @@ msgstr ""
 
 #: стандартный ввод:7
 msgid "Show:"
+msgstr ""
+
+#: ui/services/index.scm:25 стандартный ввод:4
+msgid "Current state"
+msgstr ""
+
+#: ui/services/index.scm:68 стандартный ввод:2
+msgid "Services"
+msgstr ""
+
+#: ui/services/index.scm:75
+msgid ""
+"There are unsaved changes in the service settings. Do you want to apply "
+"these changes?"
+msgstr ""
+
+#: ui/services/index.scm:87
+msgid "Change state"
+msgstr ""
+
+#: ui/services/index.scm:93 стандартный ввод:5
+msgid "Start on boot"
+msgstr ""
+
+#. Get status information: stopped|running|unknown
+#. Usage string must be provided
+#. (srv usage)
+#: backend3/services:46 backend3/services:113
+msgid "unknown"
+msgstr ""
+
+#. [[ "$unf_status" =~ "is stopped" ]] && status="\"stopped\""
+#. [[ "$unf_status" =~ "is running" ]] && status="\"running\""
+#: backend3/services:52 backend3/services:129 backend3/services:130
+msgid "stopped"
+msgstr ""
+
+#: backend3/services:53 backend3/services:128
+msgid "running"
+msgstr ""
+
+#: backend3/services:116
+msgid "Service"
+msgstr ""
+
+#: backend3/services:127
+msgid "do not change"
+msgstr ""
+
+#: backend3/services:128
+msgid "start"
+msgstr ""
+
+#: backend3/services:129
+msgid "stop"
+msgstr ""
+
+#: backend3/services:130
+msgid "restart"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "System services"
 msgstr ""
