@@ -35,7 +35,8 @@ msgstr ""
 #: ввод:10 ввод:8 ввод:24 ui/x11/index.scm:134 ввод:4
 #: ввод:22 ui/net-eth/index.scm:201 ввод:14 ui/x11/index.scm:136
 #: ui/root/index.scm:39 ui/x11/index.scm:97 ui/services/index.scm:94
-#: ui/net-eth/index.scm:203
+#: ui/net-eth/index.scm:203 ui/xinetd/index.scm:141 ввод:15
+#: ui/net-eth/index.scm:171
 msgid "Apply"
 msgstr ""
 
@@ -56,6 +57,7 @@ msgstr ""
 #: ui/auth/index.scm:77 ввод:6 ввод:11 ввод:9 ввод:25
 #: ввод:5 ввод:18 ввод:23 ui/net-eth/index.scm:202 ввод:15
 #: ui/services/index.scm:95 ui/net-eth/index.scm:204 ввод:12
+#: ui/xinetd/index.scm:142 ui/net-eth/index.scm:172
 msgid "Reset"
 msgstr ""
 
@@ -558,6 +560,12 @@ msgstr ""
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
+#. for write_enum_item
+#. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
+#. for write_enum_item
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. for write_enum_item
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -609,69 +617,69 @@ msgstr ""
 
 #.
 #: ui/net-eth/index.scm:110 стандартный ввод:2
-#: ui/net-eth/index.scm:112
+#: ui/net-eth/index.scm:112 ui/net-eth/index.scm:81
 msgid "Host name:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:118 стандартный ввод:3
-#: ui/net-eth/index.scm:120
+#: ui/net-eth/index.scm:120 ui/net-eth/index.scm:89
 msgid "DNS servers:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:123 стандартный ввод:4
-#: ui/net-eth/index.scm:125
+#: ui/net-eth/index.scm:125 ui/net-eth/index.scm:94
 msgid "Search domains:"
 msgstr ""
 
-#: ui/net-eth/index.scm:129 ui/net-eth/index.scm:131
+#: ui/net-eth/index.scm:129 ui/net-eth/index.scm:131 ui/net-eth/index.scm:100
 msgid "multiple values should be space separated"
 msgstr ""
 
 #: ui/net-eth/index.scm:137 стандартный ввод:5
-#: ui/net-eth/index.scm:139 ввод:2
+#: ui/net-eth/index.scm:139 ввод:2 ui/net-eth/index.scm:108
 msgid "Interfaces"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:152 стандартный ввод:7
-#: ui/net-eth/index.scm:154 ввод:4
+#: ui/net-eth/index.scm:154 ввод:4 ui/net-eth/index.scm:123
 msgid "Status:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:156 стандартный ввод:8
-#: ui/net-eth/index.scm:158 ввод:5
+#: ui/net-eth/index.scm:158 ввод:5 ui/net-eth/index.scm:127
 msgid "Configuration:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:166 стандартный ввод:9
-#: ui/net-eth/index.scm:168 ввод:6
+#: ui/net-eth/index.scm:168 ввод:6 ui/net-eth/index.scm:136
 msgid "IP address:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:170 стандартный ввод:10
-#: ui/net-eth/index.scm:172 ввод:7
+#: ui/net-eth/index.scm:172 ввод:7 ui/net-eth/index.scm:140
 msgid "Netmask:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:174 стандартный ввод:11
-#: ui/net-eth/index.scm:176 ввод:8
+#: ui/net-eth/index.scm:176 ввод:8 ui/net-eth/index.scm:144
 msgid "Default gateway:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:178 стандартный ввод:12
-#: ui/net-eth/index.scm:180 ввод:9
+#: ui/net-eth/index.scm:180 ввод:9 ui/net-eth/index.scm:148
 msgid "Hardware binding:"
 msgstr ""
 
 #: ui/net-eth/index.scm:183 стандартный ввод:13
-#: ui/net-eth/index.scm:185 ввод:10
+#: ui/net-eth/index.scm:185 ввод:10 ui/net-eth/index.scm:153
 msgid "Wireless settings..."
 msgstr ""
 
@@ -716,15 +724,15 @@ msgstr ""
 msgid "unplugged"
 msgstr ""
 
-#: backend3/net-eth:345 backend3/net-eth:347
+#: backend3/net-eth:345 backend3/net-eth:347 backend3/net-eth:346
 msgid "Host name"
 msgstr ""
 
-#: backend3/net-eth:347 backend3/net-eth:349
+#: backend3/net-eth:347 backend3/net-eth:349 backend3/net-eth:348
 msgid "Search domains"
 msgstr ""
 
-#: backend3/net-eth:349 backend3/net-eth:351
+#: backend3/net-eth:349 backend3/net-eth:351 backend3/net-eth:350
 msgid "DNS servers"
 msgstr ""
 
@@ -872,6 +880,12 @@ msgstr ""
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -1078,10 +1092,11 @@ msgid "Current state"
 msgstr ""
 
 #: ui/services/index.scm:68 стандартный ввод:2
+#: ui/xinetd/index.scm:107
 msgid "Services"
 msgstr ""
 
-#: ui/services/index.scm:75
+#: ui/services/index.scm:75 ui/xinetd/index.scm:114
 msgid ""
 "There are unsaved changes in the service settings. Do you want to apply "
 "these changes?"
@@ -1162,4 +1177,72 @@ msgstr ""
 
 #: ui/logs/index.scm:35 стандартный ввод:5
 msgid "First page"
+msgstr ""
+
+#: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25
+msgid "Common settings"
+msgstr ""
+
+#: ui/xinetd/index.scm:67
+msgid "internal service"
+msgstr ""
+
+#: ui/xinetd/index.scm:127
+msgid "Enable service"
+msgstr ""
+
+#: ui/xinetd/index.scm:128 стандартный ввод:5
+msgid "User"
+msgstr ""
+
+#: ui/xinetd/index.scm:129 стандартный ввод:6
+msgid "Group"
+msgstr ""
+
+#: ui/xinetd/index.scm:130 стандартный ввод:7
+msgid "Server"
+msgstr ""
+
+#: ui/xinetd/index.scm:131 стандартный ввод:8
+msgid "Server args"
+msgstr ""
+
+#: ui/xinetd/index.scm:132 стандартный ввод:9
+msgid "Rlimit as"
+msgstr ""
+
+#: ui/xinetd/index.scm:133 стандартный ввод:10
+msgid "Instances"
+msgstr ""
+
+#: ui/xinetd/index.scm:134 стандартный ввод:11
+msgid "Per source"
+msgstr ""
+
+#: ui/xinetd/index.scm:135 стандартный ввод:12
+msgid "Only from"
+msgstr ""
+
+#: ui/xinetd/index.scm:137
+msgid ""
+"This dialog changes only configuration file for xinetd. You must<br> restart "
+"running xinetd to make it reread new configuration."
+msgstr ""
+
+#: стандартный ввод:1
+msgid "Xinetd server"
+msgstr ""
+
+#: стандартный ввод:4
+msgid "State"
+msgstr ""
+
+#: стандартный ввод:13
+msgid ""
+"This dialog changes only configuration file for xinetd. You must restart "
+"running xinetd to make it reread new configuration."
+msgstr ""
+
+#: стандартный ввод:14
+msgid "Start, stop or restart xinetd"
 msgstr ""
