@@ -34,6 +34,7 @@ msgstr "Хранить время в BIOS по Гринвичу"
 #: ввод:10 ввод:8 ввод:24 ui/x11/index.scm:134 ввод:4
 #: ввод:22 ui/net-eth/index.scm:201 ввод:14 ui/x11/index.scm:136
 #: ui/root/index.scm:39 ui/x11/index.scm:97 ui/services/index.scm:94
+#: ui/net-eth/index.scm:203
 msgid "Apply"
 msgstr "Применить"
 
@@ -53,9 +54,9 @@ msgstr "Выбрать"
 #: стандартный ввод:7 ввод:8 ввод:10 ввод:19
 #: ui/auth/index.scm:77 ввод:6 ввод:11 ввод:9 ввод:25
 #: ввод:5 ввод:18 ввод:23 ui/net-eth/index.scm:202 ввод:15
-#: ui/services/index.scm:95
+#: ui/services/index.scm:95 ui/net-eth/index.scm:204 ввод:12
 msgid "Reset"
-msgstr "Сброс"
+msgstr "Вернуть"
 
 #: TIMEZONES:1
 msgid "Africa/Abidjan"
@@ -2136,6 +2137,9 @@ msgstr ""
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. for write_enum_item
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. for write_enum_item
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
@@ -2179,98 +2183,110 @@ msgstr "Производители мониторов"
 
 #.
 #: ui/net-eth/index.scm:110 стандартный ввод:2
+#: ui/net-eth/index.scm:112
 msgid "Host name:"
 msgstr "Имя компьютера:"
 
 #.
 #: ui/net-eth/index.scm:118 стандартный ввод:3
+#: ui/net-eth/index.scm:120
 msgid "DNS servers:"
 msgstr "DNS-серверы:"
 
 #.
 #: ui/net-eth/index.scm:123 стандартный ввод:4
+#: ui/net-eth/index.scm:125
 msgid "Search domains:"
 msgstr "Домены поиска:"
 
-#: ui/net-eth/index.scm:129
+#: ui/net-eth/index.scm:129 ui/net-eth/index.scm:131
 msgid "multiple values should be space separated"
 msgstr "несколько значений записываются через пробел"
 
 #: ui/net-eth/index.scm:137 стандартный ввод:5
+#: ui/net-eth/index.scm:139 ввод:2
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
 #.
 #: ui/net-eth/index.scm:152 стандартный ввод:7
+#: ui/net-eth/index.scm:154 ввод:4
 msgid "Status:"
 msgstr "Состояние:"
 
 #.
 #: ui/net-eth/index.scm:156 стандартный ввод:8
+#: ui/net-eth/index.scm:158 ввод:5
 msgid "Configuration:"
 msgstr "Конфигурация:"
 
 #.
 #: ui/net-eth/index.scm:166 стандартный ввод:9
+#: ui/net-eth/index.scm:168 ввод:6
 msgid "IP address:"
 msgstr "IP-адрес:"
 
 #.
 #: ui/net-eth/index.scm:170 стандартный ввод:10
+#: ui/net-eth/index.scm:172 ввод:7
 msgid "Netmask:"
 msgstr "Маска сети:"
 
 #.
 #: ui/net-eth/index.scm:174 стандартный ввод:11
+#: ui/net-eth/index.scm:176 ввод:8
 msgid "Default gateway:"
 msgstr "Шлюз по умолчанию:"
 
 #.
 #: ui/net-eth/index.scm:178 стандартный ввод:12
+#: ui/net-eth/index.scm:180 ввод:9
 msgid "Hardware binding:"
 msgstr "Привязка:"
 
 #: ui/net-eth/index.scm:183 стандартный ввод:13
+#: ui/net-eth/index.scm:185 ввод:10
 msgid "Wireless settings..."
 msgstr "Параметры для беспроводных интерфейсов..."
 
-#: backend3/net-eth:145
+#: backend3/net-eth:145 backend3/net-eth:147
 msgid "missing"
 msgstr "отсутствует"
 
-#: backend3/net-eth:146
+#: backend3/net-eth:146 backend3/net-eth:148
 msgid "by MAC address"
 msgstr "по  аппаратному адресу (MAC)"
 
-#: backend3/net-eth:147
+#: backend3/net-eth:147 backend3/net-eth:149
 msgid "by bus location"
 msgstr "по местоположению на шине"
 
-#: backend3/net-eth:152
+#: backend3/net-eth:152 backend3/net-eth:154
 msgid "Turned off"
 msgstr "Выключено"
 
 #: backend3/net-eth:153 backend3/net-eth:351 backend3/net-eth:353
+#: backend3/net-eth:155
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
-#: backend3/net-eth:154
+#: backend3/net-eth:154 backend3/net-eth:156
 msgid "Manually"
 msgstr "Вручную"
 
-#: backend3/net-eth:185
+#: backend3/net-eth:185 backend3/net-eth:187
 msgid "interface is up"
 msgstr "интерфейс включён"
 
-#: backend3/net-eth:185
+#: backend3/net-eth:185 backend3/net-eth:187
 msgid "interface is down"
 msgstr "интерфейс выключен"
 
-#: backend3/net-eth:190
+#: backend3/net-eth:190 backend3/net-eth:192
 msgid "plugged"
 msgstr "провод подсоединён"
 
-#: backend3/net-eth:191
+#: backend3/net-eth:191 backend3/net-eth:193
 msgid "unplugged"
 msgstr "провод отсоединён"
 
@@ -2423,6 +2439,8 @@ msgstr "Невозможно сменить пароль"
 msgid "System administrator"
 msgstr "Администратор системы"
 
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
 #: ввод:3 ввод:14 ввод:2
 msgid "Password:"
@@ -2682,9 +2700,3 @@ msgstr "перезапустить"
 #: стандартный ввод:1
 msgid "System services"
 msgstr "Системные службы"
-
-#~ msgid "Description"
-#~ msgstr "Описание"
-
-#~ msgid "Start automatically"
-#~ msgstr "Запускать автоматически"
