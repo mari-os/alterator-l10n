@@ -1846,13 +1846,19 @@ msgid "Choose candidate manually"
 msgstr "Указать кандидата вручную"
 
 #: ui/alternatives/index.scm:116 стандартный ввод:6
+#, fuzzy
 msgid ""
 "In most cases candidates selection works well automatically using weight "
 "written in their config file, but you can choose variant manually"
 msgstr ""
+"#-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "В большинстве случаев выбор кандидатов хорошо работает в автоматическом "
 "режиме, используя веса указанные в их конфигурационных файлах, но вы можете "
-"выбрать нужный вариант вручную"
+"выбрать нужный вариант вручную\n"
+"#-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"В большинстве случаев выбор кандидатов хорошо работает в автоматическом "
+"режиме, используя веса указанные в их конфигурационных файлах, но вы можете "
+"выбрать нужный вариант в ручную"
 
 #: backend3/alternatives:13
 msgid "Alternative"
@@ -2138,6 +2144,9 @@ msgstr ""
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. for write_enum_item
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. for write_enum_item
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
@@ -2440,6 +2449,9 @@ msgid "System administrator"
 msgstr "Администратор системы"
 
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
 #: ввод:3 ввод:14 ввод:2
@@ -2700,3 +2712,29 @@ msgstr "перезапустить"
 #: стандартный ввод:1
 msgid "System services"
 msgstr "Системные службы"
+
+#: ui/license/index.scm:10 ui/notes/license.scm:10
+msgid "Please take a moment to read the license agreement now."
+msgstr ""
+"Прочтите, пожалуйста, лицензионное соглашение. Если вы согласны, отметьте "
+"«Да, я согласен с условиями» и нажмите «Далее»."
+
+#: ui/license/index.scm:12 ui/notes/license.scm:12
+msgid "License file not found"
+msgstr "Файл лицензии не найден"
+
+#: ui/license/index.scm:17 ui/notes/license.scm:17
+msgid "Yes, I agree"
+msgstr "Да, я согласен с условиями"
+
+#: ui/notes/release-notes.scm:9
+msgid "Release Notes"
+msgstr "Информация о дистрибутиве"
+
+#: ui/notes/release-notes.scm:11
+msgid "Installation complete"
+msgstr "Установка завершена"
+
+#: backend3/notes:32
+msgid "File not found"
+msgstr "Файл не найден"

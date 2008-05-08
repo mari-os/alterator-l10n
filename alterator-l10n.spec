@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.2
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -27,6 +27,9 @@ translations for all alterator modules
 
 
 %changelog
+* Thu May 08 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.2-alt2
+- add alterator-notes
+
 * Thu May 08 2008 Stanislav Ievlev <inger@altlinux.org> 0.2-alt1
 - ru.po: fix "Reset" translation
 - add uk.po (resurrected from existing translations)

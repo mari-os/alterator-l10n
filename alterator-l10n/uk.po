@@ -15,7 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-
 #: ui/services/index.scm:25 стандартный ввод:4
 msgid "Current state"
 msgstr ""
@@ -24,6 +23,11 @@ msgstr ""
 #, fuzzy
 msgid "Services"
 msgstr ""
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
+"Служба\n"
+"#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
+"Пристр??й\n"
 "#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
 "Служба\n"
 "#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
@@ -47,12 +51,35 @@ msgstr ""
 #: ui/net-eth/index.scm:203 ввод:11 ui/users/index.scm:118 ввод:17
 #: ui/x11/index.scm:97 ввод:4 ввод:22 ui/alternatives/index.scm:129
 #: ввод:7 ввод:9 ввод:18 ui/root/index.scm:39 ввод:5
+#: ui/net-eth/index.scm:201 ввод:8 ввод:24
+#, fuzzy
 msgid "Apply"
-msgstr "Застосувати"
+msgstr ""
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (alterator-x11)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (uk)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (uk)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Прийняти"
 
 #: ui/services/index.scm:95 стандартный ввод:15
 #: ui/net-eth/index.scm:204 ввод:12 ввод:5 ввод:18 ввод:23
-#: ввод:8 ввод:10 ввод:19
+#: ввод:8 ввод:10 ввод:19 ui/net-eth/index.scm:202 ввод:9
+#: ввод:25
 msgid "Reset"
 msgstr "Скинути"
 
@@ -101,7 +128,7 @@ msgstr "Запустити"
 msgid "System services"
 msgstr "Системні служби"
 
-#: стандартный ввод:3 ввод:9
+#: стандартный ввод:3 ввод:9 ввод:6
 msgid "Select"
 msgstr "Вибрати"
 
@@ -211,8 +238,15 @@ msgid "System users administration..."
 msgstr "Керування системними користувачами..."
 
 #: стандартный ввод:1
+#, fuzzy
 msgid "New user"
-msgstr "Створити користувача"
+msgstr ""
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Створити користувача\n"
+"#-#-#-#-#  uk.po (uk)  #-#-#-#-#\n"
+"Новий користувач\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Створити користувача"
 
 #: backend3/users:157
 #, fuzzy
@@ -224,36 +258,42 @@ msgstr ""
 "повинні бути лише маленькі латинські літери, цифри та '_'"
 
 #.
-#: ui/net-eth/index.scm:112
+#: ui/net-eth/index.scm:112 ui/net-eth/index.scm:110 стандартный
+#: ввод:2
 msgid "Host name:"
 msgstr ""
 
 #.
-#: ui/net-eth/index.scm:120
+#: ui/net-eth/index.scm:120 ui/net-eth/index.scm:118 стандартный
+#: ввод:3
 msgid "DNS servers:"
 msgstr ""
 
 #.
-#: ui/net-eth/index.scm:125
+#: ui/net-eth/index.scm:125 ui/net-eth/index.scm:123 стандартный
+#: ввод:4
 msgid "Search domains:"
 msgstr ""
 
-#: ui/net-eth/index.scm:131
+#: ui/net-eth/index.scm:131 ui/net-eth/index.scm:129
 msgid "multiple values should be space separated"
 msgstr ""
 
 #: ui/net-eth/index.scm:139 стандартный ввод:2
+#: ui/net-eth/index.scm:137 ввод:5
 #, fuzzy
 msgid "Interfaces"
 msgstr "Інтерфейс"
 
 #.
 #: ui/net-eth/index.scm:158 стандартный ввод:5
+#: ui/net-eth/index.scm:156 ввод:8
 msgid "Configuration:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:168 стандартный ввод:6
+#: ui/net-eth/index.scm:166 ввод:9
 #, fuzzy
 msgid "IP address:"
 msgstr "IP-адреса"
@@ -270,6 +310,7 @@ msgstr "Шлюз по змовчуванню:"
 
 #.
 #: ui/net-eth/index.scm:180 стандартный ввод:9
+#: ui/net-eth/index.scm:178 ввод:12
 msgid "Hardware binding:"
 msgstr ""
 
@@ -277,44 +318,44 @@ msgstr ""
 msgid "Wireless settings..."
 msgstr "Налаштування бездротових інтерфейсів..."
 
-#: backend3/net-eth:147
+#: backend3/net-eth:147 backend3/net-eth:145
 msgid "missing"
 msgstr ""
 
-#: backend3/net-eth:148
+#: backend3/net-eth:148 backend3/net-eth:146
 #, fuzzy
 msgid "by MAC address"
 msgstr "IP-адреса"
 
-#: backend3/net-eth:149
+#: backend3/net-eth:149 backend3/net-eth:147
 msgid "by bus location"
 msgstr ""
 
-#: backend3/net-eth:154
+#: backend3/net-eth:154 backend3/net-eth:152
 msgid "Turned off"
 msgstr ""
 
-#: backend3/net-eth:155 backend3/net-eth:353
+#: backend3/net-eth:155 backend3/net-eth:353 backend3/net-eth:153
 msgid "Use DHCP"
 msgstr "Використовувати DHCP"
 
-#: backend3/net-eth:156
+#: backend3/net-eth:156 backend3/net-eth:154
 msgid "Manually"
 msgstr ""
 
-#: backend3/net-eth:187
+#: backend3/net-eth:187 backend3/net-eth:185
 msgid "interface is up"
 msgstr "інтерфейс піднято"
 
-#: backend3/net-eth:187
+#: backend3/net-eth:187 backend3/net-eth:185
 msgid "interface is down"
 msgstr "інтерфейс опущено"
 
-#: backend3/net-eth:192
+#: backend3/net-eth:192 backend3/net-eth:190
 msgid "plugged"
 msgstr "увімкнуто"
 
-#: backend3/net-eth:193
+#: backend3/net-eth:193 backend3/net-eth:191
 msgid "unplugged"
 msgstr "вимкнуто"
 
@@ -355,9 +396,14 @@ msgstr ""
 msgid "Passwords mismatch"
 msgstr ""
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Пароль (ще раз)\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Пароль"
+"Пароль\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Пароль\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Пароль (ще раз)"
 
 #: ui/users/add/index.scm:53 стандартный ввод:2
 msgid "Account name:"
@@ -554,40 +600,40 @@ msgstr "Далі"
 msgid "Drivers:"
 msgstr "Драйвери:"
 
-#: ui/x11/index.scm:29 стандартный ввод:7
+#: ui/x11/index.scm:29 стандартный ввод:7 ввод:12
 msgid "Detected hardware"
 msgstr "Виявлене обладнання"
 
-#: ui/x11/index.scm:35 стандартный ввод:8
+#: ui/x11/index.scm:35 стандартный ввод:8 ввод:13
 msgid "Video card:"
 msgstr "Відеокарта:"
 
 #: ui/x11/index.scm:41 ui/x11/index.scm:58 стандартный ввод:9
-#: ввод:11
+#: ввод:11 ввод:14 ввод:16
 msgid "Monitor:"
 msgstr "Монітор:"
 
-#: ui/x11/index.scm:52 стандартный ввод:10
+#: ui/x11/index.scm:52 стандартный ввод:10 ввод:15
 msgid "Current settings"
 msgstr "Поточні налаштування"
 
-#: ui/x11/index.scm:62 стандартный ввод:12
+#: ui/x11/index.scm:62 стандартный ввод:12 ввод:17
 msgid "Other vendor..."
 msgstr "Інший постачальник..."
 
-#: ui/x11/index.scm:67 стандартный ввод:13
+#: ui/x11/index.scm:67 стандартный ввод:13 ввод:18
 msgid "Driver:"
 msgstr "Драйвер:"
 
-#: ui/x11/index.scm:71 стандартный ввод:14
+#: ui/x11/index.scm:71 стандартный ввод:14 ввод:19
 msgid "Other driver..."
 msgstr "Інший драйвер..."
 
-#: ui/x11/index.scm:76 стандартный ввод:15
+#: ui/x11/index.scm:76 стандартный ввод:15 ввод:20
 msgid "Color depth:"
 msgstr "Глибина кольору:"
 
-#: ui/x11/index.scm:82 стандартный ввод:16
+#: ui/x11/index.scm:82 стандартный ввод:16 ввод:21
 msgid "Resolution:"
 msgstr "Роздільна здатність:"
 
@@ -595,7 +641,7 @@ msgstr "Роздільна здатність:"
 msgid "Test"
 msgstr "Тестування"
 
-#: ui/x11/monitor/index.scm:10 стандартный ввод:21
+#: ui/x11/monitor/index.scm:10 стандартный ввод:21 ввод:8
 #, fuzzy
 msgid "Monitor vendors:"
 msgstr "Монітор:"
@@ -659,7 +705,7 @@ msgstr "робочу копію не знайдено"
 msgid "X11 test failed"
 msgstr "Тест X11 невдалий"
 
-#: стандартный ввод:1 ввод:19
+#: стандартный ввод:1 ввод:19 ввод:6
 msgid "Display"
 msgstr "Дисплей"
 
@@ -667,11 +713,11 @@ msgstr "Дисплей"
 msgid "Drivers"
 msgstr "Драйвери"
 
-#: стандартный ввод:6
+#: стандартный ввод:6 ввод:11
 msgid "Graphic display"
 msgstr "Графічний дисплей"
 
-#: стандартный ввод:20
+#: стандартный ввод:20 ввод:7
 #, fuzzy
 msgid "Monitor vendors"
 msgstr "Монітор:"
@@ -2320,11 +2366,11 @@ msgstr "має бути число"
 msgid "Use automatic sender whitelist"
 msgstr "Використовувати автоматичний білий список за відправником"
 
-#: backend3/spamassassin:78 стандартный ввод:22
+#: backend3/spamassassin:78 стандартный ввод:22 ввод:12
 msgid "Rule"
 msgstr "Правило"
 
-#: backend3/spamassassin:79 стандартный ввод:23
+#: backend3/spamassassin:79 стандартный ввод:23 ввод:13
 msgid "Score"
 msgstr "Бали"
 
@@ -2348,16 +2394,17 @@ msgstr "Лише позначити"
 msgid "Drop mail"
 msgstr "Видаляти пошту"
 
-#: стандартный ввод:1 ввод:11 ввод:20
+#: стандартный ввод:1 ввод:11 ввод:20 ввод:10
+#: ввод:16
 msgid "Spam filter"
 msgstr "Спам-фільтр"
 
-#: стандартный ввод:2
+#: стандартный ввод:2 ввод:17
 #, fuzzy
 msgid "start, stop or restart mail service"
 msgstr "завантажити, зупинити або перевантажити службу"
 
-#: стандартный ввод:3
+#: стандартный ввод:3 ввод:18
 #, fuzzy
 msgid "start, stop or restart anti-spam service"
 msgstr "завантажити, зупинити або перевантажити службу"
@@ -2370,7 +2417,7 @@ msgstr "Стан SMTP-транспорту:"
 msgid "Required score:"
 msgstr "Граничне значення:"
 
-#: стандартный ввод:6
+#: стандартный ввод:6 ввод:21
 #, fuzzy
 msgid "Setup rules and scores..."
 msgstr "Граничне значення"
@@ -2379,17 +2426,17 @@ msgstr "Граничне значення"
 msgid "Spam filter mode:"
 msgstr "Режим cпам-фільтрy:"
 
-#: стандартный ввод:8
+#: стандартный ввод:8 ввод:23
 #, fuzzy
 msgid "Use automatic sender whitelist:"
 msgstr "Використовувати автоматичний білий список за відправником"
 
-#: стандартный ввод:12 ввод:21
+#: стандартный ввод:12 ввод:21 ввод:2 ввод:11
 #, fuzzy
 msgid "Rules and scores"
 msgstr "Граничне значення"
 
-#: стандартный ввод:13
+#: стандартный ввод:13 ввод:3
 msgid "Add rule"
 msgstr ""
 
@@ -2405,11 +2452,11 @@ msgstr "Опис:"
 msgid "Score:"
 msgstr "Бали:"
 
-#: стандартный ввод:24
+#: стандартный ввод:24 ввод:14
 msgid "Remove selected"
 msgstr ""
 
-#: стандартный ввод:25
+#: стандартный ввод:25 ввод:15
 msgid "Add rule..."
 msgstr ""
 
@@ -2572,3 +2619,195 @@ msgstr "Відвантажити сертифікат, підписаний УЦ
 #: стандартный ввод:30
 msgid "Upload"
 msgstr "Відвантажити"
+
+#~ msgid "Enabled services"
+#~ msgstr "Ввімкнені служби"
+
+#~ msgid "New service"
+#~ msgstr "Нова служба"
+
+#~ msgid "Delete service"
+#~ msgstr "Видалити службу"
+
+#~ msgid "Start on runlevels"
+#~ msgstr "Ввімкнути на рівні завантаження"
+
+#~ msgid "Status:"
+#~ msgstr "Стан:"
+
+#~ msgid "Stop"
+#~ msgstr "Зупинити"
+
+#~ msgid "Start"
+#~ msgstr "Запустити"
+
+#~ msgid "System services administration"
+#~ msgstr "Керування системними службами"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Disabled services"
+#~ msgstr "Вимкнені служби"
+
+#~ msgid "Return to view"
+#~ msgstr "Вернутися до перегляду"
+
+#~ msgid " Services control console"
+#~ msgstr "Консоль керування службами"
+
+#~ msgid "Enabled"
+#~ msgstr "Ввімкнено"
+
+#~ msgid "Disable >>>"
+#~ msgstr "Вимкнено >>>"
+
+#~ msgid "<<< Enable"
+#~ msgstr "<<< Ввімкнути"
+
+#~ msgid "Disabled"
+#~ msgstr "Вимкнено"
+
+#~ msgid "Choose service"
+#~ msgstr "Виберіть службу"
+
+#~ msgid "Choose runlevel:"
+#~ msgstr "Виберіть рівень завантаження:"
+
+#~ msgid "Help"
+#~ msgstr "Допомога"
+
+#~ msgid "HELP: Choose runlevel and move service"
+#~ msgstr "Довідка: Виберіть рівень завантаження та перемістіть сервір"
+
+#~ msgid "Refresh"
+#~ msgstr "Оновити"
+
+#~ msgid "Quit"
+#~ msgstr "Вихід"
+
+#~ msgid "Driver setup"
+#~ msgstr "Налаштування драйверу"
+
+#~ msgid "Choose other vendor"
+#~ msgstr "Інший постачальник"
+
+#~ msgid "Choose other driver"
+#~ msgstr "Інший драйвер"
+
+#~ msgid "Monitor setup"
+#~ msgstr "Налаштування монітору"
+
+#~ msgid "Vendors"
+#~ msgstr "Постачальники"
+
+#~ msgid "Start graphical interface on system booting"
+#~ msgstr "Автоматично завантажити графічний режим"
+
+#~ msgid "Monitor"
+#~ msgstr "Монітор"
+
+#~ msgid "Video card"
+#~ msgstr "Відеокарта"
+
+#~ msgid "Video driver"
+#~ msgstr "Відеодрайвер"
+
+#~ msgid "Color depth"
+#~ msgstr "Глибина кольору"
+
+#~ msgid "Color resolution"
+#~ msgstr "Глибина кольору"
+
+#~ msgid "Display properties"
+#~ msgstr "Властивості екрану"
+
+#~ msgid "Detected hardware:"
+#~ msgstr "Виявлене обладнання:"
+
+#~ msgid "Current settings:"
+#~ msgstr "Поточні налаштування:"
+
+#~ msgid "Exit"
+#~ msgstr "Вихід"
+
+#~ msgid "Save"
+#~ msgstr "Зберегти"
+
+#~ msgid "Graphical interface"
+#~ msgstr "Графічний інтерфейс"
+
+#~ msgid "videocard and monitor setup"
+#~ msgstr "налаштування відеокарти та монітору"
+
+#~ msgid "Interface state"
+#~ msgstr "Стан інтерфейсу"
+
+#~ msgid "NetMask"
+#~ msgstr "Мережева маска"
+
+#~ msgid "Wireless settings"
+#~ msgstr "Налаштування бездротових інтерфейсів"
+
+#~ msgid "Interface"
+#~ msgstr "Інтерфейс"
+
+#, fuzzy
+#~ msgid "DHCP"
+#~ msgstr "Використовувати DHCP"
+
+#~ msgid "apply current settings and restart interface"
+#~ msgstr "застосувати поточні налаштування та рестартувати інтерфейс"
+
+#~ msgid "IP interfaces administration"
+#~ msgstr "Керування IP-інтерфейсами"
+
+#~ msgid "Network"
+#~ msgstr "Мережа"
+
+#~ msgid "SpamAssassin based content filter administration"
+#~ msgstr "Керування спам-фільтром на основі SpamAssassin"
+
+#~ msgid "Mail"
+#~ msgstr "Пошта"
+
+#~ msgid "For selected"
+#~ msgstr "Для вибраних"
+
+#~ msgid "Add"
+#~ msgstr "Додати"
+
+#~ msgid "System users administration"
+#~ msgstr "Керування системними користувачами"
+
+#~ msgid "User"
+#~ msgstr "Користувач"
+
+#~ msgid "NEW USER"
+#~ msgstr "НОВИЙ"
+
+#~ msgid "Name:"
+#~ msgstr "Системне ім'я:"
+
+#~ msgid "Gecos:"
+#~ msgstr "Коментар:"
+
+#~ msgid "Edit"
+#~ msgstr "Редагувати"
+
+#~ msgid "New"
+#~ msgstr "Новий"
+
+#~ msgid "Delete"
+#~ msgstr "Видалити"
+
+#~ msgid "Discard"
+#~ msgstr "Відхилити"
+
+#, fuzzy
+#~ msgid "Create system user"
+#~ msgstr "Системні користувачі"
+
+#, fuzzy
+#~ msgid "user:invalid command syntax"
+#~ msgstr "невірний синтаксис команди"
