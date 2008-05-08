@@ -24,7 +24,6 @@ msgstr ""
 msgid "Services"
 msgstr ""
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
 "Служба\n"
 "#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
@@ -33,10 +32,6 @@ msgstr ""
 "Служба\n"
 "#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
 "Пристр??й\n"
-"#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
-"Служба\n"
-"#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
-"Пристр??й"
 
 #: ui/services/index.scm:75
 msgid ""
@@ -52,32 +47,12 @@ msgstr ""
 msgid "Start on boot"
 msgstr ""
 
-#: ui/services/index.scm:94 стандартный ввод:6
-#: ui/root/index.scm:39 ввод:5 ui/x11/index.scm:97 ввод:4 ввод:9
-#: ввод:22 ui/net-eth/index.scm:201 ввод:14 ввод:8 ввод:24
-#: ui/users/index.scm:118 ввод:17 ui/alternatives/index.scm:129 ввод:7
-#: ввод:11
-#, fuzzy
+#: ui/services/index.scm:94 стандартный ввод:6 ввод:14
+#: ввод:11 ui/users/index.scm:118 ввод:17 ui/net-eth/index.scm:201
+#: ui/x11/index.scm:97 ввод:4 ввод:22 ui/alternatives/index.scm:129
+#: ввод:7 ui/root/index.scm:39 ввод:5 ввод:8 ввод:24
 msgid "Apply"
-msgstr ""
-"#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
-"Застосувати\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Застосувати\n"
-"#-#-#-#-#  uk.po (alterator-x11)  #-#-#-#-#\n"
-"Застосувати\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Застосувати\n"
-"#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
-"Застосувати\n"
-"#-#-#-#-#  uk.po (uk)  #-#-#-#-#\n"
-"Застосувати\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Застосувати\n"
-"#-#-#-#-#  uk.po (uk)  #-#-#-#-#\n"
-"Застосувати\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Прийняти"
+msgstr "Застосувати"
 
 #: ui/services/index.scm:95 стандартный ввод:15
 #: ui/net-eth/index.scm:204 ввод:12 ввод:5 ввод:18 ввод:23
@@ -241,13 +216,8 @@ msgid "System users administration..."
 msgstr "Керування системними користувачами..."
 
 #: стандартный ввод:1
-#, fuzzy
 msgid "New user"
-msgstr ""
-"#-#-#-#-#  uk.po (uk)  #-#-#-#-#\n"
-"Новий користувач\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Створити користувача"
+msgstr "Створити користувача"
 
 #: backend3/users:157
 #, fuzzy
@@ -398,18 +368,9 @@ msgid "Passwords mismatch"
 msgstr ""
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Пароль (ще раз)\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Пароль\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Пароль\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Пароль (ще раз)\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Пароль\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Пароль (ще раз)"
 
 #: ui/users/add/index.scm:53 стандартный ввод:2
 msgid "Account name:"
@@ -2625,195 +2586,3 @@ msgstr "Відвантажити сертифікат, підписаний УЦ
 #: стандартный ввод:30
 msgid "Upload"
 msgstr "Відвантажити"
-
-#~ msgid "Enabled services"
-#~ msgstr "Ввімкнені служби"
-
-#~ msgid "New service"
-#~ msgstr "Нова служба"
-
-#~ msgid "Delete service"
-#~ msgstr "Видалити службу"
-
-#~ msgid "Start on runlevels"
-#~ msgstr "Ввімкнути на рівні завантаження"
-
-#~ msgid "Status:"
-#~ msgstr "Стан:"
-
-#~ msgid "Stop"
-#~ msgstr "Зупинити"
-
-#~ msgid "Start"
-#~ msgstr "Запустити"
-
-#~ msgid "System services administration"
-#~ msgstr "Керування системними службами"
-
-#~ msgid "System"
-#~ msgstr "Система"
-
-#~ msgid "Disabled services"
-#~ msgstr "Вимкнені служби"
-
-#~ msgid "Return to view"
-#~ msgstr "Вернутися до перегляду"
-
-#~ msgid " Services control console"
-#~ msgstr "Консоль керування службами"
-
-#~ msgid "Enabled"
-#~ msgstr "Ввімкнено"
-
-#~ msgid "Disable >>>"
-#~ msgstr "Вимкнено >>>"
-
-#~ msgid "<<< Enable"
-#~ msgstr "<<< Ввімкнути"
-
-#~ msgid "Disabled"
-#~ msgstr "Вимкнено"
-
-#~ msgid "Choose service"
-#~ msgstr "Виберіть службу"
-
-#~ msgid "Choose runlevel:"
-#~ msgstr "Виберіть рівень завантаження:"
-
-#~ msgid "Help"
-#~ msgstr "Допомога"
-
-#~ msgid "HELP: Choose runlevel and move service"
-#~ msgstr "Довідка: Виберіть рівень завантаження та перемістіть сервір"
-
-#~ msgid "Refresh"
-#~ msgstr "Оновити"
-
-#~ msgid "Quit"
-#~ msgstr "Вихід"
-
-#~ msgid "Driver setup"
-#~ msgstr "Налаштування драйверу"
-
-#~ msgid "Choose other vendor"
-#~ msgstr "Інший постачальник"
-
-#~ msgid "Choose other driver"
-#~ msgstr "Інший драйвер"
-
-#~ msgid "Monitor setup"
-#~ msgstr "Налаштування монітору"
-
-#~ msgid "Vendors"
-#~ msgstr "Постачальники"
-
-#~ msgid "Start graphical interface on system booting"
-#~ msgstr "Автоматично завантажити графічний режим"
-
-#~ msgid "Monitor"
-#~ msgstr "Монітор"
-
-#~ msgid "Video card"
-#~ msgstr "Відеокарта"
-
-#~ msgid "Video driver"
-#~ msgstr "Відеодрайвер"
-
-#~ msgid "Color depth"
-#~ msgstr "Глибина кольору"
-
-#~ msgid "Color resolution"
-#~ msgstr "Глибина кольору"
-
-#~ msgid "Display properties"
-#~ msgstr "Властивості екрану"
-
-#~ msgid "Detected hardware:"
-#~ msgstr "Виявлене обладнання:"
-
-#~ msgid "Current settings:"
-#~ msgstr "Поточні налаштування:"
-
-#~ msgid "Exit"
-#~ msgstr "Вихід"
-
-#~ msgid "Save"
-#~ msgstr "Зберегти"
-
-#~ msgid "Graphical interface"
-#~ msgstr "Графічний інтерфейс"
-
-#~ msgid "videocard and monitor setup"
-#~ msgstr "налаштування відеокарти та монітору"
-
-#~ msgid "Interface state"
-#~ msgstr "Стан інтерфейсу"
-
-#~ msgid "NetMask"
-#~ msgstr "Мережева маска"
-
-#~ msgid "Wireless settings"
-#~ msgstr "Налаштування бездротових інтерфейсів"
-
-#~ msgid "Interface"
-#~ msgstr "Інтерфейс"
-
-#, fuzzy
-#~ msgid "DHCP"
-#~ msgstr "Використовувати DHCP"
-
-#~ msgid "apply current settings and restart interface"
-#~ msgstr "застосувати поточні налаштування та рестартувати інтерфейс"
-
-#~ msgid "IP interfaces administration"
-#~ msgstr "Керування IP-інтерфейсами"
-
-#~ msgid "Network"
-#~ msgstr "Мережа"
-
-#~ msgid "SpamAssassin based content filter administration"
-#~ msgstr "Керування спам-фільтром на основі SpamAssassin"
-
-#~ msgid "Mail"
-#~ msgstr "Пошта"
-
-#~ msgid "For selected"
-#~ msgstr "Для вибраних"
-
-#~ msgid "Add"
-#~ msgstr "Додати"
-
-#~ msgid "System users administration"
-#~ msgstr "Керування системними користувачами"
-
-#~ msgid "User"
-#~ msgstr "Користувач"
-
-#~ msgid "NEW USER"
-#~ msgstr "НОВИЙ"
-
-#~ msgid "Name:"
-#~ msgstr "Системне ім'я:"
-
-#~ msgid "Gecos:"
-#~ msgstr "Коментар:"
-
-#~ msgid "Edit"
-#~ msgstr "Редагувати"
-
-#~ msgid "New"
-#~ msgstr "Новий"
-
-#~ msgid "Delete"
-#~ msgstr "Видалити"
-
-#~ msgid "Discard"
-#~ msgstr "Відхилити"
-
-#, fuzzy
-#~ msgid "Create system user"
-#~ msgstr "Системні користувачі"
-
-#, fuzzy
-#~ msgid "user:invalid command syntax"
-#~ msgstr "невірний синтаксис команди"

@@ -2140,6 +2140,9 @@ msgstr ""
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. for write_enum_item
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. for write_enum_item
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
@@ -2448,6 +2451,9 @@ msgstr "Администратор системы"
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -2620,7 +2626,7 @@ msgstr "50 строк"
 msgid "100 lines"
 msgstr "100 строк"
 
-#: стандартный ввод:1
+#: стандартный ввод:1 ui/logs/index.scm:27
 msgid "Logs:"
 msgstr "Журналы:"
 
@@ -2628,23 +2634,19 @@ msgstr "Журналы:"
 msgid "View"
 msgstr "Посмотреть"
 
-#: стандартный ввод:3
+#: стандартный ввод:3 ui/logs/index.scm:32
 msgid "Previous"
 msgstr "Назад"
 
-#: стандартный ввод:4
+#: стандартный ввод:4 ui/logs/index.scm:33
 msgid "Next"
 msgstr "Далее"
 
-#: стандартный ввод:5
-msgid "Fist page"
-msgstr "Первая страница"
-
-#: стандартный ввод:6
+#: стандартный ввод:6 ui/logs/index.scm:36
 msgid "Last page"
 msgstr "Последняя страница"
 
-#: стандартный ввод:7
+#: стандартный ввод:7 ui/logs/index.scm:38
 msgid "Show:"
 msgstr "Показывать:"
 
@@ -2738,3 +2740,7 @@ msgstr "Установка завершена"
 #: backend3/notes:32
 msgid "File not found"
 msgstr "Файл не найден"
+
+#: ui/logs/index.scm:35 стандартный ввод:5
+msgid "First page"
+msgstr "Первая страница"
