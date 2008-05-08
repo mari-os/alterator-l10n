@@ -1,5 +1,5 @@
 Name: alterator-l10n
-Version: 0.2
+Version: 0.3
 Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
@@ -27,6 +27,9 @@ translations for all alterator modules
 
 
 %changelog
+* Thu May 08 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.3-alt2
+- add po_head_repl script
+
 * Thu May 08 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.2-alt2
 - add alterator-notes
 
