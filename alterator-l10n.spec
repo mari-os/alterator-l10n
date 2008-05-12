@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.3
-Release: alt4
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -27,6 +27,9 @@ translations for all alterator modules
 
 
 %changelog
+* Mon May 12 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.3-alt5
+- add alterator-lilo
+
 * Thu May 08 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.3-alt4
 - add alterator-xinetd
 

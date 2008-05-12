@@ -35,7 +35,8 @@ msgstr "Хранить время в BIOS по Гринвичу"
 #: ввод:22 ui/net-eth/index.scm:201 ввод:14 ui/x11/index.scm:136
 #: ui/root/index.scm:39 ui/x11/index.scm:97 ui/services/index.scm:94
 #: ui/net-eth/index.scm:203 ui/xinetd/index.scm:141 ввод:15
-#: ui/net-eth/index.scm:171
+#: ui/net-eth/index.scm:171 ui/lilo/view-source.scm:58 ui/lilo/index.scm:100
+#: ui/lilo/extra-sections.scm:202 ui/lilo/extra-general.scm:139
 msgid "Apply"
 msgstr "Применить"
 
@@ -55,6 +56,9 @@ msgstr "Выбрать"
 #: ui/xinetd/index.scm:142 ui/services/index.scm:95 стандартный
 #: ввод:7 ввод:5 ввод:10 ввод:23 ui/net-eth/index.scm:172
 #: ввод:15 ввод:9 ввод:25 ввод:8 ui/auth/index.scm:77
+#: ui/lilo/view-source.scm:54 ui/lilo/view-source.scm:59
+#: ui/lilo/extra-sections.scm:192 ui/lilo/extra-sections.scm:203
+#: ui/lilo/extra-general.scm:140
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -1701,7 +1705,6 @@ msgstr "Удалить пользователя"
 msgid "can't update password file"
 msgstr "невозможно обновить базу паролей"
 
-#. '
 #: backend3/users:67 backend3/users:108
 msgid "invalid command syntax"
 msgstr "неверный синтаксис команды"
@@ -2143,6 +2146,15 @@ msgstr ""
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. for write_enum_item
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. for write_enum_item
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. for write_enum_item
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. for write_enum_item
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
@@ -2460,6 +2472,15 @@ msgstr "Администратор системы"
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -2668,13 +2689,8 @@ msgstr "Текущее состояние службы"
 
 #: ui/xinetd/index.scm:107 стандартный ввод:2
 #: ui/services/index.scm:68
-#, fuzzy
 msgid "Services"
-msgstr ""
-"#-#-#-#-#  ru.po (0.1)  #-#-#-#-#\n"
-"Сервисы\n"
-"#-#-#-#-#  ru.po (1.0)  #-#-#-#-#\n"
-"Службы"
+"Сервисы"
 
 #: ui/services/index.scm:75 ui/xinetd/index.scm:114
 msgid ""
@@ -2834,3 +2850,155 @@ msgstr ""
 #: стандартный ввод:14
 msgid "Start, stop or restart xinetd"
 msgstr "Запустить, остановить или перезапустить xinetd"
+
+#: ui/lilo/view-source.scm:45 ui/lilo/extra-sections.scm:156
+#: ui/lilo/extra-general.scm:96
+msgid "Normal mode"
+msgstr "Обычный режим"
+
+#: ui/lilo/view-source.scm:46 ui/lilo/extra-sections.scm:157
+#: ui/lilo/extra-general.scm:97
+msgid "Global options"
+msgstr "Глобальные настройки"
+
+#: ui/lilo/view-source.scm:47 ui/lilo/extra-sections.scm:158
+#: ui/lilo/extra-general.scm:98
+msgid "Boot sections"
+msgstr "Варианты загрузки"
+
+#: ui/lilo/view-source.scm:48 ui/lilo/extra-sections.scm:159
+#: ui/lilo/extra-general.scm:99
+msgid "Edit source"
+msgstr "Редактировать исходник"
+
+#: ui/lilo/view-source.scm:53 ui/lilo/extra-sections.scm:191
+msgid "Save"
+msgstr "Сохранить"
+
+#: ui/lilo/index.scm:53
+msgid "Master Boot Record"
+msgstr "Главная загрузочная запись"
+
+#: ui/lilo/index.scm:54
+msgid "First sector of partition"
+msgstr "Первый сектор раздела"
+
+#: ui/lilo/index.scm:74
+msgid ""
+"Boot loader is used to boot your operating system and it can be configured "
+"here. If this is a sole operating system on this machine you should install "
+"the boot loader on Master Boot Record. Otherwise, please consult the "
+"documentation for available options."
+msgstr ""
+"Сейчас можно настроить загрузчик операционной системы. Если это единственная "
+"операционная система на этом компьютере, то вам следует установить загрузчик "
+"в Главную загрузочную запись. Иначе ознакомьтесь с документацией."
+
+#: ui/lilo/index.scm:79
+msgid "Install boot loader on"
+msgstr "Установить загрузчик в"
+
+#: ui/lilo/index.scm:83
+msgid "Device"
+msgstr "Устройство"
+
+#: ui/lilo/index.scm:83
+msgid "Size"
+msgstr "Размер"
+
+#: ui/lilo/index.scm:83
+msgid "Destination"
+msgstr "Описание"
+
+#: ui/lilo/index.scm:85
+msgid "Show partitions"
+msgstr "Показать разделы"
+
+#: ui/lilo/index.scm:102
+msgid "Expert settings"
+msgstr "Экспертные настройки"
+
+#: ui/lilo/extra-sections.scm:100 ui/lilo/extra-sections.scm:110
+#: ui/lilo/extra-sections.scm:122 ui/lilo/extra-sections.scm:127
+msgid "<UNDEFINED>"
+msgstr "<UNDEFINED>"
+
+#: ui/lilo/extra-sections.scm:164
+msgid "Set default"
+msgstr "По умолчанию"
+
+#: ui/lilo/extra-sections.scm:169
+msgid "New Linux section"
+msgstr "Создать вариант linux"
+
+#: ui/lilo/extra-sections.scm:170
+msgid "New Other section"
+msgstr "Создать другой вариант"
+
+#: ui/lilo/extra-sections.scm:177
+msgid "Label:"
+msgstr "Название:"
+
+#: ui/lilo/extra-sections.scm:179
+msgid "Image:"
+msgstr "Ядро:"
+
+#: ui/lilo/extra-sections.scm:180
+msgid "Initrd:"
+msgstr ""
+
+#: ui/lilo/extra-sections.scm:181
+msgid "Root:"
+msgstr "Корневой каталог:"
+
+#: ui/lilo/extra-sections.scm:182 ui/lilo/extra-general.scm:118
+msgid "Kernel params:"
+msgstr "Параметры ядра:"
+
+#: ui/lilo/extra-sections.scm:184
+msgid "Device:"
+msgstr "Устройство:"
+
+#: ui/lilo/extra-sections.scm:185
+msgid "Alias:"
+msgstr "Альтернативное название:"
+
+#: ui/lilo/extra-sections.scm:186
+msgid "Boot-as:"
+msgstr ""
+
+#: ui/lilo/extra-sections.scm:187
+msgid "Table:"
+msgstr ""
+
+#: ui/lilo/extra-sections.scm:193
+msgid "Remove"
+msgstr "Удалить"
+
+#: ui/lilo/extra-general.scm:106
+msgid "Skip bootloader installation"
+msgstr "Пропустить установку загрузчика"
+
+#: ui/lilo/extra-general.scm:110
+msgid "Write lilo.conf without boot loader installation"
+msgstr "Создать lilo.conf без установки загрузчика"
+
+#: ui/lilo/extra-general.scm:116
+msgid "Boot:"
+msgstr ""
+
+#: ui/lilo/extra-general.scm:119
+msgid "Timeout:"
+msgstr "Время ожидания:"
+
+#: ui/lilo/extra-general.scm:120
+msgid "Interface:"
+msgstr "Интерфейс:"
+
+#: ui/lilo/extra-general.scm:121
+msgid "Raid-extra-boot:"
+msgstr ""
+
+#: ui/lilo/index.scm:79 ui/lilo/extra-general.scm:116
+msgid "Install boot loader on:"
+msgstr "Установить загрузчик в:"
