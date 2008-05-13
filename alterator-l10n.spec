@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.3
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -18,6 +18,9 @@ translations for all alterator modules
 %prep
 %setup -q
 
+%build
+make check
+
 %install
 %makeinstall
 
@@ -27,6 +30,11 @@ translations for all alterator modules
 
 
 %changelog
+* Tue May 13 2008 Stanislav Ievlev <inger@altlinux.org> 0.3-alt6
+- fix ru.po
+- fix uk.po
+- add make check
+
 * Mon May 12 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.3-alt5
 - add alterator-lilo
 
