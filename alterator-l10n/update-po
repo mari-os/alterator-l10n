@@ -26,8 +26,8 @@ done
 
 rm -rf "$repodir"
 
-./headers/po_head_repl alterator.pot ./headers/pot.header
-for i in $langlist; do 
+./headers/po_head_repl "$potfile" ./headers/pot.header
+for i in $langlist; do
+    msgmerge -U $i.po "$potfile"
   ./headers/po_head_repl $i.po ./headers/$i.header
 done
-

@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.3
-Release: alt6
+Version: 0.4
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -30,6 +30,11 @@ make check
 
 
 %changelog
+* Tue May 13 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt1
+- add alterator-datetime
+- add alterator-control
+- improve po-file generation
+
 * Tue May 13 2008 Stanislav Ievlev <inger@altlinux.org> 0.3-alt6
 - fix ru.po
 - fix uk.po

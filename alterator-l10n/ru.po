@@ -15,1983 +15,352 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ui/timezone/index.scm:51 стандартный ввод:2
-msgid "Please, select country:"
-msgstr "Выберите страну:"
+#: ui/license/index.scm:10 ui/notes/license.scm:10
+msgid "Please take a moment to read the license agreement now."
+msgstr ""
+"Прочтите, пожалуйста, лицензионное соглашение. Если вы согласны, отметьте "
+"«Да, я согласен с условиями» и нажмите «Далее»."
 
-#: ui/timezone/index.scm:62 стандартный ввод:4
-msgid "Please, select time zone:"
-msgstr "Выберите часовой пояс:"
+#: ui/license/index.scm:12 ui/notes/license.scm:12
+msgid "License file not found"
+msgstr "Файл лицензии не найден"
 
-#: ui/timezone/index.scm:69 backend3/timezone:119 стандартный
-#: ввод:5
-msgid "Hardware time set to GMT"
-msgstr "Хранить время в BIOS по Гринвичу"
+#: ui/license/index.scm:17 ui/notes/license.scm:17
+msgid "Yes, I agree"
+msgstr "Да, я согласен с условиями"
 
-#: ui/timezone/index.scm:75 стандартный ввод:6
-#: ui/users/index.scm:118 ввод:17 ui/alternatives/index.scm:129 ввод:7
-#: ввод:11 ввод:9 ввод:18 ui/auth/index.scm:76 ввод:5
-#: ввод:10 ввод:8 ввод:24 ui/x11/index.scm:134 ввод:4
-#: ввод:22 ui/net-eth/index.scm:201 ввод:14 ui/x11/index.scm:136
-#: ui/root/index.scm:39 ui/x11/index.scm:97 ui/services/index.scm:94
-#: ui/net-eth/index.scm:203 ui/xinetd/index.scm:141 ввод:15
-#: ui/net-eth/index.scm:171 ui/lilo/view-source.scm:58 ui/lilo/index.scm:100
-#: ui/lilo/extra-sections.scm:202 ui/lilo/extra-general.scm:139
+#: ui/notes/release-notes.scm:9
+msgid "Release Notes"
+msgstr "Информация о дистрибутиве"
+
+#: ui/notes/release-notes.scm:11
+msgid "Installation complete"
+msgstr "Установка завершена"
+
+#: backend3/notes:32
+msgid "File not found"
+msgstr "Файл не найден"
+
+#: ui/services/index.scm:25 стандартный ввод:4
+msgid "Current state"
+msgstr "Текущее состояние службы"
+
+#: ui/services/index.scm:68 стандартный ввод:2
+#: ui/xinetd/index.scm:107
+msgid "Services"
+msgstr "Службы"
+
+#: ui/services/index.scm:75 ui/xinetd/index.scm:114
+msgid ""
+"There are unsaved changes in the service settings. Do you want to apply "
+"these changes?"
+msgstr ""
+"В настройках сервиса произошли изменения. Хотите ли вы сохранить эти "
+"настройки?"
+
+#: ui/services/index.scm:87
+msgid "Change state"
+msgstr "Изменить состояние"
+
+#: ui/services/index.scm:93 стандартный ввод:5
+msgid "Start on boot"
+msgstr "Запускать при загрузке системы"
+
+#: ui/services/index.scm:94 стандартный ввод:6
+#: ui/xinetd/index.scm:141 ввод:15 ui/lilo/index.scm:101
+#: ui/lilo/extra-sections/index.scm:202 ui/lilo/extra-general/index.scm:110
+#: ui/lilo/view-source/index.scm:58 ui/auth/index.scm:76 ввод:7
+#: ввод:14 ввод:11 ui/timezone/index.scm:75
+#: ui/datetime/html-messages.scm:6 ui/datetime/index.scm:59
+#: ui/users/index.scm:118 ввод:17 ui/net-eth/index.scm:171
+#: ui/x11/index.scm:97 ввод:4 ввод:22 ui/alternatives/index.scm:129
+#: ui/control/index.scm:70 ui/root/index.scm:39 ввод:5 ввод:8
+#: ввод:24
 msgid "Apply"
 msgstr "Применить"
 
-#: backend3/timezone:117
-msgid "Country"
-msgstr "Страна"
-
-#: backend3/timezone:118 стандартный ввод:1
-msgid "Time zone"
-msgstr "Часовой пояс"
-
-#: стандартный ввод:3 ввод:9 ввод:15 ввод:5
-#: ввод:6
-msgid "Select"
-msgstr "Выбрать"
-
-#: ui/xinetd/index.scm:142 ui/services/index.scm:95 стандартный
-#: ввод:7 ввод:5 ввод:10 ввод:23 ui/net-eth/index.scm:172
-#: ввод:15 ввод:9 ввод:25 ввод:8 ui/auth/index.scm:77
-#: ui/lilo/view-source.scm:54 ui/lilo/view-source.scm:59
-#: ui/lilo/extra-sections.scm:192 ui/lilo/extra-sections.scm:203
-#: ui/lilo/extra-general.scm:140
+#: ui/services/index.scm:95 ui/xinetd/index.scm:142
+#: ui/lilo/extra-sections/index.scm:192 ui/lilo/extra-sections/index.scm:203
+#: ui/lilo/extra-general/index.scm:111 ui/lilo/view-source/index.scm:54
+#: ui/lilo/view-source/index.scm:59 ui/auth/index.scm:77
+#: стандартный ввод:8 ввод:15 ввод:7
+#: ui/datetime/html-messages.scm:7 ui/net-eth/index.scm:172 ввод:5
+#: ввод:18 ввод:23 ввод:9 ввод:25
 msgid "Reset"
 msgstr "Вернуть"
 
-#: TIMEZONES:1
-msgid "Africa/Abidjan"
-msgstr "Африка/Абиджан"
-
-#: TIMEZONES:2
-msgid "Africa/Accra"
-msgstr "Африка/Аккра"
-
-#: TIMEZONES:3
-msgid "Africa/Addis_Ababa"
-msgstr "Африка/Аддис-Абеба"
-
-#: TIMEZONES:4
-msgid "Africa/Algiers"
-msgstr "Африка/Алжир"
-
-#: TIMEZONES:5
-msgid "Africa/Asmera"
-msgstr "Африка/Асмара"
-
-#: TIMEZONES:6
-msgid "Africa/Bamako"
-msgstr "Африка/Бамако"
-
-#: TIMEZONES:7
-msgid "Africa/Bangui"
-msgstr "Африка/Банги"
-
-#: TIMEZONES:8
-msgid "Africa/Banjul"
-msgstr "Африка/Банжул"
-
-#: TIMEZONES:9
-msgid "Africa/Bissau"
-msgstr "Африка/Бисау"
-
-#: TIMEZONES:10
-msgid "Africa/Blantyre"
-msgstr "Африка/Блантир"
-
-#: TIMEZONES:11
-msgid "Africa/Brazzaville"
-msgstr "Африка/Браззавиль"
-
-#: TIMEZONES:12
-msgid "Africa/Bujumbura"
-msgstr "Африка/Бужумбура"
-
-#: TIMEZONES:13
-msgid "Africa/Cairo"
-msgstr "Африка/Каир"
-
-#: TIMEZONES:14
-msgid "Africa/Casablanca"
-msgstr "Африка/Касабланка"
-
-#: TIMEZONES:15
-msgid "Africa/Ceuta"
-msgstr "Африка/Сеута"
-
-#: TIMEZONES:16
-msgid "Africa/Conakry"
-msgstr "Африка/Конакри"
-
-#: TIMEZONES:17
-msgid "Africa/Dakar"
-msgstr "Африка/Дакар"
-
-#: TIMEZONES:18
-msgid "Africa/Dar_es_Salaam"
-msgstr "Африка/Дар-эс-Салам"
-
-#: TIMEZONES:19
-msgid "Africa/Djibouti"
-msgstr "Африка/Джибути"
-
-#: TIMEZONES:20
-msgid "Africa/Douala"
-msgstr "Африка/Дуала"
-
-#: TIMEZONES:21
-msgid "Africa/El_Aaiun"
-msgstr "Африка/Эль-Ааиун"
-
-#: TIMEZONES:22
-msgid "Africa/Freetown"
-msgstr "Африка/Фритаун"
-
-#: TIMEZONES:23
-msgid "Africa/Gaborone"
-msgstr "Африка/Габороне"
-
-#: TIMEZONES:24
-msgid "Africa/Harare"
-msgstr "Африка/Хараре"
-
-#: TIMEZONES:25
-msgid "Africa/Johannesburg"
-msgstr "Африка/Йоханнесбург"
-
-#: TIMEZONES:26
-msgid "Africa/Kampala"
-msgstr "Африка/Кампала"
-
-#: TIMEZONES:27
-msgid "Africa/Khartoum"
-msgstr "Африка/Хартум"
-
-#: TIMEZONES:28
-msgid "Africa/Kigali"
-msgstr "Африка/Кигали"
-
-#: TIMEZONES:29
-msgid "Africa/Kinshasa"
-msgstr "Африка/Киншаса"
-
-#: TIMEZONES:30
-msgid "Africa/Lagos"
-msgstr "Африка/Лагос"
-
-#: TIMEZONES:31
-msgid "Africa/Libreville"
-msgstr "Африка/Либревиль"
-
-#: TIMEZONES:32
-msgid "Africa/Lome"
-msgstr "Африка/Ломе"
-
-#: TIMEZONES:33
-msgid "Africa/Luanda"
-msgstr "Африка/Луанда"
-
-#: TIMEZONES:34
-msgid "Africa/Lubumbashi"
-msgstr "Африка/Лубумбаши"
-
-#: TIMEZONES:35
-msgid "Africa/Lusaka"
-msgstr "Африка/Лусака"
-
-#: TIMEZONES:36
-msgid "Africa/Malabo"
-msgstr "Африка/Малабо"
-
-#: TIMEZONES:37
-msgid "Africa/Maputo"
-msgstr "Африка/Мапуту"
-
-#: TIMEZONES:38
-msgid "Africa/Maseru"
-msgstr "Африка/Масеру"
-
-#: TIMEZONES:39
-msgid "Africa/Mbabane"
-msgstr "Африка/Мбабане"
-
-#: TIMEZONES:40
-msgid "Africa/Mogadishu"
-msgstr "Африка/Могадишо"
-
-#: TIMEZONES:41
-msgid "Africa/Monrovia"
-msgstr "Африка/Монровия"
-
-#: TIMEZONES:42
-msgid "Africa/Nairobi"
-msgstr "Африка/Найроби"
-
-#: TIMEZONES:43
-msgid "Africa/Ndjamena"
-msgstr "Африка/Нджамена"
-
-#: TIMEZONES:44
-msgid "Africa/Niamey"
-msgstr "Африка/Ниамей"
-
-#: TIMEZONES:45
-msgid "Africa/Nouakchott"
-msgstr "Африка/Нуакшот"
-
-#: TIMEZONES:46
-msgid "Africa/Ouagadougou"
-msgstr "Африка/Уагадугу"
-
-#: TIMEZONES:47
-msgid "Africa/Porto-Novo"
-msgstr "Африка/Порто-Ново"
-
-#: TIMEZONES:48
-msgid "Africa/Sao_Tome"
-msgstr "Африка/Сан-Томе"
-
-#: TIMEZONES:49
-msgid "Africa/Timbuktu"
-msgstr "Африка/Тимбукту"
-
-#: TIMEZONES:50
-msgid "Africa/Tripoli"
-msgstr "Африка/Триполи"
-
-#: TIMEZONES:51
-msgid "Africa/Tunis"
-msgstr "Африка/Тунис"
-
-#: TIMEZONES:52
-msgid "Africa/Windhoek"
-msgstr "Африка/Виндхук"
-
-#: TIMEZONES:53
-msgid "America/Adak"
-msgstr "Америка/Адак"
-
-#: TIMEZONES:54
-msgid "America/Anchorage"
-msgstr "Америка/Анкоридж"
-
-#: TIMEZONES:55
-msgid "America/Anguilla"
-msgstr "Америка/Ангилья"
-
-#: TIMEZONES:56
-msgid "America/Antigua"
-msgstr "Америка/Антигуа"
-
-#: TIMEZONES:57
-msgid "America/Araguaina"
-msgstr "Америка/Арагуари"
-
-#: TIMEZONES:58
-msgid "America/Argentina/Buenos_Aires"
-msgstr "Америка/Аргентина/Буэнос-Айрес"
-
-#: TIMEZONES:59
-msgid "America/Argentina/Catamarca"
-msgstr "Америка/Аргентина/Катамарка"
-
-#: TIMEZONES:60
-msgid "America/Argentina/ComodRivadavia"
-msgstr "Америка/Аргентина/Комодривадавия"
-
-#: TIMEZONES:61
-msgid "America/Argentina/Cordoba"
-msgstr "Америка/Аргентина/Кордова"
-
-#: TIMEZONES:62
-msgid "America/Argentina/Jujuy"
-msgstr "Америка/Аргентина/Хухуи"
-
-#: TIMEZONES:63
-msgid "America/Argentina/La_Rioja"
-msgstr "Америка/Аргентина/Ла-Риоха"
-
-#: TIMEZONES:64
-msgid "America/Argentina/Mendoza"
-msgstr "Америка/Аргентина/Мендоса"
-
-#: TIMEZONES:65
-msgid "America/Argentina/Rio_Gallegos"
-msgstr "Америка/Аргентина/Рио-Гальегос"
-
-#: TIMEZONES:66
-msgid "America/Argentina/San_Juan"
-msgstr "Америка/Аргентина/Сан-Хуан"
-
-#: TIMEZONES:67
-msgid "America/Argentina/Tucuman"
-msgstr "Америка/Аргентина/Тукуман"
-
-#: TIMEZONES:68
-msgid "America/Argentina/Ushuaia"
-msgstr "Америка/Аргентина/Ушуая"
-
-#: TIMEZONES:69
-msgid "America/Aruba"
-msgstr "Америка/о-в Аруба"
-
-#: TIMEZONES:70
-msgid "America/Asuncion"
-msgstr "Америка/Асунсьон"
-
-#: TIMEZONES:71
-msgid "America/Bahia"
-msgstr "Америка/Байя"
-
-#: TIMEZONES:72
-msgid "America/Barbados"
-msgstr "Америка/Барбадос"
-
-#: TIMEZONES:73
-msgid "America/Belem"
-msgstr "Америка/Белем"
-
-#: TIMEZONES:74
-msgid "America/Belize"
-msgstr "Америка/Белиз"
-
-#: TIMEZONES:75
-msgid "America/Boa_Vista"
-msgstr "Америка/Боа Виста"
-
-#: TIMEZONES:76
-msgid "America/Bogota"
-msgstr "Америка/Богота"
-
-#: TIMEZONES:77
-msgid "America/Boise"
-msgstr "Америка/Бойсе"
-
-#: TIMEZONES:78
-msgid "America/Buenos_Aires"
-msgstr "Америка/Буэнос-Айрес"
-
-#: TIMEZONES:79
-msgid "America/Cambridge_Bay"
-msgstr "Америка/Кембридж-Бей"
-
-#: TIMEZONES:80
-msgid "America/Campo_Grande"
-msgstr "Америка/Кампо-Гранде"
-
-#: TIMEZONES:81
-msgid "America/Cancun"
-msgstr "Америка/Канкун"
-
-#: TIMEZONES:82
-msgid "America/Caracas"
-msgstr "Америка/Каракас"
-
-#: TIMEZONES:83
-msgid "America/Catamarca"
-msgstr "Америка/Катамарка"
-
-#: TIMEZONES:84
-msgid "America/Cayenne"
-msgstr "Америка/Кайенна"
-
-#: TIMEZONES:85
-msgid "America/Cayman"
-msgstr "Америка/Кайман"
-
-#: TIMEZONES:86
-msgid "America/Chicago"
-msgstr "Америка/Чикаго"
-
-#: TIMEZONES:87
-msgid "America/Chihuahua"
-msgstr "Америка/Чихуахуа"
-
-#: TIMEZONES:88
-msgid "America/Cordoba"
-msgstr "Америка/Кордоба"
-
-#: TIMEZONES:89
-msgid "America/Costa_Rica"
-msgstr "Америка/Коста-Рика"
-
-#: TIMEZONES:90
-msgid "America/Cuiaba"
-msgstr "Америка/Куяба"
-
-#: TIMEZONES:91
-msgid "America/Curacao"
-msgstr "Америка/Кюрасао"
-
-#: TIMEZONES:92
-msgid "America/Danmarkshavn"
-msgstr "Америка/Денмаркшавн"
-
-#: TIMEZONES:93
-msgid "America/Dawson"
-msgstr "Америка/Доусон"
-
-#: TIMEZONES:94
-msgid "America/Dawson_Creek"
-msgstr "Америка/Доусон-Крик"
-
-#: TIMEZONES:95
-msgid "America/Denver"
-msgstr "Америка/Денвер"
-
-#: TIMEZONES:96
-msgid "America/Detroit"
-msgstr "Америка/Детройт"
-
-#: TIMEZONES:97
-msgid "America/Dominica"
-msgstr "Америка/Доминика"
-
-#: TIMEZONES:98
-msgid "America/Edmonton"
-msgstr "Америка/Эдмонтон"
-
-#: TIMEZONES:99
-msgid "America/Eirunepe"
-msgstr "Америка/Эйрунепе"
-
-#: TIMEZONES:100
-msgid "America/El_Salvador"
-msgstr "Америка/Сальвадор"
-
-#: TIMEZONES:101
-msgid "America/Fortaleza"
-msgstr "Америка/Форталеза"
-
-#: TIMEZONES:102
-msgid "America/Glace_Bay"
-msgstr "Америка/Глейс-Бей"
-
-#: TIMEZONES:103
-msgid "America/Godthab"
-msgstr "Америка/Готхоб"
-
-#: TIMEZONES:104
-msgid "America/Goose_Bay"
-msgstr "Америка/Гус-Бей"
-
-#: TIMEZONES:105
-msgid "America/Grand_Turk"
-msgstr "Америка/Гранд-Терк"
-
-#: TIMEZONES:106
-msgid "America/Grenada"
-msgstr "Америка/Гренада"
-
-#: TIMEZONES:107
-msgid "America/Guadeloupe"
-msgstr "Америка/Гваделупа"
-
-#: TIMEZONES:108
-msgid "America/Guatemala"
-msgstr "Америка/Гватемала"
-
-#: TIMEZONES:109
-msgid "America/Guayaquil"
-msgstr "Америка/Гуаякиль"
-
-#: TIMEZONES:110
-msgid "America/Guyana"
-msgstr "Америка/Гайана"
-
-#: TIMEZONES:111
-msgid "America/Halifax"
-msgstr "Америка/Галифакс"
-
-#: TIMEZONES:112
-msgid "America/Havana"
-msgstr "Америка/Гавана"
-
-#: TIMEZONES:113
-msgid "America/Hermosillo"
-msgstr "Америка/Гермосилло"
-
-#: TIMEZONES:114
-msgid "America/Indiana/Knox"
-msgstr "Америка/Индиана/Нокс"
-
-#: TIMEZONES:115
-msgid "America/Indiana/Marengo"
-msgstr "Америка/Индиана/Маренго"
-
-#: TIMEZONES:116
-msgid "America/Indiana/Vevay"
-msgstr "Америка/Индиана/Вивей"
-
-#: TIMEZONES:117
-msgid "America/Indianapolis"
-msgstr "Америка/Индианаполис"
-
-#: TIMEZONES:118
-msgid "America/Inuvik"
-msgstr "Америка/Инувик"
-
-#: TIMEZONES:119
-msgid "America/Iqaluit"
-msgstr "Америка/Икалуит"
-
-#: TIMEZONES:120
-msgid "America/Jamaica"
-msgstr "Америка/Ямайка"
-
-#: TIMEZONES:121
-msgid "America/Jujuy"
-msgstr "Америка/Хухуи"
-
-#: TIMEZONES:122
-msgid "America/Juneau"
-msgstr "Америка/Джуно"
-
-#: TIMEZONES:123
-msgid "America/Kentucky/Monticello"
-msgstr "Америка/Кентуки/Монтицелло"
-
-#: TIMEZONES:124
-msgid "America/La_Paz"
-msgstr "Америка/Ла-Пас"
-
-#: TIMEZONES:125
-msgid "America/Lima"
-msgstr "Америка/Лима"
-
-#: TIMEZONES:126
-msgid "America/Los_Angeles"
-msgstr "Америка/Лос-Анджелес"
-
-#: TIMEZONES:127
-msgid "America/Louisville"
-msgstr "Америка/Луисвиль"
-
-#: TIMEZONES:128
-msgid "America/Maceio"
-msgstr "Америка/Масейо"
-
-#: TIMEZONES:129
-msgid "America/Managua"
-msgstr "Америка/Манагуа"
-
-#: TIMEZONES:130
-msgid "America/Manaus"
-msgstr "Америка/Манаус"
-
-#: TIMEZONES:131
-msgid "America/Martinique"
-msgstr "Америка/Мартиника"
-
-#: TIMEZONES:132
-msgid "America/Mazatlan"
-msgstr "Америка/Масатлан"
-
-#: TIMEZONES:133
-msgid "America/Mendoza"
-msgstr "Америка/Мендоса"
-
-#: TIMEZONES:134
-msgid "America/Menominee"
-msgstr "Америка/Меномини"
-
-#: TIMEZONES:135
-msgid "America/Merida"
-msgstr "Америка/Мерида"
-
-#: TIMEZONES:136
-msgid "America/Mexico_City"
-msgstr "Америка/Мехико"
-
-#: TIMEZONES:137
-msgid "America/Miquelon"
-msgstr "Америка/Микелон"
-
-#: TIMEZONES:138
-msgid "America/Monterrey"
-msgstr "Америка/Монтерей"
-
-#: TIMEZONES:139
-msgid "America/Montevideo"
-msgstr "Америка/Монтевидео"
-
-#: TIMEZONES:140
-msgid "America/Montreal"
-msgstr "Америка/Монреаль"
-
-#: TIMEZONES:141
-msgid "America/Montserrat"
-msgstr "Америка/Монтсеррат"
-
-#: TIMEZONES:142
-msgid "America/Nassau"
-msgstr "Америка/Нассау"
-
-#: TIMEZONES:143
-msgid "America/New_York"
-msgstr "Америка/Нью-Йорк"
-
-#: TIMEZONES:144
-msgid "America/Nipigon"
-msgstr "Америка/Нипигон"
-
-#: TIMEZONES:145
-msgid "America/Nome"
-msgstr "Америка/Ном"
-
-#: TIMEZONES:146
-msgid "America/Noronha"
-msgstr "Америка/Норонха"
-
-#: TIMEZONES:147
-msgid "America/North_Dakota/Center"
-msgstr "Америка/Северная_Дакота/Центр"
-
-#: TIMEZONES:148
-msgid "America/Panama"
-msgstr "Америка/Панама"
-
-#: TIMEZONES:149
-msgid "America/Pangnirtung"
-msgstr "Америка/Пангниртанг"
-
-#: TIMEZONES:150
-msgid "America/Paramaribo"
-msgstr "Америка/Парамарибо"
-
-#: TIMEZONES:151
-msgid "America/Phoenix"
-msgstr "Америка/Феникс"
-
-#: TIMEZONES:152
-msgid "America/Port-au-Prince"
-msgstr "Америка/Порт-о-Пренс"
-
-#: TIMEZONES:153
-msgid "America/Port_of_Spain"
-msgstr "Америка/Порт-оф-Спейн"
-
-#: TIMEZONES:154
-msgid "America/Porto_Velho"
-msgstr "Америка/Порту-Велью"
-
-#: TIMEZONES:155
-msgid "America/Puerto_Rico"
-msgstr "Америка/Пуэрто-Рико"
-
-#: TIMEZONES:156
-msgid "America/Rainy_River"
-msgstr "Америка/Рэйни-Ривер"
-
-#: TIMEZONES:157
-msgid "America/Rankin_Inlet"
-msgstr "Америка/Рэнкин-Инлет"
-
-#: TIMEZONES:158
-msgid "America/Recife"
-msgstr "Америка/Ресифи"
-
-#: TIMEZONES:159
-msgid "America/Regina"
-msgstr "Америка/Регина"
-
-#: TIMEZONES:160
-msgid "America/Rio_Branco"
-msgstr "Америка/Рио-Бранко"
-
-#: TIMEZONES:161
-msgid "America/Rosario"
-msgstr "Америка/Розарио"
-
-#: TIMEZONES:162
-msgid "America/Santiago"
-msgstr "Америка/Сантьяго"
-
-#: TIMEZONES:163
-msgid "America/Santo_Domingo"
-msgstr "Америка/Санто-Доминго"
-
-#: TIMEZONES:164
-msgid "America/Sao_Paulo"
-msgstr "Америка/Сан-Пауло"
-
-#: TIMEZONES:165
-msgid "America/Scoresbysund"
-msgstr "Америка/Скорсбисунн"
-
-#: TIMEZONES:166
-msgid "America/Shiprock"
-msgstr "Америка/Шипрок"
-
-#: TIMEZONES:167
-msgid "America/St_Johns"
-msgstr "Америка/Сент-Джонс"
-
-#: TIMEZONES:168
-msgid "America/St_Kitts"
-msgstr "Америка/Сент-Китс и Невис"
-
-#: TIMEZONES:169
-msgid "America/St_Lucia"
-msgstr "Америка/Сент-Люсия"
-
-#: TIMEZONES:170
-msgid "America/St_Thomas"
-msgstr "Америка/Сент-Томас"
-
-#: TIMEZONES:171
-msgid "America/St_Vincent"
-msgstr "Америка/Сент-Винсент"
-
-#: TIMEZONES:172
-msgid "America/Swift_Current"
-msgstr "Америка/Свифт-Карент"
-
-#: TIMEZONES:173
-msgid "America/Tegucigalpa"
-msgstr "Америка/Тегусигальпа"
-
-#: TIMEZONES:174
-msgid "America/Thule"
-msgstr "Америка/Туле"
-
-#: TIMEZONES:175
-msgid "America/Thunder_Bay"
-msgstr "Америка/Сандер-Бэй"
-
-#: TIMEZONES:176
-msgid "America/Tijuana"
-msgstr "Америка/Тихуана"
-
-#: TIMEZONES:177
-msgid "America/Toronto"
-msgstr "Америка/Торонто"
-
-#: TIMEZONES:178
-msgid "America/Tortola"
-msgstr "Америка/Тортола"
-
-#: TIMEZONES:179
-msgid "America/Vancouver"
-msgstr "Америка/Ванкувер"
-
-#: TIMEZONES:180
-msgid "America/Whitehorse"
-msgstr "Америка/Вайтхорс"
-
-#: TIMEZONES:181
-msgid "America/Winnipeg"
-msgstr "Америка/Виннипег"
-
-#: TIMEZONES:182
-msgid "America/Yakutat"
-msgstr "Америка/Якутат"
-
-#: TIMEZONES:183
-msgid "America/Yellowknife"
-msgstr "Америка/Йеллоунайф"
-
-#: TIMEZONES:184
-msgid "Antarctica/Casey"
-msgstr "Антарктида/Кэйси"
-
-#: TIMEZONES:185
-msgid "Antarctica/Davis"
-msgstr "Антарктида/Дэйвис"
-
-#: TIMEZONES:186
-msgid "Antarctica/DumontDUrville"
-msgstr "Антарктида/Дюмон-д'Юрвиль"
-
-#: TIMEZONES:187
-msgid "Antarctica/Mawson"
-msgstr "Антарктида/Моусон"
-
-#: TIMEZONES:188
-msgid "Antarctica/McMurdo"
-msgstr "Антарктида/Мак-Мердо"
-
-#: TIMEZONES:189
-msgid "Antarctica/Palmer"
-msgstr "Антарктида/Палмер"
-
-#: TIMEZONES:190
-msgid "Antarctica/Rothera"
-msgstr "Антарктида/Ротера"
-
-#: TIMEZONES:191
-msgid "Antarctica/South_Pole"
-msgstr "Антарктида/Южный полюс"
-
-#: TIMEZONES:192
-msgid "Antarctica/Syowa"
-msgstr "Антарктида/Сева"
-
-#: TIMEZONES:193
-msgid "Antarctica/Vostok"
-msgstr "Антарктида/Восток"
-
-#: TIMEZONES:194
-msgid "Arctic/Longyearbyen"
-msgstr "Арктика/Лонгйербиен"
-
-#: TIMEZONES:195
-msgid "Asia/Aden"
-msgstr "Азия/Аден"
-
-#: TIMEZONES:196
-msgid "Asia/Almaty"
-msgstr "Азия/Алма-Ата"
-
-#: TIMEZONES:197
-msgid "Asia/Amman"
-msgstr "Азия/Амман"
-
-#: TIMEZONES:198
-msgid "Asia/Anadyr"
-msgstr "Азия/Анадырь"
-
-#: TIMEZONES:199
-msgid "Asia/Aqtau"
-msgstr "Азия/Актау"
-
-#: TIMEZONES:200
-msgid "Asia/Aqtobe"
-msgstr "Азия/Актобе"
-
-#: TIMEZONES:201
-msgid "Asia/Ashgabat"
-msgstr "Азия/Ашхабад"
-
-#: TIMEZONES:202
-msgid "Asia/Baghdad"
-msgstr "Азия/Багдад"
-
-#: TIMEZONES:203
-msgid "Asia/Bahrain"
-msgstr "Азия/Бахрейн"
-
-#: TIMEZONES:204
-msgid "Asia/Baku"
-msgstr "Азия/Баку"
-
-#: TIMEZONES:205
-msgid "Asia/Bangkok"
-msgstr "Азия/Бангкок"
-
-#: TIMEZONES:206
-msgid "Asia/Beirut"
-msgstr "Азия/Бейрут"
-
-#: TIMEZONES:207
-msgid "Asia/Bishkek"
-msgstr "Азия/Бишкек"
-
-#: TIMEZONES:208
-msgid "Asia/Brunei"
-msgstr "Азия/Бруней"
-
-#: TIMEZONES:209
-msgid "Asia/Calcutta"
-msgstr "Азия/Калькутта"
-
-#: TIMEZONES:210
-msgid "Asia/Choibalsan"
-msgstr "Азия/Чойбалсан"
-
-#: TIMEZONES:211
-msgid "Asia/Chongqing"
-msgstr "Азия/Чунцин"
-
-#: TIMEZONES:212
-msgid "Asia/Colombo"
-msgstr "Азия/Коломбо"
-
-#: TIMEZONES:213
-msgid "Asia/Damascus"
-msgstr "Азия/Дамаск"
-
-#: TIMEZONES:214
-msgid "Asia/Dhaka"
-msgstr "Азия/Дакка"
-
-#: TIMEZONES:215
-msgid "Asia/Dili"
-msgstr "Азия/Дили"
-
-#: TIMEZONES:216
-msgid "Asia/Dubai"
-msgstr "Азия/Дубай"
-
-#: TIMEZONES:217
-msgid "Asia/Dushanbe"
-msgstr "Азия/Душанбе"
-
-#: TIMEZONES:218
-msgid "Asia/Gaza"
-msgstr "Азия/Газа"
-
-#: TIMEZONES:219
-msgid "Asia/Harbin"
-msgstr "Азия/Харбин"
-
-#: TIMEZONES:220
-msgid "Asia/Hong_Kong"
-msgstr "Азия/Гонконг"
-
-#: TIMEZONES:221
-msgid "Asia/Hovd"
-msgstr "Азия/Ховд"
-
-#: TIMEZONES:222
-msgid "Asia/Irkutsk"
-msgstr "Азия/Иркутск"
-
-#: TIMEZONES:223
-msgid "Asia/Jakarta"
-msgstr "Азия/Джакарта"
-
-#: TIMEZONES:224
-msgid "Asia/Jayapura"
-msgstr "Азия/Джаяпур"
-
-#: TIMEZONES:225
-msgid "Asia/Jerusalem"
-msgstr "Азия/Иерусалим"
-
-#: TIMEZONES:226
-msgid "Asia/Kabul"
-msgstr "Азия/Кабул"
-
-#: TIMEZONES:227
-msgid "Asia/Kamchatka"
-msgstr "Азия/Камчатка"
-
-#: TIMEZONES:228
-msgid "Asia/Karachi"
-msgstr "Азия/Карачи"
-
-#: TIMEZONES:229
-msgid "Asia/Kashgar"
-msgstr "Азия/Кашгар"
-
-#: TIMEZONES:230
-msgid "Asia/Katmandu"
-msgstr "Азия/Катманду"
-
-#: TIMEZONES:231
-msgid "Asia/Krasnoyarsk"
-msgstr "Азия/Красноярск"
-
-#: TIMEZONES:232
-msgid "Asia/Kuala_Lumpur"
-msgstr "Азия/Куала-Лумпур"
-
-#: TIMEZONES:233
-msgid "Asia/Kuching"
-msgstr "Азия/Кучинг"
-
-#: TIMEZONES:234
-msgid "Asia/Kuwait"
-msgstr "Азия/Кувейт"
-
-#: TIMEZONES:235
-msgid "Asia/Macau"
-msgstr "Азия/Макао"
-
-#: TIMEZONES:236
-msgid "Asia/Magadan"
-msgstr "Азия/Магадан"
-
-#: TIMEZONES:237
-msgid "Asia/Makassar"
-msgstr "Азия/Макассар"
-
-#: TIMEZONES:238
-msgid "Asia/Manila"
-msgstr "Азия/Манила"
-
-#: TIMEZONES:239
-msgid "Asia/Muscat"
-msgstr "Азия/Мускат"
-
-#: TIMEZONES:240
-msgid "Asia/Nicosia"
-msgstr "Азия/Никосия"
-
-#: TIMEZONES:241
-msgid "Asia/Novosibirsk"
-msgstr "Азия/Новосибирск"
-
-#: TIMEZONES:242
-msgid "Asia/Omsk"
-msgstr "Азия/Омск"
-
-#: TIMEZONES:243
-msgid "Asia/Oral"
-msgstr "Азия/Орал"
-
-#: TIMEZONES:244
-msgid "Asia/Phnom_Penh"
-msgstr "Азия/Пномпень"
-
-#: TIMEZONES:245
-msgid "Asia/Pontianak"
-msgstr "Азия/Понтианак"
-
-#: TIMEZONES:246
-msgid "Asia/Pyongyang"
-msgstr "Азия/Пхеньян"
-
-#: TIMEZONES:247
-msgid "Asia/Qatar"
-msgstr "Азия/Катар"
-
-#: TIMEZONES:248
-msgid "Asia/Qyzylorda"
-msgstr "Азия/Кзыл-Орда"
-
-#: TIMEZONES:249
-msgid "Asia/Rangoon"
-msgstr "Азия/Рангун"
-
-#: TIMEZONES:250
-msgid "Asia/Riyadh"
-msgstr "Азия/Эр-Рияд"
-
-#: TIMEZONES:251
-msgid "Asia/Saigon"
-msgstr "Азия/Сайгон"
-
-#: TIMEZONES:252
-msgid "Asia/Sakhalin"
-msgstr "Азия/Сахалин"
-
-#: TIMEZONES:253
-msgid "Asia/Samarkand"
-msgstr "Азия/Самарканд"
-
-#: TIMEZONES:254
-msgid "Asia/Seoul"
-msgstr "Азия/Сеул"
-
-#: TIMEZONES:255
-msgid "Asia/Shanghai"
-msgstr "Азия/Шанхай"
-
-#: TIMEZONES:256
-msgid "Asia/Singapore"
-msgstr "Азия/Сингапур"
-
-#: TIMEZONES:257
-msgid "Asia/Taipei"
-msgstr "Азия/Тайпей"
-
-#: TIMEZONES:258
-msgid "Asia/Tashkent"
-msgstr "Азия/Ташкент"
-
-#: TIMEZONES:259
-msgid "Asia/Tbilisi"
-msgstr "Азия/Тбилиси"
-
-#: TIMEZONES:260
-msgid "Asia/Tehran"
-msgstr "Азия/Тегеран"
-
-#: TIMEZONES:261
-msgid "Asia/Thimphu"
-msgstr "Азия/Тхимпху"
-
-#: TIMEZONES:262
-msgid "Asia/Tokyo"
-msgstr "Азия/Токио"
-
-#: TIMEZONES:263
-msgid "Asia/Ujung_Pandang"
-msgstr "Азия/Уджунг-Панданг"
-
-#: TIMEZONES:264
-msgid "Asia/Ulaanbaatar"
-msgstr "Азия/Улан-Батор"
-
-#: TIMEZONES:265
-msgid "Asia/Urumqi"
-msgstr "Азия/Урумчи"
-
-#: TIMEZONES:266
-msgid "Asia/Vientiane"
-msgstr "Азия/Вьентьян"
-
-#: TIMEZONES:267
-msgid "Asia/Vladivostok"
-msgstr "Азия/Владивосток"
-
-#: TIMEZONES:268
-msgid "Asia/Yakutsk"
-msgstr "Азия/Якутск"
-
-#: TIMEZONES:269
-msgid "Asia/Yekaterinburg"
-msgstr "Азия/Екатеринбург"
-
-#: TIMEZONES:270
-msgid "Asia/Yerevan"
-msgstr "Азия/Ереван"
-
-#: TIMEZONES:271
-msgid "Atlantic/Azores"
-msgstr "Атлантика/Азоры"
-
-#: TIMEZONES:272
-msgid "Atlantic/Bermuda"
-msgstr "Атлантика/Бермуды"
-
-#: TIMEZONES:273
-msgid "Atlantic/Canary"
-msgstr "Атлантика/Канары"
-
-#: TIMEZONES:274
-msgid "Atlantic/Cape_Verde"
-msgstr "Атлантика/Капо-Верде"
-
-#: TIMEZONES:275
-msgid "Atlantic/Faeroe"
-msgstr "Атлантика/Фаэро"
-
-#: TIMEZONES:276
-msgid "Atlantic/Jan_Mayen"
-msgstr "Атлантический океан/о-в Ян-Майен"
-
-#: TIMEZONES:277
-msgid "Atlantic/Madeira"
-msgstr "Атлантика/Мадейра"
-
-#: TIMEZONES:278
-msgid "Atlantic/Reykjavik"
-msgstr "Атлантика/Рейкъявик"
-
-#: TIMEZONES:279
-msgid "Atlantic/South_Georgia"
-msgstr "Атлантический океан/о-в Южная Георгия"
-
-#: TIMEZONES:280
-msgid "Atlantic/St_Helena"
-msgstr "Атлантика/Св.Елена"
-
-#: TIMEZONES:281
-msgid "Atlantic/Stanley"
-msgstr "Атлантический океан/Стэнли"
-
-#: TIMEZONES:282
-msgid "Australia/Adelaide"
-msgstr "Австралия/Аделаида"
-
-#: TIMEZONES:283
-msgid "Australia/Brisbane"
-msgstr "Австралия/Брисбен"
-
-#: TIMEZONES:284
-msgid "Australia/Broken_Hill"
-msgstr "Австралия/Брокен-Хилл"
-
-#: TIMEZONES:285
-msgid "Australia/Darwin"
-msgstr "Австралия/Дарвин"
-
-#: TIMEZONES:286
-msgid "Australia/Hobart"
-msgstr "Австралия/Хобарт"
-
-#: TIMEZONES:287
-msgid "Australia/Lindeman"
-msgstr "Австралия/Линдеман"
-
-#: TIMEZONES:288
-msgid "Australia/Lord_Howe"
-msgstr "Австралия/ат.Лорд-Хау(Онтонг-Джава)"
-
-#: TIMEZONES:289
-msgid "Australia/Melbourne"
-msgstr "Австралия/Мельбурн"
-
-#: TIMEZONES:290
-msgid "Australia/Perth"
-msgstr "Австралия/Перт"
-
-#: TIMEZONES:291
-msgid "Australia/Sydney"
-msgstr "Австралия/Сидней"
-
-#: TIMEZONES:292
-msgid "Europe/Amsterdam"
-msgstr "Европа/Амстердам"
-
-#: TIMEZONES:293
-msgid "Europe/Andorra"
-msgstr "Европа/Андорра"
-
-#: TIMEZONES:294
-msgid "Europe/Athens"
-msgstr "Европа/Афины"
-
-#: TIMEZONES:295
-msgid "Europe/Belfast"
-msgstr "Европа/Белфаст"
-
-#: TIMEZONES:296
-msgid "Europe/Belgrade"
-msgstr "Европа/Белград"
-
-#: TIMEZONES:297
-msgid "Europe/Berlin"
-msgstr "Европа/Берлин"
-
-#: TIMEZONES:298
-msgid "Europe/Bratislava"
-msgstr "Европа/Братислава"
-
-#: TIMEZONES:299
-msgid "Europe/Brussels"
-msgstr "Европа/Брюссель"
-
-#: TIMEZONES:300
-msgid "Europe/Bucharest"
-msgstr "Европа/Бухарест"
-
-#: TIMEZONES:301
-msgid "Europe/Budapest"
-msgstr "Европа/Будапешт"
-
-#: TIMEZONES:302
-msgid "Europe/Chisinau"
-msgstr "Европа/Кишинёв"
-
-#: TIMEZONES:303
-msgid "Europe/Copenhagen"
-msgstr "Европа/Копенгаген"
-
-#: TIMEZONES:304
-msgid "Europe/Dublin"
-msgstr "Европа/Дублин"
-
-#: TIMEZONES:305
-msgid "Europe/Gibraltar"
-msgstr "Европа/Гибралтар"
-
-#: TIMEZONES:306
-msgid "Europe/Helsinki"
-msgstr "Европа/Хельсинки"
-
-#: TIMEZONES:307
-msgid "Europe/Istanbul"
-msgstr "Европа/Стамбул"
-
-#: TIMEZONES:308
-msgid "Europe/Kaliningrad"
-msgstr "Европа/Калининград"
-
-#: TIMEZONES:309
-msgid "Europe/Kiev"
-msgstr "Европа/Киев"
-
-#: TIMEZONES:310
-msgid "Europe/Lisbon"
-msgstr "Европа/Лиссабон"
-
-#: TIMEZONES:311
-msgid "Europe/Ljubljana"
-msgstr "Европа/Любляна"
-
-#: TIMEZONES:312
-msgid "Europe/London"
-msgstr "Европа/Лондон"
-
-#: TIMEZONES:313
-msgid "Europe/Luxembourg"
-msgstr "Европа/Люксембург"
-
-#: TIMEZONES:314
-msgid "Europe/Madrid"
-msgstr "Европа/Мадрид"
-
-#: TIMEZONES:315
-msgid "Europe/Malta"
-msgstr "Европа/Мальта"
-
-#: TIMEZONES:316
-msgid "Europe/Mariehamn"
-msgstr "Европа/Мариехамн"
-
-#: TIMEZONES:317
-msgid "Europe/Minsk"
-msgstr "Европа/Минск"
-
-#: TIMEZONES:318
-msgid "Europe/Monaco"
-msgstr "Европа/Монако"
-
-#: TIMEZONES:319
-msgid "Europe/Moscow"
-msgstr "Европа/Москва"
-
-#: TIMEZONES:320
-msgid "Europe/Oslo"
-msgstr "Европа/Осло"
-
-#: TIMEZONES:321
-msgid "Europe/Paris"
-msgstr "Европа/Париж"
-
-#: TIMEZONES:322
-msgid "Europe/Prague"
-msgstr "Европа/Прага"
-
-#: TIMEZONES:323
-msgid "Europe/Riga"
-msgstr "Европа/Рига"
-
-#: TIMEZONES:324
-msgid "Europe/Rome"
-msgstr "Европа/Рим"
-
-#: TIMEZONES:325
-msgid "Europe/Samara"
-msgstr "Европа/Самара"
-
-#: TIMEZONES:326
-msgid "Europe/San_Marino"
-msgstr "Европа/Сан-Марино"
-
-#: TIMEZONES:327
-msgid "Europe/Sarajevo"
-msgstr "Европа/Сараево"
-
-#: TIMEZONES:328
-msgid "Europe/Simferopol"
-msgstr "Европа/Симферополь"
-
-#: TIMEZONES:329
-msgid "Europe/Skopje"
-msgstr "Европа/Скопье"
-
-#: TIMEZONES:330
-msgid "Europe/Sofia"
-msgstr "Европа/София"
-
-#: TIMEZONES:331
-msgid "Europe/Stockholm"
-msgstr "Европа/Стокгольм"
-
-#: TIMEZONES:332
-msgid "Europe/Tallinn"
-msgstr "Европа/Таллинн"
-
-#: TIMEZONES:333
-msgid "Europe/Tirane"
-msgstr "Европа/Тирана"
-
-#: TIMEZONES:334
-msgid "Europe/Uzhgorod"
-msgstr "Европа/Ужгород"
-
-#: TIMEZONES:335
-msgid "Europe/Vaduz"
-msgstr "Европа/Вадуц"
-
-#: TIMEZONES:336
-msgid "Europe/Vatican"
-msgstr "Европа/Ватикан"
-
-#: TIMEZONES:337
-msgid "Europe/Vienna"
-msgstr "Европа/Вена"
-
-#: TIMEZONES:338
-msgid "Europe/Vilnius"
-msgstr "Европа/Вильнюс"
-
-#: TIMEZONES:339
-msgid "Europe/Warsaw"
-msgstr "Европа/Варшава"
-
-#: TIMEZONES:340
-msgid "Europe/Zagreb"
-msgstr "Европа/Загреб"
-
-#: TIMEZONES:341
-msgid "Europe/Zaporozhye"
-msgstr "Европа/Запорожье"
-
-#: TIMEZONES:342
-msgid "Europe/Zurich"
-msgstr "Европа/Цюрих"
-
-#: TIMEZONES:343
-msgid "Indian/Antananarivo"
-msgstr "Индийский океан/Антананариву"
-
-#: TIMEZONES:344
-msgid "Indian/Chagos"
-msgstr "Индийский океан/арх. Чагос"
-
-#: TIMEZONES:345
-msgid "Indian/Christmas"
-msgstr "Indian/Christmas"
-
-#: TIMEZONES:346
-msgid "Indian/Cocos"
-msgstr "Индийский океан/Кокосовые о-ва"
-
-#: TIMEZONES:347
-msgid "Indian/Comoro"
-msgstr "Индийский океан/Коморские острова"
-
-#: TIMEZONES:348
-msgid "Indian/Kerguelen"
-msgstr "Индийский океан/о-в Кергелен"
-
-#: TIMEZONES:349
-msgid "Indian/Mahe"
-msgstr "Indian/Mahe"
-
-#: TIMEZONES:350
-msgid "Indian/Maldives"
-msgstr "Индийский океан/Мальдивские о-ва"
-
-#: TIMEZONES:351
-msgid "Indian/Mauritius"
-msgstr "Индийский океан/Маврикий"
-
-#: TIMEZONES:352
-msgid "Indian/Mayotte"
-msgstr "Indian/Mayotte"
-
-#: TIMEZONES:353
-msgid "Indian/Reunion"
-msgstr "Индийский океан/о-в Реюньон"
-
-#: TIMEZONES:354
-msgid "Pacific/Apia"
-msgstr "Тихий океан/Апиа"
-
-#: TIMEZONES:355
-msgid "Pacific/Auckland"
-msgstr "Тихий океан/Окленд"
-
-#: TIMEZONES:356
-msgid "Pacific/Chatham"
-msgstr "Тихий океан/Чатем"
-
-#: TIMEZONES:357
-msgid "Pacific/Easter"
-msgstr "Pacific/Easter"
-
-#: TIMEZONES:358
-msgid "Pacific/Efate"
-msgstr "Тихий океан/о-в Эфате"
-
-#: TIMEZONES:359
-msgid "Pacific/Enderbury"
-msgstr "Pacific/Enderbury"
-
-#: TIMEZONES:360
-msgid "Pacific/Fakaofo"
-msgstr "Pacific/Fakaofo"
-
-#: TIMEZONES:361
-msgid "Pacific/Fiji"
-msgstr "Тихий океан/Фиджи"
-
-#: TIMEZONES:362
-msgid "Pacific/Funafuti"
-msgstr "Тихий океан/Фунафути"
-
-#: TIMEZONES:363
-msgid "Pacific/Galapagos"
-msgstr "Тихий океан/Галапагосские о-ва"
-
-#: TIMEZONES:364
-msgid "Pacific/Gambier"
-msgstr "Тихий океан/о-ва Гамбье"
-
-#: TIMEZONES:365
-msgid "Pacific/Guadalcanal"
-msgstr "Тихий океан/о-в Гуадалканал"
-
-#: TIMEZONES:366
-msgid "Pacific/Guam"
-msgstr "Тихий океан/о-в Гуам"
-
-#: TIMEZONES:367
-msgid "Pacific/Honolulu"
-msgstr "Тихий океан/Гонолулу"
-
-#: TIMEZONES:368
-msgid "Pacific/Johnston"
-msgstr "Тихий океан/Джонстон"
-
-#: TIMEZONES:369
-msgid "Pacific/Kiritimati"
-msgstr "Тихий океан/Киритимати"
-
-#: TIMEZONES:370
-msgid "Pacific/Kosrae"
-msgstr "Pacific/Kosrae"
-
-#: TIMEZONES:371
-msgid "Pacific/Kwajalein"
-msgstr "Pacific/Kwajalein"
-
-#: TIMEZONES:372
-msgid "Pacific/Majuro"
-msgstr "Pacific/Majuro"
-
-#: TIMEZONES:373
-msgid "Pacific/Marquesas"
-msgstr "Тихий океан/Маркизские о-ва"
-
-#: TIMEZONES:374
-msgid "Pacific/Midway"
-msgstr "Тихий океан/о-в Мидуэй"
-
-#: TIMEZONES:375
-msgid "Pacific/Nauru"
-msgstr "Тихий океан/Науру"
-
-#: TIMEZONES:376
-msgid "Pacific/Niue"
-msgstr "Тихий океан/Нуе"
-
-#: TIMEZONES:377
-msgid "Pacific/Norfolk"
-msgstr "Тихий океан/Норфолк"
-
-#: TIMEZONES:378
-msgid "Pacific/Noumea"
-msgstr "Тихий океан/Нумеа"
-
-#: TIMEZONES:379
-msgid "Pacific/Pago_Pago"
-msgstr "Тихий океан/Паго-Паго"
-
-#: TIMEZONES:380
-msgid "Pacific/Palau"
-msgstr "Тихий океан/о-ва Палау"
-
-#: TIMEZONES:381
-msgid "Pacific/Pitcairn"
-msgstr "Тихий океан/о-в Питкэрн"
-
-#: TIMEZONES:382
-msgid "Pacific/Ponape"
-msgstr "Тихий океан/о-в Понапе"
-
-#: TIMEZONES:383
-msgid "Pacific/Port_Moresby"
-msgstr "Тихий океан/Порт-Морсби"
-
-#: TIMEZONES:384
-msgid "Pacific/Rarotonga"
-msgstr "Тихий океан/о-в Раротонга"
-
-#: TIMEZONES:385
-msgid "Pacific/Saipan"
-msgstr "Тихий океан/о-в Сайпан"
-
-#: TIMEZONES:386
-msgid "Pacific/Tahiti"
-msgstr "Тихий океан/Таити"
-
-#: TIMEZONES:387
-msgid "Pacific/Tarawa"
-msgstr "Тихий океан/Тарава"
-
-#: TIMEZONES:388
-msgid "Pacific/Tongatapu"
-msgstr "Тихий океан/о-в Тонгатапу"
-
-#: TIMEZONES:389
-msgid "Pacific/Truk"
-msgstr "Тихий океан/о-ва Трук"
-
-#: TIMEZONES:390
-msgid "Pacific/Wake"
-msgstr "Pacific/Wake"
-
-#: TIMEZONES:391
-msgid "Pacific/Wallis"
-msgstr "Pacific/Wallis"
-
-#: TIMEZONES:392
-msgid "Pacific/Yap"
-msgstr "Тихий океан/о-в Яп"
-
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Григорий Мохин,Андрей Черепанов"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "mok@kde.ru,sibskull@mail.ru"
-
-#: ui/users/add/index.scm:20
-msgid "You should define a system user"
-msgstr "Вы должны указать системного пользователя"
-
-#: ui/users/add/index.scm:22
-msgid "You should define a password"
-msgstr "Вы должны указать пароль"
-
-#: ui/users/add/index.scm:24 ui/users/index.scm:64 ui/root/index.scm:22
-msgid "Passwords mismatch"
-msgstr "Введённые пароли не совпадают"
-
-#: ui/users/add/index.scm:53 стандартный ввод:2 ввод:14
-msgid "Account name:"
-msgstr "Имя пользователя:"
-
-#: ui/x11/driver/index.scm:46 ui/x11/monitor/index.scm:36
-#: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24
-msgid "OK"
-msgstr "OK"
-
-#: ui/users/add/index.scm:76 ui/x11/driver/index.scm:50
-#: ui/x11/monitor/index.scm:39 ui/x11/driver/index.scm:32
-#: ui/x11/monitor/index.scm:30
-msgid "Cancel"
-msgstr "Отмена"
-
-#: ui/users/index.scm:44
-msgid "Do you really want to delete user "
-msgstr "Вы действительно хотите удалить пользователя "
-
-#: ui/users/index.scm:78 стандартный ввод:8 ввод:2
-msgid "New user..."
-msgstr "Создать пользователя..."
-
-#.
-#: ui/users/index.scm:93 стандартный ввод:10 ввод:4
-msgid "Comment:"
-msgstr "Комментарий:"
-
-#.
-#: ui/users/index.scm:96 стандартный ввод:11 ввод:5
-msgid "Home directory:"
-msgstr "Домашний каталог:"
-
-#.
-#: ui/users/index.scm:99 стандартный ввод:12 ввод:6
-msgid "Shell:"
-msgstr "Интерпретатор команд:"
-
-#: ui/users/index.scm:103 backend3/users:161 стандартный
-#: ввод:13 ввод:7
-msgid "Switching to superuser"
-msgstr "Переключение на администратора"
-
-#: ui/users/index.scm:123 стандартный ввод:18 ввод:12
-msgid "Delete user"
-msgstr "Удалить пользователя"
-
-#: backend3/users:66
-msgid "can't update password file"
-msgstr "невозможно обновить базу паролей"
-
-#: backend3/users:67 backend3/users:108
-msgid "invalid command syntax"
-msgstr "неверный синтаксис команды"
-
-#: backend3/users:68
-msgid "invalid argument to option"
-msgstr "неверный параметр к аргументу"
-
-#: backend3/users:69
-msgid "uid already in use"
-msgstr "uid уже используется"
-
-#: backend3/users:70
-msgid "specified user doesn't exist"
-msgstr "пользователь не существует"
-
-#. '
-#: backend3/users:71
-msgid "user currently logged in"
-msgstr "пользователь сейчас в системе"
-
-#: backend3/users:72
-msgid "username already in use"
-msgstr "имя пользователя уже занято"
-
-#: backend3/users:73 backend3/users:114
-msgid "can't update group file"
-msgstr "невозможно обновить базу групп"
-
-#. '
-#: backend3/users:74
-msgid "can't create or remove home directory"
-msgstr "невозможно создать или удалить домашний каталог"
-
-#. '
-#: backend3/users:75
-msgid "can't create mail spool"
-msgstr "невозможно создать mail spool"
-
-#: backend3/users:84
-msgid "cannot change password"
-msgstr "невозможно изменить пароль"
-
-#: backend3/users:109
-msgid "invalid group name"
-msgstr "неверное имя группы"
-
-#: backend3/users:110
-msgid "gid not unique"
-msgstr "gid не уникален"
-
-#: backend3/users:111
-msgid "specified group doesn't exist"
-msgstr "указанная группа не существует"
-
-#: backend3/users:112
-msgid "can't remove user's primary group"
-msgstr "невозможно удалить первичную группу пользователя"
-
-#. '
-#: backend3/users:113
-msgid "group name not unique"
-msgstr "имя группы уже занято"
-
-#: backend3/users:131
-msgid "unable to add user %s to group %s"
-msgstr "невозможно добавить пользователя %s в группу %s"
-
-#: backend3/users:145
-msgid "unable to remove user %s from group %s"
-msgstr "невозможно удалить пользователя %s из группы %s"
-
-#: backend3/users:157
-msgid "only small latin letters, digits and '_' allowed"
-msgstr "допустимы только маленькие латинские символы, цифры и '_'"
-
-#: backend3/users:158
-msgid "Name"
-msgstr "Системное имя"
-
-#: backend3/users:159
-msgid "Shell"
-msgstr "Интерпретатор команд"
-
-#: backend3/users:160
-msgid "Home directory"
-msgstr "Домашний каталог"
-
-#: backend3/users:162 backend3/root:20 backend3/root:21 стандартный
-#: ввод:2
-msgid "Password"
-msgstr "Пароль"
-
-#: backend3/users:163
-msgid "Password (repeat)"
-msgstr "Пароль (повтор)"
-
-#: backend3/users:164
-msgid "Gecos"
-msgstr "Комментарий"
-
-#: стандартный ввод:1 ввод:13
-msgid "New user"
-msgstr "Создать пользователя"
-
-#: стандартный ввод:4 ввод:15 ввод:9 ввод:16
-#: ui/root/passwd.scm:54 ввод:3
-msgid "(enter passphrase)"
-msgstr "(введите фразу)"
-
-#: стандартный ввод:5 ввод:16 ввод:10 ввод:17
-#: ui/root/passwd.scm:56 ввод:4
-msgid "(repeat passphrase)"
-msgstr "(повторите фразу)"
-
-#: стандартный ввод:6 ввод:18
-msgid "Create"
-msgstr "Создать"
-
-#: стандартный ввод:7 ввод:1
-msgid "User accounts"
-msgstr "Учётные записи"
-
-#: ui/alternatives/index.scm:36
-msgid ""
-"You have made some changes in alternative configuration\n"
-"Do you want to apply your changes?"
-msgstr ""
-"Вы произвели модификацию конфигурации альтернатив\n"
-"Желаете ли вы принять свои изменения?"
-
-#: ui/alternatives/index.scm:71 стандартный ввод:2
-msgid "Alternatives:"
-msgstr "Альтернативы:"
-
-#: ui/alternatives/index.scm:95 стандартный ввод:4
-msgid "Candidates:"
-msgstr "Кандидаты:"
-
-#: ui/alternatives/index.scm:106 стандартный ввод:5
-msgid "Choose candidate manually"
-msgstr "Указать кандидата вручную"
-
-#: ui/alternatives/index.scm:116 стандартный ввод:6
-msgid ""
-"In most cases candidates selection works well automatically using weight "
-"written in their config file, but you can choose variant manually"
-msgstr ""
-"В большинстве случаев выбор кандидатов хорошо работает в автоматическом "
-"режиме, используя веса указанные в их конфигурационных файлах, но вы можете "
-"выбрать нужный вариант в ручную"
-
-#: backend3/alternatives:13
-msgid "Alternative"
-msgstr "Альтернативa"
-
-#: backend3/alternatives:14
-msgid "Candidate"
-msgstr "Кандидат"
-
-#: backend3/alternatives:15
-msgid "Manual setup"
-msgstr "настройка вручную"
+#. Get status information: stopped|running|unknown
+#. Usage string must be provided
+#. (srv usage)
+#: backend3/services:46 backend3/services:113
+msgid "unknown"
+msgstr "неизвестно"
+
+#. [[ "$unf_status" =~ "is stopped" ]] && status="\"stopped\""
+#. [[ "$unf_status" =~ "is running" ]] && status="\"running\""
+#: backend3/services:52 backend3/services:129 backend3/services:130
+msgid "stopped"
+msgstr "остановлена"
+
+#: backend3/services:53 backend3/services:128
+msgid "running"
+msgstr "работает"
+
+#: backend3/services:116
+msgid "Service"
+msgstr "Служба"
+
+#: backend3/services:127
+msgid "do not change"
+msgstr "не менять"
+
+#: backend3/services:128
+msgid "start"
+msgstr "запустить"
+
+#: backend3/services:129
+msgid "stop"
+msgstr "остановить"
+
+#: backend3/services:130
+msgid "restart"
+msgstr "перезапустить"
 
 #: стандартный ввод:1
-msgid "Alternatives subsystem"
-msgstr "Альтернативы"
+msgid "System services"
+msgstr "Системные службы"
 
-#: backend3/spamassassin:71
-msgid "SMTP transport status"
-msgstr "Состояние SMTP транспорта"
+#: стандартный ввод:3 ввод:9 ввод:6 ввод:5
+msgid "Select"
+msgstr "Выбрать"
 
-#: backend3/spamassassin:72
-msgid "Spam filter mode"
-msgstr "Режим cпам-фильтра"
+#: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25
+msgid "Common settings"
+msgstr "Общие настройки"
 
-#: backend3/spamassassin:74
-msgid "Required score"
-msgstr "Пороговое значение"
+#: ui/xinetd/index.scm:67
+msgid "internal service"
+msgstr "встроенный сервис"
 
-#: backend3/spamassassin:75
-msgid "should be number"
-msgstr "должно быть число"
+#: ui/xinetd/index.scm:127
+msgid "Enable service"
+msgstr "Включить сервис"
 
-#: backend3/spamassassin:76
-msgid "Use automatic sender whitelist"
-msgstr "Вести белый список отправителей"
+#: ui/xinetd/index.scm:128 стандартный ввод:5
+msgid "User"
+msgstr "Пользователь"
 
-#: backend3/spamassassin:78 стандартный ввод:22 ввод:12
-msgid "Rule"
-msgstr "Правило"
+#: ui/xinetd/index.scm:129 стандартный ввод:6
+msgid "Group"
+msgstr "Группа"
 
-#: backend3/spamassassin:79 стандартный ввод:23 ввод:13
-msgid "Score"
-msgstr "Баллы"
+#: ui/xinetd/index.scm:130 стандартный ввод:7
+msgid "Server"
+msgstr "Сервер"
 
-#: backend3/spamassassin:86
-msgid "Off"
-msgstr "Выключен"
+#: ui/xinetd/index.scm:131 стандартный ввод:8
+msgid "Server args"
+msgstr "Аргументы сервера"
 
-#: backend3/spamassassin:87
-msgid "On, without content filter"
-msgstr "Включен, без фильтра"
+#: ui/xinetd/index.scm:132 стандартный ввод:9
+msgid "Rlimit as"
+msgstr ""
 
-#: backend3/spamassassin:88
-msgid "On, with content filter"
-msgstr "Включен, с фильтром"
+#: ui/xinetd/index.scm:133 стандартный ввод:10
+msgid "Instances"
+msgstr "Процессов"
 
-#: backend3/spamassassin:91
-msgid "Mark only"
-msgstr "Только помечать"
+#: ui/xinetd/index.scm:134 стандартный ввод:11
+msgid "Per source"
+msgstr "На каждого клиента"
 
-#: backend3/spamassassin:92
-msgid "Drop mail"
-msgstr "Удалять почту"
+#: ui/xinetd/index.scm:135 стандартный ввод:12
+msgid "Only from"
+msgstr "Только с адресов"
 
-#: стандартный ввод:1 ввод:11 ввод:20 ввод:10
-#: ввод:16
-msgid "Spam filter"
-msgstr "Спам-фильтр"
+#: ui/xinetd/index.scm:137
+msgid ""
+"This dialog changes only configuration file for xinetd. You must<br> restart "
+"running xinetd to make it reread new configuration."
+msgstr ""
+"Этот диалог меняет конфигурационный файл для xinetd. Чтобы изменения <br> "
+"повлияли на работающюю службу xinetd -- перезапустите ее."
 
-#: стандартный ввод:2 ввод:17
-msgid "start, stop or restart mail service"
-msgstr "запустить, остановить или перезапустить почтовую службу"
+#: стандартный ввод:1
+msgid "Xinetd server"
+msgstr "Сетевой суперсервер"
 
-#: стандартный ввод:3 ввод:18
-msgid "start, stop or restart anti-spam service"
-msgstr "запустить, остановить или перезапустить антиспам"
+#: стандартный ввод:4 ui/control/index.scm:54
+#: backend3/control:23
+msgid "State"
+msgstr "Состояние"
 
-#: стандартный ввод:4 ввод:19
-msgid "SMTP transport status:"
-msgstr "Состояние SMTP транспорта:"
+#: стандартный ввод:13
+msgid ""
+"This dialog changes only configuration file for xinetd. You must restart "
+"running xinetd to make it reread new configuration."
+msgstr ""
+"Этот диалог меняет конфигурационный файл для xinetd. Чтобы изменения "
+"повлияли на работающюю службу xinetd -- перезапустите ее."
 
-#: стандартный ввод:5 ввод:20
-msgid "Required score:"
-msgstr "Пороговое значение:"
+#: стандартный ввод:14
+msgid "Start, stop or restart xinetd"
+msgstr "Запустить, остановить или перезапустить xinetd"
 
-#: стандартный ввод:6 ввод:21
-msgid "Setup rules and scores..."
-msgstr "Настроить правила и баллы..."
+#: ui/lilo/index.scm:53
+msgid "Master Boot Record"
+msgstr "Главная загрузочная запись"
 
-#: стандартный ввод:7 ввод:22
-msgid "Spam filter mode:"
-msgstr "Режим cпам-фильтра:"
+#: ui/lilo/index.scm:54
+msgid "First sector of partition"
+msgstr "Первый сектор раздела"
 
-#: стандартный ввод:8 ввод:23
-msgid "Use automatic sender whitelist:"
-msgstr "Вести белый список отправителей:"
+#: ui/lilo/index.scm:74
+msgid ""
+"Boot loader is used to boot your operating system and it can be configured "
+"here. If this is a sole operating system on this machine you should install "
+"the boot loader on Master Boot Record. Otherwise, please consult the "
+"documentation for available options."
+msgstr ""
+"Сейчас можно настроить загрузчик операционной системы. Если это единственная "
+"операционная система на этом компьютере, то вам следует установить загрузчик "
+"в Главную загрузочную запись. Иначе ознакомьтесь с документацией."
 
-#: стандартный ввод:12 ввод:21 ввод:2 ввод:11
-msgid "Rules and scores"
-msgstr "Правила и баллы"
+#: ui/lilo/index.scm:78 ui/lilo/extra-general/index.scm:98
+msgid "Install boot loader on:"
+msgstr "Установить загрузчик в:"
 
-#: стандартный ввод:13 ввод:3
-msgid "Add rule"
-msgstr "Добавить правило"
+#: ui/lilo/index.scm:84
+msgid "Device"
+msgstr "Устройство"
 
-#: стандартный ввод:14 ввод:4
-msgid "Rule:"
-msgstr "Правило:"
+#: ui/lilo/index.scm:84
+msgid "Size"
+msgstr "Размер"
 
-#: стандартный ввод:16 ввод:6
-msgid "Description:"
-msgstr "Описание:"
+#: ui/lilo/index.scm:84
+msgid "Destination"
+msgstr "Описание"
 
-#: стандартный ввод:17 ввод:7
-msgid "Score:"
-msgstr "Баллы:"
+#: ui/lilo/index.scm:87
+msgid "Show partitions"
+msgstr "Показать разделы"
 
-#: стандартный ввод:24 ввод:14
-msgid "Remove selected"
-msgstr "Удалить выделенные"
+#: ui/lilo/index.scm:102
+msgid "Expert settings"
+msgstr "Экспертные настройки"
 
-#: стандартный ввод:25 ввод:15
-msgid "Add rule..."
-msgstr "Добавить правило..."
+#: ui/lilo/extra-sections/index.scm:100 ui/lilo/extra-sections/index.scm:110
+#: ui/lilo/extra-sections/index.scm:122 ui/lilo/extra-sections/index.scm:127
+msgid "<UNDEFINED>"
+msgstr "<UNDEFINED>"
+
+#: ui/lilo/extra-sections/index.scm:156 ui/lilo/extra-general/index.scm:80
+#: ui/lilo/view-source/index.scm:45
+msgid "Normal mode"
+msgstr "Обычный режим"
+
+#: ui/lilo/extra-sections/index.scm:157 ui/lilo/extra-general/index.scm:81
+#: ui/lilo/view-source/index.scm:46
+msgid "Global options"
+msgstr "Глобальные настройки"
+
+#: ui/lilo/extra-sections/index.scm:158 ui/lilo/extra-general/index.scm:82
+#: ui/lilo/view-source/index.scm:47
+msgid "Boot sections"
+msgstr "Варианты загрузки"
+
+#: ui/lilo/extra-sections/index.scm:159 ui/lilo/extra-general/index.scm:83
+#: ui/lilo/view-source/index.scm:48
+msgid "Edit source"
+msgstr "Редактировать исходник"
+
+#: ui/lilo/extra-sections/index.scm:164
+msgid "Set default"
+msgstr "По умолчанию"
+
+#: ui/lilo/extra-sections/index.scm:169
+msgid "New Linux section"
+msgstr "Создать вариант linux"
+
+#: ui/lilo/extra-sections/index.scm:170
+msgid "New Other section"
+msgstr "Создать другой вариант"
+
+#: ui/lilo/extra-sections/index.scm:177
+msgid "Label:"
+msgstr "Название:"
+
+#: ui/lilo/extra-sections/index.scm:179
+msgid "Image:"
+msgstr "Ядро:"
+
+#: ui/lilo/extra-sections/index.scm:180
+msgid "Initrd:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:181
+msgid "Root:"
+msgstr "Корневой каталог:"
+
+#: ui/lilo/extra-sections/index.scm:182 ui/lilo/extra-general/index.scm:99
+msgid "Kernel params:"
+msgstr "Параметры ядра:"
+
+#: ui/lilo/extra-sections/index.scm:184
+msgid "Device:"
+msgstr "Устройство:"
+
+#: ui/lilo/extra-sections/index.scm:185
+msgid "Alias:"
+msgstr "Альтернативное название:"
+
+#: ui/lilo/extra-sections/index.scm:186
+msgid "Boot-as:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:187
+msgid "Table:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:191 ui/lilo/view-source/index.scm:53
+#: ui/control/html-messages.scm:3 стандартный ввод:3
+msgid "Save"
+msgstr "Сохранить"
+
+#: ui/lilo/extra-sections/index.scm:193
+msgid "Remove"
+msgstr "Удалить"
+
+#: ui/lilo/extra-general/index.scm:90
+msgid "Skip bootloader installation"
+msgstr "Пропустить установку загрузчика"
+
+#: ui/lilo/extra-general/index.scm:94
+msgid "Write lilo.conf without boot loader installation"
+msgstr "Создать lilo.conf без установки загрузчика"
+
+#: ui/lilo/extra-general/index.scm:100
+msgid "Timeout:"
+msgstr "Время ожидания:"
+
+#: ui/lilo/extra-general/index.scm:101
+msgid "Interface:"
+msgstr "Интерфейс:"
+
+#: ui/lilo/extra-general/index.scm:102
+msgid "Raid-extra-boot:"
+msgstr ""
 
 #: ui/auth/index.scm:55 стандартный ввод:2 ввод:4
-#: ввод:7
 msgid "Auth type:"
 msgstr "Тип аутентификации:"
 
-#: ui/auth/index.scm:62 стандартный ввод:8 ввод:5
+#: ui/auth/index.scm:62 стандартный ввод:5
 msgid "LDAP server:"
 msgstr "LDAP-сервер:"
 
-#: ui/auth/index.scm:67 стандартный ввод:9 ввод:6
+#: ui/auth/index.scm:67 стандартный ввод:6
 msgid "Base DN:"
 msgstr "Базовый DN:"
 
@@ -2018,328 +387,6 @@ msgstr "Аутентификация"
 #: стандартный ввод:3 ввод:8
 msgid "Change"
 msgstr "Изменить"
-
-#. messages from C tools
-#: ui/x11/c-messages.scm:2
-msgid "Yes"
-msgstr "Да"
-
-#: ui/x11/c-messages.scm:3
-msgid "No"
-msgstr "Нет"
-
-#: ui/x11/c-messages.scm:4
-msgid "Pause"
-msgstr "Стоп"
-
-#: ui/x11/c-messages.scm:5
-msgid "Press 'Yes' if you see a correct picture!"
-msgstr "Нажмите 'Да' если изображение правильное!"
-
-#: ui/x11/c-messages.scm:6
-msgid "Resume"
-msgstr "Пуск"
-
-#: ui/x11/driver/index.scm:30 стандартный ввод:3
-#: ui/x11/driver/index.scm:11
-msgid "Drivers:"
-msgstr "Драйверы:"
-
-#: ui/x11/index.scm:62 стандартный ввод:7 ui/x11/index.scm:29
-#: ввод:12
-msgid "Detected hardware"
-msgstr "Обнаруженное оборудование"
-
-#: ui/x11/index.scm:67 стандартный ввод:8 ui/x11/index.scm:68
-#: ui/x11/index.scm:35 ввод:13
-msgid "Video card:"
-msgstr "Видеокарта:"
-
-#: ui/x11/index.scm:73 ui/x11/index.scm:89 стандартный ввод:9
-#: ввод:11 ui/x11/index.scm:74 ui/x11/index.scm:91 ui/x11/index.scm:41
-#: ui/x11/index.scm:58 ввод:14 ввод:16
-msgid "Monitor:"
-msgstr "Монитор:"
-
-#: ui/x11/index.scm:84 стандартный ввод:10 ui/x11/index.scm:85
-#: ui/x11/index.scm:52 ввод:15
-msgid "Current settings"
-msgstr "Текущие настройки"
-
-#: ui/x11/index.scm:93 стандартный ввод:12 ui/x11/index.scm:95
-#: ui/x11/index.scm:62 ввод:17
-msgid "Other vendor..."
-msgstr "Другой производитель..."
-
-#: ui/x11/index.scm:98 стандартный ввод:13 ui/x11/index.scm:100
-#: ui/x11/index.scm:67 ввод:18
-msgid "Driver:"
-msgstr "Драйвер:"
-
-#: ui/x11/index.scm:102 стандартный ввод:14
-#: ui/x11/index.scm:104 ui/x11/index.scm:71 ввод:19
-msgid "Other driver..."
-msgstr "Другой драйвер..."
-
-#: ui/x11/index.scm:107 стандартный ввод:15
-#: ui/x11/index.scm:109 ui/x11/index.scm:76 ввод:20
-msgid "Color depth:"
-msgstr "Глубина цвета:"
-
-#: ui/x11/index.scm:116 стандартный ввод:16
-#: ui/x11/index.scm:118 ui/x11/index.scm:82 ввод:21
-msgid "Resolution:"
-msgstr "Разрешение:"
-
-#: ui/x11/index.scm:131 backend3/x11:172 ui/x11/index.scm:133
-#: ui/x11/index.scm:94 backend3/x11:173
-msgid "Test"
-msgstr "Проверить"
-
-#: ui/x11/monitor/index.scm:20 стандартный ввод:21
-#: ui/x11/monitor/index.scm:10 ввод:8
-msgid "Monitor vendors:"
-msgstr "Производители мониторов:"
-
-#: backend3/x11:170 backend3/x11:171
-msgid "Test current display settings"
-msgstr "Проверьте текущие настройки дисплея"
-
-#: backend3/x11:171 backend3/x11:172
-msgid "Test failed"
-msgstr "Проверка не прошла"
-
-#: backend3/x11:180 backend3/x11:181
-msgid "recommended"
-msgstr "рекомендовано"
-
-#: backend3/x11:198 backend3/x11:199
-msgid "256 colors (8 bit)"
-msgstr "256 цветов (8 бит)"
-
-#: backend3/x11:199 backend3/x11:200
-msgid "32 thousand colors (15 bits)"
-msgstr "32 тысячи цветов (15 бит)"
-
-#: backend3/x11:200 backend3/x11:201
-msgid "65 thousand colors (16 bits)"
-msgstr "65 тысяч цветов (16 бит)"
-
-#: backend3/x11:201 backend3/x11:202
-msgid "16 million colors (24 bits)"
-msgstr "16 миллионов цветов (24 бита)"
-
-#: backend3/x11:202 backend3/x11:203
-msgid "4 billion colors (32 bits)"
-msgstr "4 миллиарда цветов (32 бита)"
-
-#: backend3/x11:203 backend3/x11:204
-msgid "bits"
-msgstr ""
-
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
-#. for write_enum_item
-#: backend3/x11:255 backend3/x11:254
-msgid "Automatically detected"
-msgstr "Автоматически определённый"
-
-#. config
-#: backend3/x11:324 backend3/x11:323
-msgid "config file doesn't exist"
-msgstr "конфигурационный файл не существует"
-
-#: backend3/x11:375 backend3/x11:374
-msgid "no workcopy was found"
-msgstr "не найдено рабочей копии конфигурационного файла"
-
-#: backend3/x11:379 backend3/x11:378
-msgid "X11 test failed"
-msgstr "Проверка не прошла"
-
-#: стандартный ввод:1 ввод:19 ввод:6
-msgid "Display"
-msgstr "Дисплей"
-
-#: стандартный ввод:2
-msgid "Drivers"
-msgstr "Драйверы"
-
-#: стандартный ввод:6 ввод:11
-msgid "Graphic display"
-msgstr "Графический дисплей"
-
-#: стандартный ввод:20 ввод:7
-msgid "Monitor vendors"
-msgstr "Производители мониторов"
-
-#.
-#: ui/net-eth/index.scm:110 стандартный ввод:2
-#: ui/net-eth/index.scm:112 ui/net-eth/index.scm:81
-msgid "Host name:"
-msgstr "Имя компьютера:"
-
-#.
-#: ui/net-eth/index.scm:118 стандартный ввод:3
-#: ui/net-eth/index.scm:120 ui/net-eth/index.scm:89
-msgid "DNS servers:"
-msgstr "DNS-серверы:"
-
-#.
-#: ui/net-eth/index.scm:123 стандартный ввод:4
-#: ui/net-eth/index.scm:125 ui/net-eth/index.scm:94
-msgid "Search domains:"
-msgstr "Домены поиска:"
-
-#: ui/net-eth/index.scm:129 ui/net-eth/index.scm:131 ui/net-eth/index.scm:100
-msgid "multiple values should be space separated"
-msgstr "несколько значений записываются через пробел"
-
-#: ui/net-eth/index.scm:137 стандартный ввод:5
-#: ui/net-eth/index.scm:139 ввод:2 ui/net-eth/index.scm:108
-msgid "Interfaces"
-msgstr "Интерфейсы"
-
-#.
-#: ui/net-eth/index.scm:152 стандартный ввод:7
-#: ui/net-eth/index.scm:154 ввод:4 ui/net-eth/index.scm:123
-msgid "Status:"
-msgstr "Состояние:"
-
-#.
-#: ui/net-eth/index.scm:156 стандартный ввод:8
-#: ui/net-eth/index.scm:158 ввод:5 ui/net-eth/index.scm:127
-msgid "Configuration:"
-msgstr "Конфигурация:"
-
-#.
-#: ui/net-eth/index.scm:166 стандартный ввод:9
-#: ui/net-eth/index.scm:168 ввод:6 ui/net-eth/index.scm:136
-msgid "IP address:"
-msgstr "IP-адрес:"
-
-#.
-#: ui/net-eth/index.scm:170 стандартный ввод:10
-#: ui/net-eth/index.scm:172 ввод:7 ui/net-eth/index.scm:140
-msgid "Netmask:"
-msgstr "Маска сети:"
-
-#.
-#: ui/net-eth/index.scm:174 стандартный ввод:11
-#: ui/net-eth/index.scm:176 ввод:8 ui/net-eth/index.scm:144
-msgid "Default gateway:"
-msgstr "Шлюз по умолчанию:"
-
-#.
-#: ui/net-eth/index.scm:178 стандартный ввод:12
-#: ui/net-eth/index.scm:180 ввод:9 ui/net-eth/index.scm:148
-msgid "Hardware binding:"
-msgstr "Привязка:"
-
-#: ui/net-eth/index.scm:183 стандартный ввод:13
-#: ui/net-eth/index.scm:185 ввод:10 ui/net-eth/index.scm:153
-msgid "Wireless settings..."
-msgstr "Параметры для беспроводных интерфейсов..."
-
-#: backend3/net-eth:145 backend3/net-eth:147
-msgid "missing"
-msgstr "отсутствует"
-
-#: backend3/net-eth:146 backend3/net-eth:148
-msgid "by MAC address"
-msgstr "по  аппаратному адресу (MAC)"
-
-#: backend3/net-eth:147 backend3/net-eth:149
-msgid "by bus location"
-msgstr "по местоположению на шине"
-
-#: backend3/net-eth:152 backend3/net-eth:154
-msgid "Turned off"
-msgstr "Выключено"
-
-#: backend3/net-eth:153 backend3/net-eth:351 backend3/net-eth:353
-#: backend3/net-eth:155
-msgid "Use DHCP"
-msgstr "Использовать DHCP"
-
-#: backend3/net-eth:154 backend3/net-eth:156
-msgid "Manually"
-msgstr "Вручную"
-
-#: backend3/net-eth:185 backend3/net-eth:187
-msgid "interface is up"
-msgstr "интерфейс включён"
-
-#: backend3/net-eth:185 backend3/net-eth:187
-msgid "interface is down"
-msgstr "интерфейс выключен"
-
-#: backend3/net-eth:190 backend3/net-eth:192
-msgid "plugged"
-msgstr "провод подсоединён"
-
-#: backend3/net-eth:191 backend3/net-eth:193
-msgid "unplugged"
-msgstr "провод отсоединён"
-
-#: backend3/net-eth:345 backend3/net-eth:347 backend3/net-eth:346
-msgid "Host name"
-msgstr "Имя компьютера"
-
-#: backend3/net-eth:347 backend3/net-eth:349 backend3/net-eth:348
-msgid "Search domains"
-msgstr "Домены поиска"
-
-#: backend3/net-eth:349 backend3/net-eth:351 backend3/net-eth:350
-msgid "DNS servers"
-msgstr "DNS-серверы"
-
-#: backend3/net-eth:353 backend3/net-eth:355
-msgid "IP address"
-msgstr "IP-адрес"
-
-#: backend3/net-eth:355 backend3/net-eth:357
-msgid "Default gateway"
-msgstr "Шлюз по умолчанию"
-
-#: стандартный ввод:1
-msgid "IP interfaces"
-msgstr "IP-интерфейсы"
 
 #: backend3/vsftpd:63
 msgid "yes"
@@ -2434,6 +481,11 @@ msgstr "Параметры локальных пользователей"
 msgid "For selected:"
 msgstr "Для выделенных:"
 
+#: стандартный ввод:18 ввод:20 ui/users/add/index.scm:73
+#: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24
+msgid "OK"
+msgstr "OK"
+
 #: стандартный ввод:19
 msgid "Add user:"
 msgstr "Добавить пользователя:"
@@ -2441,65 +493,6 @@ msgstr "Добавить пользователя:"
 #: стандартный ввод:21
 msgid "System users administration..."
 msgstr "Управление системными пользователями..."
-
-#: ui/root/index.scm:19
-msgid "You should define a password for system administrator"
-msgstr "Вы должны указать пароль для системного администратора"
-
-#: ui/root/index.scm:32
-msgid "Setup password for system administrator"
-msgstr "Укажите пароль для системного администратора"
-
-#: ui/root/passwd.scm:63 design/scripts/password.js:59
-msgid "Generate"
-msgstr "Сгенерировать"
-
-#: ui/root/passwd.scm:68 design/scripts/password.js:65
-msgid "Generate automatically"
-msgstr "Создать автоматически"
-
-#: backend3/root:29
-msgid "Unable to change password"
-msgstr "Невозможно сменить пароль"
-
-#: стандартный ввод:1
-msgid "System administrator"
-msgstr "Администратор системы"
-
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  ru.po (PACKAGE VERSION)  #-#-#-#-#
-#.
-#: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
-#: ввод:3 ввод:14 ввод:2
-msgid "Password:"
-msgstr "Пароль:"
-
-#: backend3/x11:214
-msgid "automatically"
-msgstr "автоматически"
 
 #: backend3/ahttpd:128
 msgid "all connections"
@@ -2639,6 +632,636 @@ msgstr "Положить сертификат, подписанный УЦ"
 msgid "Upload"
 msgstr "Положить"
 
+#: ui/timezone/index.scm:51 стандартный ввод:2
+msgid "Please, select country:"
+msgstr "Выберите страну:"
+
+#: ui/timezone/index.scm:62 стандартный ввод:4
+msgid "Please, select time zone:"
+msgstr "Выберите часовой пояс:"
+
+#: ui/timezone/index.scm:69 backend3/timezone:119 стандартный
+#: ввод:5
+msgid "Hardware time set to GMT"
+msgstr "Хранить время в BIOS по Гринвичу"
+
+#: backend3/timezone:117
+msgid "Country"
+msgstr "Страна"
+
+#: backend3/timezone:118 стандартный ввод:1
+msgid "Time zone"
+msgstr "Часовой пояс"
+
+#: ui/datetime/html-messages.scm:1 стандартный ввод:1
+msgid "Date/Time"
+msgstr "Дата/Время"
+
+#: ui/datetime/html-messages.scm:2 ui/datetime/index.scm:26
+#: backend3/datetime:40 стандартный ввод:2
+msgid "Get time from NTP server:"
+msgstr "Получать точное время с NTP-сервера:"
+
+#: ui/datetime/html-messages.scm:3 ui/datetime/index.scm:31
+#: стандартный ввод:3
+msgid "Work as NTP server"
+msgstr "Работать как NTP-сервер"
+
+#: ui/datetime/html-messages.scm:4 ui/datetime/index.scm:41
+#: стандартный ввод:4
+msgid "Current date:"
+msgstr "Текущая дата:"
+
+#: ui/datetime/html-messages.scm:5 ui/datetime/index.scm:42
+#: стандартный ввод:5
+msgid "Current time:"
+msgstr "Текущее время:"
+
+#: backend3/datetime:42
+msgid "NTP server"
+msgstr "NTP-сервер"
+
+#: backend3/datetime:44
+msgid "Current date"
+msgstr "Текущая дата"
+
+#: backend3/datetime:46
+msgid "date should be in YYYY-MM-DD format"
+msgstr "дата должна быть в формате ГГГГ-ММ-ДД"
+
+#: backend3/datetime:48
+msgid "Current time"
+msgstr "Текущее время"
+
+#: backend3/datetime:50
+msgid "time should be in HH:MM:SS format"
+msgstr "время должно быть в формате ЧЧ:ММ:CC"
+
+#: backend3/datetime:82
+msgid "unable to setup time"
+msgstr "невозможно установить время"
+
+#: design/scripts/datetime/calendar.js:42
+msgid "January"
+msgstr "Январь"
+
+#: design/scripts/datetime/calendar.js:43
+msgid "February"
+msgstr "Февраль"
+
+#: design/scripts/datetime/calendar.js:44
+msgid "March"
+msgstr "Март"
+
+#: design/scripts/datetime/calendar.js:45
+msgid "April"
+msgstr "Апрель"
+
+#: design/scripts/datetime/calendar.js:46
+msgid "May"
+msgstr "Май"
+
+#: design/scripts/datetime/calendar.js:47
+msgid "June"
+msgstr "Июнь"
+
+#: design/scripts/datetime/calendar.js:48
+msgid "July"
+msgstr "Июль"
+
+#: design/scripts/datetime/calendar.js:49
+msgid "August"
+msgstr "Август"
+
+#: design/scripts/datetime/calendar.js:50
+msgid "September"
+msgstr "Сентябрь"
+
+#: design/scripts/datetime/calendar.js:51
+msgid "October"
+msgstr "Октябрь"
+
+#: design/scripts/datetime/calendar.js:52
+msgid "November"
+msgstr "Ноябрь"
+
+#: design/scripts/datetime/calendar.js:53
+msgid "December"
+msgstr "Декабрь"
+
+#: design/scripts/datetime/calendar.js:56
+msgid "Mo"
+msgstr "Пн"
+
+#: design/scripts/datetime/calendar.js:56
+msgid "Tu"
+msgstr "Вт"
+
+#: design/scripts/datetime/calendar.js:56
+msgid "We"
+msgstr "Ср"
+
+#: design/scripts/datetime/calendar.js:56
+msgid "Th"
+msgstr "Чт"
+
+#: design/scripts/datetime/calendar.js:56
+msgid "Fr"
+msgstr "Пт"
+
+#: design/scripts/datetime/calendar.js:56
+msgid "Sa"
+msgstr "Сб"
+
+#: design/scripts/datetime/calendar.js:56
+msgid "Su"
+msgstr "Вс"
+
+#: ui/users/add/index.scm:20
+msgid "You should define a system user"
+msgstr "Вы должны указать системного пользователя"
+
+#: ui/users/add/index.scm:22
+msgid "You should define a password"
+msgstr "Вы должны указать пароль"
+
+#: ui/users/add/index.scm:24 ui/users/index.scm:64 ui/root/index.scm:22
+msgid "Passwords mismatch"
+msgstr "Введённые пароли не совпадают"
+
+#: ui/users/add/index.scm:53 стандартный ввод:2
+msgid "Account name:"
+msgstr "Имя пользователя:"
+
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
+#: ввод:3 ввод:14 ввод:2
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ui/users/add/index.scm:76 ui/x11/driver/index.scm:32
+#: ui/x11/monitor/index.scm:30
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ui/users/index.scm:44
+msgid "Do you really want to delete user "
+msgstr "Вы действительно хотите удалить пользователя "
+
+#: ui/users/index.scm:78 стандартный ввод:8
+msgid "New user..."
+msgstr "Создать пользователя..."
+
+#.
+#: ui/users/index.scm:93 стандартный ввод:10
+msgid "Comment:"
+msgstr "Комментарий:"
+
+#.
+#: ui/users/index.scm:96 стандартный ввод:11
+msgid "Home directory:"
+msgstr "Домашний каталог:"
+
+#.
+#: ui/users/index.scm:99 стандартный ввод:12
+msgid "Shell:"
+msgstr "Интерпретатор команд:"
+
+#: ui/users/index.scm:103 backend3/users:161 стандартный
+#: ввод:13
+msgid "Switching to superuser"
+msgstr "Переключение на администратора"
+
+#: ui/users/index.scm:123 стандартный ввод:18
+msgid "Delete user"
+msgstr "Удалить пользователя"
+
+#: backend3/users:66
+msgid "can't update password file"
+msgstr "невозможно обновить базу паролей"
+
+#. '
+#: backend3/users:67 backend3/users:108
+msgid "invalid command syntax"
+msgstr "неверный синтаксис команды"
+
+#: backend3/users:68
+msgid "invalid argument to option"
+msgstr "неверный параметр к аргументу"
+
+#: backend3/users:69
+msgid "uid already in use"
+msgstr "uid уже используется"
+
+#: backend3/users:70
+msgid "specified user doesn't exist"
+msgstr "пользователь не существует"
+
+#. '
+#: backend3/users:71
+msgid "user currently logged in"
+msgstr "пользователь сейчас в системе"
+
+#: backend3/users:72
+msgid "username already in use"
+msgstr "имя пользователя уже занято"
+
+#: backend3/users:73 backend3/users:114
+msgid "can't update group file"
+msgstr "невозможно обновить базу групп"
+
+#. '
+#: backend3/users:74
+msgid "can't create or remove home directory"
+msgstr "невозможно создать или удалить домашний каталог"
+
+#. '
+#: backend3/users:75
+msgid "can't create mail spool"
+msgstr "невозможно создать mail spool"
+
+#: backend3/users:84
+msgid "cannot change password"
+msgstr "невозможно изменить пароль"
+
+#: backend3/users:109
+msgid "invalid group name"
+msgstr "неверное имя группы"
+
+#: backend3/users:110
+msgid "gid not unique"
+msgstr "gid не уникален"
+
+#: backend3/users:111
+msgid "specified group doesn't exist"
+msgstr "указанная группа не существует"
+
+#: backend3/users:112
+msgid "can't remove user's primary group"
+msgstr "невозможно удалить первичную группу пользователя"
+
+#. '
+#: backend3/users:113
+msgid "group name not unique"
+msgstr "имя группы уже занято"
+
+#: backend3/users:131
+msgid "unable to add user %s to group %s"
+msgstr "невозможно добавить пользователя %s в группу %s"
+
+#: backend3/users:145
+msgid "unable to remove user %s from group %s"
+msgstr "невозможно удалить пользователя %s из группы %s"
+
+#: backend3/users:157
+msgid "only small latin letters, digits and '_' allowed"
+msgstr "допустимы только маленькие латинские символы, цифры и '_'"
+
+#: backend3/users:158
+msgid "Name"
+msgstr "Системное имя"
+
+#: backend3/users:159
+msgid "Shell"
+msgstr "Интерпретатор команд"
+
+#: backend3/users:160
+msgid "Home directory"
+msgstr "Домашний каталог"
+
+#: backend3/users:162 backend3/root:20 backend3/root:21
+msgid "Password"
+msgstr "Пароль"
+
+#: backend3/users:163
+msgid "Password (repeat)"
+msgstr "Пароль (повтор)"
+
+#: backend3/users:164
+msgid "Gecos"
+msgstr "Комментарий"
+
+#: стандартный ввод:1
+msgid "New user"
+msgstr "Создать пользователя"
+
+#: стандартный ввод:4 ввод:15 ui/root/passwd.scm:54
+#: ввод:3
+msgid "(enter passphrase)"
+msgstr "(введите фразу)"
+
+#: стандартный ввод:5 ввод:16 ui/root/passwd.scm:56
+#: ввод:4
+msgid "(repeat passphrase)"
+msgstr "(повторите фразу)"
+
+#: стандартный ввод:6
+msgid "Create"
+msgstr "Создать"
+
+#: стандартный ввод:7
+msgid "User accounts"
+msgstr "Учётные записи"
+
+#.
+#: ui/net-eth/index.scm:81 стандартный ввод:2
+msgid "Host name:"
+msgstr "Имя компьютера:"
+
+#.
+#: ui/net-eth/index.scm:89 стандартный ввод:3
+msgid "DNS servers:"
+msgstr "DNS-серверы:"
+
+#.
+#: ui/net-eth/index.scm:94 стандартный ввод:4
+msgid "Search domains:"
+msgstr "Домены поиска:"
+
+#: ui/net-eth/index.scm:100
+msgid "multiple values should be space separated"
+msgstr "несколько значений записываются через пробел"
+
+#: ui/net-eth/index.scm:108 стандартный ввод:5
+msgid "Interfaces"
+msgstr "Интерфейсы"
+
+#.
+#: ui/net-eth/index.scm:123 стандартный ввод:7
+msgid "Status:"
+msgstr "Состояние:"
+
+#.
+#: ui/net-eth/index.scm:127 стандартный ввод:8
+msgid "Configuration:"
+msgstr "Конфигурация:"
+
+#.
+#: ui/net-eth/index.scm:136 стандартный ввод:9
+msgid "IP address:"
+msgstr "IP-адрес:"
+
+#.
+#: ui/net-eth/index.scm:140 стандартный ввод:10
+msgid "Netmask:"
+msgstr "Маска сети:"
+
+#.
+#: ui/net-eth/index.scm:144 стандартный ввод:11
+msgid "Default gateway:"
+msgstr "Шлюз по умолчанию:"
+
+#.
+#: ui/net-eth/index.scm:148 стандартный ввод:12
+msgid "Hardware binding:"
+msgstr "Привязка:"
+
+#: ui/net-eth/index.scm:153 стандартный ввод:13
+msgid "Wireless settings..."
+msgstr "Параметры для беспроводных интерфейсов..."
+
+#: backend3/net-eth:145
+msgid "missing"
+msgstr "отсутствует"
+
+#: backend3/net-eth:146
+msgid "by MAC address"
+msgstr "по  аппаратному адресу (MAC)"
+
+#: backend3/net-eth:147
+msgid "by bus location"
+msgstr "по местоположению на шине"
+
+#: backend3/net-eth:152
+msgid "Turned off"
+msgstr "Выключено"
+
+#: backend3/net-eth:153
+msgid "Use DHCP"
+msgstr "Использовать DHCP"
+
+#: backend3/net-eth:154
+msgid "Manually"
+msgstr "Вручную"
+
+#: backend3/net-eth:185
+msgid "interface is up"
+msgstr "интерфейс включён"
+
+#: backend3/net-eth:185
+msgid "interface is down"
+msgstr "интерфейс выключен"
+
+#: backend3/net-eth:190
+msgid "plugged"
+msgstr "провод подсоединён"
+
+#: backend3/net-eth:191
+msgid "unplugged"
+msgstr "провод отсоединён"
+
+#: backend3/net-eth:346
+msgid "Host name"
+msgstr "Имя компьютера"
+
+#: backend3/net-eth:348
+msgid "Search domains"
+msgstr "Домены поиска"
+
+#: backend3/net-eth:350
+msgid "DNS servers"
+msgstr "DNS-серверы"
+
+#: backend3/net-eth:353
+msgid "IP address"
+msgstr "IP-адрес"
+
+#: backend3/net-eth:355
+msgid "Default gateway"
+msgstr "Шлюз по умолчанию"
+
+#: стандартный ввод:1
+msgid "IP interfaces"
+msgstr "IP-интерфейсы"
+
+#. messages from C tools
+#: ui/x11/c-messages.scm:2
+msgid "Yes"
+msgstr "Да"
+
+#: ui/x11/c-messages.scm:3
+msgid "No"
+msgstr "Нет"
+
+#: ui/x11/c-messages.scm:4
+msgid "Pause"
+msgstr "Стоп"
+
+#: ui/x11/c-messages.scm:5
+msgid "Press 'Yes' if you see a correct picture!"
+msgstr "Нажмите 'Да' если изображение правильное!"
+
+#: ui/x11/c-messages.scm:6
+msgid "Resume"
+msgstr "Пуск"
+
+#: ui/x11/driver/index.scm:11 стандартный ввод:3
+msgid "Drivers:"
+msgstr "Драйверы:"
+
+#: ui/x11/index.scm:29 стандартный ввод:7
+msgid "Detected hardware"
+msgstr "Обнаруженное оборудование"
+
+#: ui/x11/index.scm:35 стандартный ввод:8
+msgid "Video card:"
+msgstr "Видеокарта:"
+
+#: ui/x11/index.scm:41 ui/x11/index.scm:58 стандартный ввод:9
+#: ввод:11
+msgid "Monitor:"
+msgstr "Монитор:"
+
+#: ui/x11/index.scm:52 стандартный ввод:10
+msgid "Current settings"
+msgstr "Текущие настройки"
+
+#: ui/x11/index.scm:62 стандартный ввод:12
+msgid "Other vendor..."
+msgstr "Другой производитель..."
+
+#: ui/x11/index.scm:67 стандартный ввод:13
+msgid "Driver:"
+msgstr "Драйвер:"
+
+#: ui/x11/index.scm:71 стандартный ввод:14
+msgid "Other driver..."
+msgstr "Другой драйвер..."
+
+#: ui/x11/index.scm:76 стандартный ввод:15
+msgid "Color depth:"
+msgstr "Глубина цвета:"
+
+#: ui/x11/index.scm:82 стандартный ввод:16
+msgid "Resolution:"
+msgstr "Разрешение:"
+
+#: ui/x11/index.scm:94 backend3/x11:173
+msgid "Test"
+msgstr "Проверить"
+
+#: ui/x11/monitor/index.scm:10 стандартный ввод:21
+msgid "Monitor vendors:"
+msgstr "Производители мониторов:"
+
+#: backend3/x11:171
+msgid "Test current display settings"
+msgstr "Проверьте текущие настройки дисплея"
+
+#: backend3/x11:172
+msgid "Test failed"
+msgstr "Проверка не прошла"
+
+#: backend3/x11:181
+msgid "recommended"
+msgstr "рекомендовано"
+
+#: backend3/x11:199
+msgid "256 colors (8 bit)"
+msgstr "256 цветов (8 бит)"
+
+#: backend3/x11:200
+msgid "32 thousand colors (15 bits)"
+msgstr "32 тысячи цветов (15 бит)"
+
+#: backend3/x11:201
+msgid "65 thousand colors (16 bits)"
+msgstr "65 тысяч цветов (16 бит)"
+
+#: backend3/x11:202
+msgid "16 million colors (24 bits)"
+msgstr "16 миллионов цветов (24 бита)"
+
+#: backend3/x11:203
+msgid "4 billion colors (32 bits)"
+msgstr "4 миллиарда цветов (32 бита)"
+
+#: backend3/x11:204
+msgid "bits"
+msgstr ""
+
+#: backend3/x11:214
+msgid "automatically"
+msgstr "автоматически"
+
+#. for write_enum_item
+#: backend3/x11:254
+msgid "Automatically detected"
+msgstr "Автоматически определённый"
+
+#. config
+#: backend3/x11:323
+msgid "config file doesn't exist"
+msgstr "конфигурационный файл не существует"
+
+#: backend3/x11:374
+msgid "no workcopy was found"
+msgstr "не найдено рабочей копии конфигурационного файла"
+
+#: backend3/x11:378
+msgid "X11 test failed"
+msgstr "Проверка не прошла"
+
+#: стандартный ввод:1 ввод:19
+msgid "Display"
+msgstr "Дисплей"
+
+#: стандартный ввод:2
+msgid "Drivers"
+msgstr "Драйверы"
+
+#: стандартный ввод:6
+msgid "Graphic display"
+msgstr "Графический дисплей"
+
+#: стандартный ввод:20
+msgid "Monitor vendors"
+msgstr "Производители мониторов"
+
+#: ui/logs/index.scm:27 стандартный ввод:1
+msgid "Logs:"
+msgstr "Журналы:"
+
+#: ui/logs/index.scm:32 стандартный ввод:3
+msgid "Previous"
+msgstr "Назад"
+
+#: ui/logs/index.scm:33 стандартный ввод:4
+msgid "Next"
+msgstr "Далее"
+
+#: ui/logs/index.scm:35 стандартный ввод:5
+msgid "First page"
+msgstr "Первая страница"
+
+#: ui/logs/index.scm:36 стандартный ввод:6
+msgid "Last page"
+msgstr "Последняя страница"
+
+#: ui/logs/index.scm:38 стандартный ввод:7
+msgid "Show:"
+msgstr "Показывать:"
+
 #: backend3/logs:98
 msgid "Lines %s-%s of %s"
 msgstr "Строки %s-%s из %s"
@@ -2659,346 +1282,213 @@ msgstr "50 строк"
 msgid "100 lines"
 msgstr "100 строк"
 
-#: стандартный ввод:1 ui/logs/index.scm:27
-msgid "Logs:"
-msgstr "Журналы:"
-
 #: стандартный ввод:2
 msgid "View"
 msgstr "Посмотреть"
 
-#: стандартный ввод:3 ui/logs/index.scm:32
-msgid "Previous"
-msgstr "Назад"
-
-#: стандартный ввод:4 ui/logs/index.scm:33
-msgid "Next"
-msgstr "Далее"
-
-#: стандартный ввод:6 ui/logs/index.scm:36
-msgid "Last page"
-msgstr "Последняя страница"
-
-#: стандартный ввод:7 ui/logs/index.scm:38
-msgid "Show:"
-msgstr "Показывать:"
-
-#: ui/services/index.scm:25 стандартный ввод:4
-msgid "Current state"
-msgstr "Текущее состояние службы"
-
-#: ui/xinetd/index.scm:107 стандартный ввод:2
-#: ui/services/index.scm:68
-msgid "Services"
-msgstr "Сервисы"
-
-#: ui/services/index.scm:75 ui/xinetd/index.scm:114
+#: ui/alternatives/index.scm:36
 msgid ""
-"There are unsaved changes in the service settings. Do you want to apply "
-"these changes?"
+"You have made some changes in alternative configuration\n"
+"Do you want to apply your changes?"
 msgstr ""
-"В настройках сервиса произошли изменения. Хотите ли вы сохранить эти "
-"настройки?"
+"Вы произвели модификацию конфигурации альтернатив\n"
+"Желаете ли вы принять свои изменения?"
 
-#: ui/services/index.scm:87
-msgid "Change state"
-msgstr "Изменить состояние"
+#: ui/alternatives/index.scm:71 стандартный ввод:2
+msgid "Alternatives:"
+msgstr "Альтернативы:"
 
-#: ui/services/index.scm:93 стандартный ввод:5
-msgid "Start on boot"
-msgstr "Запускать при загрузке системы"
+#: ui/alternatives/index.scm:95 стандартный ввод:4
+msgid "Candidates:"
+msgstr "Кандидаты:"
 
-#. Get status information: stopped|running|unknown
-#. Usage string must be provided
-#. (srv usage)
-#: backend3/services:46 backend3/services:113
-msgid "unknown"
-msgstr "неизвестно"
+#: ui/alternatives/index.scm:106 стандартный ввод:5
+msgid "Choose candidate manually"
+msgstr "Указать кандидата вручную"
 
-#. [[ "$unf_status" =~ "is stopped" ]] && status="\"stopped\""
-#. [[ "$unf_status" =~ "is running" ]] && status="\"running\""
-#: backend3/services:52 backend3/services:129 backend3/services:130
-msgid "stopped"
-msgstr "остановлена"
+#: ui/alternatives/index.scm:116 стандартный ввод:6
+msgid ""
+"In most cases candidates selection works well automatically using weight "
+"written in their config file, but you can choose variant manually"
+msgstr ""
+"В большинстве случаев выбор кандидатов хорошо работает в автоматическом "
+"режиме, используя веса указанные в их конфигурационных файлах, но вы можете "
+"выбрать нужный вариант в ручную"
 
-#: backend3/services:53 backend3/services:128
-msgid "running"
-msgstr "работает"
+#: backend3/alternatives:13
+msgid "Alternative"
+msgstr "Альтернативa"
 
-#: backend3/services:116
-msgid "Service"
-msgstr "Служба"
+#: backend3/alternatives:14
+msgid "Candidate"
+msgstr "Кандидат"
 
-#: backend3/services:127
-msgid "do not change"
-msgstr "не менять"
-
-#: backend3/services:128
-msgid "start"
-msgstr "запустить"
-
-#: backend3/services:129
-msgid "stop"
-msgstr "остановить"
-
-#: backend3/services:130
-msgid "restart"
-msgstr "перезапустить"
+#: backend3/alternatives:15
+msgid "Manual setup"
+msgstr "настройка вручную"
 
 #: стандартный ввод:1
-msgid "System services"
-msgstr "Системные службы"
+msgid "Alternatives subsystem"
+msgstr "Альтернативы"
 
-#: ui/license/index.scm:10 ui/notes/license.scm:10
-msgid "Please take a moment to read the license agreement now."
-msgstr ""
-"Прочтите, пожалуйста, лицензионное соглашение. Если вы согласны, отметьте "
-"«Да, я согласен с условиями» и нажмите «Далее»."
+#: ui/control/html-messages.scm:1 ui/control/html-messages.scm:2
+#: стандартный ввод:1 ввод:2
+msgid "System objects"
+msgstr "Системные объекты"
 
-#: ui/license/index.scm:12 ui/notes/license.scm:12
-msgid "License file not found"
-msgstr "Файл лицензии не найден"
+#: ui/control/html-messages.scm:4 стандартный ввод:4
+msgid "Update help"
+msgstr "Обновить справку"
 
-#: ui/license/index.scm:17 ui/notes/license.scm:17
-msgid "Yes, I agree"
-msgstr "Да, я согласен с условиями"
+#: ui/control/index.scm:30 backend3/control:21
+msgid "Facility"
+msgstr "Системный объект"
 
-#: ui/notes/release-notes.scm:9
-msgid "Release Notes"
-msgstr "Информация о дистрибутиве"
+#: ui/control/index.scm:30 backend3/control:22
+msgid "Summary"
+msgstr "Комментарий"
 
-#: ui/notes/release-notes.scm:11
-msgid "Installation complete"
-msgstr "Установка завершена"
+#: backend3/control:17
+msgid "Available modes"
+msgstr "Возможные режимы"
 
-#: backend3/notes:32
-msgid "File not found"
-msgstr "Файл не найден"
-
-#: ui/logs/index.scm:35 стандартный ввод:5
-msgid "First page"
-msgstr "Первая страница"
-
-#: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25
-msgid "Common settings"
-msgstr "Общие настройки"
-
-#: ui/xinetd/index.scm:67
-msgid "internal service"
-msgstr "встроенный сервис"
-
-#: ui/xinetd/index.scm:127
-msgid "Enable service"
-msgstr "Включить сервис"
-
-#: ui/xinetd/index.scm:128 стандартный ввод:5
-msgid "User"
-msgstr "Пользователь"
-
-#: ui/xinetd/index.scm:129 стандартный ввод:6
-msgid "Group"
-msgstr "Группа"
-
-#: ui/xinetd/index.scm:130 стандартный ввод:7
-msgid "Server"
-msgstr "Сервер"
-
-#: ui/xinetd/index.scm:131 стандартный ввод:8
-msgid "Server args"
-msgstr "Аргументы сервера"
-
-#: ui/xinetd/index.scm:132 стандартный ввод:9
-msgid "Rlimit as"
-msgstr ""
-
-#: ui/xinetd/index.scm:133 стандартный ввод:10
-msgid "Instances"
-msgstr "Процессов"
-
-#: ui/xinetd/index.scm:134 стандартный ввод:11
-msgid "Per source"
-msgstr "На каждого клиента"
-
-#: ui/xinetd/index.scm:135 стандартный ввод:12
-msgid "Only from"
-msgstr "Только с адресов"
-
-#: ui/xinetd/index.scm:137
-msgid ""
-"This dialog changes only configuration file for xinetd. You must<br> restart "
-"running xinetd to make it reread new configuration."
-msgstr ""
-"Этот диалог меняет конфигурационный файл для xinetd. Чтобы изменения <br> "
-"повлияли на работающюю службу xinetd -- перезапустите ее."
-
-#: стандартный ввод:1
-msgid "Xinetd server"
-msgstr "Сетевой суперсервер"
-
-#: стандартный ввод:4
-msgid "State"
-msgstr "Состояние"
-
-#: стандартный ввод:13
-msgid ""
-"This dialog changes only configuration file for xinetd. You must restart "
-"running xinetd to make it reread new configuration."
-msgstr ""
-"Этот диалог меняет конфигурационный файл для xinetd. Чтобы изменения "
-"повлияли на работающюю службу xinetd -- перезапустите ее."
-
-#: стандартный ввод:14
-msgid "Start, stop or restart xinetd"
-msgstr "Запустить, остановить или перезапустить xinetd"
-
-#: ui/lilo/view-source.scm:45 ui/lilo/extra-sections.scm:156
-#: ui/lilo/extra-general.scm:96
-msgid "Normal mode"
-msgstr "Обычный режим"
-
-#: ui/lilo/view-source.scm:46 ui/lilo/extra-sections.scm:157
-#: ui/lilo/extra-general.scm:97
-msgid "Global options"
-msgstr "Глобальные настройки"
-
-#: ui/lilo/view-source.scm:47 ui/lilo/extra-sections.scm:158
-#: ui/lilo/extra-general.scm:98
-msgid "Boot sections"
-msgstr "Варианты загрузки"
-
-#: ui/lilo/view-source.scm:48 ui/lilo/extra-sections.scm:159
-#: ui/lilo/extra-general.scm:99
-msgid "Edit source"
-msgstr "Редактировать исходник"
-
-#: ui/lilo/view-source.scm:53 ui/lilo/extra-sections.scm:191
-msgid "Save"
-msgstr "Сохранить"
-
-#: ui/lilo/index.scm:53
-msgid "Master Boot Record"
-msgstr "Главная загрузочная запись"
-
-#: ui/lilo/index.scm:54
-msgid "First sector of partition"
-msgstr "Первый сектор раздела"
-
-#: ui/lilo/index.scm:74
-msgid ""
-"Boot loader is used to boot your operating system and it can be configured "
-"here. If this is a sole operating system on this machine you should install "
-"the boot loader on Master Boot Record. Otherwise, please consult the "
-"documentation for available options."
-msgstr ""
-"Сейчас можно настроить загрузчик операционной системы. Если это единственная "
-"операционная система на этом компьютере, то вам следует установить загрузчик "
-"в Главную загрузочную запись. Иначе ознакомьтесь с документацией."
-
-#: ui/lilo/index.scm:79
-msgid "Install boot loader on"
-msgstr "Установить загрузчик в"
-
-#: ui/lilo/index.scm:83
-msgid "Device"
-msgstr "Устройство"
-
-#: ui/lilo/index.scm:83
-msgid "Size"
-msgstr "Размер"
-
-#: ui/lilo/index.scm:83
-msgid "Destination"
+#: backend3/control:18
+msgid "Description"
 msgstr "Описание"
 
-#: ui/lilo/index.scm:85
-msgid "Show partitions"
-msgstr "Показать разделы"
+#: backend3/control:77
+msgid "facility setup failed"
+msgstr "установка режима не удалась"
 
-#: ui/lilo/index.scm:102
-msgid "Expert settings"
-msgstr "Экспертные настройки"
+#: ui/root/index.scm:19
+msgid "You should define a password for system administrator"
+msgstr "Вы должны указать пароль для системного администратора"
 
-#: ui/lilo/extra-sections.scm:100 ui/lilo/extra-sections.scm:110
-#: ui/lilo/extra-sections.scm:122 ui/lilo/extra-sections.scm:127
-msgid "<UNDEFINED>"
-msgstr "<UNDEFINED>"
+#: ui/root/index.scm:32
+msgid "Setup password for system administrator"
+msgstr "Укажите пароль для системного администратора"
 
-#: ui/lilo/extra-sections.scm:164
-msgid "Set default"
-msgstr "По умолчанию"
+#: ui/root/passwd.scm:63 design/scripts/password.js:59
+msgid "Generate"
+msgstr "Сгенерировать"
 
-#: ui/lilo/extra-sections.scm:169
-msgid "New Linux section"
-msgstr "Создать вариант linux"
+#: ui/root/passwd.scm:68 design/scripts/password.js:65
+msgid "Generate automatically"
+msgstr "Создать автоматически"
 
-#: ui/lilo/extra-sections.scm:170
-msgid "New Other section"
-msgstr "Создать другой вариант"
+#: backend3/root:29
+msgid "Unable to change password"
+msgstr "Невозможно сменить пароль"
 
-#: ui/lilo/extra-sections.scm:177
-msgid "Label:"
-msgstr "Название:"
+#: стандартный ввод:1
+msgid "System administrator"
+msgstr "Администратор системы"
 
-#: ui/lilo/extra-sections.scm:179
-msgid "Image:"
-msgstr "Ядро:"
+#: backend3/spamassassin:71
+msgid "SMTP transport status"
+msgstr "Состояние SMTP транспорта"
 
-#: ui/lilo/extra-sections.scm:180
-msgid "Initrd:"
-msgstr ""
+#: backend3/spamassassin:72
+msgid "Spam filter mode"
+msgstr "Режим cпам-фильтра"
 
-#: ui/lilo/extra-sections.scm:181
-msgid "Root:"
-msgstr "Корневой каталог:"
+#: backend3/spamassassin:74
+msgid "Required score"
+msgstr "Пороговое значение"
 
-#: ui/lilo/extra-sections.scm:182 ui/lilo/extra-general.scm:118
-msgid "Kernel params:"
-msgstr "Параметры ядра:"
+#: backend3/spamassassin:75
+msgid "should be number"
+msgstr "должно быть число"
 
-#: ui/lilo/extra-sections.scm:184
-msgid "Device:"
-msgstr "Устройство:"
+#: backend3/spamassassin:76
+msgid "Use automatic sender whitelist"
+msgstr "Вести белый список отправителей"
 
-#: ui/lilo/extra-sections.scm:185
-msgid "Alias:"
-msgstr "Альтернативное название:"
+#: backend3/spamassassin:78 стандартный ввод:12
+msgid "Rule"
+msgstr "Правило"
 
-#: ui/lilo/extra-sections.scm:186
-msgid "Boot-as:"
-msgstr ""
+#: backend3/spamassassin:79 стандартный ввод:13
+msgid "Score"
+msgstr "Баллы"
 
-#: ui/lilo/extra-sections.scm:187
-msgid "Table:"
-msgstr ""
+#: backend3/spamassassin:86
+msgid "Off"
+msgstr "Выключен"
 
-#: ui/lilo/extra-sections.scm:193
-msgid "Remove"
-msgstr "Удалить"
+#: backend3/spamassassin:87
+msgid "On, without content filter"
+msgstr "Включен, без фильтра"
 
-#: ui/lilo/extra-general.scm:106
-msgid "Skip bootloader installation"
-msgstr "Пропустить установку загрузчика"
+#: backend3/spamassassin:88
+msgid "On, with content filter"
+msgstr "Включен, с фильтром"
 
-#: ui/lilo/extra-general.scm:110
-msgid "Write lilo.conf without boot loader installation"
-msgstr "Создать lilo.conf без установки загрузчика"
+#: backend3/spamassassin:91
+msgid "Mark only"
+msgstr "Только помечать"
 
-#: ui/lilo/extra-general.scm:116
-msgid "Boot:"
-msgstr ""
+#: backend3/spamassassin:92
+msgid "Drop mail"
+msgstr "Удалять почту"
 
-#: ui/lilo/extra-general.scm:119
-msgid "Timeout:"
-msgstr "Время ожидания:"
+#: стандартный ввод:1 ввод:10 ввод:16
+msgid "Spam filter"
+msgstr "Спам-фильтр"
 
-#: ui/lilo/extra-general.scm:120
-msgid "Interface:"
-msgstr "Интерфейс:"
+#: стандартный ввод:2 ввод:11
+msgid "Rules and scores"
+msgstr "Правила и баллы"
 
-#: ui/lilo/extra-general.scm:121
-msgid "Raid-extra-boot:"
-msgstr ""
+#: стандартный ввод:3
+msgid "Add rule"
+msgstr "Добавить правило"
 
-#: ui/lilo/index.scm:79 ui/lilo/extra-general.scm:116
-msgid "Install boot loader on:"
-msgstr "Установить загрузчик в:"
+#: стандартный ввод:4
+msgid "Rule:"
+msgstr "Правило:"
+
+#: стандартный ввод:6
+msgid "Description:"
+msgstr "Описание:"
+
+#: стандартный ввод:7
+msgid "Score:"
+msgstr "Баллы:"
+
+#: стандартный ввод:14
+msgid "Remove selected"
+msgstr "Удалить выделенные"
+
+#: стандартный ввод:15
+msgid "Add rule..."
+msgstr "Добавить правило..."
+
+#: стандартный ввод:17
+msgid "start, stop or restart mail service"
+msgstr "запустить, остановить или перезапустить почтовую службу"
+
+#: стандартный ввод:18
+msgid "start, stop or restart anti-spam service"
+msgstr "запустить, остановить или перезапустить антиспам"
+
+#: стандартный ввод:19
+msgid "SMTP transport status:"
+msgstr "Состояние SMTP транспорта:"
+
+#: стандартный ввод:20
+msgid "Required score:"
+msgstr "Пороговое значение:"
+
+#: стандартный ввод:21
+msgid "Setup rules and scores..."
+msgstr "Настроить правила и баллы..."
+
+#: стандартный ввод:22
+msgid "Spam filter mode:"
+msgstr "Режим cпам-фильтра:"
+
+#: стандартный ввод:23
+msgid "Use automatic sender whitelist:"
+msgstr "Вести белый список отправителей:"
+
