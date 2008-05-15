@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.4
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -30,6 +30,9 @@ make check
 
 
 %changelog
+* Thu May 15 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.4-alt2
+- modify with new alterator-lilo
+
 * Tue May 13 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt1
 - add alterator-datetime
 - add alterator-control

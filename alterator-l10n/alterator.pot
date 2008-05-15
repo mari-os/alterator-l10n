@@ -72,7 +72,8 @@ msgstr ""
 #: ui/users/index.scm:118 ввод:17 ui/net-eth/index.scm:171
 #: ui/x11/index.scm:97 ввод:4 ввод:22 ui/alternatives/index.scm:129
 #: ui/control/index.scm:70 ui/root/index.scm:39 ввод:5 ввод:8
-#: ввод:24
+#: ввод:24 ui/timezone/index.scm:69 ui/lilo/extra-sections/index.scm:209
+#: ui/lilo/extra-general/index.scm:111 ввод:9
 msgid "Apply"
 msgstr ""
 
@@ -82,7 +83,9 @@ msgstr ""
 #: ui/lilo/view-source/index.scm:59 ui/auth/index.scm:77
 #: стандартный ввод:8 ввод:15 ввод:7
 #: ui/datetime/html-messages.scm:7 ui/net-eth/index.scm:172 ввод:5
-#: ввод:18 ввод:23 ввод:9 ввод:25
+#: ввод:18 ввод:23 ввод:9 ввод:25 ui/timezone/index.scm:70
+#: ui/lilo/extra-sections/index.scm:199 ui/lilo/extra-sections/index.scm:210
+#: ui/lilo/extra-general/index.scm:112 ввод:10
 msgid "Reset"
 msgstr ""
 
@@ -132,6 +135,8 @@ msgid "Select"
 msgstr ""
 
 #: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25
+#: ui/lilo/extra-sections/index.scm:157 ui/lilo/extra-general/index.scm:80
+#: ui/lilo/view-source/index.scm:46
 msgid "Common settings"
 msgstr ""
 
@@ -217,6 +222,7 @@ msgid ""
 msgstr ""
 
 #: ui/lilo/index.scm:78 ui/lilo/extra-general/index.scm:98
+#: ui/lilo/extra-general/index.scm:99
 msgid "Install boot loader on:"
 msgstr ""
 
@@ -256,7 +262,7 @@ msgid "Global options"
 msgstr ""
 
 #: ui/lilo/extra-sections/index.scm:158 ui/lilo/extra-general/index.scm:82
-#: ui/lilo/view-source/index.scm:47
+#: ui/lilo/view-source/index.scm:47 ui/lilo/extra-general/index.scm:81
 msgid "Boot sections"
 msgstr ""
 
@@ -265,7 +271,8 @@ msgstr ""
 msgid "Edit source"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:164
+#: ui/lilo/extra-sections/index.scm:164 ui/lilo/extra-sections/index.scm:189
+#: ui/lilo/extra-sections/index.scm:190
 msgid "Set default"
 msgstr ""
 
@@ -294,6 +301,7 @@ msgid "Root:"
 msgstr ""
 
 #: ui/lilo/extra-sections/index.scm:182 ui/lilo/extra-general/index.scm:99
+#: ui/lilo/extra-general/index.scm:100
 msgid "Kernel params:"
 msgstr ""
 
@@ -315,30 +323,31 @@ msgstr ""
 
 #: ui/lilo/extra-sections/index.scm:191 ui/lilo/view-source/index.scm:53
 #: ui/control/html-messages.scm:3 стандартный ввод:3
+#: ui/lilo/extra-sections/index.scm:198 ввод:2
 msgid "Save"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:193
+#: ui/lilo/extra-sections/index.scm:193 ui/lilo/extra-sections/index.scm:200
 msgid "Remove"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:90
+#: ui/lilo/extra-general/index.scm:90 ui/lilo/extra-general/index.scm:91
 msgid "Skip bootloader installation"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:94
+#: ui/lilo/extra-general/index.scm:94 ui/lilo/extra-general/index.scm:95
 msgid "Write lilo.conf without boot loader installation"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:100
+#: ui/lilo/extra-general/index.scm:100 ui/lilo/extra-general/index.scm:101
 msgid "Timeout:"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:101
+#: ui/lilo/extra-general/index.scm:101 ui/lilo/extra-general/index.scm:102
 msgid "Interface:"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:102
+#: ui/lilo/extra-general/index.scm:102 ui/lilo/extra-general/index.scm:103
 msgid "Raid-extra-boot:"
 msgstr ""
 
@@ -618,23 +627,26 @@ msgid "Upload"
 msgstr ""
 
 #: ui/timezone/index.scm:51 стандартный ввод:2
+#: ui/timezone/index.scm:35
 msgid "Please, select country:"
 msgstr ""
 
 #: ui/timezone/index.scm:62 стандартный ввод:4
+#: ui/timezone/index.scm:48
 msgid "Please, select time zone:"
 msgstr ""
 
 #: ui/timezone/index.scm:69 backend3/timezone:119 стандартный
-#: ввод:5
+#: ввод:5 ui/timezone/index.scm:58 backend3/timezone:123
 msgid "Hardware time set to GMT"
 msgstr ""
 
-#: backend3/timezone:117
+#: backend3/timezone:117 backend3/timezone:121
 msgid "Country"
 msgstr ""
 
 #: backend3/timezone:118 стандартный ввод:1
+#: backend3/timezone:122
 msgid "Time zone"
 msgstr ""
 
@@ -781,6 +793,15 @@ msgstr ""
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -1055,23 +1076,23 @@ msgstr ""
 msgid "unplugged"
 msgstr ""
 
-#: backend3/net-eth:346
+#: backend3/net-eth:346 backend3/net-eth:348
 msgid "Host name"
 msgstr ""
 
-#: backend3/net-eth:348
+#: backend3/net-eth:348 backend3/net-eth:350
 msgid "Search domains"
 msgstr ""
 
-#: backend3/net-eth:350
+#: backend3/net-eth:350 backend3/net-eth:352
 msgid "DNS servers"
 msgstr ""
 
-#: backend3/net-eth:353
+#: backend3/net-eth:353 backend3/net-eth:354
 msgid "IP address"
 msgstr ""
 
-#: backend3/net-eth:355
+#: backend3/net-eth:355 backend3/net-eth:356
 msgid "Default gateway"
 msgstr ""
 
@@ -1104,40 +1125,40 @@ msgstr ""
 msgid "Drivers:"
 msgstr ""
 
-#: ui/x11/index.scm:29 стандартный ввод:7
+#: ui/x11/index.scm:29 стандартный ввод:7 ввод:12
 msgid "Detected hardware"
 msgstr ""
 
-#: ui/x11/index.scm:35 стандартный ввод:8
+#: ui/x11/index.scm:35 стандартный ввод:8 ввод:13
 msgid "Video card:"
 msgstr ""
 
 #: ui/x11/index.scm:41 ui/x11/index.scm:58 стандартный ввод:9
-#: ввод:11
+#: ввод:11 ввод:14 ввод:16
 msgid "Monitor:"
 msgstr ""
 
-#: ui/x11/index.scm:52 стандартный ввод:10
+#: ui/x11/index.scm:52 стандартный ввод:10 ввод:15
 msgid "Current settings"
 msgstr ""
 
-#: ui/x11/index.scm:62 стандартный ввод:12
+#: ui/x11/index.scm:62 стандартный ввод:12 ввод:17
 msgid "Other vendor..."
 msgstr ""
 
-#: ui/x11/index.scm:67 стандартный ввод:13
+#: ui/x11/index.scm:67 стандартный ввод:13 ввод:18
 msgid "Driver:"
 msgstr ""
 
-#: ui/x11/index.scm:71 стандартный ввод:14
+#: ui/x11/index.scm:71 стандартный ввод:14 ввод:19
 msgid "Other driver..."
 msgstr ""
 
-#: ui/x11/index.scm:76 стандартный ввод:15
+#: ui/x11/index.scm:76 стандартный ввод:15 ввод:20
 msgid "Color depth:"
 msgstr ""
 
-#: ui/x11/index.scm:82 стандартный ввод:16
+#: ui/x11/index.scm:82 стандартный ввод:16 ввод:21
 msgid "Resolution:"
 msgstr ""
 
@@ -1145,7 +1166,7 @@ msgstr ""
 msgid "Test"
 msgstr ""
 
-#: ui/x11/monitor/index.scm:10 стандартный ввод:21
+#: ui/x11/monitor/index.scm:10 стандартный ввод:21 ввод:8
 msgid "Monitor vendors:"
 msgstr ""
 
@@ -1207,7 +1228,7 @@ msgstr ""
 msgid "X11 test failed"
 msgstr ""
 
-#: стандартный ввод:1 ввод:19
+#: стандартный ввод:1 ввод:19 ввод:6
 msgid "Display"
 msgstr ""
 
@@ -1215,11 +1236,11 @@ msgstr ""
 msgid "Drivers"
 msgstr ""
 
-#: стандартный ввод:6
+#: стандартный ввод:6 ввод:11
 msgid "Graphic display"
 msgstr ""
 
-#: стандартный ввод:20
+#: стандартный ввод:20 ввод:7
 msgid "Monitor vendors"
 msgstr ""
 
@@ -1312,11 +1333,11 @@ msgid "Alternatives subsystem"
 msgstr ""
 
 #: ui/control/html-messages.scm:1 ui/control/html-messages.scm:2
-#: стандартный ввод:1 ввод:2
+#: стандартный ввод:1 ввод:2 ввод:4
 msgid "System objects"
 msgstr ""
 
-#: ui/control/html-messages.scm:4 стандартный ввод:4
+#: ui/control/html-messages.scm:4 стандартный ввод:4 ввод:3
 msgid "Update help"
 msgstr ""
 
@@ -1336,7 +1357,7 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: backend3/control:77
+#: backend3/control:77 backend3/control:74
 msgid "facility setup failed"
 msgstr ""
 
@@ -1470,4 +1491,22 @@ msgstr ""
 
 #: стандартный ввод:23
 msgid "Use automatic sender whitelist:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:156 ui/lilo/extra-general/index.scm:79
+#: ui/lilo/view-source/index.scm:45
+msgid "Simple mode"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:159 ui/lilo/extra-general/index.scm:82
+#: ui/lilo/view-source/index.scm:48
+msgid "Edit lilo.conf"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:169
+msgid "Linux loader"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:170
+msgid "Other loader"
 msgstr ""
