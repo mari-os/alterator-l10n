@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.4
-Release: alt3
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -30,6 +30,9 @@ make check
 
 
 %changelog
+* Mon May 26 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt5
+- add alterator-sysconfig
+
 * Fri May 23 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt3
 - update for new alterator-lilo
 - add alterator-wizardface

@@ -73,7 +73,8 @@ msgstr ""
 #: ui/x11/index.scm:97 ввод:4 ввод:22 ui/alternatives/index.scm:129
 #: ui/control/index.scm:70 ui/root/index.scm:39 ввод:5 ввод:8
 #: ввод:24 ui/timezone/index.scm:69 ui/lilo/extra-sections/index.scm:209
-#: ui/lilo/extra-general/index.scm:111 ввод:9
+#: ui/lilo/extra-general/index.scm:111 ввод:9 ui/net-eth/index.scm:166
+#: ui/root/index.scm:37
 msgid "Apply"
 msgstr ""
 
@@ -85,7 +86,7 @@ msgstr ""
 #: ui/datetime/html-messages.scm:7 ui/net-eth/index.scm:172 ввод:5
 #: ввод:18 ввод:23 ввод:9 ввод:25 ui/timezone/index.scm:70
 #: ui/lilo/extra-sections/index.scm:199 ui/lilo/extra-sections/index.scm:210
-#: ui/lilo/extra-general/index.scm:112 ввод:10
+#: ui/lilo/extra-general/index.scm:112 ввод:10 ui/net-eth/index.scm:167
 msgid "Reset"
 msgstr ""
 
@@ -482,6 +483,7 @@ msgstr ""
 
 #: стандартный ввод:18 ввод:20 ui/users/add/index.scm:73
 #: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24
+#: ui/users/add/index.scm:67
 msgid "OK"
 msgstr ""
 
@@ -787,6 +789,7 @@ msgid "Passwords mismatch"
 msgstr ""
 
 #: ui/users/add/index.scm:53 стандартный ввод:2
+#: ui/users/add/index.scm:47
 msgid "Account name:"
 msgstr ""
 
@@ -797,6 +800,9 @@ msgstr ""
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -814,12 +820,12 @@ msgstr ""
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
-#: ввод:3 ввод:14 ввод:2
+#: ввод:3 ввод:14 ввод:2 ui/users/add/index.scm:56
 msgid "Password:"
 msgstr ""
 
 #: ui/users/add/index.scm:76 ui/x11/driver/index.scm:32
-#: ui/x11/monitor/index.scm:30
+#: ui/x11/monitor/index.scm:30 ui/users/add/index.scm:70
 msgid "Cancel"
 msgstr ""
 
@@ -965,12 +971,12 @@ msgid "New user"
 msgstr ""
 
 #: стандартный ввод:4 ввод:15 ui/root/passwd.scm:54
-#: ввод:3
+#: ввод:3 ui/root/passwd/index.scm:54
 msgid "(enter passphrase)"
 msgstr ""
 
 #: стандартный ввод:5 ввод:16 ui/root/passwd.scm:56
-#: ввод:4
+#: ввод:4 ui/root/passwd/index.scm:56
 msgid "(repeat passphrase)"
 msgstr ""
 
@@ -984,58 +990,69 @@ msgstr ""
 
 #.
 #: ui/net-eth/index.scm:81 стандартный ввод:2
+#: ui/net-eth/index.scm:77
 msgid "Host name:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:89 стандартный ввод:3
+#: ui/net-eth/index.scm:85
 msgid "DNS servers:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:94 стандартный ввод:4
+#: ui/net-eth/index.scm:90
 msgid "Search domains:"
 msgstr ""
 
-#: ui/net-eth/index.scm:100
+#: ui/net-eth/index.scm:100 ui/net-eth/index.scm:96
 msgid "multiple values should be space separated"
 msgstr ""
 
 #: ui/net-eth/index.scm:108 стандартный ввод:5
+#: ui/net-eth/index.scm:104
 msgid "Interfaces"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:123 стандартный ввод:7
+#: ui/net-eth/index.scm:118
 msgid "Status:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:127 стандартный ввод:8
+#: ui/net-eth/index.scm:122
 msgid "Configuration:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:136 стандартный ввод:9
+#: ui/net-eth/index.scm:131
 msgid "IP address:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:140 стандартный ввод:10
+#: ui/net-eth/index.scm:135
 msgid "Netmask:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:144 стандартный ввод:11
+#: ui/net-eth/index.scm:139
 msgid "Default gateway:"
 msgstr ""
 
 #.
 #: ui/net-eth/index.scm:148 стандартный ввод:12
+#: ui/net-eth/index.scm:143
 msgid "Hardware binding:"
 msgstr ""
 
 #: ui/net-eth/index.scm:153 стандартный ввод:13
+#: ui/net-eth/index.scm:148
 msgid "Wireless settings..."
 msgstr ""
 
@@ -1253,11 +1270,14 @@ msgstr ""
 
 #: ui/logs/index.scm:32 стандартный ввод:3
 #: ui/wizard/index.scm:39 ui/wizard/index.scm:43 ui/wizard/index.scm:47
+#: ui/wizard/index.scm:41 ui/wizard/index.scm:45 ui/wizard/index.scm:49
 msgid "Previous"
 msgstr ""
 
 #: ui/logs/index.scm:33 стандартный ввод:4
 #: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
+#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
+#: ui/sysconfig/language.scm:33
 msgid "Next"
 msgstr ""
 
@@ -1370,15 +1390,17 @@ msgstr ""
 msgid "You should define a password for system administrator"
 msgstr ""
 
-#: ui/root/index.scm:32
+#: ui/root/index.scm:32 ui/root/index.scm:30
 msgid "Setup password for system administrator"
 msgstr ""
 
 #: ui/root/passwd.scm:63 design/scripts/password.js:59
+#: ui/root/passwd/index.scm:63
 msgid "Generate"
 msgstr ""
 
 #: ui/root/passwd.scm:68 design/scripts/password.js:65
+#: ui/root/passwd/index.scm:68
 msgid "Generate automatically"
 msgstr ""
 
@@ -1517,9 +1539,51 @@ msgid "Other loader"
 msgstr ""
 
 #: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
+#: ui/wizard/index.scm:42 ui/wizard/index.scm:46 ui/wizard/index.scm:50
 msgid "Finish"
 msgstr ""
 
-#: ui/wizard/index.scm:120
+#: ui/wizard/index.scm:120 ui/wizard/index.scm:123
+#: ui/sysconfig/language.scm:32
 msgid "Help"
+msgstr ""
+
+#: ui/sysconfig/kbd.scm:20
+msgid "Please select keyboard switch type:"
+msgstr ""
+
+#: ui/sysconfig/language.scm:37
+msgid "Select your language:"
+msgstr ""
+
+#: backend3/syskbd:14
+msgid "Alt+Shift key"
+msgstr ""
+
+#: backend3/syskbd:15
+msgid "CapsLock key"
+msgstr ""
+
+#: backend3/syskbd:16
+msgid "Control+Shift keys"
+msgstr ""
+
+#: backend3/syskbd:17
+msgid "Control key"
+msgstr ""
+
+#: backend3/syskbd:18
+msgid "Alt key"
+msgstr ""
+
+#: backend3/syskbd:19
+msgid "Control+Shift keys (UK,RU,EN)"
+msgstr ""
+
+#: backend3/syskbd:20
+msgid "Default"
+msgstr ""
+
+#: backend3/syskbd:21 backend3/syskbd:22
+msgid "Without dead keys"
 msgstr ""
