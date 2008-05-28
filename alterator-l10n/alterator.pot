@@ -77,6 +77,7 @@ msgstr ""
 #: ui/root/index.scm:37 ui/lilo/extra-sections/index.scm:198
 #: ui/lilo/index.scm:99 ui/lilo/view-source/index.scm:57
 #: ui/users/index.scm:113 ui/net-wifi/index.scm:132 ввод:12
+#: ui/dovecot/index.scm:64
 msgid "Apply"
 msgstr ""
 
@@ -91,6 +92,7 @@ msgstr ""
 #: ui/lilo/extra-general/index.scm:112 ввод:10 ui/net-eth/index.scm:167
 #: ui/lilo/extra-sections/index.scm:188 ui/lilo/view-source/index.scm:53
 #: ui/lilo/view-source/index.scm:58 ui/net-wifi/index.scm:133 ввод:13
+#: ui/dovecot/index.scm:65
 msgid "Reset"
 msgstr ""
 
@@ -143,6 +145,7 @@ msgstr ""
 #: ui/lilo/extra-sections/index.scm:157 ui/lilo/extra-general/index.scm:80
 #: ui/lilo/view-source/index.scm:46 ui/lilo/extra-sections/index.scm:151
 #: ui/lilo/extra-general/index.scm:79 ui/lilo/view-source/index.scm:45
+#: backend3/xinetd:105
 msgid "Common settings"
 msgstr ""
 
@@ -816,6 +819,9 @@ msgstr ""
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -1041,6 +1047,9 @@ msgid "Interfaces"
 msgstr ""
 
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -1790,4 +1799,72 @@ msgstr ""
 
 #: стандартный ввод:1
 msgid "Wi-Fi setup"
+msgstr ""
+
+#: backend3/net-wifi:416
+msgid "Network key"
+msgstr ""
+
+#: backend3/xinetd:108
+msgid "This settings will be applied to services with undefined fields"
+msgstr ""
+
+#: backend3/xinetd:232 backend3/xinetd:296
+msgid "Can't open file"
+msgstr ""
+
+#: backend3/xinetd:233 backend3/xinetd:297
+msgid "Can't open temporary file"
+msgstr ""
+
+#: backend3/xinetd:432
+msgid "Unknown service"
+msgstr ""
+
+#: ui/dovecot/index.scm:35 стандартный ввод:3
+msgid "Supported protocols:"
+msgstr ""
+
+#: ui/dovecot/index.scm:43 стандартный ввод:4
+msgid "Auth mechanisms:"
+msgstr ""
+
+#: ui/dovecot/index.scm:51 стандартный ввод:5
+msgid "(you can't disable all mechanisms)"
+msgstr ""
+
+#: ui/dovecot/index.scm:57 стандартный ввод:6
+msgid "Auth port for Postfix"
+msgstr ""
+
+#: backend3/dovecot:29
+msgid "POP3"
+msgstr ""
+
+#: backend3/dovecot:30
+msgid "POP3 over TLS/SSL"
+msgstr ""
+
+#: backend3/dovecot:31
+msgid "IMAP4"
+msgstr ""
+
+#: backend3/dovecot:32
+msgid "IMAP4 over TLS/SSL"
+msgstr ""
+
+#: backend3/dovecot:35
+msgid "PLAIN"
+msgstr ""
+
+#: backend3/dovecot:36
+msgid "LOGIN"
+msgstr ""
+
+#: backend3/dovecot:37
+msgid "ANONYMOUS"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "POP3/IMAP server"
 msgstr ""
