@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.4
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -30,6 +30,10 @@ make check
 
 
 %changelog
+* Wed May 28 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.4-alt6
+- add alterator
+- add alterator-net-wifi
+
 * Mon May 26 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt5
 - add alterator-sysconfig
 

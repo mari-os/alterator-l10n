@@ -77,7 +77,9 @@ msgstr "Запускать при загрузке системы"
 #: ui/control/index.scm:70 ui/root/index.scm:39 ввод:5 ввод:8
 #: ввод:24 ui/timezone/index.scm:69 ui/lilo/extra-sections/index.scm:209
 #: ui/lilo/extra-general/index.scm:111 ввод:9 ui/net-eth/index.scm:166
-#: ui/root/index.scm:37
+#: ui/root/index.scm:37 ui/lilo/extra-sections/index.scm:198
+#: ui/lilo/index.scm:99 ui/lilo/view-source/index.scm:57
+#: ui/users/index.scm:113 ui/net-wifi/index.scm:132 ввод:12
 msgid "Apply"
 msgstr "Применить"
 
@@ -90,6 +92,8 @@ msgstr "Применить"
 #: ввод:18 ввод:23 ввод:9 ввод:25 ui/timezone/index.scm:70
 #: ui/lilo/extra-sections/index.scm:199 ui/lilo/extra-sections/index.scm:210
 #: ui/lilo/extra-general/index.scm:112 ввод:10 ui/net-eth/index.scm:167
+#: ui/lilo/extra-sections/index.scm:188 ui/lilo/view-source/index.scm:53
+#: ui/lilo/view-source/index.scm:58 ui/net-wifi/index.scm:133 ввод:13
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -140,7 +144,8 @@ msgstr "Выбрать"
 
 #: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25
 #: ui/lilo/extra-sections/index.scm:157 ui/lilo/extra-general/index.scm:80
-#: ui/lilo/view-source/index.scm:46
+#: ui/lilo/view-source/index.scm:46 ui/lilo/extra-sections/index.scm:151
+#: ui/lilo/extra-general/index.scm:79 ui/lilo/view-source/index.scm:45
 msgid "Common settings"
 msgstr "Общие настройки"
 
@@ -213,15 +218,15 @@ msgstr ""
 msgid "Start, stop or restart xinetd"
 msgstr "Запустить, остановить или перезапустить xinetd"
 
-#: ui/lilo/index.scm:53
+#: ui/lilo/index.scm:53 ui/lilo/index.scm:51
 msgid "Master Boot Record"
 msgstr "Главная загрузочная запись"
 
-#: ui/lilo/index.scm:54
+#: ui/lilo/index.scm:54 ui/lilo/index.scm:52
 msgid "First sector of partition"
 msgstr "Первый сектор раздела"
 
-#: ui/lilo/index.scm:74
+#: ui/lilo/index.scm:74 ui/lilo/index.scm:72
 msgid ""
 "Boot loader is used to boot your operating system and it can be configured "
 "here. If this is a sole operating system on this machine you should install "
@@ -233,32 +238,33 @@ msgstr ""
 "в Главную загрузочную запись. Иначе ознакомьтесь с документацией."
 
 #: ui/lilo/index.scm:78 ui/lilo/extra-general/index.scm:98
-#: ui/lilo/extra-general/index.scm:99
+#: ui/lilo/extra-general/index.scm:99 ui/lilo/index.scm:76
 msgid "Install boot loader on:"
 msgstr "Установить загрузчик в:"
 
-#: ui/lilo/index.scm:84
+#: ui/lilo/index.scm:84 ui/lilo/index.scm:82
 msgid "Device"
 msgstr "Устройство"
 
-#: ui/lilo/index.scm:84
+#: ui/lilo/index.scm:84 ui/lilo/index.scm:82
 msgid "Size"
 msgstr "Размер"
 
-#: ui/lilo/index.scm:84
+#: ui/lilo/index.scm:84 ui/lilo/index.scm:82
 msgid "Destination"
 msgstr "Описание"
 
-#: ui/lilo/index.scm:87
+#: ui/lilo/index.scm:87 ui/lilo/index.scm:85
 msgid "Show partitions"
 msgstr "Показать разделы"
 
-#: ui/lilo/index.scm:102
+#: ui/lilo/index.scm:102 ui/lilo/index.scm:100
 msgid "Expert settings"
 msgstr "Экспертные настройки"
 
 #: ui/lilo/extra-sections/index.scm:100 ui/lilo/extra-sections/index.scm:110
 #: ui/lilo/extra-sections/index.scm:122 ui/lilo/extra-sections/index.scm:127
+#: ui/lilo/extra-sections/index.scm:120 ui/lilo/extra-sections/index.scm:125
 msgid "<UNDEFINED>"
 msgstr "<UNDEFINED>"
 
@@ -274,6 +280,8 @@ msgstr "Глобальные настройки"
 
 #: ui/lilo/extra-sections/index.scm:158 ui/lilo/extra-general/index.scm:82
 #: ui/lilo/view-source/index.scm:47 ui/lilo/extra-general/index.scm:81
+#: ui/lilo/extra-sections/index.scm:152 ui/lilo/extra-general/index.scm:80
+#: ui/lilo/view-source/index.scm:46
 msgid "Boot sections"
 msgstr "Варианты загрузки"
 
@@ -283,7 +291,7 @@ msgid "Edit source"
 msgstr "Редактировать исходник"
 
 #: ui/lilo/extra-sections/index.scm:164 ui/lilo/extra-sections/index.scm:189
-#: ui/lilo/extra-sections/index.scm:190
+#: ui/lilo/extra-sections/index.scm:190 ui/lilo/extra-sections/index.scm:179
 msgid "Set default"
 msgstr "По умолчанию"
 
@@ -295,50 +303,52 @@ msgstr "Создать вариант linux"
 msgid "New Other section"
 msgstr "Создать другой вариант"
 
-#: ui/lilo/extra-sections/index.scm:177
+#: ui/lilo/extra-sections/index.scm:177 ui/lilo/extra-sections/index.scm:166
 msgid "Label:"
 msgstr "Название:"
 
-#: ui/lilo/extra-sections/index.scm:179
+#: ui/lilo/extra-sections/index.scm:179 ui/lilo/extra-sections/index.scm:168
 msgid "Image:"
 msgstr "Ядро:"
 
-#: ui/lilo/extra-sections/index.scm:180
+#: ui/lilo/extra-sections/index.scm:180 ui/lilo/extra-sections/index.scm:169
 msgid "Initrd:"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:181
+#: ui/lilo/extra-sections/index.scm:181 ui/lilo/extra-sections/index.scm:170
 msgid "Root:"
 msgstr "Корневой каталог:"
 
 #: ui/lilo/extra-sections/index.scm:182 ui/lilo/extra-general/index.scm:99
-#: ui/lilo/extra-general/index.scm:100
+#: ui/lilo/extra-general/index.scm:100 ui/lilo/extra-sections/index.scm:171
 msgid "Kernel params:"
 msgstr "Параметры ядра:"
 
-#: ui/lilo/extra-sections/index.scm:184
+#: ui/lilo/extra-sections/index.scm:184 ui/lilo/extra-sections/index.scm:173
 msgid "Device:"
 msgstr "Устройство:"
 
-#: ui/lilo/extra-sections/index.scm:185
+#: ui/lilo/extra-sections/index.scm:185 ui/lilo/extra-sections/index.scm:174
 msgid "Alias:"
 msgstr "Альтернативное название:"
 
-#: ui/lilo/extra-sections/index.scm:186
+#: ui/lilo/extra-sections/index.scm:186 ui/lilo/extra-sections/index.scm:175
 msgid "Boot-as:"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:187
+#: ui/lilo/extra-sections/index.scm:187 ui/lilo/extra-sections/index.scm:176
 msgid "Table:"
 msgstr ""
 
 #: ui/lilo/extra-sections/index.scm:191 ui/lilo/view-source/index.scm:53
 #: ui/control/html-messages.scm:3 стандартный ввод:3
 #: ui/lilo/extra-sections/index.scm:198 ввод:2
+#: ui/lilo/extra-sections/index.scm:187 ui/lilo/view-source/index.scm:52
 msgid "Save"
 msgstr "Сохранить"
 
 #: ui/lilo/extra-sections/index.scm:193 ui/lilo/extra-sections/index.scm:200
+#: ui/lilo/extra-sections/index.scm:189
 msgid "Remove"
 msgstr "Удалить"
 
@@ -355,6 +365,7 @@ msgid "Timeout:"
 msgstr "Время ожидания:"
 
 #: ui/lilo/extra-general/index.scm:101 ui/lilo/extra-general/index.scm:102
+#: ui/net-wifi/index.scm:104 стандартный ввод:2
 msgid "Interface:"
 msgstr "Интерфейс:"
 
@@ -363,6 +374,7 @@ msgid "Raid-extra-boot:"
 msgstr ""
 
 #: ui/auth/index.scm:55 стандартный ввод:2 ввод:4
+#: ui/net-wifi/index.scm:126 ввод:9
 msgid "Auth type:"
 msgstr "Тип аутентификации:"
 
@@ -398,72 +410,72 @@ msgstr "Аутентификация"
 msgid "Change"
 msgstr "Изменить"
 
-#: backend3/vsftpd:63
+#: backend3/vsftpd:63 backend3/vsftpd:56
 msgid "yes"
 msgstr "есть"
 
-#: backend3/vsftpd:63
+#: backend3/vsftpd:63 backend3/vsftpd:56
 msgid "no"
 msgstr "нет"
 
-#: backend3/vsftpd:63
+#: backend3/vsftpd:63 backend3/vsftpd:56
 msgid "default"
 msgstr "по-умолчанию"
 
-#: backend3/vsftpd:75 стандартный ввод:4
+#: backend3/vsftpd:75 стандартный ввод:4 backend3/vsftpd:68
 msgid "Enable FTP service"
 msgstr "Включить службу FTP"
 
-#: backend3/vsftpd:80 стандартный ввод:5
+#: backend3/vsftpd:80 стандартный ввод:5 backend3/vsftpd:73
 msgid "Allow anonymous login"
 msgstr "Разрешить вход анонимному пользователю"
 
-#: backend3/vsftpd:82 стандартный ввод:10
+#: backend3/vsftpd:82 стандартный ввод:10 backend3/vsftpd:75
 msgid "Allow mkdir"
 msgstr "Разрешить создание каталогов"
 
-#: backend3/vsftpd:84 стандартный ввод:11
+#: backend3/vsftpd:84 стандартный ввод:11 backend3/vsftpd:77
 msgid "Allow upload"
 msgstr "Разрешить закачку файлов"
 
-#: backend3/vsftpd:86 стандартный ввод:12
+#: backend3/vsftpd:86 стандартный ввод:12 backend3/vsftpd:79
 msgid "Default upload directory (/var/ftp/incoming)"
 msgstr "Стандартный каталог для приёма файлов (/var/ftp/incoming)"
 
 #. "
-#: backend3/vsftpd:88 стандартный ввод:13
+#: backend3/vsftpd:88 стандартный ввод:13 backend3/vsftpd:81
 msgid "Allow rename/delete"
 msgstr "Разрешить переименование/удаление файлов"
 
-#: backend3/vsftpd:91 стандартный ввод:6
+#: backend3/vsftpd:91 стандартный ввод:6 backend3/vsftpd:84
 msgid "Allow write"
 msgstr "Разрешить запись"
 
-#: backend3/vsftpd:94
+#: backend3/vsftpd:94 backend3/vsftpd:87
 msgid "Write access"
 msgstr "Доступ на запись"
 
-#: backend3/vsftpd:97 стандартный ввод:7
+#: backend3/vsftpd:97 стандартный ввод:7 backend3/vsftpd:90
 msgid "Allow local users login"
 msgstr "Разрешить вход локальных пользователей"
 
-#: backend3/vsftpd:99 стандартный ввод:8
+#: backend3/vsftpd:99 стандартный ввод:8 backend3/vsftpd:92
 msgid "Enable per user settings"
 msgstr "Разрешить настройки для локальных пользователей"
 
-#: backend3/vsftpd:156
+#: backend3/vsftpd:156 backend3/vsftpd:139
 msgid "enable write access"
 msgstr "разрешить запись"
 
-#: backend3/vsftpd:157
+#: backend3/vsftpd:157 backend3/vsftpd:140
 msgid "disable write access"
 msgstr "запретить запись"
 
-#: backend3/vsftpd:158
+#: backend3/vsftpd:158 backend3/vsftpd:141
 msgid "remove from list"
 msgstr "удалить из списка"
 
-#: backend3/vsftpd:218
+#: backend3/vsftpd:218 backend3/vsftpd:201
 msgid "Same user already exists"
 msgstr "Подобный пользователь уже существует"
 
@@ -800,6 +812,7 @@ msgid "You should define a password"
 msgstr "Вы должны указать пароль"
 
 #: ui/users/add/index.scm:24 ui/users/index.scm:64 ui/root/index.scm:22
+#: ui/users/index.scm:59
 msgid "Passwords mismatch"
 msgstr "Введённые пароли не совпадают"
 
@@ -808,8 +821,41 @@ msgstr "Введённые пароли не совпадают"
 msgid "Account name:"
 msgstr "Имя пользователя:"
 
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
 #: ввод:3 ввод:14 ввод:2 ui/users/add/index.scm:56
+#: ui/users/index.scm:104
 msgid "Password:"
 msgstr "Пароль:"
 
@@ -818,140 +864,145 @@ msgstr "Пароль:"
 msgid "Cancel"
 msgstr "Отмена"
 
-#: ui/users/index.scm:44
+#: ui/users/index.scm:44 ui/users/index.scm:39
 msgid "Do you really want to delete user "
 msgstr "Вы действительно хотите удалить пользователя "
 
 #: ui/users/index.scm:78 стандартный ввод:8
+#: ui/users/index.scm:73
 msgid "New user..."
 msgstr "Создать пользователя..."
 
 #.
 #: ui/users/index.scm:93 стандартный ввод:10
+#: ui/users/index.scm:88
 msgid "Comment:"
 msgstr "Комментарий:"
 
 #.
 #: ui/users/index.scm:96 стандартный ввод:11
+#: ui/users/index.scm:91
 msgid "Home directory:"
 msgstr "Домашний каталог:"
 
 #.
 #: ui/users/index.scm:99 стандартный ввод:12
+#: ui/users/index.scm:94
 msgid "Shell:"
 msgstr "Интерпретатор команд:"
 
 #: ui/users/index.scm:103 backend3/users:161 стандартный
-#: ввод:13
+#: ввод:13 ui/users/index.scm:98 backend3/users:169
 msgid "Switching to superuser"
 msgstr "Переключение на администратора"
 
 #: ui/users/index.scm:123 стандартный ввод:18
+#: ui/users/index.scm:118
 msgid "Delete user"
 msgstr "Удалить пользователя"
 
-#: backend3/users:66
+#: backend3/users:66 backend3/users:74
 msgid "can't update password file"
 msgstr "невозможно обновить базу паролей"
 
 #. '
-#: backend3/users:67 backend3/users:108
+#: backend3/users:67 backend3/users:108 backend3/users:75 backend3/users:116
 msgid "invalid command syntax"
 msgstr "неверный синтаксис команды"
 
-#: backend3/users:68
+#: backend3/users:68 backend3/users:76
 msgid "invalid argument to option"
 msgstr "неверный параметр к аргументу"
 
-#: backend3/users:69
+#: backend3/users:69 backend3/users:77
 msgid "uid already in use"
 msgstr "uid уже используется"
 
-#: backend3/users:70
+#: backend3/users:70 backend3/users:78
 msgid "specified user doesn't exist"
 msgstr "пользователь не существует"
 
 #. '
-#: backend3/users:71
+#: backend3/users:71 backend3/users:79
 msgid "user currently logged in"
 msgstr "пользователь сейчас в системе"
 
-#: backend3/users:72
+#: backend3/users:72 backend3/users:80
 msgid "username already in use"
 msgstr "имя пользователя уже занято"
 
-#: backend3/users:73 backend3/users:114
+#: backend3/users:73 backend3/users:114 backend3/users:81 backend3/users:122
 msgid "can't update group file"
 msgstr "невозможно обновить базу групп"
 
 #. '
-#: backend3/users:74
+#: backend3/users:74 backend3/users:82
 msgid "can't create or remove home directory"
 msgstr "невозможно создать или удалить домашний каталог"
 
 #. '
-#: backend3/users:75
+#: backend3/users:75 backend3/users:83
 msgid "can't create mail spool"
 msgstr "невозможно создать mail spool"
 
-#: backend3/users:84
+#: backend3/users:84 backend3/users:92
 msgid "cannot change password"
 msgstr "невозможно изменить пароль"
 
-#: backend3/users:109
+#: backend3/users:109 backend3/users:117
 msgid "invalid group name"
 msgstr "неверное имя группы"
 
-#: backend3/users:110
+#: backend3/users:110 backend3/users:118
 msgid "gid not unique"
 msgstr "gid не уникален"
 
-#: backend3/users:111
+#: backend3/users:111 backend3/users:119
 msgid "specified group doesn't exist"
 msgstr "указанная группа не существует"
 
-#: backend3/users:112
+#: backend3/users:112 backend3/users:120
 msgid "can't remove user's primary group"
 msgstr "невозможно удалить первичную группу пользователя"
 
 #. '
-#: backend3/users:113
+#: backend3/users:113 backend3/users:121
 msgid "group name not unique"
 msgstr "имя группы уже занято"
 
-#: backend3/users:131
+#: backend3/users:131 backend3/users:139
 msgid "unable to add user %s to group %s"
 msgstr "невозможно добавить пользователя %s в группу %s"
 
-#: backend3/users:145
+#: backend3/users:145 backend3/users:153
 msgid "unable to remove user %s from group %s"
 msgstr "невозможно удалить пользователя %s из группы %s"
 
-#: backend3/users:157
+#: backend3/users:157 backend3/users:165
 msgid "only small latin letters, digits and '_' allowed"
 msgstr "допустимы только маленькие латинские символы, цифры и '_'"
 
-#: backend3/users:158
+#: backend3/users:158 backend3/users:166
 msgid "Name"
 msgstr "Системное имя"
 
-#: backend3/users:159
+#: backend3/users:159 backend3/users:167
 msgid "Shell"
 msgstr "Интерпретатор команд"
 
-#: backend3/users:160
+#: backend3/users:160 backend3/users:168
 msgid "Home directory"
 msgstr "Домашний каталог"
 
-#: backend3/users:162 backend3/root:20 backend3/root:21
+#: backend3/users:162 backend3/root:20 backend3/root:21 backend3/users:170
 msgid "Password"
 msgstr "Пароль"
 
-#: backend3/users:163
+#: backend3/users:163 backend3/users:171
 msgid "Password (repeat)"
 msgstr "Пароль (повтор)"
 
-#: backend3/users:164
+#: backend3/users:164 backend3/users:172
 msgid "Gecos"
 msgstr "Комментарий"
 
@@ -1004,9 +1055,12 @@ msgstr "несколько значений записываются через 
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/net-eth/index.scm:123 стандартный ввод:7
-#: ui/net-eth/index.scm:118
+#: ui/net-eth/index.scm:118 ui/net-wifi/index.scm:105 ввод:4
 msgid "Status:"
 msgstr "Состояние:"
 
@@ -1098,6 +1152,7 @@ msgid "DNS servers"
 msgstr "DNS-серверы"
 
 #: backend3/net-eth:353 backend3/net-eth:354 backend3/net-eth:357
+#: backend3/net-wifi:228
 msgid "IP address"
 msgstr "IP-адрес"
 
@@ -1266,7 +1321,7 @@ msgstr "Назад"
 #: ui/logs/index.scm:33 стандартный ввод:4
 #: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
 #: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
-#: ui/sysconfig/language.scm:33
+#: ui/sysconfig/language.scm:33 ui/sysconfig/language/index.scm:33
 msgid "Next"
 msgstr "Далее"
 
@@ -1515,21 +1570,25 @@ msgid "Use automatic sender whitelist:"
 msgstr "Вести белый список отправителей:"
 
 #: ui/lilo/extra-sections/index.scm:156 ui/lilo/extra-general/index.scm:79
-#: ui/lilo/view-source/index.scm:45
+#: ui/lilo/view-source/index.scm:45 ui/lilo/extra-sections/index.scm:150
+#: ui/lilo/extra-general/index.scm:78 ui/lilo/view-source/index.scm:44
 msgid "Simple mode"
 msgstr "Обычный режим"
 
 #: ui/lilo/extra-sections/index.scm:159 ui/lilo/extra-general/index.scm:82
-#: ui/lilo/view-source/index.scm:48
+#: ui/lilo/view-source/index.scm:48 ui/lilo/extra-sections/index.scm:153
+#: ui/lilo/extra-general/index.scm:81 ui/lilo/view-source/index.scm:47
 msgid "Edit lilo.conf"
 msgstr "Редактировать lilo.conf"
 
 #: ui/lilo/extra-sections/index.scm:169
-msgid "Add Linux loader"
+#, fuzzy
+msgid "Linux loader"
 msgstr "Добавить загрузчик Linux"
 
 #: ui/lilo/extra-sections/index.scm:170
-msgid "Add other loader"
+#, fuzzy
+msgid "Other loader"
 msgstr "Добавить другой загрузчик"
 
 #: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
@@ -1538,15 +1597,15 @@ msgid "Finish"
 msgstr "Завершить"
 
 #: ui/wizard/index.scm:120 ui/wizard/index.scm:123
-#: ui/sysconfig/language.scm:32
+#: ui/sysconfig/language.scm:32 ui/sysconfig/language/index.scm:32
 msgid "Help"
 msgstr "Справка"
 
-#: ui/sysconfig/kbd.scm:20
+#: ui/sysconfig/kbd.scm:20 ui/sysconfig/kbd/index.scm:20
 msgid "Please select keyboard switch type:"
 msgstr "Выберите вариант переключения раскладки клавиатуры:"
 
-#: ui/sysconfig/language.scm:37
+#: ui/sysconfig/language.scm:37 ui/sysconfig/language/index.scm:37
 msgid "Select your language:"
 msgstr "Выберите язык:"
 
@@ -1581,3 +1640,176 @@ msgstr "По умолчанию"
 #: backend3/syskbd:21 backend3/syskbd:22
 msgid "Without dead keys"
 msgstr "Без 'мёртвых' клавиш"
+
+#: ui/lilo/extra-sections/index.scm:158
+msgid "Add Linux loader"
+msgstr "Добавить загрузчик Linux"
+
+#: ui/lilo/extra-sections/index.scm:159
+msgid "Add other loader"
+msgstr "Добавить другой загрузчик"
+
+#: backend2/constraints:35
+msgid "invalid hostname"
+msgstr "недопустимое имя хоста"
+
+#: backend2/constraints:40
+msgid "invalid ipv4 address"
+msgstr "недопустимый ipv4 адрес"
+
+#: backend2/constraints:46
+msgid "doesn't match to pattern"
+msgstr "не соотвествует шаблону"
+
+#: backend2/constraints:53
+msgid "should be one of:"
+msgstr "должно быть одно из:"
+
+#: backend2/constraints:58
+msgid "values not equal"
+msgstr "значения не совпадают"
+
+#: backend2/constraints:61
+msgid "required, but missing"
+msgstr "требуется, но не заполнен"
+
+#: backend2/constraints:133
+msgid "Constraints failed:"
+msgstr "Не выполнены следующие ограничения на поля:"
+
+#: interfaces/guile/ensign/ensign.scm:20
+msgid "Backend live time (in hours)"
+msgstr "Время жизни бакенда (в часах)"
+
+#: interfaces/guile/ensign/ensign.scm:21
+msgid "should be digits"
+msgstr "должны быть цифры"
+
+#: ui/net-wifi/index.scm:107 стандартный ввод:3
+msgid "Reconfigure interface"
+msgstr "Перенастроить интерфейс"
+
+#: ui/net-wifi/index.scm:116 стандартный ввод:5
+msgid "Configured networks"
+msgstr "Настроенные сети"
+
+#: ui/net-wifi/index.scm:124 стандартный ввод:7
+msgid "Enable"
+msgstr "Включить"
+
+#: ui/net-wifi/index.scm:125 стандартный ввод:8
+msgid "Network name:"
+msgstr "Сеть:"
+
+#: ui/net-wifi/index.scm:128 стандартный ввод:10
+msgid "Change password:"
+msgstr "Сменить пароль:"
+
+#: ui/net-wifi/index.scm:129 стандартный ввод:11
+msgid "Encription:"
+msgstr "Шифрование:"
+
+#: ui/net-wifi/index.scm:134 стандартный ввод:14
+msgid "Delete"
+msgstr "Удалить"
+
+#: ui/net-wifi/index.scm:137 стандартный ввод:15
+msgid "Configure new network"
+msgstr "Настроить новую сеть"
+
+#: ui/net-wifi/index.scm:140 стандартный ввод:16
+msgid "Networks found:"
+msgstr "Найденные сети:"
+
+#: ui/net-wifi/index.scm:142 стандартный ввод:17
+msgid "Rescan"
+msgstr "Сканировать"
+
+#: ui/net-wifi/index.scm:143 стандартный ввод:18
+msgid "Configure"
+msgstr "Настроить"
+
+#: ui/net-wifi/index.scm:145
+msgid "Quit"
+msgstr "Выйти"
+
+#: backend3/net-wifi:134
+msgid "Other network"
+msgstr "Другая сеть"
+
+#: backend3/net-wifi:162
+msgid "No password"
+msgstr "Без пароля"
+
+#: backend3/net-wifi:163
+msgid "WEP Password"
+msgstr "WEP пароль"
+
+#: backend3/net-wifi:166
+msgid "WPA Personal (WPA-PSK)"
+msgstr "WPA персональный (WPA-PSK)"
+
+#: backend3/net-wifi:167
+msgid "WPA2 Personal (WPA-PSK)"
+msgstr "WPA2 персональный (WPA-PSK)"
+
+#: backend3/net-wifi:227
+msgid "Connected to network"
+msgstr "Подключен к сети"
+
+#: backend3/net-wifi:228
+msgid "access point"
+msgstr "точка доступа"
+
+#: backend3/net-wifi:231
+msgid "Scanning..."
+msgstr "Поиск..."
+
+#: backend3/net-wifi:261
+msgid "Current network"
+msgstr "Текущая сеть"
+
+#: backend3/net-wifi:406
+msgid "Network name"
+msgstr "Сеть"
+
+#: backend3/net-wifi:407
+msgid "Access point"
+msgstr "Точка доступа"
+
+#: backend3/net-wifi:408
+msgid "Status"
+msgstr "Состояние"
+
+#: backend3/net-wifi:415
+msgid "User name"
+msgstr "Пользователь"
+
+#: backend3/net-wifi:416
+msgid "Network key (use 0x for hex)"
+msgstr "Ключ (для числа префикс 0x)"
+
+#: backend3/net-wifi:417
+msgid "Encryption"
+msgstr "Шифрование"
+
+#: backend3/net-wifi:418
+msgid "EAP method"
+msgstr "Метод EAP"
+
+#: backend3/net-wifi:434 backend3/net-wifi:460 backend3/net-wifi:470
+msgid "Not a wireless interface"
+msgstr "Не беспроводной интерфейс"
+
+#: backend3/net-wifi:479
+msgid "Password is too short"
+msgstr "Слишком короткий пароль"
+
+#: backend3/net-wifi:511
+msgid "Unable to create network"
+msgstr "Невозможно создать сеть"
+
+#: стандартный ввод:1
+msgid "Wi-Fi setup"
+msgstr "Настройка Wi-Fi"
+
