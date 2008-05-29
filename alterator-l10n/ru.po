@@ -824,41 +824,6 @@ msgstr "Введённые пароли не совпадают"
 msgid "Account name:"
 msgstr "Имя пользователя:"
 
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
 #: ввод:3 ввод:14 ввод:2 ui/users/add/index.scm:56
 #: ui/users/index.scm:104
@@ -1061,12 +1026,6 @@ msgstr "несколько значений записываются через 
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/net-eth/index.scm:123 стандартный ввод:7
 #: ui/net-eth/index.scm:118 ui/net-wifi/index.scm:105 ввод:4
@@ -1818,7 +1777,9 @@ msgstr "Пароль"
 
 #: backend3/xinetd:108
 msgid "This settings will be applied to services with undefined fields"
-msgstr "Данные настройки будут применены к службам для которых соответствующие поля не определены"
+msgstr ""
+"Данные настройки будут применены к службам для которых соответствующие поля "
+"не определены"
 
 #: backend3/xinetd:232 backend3/xinetd:296
 msgid "Can't open file"
@@ -1879,3 +1840,31 @@ msgstr ""
 #: стандартный ввод:1
 msgid "POP3/IMAP server"
 msgstr "POP3/IMAP сервер"
+
+#: ui/acc/place-holder.scm:7 ui/acc/index.scm:6
+msgid "System management center"
+msgstr "Центр управления системой"
+
+#. ui replace
+#: ui/acc/index.scm:12
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before running the new module\n"
+"or discard the changes?"
+msgstr ""
+"В текущем модуле имеются несохраненные изменения.\n"
+"Применить изменения перед запуском нового модуля\n"
+"отклонить их, или остаться в текущем модуле?"
+
+#. special values
+#: ui/acc/index.scm:26
+msgid "Module is locked"
+msgstr "Модуль заблокирован"
+
+#: ui/acc/index.scm:91 ui/standalone/index.scm:14
+msgid "Press F1 for help"
+msgstr "Нажмите F1 для справки"
+
+#: ui/standalone/place-holder.scm:7
+msgid "Desktop file not found"
+msgstr "Desktop-файл не найден"

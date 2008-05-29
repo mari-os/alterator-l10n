@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.4
-Release: alt7
+Release: alt8
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -30,6 +30,9 @@ make check
 
 
 %changelog
+* Thu May 29 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt8
+- add alterator-standalone
+
 * Wed May 28 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt7
 - add alterator-dovecot
 

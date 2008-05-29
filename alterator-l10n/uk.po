@@ -54,6 +54,7 @@ msgstr ""
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
 "Служба\n"
 "#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
@@ -75,6 +76,12 @@ msgstr ""
 "FTP сервер\n"
 "#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
 "Служба\n"
+"#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
+"Пристр??й\n"
+"#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
+"Служба\n"
+"#-#-#-#-#  uk.po (alterator-squid)  #-#-#-#-#\n"
+"FTP сервер\n"
 "#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
 "Пристр??й\n"
 "#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
@@ -122,8 +129,6 @@ msgstr ""
 "Застосувати\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Прийняти\n"
-"#-#-#-#-#  uk.po (uk)  #-#-#-#-#\n"
-"Застосувати\n"
 "#-#-#-#-#  uk.po (uk)  #-#-#-#-#\n"
 "Застосувати\n"
 "#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
@@ -209,6 +214,7 @@ msgstr ""
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "Компоненти\n"
 "#-#-#-#-#  uk.po (alterator-squid)  #-#-#-#-#\n"
 "Компоненти\n"
@@ -230,6 +236,8 @@ msgstr ""
 "Компоненти\n"
 "#-#-#-#-#  uk.po (uk)  #-#-#-#-#\n"
 "Експерт\n"
+"#-#-#-#-#  uk.po (alterator-squid)  #-#-#-#-#\n"
+"Компоненти\n"
 "#-#-#-#-#  uk.po (alterator-squid)  #-#-#-#-#\n"
 "Компоненти\n"
 "#-#-#-#-#  uk.po (alterator-squid)  #-#-#-#-#\n"
@@ -1002,6 +1010,9 @@ msgstr ""
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -1236,6 +1247,9 @@ msgstr "Інтерфейс"
 
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
 #. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -2131,3 +2145,30 @@ msgstr ""
 msgid "POP3/IMAP server"
 msgstr "POP3/IMAP сервер"
 
+#: ui/acc/place-holder.scm:7 ui/acc/index.scm:6
+msgid "System management center"
+msgstr ""
+
+#. ui replace
+#: ui/acc/index.scm:12
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before running the new module\n"
+"or discard the changes?"
+msgstr ""
+"В поточному модулі є незбережені зміни.\n"
+"Прийняти зміни перед завантаженням нового модуля\n"
+"відхилити їх, чи залишитися в поточному модулі?"
+
+#. special values
+#: ui/acc/index.scm:26
+msgid "Module is locked"
+msgstr "Модуль заблокований"
+
+#: ui/acc/index.scm:91 ui/standalone/index.scm:14
+msgid "Press F1 for help"
+msgstr ""
+
+#: ui/standalone/place-holder.scm:7
+msgid "Desktop file not found"
+msgstr ""
