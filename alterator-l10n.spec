@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.4
-Release: alt8
+Release: alt9
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -30,6 +30,9 @@ make check
 
 
 %changelog
+* Fri May 30 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt9
+- add alterator-lookout, alterator-pkg
+
 * Thu May 29 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt8
 - add alterator-standalone
 
