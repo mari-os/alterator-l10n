@@ -80,7 +80,7 @@ msgstr "Запускать при загрузке системы"
 #: ui/root/index.scm:37 ui/lilo/extra-sections/index.scm:198
 #: ui/lilo/index.scm:99 ui/lilo/view-source/index.scm:57
 #: ui/users/index.scm:113 ui/net-wifi/index.scm:132 ввод:12
-#: ui/dovecot/index.scm:64
+#: ui/dovecot/index.scm:64 ввод:10 ui/dovecot/index.scm:62
 msgid "Apply"
 msgstr "Применить"
 
@@ -96,6 +96,7 @@ msgstr "Применить"
 #: ui/lilo/extra-sections/index.scm:188 ui/lilo/view-source/index.scm:53
 #: ui/lilo/view-source/index.scm:58 ui/net-wifi/index.scm:133 ввод:13
 #: ui/dovecot/index.scm:65 ui/pkg/sources/index.scm:230
+#: ui/dovecot/index.scm:63
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -522,19 +523,19 @@ msgstr "Добавить пользователя:"
 msgid "System users administration..."
 msgstr "Управление системными пользователями..."
 
-#: backend3/ahttpd:128
+#: backend3/ahttpd:128 backend3/ahttpd:125
 msgid "all connections"
 msgstr "все соединения"
 
-#: backend3/ahttpd:129
+#: backend3/ahttpd:129 backend3/ahttpd:126
 msgid "errors only"
 msgstr "только ошибки"
 
-#: backend3/ahttpd:130
+#: backend3/ahttpd:130 backend3/ahttpd:127
 msgid "nothing"
 msgstr "отсутствует"
 
-#: backend3/ahttpd:193
+#: backend3/ahttpd:193 backend3/ahttpd:181
 msgid "Invalid certificate file"
 msgstr "Неверный сертификат"
 
@@ -542,7 +543,7 @@ msgstr "Неверный сертификат"
 msgid "HTTP server"
 msgstr "HTTP-сервер"
 
-#: стандартный ввод:2
+#: стандартный ввод:2 ввод:3
 msgid "General settings"
 msgstr "Общие настройки"
 
@@ -550,26 +551,26 @@ msgstr "Общие настройки"
 msgid "Port"
 msgstr "Порт"
 
-#: стандартный ввод:4
-msgid "TCP port where server listen on"
-msgstr "TCP порт на котором сервер принимает соединения"
+#: стандартный ввод:4 ввод:5
+msgid "(TCP port where server listen on)"
+msgstr "(TCP порт на котором сервер принимает соединения)"
 
 #: стандартный ввод:5
 msgid "Listen address"
 msgstr "Адрес"
 
-#: стандартный ввод:6
+#: стандартный ввод:6 ввод:7
 msgid ""
-"IP address where server listen on, or '*' for listening on all interfaces"
+"(IP address where server listen on, or '*' for listening on all interfaces)"
 msgstr ""
-"IP адрес на котором сервер принимает соединения или '*' для работы на всех "
-"интерфейсах"
+"(IP адрес на котором сервер принимает соединения или '*' для работы на всех "
+"интерфейсах)"
 
 #: стандартный ввод:7
 msgid "Log"
 msgstr "Протоколирование"
 
-#: стандартный ввод:8
+#: стандартный ввод:8 ввод:9
 msgid "Granularity of the log influences its size"
 msgstr "Подробность влияет на размер файла протокола"
 
@@ -583,15 +584,15 @@ msgstr ""
 "Параметр для HTTP/1.0 клиентов, адрес используемый для перенаправления на "
 "самого себя"
 
-#: стандартный ввод:12
+#: стандартный ввод:12 ввод:2
 msgid "Restart HTTP server"
 msgstr "Перезапустить HTTP-сервер"
 
-#: стандартный ввод:13
+#: стандартный ввод:13 ввод:11
 msgid "TLS settings"
 msgstr "Настройки TLS"
 
-#: стандартный ввод:14
+#: стандартный ввод:14 ввод:12
 msgid "Certificate"
 msgstr "Сертификат"
 
@@ -599,7 +600,7 @@ msgstr "Сертификат"
 msgid "Common Name (CN)"
 msgstr "Общее Имя (CN)"
 
-#: стандартный ввод:16
+#: стандартный ввод:16 ввод:14
 msgid "should be a public hostname"
 msgstr "должно быть публичное имя хоста"
 
@@ -607,7 +608,7 @@ msgstr "должно быть публичное имя хоста"
 msgid "Country (C)"
 msgstr "Страна (C)"
 
-#: стандартный ввод:18
+#: стандартный ввод:18 ввод:16
 msgid "two letter country code"
 msgstr "двухбуквенный код страны"
 
@@ -615,7 +616,7 @@ msgstr "двухбуквенный код страны"
 msgid "Location (L)"
 msgstr "Местоположение (L)"
 
-#: стандартный ввод:20
+#: стандартный ввод:20 ввод:18
 msgid "state or city, written in latin letters"
 msgstr "название города или области, написанное латинскими буквами"
 
@@ -623,7 +624,7 @@ msgstr "название города или области, написанно�
 msgid "Organization (O)"
 msgstr "Организация (O)"
 
-#: стандартный ввод:22
+#: стандартный ввод:22 ввод:20
 msgid "organization name, written in latin letters"
 msgstr "название организации, написанное латинскими буквами"
 
@@ -631,24 +632,24 @@ msgstr "название организации, написанное латин
 msgid "Organizational Unit (OU)"
 msgstr "Подразделение (OU)"
 
-#: стандартный ввод:24
+#: стандартный ввод:24 ввод:22
 msgid "organizational unit name, written in latin letters"
 msgstr "название подразделения, написанное латинскими буквами"
 
-#: стандартный ввод:25
+#: стандартный ввод:25 ввод:23
 msgid "Recreate"
 msgstr "Пересоздать"
 
-#: стандартный ввод:26
+#: стандартный ввод:26 ввод:24
 msgid "recreate private key, sign request and self-signed certificate"
 msgstr ""
 "пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат"
 
-#: стандартный ввод:27
+#: стандартный ввод:27 ввод:25
 msgid "Sign"
 msgstr "Подпись"
 
-#: стандартный ввод:28
+#: стандартный ввод:28 ввод:26
 msgid "Download sign request"
 msgstr "Забрать запрос на подпись"
 
@@ -656,7 +657,7 @@ msgstr "Забрать запрос на подпись"
 msgid "Upload certificate signed by CA"
 msgstr "Положить сертификат, подписанный УЦ"
 
-#: стандартный ввод:30
+#: стандартный ввод:30 ввод:28
 msgid "Upload"
 msgstr "Положить"
 
@@ -826,9 +827,6 @@ msgstr "Введённые пароли не совпадают"
 msgid "Account name:"
 msgstr "Имя пользователя:"
 
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
@@ -1035,9 +1033,6 @@ msgstr "несколько значений записываются через 
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/net-eth/index.scm:123 стандартный ввод:7
@@ -1145,8 +1140,6 @@ msgstr "Шлюз по умолчанию"
 msgid "IP interfaces"
 msgstr "IP-интерфейсы"
 
-#. #-#-#-#-#  alterator.pot (PACKAGE VERSION)  #-#-#-#-#
-#. messages from C tools
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
 #: ui/x11/c-messages.scm:2 ui/pkg/license/index.scm:38
@@ -1813,18 +1806,22 @@ msgid "Unknown service"
 msgstr "Неизвестная служба"
 
 #: ui/dovecot/index.scm:35 стандартный ввод:3
+#: ui/dovecot/index.scm:33
 msgid "Supported protocols:"
 msgstr "Поддерживаемые протоколы:"
 
 #: ui/dovecot/index.scm:43 стандартный ввод:4
+#: ui/dovecot/index.scm:41
 msgid "Auth mechanisms:"
 msgstr "Механизмы аутентификации:"
 
 #: ui/dovecot/index.scm:51 стандартный ввод:5
+#: ui/dovecot/index.scm:49
 msgid "(you can't disable all mechanisms)"
 msgstr "(вы должны выбрать хотя бы один механизм)"
 
 #: ui/dovecot/index.scm:57 стандартный ввод:6
+#: ui/dovecot/index.scm:55
 msgid "Auth port for Postfix"
 msgstr "Порт службы аутентификации для Postfix"
 
@@ -1888,19 +1885,19 @@ msgstr "Нажмите F1 для справки"
 msgid "Desktop file not found"
 msgstr "Desktop-файл не найден"
 
-#: ui/std/base.scm:88 ui/std/base.scm:70
+#: ui/std/base.scm:88 ui/std/base.scm:70 ui/std/base.scm:63
 msgid "Information"
 msgstr "Информация"
 
-#: ui/std/base.scm:91 ui/std/base.scm:73
+#: ui/std/base.scm:91 ui/std/base.scm:73 ui/std/base.scm:66
 msgid "Warning"
 msgstr "Предупреждение"
 
-#: ui/std/base.scm:95 ui/std/base.scm:77
+#: ui/std/base.scm:95 ui/std/base.scm:77 ui/std/base.scm:70
 msgid "Critical"
 msgstr "Ошибка"
 
-#: ui/std/base.scm:98 ui/std/base.scm:80
+#: ui/std/base.scm:98 ui/std/base.scm:80 ui/std/base.scm:73
 msgid "Question "
 msgstr "Вопрос"
 
@@ -1978,6 +1975,7 @@ msgid "Installing packages..."
 msgstr "Установка пакетов..."
 
 #: ui/pkg/install/index.scm:81 ui/pkg/groups/index.scm:134
+#: ui/pkg/groups/index.scm:139
 msgid "Preparing..."
 msgstr "Подготовка..."
 
@@ -1997,28 +1995,28 @@ msgstr ""
 msgid "Add"
 msgstr "Добавить"
 
-#: ui/pkg/groups/index.scm:70
+#: ui/pkg/groups/index.scm:70 ui/pkg/groups/index.scm:75
 #, lisp-format
 msgid "Has conflict with ~S"
 msgstr "Имеется конфликт с ~S"
 
-#: ui/pkg/groups/index.scm:81
+#: ui/pkg/groups/index.scm:81 ui/pkg/groups/index.scm:86
 msgid "Required disk space"
 msgstr "Требуемое место на диске"
 
-#: ui/pkg/groups/index.scm:87
+#: ui/pkg/groups/index.scm:87 ui/pkg/groups/index.scm:92
 msgid "calculating..."
 msgstr "вычисление..."
 
-#: ui/pkg/groups/index.scm:93
+#: ui/pkg/groups/index.scm:93 ui/pkg/groups/index.scm:98
 msgid "unable to calculate"
 msgstr "невозможно вычислить"
 
-#: ui/pkg/groups/index.scm:120
+#: ui/pkg/groups/index.scm:120 ui/pkg/groups/index.scm:125
 msgid "Select packages you want to install:"
 msgstr "Выберите пакеты для установки:"
 
-#: ui/pkg/groups/index.scm:153
+#: ui/pkg/groups/index.scm:153 ui/pkg/groups/index.scm:160
 msgid "Please wait..."
 msgstr "Пожалуйста подождите"
 
@@ -2193,3 +2191,72 @@ msgstr "Вернуться"
 #: стандартный ввод:25
 msgid "view full log of the latest operation"
 msgstr "посмотреть подробный отчёт о последней выполненной операции"
+
+#: стандартный ввод:4
+msgid "Port:"
+msgstr "Порт:"
+
+#: стандартный ввод:6
+msgid "Listen address:"
+msgstr "Адрес:"
+
+#: стандартный ввод:8
+msgid "Log:"
+msgstr "Журналы:"
+
+#: стандартный ввод:13
+msgid "Common Name (CN):"
+msgstr "Общее Имя (CN):"
+
+#: стандартный ввод:15
+msgid "Country (C):"
+msgstr "Страна (C):"
+
+#: стандартный ввод:17
+msgid "Location (L):"
+msgstr "Местоположение (L):"
+
+#: стандартный ввод:19
+msgid "Organization (O):"
+msgstr "Организация (O):"
+
+#: стандартный ввод:21
+msgid "Organizational Unit (OU):"
+msgstr "Подразделение (OU):"
+
+#: стандартный ввод:27
+msgid "Upload certificate signed by CA:"
+msgstr "Положить сертификат, подписанный УЦ:"
+
+#: стандартный ввод:14
+msgid "(public hostname)"
+msgstr "(публичное имя компьютера)"
+
+#: стандартный ввод:16
+msgid "(two letter country code)"
+msgstr "(двухбуквенный код страны)"
+
+#: стандартный ввод:18
+msgid "(state or city, written in latin letters)"
+msgstr "(название города или области, написанное латинскими буквами)"
+
+#: стандартный ввод:20
+msgid "(organization name, written in latin letters)"
+msgstr "(название организации, написанное латинскими буквами)"
+
+#: стандартный ввод:22
+msgid "(organizational unit name, written in latin letters)"
+msgstr "(название подразделения, написанное латинскими буквами)"
+
+#: стандартный ввод:24
+msgid "(recreate private key, sign request and self-signed certificate)"
+msgstr ""
+"(пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат)"
+
+#: стандартный ввод:8
+msgid "Logging:"
+msgstr "Протоколирование:"
+
+#: стандартный ввод:9
+msgid "(granularity of the logging influences its size)"
+msgstr "(подробность протоколирования влияет на размер журнала)"
