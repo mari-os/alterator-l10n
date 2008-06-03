@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.4
-Release: alt10
+Release: alt11
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -30,6 +30,10 @@ make check
 
 
 %changelog
+* Tue Jun 03 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.4-alt11
+- clear pot-file before merging
+- fix some translations
+
 * Tue Jun 03 2008 Stanislav Ievlev <inger@altlinux.org> 0.4-alt10
 - update alterator-ahttpd translations
 

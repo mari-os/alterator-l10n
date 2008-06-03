@@ -16,142 +16,25 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ui/license/index.scm:10 ui/notes/license.scm:10
-msgid "Please take a moment to read the license agreement now."
-msgstr ""
-
-#: ui/license/index.scm:12 ui/notes/license.scm:12 ui/pkg/license/index.scm:46
-msgid "License file not found"
-msgstr ""
-
-#: ui/license/index.scm:17 ui/notes/license.scm:17
-msgid "Yes, I agree"
-msgstr ""
-
-#: ui/notes/release-notes.scm:9
-msgid "Release Notes"
-msgstr ""
-
-#: ui/notes/release-notes.scm:11
-msgid "Installation complete"
-msgstr ""
-
-#: backend3/notes:32
-msgid "File not found"
-msgstr ""
-
-#: ui/services/index.scm:25 стандартный ввод:4
-msgid "Current state"
-msgstr ""
-
-#: ui/services/index.scm:68 стандартный ввод:2
-#: ui/xinetd/index.scm:107
-msgid "Services"
-msgstr ""
-
-#: ui/services/index.scm:75 ui/xinetd/index.scm:114
-msgid ""
-"There are unsaved changes in the service settings. Do you want to apply "
-"these changes?"
-msgstr ""
-
-#: ui/services/index.scm:87
-msgid "Change state"
-msgstr ""
-
-#: ui/services/index.scm:93 стандартный ввод:5
-msgid "Start on boot"
-msgstr ""
-
-#: ui/services/index.scm:94 стандартный ввод:6
-#: ui/xinetd/index.scm:141 ввод:15 ui/lilo/index.scm:101
-#: ui/lilo/extra-sections/index.scm:202 ui/lilo/extra-general/index.scm:110
-#: ui/lilo/view-source/index.scm:58 ui/auth/index.scm:76 ввод:7
-#: ввод:14 ввод:11 ui/timezone/index.scm:75
-#: ui/datetime/html-messages.scm:6 ui/datetime/index.scm:59
-#: ui/users/index.scm:118 ввод:17 ui/net-eth/index.scm:171
-#: ui/x11/index.scm:97 ввод:4 ввод:22 ui/alternatives/index.scm:129
-#: ui/control/index.scm:70 ui/root/index.scm:39 ввод:5 ввод:8
-#: ввод:24 ui/timezone/index.scm:69 ui/lilo/extra-sections/index.scm:209
-#: ui/lilo/extra-general/index.scm:111 ввод:9 ui/net-eth/index.scm:166
-#: ui/root/index.scm:37 ui/lilo/extra-sections/index.scm:198
-#: ui/lilo/index.scm:99 ui/lilo/view-source/index.scm:57
-#: ui/users/index.scm:113 ui/net-wifi/index.scm:132 ввод:12
-#: ui/dovecot/index.scm:64 ввод:10 ui/dovecot/index.scm:62
-msgid "Apply"
-msgstr ""
-
-#: ui/services/index.scm:95 ui/xinetd/index.scm:142
-#: ui/lilo/extra-sections/index.scm:192 ui/lilo/extra-sections/index.scm:203
-#: ui/lilo/extra-general/index.scm:111 ui/lilo/view-source/index.scm:54
-#: ui/lilo/view-source/index.scm:59 ui/auth/index.scm:77
-#: стандартный ввод:8 ввод:15 ввод:7
-#: ui/datetime/html-messages.scm:7 ui/net-eth/index.scm:172 ввод:5
-#: ввод:18 ввод:23 ввод:9 ввод:25 ui/timezone/index.scm:70
-#: ui/lilo/extra-sections/index.scm:199 ui/lilo/extra-sections/index.scm:210
-#: ui/lilo/extra-general/index.scm:112 ввод:10 ui/net-eth/index.scm:167
-#: ui/lilo/extra-sections/index.scm:188 ui/lilo/view-source/index.scm:53
-#: ui/lilo/view-source/index.scm:58 ui/net-wifi/index.scm:133 ввод:13
-#: ui/dovecot/index.scm:65 ui/pkg/sources/index.scm:230
-#: ui/dovecot/index.scm:63
-msgid "Reset"
-msgstr ""
-
-#. Get status information: stopped|running|unknown
-#. Usage string must be provided
-#. (srv usage)
-#: backend3/services:46 backend3/services:113
-msgid "unknown"
-msgstr ""
-
-#. [[ "$unf_status" =~ "is stopped" ]] && status="\"stopped\""
-#. [[ "$unf_status" =~ "is running" ]] && status="\"running\""
-#: backend3/services:52 backend3/services:129 backend3/services:130
-msgid "stopped"
-msgstr ""
-
-#: backend3/services:53 backend3/services:128
-msgid "running"
-msgstr ""
-
-#: backend3/services:116
-msgid "Service"
-msgstr ""
-
-#: backend3/services:127
-msgid "do not change"
-msgstr ""
-
-#: backend3/services:128
-msgid "start"
-msgstr ""
-
-#: backend3/services:129
-msgid "stop"
-msgstr ""
-
-#: backend3/services:130
-msgid "restart"
-msgstr ""
-
-#: стандартный ввод:1
-msgid "System services"
-msgstr ""
-
-#: стандартный ввод:3 ввод:9 ввод:6 ввод:5
-msgid "Select"
-msgstr ""
-
-#: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25
-#: ui/lilo/extra-sections/index.scm:157 ui/lilo/extra-general/index.scm:80
-#: ui/lilo/view-source/index.scm:46 ui/lilo/extra-sections/index.scm:151
-#: ui/lilo/extra-general/index.scm:79 ui/lilo/view-source/index.scm:45
-#: backend3/xinetd:105 backend3/xinetd:108
+#: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25 backend3/xinetd:108
+#: ui/lilo/extra-sections/index.scm:151 ui/lilo/extra-general/index.scm:79
+#: ui/lilo/view-source/index.scm:45
 msgid "Common settings"
 msgstr ""
 
 #: ui/xinetd/index.scm:67
 msgid "internal service"
+msgstr ""
+
+#: ui/xinetd/index.scm:107 стандартный ввод:2
+#: ui/services/index.scm:68
+msgid "Services"
+msgstr ""
+
+#: ui/xinetd/index.scm:114 ui/services/index.scm:75
+msgid ""
+"There are unsaved changes in the service settings. Do you want to apply "
+"these changes?"
 msgstr ""
 
 #: ui/xinetd/index.scm:127
@@ -196,12 +79,40 @@ msgid ""
 "running xinetd to make it reread new configuration."
 msgstr ""
 
+#: ui/xinetd/index.scm:141 стандартный ввод:15
+#: ui/net-wifi/index.scm:132 ввод:12 ui/lilo/extra-sections/index.scm:198
+#: ui/lilo/extra-general/index.scm:110 ui/lilo/index.scm:99
+#: ui/lilo/view-source/index.scm:57 ui/services/index.scm:94 ввод:6
+#: ui/dovecot/index.scm:62 ввод:7 ui/root/index.scm:37 ввод:5
+#: ui/timezone/index.scm:69 ui/datetime/index.scm:59 ui/x11/index.scm:97
+#: ввод:4 ввод:9 ввод:22 ui/net-eth/index.scm:166 ввод:14
+#: ввод:8 ввод:24 ui/users/index.scm:113 ввод:17
+#: ui/alternatives/index.scm:129 ui/auth/index.scm:76 ввод:19 ввод:10
+#: ui/control/index.scm:70
+msgid "Apply"
+msgstr ""
+
+#: ui/xinetd/index.scm:142 ui/net-wifi/index.scm:133 стандартный
+#: ввод:13 ui/lilo/extra-sections/index.scm:188
+#: ui/lilo/extra-sections/index.scm:199 ui/lilo/extra-general/index.scm:111
+#: ui/lilo/view-source/index.scm:53 ui/lilo/view-source/index.scm:58
+#: ui/services/index.scm:95 ui/dovecot/index.scm:63 ввод:8
+#: ui/timezone/index.scm:70 ввод:7 ввод:5 ввод:10 ввод:23
+#: ui/net-eth/index.scm:167 ввод:15 ввод:9 ввод:25
+#: ui/auth/index.scm:77 ui/pkg/sources/index.scm:230 ввод:20
+msgid "Reset"
+msgstr ""
+
 #: стандартный ввод:1
 msgid "Xinetd server"
 msgstr ""
 
-#: стандартный ввод:4 ui/control/index.scm:54
-#: backend3/control:23 backend3/pkg-sources:154
+#: стандартный ввод:3 ввод:6 ввод:5 ввод:9
+msgid "Select"
+msgstr ""
+
+#: стандартный ввод:4 backend3/pkg-sources:154
+#: ui/control/index.scm:54 backend3/control:23
 msgid "State"
 msgstr ""
 
@@ -215,15 +126,280 @@ msgstr ""
 msgid "Start, stop or restart xinetd"
 msgstr ""
 
-#: ui/lilo/index.scm:53 ui/lilo/index.scm:51
+#: backend3/xinetd:111
+msgid "This settings will be applied to services with undefined fields"
+msgstr ""
+
+#: backend3/xinetd:235 backend3/xinetd:299
+msgid "Can't open file"
+msgstr ""
+
+#: backend3/xinetd:236 backend3/xinetd:300
+msgid "Can't open temporary file"
+msgstr ""
+
+#: backend3/xinetd:417
+msgid "Unknown service"
+msgstr ""
+
+#: ui/net-wifi/index.scm:104 стандартный ввод:2
+#: ui/lilo/extra-general/index.scm:101
+msgid "Interface:"
+msgstr ""
+
+#. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: ui/net-wifi/index.scm:105 стандартный ввод:4
+#: ui/net-eth/index.scm:118 ввод:7
+msgid "Status:"
+msgstr ""
+
+#: ui/net-wifi/index.scm:107 стандартный ввод:3
+msgid "Reconfigure interface"
+msgstr ""
+
+#: ui/net-wifi/index.scm:116 стандартный ввод:5
+msgid "Configured networks"
+msgstr ""
+
+#: ui/net-wifi/index.scm:124 стандартный ввод:7
+msgid "Enable"
+msgstr ""
+
+#: ui/net-wifi/index.scm:125 стандартный ввод:8
+msgid "Network name:"
+msgstr ""
+
+#: ui/net-wifi/index.scm:126 стандартный ввод:9
+#: ui/auth/index.scm:55 ввод:2 ввод:4
+msgid "Auth type:"
+msgstr ""
+
+#: ui/net-wifi/index.scm:128 стандартный ввод:10
+msgid "Change password:"
+msgstr ""
+
+#: ui/net-wifi/index.scm:129 стандартный ввод:11
+msgid "Encription:"
+msgstr ""
+
+#: ui/net-wifi/index.scm:134 стандартный ввод:14
+#: ui/pkg/sources/index.scm:180
+msgid "Delete"
+msgstr ""
+
+#: ui/net-wifi/index.scm:137 стандартный ввод:15
+msgid "Configure new network"
+msgstr ""
+
+#: ui/net-wifi/index.scm:140 стандартный ввод:16
+msgid "Networks found:"
+msgstr ""
+
+#: ui/net-wifi/index.scm:142 стандартный ввод:17
+msgid "Rescan"
+msgstr ""
+
+#: ui/net-wifi/index.scm:143 стандартный ввод:18
+msgid "Configure"
+msgstr ""
+
+#: ui/net-wifi/index.scm:145
+msgid "Quit"
+msgstr ""
+
+#: backend3/net-wifi:134
+msgid "Other network"
+msgstr ""
+
+#: backend3/net-wifi:162
+msgid "No password"
+msgstr ""
+
+#: backend3/net-wifi:163
+msgid "WEP Password"
+msgstr ""
+
+#: backend3/net-wifi:166
+msgid "WPA Personal (WPA-PSK)"
+msgstr ""
+
+#: backend3/net-wifi:167
+msgid "WPA2 Personal (WPA-PSK)"
+msgstr ""
+
+#: backend3/net-wifi:227
+msgid "Connected to network"
+msgstr ""
+
+#: backend3/net-wifi:228
+msgid "access point"
+msgstr ""
+
+#: backend3/net-wifi:228 backend3/net-eth:357
+msgid "IP address"
+msgstr ""
+
+#: backend3/net-wifi:231
+msgid "Scanning..."
+msgstr ""
+
+#: backend3/net-wifi:261
+msgid "Current network"
+msgstr ""
+
+#: backend3/net-wifi:406
+msgid "Network name"
+msgstr ""
+
+#: backend3/net-wifi:407
+msgid "Access point"
+msgstr ""
+
+#: backend3/net-wifi:408
+msgid "Status"
+msgstr ""
+
+#. printf 'auth_type (label "%s" %s %s %s %s)\n' #			    "`_ "Security"`" #			    "$(print_excludes "nopasswd" key user pairwise eap)" #			    "$(print_excludes "wep" user pairwise eap)" #			    "$(print_excludes "wpa-psk" user eap)" #			    "$(print_excludes "wpa2-psk" user eap)"
+#: backend3/net-wifi:415
+msgid "User name"
+msgstr ""
+
+#: backend3/net-wifi:416
+msgid "Network key"
+msgstr ""
+
+#: backend3/net-wifi:417
+msgid "Encryption"
+msgstr ""
+
+#: backend3/net-wifi:418
+msgid "EAP method"
+msgstr ""
+
+#: backend3/net-wifi:434 backend3/net-wifi:460 backend3/net-wifi:470
+msgid "Not a wireless interface"
+msgstr ""
+
+#: backend3/net-wifi:479
+msgid "Password is too short"
+msgstr ""
+
+#: backend3/net-wifi:511
+msgid "Unable to create network"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "Wi-Fi setup"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:100 ui/lilo/extra-sections/index.scm:110
+#: ui/lilo/extra-sections/index.scm:120 ui/lilo/extra-sections/index.scm:125
+msgid "<UNDEFINED>"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:150 ui/lilo/extra-general/index.scm:78
+#: ui/lilo/view-source/index.scm:44
+msgid "Simple mode"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:152 ui/lilo/extra-general/index.scm:80
+#: ui/lilo/view-source/index.scm:46
+msgid "Boot sections"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:153 ui/lilo/extra-general/index.scm:81
+#: ui/lilo/view-source/index.scm:47
+msgid "Edit lilo.conf"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:158
+msgid "Add Linux loader"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:159
+msgid "Add other loader"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:166
+msgid "Label:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:168
+msgid "Image:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:169
+msgid "Initrd:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:170
+msgid "Root:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:171 ui/lilo/extra-general/index.scm:99
+msgid "Kernel params:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:173
+msgid "Device:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:174
+msgid "Alias:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:175
+msgid "Boot-as:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:176
+msgid "Table:"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:179
+msgid "Set default"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:187 ui/lilo/view-source/index.scm:52
+#: стандартный ввод:2
+msgid "Save"
+msgstr ""
+
+#: ui/lilo/extra-sections/index.scm:189 ui/pkg/register/index.scm:46
+#: стандартный ввод:5
+msgid "Remove"
+msgstr ""
+
+#: ui/lilo/extra-general/index.scm:90
+msgid "Skip bootloader installation"
+msgstr ""
+
+#: ui/lilo/extra-general/index.scm:94
+msgid "Write lilo.conf without boot loader installation"
+msgstr ""
+
+#: ui/lilo/extra-general/index.scm:98 ui/lilo/index.scm:76
+msgid "Install boot loader on:"
+msgstr ""
+
+#: ui/lilo/extra-general/index.scm:100
+msgid "Timeout:"
+msgstr ""
+
+#: ui/lilo/extra-general/index.scm:102
+msgid "Raid-extra-boot:"
+msgstr ""
+
+#: ui/lilo/index.scm:51
 msgid "Master Boot Record"
 msgstr ""
 
-#: ui/lilo/index.scm:54 ui/lilo/index.scm:52
+#: ui/lilo/index.scm:52
 msgid "First sector of partition"
 msgstr ""
 
-#: ui/lilo/index.scm:74 ui/lilo/index.scm:72
+#: ui/lilo/index.scm:72
 msgid ""
 "Boot loader is used to boot your operating system and it can be configured "
 "here. If this is a sole operating system on this machine you should install "
@@ -231,466 +407,350 @@ msgid ""
 "documentation for available options."
 msgstr ""
 
-#: ui/lilo/index.scm:78 ui/lilo/extra-general/index.scm:98
-#: ui/lilo/extra-general/index.scm:99 ui/lilo/index.scm:76
-msgid "Install boot loader on:"
-msgstr ""
-
-#: ui/lilo/index.scm:84 ui/lilo/index.scm:82
+#: ui/lilo/index.scm:82
 msgid "Device"
 msgstr ""
 
-#: ui/lilo/index.scm:84 ui/lilo/index.scm:82
+#: ui/lilo/index.scm:82
 msgid "Size"
 msgstr ""
 
-#: ui/lilo/index.scm:84 ui/lilo/index.scm:82
+#: ui/lilo/index.scm:82
 msgid "Destination"
 msgstr ""
 
-#: ui/lilo/index.scm:87 ui/lilo/index.scm:85
+#: ui/lilo/index.scm:85
 msgid "Show partitions"
 msgstr ""
 
-#: ui/lilo/index.scm:102 ui/lilo/index.scm:100
+#: ui/lilo/index.scm:100
 msgid "Expert settings"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:100 ui/lilo/extra-sections/index.scm:110
-#: ui/lilo/extra-sections/index.scm:122 ui/lilo/extra-sections/index.scm:127
-#: ui/lilo/extra-sections/index.scm:120 ui/lilo/extra-sections/index.scm:125
-msgid "<UNDEFINED>"
+#: ui/license/index.scm:10 ui/notes/license.scm:10
+msgid "Please take a moment to read the license agreement now."
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:156 ui/lilo/extra-general/index.scm:80
-#: ui/lilo/view-source/index.scm:45
-msgid "Normal mode"
+#: ui/license/index.scm:12 ui/notes/license.scm:12 ui/pkg/license/index.scm:46
+msgid "License file not found"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:157 ui/lilo/extra-general/index.scm:81
-#: ui/lilo/view-source/index.scm:46
-msgid "Global options"
+#: ui/license/index.scm:17 ui/notes/license.scm:17
+msgid "Yes, I agree"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:158 ui/lilo/extra-general/index.scm:82
-#: ui/lilo/view-source/index.scm:47 ui/lilo/extra-general/index.scm:81
-#: ui/lilo/extra-sections/index.scm:152 ui/lilo/extra-general/index.scm:80
-#: ui/lilo/view-source/index.scm:46
-msgid "Boot sections"
+#: ui/notes/release-notes.scm:9
+msgid "Release Notes"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:159 ui/lilo/extra-general/index.scm:83
-#: ui/lilo/view-source/index.scm:48
-msgid "Edit source"
+#: ui/notes/release-notes.scm:11
+msgid "Installation complete"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:164 ui/lilo/extra-sections/index.scm:189
-#: ui/lilo/extra-sections/index.scm:190 ui/lilo/extra-sections/index.scm:179
-msgid "Set default"
+#: backend3/notes:32
+msgid "File not found"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:169
-msgid "New Linux section"
+#: backend2/constraints:35
+msgid "invalid hostname"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:170
-msgid "New Other section"
+#: backend2/constraints:40
+msgid "invalid ipv4 address"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:177 ui/lilo/extra-sections/index.scm:166
-msgid "Label:"
+#: backend2/constraints:46
+msgid "doesn't match to pattern"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:179 ui/lilo/extra-sections/index.scm:168
-msgid "Image:"
+#: backend2/constraints:53
+msgid "should be one of:"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:180 ui/lilo/extra-sections/index.scm:169
-msgid "Initrd:"
+#: backend2/constraints:58
+msgid "values not equal"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:181 ui/lilo/extra-sections/index.scm:170
-msgid "Root:"
+#: backend2/constraints:61
+msgid "required, but missing"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:182 ui/lilo/extra-general/index.scm:99
-#: ui/lilo/extra-general/index.scm:100 ui/lilo/extra-sections/index.scm:171
-msgid "Kernel params:"
+#: backend2/constraints:133
+msgid "Constraints failed:"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:184 ui/lilo/extra-sections/index.scm:173
-msgid "Device:"
+#: interfaces/guile/ensign/ensign.scm:20
+msgid "Backend live time (in hours)"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:185 ui/lilo/extra-sections/index.scm:174
-msgid "Alias:"
+#: interfaces/guile/ensign/ensign.scm:21
+msgid "should be digits"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:186 ui/lilo/extra-sections/index.scm:175
-msgid "Boot-as:"
+#: ui/services/index.scm:25 стандартный ввод:4
+msgid "Current state"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:187 ui/lilo/extra-sections/index.scm:176
-msgid "Table:"
+#: ui/services/index.scm:87
+msgid "Change state"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:191 ui/lilo/view-source/index.scm:53
-#: ui/control/html-messages.scm:3 стандартный ввод:3
-#: ui/lilo/extra-sections/index.scm:198 ввод:2
-#: ui/lilo/extra-sections/index.scm:187 ui/lilo/view-source/index.scm:52
-msgid "Save"
+#: ui/services/index.scm:93 стандартный ввод:5
+msgid "Start on boot"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:193 ui/lilo/extra-sections/index.scm:200
-#: ui/lilo/extra-sections/index.scm:189 ui/pkg/register/index.scm:46
-#: стандартный ввод:21
-msgid "Remove"
+#. Get status information: stopped|running|unknown
+#. Usage string must be provided
+#. (srv usage)
+#: backend3/services:46 backend3/services:113
+msgid "unknown"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:90 ui/lilo/extra-general/index.scm:91
-msgid "Skip bootloader installation"
+#. [[ "$unf_status" =~ "is stopped" ]] && status="\"stopped\""
+#. [[ "$unf_status" =~ "is running" ]] && status="\"running\""
+#: backend3/services:52 backend3/services:129 backend3/services:130
+msgid "stopped"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:94 ui/lilo/extra-general/index.scm:95
-msgid "Write lilo.conf without boot loader installation"
+#: backend3/services:53 backend3/services:128
+msgid "running"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:100 ui/lilo/extra-general/index.scm:101
-msgid "Timeout:"
+#: backend3/services:116
+msgid "Service"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:101 ui/lilo/extra-general/index.scm:102
-#: ui/net-wifi/index.scm:104 стандартный ввод:2
-msgid "Interface:"
+#: backend3/services:127
+msgid "do not change"
 msgstr ""
 
-#: ui/lilo/extra-general/index.scm:102 ui/lilo/extra-general/index.scm:103
-msgid "Raid-extra-boot:"
+#: backend3/services:128
+msgid "start"
 msgstr ""
 
-#: ui/auth/index.scm:55 стандартный ввод:2 ввод:4
-#: ui/net-wifi/index.scm:126 ввод:9
-msgid "Auth type:"
+#: backend3/services:129
+msgid "stop"
 msgstr ""
 
-#: ui/auth/index.scm:62 стандартный ввод:5
-msgid "LDAP server:"
-msgstr ""
-
-#: ui/auth/index.scm:67 стандартный ввод:6
-msgid "Base DN:"
-msgstr ""
-
-#: backend3/auth:30
-msgid "Local files"
-msgstr ""
-
-#: backend3/auth:33
-msgid "LDAP"
-msgstr ""
-
-#: backend3/auth:105
-msgid "LDAP server"
-msgstr ""
-
-#: backend3/auth:107
-msgid "should be ldap://host or ldapi://host or ldaps://host"
+#: backend3/services:130
+msgid "restart"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "Authentication"
+msgid "System services"
 msgstr ""
 
-#: стандартный ввод:3 ввод:8 ui/pkg/sources/index.scm:90
-#: ui/pkg/sources/index.scm:229
-msgid "Change"
+#: ui/dovecot/index.scm:33 стандартный ввод:3
+msgid "Supported protocols:"
 msgstr ""
 
-#: backend3/vsftpd:63 backend3/vsftpd:56
-msgid "yes"
+#: ui/dovecot/index.scm:41 стандартный ввод:4
+msgid "Auth mechanisms:"
 msgstr ""
 
-#: backend3/vsftpd:63 backend3/vsftpd:56
-msgid "no"
+#: ui/dovecot/index.scm:49 стандартный ввод:5
+msgid "(you can't disable all mechanisms)"
 msgstr ""
 
-#: backend3/vsftpd:63 backend3/vsftpd:56
-msgid "default"
+#: ui/dovecot/index.scm:55 стандартный ввод:6
+msgid "Auth port for Postfix"
 msgstr ""
 
-#: backend3/vsftpd:75 стандартный ввод:4 backend3/vsftpd:68
-msgid "Enable FTP service"
+#: backend3/dovecot:29
+msgid "POP3"
 msgstr ""
 
-#: backend3/vsftpd:80 стандартный ввод:5 backend3/vsftpd:73
-msgid "Allow anonymous login"
+#: backend3/dovecot:30
+msgid "POP3 over TLS/SSL"
 msgstr ""
 
-#: backend3/vsftpd:82 стандартный ввод:10 backend3/vsftpd:75
-msgid "Allow mkdir"
+#: backend3/dovecot:31
+msgid "IMAP4"
 msgstr ""
 
-#: backend3/vsftpd:84 стандартный ввод:11 backend3/vsftpd:77
-msgid "Allow upload"
+#: backend3/dovecot:32
+msgid "IMAP4 over TLS/SSL"
 msgstr ""
 
-#: backend3/vsftpd:86 стандартный ввод:12 backend3/vsftpd:79
-msgid "Default upload directory (/var/ftp/incoming)"
+#: backend3/dovecot:35
+msgid "PLAIN"
 msgstr ""
 
-#. "
-#: backend3/vsftpd:88 стандартный ввод:13 backend3/vsftpd:81
-msgid "Allow rename/delete"
+#: backend3/dovecot:36
+msgid "LOGIN"
 msgstr ""
 
-#: backend3/vsftpd:91 стандартный ввод:6 backend3/vsftpd:84
-msgid "Allow write"
-msgstr ""
-
-#: backend3/vsftpd:94 backend3/vsftpd:87
-msgid "Write access"
-msgstr ""
-
-#: backend3/vsftpd:97 стандартный ввод:7 backend3/vsftpd:90
-msgid "Allow local users login"
-msgstr ""
-
-#: backend3/vsftpd:99 стандартный ввод:8 backend3/vsftpd:92
-msgid "Enable per user settings"
-msgstr ""
-
-#: backend3/vsftpd:156 backend3/vsftpd:139
-msgid "enable write access"
-msgstr ""
-
-#: backend3/vsftpd:157 backend3/vsftpd:140
-msgid "disable write access"
-msgstr ""
-
-#: backend3/vsftpd:158 backend3/vsftpd:141
-msgid "remove from list"
-msgstr ""
-
-#: backend3/vsftpd:218 backend3/vsftpd:201
-msgid "Same user already exists"
+#: backend3/dovecot:37
+msgid "ANONYMOUS"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "FTP server"
+msgid "POP3/IMAP server"
 msgstr ""
 
 #: стандартный ввод:2
 msgid "start, stop or restart service"
 msgstr ""
 
-#: стандартный ввод:3
-msgid "General options"
+#: ui/std/base.scm:63
+msgid "Information"
 msgstr ""
 
-#: стандартный ввод:9
-msgid "Anonymous user options"
+#: ui/std/base.scm:66
+msgid "Warning"
 msgstr ""
 
-#: стандартный ввод:16
-msgid "Local users settings"
+#: ui/std/base.scm:70
+msgid "Critical"
 msgstr ""
 
-#: стандартный ввод:17
-msgid "For selected:"
+#: ui/std/base.scm:73
+msgid "Question "
 msgstr ""
 
-#: стандартный ввод:18 ввод:20 ui/users/add/index.scm:73
-#: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24
-#: ui/users/add/index.scm:67 ввод:10
-msgid "OK"
+#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
+#: ui/logs/index.scm:33 стандартный ввод:4
+#: ui/sysconfig/language/index.scm:33
+msgid "Next"
 msgstr ""
 
-#: стандартный ввод:19
-msgid "Add user:"
+#: ui/wizard/index.scm:41 ui/wizard/index.scm:45 ui/wizard/index.scm:49
+#: ui/logs/index.scm:32 стандартный ввод:3
+msgid "Previous"
 msgstr ""
 
-#: стандартный ввод:21
-msgid "System users administration..."
+#: ui/wizard/index.scm:42 ui/wizard/index.scm:46 ui/wizard/index.scm:50
+msgid "Finish"
 msgstr ""
 
-#: backend3/ahttpd:128 backend3/ahttpd:125
-msgid "all connections"
+#: ui/wizard/index.scm:123 ui/sysconfig/language/index.scm:32
+msgid "Help"
 msgstr ""
 
-#: backend3/ahttpd:129 backend3/ahttpd:126
-msgid "errors only"
+#: ui/root/passwd/index.scm:54 стандартный ввод:3 ввод:4
+#: ввод:15
+msgid "(enter passphrase)"
 msgstr ""
 
-#: backend3/ahttpd:130 backend3/ahttpd:127
-msgid "nothing"
+#: ui/root/passwd/index.scm:56 стандартный ввод:4 ввод:5
+#: ввод:16
+msgid "(repeat passphrase)"
 msgstr ""
 
-#: backend3/ahttpd:193 backend3/ahttpd:181
-msgid "Invalid certificate file"
+#: ui/root/passwd/index.scm:63 design/scripts/password.js:59
+msgid "Generate"
+msgstr ""
+
+#: ui/root/passwd/index.scm:68 design/scripts/password.js:65
+msgid "Generate automatically"
+msgstr ""
+
+#: ui/root/index.scm:19
+msgid "You should define a password for system administrator"
+msgstr ""
+
+#: ui/root/index.scm:22 ui/users/add/index.scm:24 ui/users/index.scm:59
+msgid "Passwords mismatch"
+msgstr ""
+
+#: ui/root/index.scm:30
+msgid "Setup password for system administrator"
+msgstr ""
+
+#: backend3/root:20 backend3/root:21 backend3/users:169
+msgid "Password"
+msgstr ""
+
+#: backend3/root:29
+msgid "Unable to change password"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "HTTP server"
+msgid "System administrator"
 msgstr ""
 
-#: стандартный ввод:2 ввод:3
-msgid "General settings"
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: стандартный ввод:2 ui/users/add/index.scm:56
+#: ui/users/index.scm:104 ввод:3 ввод:14
+msgid "Password:"
 msgstr ""
 
-#: стандартный ввод:3
-msgid "Port"
-msgstr ""
-
-#: стандартный ввод:4 ввод:5
-msgid "TCP port where server listen on"
-msgstr ""
-
-#: стандартный ввод:5
-msgid "Listen address"
-msgstr ""
-
-#: стандартный ввод:6 ввод:7
-msgid ""
-"IP address where server listen on, or '*' for listening on all interfaces"
-msgstr ""
-
-#: стандартный ввод:7
-msgid "Log"
-msgstr ""
-
-#: стандартный ввод:8 ввод:9
-msgid "Granularity of the log influences its size"
-msgstr ""
-
-#: стандартный ввод:9
-msgid "Hostname"
-msgstr ""
-
-#: стандартный ввод:10
-msgid "parameter or HTTP/1.0 clients only, adress we use to redirect to itself"
-msgstr ""
-
-#: стандартный ввод:12 ввод:2
-msgid "Restart HTTP server"
-msgstr ""
-
-#: стандартный ввод:13 ввод:11
-msgid "TLS settings"
-msgstr ""
-
-#: стандартный ввод:14 ввод:12
-msgid "Certificate"
-msgstr ""
-
-#: стандартный ввод:15
-msgid "Common Name (CN)"
-msgstr ""
-
-#: стандартный ввод:16 ввод:14
-msgid "should be a public hostname"
-msgstr ""
-
-#: стандартный ввод:17
-msgid "Country (C)"
-msgstr ""
-
-#: стандартный ввод:18 ввод:16
-msgid "two letter country code"
-msgstr ""
-
-#: стандартный ввод:19
-msgid "Location (L)"
-msgstr ""
-
-#: стандартный ввод:20 ввод:18
-msgid "state or city, written in latin letters"
-msgstr ""
-
-#: стандартный ввод:21
-msgid "Organization (O)"
-msgstr ""
-
-#: стандартный ввод:22 ввод:20
-msgid "organization name, written in latin letters"
-msgstr ""
-
-#: стандартный ввод:23
-msgid "Organizational Unit (OU)"
-msgstr ""
-
-#: стандартный ввод:24 ввод:22
-msgid "organizational unit name, written in latin letters"
-msgstr ""
-
-#: стандартный ввод:25 ввод:23
-msgid "Recreate"
-msgstr ""
-
-#: стандартный ввод:26 ввод:24
-msgid "recreate private key, sign request and self-signed certificate"
-msgstr ""
-
-#: стандартный ввод:27 ввод:25
-msgid "Sign"
-msgstr ""
-
-#: стандартный ввод:28 ввод:26
-msgid "Download sign request"
-msgstr ""
-
-#: стандартный ввод:29
-msgid "Upload certificate signed by CA"
-msgstr ""
-
-#: стандартный ввод:30 ввод:28
-msgid "Upload"
-msgstr ""
-
-#: ui/timezone/index.scm:51 стандартный ввод:2
-#: ui/timezone/index.scm:35
+#: ui/timezone/index.scm:35 стандартный ввод:2
 msgid "Please, select country:"
 msgstr ""
 
-#: ui/timezone/index.scm:62 стандартный ввод:4
-#: ui/timezone/index.scm:48
+#: ui/timezone/index.scm:48 стандартный ввод:4
 msgid "Please, select time zone:"
 msgstr ""
 
-#: ui/timezone/index.scm:69 backend3/timezone:119 стандартный
-#: ввод:5 ui/timezone/index.scm:58 backend3/timezone:123
+#: ui/timezone/index.scm:58 стандартный ввод:5
 msgid "Hardware time set to GMT"
 msgstr ""
 
-#: backend3/timezone:117 backend3/timezone:121
-msgid "Country"
-msgstr ""
-
-#: backend3/timezone:118 стандартный ввод:1
-#: backend3/timezone:122
+#: стандартный ввод:1
 msgid "Time zone"
 msgstr ""
 
-#: ui/datetime/html-messages.scm:1 стандартный ввод:1
-msgid "Date/Time"
+#: ui/logs/index.scm:27 стандартный ввод:1
+msgid "Logs:"
 msgstr ""
 
-#: ui/datetime/html-messages.scm:2 ui/datetime/index.scm:26
-#: backend3/datetime:40 стандартный ввод:2
+#: ui/logs/index.scm:35 стандартный ввод:5
+msgid "First page"
+msgstr ""
+
+#: ui/logs/index.scm:36 стандартный ввод:6
+msgid "Last page"
+msgstr ""
+
+#: ui/logs/index.scm:38 стандартный ввод:7
+msgid "Show:"
+msgstr ""
+
+#: backend3/logs:98
+msgid "Lines %s-%s of %s"
+msgstr ""
+
+#: backend3/logs:117
+msgid "10 lines"
+msgstr ""
+
+#: backend3/logs:118
+msgid "20 lines"
+msgstr ""
+
+#: backend3/logs:119
+msgid "50 lines"
+msgstr ""
+
+#: backend3/logs:120
+msgid "100 lines"
+msgstr ""
+
+#: стандартный ввод:2
+msgid "View"
+msgstr ""
+
+#: стандартный ввод:8 ввод:3 ui/pkg/sources/index.scm:90
+#: ui/pkg/sources/index.scm:229
+msgid "Change"
+msgstr ""
+
+#: ui/datetime/index.scm:26 backend3/datetime:40 стандартный
+#: ввод:2
 msgid "Get time from NTP server:"
 msgstr ""
 
-#: ui/datetime/html-messages.scm:3 ui/datetime/index.scm:31
-#: стандартный ввод:3
+#: ui/datetime/index.scm:31 стандартный ввод:3
 msgid "Work as NTP server"
 msgstr ""
 
-#: ui/datetime/html-messages.scm:4 ui/datetime/index.scm:41
-#: стандартный ввод:4
+#: ui/datetime/index.scm:41 стандартный ввод:4
 msgid "Current date:"
 msgstr ""
 
-#: ui/datetime/html-messages.scm:5 ui/datetime/index.scm:42
-#: стандартный ввод:5
+#: ui/datetime/index.scm:42 стандартный ввод:5
 msgid "Current time:"
 msgstr ""
 
@@ -794,335 +854,8 @@ msgstr ""
 msgid "Su"
 msgstr ""
 
-#: ui/users/add/index.scm:20
-msgid "You should define a system user"
-msgstr ""
-
-#: ui/users/add/index.scm:22
-msgid "You should define a password"
-msgstr ""
-
-#: ui/users/add/index.scm:24 ui/users/index.scm:64 ui/root/index.scm:22
-#: ui/users/index.scm:59
-msgid "Passwords mismatch"
-msgstr ""
-
-#: ui/users/add/index.scm:53 стандартный ввод:2
-#: ui/users/add/index.scm:47
-msgid "Account name:"
-msgstr ""
-
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#: ui/users/add/index.scm:62 ui/users/index.scm:109 стандартный
-#: ввод:3 ввод:14 ввод:2 ui/users/add/index.scm:56
-#: ui/users/index.scm:104
-msgid "Password:"
-msgstr ""
-
-#: ui/users/add/index.scm:76 ui/x11/driver/index.scm:32
-#: ui/x11/monitor/index.scm:30 ui/users/add/index.scm:70
-#: ui/pkg/upgrade/index.scm:55 стандартный ввод:28
-msgid "Cancel"
-msgstr ""
-
-#: ui/users/index.scm:44 ui/users/index.scm:39
-msgid "Do you really want to delete user "
-msgstr ""
-
-#: ui/users/index.scm:78 стандартный ввод:8
-#: ui/users/index.scm:73
-msgid "New user..."
-msgstr ""
-
-#.
-#: ui/users/index.scm:93 стандартный ввод:10
-#: ui/users/index.scm:88
-msgid "Comment:"
-msgstr ""
-
-#.
-#: ui/users/index.scm:96 стандартный ввод:11
-#: ui/users/index.scm:91
-msgid "Home directory:"
-msgstr ""
-
-#.
-#: ui/users/index.scm:99 стандартный ввод:12
-#: ui/users/index.scm:94
-msgid "Shell:"
-msgstr ""
-
-#: ui/users/index.scm:103 backend3/users:161 стандартный
-#: ввод:13 ui/users/index.scm:98 backend3/users:169 backend3/users:168
-msgid "Switching to superuser"
-msgstr ""
-
-#: ui/users/index.scm:123 стандартный ввод:18
-#: ui/users/index.scm:118
-msgid "Delete user"
-msgstr ""
-
-#: backend3/users:66 backend3/users:74
-msgid "can't update password file"
-msgstr ""
-
-#. '
-#: backend3/users:67 backend3/users:108 backend3/users:75 backend3/users:116
-msgid "invalid command syntax"
-msgstr ""
-
-#: backend3/users:68 backend3/users:76
-msgid "invalid argument to option"
-msgstr ""
-
-#: backend3/users:69 backend3/users:77
-msgid "uid already in use"
-msgstr ""
-
-#: backend3/users:70 backend3/users:78
-msgid "specified user doesn't exist"
-msgstr ""
-
-#. '
-#: backend3/users:71 backend3/users:79
-msgid "user currently logged in"
-msgstr ""
-
-#: backend3/users:72 backend3/users:80
-msgid "username already in use"
-msgstr ""
-
-#: backend3/users:73 backend3/users:114 backend3/users:81 backend3/users:122
-msgid "can't update group file"
-msgstr ""
-
-#. '
-#: backend3/users:74 backend3/users:82
-msgid "can't create or remove home directory"
-msgstr ""
-
-#. '
-#: backend3/users:75 backend3/users:83
-msgid "can't create mail spool"
-msgstr ""
-
-#: backend3/users:84 backend3/users:92
-msgid "cannot change password"
-msgstr ""
-
-#: backend3/users:109 backend3/users:117
-msgid "invalid group name"
-msgstr ""
-
-#: backend3/users:110 backend3/users:118
-msgid "gid not unique"
-msgstr ""
-
-#: backend3/users:111 backend3/users:119
-msgid "specified group doesn't exist"
-msgstr ""
-
-#: backend3/users:112 backend3/users:120
-msgid "can't remove user's primary group"
-msgstr ""
-
-#. '
-#: backend3/users:113 backend3/users:121
-msgid "group name not unique"
-msgstr ""
-
-#: backend3/users:131 backend3/users:139
-msgid "unable to add user %s to group %s"
-msgstr ""
-
-#: backend3/users:145 backend3/users:153
-msgid "unable to remove user %s from group %s"
-msgstr ""
-
-#: backend3/users:157 backend3/users:165 backend3/users:164
-msgid "only small latin letters, digits and '_' allowed"
-msgstr ""
-
-#: backend3/users:158 backend3/users:166 backend3/users:165
-msgid "Name"
-msgstr ""
-
-#: backend3/users:159 backend3/users:167 backend3/users:166
-msgid "Shell"
-msgstr ""
-
-#: backend3/users:160 backend3/users:168 backend3/users:167
-msgid "Home directory"
-msgstr ""
-
-#: backend3/users:162 backend3/root:20 backend3/root:21 backend3/users:170
-#: backend3/users:169
-msgid "Password"
-msgstr ""
-
-#: backend3/users:163 backend3/users:171 backend3/users:170
-msgid "Password (repeat)"
-msgstr ""
-
-#: backend3/users:164 backend3/users:172 backend3/users:171
-msgid "Gecos"
-msgstr ""
-
 #: стандартный ввод:1
-msgid "New user"
-msgstr ""
-
-#: стандартный ввод:4 ввод:15 ui/root/passwd.scm:54
-#: ввод:3 ui/root/passwd/index.scm:54
-msgid "(enter passphrase)"
-msgstr ""
-
-#: стандартный ввод:5 ввод:16 ui/root/passwd.scm:56
-#: ввод:4 ui/root/passwd/index.scm:56
-msgid "(repeat passphrase)"
-msgstr ""
-
-#: стандартный ввод:6 ui/pkg/sources/index.scm:74
-msgid "Create"
-msgstr ""
-
-#: стандартный ввод:7
-msgid "User accounts"
-msgstr ""
-
-#.
-#: ui/net-eth/index.scm:81 стандартный ввод:2
-#: ui/net-eth/index.scm:77
-msgid "Host name:"
-msgstr ""
-
-#.
-#: ui/net-eth/index.scm:89 стандартный ввод:3
-#: ui/net-eth/index.scm:85
-msgid "DNS servers:"
-msgstr ""
-
-#.
-#: ui/net-eth/index.scm:94 стандартный ввод:4
-#: ui/net-eth/index.scm:90
-msgid "Search domains:"
-msgstr ""
-
-#: ui/net-eth/index.scm:100 ui/net-eth/index.scm:96
-msgid "multiple values should be space separated"
-msgstr ""
-
-#: ui/net-eth/index.scm:108 стандартный ввод:5
-#: ui/net-eth/index.scm:104
-msgid "Interfaces"
-msgstr ""
-
-#. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#: ui/net-eth/index.scm:123 стандартный ввод:7
-#: ui/net-eth/index.scm:118 ui/net-wifi/index.scm:105 ввод:4
-msgid "Status:"
-msgstr ""
-
-#.
-#: ui/net-eth/index.scm:127 стандартный ввод:8
-#: ui/net-eth/index.scm:122
-msgid "Configuration:"
-msgstr ""
-
-#.
-#: ui/net-eth/index.scm:136 стандартный ввод:9
-#: ui/net-eth/index.scm:131
-msgid "IP address:"
-msgstr ""
-
-#.
-#: ui/net-eth/index.scm:140 стандартный ввод:10
-#: ui/net-eth/index.scm:135
-msgid "Netmask:"
-msgstr ""
-
-#.
-#: ui/net-eth/index.scm:144 стандартный ввод:11
-#: ui/net-eth/index.scm:139
-msgid "Default gateway:"
-msgstr ""
-
-#.
-#: ui/net-eth/index.scm:148 стандартный ввод:12
-#: ui/net-eth/index.scm:143
-msgid "Hardware binding:"
-msgstr ""
-
-#: ui/net-eth/index.scm:153 стандартный ввод:13
-#: ui/net-eth/index.scm:148
-msgid "Wireless settings..."
-msgstr ""
-
-#: backend3/net-eth:145
-msgid "missing"
-msgstr ""
-
-#: backend3/net-eth:146
-msgid "by MAC address"
-msgstr ""
-
-#: backend3/net-eth:147
-msgid "by bus location"
-msgstr ""
-
-#: backend3/net-eth:152
-msgid "Turned off"
-msgstr ""
-
-#: backend3/net-eth:153
-msgid "Use DHCP"
-msgstr ""
-
-#: backend3/net-eth:154
-msgid "Manually"
-msgstr ""
-
-#: backend3/net-eth:185
-msgid "interface is up"
-msgstr ""
-
-#: backend3/net-eth:185
-msgid "interface is down"
-msgstr ""
-
-#: backend3/net-eth:190
-msgid "plugged"
-msgstr ""
-
-#: backend3/net-eth:191
-msgid "unplugged"
-msgstr ""
-
-#: backend3/net-eth:346 backend3/net-eth:348 backend3/net-eth:351
-msgid "Host name"
-msgstr ""
-
-#: backend3/net-eth:348 backend3/net-eth:350 backend3/net-eth:353
-msgid "Search domains"
-msgstr ""
-
-#: backend3/net-eth:350 backend3/net-eth:352 backend3/net-eth:355
-msgid "DNS servers"
-msgstr ""
-
-#: backend3/net-eth:353 backend3/net-eth:354 backend3/net-eth:357
-#: backend3/net-wifi:228
-msgid "IP address"
-msgstr ""
-
-#: backend3/net-eth:355 backend3/net-eth:356 backend3/net-eth:359
-msgid "Default gateway"
-msgstr ""
-
-#: стандартный ввод:1
-msgid "IP interfaces"
+msgid "Date/Time"
 msgstr ""
 
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -1151,49 +884,61 @@ msgstr ""
 msgid "Drivers:"
 msgstr ""
 
-#: ui/x11/index.scm:29 стандартный ввод:7 ввод:12
+#: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24
+#: стандартный ввод:18 ввод:20 ui/users/add/index.scm:67
+#: ввод:23
+msgid "OK"
+msgstr ""
+
+#: ui/x11/driver/index.scm:32 ui/x11/monitor/index.scm:30
+#: ui/users/add/index.scm:70 ui/pkg/upgrade/index.scm:55
+#: стандартный ввод:12
+msgid "Cancel"
+msgstr ""
+
+#: ui/x11/monitor/index.scm:10 стандартный ввод:8
+msgid "Monitor vendors:"
+msgstr ""
+
+#: ui/x11/index.scm:29 стандартный ввод:12
 msgid "Detected hardware"
 msgstr ""
 
-#: ui/x11/index.scm:35 стандартный ввод:8 ввод:13
+#: ui/x11/index.scm:35 стандартный ввод:13
 msgid "Video card:"
 msgstr ""
 
-#: ui/x11/index.scm:41 ui/x11/index.scm:58 стандартный ввод:9
-#: ввод:11 ввод:14 ввод:16
+#: ui/x11/index.scm:41 ui/x11/index.scm:58 стандартный ввод:14
+#: ввод:16
 msgid "Monitor:"
 msgstr ""
 
-#: ui/x11/index.scm:52 стандартный ввод:10 ввод:15
+#: ui/x11/index.scm:52 стандартный ввод:15
 msgid "Current settings"
 msgstr ""
 
-#: ui/x11/index.scm:62 стандартный ввод:12 ввод:17
+#: ui/x11/index.scm:62 стандартный ввод:17
 msgid "Other vendor..."
 msgstr ""
 
-#: ui/x11/index.scm:67 стандартный ввод:13 ввод:18
+#: ui/x11/index.scm:67 стандартный ввод:18
 msgid "Driver:"
 msgstr ""
 
-#: ui/x11/index.scm:71 стандартный ввод:14 ввод:19
+#: ui/x11/index.scm:71 стандартный ввод:19
 msgid "Other driver..."
 msgstr ""
 
-#: ui/x11/index.scm:76 стандартный ввод:15 ввод:20
+#: ui/x11/index.scm:76 стандартный ввод:20
 msgid "Color depth:"
 msgstr ""
 
-#: ui/x11/index.scm:82 стандартный ввод:16 ввод:21
+#: ui/x11/index.scm:82 стандартный ввод:21
 msgid "Resolution:"
 msgstr ""
 
 #: ui/x11/index.scm:94 backend3/x11:173
 msgid "Test"
-msgstr ""
-
-#: ui/x11/monitor/index.scm:10 стандартный ввод:21 ввод:8
-msgid "Monitor vendors:"
 msgstr ""
 
 #: backend3/x11:171
@@ -1254,7 +999,7 @@ msgstr ""
 msgid "X11 test failed"
 msgstr ""
 
-#: стандартный ввод:1 ввод:19 ввод:6
+#: стандартный ввод:1 ввод:6
 msgid "Display"
 msgstr ""
 
@@ -1262,160 +1007,124 @@ msgstr ""
 msgid "Drivers"
 msgstr ""
 
-#: стандартный ввод:6 ввод:11
-msgid "Graphic display"
-msgstr ""
-
-#: стандартный ввод:20 ввод:7
+#: стандартный ввод:7
 msgid "Monitor vendors"
 msgstr ""
 
-#: ui/logs/index.scm:27 стандартный ввод:1
-msgid "Logs:"
+#: стандартный ввод:11
+msgid "Graphic display"
 msgstr ""
 
-#: ui/logs/index.scm:32 стандартный ввод:3
-#: ui/wizard/index.scm:39 ui/wizard/index.scm:43 ui/wizard/index.scm:47
-#: ui/wizard/index.scm:41 ui/wizard/index.scm:45 ui/wizard/index.scm:49
-msgid "Previous"
+#.
+#: ui/net-eth/index.scm:77 стандартный ввод:2
+msgid "Host name:"
 msgstr ""
 
-#: ui/logs/index.scm:33 стандартный ввод:4
-#: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
-#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
-#: ui/sysconfig/language.scm:33 ui/sysconfig/language/index.scm:33
-msgid "Next"
+#.
+#: ui/net-eth/index.scm:85 стандартный ввод:3
+msgid "DNS servers:"
 msgstr ""
 
-#: ui/logs/index.scm:35 стандартный ввод:5
-msgid "First page"
+#.
+#: ui/net-eth/index.scm:90 стандартный ввод:4
+msgid "Search domains:"
 msgstr ""
 
-#: ui/logs/index.scm:36 стандартный ввод:6
-msgid "Last page"
+#: ui/net-eth/index.scm:96
+msgid "multiple values should be space separated"
 msgstr ""
 
-#: ui/logs/index.scm:38 стандартный ввод:7
-msgid "Show:"
+#: ui/net-eth/index.scm:104 стандартный ввод:5
+msgid "Interfaces"
 msgstr ""
 
-#: backend3/logs:98
-msgid "Lines %s-%s of %s"
+#.
+#: ui/net-eth/index.scm:122 стандартный ввод:8
+msgid "Configuration:"
 msgstr ""
 
-#: backend3/logs:117
-msgid "10 lines"
+#.
+#: ui/net-eth/index.scm:131 стандартный ввод:9
+msgid "IP address:"
 msgstr ""
 
-#: backend3/logs:118
-msgid "20 lines"
+#.
+#: ui/net-eth/index.scm:135 стандартный ввод:10
+msgid "Netmask:"
 msgstr ""
 
-#: backend3/logs:119
-msgid "50 lines"
+#.
+#: ui/net-eth/index.scm:139 стандартный ввод:11
+msgid "Default gateway:"
 msgstr ""
 
-#: backend3/logs:120
-msgid "100 lines"
+#.
+#: ui/net-eth/index.scm:143 стандартный ввод:12
+msgid "Hardware binding:"
 msgstr ""
 
-#: стандартный ввод:2
-msgid "View"
+#: ui/net-eth/index.scm:148 стандартный ввод:13
+msgid "Wireless settings..."
 msgstr ""
 
-#: ui/alternatives/index.scm:36
-msgid ""
-"You have made some changes in alternative configuration\n"
-"Do you want to apply your changes?"
+#: backend3/net-eth:145
+msgid "missing"
 msgstr ""
 
-#: ui/alternatives/index.scm:71 стандартный ввод:2
-msgid "Alternatives:"
+#: backend3/net-eth:146
+msgid "by MAC address"
 msgstr ""
 
-#: ui/alternatives/index.scm:95 стандартный ввод:4
-msgid "Candidates:"
+#: backend3/net-eth:147
+msgid "by bus location"
 msgstr ""
 
-#: ui/alternatives/index.scm:106 стандартный ввод:5
-msgid "Choose candidate manually"
+#: backend3/net-eth:152
+msgid "Turned off"
 msgstr ""
 
-#: ui/alternatives/index.scm:116 стандартный ввод:6
-msgid ""
-"In most cases candidates selection works well automatically using weight "
-"written in their config file, but you can choose variant manually"
+#: backend3/net-eth:153
+msgid "Use DHCP"
 msgstr ""
 
-#: backend3/alternatives:13
-msgid "Alternative"
+#: backend3/net-eth:154
+msgid "Manually"
 msgstr ""
 
-#: backend3/alternatives:14
-msgid "Candidate"
+#: backend3/net-eth:185
+msgid "interface is up"
 msgstr ""
 
-#: backend3/alternatives:15
-msgid "Manual setup"
+#: backend3/net-eth:185
+msgid "interface is down"
 msgstr ""
 
-#: стандартный ввод:1
-msgid "Alternatives subsystem"
+#: backend3/net-eth:190
+msgid "plugged"
 msgstr ""
 
-#: ui/control/html-messages.scm:1 ui/control/html-messages.scm:2
-#: стандартный ввод:1 ввод:2 ввод:4
-msgid "System objects"
+#: backend3/net-eth:191
+msgid "unplugged"
 msgstr ""
 
-#: ui/control/html-messages.scm:4 стандартный ввод:4 ввод:3
-msgid "Update help"
+#: backend3/net-eth:351
+msgid "Host name"
 msgstr ""
 
-#: ui/control/index.scm:30 backend3/control:21
-msgid "Facility"
+#: backend3/net-eth:353
+msgid "Search domains"
 msgstr ""
 
-#: ui/control/index.scm:30 backend3/control:22
-msgid "Summary"
+#: backend3/net-eth:355
+msgid "DNS servers"
 msgstr ""
 
-#: backend3/control:17
-msgid "Available modes"
-msgstr ""
-
-#: backend3/control:18
-msgid "Description"
-msgstr ""
-
-#: backend3/control:77 backend3/control:74
-msgid "facility setup failed"
-msgstr ""
-
-#: ui/root/index.scm:19
-msgid "You should define a password for system administrator"
-msgstr ""
-
-#: ui/root/index.scm:32 ui/root/index.scm:30
-msgid "Setup password for system administrator"
-msgstr ""
-
-#: ui/root/passwd.scm:63 design/scripts/password.js:59
-#: ui/root/passwd/index.scm:63
-msgid "Generate"
-msgstr ""
-
-#: ui/root/passwd.scm:68 design/scripts/password.js:65
-#: ui/root/passwd/index.scm:68
-msgid "Generate automatically"
-msgstr ""
-
-#: backend3/root:29
-msgid "Unable to change password"
+#: backend3/net-eth:359
+msgid "Default gateway"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "System administrator"
+msgid "IP interfaces"
 msgstr ""
 
 #: backend3/spamassassin:71
@@ -1526,41 +1235,285 @@ msgstr ""
 msgid "Use automatic sender whitelist:"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:156 ui/lilo/extra-general/index.scm:79
-#: ui/lilo/view-source/index.scm:45 ui/lilo/extra-sections/index.scm:150
-#: ui/lilo/extra-general/index.scm:78 ui/lilo/view-source/index.scm:44
-msgid "Simple mode"
+#: ui/acc/place-holder.scm:7 ui/acc/index.scm:6
+msgid "System management center"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:159 ui/lilo/extra-general/index.scm:82
-#: ui/lilo/view-source/index.scm:48 ui/lilo/extra-sections/index.scm:153
-#: ui/lilo/extra-general/index.scm:81 ui/lilo/view-source/index.scm:47
-msgid "Edit lilo.conf"
+#. ui replace
+#: ui/acc/index.scm:12
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before running the new module\n"
+"or discard the changes?"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:169
-msgid "Linux loader"
+#. special values
+#: ui/acc/index.scm:26
+msgid "Module is locked"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:170
-msgid "Other loader"
+#: ui/acc/index.scm:91 ui/standalone/index.scm:14
+msgid "Press F1 for help"
 msgstr ""
 
-#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
-#: ui/wizard/index.scm:42 ui/wizard/index.scm:46 ui/wizard/index.scm:50
-msgid "Finish"
+#: ui/standalone/place-holder.scm:7
+msgid "Desktop file not found"
 msgstr ""
 
-#: ui/wizard/index.scm:120 ui/wizard/index.scm:123
-#: ui/sysconfig/language.scm:32 ui/sysconfig/language/index.scm:32
-msgid "Help"
+#: backend3/vsftpd:56
+msgid "yes"
 msgstr ""
 
-#: ui/sysconfig/kbd.scm:20 ui/sysconfig/kbd/index.scm:20
+#: backend3/vsftpd:56
+msgid "no"
+msgstr ""
+
+#: backend3/vsftpd:56
+msgid "default"
+msgstr ""
+
+#: backend3/vsftpd:68 стандартный ввод:4
+msgid "Enable FTP service"
+msgstr ""
+
+#: backend3/vsftpd:73 стандартный ввод:5
+msgid "Allow anonymous login"
+msgstr ""
+
+#: backend3/vsftpd:75 стандартный ввод:10
+msgid "Allow mkdir"
+msgstr ""
+
+#: backend3/vsftpd:77 стандартный ввод:11
+msgid "Allow upload"
+msgstr ""
+
+#: backend3/vsftpd:79 стандартный ввод:12
+msgid "Default upload directory (/var/ftp/incoming)"
+msgstr ""
+
+#. "
+#: backend3/vsftpd:81 стандартный ввод:13
+msgid "Allow rename/delete"
+msgstr ""
+
+#: backend3/vsftpd:84 стандартный ввод:6
+msgid "Allow write"
+msgstr ""
+
+#: backend3/vsftpd:87
+msgid "Write access"
+msgstr ""
+
+#: backend3/vsftpd:90 стандартный ввод:7
+msgid "Allow local users login"
+msgstr ""
+
+#: backend3/vsftpd:92 стандартный ввод:8
+msgid "Enable per user settings"
+msgstr ""
+
+#: backend3/vsftpd:139
+msgid "enable write access"
+msgstr ""
+
+#: backend3/vsftpd:140
+msgid "disable write access"
+msgstr ""
+
+#: backend3/vsftpd:141
+msgid "remove from list"
+msgstr ""
+
+#: backend3/vsftpd:201
+msgid "Same user already exists"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "FTP server"
+msgstr ""
+
+#: стандартный ввод:3
+msgid "General options"
+msgstr ""
+
+#: стандартный ввод:9
+msgid "Anonymous user options"
+msgstr ""
+
+#: стандартный ввод:16
+msgid "Local users settings"
+msgstr ""
+
+#: стандартный ввод:17
+msgid "For selected:"
+msgstr ""
+
+#: стандартный ввод:19
+msgid "Add user:"
+msgstr ""
+
+#: стандартный ввод:21
+msgid "System users administration..."
+msgstr ""
+
+#: ui/users/add/index.scm:20
+msgid "You should define a system user"
+msgstr ""
+
+#: ui/users/add/index.scm:22
+msgid "You should define a password"
+msgstr ""
+
+#: ui/users/add/index.scm:47 стандартный ввод:2
+msgid "Account name:"
+msgstr ""
+
+#: ui/users/index.scm:39
+msgid "Do you really want to delete user "
+msgstr ""
+
+#: ui/users/index.scm:73 стандартный ввод:8
+msgid "New user..."
+msgstr ""
+
+#.
+#: ui/users/index.scm:88 стандартный ввод:10
+msgid "Comment:"
+msgstr ""
+
+#.
+#: ui/users/index.scm:91 стандартный ввод:11
+msgid "Home directory:"
+msgstr ""
+
+#.
+#: ui/users/index.scm:94 стандартный ввод:12
+msgid "Shell:"
+msgstr ""
+
+#: ui/users/index.scm:98 backend3/users:168 стандартный ввод:13
+msgid "Switching to superuser"
+msgstr ""
+
+#: ui/users/index.scm:118 стандартный ввод:18
+msgid "Delete user"
+msgstr ""
+
+#: backend3/users:74
+msgid "can't update password file"
+msgstr ""
+
+#. '
+#: backend3/users:75 backend3/users:116
+msgid "invalid command syntax"
+msgstr ""
+
+#: backend3/users:76
+msgid "invalid argument to option"
+msgstr ""
+
+#: backend3/users:77
+msgid "uid already in use"
+msgstr ""
+
+#: backend3/users:78
+msgid "specified user doesn't exist"
+msgstr ""
+
+#. '
+#: backend3/users:79
+msgid "user currently logged in"
+msgstr ""
+
+#: backend3/users:80
+msgid "username already in use"
+msgstr ""
+
+#: backend3/users:81 backend3/users:122
+msgid "can't update group file"
+msgstr ""
+
+#. '
+#: backend3/users:82
+msgid "can't create or remove home directory"
+msgstr ""
+
+#. '
+#: backend3/users:83
+msgid "can't create mail spool"
+msgstr ""
+
+#: backend3/users:92
+msgid "cannot change password"
+msgstr ""
+
+#: backend3/users:117
+msgid "invalid group name"
+msgstr ""
+
+#: backend3/users:118
+msgid "gid not unique"
+msgstr ""
+
+#: backend3/users:119
+msgid "specified group doesn't exist"
+msgstr ""
+
+#: backend3/users:120
+msgid "can't remove user's primary group"
+msgstr ""
+
+#. '
+#: backend3/users:121
+msgid "group name not unique"
+msgstr ""
+
+#: backend3/users:139
+msgid "unable to add user %s to group %s"
+msgstr ""
+
+#: backend3/users:164
+msgid "only small latin letters, digits and '_' allowed"
+msgstr ""
+
+#: backend3/users:165
+msgid "Name"
+msgstr ""
+
+#: backend3/users:166
+msgid "Shell"
+msgstr ""
+
+#: backend3/users:167
+msgid "Home directory"
+msgstr ""
+
+#: backend3/users:170
+msgid "Password (repeat)"
+msgstr ""
+
+#: backend3/users:171
+msgid "Gecos"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "New user"
+msgstr ""
+
+#: стандартный ввод:6 ui/pkg/sources/index.scm:74
+msgid "Create"
+msgstr ""
+
+#: стандартный ввод:7
+msgid "User accounts"
+msgstr ""
+
+#: ui/sysconfig/kbd/index.scm:20
 msgid "Please select keyboard switch type:"
 msgstr ""
 
-#: ui/sysconfig/language.scm:37 ui/sysconfig/language/index.scm:37
+#: ui/sysconfig/language/index.scm:37
 msgid "Select your language:"
 msgstr ""
 
@@ -1596,359 +1549,72 @@ msgstr ""
 msgid "Without dead keys"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:158
-msgid "Add Linux loader"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:159
-msgid "Add other loader"
-msgstr ""
-
-#: backend2/constraints:35 modules/constraints.scm:38
-msgid "invalid hostname"
-msgstr ""
-
-#: backend2/constraints:40 modules/constraints.scm:42
-msgid "invalid ipv4 address"
-msgstr ""
-
-#: backend2/constraints:46 modules/constraints.scm:47
-msgid "doesn't match to pattern"
-msgstr ""
-
-#: backend2/constraints:53
-msgid "should be one of:"
-msgstr ""
-
-#: backend2/constraints:58
-msgid "values not equal"
-msgstr ""
-
-#: backend2/constraints:61 modules/constraints.scm:54
-msgid "required, but missing"
-msgstr ""
-
-#: backend2/constraints:133 modules/constraints.scm:86
-msgid "Constraints failed:"
-msgstr ""
-
-#: interfaces/guile/ensign/ensign.scm:20
-msgid "Backend live time (in hours)"
-msgstr ""
-
-#: interfaces/guile/ensign/ensign.scm:21
-msgid "should be digits"
-msgstr ""
-
-#: ui/net-wifi/index.scm:107 стандартный ввод:3
-msgid "Reconfigure interface"
-msgstr ""
-
-#: ui/net-wifi/index.scm:116 стандартный ввод:5
-msgid "Configured networks"
-msgstr ""
-
-#: ui/net-wifi/index.scm:124 стандартный ввод:7
-msgid "Enable"
-msgstr ""
-
-#: ui/net-wifi/index.scm:125 стандартный ввод:8
-msgid "Network name:"
-msgstr ""
-
-#: ui/net-wifi/index.scm:128 стандартный ввод:10
-msgid "Change password:"
-msgstr ""
-
-#: ui/net-wifi/index.scm:129 стандартный ввод:11
-msgid "Encription:"
-msgstr ""
-
-#: ui/net-wifi/index.scm:134 стандартный ввод:14
-#: ui/pkg/sources/index.scm:180
-msgid "Delete"
-msgstr ""
-
-#: ui/net-wifi/index.scm:137 стандартный ввод:15
-msgid "Configure new network"
-msgstr ""
-
-#: ui/net-wifi/index.scm:140 стандартный ввод:16
-msgid "Networks found:"
-msgstr ""
-
-#: ui/net-wifi/index.scm:142 стандартный ввод:17
-msgid "Rescan"
-msgstr ""
-
-#: ui/net-wifi/index.scm:143 стандартный ввод:18
-msgid "Configure"
-msgstr ""
-
-#: ui/net-wifi/index.scm:145
-msgid "Quit"
-msgstr ""
-
-#: backend3/net-wifi:134
-msgid "Other network"
-msgstr ""
-
-#: backend3/net-wifi:162
-msgid "No password"
-msgstr ""
-
-#: backend3/net-wifi:163
-msgid "WEP Password"
-msgstr ""
-
-#: backend3/net-wifi:166
-msgid "WPA Personal (WPA-PSK)"
-msgstr ""
-
-#: backend3/net-wifi:167
-msgid "WPA2 Personal (WPA-PSK)"
-msgstr ""
-
-#: backend3/net-wifi:227
-msgid "Connected to network"
-msgstr ""
-
-#: backend3/net-wifi:228
-msgid "access point"
-msgstr ""
-
-#: backend3/net-wifi:231
-msgid "Scanning..."
-msgstr ""
-
-#: backend3/net-wifi:261
-msgid "Current network"
-msgstr ""
-
-#: backend3/net-wifi:406
-msgid "Network name"
-msgstr ""
-
-#: backend3/net-wifi:407
-msgid "Access point"
-msgstr ""
-
-#: backend3/net-wifi:408
-msgid "Status"
-msgstr ""
-
-#. #-#-#-#-#  alterator-net-wifi.pot (PACKAGE VERSION)  #-#-#-#-#
-#. printf 'auth_type (label "%s" %s %s %s %s)\n' #			    "`_ "Security"`" #			    "$(print_excludes "nopasswd" key user pairwise eap)" #			    "$(print_excludes "wep" user pairwise eap)" #			    "$(print_excludes "wpa-psk" user eap)" #			    "$(print_excludes "wpa2-psk" user eap)"
-#: backend3/net-wifi:415
-msgid "User name"
-msgstr ""
-
-#: backend3/net-wifi:416
-msgid "Network key (use 0x for hex)"
-msgstr ""
-
-#: backend3/net-wifi:417
-msgid "Encryption"
-msgstr ""
-
-#: backend3/net-wifi:418
-msgid "EAP method"
-msgstr ""
-
-#: backend3/net-wifi:434 backend3/net-wifi:460 backend3/net-wifi:470
-msgid "Not a wireless interface"
-msgstr ""
-
-#: backend3/net-wifi:479
-msgid "Password is too short"
-msgstr ""
-
-#: backend3/net-wifi:511
-msgid "Unable to create network"
-msgstr ""
-
-#: стандартный ввод:1
-msgid "Wi-Fi setup"
-msgstr ""
-
-#: backend3/net-wifi:416
-msgid "Network key"
-msgstr ""
-
-#: backend3/xinetd:108 backend3/xinetd:111
-msgid "This settings will be applied to services with undefined fields"
-msgstr ""
-
-#: backend3/xinetd:232 backend3/xinetd:296 backend3/xinetd:235
-#: backend3/xinetd:299
-msgid "Can't open file"
-msgstr ""
-
-#: backend3/xinetd:233 backend3/xinetd:297 backend3/xinetd:236
-#: backend3/xinetd:300
-msgid "Can't open temporary file"
-msgstr ""
-
-#: backend3/xinetd:432 backend3/xinetd:430
-msgid "Unknown service"
-msgstr ""
-
-#: ui/dovecot/index.scm:35 стандартный ввод:3
-#: ui/dovecot/index.scm:33
-msgid "Supported protocols:"
-msgstr ""
-
-#: ui/dovecot/index.scm:43 стандартный ввод:4
-#: ui/dovecot/index.scm:41
-msgid "Auth mechanisms:"
-msgstr ""
-
-#: ui/dovecot/index.scm:51 стандартный ввод:5
-#: ui/dovecot/index.scm:49
-msgid "(you can't disable all mechanisms)"
-msgstr ""
-
-#: ui/dovecot/index.scm:57 стандартный ввод:6
-#: ui/dovecot/index.scm:55
-msgid "Auth port for Postfix"
-msgstr ""
-
-#: backend3/dovecot:29
-msgid "POP3"
-msgstr ""
-
-#: backend3/dovecot:30
-msgid "POP3 over TLS/SSL"
-msgstr ""
-
-#: backend3/dovecot:31
-msgid "IMAP4"
-msgstr ""
-
-#: backend3/dovecot:32
-msgid "IMAP4 over TLS/SSL"
-msgstr ""
-
-#: backend3/dovecot:35
-msgid "PLAIN"
-msgstr ""
-
-#: backend3/dovecot:36
-msgid "LOGIN"
-msgstr ""
-
-#: backend3/dovecot:37
-msgid "ANONYMOUS"
-msgstr ""
-
-#: стандартный ввод:1
-msgid "POP3/IMAP server"
-msgstr ""
-
-#: ui/acc/place-holder.scm:7 ui/acc/index.scm:6
-msgid "System management center"
-msgstr ""
-
-#. ui replace
-#: ui/acc/index.scm:12
+#: ui/alternatives/index.scm:36
 msgid ""
-"There are unsaved changes in the active module.\n"
-"Do you want to apply the changes before running the new module\n"
-"or discard the changes?"
+"You have made some changes in alternative configuration\n"
+"Do you want to apply your changes?"
 msgstr ""
 
-#. special values
-#: ui/acc/index.scm:26
-msgid "Module is locked"
+#: ui/alternatives/index.scm:71 стандартный ввод:2
+msgid "Alternatives:"
 msgstr ""
 
-#: ui/acc/index.scm:91 ui/standalone/index.scm:14
-msgid "Press F1 for help"
+#: ui/alternatives/index.scm:95 стандартный ввод:4
+msgid "Candidates:"
 msgstr ""
 
-#: ui/standalone/place-holder.scm:7
-msgid "Desktop file not found"
+#: ui/alternatives/index.scm:106 стандартный ввод:5
+msgid "Choose candidate manually"
 msgstr ""
 
-#: ui/std/base.scm:88 ui/std/base.scm:70 ui/std/base.scm:63
-msgid "Information"
+#: ui/alternatives/index.scm:116 стандартный ввод:6
+msgid ""
+"In most cases candidates selection works well automatically using weight "
+"written in their config file, but you can choose variant manually"
 msgstr ""
 
-#: ui/std/base.scm:91 ui/std/base.scm:73 ui/std/base.scm:66
-msgid "Warning"
+#: backend3/alternatives:13
+msgid "Alternative"
 msgstr ""
 
-#: ui/std/base.scm:95 ui/std/base.scm:77 ui/std/base.scm:70
-msgid "Critical"
+#: backend3/alternatives:14
+msgid "Candidate"
 msgstr ""
 
-#: ui/std/base.scm:98 ui/std/base.scm:80 ui/std/base.scm:73
-msgid "Question "
+#: backend3/alternatives:15
+msgid "Manual setup"
 msgstr ""
 
-#: modules/constraints.scm:30
-msgid "Constraints for backend "
+#: стандартный ввод:1
+msgid "Alternatives subsystem"
 msgstr ""
 
-#: modules/constraints.scm:30
-msgid " are undefined"
+#: ui/auth/index.scm:62 стандартный ввод:5
+msgid "LDAP server:"
 msgstr ""
 
-#: modules/constraints.scm:51
-msgid "not equal to"
+#: ui/auth/index.scm:67 стандартный ввод:6
+msgid "Base DN:"
 msgstr ""
 
-#: modules/constraints.scm:55
-msgid "unsupported constraints type"
+#: backend3/auth:30
+msgid "Local files"
 msgstr ""
 
-#: ui/pkg/error/index.scm:7
-msgid "Critical error during install"
+#: backend3/auth:33
+msgid "LDAP"
 msgstr ""
 
-#: ui/pkg/error/index.scm:8 ui/pkg/cdrom/index.scm:12
-#: ui/pkg/cdrom/index.scm:14
-msgid "Unknown"
+#: backend3/auth:105
+msgid "LDAP server"
 msgstr ""
 
-#: ui/pkg/error/index.scm:9 ui/pkg/cdrom/index.scm:15
-msgid "Press 'Next' button to continue"
+#: backend3/auth:107
+msgid "should be ldap://host or ldapi://host or ldaps://host"
 msgstr ""
 
-#: ui/pkg/sources/index.scm:26
-msgid "<New source>"
-msgstr ""
-
-#: ui/pkg/sources/index.scm:153
-msgid "Are you sure to remove this source?"
-msgstr ""
-
-#: ui/pkg/sources/index.scm:173 backend3/pkg-sources:158
-msgid "URI"
-msgstr ""
-
-#: ui/pkg/sources/index.scm:174 backend3/pkg-sources:157
-msgid "Architecture"
-msgstr ""
-
-#: ui/pkg/sources/index.scm:191 стандартный ввод:11
-msgid "Active source"
-msgstr ""
-
-#: ui/pkg/sources/index.scm:199 стандартный ввод:2 ввод:12
-msgid "Architecture:"
-msgstr ""
-
-#: ui/pkg/sources/index.scm:205 стандартный ввод:3 ввод:13
-msgid "Signature:"
-msgstr ""
-
-#: ui/pkg/sources/index.scm:211 стандартный ввод:4 ввод:14
-msgid "URI:"
-msgstr ""
-
-#: ui/pkg/sources/index.scm:217 стандартный ввод:5 ввод:15
-msgid "Components:"
+#: стандартный ввод:1
+msgid "Authentication"
 msgstr ""
 
 #: ui/pkg/license/index.scm:10
@@ -1967,20 +1633,36 @@ msgstr ""
 msgid "Install the package anyway?"
 msgstr ""
 
-#: ui/pkg/install/index.scm:62
-msgid "Acquiring packages..."
+#: ui/pkg/groups/index.scm:75
+#, lisp-format
+msgid "Has conflict with ~S"
 msgstr ""
 
-#: ui/pkg/install/index.scm:68
-msgid "Installing packages..."
+#: ui/pkg/groups/index.scm:86
+msgid "Required disk space"
 msgstr ""
 
-#: ui/pkg/install/index.scm:81 ui/pkg/groups/index.scm:134
-#: ui/pkg/groups/index.scm:139
+#: ui/pkg/groups/index.scm:92
+msgid "calculating..."
+msgstr ""
+
+#: ui/pkg/groups/index.scm:98
+msgid "unable to calculate"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:125
+msgid "Select packages you want to install:"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:139 ui/pkg/install/index.scm:81
 msgid "Preparing..."
 msgstr ""
 
-#: ui/pkg/register/index.scm:28 стандартный ввод:17
+#: ui/pkg/groups/index.scm:160
+msgid "Please wait..."
+msgstr ""
+
+#: ui/pkg/register/index.scm:28 стандартный ввод:1
 msgid "Additional disks"
 msgstr ""
 
@@ -1990,33 +1672,33 @@ msgid ""
 "please insert them one by one and press 'Add' button"
 msgstr ""
 
-#: ui/pkg/register/index.scm:44 стандартный ввод:16 ввод:20
+#: ui/pkg/register/index.scm:44 стандартный ввод:4 ввод:29
 msgid "Add"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:70 ui/pkg/groups/index.scm:75
-#, lisp-format
-msgid "Has conflict with ~S"
+#: ui/pkg/upgrade/index.scm:47 стандартный ввод:10
+msgid "Check for updates"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:81 ui/pkg/groups/index.scm:86
-msgid "Required disk space"
+#: ui/pkg/upgrade/index.scm:51 стандартный ввод:11
+msgid "Update system"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:87 ui/pkg/groups/index.scm:92
-msgid "calculating..."
+#: ui/pkg/upgrade/index.scm:59 стандартный ввод:13
+msgid "Continue"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:93 ui/pkg/groups/index.scm:98
-msgid "unable to calculate"
+#: ui/pkg/error/index.scm:7
+msgid "Critical error during install"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:120 ui/pkg/groups/index.scm:125
-msgid "Select packages you want to install:"
+#: ui/pkg/error/index.scm:8 ui/pkg/cdrom/index.scm:12
+#: ui/pkg/cdrom/index.scm:14
+msgid "Unknown"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:153 ui/pkg/groups/index.scm:160
-msgid "Please wait..."
+#: ui/pkg/error/index.scm:9 ui/pkg/cdrom/index.scm:15
+msgid "Press 'Next' button to continue"
 msgstr ""
 
 #: ui/pkg/cdrom/index.scm:11 backend3/pkg-upgrade:135
@@ -2027,16 +1709,48 @@ msgstr ""
 msgid "Into drive"
 msgstr ""
 
-#: ui/pkg/upgrade/index.scm:47 стандартный ввод:26
-msgid "Check for updates"
+#: ui/pkg/install/index.scm:62
+msgid "Acquiring packages..."
 msgstr ""
 
-#: ui/pkg/upgrade/index.scm:51 стандартный ввод:27
-msgid "Update system"
+#: ui/pkg/install/index.scm:68
+msgid "Installing packages..."
 msgstr ""
 
-#: ui/pkg/upgrade/index.scm:59 стандартный ввод:29
-msgid "Continue"
+#: ui/pkg/sources/index.scm:26
+msgid "<New source>"
+msgstr ""
+
+#: ui/pkg/sources/index.scm:153
+msgid "Are you sure to remove this source?"
+msgstr ""
+
+#: ui/pkg/sources/index.scm:173 backend3/pkg-sources:158
+msgid "URI"
+msgstr ""
+
+#: ui/pkg/sources/index.scm:174 backend3/pkg-sources:157
+msgid "Architecture"
+msgstr ""
+
+#: ui/pkg/sources/index.scm:191 стандартный ввод:24
+msgid "Active source"
+msgstr ""
+
+#: ui/pkg/sources/index.scm:199 стандартный ввод:15 ввод:25
+msgid "Architecture:"
+msgstr ""
+
+#: ui/pkg/sources/index.scm:205 стандартный ввод:16 ввод:26
+msgid "Signature:"
+msgstr ""
+
+#: ui/pkg/sources/index.scm:211 стандартный ввод:17 ввод:27
+msgid "URI:"
+msgstr ""
+
+#: ui/pkg/sources/index.scm:217 стандартный ввод:18 ввод:28
+msgid "Components:"
 msgstr ""
 
 #: backend3/pkg-register:62
@@ -2163,90 +1877,75 @@ msgstr ""
 msgid "No information available"
 msgstr ""
 
-#: стандартный ввод:1 ввод:8
-msgid "Update sources"
-msgstr ""
-
-#: стандартный ввод:9
-msgid "Selected:"
-msgstr ""
-
-#: стандартный ввод:18
+#: стандартный ввод:2
 msgid ""
 "If you have any additional CDs or DVDs for this distribution\n"
 "    please insert them one by one and press \"Add\" button"
 msgstr ""
 
-#: стандартный ввод:22 ввод:24
+#: стандартный ввод:6 ввод:8
 msgid "Updates"
 msgstr ""
 
-#: стандартный ввод:23
+#: стандартный ввод:7
 msgid "Return"
 msgstr ""
 
-#: стандартный ввод:25
+#: стандартный ввод:9
 msgid "view full log of the latest operation"
+msgstr ""
+
+#: стандартный ввод:14 ввод:21
+msgid "Update sources"
+msgstr ""
+
+#: стандартный ввод:22
+msgid "Selected:"
+msgstr ""
+
+#: backend3/ahttpd:125
+msgid "all connections"
+msgstr ""
+
+#: backend3/ahttpd:126
+msgid "errors only"
+msgstr ""
+
+#: backend3/ahttpd:127
+msgid "nothing"
+msgstr ""
+
+#: backend3/ahttpd:181
+msgid "Invalid certificate file"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "HTTP server"
+msgstr ""
+
+#: стандартный ввод:2
+msgid "Restart HTTP server"
+msgstr ""
+
+#: стандартный ввод:3
+msgid "General settings"
 msgstr ""
 
 #: стандартный ввод:4
 msgid "Port:"
 msgstr ""
 
+#: стандартный ввод:5
+msgid "(TCP port where server listen on)"
+msgstr ""
+
 #: стандартный ввод:6
 msgid "Listen address:"
 msgstr ""
 
-#: стандартный ввод:8
-msgid "Log:"
-msgstr ""
-
-#: стандартный ввод:13
-msgid "Common Name (CN):"
-msgstr ""
-
-#: стандартный ввод:15
-msgid "Country (C):"
-msgstr ""
-
-#: стандартный ввод:17
-msgid "Location (L):"
-msgstr ""
-
-#: стандартный ввод:19
-msgid "Organization (O):"
-msgstr ""
-
-#: стандартный ввод:21
-msgid "Organizational Unit (OU):"
-msgstr ""
-
-#: стандартный ввод:27
-msgid "Upload certificate signed by CA:"
-msgstr ""
-
-#: стандартный ввод:14
-msgid "(public hostname)"
-msgstr ""
-
-#: стандартный ввод:16
-msgid "(two letter country code)"
-msgstr ""
-
-#: стандартный ввод:18
-msgid "(state or city, written in latin letters)"
-msgstr ""
-
-#: стандартный ввод:20
-msgid "(organization name, written in latin letters)"
-msgstr ""
-
-#: стандартный ввод:22
-msgid "(organizational unit name, written in latin letters)"
-msgstr ""
-
-#: стандартный ввод:24
-msgid "(recreate private key, sign request and self-signed certificate)"
+#: стандартный ввод:7
+msgid ""
+"(IP address where server listen on, or '*' for listening on all interfaces)"
 msgstr ""
 
 #: стандартный ввод:8
@@ -2254,5 +1953,105 @@ msgid "Logging:"
 msgstr ""
 
 #: стандартный ввод:9
-msgid "Granularity of the logging influences its size"
+msgid "(granularity of the logging influences its size)"
+msgstr ""
+
+#: стандартный ввод:11
+msgid "TLS settings"
+msgstr ""
+
+#: стандартный ввод:12
+msgid "Certificate"
+msgstr ""
+
+#: стандартный ввод:13
+msgid "Common Name (CN):"
+msgstr ""
+
+#: стандартный ввод:14
+msgid "(public hostname)"
+msgstr ""
+
+#: стандартный ввод:15
+msgid "Country (C):"
+msgstr ""
+
+#: стандартный ввод:16
+msgid "(two letter country code)"
+msgstr ""
+
+#: стандартный ввод:17
+msgid "Location (L):"
+msgstr ""
+
+#: стандартный ввод:18
+msgid "(state or city, written in latin letters)"
+msgstr ""
+
+#: стандартный ввод:19
+msgid "Organization (O):"
+msgstr ""
+
+#: стандартный ввод:20
+msgid "(organization name, written in latin letters)"
+msgstr ""
+
+#: стандартный ввод:21
+msgid "Organizational Unit (OU):"
+msgstr ""
+
+#: стандартный ввод:22
+msgid "(organizational unit name, written in latin letters)"
+msgstr ""
+
+#: стандартный ввод:23
+msgid "Recreate"
+msgstr ""
+
+#: стандартный ввод:24
+msgid "(recreate private key, sign request and self-signed certificate)"
+msgstr ""
+
+#: стандартный ввод:25
+msgid "Sign"
+msgstr ""
+
+#: стандартный ввод:26
+msgid "Download sign request"
+msgstr ""
+
+#: стандартный ввод:27
+msgid "Upload certificate signed by CA:"
+msgstr ""
+
+#: стандартный ввод:28
+msgid "Upload"
+msgstr ""
+
+#: ui/control/index.scm:30 backend3/control:21
+msgid "Facility"
+msgstr ""
+
+#: ui/control/index.scm:30 backend3/control:22
+msgid "Summary"
+msgstr ""
+
+#: backend3/control:17
+msgid "Available modes"
+msgstr ""
+
+#: backend3/control:18
+msgid "Description"
+msgstr ""
+
+#: backend3/control:74
+msgid "facility setup failed"
+msgstr ""
+
+#: стандартный ввод:1 ввод:4
+msgid "System objects"
+msgstr ""
+
+#: стандартный ввод:3
+msgid "Update help"
 msgstr ""
