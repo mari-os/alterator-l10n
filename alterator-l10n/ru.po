@@ -16,8 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25 backend3/xinetd:108
-#: ui/lilo/extra-sections/index.scm:151 ui/lilo/extra-general/index.scm:79
-#: ui/lilo/view-source/index.scm:45
+#: ui/lilo/expert/index.scm:195
 msgid "Common settings"
 msgstr "Общие настройки"
 
@@ -83,26 +82,24 @@ msgstr ""
 "повлияли на работающюю службу xinetd -- перезапустите ее."
 
 #: ui/xinetd/index.scm:141 стандартный ввод:15
-#: ui/net-wifi/index.scm:132 ввод:12 ui/lilo/extra-sections/index.scm:198
-#: ui/lilo/extra-general/index.scm:110 ui/lilo/index.scm:99
-#: ui/lilo/view-source/index.scm:57 ui/services/index.scm:94 ввод:6
-#: ui/dovecot/index.scm:62 ввод:7 ui/root/index.scm:37 ввод:5
-#: ui/timezone/index.scm:69 ui/datetime/index.scm:59 ui/x11/index.scm:97
-#: ввод:4 ввод:9 ввод:22 ui/net-eth/index.scm:166 ввод:14
-#: ввод:8 ввод:24 ui/users/index.scm:113 ввод:17
-#: ui/alternatives/index.scm:129 ui/auth/index.scm:76 ввод:19 ввод:10
-#: ui/control/index.scm:70
+#: ui/net-wifi/index.scm:132 ввод:12 ui/lilo/index.scm:99
+#: ui/lilo/view-source/index.scm:46 ui/lilo/expert/index.scm:254
+#: ui/services/index.scm:94 ввод:6 ui/dovecot/index.scm:62 ввод:7
+#: ui/root/index.scm:37 ввод:5 ui/timezone/index.scm:69
+#: ui/datetime/index.scm:59 ui/x11/index.scm:97 ввод:4 ввод:9
+#: ввод:22 ui/net-eth/index.scm:166 ввод:14 ввод:8 ввод:24
+#: ui/users/index.scm:113 ввод:17 ui/alternatives/index.scm:129
+#: ui/auth/index.scm:76 ввод:19 ввод:10 ui/control/index.scm:70
 msgid "Apply"
 msgstr "Применить"
 
 #: ui/xinetd/index.scm:142 ui/net-wifi/index.scm:133 стандартный
-#: ввод:13 ui/lilo/extra-sections/index.scm:188
-#: ui/lilo/extra-sections/index.scm:199 ui/lilo/extra-general/index.scm:111
-#: ui/lilo/view-source/index.scm:53 ui/lilo/view-source/index.scm:58
-#: ui/services/index.scm:95 ui/dovecot/index.scm:63 ввод:8
-#: ui/timezone/index.scm:70 ввод:7 ввод:5 ввод:10 ввод:23
-#: ui/net-eth/index.scm:167 ввод:15 ввод:9 ввод:25
-#: ui/auth/index.scm:77 ui/pkg/sources/index.scm:230 ввод:20
+#: ввод:13 ui/lilo/view-source/index.scm:47 ui/lilo/expert/index.scm:229
+#: ui/lilo/expert/index.scm:255 ui/services/index.scm:95
+#: ui/dovecot/index.scm:63 ввод:8 ui/timezone/index.scm:70 ввод:7
+#: ввод:5 ввод:10 ввод:23 ui/net-eth/index.scm:167 ввод:15
+#: ввод:9 ввод:25 ui/auth/index.scm:77 ui/pkg/sources/index.scm:230
+#: ввод:20
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -150,10 +147,11 @@ msgid "Unknown service"
 msgstr "Неизвестная служба"
 
 #: ui/net-wifi/index.scm:104 стандартный ввод:2
-#: ui/lilo/extra-general/index.scm:101
 msgid "Interface:"
 msgstr "Интерфейс:"
 
+#. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #: ui/net-wifi/index.scm:105 стандартный ввод:4
 #: ui/net-eth/index.scm:118 ввод:7
 msgid "Status:"
@@ -241,7 +239,7 @@ msgstr "Подключен к сети"
 msgid "access point"
 msgstr "точка доступа"
 
-#: backend3/net-wifi:228 backend3/net-eth:357
+#: backend3/net-wifi:228 backend3/net-eth:364
 msgid "IP address"
 msgstr "IP-адрес"
 
@@ -298,104 +296,6 @@ msgstr "Невозможно создать сеть"
 msgid "Wi-Fi setup"
 msgstr "Настройка Wi-Fi"
 
-#: ui/lilo/extra-sections/index.scm:100 ui/lilo/extra-sections/index.scm:110
-#: ui/lilo/extra-sections/index.scm:120 ui/lilo/extra-sections/index.scm:125
-msgid "<UNDEFINED>"
-msgstr "<UNDEFINED>"
-
-#: ui/lilo/extra-sections/index.scm:150 ui/lilo/extra-general/index.scm:78
-#: ui/lilo/view-source/index.scm:44
-msgid "Simple mode"
-msgstr "Обычный режим"
-
-#: ui/lilo/extra-sections/index.scm:152 ui/lilo/extra-general/index.scm:80
-#: ui/lilo/view-source/index.scm:46
-msgid "Boot sections"
-msgstr "Варианты загрузки"
-
-#: ui/lilo/extra-sections/index.scm:153 ui/lilo/extra-general/index.scm:81
-#: ui/lilo/view-source/index.scm:47
-msgid "Edit lilo.conf"
-msgstr "Редактировать lilo.conf"
-
-#: ui/lilo/extra-sections/index.scm:158
-msgid "Add Linux loader"
-msgstr "Добавить загрузчик Linux"
-
-#: ui/lilo/extra-sections/index.scm:159
-msgid "Add other loader"
-msgstr "Добавить другой загрузчик"
-
-#: ui/lilo/extra-sections/index.scm:166
-msgid "Label:"
-msgstr "Название:"
-
-#: ui/lilo/extra-sections/index.scm:168
-msgid "Image:"
-msgstr "Ядро:"
-
-#: ui/lilo/extra-sections/index.scm:169
-msgid "Initrd:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:170
-msgid "Root:"
-msgstr "Корневой каталог:"
-
-#: ui/lilo/extra-sections/index.scm:171 ui/lilo/extra-general/index.scm:99
-msgid "Kernel params:"
-msgstr "Параметры ядра:"
-
-#: ui/lilo/extra-sections/index.scm:173
-msgid "Device:"
-msgstr "Устройство:"
-
-#: ui/lilo/extra-sections/index.scm:174
-msgid "Alias:"
-msgstr "Альтернативное название:"
-
-#: ui/lilo/extra-sections/index.scm:175
-msgid "Boot-as:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:176
-msgid "Table:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:179
-msgid "Set default"
-msgstr "По умолчанию"
-
-#: ui/lilo/extra-sections/index.scm:187 ui/lilo/view-source/index.scm:52
-#: стандартный ввод:2
-msgid "Save"
-msgstr "Сохранить"
-
-#: ui/lilo/extra-sections/index.scm:189 ui/pkg/register/index.scm:46
-#: стандартный ввод:5
-msgid "Remove"
-msgstr "Удалить"
-
-#: ui/lilo/extra-general/index.scm:90
-msgid "Skip bootloader installation"
-msgstr "Пропустить установку загрузчика"
-
-#: ui/lilo/extra-general/index.scm:94
-msgid "Write lilo.conf without boot loader installation"
-msgstr "Создать lilo.conf без установки загрузчика"
-
-#: ui/lilo/extra-general/index.scm:98 ui/lilo/index.scm:76
-msgid "Install boot loader on:"
-msgstr "Установить загрузчик в:"
-
-#: ui/lilo/extra-general/index.scm:100
-msgid "Timeout:"
-msgstr "Время ожидания:"
-
-#: ui/lilo/extra-general/index.scm:102
-msgid "Raid-extra-boot:"
-msgstr ""
-
 #: ui/lilo/index.scm:51
 msgid "Master Boot Record"
 msgstr "Главная загрузочная запись"
@@ -414,6 +314,10 @@ msgstr ""
 "Сейчас можно настроить загрузчик операционной системы. Если это единственная "
 "операционная система на этом компьютере, то вам следует установить загрузчик "
 "в Главную загрузочную запись. Иначе ознакомьтесь с документацией."
+
+#: ui/lilo/index.scm:76 ui/lilo/expert/index.scm:199
+msgid "Install boot loader on:"
+msgstr "Установить загрузчик в:"
 
 #: ui/lilo/index.scm:82
 msgid "Device"
@@ -434,6 +338,137 @@ msgstr "Показать разделы"
 #: ui/lilo/index.scm:100
 msgid "Expert settings"
 msgstr "Экспертные настройки"
+
+#: ui/lilo/view-source/index.scm:33 ui/lilo/expert/index.scm:188
+msgid "Simple mode"
+msgstr "Обычный режим"
+
+#: ui/lilo/view-source/index.scm:34 ui/lilo/expert/index.scm:189
+msgid "Expert mode"
+msgstr "Режим эксперта"
+
+#: ui/lilo/view-source/index.scm:35 ui/lilo/expert/index.scm:190
+msgid "Edit lilo.conf"
+msgstr "Редактировать lilo.conf"
+
+#: ui/lilo/view-source/index.scm:41 ui/lilo/expert/index.scm:244
+msgid "Don't install bootloader"
+msgstr "Не устанавливать загрузчик"
+
+#: ui/lilo/expert/index.scm:52
+msgid "Other loader"
+msgstr "Другой загрузчик"
+
+#: ui/lilo/expert/index.scm:75
+msgid "Linux kernel"
+msgstr "Ядро Linux"
+
+#: ui/lilo/expert/index.scm:99 ui/lilo/expert/index.scm:109
+#: ui/lilo/expert/index.scm:121
+msgid "<UNDEFINED>"
+msgstr "<UNDEFINED>"
+
+#: ui/lilo/expert/index.scm:200
+msgid "Common kernel parameters:"
+msgstr "Общие параметры ядра:"
+
+#: ui/lilo/expert/index.scm:201
+msgid "Interface type:"
+msgstr "Тип интерфейса:"
+
+#: ui/lilo/expert/index.scm:202
+msgid "Interface timeout:"
+msgstr "Время ожидания:"
+
+#: ui/lilo/expert/index.scm:203
+msgid "Raid-extra-boot:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:206
+msgid "Boot variants"
+msgstr "Варианты загрузки"
+
+#: ui/lilo/expert/index.scm:213
+msgid "Label:"
+msgstr "Название:"
+
+#: ui/lilo/expert/index.scm:215
+msgid "Kernel image:"
+msgstr "Образ ядра:"
+
+#: ui/lilo/expert/index.scm:216
+msgid "Initrd:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:217
+msgid "Root device:"
+msgstr "Устройство:"
+
+#: ui/lilo/expert/index.scm:218
+msgid "Additional parameters:"
+msgstr "Дополнительные параметры:"
+
+#: ui/lilo/expert/index.scm:220
+msgid "Device:"
+msgstr "Устройство:"
+
+#: ui/lilo/expert/index.scm:221
+msgid "Alias:"
+msgstr "Альтернативное название:"
+
+#: ui/lilo/expert/index.scm:222
+msgid "Boot-as:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:223
+msgid "Table:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:228 стандартный ввод:2
+msgid "Save"
+msgstr "Сохранить"
+
+#: ui/lilo/expert/index.scm:231
+msgid "Set default"
+msgstr "По умолчанию"
+
+#: ui/lilo/expert/index.scm:236 ui/pkg/register/index.scm:46
+#: стандартный ввод:5
+msgid "Remove"
+msgstr "Удалить"
+
+#: ui/lilo/expert/index.scm:239
+msgid "Add Linux kernel"
+msgstr "Добавить ядро Linux"
+
+#: ui/lilo/expert/index.scm:240
+msgid "Add other loader"
+msgstr "Добавить другой загрузчик"
+
+#: backend3/lilo.in:113
+msgid "menu"
+msgstr "меню"
+
+#: backend3/lilo.in:114
+msgid "text"
+msgstr "текст"
+
+#: backend3/lilo.in:121
+#, fuzzy
+msgid "none"
+msgstr "нет"
+
+#: backend3/lilo.in:122
+msgid "auto"
+msgstr ""
+
+#: backend3/lilo.in:123
+msgid "mbr"
+msgstr ""
+
+#: backend3/lilo.in:124
+msgid "mbr-only"
+msgstr ""
 
 #: ui/license/index.scm:10 ui/notes/license.scm:10
 msgid "Please take a moment to read the license agreement now."
@@ -868,8 +903,6 @@ msgstr "Вс"
 msgid "Date/Time"
 msgstr "Дата/Время"
 
-#. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
-#. messages from C tools
 #: ui/x11/c-messages.scm:2 ui/pkg/license/index.scm:38
 msgid "Yes"
 msgstr "Да"
@@ -991,12 +1024,10 @@ msgstr ""
 msgid "automatically"
 msgstr "автоматически"
 
-#. for write_enum_item
 #: backend3/x11:254
 msgid "Automatically detected"
 msgstr "Автоматически определённый"
 
-#. config
 #: backend3/x11:323
 msgid "config file doesn't exist"
 msgstr "конфигурационный файл не существует"
@@ -1098,38 +1129,42 @@ msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
 #: backend3/net-eth:154
+msgid "Use Zeroconf"
+msgstr "Использовать Zeroconf"
+
+#: backend3/net-eth:155
 msgid "Manually"
 msgstr "Вручную"
 
-#: backend3/net-eth:185
+#: backend3/net-eth:186
 msgid "interface is up"
 msgstr "интерфейс включён"
 
-#: backend3/net-eth:185
+#: backend3/net-eth:186
 msgid "interface is down"
 msgstr "интерфейс выключен"
 
-#: backend3/net-eth:190
+#: backend3/net-eth:191
 msgid "plugged"
 msgstr "провод подсоединён"
 
-#: backend3/net-eth:191
+#: backend3/net-eth:192
 msgid "unplugged"
 msgstr "провод отсоединён"
 
-#: backend3/net-eth:351
+#: backend3/net-eth:358
 msgid "Host name"
 msgstr "Имя компьютера"
 
-#: backend3/net-eth:353
+#: backend3/net-eth:360
 msgid "Search domains"
 msgstr "Домены поиска"
 
-#: backend3/net-eth:355
+#: backend3/net-eth:362
 msgid "DNS servers"
 msgstr "DNS-серверы"
 
-#: backend3/net-eth:359
+#: backend3/net-eth:366
 msgid "Default gateway"
 msgstr "Шлюз по умолчанию"
 

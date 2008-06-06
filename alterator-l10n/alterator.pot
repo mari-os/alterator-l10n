@@ -17,8 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25 backend3/xinetd:108
-#: ui/lilo/extra-sections/index.scm:151 ui/lilo/extra-general/index.scm:79
-#: ui/lilo/view-source/index.scm:45
+#: ui/lilo/expert/index.scm:195
 msgid "Common settings"
 msgstr ""
 
@@ -80,26 +79,24 @@ msgid ""
 msgstr ""
 
 #: ui/xinetd/index.scm:141 стандартный ввод:15
-#: ui/net-wifi/index.scm:132 ввод:12 ui/lilo/extra-sections/index.scm:198
-#: ui/lilo/extra-general/index.scm:110 ui/lilo/index.scm:99
-#: ui/lilo/view-source/index.scm:57 ui/services/index.scm:94 ввод:6
-#: ui/dovecot/index.scm:62 ввод:7 ui/root/index.scm:37 ввод:5
-#: ui/timezone/index.scm:69 ui/datetime/index.scm:59 ui/x11/index.scm:97
-#: ввод:4 ввод:9 ввод:22 ui/net-eth/index.scm:166 ввод:14
-#: ввод:8 ввод:24 ui/users/index.scm:113 ввод:17
-#: ui/alternatives/index.scm:129 ui/auth/index.scm:76 ввод:19 ввод:10
-#: ui/control/index.scm:70
+#: ui/net-wifi/index.scm:132 ввод:12 ui/lilo/index.scm:99
+#: ui/lilo/view-source/index.scm:46 ui/lilo/expert/index.scm:254
+#: ui/services/index.scm:94 ввод:6 ui/dovecot/index.scm:62 ввод:7
+#: ui/root/index.scm:37 ввод:5 ui/timezone/index.scm:69
+#: ui/datetime/index.scm:59 ui/x11/index.scm:97 ввод:4 ввод:9
+#: ввод:22 ui/net-eth/index.scm:166 ввод:14 ввод:8 ввод:24
+#: ui/users/index.scm:113 ввод:17 ui/alternatives/index.scm:129
+#: ui/auth/index.scm:76 ввод:19 ввод:10 ui/control/index.scm:70
 msgid "Apply"
 msgstr ""
 
 #: ui/xinetd/index.scm:142 ui/net-wifi/index.scm:133 стандартный
-#: ввод:13 ui/lilo/extra-sections/index.scm:188
-#: ui/lilo/extra-sections/index.scm:199 ui/lilo/extra-general/index.scm:111
-#: ui/lilo/view-source/index.scm:53 ui/lilo/view-source/index.scm:58
-#: ui/services/index.scm:95 ui/dovecot/index.scm:63 ввод:8
-#: ui/timezone/index.scm:70 ввод:7 ввод:5 ввод:10 ввод:23
-#: ui/net-eth/index.scm:167 ввод:15 ввод:9 ввод:25
-#: ui/auth/index.scm:77 ui/pkg/sources/index.scm:230 ввод:20
+#: ввод:13 ui/lilo/view-source/index.scm:47 ui/lilo/expert/index.scm:229
+#: ui/lilo/expert/index.scm:255 ui/services/index.scm:95
+#: ui/dovecot/index.scm:63 ввод:8 ui/timezone/index.scm:70 ввод:7
+#: ввод:5 ввод:10 ввод:23 ui/net-eth/index.scm:167 ввод:15
+#: ввод:9 ввод:25 ui/auth/index.scm:77 ui/pkg/sources/index.scm:230
+#: ввод:20
 msgid "Reset"
 msgstr ""
 
@@ -143,7 +140,6 @@ msgid "Unknown service"
 msgstr ""
 
 #: ui/net-wifi/index.scm:104 стандартный ввод:2
-#: ui/lilo/extra-general/index.scm:101
 msgid "Interface:"
 msgstr ""
 
@@ -236,7 +232,7 @@ msgstr ""
 msgid "access point"
 msgstr ""
 
-#: backend3/net-wifi:228 backend3/net-eth:357
+#: backend3/net-wifi:228 backend3/net-eth:364
 msgid "IP address"
 msgstr ""
 
@@ -293,104 +289,6 @@ msgstr ""
 msgid "Wi-Fi setup"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:100 ui/lilo/extra-sections/index.scm:110
-#: ui/lilo/extra-sections/index.scm:120 ui/lilo/extra-sections/index.scm:125
-msgid "<UNDEFINED>"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:150 ui/lilo/extra-general/index.scm:78
-#: ui/lilo/view-source/index.scm:44
-msgid "Simple mode"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:152 ui/lilo/extra-general/index.scm:80
-#: ui/lilo/view-source/index.scm:46
-msgid "Boot sections"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:153 ui/lilo/extra-general/index.scm:81
-#: ui/lilo/view-source/index.scm:47
-msgid "Edit lilo.conf"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:158
-msgid "Add Linux loader"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:159
-msgid "Add other loader"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:166
-msgid "Label:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:168
-msgid "Image:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:169
-msgid "Initrd:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:170
-msgid "Root:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:171 ui/lilo/extra-general/index.scm:99
-msgid "Kernel params:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:173
-msgid "Device:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:174
-msgid "Alias:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:175
-msgid "Boot-as:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:176
-msgid "Table:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:179
-msgid "Set default"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:187 ui/lilo/view-source/index.scm:52
-#: стандартный ввод:2
-msgid "Save"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:189 ui/pkg/register/index.scm:46
-#: стандартный ввод:5
-msgid "Remove"
-msgstr ""
-
-#: ui/lilo/extra-general/index.scm:90
-msgid "Skip bootloader installation"
-msgstr ""
-
-#: ui/lilo/extra-general/index.scm:94
-msgid "Write lilo.conf without boot loader installation"
-msgstr ""
-
-#: ui/lilo/extra-general/index.scm:98 ui/lilo/index.scm:76
-msgid "Install boot loader on:"
-msgstr ""
-
-#: ui/lilo/extra-general/index.scm:100
-msgid "Timeout:"
-msgstr ""
-
-#: ui/lilo/extra-general/index.scm:102
-msgid "Raid-extra-boot:"
-msgstr ""
-
 #: ui/lilo/index.scm:51
 msgid "Master Boot Record"
 msgstr ""
@@ -405,6 +303,10 @@ msgid ""
 "here. If this is a sole operating system on this machine you should install "
 "the boot loader on Master Boot Record. Otherwise, please consult the "
 "documentation for available options."
+msgstr ""
+
+#: ui/lilo/index.scm:76 ui/lilo/expert/index.scm:199
+msgid "Install boot loader on:"
 msgstr ""
 
 #: ui/lilo/index.scm:82
@@ -425,6 +327,136 @@ msgstr ""
 
 #: ui/lilo/index.scm:100
 msgid "Expert settings"
+msgstr ""
+
+#: ui/lilo/view-source/index.scm:33 ui/lilo/expert/index.scm:188
+msgid "Simple mode"
+msgstr ""
+
+#: ui/lilo/view-source/index.scm:34 ui/lilo/expert/index.scm:189
+msgid "Expert mode"
+msgstr ""
+
+#: ui/lilo/view-source/index.scm:35 ui/lilo/expert/index.scm:190
+msgid "Edit lilo.conf"
+msgstr ""
+
+#: ui/lilo/view-source/index.scm:41 ui/lilo/expert/index.scm:244
+msgid "Don't install bootloader"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:52
+msgid "Other loader"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:75
+msgid "Linux kernel"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:99 ui/lilo/expert/index.scm:109
+#: ui/lilo/expert/index.scm:121
+msgid "<UNDEFINED>"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:200
+msgid "Common kernel parameters:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:201
+msgid "Interface type:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:202
+msgid "Interface timeout:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:203
+msgid "Raid-extra-boot:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:206
+msgid "Boot variants"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:213
+msgid "Label:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:215
+msgid "Kernel image:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:216
+msgid "Initrd:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:217
+msgid "Root device:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:218
+msgid "Additional parameters:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:220
+msgid "Device:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:221
+msgid "Alias:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:222
+msgid "Boot-as:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:223
+msgid "Table:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:228 стандартный ввод:2
+msgid "Save"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:231
+msgid "Set default"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:236 ui/pkg/register/index.scm:46
+#: стандартный ввод:5
+msgid "Remove"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:239
+msgid "Add Linux kernel"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:240
+msgid "Add other loader"
+msgstr ""
+
+#: backend3/lilo.in:113
+msgid "menu"
+msgstr ""
+
+#: backend3/lilo.in:114
+msgid "text"
+msgstr ""
+
+#: backend3/lilo.in:121
+msgid "none"
+msgstr ""
+
+#: backend3/lilo.in:122
+msgid "auto"
+msgstr ""
+
+#: backend3/lilo.in:123
+msgid "mbr"
+msgstr ""
+
+#: backend3/lilo.in:124
+msgid "mbr-only"
 msgstr ""
 
 #: ui/license/index.scm:10 ui/notes/license.scm:10
@@ -1088,38 +1120,42 @@ msgid "Use DHCP"
 msgstr ""
 
 #: backend3/net-eth:154
+msgid "Use Zeroconf"
+msgstr ""
+
+#: backend3/net-eth:155
 msgid "Manually"
 msgstr ""
 
-#: backend3/net-eth:185
+#: backend3/net-eth:186
 msgid "interface is up"
 msgstr ""
 
-#: backend3/net-eth:185
+#: backend3/net-eth:186
 msgid "interface is down"
 msgstr ""
 
-#: backend3/net-eth:190
+#: backend3/net-eth:191
 msgid "plugged"
 msgstr ""
 
-#: backend3/net-eth:191
+#: backend3/net-eth:192
 msgid "unplugged"
 msgstr ""
 
-#: backend3/net-eth:351
+#: backend3/net-eth:358
 msgid "Host name"
 msgstr ""
 
-#: backend3/net-eth:353
+#: backend3/net-eth:360
 msgid "Search domains"
 msgstr ""
 
-#: backend3/net-eth:355
+#: backend3/net-eth:362
 msgid "DNS servers"
 msgstr ""
 
-#: backend3/net-eth:359
+#: backend3/net-eth:366
 msgid "Default gateway"
 msgstr ""
 

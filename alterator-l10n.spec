@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.4
-Release: alt11
+Release: alt12
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -30,6 +30,9 @@ make check
 
 
 %changelog
+* Fri Jun 06 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.4-alt12
+- add some translations for new alterator-lilo
+
 * Tue Jun 03 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.4-alt11
 - clear pot-file before merging
 - fix some translations

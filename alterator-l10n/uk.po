@@ -16,8 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25 backend3/xinetd:108
-#: ui/lilo/extra-sections/index.scm:151 ui/lilo/extra-general/index.scm:79
-#: ui/lilo/view-source/index.scm:45
+#: ui/lilo/expert/index.scm:195
 #, fuzzy
 msgid "Common settings"
 msgstr ""
@@ -92,6 +91,9 @@ msgstr ""
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
 "Служба\n"
 "#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
@@ -137,6 +139,18 @@ msgstr ""
 "Служба\n"
 "#-#-#-#-#  uk.po (alterator-squid)  #-#-#-#-#\n"
 "FTP сервер\n"
+"#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
+"Пристр??й\n"
+"#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
+"Служба\n"
+"#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
+"Пристр??й\n"
+"#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
+"Служба\n"
+"#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
+"Пристр??й\n"
+"#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
+"Служба\n"
 "#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
 "Пристр??й\n"
 "#-#-#-#-#  uk.po (alterator-services)  #-#-#-#-#\n"
@@ -221,26 +235,24 @@ msgid ""
 msgstr ""
 
 #: ui/xinetd/index.scm:141 стандартный ввод:15
-#: ui/net-wifi/index.scm:132 ввод:12 ui/lilo/extra-sections/index.scm:198
-#: ui/lilo/extra-general/index.scm:110 ui/lilo/index.scm:99
-#: ui/lilo/view-source/index.scm:57 ui/services/index.scm:94 ввод:6
-#: ui/dovecot/index.scm:62 ввод:7 ui/root/index.scm:37 ввод:5
-#: ui/timezone/index.scm:69 ui/datetime/index.scm:59 ui/x11/index.scm:97
-#: ввод:4 ввод:9 ввод:22 ui/net-eth/index.scm:166 ввод:14
-#: ввод:8 ввод:24 ui/users/index.scm:113 ввод:17
-#: ui/alternatives/index.scm:129 ui/auth/index.scm:76 ввод:19 ввод:10
-#: ui/control/index.scm:70
+#: ui/net-wifi/index.scm:132 ввод:12 ui/lilo/index.scm:99
+#: ui/lilo/view-source/index.scm:46 ui/lilo/expert/index.scm:254
+#: ui/services/index.scm:94 ввод:6 ui/dovecot/index.scm:62 ввод:7
+#: ui/root/index.scm:37 ввод:5 ui/timezone/index.scm:69
+#: ui/datetime/index.scm:59 ui/x11/index.scm:97 ввод:4 ввод:9
+#: ввод:22 ui/net-eth/index.scm:166 ввод:14 ввод:8 ввод:24
+#: ui/users/index.scm:113 ввод:17 ui/alternatives/index.scm:129
+#: ui/auth/index.scm:76 ввод:19 ввод:10 ui/control/index.scm:70
 msgid "Apply"
 msgstr "Застосувати"
 
 #: ui/xinetd/index.scm:142 ui/net-wifi/index.scm:133 стандартный
-#: ввод:13 ui/lilo/extra-sections/index.scm:188
-#: ui/lilo/extra-sections/index.scm:199 ui/lilo/extra-general/index.scm:111
-#: ui/lilo/view-source/index.scm:53 ui/lilo/view-source/index.scm:58
-#: ui/services/index.scm:95 ui/dovecot/index.scm:63 ввод:8
-#: ui/timezone/index.scm:70 ввод:7 ввод:5 ввод:10 ввод:23
-#: ui/net-eth/index.scm:167 ввод:15 ввод:9 ввод:25
-#: ui/auth/index.scm:77 ui/pkg/sources/index.scm:230 ввод:20
+#: ввод:13 ui/lilo/view-source/index.scm:47 ui/lilo/expert/index.scm:229
+#: ui/lilo/expert/index.scm:255 ui/services/index.scm:95
+#: ui/dovecot/index.scm:63 ввод:8 ui/timezone/index.scm:70 ввод:7
+#: ввод:5 ввод:10 ввод:23 ui/net-eth/index.scm:167 ввод:15
+#: ввод:9 ввод:25 ui/auth/index.scm:77 ui/pkg/sources/index.scm:230
+#: ввод:20
 msgid "Reset"
 msgstr "Скинути"
 
@@ -287,7 +299,6 @@ msgid "Unknown service"
 msgstr "Ввімкнути службу FTP"
 
 #: ui/net-wifi/index.scm:104 стандартный ввод:2
-#: ui/lilo/extra-general/index.scm:101
 msgid "Interface:"
 msgstr ""
 
@@ -393,7 +404,7 @@ msgstr ""
 msgid "access point"
 msgstr ""
 
-#: backend3/net-wifi:228 backend3/net-eth:357
+#: backend3/net-wifi:228 backend3/net-eth:364
 msgid "IP address"
 msgstr "IP-адреса"
 
@@ -456,115 +467,6 @@ msgstr ""
 msgid "Wi-Fi setup"
 msgstr ""
 
-#: ui/lilo/extra-sections/index.scm:100 ui/lilo/extra-sections/index.scm:110
-#: ui/lilo/extra-sections/index.scm:120 ui/lilo/extra-sections/index.scm:125
-msgid "<UNDEFINED>"
-msgstr "<UNDEFINED>"
-
-#: ui/lilo/extra-sections/index.scm:150 ui/lilo/extra-general/index.scm:78
-#: ui/lilo/view-source/index.scm:44
-#, fuzzy
-msgid "Simple mode"
-msgstr "Нормальний режим"
-
-#: ui/lilo/extra-sections/index.scm:152 ui/lilo/extra-general/index.scm:80
-#: ui/lilo/view-source/index.scm:46
-msgid "Boot sections"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:153 ui/lilo/extra-general/index.scm:81
-#: ui/lilo/view-source/index.scm:47
-msgid "Edit lilo.conf"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:158
-msgid "Add Linux loader"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:159
-msgid "Add other loader"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:166
-#, fuzzy
-msgid "Label:"
-msgstr "Label:"
-
-#: ui/lilo/extra-sections/index.scm:168
-#, fuzzy
-msgid "Image:"
-msgstr "Image:"
-
-#: ui/lilo/extra-sections/index.scm:169
-#, fuzzy
-msgid "Initrd:"
-msgstr "Initrd:"
-
-#: ui/lilo/extra-sections/index.scm:170
-#, fuzzy
-msgid "Root:"
-msgstr "Root:"
-
-#: ui/lilo/extra-sections/index.scm:171 ui/lilo/extra-general/index.scm:99
-msgid "Kernel params:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:173
-#, fuzzy
-msgid "Device:"
-msgstr "Пристрій"
-
-#: ui/lilo/extra-sections/index.scm:174
-msgid "Alias:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:175
-#, fuzzy
-msgid "Boot-as:"
-msgstr "Boot:"
-
-#: ui/lilo/extra-sections/index.scm:176
-msgid "Table:"
-msgstr ""
-
-#: ui/lilo/extra-sections/index.scm:179
-msgid "Set default"
-msgstr "Типово"
-
-#: ui/lilo/extra-sections/index.scm:187 ui/lilo/view-source/index.scm:52
-#: стандартный ввод:2
-msgid "Save"
-msgstr "Зберегти"
-
-#: ui/lilo/extra-sections/index.scm:189 ui/pkg/register/index.scm:46
-#: стандартный ввод:5
-msgid "Remove"
-msgstr "Видалити"
-
-#: ui/lilo/extra-general/index.scm:90
-#, fuzzy
-msgid "Skip bootloader installation"
-msgstr "Пропустити встановлення завантажувача."
-
-#: ui/lilo/extra-general/index.scm:94
-#, fuzzy
-msgid "Write lilo.conf without boot loader installation"
-msgstr "Пропустити встановлення завантажувача."
-
-#: ui/lilo/extra-general/index.scm:98 ui/lilo/index.scm:76
-#, fuzzy
-msgid "Install boot loader on:"
-msgstr "Встановити завантажувач в:"
-
-#: ui/lilo/extra-general/index.scm:100
-#, fuzzy
-msgid "Timeout:"
-msgstr "Timeout:"
-
-#: ui/lilo/extra-general/index.scm:102
-msgid "Raid-extra-boot:"
-msgstr ""
-
 #: ui/lilo/index.scm:51
 msgid "Master Boot Record"
 msgstr "Master Boot Record"
@@ -586,6 +488,11 @@ msgstr ""
 "системі, краще встановити завантажувач в MBR.  Інакше перегляньте "
 "документацію щодо можливих варіантів."
 
+#: ui/lilo/index.scm:76 ui/lilo/expert/index.scm:199
+#, fuzzy
+msgid "Install boot loader on:"
+msgstr "Встановити завантажувач в:"
+
 #: ui/lilo/index.scm:82
 msgid "Device"
 msgstr "Пристрій"
@@ -605,6 +512,150 @@ msgstr "Показувати підрозділи"
 #: ui/lilo/index.scm:100
 msgid "Expert settings"
 msgstr "Експерт"
+
+#: ui/lilo/view-source/index.scm:33 ui/lilo/expert/index.scm:188
+#, fuzzy
+msgid "Simple mode"
+msgstr "Нормальний режим"
+
+#: ui/lilo/view-source/index.scm:34 ui/lilo/expert/index.scm:189
+#, fuzzy
+msgid "Expert mode"
+msgstr "Нормальний режим"
+
+#: ui/lilo/view-source/index.scm:35 ui/lilo/expert/index.scm:190
+msgid "Edit lilo.conf"
+msgstr ""
+
+#: ui/lilo/view-source/index.scm:41 ui/lilo/expert/index.scm:244
+#, fuzzy
+msgid "Don't install bootloader"
+msgstr "Встановити завантажувач в:"
+
+#: ui/lilo/expert/index.scm:52
+#, fuzzy
+msgid "Other loader"
+msgstr "Інший драйвер..."
+
+#: ui/lilo/expert/index.scm:75
+msgid "Linux kernel"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:99 ui/lilo/expert/index.scm:109
+#: ui/lilo/expert/index.scm:121
+msgid "<UNDEFINED>"
+msgstr "<UNDEFINED>"
+
+#: ui/lilo/expert/index.scm:200
+msgid "Common kernel parameters:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:201
+#, fuzzy
+msgid "Interface type:"
+msgstr "Інтерфейс"
+
+#: ui/lilo/expert/index.scm:202
+#, fuzzy
+msgid "Interface timeout:"
+msgstr "інтерфейс піднято"
+
+#: ui/lilo/expert/index.scm:203
+msgid "Raid-extra-boot:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:206
+msgid "Boot variants"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:213
+#, fuzzy
+msgid "Label:"
+msgstr "Label:"
+
+#: ui/lilo/expert/index.scm:215
+msgid "Kernel image:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:216
+#, fuzzy
+msgid "Initrd:"
+msgstr "Initrd:"
+
+#: ui/lilo/expert/index.scm:217
+#, fuzzy
+msgid "Root device:"
+msgstr "Пристрій"
+
+#: ui/lilo/expert/index.scm:218
+#, fuzzy
+msgid "Additional parameters:"
+msgstr "Додатково будуть встановлені наступні пакети"
+
+#: ui/lilo/expert/index.scm:220
+#, fuzzy
+msgid "Device:"
+msgstr "Пристрій"
+
+#: ui/lilo/expert/index.scm:221
+msgid "Alias:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:222
+#, fuzzy
+msgid "Boot-as:"
+msgstr "Boot:"
+
+#: ui/lilo/expert/index.scm:223
+msgid "Table:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:228 стандартный ввод:2
+msgid "Save"
+msgstr "Зберегти"
+
+#: ui/lilo/expert/index.scm:231
+msgid "Set default"
+msgstr "Типово"
+
+#: ui/lilo/expert/index.scm:236 ui/pkg/register/index.scm:46
+#: стандартный ввод:5
+msgid "Remove"
+msgstr "Видалити"
+
+#: ui/lilo/expert/index.scm:239
+msgid "Add Linux kernel"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:240
+msgid "Add other loader"
+msgstr ""
+
+#: backend3/lilo.in:113
+msgid "menu"
+msgstr ""
+
+#: backend3/lilo.in:114
+#, fuzzy
+msgid "text"
+msgstr "Далі"
+
+#: backend3/lilo.in:121
+#, fuzzy
+msgid "none"
+msgstr "ні"
+
+#: backend3/lilo.in:122
+msgid "auto"
+msgstr ""
+
+#: backend3/lilo.in:123
+msgid "mbr"
+msgstr ""
+
+#: backend3/lilo.in:124
+msgid "mbr-only"
+msgstr ""
 
 #: ui/license/index.scm:10 ui/notes/license.scm:10
 msgid "Please take a moment to read the license agreement now."
@@ -1315,38 +1366,42 @@ msgid "Use DHCP"
 msgstr "Використовувати DHCP"
 
 #: backend3/net-eth:154
+msgid "Use Zeroconf"
+msgstr ""
+
+#: backend3/net-eth:155
 msgid "Manually"
 msgstr ""
 
-#: backend3/net-eth:185
+#: backend3/net-eth:186
 msgid "interface is up"
 msgstr "інтерфейс піднято"
 
-#: backend3/net-eth:185
+#: backend3/net-eth:186
 msgid "interface is down"
 msgstr "інтерфейс опущено"
 
-#: backend3/net-eth:190
+#: backend3/net-eth:191
 msgid "plugged"
 msgstr "увімкнуто"
 
-#: backend3/net-eth:191
+#: backend3/net-eth:192
 msgid "unplugged"
 msgstr "вимкнуто"
 
-#: backend3/net-eth:351
+#: backend3/net-eth:358
 msgid "Host name"
 msgstr ""
 
-#: backend3/net-eth:353
+#: backend3/net-eth:360
 msgid "Search domains"
 msgstr ""
 
-#: backend3/net-eth:355
+#: backend3/net-eth:362
 msgid "DNS servers"
 msgstr ""
 
-#: backend3/net-eth:359
+#: backend3/net-eth:366
 msgid "Default gateway"
 msgstr "Шлюз по змовчуванню"
 
@@ -2323,3 +2378,1277 @@ msgstr "Системні об'єкти"
 msgid "Update help"
 msgstr "Поновити довідку"
 
+#~ msgid "Africa/Abidjan"
+#~ msgstr "Африка/Абіджан"
+
+#~ msgid "Africa/Accra"
+#~ msgstr "Африка/Аккра"
+
+#~ msgid "Africa/Addis_Ababa"
+#~ msgstr "Африка/Аддис-Абеба"
+
+#~ msgid "Africa/Algiers"
+#~ msgstr "Африка/Алжир"
+
+#~ msgid "Africa/Asmera"
+#~ msgstr "Африка/Асмера"
+
+#~ msgid "Africa/Bamako"
+#~ msgstr "Африка/Бамако"
+
+#~ msgid "Africa/Bangui"
+#~ msgstr "Африка/Бангі"
+
+#~ msgid "Africa/Banjul"
+#~ msgstr "Африка/Банхул"
+
+#~ msgid "Africa/Bissau"
+#~ msgstr "Африка/Бісау"
+
+#~ msgid "Africa/Blantyre"
+#~ msgstr "Африка/Блантайр"
+
+#~ msgid "Africa/Brazzaville"
+#~ msgstr "Африка/Браззавіль"
+
+#~ msgid "Africa/Bujumbura"
+#~ msgstr "Африка/Буюмбура"
+
+#~ msgid "Africa/Cairo"
+#~ msgstr "Африка/Каїр"
+
+#~ msgid "Africa/Casablanca"
+#~ msgstr "Африка/Касабланка"
+
+#~ msgid "Africa/Ceuta"
+#~ msgstr "Африка/Сеюта"
+
+#~ msgid "Africa/Conakry"
+#~ msgstr "Африка/Конакрі"
+
+#~ msgid "Africa/Dakar"
+#~ msgstr "Африка/Дакар"
+
+#~ msgid "Africa/Dar_es_Salaam"
+#~ msgstr "Африка/Дар-ес-Салам"
+
+#~ msgid "Africa/Djibouti"
+#~ msgstr "Африка/Джибуті"
+
+#~ msgid "Africa/Douala"
+#~ msgstr "Африка/Дуала"
+
+#~ msgid "Africa/El_Aaiun"
+#~ msgstr "Африка/Ель-Аюн"
+
+#~ msgid "Africa/Freetown"
+#~ msgstr "Африка/Фритаун"
+
+#~ msgid "Africa/Gaborone"
+#~ msgstr "Африка/Габороне"
+
+#~ msgid "Africa/Harare"
+#~ msgstr "Африка/Хараре"
+
+#~ msgid "Africa/Johannesburg"
+#~ msgstr "Африка/Йоганесбург"
+
+#~ msgid "Africa/Kampala"
+#~ msgstr "Африка/Кампала"
+
+#~ msgid "Africa/Khartoum"
+#~ msgstr "Африка/Хартум"
+
+#~ msgid "Africa/Kigali"
+#~ msgstr "Африка/Кіґалі"
+
+#~ msgid "Africa/Kinshasa"
+#~ msgstr "Африка/Кіншаса"
+
+#~ msgid "Africa/Lagos"
+#~ msgstr "Африка/Лагос"
+
+#~ msgid "Africa/Libreville"
+#~ msgstr "Африка/Лібревіль"
+
+#~ msgid "Africa/Lome"
+#~ msgstr "Африка/Ломе"
+
+#~ msgid "Africa/Luanda"
+#~ msgstr "Африка/Луанда"
+
+#~ msgid "Africa/Lubumbashi"
+#~ msgstr "Африка/Любумбаши"
+
+#~ msgid "Africa/Lusaka"
+#~ msgstr "Африка/Лусака"
+
+#~ msgid "Africa/Malabo"
+#~ msgstr "Африка/Малабо"
+
+#~ msgid "Africa/Maputo"
+#~ msgstr "Африка/Мапуто"
+
+#~ msgid "Africa/Maseru"
+#~ msgstr "Африка/Масеру"
+
+#~ msgid "Africa/Mbabane"
+#~ msgstr "Африка/Мбабане"
+
+#~ msgid "Africa/Mogadishu"
+#~ msgstr "Африка/Могадішу"
+
+#~ msgid "Africa/Monrovia"
+#~ msgstr "Африка/Монровія"
+
+#~ msgid "Africa/Nairobi"
+#~ msgstr "Африка/Найробі"
+
+#~ msgid "Africa/Ndjamena"
+#~ msgstr "Африка/Нджамена"
+
+#~ msgid "Africa/Niamey"
+#~ msgstr "Африка/Ніамей"
+
+#~ msgid "Africa/Nouakchott"
+#~ msgstr "Африка/Нуакшот"
+
+#~ msgid "Africa/Ouagadougou"
+#~ msgstr "Африка/Угадугу"
+
+#~ msgid "Africa/Porto-Novo"
+#~ msgstr "Африка/Порто-Ново"
+
+#~ msgid "Africa/Sao_Tome"
+#~ msgstr "Африка/Сан-Томе"
+
+#~ msgid "Africa/Timbuktu"
+#~ msgstr "Африка/Тімбукту"
+
+#~ msgid "Africa/Tripoli"
+#~ msgstr "Африка/Триполі"
+
+#~ msgid "Africa/Tunis"
+#~ msgstr "Африка/Туніс"
+
+#~ msgid "Africa/Windhoek"
+#~ msgstr "Африка/Віндхук"
+
+#~ msgid "America/Adak"
+#~ msgstr "Америка/Адак"
+
+#~ msgid "America/Anchorage"
+#~ msgstr "Америка/Анкорідж"
+
+#~ msgid "America/Anguilla"
+#~ msgstr "Америка/Ангілья"
+
+#~ msgid "America/Antigua"
+#~ msgstr "Америка/Антигуа"
+
+#~ msgid "America/Araguaina"
+#~ msgstr "Америка/Арагуаяна"
+
+#~ msgid "America/Argentina/Buenos_Aires"
+#~ msgstr "Америка/Аргентина/Буенос-Айрес"
+
+#~ msgid "America/Argentina/Catamarca"
+#~ msgstr "Америка/Аргентина/Катамарка"
+
+#~ msgid "America/Argentina/ComodRivadavia"
+#~ msgstr "Америка/Аргентина/Комод-Рівадавія"
+
+#~ msgid "America/Argentina/Cordoba"
+#~ msgstr "Америка/Аргентина/Кордоба"
+
+#~ msgid "America/Argentina/Jujuy"
+#~ msgstr "Америка/Аргентина/Хухуй"
+
+#~ msgid "America/Argentina/La_Rioja"
+#~ msgstr "Америка/Аргентина/Ла-Ріоя"
+
+#~ msgid "America/Argentina/Mendoza"
+#~ msgstr "Америка/Аргентина/Мендоза"
+
+#~ msgid "America/Argentina/Rio_Gallegos"
+#~ msgstr "Америка/Аргентина/Ріо-Ґалеґос"
+
+#~ msgid "America/Argentina/San_Juan"
+#~ msgstr "Америка/Аргентина/Сан-Хуан"
+
+#~ msgid "America/Argentina/Tucuman"
+#~ msgstr "Америка/Аргентина/Тукуман"
+
+#~ msgid "America/Argentina/Ushuaia"
+#~ msgstr "Америка/Аргентина/Ушуая"
+
+#~ msgid "America/Aruba"
+#~ msgstr "Америка/Аруба"
+
+#~ msgid "America/Asuncion"
+#~ msgstr "Америка/Асунсіон"
+
+#~ msgid "America/Bahia"
+#~ msgstr "Америка/Бахія"
+
+#~ msgid "America/Barbados"
+#~ msgstr "Америка/Барбадос"
+
+#~ msgid "America/Belem"
+#~ msgstr "Америка/Белем"
+
+#~ msgid "America/Belize"
+#~ msgstr "Америка/Беліз"
+
+#~ msgid "America/Boa_Vista"
+#~ msgstr "Америка/Боавішта"
+
+#~ msgid "America/Bogota"
+#~ msgstr "Америка/Богота"
+
+#~ msgid "America/Boise"
+#~ msgstr "Америка/Бойзі"
+
+#~ msgid "America/Buenos_Aires"
+#~ msgstr "Америка/Буенос-Айрес"
+
+#~ msgid "America/Cambridge_Bay"
+#~ msgstr "Америка/Кембрідж-Бей"
+
+#~ msgid "America/Campo_Grande"
+#~ msgstr "Америка/Кампо Гранд"
+
+#~ msgid "America/Cancun"
+#~ msgstr "Америка/Канкун"
+
+#~ msgid "America/Caracas"
+#~ msgstr "Америка/Каракас"
+
+#~ msgid "America/Catamarca"
+#~ msgstr "Америка/Катамарка"
+
+#~ msgid "America/Cayenne"
+#~ msgstr "Америка/Каєнна"
+
+#~ msgid "America/Cayman"
+#~ msgstr "Америка/Кайманові острови"
+
+#~ msgid "America/Chicago"
+#~ msgstr "Америка/Чикаго"
+
+#~ msgid "America/Chihuahua"
+#~ msgstr "Америка/Чівава"
+
+#~ msgid "America/Cordoba"
+#~ msgstr "Америка/Кордоба"
+
+#~ msgid "America/Costa_Rica"
+#~ msgstr "Америка/Коста-Ріка"
+
+#~ msgid "America/Cuiaba"
+#~ msgstr "Америка/Куяба"
+
+#~ msgid "America/Curacao"
+#~ msgstr "Америка/Куракао"
+
+#~ msgid "America/Danmarkshavn"
+#~ msgstr "Америка/Данмаркшовн"
+
+#~ msgid "America/Dawson"
+#~ msgstr "Америка/Довсон"
+
+#~ msgid "America/Dawson_Creek"
+#~ msgstr "Америка/Довсон-Крік"
+
+#~ msgid "America/Denver"
+#~ msgstr "Америка/Денвер"
+
+#~ msgid "America/Detroit"
+#~ msgstr "Америка/Детройт"
+
+#~ msgid "America/Dominica"
+#~ msgstr "Америка/Домініка"
+
+#~ msgid "America/Edmonton"
+#~ msgstr "Америка/Едмонтон"
+
+#~ msgid "America/Eirunepe"
+#~ msgstr "Америка/Ірунепе"
+
+#~ msgid "America/El_Salvador"
+#~ msgstr "Америка/Ель-Сальвадор"
+
+#~ msgid "America/Fortaleza"
+#~ msgstr "Америка/Форталецца"
+
+#~ msgid "America/Glace_Bay"
+#~ msgstr "Америка/Глейс-Бей"
+
+#~ msgid "America/Godthab"
+#~ msgstr "Америка/Ґодтаб"
+
+#~ msgid "America/Goose_Bay"
+#~ msgstr "Америка/Гуз-Бей"
+
+#~ msgid "America/Grand_Turk"
+#~ msgstr "Америка/Град-Тюрк"
+
+#~ msgid "America/Grenada"
+#~ msgstr "Америка/Гренада"
+
+#~ msgid "America/Guadeloupe"
+#~ msgstr "Америка/Гваделупа"
+
+#~ msgid "America/Guatemala"
+#~ msgstr "Америка/Гватемала"
+
+#~ msgid "America/Guayaquil"
+#~ msgstr "Америка/Гуаякіль"
+
+#~ msgid "America/Guyana"
+#~ msgstr "Америка/Гайяна"
+
+#~ msgid "America/Halifax"
+#~ msgstr "Америка/Галіфакс"
+
+#~ msgid "America/Havana"
+#~ msgstr "Америка/Гавана"
+
+#~ msgid "America/Hermosillo"
+#~ msgstr "Америка/Хермосілло"
+
+#~ msgid "America/Indiana/Knox"
+#~ msgstr "Америка/Індіана/Нокс"
+
+#~ msgid "America/Indiana/Marengo"
+#~ msgstr "Америка/Індіана/Маренґо"
+
+#~ msgid "America/Indiana/Vevay"
+#~ msgstr "Америка/Індіана/Вевей"
+
+#~ msgid "America/Indianapolis"
+#~ msgstr "Америка/Індіанаполіс"
+
+#~ msgid "America/Inuvik"
+#~ msgstr "Америка/Інувік"
+
+#~ msgid "America/Iqaluit"
+#~ msgstr "Америка/Ікалуіт"
+
+#~ msgid "America/Jamaica"
+#~ msgstr "Америка/Ямайка"
+
+#~ msgid "America/Jujuy"
+#~ msgstr "Америка/Хухуй"
+
+#~ msgid "America/Juneau"
+#~ msgstr "Америка/Джуно"
+
+#~ msgid "America/Kentucky/Monticello"
+#~ msgstr "Америка/Кентуки/Монтіселло"
+
+#~ msgid "America/La_Paz"
+#~ msgstr "Америка/Ла-Паз"
+
+#~ msgid "America/Lima"
+#~ msgstr "Америка/Ліма"
+
+#~ msgid "America/Los_Angeles"
+#~ msgstr "Америка/Лос-Анжелес"
+
+#~ msgid "America/Louisville"
+#~ msgstr "Америка/Луізвіль"
+
+#~ msgid "America/Maceio"
+#~ msgstr "Америка/Масао"
+
+#~ msgid "America/Managua"
+#~ msgstr "Америка/Манагуа"
+
+#~ msgid "America/Manaus"
+#~ msgstr "Америка/Манаус"
+
+#~ msgid "America/Martinique"
+#~ msgstr "Америка/Мартінік"
+
+#~ msgid "America/Mazatlan"
+#~ msgstr "Америка/Мазатлан"
+
+#~ msgid "America/Mendoza"
+#~ msgstr "Америка/Мендоза"
+
+#~ msgid "America/Menominee"
+#~ msgstr "Америка/Меноміні"
+
+#~ msgid "America/Merida"
+#~ msgstr "Америка/Меріда"
+
+#~ msgid "America/Mexico_City"
+#~ msgstr "Америка/Мехіко"
+
+#~ msgid "America/Miquelon"
+#~ msgstr "Америка/Мікелон"
+
+#~ msgid "America/Monterrey"
+#~ msgstr "Америка/Монтерей"
+
+#~ msgid "America/Montevideo"
+#~ msgstr "Америка/Монтевідео"
+
+#~ msgid "America/Montreal"
+#~ msgstr "Америка/Монреаль"
+
+#~ msgid "America/Montserrat"
+#~ msgstr "Америка/Монсеррат"
+
+#~ msgid "America/Nassau"
+#~ msgstr "Америка/Насау"
+
+#~ msgid "America/New_York"
+#~ msgstr "Америка/Нью-Йорк"
+
+#~ msgid "America/Nipigon"
+#~ msgstr "Америка/Ніпігон"
+
+#~ msgid "America/Nome"
+#~ msgstr "Америка/Ном"
+
+#~ msgid "America/Noronha"
+#~ msgstr "Америка/Норонга"
+
+#~ msgid "America/North_Dakota/Center"
+#~ msgstr "Америка/Північна Дакота/Центр"
+
+#~ msgid "America/Panama"
+#~ msgstr "Америка/Панама"
+
+#~ msgid "America/Pangnirtung"
+#~ msgstr "Америка/Пангніртунг"
+
+#~ msgid "America/Paramaribo"
+#~ msgstr "Америка/Парамарібо"
+
+#~ msgid "America/Phoenix"
+#~ msgstr "Америка/Фенікс"
+
+#~ msgid "America/Port-au-Prince"
+#~ msgstr "Америка/Порт-о-Пренс"
+
+#~ msgid "America/Port_of_Spain"
+#~ msgstr "Америка/Порт-оф-Спейн"
+
+#~ msgid "America/Porto_Velho"
+#~ msgstr "Америка/Порто-Велго"
+
+#~ msgid "America/Puerto_Rico"
+#~ msgstr "Америка/Пуерто-Ріко"
+
+#~ msgid "America/Rainy_River"
+#~ msgstr "Америка/Рейні-Ривер"
+
+#~ msgid "America/Rankin_Inlet"
+#~ msgstr "Америка/Ранклін-Інлет"
+
+#~ msgid "America/Recife"
+#~ msgstr "Америка/Ресіфі"
+
+#~ msgid "America/Regina"
+#~ msgstr "Америка/Режина"
+
+#~ msgid "America/Rio_Branco"
+#~ msgstr "Америка/Ріо-Бранко"
+
+#~ msgid "America/Rosario"
+#~ msgstr "Америка/Розаріо"
+
+#~ msgid "America/Santiago"
+#~ msgstr "Америка/Сантьяго"
+
+#~ msgid "America/Santo_Domingo"
+#~ msgstr "Америка/Санто-Домінго"
+
+#~ msgid "America/Sao_Paulo"
+#~ msgstr "Америка/Сан-Паулу"
+
+#~ msgid "America/Scoresbysund"
+#~ msgstr "Америка/Скорсбайзунд"
+
+#~ msgid "America/Shiprock"
+#~ msgstr "Америка/Шіпрок"
+
+#~ msgid "America/St_Johns"
+#~ msgstr "Америка/Сент-Джонс"
+
+#~ msgid "America/St_Kitts"
+#~ msgstr "Америка/Сент-Кітс"
+
+#~ msgid "America/St_Lucia"
+#~ msgstr "Америка/Санта-Лючія"
+
+#~ msgid "America/St_Thomas"
+#~ msgstr "Америка/Сент-Томас"
+
+#~ msgid "America/St_Vincent"
+#~ msgstr "Америка/Сент-Вісент"
+
+#~ msgid "America/Swift_Current"
+#~ msgstr "Америка/Свіфт-Карент"
+
+#~ msgid "America/Tegucigalpa"
+#~ msgstr "Америка/Тегусігальпа"
+
+#~ msgid "America/Thule"
+#~ msgstr "Америка/Сул"
+
+#~ msgid "America/Thunder_Bay"
+#~ msgstr "Америка/Сандер-Бей"
+
+#~ msgid "America/Tijuana"
+#~ msgstr "Америка/Тіхуана"
+
+#~ msgid "America/Toronto"
+#~ msgstr "Америка/Торонто"
+
+#~ msgid "America/Tortola"
+#~ msgstr "Америка/Тортола"
+
+#~ msgid "America/Vancouver"
+#~ msgstr "Америка/Ванкувер"
+
+#~ msgid "America/Whitehorse"
+#~ msgstr "Америка/Вайтхорс"
+
+#~ msgid "America/Winnipeg"
+#~ msgstr "Америка/Вінніпег"
+
+#~ msgid "America/Yakutat"
+#~ msgstr "Америка/Якутат"
+
+#~ msgid "America/Yellowknife"
+#~ msgstr "Америка/Єллоунайф"
+
+#~ msgid "Antarctica/Casey"
+#~ msgstr "Антарктика/Кесі"
+
+#~ msgid "Antarctica/Davis"
+#~ msgstr "Антарктика/Девіс"
+
+#~ msgid "Antarctica/DumontDUrville"
+#~ msgstr "Антарктика/Дюмон-Д'Урвіль"
+
+#~ msgid "Antarctica/Mawson"
+#~ msgstr "Антарктика/Мовсон"
+
+#~ msgid "Antarctica/McMurdo"
+#~ msgstr "Антарктика/Макмердо"
+
+#~ msgid "Antarctica/Palmer"
+#~ msgstr "Антарктика/Палмер"
+
+#~ msgid "Antarctica/Rothera"
+#~ msgstr "Антарктика/Ротера"
+
+#~ msgid "Antarctica/South_Pole"
+#~ msgstr "Антарктика/Південний полюс"
+
+#~ msgid "Antarctica/Syowa"
+#~ msgstr "Антарктика/Суйова"
+
+#~ msgid "Antarctica/Vostok"
+#~ msgstr "Антарктика/Восток"
+
+#~ msgid "Arctic/Longyearbyen"
+#~ msgstr "Арктика/Лонг'єрб'єн"
+
+#~ msgid "Asia/Aden"
+#~ msgstr "Азія/Аден"
+
+#~ msgid "Asia/Almaty"
+#~ msgstr "Азія/Алмати"
+
+#~ msgid "Asia/Amman"
+#~ msgstr "Азія/Амман"
+
+#~ msgid "Asia/Anadyr"
+#~ msgstr "Азія/Анадир"
+
+#~ msgid "Asia/Aqtau"
+#~ msgstr "Азія/Актау"
+
+#~ msgid "Asia/Aqtobe"
+#~ msgstr "Азія/Актобе (Актюбинськ)"
+
+#~ msgid "Asia/Ashgabat"
+#~ msgstr "Азія/Ашгабад"
+
+#~ msgid "Asia/Baghdad"
+#~ msgstr "Азія/Багдад"
+
+#~ msgid "Asia/Bahrain"
+#~ msgstr "Азія/Бахрейн"
+
+#~ msgid "Asia/Baku"
+#~ msgstr "Азія/Баку"
+
+#~ msgid "Asia/Bangkok"
+#~ msgstr "Азія/Бангкок"
+
+#~ msgid "Asia/Beirut"
+#~ msgstr "Азія/Бейрут"
+
+#~ msgid "Asia/Bishkek"
+#~ msgstr "Азія/Бішкек"
+
+#~ msgid "Asia/Brunei"
+#~ msgstr "Азія/Бруней"
+
+#~ msgid "Asia/Calcutta"
+#~ msgstr "Азія/Калькутта"
+
+#~ msgid "Asia/Choibalsan"
+#~ msgstr "Азія/Чойлбалсан"
+
+#~ msgid "Asia/Chongqing"
+#~ msgstr "Азія/Чонкін"
+
+#~ msgid "Asia/Colombo"
+#~ msgstr "Азія/Коломбо"
+
+#~ msgid "Asia/Damascus"
+#~ msgstr "Азія/Дамаск"
+
+#~ msgid "Asia/Dhaka"
+#~ msgstr "Азія/Дакка"
+
+#~ msgid "Asia/Dili"
+#~ msgstr "Азія/Ділі"
+
+#~ msgid "Asia/Dubai"
+#~ msgstr "Азія/Дубаї"
+
+#~ msgid "Asia/Dushanbe"
+#~ msgstr "Азія/Душанбе"
+
+#~ msgid "Asia/Gaza"
+#~ msgstr "Азія/Ґаза"
+
+#~ msgid "Asia/Harbin"
+#~ msgstr "Азія/Харбін"
+
+#~ msgid "Asia/Hong_Kong"
+#~ msgstr "Азія/Гонконг(Сянган)"
+
+#~ msgid "Asia/Hovd"
+#~ msgstr "Азія/Ховд"
+
+#~ msgid "Asia/Irkutsk"
+#~ msgstr "Азія/Іркутськ"
+
+#~ msgid "Asia/Jakarta"
+#~ msgstr "Азія/Джакарта"
+
+#~ msgid "Asia/Jayapura"
+#~ msgstr "Азія/Джаяпура"
+
+#~ msgid "Asia/Jerusalem"
+#~ msgstr "Азія/Єрусалим"
+
+#~ msgid "Asia/Kabul"
+#~ msgstr "Азія/Кабул"
+
+#~ msgid "Asia/Kamchatka"
+#~ msgstr "Азія/Камчатка"
+
+#~ msgid "Asia/Karachi"
+#~ msgstr "Азія/Карачі"
+
+#~ msgid "Asia/Kashgar"
+#~ msgstr "Азія/Кашгар"
+
+#~ msgid "Asia/Katmandu"
+#~ msgstr "Азія/Катманду"
+
+#~ msgid "Asia/Krasnoyarsk"
+#~ msgstr "Азія/Красноярськ"
+
+#~ msgid "Asia/Kuala_Lumpur"
+#~ msgstr "Азія/Куала-Лумпур"
+
+#~ msgid "Asia/Kuching"
+#~ msgstr "Азія/Кучінг"
+
+#~ msgid "Asia/Kuwait"
+#~ msgstr "Азія/Кувейт"
+
+#~ msgid "Asia/Macau"
+#~ msgstr "Азія/Макау"
+
+#~ msgid "Asia/Magadan"
+#~ msgstr "Азія/Магадан"
+
+#~ msgid "Asia/Makassar"
+#~ msgstr "Азія/Макасар"
+
+#~ msgid "Asia/Manila"
+#~ msgstr "Азія/Маніла"
+
+#~ msgid "Asia/Muscat"
+#~ msgstr "Азія/Мускат"
+
+#~ msgid "Asia/Nicosia"
+#~ msgstr "Азія/Нікосія"
+
+#~ msgid "Asia/Novosibirsk"
+#~ msgstr "Азія/Новосибірськ"
+
+#~ msgid "Asia/Omsk"
+#~ msgstr "Азія/Омск"
+
+#~ msgid "Asia/Oral"
+#~ msgstr "Азія/Орал"
+
+#~ msgid "Asia/Phnom_Penh"
+#~ msgstr "Азія/Пном-Пень"
+
+#~ msgid "Asia/Pontianak"
+#~ msgstr "Азія/Понтіанак"
+
+#~ msgid "Asia/Pyongyang"
+#~ msgstr "Азія/Пхеньян"
+
+#~ msgid "Asia/Qatar"
+#~ msgstr "Азія/Катар"
+
+#~ msgid "Asia/Qyzylorda"
+#~ msgstr "Азія/Кизилорда"
+
+#~ msgid "Asia/Rangoon"
+#~ msgstr "Азія/Рангун"
+
+#~ msgid "Asia/Riyadh"
+#~ msgstr "Азія/Ер-Ріяд"
+
+#~ msgid "Asia/Saigon"
+#~ msgstr "Азія/Сайгон"
+
+#~ msgid "Asia/Sakhalin"
+#~ msgstr "Азія/Сахалін"
+
+#~ msgid "Asia/Samarkand"
+#~ msgstr "Азія/Самарканд"
+
+#~ msgid "Asia/Seoul"
+#~ msgstr "Азія/Сеул"
+
+#~ msgid "Asia/Shanghai"
+#~ msgstr "Азія/Шанхай"
+
+#~ msgid "Asia/Singapore"
+#~ msgstr "Азія/Сингапур"
+
+#~ msgid "Asia/Taipei"
+#~ msgstr "Азія/Тайпей"
+
+#~ msgid "Asia/Tashkent"
+#~ msgstr "Азія/Ташкент"
+
+#~ msgid "Asia/Tbilisi"
+#~ msgstr "Азія/Тбілісі"
+
+#~ msgid "Asia/Tehran"
+#~ msgstr "Азія/Тегеран"
+
+#~ msgid "Asia/Thimphu"
+#~ msgstr "Азія/Тімфу"
+
+#~ msgid "Asia/Tokyo"
+#~ msgstr "Азія/Токіо"
+
+#~ msgid "Asia/Ujung_Pandang"
+#~ msgstr "Азія/Уйжунг-Панданг"
+
+#~ msgid "Asia/Ulaanbaatar"
+#~ msgstr "Азія/Уланбатор"
+
+#~ msgid "Asia/Urumqi"
+#~ msgstr "Азія/Урумкі"
+
+#~ msgid "Asia/Vientiane"
+#~ msgstr "Азія/В'єнтьян"
+
+#~ msgid "Asia/Vladivostok"
+#~ msgstr "Азія/Владивосток"
+
+#~ msgid "Asia/Yakutsk"
+#~ msgstr "Азія/Якутськ"
+
+#~ msgid "Asia/Yekaterinburg"
+#~ msgstr "Азія/Єкатеринбург"
+
+#~ msgid "Asia/Yerevan"
+#~ msgstr "Азія/Єреван"
+
+#~ msgid "Atlantic/Azores"
+#~ msgstr "Атлантика/Азори"
+
+#~ msgid "Atlantic/Bermuda"
+#~ msgstr "Атлантика/Бермуди"
+
+#~ msgid "Atlantic/Canary"
+#~ msgstr "Атлантика/Канари"
+
+#~ msgid "Atlantic/Cape_Verde"
+#~ msgstr "Атлантика/Кабо-Верде"
+
+#~ msgid "Atlantic/Faeroe"
+#~ msgstr "Атлантика/Фарери"
+
+#~ msgid "Atlantic/Jan_Mayen"
+#~ msgstr "Атлантика/Ян Маєн"
+
+#~ msgid "Atlantic/Madeira"
+#~ msgstr "Атлантика/Мадейра"
+
+#~ msgid "Atlantic/Reykjavik"
+#~ msgstr "Атлантика/Рейк'явік"
+
+#~ msgid "Atlantic/South_Georgia"
+#~ msgstr "Атлантика/Південна Джорджія"
+
+#~ msgid "Atlantic/St_Helena"
+#~ msgstr "Атлантика/Острів Святої Єлени"
+
+#~ msgid "Atlantic/Stanley"
+#~ msgstr "Атлантика/Стенлі"
+
+#~ msgid "Australia/Adelaide"
+#~ msgstr "Австралія/Аделаїда"
+
+#~ msgid "Australia/Brisbane"
+#~ msgstr "Австралія/Брісбен"
+
+#~ msgid "Australia/Broken_Hill"
+#~ msgstr "Австралія/Брокен-Хіл"
+
+#~ msgid "Australia/Darwin"
+#~ msgstr "Австралія/Дарвін"
+
+#~ msgid "Australia/Hobart"
+#~ msgstr "Австралія/Хобарт"
+
+#~ msgid "Australia/Lindeman"
+#~ msgstr "Австралія/Ліндеман"
+
+#~ msgid "Australia/Lord_Howe"
+#~ msgstr "Австралія/Лорд-Хоу"
+
+#~ msgid "Australia/Melbourne"
+#~ msgstr "Австралія/Мельбурн"
+
+#~ msgid "Australia/Perth"
+#~ msgstr "Австралія/Перт"
+
+#~ msgid "Australia/Sydney"
+#~ msgstr "Австралія/Сідней"
+
+#~ msgid "Europe/Amsterdam"
+#~ msgstr "Європа/Амстердам"
+
+#~ msgid "Europe/Andorra"
+#~ msgstr "Європа/Андорра"
+
+#~ msgid "Europe/Athens"
+#~ msgstr "Європа/Афіни"
+
+#~ msgid "Europe/Belfast"
+#~ msgstr "Європа/Белфаст"
+
+#~ msgid "Europe/Belgrade"
+#~ msgstr "Європа/Бєлград"
+
+#~ msgid "Europe/Berlin"
+#~ msgstr "Європа/Берлін"
+
+#~ msgid "Europe/Bratislava"
+#~ msgstr "Європа/Братислава"
+
+#~ msgid "Europe/Brussels"
+#~ msgstr "Європа/Брюсель"
+
+#~ msgid "Europe/Bucharest"
+#~ msgstr "Європа/Бухарест"
+
+#~ msgid "Europe/Budapest"
+#~ msgstr "Європа/Будапешт"
+
+#~ msgid "Europe/Chisinau"
+#~ msgstr "Європа/Кишинів"
+
+#~ msgid "Europe/Copenhagen"
+#~ msgstr "Європа/Копенгаген"
+
+#~ msgid "Europe/Dublin"
+#~ msgstr "Європа/Дублін"
+
+#~ msgid "Europe/Gibraltar"
+#~ msgstr "Європа/Гібралтар"
+
+#~ msgid "Europe/Helsinki"
+#~ msgstr "Європа/Гельсінки"
+
+#~ msgid "Europe/Istanbul"
+#~ msgstr "Європа/Стамбул"
+
+#~ msgid "Europe/Kaliningrad"
+#~ msgstr "Європа/Калінінград"
+
+#~ msgid "Europe/Kiev"
+#~ msgstr "Європа/Київ"
+
+#~ msgid "Europe/Lisbon"
+#~ msgstr "Європа/Лісабон"
+
+#~ msgid "Europe/Ljubljana"
+#~ msgstr "Європа/Любляна"
+
+#~ msgid "Europe/London"
+#~ msgstr "Європа/Лондон"
+
+#~ msgid "Europe/Luxembourg"
+#~ msgstr "Європа/Люксембург"
+
+#~ msgid "Europe/Madrid"
+#~ msgstr "Європа/Мадрід"
+
+#~ msgid "Europe/Malta"
+#~ msgstr "Європа/Мальта"
+
+#~ msgid "Europe/Mariehamn"
+#~ msgstr "Європа/Марієхамн"
+
+#~ msgid "Europe/Minsk"
+#~ msgstr "Європа/Мінськ"
+
+#~ msgid "Europe/Monaco"
+#~ msgstr "Європа/Монако"
+
+#~ msgid "Europe/Moscow"
+#~ msgstr "Європа/Москва"
+
+#~ msgid "Europe/Oslo"
+#~ msgstr "Європа/Осло"
+
+#~ msgid "Europe/Paris"
+#~ msgstr "Європа/Париж"
+
+#~ msgid "Europe/Prague"
+#~ msgstr "Європа/Прага"
+
+#~ msgid "Europe/Riga"
+#~ msgstr "Європа/Рига"
+
+#~ msgid "Europe/Rome"
+#~ msgstr "Європа/Рим"
+
+#~ msgid "Europe/Samara"
+#~ msgstr "Європа/Самара"
+
+#~ msgid "Europe/San_Marino"
+#~ msgstr "Європа/Сан-Маріно"
+
+#~ msgid "Europe/Sarajevo"
+#~ msgstr "Європа/Сараєво"
+
+#~ msgid "Europe/Simferopol"
+#~ msgstr "Європа/Симферополь"
+
+#~ msgid "Europe/Skopje"
+#~ msgstr "Європа/Скоп'є"
+
+#~ msgid "Europe/Sofia"
+#~ msgstr "Європа/Софія"
+
+#~ msgid "Europe/Stockholm"
+#~ msgstr "Європа/Стокгольм"
+
+#~ msgid "Europe/Tallinn"
+#~ msgstr "Європа/Таллін"
+
+#~ msgid "Europe/Tirane"
+#~ msgstr "Європа/Тирана"
+
+#~ msgid "Europe/Uzhgorod"
+#~ msgstr "Європа/Ужгород"
+
+#~ msgid "Europe/Vaduz"
+#~ msgstr "Європа/Вадуз"
+
+#~ msgid "Europe/Vatican"
+#~ msgstr "Європа/Ватікан"
+
+#~ msgid "Europe/Vienna"
+#~ msgstr "Європа/Відень"
+
+#~ msgid "Europe/Vilnius"
+#~ msgstr "Європа/Вільнюс"
+
+#~ msgid "Europe/Warsaw"
+#~ msgstr "Європа/Варшава"
+
+#~ msgid "Europe/Zagreb"
+#~ msgstr "Європа/Загреб"
+
+#~ msgid "Europe/Zaporozhye"
+#~ msgstr "Європа/Запоріжжя"
+
+#~ msgid "Europe/Zurich"
+#~ msgstr "Європа/Цюріх"
+
+#~ msgid "Indian/Antananarivo"
+#~ msgstr "Індійський океан/Антананаріву"
+
+#~ msgid "Indian/Chagos"
+#~ msgstr "Індійський океан/Чагос"
+
+#~ msgid "Indian/Christmas"
+#~ msgstr "Індійський океан/Острів Різдва"
+
+#~ msgid "Indian/Cocos"
+#~ msgstr "Індійський океан/Кокосови острови"
+
+#~ msgid "Indian/Comoro"
+#~ msgstr "Індійський океан/Коморо"
+
+#~ msgid "Indian/Kerguelen"
+#~ msgstr "Індійський океан/Кергелен"
+
+#~ msgid "Indian/Mahe"
+#~ msgstr "Індійський океан/Маге"
+
+#~ msgid "Indian/Maldives"
+#~ msgstr "Індійський океан/Мальдіви"
+
+#~ msgid "Indian/Mauritius"
+#~ msgstr "Індійський океан/Острів Маврикій"
+
+#~ msgid "Indian/Mayotte"
+#~ msgstr "Індійський океан/Майотт"
+
+#~ msgid "Indian/Reunion"
+#~ msgstr "Індійський океан/Реюніон"
+
+#~ msgid "Pacific/Apia"
+#~ msgstr "Тихий океан/Апіа"
+
+#~ msgid "Pacific/Auckland"
+#~ msgstr "Тихий океан/Окленд"
+
+#~ msgid "Pacific/Chatham"
+#~ msgstr "Тихий океан/Чатем"
+
+#~ msgid "Pacific/Easter"
+#~ msgstr "Тихий океан/Острів Пасхи"
+
+#~ msgid "Pacific/Efate"
+#~ msgstr "Тихий океан/Ефат"
+
+#~ msgid "Pacific/Enderbury"
+#~ msgstr "Тихий океан/Енденбері"
+
+#~ msgid "Pacific/Fakaofo"
+#~ msgstr "Тихий океан/Факаофо"
+
+#~ msgid "Pacific/Fiji"
+#~ msgstr "Тихий океан/Фіджі"
+
+#~ msgid "Pacific/Funafuti"
+#~ msgstr "Тихий океан/Фунафуті"
+
+#~ msgid "Pacific/Galapagos"
+#~ msgstr "Тихий океан/Галапагосські острови"
+
+#~ msgid "Pacific/Gambier"
+#~ msgstr "Тихий океан/Гамб'єр"
+
+#~ msgid "Pacific/Guadalcanal"
+#~ msgstr "Тихий океан/Гуадальканал"
+
+#~ msgid "Pacific/Guam"
+#~ msgstr "Тихий океан/Гуам"
+
+#~ msgid "Pacific/Honolulu"
+#~ msgstr "Тихий океан/Гонолулу"
+
+#~ msgid "Pacific/Johnston"
+#~ msgstr "Тихий океан/Джонстон"
+
+#~ msgid "Pacific/Kiritimati"
+#~ msgstr "Тихий океан/Кіріматі"
+
+#~ msgid "Pacific/Kosrae"
+#~ msgstr "Тихий океан/Косрае"
+
+#~ msgid "Pacific/Kwajalein"
+#~ msgstr "Тихий океан/Кваялейн"
+
+#~ msgid "Pacific/Majuro"
+#~ msgstr "Тихий океан/Махуро"
+
+#~ msgid "Pacific/Marquesas"
+#~ msgstr "Тихий океан/Маркізькі острови"
+
+#~ msgid "Pacific/Midway"
+#~ msgstr "Тихий океан/острів Мідуей"
+
+#~ msgid "Pacific/Nauru"
+#~ msgstr "Тихий океан/Науру"
+
+#~ msgid "Pacific/Niue"
+#~ msgstr "Тихий океан/Ніуе"
+
+#~ msgid "Pacific/Norfolk"
+#~ msgstr "Тихий океан/Норфолк"
+
+#~ msgid "Pacific/Noumea"
+#~ msgstr "Тихий океан/Нумея"
+
+#~ msgid "Pacific/Pago_Pago"
+#~ msgstr "Тихий океан/Паго-Паго"
+
+#~ msgid "Pacific/Palau"
+#~ msgstr "Тихий океан/Палау"
+
+#~ msgid "Pacific/Pitcairn"
+#~ msgstr "Тихий океан/Піткерн"
+
+#~ msgid "Pacific/Ponape"
+#~ msgstr "Тихий океан/Понапе"
+
+#~ msgid "Pacific/Port_Moresby"
+#~ msgstr "Тихий океан/Порт-Морсбі"
+
+#~ msgid "Pacific/Rarotonga"
+#~ msgstr "Тихий океан/Раротонга"
+
+#~ msgid "Pacific/Saipan"
+#~ msgstr "Тихий океан/Сайпан"
+
+#~ msgid "Pacific/Tahiti"
+#~ msgstr "Тихий океан/Таїті"
+
+#~ msgid "Pacific/Tarawa"
+#~ msgstr "Тихий океан/Тарава"
+
+#~ msgid "Pacific/Tongatapu"
+#~ msgstr "Тихий океан/Тонгатапу"
+
+#~ msgid "Pacific/Truk"
+#~ msgstr "Тихий океан/Трак"
+
+#~ msgid "Pacific/Wake"
+#~ msgstr "Тихий океан/Вейк"
+
+#~ msgid "Pacific/Wallis"
+#~ msgstr "Тихий океан/Волліс"
+
+#~ msgid "Pacific/Yap"
+#~ msgstr "Тихий океан/Яп"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Євген Онищенко"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "oneugene@ukr.net"
+
+#, fuzzy
+#~ msgid "Image:"
+#~ msgstr "Image:"
+
+#, fuzzy
+#~ msgid "Root:"
+#~ msgstr "Root:"
+
+#, fuzzy
+#~ msgid "Skip bootloader installation"
+#~ msgstr "Пропустити встановлення завантажувача."
+
+#, fuzzy
+#~ msgid "Write lilo.conf without boot loader installation"
+#~ msgstr "Пропустити встановлення завантажувача."
+
+#, fuzzy
+#~ msgid "Timeout:"
+#~ msgstr "Timeout:"
+
+#~ msgid "Enabled services"
+#~ msgstr "Ввімкнені служби"
+
+#~ msgid "New service"
+#~ msgstr "Нова служба"
+
+#~ msgid "Delete service"
+#~ msgstr "Видалити службу"
+
+#~ msgid "Start on runlevels"
+#~ msgstr "Ввімкнути на рівні завантаження"
+
+#~ msgid "Stop"
+#~ msgstr "Зупинити"
+
+#~ msgid "Start"
+#~ msgstr "Запустити"
+
+#~ msgid "System services administration"
+#~ msgstr "Керування системними службами"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Disabled services"
+#~ msgstr "Вимкнені служби"
+
+#~ msgid "Return to view"
+#~ msgstr "Вернутися до перегляду"
+
+#~ msgid " Services control console"
+#~ msgstr "Консоль керування службами"
+
+#~ msgid "Enabled"
+#~ msgstr "Ввімкнено"
+
+#~ msgid "Disable >>>"
+#~ msgstr "Вимкнено >>>"
+
+#~ msgid "<<< Enable"
+#~ msgstr "<<< Ввімкнути"
+
+#~ msgid "Disabled"
+#~ msgstr "Вимкнено"
+
+#~ msgid "Choose service"
+#~ msgstr "Виберіть службу"
+
+#~ msgid "Choose runlevel:"
+#~ msgstr "Виберіть рівень завантаження:"
+
+#~ msgid "HELP: Choose runlevel and move service"
+#~ msgstr "Довідка: Виберіть рівень завантаження та перемістіть сервір"
+
+#~ msgid "Refresh"
+#~ msgstr "Оновити"
+
+#~ msgid "SpamAssassin based content filter administration"
+#~ msgstr "Керування спам-фільтром на основі SpamAssassin"
+
+#~ msgid "Mail"
+#~ msgstr "Пошта"
+
+#~ msgid "For selected"
+#~ msgstr "Для вибраних"
+
+#~ msgid "System users administration"
+#~ msgstr "Керування системними користувачами"
