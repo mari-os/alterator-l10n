@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.4
-Release: alt12
+Version: 0.5
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -11,6 +11,8 @@ Source:%name-%version.tar
 Summary: translations for all alterator modules
 License: GPL
 Group: System/Configuration/Other
+
+Requires: alterator >= 3.4-alt2
 
 %description
 translations for all alterator modules
@@ -30,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Jun 09 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt1
+- add translations for desktop files
+
 * Fri Jun 06 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.4-alt12
 - add some translations for new alterator-lilo
 
