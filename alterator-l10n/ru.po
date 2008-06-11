@@ -21,7 +21,7 @@ msgstr ""
 "Прочтите, пожалуйста, лицензионное соглашение. Если вы согласны, отметьте "
 "«Да, я согласен с условиями» и нажмите «Далее»."
 
-#: ui/license/index.scm:12 ui/notes/license.scm:12 ui/pkg/license/index.scm:46
+#: ui/license/index.scm:12 ui/notes/license.scm:12
 msgid "License file not found"
 msgstr "Файл лицензии не найден"
 
@@ -57,7 +57,7 @@ msgstr "Интерфейс:"
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/net-wifi/index.scm:105 стандартный ввод:4
-#: ui/net-eth/index.scm:154 ui/net-eth/index.scm:118 ввод:7
+#: ui/net-eth/index.scm:118 ввод:7
 msgid "Status:"
 msgstr "Состояние:"
 
@@ -97,11 +97,10 @@ msgstr "Шифрование:"
 #: ввод:10 ввод:7 ввод:14 ui/timezone/index.scm:75
 #: ui/timezone/index.scm:69 ui/datetime/html-messages.scm:6
 #: ui/datetime/index.scm:59 ui/users/index.scm:113 ввод:17
-#: ui/net-eth/index.scm:203 ввод:11 ui/net-eth/index.scm:166
-#: ui/x11/index.scm:97 ввод:4 ввод:22 ui/dovecot/index.scm:62
-#: ui/alternatives/index.scm:129 ui/control/index.scm:65
-#: ui/control/index.scm:70 ui/root/index.scm:39 ui/root/index.scm:37
-#: ввод:9 ввод:18 ввод:8 ввод:24
+#: ui/net-eth/index.scm:166 ui/x11/index.scm:97 ввод:4 ввод:22
+#: ui/dovecot/index.scm:62 ui/alternatives/index.scm:129
+#: ui/control/index.scm:65 ui/control/index.scm:70 ui/root/index.scm:39
+#: ui/root/index.scm:37 ввод:9 ввод:18 ввод:8 ввод:24
 msgid "Apply"
 msgstr "Применить"
 
@@ -110,15 +109,14 @@ msgstr "Применить"
 #: ui/lilo/expert/index.scm:236 ui/lilo/expert/index.scm:263
 #: ui/lilo/view-source/index.scm:46 ui/auth/index.scm:77 ввод:6
 #: ввод:11 ввод:8 ввод:15 ввод:7 ui/timezone/index.scm:70
-#: ui/datetime/html-messages.scm:7 ui/net-eth/index.scm:204 ввод:12
-#: ui/net-eth/index.scm:167 ввод:5 ввод:18 ввод:23
-#: ui/pkg/sources/index.scm:230 ui/dovecot/index.scm:63 ввод:10
-#: ввод:19 ввод:9 ввод:25
+#: ui/datetime/html-messages.scm:7 ui/net-eth/index.scm:167 ввод:5
+#: ввод:18 ввод:23 ui/dovecot/index.scm:63 ввод:10 ввод:19
+#: ввод:9 ввод:25
 msgid "Reset"
 msgstr "Вернуть"
 
 #: ui/net-wifi/index.scm:134 стандартный ввод:14
-#: ui/pkg/sources/index.scm:180
+#: ui/pkg/sources/mirrors/index.scm:56
 msgid "Delete"
 msgstr "Удалить"
 
@@ -170,7 +168,7 @@ msgstr "Подключен к сети"
 msgid "access point"
 msgstr "точка доступа"
 
-#: backend3/net-wifi:228 backend3/net-eth:355 backend3/net-eth:364
+#: backend3/net-wifi:228 backend3/net-eth:364
 msgid "IP address"
 msgstr "IP-адрес"
 
@@ -194,7 +192,6 @@ msgstr "Точка доступа"
 msgid "Status"
 msgstr "Состояние"
 
-#. printf 'auth_type (label "%s" %s %s %s %s)\n' #			    "`_ "Security"`" #			    "$(print_excludes "nopasswd" key user pairwise eap)" #			    "$(print_excludes "wep" user pairwise eap)" #			    "$(print_excludes "wpa-psk" user eap)" #			    "$(print_excludes "wpa2-psk" user eap)"
 #: backend3/net-wifi:415
 msgid "User name"
 msgstr "Пользователь"
@@ -396,8 +393,8 @@ msgstr ""
 msgid "Xinetd server"
 msgstr "Сетевой суперсервер"
 
-#: стандартный ввод:4 backend3/pkg-sources:154
-#: ui/control/index.scm:49 backend3/control:23 ui/control/index.scm:54
+#: стандартный ввод:4 ui/control/index.scm:49
+#: backend3/control:23 ui/control/index.scm:54
 msgid "State"
 msgstr "Состояние"
 
@@ -600,7 +597,7 @@ msgstr ""
 
 #: стандартный ввод:1
 msgid "Bootloader setup"
-msgstr ""
+msgstr "Загрузчик (lilo)"
 
 #: ui/auth/index.scm:62 стандартный ввод:8 ввод:5
 msgid "LDAP server:"
@@ -630,8 +627,7 @@ msgstr "должно быть ldap://host или ldapi://host или ldaps://hos
 msgid "Authentication"
 msgstr "Аутентификация"
 
-#: стандартный ввод:3 ui/pkg/sources/index.scm:90
-#: ui/pkg/sources/index.scm:229 ввод:8
+#: стандартный ввод:3 ui/pkg/sources/index.scm:57 ввод:8
 msgid "Change"
 msgstr "Изменить"
 
@@ -749,7 +745,8 @@ msgid "For selected:"
 msgstr "Для выделенных:"
 
 #: стандартный ввод:18 ввод:20 ui/users/add/index.scm:67
-#: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24 ввод:10
+#: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24
+#: ui/pkg/sources/mirrors/index.scm:60 ввод:10
 msgid "OK"
 msgstr "OK"
 
@@ -904,6 +901,10 @@ msgstr "Выберите часовой пояс:"
 msgid "Hardware time set to GMT"
 msgstr "Хранить время в BIOS по Гринвичу"
 
+#: backend3/timezone:117
+msgid "Country"
+msgstr "Страна"
+
 #: backend3/timezone:118 стандартный ввод:1
 msgid "Time zone"
 msgstr "Часовой пояс"
@@ -1056,8 +1057,8 @@ msgid "Password:"
 msgstr "Пароль:"
 
 #: ui/users/add/index.scm:70 ui/x11/driver/index.scm:32
-#: ui/x11/monitor/index.scm:30 ui/pkg/upgrade/index.scm:55
-#: стандартный ввод:28
+#: ui/x11/monitor/index.scm:30 ui/pkg/sources/mirrors/index.scm:61
+#: ui/pkg/upgrade/index.scm:55 стандартный ввод:28
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -1169,9 +1170,9 @@ msgstr "невозможно добавить пользователя %s в г�
 msgid "only small latin letters, digits and '_' allowed"
 msgstr "допустимы только маленькие латинские символы, цифры и '_'"
 
-#: backend3/users:165
+#: backend3/users:165 ui/pkg/sources/index.scm:51
 msgid "Name"
-msgstr "Системное имя"
+msgstr "Имя"
 
 #: backend3/users:166
 msgid "Shell"
@@ -1207,7 +1208,7 @@ msgstr "(введите фразу)"
 msgid "(repeat passphrase)"
 msgstr "(повторите фразу)"
 
-#: стандартный ввод:6 ui/pkg/sources/index.scm:74
+#: стандартный ввод:6
 msgid "Create"
 msgstr "Создать"
 
@@ -1220,120 +1221,114 @@ msgid "Local user accounts"
 msgstr "Локальные учётные записи"
 
 #.
-#: ui/net-eth/index.scm:112 ui/net-eth/index.scm:77 стандартный
-#: ввод:2
+#: ui/net-eth/index.scm:77 стандартный ввод:2
 msgid "Host name:"
 msgstr "Имя компьютера:"
 
 #.
-#: ui/net-eth/index.scm:120 ui/net-eth/index.scm:85 стандартный
-#: ввод:3
+#: ui/net-eth/index.scm:85 стандартный ввод:3
 msgid "DNS servers:"
 msgstr "DNS-серверы:"
 
 #.
-#: ui/net-eth/index.scm:125 ui/net-eth/index.scm:90 стандартный
-#: ввод:4
+#: ui/net-eth/index.scm:90 стандартный ввод:4
 msgid "Search domains:"
 msgstr "Домены поиска:"
 
-#: ui/net-eth/index.scm:131 ui/net-eth/index.scm:96
+#: ui/net-eth/index.scm:96
 msgid "multiple values should be space separated"
 msgstr "несколько значений записываются через пробел"
 
-#: ui/net-eth/index.scm:139 стандартный ввод:2
-#: ui/net-eth/index.scm:104 ввод:5
+#: ui/net-eth/index.scm:104 стандартный ввод:5
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
 #.
-#: ui/net-eth/index.scm:158 стандартный ввод:5
-#: ui/net-eth/index.scm:122 ввод:8
+#: ui/net-eth/index.scm:122 стандартный ввод:8
 msgid "Configuration:"
 msgstr "Конфигурация:"
 
 #.
-#: ui/net-eth/index.scm:168 стандартный ввод:6
-#: ui/net-eth/index.scm:131 ввод:9
+#: ui/net-eth/index.scm:131 стандартный ввод:9
 msgid "IP address:"
 msgstr "IP-адрес:"
 
 #.
-#: ui/net-eth/index.scm:172 стандартный ввод:7
-#: ui/net-eth/index.scm:135 ввод:10
+#: ui/net-eth/index.scm:135 стандартный ввод:10
 msgid "Netmask:"
 msgstr "Маска сети:"
 
 #.
-#: ui/net-eth/index.scm:176 стандартный ввод:8
-#: ui/net-eth/index.scm:139 ввод:11
+#: ui/net-eth/index.scm:139 стандартный ввод:11
 msgid "Default gateway:"
 msgstr "Шлюз по умолчанию:"
 
 #.
-#: ui/net-eth/index.scm:180 стандартный ввод:9
-#: ui/net-eth/index.scm:143 ввод:12
+#: ui/net-eth/index.scm:143 стандартный ввод:12
 msgid "Hardware binding:"
 msgstr "Привязка:"
 
-#: ui/net-eth/index.scm:185 стандартный ввод:10
-#: ui/net-eth/index.scm:148 ввод:13
+#: ui/net-eth/index.scm:148 стандартный ввод:13
 msgid "Wireless settings..."
 msgstr "Параметры для беспроводных интерфейсов..."
 
-#: backend3/net-eth:147 backend3/net-eth:145
+#: backend3/net-eth:145
 msgid "missing"
 msgstr "отсутствует"
 
-#: backend3/net-eth:148 backend3/net-eth:146
+#: backend3/net-eth:146
 msgid "by MAC address"
 msgstr "по  аппаратному адресу (MAC)"
 
-#: backend3/net-eth:149 backend3/net-eth:147
+#: backend3/net-eth:147
 msgid "by bus location"
 msgstr "по местоположению на шине"
 
-#: backend3/net-eth:154 backend3/net-eth:152
+#: backend3/net-eth:152
 msgid "Turned off"
 msgstr "Выключено"
 
-#: backend3/net-eth:155 backend3/net-eth:353 backend3/net-eth:153
+#: backend3/net-eth:153
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
-#: backend3/net-eth:156 backend3/net-eth:155
+#: backend3/net-eth:154
+msgid "Use Zeroconf"
+msgstr "Использовать Zeroconf"
+
+#: backend3/net-eth:155
 msgid "Manually"
 msgstr "Вручную"
 
-#: backend3/net-eth:187 backend3/net-eth:186
+#: backend3/net-eth:186
 msgid "interface is up"
 msgstr "интерфейс включён"
 
-#: backend3/net-eth:187 backend3/net-eth:186
+#: backend3/net-eth:186
 msgid "interface is down"
 msgstr "интерфейс выключен"
 
-#: backend3/net-eth:192 backend3/net-eth:191
+#: backend3/net-eth:191
 msgid "plugged"
 msgstr "провод подсоединён"
 
-#: backend3/net-eth:193 backend3/net-eth:192
+#: backend3/net-eth:192
 msgid "unplugged"
 msgstr "провод отсоединён"
 
-#: backend3/net-eth:347 backend3/net-eth:358
+#: backend3/net-eth:358
 msgid "Host name"
 msgstr "Имя компьютера"
 
-#: backend3/net-eth:349 backend3/net-eth:360
+#: backend3/net-eth:360
 msgid "Search domains"
 msgstr "Домены поиска"
 
-#: backend3/net-eth:351 backend3/net-eth:362
+#: backend3/net-eth:362
 msgid "DNS servers"
 msgstr "DNS-серверы"
 
-#: backend3/net-eth:357 backend3/net-eth:366
+#: backend3/net-eth:366
 msgid "Default gateway"
 msgstr "Шлюз по умолчанию"
 
@@ -1341,17 +1336,12 @@ msgstr "Шлюз по умолчанию"
 msgid "IP interfaces"
 msgstr "IP-интерфейсы"
 
-#: backend3/net-eth:154
-msgid "Use Zeroconf"
-msgstr "Использовать Zeroconf"
-
-#. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
-#: ui/x11/c-messages.scm:2 ui/pkg/license/index.scm:38
+#: ui/x11/c-messages.scm:2
 msgid "Yes"
 msgstr "Да"
 
-#: ui/x11/c-messages.scm:3 ui/pkg/license/index.scm:39
+#: ui/x11/c-messages.scm:3
 msgid "No"
 msgstr "Нет"
 
@@ -1490,22 +1480,6 @@ msgstr "Графический дисплей"
 msgid "Monitor vendors"
 msgstr "Производители мониторов"
 
-#: ui/std/base.scm:63
-msgid "Information"
-msgstr "Информация"
-
-#: ui/std/base.scm:66
-msgid "Warning"
-msgstr "Предупреждение"
-
-#: ui/std/base.scm:70
-msgid "Critical"
-msgstr "Ошибка"
-
-#: ui/std/base.scm:73
-msgid "Question "
-msgstr "Вопрос"
-
 #: ui/pkg/error/index.scm:7
 msgid "Critical error during install"
 msgstr "Критическая ошибка установки"
@@ -1519,57 +1493,38 @@ msgstr "Неизвестно"
 msgid "Press 'Next' button to continue"
 msgstr "Нажмите кнопку 'Далее' для продолжения"
 
-#: ui/pkg/sources/index.scm:26
-msgid "<New source>"
-msgstr "<Новый источник>"
+#: ui/pkg/sources/mirrors/index.scm:12
+msgid "Repository:"
+msgstr "Репозиторий:"
 
-#: ui/pkg/sources/index.scm:153
-msgid "Are you sure to remove this source?"
-msgstr "Вы действительно хотите удалить этот источник?"
+#: ui/pkg/sources/mirrors/index.scm:12
+msgid "Repository"
+msgstr "Репозиторий"
 
-#: ui/pkg/sources/index.scm:173 backend3/pkg-sources:158
+#: ui/pkg/sources/mirrors/index.scm:50
+msgid "New source:"
+msgstr "Новый источник:"
+
+#: ui/pkg/sources/mirrors/index.scm:52 ui/pkg/register/index.scm:44
+#: стандартный ввод:16 ввод:20
+msgid "Add"
+msgstr "Добавить"
+
+#: ui/pkg/sources/mirrors/index.scm:54
+msgid "Available sources:"
+msgstr "Доступные источники:"
+
+#: ui/pkg/sources/index.scm:51
 msgid "URI"
 msgstr "Адрес"
 
-#: ui/pkg/sources/index.scm:174 backend3/pkg-sources:157
-msgid "Architecture"
-msgstr "Архитектура"
+#: ui/pkg/sources/index.scm:55
+msgid "Source URI:"
+msgstr "Адрес источника:"
 
-#: ui/pkg/sources/index.scm:191 стандартный ввод:11
-msgid "Active source"
-msgstr "Активный источник"
-
-#: ui/pkg/sources/index.scm:199 стандартный ввод:2 ввод:12
-msgid "Architecture:"
-msgstr "Архитектура:"
-
-#: ui/pkg/sources/index.scm:205 стандартный ввод:3 ввод:13
-msgid "Signature:"
-msgstr "Подпись:"
-
-#: ui/pkg/sources/index.scm:211 стандартный ввод:4 ввод:14
-msgid "URI:"
-msgstr "Адрес:"
-
-#: ui/pkg/sources/index.scm:217 стандартный ввод:5 ввод:15
-msgid "Components:"
-msgstr "Компоненты:"
-
-#: ui/pkg/license/index.scm:10
-msgid "License agreement"
-msgstr "Уведомление о правах"
-
-#: ui/pkg/license/index.scm:15
-msgid "This package has a non-free license that may restrict installation."
-msgstr "Данный пакет имеет лицензионные ограничения."
-
-#: ui/pkg/license/index.scm:20
-msgid "Please read the following license carefully:"
-msgstr "Пожалуйста, внимательно прочитайте текст:"
-
-#: ui/pkg/license/index.scm:30
-msgid "Install the package anyway?"
-msgstr "Установить данный пакет?"
+#: ui/pkg/sources/index.scm:61
+msgid "Anvanced..."
+msgstr "Дополнительно..."
 
 #: ui/pkg/install/index.scm:62
 msgid "Acquiring packages..."
@@ -1579,7 +1534,7 @@ msgstr "Получение пакетов..."
 msgid "Installing packages..."
 msgstr "Установка пакетов..."
 
-#: ui/pkg/install/index.scm:81 ui/pkg/groups/index.scm:150
+#: ui/pkg/install/index.scm:81 ui/pkg/groups/index.scm:136
 msgid "Preparing..."
 msgstr "Подготовка..."
 
@@ -1595,32 +1550,28 @@ msgstr ""
 "Если у вас есть дополнительные CD или DVD диски для данного<br>\n"
 "дистрибутива пожалуйста вставьте их и нажмите кнопку 'Добавить'"
 
-#: ui/pkg/register/index.scm:44 стандартный ввод:16 ввод:20
-msgid "Add"
-msgstr "Добавить"
-
 #: ui/pkg/groups/index.scm:71
 #, lisp-format
 msgid "Has conflict with ~S"
 msgstr "Имеется конфликт с ~S"
 
-#: ui/pkg/groups/index.scm:95
+#: ui/pkg/groups/index.scm:81
 msgid "Required disk space"
 msgstr "Требуемое место на диске"
 
-#: ui/pkg/groups/index.scm:101
+#: ui/pkg/groups/index.scm:87
 msgid "calculating..."
 msgstr "вычисление..."
 
-#: ui/pkg/groups/index.scm:107
+#: ui/pkg/groups/index.scm:93
 msgid "unable to calculate"
 msgstr "невозможно вычислить"
 
-#: ui/pkg/groups/index.scm:135
+#: ui/pkg/groups/index.scm:121
 msgid "Select packages you want to install:"
 msgstr "Выберите пакеты для установки:"
 
-#: ui/pkg/groups/index.scm:170
+#: ui/pkg/groups/index.scm:156
 msgid "Please wait..."
 msgstr "Пожалуйста подождите"
 
@@ -1656,45 +1607,17 @@ msgstr "Данный диск уже добавлен"
 msgid "Invalid disk"
 msgstr "Неверный формат диска"
 
-#: backend3/pkg-sources:155
-msgid "Type"
-msgstr "Тип"
-
-#: backend3/pkg-sources:156
-msgid "Signature"
-msgstr "Подпись"
-
-#: backend3/pkg-sources:159
-msgid "Components"
-msgstr "Компоненты"
-
-#: backend3/pkg-sources:167
-msgid "No signature"
-msgstr "Без подписи"
-
-#: backend3/pkg-sources:179
-msgid "enable"
-msgstr "включить"
-
-#: backend3/pkg-sources:180
-msgid "disable"
-msgstr "выключить"
-
-#: backend3/pkg-sources:181
-msgid "delete"
-msgstr "удалить"
-
-#: backend3/pkg-sources:200
-msgid "Empty components"
-msgstr "Не указаны компоненты"
-
-#: backend3/pkg-sources:202
+#: backend3/pkg-sources:79
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr "Неверный или неподдерживаемый протокол. Должно быть http, ftp или file"
 
-#: backend3/pkg-sources:204
-msgid "Same source already in list"
-msgstr "Подобный источних уже есть в списке"
+#: backend3/pkg-sources:82
+msgid "Same source already exists"
+msgstr "Подобный источник уже существует"
+
+#: backend3/pkg-sources:175 backend3/pkg-sources:195
+msgid "inactive"
+msgstr "неактивно"
 
 #: backend3/pkg-upgrade:50
 msgid "process already running"
@@ -1772,9 +1695,29 @@ msgstr "Нет информации"
 msgid "Update sources"
 msgstr "Источники обновлений"
 
+#: стандартный ввод:2 ввод:12
+msgid "Architecture:"
+msgstr "Архитектура:"
+
+#: стандартный ввод:3 ввод:13
+msgid "Signature:"
+msgstr "Подпись:"
+
+#: стандартный ввод:4 ввод:14
+msgid "URI:"
+msgstr "Адрес:"
+
+#: стандартный ввод:5 ввод:15
+msgid "Components:"
+msgstr "Компоненты:"
+
 #: стандартный ввод:9
 msgid "Selected:"
 msgstr "Выделенные:"
+
+#: стандартный ввод:11
+msgid "Active source"
+msgstr "Активный источник"
 
 #: стандартный ввод:18
 msgid ""
@@ -2168,4 +2111,3 @@ msgstr "Удалить выделенные"
 #: стандартный ввод:25 ввод:15
 msgid "Add rule..."
 msgstr "Добавить правило..."
-

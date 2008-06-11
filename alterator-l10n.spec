@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.5
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Wed Jun 11 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt2
+- update translations for new alterator-pkg
+
 * Mon Jun 09 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt1
 - add translations for desktop files
 
