@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.5
-Release: alt4
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Jun 16 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt5
+- add alterator-net-pptp
+
 * Mon Jun 16 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt4
 - update translations for new alterator-pkg again
 

@@ -45,19 +45,16 @@ msgstr "Файл не найден"
 msgid "License"
 msgstr "Лицензия"
 
-#: стандартный ввод:2
-#, fuzzy
-msgid "Release Notes "
-msgstr "Информация о дистрибутиве"
-
 #: ui/net-wifi/index.scm:104 стандартный ввод:2
 msgid "Interface:"
 msgstr "Интерфейс:"
 
+#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/net-wifi/index.scm:105 стандартный ввод:4
-#: ui/net-eth/index.scm:118 ввод:7
+#: ui/net-pptp/index.scm:79 ui/net-eth/index.scm:118 ввод:7
 msgid "Status:"
 msgstr "Состояние:"
 
@@ -94,13 +91,14 @@ msgstr "Шифрование:"
 #: ui/services/index.scm:94 ввод:6 ui/xinetd/index.scm:141 ввод:15
 #: ui/lilo/expert/index.scm:262 ui/lilo/index.scm:99
 #: ui/lilo/view-source/index.scm:45 ui/auth/index.scm:76 ввод:5
-#: ввод:10 ввод:7 ввод:14 ui/timezone/index.scm:75
-#: ui/timezone/index.scm:69 ui/datetime/html-messages.scm:6
-#: ui/datetime/index.scm:59 ui/users/index.scm:113 ввод:17
-#: ui/net-eth/index.scm:166 ui/x11/index.scm:97 ввод:4 ввод:22
-#: ui/dovecot/index.scm:62 ui/alternatives/index.scm:129
-#: ui/control/index.scm:65 ui/control/index.scm:70 ui/root/index.scm:39
-#: ui/root/index.scm:37 ввод:9 ввод:18 ввод:8 ввод:24
+#: ввод:10 ввод:7 ввод:14 ui/net-pptp/index.scm:117
+#: ui/timezone/index.scm:75 ui/timezone/index.scm:69
+#: ui/datetime/html-messages.scm:6 ui/datetime/index.scm:59
+#: ui/users/index.scm:113 ввод:17 ui/net-eth/index.scm:166
+#: ui/x11/index.scm:97 ввод:4 ввод:22 ui/dovecot/index.scm:62
+#: ui/alternatives/index.scm:129 ui/control/index.scm:65
+#: ui/control/index.scm:70 ui/root/index.scm:39 ui/root/index.scm:37
+#: ввод:9 ввод:18 ввод:8 ввод:24
 msgid "Apply"
 msgstr "Применить"
 
@@ -108,15 +106,15 @@ msgstr "Применить"
 #: ui/services/index.scm:95 ui/xinetd/index.scm:142
 #: ui/lilo/expert/index.scm:236 ui/lilo/expert/index.scm:263
 #: ui/lilo/view-source/index.scm:46 ui/auth/index.scm:77 ввод:6
-#: ввод:11 ввод:8 ввод:15 ввод:7 ui/timezone/index.scm:70
-#: ui/datetime/html-messages.scm:7 ui/net-eth/index.scm:167 ввод:5
-#: ввод:18 ввод:23 ui/dovecot/index.scm:63 ввод:10 ввод:19
-#: ввод:9 ввод:25
+#: ввод:11 ввод:8 ввод:15 ui/net-pptp/index.scm:120 ввод:7
+#: ui/timezone/index.scm:70 ui/datetime/html-messages.scm:7
+#: ui/net-eth/index.scm:167 ввод:5 ввод:18 ввод:23
+#: ui/dovecot/index.scm:63 ввод:10 ввод:19 ввод:9 ввод:25
 msgid "Reset"
 msgstr "Вернуть"
 
 #: ui/net-wifi/index.scm:134 стандартный ввод:14
-#: ui/pkg/sources/mirrors/index.scm:56
+#: ui/pkg/sources/mirrors/index.scm:57 ввод:5
 msgid "Delete"
 msgstr "Удалить"
 
@@ -192,6 +190,7 @@ msgstr "Точка доступа"
 msgid "Status"
 msgstr "Состояние"
 
+#. printf 'auth_type (label "%s" %s %s %s %s)\n' #			    "`_ "Security"`" #			    "$(print_excludes "nopasswd" key user pairwise eap)" #			    "$(print_excludes "wep" user pairwise eap)" #			    "$(print_excludes "wpa-psk" user eap)" #			    "$(print_excludes "wpa2-psk" user eap)"
 #: backend3/net-wifi:415
 msgid "User name"
 msgstr "Пользователь"
@@ -224,8 +223,8 @@ msgstr "Невозможно создать сеть"
 msgid "Wi-Fi setup"
 msgstr "Настройка Wi-Fi"
 
-#: стандартный ввод:6 ввод:3 ввод:9 ввод:15
-#: ввод:5
+#: стандартный ввод:6 ввод:3 ввод:9 ввод:8
+#: ввод:15 ввод:5
 msgid "Select"
 msgstr "Выбрать"
 
@@ -315,11 +314,13 @@ msgstr "Служба"
 msgid "do not change"
 msgstr "не менять"
 
-#: backend3/services:128
+#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
+#. '
+#: backend3/services:128 backend3/net-pptp:329
 msgid "start"
 msgstr "запустить"
 
-#: backend3/services:129
+#: backend3/services:129 backend3/net-pptp:330
 msgid "stop"
 msgstr "остановить"
 
@@ -330,11 +331,6 @@ msgstr "перезапустить"
 #: стандартный ввод:1 ввод:2
 msgid "System services"
 msgstr "Системные службы"
-
-#: стандартный ввод:1
-#, fuzzy
-msgid "services"
-msgstr "Службы"
 
 #: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25 backend3/xinetd:108
 #: ui/lilo/expert/index.scm:196
@@ -358,6 +354,7 @@ msgid "Group"
 msgstr "Группа"
 
 #: ui/xinetd/index.scm:130 стандартный ввод:7
+#: backend3/net-pptp:306
 msgid "Server"
 msgstr "Сервер"
 
@@ -519,7 +516,7 @@ msgid "Set default"
 msgstr "По умолчанию"
 
 #: ui/lilo/expert/index.scm:243 ui/pkg/register/index.scm:46
-#: стандартный ввод:21
+#: стандартный ввод:16
 msgid "Remove"
 msgstr "Удалить"
 
@@ -627,7 +624,8 @@ msgstr "должно быть ldap://host или ldapi://host или ldaps://hos
 msgid "Authentication"
 msgstr "Аутентификация"
 
-#: стандартный ввод:3 ui/pkg/sources/index.scm:57 ввод:8
+#: стандартный ввод:3 ui/pkg/sources/index.scm:34 ввод:10
+#: ввод:8
 msgid "Change"
 msgstr "Изменить"
 
@@ -746,7 +744,7 @@ msgstr "Для выделенных:"
 
 #: стандартный ввод:18 ввод:20 ui/users/add/index.scm:67
 #: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24
-#: ui/pkg/sources/mirrors/index.scm:60 ввод:10
+#: ui/pkg/sources/mirrors/index.scm:61
 msgid "OK"
 msgstr "OK"
 
@@ -885,6 +883,91 @@ msgstr "Положить сертификат, подписанный УЦ:"
 #: стандартный ввод:28
 msgid "Upload"
 msgstr "Положить"
+
+#: ui/net-pptp/index.scm:68 стандартный ввод:2
+msgid "New connection..."
+msgstr "Создать соединение..."
+
+#.
+#: ui/net-pptp/index.scm:84 стандартный ввод:5
+msgid "Server:"
+msgstr "Сервер:"
+
+#.
+#: ui/net-pptp/index.scm:87 стандартный ввод:6
+msgid "Account:"
+msgstr "Учётная запись:"
+
+#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: ui/net-pptp/index.scm:90 стандартный ввод:7
+#: ui/users/add/index.scm:56 ui/users/index.scm:104 ввод:3 ввод:14
+#: ввод:2
+msgid "Password:"
+msgstr "Пароль:"
+
+#.
+#: ui/net-pptp/index.scm:93 стандартный ввод:8
+msgid "Walk through interface:"
+msgstr "Опорный интерфейс:"
+
+#: ui/net-pptp/index.scm:97 стандартный ввод:9
+msgid "Default route via VPN"
+msgstr "Маршрут по умолчанию через VPN"
+
+#: ui/net-pptp/index.scm:100 стандартный ввод:10
+msgid "Save route to VPN gateway"
+msgstr "Сохранить маршрут к VPN-серверу"
+
+#: ui/net-pptp/index.scm:103 стандартный ввод:11
+msgid "MPPE encryption"
+msgstr "Шифрование MPPE"
+
+#: ui/net-pptp/index.scm:106 стандартный ввод:12
+msgid "Redial on hangup"
+msgstr "Перезвонить при обрыве"
+
+#: ui/net-pptp/index.scm:109 стандартный ввод:13
+msgid "Start at boot"
+msgstr "Запускать при загрузке"
+
+#: ui/net-pptp/index.scm:123 стандартный ввод:16
+msgid "Delete connection"
+msgstr "Удалить соединение"
+
+#: backend3/net-pptp:187
+msgid "connection established"
+msgstr "соединение установлено"
+
+#: backend3/net-pptp:187
+msgid "connection down"
+msgstr "нет соединения"
+
+#: backend3/net-pptp:306
+msgid "invalid server name"
+msgstr "неверное имя сервера"
+
+#: backend3/net-pptp:309
+msgid "should be ppp[number]"
+msgstr "должно быть ppp[номер]"
+
+#: backend3/net-pptp:311
+msgid "Connection"
+msgstr "Соединение"
+
+#: backend3/net-pptp:314 backend3/users:169 backend3/root:20 backend3/root:21
+msgid "Password"
+msgstr "Пароль"
+
+#: backend3/net-pptp:328
+msgid "don't change"
+msgstr "не менять"
+
+#: стандартный ввод:1
+msgid "PPTP connections"
+msgstr "PPTP-соединения"
 
 #: ui/timezone/index.scm:51 стандартный ввод:2
 #: ui/timezone/index.scm:35
@@ -1049,16 +1132,9 @@ msgstr "Введённые пароли не совпадают"
 msgid "Account name:"
 msgstr "Имя пользователя:"
 
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#: ui/users/add/index.scm:56 ui/users/index.scm:104 стандартный
-#: ввод:3 ввод:14 ввод:2
-msgid "Password:"
-msgstr "Пароль:"
-
 #: ui/users/add/index.scm:70 ui/x11/driver/index.scm:32
-#: ui/x11/monitor/index.scm:30 ui/pkg/sources/mirrors/index.scm:61
-#: ui/pkg/upgrade/index.scm:55 стандартный ввод:28
+#: ui/x11/monitor/index.scm:30 ui/pkg/sources/mirrors/index.scm:62
+#: ui/pkg/upgrade/index.scm:55 стандартный ввод:23
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -1170,7 +1246,7 @@ msgstr "невозможно добавить пользователя %s в г�
 msgid "only small latin letters, digits and '_' allowed"
 msgstr "допустимы только маленькие латинские символы, цифры и '_'"
 
-#: backend3/users:165 ui/pkg/sources/index.scm:51
+#: backend3/users:165
 msgid "Name"
 msgstr "Имя"
 
@@ -1181,10 +1257,6 @@ msgstr "Интерпретатор команд"
 #: backend3/users:167
 msgid "Home directory"
 msgstr "Домашний каталог"
-
-#: backend3/users:169 backend3/root:20 backend3/root:21
-msgid "Password"
-msgstr "Пароль"
 
 #: backend3/users:170
 msgid "Password (repeat)"
@@ -1497,36 +1569,29 @@ msgstr "Нажмите кнопку 'Далее' для продолжения"
 msgid "Repository:"
 msgstr "Репозиторий:"
 
-#: ui/pkg/sources/mirrors/index.scm:12
-msgid "Repositories:"
-msgstr "Репозитории:"
-
-#: ui/pkg/sources/mirrors/index.scm:12
-msgid "Repository"
-msgstr "Репозиторий"
-
-#: ui/pkg/sources/mirrors/index.scm:50
+#: ui/pkg/sources/mirrors/index.scm:51 стандартный ввод:2
 msgid "New source:"
 msgstr "Новый источник:"
 
-#: ui/pkg/sources/mirrors/index.scm:52 ui/pkg/register/index.scm:44
-#: стандартный ввод:16 ввод:20
+#: ui/pkg/sources/mirrors/index.scm:53 ui/pkg/register/index.scm:44
+#: стандартный ввод:3 ввод:15
 msgid "Add"
 msgstr "Добавить"
 
-#: ui/pkg/sources/mirrors/index.scm:54
+#: ui/pkg/sources/mirrors/index.scm:55 стандартный ввод:4
 msgid "Available sources:"
 msgstr "Доступные источники:"
 
-#: ui/pkg/sources/index.scm:51
-msgid "URI"
-msgstr "Адрес"
+#.
+#: ui/pkg/sources/index.scm:25 стандартный ввод:7
+msgid "Repositories:"
+msgstr "Репозитории:"
 
-#: ui/pkg/sources/index.scm:55
+#: ui/pkg/sources/index.scm:32 стандартный ввод:9
 msgid "Source URI:"
 msgstr "Адрес источника:"
 
-#: ui/pkg/sources/index.scm:61
+#: ui/pkg/sources/index.scm:41 стандартный ввод:11
 msgid "Anvanced..."
 msgstr "Дополнительно..."
 
@@ -1542,7 +1607,7 @@ msgstr "Установка пакетов..."
 msgid "Preparing..."
 msgstr "Подготовка..."
 
-#: ui/pkg/register/index.scm:28 стандартный ввод:17 ввод:3
+#: ui/pkg/register/index.scm:28 стандартный ввод:12 ввод:3
 msgid "Additional disks"
 msgstr "Дополнительные диски"
 
@@ -1587,15 +1652,15 @@ msgstr "Пожалуйста вставьте CD/DVD диск "
 msgid "Into drive"
 msgstr "В привод"
 
-#: ui/pkg/upgrade/index.scm:47 стандартный ввод:26
+#: ui/pkg/upgrade/index.scm:47 стандартный ввод:21
 msgid "Check for updates"
 msgstr "Проверить наличие обновлений"
 
-#: ui/pkg/upgrade/index.scm:51 стандартный ввод:27
+#: ui/pkg/upgrade/index.scm:51 стандартный ввод:22
 msgid "Update system"
 msgstr "Обновить систему"
 
-#: ui/pkg/upgrade/index.scm:59 стандартный ввод:29
+#: ui/pkg/upgrade/index.scm:59 стандартный ввод:24
 msgid "Continue"
 msgstr "Продолжить"
 
@@ -1695,35 +1760,11 @@ msgstr "Отчёт не найден"
 msgid "No information available"
 msgstr "Нет информации"
 
-#: стандартный ввод:1 ввод:8
+#: стандартный ввод:1 ввод:6
 msgid "Update sources"
 msgstr "Источники обновлений"
 
-#: стандартный ввод:2 ввод:12
-msgid "Architecture:"
-msgstr "Архитектура:"
-
-#: стандартный ввод:3 ввод:13
-msgid "Signature:"
-msgstr "Подпись:"
-
-#: стандартный ввод:4 ввод:14
-msgid "URI:"
-msgstr "Адрес:"
-
-#: стандартный ввод:5 ввод:15
-msgid "Components:"
-msgstr "Компоненты:"
-
-#: стандартный ввод:9
-msgid "Selected:"
-msgstr "Выделенные:"
-
-#: стандартный ввод:11
-msgid "Active source"
-msgstr "Активный источник"
-
-#: стандартный ввод:18
+#: стандартный ввод:13
 msgid ""
 "If you have any additional CDs or DVDs for this distribution\n"
 "    please insert them one by one and press \"Add\" button"
@@ -1731,15 +1772,15 @@ msgstr ""
 "Если у вас есть дополнительные CD или DVD диски для данного\n"
 "дистрибутива пожалуйста вставьте их и нажмите кнопку \"Добавить\""
 
-#: стандартный ввод:22 ввод:24 ввод:2
+#: стандартный ввод:17 ввод:19 ввод:2
 msgid "Updates"
 msgstr "Обновления"
 
-#: стандартный ввод:23
+#: стандартный ввод:18
 msgid "Return"
 msgstr "Вернуться"
 
-#: стандартный ввод:25
+#: стандартный ввод:20
 msgid "view full log of the latest operation"
 msgstr "посмотреть подробный отчёт о последней выполненной операции"
 
