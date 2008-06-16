@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.5
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Jun 16 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt4
+- update translations for new alterator-pkg again
+
 * Wed Jun 11 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt3
 - rebuild
 
