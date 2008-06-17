@@ -29,7 +29,7 @@ msgstr "Файл лицензии не найден"
 msgid "Yes, I agree"
 msgstr "Да, я согласен с условиями"
 
-#: ui/notes/release-notes.scm:9
+#: ui/notes/release-notes.scm:9 стандартный ввод:2
 msgid "Release Notes"
 msgstr "Информация о дистрибутиве"
 
@@ -45,7 +45,10 @@ msgstr "Файл не найден"
 msgid "License"
 msgstr "Лицензия"
 
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #: ui/net-wifi/index.scm:104 стандартный ввод:2
+#: ui/net-pppoe/index.scm:74 ввод:5
 msgid "Interface:"
 msgstr "Интерфейс:"
 
@@ -53,8 +56,11 @@ msgstr "Интерфейс:"
 #.
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #: ui/net-wifi/index.scm:105 стандартный ввод:4
 #: ui/net-pptp/index.scm:79 ui/net-eth/index.scm:118 ввод:7
+#: ui/net-pppoe/index.scm:69
 msgid "Status:"
 msgstr "Состояние:"
 
@@ -97,8 +103,9 @@ msgstr "Шифрование:"
 #: ui/users/index.scm:113 ввод:17 ui/net-eth/index.scm:166
 #: ui/x11/index.scm:97 ввод:4 ввод:22 ui/dovecot/index.scm:62
 #: ui/alternatives/index.scm:129 ui/control/index.scm:65
-#: ui/control/index.scm:70 ui/root/index.scm:39 ui/root/index.scm:37
-#: ввод:9 ввод:18 ввод:8 ввод:24
+#: ui/control/index.scm:70 ui/net-pppoe/index.scm:91 ввод:9
+#: ui/root/index.scm:39 ui/root/index.scm:37 ввод:18 ввод:8
+#: ввод:24
 msgid "Apply"
 msgstr "Применить"
 
@@ -109,7 +116,8 @@ msgstr "Применить"
 #: ввод:11 ввод:8 ввод:15 ui/net-pptp/index.scm:120 ввод:7
 #: ui/timezone/index.scm:70 ui/datetime/html-messages.scm:7
 #: ui/net-eth/index.scm:167 ввод:5 ввод:18 ввод:23
-#: ui/dovecot/index.scm:63 ввод:10 ввод:19 ввод:9 ввод:25
+#: ui/dovecot/index.scm:63 ui/net-pppoe/index.scm:92 ввод:10 ввод:19
+#: ввод:9 ввод:25
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -166,7 +174,7 @@ msgstr "Подключен к сети"
 msgid "access point"
 msgstr "точка доступа"
 
-#: backend3/net-wifi:228 backend3/net-eth:364
+#: backend3/net-wifi:228 backend3/net-eth:356
 msgid "IP address"
 msgstr "IP-адрес"
 
@@ -316,19 +324,21 @@ msgstr "не менять"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #. '
-#: backend3/services:128 backend3/net-pptp:329
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
+#. '
+#: backend3/services:128 backend3/net-pptp:239 backend3/net-pppoe:110
 msgid "start"
 msgstr "запустить"
 
-#: backend3/services:129 backend3/net-pptp:330
+#: backend3/services:129 backend3/net-pptp:240 backend3/net-pppoe:111
 msgid "stop"
 msgstr "остановить"
 
-#: backend3/services:130
+#: backend3/services:130 backend3/net-pptp:241 backend3/net-pppoe:112
 msgid "restart"
 msgstr "перезапустить"
 
-#: стандартный ввод:1 ввод:2
+#: стандартный ввод:1
 msgid "System services"
 msgstr "Системные службы"
 
@@ -354,7 +364,7 @@ msgid "Group"
 msgstr "Группа"
 
 #: ui/xinetd/index.scm:130 стандартный ввод:7
-#: backend3/net-pptp:306
+#: backend3/net-pptp:214
 msgid "Server"
 msgstr "Сервер"
 
@@ -885,6 +895,7 @@ msgid "Upload"
 msgstr "Положить"
 
 #: ui/net-pptp/index.scm:68 стандартный ввод:2
+#: ui/net-pppoe/index.scm:58
 msgid "New connection..."
 msgstr "Создать соединение..."
 
@@ -895,6 +906,7 @@ msgstr "Сервер:"
 
 #.
 #: ui/net-pptp/index.scm:87 стандартный ввод:6
+#: ui/net-pppoe/index.scm:77
 msgid "Account:"
 msgstr "Учётная запись:"
 
@@ -902,9 +914,11 @@ msgstr "Учётная запись:"
 #.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #: ui/net-pptp/index.scm:90 стандартный ввод:7
 #: ui/users/add/index.scm:56 ui/users/index.scm:104 ввод:3 ввод:14
-#: ввод:2
+#: ui/net-pppoe/index.scm:80 ввод:2
 msgid "Password:"
 msgstr "Пароль:"
 
@@ -922,6 +936,7 @@ msgid "Save route to VPN gateway"
 msgstr "Сохранить маршрут к VPN-серверу"
 
 #: ui/net-pptp/index.scm:103 стандартный ввод:11
+#: ui/net-pppoe/index.scm:84 ввод:8
 msgid "MPPE encryption"
 msgstr "Шифрование MPPE"
 
@@ -934,34 +949,36 @@ msgid "Start at boot"
 msgstr "Запускать при загрузке"
 
 #: ui/net-pptp/index.scm:123 стандартный ввод:16
+#: ui/net-pppoe/index.scm:94 ввод:11
 msgid "Delete connection"
 msgstr "Удалить соединение"
 
-#: backend3/net-pptp:187
+#: backend3/net-pptp:102 backend3/net-pppoe:15
 msgid "connection established"
 msgstr "соединение установлено"
 
-#: backend3/net-pptp:187
+#: backend3/net-pptp:102
 msgid "connection down"
 msgstr "нет соединения"
 
-#: backend3/net-pptp:306
+#: backend3/net-pptp:214
 msgid "invalid server name"
 msgstr "неверное имя сервера"
 
-#: backend3/net-pptp:309
+#: backend3/net-pptp:217 backend3/net-pppoe:90
 msgid "should be ppp[number]"
 msgstr "должно быть ppp[номер]"
 
-#: backend3/net-pptp:311
+#: backend3/net-pptp:219 backend3/net-pppoe:92
 msgid "Connection"
 msgstr "Соединение"
 
-#: backend3/net-pptp:314 backend3/users:169 backend3/root:20 backend3/root:21
+#: backend3/net-pptp:222 backend3/users:169 backend3/net-pppoe:95
+#: backend3/root:20 backend3/root:21
 msgid "Password"
 msgstr "Пароль"
 
-#: backend3/net-pptp:328
+#: backend3/net-pptp:238 backend3/net-pppoe:109
 msgid "don't change"
 msgstr "не менять"
 
@@ -1344,63 +1361,63 @@ msgstr "Привязка:"
 msgid "Wireless settings..."
 msgstr "Параметры для беспроводных интерфейсов..."
 
-#: backend3/net-eth:145
+#: backend3/net-eth:137
 msgid "missing"
 msgstr "отсутствует"
 
-#: backend3/net-eth:146
+#: backend3/net-eth:138
 msgid "by MAC address"
 msgstr "по  аппаратному адресу (MAC)"
 
-#: backend3/net-eth:147
+#: backend3/net-eth:139
 msgid "by bus location"
 msgstr "по местоположению на шине"
 
-#: backend3/net-eth:152
+#: backend3/net-eth:144
 msgid "Turned off"
 msgstr "Выключено"
 
-#: backend3/net-eth:153
+#: backend3/net-eth:145
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
-#: backend3/net-eth:154
+#: backend3/net-eth:146
 msgid "Use Zeroconf"
 msgstr "Использовать Zeroconf"
 
-#: backend3/net-eth:155
+#: backend3/net-eth:147
 msgid "Manually"
 msgstr "Вручную"
 
-#: backend3/net-eth:186
+#: backend3/net-eth:178
 msgid "interface is up"
 msgstr "интерфейс включён"
 
-#: backend3/net-eth:186
+#: backend3/net-eth:178
 msgid "interface is down"
 msgstr "интерфейс выключен"
 
-#: backend3/net-eth:191
+#: backend3/net-eth:183
 msgid "plugged"
 msgstr "провод подсоединён"
 
-#: backend3/net-eth:192
+#: backend3/net-eth:184
 msgid "unplugged"
 msgstr "провод отсоединён"
 
-#: backend3/net-eth:358
+#: backend3/net-eth:350
 msgid "Host name"
 msgstr "Имя компьютера"
 
-#: backend3/net-eth:360
+#: backend3/net-eth:352
 msgid "Search domains"
 msgstr "Домены поиска"
 
-#: backend3/net-eth:362
+#: backend3/net-eth:354
 msgid "DNS servers"
 msgstr "DNS-серверы"
 
-#: backend3/net-eth:366
+#: backend3/net-eth:358
 msgid "Default gateway"
 msgstr "Шлюз по умолчанию"
 
@@ -1551,6 +1568,22 @@ msgstr "Графический дисплей"
 #: стандартный ввод:20
 msgid "Monitor vendors"
 msgstr "Производители мониторов"
+
+#: ui/std/base.scm:63
+msgid "Information"
+msgstr "Информация"
+
+#: ui/std/base.scm:66
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: ui/std/base.scm:70
+msgid "Critical"
+msgstr "Критическая ошибка"
+
+#: ui/std/base.scm:73
+msgid "Question"
+msgstr "Вопрос"
 
 #: ui/pkg/error/index.scm:7
 msgid "Critical error during install"
@@ -2021,6 +2054,14 @@ msgstr "Нажмите F1 для справки"
 #: ui/standalone/index.scm:13
 msgid "Desktop file not found"
 msgstr "Desktop-файл не найден"
+
+#: backend3/net-pppoe:15
+msgid "connection failed"
+msgstr "нет соединения"
+
+#: стандартный ввод:1
+msgid "PPPoE connections"
+msgstr "PPPoE-соединения"
 
 #: ui/root/index.scm:19
 msgid "You should define a password for system administrator"

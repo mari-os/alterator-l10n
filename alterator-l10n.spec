@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.5
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Tue Jun 17 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt6
+- add alterator-net-pppoe
+
 * Mon Jun 16 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt5
 - add alterator-net-pptp
 
