@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.5
-Release: alt6
+Release: alt7
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Wed Jun 18 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.5-alt7
+- update translations for new alterator-lilo
+
 * Tue Jun 17 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt6
 - add alterator-net-pppoe
 
