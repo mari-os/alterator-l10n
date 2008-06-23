@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.5
-Release: alt7
+Release: alt8
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Jun 23 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.5-alt8
+- update translations for new alterator-lilo
+
 * Wed Jun 18 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.5-alt7
 - update translations for new alterator-lilo
 

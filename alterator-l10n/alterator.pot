@@ -81,13 +81,13 @@ msgstr ""
 
 #: ui/xinetd/index.scm:141 стандартный ввод:15
 #: ui/net-wifi/index.scm:132 ввод:12 ui/lilo/edit-source/index.scm:43
-#: ui/lilo/index.scm:62 ui/lilo/expert/index.scm:263 ui/services/index.scm:94
+#: ui/lilo/index.scm:95 ui/lilo/expert/index.scm:263 ui/services/index.scm:94
 #: ввод:6 ui/dovecot/index.scm:62 ввод:7 ui/root/index.scm:39
 #: ввод:5 ui/root/index.scm:37 ui/timezone/index.scm:75
 #: ui/timezone/index.scm:69 ui/datetime/index.scm:59 ui/x11/index.scm:97
 #: ввод:4 ввод:17 ввод:22 ввод:9 ui/net-pptp/index.scm:117
-#: ввод:14 ui/net-eth/index.scm:166 ввод:18 ввод:8 ввод:24
-#: ui/users/index.scm:113 ui/alternatives/index.scm:129 ui/auth/index.scm:76
+#: ввод:14 ui/net-eth/index.scm:161 ввод:18 ввод:8 ввод:24
+#: ui/users/index.scm:113 ui/alternatives/index.scm:129 ui/auth/index.scm:50
 #: ввод:10 ui/net-pppoe/index.scm:91 ui/control/index.scm:65
 #: ui/control/index.scm:70
 msgid "Apply"
@@ -98,8 +98,8 @@ msgstr ""
 #: ui/lilo/expert/index.scm:264 ui/services/index.scm:95
 #: ui/dovecot/index.scm:63 ввод:8 ввод:7 ui/timezone/index.scm:70
 #: ввод:5 ввод:18 ввод:23 ввод:10 ui/net-pptp/index.scm:120
-#: ввод:15 ui/net-eth/index.scm:167 ввод:19 ввод:9 ввод:25
-#: ui/auth/index.scm:77 ввод:6 ввод:11 ui/net-pppoe/index.scm:92
+#: ввод:15 ui/net-eth/index.scm:162 ввод:19 ввод:9 ввод:25
+#: ui/auth/index.scm:51 ввод:6 ui/net-pppoe/index.scm:92
 msgid "Reset"
 msgstr ""
 
@@ -151,7 +151,7 @@ msgstr ""
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: ui/net-wifi/index.scm:105 стандартный ввод:4
-#: ui/net-pptp/index.scm:79 ui/net-eth/index.scm:118 ввод:7
+#: ui/net-pptp/index.scm:79 ui/net-eth/index.scm:119 ввод:7
 #: ui/net-pppoe/index.scm:69
 msgid "Status:"
 msgstr ""
@@ -173,7 +173,7 @@ msgid "Network name:"
 msgstr ""
 
 #: ui/net-wifi/index.scm:126 стандартный ввод:9
-#: ui/auth/index.scm:55 ввод:2 ввод:4 ввод:7
+#: ui/auth/index.scm:29 ввод:2
 msgid "Auth type:"
 msgstr ""
 
@@ -250,44 +250,44 @@ msgstr ""
 msgid "Current network"
 msgstr ""
 
-#: backend3/net-wifi:406
+#: backend3/net-wifi:407
 msgid "Network name"
 msgstr ""
 
-#: backend3/net-wifi:407
+#: backend3/net-wifi:408
 msgid "Access point"
 msgstr ""
 
-#: backend3/net-wifi:408
+#: backend3/net-wifi:409
 msgid "Status"
 msgstr ""
 
 #. printf 'auth_type (label "%s" %s %s %s %s)\n' #			    "`_ "Security"`" #			    "$(print_excludes "nopasswd" key user pairwise eap)" #			    "$(print_excludes "wep" user pairwise eap)" #			    "$(print_excludes "wpa-psk" user eap)" #			    "$(print_excludes "wpa2-psk" user eap)"
-#: backend3/net-wifi:415
+#: backend3/net-wifi:416
 msgid "User name"
 msgstr ""
 
-#: backend3/net-wifi:416
+#: backend3/net-wifi:417
 msgid "Network key"
 msgstr ""
 
-#: backend3/net-wifi:417
+#: backend3/net-wifi:418
 msgid "Encryption"
 msgstr ""
 
-#: backend3/net-wifi:418
+#: backend3/net-wifi:419
 msgid "EAP method"
 msgstr ""
 
-#: backend3/net-wifi:434 backend3/net-wifi:460 backend3/net-wifi:470
+#: backend3/net-wifi:435 backend3/net-wifi:461 backend3/net-wifi:471
 msgid "Not a wireless interface"
 msgstr ""
 
-#: backend3/net-wifi:479
+#: backend3/net-wifi:480
 msgid "Password is too short"
 msgstr ""
 
-#: backend3/net-wifi:511
+#: backend3/net-wifi:512
 msgid "Unable to create network"
 msgstr ""
 
@@ -303,7 +303,7 @@ msgstr ""
 msgid "Simple mode"
 msgstr ""
 
-#: ui/lilo/edit-source/index.scm:29 ui/lilo/index.scm:63
+#: ui/lilo/edit-source/index.scm:29 ui/lilo/index.scm:96
 #: ui/lilo/expert/index.scm:191
 msgid "Expert mode"
 msgstr ""
@@ -316,15 +316,19 @@ msgstr ""
 msgid "Lilo options:"
 msgstr ""
 
-#: ui/lilo/index.scm:30
+#: ui/lilo/index.scm:43
 msgid "hard drive"
 msgstr ""
 
-#: ui/lilo/index.scm:33
+#: ui/lilo/index.scm:46
 msgid "linux partition"
 msgstr ""
 
-#: ui/lilo/index.scm:49
+#: ui/lilo/index.scm:55
+msgid "partition"
+msgstr ""
+
+#: ui/lilo/index.scm:77
 msgid ""
 "Boot loader is used to boot your operating system and it can be configured "
 "here. If this is a sole operating system on this machine you should install "
@@ -332,8 +336,12 @@ msgid ""
 "documentation for available options."
 msgstr ""
 
-#: ui/lilo/index.scm:54 ui/lilo/expert/index.scm:201
+#: ui/lilo/index.scm:81 ui/lilo/expert/index.scm:201
 msgid "Install boot loader on:"
+msgstr ""
+
+#: ui/lilo/index.scm:86
+msgid "Load other OS:"
 msgstr ""
 
 #: ui/lilo/expert/index.scm:52
@@ -346,7 +354,7 @@ msgstr ""
 
 #: ui/lilo/expert/index.scm:99 ui/lilo/expert/index.scm:109
 #: ui/lilo/expert/index.scm:120
-msgid "<UNDEFINED>"
+msgid "<NEW>"
 msgstr ""
 
 #: ui/lilo/expert/index.scm:203
@@ -427,27 +435,27 @@ msgstr ""
 msgid "Add other loader"
 msgstr ""
 
-#: backend3/lilo:94
+#: backend3/lilo:107
 msgid "menu"
 msgstr ""
 
-#: backend3/lilo:95
+#: backend3/lilo:108
 msgid "text"
 msgstr ""
 
-#: backend3/lilo:99
+#: backend3/lilo:112
 msgid "none"
 msgstr ""
 
-#: backend3/lilo:100
+#: backend3/lilo:113
 msgid "auto"
 msgstr ""
 
-#: backend3/lilo:101
+#: backend3/lilo:114
 msgid "mbr"
 msgstr ""
 
-#: backend3/lilo:102
+#: backend3/lilo:115
 msgid "mbr-only"
 msgstr ""
 
@@ -788,8 +796,7 @@ msgstr ""
 msgid "View"
 msgstr ""
 
-#: стандартный ввод:8 ввод:3 ui/pkg/sources/index.scm:34
-#: ввод:23
+#: стандартный ввод:8 ui/pkg/sources/index.scm:34 ввод:23
 msgid "Change"
 msgstr ""
 
@@ -950,7 +957,7 @@ msgstr ""
 
 #: ui/x11/driver/index.scm:32 ui/x11/monitor/index.scm:30
 #: ui/x11/monitor/index.scm:29 ui/users/add/index.scm:70
-#: ui/pkg/upgrade/index.scm:55 ui/pkg/sources/mirrors/index.scm:62
+#: ui/pkg/upgrade/index.scm:49 ui/pkg/sources/mirrors/index.scm:62
 #: стандартный ввод:12
 msgid "Cancel"
 msgstr ""
@@ -1173,31 +1180,31 @@ msgid "Interfaces"
 msgstr ""
 
 #.
-#: ui/net-eth/index.scm:122 стандартный ввод:8
+#: ui/net-eth/index.scm:123 стандартный ввод:8
 msgid "Configuration:"
 msgstr ""
 
 #.
-#: ui/net-eth/index.scm:131 стандартный ввод:9
+#: ui/net-eth/index.scm:126 стандартный ввод:9
 msgid "IP address:"
 msgstr ""
 
 #.
-#: ui/net-eth/index.scm:135 стандартный ввод:10
+#: ui/net-eth/index.scm:130 стандартный ввод:10
 msgid "Netmask:"
 msgstr ""
 
 #.
-#: ui/net-eth/index.scm:139 стандартный ввод:11
+#: ui/net-eth/index.scm:134 стандартный ввод:11
 msgid "Default gateway:"
 msgstr ""
 
 #.
-#: ui/net-eth/index.scm:143 стандартный ввод:12
+#: ui/net-eth/index.scm:138 стандартный ввод:12
 msgid "Hardware binding:"
 msgstr ""
 
-#: ui/net-eth/index.scm:148 стандартный ввод:13
+#: ui/net-eth/index.scm:143 стандартный ввод:13
 msgid "Wireless settings..."
 msgstr ""
 
@@ -1732,11 +1739,11 @@ msgstr ""
 msgid "Alternatives subsystem"
 msgstr ""
 
-#: ui/auth/index.scm:62 стандартный ввод:8 ввод:5
+#: ui/auth/index.scm:36 стандартный ввод:3
 msgid "LDAP server:"
 msgstr ""
 
-#: ui/auth/index.scm:67 стандартный ввод:9 ввод:6
+#: ui/auth/index.scm:41 стандартный ввод:4
 msgid "Base DN:"
 msgstr ""
 
@@ -1804,15 +1811,15 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: ui/pkg/upgrade/index.scm:47 стандартный ввод:10
+#: ui/pkg/upgrade/index.scm:37 стандартный ввод:10
 msgid "Check for updates"
 msgstr ""
 
-#: ui/pkg/upgrade/index.scm:51 стандартный ввод:11
+#: ui/pkg/upgrade/index.scm:43 стандартный ввод:11
 msgid "Update system"
 msgstr ""
 
-#: ui/pkg/upgrade/index.scm:59 стандартный ввод:13
+#: ui/pkg/upgrade/index.scm:55 стандартный ввод:13
 msgid "Continue"
 msgstr ""
 
