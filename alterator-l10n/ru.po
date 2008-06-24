@@ -90,7 +90,7 @@ msgstr ""
 #: ui/timezone/index.scm:69 ui/datetime/index.scm:59 ui/x11/index.scm:97
 #: ввод:4 ввод:17 ввод:22 ввод:9 ui/net-pptp/index.scm:117
 #: ввод:14 ui/net-eth/index.scm:161 ввод:18 ввод:8 ввод:24
-#: ui/users/index.scm:113 ui/alternatives/index.scm:129 ui/auth/index.scm:50
+#: ui/users/index.scm:113 ui/alternatives/index.scm:80 ui/auth/index.scm:50
 #: ввод:10 ui/net-pppoe/index.scm:91 ui/control/index.scm:65
 #: ui/control/index.scm:70
 msgid "Apply"
@@ -333,24 +333,13 @@ msgstr "раздел linux"
 msgid "partition"
 msgstr "раздел"
 
-#: ui/lilo/index.scm:77
-msgid ""
-"Boot loader is used to boot your operating system and it can be configured "
-"here. If this is a sole operating system on this machine you should install "
-"the boot loader on Master Boot Record. Otherwise, please consult the "
-"documentation for available options."
-msgstr ""
-"Сейчас можно настроить загрузчик операционной системы. Если это единственная "
-"операционная система на этом компьютере, то вам следует установить загрузчик "
-"в Главную загрузочную запись. Иначе ознакомьтесь с документацией."
-
 #: ui/lilo/index.scm:81 ui/lilo/expert/index.scm:201
 msgid "Install boot loader on:"
 msgstr "Установить загрузчик в:"
 
 #: ui/lilo/index.scm:86
 msgid "Load other OS:"
-msgstr "Загрузка друхих ОС:"
+msgstr "Загрузка других ОС:"
 
 #: ui/lilo/expert/index.scm:52
 msgid "Other loader"
@@ -443,27 +432,43 @@ msgstr "Добавить ядро Linux"
 msgid "Add other loader"
 msgstr "Добавить другой загрузчик"
 
-#: backend3/lilo:107
+#: backend3/lilo:80
+msgid "Tb"
+msgstr "Тб"
+
+#: backend3/lilo:81
+msgid "Gb"
+msgstr "Гб"
+
+#: backend3/lilo:82
+msgid "Mb"
+msgstr "Мб"
+
+#: backend3/lilo:83
+msgid "Kb"
+msgstr "Кб"
+
+#: backend3/lilo:119
 msgid "menu"
 msgstr "меню"
 
-#: backend3/lilo:108
+#: backend3/lilo:120
 msgid "text"
 msgstr "текст"
 
-#: backend3/lilo:112
+#: backend3/lilo:124
 msgid "none"
 msgstr ""
 
-#: backend3/lilo:113
+#: backend3/lilo:125
 msgid "auto"
 msgstr ""
 
-#: backend3/lilo:114
+#: backend3/lilo:126
 msgid "mbr"
 msgstr ""
 
-#: backend3/lilo:115
+#: backend3/lilo:127
 msgid "mbr-only"
 msgstr ""
 
@@ -1712,27 +1717,19 @@ msgstr "По умолчанию"
 msgid "Without dead keys"
 msgstr "Без 'мёртвых' клавиш"
 
-#: ui/alternatives/index.scm:36
-msgid ""
-"You have made some changes in alternative configuration\n"
-"Do you want to apply your changes?"
-msgstr ""
-"Вы произвели модификацию конфигурации альтернатив\n"
-"Желаете ли вы принять свои изменения?"
-
-#: ui/alternatives/index.scm:71 стандартный ввод:2
+#: ui/alternatives/index.scm:35 стандартный ввод:2
 msgid "Alternatives:"
 msgstr "Альтернативы:"
 
-#: ui/alternatives/index.scm:95 стандартный ввод:4
+#: ui/alternatives/index.scm:56 стандартный ввод:4
 msgid "Candidates:"
 msgstr "Кандидаты:"
 
-#: ui/alternatives/index.scm:106 стандартный ввод:5
+#: ui/alternatives/index.scm:65 стандартный ввод:5
 msgid "Choose candidate manually"
 msgstr "Указать кандидата вручную"
 
-#: ui/alternatives/index.scm:116 стандартный ввод:6
+#: ui/alternatives/index.scm:70 стандартный ввод:6
 msgid ""
 "In most cases candidates selection works well automatically using weight "
 "written in their config file, but you can choose variant manually"
@@ -1740,18 +1737,6 @@ msgstr ""
 "В большинстве случаев выбор кандидатов хорошо работает в автоматическом "
 "режиме, используя веса указанные в их конфигурационных файлах, но вы можете "
 "выбрать нужный вариант в ручную"
-
-#: backend3/alternatives:13
-msgid "Alternative"
-msgstr "Альтернативa"
-
-#: backend3/alternatives:14
-msgid "Candidate"
-msgstr "Кандидат"
-
-#: backend3/alternatives:15
-msgid "Manual setup"
-msgstr "настройка вручную"
 
 #: стандартный ввод:1
 msgid "Alternatives subsystem"
@@ -2181,3 +2166,4 @@ msgstr "Описание"
 #: backend3/control:77 backend3/control:74
 msgid "facility setup failed"
 msgstr "установка режима не удалась"
+
