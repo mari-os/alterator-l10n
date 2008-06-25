@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.5
-Release: alt11
+Release: alt12
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Wed Jun 25 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt12
+- update translations for alterator-users
+
 * Wed Jun 25 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.5-alt11
 - new labels in alterator-lilo (fix #16161)
 
