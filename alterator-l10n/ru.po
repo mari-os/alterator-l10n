@@ -85,14 +85,13 @@ msgstr ""
 #: ui/xinetd/index.scm:141 стандартный ввод:15
 #: ui/net-wifi/index.scm:132 ввод:12 ui/lilo/edit-source/index.scm:43
 #: ui/lilo/index.scm:95 ui/lilo/expert/index.scm:263 ui/services/index.scm:94
-#: ввод:6 ui/dovecot/index.scm:62 ввод:7 ui/root/index.scm:39
-#: ввод:5 ui/root/index.scm:37 ui/timezone/index.scm:75
-#: ui/timezone/index.scm:69 ui/datetime/index.scm:59 ui/x11/index.scm:97
-#: ввод:4 ввод:17 ввод:22 ввод:9 ui/net-pptp/index.scm:117
-#: ввод:14 ui/net-eth/index.scm:161 ввод:18 ввод:8 ввод:24
-#: ui/users/index.scm:113 ui/alternatives/index.scm:80 ui/auth/index.scm:50
-#: ввод:10 ui/net-pppoe/index.scm:91 ui/control/index.scm:65
-#: ui/control/index.scm:70
+#: ввод:6 ui/dovecot/index.scm:62 ввод:7 ui/root/index.scm:48
+#: ui/timezone/index.scm:75 ui/timezone/index.scm:69 ui/datetime/index.scm:59
+#: ui/x11/index.scm:97 ввод:4 ввод:17 ввод:22 ввод:9
+#: ui/net-pptp/index.scm:117 ввод:14 ui/net-eth/index.scm:161 ввод:18
+#: ввод:8 ввод:24 ui/users/index.scm:117 ui/alternatives/index.scm:80
+#: ui/auth/index.scm:50 ввод:5 ввод:10 ui/net-pppoe/index.scm:91
+#: ui/control/index.scm:65 ui/control/index.scm:70
 msgid "Apply"
 msgstr "Применить"
 
@@ -111,7 +110,7 @@ msgid "Xinetd server"
 msgstr "Сетевой суперсервер"
 
 #: стандартный ввод:3 ввод:6 ввод:15 ввод:5
-#: ввод:9 ввод:21
+#: ввод:10 ввод:21
 msgid "Select"
 msgstr "Выбрать"
 
@@ -432,43 +431,43 @@ msgstr "Добавить ядро Linux"
 msgid "Add other loader"
 msgstr "Добавить другой загрузчик"
 
-#: backend3/lilo:80
+#: backend3/lilo:91
 msgid "Tb"
 msgstr "Тб"
 
-#: backend3/lilo:81
+#: backend3/lilo:92
 msgid "Gb"
 msgstr "Гб"
 
-#: backend3/lilo:82
+#: backend3/lilo:93
 msgid "Mb"
 msgstr "Мб"
 
-#: backend3/lilo:83
+#: backend3/lilo:94
 msgid "Kb"
 msgstr "Кб"
 
+#: backend3/lilo:118
+msgid "graphics"
+msgstr "графический"
+
 #: backend3/lilo:119
-msgid "menu"
-msgstr "меню"
-
-#: backend3/lilo:120
 msgid "text"
-msgstr "текст"
+msgstr "текстовый"
 
-#: backend3/lilo:124
+#: backend3/lilo:123
 msgid "none"
 msgstr ""
 
-#: backend3/lilo:125
+#: backend3/lilo:124
 msgid "auto"
 msgstr ""
 
-#: backend3/lilo:126
+#: backend3/lilo:125
 msgid "mbr"
 msgstr ""
 
-#: backend3/lilo:127
+#: backend3/lilo:126
 msgid "mbr-only"
 msgstr ""
 
@@ -691,62 +690,41 @@ msgstr "Завершить"
 msgid "Help"
 msgstr "Справка"
 
-#: ui/root/index.scm:19
-msgid "You should define a password for system administrator"
-msgstr "Вы должны указать пароль для системного администратора"
-
-#: ui/root/index.scm:22 ui/users/add/index.scm:24 ui/users/index.scm:59
-msgid "Passwords mismatch"
-msgstr "Введённые пароли не совпадают"
-
-#: ui/root/index.scm:32 ui/root/index.scm:30
-msgid "Setup password for system administrator:"
-msgstr "Укажите пароль для системного администратора:"
-
-#: ui/root/passwd.scm:54 стандартный ввод:3
-#: ui/root/passwd/index.scm:54 ввод:4 ввод:15
+#: ui/root/passwd/index.scm:54 ui/root/index.scm:35 стандартный
+#: ввод:4 ввод:16
 msgid "(enter passphrase)"
 msgstr "(введите фразу)"
 
-#: ui/root/passwd.scm:56 стандартный ввод:4
-#: ui/root/passwd/index.scm:56 ввод:5 ввод:16
+#: ui/root/passwd/index.scm:56 ui/root/index.scm:37 стандартный
+#: ввод:5 ввод:17
 msgid "(repeat passphrase)"
 msgstr "(повторите фразу)"
 
-#: ui/root/passwd.scm:63 design/scripts/password.js:59
-#: ui/root/passwd/index.scm:63
+#: ui/root/passwd/index.scm:63 ui/root/index.scm:39
+#: design/scripts/password.js:59 стандартный ввод:6
 msgid "Generate"
 msgstr "Сгенерировать"
 
-#: ui/root/passwd.scm:68 design/scripts/password.js:65
-#: ui/root/passwd/index.scm:68
+#: ui/root/passwd/index.scm:68 ui/root/index.scm:32
+#: design/scripts/password.js:65 стандартный ввод:3
 msgid "Generate automatically"
 msgstr "Создать автоматически"
 
-#: backend3/root:20 backend3/root:21 backend3/net-pptp:213 backend3/users:169
-#: backend3/net-pppoe:95
-msgid "Password"
-msgstr "Пароль"
+#: ui/root/index.scm:26 стандартный ввод:2
+msgid "Setup password for system administrator:"
+msgstr "Укажите пароль для системного администратора:"
 
-#: backend3/root:29
-msgid "Unable to change password"
-msgstr "Невозможно сменить пароль"
+#: backend3/root:25 backend3/root:29
+msgid "You should define a password for system administrator"
+msgstr "Вы должны указать пароль для системного администратора"
+
+#: backend3/root:31 ui/users/add/index.scm:24 ui/users/index.scm:59
+msgid "Passwords mismatch"
+msgstr "Введённые пароли не совпадают"
 
 #: стандартный ввод:1
 msgid "System administrator"
 msgstr "Администратор системы"
-
-#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
-#.
-#: стандартный ввод:2 ui/net-pptp/index.scm:90 ввод:7
-#: ui/users/add/index.scm:56 ui/users/index.scm:104 ввод:3 ввод:14
-#: ui/net-pppoe/index.scm:80
-msgid "Password:"
-msgstr "Пароль:"
 
 #: ui/timezone/index.scm:51 стандартный ввод:2
 #: ui/timezone/index.scm:35
@@ -966,14 +944,13 @@ msgstr "Драйверы:"
 
 #: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:24
 #: ui/x11/monitor/index.scm:23 стандартный ввод:18 ввод:20
-#: ui/users/add/index.scm:67 ui/pkg/sources/mirrors/index.scm:61
+#: ui/pkg/sources/mirrors/index.scm:61
 msgid "OK"
 msgstr "OK"
 
 #: ui/x11/driver/index.scm:32 ui/x11/monitor/index.scm:30
-#: ui/x11/monitor/index.scm:29 ui/users/add/index.scm:70
-#: ui/pkg/upgrade/index.scm:49 ui/pkg/sources/mirrors/index.scm:62
-#: стандартный ввод:12
+#: ui/x11/monitor/index.scm:29 ui/pkg/upgrade/index.scm:49
+#: ui/pkg/sources/mirrors/index.scm:62 стандартный ввод:12
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -1113,6 +1090,13 @@ msgid "Account:"
 msgstr "Учётная запись:"
 
 #.
+#: ui/net-pptp/index.scm:90 стандартный ввод:7
+#: ui/users/add/index.scm:51 ui/users/index.scm:108 ввод:3 ввод:15
+#: ui/net-pppoe/index.scm:80
+msgid "Password:"
+msgstr "Пароль:"
+
+#.
 #: ui/net-pptp/index.scm:93 стандартный ввод:8
 msgid "Walk through interface:"
 msgstr "Опорный интерфейс:"
@@ -1162,6 +1146,10 @@ msgstr "должно быть ppp[номер]"
 #: backend3/net-pptp:210 backend3/net-pppoe:92
 msgid "Connection"
 msgstr "Соединение"
+
+#: backend3/net-pptp:213 backend3/users:167 backend3/net-pppoe:95
+msgid "Password"
+msgstr "Пароль"
 
 #: backend3/net-pptp:229 backend3/net-pppoe:109
 msgid "don't change"
@@ -1529,7 +1517,7 @@ msgstr "Вы должны указать системного пользоват
 msgid "You should define a password"
 msgstr "Вы должны указать пароль"
 
-#: ui/users/add/index.scm:47 стандартный ввод:2
+#: ui/users/add/index.scm:42 стандартный ввод:2
 msgid "Account name:"
 msgstr "Имя пользователя:"
 
@@ -1537,30 +1525,35 @@ msgstr "Имя пользователя:"
 msgid "Do you really want to delete user "
 msgstr "Вы действительно хотите удалить пользователя "
 
-#: ui/users/index.scm:73 стандартный ввод:8
-msgid "New user..."
-msgstr "Создать пользователя..."
+#: ui/users/index.scm:76 стандартный ввод:8
+msgid "New account:"
+msgstr "Новая учётная запись:"
+
+#: ui/users/index.scm:78 стандартный ввод:6 ввод:9
+msgid "Create"
+msgstr "Создать"
 
 #.
-#: ui/users/index.scm:88 стандартный ввод:10
+#: ui/users/index.scm:92 стандартный ввод:11
 msgid "Comment:"
 msgstr "Комментарий:"
 
 #.
-#: ui/users/index.scm:91 стандартный ввод:11
+#: ui/users/index.scm:95 стандартный ввод:12
 msgid "Home directory:"
 msgstr "Домашний каталог:"
 
 #.
-#: ui/users/index.scm:94 стандартный ввод:12
+#: ui/users/index.scm:98 стандартный ввод:13
 msgid "Shell:"
 msgstr "Интерпретатор команд:"
 
-#: ui/users/index.scm:98 backend3/users:168 стандартный ввод:13
+#: ui/users/index.scm:102 backend3/users:166 стандартный
+#: ввод:14
 msgid "Switching to superuser"
 msgstr "Переключение на администратора"
 
-#: ui/users/index.scm:118 стандартный ввод:18
+#: ui/users/index.scm:122 стандартный ввод:19
 msgid "Delete user"
 msgstr "Удалить пользователя"
 
@@ -1637,37 +1630,33 @@ msgstr "имя группы уже занято"
 msgid "unable to add user %s to group %s"
 msgstr "невозможно добавить пользователя %s в группу %s"
 
-#: backend3/users:164
+#: backend3/users:162
 msgid "only small latin letters, digits and '_' allowed"
 msgstr "допустимы только маленькие латинские символы, цифры и '_'"
 
-#: backend3/users:165
+#: backend3/users:163
 msgid "Name"
 msgstr "Имя"
 
-#: backend3/users:166
+#: backend3/users:164
 msgid "Shell"
 msgstr "Интерпретатор команд"
 
-#: backend3/users:167
+#: backend3/users:165
 msgid "Home directory"
 msgstr "Домашний каталог"
 
-#: backend3/users:170
+#: backend3/users:168
 msgid "Password (repeat)"
 msgstr "Пароль (повтор)"
 
-#: backend3/users:171
+#: backend3/users:169
 msgid "Gecos"
 msgstr "Комментарий"
 
 #: стандартный ввод:1
 msgid "New user"
 msgstr "Создать пользователя"
-
-#: стандартный ввод:6
-msgid "Create"
-msgstr "Создать"
 
 #: стандартный ввод:7
 msgid "User accounts"
@@ -2166,7 +2155,3 @@ msgstr "Описание"
 #: backend3/control:77 backend3/control:74
 msgid "facility setup failed"
 msgstr "установка режима не удалась"
-
-#: backend3/control:18
-msgid "New account:"
-msgstr "Новая учётная запись:"
