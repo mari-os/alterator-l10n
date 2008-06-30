@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.5
-Release: alt12
+Version: 0.6
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Jun 30 2008 Stanislav Ievlev <inger@altlinux.org> 0.6-alt1
+- add alterator-fbi
+
 * Wed Jun 25 2008 Stanislav Ievlev <inger@altlinux.org> 0.5-alt12
 - update translations for alterator-users
 
