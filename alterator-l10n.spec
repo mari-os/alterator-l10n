@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.6
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Tue Jul 01 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.6-alt4
+- fix labels for alterator-lilo
+
 * Tue Jul 01 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.6-alt3
 - update translations for new alterator-lilo
 
