@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.6
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Fri Jul 04 2008 Stanislav Ievlev <inger@altlinux.org> 0.6-alt6
+- update translations for alterator-control
+
 * Fri Jul 04 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.6-alt5
 - update translations for alterator-xinetd
 
