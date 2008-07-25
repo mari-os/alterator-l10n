@@ -15,678 +15,401 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ui/license/index.scm:10 ui/notes/license.scm:10
-msgid "Please take a moment to read the license agreement now."
-msgstr ""
-
-#: ui/license/index.scm:12 ui/notes/license.scm:12
-msgid "License file not found"
-msgstr ""
-
-#: ui/license/index.scm:17 ui/notes/license.scm:17
-msgid "Yes, I agree"
-msgstr ""
-
-#: ui/notes/release-notes.scm:9 стандартный ввод:2
-msgid "Release Notes"
-msgstr ""
-
-#: ui/notes/release-notes.scm:11
-#, fuzzy
-msgid "Installation complete"
-msgstr "Встановлення пакетів..."
-
-#: backend3/notes:32
-msgid "File not found"
-msgstr ""
-
-#: стандартный ввод:1
-msgid "License"
-msgstr ""
-
-#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: ui/net-wifi/index.scm:104 стандартный ввод:2
-#: ui/net-pppoe/index.scm:74 ввод:5
+#: ui/net-eth/index.scm:75 стандартный ввод:1
 #, fuzzy
-msgid "Interface:"
-msgstr ""
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Інтерфейс"
+msgid "Host name:"
+msgstr "Користувач"
 
-#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
+#: ui/net-eth/index.scm:83 стандартный ввод:2
+#, fuzzy
+msgid "DNS servers:"
+msgstr "FTP-сервер"
+
+#.
+#: ui/net-eth/index.scm:88 стандартный ввод:3
+msgid "Search domains:"
+msgstr ""
+
+#: ui/net-eth/index.scm:94
+msgid "multiple values should be space separated"
+msgstr ""
+
+#: ui/net-eth/index.scm:102 стандартный ввод:4
+#, fuzzy
+msgid "Interfaces"
+msgstr "Інтерфейс"
+
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
+#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: ui/net-wifi/index.scm:105 стандартный ввод:4
-#: ui/net-pptp/index.scm:79 ui/net-eth/index.scm:119 ввод:7
-#: ui/net-pppoe/index.scm:69
+#: ui/net-eth/index.scm:117 стандартный ввод:6
+#: ui/net-pptp/index.scm:79 ввод:4 ui/net-pppoe/index.scm:69
+#: ui/net-wifi/index.scm:104
 msgid "Status:"
 msgstr "Стан:"
 
-#: ui/net-wifi/index.scm:107 стандартный ввод:3
+#.
+#: ui/net-eth/index.scm:121 стандартный ввод:7
 #, fuzzy
-msgid "Reconfigure interface"
+msgid "Configuration:"
 msgstr "Дозволити запис"
 
-#: ui/net-wifi/index.scm:116 стандартный ввод:5
+#.
+#: ui/net-eth/index.scm:124 стандартный ввод:8
 #, fuzzy
-msgid "Configured networks"
-msgstr "Дозволити запис"
+msgid "IP address:"
+msgstr "IP-адреса"
 
-#: ui/net-wifi/index.scm:124 стандартный ввод:7
-#, fuzzy
-msgid "Enable"
-msgstr "Ввімкнено"
+#.
+#: ui/net-eth/index.scm:128 стандартный ввод:9
+msgid "Netmask:"
+msgstr "Мережева маска:"
 
-#: ui/net-wifi/index.scm:125 стандартный ввод:8
-#, fuzzy
-msgid "Network name:"
-msgstr "робочу копію не знайдено"
+#.
+#: ui/net-eth/index.scm:132 стандартный ввод:10
+msgid "Default gateway:"
+msgstr "Шлюз по змовчуванню:"
 
-#: ui/net-wifi/index.scm:126 стандартный ввод:9
-#: ui/auth/index.scm:29 ввод:2
-msgid "Auth type:"
+#.
+#: ui/net-eth/index.scm:136 стандартный ввод:11
+msgid "Hardware binding:"
 msgstr ""
 
-#: ui/net-wifi/index.scm:128 стандартный ввод:10
-#, fuzzy
-msgid "Change password:"
-msgstr "Адміністратор сервера"
+#: ui/net-eth/index.scm:141 стандартный ввод:12
+msgid "Wireless settings..."
+msgstr "Налаштування бездротових інтерфейсів..."
 
-#: ui/net-wifi/index.scm:129 стандартный ввод:11
-#, fuzzy
-msgid "Encription:"
-msgstr "Опис:"
-
-#: ui/net-wifi/index.scm:132 стандартный ввод:12
-#: ui/services/index.scm:94 ввод:6 ui/xinetd/index.scm:141 ввод:16
-#: ui/lilo/expert/index.scm:263 ui/lilo/index.scm:95
-#: ui/lilo/edit-source/index.scm:43 ui/auth/index.scm:50 ввод:5
-#: ввод:14 ввод:10 ui/net-pptp/index.scm:117 ui/timezone/index.scm:75
-#: ui/timezone/index.scm:69 ui/datetime/index.scm:59 ui/users/index.scm:115
-#: ui/net-eth/index.scm:161 ui/x11/index.scm:97 ввод:4 ввод:17
-#: ввод:22 ui/dovecot/index.scm:62 ввод:7 ui/alternatives/index.scm:80
-#: ui/control/index.scm:65 ui/control/index.scm:70 ui/net-pppoe/index.scm:91
-#: ввод:9 ui/root/index.scm:48 ввод:18 ввод:8 ввод:24
+#: ui/net-eth/index.scm:159 стандартный ввод:13
+#: ui/net-pptp/index.scm:117 ввод:14 ui/timezone/index.scm:70 ввод:5
+#: ui/alternatives/index.scm:80 ввод:7 ui/auth/index.scm:50
+#: ui/datetime/index.scm:59 ввод:6 ui/x11/index.scm:99 ввод:4
+#: ввод:9 ввод:21 ui/users/index.scm:115 ui/dovecot/index.scm:62
+#: ввод:10 ui/net-pppoe/index.scm:91 ui/root/index.scm:48
+#: ui/control/index.scm:70 ввод:18 ввод:15 ввод:24
+#: ui/xinetd/index.scm:149 ui/net-wifi/index.scm:131 ввод:12
+#: ui/lilo/edit-source/index.scm:43 ui/lilo/index.scm:137
+#: ui/lilo/expert/index.scm:263 ui/groups/index.scm:93
+#: ui/services/index.scm:63
 msgid "Apply"
 msgstr "Застосувати"
 
-#: ui/net-wifi/index.scm:133 стандартный ввод:13
-#: ui/services/index.scm:95 ui/xinetd/index.scm:142
-#: ui/lilo/expert/index.scm:237 ui/lilo/expert/index.scm:264
-#: ui/lilo/edit-source/index.scm:44 ui/auth/index.scm:51 ввод:6
-#: ввод:15 ui/net-pptp/index.scm:120 ввод:7 ui/timezone/index.scm:70
-#: ui/net-eth/index.scm:162 ввод:5 ввод:18 ввод:23
-#: ui/dovecot/index.scm:63 ввод:8 ui/net-pppoe/index.scm:92 ввод:10
-#: ввод:19 ввод:9 ввод:25
+#: ui/net-eth/index.scm:160 стандартный ввод:14
+#: ui/net-pptp/index.scm:120 ввод:15 ui/timezone/index.scm:71 ввод:6
+#: ввод:8 ui/auth/index.scm:51 ввод:7 ввод:5 ввод:10
+#: ввод:22 ui/dovecot/index.scm:63 ui/net-pppoe/index.scm:92 ввод:19
+#: ввод:16 ввод:25 ui/xinetd/index.scm:150 ui/net-wifi/index.scm:132
+#: ввод:13 ui/lilo/edit-source/index.scm:44 ui/lilo/expert/index.scm:237
+#: ui/lilo/expert/index.scm:264 ui/groups/index.scm:94
+#: ui/services/index.scm:64
 msgid "Reset"
 msgstr "Скинути"
 
-#: ui/net-wifi/index.scm:134 стандартный ввод:14
-#: ui/pkg/sources/mirrors/index.scm:57 ввод:5
-msgid "Delete"
-msgstr "Видалити"
-
-#: ui/net-wifi/index.scm:137 стандартный ввод:15
-#, fuzzy
-msgid "Configure new network"
-msgstr "Дозволити запис"
-
-#: ui/net-wifi/index.scm:140 стандартный ввод:16
-#, fuzzy
-msgid "Networks found:"
-msgstr "робочу копію не знайдено"
-
-#: ui/net-wifi/index.scm:142 стандартный ввод:17
-msgid "Rescan"
+#: backend3/net-eth:136
+msgid "missing"
 msgstr ""
 
-#: ui/net-wifi/index.scm:143 стандартный ввод:18
+#: backend3/net-eth:137
 #, fuzzy
-msgid "Configure"
-msgstr "З'єднання"
+msgid "by MAC address"
+msgstr "IP-адреса"
 
-#: ui/net-wifi/index.scm:145
-msgid "Quit"
-msgstr "Вихід"
-
-#: backend3/net-wifi:134
-#, fuzzy
-msgid "Other network"
-msgstr "Інший постачальник..."
-
-#: backend3/net-wifi:162
-#, fuzzy
-msgid "No password"
-msgstr "Пароль"
-
-#: backend3/net-wifi:163
-#, fuzzy
-msgid "WEP Password"
-msgstr "Пароль"
-
-#: backend3/net-wifi:166
-msgid "WPA Personal (WPA-PSK)"
+#: backend3/net-eth:138
+msgid "by bus location"
 msgstr ""
 
-#: backend3/net-wifi:167
-msgid "WPA2 Personal (WPA-PSK)"
+#: backend3/net-eth:143
+msgid "Turned off"
 msgstr ""
 
-#: backend3/net-wifi:227
+#: backend3/net-eth:144
+msgid "Use DHCP"
+msgstr "Використовувати DHCP"
+
+#: backend3/net-eth:145
+msgid "Use Zeroconf"
+msgstr ""
+
+#: backend3/net-eth:146
 #, fuzzy
-msgid "Connected to network"
-msgstr "Дозволити запис"
+msgid "Manually"
+msgstr "бінарні"
 
-#: backend3/net-wifi:228
-msgid "access point"
+#: backend3/net-eth:177
+msgid "interface is up"
+msgstr "інтерфейс піднято"
+
+#: backend3/net-eth:177
+msgid "interface is down"
+msgstr "інтерфейс опущено"
+
+#: backend3/net-eth:182
+msgid "plugged"
+msgstr "увімкнуто"
+
+#: backend3/net-eth:183
+msgid "unplugged"
+msgstr "вимкнуто"
+
+#: backend3/net-eth:349
+#, fuzzy
+msgid "Host name"
+msgstr "Користувач"
+
+#: backend3/net-eth:351
+msgid "Search domains"
 msgstr ""
 
-#: backend3/net-wifi:228 backend3/net-eth:356
+#: backend3/net-eth:353
+#, fuzzy
+msgid "DNS servers"
+msgstr "FTP-сервер"
+
+#: backend3/net-eth:355 backend3/net-wifi:227
 msgid "IP address"
 msgstr "IP-адреса"
 
-#: backend3/net-wifi:231
-#, fuzzy
-msgid "Scanning..."
-msgstr "Підготовка до встановлення..."
+#: backend3/net-eth:357
+msgid "Default gateway"
+msgstr "Шлюз по змовчуванню"
 
-#: backend3/net-wifi:261
-#, fuzzy
-msgid "Current network"
-msgstr "Поточні налаштування"
-
-#: backend3/net-wifi:407
-#, fuzzy
-msgid "Network name"
-msgstr "робочу копію не знайдено"
-
-#: backend3/net-wifi:408
-msgid "Access point"
-msgstr ""
-
-#: backend3/net-wifi:409
-#, fuzzy
-msgid "Status"
-msgstr "Стан:"
-
-#: backend3/net-wifi:416
-#, fuzzy
-msgid "User name"
-msgstr "Користувач"
-
-#: backend3/net-wifi:417
-#, fuzzy
-msgid "Network key"
-msgstr "робочу копію не знайдено"
-
-#: backend3/net-wifi:418
-#, fuzzy
-msgid "Encryption"
-msgstr "Опис"
-
-#: backend3/net-wifi:419
-msgid "EAP method"
-msgstr ""
-
-#: backend3/net-wifi:435 backend3/net-wifi:461 backend3/net-wifi:471
-msgid "Not a wireless interface"
-msgstr ""
-
-#: backend3/net-wifi:480
-msgid "Password is too short"
-msgstr ""
-
-#: backend3/net-wifi:512
-msgid "Unable to create network"
-msgstr ""
-
-#: стандартный ввод:1
-msgid "Wi-Fi setup"
-msgstr ""
-
-#: стандартный ввод:6 ввод:3 ввод:4 ввод:8
-#: ввод:15 ввод:5
+#: стандартный ввод:5 ввод:3 ввод:2 ввод:4
+#: ввод:15 ввод:21 ввод:8 ввод:6
 msgid "Select"
 msgstr "Вибрати"
 
-#: backend2/constraints:35
-msgid "invalid hostname"
-msgstr "невірне ім'я машини"
-
-#: backend2/constraints:40
-msgid "invalid ipv4 address"
-msgstr "невірна ipv4 адреса"
-
-#: backend2/constraints:46
-msgid "doesn't match to pattern"
-msgstr "не відповідає шаблону"
-
-#: backend2/constraints:53
-#, fuzzy
-msgid "should be one of:"
-msgstr "має бути число"
-
-#: backend2/constraints:58
-msgid "values not equal"
-msgstr ""
-
-#: backend2/constraints:61
-msgid "required, but missing"
-msgstr "пропущений обов'язковий параметр"
-
-#: backend2/constraints:133
-msgid "Constraints failed:"
-msgstr "Обмеження невірне:"
-
-#: interfaces/guile/ensign/ensign.scm:20
-msgid "Backend live time (in hours)"
-msgstr ""
-
-#: interfaces/guile/ensign/ensign.scm:21
-#, fuzzy
-msgid "should be digits"
-msgstr "має бути число"
-
-#: ui/services/index.scm:25 стандартный ввод:4
-msgid "Current state"
-msgstr ""
-
-#: ui/services/index.scm:68 стандартный ввод:2
-#: ui/xinetd/index.scm:107
-msgid "Services"
-msgstr ""
-
-#: ui/services/index.scm:75 ui/xinetd/index.scm:114
-msgid ""
-"There are unsaved changes in the service settings. Do you want to apply "
-"these changes?"
-msgstr ""
-
-#: ui/services/index.scm:87
-msgid "Change state"
-msgstr "Змінити стан"
-
-#: ui/services/index.scm:93 стандартный ввод:5
-msgid "Start on boot"
-msgstr ""
-
-#. Get status information: stopped|running|unknown
-#. Usage string must be provided
-#. (srv usage)
-#: backend3/services:46 backend3/services:113
-msgid "unknown"
-msgstr ""
-
-#. [[ "$unf_status" =~ "is stopped" ]] && status="\"stopped\""
-#. [[ "$unf_status" =~ "is running" ]] && status="\"running\""
-#: backend3/services:52 backend3/services:129 backend3/services:130
-#, fuzzy
-msgid "stopped"
-msgstr "Зупинити"
-
-#: backend3/services:53 backend3/services:128
-msgid "running"
-msgstr ""
-
-#: backend3/services:116
-msgid "Service"
-msgstr "Служба"
-
-#: backend3/services:127
-msgid "do not change"
-msgstr ""
-
-#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
-#. '
-#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
-#. '
-#: backend3/services:128 backend3/net-pptp:230 backend3/net-pppoe:110
-msgid "start"
-msgstr ""
-
-#: backend3/services:129 backend3/net-pptp:231 backend3/net-pppoe:111
-msgid "stop"
-msgstr ""
-
-#: backend3/services:130 backend3/net-pptp:232 backend3/net-pppoe:112
-msgid "restart"
-msgstr ""
-
 #: стандартный ввод:1
-msgid "System services"
-msgstr "Системні служби"
+msgid "IP interfaces"
+msgstr "IP-інтерфейси"
 
-#: ui/xinetd/index.scm:20 ui/xinetd/index.scm:25 backend3/xinetd:108
-#: backend3/xinetd:109 ui/lilo/expert/index.scm:197
-#, fuzzy
-msgid "Common settings"
-msgstr "Поточні налаштування"
+#: ui/acc/index.scm:6 ui/acc/index.scm:90 стандартный ввод:4
+msgid "System management center"
+msgstr "Центр управления системы"
 
-#: ui/xinetd/index.scm:67 стандартный ввод:4
-#, fuzzy
-msgid "internal service"
-msgstr "Ввімкнути службу FTP"
-
-#: ui/xinetd/index.scm:127
-#, fuzzy
-msgid "Enable service"
-msgstr "Ввімкнути службу FTP"
-
-#: ui/xinetd/index.scm:128
-msgid "User"
-msgstr "Користувач"
-
-#: ui/xinetd/index.scm:129
-msgid "Group"
-msgstr ""
-
-#: ui/xinetd/index.scm:130 backend3/net-pptp:205
-msgid "Server"
-msgstr "Сервер"
-
-#: ui/xinetd/index.scm:131
-#, fuzzy
-msgid "Server args"
-msgstr "FTP сервер"
-
-#: ui/xinetd/index.scm:132
-msgid "Rlimit as"
-msgstr ""
-
-#: ui/xinetd/index.scm:133
-#, fuzzy
-msgid "Instances"
-msgstr "Інтерфейс"
-
-#: ui/xinetd/index.scm:134
-#, fuzzy
-msgid "Per source"
-msgstr "вихідні"
-
-#: ui/xinetd/index.scm:135
-msgid "Only from"
-msgstr ""
-
-#: ui/xinetd/index.scm:137 стандартный ввод:14
+#. ui replace
+#: ui/acc/index.scm:12
 msgid ""
-"This dialog changes only configuration file for xinetd. You must restart "
-"running xinetd to make it reread new configuration."
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before running the new module\n"
+"or discard the changes?"
+msgstr ""
+"В поточному модулі є незбережені зміни.\n"
+"Прийняти зміни перед завантаженням нового модуля\n"
+"відхилити їх, чи залишитися в поточному модулі?"
+
+#. special values
+#: ui/acc/index.scm:26
+msgid "Module is locked"
+msgstr "Модуль заблокований"
+
+#: ui/acc/index.scm:91 ui/standalone/index.scm:14
+msgid "Press F1 for help"
 msgstr ""
 
-#: стандартный ввод:1
-#, fuzzy
-msgid "Xinetd server"
-msgstr "FTP сервер"
-
-#: стандартный ввод:5 ui/control/index.scm:49
-#: backend3/control:23 ui/control/index.scm:54
-msgid "State"
-msgstr "Стан"
-
-#: стандартный ввод:6
-#, fuzzy
-msgid "User:"
-msgstr "Користувач"
-
-#: стандартный ввод:7
-msgid "Group:"
+#: ui/standalone/index.scm:13
+msgid "Desktop file not found"
 msgstr ""
+
+#: ui/net-pptp/index.scm:68 стандартный ввод:2
+#: ui/net-pppoe/index.scm:58
+#, fuzzy
+msgid "New connection..."
+msgstr ""
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Створити з'єднання\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Нове з'єднання"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: стандартный ввод:8 ui/net-pptp/index.scm:84 ввод:5
+#: ui/net-pptp/index.scm:84 стандартный ввод:5
+#: ui/xinetd/index.scm:120 ввод:7
 #, fuzzy
 msgid "Server:"
 msgstr "Сервер"
 
-#: стандартный ввод:9
-#, fuzzy
-msgid "Server args:"
-msgstr "FTP сервер"
-
-#: стандартный ввод:10
-msgid "Rlimit as:"
+#.
+#: ui/net-pptp/index.scm:87 стандартный ввод:6
+#: ui/net-pppoe/index.scm:77
+msgid "Account:"
 msgstr ""
 
-#: стандартный ввод:11
-#, fuzzy
-msgid "Instances:"
-msgstr "Інтерфейс"
+#.
+#: ui/net-pptp/index.scm:90 стандартный ввод:7
+#: ui/users/index.scm:96 ui/users/add/index.scm:60 ввод:9
+#: ui/net-pppoe/index.scm:80
+msgid "Password:"
+msgstr "Пароль:"
 
-#: стандартный ввод:12
+#.
+#: ui/net-pptp/index.scm:93 стандартный ввод:8
 #, fuzzy
-msgid "Per source:"
-msgstr "вихідні"
+msgid "Walk through interface:"
+msgstr "Базовий інтерфейс"
 
-#: стандартный ввод:13
-msgid "Only from:"
+#: ui/net-pptp/index.scm:97 стандартный ввод:9
+msgid "Default route via VPN"
+msgstr "Типовий маршрут через VPN"
+
+#: ui/net-pptp/index.scm:100 стандартный ввод:10
+msgid "Save route to VPN gateway"
+msgstr "Зберегти маршрут до VPN-серверу"
+
+#: ui/net-pptp/index.scm:103 стандартный ввод:11
+#: ui/net-pppoe/index.scm:84 ввод:8
+msgid "MPPE encryption"
+msgstr "Шифрування MPPE"
+
+#: ui/net-pptp/index.scm:106 стандартный ввод:12
+msgid "Redial on hangup"
+msgstr "Передзвонити за роз'єднання"
+
+#: ui/net-pptp/index.scm:109 стандартный ввод:13
+msgid "Start at boot"
+msgstr "Запускати при завантаженні"
+
+#: ui/net-pptp/index.scm:123 стандартный ввод:16
+#: ui/net-pppoe/index.scm:94 ввод:11
+msgid "Delete connection"
+msgstr "Видалити з'єднання"
+
+#: backend3/net-pptp:95 backend3/net-pppoe:15
+msgid "connection established"
+msgstr "з'єднання встановлене"
+
+#: backend3/net-pptp:95
+msgid "connection down"
+msgstr "немає з'єднання"
+
+#: backend3/net-pptp:205
+msgid "invalid server name"
+msgstr "невірне ім'я сервера"
+
+#: backend3/net-pptp:205
+msgid "Server"
+msgstr "Сервер"
+
+#: backend3/net-pptp:208 backend3/net-pppoe:90
+msgid "should be ppp[number]"
+msgstr "має бути ppp[номер]"
+
+#: backend3/net-pptp:210 backend3/net-pppoe:92
+msgid "Connection"
+msgstr "З'єднання"
+
+#: backend3/net-pptp:213 backend3/net-pppoe:95
+msgid "Password"
+msgstr "Пароль"
+
+#: backend3/net-pptp:229 backend3/net-pppoe:109
+msgid "don't change"
 msgstr ""
 
-#: стандартный ввод:15
-#, fuzzy
-msgid "Start, stop or restart xinetd"
-msgstr "завантажити, зупинити або перевантажити службу"
-
-#: backend3/xinetd:112
-msgid "This settings will be applied to services with undefined fields"
+#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
+#. '
+#: backend3/net-pptp:230 backend3/net-pppoe:110 backend3/services:114
+msgid "start"
 msgstr ""
 
-#: backend3/xinetd:237 backend3/xinetd:301
-#, fuzzy
-msgid "Can't open file"
-msgstr "неможливо поновити базу груп"
-
-#: backend3/xinetd:238 backend3/xinetd:302
-#, fuzzy
-msgid "Can't open temporary file"
-msgstr "неможливо поновити базу паролів"
-
-#: backend3/xinetd:419
-#, fuzzy
-msgid "Unknown service"
-msgstr "Ввімкнути службу FTP"
-
-#: ui/lilo/expert/index.scm:52
-#, fuzzy
-msgid "Other loader"
-msgstr "Інший драйвер..."
-
-#: ui/lilo/expert/index.scm:75
-msgid "Linux kernel"
+#: backend3/net-pptp:231 backend3/net-pppoe:111 backend3/services:115
+msgid "stop"
 msgstr ""
 
-#: ui/lilo/expert/index.scm:99 ui/lilo/expert/index.scm:109
-#: ui/lilo/expert/index.scm:120
-msgid "<NEW>"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:187 ui/lilo/edit-source/index.scm:25
-#, fuzzy
-msgid "Don't install bootloader"
-msgstr "Встановити завантажувач в:"
-
-#: ui/lilo/expert/index.scm:189 ui/lilo/edit-source/index.scm:27
-#, fuzzy
-msgid "Simple mode"
-msgstr "Нормальний режим"
-
-#: ui/lilo/expert/index.scm:191 ui/lilo/index.scm:96
-#: ui/lilo/edit-source/index.scm:29
-#, fuzzy
-msgid "Expert mode"
-msgstr "Нормальний режим"
-
-#: ui/lilo/expert/index.scm:192 ui/lilo/edit-source/index.scm:31
-msgid "Edit lilo.conf"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:201 ui/lilo/index.scm:81
-#, fuzzy
-msgid "Install boot loader on:"
-msgstr "Встановити завантажувач в:"
-
-#: ui/lilo/expert/index.scm:203
-msgid "Raid-extra-boot:"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:206
-#, fuzzy
-msgid "Interface type:"
-msgstr "Інтерфейс"
-
-#: ui/lilo/expert/index.scm:208
-#, fuzzy
-msgid "Interface timeout:"
-msgstr "інтерфейс піднято"
-
-#: ui/lilo/expert/index.scm:211
-msgid "Common kernel parameters:"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:216
-msgid "Boot variants"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:223
-#, fuzzy
-msgid "Label:"
-msgstr "Label:"
-
-#: ui/lilo/expert/index.scm:225
-msgid "Kernel image:"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:226
-#, fuzzy
-msgid "Initrd:"
-msgstr "Initrd:"
-
-#: ui/lilo/expert/index.scm:227
-#, fuzzy
-msgid "Root device:"
-msgstr "Пристрій"
-
-#: ui/lilo/expert/index.scm:228
-#, fuzzy
-msgid "Additional parameters:"
-msgstr "Додатково будуть встановлені наступні пакети"
-
-#: ui/lilo/expert/index.scm:230
-#, fuzzy
-msgid "Device:"
-msgstr "Пристрій"
-
-#: ui/lilo/expert/index.scm:231
-msgid "Alias:"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:232
-#, fuzzy
-msgid "Boot-as:"
-msgstr "Boot:"
-
-#: ui/lilo/expert/index.scm:233
-#, fuzzy
-msgid "Table:"
-msgstr "Ввімкнено"
-
-#: ui/lilo/expert/index.scm:236 ui/control/html-messages.scm:3
-#: стандартный ввод:3
-msgid "Save"
-msgstr "Зберегти"
-
-#: ui/lilo/expert/index.scm:239
-msgid "Set default"
-msgstr "Типово"
-
-#: ui/lilo/expert/index.scm:244 ui/pkg/register/index.scm:46
-#: стандартный ввод:16
-msgid "Remove"
-msgstr "Видалити"
-
-#: ui/lilo/expert/index.scm:250
-msgid "Add Linux kernel"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:251
-#, fuzzy
-msgid "Add other loader"
-msgstr "Інший драйвер..."
-
-#: ui/lilo/index.scm:43
-#, fuzzy
-msgid "hard drive"
-msgstr "Інший драйвер..."
-
-#: ui/lilo/index.scm:46
-#, fuzzy
-msgid "linux partition"
-msgstr "Показувати підрозділи"
-
-#: ui/lilo/index.scm:55
-#, fuzzy
-msgid "partition"
-msgstr "Показувати підрозділи"
-
-#: ui/lilo/index.scm:86
-msgid "Load other OS:"
-msgstr ""
-
-#: ui/lilo/edit-source/index.scm:37
-#, fuzzy
-msgid "Lilo options:"
-msgstr "Загальні налаштування"
-
-#: backend3/lilo:91
-msgid "Tb"
-msgstr ""
-
-#: backend3/lilo:92
-msgid "Gb"
-msgstr ""
-
-#: backend3/lilo:93
-msgid "Mb"
-msgstr ""
-
-#: backend3/lilo:94
-msgid "Kb"
-msgstr ""
-
-#: backend3/lilo:118
-#, fuzzy
-msgid "graphics"
-msgstr "Графічний дисплей"
-
-#: backend3/lilo:119
-#, fuzzy
-msgid "text"
-msgstr "Далі"
-
-#: backend3/lilo:123
-#, fuzzy
-msgid "none"
-msgstr "ні"
-
-#: backend3/lilo:124
-msgid "auto"
-msgstr ""
-
-#: backend3/lilo:125
-msgid "mbr"
-msgstr ""
-
-#: backend3/lilo:126
-msgid "mbr-only"
+#: backend3/net-pptp:232 backend3/net-pppoe:112 backend3/services:116
+msgid "restart"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "Bootloader (lilo)"
+msgid "PPTP connections"
+msgstr "PPTP-з'єднання"
+
+#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
+#: ui/sysconfig/language.scm:33 ui/sysconfig/language/index.scm:33
+#: ui/logs/index.scm:14 стандартный ввод:4 ui/logs/index.scm:33
+msgid "Next"
+msgstr "Далі"
+
+#: ui/wizard/index.scm:41 ui/wizard/index.scm:45 ui/wizard/index.scm:49
+#: ui/logs/index.scm:13 стандартный ввод:3 ui/logs/index.scm:32
+msgid "Previous"
+msgstr "Назад"
+
+#: ui/wizard/index.scm:42 ui/wizard/index.scm:46 ui/wizard/index.scm:50
+msgid "Finish"
+msgstr "Завершити"
+
+#: ui/wizard/index.scm:123 стандартный ввод:1 ввод:3
+#: ui/sysconfig/language.scm:32 ui/sysconfig/language/index.scm:32
+msgid "Help"
+msgstr "Допомога"
+
+#: ui/timezone/index.scm:36 стандартный ввод:1
+msgid "Please, select country:"
+msgstr ""
+
+#: ui/timezone/index.scm:49 стандартный ввод:3
+msgid "Please, select time zone:"
+msgstr ""
+
+#: ui/timezone/index.scm:59 стандартный ввод:4
+msgid "Hardware time set to GMT"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "Time zone"
+msgstr ""
+
+#: ui/std/base.scm:63
+#, fuzzy
+msgid "Information"
+msgstr "Дозволити запис"
+
+#: ui/std/base.scm:66
+msgid "Warning"
+msgstr ""
+
+#: ui/std/base.scm:70
+msgid "Critical"
+msgstr ""
+
+#: ui/std/base.scm:73
+#, fuzzy
+msgid "Question"
+msgstr "Призначення"
+
+#: ui/alternatives/index.scm:35 стандартный ввод:2
+#, fuzzy
+msgid "Alternatives:"
+msgstr "Альтернатива"
+
+#: ui/alternatives/index.scm:56 стандартный ввод:4
+#, fuzzy
+msgid "Candidates:"
+msgstr "Кандидат"
+
+#: ui/alternatives/index.scm:65 стандартный ввод:5
+msgid "Choose candidate manually"
+msgstr ""
+
+#: ui/alternatives/index.scm:70 стандартный ввод:6
+msgid ""
+"In most cases candidates selection works well automatically using weight "
+"written in their config file, but you can choose variant manually"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "Alternatives subsystem"
+msgstr "Альтернативи"
+
+#: ui/auth/index.scm:29 стандартный ввод:2
+#: ui/net-wifi/index.scm:125 ввод:9
+msgid "Auth type:"
 msgstr ""
 
 #: ui/auth/index.scm:36 стандартный ввод:3
@@ -720,93 +443,81 @@ msgstr ""
 msgid "Authentication"
 msgstr "Призначення"
 
-#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
-#: ui/logs/index.scm:14 стандартный ввод:4 ui/logs/index.scm:33
-#: ui/sysconfig/language.scm:33 ui/sysconfig/language/index.scm:33
-msgid "Next"
-msgstr "Далі"
+#: ui/datetime/index.scm:26 стандартный ввод:2
+msgid "Get time from NTP server:"
+msgstr ""
 
-#: ui/wizard/index.scm:41 ui/wizard/index.scm:45 ui/wizard/index.scm:49
-#: ui/logs/index.scm:13 стандартный ввод:3 ui/logs/index.scm:32
-msgid "Previous"
-msgstr "Назад"
+#: ui/datetime/index.scm:31 стандартный ввод:3
+#, fuzzy
+msgid "Work as NTP server"
+msgstr "FTP-сервер"
 
-#: ui/wizard/index.scm:42 ui/wizard/index.scm:46 ui/wizard/index.scm:50
-msgid "Finish"
-msgstr "Завершити"
+#: ui/datetime/index.scm:41 стандартный ввод:4
+#, fuzzy
+msgid "Current date:"
+msgstr "Поточні налаштування:"
 
-#: ui/wizard/index.scm:123 interfaces/guile/menu.scm:49 стандартный
-#: ввод:1 ввод:2 ui/sysconfig/language.scm:32
-#: ui/sysconfig/language/index.scm:32
-msgid "Help"
-msgstr "Допомога"
+#: ui/datetime/index.scm:42 стандартный ввод:5
+#, fuzzy
+msgid "Current time:"
+msgstr "Поточні налаштування:"
 
-#: backend3/vsftpd:63 backend3/vsftpd:56
+#: backend3/datetime:40
+#, fuzzy
+msgid "NTP server"
+msgstr "FTP-сервер"
+
+#: backend3/datetime:42
+#, fuzzy
+msgid "Current date"
+msgstr "Поточні налаштування"
+
+#: backend3/datetime:44
+msgid "date should be in YYYY-MM-DD format"
+msgstr ""
+
+#: backend3/datetime:46
+#, fuzzy
+msgid "Current time"
+msgstr "Поточні налаштування"
+
+#: backend3/datetime:48
+msgid "time should be in HH:MM:SS format"
+msgstr ""
+
+#: backend3/datetime:80
+msgid "unable to setup time"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "Date/Time"
+msgstr ""
+
+#: backend3/vsftpd:56
 msgid "yes"
 msgstr "так"
 
-#: backend3/vsftpd:63 backend3/vsftpd:56
+#: backend3/vsftpd:56
 msgid "no"
 msgstr "ні"
 
-#: backend3/vsftpd:63 backend3/vsftpd:56
+#: backend3/vsftpd:56
 msgid "default"
 msgstr "по змовчуванню"
 
-#: backend3/vsftpd:75 стандартный ввод:4 backend3/vsftpd:68
-msgid "Enable FTP service"
-msgstr "Ввімкнути службу FTP"
-
-#: backend3/vsftpd:80 стандартный ввод:5 backend3/vsftpd:73
-msgid "Allow anonymous login"
-msgstr "Дозволити вхід анонімному користувачеві"
-
-#: backend3/vsftpd:82 стандартный ввод:10 backend3/vsftpd:75
-msgid "Allow mkdir"
-msgstr "Дозволити створення каталогів"
-
-#: backend3/vsftpd:84 стандартный ввод:11 backend3/vsftpd:77
-msgid "Allow upload"
-msgstr "Дозволити завантаження файлів"
-
-#: backend3/vsftpd:86 стандартный ввод:12 backend3/vsftpd:79
-msgid "Default upload directory (/var/ftp/incoming)"
-msgstr "Стандартна тека для отримання файлів (/var/ftp/incoming)"
-
-#. "
-#: backend3/vsftpd:88 стандартный ввод:13 backend3/vsftpd:81
-msgid "Allow rename/delete"
-msgstr "Дозволити перейменування/видалення файлів"
-
-#: backend3/vsftpd:91 стандартный ввод:6 backend3/vsftpd:84
-msgid "Allow write"
-msgstr "Дозволити запис"
-
-#: backend3/vsftpd:94 backend3/vsftpd:87
-msgid "Write access"
-msgstr "Доступ для запису"
-
-#: backend3/vsftpd:97 стандартный ввод:7 backend3/vsftpd:90
-msgid "Allow local users login"
-msgstr "Дозволити вхід локальним користувачам"
-
-#: backend3/vsftpd:99 стандартный ввод:8 backend3/vsftpd:92
-msgid "Enable per user settings"
-msgstr "Дозволити налаштування для локальних користувачів"
-
-#: backend3/vsftpd:156 backend3/vsftpd:139
+#: backend3/vsftpd:108
 msgid "enable write access"
 msgstr "дозволити запис"
 
-#: backend3/vsftpd:157 backend3/vsftpd:140
+#: backend3/vsftpd:109
 msgid "disable write access"
 msgstr "заборонити запис"
 
-#: backend3/vsftpd:158 backend3/vsftpd:141
+#: backend3/vsftpd:110
 msgid "remove from list"
 msgstr "видалити зі списку"
 
-#: backend3/vsftpd:218 backend3/vsftpd:201
+#: backend3/vsftpd:170
 msgid "Same user already exists"
 msgstr "Такий користувач вже є"
 
@@ -822,31 +533,624 @@ msgstr "завантажити, зупинити або перевантажит
 msgid "General options"
 msgstr "Загальні налаштування"
 
+#: стандартный ввод:4
+msgid "Enable FTP service"
+msgstr "Ввімкнути службу FTP"
+
+#: стандартный ввод:5
+msgid "Allow anonymous login"
+msgstr "Дозволити вхід анонімному користувачеві"
+
+#: стандартный ввод:6
+msgid "Allow write"
+msgstr "Дозволити запис"
+
+#: стандартный ввод:7
+msgid "Allow local users login"
+msgstr "Дозволити вхід локальним користувачам"
+
+#: стандартный ввод:8
+msgid "Enable per user settings"
+msgstr "Дозволити налаштування для локальних користувачів"
+
 #: стандартный ввод:9
 msgid "Anonymous user options"
 msgstr "Налаштування анонімного користувача"
+
+#: стандартный ввод:10
+msgid "Allow mkdir"
+msgstr "Дозволити створення каталогів"
+
+#: стандартный ввод:11
+msgid "Allow upload"
+msgstr "Дозволити завантаження файлів"
+
+#: стандартный ввод:12
+msgid "Default upload directory (/var/ftp/incoming)"
+msgstr "Стандартна тека для отримання файлів (/var/ftp/incoming)"
+
+#: стандартный ввод:13
+msgid "Allow rename/delete"
+msgstr "Дозволити перейменування/видалення файлів"
 
 #: стандартный ввод:16
 msgid "Local users settings"
 msgstr "Налаштування локальних користувачів"
 
 #: стандартный ввод:17
+msgid "User"
+msgstr "Користувач"
+
+#: стандартный ввод:18
+msgid "Write access"
+msgstr "Доступ для запису"
+
+#: стандартный ввод:19
 msgid "For selected:"
 msgstr "Для вибраних:"
 
-#: стандартный ввод:18 ввод:20 ui/x11/driver/index.scm:26
-#: ui/x11/monitor/index.scm:24 ui/x11/monitor/index.scm:23
-#: ui/pkg/sources/mirrors/index.scm:61
+#: стандартный ввод:20 ввод:22 ui/x11/monitor/index.scm:23
+#: ui/x11/driver/index.scm:26 ui/pkg/sources/mirrors/index.scm:59
 msgid "OK"
 msgstr "Так"
 
-#: стандартный ввод:19
+#: стандартный ввод:21
 msgid "Add user:"
 msgstr "Новий користувач:"
 
-#: стандартный ввод:21
+#: стандартный ввод:23
 msgid "System users administration..."
 msgstr "Керування системними користувачами..."
+
+#: ui/x11/index.scm:31 стандартный ввод:11
+msgid "Detected hardware"
+msgstr "Виявлене обладнання"
+
+#: ui/x11/index.scm:37 стандартный ввод:12
+msgid "Video card:"
+msgstr "Відеокарта:"
+
+#: ui/x11/index.scm:43 ui/x11/index.scm:60 стандартный ввод:13
+#: ввод:15
+msgid "Monitor:"
+msgstr "Монітор:"
+
+#: ui/x11/index.scm:54 стандартный ввод:14
+msgid "Current settings"
+msgstr "Поточні налаштування"
+
+#: ui/x11/index.scm:64 стандартный ввод:16
+msgid "Other vendor..."
+msgstr "Інший постачальник..."
+
+#: ui/x11/index.scm:69 стандартный ввод:17
+msgid "Driver:"
+msgstr "Драйвер:"
+
+#: ui/x11/index.scm:73 стандартный ввод:18
+msgid "Other driver..."
+msgstr "Інший драйвер..."
+
+#: ui/x11/index.scm:78 стандартный ввод:19
+msgid "Color depth:"
+msgstr "Глибина кольору:"
+
+#: ui/x11/index.scm:84 стандартный ввод:20
+msgid "Resolution:"
+msgstr "Роздільна здатність:"
+
+#: ui/x11/index.scm:96 backend3/x11:185
+msgid "Test"
+msgstr "Тестування"
+
+#: ui/x11/index.scm:103 ui/net-wifi/index.scm:144
+msgid "Quit"
+msgstr "Вихід"
+
+#. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
+#. messages from C tools
+#: ui/x11/c-messages.scm:2 backend2/workflow-card-index:156
+msgid "Yes"
+msgstr "Так"
+
+#: ui/x11/c-messages.scm:3 backend2/workflow-card-index:154
+msgid "No"
+msgstr "Ні"
+
+#: ui/x11/c-messages.scm:4
+msgid "Pause"
+msgstr "Пауза"
+
+#: ui/x11/c-messages.scm:5
+msgid "Press 'Yes' if you see a correct picture!"
+msgstr "Натисніть \"Так\", якщо бачите дане повідомлення!"
+
+#: ui/x11/c-messages.scm:6
+msgid "Resume"
+msgstr "Далі"
+
+#: ui/x11/monitor/index.scm:10 стандартный ввод:3
+#, fuzzy
+msgid "Monitor vendors:"
+msgstr "Монітор:"
+
+#: ui/x11/monitor/index.scm:29 ui/x11/driver/index.scm:32
+#: ui/pkg/upgrade/index.scm:47 ui/pkg/sources/mirrors/index.scm:60
+#: стандартный ввод:5
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: ui/x11/driver/index.scm:11 стандартный ввод:8
+msgid "Drivers:"
+msgstr "Драйвери:"
+
+#: backend3/x11:183
+msgid "Test current display settings"
+msgstr "Перевірити поточні налаштування дисплею"
+
+#: backend3/x11:184
+msgid "Test failed"
+msgstr "Тест невдалий"
+
+#: backend3/x11:193
+msgid "recommended"
+msgstr "рекомендовано"
+
+#: backend3/x11:211
+msgid "256 colors (8 bit)"
+msgstr "256 кольорів (8 біт)"
+
+#: backend3/x11:212
+msgid "32 thousand colors (15 bits)"
+msgstr "32 тисячі кольорів (15 біт)"
+
+#: backend3/x11:213
+msgid "65 thousand colors (16 bits)"
+msgstr "65 тисяч кольорів (16 біт)"
+
+#: backend3/x11:214
+msgid "16 million colors (24 bits)"
+msgstr "16 мільйонів кольорів (24 біта)"
+
+#: backend3/x11:215
+msgid "4 billion colors (32 bits)"
+msgstr "4 мільярди кольорів (32 біта)"
+
+#: backend3/x11:216
+msgid "bits"
+msgstr ""
+
+#: backend3/x11:227
+#, fuzzy
+msgid "automatically"
+msgstr "Автоматично"
+
+#. for write_enum_item
+#: backend3/x11:266
+msgid "Automatically detected"
+msgstr "Автоматично"
+
+#. config
+#: backend3/x11:336
+msgid "config file doesn't exist"
+msgstr "конфіґурацію не знайдено"
+
+#: backend3/x11:385
+msgid "no workcopy was found"
+msgstr "робочу копію не знайдено"
+
+#: backend3/x11:389
+msgid "X11 test failed"
+msgstr "Тест X11 невдалий"
+
+#: стандартный ввод:1 ввод:6
+msgid "Display"
+msgstr "Дисплей"
+
+#: стандартный ввод:2
+#, fuzzy
+msgid "Monitor vendors"
+msgstr "Монітор:"
+
+#: стандартный ввод:7
+msgid "Drivers"
+msgstr "Драйвери"
+
+#: backend2/workflow-card-index:100
+msgid "No objects found..."
+msgstr "Об'єкти не знайдено..."
+
+#: backend2/workflow-card-index:109
+msgid "Return to view"
+msgstr "Вернутися до перегляду"
+
+#: backend2/workflow-card-index:153
+msgid "Do you really want to delete "
+msgstr "Ви дійсно бажаєте видалити "
+
+#: backend2/workflow-card-index:163
+msgid "Unsupported mode"
+msgstr "Режим не підтримується"
+
+#: interfaces/guile/configd/html.scm:83
+msgid "Error"
+msgstr "Помилка"
+
+#: interfaces/guile/configd/html.scm:88
+msgid "Backend"
+msgstr "Бакенд"
+
+#: interfaces/guile/configd/html.scm:90
+msgid "XML Parser"
+msgstr "Парсер XML"
+
+#: interfaces/guile/configd/html.scm:92
+msgid "System error"
+msgstr "Системна помилка"
+
+#: interfaces/guile/configd/translate.scm:44
+msgid "Mo"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:45
+msgid "Tu"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:46
+msgid "We"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:47
+msgid "Th"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:48
+msgid "Fr"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:49
+#, fuzzy
+msgid "Sa"
+msgstr ""
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Зберегти\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: interfaces/guile/configd/translate.scm:50
+msgid "Su"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:52
+#, fuzzy
+msgid "January"
+msgstr ""
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"бінарні\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: interfaces/guile/configd/translate.scm:53
+msgid "February"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:54
+msgid "March"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:55
+#, fuzzy
+msgid "April"
+msgstr ""
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Застосувати\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: interfaces/guile/configd/translate.scm:56
+msgid "May"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:57
+msgid "June"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:58
+msgid "July"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:59
+msgid "August"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:60
+msgid "September"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:61
+msgid "October"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:62
+msgid "November"
+msgstr ""
+
+#: interfaces/guile/configd/translate.scm:63
+msgid "December"
+msgstr ""
+
+#: ui/users/index.scm:28
+msgid "Do you really want to delete user "
+msgstr "Ви дійсно бажаєте видалити користувача "
+
+#: ui/users/index.scm:64 стандартный ввод:2
+#, fuzzy
+msgid "New account:"
+msgstr "Налаштування локальних користувачів"
+
+#: ui/users/index.scm:66 стандартный ввод:3
+#, fuzzy
+msgid "Create"
+msgstr "Створити наново"
+
+#.
+#: ui/users/index.scm:80 стандартный ввод:5
+msgid "Comment:"
+msgstr ""
+
+#.
+#: ui/users/index.scm:83 стандартный ввод:6
+msgid "Home directory:"
+msgstr "Домашня тека:"
+
+#.
+#: ui/users/index.scm:86 стандартный ввод:7
+msgid "Shell:"
+msgstr "Оболонка:"
+
+#: ui/users/index.scm:90 стандартный ввод:8
+#, fuzzy
+msgid "Switching to superuser"
+msgstr "Можливість підвищення привілеїв"
+
+#: ui/users/index.scm:99 ui/users/add/index.scm:63 стандартный
+#: ввод:10 ui/root/index.scm:32 ввод:3
+#, fuzzy
+msgid "Generate automatically"
+msgstr ""
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Згенерувати автоматично\n"
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Автоматично згенерувати"
+
+#: ui/users/index.scm:102 ui/users/add/index.scm:66 стандартный
+#: ввод:11 ui/root/index.scm:35 ввод:4
+msgid "(enter passphrase)"
+msgstr "(введіть фразу)"
+
+#: ui/users/index.scm:104 ui/users/add/index.scm:68 стандартный
+#: ввод:12 ui/root/index.scm:37 ввод:5
+msgid "(repeat passphrase)"
+msgstr "(повторіть фразу)"
+
+#: ui/users/index.scm:106 ui/users/add/index.scm:70 стандартный
+#: ввод:13 ui/root/index.scm:39 ввод:6
+msgid "Generate"
+msgstr "Згенерувати"
+
+#: ui/users/index.scm:117 стандартный ввод:15
+msgid "Delete user"
+msgstr "Видалити користувача"
+
+#: ui/users/add/index.scm:17
+msgid "You should define a system user"
+msgstr ""
+
+#: ui/users/add/index.scm:20
+msgid "You should define a password"
+msgstr ""
+
+#: ui/users/add/index.scm:46
+#, fuzzy
+msgid "New user account"
+msgstr "Налаштування локальних користувачів"
+
+#: ui/users/add/index.scm:51
+#, fuzzy
+msgid "Name:"
+msgstr "Системне ім'я"
+
+#: backend3/users:74
+msgid "can't update password file"
+msgstr "неможливо поновити базу паролів"
+
+#. '
+#: backend3/users:75 backend3/users:116
+msgid "invalid command syntax"
+msgstr "невірний синтаксис команди"
+
+#: backend3/users:76
+#, fuzzy
+msgid "invalid argument to option"
+msgstr "невірний параметр до аргумента"
+
+#: backend3/users:77
+msgid "uid already in use"
+msgstr "uid вже зайнятий"
+
+#: backend3/users:78
+msgid "specified user doesn't exist"
+msgstr "користувач не існує"
+
+#. '
+#: backend3/users:79
+msgid "user currently logged in"
+msgstr "користувач зараз у системі"
+
+#: backend3/users:80
+msgid "username already in use"
+msgstr "ім'я користувача вже зайняте"
+
+#: backend3/users:81 backend3/users:122
+msgid "can't update group file"
+msgstr "неможливо поновити базу груп"
+
+#. '
+#: backend3/users:82
+msgid "can't create or remove home directory"
+msgstr "неможливо створити чи видалити домашню теку"
+
+#. '
+#: backend3/users:83
+msgid "can't create mail spool"
+msgstr "неможливо створити mail spool"
+
+#: backend3/users:92
+#, fuzzy
+msgid "cannot change password"
+msgstr "неможливо поновити базу паролів"
+
+#: backend3/users:117
+#, fuzzy
+msgid "invalid group name"
+msgstr "невірний синтаксис команди"
+
+#: backend3/users:118
+msgid "gid not unique"
+msgstr "gid не унікальний"
+
+#: backend3/users:119
+msgid "specified group doesn't exist"
+msgstr "дана група не існує"
+
+#: backend3/users:120
+msgid "can't remove user's primary group"
+msgstr "неможливо видалити первинну групу користувача"
+
+#. '
+#: backend3/users:121
+msgid "group name not unique"
+msgstr "ім'я групи вже зайняте"
+
+#: backend3/users:139
+msgid "unable to add user %s to group %s"
+msgstr ""
+
+#: backend3/users:162
+msgid "only small latin letters, digits and '_' allowed"
+msgstr "дозволені лише малі латинські символи, цифри і '_'"
+
+#: backend3/users:163
+msgid "Name"
+msgstr "Системне ім'я"
+
+#: backend3/users:210 backend3/users:238 backend3/root:31
+#, fuzzy
+msgid "Passwords mismatch"
+msgstr "Пароль (ще раз)"
+
+#: стандартный ввод:1
+#, fuzzy
+msgid "User accounts"
+msgstr "Налаштування локальних користувачів"
+
+#: стандартный ввод:1
+#, fuzzy
+msgid "Local user accounts"
+msgstr "Налаштування локальних користувачів"
+
+#: ui/sysconfig/kbd.scm:20 ui/sysconfig/kbd/index.scm:20
+msgid "Please select keyboard switch type:"
+msgstr "Виберіть варіант перемикання розкладки клавіатури:"
+
+#: ui/sysconfig/language.scm:37 ui/sysconfig/language/index.scm:37
+msgid "Select your language:"
+msgstr "Оберіть мову:"
+
+#: backend3/syskbd:14
+msgid "Alt+Shift key"
+msgstr "Клавіші ALT и Shift одночасно"
+
+#: backend3/syskbd:15
+msgid "CapsLock key"
+msgstr "Клавіша CapsLock"
+
+#: backend3/syskbd:16
+msgid "Control+Shift keys"
+msgstr "Клавіші Control и Shift одночасно UK,EN"
+
+#: backend3/syskbd:17
+msgid "Control key"
+msgstr "Клавіша Control"
+
+#: backend3/syskbd:18
+msgid "Alt key"
+msgstr "Клавіша Alt"
+
+#: backend3/syskbd:19
+msgid "Control+Shift keys (UK,RU,EN)"
+msgstr "Клавіші Control и Shift одночасно (UK,RU,EN)"
+
+#: backend3/syskbd:20
+msgid "Default"
+msgstr "По змовчуванню"
+
+#: backend3/syskbd:21 backend3/syskbd:22
+msgid "Without dead keys"
+msgstr "Без 'мертвих' клавіш"
+
+#: ui/dovecot/index.scm:33 стандартный ввод:3
+#, fuzzy
+msgid "Supported protocols:"
+msgstr "Протоколи, що підтримуються"
+
+#: ui/dovecot/index.scm:41 стандартный ввод:4
+#, fuzzy
+msgid "Auth mechanisms:"
+msgstr "Механізми автентифікації"
+
+#: ui/dovecot/index.scm:49 стандартный ввод:5
+msgid "(you can't disable all mechanisms)"
+msgstr ""
+
+#: ui/dovecot/index.scm:55 стандартный ввод:6
+msgid "Auth port for Postfix"
+msgstr "Порт служби автентифікації для Postfix"
+
+#: backend3/dovecot:29
+msgid "POP3"
+msgstr ""
+
+#: backend3/dovecot:30
+msgid "POP3 over TLS/SSL"
+msgstr "POP3 через TLS/SSL"
+
+#: backend3/dovecot:31
+msgid "IMAP4"
+msgstr ""
+
+#: backend3/dovecot:32
+#, fuzzy
+msgid "IMAP4 over TLS/SSL"
+msgstr "IMAP4 через TLS/SSL"
+
+#: backend3/dovecot:35
+msgid "PLAIN"
+msgstr ""
+
+#: backend3/dovecot:36
+msgid "LOGIN"
+msgstr ""
+
+#: backend3/dovecot:37
+msgid "ANONYMOUS"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "POP3/IMAP server"
+msgstr "POP3/IMAP сервер"
+
+#: стандартный ввод:1
+#, fuzzy
+msgid "POP3/IMAP server (dovecot)"
+msgstr "POP3/IMAP сервер"
 
 #: backend3/ahttpd:125
 #, fuzzy
@@ -980,771 +1284,368 @@ msgstr "Відвантажити сертифікат, підписаний УЦ
 msgid "Upload"
 msgstr "Відвантажити"
 
-#: ui/net-pptp/index.scm:68 стандартный ввод:2
-#: ui/net-pppoe/index.scm:58
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: ui/net-pppoe/index.scm:74 стандартный ввод:5
+#: ui/net-wifi/index.scm:103 ввод:2
 #, fuzzy
-msgid "New connection..."
+msgid "Interface:"
 msgstr ""
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Створити з'єднання\n"
 "#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Нове з'єднання"
+"Інтерфейс"
 
-#.
-#: ui/net-pptp/index.scm:87 стандартный ввод:6
-#: ui/net-pppoe/index.scm:77
-msgid "Account:"
+#: backend3/net-pppoe:15
+msgid "connection failed"
+msgstr "з'єднання невдале"
+
+#: стандартный ввод:1
+msgid "PPPoE connections"
+msgstr "PPPoE-з'єднання"
+
+#: ui/root/index.scm:26 стандартный ввод:2
+msgid "Setup password for system administrator:"
 msgstr ""
 
-#.
-#: ui/net-pptp/index.scm:90 стандартный ввод:7
-#: ui/users/add/index.scm:60 ui/users/index.scm:96 ввод:9
-#: ui/net-pppoe/index.scm:80
-msgid "Password:"
-msgstr "Пароль:"
-
-#.
-#: ui/net-pptp/index.scm:93 стандартный ввод:8
-#, fuzzy
-msgid "Walk through interface:"
-msgstr "Базовий інтерфейс"
-
-#: ui/net-pptp/index.scm:97 стандартный ввод:9
-msgid "Default route via VPN"
-msgstr "Типовий маршрут через VPN"
-
-#: ui/net-pptp/index.scm:100 стандартный ввод:10
-msgid "Save route to VPN gateway"
-msgstr "Зберегти маршрут до VPN-серверу"
-
-#: ui/net-pptp/index.scm:103 стандартный ввод:11
-#: ui/net-pppoe/index.scm:84 ввод:8
-msgid "MPPE encryption"
-msgstr "Шифрування MPPE"
-
-#: ui/net-pptp/index.scm:106 стандартный ввод:12
-msgid "Redial on hangup"
-msgstr "Передзвонити за роз'єднання"
-
-#: ui/net-pptp/index.scm:109 стандартный ввод:13
-msgid "Start at boot"
-msgstr "Запускати при завантаженні"
-
-#: ui/net-pptp/index.scm:123 стандартный ввод:16
-#: ui/net-pppoe/index.scm:94 ввод:11
-msgid "Delete connection"
-msgstr "Видалити з'єднання"
-
-#: backend3/net-pptp:95 backend3/net-pppoe:15
-msgid "connection established"
-msgstr "з'єднання встановлене"
-
-#: backend3/net-pptp:95
-msgid "connection down"
-msgstr "немає з'єднання"
-
-#: backend3/net-pptp:205
-msgid "invalid server name"
-msgstr "невірне ім'я сервера"
-
-#: backend3/net-pptp:208 backend3/net-pppoe:90
-msgid "should be ppp[number]"
-msgstr "має бути ppp[номер]"
-
-#: backend3/net-pptp:210 backend3/net-pppoe:92
-msgid "Connection"
-msgstr "З'єднання"
-
-#: backend3/net-pptp:213 backend3/net-pppoe:95
-msgid "Password"
-msgstr "Пароль"
-
-#: backend3/net-pptp:229 backend3/net-pppoe:109
-msgid "don't change"
+#: backend3/root:25 backend3/root:29
+msgid "You should define a password for system administrator"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "PPTP connections"
-msgstr "PPTP-з'єднання"
+#, fuzzy
+msgid "System administrator"
+msgstr "Керування системними користувачами"
 
-#: ui/timezone/index.scm:51 стандартный ввод:2
-#: ui/timezone/index.scm:35
-msgid "Please, select country:"
+#: ui/logs/index.scm:8 стандартный ввод:1 ui/logs/index.scm:27
+msgid "Logs:"
 msgstr ""
 
-#: ui/timezone/index.scm:62 стандартный ввод:4
-#: ui/timezone/index.scm:48
-msgid "Please, select time zone:"
+#: ui/logs/index.scm:16 стандартный ввод:5 ui/logs/index.scm:35
+msgid "First page"
 msgstr ""
 
-#: ui/timezone/index.scm:69 backend3/timezone:119 стандартный
-#: ввод:5 ui/timezone/index.scm:58
-msgid "Hardware time set to GMT"
+#: ui/logs/index.scm:17 стандартный ввод:6 ui/logs/index.scm:36
+msgid "Last page"
 msgstr ""
 
-#: backend3/timezone:117
-#, fuzzy
-msgid "Country"
-msgstr "Країна (C):"
-
-#: backend3/timezone:118 стандартный ввод:1
-msgid "Time zone"
+#: ui/logs/index.scm:19 стандартный ввод:7 ui/logs/index.scm:38
+msgid "Show:"
 msgstr ""
 
-#: ui/datetime/index.scm:26 стандартный ввод:2
-msgid "Get time from NTP server:"
+#: backend3/logs:98 backend3/logs:97
+msgid "Lines %s-%s of %s"
 msgstr ""
 
-#: ui/datetime/index.scm:31 стандартный ввод:3
-#, fuzzy
-msgid "Work as NTP server"
-msgstr "FTP-сервер"
-
-#: ui/datetime/index.scm:41 стандартный ввод:4
-#, fuzzy
-msgid "Current date:"
-msgstr "Поточні налаштування:"
-
-#: ui/datetime/index.scm:42 стандартный ввод:5
-#, fuzzy
-msgid "Current time:"
-msgstr "Поточні налаштування:"
-
-#: backend3/datetime:40
-#, fuzzy
-msgid "NTP server"
-msgstr "FTP-сервер"
-
-#: backend3/datetime:42
-#, fuzzy
-msgid "Current date"
-msgstr "Поточні налаштування"
-
-#: backend3/datetime:44
-msgid "date should be in YYYY-MM-DD format"
+#: backend3/logs:117 backend3/logs:116
+msgid "10 lines"
 msgstr ""
 
-#: backend3/datetime:46
-#, fuzzy
-msgid "Current time"
-msgstr "Поточні налаштування"
-
-#: backend3/datetime:48
-msgid "time should be in HH:MM:SS format"
+#: backend3/logs:118 backend3/logs:117
+msgid "20 lines"
 msgstr ""
 
-#: backend3/datetime:80
-msgid "unable to setup time"
+#: backend3/logs:119 backend3/logs:118
+msgid "50 lines"
 msgstr ""
 
-#: стандартный ввод:1
-msgid "Date/Time"
+#: backend3/logs:120 backend3/logs:119
+msgid "100 lines"
 msgstr ""
-
-#: ui/users/add/index.scm:17
-msgid "You should define a system user"
-msgstr ""
-
-#: ui/users/add/index.scm:20
-msgid "You should define a password"
-msgstr ""
-
-#: ui/users/add/index.scm:46
-#, fuzzy
-msgid "New user account"
-msgstr "Налаштування локальних користувачів"
-
-#: ui/users/add/index.scm:51
-#, fuzzy
-msgid "Name:"
-msgstr "Системне ім'я"
-
-#: ui/users/add/index.scm:63 ui/users/index.scm:99 стандартный
-#: ввод:10 html/fbi/password.js:66 ui/root/index.scm:32 ввод:3
-#, fuzzy
-msgid "Generate automatically"
-msgstr ""
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Згенерувати автоматично\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Автоматично згенерувати"
-
-#: ui/users/add/index.scm:66 ui/users/index.scm:102 стандартный
-#: ввод:11 ui/root/index.scm:35 ввод:4
-msgid "(enter passphrase)"
-msgstr "(введіть фразу)"
-
-#: ui/users/add/index.scm:68 ui/users/index.scm:104 стандартный
-#: ввод:12 ui/root/index.scm:37 ввод:5
-msgid "(repeat passphrase)"
-msgstr "(повторіть фразу)"
-
-#: ui/users/add/index.scm:70 ui/users/index.scm:106 стандартный
-#: ввод:13 html/fbi/password.js:60 ui/root/index.scm:39 ввод:6
-msgid "Generate"
-msgstr "Згенерувати"
-
-#: ui/users/index.scm:28
-msgid "Do you really want to delete user "
-msgstr "Ви дійсно бажаєте видалити користувача "
-
-#: ui/users/index.scm:64 стандартный ввод:2
-#, fuzzy
-msgid "New account:"
-msgstr "Налаштування локальних користувачів"
-
-#: ui/users/index.scm:66 стандартный ввод:3
-#, fuzzy
-msgid "Create"
-msgstr "Створити наново"
-
-#.
-#: ui/users/index.scm:80 стандартный ввод:5
-msgid "Comment:"
-msgstr ""
-
-#.
-#: ui/users/index.scm:83 стандартный ввод:6
-msgid "Home directory:"
-msgstr "Домашня тека:"
-
-#.
-#: ui/users/index.scm:86 стандартный ввод:7
-msgid "Shell:"
-msgstr "Оболонка:"
-
-#: ui/users/index.scm:90 стандартный ввод:8
-#, fuzzy
-msgid "Switching to superuser"
-msgstr "Можливість підвищення привілеїв"
-
-#: ui/users/index.scm:117 стандартный ввод:15
-msgid "Delete user"
-msgstr "Видалити користувача"
-
-#: backend3/users:74
-msgid "can't update password file"
-msgstr "неможливо поновити базу паролів"
-
-#. '
-#: backend3/users:75 backend3/users:116
-msgid "invalid command syntax"
-msgstr "невірний синтаксис команди"
-
-#: backend3/users:76
-#, fuzzy
-msgid "invalid argument to option"
-msgstr "невірний параметр до аргумента"
-
-#: backend3/users:77
-msgid "uid already in use"
-msgstr "uid вже зайнятий"
-
-#: backend3/users:78
-msgid "specified user doesn't exist"
-msgstr "користувач не існує"
-
-#. '
-#: backend3/users:79
-msgid "user currently logged in"
-msgstr "користувач зараз у системі"
-
-#: backend3/users:80
-msgid "username already in use"
-msgstr "ім'я користувача вже зайняте"
-
-#: backend3/users:81 backend3/users:122
-msgid "can't update group file"
-msgstr "неможливо поновити базу груп"
-
-#. '
-#: backend3/users:82
-msgid "can't create or remove home directory"
-msgstr "неможливо створити чи видалити домашню теку"
-
-#. '
-#: backend3/users:83
-msgid "can't create mail spool"
-msgstr "неможливо створити mail spool"
-
-#: backend3/users:92
-#, fuzzy
-msgid "cannot change password"
-msgstr "неможливо поновити базу паролів"
-
-#: backend3/users:117
-#, fuzzy
-msgid "invalid group name"
-msgstr "невірний синтаксис команди"
-
-#: backend3/users:118
-msgid "gid not unique"
-msgstr "gid не унікальний"
-
-#: backend3/users:119
-msgid "specified group doesn't exist"
-msgstr "дана група не існує"
-
-#: backend3/users:120
-msgid "can't remove user's primary group"
-msgstr "неможливо видалити первинну групу користувача"
-
-#. '
-#: backend3/users:121
-msgid "group name not unique"
-msgstr "ім'я групи вже зайняте"
-
-#: backend3/users:139
-msgid "unable to add user %s to group %s"
-msgstr ""
-
-#: backend3/users:162
-msgid "only small latin letters, digits and '_' allowed"
-msgstr "дозволені лише малі латинські символи, цифри і '_'"
-
-#: backend3/users:163
-msgid "Name"
-msgstr "Системне ім'я"
-
-#: backend3/users:210 backend3/users:249 backend3/root:31
-#, fuzzy
-msgid "Passwords mismatch"
-msgstr "Пароль (ще раз)"
-
-#: стандартный ввод:1
-#, fuzzy
-msgid "User accounts"
-msgstr "Налаштування локальних користувачів"
-
-#: стандартный ввод:1
-#, fuzzy
-msgid "Local user accounts"
-msgstr "Налаштування локальних користувачів"
-
-#.
-#: ui/net-eth/index.scm:77 стандартный ввод:2
-#, fuzzy
-msgid "Host name:"
-msgstr "Користувач"
-
-#.
-#: ui/net-eth/index.scm:85 стандартный ввод:3
-#, fuzzy
-msgid "DNS servers:"
-msgstr "FTP-сервер"
-
-#.
-#: ui/net-eth/index.scm:90 стандартный ввод:4
-msgid "Search domains:"
-msgstr ""
-
-#: ui/net-eth/index.scm:96
-msgid "multiple values should be space separated"
-msgstr ""
-
-#: ui/net-eth/index.scm:104 стандартный ввод:5
-#, fuzzy
-msgid "Interfaces"
-msgstr "Інтерфейс"
-
-#.
-#: ui/net-eth/index.scm:123 стандартный ввод:8
-#, fuzzy
-msgid "Configuration:"
-msgstr "Дозволити запис"
-
-#.
-#: ui/net-eth/index.scm:126 стандартный ввод:9
-#, fuzzy
-msgid "IP address:"
-msgstr "IP-адреса"
-
-#.
-#: ui/net-eth/index.scm:130 стандартный ввод:10
-msgid "Netmask:"
-msgstr "Мережева маска:"
-
-#.
-#: ui/net-eth/index.scm:134 стандартный ввод:11
-msgid "Default gateway:"
-msgstr "Шлюз по змовчуванню:"
-
-#.
-#: ui/net-eth/index.scm:138 стандартный ввод:12
-msgid "Hardware binding:"
-msgstr ""
-
-#: ui/net-eth/index.scm:143 стандартный ввод:13
-msgid "Wireless settings..."
-msgstr "Налаштування бездротових інтерфейсів..."
-
-#: backend3/net-eth:137
-msgid "missing"
-msgstr ""
-
-#: backend3/net-eth:138
-#, fuzzy
-msgid "by MAC address"
-msgstr "IP-адреса"
-
-#: backend3/net-eth:139
-msgid "by bus location"
-msgstr ""
-
-#: backend3/net-eth:144
-msgid "Turned off"
-msgstr ""
-
-#: backend3/net-eth:145
-msgid "Use DHCP"
-msgstr "Використовувати DHCP"
-
-#: backend3/net-eth:146
-msgid "Use Zeroconf"
-msgstr ""
-
-#: backend3/net-eth:147
-#, fuzzy
-msgid "Manually"
-msgstr "бінарні"
-
-#: backend3/net-eth:178
-msgid "interface is up"
-msgstr "інтерфейс піднято"
-
-#: backend3/net-eth:178
-msgid "interface is down"
-msgstr "інтерфейс опущено"
-
-#: backend3/net-eth:183
-msgid "plugged"
-msgstr "увімкнуто"
-
-#: backend3/net-eth:184
-msgid "unplugged"
-msgstr "вимкнуто"
-
-#: backend3/net-eth:350
-#, fuzzy
-msgid "Host name"
-msgstr "Користувач"
-
-#: backend3/net-eth:352
-msgid "Search domains"
-msgstr ""
-
-#: backend3/net-eth:354
-#, fuzzy
-msgid "DNS servers"
-msgstr "FTP-сервер"
-
-#: backend3/net-eth:358
-msgid "Default gateway"
-msgstr "Шлюз по змовчуванню"
-
-#: стандартный ввод:1
-msgid "IP interfaces"
-msgstr "IP-інтерфейси"
-
-#. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
-#. messages from C tools
-#: ui/x11/c-messages.scm:2 backend2/workflow-card-index:154
-#: backend2/workflow-card-index:156
-msgid "Yes"
-msgstr "Так"
-
-#: ui/x11/c-messages.scm:3 backend2/workflow-card-index:152
-#: backend2/workflow-card-index:154
-msgid "No"
-msgstr "Ні"
-
-#: ui/x11/c-messages.scm:4
-msgid "Pause"
-msgstr "Пауза"
-
-#: ui/x11/c-messages.scm:5
-msgid "Press 'Yes' if you see a correct picture!"
-msgstr "Натисніть \"Так\", якщо бачите дане повідомлення!"
-
-#: ui/x11/c-messages.scm:6
-msgid "Resume"
-msgstr "Далі"
-
-#: ui/x11/driver/index.scm:11 стандартный ввод:3
-msgid "Drivers:"
-msgstr "Драйвери:"
-
-#: ui/x11/driver/index.scm:32 ui/x11/monitor/index.scm:30
-#: ui/x11/monitor/index.scm:29 ui/pkg/sources/mirrors/index.scm:62
-#: ui/pkg/upgrade/index.scm:49 стандартный ввод:23
-msgid "Cancel"
-msgstr "Скасувати"
-
-#: ui/x11/index.scm:29 стандартный ввод:7
-msgid "Detected hardware"
-msgstr "Виявлене обладнання"
-
-#: ui/x11/index.scm:35 стандартный ввод:8
-msgid "Video card:"
-msgstr "Відеокарта:"
-
-#: ui/x11/index.scm:41 ui/x11/index.scm:58 стандартный ввод:9
-#: ввод:11
-msgid "Monitor:"
-msgstr "Монітор:"
-
-#: ui/x11/index.scm:52 стандартный ввод:10
-msgid "Current settings"
-msgstr "Поточні налаштування"
-
-#: ui/x11/index.scm:62 стандартный ввод:12
-msgid "Other vendor..."
-msgstr "Інший постачальник..."
-
-#: ui/x11/index.scm:67 стандартный ввод:13
-msgid "Driver:"
-msgstr "Драйвер:"
-
-#: ui/x11/index.scm:71 стандартный ввод:14
-msgid "Other driver..."
-msgstr "Інший драйвер..."
-
-#: ui/x11/index.scm:76 стандартный ввод:15
-msgid "Color depth:"
-msgstr "Глибина кольору:"
-
-#: ui/x11/index.scm:82 стандартный ввод:16
-msgid "Resolution:"
-msgstr "Роздільна здатність:"
-
-#: ui/x11/index.scm:94 backend3/x11:173 backend3/x11:174
-msgid "Test"
-msgstr "Тестування"
-
-#: ui/x11/monitor/index.scm:10 стандартный ввод:21
-#, fuzzy
-msgid "Monitor vendors:"
-msgstr "Монітор:"
-
-#: backend3/x11:171 backend3/x11:172
-msgid "Test current display settings"
-msgstr "Перевірити поточні налаштування дисплею"
-
-#: backend3/x11:172 backend3/x11:173
-msgid "Test failed"
-msgstr "Тест невдалий"
-
-#: backend3/x11:181 backend3/x11:182
-msgid "recommended"
-msgstr "рекомендовано"
-
-#: backend3/x11:199 backend3/x11:200
-msgid "256 colors (8 bit)"
-msgstr "256 кольорів (8 біт)"
-
-#: backend3/x11:200 backend3/x11:201
-msgid "32 thousand colors (15 bits)"
-msgstr "32 тисячі кольорів (15 біт)"
-
-#: backend3/x11:201 backend3/x11:202
-msgid "65 thousand colors (16 bits)"
-msgstr "65 тисяч кольорів (16 біт)"
-
-#: backend3/x11:202 backend3/x11:203
-msgid "16 million colors (24 bits)"
-msgstr "16 мільйонів кольорів (24 біта)"
-
-#: backend3/x11:203 backend3/x11:204
-msgid "4 billion colors (32 bits)"
-msgstr "4 мільярди кольорів (32 біта)"
-
-#: backend3/x11:204 backend3/x11:205
-msgid "bits"
-msgstr ""
-
-#: backend3/x11:214 backend3/x11:215
-#, fuzzy
-msgid "automatically"
-msgstr "Автоматично"
-
-#. for write_enum_item
-#: backend3/x11:254
-msgid "Automatically detected"
-msgstr "Автоматично"
-
-#. config
-#: backend3/x11:323 backend3/x11:322
-msgid "config file doesn't exist"
-msgstr "конфіґурацію не знайдено"
-
-#: backend3/x11:374 backend3/x11:373
-msgid "no workcopy was found"
-msgstr "робочу копію не знайдено"
-
-#: backend3/x11:378 backend3/x11:377
-msgid "X11 test failed"
-msgstr "Тест X11 невдалий"
-
-#: стандартный ввод:1 ввод:19
-msgid "Display"
-msgstr "Дисплей"
 
 #: стандартный ввод:2
-msgid "Drivers"
-msgstr "Драйвери"
-
-#: стандартный ввод:6
-msgid "Graphic display"
-msgstr "Графічний дисплей"
-
-#: стандартный ввод:20
-#, fuzzy
-msgid "Monitor vendors"
-msgstr "Монітор:"
-
-#: ui/std/base.scm:63
-#, fuzzy
-msgid "Information"
-msgstr "Дозволити запис"
-
-#: ui/std/base.scm:66
-msgid "Warning"
+msgid "View"
 msgstr ""
 
-#: ui/std/base.scm:70
-msgid "Critical"
+#: стандартный ввод:8 ui/pkg/sources/index.scm:32 ввод:10
+msgid "Change"
+msgstr "Змінити"
+
+#: стандартный ввод:1
+#, fuzzy
+msgid "System logs"
+msgstr "Системні об'єкти"
+
+#: ui/control/index.scm:30 backend3/control:21
+msgid "Facility"
+msgstr "Системний об'єкт"
+
+#: ui/control/index.scm:30 backend3/control:22
+msgid "Summary"
+msgstr "Коментар"
+
+#: ui/control/index.scm:54 backend3/control:23 стандартный
+#: ввод:4
+msgid "State"
+msgstr "Стан"
+
+#: backend3/control:17
+msgid "Available modes"
+msgstr "Доступні режими"
+
+#: backend3/control:18
+msgid "Description"
+msgstr "Опис"
+
+#: backend3/control:74
+msgid "facility setup failed"
+msgstr "не вдалося встановити режим"
+
+#: стандартный ввод:1 ui/lilo/expert/index.scm:236
+msgid "Save"
+msgstr "Зберегти"
+
+#: стандартный ввод:2
+msgid "Update help"
+msgstr "Поновити довідку"
+
+#: стандартный ввод:1
+#, fuzzy
+msgid "System restrictions"
+msgstr "Системні служби"
+
+#: backend3/spamassassin:71
+msgid "SMTP transport status"
+msgstr "Стан SMTP-транспорту"
+
+#: backend3/spamassassin:72
+msgid "Spam filter mode"
+msgstr "Режим cпам-фільтрy"
+
+#: backend3/spamassassin:74
+msgid "Required score"
+msgstr "Граничне значення"
+
+#: backend3/spamassassin:75
+msgid "should be number"
+msgstr "має бути число"
+
+#: backend3/spamassassin:76
+msgid "Use automatic sender whitelist"
+msgstr "Використовувати автоматичний білий список за відправником"
+
+#: backend3/spamassassin:78 стандартный ввод:22 ввод:3
+msgid "Rule"
+msgstr "Правило"
+
+#: backend3/spamassassin:79 стандартный ввод:23 ввод:4
+msgid "Score"
+msgstr "Бали"
+
+#: backend3/spamassassin:86
+msgid "Off"
+msgstr "Вимкнений"
+
+#: backend3/spamassassin:87
+msgid "On, without content filter"
+msgstr "Ввімкнений, без фільтрy"
+
+#: backend3/spamassassin:88
+msgid "On, with content filter"
+msgstr "Ввімкнений, з фільтром"
+
+#: backend3/spamassassin:91
+msgid "Mark only"
+msgstr "Лише позначити"
+
+#: backend3/spamassassin:92
+msgid "Drop mail"
+msgstr "Видаляти пошту"
+
+#: стандартный ввод:1 ввод:11 ввод:20 ввод:7
+#: ввод:17
+msgid "Spam filter"
+msgstr "Спам-фільтр"
+
+#: стандартный ввод:2 ввод:8
+#, fuzzy
+msgid "start, stop or restart mail service"
+msgstr "завантажити, зупинити або перевантажити службу"
+
+#: стандартный ввод:3 ввод:9
+#, fuzzy
+msgid "start, stop or restart anti-spam service"
+msgstr "завантажити, зупинити або перевантажити службу"
+
+#: стандартный ввод:4 ввод:10
+msgid "SMTP transport status:"
+msgstr "Стан SMTP-транспорту:"
+
+#: стандартный ввод:5 ввод:11
+msgid "Required score:"
+msgstr "Граничне значення:"
+
+#: стандартный ввод:6 ввод:12
+#, fuzzy
+msgid "Setup rules and scores..."
+msgstr "Граничне значення"
+
+#: стандартный ввод:7 ввод:13
+msgid "Spam filter mode:"
+msgstr "Режим cпам-фільтрy:"
+
+#: стандартный ввод:8 ввод:14
+#, fuzzy
+msgid "Use automatic sender whitelist:"
+msgstr "Використовувати автоматичний білий список за відправником"
+
+#: стандартный ввод:12 ввод:21 ввод:2 ввод:18
+#, fuzzy
+msgid "Rules and scores"
+msgstr "Граничне значення"
+
+#: стандартный ввод:13 ввод:19
+msgid "Add rule"
 msgstr ""
 
-#: ui/std/base.scm:73
-#, fuzzy
-msgid "Question"
-msgstr "Призначення"
+#: стандартный ввод:14 ввод:20
+msgid "Rule:"
+msgstr "Правило:"
 
-#: ui/pkg/error/index.scm:7
+#: стандартный ввод:16 ввод:22
+msgid "Description:"
+msgstr "Опис:"
+
+#: стандартный ввод:17 ввод:23
+msgid "Score:"
+msgstr "Бали:"
+
+#: стандартный ввод:24 ввод:5
+msgid "Remove selected"
+msgstr ""
+
+#: стандартный ввод:25 ввод:6
+msgid "Add rule..."
+msgstr ""
+
+#: ui/pkg/upgrade/index.scm:35 стандартный ввод:3
+msgid "Check for updates"
+msgstr "Перевірити поновлення"
+
+#: ui/pkg/upgrade/index.scm:41 стандартный ввод:4
+msgid "Update system"
+msgstr "Поновити систему"
+
+#: ui/pkg/upgrade/index.scm:53 стандартный ввод:6
+#, fuzzy
+msgid "Continue"
+msgstr "З'єднання"
+
+#: ui/pkg/groups/index.scm:69
+#, lisp-format
+msgid "Has conflict with ~S"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:79
+#, fuzzy
+msgid "Required disk space"
+msgstr "Граничне значення"
+
+#: ui/pkg/groups/index.scm:85
+#, fuzzy
+msgid "calculating..."
+msgstr "Підрахунок поновлень...."
+
+#: ui/pkg/groups/index.scm:91
+msgid "unable to calculate"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:119
+#, fuzzy
+msgid "Select packages you want to install:"
+msgstr "Виберіть пакети для встановлення"
+
+#: ui/pkg/groups/index.scm:134 ui/pkg/install/index.scm:79
+msgid "Preparing..."
+msgstr "Підготовка до встановлення..."
+
+#: ui/pkg/groups/index.scm:154
+msgid "Please wait..."
+msgstr "Зачекайте, будь-ласка..."
+
+#: ui/pkg/install/index.scm:60
+msgid "Acquiring packages..."
+msgstr "Отримання пакетів..."
+
+#: ui/pkg/install/index.scm:66
+msgid "Installing packages..."
+msgstr "Встановлення пакетів..."
+
+#: ui/pkg/error/index.scm:5
 msgid "Critical error during install"
 msgstr ""
 
-#: ui/pkg/error/index.scm:8 ui/pkg/cdrom/index.scm:12
-#: ui/pkg/cdrom/index.scm:14
+#: ui/pkg/error/index.scm:6 ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11
 #, fuzzy
 msgid "Unknown"
 msgstr "Ввімкнути службу FTP"
 
-#: ui/pkg/error/index.scm:9 ui/pkg/cdrom/index.scm:15
+#: ui/pkg/error/index.scm:7 ui/pkg/cdrom/index.scm:12
 msgid "Press 'Next' button to continue"
 msgstr ""
 
-#: ui/pkg/sources/mirrors/index.scm:12
-#, fuzzy
-msgid "Repository:"
-msgstr "Монітор:"
-
-#: ui/pkg/sources/mirrors/index.scm:51 стандартный ввод:2
-#, fuzzy
-msgid "New source:"
-msgstr "вихідні"
-
-#: ui/pkg/sources/mirrors/index.scm:53 ui/pkg/register/index.scm:44
-#: стандартный ввод:3 ввод:15
-msgid "Add"
-msgstr "Додати"
-
-#: ui/pkg/sources/mirrors/index.scm:55 стандартный ввод:4
-#, fuzzy
-msgid "Available sources:"
-msgstr "Доступні режими"
-
 #.
-#: ui/pkg/sources/index.scm:25 стандартный ввод:7
+#: ui/pkg/sources/index.scm:23 стандартный ввод:7
 #, fuzzy
 msgid "Repositories:"
 msgstr "Монітор:"
 
-#: ui/pkg/sources/index.scm:32 стандартный ввод:9
+#: ui/pkg/sources/index.scm:30 стандартный ввод:9
 msgid "Source URI:"
 msgstr ""
 
-#: ui/pkg/sources/index.scm:34 стандартный ввод:10 ввод:8
-#: ui/html-messages.scm:3
-msgid "Change"
-msgstr "Змінити"
-
-#: ui/pkg/sources/index.scm:41 стандартный ввод:11
+#: ui/pkg/sources/index.scm:39 стандартный ввод:11
 msgid "Anvanced..."
 msgstr ""
 
-#: ui/pkg/install/index.scm:62
-msgid "Acquiring packages..."
-msgstr "Отримання пакетів..."
+#: ui/pkg/sources/mirrors/index.scm:10
+#, fuzzy
+msgid "Repository:"
+msgstr "Монітор:"
 
-#: ui/pkg/install/index.scm:68
-msgid "Installing packages..."
-msgstr "Встановлення пакетів..."
+#: ui/pkg/sources/mirrors/index.scm:49 стандартный ввод:13
+#, fuzzy
+msgid "New source:"
+msgstr "вихідні"
 
-#: ui/pkg/install/index.scm:81 ui/pkg/groups/index.scm:136
-msgid "Preparing..."
-msgstr "Підготовка до встановлення..."
+#: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42
+#: стандартный ввод:14 ввод:19
+msgid "Add"
+msgstr "Додати"
 
-#: ui/pkg/register/index.scm:28 стандартный ввод:12 ввод:3
+#: ui/pkg/sources/mirrors/index.scm:53 стандартный ввод:15
+#, fuzzy
+msgid "Available sources:"
+msgstr "Доступні режими"
+
+#: ui/pkg/sources/mirrors/index.scm:55 стандартный ввод:16
+#: ui/net-wifi/index.scm:133 ввод:14 ui/groups/index.scm:95
+msgid "Delete"
+msgstr "Видалити"
+
+#: ui/pkg/cdrom/index.scm:8 backend3/pkg-upgrade:135
+msgid "Please insert CDROM labeled as"
+msgstr "Будь-ласка, вставте CD-ROM з іменем"
+
+#: ui/pkg/cdrom/index.scm:10
+#, fuzzy
+msgid "Into drive"
+msgstr "В привід:"
+
+#: ui/pkg/register/index.scm:26 стандартный ввод:2
 #, fuzzy
 msgid "Additional disks"
 msgstr "Додатково будуть встановлені наступні пакети"
 
-#: ui/pkg/register/index.scm:33
+#: ui/pkg/register/index.scm:31
 msgid ""
 "If you have any additional CDs or DVDs for this distribution<br>\n"
 "please insert them one by one and press 'Add' button"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:71
-#, lisp-format
-msgid "Has conflict with ~S"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:81
-#, fuzzy
-msgid "Required disk space"
-msgstr "Граничне значення"
-
-#: ui/pkg/groups/index.scm:87
-#, fuzzy
-msgid "calculating..."
-msgstr "Підрахунок поновлень...."
-
-#: ui/pkg/groups/index.scm:93
-msgid "unable to calculate"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:121
-#, fuzzy
-msgid "Select packages you want to install:"
-msgstr "Виберіть пакети для встановлення"
-
-#: ui/pkg/groups/index.scm:156
-msgid "Please wait..."
-msgstr "Зачекайте, будь-ласка..."
-
-#: ui/pkg/cdrom/index.scm:11 backend3/pkg-upgrade:135
-msgid "Please insert CDROM labeled as"
-msgstr "Будь-ласка, вставте CD-ROM з іменем"
-
-#: ui/pkg/cdrom/index.scm:13
-#, fuzzy
-msgid "Into drive"
-msgstr "В привід:"
-
-#: ui/pkg/upgrade/index.scm:37 стандартный ввод:21
-msgid "Check for updates"
-msgstr "Перевірити поновлення"
-
-#: ui/pkg/upgrade/index.scm:43 стандартный ввод:22
-msgid "Update system"
-msgstr "Поновити систему"
-
-#: ui/pkg/upgrade/index.scm:55 стандартный ввод:24
-#, fuzzy
-msgid "Continue"
-msgstr "З'єднання"
+#: ui/pkg/register/index.scm:44 стандартный ввод:20
+#: ui/lilo/expert/index.scm:244
+msgid "Remove"
+msgstr "Видалити"
 
 #: backend3/pkg-register:62
 #, fuzzy
@@ -1850,563 +1751,1915 @@ msgstr ""
 msgid "No information available"
 msgstr ""
 
-#: стандартный ввод:1 ввод:6
+#: стандартный ввод:1
+msgid "Return"
+msgstr "Вернутися"
+
+#: стандартный ввод:2
+msgid "view full log of the latest operation"
+msgstr ""
+
+#: стандартный ввод:12 ввод:3
 msgid "Update sources"
 msgstr "Джерела поновлень"
 
-#: стандартный ввод:13
+#: стандартный ввод:17
 msgid ""
 "If you have any additional CDs or DVDs for this distribution\n"
 "    please insert them one by one and press \"Add\" button"
 msgstr ""
 
-#: стандартный ввод:17 ввод:19 ввод:2
+#: стандартный ввод:1
 msgid "Updates"
 msgstr "Поновлення"
 
-#: стандартный ввод:18 interfaces/guile/menu.scm:48
-msgid "Return"
-msgstr "Вернутися"
-
-#: стандартный ввод:20
-msgid "view full log of the latest operation"
-msgstr ""
-
-#: ui/dovecot/index.scm:33 стандартный ввод:3
+#: ui/xinetd/index.scm:13 ui/xinetd/index.scm:18 backend3/xinetd:108
+#: backend3/xinetd:109 ui/lilo/expert/index.scm:197
 #, fuzzy
-msgid "Supported protocols:"
-msgstr "Протоколи, що підтримуються"
+msgid "Common settings"
+msgstr "Поточні налаштування"
 
-#: ui/dovecot/index.scm:41 стандартный ввод:4
+#: ui/xinetd/index.scm:46 стандартный ввод:3
 #, fuzzy
-msgid "Auth mechanisms:"
-msgstr "Механізми автентифікації"
+msgid "internal service"
+msgstr "Ввімкнути службу FTP"
 
-#: ui/dovecot/index.scm:49 стандартный ввод:5
-msgid "(you can't disable all mechanisms)"
-msgstr ""
-
-#: ui/dovecot/index.scm:55 стандартный ввод:6
-msgid "Auth port for Postfix"
-msgstr "Порт служби автентифікації для Postfix"
-
-#: backend3/dovecot:29
-msgid "POP3"
-msgstr ""
-
-#: backend3/dovecot:30
-msgid "POP3 over TLS/SSL"
-msgstr "POP3 через TLS/SSL"
-
-#: backend3/dovecot:31
-msgid "IMAP4"
-msgstr ""
-
-#: backend3/dovecot:32
+#: ui/xinetd/index.scm:87 стандартный ввод:1
+#: ui/services/index.scm:38
 #, fuzzy
-msgid "IMAP4 over TLS/SSL"
-msgstr "IMAP4 через TLS/SSL"
+msgid "Services"
+msgstr ""
+"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  uk.po (alterator-spamassassin 0.1)  #-#-#-#-#\n"
+"Пристр??й"
 
-#: backend3/dovecot:35
-msgid "PLAIN"
+#: ui/xinetd/index.scm:91 ui/services/index.scm:42
+msgid ""
+"There are unsaved changes in the service settings. Do you want to apply "
+"these changes?"
 msgstr ""
 
-#: backend3/dovecot:36
-msgid "LOGIN"
+#: ui/xinetd/index.scm:108
+#, fuzzy
+msgid "Enable service"
+msgstr "Ввімкнути службу FTP"
+
+#: ui/xinetd/index.scm:112 стандартный ввод:5
+#, fuzzy
+msgid "User:"
+msgstr "Користувач"
+
+#: ui/xinetd/index.scm:116 стандартный ввод:6
+#: ui/groups/index.scm:85
+msgid "Group:"
 msgstr ""
 
-#: backend3/dovecot:37
-msgid "ANONYMOUS"
+#: ui/xinetd/index.scm:124 стандартный ввод:8
+#, fuzzy
+msgid "Server args:"
+msgstr "FTP сервер"
+
+#: ui/xinetd/index.scm:128 стандартный ввод:9
+msgid "Rlimit as:"
+msgstr ""
+
+#: ui/xinetd/index.scm:132 стандартный ввод:10
+#, fuzzy
+msgid "Instances:"
+msgstr "Інтерфейс"
+
+#: ui/xinetd/index.scm:136 стандартный ввод:11
+#, fuzzy
+msgid "Per source:"
+msgstr "вихідні"
+
+#: ui/xinetd/index.scm:140 стандартный ввод:12
+msgid "Only from:"
+msgstr ""
+
+#: ui/xinetd/index.scm:144 стандартный ввод:13
+msgid ""
+"This dialog changes only configuration file for xinetd. You must restart "
+"running xinetd to make it reread new configuration."
+msgstr ""
+
+#: стандартный ввод:14
+#, fuzzy
+msgid "Start, stop or restart xinetd"
+msgstr "завантажити, зупинити або перевантажити службу"
+
+#: backend3/xinetd:112
+msgid "This settings will be applied to services with undefined fields"
+msgstr ""
+
+#: backend3/xinetd:239 backend3/xinetd:303
+#, fuzzy
+msgid "Can't open file"
+msgstr "неможливо поновити базу груп"
+
+#: backend3/xinetd:240 backend3/xinetd:304
+#, fuzzy
+msgid "Can't open temporary file"
+msgstr "неможливо поновити базу паролів"
+
+#: backend3/xinetd:421
+#, fuzzy
+msgid "Unknown service"
+msgstr "Ввімкнути службу FTP"
+
+#: стандартный ввод:1
+#, fuzzy
+msgid "Xinetd server"
+msgstr "FTP сервер"
+
+#: ui/net-wifi/index.scm:106 стандартный ввод:3
+#, fuzzy
+msgid "Reconfigure interface"
+msgstr "Дозволити запис"
+
+#: ui/net-wifi/index.scm:115 стандартный ввод:5
+#, fuzzy
+msgid "Configured networks"
+msgstr "Дозволити запис"
+
+#: ui/net-wifi/index.scm:123 стандартный ввод:7
+#, fuzzy
+msgid "Enable"
+msgstr "Ввімкнено"
+
+#: ui/net-wifi/index.scm:124 стандартный ввод:8
+#, fuzzy
+msgid "Network name:"
+msgstr "робочу копію не знайдено"
+
+#: ui/net-wifi/index.scm:127 стандартный ввод:10
+#, fuzzy
+msgid "Change password:"
+msgstr "Адміністратор сервера"
+
+#: ui/net-wifi/index.scm:128 стандартный ввод:11
+#, fuzzy
+msgid "Encription:"
+msgstr "Опис:"
+
+#: ui/net-wifi/index.scm:136 стандартный ввод:15
+#, fuzzy
+msgid "Configure new network"
+msgstr "Дозволити запис"
+
+#: ui/net-wifi/index.scm:139 стандартный ввод:16
+#, fuzzy
+msgid "Networks found:"
+msgstr "робочу копію не знайдено"
+
+#: ui/net-wifi/index.scm:141 стандартный ввод:17
+msgid "Rescan"
+msgstr ""
+
+#: ui/net-wifi/index.scm:142 стандартный ввод:18
+#, fuzzy
+msgid "Configure"
+msgstr "З'єднання"
+
+#: backend3/net-wifi:133
+#, fuzzy
+msgid "Other network"
+msgstr "Інший постачальник..."
+
+#: backend3/net-wifi:161
+#, fuzzy
+msgid "No password"
+msgstr "Пароль"
+
+#: backend3/net-wifi:162
+#, fuzzy
+msgid "WEP Password"
+msgstr "Пароль"
+
+#: backend3/net-wifi:165
+msgid "WPA Personal (WPA-PSK)"
+msgstr ""
+
+#: backend3/net-wifi:166
+msgid "WPA2 Personal (WPA-PSK)"
+msgstr ""
+
+#: backend3/net-wifi:226
+#, fuzzy
+msgid "Connected to network"
+msgstr "Дозволити запис"
+
+#: backend3/net-wifi:227
+msgid "access point"
+msgstr ""
+
+#: backend3/net-wifi:230
+#, fuzzy
+msgid "Scanning..."
+msgstr "Підготовка до встановлення..."
+
+#: backend3/net-wifi:260
+#, fuzzy
+msgid "Current network"
+msgstr "Поточні налаштування"
+
+#: backend3/net-wifi:406
+#, fuzzy
+msgid "Network name"
+msgstr "робочу копію не знайдено"
+
+#: backend3/net-wifi:407
+msgid "Access point"
+msgstr ""
+
+#: backend3/net-wifi:408
+#, fuzzy
+msgid "Status"
+msgstr "Стан:"
+
+#. printf 'auth_type (label "%s" %s %s %s %s)\n' #			    "`_ "Security"`" #			    "$(print_excludes "nopasswd" key user pairwise eap)" #			    "$(print_excludes "wep" user pairwise eap)" #			    "$(print_excludes "wpa-psk" user eap)" #			    "$(print_excludes "wpa2-psk" user eap)"
+#: backend3/net-wifi:415
+#, fuzzy
+msgid "User name"
+msgstr "Користувач"
+
+#: backend3/net-wifi:416
+#, fuzzy
+msgid "Network key"
+msgstr "робочу копію не знайдено"
+
+#: backend3/net-wifi:417
+#, fuzzy
+msgid "Encryption"
+msgstr "Опис"
+
+#: backend3/net-wifi:418
+msgid "EAP method"
+msgstr ""
+
+#: backend3/net-wifi:434 backend3/net-wifi:460 backend3/net-wifi:470
+msgid "Not a wireless interface"
+msgstr ""
+
+#: backend3/net-wifi:479
+msgid "Password is too short"
+msgstr ""
+
+#: backend3/net-wifi:511
+msgid "Unable to create network"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "POP3/IMAP server"
-msgstr "POP3/IMAP сервер"
+msgid "Wi-Fi setup"
+msgstr ""
+
+#: ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:187
+#, fuzzy
+msgid "Don't install bootloader"
+msgstr "Встановити завантажувач в:"
+
+#: ui/lilo/edit-source/index.scm:27 ui/lilo/expert/index.scm:189
+#, fuzzy
+msgid "Simple mode"
+msgstr "Нормальний режим"
+
+#: ui/lilo/edit-source/index.scm:29 ui/lilo/index.scm:138
+#: ui/lilo/expert/index.scm:191
+#, fuzzy
+msgid "Expert mode"
+msgstr "Нормальний режим"
+
+#: ui/lilo/edit-source/index.scm:31 ui/lilo/expert/index.scm:192
+msgid "Edit lilo.conf"
+msgstr ""
+
+#: ui/lilo/edit-source/index.scm:37
+#, fuzzy
+msgid "Lilo options:"
+msgstr "Загальні налаштування"
+
+#: ui/lilo/index.scm:44
+#, fuzzy
+msgid "Hard drive"
+msgstr "Інший драйвер..."
+
+#: ui/lilo/index.scm:47
+#, fuzzy
+msgid "Linux partition"
+msgstr "Показувати підрозділи"
+
+#: ui/lilo/index.scm:56
+#, fuzzy
+msgid "partition"
+msgstr "Показувати підрозділи"
+
+#: ui/lilo/index.scm:113 ui/lilo/expert/index.scm:201
+#, fuzzy
+msgid "Install boot loader on:"
+msgstr "Встановити завантажувач в:"
+
+#: ui/lilo/index.scm:118
+msgid "Load other OS:"
+msgstr ""
+
+#: ui/lilo/index.scm:125
+#, fuzzy
+msgid "Load by default:"
+msgstr "по змовчуванню"
+
+#: ui/lilo/index.scm:128 ui/lilo/expert/index.scm:208
+#, fuzzy
+msgid "Interface timeout:"
+msgstr "інтерфейс піднято"
+
+#: ui/lilo/expert/index.scm:52
+#, fuzzy
+msgid "Other loader"
+msgstr "Інший драйвер..."
+
+#: ui/lilo/expert/index.scm:75
+msgid "Linux kernel"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:99 ui/lilo/expert/index.scm:109
+#: ui/lilo/expert/index.scm:120
+msgid "<NEW>"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:203
+msgid "Raid-extra-boot:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:206
+#, fuzzy
+msgid "Interface type:"
+msgstr "Інтерфейс"
+
+#: ui/lilo/expert/index.scm:211
+msgid "Common kernel parameters:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:216
+msgid "Boot variants"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:223
+#, fuzzy
+msgid "Label:"
+msgstr "Label:"
+
+#: ui/lilo/expert/index.scm:225
+msgid "Kernel image:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:226
+#, fuzzy
+msgid "Initrd:"
+msgstr "Initrd:"
+
+#: ui/lilo/expert/index.scm:227
+#, fuzzy
+msgid "Root device:"
+msgstr "Пристрій"
+
+#: ui/lilo/expert/index.scm:228
+#, fuzzy
+msgid "Additional parameters:"
+msgstr "Додатково будуть встановлені наступні пакети"
+
+#: ui/lilo/expert/index.scm:230
+#, fuzzy
+msgid "Device:"
+msgstr "Пристрій"
+
+#: ui/lilo/expert/index.scm:231
+msgid "Alias:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:232
+#, fuzzy
+msgid "Boot-as:"
+msgstr "Boot:"
+
+#: ui/lilo/expert/index.scm:233
+#, fuzzy
+msgid "Table:"
+msgstr "Ввімкнено"
+
+#: ui/lilo/expert/index.scm:239
+msgid "Set default"
+msgstr "Типово"
+
+#: ui/lilo/expert/index.scm:250
+msgid "Add Linux kernel"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:251
+#, fuzzy
+msgid "Add other loader"
+msgstr "Інший драйвер..."
+
+#: backend3/lilo:92
+msgid "Tb"
+msgstr ""
+
+#: backend3/lilo:93
+msgid "Gb"
+msgstr ""
+
+#: backend3/lilo:94
+msgid "Mb"
+msgstr ""
+
+#: backend3/lilo:95
+msgid "Kb"
+msgstr ""
+
+#: backend3/lilo:125
+msgid "failsafe"
+msgstr ""
+
+#: backend3/lilo:131
+#, fuzzy
+msgid "graphics"
+msgstr "Графічний дисплей"
+
+#: backend3/lilo:132
+#, fuzzy
+msgid "text"
+msgstr "Далі"
+
+#: backend3/lilo:136
+#, fuzzy
+msgid "none"
+msgstr "ні"
+
+#: backend3/lilo:137
+msgid "auto"
+msgstr ""
+
+#: backend3/lilo:138
+msgid "mbr"
+msgstr ""
+
+#: backend3/lilo:139
+msgid "mbr-only"
+msgstr ""
+
+#: backend3/lilo:142
+msgid "no wait"
+msgstr ""
+
+#: backend3/lilo:143
+msgid "1 second"
+msgstr ""
+
+#: backend3/lilo:144
+msgid "5 seconds"
+msgstr ""
+
+#: backend3/lilo:145
+msgid "10 seconds"
+msgstr ""
+
+#: backend3/lilo:146
+msgid "20 seconds"
+msgstr ""
+
+#: backend3/lilo:147
+msgid "1 minute"
+msgstr ""
+
+#: backend3/lilo:148
+msgid "infinite"
+msgstr ""
 
 #: стандартный ввод:1
+msgid "Bootloader (lilo)"
+msgstr ""
+
+#: ui/notes/release-notes.scm:7 стандартный ввод:1
+msgid "Release Notes"
+msgstr ""
+
+#: ui/notes/release-notes.scm:9
 #, fuzzy
-msgid "POP3/IMAP server (dovecot)"
-msgstr "POP3/IMAP сервер"
+msgid "Installation complete"
+msgstr "Встановлення пакетів..."
 
-#: ui/logs/index.scm:8 стандартный ввод:1 ui/logs/index.scm:27
-msgid "Logs:"
+#: ui/notes/license.scm:8 ui/license/index.scm:8
+msgid "Please take a moment to read the license agreement now."
 msgstr ""
 
-#: ui/logs/index.scm:16 стандартный ввод:5 ui/logs/index.scm:35
-msgid "First page"
+#: ui/notes/license.scm:10 ui/license/index.scm:10
+msgid "License file not found"
 msgstr ""
 
-#: ui/logs/index.scm:17 стандартный ввод:6 ui/logs/index.scm:36
-msgid "Last page"
+#: ui/notes/license.scm:15 ui/license/index.scm:15
+msgid "Yes, I agree"
 msgstr ""
 
-#: ui/logs/index.scm:19 стандартный ввод:7 ui/logs/index.scm:38
-msgid "Show:"
-msgstr ""
-
-#: backend3/logs:98
-msgid "Lines %s-%s of %s"
-msgstr ""
-
-#: backend3/logs:117
-msgid "10 lines"
-msgstr ""
-
-#: backend3/logs:118
-msgid "20 lines"
-msgstr ""
-
-#: backend3/logs:119
-msgid "50 lines"
-msgstr ""
-
-#: backend3/logs:120
-msgid "100 lines"
+#: backend3/notes:33
+msgid "File not found"
 msgstr ""
 
 #: стандартный ввод:2
-msgid "View"
+msgid "License"
 msgstr ""
 
-#: стандартный ввод:1
+#: ui/groups/index.scm:3
+msgid "Hide system groups"
+msgstr ""
+
+#: ui/groups/index.scm:4
 #, fuzzy
-msgid "System logs"
+msgid "Show system groups"
 msgstr "Системні об'єкти"
 
-#: ui/alternatives/index.scm:35 стандартный ввод:2
-#, fuzzy
-msgid "Alternatives:"
-msgstr "Альтернатива"
-
-#: ui/alternatives/index.scm:56 стандартный ввод:4
-#, fuzzy
-msgid "Candidates:"
-msgstr "Кандидат"
-
-#: ui/alternatives/index.scm:65 стандартный ввод:5
-msgid "Choose candidate manually"
+#: ui/groups/index.scm:5
+msgid "Hide empty groups"
 msgstr ""
 
-#: ui/alternatives/index.scm:70 стандартный ввод:6
-msgid ""
-"In most cases candidates selection works well automatically using weight "
-"written in their config file, but you can choose variant manually"
+#: ui/groups/index.scm:6
+msgid "Show empty groups"
+msgstr ""
+
+#: ui/groups/index.scm:20
+msgid "gid="
+msgstr ""
+
+#: ui/groups/index.scm:46
+msgid "groups in the list"
+msgstr ""
+
+#: ui/groups/index.scm:73
+#, fuzzy
+msgid "Add new group:"
+msgstr "Новий користувач:"
+
+#: ui/groups/index.scm:88
+#, fuzzy
+msgid "Users:"
+msgstr "Користувач"
+
+#: backend3/groups:47
+msgid "Can not add group"
+msgstr ""
+
+#: backend3/groups:55
+#, fuzzy
+msgid "Can not del group"
+msgstr "неможливо поновити базу груп"
+
+#: backend3/groups:99
+#, fuzzy
+msgid "Can't add user"
+msgstr "Новий користувач:"
+
+#: backend3/groups:111
+#, fuzzy
+msgid "Can't remove user"
+msgstr "неможливо видалити первинну групу користувача"
+
+#: стандартный ввод:1
+msgid "Groups"
+msgstr ""
+
+#: ui/services/index.scm:16
+#, fuzzy
+msgid "Current state:"
+msgstr "Поточні налаштування:"
+
+#: ui/services/index.scm:55
+#, fuzzy
+msgid "Change state:"
+msgstr "Змінити стан"
+
+#: ui/services/index.scm:61 стандартный ввод:4
+msgid "Start on boot"
+msgstr ""
+
+#. Get status information: stopped|running|unknown
+#. Usage string must be provided
+#. (srv usage)
+#: backend3/services:46
+msgid "unknown"
+msgstr ""
+
+#: backend3/services:50 backend3/services:115 backend3/services:116
+#, fuzzy
+msgid "stopped"
+msgstr "Зупинити"
+
+#: backend3/services:51 backend3/services:114
+msgid "running"
+msgstr ""
+
+#: backend3/services:113
+msgid "do not change"
+msgstr ""
+
+#: стандартный ввод:3
+msgid "Current state"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "Alternatives subsystem"
-msgstr "Альтернативи"
+msgid "System services"
+msgstr "Системні служби"
 
-#. cgi messages
-#: ui/messages.scm:2
-msgid "CGI Error"
-msgstr "Помилка CGI"
+#: backend2/constraints:35
+msgid "invalid hostname"
+msgstr "невірне ім'я машини"
 
-#: ui/messages.scm:3
-msgid "Unhandled exception:"
-msgstr "Необроблений виняток:"
+#: backend2/constraints:40
+msgid "invalid ipv4 address"
+msgstr "невірна ipv4 адреса"
 
-#: ui/messages.scm:4
-msgid "Unable to connect to configd service:"
-msgstr "Неможливо під'єднатися до сервера configd:"
+#: backend2/constraints:46
+msgid "doesn't match to pattern"
+msgstr "не відповідає шаблону"
 
-#: ui/html-messages.scm:1
-msgid "Help not found"
-msgstr "Довідкова інформація не знайдена"
-
-#: ui/html-messages.scm:2
-msgid "Loaded backends"
-msgstr "Завантажені бакенди"
-
-#: ui/html-messages.scm:4
-msgid "select all"
-msgstr "Виділити все"
-
-#: ui/html-messages.scm:5
-msgid "Unload selected"
-msgstr "Вивантажити виділені"
-
-#: ui/html-messages.scm:6
-msgid "will be automatically loaded on demand"
-msgstr "будуть автоматично завантажені при необхідності"
-
-#: ui/html-messages.scm:7 стандартный ввод:3 ui/acc/index.scm:6
-#: ui/acc/index.scm:90
-msgid "System management center"
-msgstr "Центр управления системы"
-
-#: backend2/index:55
-msgid "Title"
-msgstr "Назва"
-
-#: backend2/index:56 backend3/control:18
-msgid "Description"
-msgstr "Опис"
-
-#: backend2/workflow-card-index:94 backend2/workflow-card-index:100
-msgid "No objects found..."
-msgstr "Об'єкти не знайдено..."
-
-#: backend2/workflow-card-index:103 backend2/workflow-card-index:109
-msgid "Return to view"
-msgstr "Вернутися до перегляду"
-
-#: backend2/workflow-card-index:151 backend2/workflow-card-index:153
-msgid "Do you really want to delete "
-msgstr "Ви дійсно бажаєте видалити "
-
-#: backend2/workflow-card-index:158 backend2/workflow-card-index:163
-msgid "Unsupported mode"
-msgstr "Режим не підтримується"
-
-#: interfaces/guile/configd/html.scm:85 interfaces/guile/configd/html.scm:84
-msgid "Error"
-msgstr "Помилка"
-
-#: interfaces/guile/configd/html.scm:90 interfaces/guile/configd/html.scm:89
-msgid "Backend"
-msgstr "Бакенд"
-
-#: interfaces/guile/configd/html.scm:92 interfaces/guile/configd/html.scm:91
-msgid "XML Parser"
-msgstr "Парсер XML"
-
-#: interfaces/guile/configd/html.scm:94 interfaces/guile/configd/html.scm:93
-msgid "System error"
-msgstr "Системна помилка"
-
-#: interfaces/guile/menu.scm:99
-msgid "ALT Linux Console"
-msgstr "Консоль ALT Linux"
-
-#: backend3/template-ensign:10
-msgid "alterator-fbi"
-msgstr ""
-
-#: backend3/template-ensign:31
-msgid "Backends"
-msgstr "Бакенди"
-
-#: backend3/template-ensign:32
-msgid "Review and unload currently loaded backends"
-msgstr "Перегляд та вивантаження завантажених бакендів"
-
-#: html/fbi/scripts/constraints.js:97
-msgid "fields marked with an"
-msgstr "поля, що відмічені символом"
-
-#: html/fbi/scripts/constraints.js:99
-msgid "symbols are required"
-msgstr "обов'язкові"
-
-#: backend2/workflow-acc:92
-msgid "Mo"
-msgstr ""
-
-#: backend2/workflow-acc:93
-msgid "Tu"
-msgstr ""
-
-#: backend2/workflow-acc:94
-msgid "We"
-msgstr ""
-
-#: backend2/workflow-acc:95
-msgid "Th"
-msgstr ""
-
-#: backend2/workflow-acc:96
-msgid "Fr"
-msgstr ""
-
-#: backend2/workflow-acc:97
+#: backend2/constraints:53
 #, fuzzy
-msgid "Sa"
-msgstr ""
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Зберегти\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-
-#: backend2/workflow-acc:98
-msgid "Su"
-msgstr ""
-
-#: backend2/workflow-acc:100
-#, fuzzy
-msgid "January"
-msgstr ""
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"бінарні\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-
-#: backend2/workflow-acc:101
-msgid "February"
-msgstr ""
-
-#: backend2/workflow-acc:102
-msgid "March"
-msgstr ""
-
-#: backend2/workflow-acc:103
-#, fuzzy
-msgid "April"
-msgstr ""
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Застосувати\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-
-#: backend2/workflow-acc:104
-msgid "May"
-msgstr ""
-
-#: backend2/workflow-acc:105
-msgid "June"
-msgstr ""
-
-#: backend2/workflow-acc:106
-msgid "July"
-msgstr ""
-
-#: backend2/workflow-acc:107
-msgid "August"
-msgstr ""
-
-#: backend2/workflow-acc:108
-msgid "September"
-msgstr ""
-
-#: backend2/workflow-acc:109
-msgid "October"
-msgstr ""
-
-#: backend2/workflow-acc:110
-msgid "November"
-msgstr ""
-
-#: backend2/workflow-acc:111
-msgid "December"
-msgstr ""
-
-#: ui/sysconfig/kbd.scm:20 ui/sysconfig/kbd/index.scm:20
-msgid "Please select keyboard switch type:"
-msgstr "Виберіть варіант перемикання розкладки клавіатури:"
-
-#: ui/sysconfig/language.scm:37 ui/sysconfig/language/index.scm:37
-msgid "Select your language:"
-msgstr "Оберіть мову:"
-
-#: backend3/syskbd:14
-msgid "Alt+Shift key"
-msgstr "Клавіші ALT и Shift одночасно"
-
-#: backend3/syskbd:15
-msgid "CapsLock key"
-msgstr "Клавіша CapsLock"
-
-#: backend3/syskbd:16
-msgid "Control+Shift keys"
-msgstr "Клавіші Control и Shift одночасно UK,EN"
-
-#: backend3/syskbd:17
-msgid "Control key"
-msgstr "Клавіша Control"
-
-#: backend3/syskbd:18
-msgid "Alt key"
-msgstr "Клавіша Alt"
-
-#: backend3/syskbd:19
-msgid "Control+Shift keys (UK,RU,EN)"
-msgstr "Клавіші Control и Shift одночасно (UK,RU,EN)"
-
-#: backend3/syskbd:20
-msgid "Default"
-msgstr "По змовчуванню"
-
-#: backend3/syskbd:21 backend3/syskbd:22
-msgid "Without dead keys"
-msgstr "Без 'мертвих' клавіш"
-
-#: ui/control/html-messages.scm:1 ui/control/html-messages.scm:2
-#: стандартный ввод:1 ввод:2
-msgid "System objects"
-msgstr "Системні об'єкти"
-
-#: ui/control/html-messages.scm:4 стандартный ввод:4
-msgid "Update help"
-msgstr "Поновити довідку"
-
-#: ui/control/index.scm:30 backend3/control:21
-msgid "Facility"
-msgstr "Системний об'єкт"
-
-#: ui/control/index.scm:30 backend3/control:22
-msgid "Summary"
-msgstr "Коментар"
-
-#: backend3/control:17
-msgid "Available modes"
-msgstr "Доступні режими"
-
-#: backend3/control:77 backend3/control:74
-msgid "facility setup failed"
-msgstr "не вдалося встановити режим"
-
-#. ui replace
-#: ui/acc/index.scm:12
-msgid ""
-"There are unsaved changes in the active module.\n"
-"Do you want to apply the changes before running the new module\n"
-"or discard the changes?"
-msgstr ""
-"В поточному модулі є незбережені зміни.\n"
-"Прийняти зміни перед завантаженням нового модуля\n"
-"відхилити їх, чи залишитися в поточному модулі?"
-
-#. special values
-#: ui/acc/index.scm:26
-msgid "Module is locked"
-msgstr "Модуль заблокований"
-
-#: ui/acc/index.scm:91 ui/standalone/index.scm:14
-msgid "Press F1 for help"
-msgstr ""
-
-#: ui/standalone/index.scm:13
-msgid "Desktop file not found"
-msgstr ""
-
-#: backend3/net-pppoe:15
-msgid "connection failed"
-msgstr "з'єднання невдале"
-
-#: стандартный ввод:1
-msgid "PPPoE connections"
-msgstr "PPPoE-з'єднання"
-
-#: ui/root/index.scm:26 стандартный ввод:2
-msgid "Setup password for system administrator:"
-msgstr ""
-
-#: backend3/root:25 backend3/root:29
-msgid "You should define a password for system administrator"
-msgstr ""
-
-#: стандартный ввод:1
-#, fuzzy
-msgid "System administrator"
-msgstr "Керування системними користувачами"
-
-#: backend3/spamassassin:71
-msgid "SMTP transport status"
-msgstr "Стан SMTP-транспорту"
-
-#: backend3/spamassassin:72
-msgid "Spam filter mode"
-msgstr "Режим cпам-фільтрy"
-
-#: backend3/spamassassin:74
-msgid "Required score"
-msgstr "Граничне значення"
-
-#: backend3/spamassassin:75
-msgid "should be number"
+msgid "should be one of:"
 msgstr "має бути число"
 
-#: backend3/spamassassin:76
-msgid "Use automatic sender whitelist"
-msgstr "Використовувати автоматичний білий список за відправником"
-
-#: backend3/spamassassin:78 стандартный ввод:22 ввод:12
-msgid "Rule"
-msgstr "Правило"
-
-#: backend3/spamassassin:79 стандартный ввод:23 ввод:13
-msgid "Score"
-msgstr "Бали"
-
-#: backend3/spamassassin:86
-msgid "Off"
-msgstr "Вимкнений"
-
-#: backend3/spamassassin:87
-msgid "On, without content filter"
-msgstr "Ввімкнений, без фільтрy"
-
-#: backend3/spamassassin:88
-msgid "On, with content filter"
-msgstr "Ввімкнений, з фільтром"
-
-#: backend3/spamassassin:91
-msgid "Mark only"
-msgstr "Лише позначити"
-
-#: backend3/spamassassin:92
-msgid "Drop mail"
-msgstr "Видаляти пошту"
-
-#: стандартный ввод:1 ввод:11 ввод:20 ввод:10
-#: ввод:16
-msgid "Spam filter"
-msgstr "Спам-фільтр"
-
-#: стандартный ввод:2 ввод:17
-#, fuzzy
-msgid "start, stop or restart mail service"
-msgstr "завантажити, зупинити або перевантажити службу"
-
-#: стандартный ввод:3 ввод:18
-#, fuzzy
-msgid "start, stop or restart anti-spam service"
-msgstr "завантажити, зупинити або перевантажити службу"
-
-#: стандартный ввод:4 ввод:19
-msgid "SMTP transport status:"
-msgstr "Стан SMTP-транспорту:"
-
-#: стандартный ввод:5 ввод:20
-msgid "Required score:"
-msgstr "Граничне значення:"
-
-#: стандартный ввод:6 ввод:21
-#, fuzzy
-msgid "Setup rules and scores..."
-msgstr "Граничне значення"
-
-#: стандартный ввод:7 ввод:22
-msgid "Spam filter mode:"
-msgstr "Режим cпам-фільтрy:"
-
-#: стандартный ввод:8 ввод:23
-#, fuzzy
-msgid "Use automatic sender whitelist:"
-msgstr "Використовувати автоматичний білий список за відправником"
-
-#: стандартный ввод:12 ввод:21 ввод:2 ввод:11
-#, fuzzy
-msgid "Rules and scores"
-msgstr "Граничне значення"
-
-#: стандартный ввод:13 ввод:3
-msgid "Add rule"
+#: backend2/constraints:58
+msgid "values not equal"
 msgstr ""
 
-#: стандартный ввод:14 ввод:4
-msgid "Rule:"
-msgstr "Правило:"
+#: backend2/constraints:61
+msgid "required, but missing"
+msgstr "пропущений обов'язковий параметр"
 
-#: стандартный ввод:16 ввод:6
-msgid "Description:"
-msgstr "Опис:"
+#: backend2/constraints:133
+msgid "Constraints failed:"
+msgstr "Обмеження невірне:"
 
-#: стандартный ввод:17 ввод:7
-msgid "Score:"
-msgstr "Бали:"
-
-#: стандартный ввод:24 ввод:14
-msgid "Remove selected"
+#: interfaces/guile/ensign/ensign.scm:20
+msgid "Backend live time (in hours)"
 msgstr ""
 
-#: стандартный ввод:25 ввод:15
-msgid "Add rule..."
-msgstr ""
+#: interfaces/guile/ensign/ensign.scm:21
+#, fuzzy
+msgid "should be digits"
+msgstr "має бути число"
+
+#~ msgid "Service"
+#~ msgstr "Служба"
+
+#, fuzzy
+#~ msgid "Server args"
+#~ msgstr "FTP сервер"
+
+#, fuzzy
+#~ msgid "Instances"
+#~ msgstr "Інтерфейс"
+
+#, fuzzy
+#~ msgid "Per source"
+#~ msgstr "вихідні"
+
+#, fuzzy
+#~ msgid "Country"
+#~ msgstr "Країна (C):"
+
+#~ msgid "Graphic display"
+#~ msgstr "Графічний дисплей"
+
+#~ msgid "CGI Error"
+#~ msgstr "Помилка CGI"
+
+#~ msgid "Unhandled exception:"
+#~ msgstr "Необроблений виняток:"
+
+#~ msgid "Unable to connect to configd service:"
+#~ msgstr "Неможливо під'єднатися до сервера configd:"
+
+#~ msgid "Help not found"
+#~ msgstr "Довідкова інформація не знайдена"
+
+#~ msgid "Loaded backends"
+#~ msgstr "Завантажені бакенди"
+
+#~ msgid "select all"
+#~ msgstr "Виділити все"
+
+#~ msgid "Unload selected"
+#~ msgstr "Вивантажити виділені"
+
+#~ msgid "will be automatically loaded on demand"
+#~ msgstr "будуть автоматично завантажені при необхідності"
+
+#~ msgid "Title"
+#~ msgstr "Назва"
+
+#~ msgid "ALT Linux Console"
+#~ msgstr "Консоль ALT Linux"
+
+#~ msgid "Backends"
+#~ msgstr "Бакенди"
+
+#~ msgid "Review and unload currently loaded backends"
+#~ msgstr "Перегляд та вивантаження завантажених бакендів"
+
+#~ msgid "fields marked with an"
+#~ msgstr "поля, що відмічені символом"
+
+#~ msgid "symbols are required"
+#~ msgstr "обов'язкові"
+
+#~ msgid "System objects"
+#~ msgstr "Системні об'єкти"
+
+#~ msgid "Africa/Abidjan"
+#~ msgstr "Африка/Абіджан"
+
+#~ msgid "Africa/Accra"
+#~ msgstr "Африка/Аккра"
+
+#~ msgid "Africa/Addis_Ababa"
+#~ msgstr "Африка/Аддис-Абеба"
+
+#~ msgid "Africa/Algiers"
+#~ msgstr "Африка/Алжир"
+
+#~ msgid "Africa/Asmera"
+#~ msgstr "Африка/Асмера"
+
+#~ msgid "Africa/Bamako"
+#~ msgstr "Африка/Бамако"
+
+#~ msgid "Africa/Bangui"
+#~ msgstr "Африка/Бангі"
+
+#~ msgid "Africa/Banjul"
+#~ msgstr "Африка/Банхул"
+
+#~ msgid "Africa/Bissau"
+#~ msgstr "Африка/Бісау"
+
+#~ msgid "Africa/Blantyre"
+#~ msgstr "Африка/Блантайр"
+
+#~ msgid "Africa/Brazzaville"
+#~ msgstr "Африка/Браззавіль"
+
+#~ msgid "Africa/Bujumbura"
+#~ msgstr "Африка/Буюмбура"
+
+#~ msgid "Africa/Cairo"
+#~ msgstr "Африка/Каїр"
+
+#~ msgid "Africa/Casablanca"
+#~ msgstr "Африка/Касабланка"
+
+#~ msgid "Africa/Ceuta"
+#~ msgstr "Африка/Сеюта"
+
+#~ msgid "Africa/Conakry"
+#~ msgstr "Африка/Конакрі"
+
+#~ msgid "Africa/Dakar"
+#~ msgstr "Африка/Дакар"
+
+#~ msgid "Africa/Dar_es_Salaam"
+#~ msgstr "Африка/Дар-ес-Салам"
+
+#~ msgid "Africa/Djibouti"
+#~ msgstr "Африка/Джибуті"
+
+#~ msgid "Africa/Douala"
+#~ msgstr "Африка/Дуала"
+
+#~ msgid "Africa/El_Aaiun"
+#~ msgstr "Африка/Ель-Аюн"
+
+#~ msgid "Africa/Freetown"
+#~ msgstr "Африка/Фритаун"
+
+#~ msgid "Africa/Gaborone"
+#~ msgstr "Африка/Габороне"
+
+#~ msgid "Africa/Harare"
+#~ msgstr "Африка/Хараре"
+
+#~ msgid "Africa/Johannesburg"
+#~ msgstr "Африка/Йоганесбург"
+
+#~ msgid "Africa/Kampala"
+#~ msgstr "Африка/Кампала"
+
+#~ msgid "Africa/Khartoum"
+#~ msgstr "Африка/Хартум"
+
+#~ msgid "Africa/Kigali"
+#~ msgstr "Африка/Кіґалі"
+
+#~ msgid "Africa/Kinshasa"
+#~ msgstr "Африка/Кіншаса"
+
+#~ msgid "Africa/Lagos"
+#~ msgstr "Африка/Лагос"
+
+#~ msgid "Africa/Libreville"
+#~ msgstr "Африка/Лібревіль"
+
+#~ msgid "Africa/Lome"
+#~ msgstr "Африка/Ломе"
+
+#~ msgid "Africa/Luanda"
+#~ msgstr "Африка/Луанда"
+
+#~ msgid "Africa/Lubumbashi"
+#~ msgstr "Африка/Любумбаши"
+
+#~ msgid "Africa/Lusaka"
+#~ msgstr "Африка/Лусака"
+
+#~ msgid "Africa/Malabo"
+#~ msgstr "Африка/Малабо"
+
+#~ msgid "Africa/Maputo"
+#~ msgstr "Африка/Мапуто"
+
+#~ msgid "Africa/Maseru"
+#~ msgstr "Африка/Масеру"
+
+#~ msgid "Africa/Mbabane"
+#~ msgstr "Африка/Мбабане"
+
+#~ msgid "Africa/Mogadishu"
+#~ msgstr "Африка/Могадішу"
+
+#~ msgid "Africa/Monrovia"
+#~ msgstr "Африка/Монровія"
+
+#~ msgid "Africa/Nairobi"
+#~ msgstr "Африка/Найробі"
+
+#~ msgid "Africa/Ndjamena"
+#~ msgstr "Африка/Нджамена"
+
+#~ msgid "Africa/Niamey"
+#~ msgstr "Африка/Ніамей"
+
+#~ msgid "Africa/Nouakchott"
+#~ msgstr "Африка/Нуакшот"
+
+#~ msgid "Africa/Ouagadougou"
+#~ msgstr "Африка/Угадугу"
+
+#~ msgid "Africa/Porto-Novo"
+#~ msgstr "Африка/Порто-Ново"
+
+#~ msgid "Africa/Sao_Tome"
+#~ msgstr "Африка/Сан-Томе"
+
+#~ msgid "Africa/Timbuktu"
+#~ msgstr "Африка/Тімбукту"
+
+#~ msgid "Africa/Tripoli"
+#~ msgstr "Африка/Триполі"
+
+#~ msgid "Africa/Tunis"
+#~ msgstr "Африка/Туніс"
+
+#~ msgid "Africa/Windhoek"
+#~ msgstr "Африка/Віндхук"
+
+#~ msgid "America/Adak"
+#~ msgstr "Америка/Адак"
+
+#~ msgid "America/Anchorage"
+#~ msgstr "Америка/Анкорідж"
+
+#~ msgid "America/Anguilla"
+#~ msgstr "Америка/Ангілья"
+
+#~ msgid "America/Antigua"
+#~ msgstr "Америка/Антигуа"
+
+#~ msgid "America/Araguaina"
+#~ msgstr "Америка/Арагуаяна"
+
+#~ msgid "America/Argentina/Buenos_Aires"
+#~ msgstr "Америка/Аргентина/Буенос-Айрес"
+
+#~ msgid "America/Argentina/Catamarca"
+#~ msgstr "Америка/Аргентина/Катамарка"
+
+#~ msgid "America/Argentina/ComodRivadavia"
+#~ msgstr "Америка/Аргентина/Комод-Рівадавія"
+
+#~ msgid "America/Argentina/Cordoba"
+#~ msgstr "Америка/Аргентина/Кордоба"
+
+#~ msgid "America/Argentina/Jujuy"
+#~ msgstr "Америка/Аргентина/Хухуй"
+
+#~ msgid "America/Argentina/La_Rioja"
+#~ msgstr "Америка/Аргентина/Ла-Ріоя"
+
+#~ msgid "America/Argentina/Mendoza"
+#~ msgstr "Америка/Аргентина/Мендоза"
+
+#~ msgid "America/Argentina/Rio_Gallegos"
+#~ msgstr "Америка/Аргентина/Ріо-Ґалеґос"
+
+#~ msgid "America/Argentina/San_Juan"
+#~ msgstr "Америка/Аргентина/Сан-Хуан"
+
+#~ msgid "America/Argentina/Tucuman"
+#~ msgstr "Америка/Аргентина/Тукуман"
+
+#~ msgid "America/Argentina/Ushuaia"
+#~ msgstr "Америка/Аргентина/Ушуая"
+
+#~ msgid "America/Aruba"
+#~ msgstr "Америка/Аруба"
+
+#~ msgid "America/Asuncion"
+#~ msgstr "Америка/Асунсіон"
+
+#~ msgid "America/Bahia"
+#~ msgstr "Америка/Бахія"
+
+#~ msgid "America/Barbados"
+#~ msgstr "Америка/Барбадос"
+
+#~ msgid "America/Belem"
+#~ msgstr "Америка/Белем"
+
+#~ msgid "America/Belize"
+#~ msgstr "Америка/Беліз"
+
+#~ msgid "America/Boa_Vista"
+#~ msgstr "Америка/Боавішта"
+
+#~ msgid "America/Bogota"
+#~ msgstr "Америка/Богота"
+
+#~ msgid "America/Boise"
+#~ msgstr "Америка/Бойзі"
+
+#~ msgid "America/Buenos_Aires"
+#~ msgstr "Америка/Буенос-Айрес"
+
+#~ msgid "America/Cambridge_Bay"
+#~ msgstr "Америка/Кембрідж-Бей"
+
+#~ msgid "America/Campo_Grande"
+#~ msgstr "Америка/Кампо Гранд"
+
+#~ msgid "America/Cancun"
+#~ msgstr "Америка/Канкун"
+
+#~ msgid "America/Caracas"
+#~ msgstr "Америка/Каракас"
+
+#~ msgid "America/Catamarca"
+#~ msgstr "Америка/Катамарка"
+
+#~ msgid "America/Cayenne"
+#~ msgstr "Америка/Каєнна"
+
+#~ msgid "America/Cayman"
+#~ msgstr "Америка/Кайманові острови"
+
+#~ msgid "America/Chicago"
+#~ msgstr "Америка/Чикаго"
+
+#~ msgid "America/Chihuahua"
+#~ msgstr "Америка/Чівава"
+
+#~ msgid "America/Cordoba"
+#~ msgstr "Америка/Кордоба"
+
+#~ msgid "America/Costa_Rica"
+#~ msgstr "Америка/Коста-Ріка"
+
+#~ msgid "America/Cuiaba"
+#~ msgstr "Америка/Куяба"
+
+#~ msgid "America/Curacao"
+#~ msgstr "Америка/Куракао"
+
+#~ msgid "America/Danmarkshavn"
+#~ msgstr "Америка/Данмаркшовн"
+
+#~ msgid "America/Dawson"
+#~ msgstr "Америка/Довсон"
+
+#~ msgid "America/Dawson_Creek"
+#~ msgstr "Америка/Довсон-Крік"
+
+#~ msgid "America/Denver"
+#~ msgstr "Америка/Денвер"
+
+#~ msgid "America/Detroit"
+#~ msgstr "Америка/Детройт"
+
+#~ msgid "America/Dominica"
+#~ msgstr "Америка/Домініка"
+
+#~ msgid "America/Edmonton"
+#~ msgstr "Америка/Едмонтон"
+
+#~ msgid "America/Eirunepe"
+#~ msgstr "Америка/Ірунепе"
+
+#~ msgid "America/El_Salvador"
+#~ msgstr "Америка/Ель-Сальвадор"
+
+#~ msgid "America/Fortaleza"
+#~ msgstr "Америка/Форталецца"
+
+#~ msgid "America/Glace_Bay"
+#~ msgstr "Америка/Глейс-Бей"
+
+#~ msgid "America/Godthab"
+#~ msgstr "Америка/Ґодтаб"
+
+#~ msgid "America/Goose_Bay"
+#~ msgstr "Америка/Гуз-Бей"
+
+#~ msgid "America/Grand_Turk"
+#~ msgstr "Америка/Град-Тюрк"
+
+#~ msgid "America/Grenada"
+#~ msgstr "Америка/Гренада"
+
+#~ msgid "America/Guadeloupe"
+#~ msgstr "Америка/Гваделупа"
+
+#~ msgid "America/Guatemala"
+#~ msgstr "Америка/Гватемала"
+
+#~ msgid "America/Guayaquil"
+#~ msgstr "Америка/Гуаякіль"
+
+#~ msgid "America/Guyana"
+#~ msgstr "Америка/Гайяна"
+
+#~ msgid "America/Halifax"
+#~ msgstr "Америка/Галіфакс"
+
+#~ msgid "America/Havana"
+#~ msgstr "Америка/Гавана"
+
+#~ msgid "America/Hermosillo"
+#~ msgstr "Америка/Хермосілло"
+
+#~ msgid "America/Indiana/Knox"
+#~ msgstr "Америка/Індіана/Нокс"
+
+#~ msgid "America/Indiana/Marengo"
+#~ msgstr "Америка/Індіана/Маренґо"
+
+#~ msgid "America/Indiana/Vevay"
+#~ msgstr "Америка/Індіана/Вевей"
+
+#~ msgid "America/Indianapolis"
+#~ msgstr "Америка/Індіанаполіс"
+
+#~ msgid "America/Inuvik"
+#~ msgstr "Америка/Інувік"
+
+#~ msgid "America/Iqaluit"
+#~ msgstr "Америка/Ікалуіт"
+
+#~ msgid "America/Jamaica"
+#~ msgstr "Америка/Ямайка"
+
+#~ msgid "America/Jujuy"
+#~ msgstr "Америка/Хухуй"
+
+#~ msgid "America/Juneau"
+#~ msgstr "Америка/Джуно"
+
+#~ msgid "America/Kentucky/Monticello"
+#~ msgstr "Америка/Кентуки/Монтіселло"
+
+#~ msgid "America/La_Paz"
+#~ msgstr "Америка/Ла-Паз"
+
+#~ msgid "America/Lima"
+#~ msgstr "Америка/Ліма"
+
+#~ msgid "America/Los_Angeles"
+#~ msgstr "Америка/Лос-Анжелес"
+
+#~ msgid "America/Louisville"
+#~ msgstr "Америка/Луізвіль"
+
+#~ msgid "America/Maceio"
+#~ msgstr "Америка/Масао"
+
+#~ msgid "America/Managua"
+#~ msgstr "Америка/Манагуа"
+
+#~ msgid "America/Manaus"
+#~ msgstr "Америка/Манаус"
+
+#~ msgid "America/Martinique"
+#~ msgstr "Америка/Мартінік"
+
+#~ msgid "America/Mazatlan"
+#~ msgstr "Америка/Мазатлан"
+
+#~ msgid "America/Mendoza"
+#~ msgstr "Америка/Мендоза"
+
+#~ msgid "America/Menominee"
+#~ msgstr "Америка/Меноміні"
+
+#~ msgid "America/Merida"
+#~ msgstr "Америка/Меріда"
+
+#~ msgid "America/Mexico_City"
+#~ msgstr "Америка/Мехіко"
+
+#~ msgid "America/Miquelon"
+#~ msgstr "Америка/Мікелон"
+
+#~ msgid "America/Monterrey"
+#~ msgstr "Америка/Монтерей"
+
+#~ msgid "America/Montevideo"
+#~ msgstr "Америка/Монтевідео"
+
+#~ msgid "America/Montreal"
+#~ msgstr "Америка/Монреаль"
+
+#~ msgid "America/Montserrat"
+#~ msgstr "Америка/Монсеррат"
+
+#~ msgid "America/Nassau"
+#~ msgstr "Америка/Насау"
+
+#~ msgid "America/New_York"
+#~ msgstr "Америка/Нью-Йорк"
+
+#~ msgid "America/Nipigon"
+#~ msgstr "Америка/Ніпігон"
+
+#~ msgid "America/Nome"
+#~ msgstr "Америка/Ном"
+
+#~ msgid "America/Noronha"
+#~ msgstr "Америка/Норонга"
+
+#~ msgid "America/North_Dakota/Center"
+#~ msgstr "Америка/Північна Дакота/Центр"
+
+#~ msgid "America/Panama"
+#~ msgstr "Америка/Панама"
+
+#~ msgid "America/Pangnirtung"
+#~ msgstr "Америка/Пангніртунг"
+
+#~ msgid "America/Paramaribo"
+#~ msgstr "Америка/Парамарібо"
+
+#~ msgid "America/Phoenix"
+#~ msgstr "Америка/Фенікс"
+
+#~ msgid "America/Port-au-Prince"
+#~ msgstr "Америка/Порт-о-Пренс"
+
+#~ msgid "America/Port_of_Spain"
+#~ msgstr "Америка/Порт-оф-Спейн"
+
+#~ msgid "America/Porto_Velho"
+#~ msgstr "Америка/Порто-Велго"
+
+#~ msgid "America/Puerto_Rico"
+#~ msgstr "Америка/Пуерто-Ріко"
+
+#~ msgid "America/Rainy_River"
+#~ msgstr "Америка/Рейні-Ривер"
+
+#~ msgid "America/Rankin_Inlet"
+#~ msgstr "Америка/Ранклін-Інлет"
+
+#~ msgid "America/Recife"
+#~ msgstr "Америка/Ресіфі"
+
+#~ msgid "America/Regina"
+#~ msgstr "Америка/Режина"
+
+#~ msgid "America/Rio_Branco"
+#~ msgstr "Америка/Ріо-Бранко"
+
+#~ msgid "America/Rosario"
+#~ msgstr "Америка/Розаріо"
+
+#~ msgid "America/Santiago"
+#~ msgstr "Америка/Сантьяго"
+
+#~ msgid "America/Santo_Domingo"
+#~ msgstr "Америка/Санто-Домінго"
+
+#~ msgid "America/Sao_Paulo"
+#~ msgstr "Америка/Сан-Паулу"
+
+#~ msgid "America/Scoresbysund"
+#~ msgstr "Америка/Скорсбайзунд"
+
+#~ msgid "America/Shiprock"
+#~ msgstr "Америка/Шіпрок"
+
+#~ msgid "America/St_Johns"
+#~ msgstr "Америка/Сент-Джонс"
+
+#~ msgid "America/St_Kitts"
+#~ msgstr "Америка/Сент-Кітс"
+
+#~ msgid "America/St_Lucia"
+#~ msgstr "Америка/Санта-Лючія"
+
+#~ msgid "America/St_Thomas"
+#~ msgstr "Америка/Сент-Томас"
+
+#~ msgid "America/St_Vincent"
+#~ msgstr "Америка/Сент-Вісент"
+
+#~ msgid "America/Swift_Current"
+#~ msgstr "Америка/Свіфт-Карент"
+
+#~ msgid "America/Tegucigalpa"
+#~ msgstr "Америка/Тегусігальпа"
+
+#~ msgid "America/Thule"
+#~ msgstr "Америка/Сул"
+
+#~ msgid "America/Thunder_Bay"
+#~ msgstr "Америка/Сандер-Бей"
+
+#~ msgid "America/Tijuana"
+#~ msgstr "Америка/Тіхуана"
+
+#~ msgid "America/Toronto"
+#~ msgstr "Америка/Торонто"
+
+#~ msgid "America/Tortola"
+#~ msgstr "Америка/Тортола"
+
+#~ msgid "America/Vancouver"
+#~ msgstr "Америка/Ванкувер"
+
+#~ msgid "America/Whitehorse"
+#~ msgstr "Америка/Вайтхорс"
+
+#~ msgid "America/Winnipeg"
+#~ msgstr "Америка/Вінніпег"
+
+#~ msgid "America/Yakutat"
+#~ msgstr "Америка/Якутат"
+
+#~ msgid "America/Yellowknife"
+#~ msgstr "Америка/Єллоунайф"
+
+#~ msgid "Antarctica/Casey"
+#~ msgstr "Антарктика/Кесі"
+
+#~ msgid "Antarctica/Davis"
+#~ msgstr "Антарктика/Девіс"
+
+#~ msgid "Antarctica/DumontDUrville"
+#~ msgstr "Антарктика/Дюмон-Д'Урвіль"
+
+#~ msgid "Antarctica/Mawson"
+#~ msgstr "Антарктика/Мовсон"
+
+#~ msgid "Antarctica/McMurdo"
+#~ msgstr "Антарктика/Макмердо"
+
+#~ msgid "Antarctica/Palmer"
+#~ msgstr "Антарктика/Палмер"
+
+#~ msgid "Antarctica/Rothera"
+#~ msgstr "Антарктика/Ротера"
+
+#~ msgid "Antarctica/South_Pole"
+#~ msgstr "Антарктика/Південний полюс"
+
+#~ msgid "Antarctica/Syowa"
+#~ msgstr "Антарктика/Суйова"
+
+#~ msgid "Antarctica/Vostok"
+#~ msgstr "Антарктика/Восток"
+
+#~ msgid "Arctic/Longyearbyen"
+#~ msgstr "Арктика/Лонг'єрб'єн"
+
+#~ msgid "Asia/Aden"
+#~ msgstr "Азія/Аден"
+
+#~ msgid "Asia/Almaty"
+#~ msgstr "Азія/Алмати"
+
+#~ msgid "Asia/Amman"
+#~ msgstr "Азія/Амман"
+
+#~ msgid "Asia/Anadyr"
+#~ msgstr "Азія/Анадир"
+
+#~ msgid "Asia/Aqtau"
+#~ msgstr "Азія/Актау"
+
+#~ msgid "Asia/Aqtobe"
+#~ msgstr "Азія/Актобе (Актюбинськ)"
+
+#~ msgid "Asia/Ashgabat"
+#~ msgstr "Азія/Ашгабад"
+
+#~ msgid "Asia/Baghdad"
+#~ msgstr "Азія/Багдад"
+
+#~ msgid "Asia/Bahrain"
+#~ msgstr "Азія/Бахрейн"
+
+#~ msgid "Asia/Baku"
+#~ msgstr "Азія/Баку"
+
+#~ msgid "Asia/Bangkok"
+#~ msgstr "Азія/Бангкок"
+
+#~ msgid "Asia/Beirut"
+#~ msgstr "Азія/Бейрут"
+
+#~ msgid "Asia/Bishkek"
+#~ msgstr "Азія/Бішкек"
+
+#~ msgid "Asia/Brunei"
+#~ msgstr "Азія/Бруней"
+
+#~ msgid "Asia/Calcutta"
+#~ msgstr "Азія/Калькутта"
+
+#~ msgid "Asia/Choibalsan"
+#~ msgstr "Азія/Чойлбалсан"
+
+#~ msgid "Asia/Chongqing"
+#~ msgstr "Азія/Чонкін"
+
+#~ msgid "Asia/Colombo"
+#~ msgstr "Азія/Коломбо"
+
+#~ msgid "Asia/Damascus"
+#~ msgstr "Азія/Дамаск"
+
+#~ msgid "Asia/Dhaka"
+#~ msgstr "Азія/Дакка"
+
+#~ msgid "Asia/Dili"
+#~ msgstr "Азія/Ділі"
+
+#~ msgid "Asia/Dubai"
+#~ msgstr "Азія/Дубаї"
+
+#~ msgid "Asia/Dushanbe"
+#~ msgstr "Азія/Душанбе"
+
+#~ msgid "Asia/Gaza"
+#~ msgstr "Азія/Ґаза"
+
+#~ msgid "Asia/Harbin"
+#~ msgstr "Азія/Харбін"
+
+#~ msgid "Asia/Hong_Kong"
+#~ msgstr "Азія/Гонконг(Сянган)"
+
+#~ msgid "Asia/Hovd"
+#~ msgstr "Азія/Ховд"
+
+#~ msgid "Asia/Irkutsk"
+#~ msgstr "Азія/Іркутськ"
+
+#~ msgid "Asia/Jakarta"
+#~ msgstr "Азія/Джакарта"
+
+#~ msgid "Asia/Jayapura"
+#~ msgstr "Азія/Джаяпура"
+
+#~ msgid "Asia/Jerusalem"
+#~ msgstr "Азія/Єрусалим"
+
+#~ msgid "Asia/Kabul"
+#~ msgstr "Азія/Кабул"
+
+#~ msgid "Asia/Kamchatka"
+#~ msgstr "Азія/Камчатка"
+
+#~ msgid "Asia/Karachi"
+#~ msgstr "Азія/Карачі"
+
+#~ msgid "Asia/Kashgar"
+#~ msgstr "Азія/Кашгар"
+
+#~ msgid "Asia/Katmandu"
+#~ msgstr "Азія/Катманду"
+
+#~ msgid "Asia/Krasnoyarsk"
+#~ msgstr "Азія/Красноярськ"
+
+#~ msgid "Asia/Kuala_Lumpur"
+#~ msgstr "Азія/Куала-Лумпур"
+
+#~ msgid "Asia/Kuching"
+#~ msgstr "Азія/Кучінг"
+
+#~ msgid "Asia/Kuwait"
+#~ msgstr "Азія/Кувейт"
+
+#~ msgid "Asia/Macau"
+#~ msgstr "Азія/Макау"
+
+#~ msgid "Asia/Magadan"
+#~ msgstr "Азія/Магадан"
+
+#~ msgid "Asia/Makassar"
+#~ msgstr "Азія/Макасар"
+
+#~ msgid "Asia/Manila"
+#~ msgstr "Азія/Маніла"
+
+#~ msgid "Asia/Muscat"
+#~ msgstr "Азія/Мускат"
+
+#~ msgid "Asia/Nicosia"
+#~ msgstr "Азія/Нікосія"
+
+#~ msgid "Asia/Novosibirsk"
+#~ msgstr "Азія/Новосибірськ"
+
+#~ msgid "Asia/Omsk"
+#~ msgstr "Азія/Омск"
+
+#~ msgid "Asia/Oral"
+#~ msgstr "Азія/Орал"
+
+#~ msgid "Asia/Phnom_Penh"
+#~ msgstr "Азія/Пном-Пень"
+
+#~ msgid "Asia/Pontianak"
+#~ msgstr "Азія/Понтіанак"
+
+#~ msgid "Asia/Pyongyang"
+#~ msgstr "Азія/Пхеньян"
+
+#~ msgid "Asia/Qatar"
+#~ msgstr "Азія/Катар"
+
+#~ msgid "Asia/Qyzylorda"
+#~ msgstr "Азія/Кизилорда"
+
+#~ msgid "Asia/Rangoon"
+#~ msgstr "Азія/Рангун"
+
+#~ msgid "Asia/Riyadh"
+#~ msgstr "Азія/Ер-Ріяд"
+
+#~ msgid "Asia/Saigon"
+#~ msgstr "Азія/Сайгон"
+
+#~ msgid "Asia/Sakhalin"
+#~ msgstr "Азія/Сахалін"
+
+#~ msgid "Asia/Samarkand"
+#~ msgstr "Азія/Самарканд"
+
+#~ msgid "Asia/Seoul"
+#~ msgstr "Азія/Сеул"
+
+#~ msgid "Asia/Shanghai"
+#~ msgstr "Азія/Шанхай"
+
+#~ msgid "Asia/Singapore"
+#~ msgstr "Азія/Сингапур"
+
+#~ msgid "Asia/Taipei"
+#~ msgstr "Азія/Тайпей"
+
+#~ msgid "Asia/Tashkent"
+#~ msgstr "Азія/Ташкент"
+
+#~ msgid "Asia/Tbilisi"
+#~ msgstr "Азія/Тбілісі"
+
+#~ msgid "Asia/Tehran"
+#~ msgstr "Азія/Тегеран"
+
+#~ msgid "Asia/Thimphu"
+#~ msgstr "Азія/Тімфу"
+
+#~ msgid "Asia/Tokyo"
+#~ msgstr "Азія/Токіо"
+
+#~ msgid "Asia/Ujung_Pandang"
+#~ msgstr "Азія/Уйжунг-Панданг"
+
+#~ msgid "Asia/Ulaanbaatar"
+#~ msgstr "Азія/Уланбатор"
+
+#~ msgid "Asia/Urumqi"
+#~ msgstr "Азія/Урумкі"
+
+#~ msgid "Asia/Vientiane"
+#~ msgstr "Азія/В'єнтьян"
+
+#~ msgid "Asia/Vladivostok"
+#~ msgstr "Азія/Владивосток"
+
+#~ msgid "Asia/Yakutsk"
+#~ msgstr "Азія/Якутськ"
+
+#~ msgid "Asia/Yekaterinburg"
+#~ msgstr "Азія/Єкатеринбург"
+
+#~ msgid "Asia/Yerevan"
+#~ msgstr "Азія/Єреван"
+
+#~ msgid "Atlantic/Azores"
+#~ msgstr "Атлантика/Азори"
+
+#~ msgid "Atlantic/Bermuda"
+#~ msgstr "Атлантика/Бермуди"
+
+#~ msgid "Atlantic/Canary"
+#~ msgstr "Атлантика/Канари"
+
+#~ msgid "Atlantic/Cape_Verde"
+#~ msgstr "Атлантика/Кабо-Верде"
+
+#~ msgid "Atlantic/Faeroe"
+#~ msgstr "Атлантика/Фарери"
+
+#~ msgid "Atlantic/Jan_Mayen"
+#~ msgstr "Атлантика/Ян Маєн"
+
+#~ msgid "Atlantic/Madeira"
+#~ msgstr "Атлантика/Мадейра"
+
+#~ msgid "Atlantic/Reykjavik"
+#~ msgstr "Атлантика/Рейк'явік"
+
+#~ msgid "Atlantic/South_Georgia"
+#~ msgstr "Атлантика/Південна Джорджія"
+
+#~ msgid "Atlantic/St_Helena"
+#~ msgstr "Атлантика/Острів Святої Єлени"
+
+#~ msgid "Atlantic/Stanley"
+#~ msgstr "Атлантика/Стенлі"
+
+#~ msgid "Australia/Adelaide"
+#~ msgstr "Австралія/Аделаїда"
+
+#~ msgid "Australia/Brisbane"
+#~ msgstr "Австралія/Брісбен"
+
+#~ msgid "Australia/Broken_Hill"
+#~ msgstr "Австралія/Брокен-Хіл"
+
+#~ msgid "Australia/Darwin"
+#~ msgstr "Австралія/Дарвін"
+
+#~ msgid "Australia/Hobart"
+#~ msgstr "Австралія/Хобарт"
+
+#~ msgid "Australia/Lindeman"
+#~ msgstr "Австралія/Ліндеман"
+
+#~ msgid "Australia/Lord_Howe"
+#~ msgstr "Австралія/Лорд-Хоу"
+
+#~ msgid "Australia/Melbourne"
+#~ msgstr "Австралія/Мельбурн"
+
+#~ msgid "Australia/Perth"
+#~ msgstr "Австралія/Перт"
+
+#~ msgid "Australia/Sydney"
+#~ msgstr "Австралія/Сідней"
+
+#~ msgid "Europe/Amsterdam"
+#~ msgstr "Європа/Амстердам"
+
+#~ msgid "Europe/Andorra"
+#~ msgstr "Європа/Андорра"
+
+#~ msgid "Europe/Athens"
+#~ msgstr "Європа/Афіни"
+
+#~ msgid "Europe/Belfast"
+#~ msgstr "Європа/Белфаст"
+
+#~ msgid "Europe/Belgrade"
+#~ msgstr "Європа/Бєлград"
+
+#~ msgid "Europe/Berlin"
+#~ msgstr "Європа/Берлін"
+
+#~ msgid "Europe/Bratislava"
+#~ msgstr "Європа/Братислава"
+
+#~ msgid "Europe/Brussels"
+#~ msgstr "Європа/Брюсель"
+
+#~ msgid "Europe/Bucharest"
+#~ msgstr "Європа/Бухарест"
+
+#~ msgid "Europe/Budapest"
+#~ msgstr "Європа/Будапешт"
+
+#~ msgid "Europe/Chisinau"
+#~ msgstr "Європа/Кишинів"
+
+#~ msgid "Europe/Copenhagen"
+#~ msgstr "Європа/Копенгаген"
+
+#~ msgid "Europe/Dublin"
+#~ msgstr "Європа/Дублін"
+
+#~ msgid "Europe/Gibraltar"
+#~ msgstr "Європа/Гібралтар"
+
+#~ msgid "Europe/Helsinki"
+#~ msgstr "Європа/Гельсінки"
+
+#~ msgid "Europe/Istanbul"
+#~ msgstr "Європа/Стамбул"
+
+#~ msgid "Europe/Kaliningrad"
+#~ msgstr "Європа/Калінінград"
+
+#~ msgid "Europe/Kiev"
+#~ msgstr "Європа/Київ"
+
+#~ msgid "Europe/Lisbon"
+#~ msgstr "Європа/Лісабон"
+
+#~ msgid "Europe/Ljubljana"
+#~ msgstr "Європа/Любляна"
+
+#~ msgid "Europe/London"
+#~ msgstr "Європа/Лондон"
+
+#~ msgid "Europe/Luxembourg"
+#~ msgstr "Європа/Люксембург"
+
+#~ msgid "Europe/Madrid"
+#~ msgstr "Європа/Мадрід"
+
+#~ msgid "Europe/Malta"
+#~ msgstr "Європа/Мальта"
+
+#~ msgid "Europe/Mariehamn"
+#~ msgstr "Європа/Марієхамн"
+
+#~ msgid "Europe/Minsk"
+#~ msgstr "Європа/Мінськ"
+
+#~ msgid "Europe/Monaco"
+#~ msgstr "Європа/Монако"
+
+#~ msgid "Europe/Moscow"
+#~ msgstr "Європа/Москва"
+
+#~ msgid "Europe/Oslo"
+#~ msgstr "Європа/Осло"
+
+#~ msgid "Europe/Paris"
+#~ msgstr "Європа/Париж"
+
+#~ msgid "Europe/Prague"
+#~ msgstr "Європа/Прага"
+
+#~ msgid "Europe/Riga"
+#~ msgstr "Європа/Рига"
+
+#~ msgid "Europe/Rome"
+#~ msgstr "Європа/Рим"
+
+#~ msgid "Europe/Samara"
+#~ msgstr "Європа/Самара"
+
+#~ msgid "Europe/San_Marino"
+#~ msgstr "Європа/Сан-Маріно"
+
+#~ msgid "Europe/Sarajevo"
+#~ msgstr "Європа/Сараєво"
+
+#~ msgid "Europe/Simferopol"
+#~ msgstr "Європа/Симферополь"
+
+#~ msgid "Europe/Skopje"
+#~ msgstr "Європа/Скоп'є"
+
+#~ msgid "Europe/Sofia"
+#~ msgstr "Європа/Софія"
+
+#~ msgid "Europe/Stockholm"
+#~ msgstr "Європа/Стокгольм"
+
+#~ msgid "Europe/Tallinn"
+#~ msgstr "Європа/Таллін"
+
+#~ msgid "Europe/Tirane"
+#~ msgstr "Європа/Тирана"
+
+#~ msgid "Europe/Uzhgorod"
+#~ msgstr "Європа/Ужгород"
+
+#~ msgid "Europe/Vaduz"
+#~ msgstr "Європа/Вадуз"
+
+#~ msgid "Europe/Vatican"
+#~ msgstr "Європа/Ватікан"
+
+#~ msgid "Europe/Vienna"
+#~ msgstr "Європа/Відень"
+
+#~ msgid "Europe/Vilnius"
+#~ msgstr "Європа/Вільнюс"
+
+#~ msgid "Europe/Warsaw"
+#~ msgstr "Європа/Варшава"
+
+#~ msgid "Europe/Zagreb"
+#~ msgstr "Європа/Загреб"
+
+#~ msgid "Europe/Zaporozhye"
+#~ msgstr "Європа/Запоріжжя"
+
+#~ msgid "Europe/Zurich"
+#~ msgstr "Європа/Цюріх"
+
+#~ msgid "Indian/Antananarivo"
+#~ msgstr "Індійський океан/Антананаріву"
+
+#~ msgid "Indian/Chagos"
+#~ msgstr "Індійський океан/Чагос"
+
+#~ msgid "Indian/Christmas"
+#~ msgstr "Індійський океан/Острів Різдва"
+
+#~ msgid "Indian/Cocos"
+#~ msgstr "Індійський океан/Кокосови острови"
+
+#~ msgid "Indian/Comoro"
+#~ msgstr "Індійський океан/Коморо"
+
+#~ msgid "Indian/Kerguelen"
+#~ msgstr "Індійський океан/Кергелен"
+
+#~ msgid "Indian/Mahe"
+#~ msgstr "Індійський океан/Маге"
+
+#~ msgid "Indian/Maldives"
+#~ msgstr "Індійський океан/Мальдіви"
+
+#~ msgid "Indian/Mauritius"
+#~ msgstr "Індійський океан/Острів Маврикій"
+
+#~ msgid "Indian/Mayotte"
+#~ msgstr "Індійський океан/Майотт"
+
+#~ msgid "Indian/Reunion"
+#~ msgstr "Індійський океан/Реюніон"
+
+#~ msgid "Pacific/Apia"
+#~ msgstr "Тихий океан/Апіа"
+
+#~ msgid "Pacific/Auckland"
+#~ msgstr "Тихий океан/Окленд"
+
+#~ msgid "Pacific/Chatham"
+#~ msgstr "Тихий океан/Чатем"
+
+#~ msgid "Pacific/Easter"
+#~ msgstr "Тихий океан/Острів Пасхи"
+
+#~ msgid "Pacific/Efate"
+#~ msgstr "Тихий океан/Ефат"
+
+#~ msgid "Pacific/Enderbury"
+#~ msgstr "Тихий океан/Енденбері"
+
+#~ msgid "Pacific/Fakaofo"
+#~ msgstr "Тихий океан/Факаофо"
+
+#~ msgid "Pacific/Fiji"
+#~ msgstr "Тихий океан/Фіджі"
+
+#~ msgid "Pacific/Funafuti"
+#~ msgstr "Тихий океан/Фунафуті"
+
+#~ msgid "Pacific/Galapagos"
+#~ msgstr "Тихий океан/Галапагосські острови"
+
+#~ msgid "Pacific/Gambier"
+#~ msgstr "Тихий океан/Гамб'єр"
+
+#~ msgid "Pacific/Guadalcanal"
+#~ msgstr "Тихий океан/Гуадальканал"
+
+#~ msgid "Pacific/Guam"
+#~ msgstr "Тихий океан/Гуам"
+
+#~ msgid "Pacific/Honolulu"
+#~ msgstr "Тихий океан/Гонолулу"
+
+#~ msgid "Pacific/Johnston"
+#~ msgstr "Тихий океан/Джонстон"
+
+#~ msgid "Pacific/Kiritimati"
+#~ msgstr "Тихий океан/Кіріматі"
+
+#~ msgid "Pacific/Kosrae"
+#~ msgstr "Тихий океан/Косрае"
+
+#~ msgid "Pacific/Kwajalein"
+#~ msgstr "Тихий океан/Кваялейн"
+
+#~ msgid "Pacific/Majuro"
+#~ msgstr "Тихий океан/Махуро"
+
+#~ msgid "Pacific/Marquesas"
+#~ msgstr "Тихий океан/Маркізькі острови"
+
+#~ msgid "Pacific/Midway"
+#~ msgstr "Тихий океан/острів Мідуей"
+
+#~ msgid "Pacific/Nauru"
+#~ msgstr "Тихий океан/Науру"
+
+#~ msgid "Pacific/Niue"
+#~ msgstr "Тихий океан/Ніуе"
+
+#~ msgid "Pacific/Norfolk"
+#~ msgstr "Тихий океан/Норфолк"
+
+#~ msgid "Pacific/Noumea"
+#~ msgstr "Тихий океан/Нумея"
+
+#~ msgid "Pacific/Pago_Pago"
+#~ msgstr "Тихий океан/Паго-Паго"
+
+#~ msgid "Pacific/Palau"
+#~ msgstr "Тихий океан/Палау"
+
+#~ msgid "Pacific/Pitcairn"
+#~ msgstr "Тихий океан/Піткерн"
+
+#~ msgid "Pacific/Ponape"
+#~ msgstr "Тихий океан/Понапе"
+
+#~ msgid "Pacific/Port_Moresby"
+#~ msgstr "Тихий океан/Порт-Морсбі"
+
+#~ msgid "Pacific/Rarotonga"
+#~ msgstr "Тихий океан/Раротонга"
+
+#~ msgid "Pacific/Saipan"
+#~ msgstr "Тихий океан/Сайпан"
+
+#~ msgid "Pacific/Tahiti"
+#~ msgstr "Тихий океан/Таїті"
+
+#~ msgid "Pacific/Tarawa"
+#~ msgstr "Тихий океан/Тарава"
+
+#~ msgid "Pacific/Tongatapu"
+#~ msgstr "Тихий океан/Тонгатапу"
+
+#~ msgid "Pacific/Truk"
+#~ msgstr "Тихий океан/Трак"
+
+#~ msgid "Pacific/Wake"
+#~ msgstr "Тихий океан/Вейк"
+
+#~ msgid "Pacific/Wallis"
+#~ msgstr "Тихий океан/Волліс"
+
+#~ msgid "Pacific/Yap"
+#~ msgstr "Тихий океан/Яп"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Євген Онищенко"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "oneugene@ukr.net"
+
+#~ msgid "SpamAssassin based content filter administration"
+#~ msgstr "Керування спам-фільтром на основі SpamAssassin"
+
+#~ msgid "Mail"
+#~ msgstr "Пошта"

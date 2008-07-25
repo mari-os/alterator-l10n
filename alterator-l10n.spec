@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.6
-Release: alt6
+Release: alt7
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Fri Jul 25 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.6-alt7
+- add alterator-groups
+
 * Fri Jul 04 2008 Stanislav Ievlev <inger@altlinux.org> 0.6-alt6
 - update translations for alterator-control
 
