@@ -6,14 +6,21 @@ repodir=repositories
 langlist="ru uk"
 potfile=alterator.pot
 
+. shell-error
+
 mkdir -p "$repodir"
 grep '^[^#]' "$repolist"|
-while read repo; do
-    mkdir -p "$repodir/${repo%/*}"
-    git-clone "$repoprefix:$repo" "$repodir/$repo"
-    make -C "$repodir/$repo" update-po ||:
-    make -C "$repodir/$repo/${repo##*/}" update-po ||:
-done
+    while read repo; do
+	mkdir -p "$repodir/${repo%/*}"
+	git-clone "$repoprefix:$repo" "$repodir/$repo"
+        if [ -f "$repodir/$repo/${repo##*/}/Makefile" ] ;then
+	    make -C "$repodir/$repo/${repo##*/}" update-po
+	elif [ -f "$repodir/$repo/Makefile" ] ; then
+	    make -C "$repodir/$repo" update-po
+	else
+	    fatal "Makefile for repository $repo not found"
+	fi
+    done
 
 echo > $potfile
 for i in $langlist; do touch $i.po; done

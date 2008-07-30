@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.6
-Release: alt8
+Version: 0.7
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,11 @@ make check
 
 
 %changelog
+* Wed Jul 30 2008 Stanislav Ievlev <inger@altlinux.org> 0.7-alt1
+- improve update-po script
+- add translations for acc groups
+- update Ukrainian translation
+
 * Fri Jul 25 2008 Stanislav Ievlev <inger@altlinux.org> 0.6-alt8
 - add alterator-postfix-sasl
 
