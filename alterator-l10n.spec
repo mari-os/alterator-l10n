@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.7
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Wed Jul 30 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.7-alt2
+- update translations for alterator-groups
+
 * Wed Jul 30 2008 Stanislav Ievlev <inger@altlinux.org> 0.7-alt1
 - improve update-po script
 - add translations for acc groups
