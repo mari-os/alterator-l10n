@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.7
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Wed Aug 06 2008 Stanislav Ievlev <inger@altlinux.org> 0.7-alt3
+- update translations for alterator (comments for desktop directories)
+
 * Wed Jul 30 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.7-alt2
 - update translations for alterator-groups
 
