@@ -21,7 +21,7 @@ msgstr "Ліцензія"
 
 #: стандартный ввод:2 ui/notes/release-notes.scm:7
 msgid "Release Notes"
-msgstr ""
+msgstr "Інформація щодо дистрибутиву"
 
 #: ui/license/index.scm:8 ui/notes/license.scm:8
 msgid "Please take a moment to read the license agreement now."
@@ -29,20 +29,19 @@ msgstr ""
 
 #: ui/license/index.scm:10 ui/notes/license.scm:10
 msgid "License file not found"
-msgstr ""
+msgstr "Файл ліцензії не знайдено"
 
 #: ui/license/index.scm:15 ui/notes/license.scm:15
 msgid "Yes, I agree"
-msgstr ""
+msgstr "Так, я згоден з умовами"
 
 #: ui/notes/release-notes.scm:9
-#, fuzzy
 msgid "Installation complete"
-msgstr "Встановлення пакетів..."
+msgstr "Встановлення завершене"
 
 #: backend3/notes:33
 msgid "File not found"
-msgstr ""
+msgstr "Файл не знайдено"
 
 #: стандартный ввод:1
 msgid "Groups"
@@ -429,15 +428,15 @@ msgstr ""
 #. '
 #: backend3/services:114 backend3/net-pptp:230 backend3/net-pppoe:110
 msgid "start"
-msgstr ""
+msgstr "запустити"
 
 #: backend3/services:115 backend3/net-pptp:231 backend3/net-pppoe:111
 msgid "stop"
-msgstr ""
+msgstr "зупинити"
 
 #: backend3/services:116 backend3/net-pptp:232 backend3/net-pppoe:112
 msgid "restart"
-msgstr ""
+msgstr "перезапустити"
 
 #: стандартный ввод:1
 #, fuzzy
@@ -765,31 +764,28 @@ msgid "infinite"
 msgstr ""
 
 #: стандартный ввод:1
-#, fuzzy
 msgid "Authentication"
-msgstr "Призначення"
+msgstr "Аутентифікація"
 
 #: стандартный ввод:3 ui/auth/index.scm:36
-#, fuzzy
 msgid "LDAP server:"
-msgstr "FTP-сервер"
+msgstr "LDAP-сервер:"
 
 #: стандартный ввод:4 ui/auth/index.scm:41
 msgid "Base DN:"
-msgstr ""
+msgstr "Базовий DN:"
 
 #: backend3/auth:30
 msgid "Local files"
-msgstr ""
+msgstr "Локальні файли"
 
 #: backend3/auth:33
 msgid "LDAP"
 msgstr ""
 
 #: backend3/auth:105
-#, fuzzy
 msgid "LDAP server"
-msgstr "FTP-сервер"
+msgstr "LDAP-сервер"
 
 #: backend3/auth:107
 msgid "should be ldap://host or ldapi://host or ldaps://host"
@@ -986,19 +982,19 @@ msgstr "IP-адреса"
 msgid ""
 "(IP address where server listen on, or '*' for listening on all interfaces)"
 msgstr ""
+"(IP-адреса, на  якій сервер приймає з'єднання або '*' для обслуговування усіх інтерфейсів)"
 
 #: стандартный ввод:8
 msgid "Logging:"
-msgstr ""
+msgstr "Протоколювання:"
 
 #: стандартный ввод:9
 msgid "(granularity of the logging influences its size)"
-msgstr ""
+msgstr "(докладність протоколювання впливає на розмір журналу)"
 
 #: стандартный ввод:11
-#, fuzzy
 msgid "TLS settings"
-msgstr "Загальні параметри"
+msgstr "Налаштування TLS"
 
 #: стандартный ввод:12
 msgid "Certificate"
@@ -2425,9 +2421,8 @@ msgid "connection failed"
 msgstr "з'єднання невдале"
 
 #: стандартный ввод:1
-#, fuzzy
 msgid "System administrator"
-msgstr "Керування системними користувачами"
+msgstr "Адміністратор системи"
 
 #: стандартный ввод:1 ui/root/index.scm:26
 msgid "Setup password for system administrator:"
