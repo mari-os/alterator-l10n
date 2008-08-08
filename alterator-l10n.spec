@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.7
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,10 @@ make check
 
 
 %changelog
+* Fri Aug 08 2008 Stanislav Ievlev <inger@altlinux.org> 0.7-alt4
+- add alterator-xkb
+- update Ukrainian translation
+
 * Wed Aug 06 2008 Stanislav Ievlev <inger@altlinux.org> 0.7-alt3
 - update translations for alterator (comments for desktop directories)
 

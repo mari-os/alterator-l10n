@@ -49,7 +49,7 @@ msgid "Groups"
 msgstr ""
 
 #: стандартный ввод:1 ввод:6 ввод:2 ввод:3
-#: ввод:4 ввод:5 ввод:7
+#: ввод:5 ввод:7 ui/xkb/html-messages.scm:3
 msgid "Select"
 msgstr ""
 
@@ -59,11 +59,13 @@ msgstr ""
 #: ui/lilo/expert/index.scm:263 ui/lilo/index.scm:137
 #: ui/lilo/edit-source/index.scm:43 ui/auth/index.scm:50 ввод:14
 #: ввод:10 ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
-#: ui/datetime/index.scm:59 ui/users/index.scm:115 ввод:13
+#: ui/datetime/index.scm:59 ввод:13 ui/users/index.scm:115
 #: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
 #: ui/x11/index.scm:99 ввод:7 ui/dovecot/index.scm:62
 #: ui/alternatives/index.scm:80 ui/control/index.scm:70 ввод:9
-#: ui/net-pppoe/index.scm:91 ui/root/index.scm:48 ввод:8 ввод:24
+#: ui/net-pppoe/index.scm:91 ui/root/index.scm:48 ui/xkb/html-messages.scm:4
+#: ui/xkb/html-messages.scm:14 ui/xkb/index.scm:93 backend3/xkb:161 ввод:8
+#: ввод:24
 msgid "Apply"
 msgstr ""
 
@@ -75,7 +77,8 @@ msgstr ""
 #: ввод:15 ui/net-pptp/index.scm:120 ui/timezone/index.scm:71 ввод:7
 #: ввод:14 ui/net-eth/index.scm:160 ввод:5 ввод:17 ввод:22
 #: ввод:8 ui/dovecot/index.scm:63 ввод:10 ui/net-pppoe/index.scm:92
-#: ввод:9 ввод:25
+#: ui/xkb/html-messages.scm:5 ui/xkb/html-messages.scm:15 ввод:9
+#: ввод:25
 msgid "Reset"
 msgstr ""
 
@@ -143,7 +146,8 @@ msgid "Description:"
 msgstr ""
 
 #: ui/groups/index.scm:87 стандартный ввод:3 ввод:13
-#: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42
+#: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 ввод:9
+#: ui/xkb/html-messages.scm:9 ui/xkb/index.scm:73
 msgid "Add"
 msgstr ""
 
@@ -587,7 +591,8 @@ msgid "Set default"
 msgstr ""
 
 #: ui/lilo/expert/index.scm:244 стандартный ввод:14
-#: ui/pkg/register/index.scm:44
+#: ui/pkg/register/index.scm:44 ввод:10 ui/xkb/html-messages.scm:10
+#: ui/xkb/index.scm:74
 msgid "Remove"
 msgstr ""
 
@@ -759,22 +764,22 @@ msgstr ""
 msgid "Dovecot"
 msgstr ""
 
-#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
-#: стандартный ввод:4 ui/logs/index.scm:33
+#: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
+#: стандартный ввод:4 ui/logs/index.scm:31
 #: ui/sysconfig/language/index.scm:33
 msgid "Next"
 msgstr ""
 
-#: ui/wizard/index.scm:41 ui/wizard/index.scm:45 ui/wizard/index.scm:49
-#: стандартный ввод:3 ui/logs/index.scm:32
+#: ui/wizard/index.scm:39 ui/wizard/index.scm:43 ui/wizard/index.scm:47
+#: стандартный ввод:3 ui/logs/index.scm:30
 msgid "Previous"
 msgstr ""
 
-#: ui/wizard/index.scm:42 ui/wizard/index.scm:46 ui/wizard/index.scm:50
+#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
 msgid "Finish"
 msgstr ""
 
-#: ui/wizard/index.scm:123 стандартный ввод:1 ввод:3
+#: ui/wizard/index.scm:121 стандартный ввод:1 ввод:3
 #: ui/sysconfig/language/index.scm:32
 msgid "Help"
 msgstr ""
@@ -845,6 +850,7 @@ msgstr ""
 
 #: стандартный ввод:20 ввод:22 ui/x11/driver/index.scm:26
 #: ui/x11/monitor/index.scm:23 ui/pkg/sources/mirrors/index.scm:59
+#: ui/xkb/avail_layout.scm:49
 msgid "OK"
 msgstr ""
 
@@ -1021,7 +1027,7 @@ msgid "Account:"
 msgstr ""
 
 #.
-#: стандартный ввод:7 ui/net-pptp/index.scm:90 ввод:9
+#: стандартный ввод:7 ui/net-pptp/index.scm:90 ввод:8
 #: ui/users/add/index.scm:60 ui/users/index.scm:96 ui/net-pppoe/index.scm:80
 msgid "Password:"
 msgstr ""
@@ -1153,58 +1159,54 @@ msgstr ""
 msgid "Local user accounts"
 msgstr ""
 
-#: стандартный ввод:1
-msgid "User accounts"
-msgstr ""
-
-#: стандартный ввод:2 ui/users/index.scm:64
+#: стандартный ввод:1 ui/users/index.scm:64
 msgid "New account:"
 msgstr ""
 
-#: стандартный ввод:3 ui/users/index.scm:66
+#: стандартный ввод:2 ui/users/index.scm:66
 msgid "Create"
 msgstr ""
 
 #.
-#: стандартный ввод:5 ui/users/index.scm:80
+#: стандартный ввод:4 ui/users/index.scm:80
 msgid "Comment:"
 msgstr ""
 
 #.
-#: стандартный ввод:6 ui/users/index.scm:83
+#: стандартный ввод:5 ui/users/index.scm:83
 msgid "Home directory:"
 msgstr ""
 
 #.
-#: стандартный ввод:7 ui/users/index.scm:86
+#: стандартный ввод:6 ui/users/index.scm:86
 msgid "Shell:"
 msgstr ""
 
-#: стандартный ввод:8 ui/users/index.scm:90
+#: стандартный ввод:7 ui/users/index.scm:90
 msgid "Switching to superuser"
 msgstr ""
 
-#: стандартный ввод:10 ui/users/add/index.scm:63
+#: стандартный ввод:9 ui/users/add/index.scm:63
 #: ui/users/index.scm:99 ввод:2 ui/root/index.scm:32
 msgid "Generate automatically"
 msgstr ""
 
-#: стандартный ввод:11 ui/users/add/index.scm:66
+#: стандартный ввод:10 ui/users/add/index.scm:66
 #: ui/users/index.scm:102 ввод:3 ui/root/index.scm:35
 msgid "(enter passphrase)"
 msgstr ""
 
-#: стандартный ввод:12 ui/users/add/index.scm:68
+#: стандартный ввод:11 ui/users/add/index.scm:68
 #: ui/users/index.scm:104 ввод:4 ui/root/index.scm:37
 msgid "(repeat passphrase)"
 msgstr ""
 
-#: стандартный ввод:13 ui/users/add/index.scm:70
+#: стандартный ввод:12 ui/users/add/index.scm:70
 #: ui/users/index.scm:106 ввод:5 ui/root/index.scm:39
 msgid "Generate"
 msgstr ""
 
-#: стандартный ввод:15 ui/users/index.scm:117
+#: стандартный ввод:14 ui/users/index.scm:117
 msgid "Delete user"
 msgstr ""
 
@@ -1488,11 +1490,11 @@ msgstr ""
 
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
-#: ui/x11/c-messages.scm:2 backend2/workflow-card-index:156
+#: ui/x11/c-messages.scm:2 backend2/workflow-card-index:154
 msgid "Yes"
 msgstr ""
 
-#: ui/x11/c-messages.scm:3 backend2/workflow-card-index:154
+#: ui/x11/c-messages.scm:3 backend2/workflow-card-index:152
 msgid "No"
 msgstr ""
 
@@ -1510,7 +1512,7 @@ msgstr ""
 
 #: ui/x11/driver/index.scm:32 ui/x11/monitor/index.scm:29
 #: стандартный ввод:19 ui/pkg/sources/mirrors/index.scm:60
-#: ui/pkg/upgrade/index.scm:47
+#: ui/pkg/upgrade/index.scm:47 ui/xkb/avail_layout.scm:50
 msgid "Cancel"
 msgstr ""
 
@@ -1734,15 +1736,15 @@ msgstr ""
 msgid "Invalid disk"
 msgstr ""
 
-#: backend3/pkg-sources:73
+#: backend3/pkg-sources:75
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr ""
 
-#: backend3/pkg-sources:76
+#: backend3/pkg-sources:78
 msgid "Same source already exists"
 msgstr ""
 
-#: backend3/pkg-sources:169 backend3/pkg-sources:200
+#: backend3/pkg-sources:171 backend3/pkg-sources:202
 msgid "inactive"
 msgstr ""
 
@@ -1874,7 +1876,7 @@ msgstr ""
 msgid "System logs"
 msgstr ""
 
-#: стандартный ввод:1 ui/logs/index.scm:27
+#: стандартный ввод:1 ui/logs/index.scm:25
 msgid "Logs:"
 msgstr ""
 
@@ -1882,35 +1884,35 @@ msgstr ""
 msgid "View"
 msgstr ""
 
-#: стандартный ввод:5 ui/logs/index.scm:35
+#: стандартный ввод:5 ui/logs/index.scm:33
 msgid "First page"
 msgstr ""
 
-#: стандартный ввод:6 ui/logs/index.scm:36
+#: стандартный ввод:6 ui/logs/index.scm:34
 msgid "Last page"
 msgstr ""
 
-#: стандартный ввод:7 ui/logs/index.scm:38
+#: стандартный ввод:7 ui/logs/index.scm:36
 msgid "Show:"
 msgstr ""
 
-#: backend3/logs:97
+#: backend3/logs:99
 msgid "Lines %s-%s of %s"
 msgstr ""
 
-#: backend3/logs:116
+#: backend3/logs:118
 msgid "10 lines"
 msgstr ""
 
-#: backend3/logs:117
+#: backend3/logs:119
 msgid "20 lines"
 msgstr ""
 
-#: backend3/logs:118
+#: backend3/logs:120
 msgid "50 lines"
 msgstr ""
 
-#: backend3/logs:119
+#: backend3/logs:121
 msgid "100 lines"
 msgstr ""
 
@@ -2164,19 +2166,19 @@ msgstr ""
 msgid "December"
 msgstr ""
 
-#: backend2/workflow-card-index:100
+#: backend2/workflow-card-index:98
 msgid "No objects found..."
 msgstr ""
 
-#: backend2/workflow-card-index:109
+#: backend2/workflow-card-index:107
 msgid "Return to view"
 msgstr ""
 
-#: backend2/workflow-card-index:153
+#: backend2/workflow-card-index:151
 msgid "Do you really want to delete "
 msgstr ""
 
-#: backend2/workflow-card-index:163
+#: backend2/workflow-card-index:161
 msgid "Unsupported mode"
 msgstr ""
 
@@ -2266,6 +2268,53 @@ msgstr ""
 
 #: backend3/root:25 backend3/root:29
 msgid "You should define a password for system administrator"
+msgstr ""
+
+#: стандартный ввод:1 ввод:6 ui/xkb/html-messages.scm:6
+msgid "Keyboard settings"
+msgstr ""
+
+#: стандартный ввод:1 ui/xkb/html-messages.scm:1
+#: ui/xkb/avail_layout.scm:46
+msgid "Available layouts"
+msgstr ""
+
+#: стандартный ввод:2 ui/xkb/html-messages.scm:2
+#: ui/xkb/avail_layout.scm:42
+msgid "Country"
+msgstr ""
+
+#: стандартный ввод:7 ui/xkb/html-messages.scm:7
+#: ui/xkb/index.scm:64
+msgid "Model"
+msgstr ""
+
+#: стандартный ввод:8 ui/xkb/html-messages.scm:8
+#: ui/xkb/index.scm:68
+msgid "Layouts"
+msgstr ""
+
+#: стандартный ввод:11 ui/xkb/html-messages.scm:11
+#: ui/xkb/index.scm:76
+msgid "Up"
+msgstr ""
+
+#: стандартный ввод:12 ui/xkb/html-messages.scm:12
+#: ui/xkb/index.scm:77
+msgid "Down"
+msgstr ""
+
+#: стандартный ввод:13 ui/xkb/html-messages.scm:13
+#: ui/xkb/index.scm:85
+msgid "Layout switching"
+msgstr ""
+
+#: backend3/xkb:159
+msgid "Apply saved keyboard settings"
+msgstr ""
+
+#: backend3/xkb:160
+msgid "Apply failed"
 msgstr ""
 
 #: стандартный ввод:1 ввод:10 ввод:16
