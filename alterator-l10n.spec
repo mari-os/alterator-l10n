@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.7
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Aug 25 2008 Stanislav Ievlev <inger@altlinux.org> 0.7-alt6
+- update translations for acl feature
+
 * Mon Aug 11 2008 Stanislav Ievlev <inger@altlinux.org> 0.7-alt5
 - update translations for alterator-xkb
 
