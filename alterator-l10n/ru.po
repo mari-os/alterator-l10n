@@ -50,7 +50,7 @@ msgid "Groups"
 msgstr "Группы"
 
 #: стандартный ввод:1 ввод:6 ввод:2 ввод:3
-#: ввод:5 ввод:7 ui/xkb/html-messages.scm:3
+#: ввод:5 ввод:7 ввод:10
 msgid "Select"
 msgstr "Выбрать"
 
@@ -59,13 +59,13 @@ msgstr "Выбрать"
 #: ui/services/index.scm:63 ввод:15 ui/xinetd/index.scm:149
 #: ui/lilo/expert/index.scm:263 ui/lilo/index.scm:137
 #: ui/lilo/edit-source/index.scm:43 ui/auth/index.scm:50 ввод:14
-#: ввод:10 ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
-#: ui/datetime/index.scm:59 ввод:13 ui/users/index.scm:115
-#: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
-#: ui/x11/index.scm:99 ввод:7 ui/dovecot/index.scm:62
-#: ui/alternatives/index.scm:80 ui/control/index.scm:70 ввод:9
-#: ui/net-pppoe/index.scm:91 ui/root/index.scm:48 ui/xkb/html-messages.scm:4
-#: ui/xkb/html-messages.scm:14 ui/xkb/index.scm:93 backend3/xkb:161 ввод:8
+#: ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ui/datetime/index.scm:59
+#: ввод:13 ui/users/index.scm:115 ui/net-eth/index.scm:159 ввод:4
+#: ввод:16 ввод:21 ui/x11/index.scm:99 ввод:7
+#: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80 ввод:6 ввод:11
+#: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
+#: ui/control/index.scm:70 ввод:9 ui/net-pppoe/index.scm:91
+#: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
 #: ввод:24
 msgid "Apply"
 msgstr "Применить"
@@ -75,11 +75,10 @@ msgstr "Применить"
 #: ui/services/index.scm:64 ui/xinetd/index.scm:150
 #: ui/lilo/expert/index.scm:237 ui/lilo/expert/index.scm:264
 #: ui/lilo/edit-source/index.scm:44 ввод:6 ui/auth/index.scm:51
-#: ввод:15 ui/net-pptp/index.scm:120 ui/timezone/index.scm:71 ввод:7
-#: ввод:14 ui/net-eth/index.scm:160 ввод:5 ввод:17 ввод:22
-#: ввод:8 ui/dovecot/index.scm:63 ввод:10 ui/net-pppoe/index.scm:92
-#: ui/xkb/html-messages.scm:5 ui/xkb/html-messages.scm:15 ввод:9
-#: ввод:25
+#: ввод:15 ui/net-pptp/index.scm:120 ui/timezone/index.scm:71 ввод:14
+#: ui/net-eth/index.scm:160 ввод:5 ввод:17 ввод:22 ввод:8
+#: ui/dovecot/index.scm:63 ввод:12 ввод:10 ui/net-pppoe/index.scm:92
+#: ввод:9 ввод:25
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -105,7 +104,7 @@ msgid "Users:"
 msgstr "Пользователи:"
 
 #: ui/groups/expert/index.scm:90 ui/groups/index.scm:75 стандартный
-#: ввод:14 ui/net-wifi/index.scm:133 ввод:5
+#: ввод:14 ui/net-wifi/index.scm:133 ввод:3 ввод:5
 #: ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr "Удалить"
@@ -146,9 +145,10 @@ msgstr "Системное имя:"
 msgid "Description:"
 msgstr "Описание:"
 
-#: ui/groups/index.scm:87 стандартный ввод:3 ввод:13
-#: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 ввод:9
-#: ui/xkb/html-messages.scm:9 ui/xkb/index.scm:73
+#: ui/groups/index.scm:87 стандартный ввод:5 ввод:3
+#: ввод:13 ui/pkg/sources/mirrors/index.scm:51
+#: ui/pkg/register/index.scm:42 ввод:4 ввод:6
+#: ui/xkb/avail_layout/index.scm:27 ui/xkb/index.scm:38
 msgid "Add"
 msgstr "Добавить"
 
@@ -197,10 +197,12 @@ msgstr ""
 msgid "Wi-Fi setup"
 msgstr "Настройка Wi-Fi"
 
+#. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: стандартный ввод:2 ui/net-wifi/index.scm:103 ввод:5
-#: ui/net-pppoe/index.scm:74
+#: стандартный ввод:2 ui/net-wifi/index.scm:103 ввод:9
+#: ui/net-iptables/index.scm:97 ввод:5 ui/net-pppoe/index.scm:74
 msgid "Interface:"
 msgstr "Интерфейс:"
 
@@ -599,8 +601,7 @@ msgid "Set default"
 msgstr "По умолчанию"
 
 #: ui/lilo/expert/index.scm:244 стандартный ввод:14
-#: ui/pkg/register/index.scm:44 ввод:10 ui/xkb/html-messages.scm:10
-#: ui/xkb/index.scm:74
+#: ui/pkg/register/index.scm:44 ввод:7 ui/xkb/index.scm:39
 msgid "Remove"
 msgstr "Удалить"
 
@@ -796,7 +797,9 @@ msgstr "Справка"
 msgid "FTP server"
 msgstr "FTP-сервер"
 
-#: стандартный ввод:3
+#. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: стандартный ввод:3 ввод:1 ui/net-iptables/index.scm:55
 msgid "General options"
 msgstr "Общие параметры"
 
@@ -858,7 +861,6 @@ msgstr "Для выделенных:"
 
 #: стандартный ввод:20 ввод:22 ui/x11/driver/index.scm:26
 #: ui/x11/monitor/index.scm:23 ui/pkg/sources/mirrors/index.scm:59
-#: ui/xkb/avail_layout.scm:49
 msgid "OK"
 msgstr "OK"
 
@@ -898,127 +900,147 @@ msgstr "Подобный пользователь уже существует"
 msgid "HTTP server"
 msgstr "HTTP-сервер"
 
+# ahttpd-acl
+#: стандартный ввод:1 ввод:5
+msgid "Module access settings"
+msgstr "Параметры доступа к модулю"
+
+# ahttpd-acl
 #: стандартный ввод:2
+msgid "Following users have access:"
+msgstr "Следующие пользователи имеют доступ:"
+
+# ahttpd-acl
+#: стандартный ввод:4
+msgid "New user:"
+msgstr "Новый пользователь:"
+
+#: стандартный ввод:6
 msgid "Restart HTTP server"
 msgstr "Перезапустить HTTP-сервер"
 
-#: стандартный ввод:3
+#: стандартный ввод:7
 msgid "General settings"
 msgstr "Общие настройки"
 
-#: стандартный ввод:4
+#: стандартный ввод:8
 msgid "Port:"
 msgstr "Порт:"
 
-#: стандартный ввод:5
+#: стандартный ввод:9
 msgid "(TCP port where server listen on)"
 msgstr "(TCP порт на котором сервер принимает соединения)"
 
-#: стандартный ввод:6
+#: стандартный ввод:10
 msgid "Listen address:"
 msgstr "Адрес:"
 
-#: стандартный ввод:7
+#: стандартный ввод:11
 msgid ""
 "(IP address where server listen on, or '*' for listening on all interfaces)"
 msgstr ""
 "(IP адрес на котором сервер принимает соединения или '*' для работы на всех "
 "интерфейсах)"
 
-#: стандартный ввод:8
+#: стандартный ввод:12
 msgid "Logging:"
 msgstr "Протоколирование:"
 
-#: стандартный ввод:9
+#: стандартный ввод:13
 msgid "(granularity of the logging influences its size)"
 msgstr "(подробность протоколирования влияет на размер журнала)"
 
-#: стандартный ввод:11
+#: стандартный ввод:15
 msgid "TLS settings"
 msgstr "Настройки TLS"
 
-#: стандартный ввод:12
+#: стандартный ввод:16
 msgid "Certificate"
 msgstr "Сертификат"
 
-#: стандартный ввод:13
+#: стандартный ввод:17
 msgid "Common Name (CN):"
 msgstr "Общее Имя (CN):"
 
-#: стандартный ввод:14
+#: стандартный ввод:18
 msgid "(public hostname)"
 msgstr "(публичное имя компьютера)"
 
-#: стандартный ввод:15
+#: стандартный ввод:19
 msgid "Country (C):"
 msgstr "Страна (C):"
 
-#: стандартный ввод:16
+#: стандартный ввод:20
 msgid "(two letter country code)"
 msgstr "(двухбуквенный код страны)"
 
-#: стандартный ввод:17
+#: стандартный ввод:21
 msgid "Location (L):"
 msgstr "Местоположение (L):"
 
-#: стандартный ввод:18
+#: стандартный ввод:22
 msgid "(state or city, written in latin letters)"
 msgstr "(название города или области, написанное латинскими буквами)"
 
-#: стандартный ввод:19
+#: стандартный ввод:23
 msgid "Organization (O):"
 msgstr "Организация (O):"
 
-#: стандартный ввод:20
+#: стандартный ввод:24
 msgid "(organization name, written in latin letters)"
 msgstr "(название организации, написанное латинскими буквами)"
 
-#: стандартный ввод:21
+#: стандартный ввод:25
 msgid "Organizational Unit (OU):"
 msgstr "Подразделение (OU):"
 
-#: стандартный ввод:22
+#: стандартный ввод:26
 msgid "(organizational unit name, written in latin letters)"
 msgstr "(название подразделения, написанное латинскими буквами)"
 
-#: стандартный ввод:23
+#: стандартный ввод:27
 msgid "Recreate"
 msgstr "Пересоздать"
 
-#: стандартный ввод:24
+#: стандартный ввод:28
 msgid "(recreate private key, sign request and self-signed certificate)"
 msgstr ""
 "(пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат)"
 
-#: стандартный ввод:25
+#: стандартный ввод:29
 msgid "Sign"
 msgstr "Подпись"
 
-#: стандартный ввод:26
+#: стандартный ввод:30
 msgid "Download sign request"
 msgstr "Забрать запрос на подпись"
 
-#: стандартный ввод:27
+#: стандартный ввод:31
 msgid "Upload certificate signed by CA:"
 msgstr "Положить сертификат, подписанный УЦ:"
 
-#: стандартный ввод:28
+#: стандартный ввод:32
 msgid "Upload"
 msgstr "Положить"
 
-#: backend3/ahttpd:125
+# ahttpd-acl
+#: backend3/ahttpd-acl:108
+msgid "No module found"
+msgstr "модуль не найден"
+
+#: backend3/ahttpd-server:126
 msgid "all connections"
 msgstr "все соединения"
 
-#: backend3/ahttpd:126
+#: backend3/ahttpd-server:127
 msgid "errors only"
 msgstr "только ошибки"
 
-#: backend3/ahttpd:127
+#: backend3/ahttpd-server:128
 msgid "nothing"
 msgstr "отсутствует"
 
-#: backend3/ahttpd:181
+#: backend3/ahttpd-server:182
 msgid "Invalid certificate file"
 msgstr "Неверный сертификат"
 
@@ -1126,19 +1148,19 @@ msgstr "Хранить время в BIOS по Гринвичу"
 msgid "Date/Time"
 msgstr "Дата и время"
 
-#: стандартный ввод:2 ui/datetime/index.scm:26
+#: стандартный ввод:1 ui/datetime/index.scm:26
 msgid "Get time from NTP server:"
 msgstr "Получать точное время с NTP-сервера:"
 
-#: стандартный ввод:3 ui/datetime/index.scm:31
+#: стандартный ввод:2 ui/datetime/index.scm:31
 msgid "Work as NTP server"
 msgstr "Работать как NTP-сервер"
 
-#: стандартный ввод:4 ui/datetime/index.scm:41
+#: стандартный ввод:3 ui/datetime/index.scm:41
 msgid "Current date:"
 msgstr "Текущая дата:"
 
-#: стандартный ввод:5 ui/datetime/index.scm:42
+#: стандартный ввод:4 ui/datetime/index.scm:42
 msgid "Current time:"
 msgstr "Текущее время:"
 
@@ -1501,11 +1523,11 @@ msgstr "Производители мониторов:"
 
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
-#: ui/x11/c-messages.scm:2 backend2/workflow-card-index:154
+#: ui/x11/c-messages.scm:2 interfaces/guile/workflow/card-index.scm:161
 msgid "Yes"
 msgstr "Да"
 
-#: ui/x11/c-messages.scm:3 backend2/workflow-card-index:152
+#: ui/x11/c-messages.scm:3 interfaces/guile/workflow/card-index.scm:159
 msgid "No"
 msgstr "Нет"
 
@@ -1523,69 +1545,69 @@ msgstr "Пуск"
 
 #: ui/x11/driver/index.scm:32 ui/x11/monitor/index.scm:29
 #: стандартный ввод:19 ui/pkg/sources/mirrors/index.scm:60
-#: ui/pkg/upgrade/index.scm:47 ui/xkb/avail_layout.scm:50
+#: ui/pkg/upgrade/index.scm:47 ui/xkb/avail_layout/index.scm:28
 msgid "Cancel"
 msgstr "Отмена"
 
-#: ui/x11/index.scm:96 backend3/x11:185
+#: ui/x11/index.scm:96 backend3/x11:187
 msgid "Test"
 msgstr "Проверить"
 
-#: backend3/x11:183
+#: backend3/x11:185
 msgid "Test current display settings"
 msgstr "Проверьте текущие настройки дисплея"
 
-#: backend3/x11:184
+#: backend3/x11:186
 msgid "Test failed"
 msgstr "Проверка не прошла"
 
-#: backend3/x11:193
+#: backend3/x11:195
 msgid "recommended"
 msgstr "рекомендовано"
 
-#: backend3/x11:211
+#: backend3/x11:213
 msgid "256 colors (8 bit)"
 msgstr "256 цветов (8 бит)"
 
-#: backend3/x11:212
+#: backend3/x11:214
 msgid "32 thousand colors (15 bits)"
 msgstr "32 тысячи цветов (15 бит)"
 
-#: backend3/x11:213
+#: backend3/x11:215
 msgid "65 thousand colors (16 bits)"
 msgstr "65 тысяч цветов (16 бит)"
 
-#: backend3/x11:214
+#: backend3/x11:216
 msgid "16 million colors (24 bits)"
 msgstr "16 миллионов цветов (24 бита)"
 
-#: backend3/x11:215
+#: backend3/x11:217
 msgid "4 billion colors (32 bits)"
 msgstr "4 миллиарда цветов (32 бита)"
 
-#: backend3/x11:216
+#: backend3/x11:218
 msgid "bits"
 msgstr ""
 
-#: backend3/x11:227
+#: backend3/x11:229
 msgid "automatically"
 msgstr "автоматически"
 
 #. for write_enum_item
-#: backend3/x11:266
+#: backend3/x11:268
 msgid "Automatically detected"
 msgstr "Автоматически определённый"
 
 #. config
-#: backend3/x11:336
+#: backend3/x11:338
 msgid "config file doesn't exist"
 msgstr "конфигурационный файл не существует"
 
-#: backend3/x11:385
+#: backend3/x11:387
 msgid "no workcopy was found"
 msgstr "не найдено рабочей копии конфигурационного файла"
 
-#: backend3/x11:389
+#: backend3/x11:391
 msgid "X11 test failed"
 msgstr "Проверка не прошла"
 
@@ -2184,59 +2206,88 @@ msgstr "Ноябрь"
 msgid "December"
 msgstr "Декабрь"
 
-#: backend2/workflow-card-index:98
+#: interfaces/guile/workflow/card-index.scm:105
 msgid "No objects found..."
 msgstr "Объектов не обнаружено..."
 
-#: backend2/workflow-card-index:107
+#: interfaces/guile/workflow/card-index.scm:114
 msgid "Return to view"
 msgstr "Вернуться к просмотру"
 
-#: backend2/workflow-card-index:151
+#: interfaces/guile/workflow/card-index.scm:158
 msgid "Do you really want to delete "
 msgstr "Вы действительно желаете удалить "
 
-#: backend2/workflow-card-index:161
+#: interfaces/guile/workflow/card-index.scm:168
 msgid "Unsupported mode"
 msgstr "Неподдерживаемый режим"
+
+#: стандартный ввод:1
+msgid "Network firewall"
+msgstr "Брандмауэр"
+
+#: стандартный ввод:2 ui/net-iptables/index.scm:60
+msgid "Enable firewall"
+msgstr "Включить брандмауэр"
+
+#: стандартный ввод:3 ui/net-iptables/index.scm:66
+msgid "Allow transit packets (forwarding)"
+msgstr "Разрешить транзитные пакеты (forwarding)"
+
+#: стандартный ввод:4 ui/net-iptables/index.scm:73
+msgid "Enable network address translation (NAT):"
+msgstr "Включить трансляцию сетевых адресов (NAT):"
+
+#: стандартный ввод:5 ui/net-iptables/index.scm:76
+msgid "via:"
+msgstr "через:"
+
+#: стандартный ввод:7 ui/net-iptables/index.scm:88
+msgid "Restore default settings"
+msgstr "Восстановить настройки по умолчанию"
+
+#.
+#: стандартный ввод:8 ui/net-iptables/index.scm:94
+msgid "Allowed incoming connections"
+msgstr "Разрешённые входящие соединения"
 
 #: ui/sysconfig/language/index.scm:37
 msgid "Select your language:"
 msgstr "Выберите язык:"
 
-#: ui/sysconfig/kbd/index.scm:20
+#: ui/sysconfig/kbd/index.scm:26
 msgid "Please select keyboard switch type:"
 msgstr "Выберите вариант переключения раскладки клавиатуры:"
 
-#: backend3/syskbd:14
+#: backend3/syskbd:17
 msgid "Alt+Shift key"
 msgstr "Клавиши Alt и Shift одновременно"
 
-#: backend3/syskbd:15
+#: backend3/syskbd:18
 msgid "CapsLock key"
 msgstr "Клавиша CapsLock"
 
-#: backend3/syskbd:16
+#: backend3/syskbd:19
 msgid "Control+Shift keys"
 msgstr "Клавиши Control и Shift одновременно"
 
-#: backend3/syskbd:17
+#: backend3/syskbd:20
 msgid "Control key"
 msgstr "Клавиша Control"
 
-#: backend3/syskbd:18
+#: backend3/syskbd:21
 msgid "Alt key"
 msgstr "Клавиша Alt"
 
-#: backend3/syskbd:19
+#: backend3/syskbd:22
 msgid "Control+Shift keys (UK,RU,EN)"
 msgstr "Клавиши Control и Shift одновременно (UK, RU, EN)"
 
-#: backend3/syskbd:20
+#: backend3/syskbd:23
 msgid "Default"
 msgstr "По умолчанию"
 
-#: backend3/syskbd:21 backend3/syskbd:22
+#: backend3/syskbd:24 backend3/syskbd:25
 msgid "Without dead keys"
 msgstr "Без 'мёртвых' клавиш"
 
@@ -2288,50 +2339,43 @@ msgstr "Укажите пароль для системного админист
 msgid "You should define a password for system administrator"
 msgstr "Вы должны указать пароль для системного администратора"
 
-#: стандартный ввод:1 ввод:6 ui/xkb/html-messages.scm:6
+#: стандартный ввод:1
 msgid "Keyboard settings"
 msgstr "Настройка клавиатуры"
 
-#: стандартный ввод:1 ui/xkb/html-messages.scm:1
-#: ui/xkb/avail_layout.scm:46
-msgid "Available layouts:"
-msgstr "Доступные раскладки:"
-
-#: стандартный ввод:2 ui/xkb/html-messages.scm:2
-#: ui/xkb/avail_layout.scm:42
+#: стандартный ввод:1 ui/xkb/avail_layout/index.scm:18
 msgid "Country:"
 msgstr "Страна:"
 
-#: стандартный ввод:7 ui/xkb/html-messages.scm:7
-#: ui/xkb/index.scm:64
-msgid "Model:"
-msgstr "Модель:"
+#: стандартный ввод:3 ui/xkb/avail_layout/index.scm:20
+msgid "Available layouts:"
+msgstr "Доступные раскладки:"
 
-#: стандартный ввод:8 ui/xkb/html-messages.scm:8
-#: ui/xkb/index.scm:68
+#: стандартный ввод:5 ui/xkb/index.scm:34
 msgid "Layouts:"
 msgstr "Раскладки:"
 
-#: стандартный ввод:11 ui/xkb/html-messages.scm:11
-#: ui/xkb/index.scm:76
+#: стандартный ввод:8 ui/xkb/index.scm:41
 msgid "Up"
 msgstr "Выше"
 
-#: стандартный ввод:12 ui/xkb/html-messages.scm:12
-#: ui/xkb/index.scm:77
+#: стандартный ввод:9 ui/xkb/index.scm:42
 msgid "Down"
 msgstr "Ниже"
 
-#: стандартный ввод:13 ui/xkb/html-messages.scm:13
-#: ui/xkb/index.scm:85
+#: стандартный ввод:10 ui/xkb/index.scm:46
 msgid "Layout switching:"
 msgstr "Переключение раскладок:"
 
-#: backend3/xkb:159
+#: стандартный ввод:11 ui/xkb/index.scm:49
+msgid "Model:"
+msgstr "Модель:"
+
+#: backend3/xkb:186
 msgid "Apply saved keyboard settings"
 msgstr "Применить сохранённые настройки клавиатуры"
 
-#: backend3/xkb:160
+#: backend3/xkb:187
 msgid "Apply failed"
 msgstr "Ошибка"
 
@@ -2434,19 +2478,3 @@ msgstr "Только помечать"
 #: backend3/spamassassin:92
 msgid "Drop mail"
 msgstr "Удалять почту"
-
-#ahttpd-acl
-msgid "No module found"
-msgstr "модуль не найден"
-
-#ahttpd-acl
-msgid "Following users have access:"
-msgstr "Следующие пользователи имеют доступ:"
-
-#ahttpd-acl
-msgid "New user:"
-msgstr "Новый пользователь:"
-
-#ahttpd-acl
-msgid "Module access settings"
-msgstr "Параметры доступа к модулю"

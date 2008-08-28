@@ -48,7 +48,7 @@ msgid "Groups"
 msgstr ""
 
 #: стандартный ввод:1 ввод:6 ввод:2 ввод:3
-#: ввод:5 ввод:7 ui/xkb/html-messages.scm:3
+#: ввод:5 ввод:7 ввод:10
 msgid "Select"
 msgstr "Вибрати"
 
@@ -57,13 +57,13 @@ msgstr "Вибрати"
 #: ui/services/index.scm:63 ввод:15 ui/xinetd/index.scm:149
 #: ui/lilo/expert/index.scm:263 ui/lilo/index.scm:137
 #: ui/lilo/edit-source/index.scm:43 ui/auth/index.scm:50 ввод:14
-#: ввод:10 ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
-#: ui/datetime/index.scm:59 ввод:13 ui/users/index.scm:115
-#: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
-#: ui/x11/index.scm:99 ввод:7 ui/dovecot/index.scm:62
-#: ui/alternatives/index.scm:80 ui/control/index.scm:70 ввод:9
-#: ui/net-pppoe/index.scm:91 ui/root/index.scm:48 ui/xkb/html-messages.scm:4
-#: ui/xkb/html-messages.scm:14 ui/xkb/index.scm:93 backend3/xkb:161 ввод:8
+#: ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ui/datetime/index.scm:59
+#: ввод:13 ui/users/index.scm:115 ui/net-eth/index.scm:159 ввод:4
+#: ввод:16 ввод:21 ui/x11/index.scm:99 ввод:7
+#: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80 ввод:6 ввод:11
+#: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
+#: ui/control/index.scm:70 ввод:9 ui/net-pppoe/index.scm:91
+#: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
 #: ввод:24
 msgid "Apply"
 msgstr "Застосувати"
@@ -73,11 +73,10 @@ msgstr "Застосувати"
 #: ui/services/index.scm:64 ui/xinetd/index.scm:150
 #: ui/lilo/expert/index.scm:237 ui/lilo/expert/index.scm:264
 #: ui/lilo/edit-source/index.scm:44 ввод:6 ui/auth/index.scm:51
-#: ввод:15 ui/net-pptp/index.scm:120 ui/timezone/index.scm:71 ввод:7
-#: ввод:14 ui/net-eth/index.scm:160 ввод:5 ввод:17 ввод:22
-#: ввод:8 ui/dovecot/index.scm:63 ввод:10 ui/net-pppoe/index.scm:92
-#: ui/xkb/html-messages.scm:5 ui/xkb/html-messages.scm:15 ввод:9
-#: ввод:25
+#: ввод:15 ui/net-pptp/index.scm:120 ui/timezone/index.scm:71 ввод:14
+#: ui/net-eth/index.scm:160 ввод:5 ввод:17 ввод:22 ввод:8
+#: ui/dovecot/index.scm:63 ввод:12 ввод:10 ui/net-pppoe/index.scm:92
+#: ввод:9 ввод:25
 msgid "Reset"
 msgstr "Скинути"
 
@@ -105,7 +104,7 @@ msgid "Users:"
 msgstr "Користувач"
 
 #: ui/groups/expert/index.scm:90 ui/groups/index.scm:75 стандартный
-#: ввод:14 ui/net-wifi/index.scm:133 ввод:5
+#: ввод:14 ui/net-wifi/index.scm:133 ввод:3 ввод:5
 #: ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr "Видалити"
@@ -152,9 +151,10 @@ msgstr "Користувач"
 msgid "Description:"
 msgstr "Опис:"
 
-#: ui/groups/index.scm:87 стандартный ввод:3 ввод:13
-#: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 ввод:9
-#: ui/xkb/html-messages.scm:9 ui/xkb/index.scm:73
+#: ui/groups/index.scm:87 стандартный ввод:5 ввод:3
+#: ввод:13 ui/pkg/sources/mirrors/index.scm:51
+#: ui/pkg/register/index.scm:42 ввод:4 ввод:6
+#: ui/xkb/avail_layout/index.scm:27 ui/xkb/index.scm:38
 msgid "Add"
 msgstr "Додати"
 
@@ -206,10 +206,12 @@ msgstr ""
 msgid "Wi-Fi setup"
 msgstr ""
 
+#. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: стандартный ввод:2 ui/net-wifi/index.scm:103 ввод:5
-#: ui/net-pppoe/index.scm:74
+#: стандартный ввод:2 ui/net-wifi/index.scm:103 ввод:9
+#: ui/net-iptables/index.scm:97 ввод:5 ui/net-pppoe/index.scm:74
 msgid "Interface:"
 msgstr "Інтерфейс:"
 
@@ -650,8 +652,7 @@ msgid "Set default"
 msgstr "Типово"
 
 #: ui/lilo/expert/index.scm:244 стандартный ввод:14
-#: ui/pkg/register/index.scm:44 ввод:10 ui/xkb/html-messages.scm:10
-#: ui/xkb/index.scm:74
+#: ui/pkg/register/index.scm:44 ввод:7 ui/xkb/index.scm:39
 msgid "Remove"
 msgstr "Видалити"
 
@@ -861,7 +862,9 @@ msgstr "Допомога"
 msgid "FTP server"
 msgstr "FTP-сервер"
 
-#: стандартный ввод:3
+#. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: стандартный ввод:3 ввод:1 ui/net-iptables/index.scm:55
 msgid "General options"
 msgstr "Загальні налаштування"
 
@@ -923,7 +926,6 @@ msgstr "Для вибраних:"
 
 #: стандартный ввод:20 ввод:22 ui/x11/driver/index.scm:26
 #: ui/x11/monitor/index.scm:23 ui/pkg/sources/mirrors/index.scm:59
-#: ui/xkb/avail_layout.scm:49
 msgid "OK"
 msgstr "Так"
 
@@ -963,131 +965,150 @@ msgstr "Такий користувач вже є"
 msgid "HTTP server"
 msgstr "HTTP-сервер"
 
+#: стандартный ввод:1 ввод:5
+#, fuzzy
+msgid "Module access settings"
+msgstr "Налаштування локальних користувачів"
+
 #: стандартный ввод:2
+msgid "Following users have access:"
+msgstr ""
+
+#: стандартный ввод:4
+#, fuzzy
+msgid "New user:"
+msgstr "вихідні"
+
+#: стандартный ввод:6
 msgid "Restart HTTP server"
 msgstr "Перезапустити HTTP-сервер"
 
-#: стандартный ввод:3
+#: стандартный ввод:7
 msgid "General settings"
 msgstr "Загальні параметри"
 
-#: стандартный ввод:4
+#: стандартный ввод:8
 msgid "Port:"
 msgstr "Порт:"
 
-#: стандартный ввод:5
+#: стандартный ввод:9
 msgid "(TCP port where server listen on)"
 msgstr ""
 
-#: стандартный ввод:6
+#: стандартный ввод:10
 #, fuzzy
 msgid "Listen address:"
 msgstr "IP-адреса"
 
-#: стандартный ввод:7
+#: стандартный ввод:11
 msgid ""
 "(IP address where server listen on, or '*' for listening on all interfaces)"
 msgstr ""
 "(IP-адреса, на  якій сервер приймає з'єднання або '*' для обслуговування "
 "усіх інтерфейсів)"
 
-#: стандартный ввод:8
+#: стандартный ввод:12
 msgid "Logging:"
 msgstr "Протоколювання:"
 
-#: стандартный ввод:9
+#: стандартный ввод:13
 msgid "(granularity of the logging influences its size)"
 msgstr "(докладність протоколювання впливає на розмір журналу)"
 
-#: стандартный ввод:11
+#: стандартный ввод:15
 msgid "TLS settings"
 msgstr "Налаштування TLS"
 
-#: стандартный ввод:12
+#: стандартный ввод:16
 msgid "Certificate"
 msgstr "Сертіфікат"
 
-#: стандартный ввод:13
+#: стандартный ввод:17
 msgid "Common Name (CN):"
 msgstr "Спільне Ім'я (CN):"
 
-#: стандартный ввод:14
+#: стандартный ввод:18
 msgid "(public hostname)"
 msgstr "(невірне ім'я машини)"
 
-#: стандартный ввод:15
+#: стандартный ввод:19
 msgid "Country (C):"
 msgstr "Країна (C):"
 
-#: стандартный ввод:16
+#: стандартный ввод:20
 msgid "(two letter country code)"
 msgstr "(дволітерний код країни)"
 
-#: стандартный ввод:17
+#: стандартный ввод:21
 msgid "Location (L):"
 msgstr "Місце (L):"
 
-#: стандартный ввод:18
+#: стандартный ввод:22
 msgid "(state or city, written in latin letters)"
 msgstr ""
 
-#: стандартный ввод:19
+#: стандартный ввод:23
 msgid "Organization (O):"
 msgstr "Організація (O):"
 
-#: стандартный ввод:20
+#: стандартный ввод:24
 msgid "(organization name, written in latin letters)"
 msgstr ""
 
-#: стандартный ввод:21
+#: стандартный ввод:25
 msgid "Organizational Unit (OU):"
 msgstr "Подрозділ (OU):"
 
-#: стандартный ввод:22
+#: стандартный ввод:26
 msgid "(organizational unit name, written in latin letters)"
 msgstr ""
 
-#: стандартный ввод:23
+#: стандартный ввод:27
 msgid "Recreate"
 msgstr "Створити наново"
 
-#: стандартный ввод:24
+#: стандартный ввод:28
 msgid "(recreate private key, sign request and self-signed certificate)"
 msgstr ""
 "(створити наново секретний ключ, запит на підпис та самопідписаний "
 "сертифікат)"
 
-#: стандартный ввод:25
+#: стандартный ввод:29
 msgid "Sign"
 msgstr ""
 
-#: стандартный ввод:26
+#: стандартный ввод:30
 msgid "Download sign request"
 msgstr "Звантажити запит на підпис"
 
-#: стандартный ввод:27
+#: стандартный ввод:31
 msgid "Upload certificate signed by CA:"
 msgstr "Відвантажити сертифікат, підписаний УЦ:"
 
-#: стандартный ввод:28
+#: стандартный ввод:32
 msgid "Upload"
 msgstr "Відвантажити"
 
-#: backend3/ahttpd:125
+#: backend3/ahttpd-acl:108
+#, fuzzy
+msgid "No module found"
+msgstr "Об'єкти не знайдено..."
+
+#: backend3/ahttpd-server:126
 #, fuzzy
 msgid "all connections"
 msgstr "PPTP-з'єднання"
 
-#: backend3/ahttpd:126
+#: backend3/ahttpd-server:127
 #, fuzzy
 msgid "errors only"
 msgstr "Лише позначити"
 
-#: backend3/ahttpd:127
+#: backend3/ahttpd-server:128
 msgid "nothing"
 msgstr ""
 
-#: backend3/ahttpd:181
+#: backend3/ahttpd-server:182
 #, fuzzy
 msgid "Invalid certificate file"
 msgstr "Відвантажити сертифікат, підписаний УЦ"
@@ -1202,21 +1223,21 @@ msgstr ""
 msgid "Date/Time"
 msgstr "Дата/Час"
 
-#: стандартный ввод:2 ui/datetime/index.scm:26
+#: стандартный ввод:1 ui/datetime/index.scm:26
 msgid "Get time from NTP server:"
 msgstr ""
 
-#: стандартный ввод:3 ui/datetime/index.scm:31
+#: стандартный ввод:2 ui/datetime/index.scm:31
 #, fuzzy
 msgid "Work as NTP server"
 msgstr "FTP-сервер"
 
-#: стандартный ввод:4 ui/datetime/index.scm:41
+#: стандартный ввод:3 ui/datetime/index.scm:41
 #, fuzzy
 msgid "Current date:"
 msgstr "Поточні налаштування:"
 
-#: стандартный ввод:5 ui/datetime/index.scm:42
+#: стандартный ввод:4 ui/datetime/index.scm:42
 #, fuzzy
 msgid "Current time:"
 msgstr "Поточні налаштування:"
@@ -1609,11 +1630,11 @@ msgstr "Монітор:"
 
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
-#: ui/x11/c-messages.scm:2 backend2/workflow-card-index:154
+#: ui/x11/c-messages.scm:2 interfaces/guile/workflow/card-index.scm:161
 msgid "Yes"
 msgstr "Так"
 
-#: ui/x11/c-messages.scm:3 backend2/workflow-card-index:152
+#: ui/x11/c-messages.scm:3 interfaces/guile/workflow/card-index.scm:159
 msgid "No"
 msgstr "Ні"
 
@@ -1631,70 +1652,70 @@ msgstr "Далі"
 
 #: ui/x11/driver/index.scm:32 ui/x11/monitor/index.scm:29
 #: стандартный ввод:19 ui/pkg/sources/mirrors/index.scm:60
-#: ui/pkg/upgrade/index.scm:47 ui/xkb/avail_layout.scm:50
+#: ui/pkg/upgrade/index.scm:47 ui/xkb/avail_layout/index.scm:28
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: ui/x11/index.scm:96 backend3/x11:185
+#: ui/x11/index.scm:96 backend3/x11:187
 msgid "Test"
 msgstr "Тестування"
 
-#: backend3/x11:183
+#: backend3/x11:185
 msgid "Test current display settings"
 msgstr "Перевірити поточні налаштування дисплею"
 
-#: backend3/x11:184
+#: backend3/x11:186
 msgid "Test failed"
 msgstr "Тест невдалий"
 
-#: backend3/x11:193
+#: backend3/x11:195
 msgid "recommended"
 msgstr "рекомендовано"
 
-#: backend3/x11:211
+#: backend3/x11:213
 msgid "256 colors (8 bit)"
 msgstr "256 кольорів (8 біт)"
 
-#: backend3/x11:212
+#: backend3/x11:214
 msgid "32 thousand colors (15 bits)"
 msgstr "32 тисячі кольорів (15 біт)"
 
-#: backend3/x11:213
+#: backend3/x11:215
 msgid "65 thousand colors (16 bits)"
 msgstr "65 тисяч кольорів (16 біт)"
 
-#: backend3/x11:214
+#: backend3/x11:216
 msgid "16 million colors (24 bits)"
 msgstr "16 мільйонів кольорів (24 біта)"
 
-#: backend3/x11:215
+#: backend3/x11:217
 msgid "4 billion colors (32 bits)"
 msgstr "4 мільярди кольорів (32 біта)"
 
-#: backend3/x11:216
+#: backend3/x11:218
 msgid "bits"
 msgstr ""
 
-#: backend3/x11:227
+#: backend3/x11:229
 #, fuzzy
 msgid "automatically"
 msgstr "Автоматично"
 
 #. for write_enum_item
-#: backend3/x11:266
+#: backend3/x11:268
 msgid "Automatically detected"
 msgstr "Автоматично"
 
 #. config
-#: backend3/x11:336
+#: backend3/x11:338
 msgid "config file doesn't exist"
 msgstr "конфіґурацію не знайдено"
 
-#: backend3/x11:385
+#: backend3/x11:387
 msgid "no workcopy was found"
 msgstr "робочу копію не знайдено"
 
-#: backend3/x11:389
+#: backend3/x11:391
 msgid "X11 test failed"
 msgstr "Тест X11 невдалий"
 
@@ -2329,59 +2350,92 @@ msgstr "Листопад"
 msgid "December"
 msgstr "Грудень"
 
-#: backend2/workflow-card-index:98
+#: interfaces/guile/workflow/card-index.scm:105
 msgid "No objects found..."
 msgstr "Об'єкти не знайдено..."
 
-#: backend2/workflow-card-index:107
+#: interfaces/guile/workflow/card-index.scm:114
 msgid "Return to view"
 msgstr "Вернутися до перегляду"
 
-#: backend2/workflow-card-index:151
+#: interfaces/guile/workflow/card-index.scm:158
 msgid "Do you really want to delete "
 msgstr "Ви дійсно бажаєте видалити "
 
-#: backend2/workflow-card-index:161
+#: interfaces/guile/workflow/card-index.scm:168
 msgid "Unsupported mode"
 msgstr "Режим не підтримується"
+
+#: стандартный ввод:1
+#, fuzzy
+msgid "Network firewall"
+msgstr "робочу копію не знайдено"
+
+#: стандартный ввод:2 ui/net-iptables/index.scm:60
+#, fuzzy
+msgid "Enable firewall"
+msgstr "Ввімкнути службу FTP"
+
+#: стандартный ввод:3 ui/net-iptables/index.scm:66
+msgid "Allow transit packets (forwarding)"
+msgstr ""
+
+#: стандартный ввод:4 ui/net-iptables/index.scm:73
+msgid "Enable network address translation (NAT):"
+msgstr ""
+
+#: стандартный ввод:5 ui/net-iptables/index.scm:76
+msgid "via:"
+msgstr ""
+
+#: стандартный ввод:7 ui/net-iptables/index.scm:88
+#, fuzzy
+msgid "Restore default settings"
+msgstr "Загальні параметри"
+
+#.
+#: стандартный ввод:8 ui/net-iptables/index.scm:94
+#, fuzzy
+msgid "Allowed incoming connections"
+msgstr "PPTP-з'єднання"
 
 #: ui/sysconfig/language/index.scm:37
 msgid "Select your language:"
 msgstr "Оберіть мову:"
 
-#: ui/sysconfig/kbd/index.scm:20
+#: ui/sysconfig/kbd/index.scm:26
 msgid "Please select keyboard switch type:"
 msgstr "Виберіть варіант перемикання розкладки клавіатури:"
 
-#: backend3/syskbd:14
+#: backend3/syskbd:17
 msgid "Alt+Shift key"
 msgstr "Клавіші ALT и Shift одночасно"
 
-#: backend3/syskbd:15
+#: backend3/syskbd:18
 msgid "CapsLock key"
 msgstr "Клавіша CapsLock"
 
-#: backend3/syskbd:16
+#: backend3/syskbd:19
 msgid "Control+Shift keys"
 msgstr "Клавіші Control и Shift одночасно UK,EN"
 
-#: backend3/syskbd:17
+#: backend3/syskbd:20
 msgid "Control key"
 msgstr "Клавіша Control"
 
-#: backend3/syskbd:18
+#: backend3/syskbd:21
 msgid "Alt key"
 msgstr "Клавіша Alt"
 
-#: backend3/syskbd:19
+#: backend3/syskbd:22
 msgid "Control+Shift keys (UK,RU,EN)"
 msgstr "Клавіші Control и Shift одночасно (UK,RU,EN)"
 
-#: backend3/syskbd:20
+#: backend3/syskbd:23
 msgid "Default"
 msgstr "По змовчуванню"
 
-#: backend3/syskbd:21 backend3/syskbd:22
+#: backend3/syskbd:24 backend3/syskbd:25
 msgid "Without dead keys"
 msgstr "Без 'мертвих' клавіш"
 
@@ -2434,50 +2488,43 @@ msgstr ""
 msgid "You should define a password for system administrator"
 msgstr ""
 
-#: стандартный ввод:1 ввод:6 ui/xkb/html-messages.scm:6
+#: стандартный ввод:1
 msgid "Keyboard settings"
 msgstr ""
 
-#: стандартный ввод:1 ui/xkb/html-messages.scm:1
-#: ui/xkb/avail_layout.scm:46
-msgid "Available layouts:"
-msgstr "Доступні розкладки:"
-
-#: стандартный ввод:2 ui/xkb/html-messages.scm:2
-#: ui/xkb/avail_layout.scm:42
+#: стандартный ввод:1 ui/xkb/avail_layout/index.scm:18
 msgid "Country:"
 msgstr ""
 
-#: стандартный ввод:7 ui/xkb/html-messages.scm:7
-#: ui/xkb/index.scm:64
-msgid "Model:"
-msgstr "Модель:"
+#: стандартный ввод:3 ui/xkb/avail_layout/index.scm:20
+msgid "Available layouts:"
+msgstr "Доступні розкладки:"
 
-#: стандартный ввод:8 ui/xkb/html-messages.scm:8
-#: ui/xkb/index.scm:68
+#: стандартный ввод:5 ui/xkb/index.scm:34
 msgid "Layouts:"
 msgstr "Розкладки:"
 
-#: стандартный ввод:11 ui/xkb/html-messages.scm:11
-#: ui/xkb/index.scm:76
+#: стандартный ввод:8 ui/xkb/index.scm:41
 msgid "Up"
 msgstr "Підняти"
 
-#: стандартный ввод:12 ui/xkb/html-messages.scm:12
-#: ui/xkb/index.scm:77
+#: стандартный ввод:9 ui/xkb/index.scm:42
 msgid "Down"
 msgstr "Опустити"
 
-#: стандартный ввод:13 ui/xkb/html-messages.scm:13
-#: ui/xkb/index.scm:85
+#: стандартный ввод:10 ui/xkb/index.scm:46
 msgid "Layout switching:"
 msgstr ""
 
-#: backend3/xkb:159
+#: стандартный ввод:11 ui/xkb/index.scm:49
+msgid "Model:"
+msgstr "Модель:"
+
+#: backend3/xkb:186
 msgid "Apply saved keyboard settings"
 msgstr ""
 
-#: backend3/xkb:160
+#: backend3/xkb:187
 msgid "Apply failed"
 msgstr ""
 
@@ -2585,3 +2632,4 @@ msgstr "Лише позначити"
 #: backend3/spamassassin:92
 msgid "Drop mail"
 msgstr "Видаляти пошту"
+

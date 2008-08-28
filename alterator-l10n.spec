@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.7
-Release: alt6
+Version: 0.8
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Thu Aug 28 2008 Stanislav Ievlev <inger@altlinux.org> 0.8-alt1
+- add translations for alterator-net-iptables
+
 * Mon Aug 25 2008 Stanislav Ievlev <inger@altlinux.org> 0.7-alt6
 - update translations for acl feature
 
