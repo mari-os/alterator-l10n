@@ -1,19 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Andrey Cherepanov <skull@kde.ru>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-22 14:41+0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2008-09-01 18:01+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: стандартный ввод:1
 msgid "License"
@@ -26,12 +28,12 @@ msgstr "Информация о дистрибутиве"
 #: ui/license/index.scm:8 ui/notes/license.scm:8
 msgid "Please take a moment to read the license agreement now."
 msgstr ""
-"Прочтите, пожалуйста, лицензионное соглашение. Если вы согласны, отметьте "
+"Ознакомьтесь с лицензионным договором. Если вы принимаете условия договора, отметьте "
 "«Да, я согласен с условиями» и нажмите «Далее»."
 
 #: ui/license/index.scm:10 ui/notes/license.scm:10
 msgid "License file not found"
-msgstr "Файл лицензии не найден"
+msgstr "Файл лицензионного договора не найден"
 
 #: ui/license/index.scm:15 ui/notes/license.scm:15
 msgid "Yes, I agree"
@@ -190,12 +192,11 @@ msgstr "из группы"
 
 #: backend3/groups:248
 msgid "Can't delete system group. You can do in in expert mode"
-msgstr ""
-"Нельзя удалять системную группу. Вы можете сделать это в режиме эксперта"
+msgstr "Нельзя удалять системную группу. Вы можете сделать это в режиме эксперта"
 
 #: стандартный ввод:1
 msgid "Wi-Fi setup"
-msgstr "Настройка Wi-Fi"
+msgstr "Настройка WiFi"
 
 #. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -418,7 +419,7 @@ msgstr "перезапустить"
 
 #: стандартный ввод:1
 msgid "Xinetd server"
-msgstr "Сетевой суперсервер (xinetd)"
+msgstr "Сетевой супер-сервер (xinetd)"
 
 #: стандартный ввод:3 ui/xinetd/index.scm:46
 msgid "internal service"
@@ -465,7 +466,7 @@ msgid ""
 "running xinetd to make it reread new configuration."
 msgstr ""
 "Этот диалог меняет конфигурационный файл для xinetd. Чтобы изменения "
-"повлияли на работающюю службу xinetd -- перезапустите ее."
+"повлияли на работающую службу xinetd — перезапустите её."
 
 #: стандартный ввод:14
 msgid "Start, stop or restart xinetd"
@@ -538,7 +539,7 @@ msgstr "Установить загрузчик в:"
 
 #: ui/lilo/expert/index.scm:203
 msgid "Raid-extra-boot:"
-msgstr ""
+msgstr "Параметры загрузки RAID:"
 
 #: ui/lilo/expert/index.scm:206
 msgid "Interface type:"
@@ -566,7 +567,7 @@ msgstr "Образ ядра:"
 
 #: ui/lilo/expert/index.scm:226
 msgid "Initrd:"
-msgstr ""
+msgstr "Файловая система initrd:"
 
 #: ui/lilo/expert/index.scm:227
 msgid "Root device:"
@@ -582,15 +583,15 @@ msgstr "Устройство:"
 
 #: ui/lilo/expert/index.scm:231
 msgid "Alias:"
-msgstr ""
+msgstr "Алиас:"
 
 #: ui/lilo/expert/index.scm:232
 msgid "Boot-as:"
-msgstr ""
+msgstr "Загружать как:"
 
 #: ui/lilo/expert/index.scm:233
 msgid "Table:"
-msgstr ""
+msgstr "Таблица:"
 
 #: ui/lilo/expert/index.scm:236 стандартный ввод:1
 msgid "Save"
@@ -615,7 +616,7 @@ msgstr "Добавить другой загрузчик"
 
 #: ui/lilo/index.scm:44
 msgid "Hard drive"
-msgstr "Жесткий диск"
+msgstr "Жёсткий диск"
 
 #: ui/lilo/index.scm:47
 msgid "Linux partition"
@@ -651,7 +652,7 @@ msgstr "Мб"
 
 #: backend3/lilo:95
 msgid "Kb"
-msgstr "Кб"
+msgstr "кб"
 
 #: backend3/lilo:125
 msgid "failsafe"
@@ -667,23 +668,23 @@ msgstr "текстовый"
 
 #: backend3/lilo:136
 msgid "none"
-msgstr ""
+msgstr "нет"
 
 #: backend3/lilo:137
 msgid "auto"
-msgstr ""
+msgstr "авто"
 
 #: backend3/lilo:138
 msgid "mbr"
-msgstr ""
+msgstr "MBR"
 
 #: backend3/lilo:139
 msgid "mbr-only"
-msgstr ""
+msgstr "только MBR"
 
 #: backend3/lilo:142
 msgid "no wait"
-msgstr "не ждать"
+msgstr "без ожидания"
 
 #: backend3/lilo:143
 msgid "1 second"
@@ -727,7 +728,7 @@ msgstr "Локальные файлы"
 
 #: backend3/auth:33
 msgid "LDAP"
-msgstr ""
+msgstr "LDAP"
 
 #: backend3/auth:105
 msgid "LDAP server"
@@ -747,7 +748,7 @@ msgstr "запустить, остановить или перезапустит
 
 #: стандартный ввод:2
 msgid "SMTP transport:"
-msgstr "SMTP транспорт:"
+msgstr "SMTP-транспорт:"
 
 #: стандартный ввод:4
 msgid "Auth server:"
@@ -767,11 +768,11 @@ msgstr "Включен, с фильтрацией трафика"
 
 #: backend3/postfix-sasl:51
 msgid "Cyrus"
-msgstr ""
+msgstr "Cyrus"
 
 #: backend3/postfix-sasl:52
 msgid "Dovecot"
-msgstr ""
+msgstr "Dovecot"
 
 #: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
 #: стандартный ввод:4 ui/logs/index.scm:31
@@ -936,8 +937,7 @@ msgid "Listen address:"
 msgstr "Адрес:"
 
 #: стандартный ввод:11
-msgid ""
-"(IP address where server listen on, or '*' for listening on all interfaces)"
+msgid "(IP address where server listen on, or '*' for listening on all interfaces)"
 msgstr ""
 "(IP адрес на котором сервер принимает соединения или '*' для работы на всех "
 "интерфейсах)"
@@ -960,7 +960,7 @@ msgstr "Сертификат"
 
 #: стандартный ввод:17
 msgid "Common Name (CN):"
-msgstr "Общее Имя (CN):"
+msgstr "Общее имя (CN):"
 
 #: стандартный ввод:18
 msgid "(public hostname)"
@@ -1004,8 +1004,7 @@ msgstr "Пересоздать"
 
 #: стандартный ввод:28
 msgid "(recreate private key, sign request and self-signed certificate)"
-msgstr ""
-"(пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат)"
+msgstr "(пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат)"
 
 #: стандартный ввод:29
 msgid "Sign"
@@ -1305,7 +1304,7 @@ msgstr "невозможно создать или удалить домашни
 #. '
 #: backend3/users:83
 msgid "can't create mail spool"
-msgstr "невозможно создать mail spool"
+msgstr "невозможно создать почтовую очередь"
 
 #: backend3/users:92
 msgid "cannot change password"
@@ -1398,7 +1397,7 @@ msgstr "Привязка:"
 
 #: стандартный ввод:12 ui/net-eth/index.scm:141
 msgid "Wireless settings..."
-msgstr "Параметры для беспроводных интерфейсов..."
+msgstr "Настройка беспроводной связи..."
 
 #: ui/net-eth/index.scm:94
 msgid "multiple values should be space separated"
@@ -1587,7 +1586,7 @@ msgstr "4 миллиарда цветов (32 бита)"
 
 #: backend3/x11:218
 msgid "bits"
-msgstr ""
+msgstr "бит"
 
 #: backend3/x11:229
 msgid "automatically"
@@ -1883,7 +1882,7 @@ msgstr "Порт службы аутентификации для Postfix"
 
 #: backend3/dovecot:29
 msgid "POP3"
-msgstr ""
+msgstr "POP3"
 
 #: backend3/dovecot:30
 msgid "POP3 over TLS/SSL"
@@ -1891,7 +1890,7 @@ msgstr "POP3 через TLS/SSL"
 
 #: backend3/dovecot:31
 msgid "IMAP4"
-msgstr ""
+msgstr "IMAP4"
 
 #: backend3/dovecot:32
 msgid "IMAP4 over TLS/SSL"
@@ -1899,15 +1898,15 @@ msgstr "IMAP4 через TLS/SSL"
 
 #: backend3/dovecot:35
 msgid "PLAIN"
-msgstr ""
+msgstr "PLAIN"
 
 #: backend3/dovecot:36
 msgid "LOGIN"
-msgstr ""
+msgstr "LOGIN"
 
 #: backend3/dovecot:37
 msgid "ANONYMOUS"
-msgstr ""
+msgstr "ANONYMOUS"
 
 #: стандартный ввод:1
 msgid "System logs"
@@ -2023,11 +2022,11 @@ msgstr "Настройка системных часов"
 
 #: стандартный ввод:19
 msgid "Web interface"
-msgstr "Web-интерфейс"
+msgstr "Веб-интерфейс"
 
 #: стандартный ввод:20
 msgid "Setup embedded web server"
-msgstr "Настройка встроенного web-сервера"
+msgstr "Настройка встроенного веб-сервера"
 
 #: стандартный ввод:21
 msgid "Statistics"
@@ -2047,7 +2046,7 @@ msgstr "Учётная информация по системе"
 
 #: interfaces/guile/ensign/ensign.scm:20
 msgid "Backend live time (in hours)"
-msgstr "Время жизни бакенда (в часах)"
+msgstr "Время жизни бэкенда (в часах)"
 
 #: interfaces/guile/ensign/ensign.scm:21
 msgid "should be digits"
@@ -2063,7 +2062,7 @@ msgstr "недопустимый ipv4 адрес"
 
 #: backend2/constraints:46
 msgid "doesn't match to pattern"
-msgstr "не соотвествует шаблону"
+msgstr "не соответствует шаблону"
 
 #: backend2/constraints:53
 msgid "should be one of:"
@@ -2120,7 +2119,7 @@ msgstr "Ошибка"
 
 #: interfaces/guile/configd/html.scm:88
 msgid "Backend"
-msgstr "Бакенд"
+msgstr "Бэкенд"
 
 #: interfaces/guile/configd/html.scm:90
 msgid "XML Parser"
@@ -2478,3 +2477,4 @@ msgstr "Только помечать"
 #: backend3/spamassassin:92
 msgid "Drop mail"
 msgstr "Удалять почту"
+
