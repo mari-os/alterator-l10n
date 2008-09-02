@@ -1,0 +1,63 @@
+<!-- (C) 2007 Grigory Batalov <bga@altlinux.org> -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+   <head>
+	<title>Help - ALT Linux Console</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   </head>
+   <body>
+     <h2>Anti-spam protection</h2>
+     <p>To protect against unsolicited email (<em> a spam </em>) the built-in mail client
+       filter can be used. However even more effective solution is the filter placed
+       on a mail server.
+       </p>
+     <p>There are two ways of the filter usage
+     (&quot;Spam filter mode&quot; field): immediate spam removal
+	     and message marking with special headers. The latest variant is
+	     the most preferable. On the one hand, this saves machine resources
+	     (by not starting a local filter), on the other, each user can
+	     decide himself what is considered as spam and how it is processed.
+     </p>
+     <p>The filter analyzes a letter on many criteria and set it a final score.
+     The higher it is, the more probability that letter is a spam.
+     &quot;Required score&quot; parameter defines starting value,
+	     from which the letter will be recognized as a spam and, for example,
+	     removed. Letter evaluation criteria can be set independently with
+	     the name of the rule and it's score.
+     </p>
+     <p>&quot;Score&quot; is calculated from one or four numbers.<br/><br/>
+     RULE_NAME 0.5<br/>
+     RULE_NAME 0.5 0.6 0.5 0.5<br/>
+     RULE_NAME (0.2) (0.3) (0.2) (0.2)<br/>
+     <br/>
+     One number means final rule score.
+     If four numbers are specified, one of them is choosed depending on use or
+     non-use of a statistical (on the Bayes algorithm basis) and network analyzers.
+     <br/>
+     <table border="1">
+        <colgroup width="50pt" span="4"/>
+	 <tbody>
+	    <tr align="center"><td colspan="2" rowspan="2">&nbsp;</td>
+		<td colspan="2">statistical</td>
+	    </tr>
+	    <tr align="center"><td>none</td><td>use</td></tr>
+	    <tr align="center">
+		<td rowspan="2" valign="middle">network</td><td>none</td>
+		<td align="center">1st</td>
+		<td align="center">3rd</td>
+	    </tr>
+	    <tr align="center"><td>use</td>
+		<td align="center">2nd</td>
+		<td align="center">4th</td>
+	    </tr>
+	 </tbody>
+     </table><br/>
+     If the number is in parentheses, it will be added to the already counted rule score.
+     </p>
+     <p><em>Senders whitelist</em> allows to estimate their reliability in long-term prospect.
+     </p>
+     <p>By default mail server does not accept incoming mail. It is required to enable
+     spam filtering in &quot;SMTP transport status&quot; field to use it.
+     </p>
+   </body>
+</html>

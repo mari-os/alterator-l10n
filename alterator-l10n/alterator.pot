@@ -63,7 +63,7 @@ msgstr ""
 #: ввод:16 ввод:21 ui/x11/index.scm:99 ввод:7
 #: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80 ввод:6 ввод:11
 #: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
-#: ui/control/index.scm:70 ввод:9 ui/net-pppoe/index.scm:91
+#: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:91
 #: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
 #: ввод:24
 msgid "Apply"
@@ -293,7 +293,7 @@ msgstr ""
 msgid "access point"
 msgstr ""
 
-#: backend3/net-wifi:227 backend3/net-eth:355
+#: backend3/net-wifi:227 backend3/net-eth:357
 msgid "IP address"
 msgstr ""
 
@@ -420,7 +420,9 @@ msgstr ""
 msgid "internal service"
 msgstr ""
 
-#: стандартный ввод:4 ui/control/index.scm:54
+#. #-#-#-#-#  alterator-control.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: стандартный ввод:4 ввод:3 ui/control/index.scm:44
 msgid "State"
 msgstr ""
 
@@ -584,7 +586,7 @@ msgstr ""
 msgid "Table:"
 msgstr ""
 
-#: ui/lilo/expert/index.scm:236 стандартный ввод:1
+#: ui/lilo/expert/index.scm:236 стандартный ввод:5
 msgid "Save"
 msgstr ""
 
@@ -1389,63 +1391,63 @@ msgstr ""
 msgid "multiple values should be space separated"
 msgstr ""
 
-#: backend3/net-eth:136
+#: backend3/net-eth:138
 msgid "missing"
 msgstr ""
 
-#: backend3/net-eth:137
+#: backend3/net-eth:139
 msgid "by MAC address"
 msgstr ""
 
-#: backend3/net-eth:138
+#: backend3/net-eth:140
 msgid "by bus location"
 msgstr ""
 
-#: backend3/net-eth:143
+#: backend3/net-eth:145
 msgid "Turned off"
 msgstr ""
 
-#: backend3/net-eth:144
+#: backend3/net-eth:146
 msgid "Use DHCP"
 msgstr ""
 
-#: backend3/net-eth:145
+#: backend3/net-eth:147
 msgid "Use Zeroconf"
 msgstr ""
 
-#: backend3/net-eth:146
+#: backend3/net-eth:148
 msgid "Manually"
 msgstr ""
 
-#: backend3/net-eth:177
+#: backend3/net-eth:179
 msgid "interface is up"
 msgstr ""
 
-#: backend3/net-eth:177
+#: backend3/net-eth:179
 msgid "interface is down"
 msgstr ""
 
-#: backend3/net-eth:182
+#: backend3/net-eth:184
 msgid "plugged"
 msgstr ""
 
-#: backend3/net-eth:183
+#: backend3/net-eth:185
 msgid "unplugged"
 msgstr ""
 
-#: backend3/net-eth:349
+#: backend3/net-eth:351
 msgid "Host name"
 msgstr ""
 
-#: backend3/net-eth:351
+#: backend3/net-eth:353
 msgid "Search domains"
 msgstr ""
 
-#: backend3/net-eth:353
+#: backend3/net-eth:355
 msgid "DNS servers"
 msgstr ""
 
-#: backend3/net-eth:357
+#: backend3/net-eth:359
 msgid "Default gateway"
 msgstr ""
 
@@ -2273,19 +2275,27 @@ msgstr ""
 msgid "System restrictions"
 msgstr ""
 
-#: стандартный ввод:2
-msgid "Update help"
-msgstr ""
-
-#: ui/control/index.scm:30
+#: стандартный ввод:1 ui/control/index.scm:27
 msgid "Facility"
 msgstr ""
 
-#: ui/control/index.scm:30
+#: стандартный ввод:2 ui/control/index.scm:27
 msgid "Summary"
 msgstr ""
 
-#: backend3/control:59
+#: стандартный ввод:4
+msgid "Mode:"
+msgstr ""
+
+#: стандартный ввод:6
+msgid "Update help"
+msgstr ""
+
+#: стандартный ввод:7
+msgid "Help:"
+msgstr ""
+
+#: backend3/control:55
 msgid "facility setup failed"
 msgstr ""
 

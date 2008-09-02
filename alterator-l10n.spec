@@ -1,5 +1,5 @@
 Name: alterator-l10n
-Version: 0.8
+Version: 0.9
 Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
@@ -12,7 +12,7 @@ Summary: translations for all alterator modules
 License: GPL
 Group: System/Configuration/Other
 
-Requires: alterator >= 3.4-alt2
+Conflicts: alterator < 3.4-alt2
 
 %description
 translations for all alterator modules
@@ -32,6 +32,12 @@ make check
 
 
 %changelog
+* Tue Sep 02 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt1
+- merge with cas@
+- add helps
+- replace po_head_repl script with fix_po
+- fix package deps
+
 * Thu Aug 28 2008 Stanislav Ievlev <inger@altlinux.org> 0.8-alt1
 - add translations for alterator-net-iptables
 

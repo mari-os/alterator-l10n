@@ -62,7 +62,7 @@ msgstr "Вибрати"
 #: ввод:16 ввод:21 ui/x11/index.scm:99 ввод:7
 #: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80 ввод:6 ввод:11
 #: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
-#: ui/control/index.scm:70 ввод:9 ui/net-pppoe/index.scm:91
+#: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:91
 #: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
 #: ввод:24
 msgid "Apply"
@@ -115,8 +115,9 @@ msgid "Skip system groups"
 msgstr "Системні об'єкти"
 
 #: ui/groups/expert/index.scm:98
+#, fuzzy
 msgid "Skip primary groups"
-msgstr ""
+msgstr "Системні об'єкти"
 
 #: ui/groups/expert/index.scm:100
 #, fuzzy
@@ -159,8 +160,9 @@ msgid "Add"
 msgstr "Додати"
 
 #: backend3/groups:112
+#, fuzzy
 msgid "Can't add group with empty name"
-msgstr ""
+msgstr "Новий користувач:"
 
 #: backend3/groups:118
 #, fuzzy
@@ -168,8 +170,9 @@ msgid "Can't add group"
 msgstr "Новий користувач:"
 
 #: backend3/groups:128
+#, fuzzy
 msgid "Can't delete group with empty name"
-msgstr ""
+msgstr "неможливо поновити базу груп"
 
 #: backend3/groups:133
 #, fuzzy
@@ -186,8 +189,9 @@ msgid "Can't add user"
 msgstr "Новий користувач:"
 
 #: backend3/groups:185
+#, fuzzy
 msgid "to group"
-msgstr ""
+msgstr "Новий користувач:"
 
 #: backend3/groups:197
 #, fuzzy
@@ -248,8 +252,9 @@ msgstr "Назва мережі:"
 
 #: стандартный ввод:9 ui/net-wifi/index.scm:125 ввод:2
 #: ui/auth/index.scm:29
+#, fuzzy
 msgid "Auth type:"
-msgstr ""
+msgstr "Тип серверу автентифікації"
 
 #: стандартный ввод:10 ui/net-wifi/index.scm:127
 #, fuzzy
@@ -316,7 +321,7 @@ msgstr "Дозволити запис"
 msgid "access point"
 msgstr ""
 
-#: backend3/net-wifi:227 backend3/net-eth:355
+#: backend3/net-wifi:227 backend3/net-eth:357
 msgid "IP address"
 msgstr "IP-адреса"
 
@@ -364,12 +369,14 @@ msgid "EAP method"
 msgstr ""
 
 #: backend3/net-wifi:434 backend3/net-wifi:460 backend3/net-wifi:470
+#, fuzzy
 msgid "Not a wireless interface"
-msgstr ""
+msgstr "Дозволити запис"
 
 #: backend3/net-wifi:479
+#, fuzzy
 msgid "Password is too short"
-msgstr ""
+msgstr "Пароль (ще раз)"
 
 #: backend3/net-wifi:511
 msgid "Unable to create network"
@@ -385,12 +392,14 @@ msgid "Services"
 msgstr "Служби"
 
 #: стандартный ввод:3
+#, fuzzy
 msgid "Current state"
-msgstr ""
+msgstr "Поточні налаштування:"
 
 #: стандартный ввод:4 ui/services/index.scm:61
+#, fuzzy
 msgid "Start on boot"
-msgstr ""
+msgstr "Запускати при завантаженні"
 
 #: ui/services/index.scm:16
 #, fuzzy
@@ -412,8 +421,9 @@ msgstr "Змінити стан"
 #. Usage string must be provided
 #. (srv usage)
 #: backend3/services:46
+#, fuzzy
 msgid "unknown"
-msgstr ""
+msgstr "Ввімкнути службу FTP"
 
 #: backend3/services:50 backend3/services:115 backend3/services:116
 #, fuzzy
@@ -454,7 +464,9 @@ msgstr "FTP сервер"
 msgid "internal service"
 msgstr "Ввімкнути службу FTP"
 
-#: стандартный ввод:4 ui/control/index.scm:54
+#. #-#-#-#-#  alterator-control.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: стандартный ввод:4 ввод:3 ui/control/index.scm:44
 msgid "State"
 msgstr "Стан"
 
@@ -593,8 +605,9 @@ msgid "Interface timeout:"
 msgstr "інтерфейс піднято"
 
 #: ui/lilo/expert/index.scm:211
+#, fuzzy
 msgid "Common kernel parameters:"
-msgstr ""
+msgstr "Додатково будуть встановлені наступні пакети"
 
 #: ui/lilo/expert/index.scm:216
 msgid "Boot variants"
@@ -643,7 +656,7 @@ msgstr "Boot:"
 msgid "Table:"
 msgstr "Ввімкнено"
 
-#: ui/lilo/expert/index.scm:236 стандартный ввод:1
+#: ui/lilo/expert/index.scm:236 стандартный ввод:5
 msgid "Save"
 msgstr "Зберегти"
 
@@ -762,8 +775,9 @@ msgid "20 seconds"
 msgstr ""
 
 #: backend3/lilo:147
+#, fuzzy
 msgid "1 minute"
-msgstr ""
+msgstr "10 рядків"
 
 #: backend3/lilo:148
 msgid "infinite"
@@ -1130,8 +1144,9 @@ msgstr ""
 #.
 #: стандартный ввод:6 ui/net-pptp/index.scm:87
 #: ui/net-pppoe/index.scm:77
+#, fuzzy
 msgid "Account:"
-msgstr ""
+msgstr "Налаштування локальних користувачів"
 
 #.
 #: стандартный ввод:7 ui/net-pptp/index.scm:90 ввод:8
@@ -1208,12 +1223,14 @@ msgid "Time zone"
 msgstr "Часовий пояс"
 
 #: стандартный ввод:1 ui/timezone/index.scm:36
+#, fuzzy
 msgid "Please, select country:"
-msgstr ""
+msgstr "Виберіть варіант перемикання розкладки клавіатури:"
 
 #: стандартный ввод:3 ui/timezone/index.scm:49
+#, fuzzy
 msgid "Please, select time zone:"
-msgstr ""
+msgstr "Виберіть варіант перемикання розкладки клавіатури:"
 
 #: стандартный ввод:4 ui/timezone/index.scm:59
 msgid "Hardware time set to GMT"
@@ -1505,67 +1522,67 @@ msgstr "Налаштування бездротових інтерфейсів..
 msgid "multiple values should be space separated"
 msgstr ""
 
-#: backend3/net-eth:136
+#: backend3/net-eth:138
 msgid "missing"
 msgstr ""
 
-#: backend3/net-eth:137
+#: backend3/net-eth:139
 #, fuzzy
 msgid "by MAC address"
 msgstr "IP-адреса"
 
-#: backend3/net-eth:138
+#: backend3/net-eth:140
 msgid "by bus location"
 msgstr ""
 
-#: backend3/net-eth:143
+#: backend3/net-eth:145
 msgid "Turned off"
 msgstr ""
 
-#: backend3/net-eth:144
+#: backend3/net-eth:146
 msgid "Use DHCP"
 msgstr "Використовувати DHCP"
 
-#: backend3/net-eth:145
+#: backend3/net-eth:147
 msgid "Use Zeroconf"
 msgstr ""
 
-#: backend3/net-eth:146
+#: backend3/net-eth:148
 #, fuzzy
 msgid "Manually"
 msgstr "бінарні"
 
-#: backend3/net-eth:177
+#: backend3/net-eth:179
 msgid "interface is up"
 msgstr "інтерфейс піднято"
 
-#: backend3/net-eth:177
+#: backend3/net-eth:179
 msgid "interface is down"
 msgstr "інтерфейс опущено"
 
-#: backend3/net-eth:182
+#: backend3/net-eth:184
 msgid "plugged"
 msgstr "увімкнуто"
 
-#: backend3/net-eth:183
+#: backend3/net-eth:185
 msgid "unplugged"
 msgstr "вимкнуто"
 
-#: backend3/net-eth:349
+#: backend3/net-eth:351
 #, fuzzy
 msgid "Host name"
 msgstr "Користувач"
 
-#: backend3/net-eth:351
+#: backend3/net-eth:353
 msgid "Search domains"
 msgstr ""
 
-#: backend3/net-eth:353
+#: backend3/net-eth:355
 #, fuzzy
 msgid "DNS servers"
 msgstr "FTP-сервер"
 
-#: backend3/net-eth:357
+#: backend3/net-eth:359
 msgid "Default gateway"
 msgstr "Шлюз по змовчуванню"
 
@@ -1974,12 +1991,14 @@ msgid "Upgrade is starting..."
 msgstr "Налаштування бездротових інтерфейсів..."
 
 #: backend3/pkg-upgrade:244
+#, fuzzy
 msgid "No log available"
-msgstr ""
+msgstr "Немає доступних оновлень"
 
 #: backend3/pkg-upgrade:257
+#, fuzzy
 msgid "No information available"
-msgstr ""
+msgstr "Немає доступних оновлень"
 
 #: стандартный ввод:1
 #, fuzzy
@@ -2043,8 +2062,9 @@ msgid "System logs"
 msgstr "Системні об'єкти"
 
 #: стандартный ввод:1 ui/logs/index.scm:25
+#, fuzzy
 msgid "Logs:"
-msgstr ""
+msgstr "Протоколювання:"
 
 #: стандартный ввод:2
 msgid "View"
@@ -2444,25 +2464,36 @@ msgstr "Без 'мертвих' клавіш"
 msgid "System restrictions"
 msgstr "Системні служби"
 
-#: стандартный ввод:2
-msgid "Update help"
-msgstr "Поновити довідку"
-
-#: ui/control/index.scm:30
+#: стандартный ввод:1 ui/control/index.scm:27
 msgid "Facility"
 msgstr "Системний об'єкт"
 
-#: ui/control/index.scm:30
+#: стандартный ввод:2 ui/control/index.scm:27
 msgid "Summary"
 msgstr "Коментар"
 
-#: backend3/control:59
+#: стандартный ввод:4
+#, fuzzy
+msgid "Mode:"
+msgstr "Модель:"
+
+#: стандартный ввод:6
+msgid "Update help"
+msgstr "Поновити довідку"
+
+#: стандартный ввод:7
+#, fuzzy
+msgid "Help:"
+msgstr "Допомога"
+
+#: backend3/control:55
 msgid "facility setup failed"
 msgstr "не вдалося встановити режим"
 
 #: ui/standalone/index.scm:13
+#, fuzzy
 msgid "Desktop file not found"
-msgstr ""
+msgstr "Файл ліцензії не знайдено"
 
 #: ui/standalone/index.scm:14
 msgid "Press F1 for help"
@@ -2481,20 +2512,23 @@ msgid "System administrator"
 msgstr "Адміністратор системи"
 
 #: стандартный ввод:1 ui/root/index.scm:26
+#, fuzzy
 msgid "Setup password for system administrator:"
-msgstr ""
+msgstr "Адміністратор системи"
 
 #: backend3/root:25 backend3/root:29
 msgid "You should define a password for system administrator"
 msgstr ""
 
 #: стандартный ввод:1
+#, fuzzy
 msgid "Keyboard settings"
-msgstr ""
+msgstr "Загальні параметри"
 
 #: стандартный ввод:1 ui/xkb/avail_layout/index.scm:18
+#, fuzzy
 msgid "Country:"
-msgstr ""
+msgstr "Країна (C):"
 
 #: стандартный ввод:3 ui/xkb/avail_layout/index.scm:20
 msgid "Available layouts:"
@@ -2513,8 +2547,9 @@ msgid "Down"
 msgstr "Опустити"
 
 #: стандартный ввод:10 ui/xkb/index.scm:46
+#, fuzzy
 msgid "Layout switching:"
-msgstr ""
+msgstr "Розкладки:"
 
 #: стандартный ввод:11 ui/xkb/index.scm:49
 msgid "Model:"
@@ -2525,8 +2560,9 @@ msgid "Apply saved keyboard settings"
 msgstr ""
 
 #: backend3/xkb:187
+#, fuzzy
 msgid "Apply failed"
-msgstr ""
+msgstr "Тест невдалий"
 
 #: стандартный ввод:1 ввод:10 ввод:16
 msgid "Spam filter"
@@ -2632,4 +2668,3 @@ msgstr "Лише позначити"
 #: backend3/spamassassin:92
 msgid "Drop mail"
 msgstr "Видаляти пошту"
-

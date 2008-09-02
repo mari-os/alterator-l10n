@@ -28,8 +28,8 @@ msgstr "Информация о дистрибутиве"
 #: ui/license/index.scm:8 ui/notes/license.scm:8
 msgid "Please take a moment to read the license agreement now."
 msgstr ""
-"Ознакомьтесь с лицензионным договором. Если вы принимаете условия договора, отметьте "
-"«Да, я согласен с условиями» и нажмите «Далее»."
+"Ознакомьтесь с лицензионным договором. Если вы принимаете условия договора, "
+"отметьте «Да, я согласен с условиями» и нажмите «Далее»."
 
 #: ui/license/index.scm:10 ui/notes/license.scm:10
 msgid "License file not found"
@@ -66,7 +66,7 @@ msgstr "Выбрать"
 #: ввод:16 ввод:21 ui/x11/index.scm:99 ввод:7
 #: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80 ввод:6 ввод:11
 #: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
-#: ui/control/index.scm:70 ввод:9 ui/net-pppoe/index.scm:91
+#: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:91
 #: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
 #: ввод:24
 msgid "Apply"
@@ -192,7 +192,8 @@ msgstr "из группы"
 
 #: backend3/groups:248
 msgid "Can't delete system group. You can do in in expert mode"
-msgstr "Нельзя удалять системную группу. Вы можете сделать это в режиме эксперта"
+msgstr ""
+"Нельзя удалять системную группу. Вы можете сделать это в режиме эксперта"
 
 #: стандартный ввод:1
 msgid "Wi-Fi setup"
@@ -296,7 +297,7 @@ msgstr "Подключен к сети"
 msgid "access point"
 msgstr "точка доступа"
 
-#: backend3/net-wifi:227 backend3/net-eth:355
+#: backend3/net-wifi:227 backend3/net-eth:357
 msgid "IP address"
 msgstr "IP-адрес"
 
@@ -425,7 +426,9 @@ msgstr "Сетевой супер-сервер (xinetd)"
 msgid "internal service"
 msgstr "встроенный сервис"
 
-#: стандартный ввод:4 ui/control/index.scm:54
+#. #-#-#-#-#  alterator-control.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: стандартный ввод:4 ввод:3 ui/control/index.scm:44
 msgid "State"
 msgstr "Состояние"
 
@@ -593,7 +596,7 @@ msgstr "Загружать как:"
 msgid "Table:"
 msgstr "Таблица:"
 
-#: ui/lilo/expert/index.scm:236 стандартный ввод:1
+#: ui/lilo/expert/index.scm:236 стандартный ввод:5
 msgid "Save"
 msgstr "Сохранить"
 
@@ -937,7 +940,8 @@ msgid "Listen address:"
 msgstr "Адрес:"
 
 #: стандартный ввод:11
-msgid "(IP address where server listen on, or '*' for listening on all interfaces)"
+msgid ""
+"(IP address where server listen on, or '*' for listening on all interfaces)"
 msgstr ""
 "(IP адрес на котором сервер принимает соединения или '*' для работы на всех "
 "интерфейсах)"
@@ -1004,7 +1008,8 @@ msgstr "Пересоздать"
 
 #: стандартный ввод:28
 msgid "(recreate private key, sign request and self-signed certificate)"
-msgstr "(пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат)"
+msgstr ""
+"(пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат)"
 
 #: стандартный ввод:29
 msgid "Sign"
@@ -1403,63 +1408,63 @@ msgstr "Настройка беспроводной связи..."
 msgid "multiple values should be space separated"
 msgstr "несколько значений записываются через пробел"
 
-#: backend3/net-eth:136
+#: backend3/net-eth:138
 msgid "missing"
 msgstr "отсутствует"
 
-#: backend3/net-eth:137
+#: backend3/net-eth:139
 msgid "by MAC address"
 msgstr "по  аппаратному адресу (MAC)"
 
-#: backend3/net-eth:138
+#: backend3/net-eth:140
 msgid "by bus location"
 msgstr "по местоположению на шине"
 
-#: backend3/net-eth:143
+#: backend3/net-eth:145
 msgid "Turned off"
 msgstr "Выключено"
 
-#: backend3/net-eth:144
+#: backend3/net-eth:146
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
-#: backend3/net-eth:145
+#: backend3/net-eth:147
 msgid "Use Zeroconf"
 msgstr "Использовать Zeroconf"
 
-#: backend3/net-eth:146
+#: backend3/net-eth:148
 msgid "Manually"
 msgstr "Вручную"
 
-#: backend3/net-eth:177
+#: backend3/net-eth:179
 msgid "interface is up"
 msgstr "интерфейс включён"
 
-#: backend3/net-eth:177
+#: backend3/net-eth:179
 msgid "interface is down"
 msgstr "интерфейс выключен"
 
-#: backend3/net-eth:182
+#: backend3/net-eth:184
 msgid "plugged"
 msgstr "провод подсоединён"
 
-#: backend3/net-eth:183
+#: backend3/net-eth:185
 msgid "unplugged"
 msgstr "провод отсоединён"
 
-#: backend3/net-eth:349
+#: backend3/net-eth:351
 msgid "Host name"
 msgstr "Имя компьютера"
 
-#: backend3/net-eth:351
+#: backend3/net-eth:353
 msgid "Search domains"
 msgstr "Домены поиска"
 
-#: backend3/net-eth:353
+#: backend3/net-eth:355
 msgid "DNS servers"
 msgstr "DNS-серверы"
 
-#: backend3/net-eth:357
+#: backend3/net-eth:359
 msgid "Default gateway"
 msgstr "Шлюз по умолчанию"
 
@@ -2294,19 +2299,27 @@ msgstr "Без 'мёртвых' клавиш"
 msgid "System restrictions"
 msgstr "Системные ограничения"
 
-#: стандартный ввод:2
-msgid "Update help"
-msgstr "Обновить справку"
-
-#: ui/control/index.scm:30
+#: стандартный ввод:1 ui/control/index.scm:27
 msgid "Facility"
 msgstr "Системный объект"
 
-#: ui/control/index.scm:30
+#: стандартный ввод:2 ui/control/index.scm:27
 msgid "Summary"
 msgstr "Комментарий"
 
-#: backend3/control:59
+#: стандартный ввод:4
+msgid "Mode:"
+msgstr "Режим:"
+
+#: стандартный ввод:6
+msgid "Update help"
+msgstr "Обновить справку"
+
+#: стандартный ввод:7
+msgid "Help:"
+msgstr "Справка:"
+
+#: backend3/control:55
 msgid "facility setup failed"
 msgstr "установка режима не удалась"
 
@@ -2477,4 +2490,3 @@ msgstr "Только помечать"
 #: backend3/spamassassin:92
 msgid "Drop mail"
 msgstr "Удалять почту"
-
