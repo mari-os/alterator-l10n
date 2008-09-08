@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Sep 08 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt2
+- update translation for alterator-net-eth
+
 * Tue Sep 02 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt1
 - merge with cas@
 - add helps
