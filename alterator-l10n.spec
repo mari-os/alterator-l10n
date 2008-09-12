@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Fri Sep 12 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt3
+- update Ukrainian translation (port from 4.0 branch)
+
 * Mon Sep 08 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt2
 - update translation for alterator-net-eth
 

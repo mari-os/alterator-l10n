@@ -26,6 +26,8 @@ msgstr "Інформація щодо дистрибутиву"
 #: ui/license/index.scm:8 ui/notes/license.scm:8
 msgid "Please take a moment to read the license agreement now."
 msgstr ""
+"Будь ласка, прочитайте ліцензійну угоду. Якщо ви згодні, відмітьте "
+"«Так, я згоден з умовами» й натисніть «Далі»."
 
 #: ui/license/index.scm:10 ui/notes/license.scm:10
 msgid "License file not found"
@@ -252,9 +254,8 @@ msgstr "Назва мережі:"
 
 #: стандартный ввод:9 ui/net-wifi/index.scm:125 ввод:2
 #: ui/auth/index.scm:29
-#, fuzzy
 msgid "Auth type:"
-msgstr "Тип серверу автентифікації"
+msgstr "Тип аутентифікації:"
 
 #: стандартный ввод:10 ui/net-wifi/index.scm:127
 #, fuzzy
@@ -667,7 +668,7 @@ msgstr "Типово"
 #: ui/lilo/expert/index.scm:244 стандартный ввод:14
 #: ui/pkg/register/index.scm:44 ввод:7 ui/xkb/index.scm:39
 msgid "Remove"
-msgstr "Видалити"
+msgstr "Вилучити"
 
 #: ui/lilo/expert/index.scm:250
 msgid "Add Linux kernel"
@@ -789,7 +790,7 @@ msgstr "Аутентифікація"
 
 #: стандартный ввод:3 ui/auth/index.scm:36
 msgid "LDAP server:"
-msgstr "LDAP-сервер:"
+msgstr "Сервер LDAP:"
 
 #: стандартный ввод:4 ui/auth/index.scm:41
 msgid "Base DN:"
@@ -809,7 +810,7 @@ msgstr "LDAP-сервер"
 
 #: backend3/auth:107
 msgid "should be ldap://host or ldapi://host or ldaps://host"
-msgstr ""
+msgstr "має бути ldap://host або ldapi://host або ldaps://host"
 
 #: стандартный ввод:1 ввод:3
 #, fuzzy
@@ -1133,13 +1134,8 @@ msgstr "PPTP-з'єднання"
 
 #: стандартный ввод:2 ui/net-pptp/index.scm:68
 #: ui/net-pppoe/index.scm:58
-#, fuzzy
 msgid "New connection..."
-msgstr ""
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Створити з'єднання\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Нове з'єднання"
+msgstr "Створити з'єднання..."
 
 #.
 #: стандартный ввод:6 ui/net-pptp/index.scm:87
@@ -1156,9 +1152,8 @@ msgstr "Пароль:"
 
 #.
 #: стандартный ввод:8 ui/net-pptp/index.scm:93
-#, fuzzy
 msgid "Walk through interface:"
-msgstr "Базовий інтерфейс"
+msgstr "Базовий інтерфейс:"
 
 #: стандартный ввод:9 ui/net-pptp/index.scm:97
 msgid "Default route via VPN"
@@ -1223,22 +1218,20 @@ msgid "Time zone"
 msgstr "Часовий пояс"
 
 #: стандартный ввод:1 ui/timezone/index.scm:36
-#, fuzzy
 msgid "Please, select country:"
-msgstr "Виберіть варіант перемикання розкладки клавіатури:"
+msgstr "Оберіть країну:"
 
 #: стандартный ввод:3 ui/timezone/index.scm:49
-#, fuzzy
 msgid "Please, select time zone:"
-msgstr "Виберіть варіант перемикання розкладки клавіатури:"
+msgstr "Оберіть часовий пояс:"
 
 #: стандартный ввод:4 ui/timezone/index.scm:59
 msgid "Hardware time set to GMT"
-msgstr ""
+msgstr "Тримати час в BIOS по Гринвічу"
 
 #: стандартный ввод:1 ввод:17
 msgid "Date/Time"
-msgstr "Дата/Час"
+msgstr "Дата й час"
 
 #: стандартный ввод:1 ui/datetime/index.scm:26
 msgid "Get time from NTP server:"
@@ -1250,14 +1243,12 @@ msgid "Work as NTP server"
 msgstr "FTP-сервер"
 
 #: стандартный ввод:3 ui/datetime/index.scm:41
-#, fuzzy
 msgid "Current date:"
-msgstr "Поточні налаштування:"
+msgstr "Поточна дата:"
 
 #: стандартный ввод:4 ui/datetime/index.scm:42
-#, fuzzy
 msgid "Current time:"
-msgstr "Поточні налаштування:"
+msgstr "Поточний час:"
 
 #: backend3/datetime:40
 #, fuzzy
@@ -1265,18 +1256,16 @@ msgid "NTP server"
 msgstr "FTP-сервер"
 
 #: backend3/datetime:42
-#, fuzzy
 msgid "Current date"
-msgstr "Поточні налаштування"
+msgstr "Поточна дата"
 
 #: backend3/datetime:44
 msgid "date should be in YYYY-MM-DD format"
 msgstr ""
 
 #: backend3/datetime:46
-#, fuzzy
 msgid "Current time"
-msgstr "Поточні налаштування"
+msgstr "Поточний час"
 
 #: backend3/datetime:48
 msgid "time should be in HH:MM:SS format"
@@ -1323,23 +1312,18 @@ msgstr "Можливість підвищення привілеїв"
 
 #: стандартный ввод:9 ui/users/add/index.scm:63
 #: ui/users/index.scm:99 ввод:2 ui/root/index.scm:32
-#, fuzzy
 msgid "Generate automatically"
-msgstr ""
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Згенерувати автоматично\n"
-"#-#-#-#-#  uk.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Автоматично згенерувати"
+msgstr "Згенерувати автоматично"
 
 #: стандартный ввод:10 ui/users/add/index.scm:66
 #: ui/users/index.scm:102 ввод:3 ui/root/index.scm:35
 msgid "(enter passphrase)"
-msgstr "(введіть фразу)"
+msgstr "(вкажіть пароль)"
 
 #: стандартный ввод:11 ui/users/add/index.scm:68
 #: ui/users/index.scm:104 ввод:4 ui/root/index.scm:37
 msgid "(repeat passphrase)"
-msgstr "(повторіть фразу)"
+msgstr "(повторіть пароль)"
 
 #: стандартный ввод:12 ui/users/add/index.scm:70
 #: ui/users/index.scm:106 ввод:5 ui/root/index.scm:39
@@ -1352,7 +1336,7 @@ msgstr "Видалити користувача"
 
 #: ui/users/add/index.scm:17
 msgid "You should define a system user"
-msgstr ""
+msgstr "Треба визначити системного користувача"
 
 #: ui/users/add/index.scm:20
 msgid "You should define a password"
@@ -1382,7 +1366,6 @@ msgid "invalid command syntax"
 msgstr "невірний синтаксис команди"
 
 #: backend3/users:76
-#, fuzzy
 msgid "invalid argument to option"
 msgstr "невірний параметр до аргумента"
 
@@ -1495,14 +1478,13 @@ msgstr "Дозволити запис"
 
 #.
 #: стандартный ввод:8 ui/net-eth/index.scm:124
-#, fuzzy
 msgid "IP address:"
-msgstr "IP-адреса"
+msgstr "IP-адреса:"
 
 #.
 #: стандартный ввод:9 ui/net-eth/index.scm:128
 msgid "Netmask:"
-msgstr "Мережева маска:"
+msgstr "Маска мережі:"
 
 #.
 #: стандартный ввод:10 ui/net-eth/index.scm:132
@@ -1512,7 +1494,7 @@ msgstr "Шлюз по змовчуванню:"
 #.
 #: стандартный ввод:11 ui/net-eth/index.scm:136
 msgid "Hardware binding:"
-msgstr ""
+msgstr "Прив'язування:"
 
 #: стандартный ввод:12 ui/net-eth/index.scm:141
 msgid "Wireless settings..."
@@ -1524,16 +1506,15 @@ msgstr ""
 
 #: backend3/net-eth:138
 msgid "missing"
-msgstr ""
+msgstr "немає"
 
 #: backend3/net-eth:139
-#, fuzzy
 msgid "by MAC address"
-msgstr "IP-адреса"
+msgstr "за MAC-адресою"
 
 #: backend3/net-eth:140
 msgid "by bus location"
-msgstr ""
+msgstr "за розміщенням на шині"
 
 #: backend3/net-eth:145
 msgid "Turned off"
@@ -1661,7 +1642,7 @@ msgstr "Пауза"
 
 #: ui/x11/c-messages.scm:5
 msgid "Press 'Yes' if you see a correct picture!"
-msgstr "Натисніть \"Так\", якщо бачите дане повідомлення!"
+msgstr "Натисніть \"Так\", якщо зображення вірне!"
 
 #: ui/x11/c-messages.scm:6
 msgid "Resume"
@@ -1711,7 +1692,7 @@ msgstr "4 мільярди кольорів (32 біта)"
 
 #: backend3/x11:218
 msgid "bits"
-msgstr ""
+msgstr "біт"
 
 #: backend3/x11:229
 #, fuzzy
@@ -1763,9 +1744,8 @@ msgid "Updates"
 msgstr "Поновлення"
 
 #: стандартный ввод:3 ui/pkg/register/index.scm:26
-#, fuzzy
 msgid "Additional disks"
-msgstr "Додатково будуть встановлені наступні пакети"
+msgstr "Додаткові диски"
 
 #: стандартный ввод:2 ui/pkg/sources/mirrors/index.scm:49
 #, fuzzy
@@ -1800,6 +1780,8 @@ msgid ""
 "If you have any additional CDs or DVDs for this distribution\n"
 "    please insert them one by one and press \"Add\" button"
 msgstr ""
+"Якщо у вас є додаткові CD- або DVD-диски для даного<br>\n"
+"дистрибутиву, вставляйте їх по черзі та натискайте кнопку 'Додати'"
 
 #: стандартный ввод:15
 msgid "Return"
@@ -1824,16 +1806,15 @@ msgstr "З'єднання"
 
 #: ui/pkg/error/index.scm:5
 msgid "Critical error during install"
-msgstr ""
+msgstr "Критичена помилка встановлення"
 
 #: ui/pkg/error/index.scm:6 ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11
-#, fuzzy
 msgid "Unknown"
-msgstr "Ввімкнути службу FTP"
+msgstr "Невідомо"
 
 #: ui/pkg/error/index.scm:7 ui/pkg/cdrom/index.scm:12
 msgid "Press 'Next' button to continue"
-msgstr ""
+msgstr "Натисніть 'Далі' для продовження"
 
 #: ui/pkg/sources/mirrors/index.scm:10
 #, fuzzy
@@ -1861,26 +1842,23 @@ msgstr ""
 #: ui/pkg/groups/index.scm:69
 #, lisp-format
 msgid "Has conflict with ~S"
-msgstr ""
+msgstr "Наявний конфлікт з ~S"
 
 #: ui/pkg/groups/index.scm:79
-#, fuzzy
 msgid "Required disk space"
-msgstr "Граничне значення"
+msgstr "Потрібне місце на диску"
 
 #: ui/pkg/groups/index.scm:85
-#, fuzzy
 msgid "calculating..."
-msgstr "Підрахунок поновлень...."
+msgstr "обчислювання..."
 
 #: ui/pkg/groups/index.scm:91
 msgid "unable to calculate"
-msgstr ""
+msgstr "неможливо обчислити"
 
 #: ui/pkg/groups/index.scm:119
-#, fuzzy
 msgid "Select packages you want to install:"
-msgstr "Виберіть пакети для встановлення"
+msgstr "Виберіть пакунки для встановлення:"
 
 #: ui/pkg/groups/index.scm:154
 msgid "Please wait..."
@@ -1891,22 +1869,20 @@ msgid "Please insert CDROM labeled as"
 msgstr "Будь-ласка, вставте CD-ROM з іменем"
 
 #: ui/pkg/cdrom/index.scm:10
-#, fuzzy
 msgid "Into drive"
-msgstr "В привід:"
+msgstr "у пристрій"
 
 #: backend3/pkg-register:62
-#, fuzzy
 msgid "Please insert disk"
-msgstr "Будь-ласка, вставте CD-ROM з іменем"
+msgstr "Вставте CD/DVD-диск"
 
 #: backend3/pkg-register:64
 msgid "This disk is already added"
-msgstr ""
+msgstr "Цей диск вже додано"
 
 #: backend3/pkg-register:68
 msgid "Invalid disk"
-msgstr ""
+msgstr "Невірний формат диска"
 
 #: backend3/pkg-sources:75
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
@@ -2129,9 +2105,8 @@ msgid "Setup, remove and update programs"
 msgstr ""
 
 #: стандартный ввод:7
-#, fuzzy
 msgid "Servers"
-msgstr "Сервер"
+msgstr "Сервери"
 
 #: стандартный ввод:8
 #, fuzzy
@@ -2139,18 +2114,16 @@ msgid "Various network services"
 msgstr "Ввімкнути службу FTP"
 
 #: стандартный ввод:9
-#, fuzzy
 msgid "System"
-msgstr "Системні об'єкти"
+msgstr "Система"
 
 #: стандартный ввод:10
 msgid "Operating system information and setup"
 msgstr ""
 
 #: стандартный ввод:11
-#, fuzzy
 msgid "Graphical interface"
-msgstr "IP-інтерфейси"
+msgstr "Графічний інтерфейс"
 
 #: стандартный ввод:12
 msgid "Setup input/output devices"
@@ -2158,7 +2131,7 @@ msgstr ""
 
 #: стандартный ввод:13
 msgid "Other"
-msgstr ""
+msgstr "Інше"
 
 #: стандартный ввод:14
 #, fuzzy
@@ -2180,18 +2153,16 @@ msgid "System clock setup"
 msgstr "Системні об'єкти"
 
 #: стандартный ввод:19
-#, fuzzy
 msgid "Web interface"
-msgstr "IP-інтерфейси"
+msgstr "Web-інтерфейс"
 
 #: стандартный ввод:20
 msgid "Setup embedded web server"
 msgstr ""
 
 #: стандартный ввод:21
-#, fuzzy
 msgid "Statistics"
-msgstr "Стан:"
+msgstr "Статистика"
 
 #: стандартный ввод:22
 #, fuzzy
@@ -2200,7 +2171,7 @@ msgstr "Стан:"
 
 #: стандартный ввод:23
 msgid "Accounting"
-msgstr ""
+msgstr "Облік"
 
 #: стандартный ввод:24
 #, fuzzy
@@ -2509,26 +2480,23 @@ msgstr "з'єднання невдале"
 
 #: стандартный ввод:1
 msgid "System administrator"
-msgstr "Адміністратор системи"
+msgstr "Системний адміністратор"
 
 #: стандартный ввод:1 ui/root/index.scm:26
-#, fuzzy
 msgid "Setup password for system administrator:"
-msgstr "Адміністратор системи"
+msgstr "Встановити пароль системного адміністратора:"
 
 #: backend3/root:25 backend3/root:29
 msgid "You should define a password for system administrator"
-msgstr ""
+msgstr "Треба надати пароль системного адміністратора"
 
 #: стандартный ввод:1
-#, fuzzy
 msgid "Keyboard settings"
-msgstr "Загальні параметри"
+msgstr "Налаштування клавіатури"
 
 #: стандартный ввод:1 ui/xkb/avail_layout/index.scm:18
-#, fuzzy
 msgid "Country:"
-msgstr "Країна (C):"
+msgstr "Країна:"
 
 #: стандартный ввод:3 ui/xkb/avail_layout/index.scm:20
 msgid "Available layouts:"
@@ -2547,9 +2515,8 @@ msgid "Down"
 msgstr "Опустити"
 
 #: стандартный ввод:10 ui/xkb/index.scm:46
-#, fuzzy
 msgid "Layout switching:"
-msgstr "Розкладки:"
+msgstr "Перемикання розкладки:"
 
 #: стандартный ввод:11 ui/xkb/index.scm:49
 msgid "Model:"
@@ -2557,12 +2524,11 @@ msgstr "Модель:"
 
 #: backend3/xkb:186
 msgid "Apply saved keyboard settings"
-msgstr ""
+msgstr "Застосувати збережені налаштування клавіатури"
 
 #: backend3/xkb:187
-#, fuzzy
 msgid "Apply failed"
-msgstr "Тест невдалий"
+msgstr "Помилка"
 
 #: стандартный ввод:1 ввод:10 ввод:16
 msgid "Spam filter"
