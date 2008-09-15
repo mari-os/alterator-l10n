@@ -53,74 +53,74 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: стандартный ввод:2 ui/groups/expert/index.scm:88
+#: стандартный ввод:2 ui/groups/expert/index.scm:89
 #: ui/groups/index.scm:73 ввод:12 ui/net-wifi/index.scm:131 ввод:5
 #: ui/services/index.scm:63 ввод:15 ui/xinetd/index.scm:149
-#: ui/lilo/expert/index.scm:263 ui/lilo/index.scm:137
+#: ui/lilo/expert/index.scm:263 ui/lilo/index.scm:141
 #: ui/lilo/edit-source/index.scm:43 ui/auth/index.scm:50 ввод:14
-#: ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ui/datetime/index.scm:59
-#: ввод:13 ui/users/index.scm:115 ui/net-eth/index.scm:159 ввод:4
-#: ввод:16 ввод:21 ui/x11/index.scm:99 ввод:7
-#: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80 ввод:6 ввод:11
-#: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
-#: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:91
-#: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
-#: ввод:24
+#: ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
+#: ui/datetime/index.scm:60 ввод:13 ui/users/index.scm:115
+#: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
+#: ui/x11/index.scm:99 ввод:7 ui/dovecot/index.scm:62
+#: ui/alternatives/index.scm:80 ввод:11 ui/net-iptables/index.scm:85
+#: ui/net-iptables/index.scm:111 ui/control/index.scm:55 ввод:9
+#: ui/net-pppoe/index.scm:91 ui/root/index.scm:48 ui/xkb/index.scm:55
+#: backend3/xkb:188 ввод:8 ввод:24
 msgid "Apply"
 msgstr ""
 
-#: стандартный ввод:3 ui/groups/expert/index.scm:89
+#: стандартный ввод:3 ui/groups/expert/index.scm:90
 #: ui/groups/index.scm:74 ввод:13 ui/net-wifi/index.scm:132
 #: ui/services/index.scm:64 ui/xinetd/index.scm:150
 #: ui/lilo/expert/index.scm:237 ui/lilo/expert/index.scm:264
 #: ui/lilo/edit-source/index.scm:44 ввод:6 ui/auth/index.scm:51
-#: ввод:15 ui/net-pptp/index.scm:120 ui/timezone/index.scm:71 ввод:14
-#: ui/net-eth/index.scm:160 ввод:5 ввод:17 ввод:22 ввод:8
-#: ui/dovecot/index.scm:63 ввод:12 ввод:10 ui/net-pppoe/index.scm:92
-#: ввод:9 ввод:25
+#: ввод:15 ui/net-pptp/index.scm:120 ui/timezone/index.scm:71 ввод:7
+#: ввод:14 ui/net-eth/index.scm:160 ввод:5 ввод:17 ввод:22
+#: ввод:8 ui/dovecot/index.scm:63 ввод:12 ввод:10
+#: ui/net-pppoe/index.scm:92 ввод:9 ввод:25
 msgid "Reset"
 msgstr ""
 
-#: ui/groups/expert/index.scm:16
+#: ui/groups/expert/index.scm:17
 msgid "gid="
 msgstr ""
 
-#: ui/groups/expert/index.scm:43
+#: ui/groups/expert/index.scm:44
 msgid "groups in the list"
 msgstr ""
 
-#: ui/groups/expert/index.scm:68
+#: ui/groups/expert/index.scm:69
 msgid "Simple mode..."
 msgstr ""
 
-#: ui/groups/expert/index.scm:80 стандартный ввод:6
+#: ui/groups/expert/index.scm:81 стандартный ввод:6
 #: ui/xinetd/index.scm:116
 msgid "Group:"
 msgstr ""
 
-#: ui/groups/expert/index.scm:83
+#: ui/groups/expert/index.scm:84
 msgid "Users:"
 msgstr ""
 
-#: ui/groups/expert/index.scm:90 ui/groups/index.scm:75 стандартный
+#: ui/groups/expert/index.scm:91 ui/groups/index.scm:75 стандартный
 #: ввод:14 ui/net-wifi/index.scm:133 ввод:3 ввод:5
 #: ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr ""
 
-#: ui/groups/expert/index.scm:96
+#: ui/groups/expert/index.scm:97
 msgid "Skip system groups"
 msgstr ""
 
-#: ui/groups/expert/index.scm:98
+#: ui/groups/expert/index.scm:99
 msgid "Skip primary groups"
 msgstr ""
 
-#: ui/groups/expert/index.scm:100
+#: ui/groups/expert/index.scm:101
 msgid "Skip empty groups"
 msgstr ""
 
-#: ui/groups/expert/index.scm:105
+#: ui/groups/expert/index.scm:106
 msgid "Add new group:"
 msgstr ""
 
@@ -187,7 +187,7 @@ msgstr ""
 msgid "from group"
 msgstr ""
 
-#: backend3/groups:248
+#: backend3/groups:246
 msgid "Can't delete system group. You can do in in expert mode"
 msgstr ""
 
@@ -261,8 +261,10 @@ msgstr ""
 msgid "Configure"
 msgstr ""
 
-#: ui/net-wifi/index.scm:144 ui/x11/index.scm:102
-msgid "Quit"
+#: ui/net-wifi/index.scm:144 стандартный ввод:20 ввод:22
+#: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:23
+#: ui/pkg/sources/mirrors/index.scm:59
+msgid "OK"
 msgstr ""
 
 #: backend3/net-wifi:133
@@ -293,7 +295,7 @@ msgstr ""
 msgid "access point"
 msgstr ""
 
-#: backend3/net-wifi:227 backend3/net-eth:357
+#: backend3/net-wifi:227
 msgid "IP address"
 msgstr ""
 
@@ -517,7 +519,7 @@ msgstr ""
 msgid "Simple mode"
 msgstr ""
 
-#: ui/lilo/expert/index.scm:191 ui/lilo/index.scm:138
+#: ui/lilo/expert/index.scm:191 ui/lilo/index.scm:142
 #: ui/lilo/edit-source/index.scm:29
 msgid "Expert mode"
 msgstr ""
@@ -526,7 +528,7 @@ msgstr ""
 msgid "Edit lilo.conf"
 msgstr ""
 
-#: ui/lilo/expert/index.scm:201 ui/lilo/index.scm:113
+#: ui/lilo/expert/index.scm:201 ui/lilo/index.scm:117
 msgid "Install boot loader on:"
 msgstr ""
 
@@ -538,7 +540,7 @@ msgstr ""
 msgid "Interface type:"
 msgstr ""
 
-#: ui/lilo/expert/index.scm:208 ui/lilo/index.scm:128
+#: ui/lilo/expert/index.scm:208 ui/lilo/index.scm:132
 msgid "Interface timeout:"
 msgstr ""
 
@@ -607,23 +609,19 @@ msgstr ""
 msgid "Add other loader"
 msgstr ""
 
-#: ui/lilo/index.scm:44
-msgid "Hard drive"
-msgstr ""
-
-#: ui/lilo/index.scm:47
+#: ui/lilo/index.scm:51
 msgid "Linux partition"
 msgstr ""
 
-#: ui/lilo/index.scm:56
+#: ui/lilo/index.scm:60 helpers/lilo-hal.sh:58
 msgid "partition"
 msgstr ""
 
-#: ui/lilo/index.scm:118
+#: ui/lilo/index.scm:122
 msgid "Load other OS:"
 msgstr ""
 
-#: ui/lilo/index.scm:125
+#: ui/lilo/index.scm:129
 msgid "Load by default:"
 msgstr ""
 
@@ -631,75 +629,83 @@ msgstr ""
 msgid "Lilo options:"
 msgstr ""
 
-#: backend3/lilo:92
-msgid "Tb"
+#: helpers/lilo-hal.sh:17
+msgid "b"
 msgstr ""
 
-#: backend3/lilo:93
-msgid "Gb"
-msgstr ""
-
-#: backend3/lilo:94
-msgid "Mb"
-msgstr ""
-
-#: backend3/lilo:95
+#: helpers/lilo-hal.sh:21
 msgid "Kb"
 msgstr ""
 
-#: backend3/lilo:125
+#: helpers/lilo-hal.sh:21
+msgid "Mb"
+msgstr ""
+
+#: helpers/lilo-hal.sh:21
+msgid "Gb"
+msgstr ""
+
+#: helpers/lilo-hal.sh:21
+msgid "Tb"
+msgstr ""
+
+#: helpers/lilo-hal.sh:39
+msgid "Hard drive"
+msgstr ""
+
+#: backend3/lilo:114
 msgid "failsafe"
 msgstr ""
 
-#: backend3/lilo:131
+#: backend3/lilo:120
 msgid "graphics"
 msgstr ""
 
-#: backend3/lilo:132
+#: backend3/lilo:121
 msgid "text"
 msgstr ""
 
-#: backend3/lilo:136
+#: backend3/lilo:125
 msgid "none"
 msgstr ""
 
-#: backend3/lilo:137
+#: backend3/lilo:126
 msgid "auto"
 msgstr ""
 
-#: backend3/lilo:138
+#: backend3/lilo:127
 msgid "mbr"
 msgstr ""
 
-#: backend3/lilo:139
+#: backend3/lilo:128
 msgid "mbr-only"
 msgstr ""
 
-#: backend3/lilo:142
+#: backend3/lilo:131
 msgid "no wait"
 msgstr ""
 
-#: backend3/lilo:143
+#: backend3/lilo:132
 msgid "1 second"
 msgstr ""
 
-#: backend3/lilo:144
+#: backend3/lilo:133
 msgid "5 seconds"
 msgstr ""
 
-#: backend3/lilo:145
+#: backend3/lilo:134
 msgid "10 seconds"
 msgstr ""
 
-#: backend3/lilo:146
+#: backend3/lilo:135
 msgid "20 seconds"
 msgstr ""
 
-#: backend3/lilo:147
+#: backend3/lilo:136
 msgid "1 minute"
 msgstr ""
 
-#: backend3/lilo:148
+#: backend3/lilo:137
 msgid "infinite"
 msgstr ""
 
@@ -851,11 +857,6 @@ msgstr ""
 
 #: стандартный ввод:19
 msgid "For selected:"
-msgstr ""
-
-#: стандартный ввод:20 ввод:22 ui/x11/driver/index.scm:26
-#: ui/x11/monitor/index.scm:23 ui/pkg/sources/mirrors/index.scm:59
-msgid "OK"
 msgstr ""
 
 #: стандартный ввод:23
@@ -1139,39 +1140,23 @@ msgstr ""
 msgid "Get time from NTP server:"
 msgstr ""
 
-#: стандартный ввод:2 ui/datetime/index.scm:31
+#: стандартный ввод:2 ui/datetime/index.scm:27
+msgid "NTP server:"
+msgstr ""
+
+#: стандартный ввод:3 ui/datetime/index.scm:32
 msgid "Work as NTP server"
 msgstr ""
 
-#: стандартный ввод:3 ui/datetime/index.scm:41
+#: стандартный ввод:4 ui/datetime/index.scm:42
 msgid "Current date:"
 msgstr ""
 
-#: стандартный ввод:4 ui/datetime/index.scm:42
+#: стандартный ввод:5 ui/datetime/index.scm:43
 msgid "Current time:"
 msgstr ""
 
-#: backend3/datetime:40
-msgid "NTP server"
-msgstr ""
-
-#: backend3/datetime:42
-msgid "Current date"
-msgstr ""
-
-#: backend3/datetime:44
-msgid "date should be in YYYY-MM-DD format"
-msgstr ""
-
-#: backend3/datetime:46
-msgid "Current time"
-msgstr ""
-
-#: backend3/datetime:48
-msgid "time should be in HH:MM:SS format"
-msgstr ""
-
-#: backend3/datetime:80
+#: backend3/datetime:73
 msgid "unable to setup time"
 msgstr ""
 
@@ -1408,47 +1393,35 @@ msgid "Turned off"
 msgstr ""
 
 #: backend3/net-eth:146
-msgid "Use DHCP"
+msgid "Managed by user (NetworkManager)"
 msgstr ""
 
 #: backend3/net-eth:147
-msgid "Use Zeroconf"
+msgid "Use DHCP"
 msgstr ""
 
 #: backend3/net-eth:148
+msgid "Use Zeroconf"
+msgstr ""
+
+#: backend3/net-eth:149
 msgid "Manually"
 msgstr ""
 
-#: backend3/net-eth:179
+#: backend3/net-eth:180
 msgid "interface is up"
 msgstr ""
 
-#: backend3/net-eth:179
+#: backend3/net-eth:180
 msgid "interface is down"
 msgstr ""
 
-#: backend3/net-eth:184
+#: backend3/net-eth:185
 msgid "plugged"
 msgstr ""
 
-#: backend3/net-eth:185
+#: backend3/net-eth:186
 msgid "unplugged"
-msgstr ""
-
-#: backend3/net-eth:351
-msgid "Host name"
-msgstr ""
-
-#: backend3/net-eth:353
-msgid "Search domains"
-msgstr ""
-
-#: backend3/net-eth:355
-msgid "DNS servers"
-msgstr ""
-
-#: backend3/net-eth:359
-msgid "Default gateway"
 msgstr ""
 
 #: стандартный ввод:1 ввод:18
@@ -1538,6 +1511,10 @@ msgstr ""
 
 #: ui/x11/index.scm:96 backend3/x11:187
 msgid "Test"
+msgstr ""
+
+#: ui/x11/index.scm:102
+msgid "Quit"
 msgstr ""
 
 #: backend3/x11:185
@@ -2028,16 +2005,44 @@ msgstr ""
 msgid "System accounting"
 msgstr ""
 
+#: interfaces/guile/type/hostname-list.scm:14
+msgid "invalid hostname list"
+msgstr ""
+
+#: interfaces/guile/type/hostname.scm:14 backend2/constraints:35
+msgid "invalid hostname"
+msgstr ""
+
+#: interfaces/guile/type/date.scm:11
+msgid "date should be in YYYY-MM-DD format"
+msgstr ""
+
+#: interfaces/guile/type/number.scm:8
+msgid "invalid number"
+msgstr ""
+
+#: interfaces/guile/type/ipv4-address.scm:14
+msgid "invalid IP address"
+msgstr ""
+
+#: interfaces/guile/type/time.scm:10
+msgid "time should be in HH:MM:SS format"
+msgstr ""
+
+#: interfaces/guile/type/ipv4-address-list.scm:14
+msgid "invalid IP address list"
+msgstr ""
+
+#: interfaces/guile/type/boolean.scm:8
+msgid "invalid boolean value"
+msgstr ""
+
 #: interfaces/guile/ensign/ensign.scm:20
 msgid "Backend live time (in hours)"
 msgstr ""
 
 #: interfaces/guile/ensign/ensign.scm:21
 msgid "should be digits"
-msgstr ""
-
-#: backend2/constraints:35
-msgid "invalid hostname"
 msgstr ""
 
 #: backend2/constraints:40
@@ -2094,95 +2099,79 @@ msgstr ""
 msgid "System management center"
 msgstr ""
 
-#: interfaces/guile/configd/html.scm:83
-msgid "Error"
-msgstr ""
-
-#: interfaces/guile/configd/html.scm:88
-msgid "Backend"
-msgstr ""
-
-#: interfaces/guile/configd/html.scm:90
-msgid "XML Parser"
-msgstr ""
-
-#: interfaces/guile/configd/html.scm:92
-msgid "System error"
-msgstr ""
-
-#: interfaces/guile/configd/translate.scm:44
+#: interfaces/guile/ahttpd/translate.scm:44
 msgid "Mo"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:45
+#: interfaces/guile/ahttpd/translate.scm:45
 msgid "Tu"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:46
+#: interfaces/guile/ahttpd/translate.scm:46
 msgid "We"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:47
+#: interfaces/guile/ahttpd/translate.scm:47
 msgid "Th"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:48
+#: interfaces/guile/ahttpd/translate.scm:48
 msgid "Fr"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:49
+#: interfaces/guile/ahttpd/translate.scm:49
 msgid "Sa"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:50
+#: interfaces/guile/ahttpd/translate.scm:50
 msgid "Su"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:52
+#: interfaces/guile/ahttpd/translate.scm:52
 msgid "January"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:53
+#: interfaces/guile/ahttpd/translate.scm:53
 msgid "February"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:54
+#: interfaces/guile/ahttpd/translate.scm:54
 msgid "March"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:55
+#: interfaces/guile/ahttpd/translate.scm:55
 msgid "April"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:56
+#: interfaces/guile/ahttpd/translate.scm:56
 msgid "May"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:57
+#: interfaces/guile/ahttpd/translate.scm:57
 msgid "June"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:58
+#: interfaces/guile/ahttpd/translate.scm:58
 msgid "July"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:59
+#: interfaces/guile/ahttpd/translate.scm:59
 msgid "August"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:60
+#: interfaces/guile/ahttpd/translate.scm:60
 msgid "September"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:61
+#: interfaces/guile/ahttpd/translate.scm:61
 msgid "October"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:62
+#: interfaces/guile/ahttpd/translate.scm:62
 msgid "November"
 msgstr ""
 
-#: interfaces/guile/configd/translate.scm:63
+#: interfaces/guile/ahttpd/translate.scm:63
 msgid "December"
 msgstr ""
 
