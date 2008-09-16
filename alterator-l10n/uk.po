@@ -1,6 +1,6 @@
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Michael Shigorin <mike@osdn.org.ua>, 2007.
+# This file is distributed under the same license as the alterator-l10n package.
+# Copyright (C) 2007-2008, the translators:
+# Michael Shigorin <mike@osdn.org.ua>, 2007, 2008.
 # Wad Mashckoff <adiel@nospam.kiev.ua>, 2007.
 #
 msgid ""
@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-09 19:28+0300\n"
-"PO-Revision-Date: 2007-09-27 18:26+0400\n"
-"Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
+"PO-Revision-Date: 2008-09-16 23:25+0300\n"
+"Last-Translator: Michael Shigorin <mike@altlinux.org>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.1\n"
+
 #: стандартный ввод:1
 msgid "License"
 msgstr "Ліцензія"
@@ -25,9 +25,7 @@ msgstr "Інформація щодо дистрибутиву"
 
 #: ui/license/index.scm:8 ui/notes/license.scm:8
 msgid "Please take a moment to read the license agreement now."
-msgstr ""
-"Будь ласка, прочитайте ліцензійну угоду. Якщо ви згодні, відмітьте «Так, я "
-"згоден з умовами» й натисніть «Далі»."
+msgstr "Будь ласка, прочитайте ліцензійну угоду."
 
 #: ui/license/index.scm:10 ui/notes/license.scm:10
 msgid "License file not found"
@@ -47,7 +45,7 @@ msgstr "Файл не знайдено"
 
 #: стандартный ввод:1
 msgid "Groups"
-msgstr ""
+msgstr "Групи"
 
 #: стандартный ввод:1 ввод:6 ввод:2 ввод:3
 #: ввод:5 ввод:7 ввод:10
@@ -88,22 +86,20 @@ msgstr ""
 
 #: ui/groups/expert/index.scm:44
 msgid "groups in the list"
-msgstr ""
+msgstr "групи у списку"
 
 #: ui/groups/expert/index.scm:69
-#, fuzzy
 msgid "Simple mode..."
-msgstr "Нормальний режим"
+msgstr "Звичайний режим..."
 
 #: ui/groups/expert/index.scm:81 стандартный ввод:6
 #: ui/xinetd/index.scm:116
 msgid "Group:"
-msgstr ""
+msgstr "Група:"
 
 #: ui/groups/expert/index.scm:84
-#, fuzzy
 msgid "Users:"
-msgstr "Користувач"
+msgstr "Користувачі:"
 
 #: ui/groups/expert/index.scm:91 ui/groups/index.scm:75 стандартный
 #: ввод:14 ui/net-wifi/index.scm:133 ввод:3 ввод:5
@@ -112,43 +108,36 @@ msgid "Delete"
 msgstr "Видалити"
 
 #: ui/groups/expert/index.scm:97
-#, fuzzy
 msgid "Skip system groups"
-msgstr "Системні об'єкти"
+msgstr "Окрім системних груп"
 
 #: ui/groups/expert/index.scm:99
-#, fuzzy
 msgid "Skip primary groups"
-msgstr "Системні об'єкти"
+msgstr "Окрім основних груп"
 
 #: ui/groups/expert/index.scm:101
-#, fuzzy
 msgid "Skip empty groups"
-msgstr "Системні об'єкти"
+msgstr "Окрім пустих груп"
 
 #: ui/groups/expert/index.scm:106
-#, fuzzy
 msgid "Add new group:"
-msgstr "Новий користувач:"
+msgstr "Нова група:"
 
 #: ui/groups/index.scm:51
-#, fuzzy
 msgid "Expert mode..."
-msgstr "Нормальний режим"
+msgstr "Складний режим..."
 
 #: ui/groups/index.scm:64 стандартный ввод:21
 msgid "Add user:"
 msgstr "Новий користувач:"
 
 #: ui/groups/index.scm:82
-#, fuzzy
 msgid "Add new group"
-msgstr "Новий користувач:"
+msgstr "Додати нову групу:"
 
 #: ui/groups/index.scm:83
-#, fuzzy
 msgid "System name:"
-msgstr "Користувач"
+msgstr "Системне ім'я:"
 
 #: ui/groups/index.scm:85 стандартный ввод:6
 msgid "Description:"
@@ -162,55 +151,48 @@ msgid "Add"
 msgstr "Додати"
 
 #: backend3/groups:112
-#, fuzzy
 msgid "Can't add group with empty name"
-msgstr "Новий користувач:"
+msgstr "Неможливо зробити групу з пустою назвою"
 
 #: backend3/groups:118
-#, fuzzy
 msgid "Can't add group"
-msgstr "Новий користувач:"
+msgstr "Неможливо додати групу"
 
 #: backend3/groups:128
-#, fuzzy
 msgid "Can't delete group with empty name"
-msgstr "неможливо поновити базу груп"
+msgstr "Неможливо видалити групу з пустою назвою"
 
 #: backend3/groups:133
-#, fuzzy
 msgid "Can't delete group"
-msgstr "неможливо поновити базу груп"
+msgstr "Неможливо видалити групу"
 
 #: backend3/groups:149
 msgid "Can't modify group with empty name"
-msgstr ""
+msgstr "Неможливо змінити групу з пустою назвою"
 
 #: backend3/groups:185
-#, fuzzy
 msgid "Can't add user"
-msgstr "Новий користувач:"
+msgstr "Неможливо додати користувача"
 
 #: backend3/groups:185
-#, fuzzy
 msgid "to group"
-msgstr "Новий користувач:"
+msgstr "в групу"
 
 #: backend3/groups:197
-#, fuzzy
 msgid "Can't remove user"
-msgstr "неможливо видалити первинну групу користувача"
+msgstr "Неможливо видалити користувача"
 
 #: backend3/groups:197
 msgid "from group"
-msgstr ""
+msgstr "з групи"
 
 #: backend3/groups:246
 msgid "Can't delete system group. You can do in in expert mode"
-msgstr ""
+msgstr "Неможливо видалити системну групу (тільки у складному режимі)."
 
 #: стандартный ввод:1
 msgid "Wi-Fi setup"
-msgstr ""
+msgstr "Налаштування Wi-Fi"
 
 #. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -222,9 +204,8 @@ msgid "Interface:"
 msgstr "Інтерфейс:"
 
 #: стандартный ввод:3 ui/net-wifi/index.scm:106
-#, fuzzy
 msgid "Reconfigure interface"
-msgstr "Дозволити запис"
+msgstr "Переконфіґурувати інтерфейс"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -239,14 +220,12 @@ msgid "Status:"
 msgstr "Стан:"
 
 #: стандартный ввод:5 ui/net-wifi/index.scm:115
-#, fuzzy
 msgid "Configured networks"
-msgstr "Дозволити запис"
+msgstr "Сконфіґуровані мережі"
 
 #: стандартный ввод:7 ui/net-wifi/index.scm:123
-#, fuzzy
 msgid "Enable"
-msgstr "Ввімкнено"
+msgstr "Увімкнути"
 
 #: стандартный ввод:8 ui/net-wifi/index.scm:124
 msgid "Network name:"
@@ -258,54 +237,46 @@ msgid "Auth type:"
 msgstr "Тип аутентифікації:"
 
 #: стандартный ввод:10 ui/net-wifi/index.scm:127
-#, fuzzy
 msgid "Change password:"
-msgstr "Адміністратор сервера"
+msgstr "Змінити пароль:"
 
 #: стандартный ввод:11 ui/net-wifi/index.scm:128
-#, fuzzy
 msgid "Encription:"
-msgstr "Опис:"
+msgstr "Шифрування:"
 
 #: стандартный ввод:15 ui/net-wifi/index.scm:136
-#, fuzzy
 msgid "Configure new network"
-msgstr "Дозволити запис"
+msgstr "Сконфіґурувати нову мережу"
 
 #: стандартный ввод:16 ui/net-wifi/index.scm:139
-#, fuzzy
 msgid "Networks found:"
-msgstr "робочу копію не знайдено"
+msgstr "Знайдені мережі:"
 
 #: стандартный ввод:17 ui/net-wifi/index.scm:141
 msgid "Rescan"
-msgstr ""
+msgstr "Пересканувати"
 
 #: стандартный ввод:18 ui/net-wifi/index.scm:142
-#, fuzzy
 msgid "Configure"
-msgstr "З'єднання"
+msgstr "Налаштувати"
 
 #: ui/net-wifi/index.scm:144 стандартный ввод:20 ввод:22
 #: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:23
 #: ui/pkg/sources/mirrors/index.scm:59
 msgid "OK"
-msgstr "Так"
+msgstr ""
 
 #: backend3/net-wifi:133
-#, fuzzy
 msgid "Other network"
-msgstr "Інший постачальник..."
+msgstr "Інша мережа"
 
 #: backend3/net-wifi:161
-#, fuzzy
 msgid "No password"
-msgstr "Пароль"
+msgstr "Без паролю"
 
 #: backend3/net-wifi:162
-#, fuzzy
 msgid "WEP Password"
-msgstr "Пароль"
+msgstr "WEP-пароль"
 
 #: backend3/net-wifi:165
 msgid "WPA Personal (WPA-PSK)"
@@ -316,36 +287,32 @@ msgid "WPA2 Personal (WPA-PSK)"
 msgstr ""
 
 #: backend3/net-wifi:226
-#, fuzzy
 msgid "Connected to network"
-msgstr "Дозволити запис"
+msgstr "Підключено до мережі"
 
 #: backend3/net-wifi:227
 msgid "access point"
-msgstr ""
+msgstr "точка доступу"
 
 #: backend3/net-wifi:227
 msgid "IP address"
 msgstr "IP-адреса"
 
 #: backend3/net-wifi:230
-#, fuzzy
 msgid "Scanning..."
-msgstr "Підготовка до встановлення..."
+msgstr "Сканування..."
 
 #: backend3/net-wifi:260
-#, fuzzy
 msgid "Current network"
-msgstr "Поточні налаштування"
+msgstr "Поточна мережа"
 
 #: backend3/net-wifi:406
-#, fuzzy
 msgid "Network name"
-msgstr "робочу копію не знайдено"
+msgstr "Назва мережі"
 
 #: backend3/net-wifi:407
 msgid "Access point"
-msgstr ""
+msgstr "Точка доступу"
 
 #: backend3/net-wifi:408
 msgid "Status"
@@ -353,37 +320,32 @@ msgstr "Статус:"
 
 #. printf 'auth_type (label "%s" %s %s %s %s)\n' #			    "`_ "Security"`" #			    "$(print_excludes "nopasswd" key user pairwise eap)" #			    "$(print_excludes "wep" user pairwise eap)" #			    "$(print_excludes "wpa-psk" user eap)" #			    "$(print_excludes "wpa2-psk" user eap)"
 #: backend3/net-wifi:415
-#, fuzzy
 msgid "User name"
 msgstr "Користувач"
 
 #: backend3/net-wifi:416
-#, fuzzy
 msgid "Network key"
-msgstr "робочу копію не знайдено"
+msgstr "Ключ мережі"
 
 #: backend3/net-wifi:417
-#, fuzzy
 msgid "Encryption"
-msgstr "Опис"
+msgstr "Шифрування"
 
 #: backend3/net-wifi:418
 msgid "EAP method"
-msgstr ""
+msgstr "Метод EAP"
 
 #: backend3/net-wifi:434 backend3/net-wifi:460 backend3/net-wifi:470
-#, fuzzy
 msgid "Not a wireless interface"
-msgstr "Дозволити запис"
+msgstr "Не бездротовий інтерфейс"
 
 #: backend3/net-wifi:479
-#, fuzzy
 msgid "Password is too short"
-msgstr "Пароль (ще раз)"
+msgstr "Пароль надто короткий"
 
 #: backend3/net-wifi:511
 msgid "Unable to create network"
-msgstr ""
+msgstr "Неможливо створити мережу"
 
 #: стандартный ввод:1
 msgid "System services"
@@ -395,51 +357,46 @@ msgid "Services"
 msgstr "Служби"
 
 #: стандартный ввод:3
-#, fuzzy
 msgid "Current state"
-msgstr "Поточні налаштування:"
+msgstr "Поточний стан"
 
 #: стандартный ввод:4 ui/services/index.scm:61
-#, fuzzy
 msgid "Start on boot"
 msgstr "Запускати при завантаженні"
 
 #: ui/services/index.scm:16
-#, fuzzy
 msgid "Current state:"
-msgstr "Поточні налаштування:"
+msgstr "Поточний стан:"
 
 #: ui/services/index.scm:42 ui/xinetd/index.scm:91
 msgid ""
 "There are unsaved changes in the service settings. Do you want to apply "
 "these changes?"
 msgstr ""
+"Зміни у налаштуваннях сервісу не збережено.  Застосувати їх?"
 
 #: ui/services/index.scm:55
-#, fuzzy
 msgid "Change state:"
-msgstr "Змінити стан"
+msgstr "Змінити стан:"
 
 #. Get status information: stopped|running|unknown
 #. Usage string must be provided
 #. (srv usage)
 #: backend3/services:46
-#, fuzzy
 msgid "unknown"
-msgstr "Ввімкнути службу FTP"
+msgstr "невідомо"
 
 #: backend3/services:50 backend3/services:115 backend3/services:116
-#, fuzzy
 msgid "stopped"
-msgstr "Зупинити"
+msgstr "зупинено"
 
 #: backend3/services:51 backend3/services:114
 msgid "running"
-msgstr ""
+msgstr "запущено"
 
 #: backend3/services:113
 msgid "do not change"
-msgstr ""
+msgstr "не чіпати"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #. '
@@ -458,14 +415,12 @@ msgid "restart"
 msgstr "перезапустити"
 
 #: стандартный ввод:1
-#, fuzzy
 msgid "Xinetd server"
-msgstr "FTP сервер"
+msgstr "xinetd-сервер"
 
 #: стандартный ввод:3 ui/xinetd/index.scm:46
-#, fuzzy
 msgid "internal service"
-msgstr "Ввімкнути службу FTP"
+msgstr "вбудована служба"
 
 #. #-#-#-#-#  alterator-control.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -474,122 +429,108 @@ msgid "State"
 msgstr "Стан"
 
 #: стандартный ввод:5 ui/xinetd/index.scm:112
-#, fuzzy
 msgid "User:"
-msgstr "Користувач"
+msgstr "Користувач:"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: стандартный ввод:7 ui/xinetd/index.scm:120 ввод:5
 #: ui/net-pptp/index.scm:84
-#, fuzzy
 msgid "Server:"
-msgstr "Сервер"
+msgstr "Сервер:"
 
 #: стандартный ввод:8 ui/xinetd/index.scm:124
-#, fuzzy
 msgid "Server args:"
-msgstr "FTP сервер"
+msgstr "Аргументи сервера:"
 
 #: стандартный ввод:9 ui/xinetd/index.scm:128
 msgid "Rlimit as:"
-msgstr ""
+msgstr "rlimit:"
 
 #: стандартный ввод:10 ui/xinetd/index.scm:132
-#, fuzzy
 msgid "Instances:"
-msgstr "Інтерфейс"
+msgstr "Екземплярів:"
 
 #: стандартный ввод:11 ui/xinetd/index.scm:136
-#, fuzzy
 msgid "Per source:"
-msgstr "вихідні"
+msgstr "На одну адресу:"
 
 #: стандартный ввод:12 ui/xinetd/index.scm:140
 msgid "Only from:"
-msgstr ""
+msgstr "Тільки з:"
 
 #: стандартный ввод:13 ui/xinetd/index.scm:144
 msgid ""
 "This dialog changes only configuration file for xinetd. You must restart "
 "running xinetd to make it reread new configuration."
 msgstr ""
+"Цей діалог тільки змінює конфіґураційний файл xinetd."
+"Ви маєте перезапустити xinetd, щоб зміни було враховано."
 
 #: стандартный ввод:14
-#, fuzzy
 msgid "Start, stop or restart xinetd"
-msgstr "завантажити, зупинити або перевантажити службу"
+msgstr "Запустити, зупинити або перевантажити xinetd"
 
 #: backend3/xinetd:108 backend3/xinetd:109 ui/xinetd/index.scm:13
 #: ui/xinetd/index.scm:18 ui/lilo/expert/index.scm:197
-#, fuzzy
 msgid "Common settings"
-msgstr "Поточні налаштування"
+msgstr "Спільні налаштування"
 
 #: backend3/xinetd:112
 msgid "This settings will be applied to services with undefined fields"
-msgstr ""
+msgstr "Ці налаштування буде застосовано до сервісів із невизначеними полями"
 
 #: backend3/xinetd:239 backend3/xinetd:303
-#, fuzzy
 msgid "Can't open file"
-msgstr "неможливо поновити базу груп"
+msgstr "Неможливо відкрити файл"
 
 #: backend3/xinetd:240 backend3/xinetd:304
-#, fuzzy
 msgid "Can't open temporary file"
-msgstr "неможливо поновити базу паролів"
+msgstr "неможливо відкрити тимчасовий файл"
 
 #: backend3/xinetd:421
-#, fuzzy
 msgid "Unknown service"
-msgstr "Ввімкнути службу FTP"
+msgstr "Невідома служба"
 
 #: ui/xinetd/index.scm:108
-#, fuzzy
 msgid "Enable service"
-msgstr "Ввімкнути службу FTP"
+msgstr "Увімкнути службу"
 
 #: стандартный ввод:1
 msgid "Bootloader (lilo)"
-msgstr ""
+msgstr "Завантажувач (lilo)"
 
 #: ui/lilo/expert/index.scm:52
-#, fuzzy
 msgid "Other loader"
-msgstr "Інший драйвер..."
+msgstr "Інший завантажувач"
 
 #: ui/lilo/expert/index.scm:75
 msgid "Linux kernel"
-msgstr ""
+msgstr "Ядро Linux"
 
 #: ui/lilo/expert/index.scm:99 ui/lilo/expert/index.scm:109
 #: ui/lilo/expert/index.scm:120
 msgid "<NEW>"
-msgstr ""
+msgstr "<НОВИЙ>"
 
 #: ui/lilo/expert/index.scm:187 ui/lilo/edit-source/index.scm:25
-#, fuzzy
 msgid "Don't install bootloader"
-msgstr "Встановити завантажувач в:"
+msgstr "Не встановлювати завантажувач"
 
 #: ui/lilo/expert/index.scm:189 ui/lilo/edit-source/index.scm:27
-#, fuzzy
 msgid "Simple mode"
 msgstr "Нормальний режим"
 
 #: ui/lilo/expert/index.scm:191 ui/lilo/index.scm:142
 #: ui/lilo/edit-source/index.scm:29
-#, fuzzy
 msgid "Expert mode"
-msgstr "Нормальний режим"
+msgstr "Складний режим"
 
 #: ui/lilo/expert/index.scm:192 ui/lilo/edit-source/index.scm:31
 msgid "Edit lilo.conf"
-msgstr ""
+msgstr "Редагувати lilo.conf"
 
 #: ui/lilo/expert/index.scm:201 ui/lilo/index.scm:117
-#, fuzzy
 msgid "Install boot loader on:"
 msgstr "Встановити завантажувач в:"
 
@@ -598,66 +539,56 @@ msgid "Raid-extra-boot:"
 msgstr ""
 
 #: ui/lilo/expert/index.scm:206
-#, fuzzy
 msgid "Interface type:"
-msgstr "Інтерфейс"
+msgstr "Тип інтерфейсу:"
 
 #: ui/lilo/expert/index.scm:208 ui/lilo/index.scm:132
-#, fuzzy
 msgid "Interface timeout:"
-msgstr "інтерфейс піднято"
+msgstr "Таймаут інтерфейсу:"
 
 #: ui/lilo/expert/index.scm:211
-#, fuzzy
 msgid "Common kernel parameters:"
-msgstr "Додатково будуть встановлені наступні пакети"
+msgstr "Спільні параметри ядра:"
 
 #: ui/lilo/expert/index.scm:216
 msgid "Boot variants"
-msgstr ""
+msgstr "Варіанти завантаження"
 
 #: ui/lilo/expert/index.scm:223
-#, fuzzy
 msgid "Label:"
-msgstr "Label:"
+msgstr "Назва:"
 
 #: ui/lilo/expert/index.scm:225
 msgid "Kernel image:"
-msgstr ""
+msgstr "Образ ядра:"
 
 #: ui/lilo/expert/index.scm:226
-#, fuzzy
 msgid "Initrd:"
 msgstr "Initrd:"
 
 #: ui/lilo/expert/index.scm:227
-#, fuzzy
 msgid "Root device:"
-msgstr "Пристрій"
+msgstr "Кореневий пристрій:"
 
 #: ui/lilo/expert/index.scm:228
-#, fuzzy
 msgid "Additional parameters:"
-msgstr "Додатково будуть встановлені наступні пакети"
+msgstr "Додаткові параметри:"
 
 #: ui/lilo/expert/index.scm:230
-#, fuzzy
 msgid "Device:"
-msgstr "Пристрій"
+msgstr "Пристрій:"
 
 #: ui/lilo/expert/index.scm:231
 msgid "Alias:"
-msgstr ""
+msgstr "Alias:"
 
 #: ui/lilo/expert/index.scm:232
-#, fuzzy
 msgid "Boot-as:"
-msgstr "Boot:"
+msgstr "Boot-as:"
 
 #: ui/lilo/expert/index.scm:233
-#, fuzzy
 msgid "Table:"
-msgstr "Ввімкнено"
+msgstr "Table:"
 
 #: ui/lilo/expert/index.scm:236 стандартный ввод:5
 msgid "Save"
@@ -674,80 +605,71 @@ msgstr "Вилучити"
 
 #: ui/lilo/expert/index.scm:250
 msgid "Add Linux kernel"
-msgstr ""
+msgstr "Додати ядро Linux"
 
 #: ui/lilo/expert/index.scm:251
-#, fuzzy
 msgid "Add other loader"
-msgstr "Інший драйвер..."
+msgstr "Додати інший завантажувач"
 
 #: ui/lilo/index.scm:51
-#, fuzzy
 msgid "Linux partition"
-msgstr "Показувати підрозділи"
+msgstr "Підрозділ Linux"
 
 #: ui/lilo/index.scm:60 helpers/lilo-hal.sh:58
-#, fuzzy
 msgid "partition"
-msgstr "Показувати підрозділи"
+msgstr "підрозділ"
 
 #: ui/lilo/index.scm:122
 msgid "Load other OS:"
-msgstr ""
+msgstr "Завантажити іншу ОС:"
 
 #: ui/lilo/index.scm:129
-#, fuzzy
 msgid "Load by default:"
-msgstr "по змовчуванню"
+msgstr "Звичайно завантажувати:"
 
 #: ui/lilo/edit-source/index.scm:37
-#, fuzzy
 msgid "Lilo options:"
-msgstr "Загальні налаштування"
+msgstr "Опції lilo:"
 
 #: helpers/lilo-hal.sh:17
 msgid "b"
-msgstr ""
+msgstr "б"
 
 #: helpers/lilo-hal.sh:21
 msgid "Kb"
-msgstr ""
+msgstr "Кб"
 
 #: helpers/lilo-hal.sh:21
 msgid "Mb"
-msgstr ""
+msgstr "Мб"
 
 #: helpers/lilo-hal.sh:21
 msgid "Gb"
-msgstr ""
+msgstr "Гб"
 
 #: helpers/lilo-hal.sh:21
 msgid "Tb"
-msgstr ""
+msgstr "Тб"
 
 #: helpers/lilo-hal.sh:39
-#, fuzzy
 msgid "Hard drive"
-msgstr "Інший драйвер..."
+msgstr "Жорсткий диск"
 
 #: backend3/lilo:114
 msgid "failsafe"
 msgstr ""
 
 #: backend3/lilo:120
-#, fuzzy
 msgid "graphics"
-msgstr "Графічний дисплей"
+msgstr "графічний"
 
 #: backend3/lilo:121
-#, fuzzy
 msgid "text"
-msgstr "Далі"
+msgstr "текстовий"
 
 #: backend3/lilo:125
-#, fuzzy
 msgid "none"
-msgstr "ні"
+msgstr "немає"
 
 #: backend3/lilo:126
 msgid "auto"
@@ -763,32 +685,31 @@ msgstr ""
 
 #: backend3/lilo:131
 msgid "no wait"
-msgstr ""
+msgstr "не чекати"
 
 #: backend3/lilo:132
 msgid "1 second"
-msgstr ""
+msgstr "1 секунда"
 
 #: backend3/lilo:133
 msgid "5 seconds"
-msgstr ""
+msgstr "5 секунд"
 
 #: backend3/lilo:134
 msgid "10 seconds"
-msgstr ""
+msgstr "10 секунд"
 
 #: backend3/lilo:135
 msgid "20 seconds"
-msgstr ""
+msgstr "20 секунд"
 
 #: backend3/lilo:136
-#, fuzzy
 msgid "1 minute"
-msgstr "10 рядків"
+msgstr "1 хвилина"
 
 #: backend3/lilo:137
 msgid "infinite"
-msgstr ""
+msgstr "нескінченно"
 
 #: стандартный ввод:1
 msgid "Authentication"
@@ -819,37 +740,32 @@ msgid "should be ldap://host or ldapi://host or ldaps://host"
 msgstr "має бути ldap://host або ldapi://host або ldaps://host"
 
 #: стандартный ввод:1 ввод:3
-#, fuzzy
 msgid "Authentication (SASL)"
-msgstr "Автентифікація (SASL)"
+msgstr "Аутентифікація (SASL)"
 
 #: стандартный ввод:1 ввод:2
 msgid "start, stop or restart service"
-msgstr "завантажити, зупинити або перевантажити службу"
+msgstr "запустити, зупинити або перевантажити службу"
 
 #: стандартный ввод:2
-#, fuzzy
 msgid "SMTP transport:"
-msgstr "Стан SMTP транспорту"
+msgstr "SMTP-транспорт:"
 
 #: стандартный ввод:4
-#, fuzzy
 msgid "Auth server:"
-msgstr "Тип серверу автентифікації"
+msgstr "Сервер аутентифікації:"
 
 #: backend3/postfix-sasl:47 backend3/spamassassin:86
 msgid "Off"
 msgstr "Вимкнений"
 
 #: backend3/postfix-sasl:48
-#, fuzzy
 msgid "On, without content filtering"
-msgstr "Ввімкнений, без фільтру"
+msgstr "Ввімкнений, без фільтру вміста"
 
 #: backend3/postfix-sasl:49
-#, fuzzy
 msgid "On, with content filtering"
-msgstr "Ввімкнений, з фільтром"
+msgstr "Ввімкнений, із фільтром вміста"
 
 #: backend3/postfix-sasl:51
 msgid "Cyrus"
@@ -877,7 +793,7 @@ msgstr "Завершити"
 #: ui/wizard/index.scm:121 стандартный ввод:1 ввод:3
 #: ui/sysconfig/language/index.scm:32
 msgid "Help"
-msgstr "Допомога"
+msgstr "Довідка"
 
 #: стандартный ввод:1
 msgid "FTP server"
@@ -891,7 +807,7 @@ msgstr "Загальні налаштування"
 
 #: стандартный ввод:4
 msgid "Enable FTP service"
-msgstr "Ввімкнути службу FTP"
+msgstr "Увімкнути службу FTP"
 
 #: стандартный ввод:5
 msgid "Allow anonymous login"
@@ -959,7 +875,7 @@ msgstr "ні"
 
 #: backend3/vsftpd:56
 msgid "default"
-msgstr "по змовчуванню"
+msgstr "типово"
 
 #: backend3/vsftpd:108
 msgid "enable write access"
@@ -982,18 +898,16 @@ msgid "HTTP server"
 msgstr "HTTP-сервер"
 
 #: стандартный ввод:1 ввод:5
-#, fuzzy
 msgid "Module access settings"
-msgstr "Налаштування локальних користувачів"
+msgstr "Налаштування доступу до модуля"
 
 #: стандартный ввод:2
 msgid "Following users have access:"
 msgstr ""
 
 #: стандартный ввод:4
-#, fuzzy
 msgid "New user:"
-msgstr "вихідні"
+msgstr "Новий користувач:"
 
 #: стандартный ввод:6
 msgid "Restart HTTP server"
@@ -1012,15 +926,14 @@ msgid "(TCP port where server listen on)"
 msgstr ""
 
 #: стандартный ввод:10
-#, fuzzy
 msgid "Listen address:"
-msgstr "IP-адреса"
+msgstr "IP-адреса:"
 
 #: стандартный ввод:11
 msgid ""
 "(IP address where server listen on, or '*' for listening on all interfaces)"
 msgstr ""
-"(IP-адреса, на  якій сервер приймає з'єднання або '*' для обслуговування "
+"(IP-адреса, на якій сервер приймає з'єднання або '*' для обслуговування "
 "усіх інтерфейсів)"
 
 #: стандартный ввод:12
@@ -1041,11 +954,11 @@ msgstr "Сертіфікат"
 
 #: стандартный ввод:17
 msgid "Common Name (CN):"
-msgstr "Спільне Ім'я (CN):"
+msgstr "Спільне ім'я (CN):"
 
 #: стандартный ввод:18
 msgid "(public hostname)"
-msgstr "(невірне ім'я машини)"
+msgstr "(невірне ім'я хоста)"
 
 #: стандартный ввод:19
 msgid "Country (C):"
@@ -1091,7 +1004,7 @@ msgstr ""
 
 #: стандартный ввод:29
 msgid "Sign"
-msgstr ""
+msgstr "Підписати"
 
 #: стандартный ввод:30
 msgid "Download sign request"
@@ -1106,28 +1019,24 @@ msgid "Upload"
 msgstr "Відвантажити"
 
 #: backend3/ahttpd-acl:108
-#, fuzzy
 msgid "No module found"
-msgstr "Об'єкти не знайдено..."
+msgstr "Модуль не знайдено"
 
 #: backend3/ahttpd-server:126
-#, fuzzy
 msgid "all connections"
-msgstr "PPTP-з'єднання"
+msgstr "усі з'єднання"
 
 #: backend3/ahttpd-server:127
-#, fuzzy
 msgid "errors only"
-msgstr "Лише позначити"
+msgstr "тільки помилки"
 
 #: backend3/ahttpd-server:128
 msgid "nothing"
-msgstr ""
+msgstr "нічого"
 
 #: backend3/ahttpd-server:182
-#, fuzzy
 msgid "Invalid certificate file"
-msgstr "Відвантажити сертифікат, підписаний УЦ"
+msgstr "Невірний файл сертифікату"
 
 #: стандартный ввод:1
 msgid "PPTP connections"
@@ -1141,9 +1050,8 @@ msgstr "Створити з'єднання..."
 #.
 #: стандартный ввод:6 ui/net-pptp/index.scm:87
 #: ui/net-pppoe/index.scm:77
-#, fuzzy
 msgid "Account:"
-msgstr "Налаштування локальних користувачів"
+msgstr "Логін:"
 
 #.
 #: стандартный ввод:7 ui/net-pptp/index.scm:90 ввод:8
@@ -1212,7 +1120,7 @@ msgstr "Пароль"
 
 #: backend3/net-pptp:229 backend3/net-pppoe:109
 msgid "don't change"
-msgstr ""
+msgstr "не змінювати"
 
 #: стандартный ввод:1
 msgid "Time zone"
@@ -1236,17 +1144,15 @@ msgstr "Дата й час"
 
 #: стандартный ввод:1 ui/datetime/index.scm:26
 msgid "Get time from NTP server:"
-msgstr ""
+msgstr "Вточнювати час по NTP:"
 
 #: стандартный ввод:2 ui/datetime/index.scm:27
-#, fuzzy
 msgid "NTP server:"
 msgstr "FTP-сервер"
 
 #: стандартный ввод:3 ui/datetime/index.scm:32
-#, fuzzy
 msgid "Work as NTP server"
-msgstr "FTP-сервер"
+msgstr "Зробити NTP-сервер"
 
 #: стандартный ввод:4 ui/datetime/index.scm:42
 msgid "Current date:"
@@ -1258,7 +1164,7 @@ msgstr "Поточний час:"
 
 #: backend3/datetime:73
 msgid "unable to setup time"
-msgstr ""
+msgstr "неможливо налаштувати час"
 
 #: стандартный ввод:1
 #, fuzzy
@@ -1968,7 +1874,7 @@ msgstr "Протоколи, що підтримуються"
 #: стандартный ввод:4 ui/dovecot/index.scm:41
 #, fuzzy
 msgid "Auth mechanisms:"
-msgstr "Механізми автентифікації"
+msgstr "Механізми аутентифікації"
 
 #: стандартный ввод:5 ui/dovecot/index.scm:49
 msgid "(you can't disable all mechanisms)"
@@ -1976,7 +1882,7 @@ msgstr ""
 
 #: стандартный ввод:6 ui/dovecot/index.scm:55
 msgid "Auth port for Postfix"
-msgstr "Порт служби автентифікації для Postfix"
+msgstr "Порт служби аутентифікації для Postfix"
 
 #: backend3/dovecot:29
 msgid "POP3"
