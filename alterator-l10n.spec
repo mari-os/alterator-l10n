@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt4
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,11 @@ make check
 
 
 %changelog
+* Wed Sep 17 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt5
+- roughly half of uk.po reviewed/updated/translated (mike@)
+- fix some English phrases (mike@)
+- update translations for new alterator and alterator-fbi
+
 * Mon Sep 15 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt4
 - update alterator translations
 
