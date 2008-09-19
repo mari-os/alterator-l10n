@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Fri Sep 19 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.9-alt6
+- changes for alterator-lilo, alterator-xkb, alterator-notes desktop labels
+
 * Wed Sep 17 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt5
 - roughly half of uk.po reviewed/updated/translated (mike@)
 - fix some English phrases (mike@)
