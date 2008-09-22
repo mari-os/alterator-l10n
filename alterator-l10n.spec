@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt8
+Release: alt8.1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Sep 22 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt8.1
+- hotfix
+
 * Mon Sep 22 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt8
 - update po for users
 
