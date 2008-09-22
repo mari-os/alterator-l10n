@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt7
+Release: alt8
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Sep 22 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt8
+- update po for users
+
 * Fri Sep 19 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.9-alt7
 - fix uk.po
 
