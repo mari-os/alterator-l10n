@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt9
+Release: alt10
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Sep 22 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.9-alt10
+- alterator-lilo: minor spelling fix (by mike@)
+
 * Mon Sep 22 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt9
 - update po for auth
 
