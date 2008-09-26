@@ -1,0 +1,41 @@
+<!-- (C) 2007 Grigory Batalov <bga@altlinux.org> -->
+<html>
+   <head>
+	<title>Alterator-FBI: Help</title>
+        <meta http-equiv="content-type" value="text/html;charset=utf-8"/>
+   </head>
+   <body>
+     <h2>Caching proxy server</h2>
+     <p>Users of corporate networks usually are connected to the Internet
+     through a single channel. 
+     When a proxy server is placed at the entrance to the network (on the <em>gateway</em>), web
+     pages obtained through it are stored in the cache, and subsequent requests
+     to the same pages need no download. This will significantly speed up acces to the most
+     popular Web sites and reduce <em>traffic consumption</em>.
+     </p>
+     <p>Add address and the port which the server should <em>listen to</em>
+     and enter them in your browser settings. Leaving the address empty connections
+     will be accepted at all available addresses.
+     </p>
+     <p>Proxy can be used to restrict user access to the Internet.
+     To allow a network segment to use the server, add it's
+	 <em>range of addresses</em>, such as 192.168.1.0/24, to the settings.
+	 Acces for out of range clients will be denied.
+     </p>
+     <p>In case of refusal user will be issued with an error page describing
+     the reason and contact information, in particular, server administrator's
+     <em>Email</em>.
+     </p>
+     <p>The <em>domain</em> of local websites could be omitted, in which case
+     it will be <em>appended</em> automatically. Set domain in the form
+     .domain.org. Site names without dots are considered local.
+     </p>
+     <p>
+     Doubtful web-sites can be blocked having listed them in the corresponding list.
+     </p>
+     <p>Immediately after installing proxy, it may not be running. Please follow
+     <em>start, stop or restart service</em> link and run it.
+     (There you can see its current state as well.)
+     </p>
+   </body>
+</html>
