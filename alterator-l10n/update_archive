@@ -1,0 +1,42 @@
+#!/bin/sh -efu
+
+. shell-error
+
+update()
+{
+    local repo_dir="$1";shift
+    local repo_url="$1";shift
+
+    while read repo branch; do
+	mkdir -p -- "$repo_dir/${repo%/*}"
+
+	local git_dir="$repo_dir/$repo"
+	if [ -d "$git_dir" ];then
+	    git --git-dir="$git_dir/.git" fetch
+	else
+	    git clone "$repo_url$repo" "$git_dir"
+	fi
+	cd $git_dir
+	    if [ -n "$branch" ]; then
+		git checkout "origin/$branch"
+	    else
+		git checkout master
+	    fi
+	cd -
+    done
+}
+
+usage()
+{
+    printf 'Usage: %s <repository list> <archive directory> [<source url>]\n' "$PROG"
+    printf 'Example: %s ./modules.list archive git.alt:\n' "$PROG"
+    exit 1
+}
+
+[ $# -ge 2 ] || usage
+
+repo_list="$1";shift
+repo_dir="$1";shift
+repo_url="${1:-}"
+
+grep '^[^#]' "$repo_list"|update "$repo_dir" "$repo_url"

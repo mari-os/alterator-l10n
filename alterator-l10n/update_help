@@ -1,0 +1,29 @@
+#!/bin/sh -efu
+
+. shell-error
+
+update_help()
+{
+    local repo_dir="$1";shift
+
+    find "$repo_dir"|
+	grep '.*/help/[^/]\+/.*\.html$'|
+	while read efile; do
+	    local lfile="help/${efile##*/help/}"
+	    [ ! -f "$lfile" ] || continue
+	    message "add:$lfile"
+	    install -Dpm 644 "$efile" "$lfile"
+	done
+}
+
+usage()
+{
+    printf 'Usage:%s <archive directory>\n' "$PROG"
+    exit 1
+}
+
+[ $# -ge 1 ] || usage
+
+repo_dir="$1";shift
+
+update_help "$repo_dir"

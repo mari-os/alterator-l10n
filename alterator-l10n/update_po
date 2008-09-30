@@ -1,0 +1,63 @@
+#!/bin/sh -efu
+
+#langlist="$(find . -maxdepth 1  -name '*.po'|sed 's,./\([a-z]\+\).po,\1,')"
+langlist="ru uk"
+potfile=alterator.pot
+
+. shell-error
+
+fix_po()
+{
+    sed -i \
+	-n \
+	-e "1 r headers/$1" \
+	-e '/#:/,$ p' \
+	-- $2
+}
+
+update_po()
+{
+    local repo_list="$1";shift
+    local repo_dir="$1";shift
+
+    message "extract po"
+    grep '^[^#]' "$repo_list"|
+	while read repo; do
+    	    if [ -f "$repo_dir/$repo/${repo##*/}/Makefile" ] ;then
+		make -C "$repo_dir/$repo/${repo##*/}" update-po
+	    elif [ -f "$repo_dir/$repo/Makefile" ] ; then
+		make -C "$repo_dir/$repo" update-po
+	    else	
+		fatal "Makefile for repository $repo not found"
+	    fi
+	done
+
+    message "update po"
+    echo > $potfile
+    for i in $langlist; do touch $i.po; done
+
+    msgcat -o $potfile $potfile `find "$repo_dir" -name '*.pot'`
+
+    for i in $langlist; do
+	msgcat -o $i.po $i.po `find "$repo_dir" -name "$i.po"`
+    done
+
+    fix_po pot.header "$potfile"
+    for i in $langlist; do
+	msgmerge -U $i.po "$potfile"
+	fix_po "$i.header" "$i.po"
+    done
+}
+
+usage()
+{
+    printf 'Usage:%s <repository list> <archive directory>\n' "$PROG"
+    exit 1
+}
+
+[ $# -ge 2 ] || usage
+
+repo_list="$1";shift
+repo_dir="$1";shift
+
+update_po "$repo_list" "$repo_dir" 
