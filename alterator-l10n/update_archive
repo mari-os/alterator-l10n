@@ -17,11 +17,7 @@ update()
 	    git clone "$repo_url$repo" "$git_dir"
 	fi
 	cd $git_dir
-	    if [ -n "$branch" ]; then
-		git checkout "origin/$branch"
-	    else
-		git checkout master
-	    fi
+	    git-checkout "origin/${branch:-master}"
 	cd -
     done
 }
