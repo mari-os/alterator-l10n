@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt11
+Release: alt12
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Fri Oct 03 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt12
+- add alterator-samba
+
 * Fri Sep 26 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt11
 - add alterator-squid
 
