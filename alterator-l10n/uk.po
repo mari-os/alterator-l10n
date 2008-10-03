@@ -52,7 +52,7 @@ msgid "New group:"
 msgstr "Нова група:"
 
 #: стандартный ввод:2 ui/groups/index.scm:67
-#: ui/users/index.scm:67
+#: ui/users/index.scm:67 ввод:13
 msgid "Create"
 msgstr "Створити"
 
@@ -80,7 +80,7 @@ msgstr "Користувачі:"
 #: ввод:14 ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
 #: ui/datetime/index.scm:60 ввод:13 ui/users/index.scm:116
 #: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
-#: ui/x11/index.scm:99 ввод:12 ui/net-wifi/index.scm:131
+#: ui/x11/index.scm:99 ввод:18 ввод:12 ui/net-wifi/index.scm:131
 #: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80
 #: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
 #: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:89
@@ -94,9 +94,9 @@ msgstr "Застосувати"
 #: ui/lilo/expert/index.scm:264 ui/lilo/edit-source/index.scm:44
 #: ui/auth/index.scm:55 ввод:6 ввод:15 ui/net-pptp/index.scm:120
 #: ui/timezone/index.scm:71 ввод:7 ввод:14 ui/net-eth/index.scm:160
-#: ввод:5 ввод:17 ввод:22 ввод:13 ui/net-wifi/index.scm:132
-#: ui/dovecot/index.scm:63 ввод:12 ввод:10 ui/net-pppoe/index.scm:90
-#: ввод:9 ввод:25 ui/xinetd/index.scm:150
+#: ввод:5 ввод:17 ввод:22 ввод:19 ввод:13
+#: ui/net-wifi/index.scm:132 ui/dovecot/index.scm:63 ввод:12 ввод:10
+#: ui/net-pppoe/index.scm:90 ввод:9 ввод:25 ui/xinetd/index.scm:150
 msgid "Reset"
 msgstr "Скинути"
 
@@ -1030,10 +1030,6 @@ msgstr "Згенерувати"
 msgid "Delete user"
 msgstr "Видалити користувача"
 
-#: interfaces/guile/type/username.scm:11
-msgid "only small latin letters, digits and '_' allowed"
-msgstr "дозволені лише малі латинські літери, цифри і '_'"
-
 #: ui/users/add/index.scm:17
 msgid "You should define a system user"
 msgstr "Треба визначити системного користувача"
@@ -1294,11 +1290,13 @@ msgstr "Постачальники моніторів:"
 
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
-#: ui/x11/c-messages.scm:2 interfaces/guile/workflow/card-index.scm:161
+#: ui/x11/c-messages.scm:2 backend3/samba:89
+#: interfaces/guile/workflow/card-index.scm:161
 msgid "Yes"
 msgstr "Так"
 
-#: ui/x11/c-messages.scm:3 interfaces/guile/workflow/card-index.scm:159
+#: ui/x11/c-messages.scm:3 backend3/samba:91
+#: interfaces/guile/workflow/card-index.scm:159
 msgid "No"
 msgstr "Ні"
 
@@ -1401,6 +1399,72 @@ msgstr "Критична помилка"
 #: ui/std/base.scm:73
 msgid "Question"
 msgstr "Питання"
+
+#: стандартный ввод:1
+msgid "Samba server"
+msgstr "Samba-сервер"
+
+#: стандартный ввод:3
+#, fuzzy
+msgid "Computer name:"
+msgstr "Назва хоста:"
+
+#: стандартный ввод:4
+#, fuzzy
+msgid "Workgroup:"
+msgstr "в групу"
+
+#: стандартный ввод:7
+msgid "Shared folders"
+msgstr ""
+
+#: стандартный ввод:8
+#, fuzzy
+msgid "Folder"
+msgstr "Завантажувач"
+
+#: стандартный ввод:9 ввод:16
+#, fuzzy
+msgid "Guest access"
+msgstr "Доступ для запису"
+
+#: стандартный ввод:10 ввод:17
+#, fuzzy
+msgid "Read only"
+msgstr "Лише позначити"
+
+#: стандартный ввод:11 ввод:14
+msgid "Remove selected"
+msgstr "Видалити виділені"
+
+#: стандартный ввод:12
+#, fuzzy
+msgid "New folder:"
+msgstr "Новий користувач:"
+
+#: стандартный ввод:14
+#, fuzzy
+msgid "Shared folder settings"
+msgstr "Загальні параметри"
+
+#: стандартный ввод:15
+#, fuzzy
+msgid "Folder name:"
+msgstr "Користувач"
+
+#: interfaces/guile/type/samba-resource.scm:12
+#, fuzzy
+msgid "invalid resource name"
+msgstr "невірне ім'я групи"
+
+#: backend3/samba:150 backend3/samba:178
+#, fuzzy
+msgid "Same folder already exists"
+msgstr "Такий користувач вже є"
+
+#: backend3/samba:162
+msgid "Folder is not empty"
+msgstr ""
 
 #: стандартный ввод:1
 msgid "Wi-Fi setup"
@@ -1962,6 +2026,10 @@ msgstr "невірний список імен хостів"
 msgid "invalid hostname"
 msgstr "невірне ім'я хосту"
 
+#: interfaces/guile/type/system-account-name.scm:12
+msgid "only small latin letters, digits and '_' allowed"
+msgstr "дозволені лише малі латинські літери, цифри і '_'"
+
 #: interfaces/guile/type/ipv4-network.scm:13
 msgid "invalid IP network specification"
 msgstr ""
@@ -2353,10 +2421,6 @@ msgstr "Правило"
 #: стандартный ввод:13
 msgid "Score"
 msgstr "Бали"
-
-#: стандартный ввод:14
-msgid "Remove selected"
-msgstr "Видалити виділені"
 
 #: стандартный ввод:15
 msgid "Add rule..."

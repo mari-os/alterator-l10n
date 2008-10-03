@@ -53,7 +53,7 @@ msgid "New group:"
 msgstr ""
 
 #: стандартный ввод:2 ui/groups/index.scm:67
-#: ui/users/index.scm:67
+#: ui/users/index.scm:67 ввод:13
 msgid "Create"
 msgstr ""
 
@@ -80,7 +80,7 @@ msgstr ""
 #: ввод:14 ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
 #: ui/datetime/index.scm:60 ввод:13 ui/users/index.scm:116
 #: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
-#: ui/x11/index.scm:99 ввод:12 ui/net-wifi/index.scm:131
+#: ui/x11/index.scm:99 ввод:18 ввод:12 ui/net-wifi/index.scm:131
 #: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80
 #: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
 #: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:89
@@ -94,9 +94,9 @@ msgstr ""
 #: ui/lilo/expert/index.scm:264 ui/lilo/edit-source/index.scm:44
 #: ui/auth/index.scm:55 ввод:6 ввод:15 ui/net-pptp/index.scm:120
 #: ui/timezone/index.scm:71 ввод:7 ввод:14 ui/net-eth/index.scm:160
-#: ввод:5 ввод:17 ввод:22 ввод:13 ui/net-wifi/index.scm:132
-#: ui/dovecot/index.scm:63 ввод:12 ввод:10 ui/net-pppoe/index.scm:90
-#: ввод:9 ввод:25 ui/xinetd/index.scm:150
+#: ввод:5 ввод:17 ввод:22 ввод:19 ввод:13
+#: ui/net-wifi/index.scm:132 ui/dovecot/index.scm:63 ввод:12 ввод:10
+#: ui/net-pppoe/index.scm:90 ввод:9 ввод:25 ui/xinetd/index.scm:150
 msgid "Reset"
 msgstr ""
 
@@ -1015,10 +1015,6 @@ msgstr ""
 msgid "Delete user"
 msgstr ""
 
-#: interfaces/guile/type/username.scm:11
-msgid "only small latin letters, digits and '_' allowed"
-msgstr ""
-
 #: ui/users/add/index.scm:17
 msgid "You should define a system user"
 msgstr ""
@@ -1279,11 +1275,13 @@ msgstr ""
 
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
-#: ui/x11/c-messages.scm:2 interfaces/guile/workflow/card-index.scm:161
+#: ui/x11/c-messages.scm:2 backend3/samba:89
+#: interfaces/guile/workflow/card-index.scm:161
 msgid "Yes"
 msgstr ""
 
-#: ui/x11/c-messages.scm:3 interfaces/guile/workflow/card-index.scm:159
+#: ui/x11/c-messages.scm:3 backend3/samba:91
+#: interfaces/guile/workflow/card-index.scm:159
 msgid "No"
 msgstr ""
 
@@ -1385,6 +1383,62 @@ msgstr ""
 
 #: ui/std/base.scm:73
 msgid "Question"
+msgstr ""
+
+#: стандартный ввод:1
+msgid "Samba server"
+msgstr ""
+
+#: стандартный ввод:3
+msgid "Computer name:"
+msgstr ""
+
+#: стандартный ввод:4
+msgid "Workgroup:"
+msgstr ""
+
+#: стандартный ввод:7
+msgid "Shared folders"
+msgstr ""
+
+#: стандартный ввод:8
+msgid "Folder"
+msgstr ""
+
+#: стандартный ввод:9 ввод:16
+msgid "Guest access"
+msgstr ""
+
+#: стандартный ввод:10 ввод:17
+msgid "Read only"
+msgstr ""
+
+#: стандартный ввод:11 ввод:14
+msgid "Remove selected"
+msgstr ""
+
+#: стандартный ввод:12
+msgid "New folder:"
+msgstr ""
+
+#: стандартный ввод:14
+msgid "Shared folder settings"
+msgstr ""
+
+#: стандартный ввод:15
+msgid "Folder name:"
+msgstr ""
+
+#: interfaces/guile/type/samba-resource.scm:12
+msgid "invalid resource name"
+msgstr ""
+
+#: backend3/samba:150 backend3/samba:178
+msgid "Same folder already exists"
+msgstr ""
+
+#: backend3/samba:162
+msgid "Folder is not empty"
 msgstr ""
 
 #: стандартный ввод:1
@@ -1943,6 +1997,10 @@ msgstr ""
 msgid "invalid hostname"
 msgstr ""
 
+#: interfaces/guile/type/system-account-name.scm:12
+msgid "only small latin letters, digits and '_' allowed"
+msgstr ""
+
 #: interfaces/guile/type/ipv4-network.scm:13
 msgid "invalid IP network specification"
 msgstr ""
@@ -2330,10 +2388,6 @@ msgstr ""
 
 #: стандартный ввод:13
 msgid "Score"
-msgstr ""
-
-#: стандартный ввод:14
-msgid "Remove selected"
 msgstr ""
 
 #: стандартный ввод:15

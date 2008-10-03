@@ -10,3 +10,4 @@ check:
 	for i in $(wildcard *.po) $(wildcard *.pot);do \
 	    msgfmt $$i -o /dev/null || exit 1; \
 	done
+
