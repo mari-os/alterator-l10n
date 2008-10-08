@@ -78,14 +78,13 @@ msgstr "Користувачі:"
 #: ui/services/index.scm:63 ui/lilo/expert/index.scm:263 ui/lilo/index.scm:145
 #: ui/lilo/edit-source/index.scm:43 ui/auth/index.scm:54 ввод:11
 #: ввод:14 ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
-#: ui/datetime/index.scm:60 ввод:13 ui/users/index.scm:116
-#: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
-#: ui/x11/index.scm:99 ввод:18 ввод:12 ui/net-wifi/index.scm:131
-#: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80
-#: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
-#: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:89
-#: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
-#: ввод:24 ввод:15 ui/xinetd/index.scm:149
+#: ui/datetime/index.scm:60 ввод:16 ввод:13 ui/users/index.scm:116
+#: ui/net-eth/index.scm:159 ввод:4 ввод:21 ui/x11/index.scm:99
+#: ввод:18 ввод:12 ui/net-wifi/index.scm:131 ui/dovecot/index.scm:62
+#: ui/alternatives/index.scm:80 ui/net-iptables/index.scm:85
+#: ui/net-iptables/index.scm:111 ui/control/index.scm:55 ввод:9
+#: ui/net-pppoe/index.scm:89 ui/root/index.scm:48 ui/xkb/index.scm:55
+#: backend3/xkb:188 ввод:8 ввод:24 ввод:15 ui/xinetd/index.scm:149
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -101,8 +100,8 @@ msgid "Reset"
 msgstr "Скинути"
 
 #: стандартный ввод:9 ui/groups/index.scm:91 ввод:14
-#: ввод:17 ввод:3 ui/net-wifi/index.scm:133 ввод:5
-#: ui/pkg/sources/mirrors/index.scm:55
+#: ввод:17 ввод:3 ввод:19 ввод:31 ввод:35
+#: ui/net-wifi/index.scm:133 ввод:5 ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr "Видалити"
 
@@ -479,7 +478,7 @@ msgstr ""
 msgid "Authentication (SASL)"
 msgstr "Аутентифікація (SASL)"
 
-#: стандартный ввод:1 ввод:2
+#: стандартный ввод:1 ввод:2 ввод:5
 msgid "start, stop or restart service"
 msgstr "запустити, зупинити або перевантажити службу"
 
@@ -535,7 +534,7 @@ msgstr "Довідка"
 msgid "Proxy server"
 msgstr "Проксі-сервер"
 
-#: стандартный ввод:2 ввод:7
+#: стандартный ввод:2 ввод:7 ввод:6
 msgid "General settings"
 msgstr "Загальні параметри"
 
@@ -575,7 +574,7 @@ msgstr "Шукати у доменах:"
 msgid "(quick access to usual network resources)"
 msgstr ""
 
-#: стандартный ввод:12
+#: стандартный ввод:12 ввод:17
 #, fuzzy
 msgid "Restrictions"
 msgstr "Системні обмеження"
@@ -723,7 +722,7 @@ msgstr "Наступні користувачі мають доступ:"
 msgid "New user:"
 msgstr "Новий користувач:"
 
-#: стандартный ввод:5 ввод:3 ввод:13
+#: стандартный ввод:5 ввод:28 ввод:3 ввод:13
 #: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 ввод:4
 #: ввод:6 ui/xkb/avail_layout/index.scm:27 ui/xkb/index.scm:38
 msgid "Add"
@@ -977,6 +976,126 @@ msgstr "Поточний час:"
 #: backend3/datetime:73
 msgid "unable to setup time"
 msgstr "неможливо налаштувати час"
+
+#: стандартный ввод:1
+msgid "SMTP server settings"
+msgstr "Налаштування SMTP-сервера"
+
+#: стандартный ввод:1 ввод:29 ввод:33
+#, fuzzy
+msgid "General settings..."
+msgstr "Загальні параметри"
+
+#: стандартный ввод:2
+msgid "Forbidden recipients:"
+msgstr ""
+
+#: стандартный ввод:4
+msgid "Add recipient"
+msgstr ""
+
+#: стандартный ввод:7
+msgid "Destination of non-local mail:"
+msgstr ""
+
+#: стандартный ввод:8
+msgid "Maximum mailbox size (Mb):"
+msgstr ""
+
+#: стандартный ввод:9
+msgid "Maximum size of a message (Mb):"
+msgstr ""
+
+#: стандартный ввод:10
+msgid "Filter out recipients"
+msgstr ""
+
+#: стандартный ввод:11 ввод:13 ввод:15
+#, fuzzy
+msgid "Edit list..."
+msgstr "Редагувати lilo.conf"
+
+#: стандартный ввод:12
+#, fuzzy
+msgid "Filter out senders"
+msgstr "Файл не знайдено"
+
+#: стандартный ввод:14
+msgid "Filter out clients"
+msgstr ""
+
+#: стандартный ввод:18
+#, fuzzy
+msgid "RBL servers:"
+msgstr "Сервер LDAP:"
+
+#: стандартный ввод:20
+#, fuzzy
+msgid "Add server"
+msgstr "Новий користувач:"
+
+#: стандартный ввод:21
+msgid "Mail aliases"
+msgstr ""
+
+#: стандартный ввод:22
+msgid "Recipient"
+msgstr ""
+
+#: стандартный ввод:23
+#, fuzzy
+msgid "Redirect to"
+msgstr "Домашня тека:"
+
+#: стандартный ввод:24 ввод:11 ввод:14
+msgid "Remove selected"
+msgstr "Видалити виділені"
+
+#: стандартный ввод:25
+#, fuzzy
+msgid "New alias:"
+msgstr "Новий користувач:"
+
+#: стандартный ввод:26
+msgid "for"
+msgstr ""
+
+#: стандартный ввод:27
+msgid "New alias value:"
+msgstr ""
+
+#: стандартный ввод:30
+msgid "Forbidden senders:"
+msgstr ""
+
+#: стандартный ввод:32
+#, fuzzy
+msgid "Add sender"
+msgstr "Новий користувач:"
+
+#: стандартный ввод:34
+msgid "Forbidden clients:"
+msgstr ""
+
+#: стандартный ввод:36
+#, fuzzy
+msgid "Add client"
+msgstr "Новий користувач:"
+
+#: interfaces/guile/type/postfix-address.scm:12
+#, fuzzy
+msgid "invalid address"
+msgstr "невірна IP-адреса"
+
+#: interfaces/guile/type/postfix-limit.scm:12
+msgid "should be non negative integer"
+msgstr ""
+
+#: backend3/postfix-restrictions:318 backend3/postfix-restrictions:333
+#: backend3/postfix-restrictions:351
+#, fuzzy
+msgid "Same entry already exists"
+msgstr "Такий користувач вже є"
 
 #: стандартный ввод:1
 msgid "Local user accounts"
@@ -1432,10 +1551,6 @@ msgstr "Доступ для запису"
 #, fuzzy
 msgid "Read only"
 msgstr "Лише позначити"
-
-#: стандартный ввод:11 ввод:14
-msgid "Remove selected"
-msgstr "Видалити виділені"
 
 #: стандартный ввод:12
 #, fuzzy

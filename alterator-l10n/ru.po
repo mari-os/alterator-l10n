@@ -81,14 +81,13 @@ msgstr "Пользователи:"
 #: ui/services/index.scm:63 ui/lilo/expert/index.scm:263 ui/lilo/index.scm:145
 #: ui/lilo/edit-source/index.scm:43 ui/auth/index.scm:54 ввод:11
 #: ввод:14 ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
-#: ui/datetime/index.scm:60 ввод:13 ui/users/index.scm:116
-#: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
-#: ui/x11/index.scm:99 ввод:18 ввод:12 ui/net-wifi/index.scm:131
-#: ui/dovecot/index.scm:62 ui/alternatives/index.scm:80
-#: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
-#: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:89
-#: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
-#: ввод:24 ввод:15 ui/xinetd/index.scm:149
+#: ui/datetime/index.scm:60 ввод:16 ввод:13 ui/users/index.scm:116
+#: ui/net-eth/index.scm:159 ввод:4 ввод:21 ui/x11/index.scm:99
+#: ввод:18 ввод:12 ui/net-wifi/index.scm:131 ui/dovecot/index.scm:62
+#: ui/alternatives/index.scm:80 ui/net-iptables/index.scm:85
+#: ui/net-iptables/index.scm:111 ui/control/index.scm:55 ввод:9
+#: ui/net-pppoe/index.scm:89 ui/root/index.scm:48 ui/xkb/index.scm:55
+#: backend3/xkb:188 ввод:8 ввод:24 ввод:15 ui/xinetd/index.scm:149
 msgid "Apply"
 msgstr "Применить"
 
@@ -104,8 +103,8 @@ msgid "Reset"
 msgstr "Вернуть"
 
 #: стандартный ввод:9 ui/groups/index.scm:91 ввод:14
-#: ввод:17 ввод:3 ui/net-wifi/index.scm:133 ввод:5
-#: ui/pkg/sources/mirrors/index.scm:55
+#: ввод:17 ввод:3 ввод:19 ввод:31 ввод:35
+#: ui/net-wifi/index.scm:133 ввод:5 ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr "Удалить"
 
@@ -482,7 +481,7 @@ msgstr "LDAP"
 msgid "Authentication (SASL)"
 msgstr "Аутентификация (SASL)"
 
-#: стандартный ввод:1 ввод:2
+#: стандартный ввод:1 ввод:2 ввод:5
 msgid "start, stop or restart service"
 msgstr "запустить, остановить или перезапустить службу"
 
@@ -538,7 +537,7 @@ msgstr "Справка"
 msgid "Proxy server"
 msgstr "Прокси-сервер"
 
-#: стандартный ввод:2 ввод:7
+#: стандартный ввод:2 ввод:7 ввод:6
 msgid "General settings"
 msgstr "Общие настройки"
 
@@ -574,7 +573,7 @@ msgstr "Домен поиска:"
 msgid "(quick access to usual network resources)"
 msgstr "(быстрый доступ к сетевым ресурсам)"
 
-#: стандартный ввод:12
+#: стандартный ввод:12 ввод:17
 msgid "Restrictions"
 msgstr "Ограничения"
 
@@ -721,7 +720,7 @@ msgstr "Следующие пользователи имеют доступ:"
 msgid "New user:"
 msgstr "Новый пользователь:"
 
-#: стандартный ввод:5 ввод:3 ввод:13
+#: стандартный ввод:5 ввод:28 ввод:3 ввод:13
 #: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 ввод:4
 #: ввод:6 ui/xkb/avail_layout/index.scm:27 ui/xkb/index.scm:38
 msgid "Add"
@@ -975,6 +974,115 @@ msgstr "Текущее время:"
 #: backend3/datetime:73
 msgid "unable to setup time"
 msgstr "невозможно установить время"
+
+#: стандартный ввод:1
+msgid "SMTP server settings"
+msgstr "Настройки сервера SMTP"
+
+#: стандартный ввод:1 ввод:29 ввод:33
+msgid "General settings..."
+msgstr "Общие настройки"
+
+#: стандартный ввод:2
+msgid "Forbidden recipients:"
+msgstr "Запрещённые получатели:"
+
+#: стандартный ввод:4
+msgid "Add recipient"
+msgstr "Добавить получателя"
+
+#: стандартный ввод:7
+msgid "Destination of non-local mail:"
+msgstr "Шлюз для исходящей почты:"
+
+#: стандартный ввод:8
+msgid "Maximum mailbox size (Mb):"
+msgstr "Максимальный размер почтового ящика (Мб):"
+
+#: стандартный ввод:9
+msgid "Maximum size of a message (Mb):"
+msgstr "Максимальный размер сообщения (Мб):"
+
+#: стандартный ввод:10
+msgid "Filter out recipients"
+msgstr "Фильтровать получателей"
+
+#: стандартный ввод:11 ввод:13 ввод:15
+msgid "Edit list..."
+msgstr "Редактировать список..."
+
+#: стандартный ввод:12
+msgid "Filter out senders"
+msgstr "Фильтровать отправителей"
+
+#: стандартный ввод:14
+msgid "Filter out clients"
+msgstr "Фильтровать клиентов"
+
+#: стандартный ввод:18
+msgid "RBL servers:"
+msgstr "RBL-серверы:"
+
+#: стандартный ввод:20
+msgid "Add server"
+msgstr "Добавить сервер"
+
+#: стандартный ввод:21
+msgid "Mail aliases"
+msgstr "Почтовые псевдонимы"
+
+#: стандартный ввод:22
+msgid "Recipient"
+msgstr "Получатель"
+
+#: стандартный ввод:23
+msgid "Redirect to"
+msgstr "Перенаправить на"
+
+#: стандартный ввод:24 ввод:11 ввод:14
+msgid "Remove selected"
+msgstr "Удалить выделенные"
+
+#: стандартный ввод:25
+msgid "New alias:"
+msgstr "Новый псевдоним:"
+
+#: стандартный ввод:26
+msgid "for"
+msgstr "для"
+
+#: стандартный ввод:27
+msgid "New alias value:"
+msgstr "Значение нового псевдонима:"
+
+#: стандартный ввод:30
+msgid "Forbidden senders:"
+msgstr "Запрещённые отправители:"
+
+#: стандартный ввод:32
+msgid "Add sender"
+msgstr "Добавить отправителя"
+
+#: стандартный ввод:34
+msgid "Forbidden clients:"
+msgstr "Запрещённые клиенты:"
+
+#: стандартный ввод:36
+msgid "Add client"
+msgstr "Добавить клиента"
+
+#: interfaces/guile/type/postfix-address.scm:12
+msgid "invalid address"
+msgstr "неверный адрес"
+
+#: interfaces/guile/type/postfix-limit.scm:12
+msgid "should be non negative integer"
+msgstr "должно быть целое неотрицательное число"
+
+#: backend3/postfix-restrictions:318 backend3/postfix-restrictions:333
+#: backend3/postfix-restrictions:351
+msgid "Same entry already exists"
+msgstr "Подобный элемент уже существует"
 
 #: стандартный ввод:1
 msgid "Local user accounts"
@@ -1424,10 +1532,6 @@ msgstr "Гостевой доступ"
 #: стандартный ввод:10 ввод:17
 msgid "Read only"
 msgstr "Только чтение"
-
-#: стандартный ввод:11 ввод:14
-msgid "Remove selected"
-msgstr "Удалить выделенные"
 
 #: стандартный ввод:12
 msgid "New folder:"

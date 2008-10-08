@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt12
+Release: alt13
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Wed Oct 08 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt13
+- add alterator-postfix-restrictions
+
 * Fri Oct 03 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt12
 - add alterator-samba
 
