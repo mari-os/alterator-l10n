@@ -78,29 +78,30 @@ msgstr "Користувачі:"
 #: ui/services/index.scm:63 ui/lilo/expert/index.scm:263 ui/lilo/index.scm:145
 #: ui/lilo/edit-source/index.scm:43 ui/auth/index.scm:54 ввод:11
 #: ввод:14 ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
-#: ui/datetime/index.scm:60 ввод:16 ввод:13 ui/users/index.scm:116
-#: ui/net-eth/index.scm:159 ввод:4 ввод:21 ui/x11/index.scm:99
-#: ввод:18 ввод:12 ui/net-wifi/index.scm:131 ui/dovecot/index.scm:62
-#: ui/alternatives/index.scm:80 ui/net-iptables/index.scm:85
-#: ui/net-iptables/index.scm:111 ui/control/index.scm:55 ввод:9
-#: ui/net-pppoe/index.scm:89 ui/root/index.scm:48 ui/xkb/index.scm:55
-#: backend3/xkb:188 ввод:8 ввод:24 ввод:15 ui/xinetd/index.scm:149
+#: ui/datetime/index.scm:60 ввод:18 ввод:13 ui/users/index.scm:116
+#: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
+#: ui/x11/index.scm:99 ввод:12 ui/net-wifi/index.scm:131
+#: ui/dovecot/index.scm:54 ui/alternatives/index.scm:80
+#: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
+#: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:89
+#: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
+#: ввод:15 ui/xinetd/index.scm:149
 msgid "Apply"
 msgstr "Застосувати"
 
 #: стандартный ввод:8 ui/groups/index.scm:90
 #: ui/services/index.scm:64 ui/lilo/expert/index.scm:237
 #: ui/lilo/expert/index.scm:264 ui/lilo/edit-source/index.scm:44
-#: ui/auth/index.scm:55 ввод:6 ввод:15 ui/net-pptp/index.scm:120
+#: ui/auth/index.scm:55 ввод:15 ui/net-pptp/index.scm:120 ввод:6
 #: ui/timezone/index.scm:71 ввод:7 ввод:14 ui/net-eth/index.scm:160
 #: ввод:5 ввод:17 ввод:22 ввод:19 ввод:13
-#: ui/net-wifi/index.scm:132 ui/dovecot/index.scm:63 ввод:12 ввод:10
-#: ui/net-pppoe/index.scm:90 ввод:9 ввод:25 ui/xinetd/index.scm:150
+#: ui/net-wifi/index.scm:132 ui/dovecot/index.scm:55 ввод:12 ввод:10
+#: ui/net-pppoe/index.scm:90 ввод:9 ui/xinetd/index.scm:150
 msgid "Reset"
 msgstr "Скинути"
 
 #: стандартный ввод:9 ui/groups/index.scm:91 ввод:14
-#: ввод:17 ввод:3 ввод:19 ввод:31 ввод:35
+#: ввод:17 ввод:3 ввод:21 ввод:33 ввод:37
 #: ui/net-wifi/index.scm:133 ввод:5 ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr "Видалити"
@@ -474,42 +475,6 @@ msgstr "Локальні файли"
 msgid "LDAP"
 msgstr ""
 
-#: стандартный ввод:1 ввод:3
-msgid "Authentication (SASL)"
-msgstr "Аутентифікація (SASL)"
-
-#: стандартный ввод:1 ввод:2 ввод:5
-msgid "start, stop or restart service"
-msgstr "запустити, зупинити або перевантажити службу"
-
-#: стандартный ввод:2
-msgid "SMTP transport:"
-msgstr "SMTP-транспорт:"
-
-#: стандартный ввод:4
-msgid "Auth server:"
-msgstr "Сервер аутентифікації:"
-
-#: backend3/postfix-sasl:47 backend3/spamassassin:75
-msgid "Off"
-msgstr "Вимкнений"
-
-#: backend3/postfix-sasl:48
-msgid "On, without content filtering"
-msgstr "Ввімкнений, без фільтру вміста"
-
-#: backend3/postfix-sasl:49
-msgid "On, with content filtering"
-msgstr "Ввімкнений, із фільтром вміста"
-
-#: backend3/postfix-sasl:51
-msgid "Cyrus"
-msgstr ""
-
-#: backend3/postfix-sasl:52
-msgid "Dovecot"
-msgstr ""
-
 #: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
 #: стандартный ввод:4 ui/logs/index.scm:31
 #: ui/sysconfig/index.scm:25 ui/sysconfig/language/index.scm:33
@@ -533,6 +498,10 @@ msgstr "Довідка"
 #: стандартный ввод:1
 msgid "Proxy server"
 msgstr "Проксі-сервер"
+
+#: стандартный ввод:1 ввод:2 ввод:5 ввод:16
+msgid "start, stop or restart service"
+msgstr "запустити, зупинити або перевантажити службу"
 
 #: стандартный ввод:2 ввод:7 ввод:6
 msgid "General settings"
@@ -574,7 +543,7 @@ msgstr "Шукати у доменах:"
 msgid "(quick access to usual network resources)"
 msgstr ""
 
-#: стандартный ввод:12 ввод:17
+#: стандартный ввод:12 ввод:19
 #, fuzzy
 msgid "Restrictions"
 msgstr "Системні обмеження"
@@ -722,7 +691,7 @@ msgstr "Наступні користувачі мають доступ:"
 msgid "New user:"
 msgstr "Новий користувач:"
 
-#: стандартный ввод:5 ввод:28 ввод:3 ввод:13
+#: стандартный ввод:5 ввод:30 ввод:3 ввод:13
 #: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 ввод:4
 #: ввод:6 ui/xkb/avail_layout/index.scm:27 ui/xkb/index.scm:38
 msgid "Add"
@@ -978,10 +947,10 @@ msgid "unable to setup time"
 msgstr "неможливо налаштувати час"
 
 #: стандартный ввод:1
-msgid "SMTP server settings"
-msgstr "Налаштування SMTP-сервера"
+msgid "SMTP server"
+msgstr "SMTP-сервер"
 
-#: стандартный ввод:1 ввод:29 ввод:33
+#: стандартный ввод:1 ввод:31 ввод:35
 #, fuzzy
 msgid "General settings..."
 msgstr "Загальні параметри"
@@ -995,89 +964,97 @@ msgid "Add recipient"
 msgstr ""
 
 #: стандартный ввод:7
+msgid "SMTP transport:"
+msgstr "SMTP-транспорт:"
+
+#: стандартный ввод:8
 msgid "Destination of non-local mail:"
 msgstr ""
 
-#: стандартный ввод:8
+#: стандартный ввод:9
 msgid "Maximum mailbox size (Mb):"
 msgstr ""
 
-#: стандартный ввод:9
+#: стандартный ввод:10
 msgid "Maximum size of a message (Mb):"
 msgstr ""
 
-#: стандартный ввод:10
+#: стандартный ввод:11
+msgid "Authentication (SASL)"
+msgstr "Аутентифікація (SASL)"
+
+#: стандартный ввод:12
 msgid "Filter out recipients"
 msgstr ""
 
-#: стандартный ввод:11 ввод:13 ввод:15
+#: стандартный ввод:13 ввод:15 ввод:17
 #, fuzzy
 msgid "Edit list..."
 msgstr "Редагувати lilo.conf"
 
-#: стандартный ввод:12
+#: стандартный ввод:14
 #, fuzzy
 msgid "Filter out senders"
 msgstr "Файл не знайдено"
 
-#: стандартный ввод:14
+#: стандартный ввод:16
 msgid "Filter out clients"
 msgstr ""
 
-#: стандартный ввод:18
+#: стандартный ввод:20
 #, fuzzy
 msgid "RBL servers:"
 msgstr "Сервер LDAP:"
 
-#: стандартный ввод:20
+#: стандартный ввод:22
 #, fuzzy
 msgid "Add server"
 msgstr "Новий користувач:"
 
-#: стандартный ввод:21
+#: стандартный ввод:23
 msgid "Mail aliases"
 msgstr ""
 
-#: стандартный ввод:22
+#: стандартный ввод:24
 msgid "Recipient"
 msgstr ""
 
-#: стандартный ввод:23
+#: стандартный ввод:25
 #, fuzzy
 msgid "Redirect to"
 msgstr "Домашня тека:"
 
-#: стандартный ввод:24 ввод:11 ввод:14
+#: стандартный ввод:26 ввод:11 ввод:14
 msgid "Remove selected"
 msgstr "Видалити виділені"
 
-#: стандартный ввод:25
+#: стандартный ввод:27
 #, fuzzy
 msgid "New alias:"
 msgstr "Новий користувач:"
 
-#: стандартный ввод:26
+#: стандартный ввод:28
 msgid "for"
 msgstr ""
 
-#: стандартный ввод:27
+#: стандартный ввод:29
 msgid "New alias value:"
 msgstr ""
 
-#: стандартный ввод:30
+#: стандартный ввод:32
 msgid "Forbidden senders:"
 msgstr ""
 
-#: стандартный ввод:32
+#: стандартный ввод:34
 #, fuzzy
 msgid "Add sender"
 msgstr "Новий користувач:"
 
-#: стандартный ввод:34
+#: стандартный ввод:36
 msgid "Forbidden clients:"
 msgstr ""
 
-#: стандартный ввод:36
+#: стандартный ввод:38
 #, fuzzy
 msgid "Add client"
 msgstr "Новий користувач:"
@@ -1091,8 +1068,25 @@ msgstr "невірна IP-адреса"
 msgid "should be non negative integer"
 msgstr ""
 
-#: backend3/postfix-restrictions:318 backend3/postfix-restrictions:333
+#: backend3/postfix-restrictions:290
+#, fuzzy
+msgid "POP3/IMAP server (dovecot) is not installed"
+msgstr "POP3/IMAP-сервер (dovecot)"
+
+#: backend3/postfix-restrictions:349
+msgid "Off"
+msgstr "Вимкнений"
+
+#: backend3/postfix-restrictions:350
+msgid "On, without content filtering"
+msgstr "Ввімкнений, без фільтру вміста"
+
 #: backend3/postfix-restrictions:351
+msgid "On, with content filtering"
+msgstr "Ввімкнений, із фільтром вміста"
+
+#: backend3/postfix-restrictions:397 backend3/postfix-restrictions:412
+#: backend3/postfix-restrictions:430
 #, fuzzy
 msgid "Same entry already exists"
 msgstr "Такий користувач вже є"
@@ -1946,28 +1940,20 @@ msgid "No information available"
 msgstr "Немає доступної інформації"
 
 #: стандартный ввод:1
-msgid "POP3/IMAP server (dovecot)"
-msgstr "POP3/IMAP-сервер (dovecot)"
-
-#: стандартный ввод:1
 msgid "POP3/IMAP server"
 msgstr "POP3/IMAP-сервер"
 
-#: стандартный ввод:3 ui/dovecot/index.scm:33
+#: стандартный ввод:3 ui/dovecot/index.scm:31
 msgid "Supported protocols:"
 msgstr "Протоколи, що підтримуються:"
 
-#: стандартный ввод:4 ui/dovecot/index.scm:41
+#: стандартный ввод:4 ui/dovecot/index.scm:39
 msgid "Auth mechanisms:"
 msgstr "Механізми аутентифікації:"
 
-#: стандартный ввод:5 ui/dovecot/index.scm:49
+#: стандартный ввод:5 ui/dovecot/index.scm:47
 msgid "(you can't disable all mechanisms)"
 msgstr "(неможна вимкнути всі механізми)"
-
-#: стандартный ввод:6 ui/dovecot/index.scm:55
-msgid "Auth port for Postfix"
-msgstr "Порт служби аутентифікації для Postfix"
 
 #: backend3/dovecot:29
 msgid "POP3"
@@ -2509,7 +2495,7 @@ msgstr "Застосувати збережені налаштування кл�
 msgid "Apply failed"
 msgstr "Помилка"
 
-#: стандартный ввод:1 ввод:10 ввод:16
+#: стандартный ввод:1 ввод:10
 msgid "Spam filter"
 msgstr "Спам-фільтр"
 
@@ -2542,30 +2528,18 @@ msgid "Add rule..."
 msgstr "Додати правило..."
 
 #: стандартный ввод:17
-msgid "start, stop or restart mail service"
-msgstr "запустити, зупинити або перевантажити поштову службу"
-
-#: стандартный ввод:18
-msgid "start, stop or restart anti-spam service"
-msgstr "запустити, зупинити або перевантажити службу антиспаму"
-
-#: стандартный ввод:19
-msgid "SMTP transport status:"
-msgstr "Стан SMTP-транспорту:"
-
-#: стандартный ввод:20
 msgid "Required score:"
 msgstr "Граничне значення:"
 
-#: стандартный ввод:21
+#: стандартный ввод:18
 msgid "Setup rules and scores..."
 msgstr "Налаштувати правила та бали..."
 
-#: стандартный ввод:22
+#: стандартный ввод:19
 msgid "Spam filter mode:"
 msgstr "Режим cпам-фільтрy:"
 
-#: стандартный ввод:23
+#: стандартный ввод:20
 msgid "Use automatic sender whitelist:"
 msgstr "Використовувати автоматичний білий список за відправником:"
 
@@ -2573,19 +2547,11 @@ msgstr "Використовувати автоматичний білий сп�
 msgid "should be number"
 msgstr "має бути число"
 
-#: backend3/spamassassin:76
-msgid "On, without content filter"
-msgstr "Ввімкнений, без фільтрy"
-
-#: backend3/spamassassin:77
-msgid "On, with content filter"
-msgstr "Ввімкнений, з фільтром"
-
-#: backend3/spamassassin:80
+#: backend3/spamassassin:72
 msgid "Mark only"
 msgstr "Лише позначити"
 
-#: backend3/spamassassin:81
+#: backend3/spamassassin:73
 msgid "Drop mail"
 msgstr "Видаляти пошту"
 

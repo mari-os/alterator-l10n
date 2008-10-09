@@ -78,29 +78,30 @@ msgstr ""
 #: ui/services/index.scm:63 ui/lilo/expert/index.scm:263 ui/lilo/index.scm:145
 #: ui/lilo/edit-source/index.scm:43 ui/auth/index.scm:54 ввод:11
 #: ввод:14 ui/net-pptp/index.scm:117 ui/timezone/index.scm:70 ввод:6
-#: ui/datetime/index.scm:60 ввод:16 ввод:13 ui/users/index.scm:116
-#: ui/net-eth/index.scm:159 ввод:4 ввод:21 ui/x11/index.scm:99
-#: ввод:18 ввод:12 ui/net-wifi/index.scm:131 ui/dovecot/index.scm:62
-#: ui/alternatives/index.scm:80 ui/net-iptables/index.scm:85
-#: ui/net-iptables/index.scm:111 ui/control/index.scm:55 ввод:9
-#: ui/net-pppoe/index.scm:89 ui/root/index.scm:48 ui/xkb/index.scm:55
-#: backend3/xkb:188 ввод:8 ввод:24 ввод:15 ui/xinetd/index.scm:149
+#: ui/datetime/index.scm:60 ввод:18 ввод:13 ui/users/index.scm:116
+#: ui/net-eth/index.scm:159 ввод:4 ввод:16 ввод:21
+#: ui/x11/index.scm:99 ввод:12 ui/net-wifi/index.scm:131
+#: ui/dovecot/index.scm:54 ui/alternatives/index.scm:80
+#: ui/net-iptables/index.scm:85 ui/net-iptables/index.scm:111
+#: ui/control/index.scm:55 ввод:9 ui/net-pppoe/index.scm:89
+#: ui/root/index.scm:48 ui/xkb/index.scm:55 backend3/xkb:188 ввод:8
+#: ввод:15 ui/xinetd/index.scm:149
 msgid "Apply"
 msgstr ""
 
 #: стандартный ввод:8 ui/groups/index.scm:90
 #: ui/services/index.scm:64 ui/lilo/expert/index.scm:237
 #: ui/lilo/expert/index.scm:264 ui/lilo/edit-source/index.scm:44
-#: ui/auth/index.scm:55 ввод:6 ввод:15 ui/net-pptp/index.scm:120
+#: ui/auth/index.scm:55 ввод:15 ui/net-pptp/index.scm:120 ввод:6
 #: ui/timezone/index.scm:71 ввод:7 ввод:14 ui/net-eth/index.scm:160
 #: ввод:5 ввод:17 ввод:22 ввод:19 ввод:13
-#: ui/net-wifi/index.scm:132 ui/dovecot/index.scm:63 ввод:12 ввод:10
-#: ui/net-pppoe/index.scm:90 ввод:9 ввод:25 ui/xinetd/index.scm:150
+#: ui/net-wifi/index.scm:132 ui/dovecot/index.scm:55 ввод:12 ввод:10
+#: ui/net-pppoe/index.scm:90 ввод:9 ui/xinetd/index.scm:150
 msgid "Reset"
 msgstr ""
 
 #: стандартный ввод:9 ui/groups/index.scm:91 ввод:14
-#: ввод:17 ввод:3 ввод:19 ввод:31 ввод:35
+#: ввод:17 ввод:3 ввод:21 ввод:33 ввод:37
 #: ui/net-wifi/index.scm:133 ввод:5 ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr ""
@@ -472,42 +473,6 @@ msgstr ""
 msgid "LDAP"
 msgstr ""
 
-#: стандартный ввод:1 ввод:3
-msgid "Authentication (SASL)"
-msgstr ""
-
-#: стандартный ввод:1 ввод:2 ввод:5
-msgid "start, stop or restart service"
-msgstr ""
-
-#: стандартный ввод:2
-msgid "SMTP transport:"
-msgstr ""
-
-#: стандартный ввод:4
-msgid "Auth server:"
-msgstr ""
-
-#: backend3/postfix-sasl:47 backend3/spamassassin:75
-msgid "Off"
-msgstr ""
-
-#: backend3/postfix-sasl:48
-msgid "On, without content filtering"
-msgstr ""
-
-#: backend3/postfix-sasl:49
-msgid "On, with content filtering"
-msgstr ""
-
-#: backend3/postfix-sasl:51
-msgid "Cyrus"
-msgstr ""
-
-#: backend3/postfix-sasl:52
-msgid "Dovecot"
-msgstr ""
-
 #: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
 #: стандартный ввод:4 ui/logs/index.scm:31
 #: ui/sysconfig/index.scm:25 ui/sysconfig/language/index.scm:33
@@ -530,6 +495,10 @@ msgstr ""
 
 #: стандартный ввод:1
 msgid "Proxy server"
+msgstr ""
+
+#: стандартный ввод:1 ввод:2 ввод:5 ввод:16
+msgid "start, stop or restart service"
 msgstr ""
 
 #: стандартный ввод:2 ввод:7 ввод:6
@@ -568,7 +537,7 @@ msgstr ""
 msgid "(quick access to usual network resources)"
 msgstr ""
 
-#: стандартный ввод:12 ввод:17
+#: стандартный ввод:12 ввод:19
 msgid "Restrictions"
 msgstr ""
 
@@ -712,7 +681,7 @@ msgstr ""
 msgid "New user:"
 msgstr ""
 
-#: стандартный ввод:5 ввод:28 ввод:3 ввод:13
+#: стандартный ввод:5 ввод:30 ввод:3 ввод:13
 #: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 ввод:4
 #: ввод:6 ui/xkb/avail_layout/index.scm:27 ui/xkb/index.scm:38
 msgid "Add"
@@ -964,10 +933,10 @@ msgid "unable to setup time"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "SMTP server settings"
+msgid "SMTP server"
 msgstr ""
 
-#: стандартный ввод:1 ввод:29 ввод:33
+#: стандартный ввод:1 ввод:31 ввод:35
 msgid "General settings..."
 msgstr ""
 
@@ -980,82 +949,90 @@ msgid "Add recipient"
 msgstr ""
 
 #: стандартный ввод:7
-msgid "Destination of non-local mail:"
+msgid "SMTP transport:"
 msgstr ""
 
 #: стандартный ввод:8
-msgid "Maximum mailbox size (Mb):"
+msgid "Destination of non-local mail:"
 msgstr ""
 
 #: стандартный ввод:9
-msgid "Maximum size of a message (Mb):"
+msgid "Maximum mailbox size (Mb):"
 msgstr ""
 
 #: стандартный ввод:10
-msgid "Filter out recipients"
+msgid "Maximum size of a message (Mb):"
 msgstr ""
 
-#: стандартный ввод:11 ввод:13 ввод:15
-msgid "Edit list..."
+#: стандартный ввод:11
+msgid "Authentication (SASL)"
 msgstr ""
 
 #: стандартный ввод:12
-msgid "Filter out senders"
+msgid "Filter out recipients"
+msgstr ""
+
+#: стандартный ввод:13 ввод:15 ввод:17
+msgid "Edit list..."
 msgstr ""
 
 #: стандартный ввод:14
+msgid "Filter out senders"
+msgstr ""
+
+#: стандартный ввод:16
 msgid "Filter out clients"
 msgstr ""
 
-#: стандартный ввод:18
+#: стандартный ввод:20
 msgid "RBL servers:"
 msgstr ""
 
-#: стандартный ввод:20
+#: стандартный ввод:22
 msgid "Add server"
 msgstr ""
 
-#: стандартный ввод:21
+#: стандартный ввод:23
 msgid "Mail aliases"
 msgstr ""
 
-#: стандартный ввод:22
+#: стандартный ввод:24
 msgid "Recipient"
 msgstr ""
 
-#: стандартный ввод:23
+#: стандартный ввод:25
 msgid "Redirect to"
 msgstr ""
 
-#: стандартный ввод:24 ввод:11 ввод:14
+#: стандартный ввод:26 ввод:11 ввод:14
 msgid "Remove selected"
 msgstr ""
 
-#: стандартный ввод:25
+#: стандартный ввод:27
 msgid "New alias:"
 msgstr ""
 
-#: стандартный ввод:26
+#: стандартный ввод:28
 msgid "for"
 msgstr ""
 
-#: стандартный ввод:27
+#: стандартный ввод:29
 msgid "New alias value:"
 msgstr ""
 
-#: стандартный ввод:30
+#: стандартный ввод:32
 msgid "Forbidden senders:"
 msgstr ""
 
-#: стандартный ввод:32
+#: стандартный ввод:34
 msgid "Add sender"
 msgstr ""
 
-#: стандартный ввод:34
+#: стандартный ввод:36
 msgid "Forbidden clients:"
 msgstr ""
 
-#: стандартный ввод:36
+#: стандартный ввод:38
 msgid "Add client"
 msgstr ""
 
@@ -1067,8 +1044,24 @@ msgstr ""
 msgid "should be non negative integer"
 msgstr ""
 
-#: backend3/postfix-restrictions:318 backend3/postfix-restrictions:333
+#: backend3/postfix-restrictions:290
+msgid "POP3/IMAP server (dovecot) is not installed"
+msgstr ""
+
+#: backend3/postfix-restrictions:349
+msgid "Off"
+msgstr ""
+
+#: backend3/postfix-restrictions:350
+msgid "On, without content filtering"
+msgstr ""
+
 #: backend3/postfix-restrictions:351
+msgid "On, with content filtering"
+msgstr ""
+
+#: backend3/postfix-restrictions:397 backend3/postfix-restrictions:412
+#: backend3/postfix-restrictions:430
 msgid "Same entry already exists"
 msgstr ""
 
@@ -1906,27 +1899,19 @@ msgid "No information available"
 msgstr ""
 
 #: стандартный ввод:1
-msgid "POP3/IMAP server (dovecot)"
-msgstr ""
-
-#: стандартный ввод:1
 msgid "POP3/IMAP server"
 msgstr ""
 
-#: стандартный ввод:3 ui/dovecot/index.scm:33
+#: стандартный ввод:3 ui/dovecot/index.scm:31
 msgid "Supported protocols:"
 msgstr ""
 
-#: стандартный ввод:4 ui/dovecot/index.scm:41
+#: стандартный ввод:4 ui/dovecot/index.scm:39
 msgid "Auth mechanisms:"
 msgstr ""
 
-#: стандартный ввод:5 ui/dovecot/index.scm:49
+#: стандартный ввод:5 ui/dovecot/index.scm:47
 msgid "(you can't disable all mechanisms)"
-msgstr ""
-
-#: стандартный ввод:6 ui/dovecot/index.scm:55
-msgid "Auth port for Postfix"
 msgstr ""
 
 #: backend3/dovecot:29
@@ -2466,7 +2451,7 @@ msgstr ""
 msgid "Apply failed"
 msgstr ""
 
-#: стандартный ввод:1 ввод:10 ввод:16
+#: стандартный ввод:1 ввод:10
 msgid "Spam filter"
 msgstr ""
 
@@ -2499,30 +2484,18 @@ msgid "Add rule..."
 msgstr ""
 
 #: стандартный ввод:17
-msgid "start, stop or restart mail service"
-msgstr ""
-
-#: стандартный ввод:18
-msgid "start, stop or restart anti-spam service"
-msgstr ""
-
-#: стандартный ввод:19
-msgid "SMTP transport status:"
-msgstr ""
-
-#: стандартный ввод:20
 msgid "Required score:"
 msgstr ""
 
-#: стандартный ввод:21
+#: стандартный ввод:18
 msgid "Setup rules and scores..."
 msgstr ""
 
-#: стандартный ввод:22
+#: стандартный ввод:19
 msgid "Spam filter mode:"
 msgstr ""
 
-#: стандартный ввод:23
+#: стандартный ввод:20
 msgid "Use automatic sender whitelist:"
 msgstr ""
 
@@ -2530,19 +2503,11 @@ msgstr ""
 msgid "should be number"
 msgstr ""
 
-#: backend3/spamassassin:76
-msgid "On, without content filter"
-msgstr ""
-
-#: backend3/spamassassin:77
-msgid "On, with content filter"
-msgstr ""
-
-#: backend3/spamassassin:80
+#: backend3/spamassassin:72
 msgid "Mark only"
 msgstr ""
 
-#: backend3/spamassassin:81
+#: backend3/spamassassin:73
 msgid "Drop mail"
 msgstr ""
 
