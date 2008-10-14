@@ -9,7 +9,7 @@ update()
 
     while read repo branch; do
 	mkdir -p -- "$repo_dir/${repo%/*}"
-
+	echo -n "$repo: "
 	local git_dir="$repo_dir/$repo"
 	if [ -d "$git_dir" ];then
 	    git --git-dir="$git_dir/.git" fetch
@@ -17,6 +17,8 @@ update()
 	    git clone "$repo_url$repo" "$git_dir"
 	fi
 	cd $git_dir
+	    git-reset --hard
+	    git-clean -f -d
 	    git-checkout "origin/${branch:-master}"
 	cd -
     done

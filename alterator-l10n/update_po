@@ -22,7 +22,8 @@ update_po()
 
     message "extract po"
     grep '^[^#]' "$repo_list"|
-	while read repo; do
+	while read repo branch; do
+	    echo -n "$repo: "
     	    if [ -f "$repo_dir/$repo/${repo##*/}/Makefile" ] ;then
 		make -C "$repo_dir/$repo/${repo##*/}" update-po
 	    elif [ -f "$repo_dir/$repo/Makefile" ] ; then
