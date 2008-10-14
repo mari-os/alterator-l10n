@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt14
+Release: alt15
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Tue Oct 14 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.9-alt15
+- update translations for alterator-x11
+
 * Thu Oct 09 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt14
 - update translations for alterator-postfix-restrictions and alterator-dovecot
 
