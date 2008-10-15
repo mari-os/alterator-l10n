@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt16
+Release: alt17
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Wed Oct 15 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt17
+- add alterator-mailman
+
 * Tue Oct 14 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.9-alt16
 - fix update_archive and update_po
 
