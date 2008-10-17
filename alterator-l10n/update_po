@@ -37,10 +37,10 @@ update_po()
     echo > $potfile
     for i in $langlist; do touch $i.po; done
 
-    msgcat -o $potfile $potfile `find "$repo_dir" -name '*.pot'`
+    msgcat -s -o $potfile $potfile `find "$repo_dir" -name '*.pot'`
 
     for i in $langlist; do
-	msgcat -o $i.po $i.po `find "$repo_dir" -name "$i.po"`
+	msgcat -s -o $i.po $i.po `find "$repo_dir" -name "$i.po"`
     done
 
     fix_po pot.header "$potfile"
