@@ -17,9 +17,9 @@ update()
 	    git clone "$repo_url$repo" "$git_dir"
 	fi
 	cd $git_dir
-	    git-reset --hard
-	    git-clean -f -d
-	    git-checkout "origin/${branch:-master}"
+	    git reset --hard
+	    git clean -f -d
+	    git checkout "origin/${branch:-master}"
 	cd -
     done
 }
