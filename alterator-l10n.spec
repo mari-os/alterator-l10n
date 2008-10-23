@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt17
+Release: alt18
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Thu Oct 23 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt18
+- add alterator-dhcp
+
 * Wed Oct 15 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt17
 - add alterator-mailman
 
