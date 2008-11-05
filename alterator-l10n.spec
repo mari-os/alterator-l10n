@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.9
-Release: alt18
+Release: alt19
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Wed Nov 05 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt19
+- fix translation for alterator-x11
+
 * Thu Oct 23 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt18
 - add alterator-dhcp
 
