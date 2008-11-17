@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.9
-Release: alt19
+Version: 0.10
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Mon Nov 17 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.10-alt1
+- ru help for sysinfo, services, logs, pkg (by azol@)
+
 * Wed Nov 05 2008 Stanislav Ievlev <inger@altlinux.org> 0.9-alt19
 - fix translation for alterator-x11
 
