@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.10
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Thu Nov 20 2008 Stanislav Ievlev <inger@altlinux.org> 0.10-alt3
+- update translations for alterator-sysconfig
+
 * Thu Nov 20 2008 Stanislav Ievlev <inger@altlinux.org> 0.10-alt2
 - add alterator-mirror
 

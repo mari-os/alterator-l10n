@@ -208,8 +208,15 @@ msgstr ""
 msgid "Access point"
 msgstr "Точка доступу"
 
+#: стандартный ввод:8
+msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
+msgstr ""
+
+#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: стандартный ввод:5 ui/net-pptp/index.scm:84
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: стандартный ввод:5 ui/net-pptp/index.scm:84 ввод:3
 #: ui/net-pppoe/index.scm:74
 msgid "Account:"
 msgstr "Логін:"
@@ -874,10 +881,6 @@ msgstr "Складний режим"
 #, fuzzy
 msgid "Expiration time"
 msgstr "Складний режим"
-
-#: стандартный ввод:8
-msgid "Export storage using NFS (/var/lib/alterator/mirror)"
-msgstr ""
 
 #: стандартный ввод:1
 msgid "FTP server"
@@ -1643,9 +1646,15 @@ msgstr "Наступні пакети будуть ЗАМІНЕНІ"
 msgid "Password is too short"
 msgstr "Пароль надто короткий"
 
+#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: стандартный ввод:6 ui/net-pptp/index.scm:87 ввод:8
-#: ui/users/add/index.scm:60 ui/users/index.scm:97 ui/net-pppoe/index.scm:77
+#: ui/users/add/index.scm:60 ui/users/index.scm:97 ввод:4
+#: ui/net-pppoe/index.scm:77
 msgid "Password:"
 msgstr "Пароль:"
 
@@ -1695,7 +1704,7 @@ msgstr "Оберіть часовий пояс:"
 msgid "Port (optional):"
 msgstr "Опції lilo:"
 
-#: стандартный ввод:3 ввод:8
+#: стандартный ввод:3 ввод:8 ввод:2
 msgid "Port:"
 msgstr "Порт:"
 
@@ -1726,6 +1735,11 @@ msgstr "Програми"
 
 #: стандартный ввод:1
 msgid "Proxy server"
+msgstr "Проксі-сервер"
+
+#: стандартный ввод:1
+#, fuzzy
+msgid "Proxy server:"
 msgstr "Проксі-сервер"
 
 #: стандартный ввод:1
@@ -2158,8 +2172,8 @@ msgstr "Протоколи, що підтримуються:"
 
 #: стандартный ввод:16
 msgid ""
-"Synchronization will start every night.\n"
-"\t\t\tFirst synchronization with some repository may take a long time."
+"Synchronization will start every night. First synchronization with some "
+"repository may take a long time."
 msgstr ""
 
 #: стандартный ввод:9
@@ -2410,7 +2424,7 @@ msgstr "Базовий інтерфейс:"
 msgid "Warning"
 msgstr "Попередження"
 
-#: стандартный ввод:18
+#: стандартный ввод:17
 #, fuzzy
 msgid "Warning:"
 msgstr "Попередження"
@@ -2720,7 +2734,7 @@ msgstr ""
 msgid "mbr-only"
 msgstr ""
 
-#: стандартный ввод:19
+#: стандартный ввод:18
 msgid "mirroring requires a lot of disk space."
 msgstr ""
 

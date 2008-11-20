@@ -204,8 +204,15 @@ msgstr "ANONYMOUS"
 msgid "Access point"
 msgstr "Точка доступа"
 
+#: стандартный ввод:8
+msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
+msgstr "Доступ к хранилищу через NFS (/var/lib/alterator/mirror)"
+
+#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: стандартный ввод:5 ui/net-pptp/index.scm:84
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#: стандартный ввод:5 ui/net-pptp/index.scm:84 ввод:3
 #: ui/net-pppoe/index.scm:74
 msgid "Account:"
 msgstr "Учётная запись:"
@@ -856,10 +863,6 @@ msgstr "Режим эксперта"
 #: стандартный ввод:28
 msgid "Expiration time"
 msgstr "Годен до"
-
-#: стандартный ввод:8
-msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
-msgstr "Доступ к хранилищу через NFS (/var/lib/alterator/mirror)"
 
 #: стандартный ввод:1
 msgid "FTP server"
@@ -1614,9 +1617,15 @@ msgstr "Следующие пакеты будут ЗАМЕНЕНЫ"
 msgid "Password is too short"
 msgstr "Слишком короткий пароль"
 
+#. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: стандартный ввод:6 ui/net-pptp/index.scm:87 ввод:8
-#: ui/users/add/index.scm:60 ui/users/index.scm:97 ui/net-pppoe/index.scm:77
+#: ui/users/add/index.scm:60 ui/users/index.scm:97 ввод:4
+#: ui/net-pppoe/index.scm:77
 msgid "Password:"
 msgstr "Пароль:"
 
@@ -1667,7 +1676,7 @@ msgstr "Выберите часовой пояс:"
 msgid "Port (optional):"
 msgstr "Порт (необязательно):"
 
-#: стандартный ввод:3 ввод:8
+#: стандартный ввод:3 ввод:8 ввод:2
 msgid "Port:"
 msgstr "Порт:"
 
@@ -1699,6 +1708,10 @@ msgstr "Программное обеспечение"
 #: стандартный ввод:1
 msgid "Proxy server"
 msgstr "Прокси-сервер"
+
+#: стандартный ввод:1
+msgid "Proxy server:"
+msgstr "Прокси-сервер:"
 
 #: стандартный ввод:1
 msgid "Proxy settings"
@@ -2114,8 +2127,8 @@ msgstr "Поддерживаемые протоколы:"
 
 #: стандартный ввод:16
 msgid ""
-"Synchronization will start every night. "
-"First synchronization with some repository may take a long time."
+"Synchronization will start every night. First synchronization with some "
+"repository may take a long time."
 msgstr ""
 "Синхронизация будет запускаться каждую ночь. Первая синхронизация с "
 "репозиторием может занять длительное время."
@@ -2374,7 +2387,7 @@ msgstr "Опорный интерфейс:"
 msgid "Warning"
 msgstr "Предупреждение"
 
-#: стандартный ввод:18
+#: стандартный ввод:17
 msgid "Warning:"
 msgstr "Предупреждение:"
 
@@ -2679,7 +2692,7 @@ msgstr "MBR"
 msgid "mbr-only"
 msgstr "только MBR"
 
-#: стандартный ввод:19
+#: стандартный ввод:18
 msgid "mirroring requires a lot of disk space."
 msgstr "зеркалирование потребует наличия большого количества места на диске."
 
