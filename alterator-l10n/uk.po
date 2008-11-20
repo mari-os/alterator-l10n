@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
-#: стандартный ввод:21
+#: стандартный ввод:23
 #, fuzzy
 msgid "(DNS name or IP address)"
 msgstr "невірна IP-адреса"
@@ -55,7 +55,7 @@ msgstr ""
 msgid "(logging granularity influences its size)"
 msgstr "(докладність протоколу впливає на розмір журналу)"
 
-#: стандартный ввод:4
+#: стандартный ввод:6
 msgid "(maximum possible address range)"
 msgstr ""
 
@@ -143,7 +143,7 @@ msgstr "100 рядків"
 msgid "12 hours"
 msgstr ""
 
-#: backend3/x11:216
+#: backend3/x11:201 backend3/x11:216
 msgid "16 million colors (24 bits)"
 msgstr "16 мільйонів кольорів (24 біта)"
 
@@ -163,15 +163,15 @@ msgstr "20 рядків"
 msgid "20 seconds"
 msgstr "20 секунд"
 
-#: backend3/x11:213
+#: backend3/x11:198 backend3/x11:213
 msgid "256 colors (8 bit)"
 msgstr "256 кольорів (8 біт)"
 
-#: backend3/x11:214
+#: backend3/x11:199 backend3/x11:214
 msgid "32 thousand colors (15 bits)"
 msgstr "32 тисячі кольорів (15 біт)"
 
-#: backend3/x11:217
+#: backend3/x11:202 backend3/x11:217
 msgid "4 billion colors (32 bits)"
 msgstr "4 мільярди кольорів (32 біта)"
 
@@ -187,7 +187,7 @@ msgstr "5 секунд"
 msgid "50 lines"
 msgstr "50 рядків"
 
-#: backend3/x11:215
+#: backend3/x11:200 backend3/x11:215
 msgid "65 thousand colors (16 bits)"
 msgstr "65 тисяч кольорів (16 біт)"
 
@@ -233,7 +233,7 @@ msgstr "Отримання пакетів..."
 #: стандартный ввод:22 ввод:5 ввод:30 ввод:3
 #: ввод:13 ui/pkg/sources/mirrors/index.scm:51
 #: ui/pkg/register/index.scm:42 ввод:4 ввод:6
-#: ui/xkb/avail_layout/index.scm:27 ui/xkb/index.scm:38 ввод:20
+#: ui/xkb/avail_layout/index.scm:27 ui/xkb/index.scm:38
 msgid "Add"
 msgstr "Додати"
 
@@ -298,7 +298,7 @@ msgstr "Додатково будуть встановлені наступні 
 msgid "Additional parameters:"
 msgstr "Додаткові параметри:"
 
-#: стандартный ввод:7
+#: стандартный ввод:9
 msgid "Address  expiration time:"
 msgstr ""
 
@@ -377,13 +377,13 @@ msgid "Anvanced..."
 msgstr "Додатково..."
 
 #: стандартный ввод:4 ввод:16 ввод:21
-#: ui/x11/index.scm:99 ввод:7 ui/groups/index.scm:89 ввод:5
+#: ui/x11/index.scm:97 ввод:7 ui/groups/index.scm:89 ввод:5
 #: ui/services/index.scm:63 ui/lilo/expert/index.scm:262 ui/lilo/index.scm:140
 #: ui/lilo/edit-source/index.scm:42 ввод:6 ui/auth/index.scm:54
 #: ввод:15 ввод:11 ввод:14 ввод:13 ui/net-pptp/index.scm:114
 #: ui/timezone/index.scm:70 ui/datetime/index.scm:32 ввод:18
-#: ui/users/index.scm:116 ui/net-eth/index.scm:159 ввод:12
-#: ui/net-wifi/index.scm:131 ui/dovecot/index.scm:52 ввод:9
+#: ui/users/index.scm:116 ui/net-eth/index.scm:159 ui/x11/index.scm:99
+#: ввод:12 ui/net-wifi/index.scm:131 ui/dovecot/index.scm:52 ввод:9
 #: ui/alternatives/index.scm:77 ui/net-iptables/index.scm:85
 #: ui/net-iptables/index.scm:111 ui/control/index.scm:55 ввод:8
 #: ui/net-pppoe/index.scm:88 ui/root/index.scm:46 ui/xkb/index.scm:55
@@ -440,7 +440,7 @@ msgstr "Визначити адресу автоматично"
 #. for write_enum
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. for write_enum_item
-#: backend3/x11:268
+#: backend3/x11:253 backend3/x11:268
 msgid "Automatically detected"
 msgstr "Автоматично"
 
@@ -508,6 +508,7 @@ msgstr "неможливо відкрити тимчасовий файл"
 msgid "Can't remove user"
 msgstr "Неможливо видалити користувача"
 
+#: ui/x11/driver/index.scm:31 ui/x11/monitor/index.scm:28
 #: ui/x11/driver/index.scm:32 ui/x11/monitor/index.scm:29
 #: стандартный ввод:19 ui/pkg/sources/mirrors/index.scm:60
 #: ui/pkg/upgrade/index.scm:47 ui/xkb/avail_layout/index.scm:28
@@ -554,7 +555,7 @@ msgstr "Оберіть кандидата вручну"
 msgid "Clear local mirror"
 msgstr ""
 
-#: стандартный ввод:14 ui/x11/index.scm:78
+#: стандартный ввод:14 ui/x11/index.scm:76 ui/x11/index.scm:78
 msgid "Color depth:"
 msgstr "Глибина кольору:"
 
@@ -643,7 +644,7 @@ msgstr "Критичена помилка встановлення"
 msgid "Current date:"
 msgstr "Поточна дата:"
 
-#: стандартный ввод:22
+#: стандартный ввод:24
 msgid "Current dynamically allocated addresses"
 msgstr ""
 
@@ -651,7 +652,7 @@ msgstr ""
 msgid "Current network"
 msgstr "Поточна мережа"
 
-#: стандартный ввод:9 ui/x11/index.scm:54
+#: стандартный ввод:9 ui/x11/index.scm:52 ui/x11/index.scm:54
 msgid "Current settings"
 msgstr "Поточні налаштування"
 
@@ -671,7 +672,7 @@ msgstr "Поточний час:"
 msgid "DHCP server"
 msgstr "DHCP-сервер"
 
-#: стандартный ввод:9
+#: стандартный ввод:11
 #, fuzzy
 msgid "DNS server:"
 msgstr "DNS-сервери:"
@@ -695,7 +696,7 @@ msgstr "Типово"
 
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: стандартный ввод:10 ui/net-eth/index.scm:132 ввод:11
+#: стандартный ввод:10 ui/net-eth/index.scm:132 ввод:13
 msgid "Default gateway:"
 msgstr "Типовий шлюз:"
 
@@ -738,7 +739,7 @@ msgstr "Файл ліцензії не знайдено"
 msgid "Destination of non-local mail:"
 msgstr ""
 
-#: стандартный ввод:6 ui/x11/index.scm:31
+#: стандартный ввод:6 ui/x11/index.scm:29 ui/x11/index.scm:31
 msgid "Detected hardware"
 msgstr "Знайдене обладнання"
 
@@ -775,7 +776,7 @@ msgstr "Нижче"
 msgid "Download sign request"
 msgstr "Звантажити запит на підпис"
 
-#: стандартный ввод:12 ui/x11/index.scm:69
+#: стандартный ввод:12 ui/x11/index.scm:67 ui/x11/index.scm:69
 msgid "Driver:"
 msgstr "Драйвер:"
 
@@ -783,7 +784,8 @@ msgstr "Драйвер:"
 msgid "Drivers"
 msgstr "Драйвери"
 
-#: стандартный ввод:3 ui/x11/driver/index.scm:11
+#: стандартный ввод:3 ui/x11/driver/index.scm:10
+#: ui/x11/driver/index.scm:11
 msgid "Drivers:"
 msgstr "Драйвери:"
 
@@ -854,7 +856,7 @@ msgstr "Шифрування"
 msgid "Encryption:"
 msgstr "Шифрування:"
 
-#: стандартный ввод:6
+#: стандартный ввод:8
 #, fuzzy
 msgid "Ending IP address:"
 msgstr "IP-адреса:"
@@ -868,7 +870,7 @@ msgstr "Ethernet-інтерфейси"
 msgid "Expert mode"
 msgstr "Складний режим"
 
-#: стандартный ввод:26
+#: стандартный ввод:28
 #, fuzzy
 msgid "Expiration time"
 msgstr "Складний режим"
@@ -918,7 +920,7 @@ msgstr "Завершити"
 msgid "First page"
 msgstr "Перша сторінка"
 
-#: стандартный ввод:27
+#: стандартный ввод:29
 msgid "Fix address for selected hosts"
 msgstr ""
 
@@ -970,7 +972,7 @@ msgstr "Гб"
 msgid "General options"
 msgstr "Загальні налаштування"
 
-#: стандартный ввод:2 ввод:7 ввод:6
+#: стандартный ввод:2 ввод:7 ввод:6 ввод:4
 msgid "General settings"
 msgstr "Загальні параметри"
 
@@ -1046,17 +1048,17 @@ msgstr "Довідка:"
 msgid "Home directory:"
 msgstr "Домашня тека:"
 
-#: стандартный ввод:15
+#: стандартный ввод:17
 #, fuzzy
 msgid "Host address"
 msgstr "IP-адреса:"
 
-#: стандартный ввод:18
+#: стандартный ввод:20
 #, fuzzy
 msgid "Host address:"
 msgstr "IP-адреса:"
 
-#: стандартный ввод:23
+#: стандартный ввод:25
 #, fuzzy
 msgid "Host name"
 msgstr "Назва хоста:"
@@ -1078,7 +1080,7 @@ msgstr ""
 msgid "IMAP4 over TLS/SSL"
 msgstr "IMAP4 через TLS/SSL"
 
-#: backend3/net-wifi:227 стандартный ввод:25
+#: backend3/net-wifi:227 стандартный ввод:27
 msgid "IP address"
 msgstr "IP-адреса"
 
@@ -1116,7 +1118,7 @@ msgstr ""
 msgid "Information"
 msgstr "Інформація"
 
-#: стандартный ввод:8
+#: стандартный ввод:10
 msgid "Information provided for clients"
 msgstr ""
 
@@ -1158,7 +1160,7 @@ msgstr "Тип інтерфейсу:"
 #.
 #: стандартный ввод:2 ui/net-wifi/index.scm:103 ввод:9
 #: ui/net-iptables/index.scm:97 ввод:4 ui/net-pppoe/index.scm:71
-#: ввод:3
+#: ввод:5
 msgid "Interface:"
 msgstr "Інтерфейс:"
 
@@ -1307,12 +1309,12 @@ msgstr "Протоколювання:"
 msgid "Logs:"
 msgstr "Журнали:"
 
-#: стандартный ввод:16 ввод:24
+#: стандартный ввод:18 ввод:26
 #, fuzzy
 msgid "MAC address"
 msgstr "за MAC-адресою"
 
-#: стандартный ввод:19
+#: стандартный ввод:21
 #, fuzzy
 msgid "MAC address:"
 msgstr "за MAC-адресою"
@@ -1383,20 +1385,26 @@ msgstr "Режим:"
 msgid "Model:"
 msgstr "Модель:"
 
-#: стандартный ввод:1 ввод:36
+#: стандартный ввод:1
 msgid "Module access settings"
+msgstr "Налаштування доступу до модуля"
+
+#: стандартный ввод:36
+#, fuzzy
+msgid "Module access settings..."
 msgstr "Налаштування доступу до модуля"
 
 #: стандартный ввод:19
 msgid "Monitor vendors"
 msgstr "Постачальники моніторів"
 
-#: стандартный ввод:20 ui/x11/monitor/index.scm:10
+#: стандартный ввод:20 ui/x11/monitor/index.scm:9
+#: ui/x11/monitor/index.scm:10
 msgid "Monitor vendors:"
 msgstr "Постачальники моніторів:"
 
-#: стандартный ввод:8 ввод:10 ui/x11/index.scm:43
-#: ui/x11/index.scm:60
+#: стандартный ввод:8 ввод:10 ui/x11/index.scm:41
+#: ui/x11/index.scm:58 ui/x11/index.scm:43 ui/x11/index.scm:60
 msgid "Monitor:"
 msgstr "Монітор:"
 
@@ -1519,8 +1527,9 @@ msgstr "Не бездротовий інтерфейс"
 msgid "November"
 msgstr "Листопад"
 
-#: ui/x11/driver/index.scm:26 ui/x11/monitor/index.scm:23
-#: стандартный ввод:20 ввод:22 ui/net-wifi/index.scm:144
+#: ui/x11/driver/index.scm:25 ui/x11/monitor/index.scm:22
+#: стандартный ввод:20 ввод:22 ui/x11/driver/index.scm:26
+#: ui/x11/monitor/index.scm:23 ui/net-wifi/index.scm:144
 #: ui/pkg/sources/mirrors/index.scm:59
 msgid "OK"
 msgstr ""
@@ -1561,7 +1570,7 @@ msgstr "Подрозділ (OU):"
 msgid "Other"
 msgstr "Інше"
 
-#: стандартный ввод:13 ui/x11/index.scm:73
+#: стандартный ввод:13 ui/x11/index.scm:71 ui/x11/index.scm:73
 msgid "Other driver..."
 msgstr "Інший драйвер..."
 
@@ -1577,7 +1586,7 @@ msgstr "Інша мережа"
 msgid "Other system settings"
 msgstr "Інші системні налаштування"
 
-#: стандартный ввод:11 ui/x11/index.scm:64
+#: стандартный ввод:11 ui/x11/index.scm:62 ui/x11/index.scm:64
 msgid "Other vendor..."
 msgstr "Інший постачальник..."
 
@@ -1728,7 +1737,7 @@ msgstr "Налаштування TLS"
 msgid "Question"
 msgstr "Питання"
 
-#: ui/x11/index.scm:102
+#: ui/x11/index.scm:100 ui/x11/index.scm:102
 msgid "Quit"
 msgstr "Вихід"
 
@@ -1749,6 +1758,11 @@ msgstr "Лише позначити"
 #: стандартный ввод:24
 msgid "Recipient"
 msgstr ""
+
+#: стандартный ввод:3
+#, fuzzy
+msgid "Reconfigure ethernet interfaces..."
+msgstr "Переконфіґурувати інтерфейс"
 
 #: стандартный ввод:3 ui/net-wifi/index.scm:106
 msgid "Reconfigure interface"
@@ -1777,7 +1791,6 @@ msgid "Remove"
 msgstr "Вилучити"
 
 #: стандартный ввод:19 ввод:26 ввод:11 ввод:14
-#: ввод:17
 msgid "Remove selected"
 msgstr "Видалити виділені"
 
@@ -1818,7 +1831,7 @@ msgstr "Пересканувати"
 msgid "Reset"
 msgstr "Скинути"
 
-#: стандартный ввод:15 ui/x11/index.scm:84
+#: стандартный ввод:15 ui/x11/index.scm:82 ui/x11/index.scm:84
 msgid "Resolution:"
 msgstr "Роздільна здатність:"
 
@@ -1923,7 +1936,7 @@ msgstr "Бали"
 msgid "Score:"
 msgstr "Бали:"
 
-#: стандартный ввод:9 ввод:10
+#: стандартный ввод:9 ввод:12
 #, fuzzy
 msgid "Search domain:"
 msgstr "Шукати у доменах:"
@@ -2082,11 +2095,16 @@ msgstr "Запускати при завантаженні"
 msgid "Start packages installation..."
 msgstr "Початок встановлення пакетів..."
 
+#: стандартный ввод:1
+#, fuzzy
+msgid "Start, stop or restart service..."
+msgstr "запустити, зупинити або перевантажити службу"
+
 #: стандартный ввод:14
 msgid "Start, stop or restart xinetd"
 msgstr "Запустити, зупинити або перевантажити xinetd"
 
-#: стандартный ввод:5
+#: стандартный ввод:7
 #, fuzzy
 msgid "Starting IP address:"
 msgstr "IP-адреса:"
@@ -2097,7 +2115,7 @@ msgstr "IP-адреса:"
 msgid "State"
 msgstr "Стан"
 
-#: стандартный ввод:14
+#: стандартный ввод:16
 #, fuzzy
 msgid "Static addresses"
 msgstr "невірна IP-адреса"
@@ -2205,22 +2223,22 @@ msgstr "Table:"
 msgid "Tb"
 msgstr "Тб"
 
-#: ui/x11/index.scm:96 backend3/x11:187
+#: ui/x11/index.scm:94 backend3/x11:316 ui/x11/index.scm:96 backend3/x11:187
 msgid "Test"
 msgstr "Тестування"
 
-#: backend3/x11:185
+#: backend3/x11:314 backend3/x11:185
 msgid "Test current display settings"
 msgstr "Перевірити поточні налаштування дисплею"
 
-#: backend3/x11:408
+#: backend3/x11:392
 msgid ""
-"Test disabled, becasuse nv and nvidia drivers can not work on your video "
-"card simultaneously. Probably if one of them works fine now then the other "
-"one would work fine too."
+"Test disabled, because nv and nvidia drivers can not work on your video card "
+"simultaneously. Probably if one of them works fine now then the other one "
+"would work fine too."
 msgstr ""
 
-#: backend3/x11:186
+#: backend3/x11:315 backend3/x11:186
 msgid "Test failed"
 msgstr "Тест невдалий"
 
@@ -2359,7 +2377,7 @@ msgstr "Користувачі:"
 msgid "Various network services"
 msgstr "Різноманітні мережні сервіси"
 
-#: стандартный ввод:7 ui/x11/index.scm:37
+#: стандартный ввод:7 ui/x11/index.scm:35 ui/x11/index.scm:37
 msgid "Video card:"
 msgstr "Відеокарта:"
 
@@ -2430,7 +2448,7 @@ msgstr "в групу"
 msgid "Write access"
 msgstr "Доступ для запису"
 
-#: backend3/x11:413 backend3/x11:391
+#: backend3/x11:397 backend3/x11:391
 msgid "X11 test failed"
 msgstr "Тест X11 невдалий"
 
@@ -2450,6 +2468,11 @@ msgstr "Так"
 #: ui/license/index.scm:15 ui/notes/license.scm:15
 msgid "Yes, I agree"
 msgstr "Так, я згоден з умовами"
+
+#: стандартный ввод:2
+msgid ""
+"You must have statically configured ethernet interface to setup dhcp server."
+msgstr ""
 
 #: ui/users/add/index.scm:20
 msgid "You should define a password"
@@ -2485,7 +2508,7 @@ msgstr "усі з'єднання"
 msgid "auto"
 msgstr ""
 
-#: backend3/x11:229
+#: backend3/x11:214 backend3/x11:229
 msgid "automatically"
 msgstr "автоматично"
 
@@ -2493,7 +2516,7 @@ msgstr "автоматично"
 msgid "b"
 msgstr "б"
 
-#: backend3/x11:218
+#: backend3/x11:203 backend3/x11:218
 msgid "bits"
 msgstr "біт"
 
@@ -2536,7 +2559,7 @@ msgid "cannot change password"
 msgstr "неможливо змінити пароль"
 
 #. config
-#: backend3/x11:338
+#: backend3/x11:323 backend3/x11:338
 msgid "config file doesn't exist"
 msgstr "конфіґурацію не знайдено"
 
@@ -2721,7 +2744,7 @@ msgstr ""
 msgid "no wait"
 msgstr "не чекати"
 
-#: backend3/x11:396 backend3/x11:387
+#: backend3/x11:380 backend3/x11:387
 msgid "no workcopy was found"
 msgstr "робочу копію не знайдено"
 
@@ -2754,7 +2777,7 @@ msgstr "підключено"
 msgid "process already running"
 msgstr "процес вже запущено"
 
-#: backend3/x11:195
+#: backend3/x11:180 backend3/x11:195
 msgid "recommended"
 msgstr "рекомендовано"
 
