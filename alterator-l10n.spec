@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.10
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Thu Nov 20 2008 Stanislav Ievlev <inger@altlinux.org> 0.10-alt2
+- add alterator-mirror
+
 * Mon Nov 17 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.10-alt1
 - ru help for sysinfo, services, logs, pkg (by azol@)
 
