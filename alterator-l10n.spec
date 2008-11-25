@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.10
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,10 @@ make check
 
 
 %changelog
+* Mon Nov 24 2008 Stanislav Ievlev <inger@altlinux.org> 0.10-alt4
+- add english help for: logs, samba, dovecot, acc-html, root
+- minor help improvements (inger@, azol@)
+
 * Thu Nov 20 2008 Stanislav Ievlev <inger@altlinux.org> 0.10-alt3
 - update translations for alterator-sysconfig
 
