@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.10
-Release: alt4
+Version: 0.11
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,17 @@ make check
 
 
 %changelog
+* Tue Dec 02 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.11-alt1
+- fix ru help files (by azol@):
+  + notes-release-notes
+  + notes-license
+  + users
+  + root
+  + net-iptables
+  + sysinfo
+  + acc-html
+  + tzone (move from module)
+
 * Mon Nov 24 2008 Stanislav Ievlev <inger@altlinux.org> 0.10-alt4
 - add english help for: logs, samba, dovecot, acc-html, root
 - minor help improvements (inger@, azol@)
