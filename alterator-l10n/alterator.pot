@@ -91,7 +91,7 @@ msgstr ""
 msgid "(user visible contact information)"
 msgstr ""
 
-#: стандартный ввод:5 ui/dovecot/index.scm:45
+#: стандартный ввод:4 ui/dovecot/index.scm:45
 msgid "(you can't disable all mechanisms)"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgstr ""
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: стандартный ввод:5 ui/net-pptp/index.scm:84 ввод:3
-#: ui/net-pppoe/index.scm:74
+#: ui/sysconfig/proxy/index.scm:14 ui/net-pppoe/index.scm:74
 msgid "Account:"
 msgstr ""
 
@@ -378,9 +378,10 @@ msgstr ""
 #: ui/users/index.scm:116 ui/net-eth/index.scm:159 ui/x11/index.scm:99
 #: ввод:12 ui/net-wifi/index.scm:131 ui/dovecot/index.scm:52 ввод:9
 #: ui/alternatives/index.scm:77 ui/net-iptables/index.scm:85
-#: ui/net-iptables/index.scm:111 ui/control/index.scm:55 ввод:8
-#: ui/net-pppoe/index.scm:88 ui/root/index.scm:46 ui/xkb/index.scm:55
-#: backend3/xkb:188 ui/xinetd/index.scm:149
+#: ui/net-iptables/index.scm:111 ui/sysconfig/proxy/index.scm:26
+#: ui/control/index.scm:55 ввод:8 ui/net-pppoe/index.scm:88
+#: ui/root/index.scm:46 ui/xkb/index.scm:55 backend3/xkb:188
+#: ui/xinetd/index.scm:149
 msgid "Apply"
 msgstr ""
 
@@ -408,7 +409,7 @@ msgstr ""
 msgid "August"
 msgstr ""
 
-#: стандартный ввод:4 ui/dovecot/index.scm:37
+#: стандартный ввод:3 ui/dovecot/index.scm:37
 msgid "Auth mechanisms:"
 msgstr ""
 
@@ -1609,7 +1610,7 @@ msgstr ""
 #.
 #: стандартный ввод:6 ui/net-pptp/index.scm:87 ввод:8
 #: ui/users/add/index.scm:60 ui/users/index.scm:97 ввод:4
-#: ui/net-pppoe/index.scm:77
+#: ui/sysconfig/proxy/index.scm:17 ui/net-pppoe/index.scm:77
 msgid "Password:"
 msgstr ""
 
@@ -1659,6 +1660,7 @@ msgid "Port (optional):"
 msgstr ""
 
 #: стандартный ввод:3 ввод:8 ввод:2
+#: ui/sysconfig/proxy/index.scm:9
 msgid "Port:"
 msgstr ""
 
@@ -1691,7 +1693,7 @@ msgstr ""
 msgid "Proxy server"
 msgstr ""
 
-#: стандартный ввод:1
+#: стандартный ввод:1 ui/sysconfig/proxy/index.scm:7
 msgid "Proxy server:"
 msgstr ""
 
@@ -1788,7 +1790,8 @@ msgstr ""
 #: ввод:15 ввод:14 ui/net-pptp/index.scm:117 ввод:6
 #: ui/timezone/index.scm:71 ui/net-eth/index.scm:160 ввод:19 ввод:13
 #: ui/net-wifi/index.scm:132 ui/dovecot/index.scm:53 ввод:10 ввод:12
-#: ввод:9 ui/net-pppoe/index.scm:89 ui/xinetd/index.scm:150
+#: ui/sysconfig/proxy/index.scm:29 ввод:9 ui/net-pppoe/index.scm:89
+#: ui/xinetd/index.scm:150
 msgid "Reset"
 msgstr ""
 
@@ -2103,7 +2106,7 @@ msgstr ""
 msgid "Summary"
 msgstr ""
 
-#: стандартный ввод:3 ui/dovecot/index.scm:29
+#: стандартный ввод:2 ui/dovecot/index.scm:29
 msgid "Supported protocols:"
 msgstr ""
 
