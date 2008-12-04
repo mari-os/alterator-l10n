@@ -1,216 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Michael Shigorin <mike@osdn.org.ua>, 2007.
-# Wad Mashckoff <adiel@nospam.kiev.ua>, 2007.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: uk\n"
+"Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-09 19:28+0300\n"
-"PO-Revision-Date: 2007-09-27 18:26+0400\n"
-"Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"PO-Revision-Date: 2008-12-02 22:29-0300\n"
+"Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
+"Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.1\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: pt_BR\n"
+
 #: стандартный ввод:23
-#, fuzzy
 msgid "(DNS name or IP address)"
-msgstr "невірна IP-адреса"
+msgstr "(IP ou Nome do DNS)"
 
 #: стандартный ввод:11
 msgid ""
 "(IP address where server listen on, or '*' for listening on all interfaces)"
-msgstr ""
-"(IP-адреса, на якій сервер приймає з'єднання або '*' для обслуговування усіх "
-"інтерфейсів)"
+msgstr "(Endereço IP, ou use \"*\" para rodar em todas as interfaces)"
 
 #: стандартный ввод:4 ввод:9
 msgid "(TCP port for server to listen to)"
-msgstr "(TCP-порт, який має слухати сервер)"
+msgstr "(Porta TCP para o servidor)"
 
 #: стандартный ввод:9
 msgid "(TCP port where server listen on)"
-msgstr "(TCP-порт, на якому має слухати сервер)"
+msgstr "(Porta do servidor)"
 
 #: стандартный ввод:10 ввод:13 ui/users/add/index.scm:66
 #: ui/users/index.scm:103 ввод:3 ui/root/index.scm:33
 msgid "(enter passphrase)"
-msgstr "(вкажіть пароль)"
+msgstr "(Entre com a Senha)"
 
 #: стандартный ввод:13
 msgid "(granularity of the logging influences its size)"
-msgstr "(докладність протоколювання впливає на розмір журналу)"
+msgstr "(Tamanho do login)"
 
 #: стандартный ввод:6 ввод:11
-#, fuzzy
 msgid "(leave this field empty for listening to all interfaces)"
-msgstr ""
-"(IP-адреса, на якій сервер приймає з'єднання або '*' для обслуговування усіх "
-"інтерфейсів)"
+msgstr "(deixe esse campo em branco para listar em todas as interfaces)"
 
 #: стандартный ввод:13
 msgid "(logging granularity influences its size)"
-msgstr "(докладність протоколу впливає на розмір журналу)"
+msgstr "(Tamanho do login)"
 
 #: стандартный ввод:6
 msgid "(maximum possible address range)"
-msgstr ""
+msgstr "(Intervalo Máximo possivel de Endereço)"
 
 #: стандартный ввод:24
 msgid "(organization name, written in latin letters)"
-msgstr "(назва організації латиницею)"
+msgstr "(Nome da Empresa)"
 
 #: стандартный ввод:26
 msgid "(organizational unit name, written in latin letters)"
-msgstr "(назва підрозділу організації латиницею)"
+msgstr "(Unidade da Empresa)"
 
 #: стандартный ввод:18
 msgid "(public hostname)"
-msgstr "(невірне ім'я хоста)"
+msgstr "(Hostname Público)"
 
 #: стандартный ввод:10
 msgid "(quick access to usual network resources)"
-msgstr ""
+msgstr "(acesso rádio aos recursos de rede)"
 
 #: стандартный ввод:28
 msgid "(recreate private key, sign request and self-signed certificate)"
-msgstr ""
-"(створити наново секретний ключ, запит на підпис та самопідписаний "
-"сертифікат)"
+msgstr "(Recriar Private Key)"
 
 #: стандартный ввод:11 ввод:14 ui/users/add/index.scm:68
 #: ui/users/index.scm:105 ввод:4 ui/root/index.scm:35
 msgid "(repeat passphrase)"
-msgstr "(повторіть пароль)"
+msgstr "(repetir a senha)"
 
 #: стандартный ввод:22
 msgid "(state or city, written in latin letters)"
-msgstr "(місто латиницею)"
+msgstr "(Estado ou cidade)"
 
 #: стандартный ввод:20
 msgid "(two letter country code)"
-msgstr "(дволітерний код країни)"
+msgstr "(Duas Letras do País)"
 
 #: стандартный ввод:8
 msgid "(user visible contact information)"
-msgstr ""
+msgstr "(informações de contato visivel)"
 
 #: стандартный ввод:4 ui/dovecot/index.scm:45
 msgid "(you can't disable all mechanisms)"
-msgstr "(неможна вимкнути всі механізми)"
+msgstr "(você não pode desabilitar todos os mecanismos)"
 
 #: backend3/dhcp:187
 msgid "1 day"
-msgstr ""
+msgstr "1 dia"
 
 #: backend3/dhcp:182
 msgid "1 hour"
-msgstr ""
+msgstr "1 hora"
 
 #: backend3/lilo:132
 msgid "1 minute"
-msgstr "1 хвилина"
+msgstr "1 minuto"
 
 #: backend3/dhcp:190
-#, fuzzy
 msgid "1 month"
-msgstr "1 хвилина"
+msgstr "1 mês"
 
 #: backend3/lilo:128
 msgid "1 second"
-msgstr "1 секунда"
+msgstr "1 segundo"
 
 #: backend3/dhcp:188
 msgid "1 week"
-msgstr ""
+msgstr "1 semana"
 
 #: backend3/logs:118
 msgid "10 lines"
-msgstr "10 рядків"
+msgstr "10 linhas"
 
 #: backend3/lilo:130
 msgid "10 seconds"
-msgstr "10 секунд"
+msgstr "10 segundos"
 
 #: backend3/logs:121
 msgid "100 lines"
-msgstr "100 рядків"
+msgstr "100 linhas"
 
 #: backend3/dhcp:186
 msgid "12 hours"
-msgstr ""
+msgstr "12 horas"
 
 #: backend3/x11:201 backend3/x11:216
 msgid "16 million colors (24 bits)"
-msgstr "16 мільйонів кольорів (24 біта)"
+msgstr "16 milhões de cores (24bits)"
 
 #: backend3/dhcp:183
 msgid "2 hours"
-msgstr ""
+msgstr "2 horas"
 
 #: backend3/dhcp:189
 msgid "2 weeks"
-msgstr ""
+msgstr "2 semanas"
 
 #: backend3/logs:119
 msgid "20 lines"
-msgstr "20 рядків"
+msgstr "20 linhas"
 
 #: backend3/lilo:131
 msgid "20 seconds"
-msgstr "20 секунд"
+msgstr "20 segundos"
 
 #: backend3/x11:198 backend3/x11:213
 msgid "256 colors (8 bit)"
-msgstr "256 кольорів (8 біт)"
+msgstr "256 cores (8bit)"
 
 #: backend3/x11:199 backend3/x11:214
 msgid "32 thousand colors (15 bits)"
-msgstr "32 тисячі кольорів (15 біт)"
+msgstr "32 milhões de cores (15bits)"
 
 #: backend3/x11:202 backend3/x11:217
 msgid "4 billion colors (32 bits)"
-msgstr "4 мільярди кольорів (32 біта)"
+msgstr "4 bilhões de cores (32bits)"
 
 #: backend3/dhcp:184
 msgid "4 hours"
-msgstr ""
+msgstr "4 horas"
 
 #: backend3/lilo:129
 msgid "5 seconds"
-msgstr "5 секунд"
+msgstr "5 segundos"
 
 #: backend3/logs:120
 msgid "50 lines"
-msgstr "50 рядків"
+msgstr "50 linhas"
 
 #: backend3/x11:200 backend3/x11:215
 msgid "65 thousand colors (16 bits)"
-msgstr "65 тисяч кольорів (16 біт)"
+msgstr "65 Milhões de Cores (16 bits)"
 
 #: backend3/dhcp:185
 msgid "8 hours"
-msgstr ""
+msgstr "8 noras"
 
 #: ui/lilo/expert/index.scm:98 ui/lilo/expert/index.scm:108
 #: ui/lilo/expert/index.scm:119
 msgid "<NEW>"
-msgstr "<НОВИЙ>"
+msgstr "<NOVO>"
 
 #: backend3/dovecot:37
 msgid "ANONYMOUS"
-msgstr ""
+msgstr "Anônimo"
 
 #: backend3/net-wifi:407
 msgid "Access point"
-msgstr "Точка доступу"
+msgstr "Ponto de Acesso"
 
 #: стандартный ввод:8
 msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
-msgstr ""
+msgstr "Acesso ao HD via NFS (/var/lib/alterator/mirror)"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -219,103 +214,98 @@ msgstr ""
 #: стандартный ввод:5 ui/net-pptp/index.scm:84 ввод:3
 #: ui/sysconfig/proxy/index.scm:14 ui/net-pppoe/index.scm:74
 msgid "Account:"
-msgstr "Логін:"
+msgstr "Conta:"
 
 #: стандартный ввод:23
 msgid "Accounting"
-msgstr "Облік"
+msgstr "Contabilidade"
 
 #: backend3/pkg-upgrade:182
 msgid "Acquiring package database..."
-msgstr "Отримання бази даних пакетів..."
+msgstr "Adquirindo pacotes \"Banco de Dados\""
 
 #: backend3/pkg-upgrade:179
 msgid "Acquiring packages"
-msgstr "Отримання пакетів"
+msgstr "Adquirindo pacotes"
 
 #: ui/pkg/install/index.scm:60
 msgid "Acquiring packages..."
-msgstr "Отримання пакетів..."
+msgstr "Adquirindo pacotes..."
 
 #: стандартный ввод:22 ввод:5 ввод:30 ввод:3
 #: ввод:13 ui/pkg/sources/mirrors/index.scm:51
 #: ui/pkg/register/index.scm:42 ввод:4 ввод:6
 #: ui/xkb/avail_layout/index.scm:27 ui/xkb/index.scm:38
 msgid "Add"
-msgstr "Додати"
+msgstr "Adicionar"
 
 #: ui/lilo/expert/index.scm:249
 msgid "Add Linux kernel"
-msgstr "Додати ядро Linux"
+msgstr "Adicionar Kernel do Linux"
 
 #: стандартный ввод:38
-#, fuzzy
 msgid "Add client"
-msgstr "Новий користувач:"
+msgstr "Adicionar Cliente"
 
 #: стандартный ввод:15
-#, fuzzy
 msgid "Add network"
-msgstr "Інша мережа"
+msgstr "Adicionar Rede"
 
 #: ui/lilo/expert/index.scm:250
 msgid "Add other loader"
-msgstr "Додати інший завантажувач"
+msgstr "Adicionar outro carregador"
 
 #: стандартный ввод:4
 msgid "Add recipient"
-msgstr ""
+msgstr "Adicionar Destinatário"
 
 #: стандартный ввод:3
 msgid "Add rule"
-msgstr "Додати правило"
+msgstr "Adicionar Regra"
 
 #: стандартный ввод:15
 msgid "Add rule..."
-msgstr "Додати правило..."
+msgstr "Adicionar regras..."
 
 #: стандартный ввод:34
-#, fuzzy
 msgid "Add sender"
-msgstr "Новий користувач:"
+msgstr "Adicionar Remetente"
 
 #: стандартный ввод:22
-#, fuzzy
 msgid "Add server"
-msgstr "Новий користувач:"
+msgstr "Adicionar Servidor"
 
 #: стандартный ввод:18
-#, fuzzy
 msgid "Add site"
-msgstr "Новий користувач:"
+msgstr "Adicionar Site"
 
 #: стандартный ввод:21
 msgid "Add user:"
-msgstr "Новий користувач:"
+msgstr "Adicionar Usuário:"
 
 #: стандартный ввод:3 ui/pkg/register/index.scm:26
 msgid "Additional disks"
-msgstr "Додаткові диски"
+msgstr "Discos Adicionais"
 
 #: backend3/pkg-upgrade:145
 msgid "Additional packages to install"
-msgstr "Додатково будуть встановлені наступні пакети"
+msgstr "Adicionais Pacotes para Instalação"
 
 #: ui/lilo/expert/index.scm:227
 msgid "Additional parameters:"
-msgstr "Додаткові параметри:"
+msgstr "Parametros Adicionais:"
 
 #: стандартный ввод:9
 msgid "Address  expiration time:"
-msgstr ""
+msgstr "Tempo de Expiração do Endereço:"
 
 #: стандартный ввод:7
 msgid "Administrator e-mail:"
-msgstr ""
+msgstr "E-mail do Administrador"
 
 #: стандартный ввод:9
 msgid "Administrator password:"
-msgstr "Пароль адміністратора:"
+msgstr "Senha do Administrador"
 
 #: ui/lilo/expert/index.scm:230
 msgid "Alias:"
@@ -323,65 +313,64 @@ msgstr "Alias:"
 
 #: стандартный ввод:5
 msgid "Allow anonymous login"
-msgstr "Дозволити вхід анонімному користувачеві"
+msgstr "Permitir Usuário anônimo"
 
 #: стандартный ввод:7
 msgid "Allow local users login"
-msgstr "Дозволити вхід локальним користувачам"
+msgstr "Permitir Usuários Locais"
 
 #: стандартный ввод:10
 msgid "Allow mkdir"
-msgstr "Дозволити створення каталогів"
+msgstr "Permitir \"mkdir\""
 
 #: стандартный ввод:13
 msgid "Allow rename/delete"
-msgstr "Дозволити перейменування/видалення файлів"
+msgstr "Permitir renomear/deletar"
 
 #: стандартный ввод:3 ui/net-iptables/index.scm:66
 msgid "Allow transit packets (forwarding)"
-msgstr "Дозволяти транзитні пакети (форвардинг)"
+msgstr "Permitir envio de pacotes"
 
 #: стандартный ввод:11
 msgid "Allow upload"
-msgstr "Дозволити завантаження файлів"
+msgstr "Permitir Upload"
 
 #: стандартный ввод:6
 msgid "Allow write"
-msgstr "Дозволити запис"
+msgstr "Permitir Escrita"
 
 #: стандартный ввод:13
-#, fuzzy
 msgid "Allowed client networks:"
-msgstr "Дозволені з'єднання на вході"
+msgstr "Redes permitidas:"
 
 #.
 #: стандартный ввод:8 ui/net-iptables/index.scm:94
 msgid "Allowed incoming connections"
-msgstr "Дозволені з'єднання на вході"
+msgstr "Conexões de Entrada"
 
 #: backend3/sysconfig:30 backend3/syskbd:21
 msgid "Alt key"
-msgstr "Клавіша Alt"
+msgstr "Alt"
 
 #: backend3/sysconfig:26 backend3/syskbd:17
 msgid "Alt+Shift key"
-msgstr "Клавіші Alt+Shift одночасно"
+msgstr "Alt+Shift"
 
 #: стандартный ввод:1
 msgid "Alternatives subsystem"
-msgstr "Альтернативи"
+msgstr "Subsistema alternativo"
 
 #: стандартный ввод:2 ui/alternatives/index.scm:32
 msgid "Alternatives:"
-msgstr "Альтернативи:"
+msgstr "Alternativas:"
 
 #: стандартный ввод:9
 msgid "Anonymous user options"
-msgstr "Налаштування анонімного користувача"
+msgstr "Opções do Usuário Anônimo"
 
 #: стандартный ввод:10 ui/pkg/sources/index.scm:39
 msgid "Anvanced..."
-msgstr "Додатково..."
+msgstr "Avançado..."
 
 #: стандартный ввод:4 ввод:16 ввод:21
 #: ui/x11/index.scm:97 ввод:7 ui/groups/index.scm:89 ввод:5
@@ -397,52 +386,52 @@ msgstr "Додатково..."
 #: ui/root/index.scm:46 ui/xkb/index.scm:55 backend3/xkb:188
 #: ui/xinetd/index.scm:149
 msgid "Apply"
-msgstr "Застосувати"
+msgstr "Aplicar"
 
 #: backend3/xkb:187
 msgid "Apply failed"
-msgstr "Помилка"
+msgstr "Falhou as aplicações"
 
 #: backend3/xkb:186
 msgid "Apply saved keyboard settings"
-msgstr "Застосувати збережені налаштування клавіатури"
+msgstr "APlicar as alterações do Teclado"
 
 #: interfaces/guile/ahttpd/translate.scm:55
 msgid "April"
-msgstr "Квітень"
+msgstr "Abril"
 
 #: стандартный ввод:13
 msgid "Architectures"
-msgstr ""
+msgstr "Arquiteturas"
 
 #: стандартный ввод:3
 msgid "Architectures:"
-msgstr ""
+msgstr "Arquiteturas:"
 
 #: interfaces/guile/ahttpd/translate.scm:59
 msgid "August"
-msgstr "Серпень"
+msgstr "Agosto"
 
 #: стандартный ввод:3 ui/dovecot/index.scm:37
 msgid "Auth mechanisms:"
-msgstr "Механізми аутентифікації:"
+msgstr "Mecanismo de Autentificação:"
 
 #: стандартный ввод:1 ui/auth/index.scm:33 ввод:9
 #: ui/net-wifi/index.scm:125
 msgid "Auth type:"
-msgstr "Тип аутентифікації:"
+msgstr "Tipo de Autentificação:"
 
 #: стандартный ввод:1
 msgid "Authentication"
-msgstr "Аутентифікація"
+msgstr "Autentificação:"
 
 #: стандартный ввод:11
 msgid "Authentication (SASL)"
-msgstr "Аутентифікація (SASL)"
+msgstr "Autentificação (SASL)"
 
 #: стандартный ввод:5
 msgid "Autodetect"
-msgstr "Визначити адресу автоматично"
+msgstr "Auto-detectar"
 
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. for write_enum
@@ -450,681 +439,665 @@ msgstr "Визначити адресу автоматично"
 #. for write_enum_item
 #: backend3/x11:253 backend3/x11:268
 msgid "Automatically detected"
-msgstr "Автоматично"
+msgstr "Automaticamente Deletado"
 
 #: стандартный ввод:3 ui/xkb/avail_layout/index.scm:20
 msgid "Available layouts:"
-msgstr "Доступні розкладки:"
+msgstr "Layouts disponíveis:"
 
 #: стандартный ввод:4 ui/pkg/sources/mirrors/index.scm:53
 msgid "Available sources:"
-msgstr "Доступні джерела:"
+msgstr "Fontes disponíveis:"
 
 #: стандартный ввод:3 ui/auth/index.scm:41
 msgid "Base DN:"
-msgstr "Базовий DN:"
+msgstr "Base DN:"
 
 #: стандартный ввод:16
 msgid "Blocked sites:"
-msgstr ""
+msgstr "Sites bloqueados:"
 
 #: ui/lilo/expert/index.scm:215
 msgid "Boot variants"
-msgstr "Варіанти завантаження"
+msgstr "Variantes de Boot"
 
 #: ui/lilo/expert/index.scm:231
 msgid "Boot-as:"
-msgstr "Boot-as:"
+msgstr "Boot-as"
 
 #: стандартный ввод:1
 msgid "Bootloader"
-msgstr "Завантажувач"
+msgstr "Bootloader"
 
 #: backend3/groups:126
 msgid "Can't add group"
-msgstr "Неможливо додати групу"
+msgstr "Não é possível adicionar um grupo"
 
 #: backend3/groups:120
 msgid "Can't add group with empty name"
-msgstr "Неможливо зробити групу з пустою назвою"
+msgstr "Não é possível adiciona o grupo sem nome"
 
 #: backend3/groups:193
 msgid "Can't add user"
-msgstr "Неможливо додати користувача"
+msgstr "Não é possível adicionar o usuário"
 
 #: backend3/groups:141
 msgid "Can't delete group"
-msgstr "Неможливо видалити групу"
+msgstr "Não é possível excluir o grupo"
 
 #: backend3/groups:136
 msgid "Can't delete group with empty name"
-msgstr "Неможливо видалити групу з пустою назвою"
+msgstr "Não é possível excluir um grupo sem nome"
 
 #: backend3/groups:157
 msgid "Can't modify group with empty name"
-msgstr "Неможливо змінити групу з пустою назвою"
+msgstr "Não é possível editar um grupo sem nome"
 
 #: backend3/xinetd:239 backend3/xinetd:303
 msgid "Can't open file"
-msgstr "Неможливо відкрити файл"
+msgstr "Não pode abrir o arquivo"
 
 #: backend3/xinetd:240 backend3/xinetd:304
 msgid "Can't open temporary file"
-msgstr "неможливо відкрити тимчасовий файл"
+msgstr "Não foi possível abrir o arquivo temporário"
 
 #: backend3/groups:205
 msgid "Can't remove user"
-msgstr "Неможливо видалити користувача"
+msgstr "Não é possível excluir o usuário"
 
 #: ui/x11/driver/index.scm:31 ui/x11/monitor/index.scm:28
 #: ui/x11/driver/index.scm:32 ui/x11/monitor/index.scm:29
 #: стандартный ввод:19 ui/pkg/sources/mirrors/index.scm:60
 #: ui/pkg/upgrade/index.scm:47 ui/xkb/avail_layout/index.scm:28
 msgid "Cancel"
-msgstr "Скасувати"
+msgstr "Cancelar"
 
 #: стандартный ввод:4 ui/alternatives/index.scm:53
 msgid "Candidates:"
-msgstr "Кандидати:"
+msgstr "Candidatos"
 
 #: backend3/sysconfig:27 backend3/syskbd:18
 msgid "CapsLock key"
-msgstr "Клавіша CapsLock"
+msgstr "CapsLock"
 
 #: стандартный ввод:16
 msgid "Certificate"
-msgstr "Сертіфікат"
+msgstr "Certificado"
 
 #: стандартный ввод:9 ui/pkg/sources/index.scm:32 ввод:8
 msgid "Change"
-msgstr "Змінити"
+msgstr "Alteração"
 
 #: стандартный ввод:10 ui/net-wifi/index.scm:127
 msgid "Change password:"
-msgstr "Змінити пароль:"
+msgstr "Alterar Senha:"
 
 #: ui/services/index.scm:55
 msgid "Change state:"
-msgstr "Змінити стан:"
+msgstr "Mudar Estado:"
 
 #: стандартный ввод:17 ui/pkg/upgrade/index.scm:35
 msgid "Check for updates"
-msgstr "Перевірити наявність поновлень"
+msgstr "Verificar Atualizações"
 
 #: backend3/pkg-upgrade:214
 msgid "Checking for updates..."
-msgstr "Перевірка наявності оновлень..."
+msgstr "Verificando Atualizações..."
 
 #: стандартный ввод:5 ui/alternatives/index.scm:62
 msgid "Choose candidate manually"
-msgstr "Оберіть кандидата вручну"
+msgstr "Escolha do Candidato manualmente"
 
 #: стандартный ввод:6
 msgid "Clear local mirror"
-msgstr ""
+msgstr "Limpar Endereços de \"Mirror\""
 
 #: стандартный ввод:14 ui/x11/index.scm:76 ui/x11/index.scm:78
 msgid "Color depth:"
-msgstr "Глибина кольору:"
+msgstr "Cor do Depth:"
 
 #.
 #: стандартный ввод:4 ui/users/index.scm:81
 msgid "Comment:"
-msgstr "Коментар:"
+msgstr "Comentários:"
 
 #: стандартный ввод:17
 msgid "Common Name (CN):"
-msgstr "Спільне ім'я (CN):"
+msgstr "Nome Comum (CN):"
 
 #: ui/lilo/expert/index.scm:210
 msgid "Common kernel parameters:"
-msgstr "Спільні параметри ядра:"
+msgstr "Parametros Comuns do Kernel:"
 
 #: ui/lilo/expert/index.scm:196 backend3/xinetd:108 backend3/xinetd:109
 #: ui/xinetd/index.scm:13 ui/xinetd/index.scm:18
 msgid "Common settings"
-msgstr "Спільні налаштування"
+msgstr "Configurações Comuns"
 
 #: стандартный ввод:3
-#, fuzzy
 msgid "Computer name:"
-msgstr "Назва хоста:"
+msgstr "Nome do Computador"
 
 #.
 #: стандартный ввод:7 ui/net-eth/index.scm:121
 msgid "Configuration:"
-msgstr "Конфіґурація:"
+msgstr "Configurações:"
 
 #: стандартный ввод:18 ui/net-wifi/index.scm:142
 msgid "Configure"
-msgstr "Налаштувати"
+msgstr "Configurar"
 
 #: стандартный ввод:15 ui/net-wifi/index.scm:136
 msgid "Configure new network"
-msgstr "Сконфіґурувати нову мережу"
+msgstr "Configurar a Rede"
 
 #: стандартный ввод:5 ui/net-wifi/index.scm:115
 msgid "Configured networks"
-msgstr "Сконфіґуровані мережі"
+msgstr "Rede Configurada"
 
 #: backend3/net-wifi:226
 msgid "Connected to network"
-msgstr "Підключено до мережі"
+msgstr "Rede conectada"
 
 #: стандартный ввод:20 ui/pkg/upgrade/index.scm:53
 msgid "Continue"
-msgstr "Продовжити"
+msgstr "Continuar"
 
 #: backend3/sysconfig:29 backend3/syskbd:20
 msgid "Control key"
-msgstr "Клавіша Control"
+msgstr "Control (CTRL)"
 
 #: backend3/sysconfig:28 backend3/syskbd:19
 msgid "Control+Shift keys"
-msgstr "Клавіші Control+Shift одночасно UK,EN"
+msgstr "CTRL+Shift"
 
 #: backend3/sysconfig:31 backend3/syskbd:22
 msgid "Control+Shift keys (UK,RU,EN)"
-msgstr "Клавіші Control+Shift одночасно (UK,RU,EN)"
+msgstr "CTRL+Shit (UK,RU,EN,PT-BR)"
 
 #: стандартный ввод:19
 msgid "Country (C):"
-msgstr "Країна (C):"
+msgstr "País:"
 
 #: стандартный ввод:1 ui/xkb/avail_layout/index.scm:18
 msgid "Country:"
-msgstr "Країна:"
+msgstr "País:"
 
 #: стандартный ввод:2 ui/groups/index.scm:67
 #: ui/users/index.scm:67 ввод:13
 msgid "Create"
-msgstr "Створити"
+msgstr "Criar"
 
 #: ui/std/base.scm:70 ui/std/base.scm:80
 msgid "Critical"
-msgstr "Критична помилка"
+msgstr "Crítico"
 
 #: ui/pkg/error/index.scm:5
 msgid "Critical error during install"
-msgstr "Критичена помилка встановлення"
+msgstr "Erro Crítico durante a instalação"
 
 #: стандартный ввод:4 ui/datetime/index.scm:22
 msgid "Current date:"
-msgstr "Поточна дата:"
+msgstr "Data atual:"
 
 #: стандартный ввод:24
 msgid "Current dynamically allocated addresses"
-msgstr ""
+msgstr "Endereços atribuídos dinamicamente"
 
 #: backend3/net-wifi:260
 msgid "Current network"
-msgstr "Поточна мережа"
+msgstr "Rede Atual"
 
 #: стандартный ввод:9 ui/x11/index.scm:52 ui/x11/index.scm:54
 msgid "Current settings"
-msgstr "Поточні налаштування"
+msgstr "Atual configuração"
 
 #: стандартный ввод:3
 msgid "Current state"
-msgstr "Поточний стан"
+msgstr "Atual Estado"
 
 #: ui/services/index.scm:16
 msgid "Current state:"
-msgstr "Поточний стан:"
+msgstr "Atual Estado:"
 
 #: стандартный ввод:5 ui/datetime/index.scm:23
 msgid "Current time:"
-msgstr "Поточний час:"
+msgstr "Hora Atual:"
 
 #: стандартный ввод:1
 msgid "DHCP server"
-msgstr "DHCP-сервер"
+msgstr "Servidor DHCP"
 
 #: стандартный ввод:11
-#, fuzzy
 msgid "DNS server:"
-msgstr "DNS-сервери:"
+msgstr "Servidor DNS:"
 
 #.
 #: стандартный ввод:2 ui/net-eth/index.scm:83
 msgid "DNS servers:"
-msgstr "DNS-сервери:"
+msgstr "Servidores DNS:"
 
 #: стандартный ввод:1 ввод:17
 msgid "Date/Time"
-msgstr "Дата й час"
+msgstr "Data/Hora"
 
 #: interfaces/guile/ahttpd/translate.scm:63
 msgid "December"
-msgstr "Грудень"
+msgstr "Dezembro"
 
 #: backend3/sysconfig:32 backend3/syskbd:23
 msgid "Default"
-msgstr "Типово"
+msgstr "Padrão"
 
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: стандартный ввод:10 ui/net-eth/index.scm:132 ввод:13
 msgid "Default gateway:"
-msgstr "Типовий шлюз:"
+msgstr "Gateway PAdrão"
 
 #: стандартный ввод:8 ui/net-pptp/index.scm:94
 msgid "Default route via VPN"
-msgstr "Типовий маршрут через VPN"
+msgstr "Rota Padrão via VPN"
 
 #: стандартный ввод:8
 msgid "Default site list:"
-msgstr "Головний список розсилань сайту:"
+msgstr "Lista de Sites Padrões"
 
 #: стандартный ввод:12
 msgid "Default upload directory (/var/ftp/incoming)"
-msgstr "Стандартна тека для отримання файлів (/var/ftp/incoming)"
+msgstr "Diretório de Upload Padrão (/var/ftp/incoming)"
 
 #: стандартный ввод:9 ui/groups/index.scm:91 ввод:14
 #: ввод:17 ввод:3 ввод:21 ввод:33 ввод:37
 #: ui/net-wifi/index.scm:133 ввод:5 ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
-msgstr "Видалити"
+msgstr "Deletar"
 
 #: стандартный ввод:15 ui/net-pptp/index.scm:120 ввод:10
 #: ui/net-pppoe/index.scm:91
 msgid "Delete connection"
-msgstr "Видалити з'єднання"
+msgstr "Deletar Conexão"
 
 #: стандартный ввод:14 ui/users/index.scm:118
 msgid "Delete user"
-msgstr "Видалити користувача"
+msgstr "Deletar usuário"
 
 #: стандартный ввод:5 ui/groups/index.scm:80 ввод:6
 msgid "Description:"
-msgstr "Опис:"
+msgstr "Descrição:"
 
 #: ui/standalone/index.scm:13
 msgid "Desktop file not found"
-msgstr "Файл ліцензії не знайдено"
+msgstr "Arquivo do Desktop não encontrado"
 
 #: стандартный ввод:8
 msgid "Destination of non-local mail:"
-msgstr ""
+msgstr "Local de Destino Email:"
 
 #: стандартный ввод:6 ui/x11/index.scm:29 ui/x11/index.scm:31
 msgid "Detected hardware"
-msgstr "Знайдене обладнання"
+msgstr "Hadware Detectado"
 
 #: ui/lilo/expert/index.scm:229
 msgid "Device:"
-msgstr "Пристрій:"
+msgstr "Dispositivos:"
 
 #: стандартный ввод:14
-#, fuzzy
 msgid "Disk usage"
-msgstr "Перша сторінка"
+msgstr "Uso do Disco:"
 
 #: стандартный ввод:1 ввод:18
 msgid "Display"
-msgstr "Дисплей"
+msgstr "Vídeo"
 
 #: interfaces/guile/workflow/card-index.scm:147
 msgid "Do you really want to delete "
-msgstr "Ви дійсно бажаєте видалити "
+msgstr "Você realmente deseja apagar"
 
 #: ui/users/index.scm:28
 msgid "Do you really want to delete user "
-msgstr "Ви дійсно бажаєте видалити користувача "
+msgstr "Você realmente deseja apagar o usuário"
 
 #: ui/lilo/expert/index.scm:186 ui/lilo/edit-source/index.scm:24
 msgid "Don't install bootloader"
-msgstr "Не встановлювати завантажувач"
+msgstr "Não instalar o bootloader"
 
 #: стандартный ввод:9 ui/xkb/index.scm:42
 msgid "Down"
-msgstr "Нижче"
+msgstr "Abaixo"
 
 #: стандартный ввод:30
 msgid "Download sign request"
-msgstr "Звантажити запит на підпис"
+msgstr "Download do Requerido"
 
 #: стандартный ввод:12 ui/x11/index.scm:67 ui/x11/index.scm:69
 msgid "Driver:"
-msgstr "Драйвер:"
+msgstr "Driver:"
 
 #: стандартный ввод:2
 msgid "Drivers"
-msgstr "Драйвери"
+msgstr "Drivers"
 
 #: стандартный ввод:3 ui/x11/driver/index.scm:10
 #: ui/x11/driver/index.scm:11
 msgid "Drivers:"
-msgstr "Драйвери:"
+msgstr "Drivers"
 
 #: backend3/spamassassin:73
 msgid "Drop mail"
-msgstr "Видаляти пошту"
+msgstr "Drop mail"
 
 #: backend3/net-wifi:418
 msgid "EAP method"
-msgstr "Метод EAP"
+msgstr "Metodo EAP"
 
 #: ui/lilo/expert/index.scm:191 ui/lilo/edit-source/index.scm:30
 msgid "Edit lilo.conf"
-msgstr "Редагувати lilo.conf"
+msgstr "Editar lilo.conf"
 
 #: стандартный ввод:13 ввод:15 ввод:17
-#, fuzzy
 msgid "Edit list..."
-msgstr "Редагувати lilo.conf"
+msgstr "Editar Lista"
 
 #: стандартный ввод:18
 msgid "Email host"
-msgstr "Адреса поштового сервера"
+msgstr "Host Email"
 
 #: стандартный ввод:4 ввод:21
 msgid "Email host:"
-msgstr "Адреса поштового сервера:"
+msgstr "Host Email:"
 
 #: стандартный ввод:7 ui/net-wifi/index.scm:123
 msgid "Enable"
-msgstr "Увімкнути"
+msgstr "Habilitado"
 
 #: стандартный ввод:4
 msgid "Enable FTP service"
-msgstr "Увімкнути службу FTP"
+msgstr "Habilitar Serviço de FTP"
 
 #: стандартный ввод:5 ui/auth/index.scm:48
-#, fuzzy
 msgid "Enable TLS/SSL"
-msgstr "Увімкнути"
+msgstr "Habilitar TLS/SSL"
 
 #: стандартный ввод:2 ui/net-iptables/index.scm:60
 msgid "Enable firewall"
-msgstr "Увімкнути екран"
+msgstr "Habilitar Firewall"
 
 #: стандартный ввод:7
-#, fuzzy
 msgid "Enable mirroring"
-msgstr "Дозволити персональні налаштування"
+msgstr "Habilitar espelhamento"
 
 #: стандартный ввод:4 ui/net-iptables/index.scm:73
 msgid "Enable network address translation (NAT):"
-msgstr "Увімкнути трансляцію мережевих адрес (NAT):"
+msgstr "Habilitar transição NAT:"
 
 #: стандартный ввод:8
 msgid "Enable per user settings"
-msgstr "Дозволити персональні налаштування"
+msgstr "Habilitar configuração por usuário"
 
 #: ui/xinetd/index.scm:108
 msgid "Enable service"
-msgstr "Увімкнути службу"
+msgstr "Habilitar serviço"
 
 #: backend3/net-wifi:417
 msgid "Encryption"
-msgstr "Шифрування"
+msgstr "Encriptação"
 
 #: стандартный ввод:11 ui/net-wifi/index.scm:128
 msgid "Encryption:"
-msgstr "Шифрування:"
+msgstr "Encriptação:"
 
 #: стандартный ввод:8
-#, fuzzy
 msgid "Ending IP address:"
-msgstr "IP-адреса:"
+msgstr "ùltimos IP:"
 
 #: стандартный ввод:1
 msgid "Ethernet interfaces"
-msgstr "Ethernet-інтерфейси"
+msgstr "Interface de Redes"
 
 #: ui/lilo/expert/index.scm:190 ui/lilo/index.scm:141
 #: ui/lilo/edit-source/index.scm:28
 msgid "Expert mode"
-msgstr "Складний режим"
+msgstr "Modo Experiente"
 
 #: стандартный ввод:28
-#, fuzzy
 msgid "Expiration time"
-msgstr "Складний режим"
+msgstr "Tempo expirado"
 
 #: стандартный ввод:1
 msgid "FTP server"
-msgstr "FTP-сервер"
+msgstr "Servidor FTP"
 
 #: стандартный ввод:1 ui/control/index.scm:27
 msgid "Facility"
-msgstr "Системний об'єкт"
+msgstr "Facilidade"
 
 #: backend3/pkg-upgrade:125
 msgid "Fatal error"
-msgstr "Критична помилка"
+msgstr "Erro Fatal"
 
 #: interfaces/guile/ahttpd/translate.scm:53
 msgid "February"
-msgstr "Лютий"
+msgstr "Fevereiro"
 
 #: backend3/notes:33
 msgid "File not found"
-msgstr "Файл не знайдено"
+msgstr "Arquivo não encontrado"
 
 #: стандартный ввод:16
 msgid "Filter out clients"
-msgstr ""
+msgstr "Fitro dos Clientes"
 
 #: стандартный ввод:12
 msgid "Filter out recipients"
-msgstr ""
+msgstr "Filtros de Receptores"
 
 #: стандартный ввод:14
-#, fuzzy
 msgid "Filter out senders"
-msgstr "Файл не знайдено"
+msgstr "Filtros de Destinátarios"
 
 #: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
 msgid "Finish"
-msgstr "Завершити"
+msgstr "Concluir"
 
 #: стандартный ввод:5 ui/logs/index.scm:33
 msgid "First page"
-msgstr "Перша сторінка"
+msgstr "Primeira Página"
 
 #: стандартный ввод:29
 msgid "Fix address for selected hosts"
-msgstr ""
+msgstr "Corrigir endereço do Host Selecionado"
 
 #: стандартный ввод:8
-#, fuzzy
 msgid "Folder"
-msgstr "Завантажувач"
+msgstr "Pasta"
 
 #: backend3/samba:162
 msgid "Folder is not empty"
-msgstr ""
+msgstr "Pasta não está limpa"
 
 #: стандартный ввод:15
-#, fuzzy
 msgid "Folder name:"
-msgstr "Користувач"
+msgstr "Nome da Pasta:"
 
 #: стандартный ввод:2
 msgid "Following users have access:"
-msgstr "Наступні користувачі мають доступ:"
+msgstr "Os usuários não possuem acesso:"
 
 #: стандартный ввод:19
 msgid "For selected:"
-msgstr "Для вибраних:"
+msgstr "Para Seleção:"
 
 #: стандартный ввод:36
 msgid "Forbidden clients:"
-msgstr ""
+msgstr "Clientes Escondidos:"
 
 #: стандартный ввод:2
 msgid "Forbidden recipients:"
-msgstr ""
+msgstr "Destinatários proibidos"
 
 #: стандартный ввод:32
 msgid "Forbidden senders:"
-msgstr ""
+msgstr "Remetentes proibidos:"
 
 #: interfaces/guile/ahttpd/translate.scm:48
 msgid "Fr"
-msgstr "Пт"
+msgstr "Fr"
 
 #: helpers/lilo-hal.sh:22
 msgid "Gb"
-msgstr "Гб"
+msgstr "Gb"
 
 #. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: стандартный ввод:3 ввод:1 ui/net-iptables/index.scm:55
 msgid "General options"
-msgstr "Загальні налаштування"
+msgstr "Opções Gerais"
 
 #: стандартный ввод:2 ввод:7 ввод:6 ввод:4
 msgid "General settings"
-msgstr "Загальні параметри"
+msgstr "Configurações Gerais"
 
 #: стандартный ввод:1 ввод:31 ввод:35
-#, fuzzy
 msgid "General settings..."
-msgstr "Загальні параметри"
+msgstr "Configurações Gerais..."
 
 #: стандартный ввод:12 ui/users/add/index.scm:70
 #: ui/users/index.scm:107 ввод:5 ui/root/index.scm:37
 msgid "Generate"
-msgstr "Згенерувати"
+msgstr "Gerar"
 
 #: стандартный ввод:9 ui/users/add/index.scm:63
 #: ui/users/index.scm:100 ввод:2 ui/root/index.scm:30
 msgid "Generate automatically"
-msgstr "Згенерувати автоматично"
+msgstr "Gere automaticamente"
 
 #: стандартный ввод:1 ui/datetime/index.scm:13
 msgid "Get time from NTP server:"
-msgstr "Вточнювати час по NTP:"
+msgstr "Tempo do NTP servidor:"
 
 #: стандартный ввод:11
 msgid "Graphical interface"
-msgstr "Графічний інтерфейс"
+msgstr "Placa de Vídeo"
 
 #: стандартный ввод:6 ui/xinetd/index.scm:116
 msgid "Group:"
-msgstr "Група:"
+msgstr "Grupo:"
 
 #: стандартный ввод:1
 msgid "Groups"
-msgstr "Групи"
+msgstr "Grupos"
 
 #: стандартный ввод:9 ввод:16
-#, fuzzy
 msgid "Guest access"
-msgstr "Доступ для запису"
+msgstr "Acesso Convidado"
 
 #: стандартный ввод:1 ввод:3
 msgid "HTTP server"
-msgstr "HTTP-сервер"
+msgstr "Servidor HTTP"
 
 #: helpers/lilo-hal.sh:42
 msgid "Hard drive"
-msgstr "Жорсткий диск"
+msgstr "HD"
 
 #.
 #: стандартный ввод:11 ui/net-eth/index.scm:136
 msgid "Hardware binding:"
-msgstr "Прив'язування:"
+msgstr "Hadware vinculado:"
 
 #: стандартный ввод:4 ui/timezone/index.scm:59
 msgid "Hardware time set to GMT"
-msgstr "Тримати час в BIOS по Гринвічу"
+msgstr "Configurar Fuso Horário do Hadware"
 
 #: ui/pkg/groups/index.scm:69
 #, lisp-format
 msgid "Has conflict with ~S"
-msgstr "Наявний конфлікт з ~S"
+msgstr "Tem conflito com ~S"
 
 #: ui/wizard/index.scm:121 стандартный ввод:1 ввод:2
 #: ввод:34 ui/sysconfig/index.scm:24 ui/sysconfig/language/index.scm:32
 msgid "Help"
-msgstr "Довідка"
+msgstr "Ajuda"
 
 #: стандартный ввод:7
 msgid "Help:"
-msgstr "Довідка:"
+msgstr "Ajuda:"
 
 #.
 #: стандартный ввод:5 ui/users/index.scm:84
 msgid "Home directory:"
-msgstr "Домашня тека:"
+msgstr "Diretório Home:"
 
 #: стандартный ввод:17
-#, fuzzy
 msgid "Host address"
-msgstr "IP-адреса:"
+msgstr "Endereço Host:"
 
 #: стандартный ввод:20
-#, fuzzy
 msgid "Host address:"
-msgstr "IP-адреса:"
+msgstr "Endereço Host:"
 
 #: стандартный ввод:25
-#, fuzzy
 msgid "Host name"
-msgstr "Назва хоста:"
+msgstr "Nome do Host"
 
 #.
 #: стандартный ввод:1 ui/net-eth/index.scm:75
 msgid "Host name:"
-msgstr "Назва хоста:"
+msgstr "Nome do Host:"
 
 #: стандартный ввод:33
 msgid "Hostname"
-msgstr "Назва хоста"
+msgstr "hostname:"
 
 #: backend3/dovecot:31
 msgid "IMAP4"
-msgstr ""
+msgstr "IMAP4"
 
 #: backend3/dovecot:32
 msgid "IMAP4 over TLS/SSL"
-msgstr "IMAP4 через TLS/SSL"
+msgstr "IMAP4 sobre TLS/SSL"
 
 #: backend3/net-wifi:227 стандартный ввод:27
 msgid "IP address"
-msgstr "IP-адреса"
+msgstr "Endereço IP"
 
 #.
 #: стандартный ввод:8 ui/net-eth/index.scm:124
 msgid "IP address:"
-msgstr "IP-адреса:"
+msgstr "Endereço IP:"
 
 #: стандартный ввод:11
 msgid ""
 "If you have any additional CDs or DVDs for this distribution\n"
 "    please insert them one by one and press \"Add\" button"
 msgstr ""
-"Якщо у вас є додаткові CD- або DVD-диски для даного дистрибутиву,\n"
-"вставляйте їх по черзі та натискайте кнопку \"Додати\""
+"Se tiver alguma outra CDs ou DVDs para esta distribuição \n"
+" insira-os um por um e pressione 'Adicionar' botão"
 
 #: ui/pkg/register/index.scm:31
 msgid ""
 "If you have any additional CDs or DVDs for this distribution<br>\n"
 "please insert them one by one and press 'Add' button"
 msgstr ""
-"Якщо у вас є додаткові CD- або DVD-диски для даного дистрибутиву,<br>\n"
-"вставляйте їх по черзі та натискайте кнопку \"Додати\""
+"Se tiver alguma outra CDs ou DVDs para esta distribuição <br> \n"
+" insira-os um por um e pressione botão 'Adicionar'"
 
 #: стандартный ввод:6 ui/alternatives/index.scm:67
 msgid ""
 "In most cases candidates selection works well automatically using weight "
 "written in their config file, but you can choose variant manually"
 msgstr ""
-"У більшості випадків достатнє автоматичне вибирання кандидатів за допомогою "
-"ваги,що вказана в їхніх конфіґураційних файлах, але ви можете вибрати "
-"варіант вручну"
+"Na maioria dos casos, os candidatos Selecção funciona bem automaticamente "
+"utilizando peso escrito em seu arquivo config, mas você pode escolher "
+"manualmente variante"
 
 #: ui/std/base.scm:63 ui/std/base.scm:73
 msgid "Information"
-msgstr "Інформація"
+msgstr "Informação"
 
 #: стандартный ввод:10
 msgid "Information provided for clients"
-msgstr ""
+msgstr "Informações fornecidas para clientes"
 
 #: ui/lilo/expert/index.scm:225
 msgid "Initrd:"
@@ -1132,31 +1105,31 @@ msgstr "Initrd:"
 
 #: ui/lilo/expert/index.scm:200 ui/lilo/index.scm:112
 msgid "Install boot loader on:"
-msgstr "Встановити завантажувач на:"
+msgstr "Instalar o gerenciador de boot em:"
 
 #: ui/notes/release-notes.scm:9
 msgid "Installation complete"
-msgstr "Встановлення завершене"
+msgstr "Instalação completa"
 
 #: backend3/pkg-upgrade:187
 msgid "Installing packages"
-msgstr "Встановлення пакетів"
+msgstr "Instalando pacotes"
 
 #: ui/pkg/install/index.scm:66
 msgid "Installing packages..."
-msgstr "Встановлення пакетів..."
+msgstr "Instalando pacotes.."
 
 #: стандартный ввод:10 ui/xinetd/index.scm:132
 msgid "Instances:"
-msgstr "Екземплярів:"
+msgstr "Casos:"
 
 #: ui/lilo/expert/index.scm:207 ui/lilo/index.scm:129
 msgid "Interface timeout:"
-msgstr "Таймаут інтерфейсу:"
+msgstr "Tempo de Interface:"
 
 #: ui/lilo/expert/index.scm:205
 msgid "Interface type:"
-msgstr "Тип інтерфейсу:"
+msgstr "Tipo de Interface:"
 
 #. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -1166,486 +1139,478 @@ msgstr "Тип інтерфейсу:"
 #: ui/net-iptables/index.scm:97 ввод:4 ui/net-pppoe/index.scm:71
 #: ввод:5
 msgid "Interface:"
-msgstr "Інтерфейс:"
+msgstr "Interface:"
 
 #: стандартный ввод:4 ui/net-eth/index.scm:102
 msgid "Interfaces"
-msgstr "Інтерфейси"
+msgstr "Interfaces:"
 
 #: ui/pkg/cdrom/index.scm:10
 msgid "Into drive"
-msgstr "у пристрій"
+msgstr "Driver:"
 
 #: backend3/dhcp:232
-#, fuzzy
 msgid "Invalid address range"
-msgstr "невірна IP-адреса"
+msgstr "Endereço de Gama Inválido"
 
 #: backend3/ahttpd-server:148 backend3/ahttpd-server:156
 msgid "Invalid certificate file"
-msgstr "Невірний файл сертифікату"
+msgstr "Certificado Inválido"
 
 #: backend3/pkg-register:68
 msgid "Invalid disk"
-msgstr "Невірний формат диска"
+msgstr "Disco Inválido"
 
 #: backend3/pkg-sources:75
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
-msgstr "Невірний або непідтримуваний протокол.  Має бути http, ftp або file"
+msgstr "Inválido ou não suportado protocolo . Deve ser http, ftp ou arquivo"
 
 #: interfaces/guile/ahttpd/translate.scm:52
 msgid "January"
-msgstr "Січень"
+msgstr "Janeiro"
 
 #: interfaces/guile/ahttpd/translate.scm:58
 msgid "July"
-msgstr "Липень"
+msgstr "Julho"
 
 #: interfaces/guile/ahttpd/translate.scm:57
 msgid "June"
-msgstr "Червень"
+msgstr "Junho"
 
 #: helpers/lilo-hal.sh:22
 msgid "Kb"
-msgstr "Кб"
+msgstr "Kb"
 
 #: ui/lilo/expert/index.scm:224
 msgid "Kernel image:"
-msgstr "Образ ядра:"
+msgstr "Imagens do Kernel:"
 
 #: стандартный ввод:1
 msgid "Keyboard"
-msgstr "Клавіатура"
+msgstr "Teclado"
 
 #: backend3/auth:33
 msgid "LDAP"
-msgstr ""
+msgstr "LDAP"
 
 #: стандартный ввод:2 ui/auth/index.scm:38
 msgid "LDAP server:"
-msgstr "Сервер LDAP:"
+msgstr "Servidor LDAP:"
 
 #: backend3/dovecot:36
 msgid "LOGIN"
-msgstr ""
+msgstr "LOGIN"
 
 #: ui/lilo/expert/index.scm:222
 msgid "Label:"
-msgstr "Назва:"
+msgstr "Marcador:"
 
 #: стандартный ввод:6 ui/logs/index.scm:34
 msgid "Last page"
-msgstr "Остання сторінка"
+msgstr "Última Página"
 
 #: стандартный ввод:10 ui/xkb/index.scm:46
 msgid "Layout switching:"
-msgstr "Перемикання розкладки:"
+msgstr "Layout de comutação:"
 
 #: стандартный ввод:5 ui/xkb/index.scm:34
 msgid "Layouts:"
-msgstr "Розкладки:"
+msgstr "Layouts:"
 
 #: стандартный ввод:1
 msgid "License"
-msgstr "Ліцензія"
+msgstr "Licença"
 
 #: ui/license/index.scm:10 ui/notes/license.scm:10
 msgid "License file not found"
-msgstr "Файл ліцензії не знайдено"
+msgstr "Arquivo de Licença não encontrado"
 
 #: ui/lilo/edit-source/index.scm:36
 msgid "Lilo options:"
-msgstr "Опції lilo:"
+msgstr "Opções de Lilo:"
 
 #: backend3/logs:99
 msgid "Lines %s-%s of %s"
-msgstr "Рядки %s-%s з %s"
+msgstr "Linhas %s-%s of %s"
 
 #: ui/lilo/expert/index.scm:74
 msgid "Linux kernel"
-msgstr "Ядро Linux"
+msgstr "Linux Kernel"
 
 #: ui/lilo/index.scm:51
 msgid "Linux partition"
-msgstr "Підрозділ Linux"
+msgstr "Partições do Linux"
 
 #: стандартный ввод:12
 msgid "List creator password:"
-msgstr "Пароль власника списку розсилань:"
+msgstr "Lista de Senhas Criadas"
 
 #: стандартный ввод:5 ввод:10
 msgid "Listen address:"
-msgstr "IP-адреса:"
+msgstr "Endereços Disponíveis"
 
 #: ui/lilo/index.scm:126
 msgid "Load by default:"
-msgstr "Звичайно завантажувати:"
+msgstr "Rodar pro padrão"
 
 #: ui/lilo/index.scm:117
 msgid "Load other OS:"
-msgstr "Завантажити іншу ОС:"
+msgstr "Rodar outros SO:"
 
 #: backend3/auth:30
 msgid "Local files"
-msgstr "Локальні файли"
+msgstr "Local dos Arquivos"
 
 #: стандартный ввод:1
 msgid "Local mirrors of repositories"
-msgstr ""
+msgstr "Local de Mirrors"
 
 #: стандартный ввод:1
 msgid "Local user accounts"
-msgstr "Налаштування локальних користувачів"
+msgstr "Contas de Úsuarios Locais"
 
 #: стандартный ввод:16
 msgid "Local users settings"
-msgstr "Налаштування локальних користувачів"
+msgstr "Configurações de Contas de Úsuarios"
 
 #: стандартный ввод:21
 msgid "Location (L):"
-msgstr "Місце (L):"
+msgstr "Localização:"
 
 #: стандартный ввод:12
 msgid "Logging:"
-msgstr "Протоколювання:"
+msgstr "Logando:"
 
 #: стандартный ввод:1 ui/logs/index.scm:25
 msgid "Logs:"
-msgstr "Журнали:"
+msgstr "Registros:"
 
 #: стандартный ввод:18 ввод:26
-#, fuzzy
 msgid "MAC address"
-msgstr "за MAC-адресою"
+msgstr "Endereço MAC"
 
 #: стандартный ввод:21
-#, fuzzy
 msgid "MAC address:"
-msgstr "за MAC-адресою"
+msgstr "Endereço MAC:"
 
 #: стандартный ввод:10 ui/net-pptp/index.scm:100 ввод:7
 #: ui/net-pppoe/index.scm:81
 msgid "MPPE encryption"
-msgstr "Шифрування MPPE"
+msgstr "Encriptação MPPE"
 
 #: стандартный ввод:1
 msgid "Mail"
-msgstr "Пошта"
+msgstr "Email"
 
 #: стандартный ввод:23
 msgid "Mail aliases"
-msgstr ""
+msgstr "Apelido de Email"
 
 #: стандартный ввод:1
 msgid "Mailing list server"
-msgstr "Сервер електронних розсилань"
+msgstr "Servidor de Grupo de Emails"
 
 #: backend3/net-eth:146
 msgid "Managed by user (NetworkManager)"
-msgstr "Налаштовується користувачем (NetworkManager)"
+msgstr "Administrado pelo Usuário (NetworkManager)"
 
 #: backend3/net-eth:149
 msgid "Manually"
-msgstr "Вручну"
+msgstr "Manualmente"
 
 #: interfaces/guile/ahttpd/translate.scm:54
 msgid "March"
-msgstr "Березень"
+msgstr "Março"
 
 #: backend3/spamassassin:72
 msgid "Mark only"
-msgstr "Лише позначити"
+msgstr "Marcar apenas"
 
 #: стандартный ввод:9
 msgid "Maximum mailbox size (Mb):"
-msgstr ""
+msgstr "Cota de Tamanho (Mb):"
 
 #: стандартный ввод:10
 msgid "Maximum size of a message (Mb):"
-msgstr ""
+msgstr "Tamanho Maximo da Mensagem (Mb):"
 
 #: interfaces/guile/ahttpd/translate.scm:56
 msgid "May"
-msgstr "Травень"
+msgstr "Maio"
 
 #: helpers/lilo-hal.sh:22
 msgid "Mb"
-msgstr "Мб"
+msgstr "Mb"
 
 #: стандартный ввод:7 ui/users/index.scm:91
-#, fuzzy
 msgid "Member of administrators group"
-msgstr "Системний адміністратор"
+msgstr "Membros do Grupo Administrativo"
 
 #: interfaces/guile/ahttpd/translate.scm:44
 msgid "Mo"
-msgstr "Пн"
+msgstr "Mo"
 
 #: стандартный ввод:4
 msgid "Mode:"
-msgstr "Режим:"
+msgstr "Modo:"
 
 #: стандартный ввод:11 ui/xkb/index.scm:49
 msgid "Model:"
-msgstr "Модель:"
+msgstr "Modelo:"
 
 #: стандартный ввод:1
 msgid "Module access settings"
-msgstr "Налаштування доступу до модуля"
+msgstr "Módulo de acesso nas configurações"
 
 #: стандартный ввод:36
-#, fuzzy
 msgid "Module access settings..."
-msgstr "Налаштування доступу до модуля"
+msgstr "Módulo de acesso nas configurações..."
 
 #: стандартный ввод:19
 msgid "Monitor vendors"
-msgstr "Постачальники моніторів"
+msgstr "Marca do Monitor"
 
 #: стандартный ввод:20 ui/x11/monitor/index.scm:9
 #: ui/x11/monitor/index.scm:10
 msgid "Monitor vendors:"
-msgstr "Постачальники моніторів:"
+msgstr "Marca do Monitor:"
 
 #: стандартный ввод:8 ввод:10 ui/x11/index.scm:41
 #: ui/x11/index.scm:58 ui/x11/index.scm:43 ui/x11/index.scm:60
 msgid "Monitor:"
-msgstr "Монітор:"
+msgstr "Monitor:"
 
 #: стандартный ввод:2 ui/datetime/index.scm:14
 msgid "NTP server:"
-msgstr "FTP-сервер"
+msgstr "Servidor NTP:"
 
 #: ui/users/add/index.scm:51
 msgid "Name:"
-msgstr "Системне ім'я"
+msgstr "Nome:"
 
 #.
 #: стандартный ввод:9 ui/net-eth/index.scm:128
 msgid "Netmask:"
-msgstr "Маска мережі:"
+msgstr "Mascara de Rede:"
 
 #: стандартный ввод:15
 msgid "Network"
-msgstr "Мережа"
+msgstr "Rede"
 
 #: стандартный ввод:1
 msgid "Network firewall"
-msgstr "Мережевий екран"
+msgstr "Firewall de Rede"
 
 #: backend3/net-wifi:416
 msgid "Network key"
-msgstr "Ключ мережі"
+msgstr "Key de Rede"
 
 #: backend3/net-wifi:406
 msgid "Network name"
-msgstr "Назва мережі"
+msgstr "Nome da Rede"
 
 #: стандартный ввод:8 ui/net-wifi/index.scm:124
 msgid "Network name:"
-msgstr "Назва мережі:"
+msgstr "Nome da Rede:"
 
 #: стандартный ввод:16 ui/net-wifi/index.scm:139
 msgid "Networks found:"
-msgstr "Знайдені мережі:"
+msgstr "Redes Encontradas:"
 
 #: стандартный ввод:1 ui/users/index.scm:65
 msgid "New account:"
-msgstr "Новий користувач:"
+msgstr "Nova Conta:"
 
 #: стандартный ввод:29
 msgid "New alias value:"
-msgstr ""
+msgstr "Novo Valor de 'Alias'"
 
 #: стандартный ввод:27
-#, fuzzy
 msgid "New alias:"
-msgstr "Новий користувач:"
+msgstr "Novo Apelido"
 
 #: стандартный ввод:1 ui/net-pptp/index.scm:65
 #: ui/net-pppoe/index.scm:55
 msgid "New connection..."
-msgstr "Створити з'єднання..."
+msgstr "Nova Conexão..."
 
 #: стандартный ввод:12
-#, fuzzy
 msgid "New folder:"
-msgstr "Новий користувач:"
+msgstr "Nova Pasta:"
 
 #: стандартный ввод:1 ui/groups/index.scm:65
 msgid "New group:"
-msgstr "Нова група:"
+msgstr "Novo grupo:"
 
 #: стандартный ввод:2 ui/pkg/sources/mirrors/index.scm:49
 msgid "New source:"
-msgstr "Нове джерело:"
+msgstr "Nova Fonte:"
 
 #: ui/users/add/index.scm:46
 msgid "New user account"
-msgstr "Новий користувач"
+msgstr "Nova Conta de Usuário"
 
 #: стандартный ввод:4
 msgid "New user:"
-msgstr "Новий користувач:"
+msgstr "Novo Usuário"
 
 #: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
 #: стандартный ввод:4 ui/logs/index.scm:31
 #: ui/sysconfig/index.scm:25 ui/sysconfig/language/index.scm:33
 msgid "Next"
-msgstr "Далі"
+msgstr "Próximo"
 
 #: ui/x11/c-messages.scm:3 backend3/samba:91
 #: interfaces/guile/workflow/card-index.scm:148
 msgid "No"
-msgstr "Ні"
+msgstr "Não"
 
 #: backend3/pkg-upgrade:257
 msgid "No information available"
-msgstr "Немає доступної інформації"
+msgstr "Não existe informações disponíveis"
 
 #: backend3/pkg-upgrade:244
 msgid "No log available"
-msgstr "Немає доступного журналу"
+msgstr "Nenhum registro disponível"
 
 #: backend3/ahttpd-acl:108
 msgid "No module found"
-msgstr "Модуль не знайдено"
+msgstr "Nenhum modulo disponível"
 
 #: interfaces/guile/workflow/card-index.scm:96
 msgid "No objects found..."
-msgstr "Об'єкти не знайдено..."
+msgstr "Nenhum objeto encontrado"
 
 #: backend3/net-wifi:161
 msgid "No password"
-msgstr "Без паролю"
+msgstr "Nenhuma Senha"
 
 #: backend3/pkg-upgrade:119
 msgid "No updates available"
-msgstr "Немає доступних оновлень"
+msgstr "Nenhuma Atualização disponível"
 
 #: backend3/net-wifi:434 backend3/net-wifi:460 backend3/net-wifi:470
 msgid "Not a wireless interface"
-msgstr "Не бездротовий інтерфейс"
+msgstr "Nenhuma Interface de Rede Sem Fio"
 
 #: interfaces/guile/ahttpd/translate.scm:62
 msgid "November"
-msgstr "Листопад"
+msgstr "Novembro"
 
 #: ui/x11/driver/index.scm:25 ui/x11/monitor/index.scm:22
 #: стандартный ввод:20 ввод:22 ui/x11/driver/index.scm:26
 #: ui/x11/monitor/index.scm:23 ui/net-wifi/index.scm:144
 #: ui/pkg/sources/mirrors/index.scm:59
 msgid "OK"
-msgstr ""
+msgstr "Ok"
 
 #: interfaces/guile/ahttpd/translate.scm:61
 msgid "October"
-msgstr "Жовтень"
+msgstr "Outubro"
 
 #: backend3/postfix-restrictions:348
 msgid "Off"
-msgstr "Вимкнений"
+msgstr "Desligar"
 
 #: backend3/postfix-restrictions:350
 msgid "On, with content filtering"
-msgstr "Ввімкнений, із фільтром вміста"
+msgstr "Ligar, com Filtro de Conteúdo"
 
 #: backend3/postfix-restrictions:349
 msgid "On, without content filtering"
-msgstr "Ввімкнений, без фільтру вміста"
+msgstr "Ligar, sem Filtro de Conteúdo"
 
 #: стандартный ввод:12 ui/xinetd/index.scm:140
 msgid "Only from:"
-msgstr "Тільки з:"
+msgstr "Apenas de:"
 
 #: стандартный ввод:10
 msgid "Operating system information and setup"
-msgstr "Налаштування операційної системи та інформація щодо неї"
+msgstr "Informações e Configurações do Sistema operacional"
 
 #: стандартный ввод:23
 msgid "Organization (O):"
-msgstr "Організація (O):"
+msgstr "Organização:"
 
 #: стандартный ввод:25
 msgid "Organizational Unit (OU):"
-msgstr "Подрозділ (OU):"
+msgstr "Unidade:"
 
 #: стандартный ввод:13
 msgid "Other"
-msgstr "Інше"
+msgstr "OUtros"
 
 #: стандартный ввод:13 ui/x11/index.scm:71 ui/x11/index.scm:73
 msgid "Other driver..."
-msgstr "Інший драйвер..."
+msgstr "Outro Driver..."
 
 #: ui/lilo/expert/index.scm:51
 msgid "Other loader"
-msgstr "Інший завантажувач"
+msgstr "Outro Carregador"
 
 #: backend3/net-wifi:133
 msgid "Other network"
-msgstr "Інша мережа"
+msgstr "Outra Rede"
 
 #: стандартный ввод:14
 msgid "Other system settings"
-msgstr "Інші системні налаштування"
+msgstr "Outra configuração de Sistema"
 
 #: стандартный ввод:11 ui/x11/index.scm:62 ui/x11/index.scm:64
 msgid "Other vendor..."
-msgstr "Інший постачальник..."
+msgstr "Outro Vendedor"
 
 #: backend3/dovecot:35
 msgid "PLAIN"
-msgstr ""
+msgstr "PLANO"
 
 #: backend3/dovecot:29
 msgid "POP3"
-msgstr ""
+msgstr "POP3"
 
 #: backend3/dovecot:30
 msgid "POP3 over TLS/SSL"
-msgstr "POP3 через TLS/SSL"
+msgstr "POP3 sober TLS/SSL"
 
 #: стандартный ввод:1
 msgid "POP3/IMAP server"
-msgstr "POP3/IMAP-сервер"
+msgstr "Servidor POP3/IMAP"
 
 #: backend3/postfix-restrictions:289
-#, fuzzy
 msgid "POP3/IMAP server (dovecot) is not installed"
-msgstr "POP3/IMAP-сервер (dovecot)"
+msgstr "POP3/IMAP Servidor (dovecot) não foi instalado"
 
 #: стандартный ввод:1
 msgid "PPPoE connections"
-msgstr "PPPoE-з'єднання"
+msgstr "PPPoE Conexões"
 
 #: стандартный ввод:1
 msgid "PPTP connections"
-msgstr "PPTP-з'єднання"
+msgstr "PPTP conexões"
 
 #: backend3/pkg-upgrade:161
 msgid "Packages have been kept back"
-msgstr "Наступні пакети будуть збережені"
+msgstr "Pacotes foram mantidos."
 
 #: backend3/pkg-upgrade:153
 msgid "Packages to REMOVE"
-msgstr "Наступні пакети будуть ВИЛУЧЕНІ"
+msgstr "Pacotes para Remover"
 
 #: backend3/pkg-upgrade:141
 msgid "Packages to install"
-msgstr "Наступні пакети будуть встановлені"
+msgstr "Pacotes para Instalar"
 
 #: backend3/pkg-upgrade:149
 msgid "Packages to upgrade"
-msgstr "Наступні пакети будуть поновлені"
+msgstr "Pacotes para Atualizar"
 
 #: backend3/pkg-upgrade:157
 msgid "Packages will be REPLACED"
-msgstr "Наступні пакети будуть ЗАМІНЕНІ"
+msgstr "Pacotes para Reinstalar"
 
 #: backend3/net-wifi:479
 msgid "Password is too short"
-msgstr "Пароль надто короткий"
+msgstr "Senha é muito curta"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -1657,184 +1622,176 @@ msgstr "Пароль надто короткий"
 #: ui/users/add/index.scm:60 ui/users/index.scm:97 ввод:4
 #: ui/sysconfig/proxy/index.scm:17 ui/net-pppoe/index.scm:77
 msgid "Password:"
-msgstr "Пароль:"
+msgstr "Senha:"
 
 #: backend3/mailman:130 backend3/mailman:137 backend3/users:207
 #: backend3/users:235 backend3/root:30
 msgid "Passwords mismatch"
-msgstr "Паролі не співпадають"
+msgstr "Senhas erradas"
 
 #: ui/x11/c-messages.scm:4
 msgid "Pause"
-msgstr "Пауза"
+msgstr "Pausar"
 
 #: стандартный ввод:11 ui/xinetd/index.scm:136
 msgid "Per source:"
-msgstr "На одну адресу:"
+msgstr "por segundo:"
 
 #: ui/pkg/cdrom/index.scm:8 backend3/pkg-upgrade:135
 msgid "Please insert CDROM labeled as"
-msgstr "Будь ласка, вставте CD-ROM із назвою"
+msgstr "Por favor insira um CDROM/DVD etiquetado como "
 
 #: backend3/pkg-register:62
 msgid "Please insert disk"
-msgstr "Вставте диск"
+msgstr "Por favor insira um Disco"
 
 #: ui/sysconfig/index.scm:30 ui/sysconfig/kbd/index.scm:26
 msgid "Please select keyboard switch type:"
-msgstr "Виберіть варіант перемикання розкладки клавіатури:"
+msgstr "Por favor, selecione tipo de Teclado :"
 
 #: ui/license/index.scm:8 ui/notes/license.scm:8
 msgid "Please take a moment to read the license agreement now."
-msgstr "Будь ласка, прочитайте ліцензійну угоду."
+msgstr "Por favor, tome um momento para ler o contrato de licença agora."
 
 #: ui/pkg/groups/index.scm:154
 msgid "Please wait..."
-msgstr "Зачекайте, будь ласка..."
+msgstr "Aguarde Por favor..."
 
 #: стандартный ввод:1 ui/timezone/index.scm:36
 msgid "Please, select country:"
-msgstr "Оберіть країну:"
+msgstr "Por favor, selecione seu país:"
 
 #: стандартный ввод:3 ui/timezone/index.scm:49
 msgid "Please, select time zone:"
-msgstr "Оберіть часовий пояс:"
+msgstr "Por favor, selecione um Fuso Horário "
 
 #: стандартный ввод:4 ui/auth/index.scm:44
-#, fuzzy
 msgid "Port (optional):"
-msgstr "Опції lilo:"
+msgstr "Porta (Opcional):"
 
 #: стандартный ввод:3 ввод:8 ввод:2
 #: ui/sysconfig/proxy/index.scm:9
 msgid "Port:"
-msgstr "Порт:"
+msgstr "Porta:"
 
 #: ui/pkg/install/index.scm:79 ui/pkg/groups/index.scm:134
 msgid "Preparing..."
-msgstr "Підготовка до встановлення..."
+msgstr "Preparado..."
 
 #: ui/pkg/error/index.scm:7 ui/pkg/cdrom/index.scm:12
 msgid "Press 'Next' button to continue"
-msgstr "Натисніть 'Далі' для продовження"
+msgstr "Clique no Botão \"Seguinte\" para continuar"
 
 #: ui/x11/c-messages.scm:5
 msgid "Press 'Yes' if you see a correct picture!"
-msgstr "Натисніть \"Так\", якщо зображення вірне!"
+msgstr "Clique no Botão \"Sim\" se você está olhando a Foto Correta!"
 
 #: ui/standalone/index.scm:14
 msgid "Press F1 for help"
-msgstr "Натисніть F1 для довідки"
+msgstr "Pressione F1 para Ajuda"
 
 #: ui/wizard/index.scm:39 ui/wizard/index.scm:43 ui/wizard/index.scm:47
 #: стандартный ввод:3 ui/logs/index.scm:30
 msgid "Previous"
-msgstr "Назад"
+msgstr "Anterior"
 
 #: стандартный ввод:5
 msgid "Programs"
-msgstr "Програми"
+msgstr "Programas"
 
 #: стандартный ввод:1
 msgid "Proxy server"
-msgstr "Проксі-сервер"
+msgstr "Servidor Proxy"
 
 #: стандартный ввод:1 ui/sysconfig/proxy/index.scm:7
-#, fuzzy
 msgid "Proxy server:"
-msgstr "Проксі-сервер"
+msgstr "Servidor Proxy:"
 
 #: стандартный ввод:1
-#, fuzzy
 msgid "Proxy settings"
-msgstr "Налаштування TLS"
+msgstr "Configurações do Proxy"
 
 #: ui/std/base.scm:73 ui/std/base.scm:83
 msgid "Question"
-msgstr "Питання"
+msgstr "Questão"
 
 #: ui/x11/index.scm:100 ui/x11/index.scm:102
 msgid "Quit"
-msgstr "Вихід"
+msgstr "Sair"
 
 #: стандартный ввод:20
-#, fuzzy
 msgid "RBL servers:"
-msgstr "Сервер LDAP:"
+msgstr "Servidor RBL:"
 
 #: ui/lilo/expert/index.scm:202
 msgid "Raid-extra-boot:"
-msgstr ""
+msgstr "Raid-extra-boot:"
 
 #: стандартный ввод:10 ввод:17
-#, fuzzy
 msgid "Read only"
-msgstr "Лише позначити"
+msgstr "Leitura Apenas"
 
 #: стандартный ввод:24
 msgid "Recipient"
-msgstr ""
+msgstr "Recipiente"
 
 #: стандартный ввод:3
-#, fuzzy
 msgid "Reconfigure ethernet interfaces..."
-msgstr "Переконфіґурувати інтерфейс"
+msgstr "Reconfigurar Interface de Rede"
 
 #: стандартный ввод:3 ui/net-wifi/index.scm:106
 msgid "Reconfigure interface"
-msgstr "Переконфіґурувати інтерфейс"
+msgstr "Reconfigurar Interface"
 
 #: стандартный ввод:27
 msgid "Recreate"
-msgstr "Створити наново"
+msgstr "Recriar"
 
 #: стандартный ввод:11 ui/net-pptp/index.scm:103
 msgid "Redial on hangup"
-msgstr "Передзвонити за роз'єднання"
+msgstr "Remarcação"
 
 #: стандартный ввод:25
-#, fuzzy
 msgid "Redirect to"
-msgstr "Домашня тека:"
+msgstr "Redirecionar para"
 
 #: стандартный ввод:2 ui/notes/release-notes.scm:7
 msgid "Release Notes"
-msgstr "Інформація щодо дистрибутиву"
+msgstr "Notas"
 
 #: ui/lilo/expert/index.scm:243 стандартный ввод:14
 #: ui/pkg/register/index.scm:44 ввод:7 ui/xkb/index.scm:39
 msgid "Remove"
-msgstr "Вилучити"
+msgstr "Remover"
 
 #: стандартный ввод:19 ввод:26 ввод:11 ввод:14
 msgid "Remove selected"
-msgstr "Видалити виділені"
+msgstr "Remover selecionado"
 
 #.
 #: стандартный ввод:6 ui/pkg/sources/index.scm:23
 msgid "Repositories:"
-msgstr "Репозиторії:"
+msgstr "Repositórios:"
 
 #: стандартный ввод:11
-#, fuzzy
 msgid "Repository"
-msgstr "Репозиторій:"
+msgstr "Repositório"
 
 #: ui/pkg/sources/mirrors/index.scm:10 стандартный ввод:1
 msgid "Repository:"
-msgstr "Репозиторій:"
+msgstr "Repositório:"
 
 #: ui/pkg/groups/index.scm:79
 msgid "Required disk space"
-msgstr "Потрібне місце на диску"
+msgstr "Espaço em Disco Requirido"
 
 #: стандартный ввод:17
 msgid "Required score:"
-msgstr "Граничне значення:"
+msgstr "Pontuação Necessária:"
 
 #: стандартный ввод:17 ui/net-wifi/index.scm:141
 msgid "Rescan"
-msgstr "Пересканувати"
+msgstr "Procurar novamente"
 
 #: стандартный ввод:5 ввод:17 ввод:22 ввод:8
 #: ui/groups/index.scm:90 ui/services/index.scm:64
@@ -1846,304 +1803,294 @@ msgstr "Пересканувати"
 #: ui/sysconfig/proxy/index.scm:29 ввод:9 ui/net-pppoe/index.scm:89
 #: ui/xinetd/index.scm:150
 msgid "Reset"
-msgstr "Скинути"
+msgstr "Resetar"
 
 #: стандартный ввод:15 ui/x11/index.scm:82 ui/x11/index.scm:84
 msgid "Resolution:"
-msgstr "Роздільна здатність:"
+msgstr "Resolução"
 
 #: стандартный ввод:6
 msgid "Restart HTTP server"
-msgstr "Перезапустити HTTP-сервер"
+msgstr "Resetar Servidor HTTP"
 
 #: стандартный ввод:7 ui/net-iptables/index.scm:88
 msgid "Restore default settings"
-msgstr "Повернути типові налаштування"
+msgstr "Predefinições restauradas"
 
 #: стандартный ввод:12 ввод:19
-#, fuzzy
 msgid "Restrictions"
-msgstr "Системні обмеження"
+msgstr "Restrições"
 
 #: ui/x11/c-messages.scm:6
 msgid "Resume"
-msgstr "Далі"
+msgstr "Resumir"
 
 #: стандартный ввод:15
 msgid "Return"
-msgstr "Вернутися"
+msgstr "Retornar"
 
 #: interfaces/guile/workflow/card-index.scm:104
 msgid "Return to view"
-msgstr "Повернутися до перегляду"
+msgstr "Retornar a Visão"
 
 #: стандартный ввод:9 ui/xinetd/index.scm:128
 msgid "Rlimit as:"
-msgstr "rlimit:"
+msgstr "RLimit como:"
 
 #: ui/lilo/expert/index.scm:226
 msgid "Root device:"
-msgstr "Кореневий пристрій:"
+msgstr "Interface ROOT"
 
 #: стандартный ввод:12
 msgid "Rule"
-msgstr "Правило"
+msgstr "Regras"
 
 #: стандартный ввод:4
 msgid "Rule:"
-msgstr "Правило:"
+msgstr "Regras:"
 
 #: стандартный ввод:2 ввод:11
 msgid "Rules and scores"
-msgstr "Правила й бали"
+msgstr "Regras e Pontuações"
 
 #: стандартный ввод:1
 msgid "SMTP server"
-msgstr "SMTP-сервер"
+msgstr "Servidor SMTP"
 
 #: стандартный ввод:7
 msgid "SMTP transport:"
-msgstr "SMTP-транспорт:"
+msgstr "transport SMTP:"
 
 #: interfaces/guile/ahttpd/translate.scm:49
 msgid "Sa"
-msgstr "Сб"
+msgstr "Sa"
 
 #: стандартный ввод:1
 msgid "Samba server"
-msgstr "Samba-сервер"
+msgstr "Servidor Samba"
 
 #: backend3/squid:100 backend3/squid:108 backend3/postfix-restrictions:396
 #: backend3/postfix-restrictions:411 backend3/postfix-restrictions:429
 #: backend3/dhcp:256
-#, fuzzy
 msgid "Same entry already exists"
-msgstr "Такий користувач вже є"
+msgstr "Mesma entrada já existe"
 
 #: backend3/samba:150 backend3/samba:178
-#, fuzzy
 msgid "Same folder already exists"
-msgstr "Такий користувач вже є"
+msgstr "A pasta já existe"
 
 #: backend3/pkg-sources:78
 msgid "Same source already exists"
-msgstr "Таке джерело вже є"
+msgstr "A fonte já existe"
 
 #: backend3/vsftpd:170
 msgid "Same user already exists"
-msgstr "Такий користувач вже є"
+msgstr "O Usuário já existe"
 
 #: ui/lilo/expert/index.scm:235 стандартный ввод:5
 msgid "Save"
-msgstr "Зберегти"
+msgstr "Salvar"
 
 #: стандартный ввод:9 ui/net-pptp/index.scm:97
 msgid "Save route to VPN gateway"
-msgstr "Зберегти маршрут до VPN-серверу"
+msgstr "Salvar a Rota no VPN Gateway"
 
 #: backend3/net-wifi:230
 msgid "Scanning..."
-msgstr "Сканування..."
+msgstr "Procurando..."
 
 #: стандартный ввод:13
 msgid "Score"
-msgstr "Бали"
+msgstr "Pontuação"
 
 #: стандартный ввод:7
 msgid "Score:"
-msgstr "Бали:"
+msgstr "Pontuação:"
 
 #: стандартный ввод:9 ввод:12
-#, fuzzy
 msgid "Search domain:"
-msgstr "Шукати у доменах:"
+msgstr "Procura de Domínios:"
 
 #.
 #: стандартный ввод:3 ui/net-eth/index.scm:88
 msgid "Search domains:"
-msgstr "Шукати у доменах:"
+msgstr "Procurar Domínios:"
 
 #: стандартный ввод:3 ввод:2 ввод:5 ввод:6
 #: ввод:7 ввод:10
 msgid "Select"
-msgstr "Вибрати"
+msgstr "Selecionar"
 
 #: ui/pkg/groups/index.scm:119
 msgid "Select packages you want to install:"
-msgstr "Виберіть пакунки для встановлення:"
+msgstr "Selecionar pacotes que você deseja instalar:"
 
 #: ui/sysconfig/index.scm:29 ui/sysconfig/language/index.scm:37
 msgid "Select your language:"
-msgstr "Оберіть мову:"
+msgstr "Selecionar a Linguagem:"
 
 #: interfaces/guile/ahttpd/translate.scm:60
 msgid "September"
-msgstr "Вересень"
+msgstr "Setembro"
 
 #: стандартный ввод:8 ui/xinetd/index.scm:124
 msgid "Server args:"
-msgstr "Аргументи сервера:"
+msgstr "Argumentos de Servidor"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: стандартный ввод:4 ui/net-pptp/index.scm:81 ввод:7
 #: ui/xinetd/index.scm:120
 msgid "Server:"
-msgstr "Сервер:"
+msgstr "Servidor:"
 
 #: стандартный ввод:7
 msgid "Servers"
-msgstr "Сервери"
+msgstr "Servidores"
 
 #: стандартный ввод:1 ui/services/index.scm:38
 #: ui/xinetd/index.scm:87
 msgid "Services"
-msgstr "Служби"
+msgstr "Serviços"
 
 #: ui/lilo/expert/index.scm:238
 msgid "Set default"
-msgstr "Типово"
+msgstr "Definir Padrão"
 
 #: стандартный ввод:2
 msgid "Setup e-mail service"
-msgstr "Налаштування поштової служби"
+msgstr "Configurar Serviço de Email"
 
 #: стандартный ввод:20
 msgid "Setup embedded web server"
-msgstr "Налаштування вбудованого веб-серверу"
+msgstr "Configurações de Servidor Web Embutido"
 
 #: стандартный ввод:12
 msgid "Setup input/output devices"
-msgstr "Налаштування пристроїв вводу/виводу"
+msgstr "Configuraç]ões de Entrada/Saída de Dispositivo"
 
 #: стандартный ввод:16
 msgid "Setup network connections"
-msgstr "Налаштування мережевих з'єднань"
+msgstr "Configuração de Conexões de Rede"
 
 #: стандартный ввод:1 ui/root/index.scm:24
 msgid "Setup password for system administrator:"
-msgstr "Встановити пароль системного адміністратора:"
+msgstr "Configurar a Senha do Administrador de Sistemas:"
 
 #: стандартный ввод:18
 msgid "Setup rules and scores..."
-msgstr "Налаштувати правила та бали..."
+msgstr "Configuração de Regras e Pontuações..."
 
 #: стандартный ввод:6
 msgid "Setup, remove and update programs"
-msgstr "Додавання, прибирання та поновлення програм"
+msgstr "Configurar, remover ou Atualizar programas"
 
 #: стандартный ввод:14
-#, fuzzy
 msgid "Shared folder settings"
-msgstr "Загальні параметри"
+msgstr "Configurações de Pasta compartilhada"
 
 #: стандартный ввод:7
 msgid "Shared folders"
-msgstr ""
+msgstr "Pasta Compartilhada"
 
 #.
 #: стандартный ввод:6 ui/users/index.scm:87
 msgid "Shell:"
-msgstr "Оболонка:"
+msgstr "Shell:"
 
 #: стандартный ввод:7 ui/logs/index.scm:36
 msgid "Show:"
-msgstr "Показувати:"
+msgstr "Exibir"
 
 #: стандартный ввод:29
 msgid "Sign"
-msgstr "Підписати"
+msgstr "Entrar"
 
 #: ui/lilo/expert/index.scm:188 ui/lilo/edit-source/index.scm:26
 msgid "Simple mode"
-msgstr "Нормальний режим"
+msgstr "Modo Simples"
 
 #: стандартный ввод:6
 msgid "Site MTA:"
-msgstr "Який MTA використовується:"
+msgstr "Site MTA:"
 
 #: стандартный ввод:7
 msgid "Site language:"
-msgstr "Мова сайту:"
+msgstr "Linguagem do site:"
 
 #: ui/groups/index.scm:100
 msgid "Skip empty groups"
-msgstr "Окрім пустих груп"
+msgstr "Pular Grupos Vazios"
 
 #: ui/groups/index.scm:98
 msgid "Skip primary groups"
-msgstr "Окрім основних груп"
+msgstr "Pulas Grupos Primarios"
 
 #: ui/groups/index.scm:96
 msgid "Skip system groups"
-msgstr "Окрім системних груп"
+msgstr "Pular Grupos de Sistemas"
 
 #: стандартный ввод:12
-#, fuzzy
 msgid "Source"
-msgstr "Бали"
+msgstr "Fonte"
 
 #: стандартный ввод:8 ui/pkg/sources/index.scm:30
 msgid "Source URI:"
-msgstr "URI джерела:"
+msgstr "Fonte do URI:"
 
 #: стандартный ввод:2
-#, fuzzy
 msgid "Source:"
-msgstr "URI джерела:"
+msgstr "Fonte:"
 
 #: стандартный ввод:1 ввод:10
 msgid "Spam filter"
-msgstr "Спам-фільтр"
+msgstr "Filtro de Spam"
 
 #: стандартный ввод:19
 msgid "Spam filter mode:"
-msgstr "Режим cпам-фільтрy:"
+msgstr "Modo do Filtro de Spam:"
 
 #: стандартный ввод:12 ui/net-pptp/index.scm:106
 msgid "Start at boot"
-msgstr "Запускати при завантаженні"
+msgstr "Iniciar no boot"
 
 #: стандартный ввод:4 ui/services/index.scm:61
 msgid "Start on boot"
-msgstr "Запускати при завантаженні"
+msgstr "Iniciar o boot"
 
 #: backend3/pkg-upgrade:173
 msgid "Start packages installation..."
-msgstr "Початок встановлення пакетів..."
+msgstr "Iniciar instalação de pacotes..."
 
 #: стандартный ввод:1
-#, fuzzy
 msgid "Start, stop or restart service..."
-msgstr "запустити, зупинити або перевантажити службу"
+msgstr "Iniciar, parar ou resetar o serviço"
 
 #: стандартный ввод:14
 msgid "Start, stop or restart xinetd"
-msgstr "Запустити, зупинити або перевантажити xinetd"
+msgstr "Iniciar, parar e resetar XINETD"
 
 #: стандартный ввод:7
-#, fuzzy
 msgid "Starting IP address:"
-msgstr "IP-адреса:"
+msgstr "Endereço IP Inicial"
 
 #. #-#-#-#-#  alterator-control.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: стандартный ввод:3 ui/control/index.scm:44 ввод:4
 msgid "State"
-msgstr "Стан"
+msgstr "Estado"
 
 #: стандартный ввод:16
-#, fuzzy
 msgid "Static addresses"
-msgstr "невірна IP-адреса"
+msgstr "Endereços Estaticos"
 
 #: стандартный ввод:21
 msgid "Statistics"
-msgstr "Статистика"
+msgstr "Estatísticas"
 
 #: backend3/net-wifi:408
 msgid "Status"
-msgstr "Статус:"
+msgstr "Status"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -2155,98 +2102,99 @@ msgstr "Статус:"
 #: ui/net-eth/index.scm:117 ввод:4 ui/net-wifi/index.scm:104
 #: ui/net-pppoe/index.scm:66
 msgid "Status:"
-msgstr "Стан:"
+msgstr "Status:"
 
 #: стандартный ввод:15
 msgid "Storage free space:"
-msgstr ""
+msgstr "Espaço de Disco de armazenamento:"
 
 #: interfaces/guile/ahttpd/translate.scm:50
 msgid "Su"
-msgstr "Нд"
+msgstr "Su"
 
 #: стандартный ввод:2 ui/control/index.scm:27
 msgid "Summary"
-msgstr "Коментар"
+msgstr "Resumo"
 
 #: стандартный ввод:2 ui/dovecot/index.scm:29
 msgid "Supported protocols:"
-msgstr "Протоколи, що підтримуються:"
+msgstr "Protocolos Suportados"
 
 #: стандартный ввод:16
 msgid ""
 "Synchronization will start every night. First synchronization with some "
 "repository may take a long time."
 msgstr ""
+"Sincronização irá iniciar todas as noites. Primeira sincronização com algum "
+"repositório pode demorar bastante tempo."
 
 #: стандартный ввод:9
 msgid "System"
-msgstr "Система"
+msgstr "Sistema"
 
 #: стандартный ввод:24
 msgid "System accounting"
-msgstr "Системний облік"
+msgstr "Sistema de Contabilidade"
 
 #: стандартный ввод:1
 msgid "System administrator"
-msgstr "Системний адміністратор"
+msgstr "Sistema Administrativo"
 
 #: стандартный ввод:18
 msgid "System clock setup"
-msgstr "Налаштування системного годинника"
+msgstr "Configuração do Sistema de Hora"
 
 #: стандартный ввод:1
 msgid "System logs"
-msgstr "Системні журнали"
+msgstr "Sistema de Registros"
 
 #: стандартный ввод:35 ui/acc/index.scm:12
 msgid "System management center"
-msgstr "Центр керування системою"
+msgstr "Centro de Configuração do sistema"
 
 #: стандартный ввод:4 ui/groups/index.scm:78
-#, fuzzy
 msgid "System name:"
-msgstr "Назва хоста:"
+msgstr "Nome do Sistema:"
 
 #: стандартный ввод:1
 msgid "System restrictions"
-msgstr "Системні обмеження"
+msgstr "Restrição do sistema:"
 
 #: стандартный ввод:1
 msgid "System services"
-msgstr "Системні служби"
+msgstr "Serviço do Sistema"
 
 #: стандартный ввод:22
 msgid "System statistics"
-msgstr "Системна статистика"
+msgstr "Sistema de estatísticas"
 
 #: стандартный ввод:23
 msgid "System users administration..."
-msgstr "Керування системними користувачами..."
+msgstr "Sistema de Usuários Administrativos"
 
 #: стандартный ввод:4
 msgid "System users management"
-msgstr "Керування системними користувачами"
+msgstr "Sistema de Administração de Usuários"
 
 #: стандартный ввод:15
 msgid "TLS settings"
-msgstr "Налаштування TLS"
+msgstr "Configurações TLS"
 
 #: ui/lilo/expert/index.scm:232
 msgid "Table:"
-msgstr "Table:"
+msgstr "Tabela:"
 
 #: helpers/lilo-hal.sh:22
 msgid "Tb"
-msgstr "Тб"
+msgstr "Tb"
 
 #: ui/x11/index.scm:94 backend3/x11:316 ui/x11/index.scm:96 backend3/x11:187
 msgid "Test"
-msgstr "Тестування"
+msgstr "Teste"
 
 #: backend3/x11:314 backend3/x11:185
 msgid "Test current display settings"
-msgstr "Перевірити поточні налаштування дисплею"
+msgstr "Testar Configurações atuais de Vídeo"
 
 #: backend3/x11:392
 msgid ""
@@ -2254,224 +2202,226 @@ msgid ""
 "simultaneously. Probably if one of them works fine now then the other one "
 "would work fine too."
 msgstr ""
+"Teste desabilitado, porque nv e nvidia drivers não funcionaram em sua placa "
+"de vídeo."
 
 #: backend3/x11:315 backend3/x11:186
 msgid "Test failed"
-msgstr "Тест невдалий"
+msgstr "Teste Falhou"
 
 #: interfaces/guile/ahttpd/translate.scm:47
 msgid "Th"
-msgstr "Чт"
+msgstr "Th"
 
 #: ui/services/index.scm:42 ui/xinetd/index.scm:91
 msgid ""
 "There are unsaved changes in the service settings. Do you want to apply "
 "these changes?"
-msgstr "Зміни у налаштуваннях сервісу не збережено.  Застосувати їх?"
+msgstr ""
+"Lá estão as alterações não salvas as definições de serviço. Deseja aplicar "
+"estas mudanças?"
 
 #: backend3/xinetd:112
 msgid "These settings will be applied to services with undefined fields"
-msgstr "Ці налаштування буде застосовано до сервісів із невизначеними полями"
+msgstr "Estas definições serão aplicadas aos serviços com campos indefinido"
 
 #: стандартный ввод:13 ui/xinetd/index.scm:144
 msgid ""
 "This dialog changes only configuration file for xinetd. You must restart "
 "running xinetd to make it reread new configuration."
 msgstr ""
-"Цей діалог тільки змінює конфіґураційний файл xinetd.Ви маєте перезапустити "
-"xinetd, щоб зміни було враховано."
+"Este diálogo só muda arquivo de configuração do xinetd. Você deve reiniciar "
+"executando o xinetd para torná-lo reli nova configuração."
 
 #: backend3/pkg-register:64
 msgid "This disk is already added"
-msgstr "Цей диск вже додано"
+msgstr "Este Disco já foi adicionado"
 
 #: стандартный ввод:1
 msgid "Time zone"
-msgstr "Часовий пояс"
+msgstr "Fuso Horário"
 
 #: interfaces/guile/ahttpd/translate.scm:45
 msgid "Tu"
-msgstr "Вт"
+msgstr "Tu"
 
 #: backend3/net-eth:145
 msgid "Turned off"
-msgstr "Вимкнено"
+msgstr "Desligar"
 
 #: стандартный ввод:17
 msgid "URL host"
-msgstr "Адреса веб-сайту"
+msgstr "Endereço do Host"
 
 #: стандартный ввод:3 ввод:20
 msgid "URL host:"
-msgstr "Адреса веб-сайту:"
+msgstr "Endereço do Host:"
 
 #: backend3/net-wifi:511
 msgid "Unable to create network"
-msgstr "Неможливо створити мережу"
+msgstr "Não foi possível criar a rede"
 
 #: ui/pkg/error/index.scm:6 ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11
 msgid "Unknown"
-msgstr "Невідомо"
+msgstr "Desconhecido"
 
 #: backend3/xinetd:421
 msgid "Unknown service"
-msgstr "Невідома служба"
+msgstr "Serviço Desconhecido"
 
 #: interfaces/guile/workflow/card-index.scm:157
 msgid "Unsupported mode"
-msgstr "Режим не підтримується"
+msgstr "Modo não suportado"
 
 #: стандартный ввод:8 ui/xkb/index.scm:41
 msgid "Up"
-msgstr "Вище"
+msgstr "Cima"
 
 #: стандартный ввод:6
 msgid "Update help"
-msgstr "Поновити довідку"
+msgstr "Atualizações de Ajuda"
 
 #: стандартный ввод:1
 msgid "Update sources"
-msgstr "Джерела поновлень"
+msgstr "Atualizações de Fontes"
 
 #: стандартный ввод:18 ui/pkg/upgrade/index.scm:41
 msgid "Update system"
-msgstr "Поновити систему"
+msgstr "Atualizações de Sistema"
 
 #: стандартный ввод:2
 msgid "Updates"
-msgstr "Поновлення"
+msgstr "Atualizações"
 
 #: backend3/pkg-upgrade:122
 msgid "Upgrade is complete"
-msgstr "Оновлення завершено"
+msgstr "Atualização Completa"
 
 #: backend3/pkg-upgrade:222
 msgid "Upgrade is starting..."
-msgstr "Початок поновлення..."
+msgstr "Iniciando Atualizações"
 
 #: стандартный ввод:32
 msgid "Upload"
-msgstr "Відвантажити"
+msgstr "Enviar"
 
 #: стандартный ввод:31
 msgid "Upload certificate signed by CA:"
-msgstr "Відвантажити сертифікат, підписаний УЦ:"
+msgstr "Atualizado Certificado assinado por:"
 
 #: backend3/net-eth:147
 msgid "Use DHCP"
-msgstr "Використовувати DHCP"
+msgstr "Usar DHCP:"
 
 #: backend3/net-eth:148
 msgid "Use Zeroconf"
-msgstr "Використовувати Zeroconf"
+msgstr "Usar ZeroConfig"
 
 #: стандартный ввод:20
 msgid "Use automatic sender whitelist:"
-msgstr "Використовувати автоматичний білий список за відправником:"
+msgstr "Usar Remetentes automaticamente"
 
 #: стандартный ввод:17
 msgid "User"
-msgstr "Користувач"
+msgstr "Usuário"
 
 #. printf 'auth_type (label "%s" %s %s %s %s)\n' #			    "`_ "Security"`" #			    "$(print_excludes "nopasswd" key user pairwise eap)" #			    "$(print_excludes "wep" user pairwise eap)" #			    "$(print_excludes "wpa-psk" user eap)" #			    "$(print_excludes "wpa2-psk" user eap)"
 #: backend3/net-wifi:415
 msgid "User name"
-msgstr "Користувач"
+msgstr "Nome de Usuário"
 
 #: стандартный ввод:5 ui/xinetd/index.scm:112
 msgid "User:"
-msgstr "Користувач:"
+msgstr "Usuário:"
 
 #: стандартный ввод:3
 msgid "Users"
-msgstr "Користувачі"
+msgstr "Usuários"
 
 #: стандартный ввод:6 ui/groups/index.scm:83
 msgid "Users:"
-msgstr "Користувачі:"
+msgstr "Usuários:"
 
 #: стандартный ввод:8
 msgid "Various network services"
-msgstr "Різноманітні мережні сервіси"
+msgstr "Diversos serviços de rede"
 
 #: стандартный ввод:7 ui/x11/index.scm:35 ui/x11/index.scm:37
 msgid "Video card:"
-msgstr "Відеокарта:"
+msgstr "Placa de Vídeo:"
 
 #: стандартный ввод:2
 msgid "View"
-msgstr "Переглянути"
+msgstr "Ver"
 
 #: стандартный ввод:16
 msgid "Virtual hosts"
-msgstr ""
+msgstr "Host Virtual"
 
 #: backend3/net-wifi:162
 msgid "WEP Password"
-msgstr "WEP-пароль"
+msgstr "Senha WEP"
 
 #: backend3/net-wifi:165
 msgid "WPA Personal (WPA-PSK)"
-msgstr "Персональний WPA (WPA-PSK)"
+msgstr "Meu WPA (WPA-PSK)"
 
 #: backend3/net-wifi:166
 msgid "WPA2 Personal (WPA-PSK)"
-msgstr "Персональний WPA2 (WPA-PSK)"
+msgstr "Meu WPA2 (WPA-PSK)"
 
 #.
 #: стандартный ввод:7 ui/net-pptp/index.scm:90
 msgid "Walk through interface:"
-msgstr "Базовий інтерфейс:"
+msgstr "Falar com interface de Rede:"
 
 #: ui/std/base.scm:66 ui/std/base.scm:76
 msgid "Warning"
-msgstr "Попередження"
+msgstr "Cuidado"
 
 #: стандартный ввод:17
-#, fuzzy
 msgid "Warning:"
-msgstr "Попередження"
+msgstr "Cuidado:"
 
 #: interfaces/guile/ahttpd/translate.scm:46
 msgid "We"
-msgstr "Ср"
+msgstr "Nós"
 
 #: стандартный ввод:19
 msgid "Web interface"
-msgstr "Web-інтерфейс"
+msgstr "Interface Web"
 
 #: стандартный ввод:1
 msgid "Wi-Fi setup"
-msgstr "Налаштування Wi-Fi"
+msgstr "Rede sem Fio Configurações"
 
 #: стандартный ввод:12 ui/net-eth/index.scm:141
 msgid "Wireless settings..."
-msgstr "Налаштування бездротових інтерфейсів..."
+msgstr "Configurações de Rede Sem Fio"
 
 #: backend3/sysconfig:33 backend3/syskbd:24 backend3/syskbd:25
 msgid "Without dead keys"
-msgstr "Без \"мертвих\" клавіш"
+msgstr "sem senhas mortas"
 
 #: стандартный ввод:3 ui/datetime/index.scm:17
 msgid "Work as NTP server"
-msgstr "Зробити NTP-сервер"
+msgstr "Trabalhar com Servidor NTP "
 
 #: стандартный ввод:4
-#, fuzzy
 msgid "Workgroup:"
-msgstr "в групу"
+msgstr "Group de Trabalho:"
 
 #: стандартный ввод:18
 msgid "Write access"
-msgstr "Доступ для запису"
+msgstr "Acesso de Escrita"
 
 #: backend3/x11:397 backend3/x11:391
 msgid "X11 test failed"
-msgstr "Тест X11 невдалий"
+msgstr "Teste Falhou [ X11 ]"
 
 #: стандартный ввод:1
 msgid "Xinetd server"
-msgstr "xinetd-сервер"
+msgstr "Servidor XINetD "
 
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
@@ -2480,355 +2430,350 @@ msgstr "xinetd-сервер"
 #: ui/x11/c-messages.scm:2 backend3/samba:89
 #: interfaces/guile/workflow/card-index.scm:150
 msgid "Yes"
-msgstr "Так"
+msgstr "Sim"
 
 #: ui/license/index.scm:15 ui/notes/license.scm:15
 msgid "Yes, I agree"
-msgstr "Так, я згоден з умовами"
+msgstr "Sim, Eu concordo"
 
 #: стандартный ввод:2
 msgid ""
 "You must have statically configured ethernet interface to setup dhcp server."
-msgstr ""
+msgstr "Você deve configurar uma conexão DHCP"
 
 #: ui/users/add/index.scm:20
 msgid "You should define a password"
-msgstr "Треба надати пароль"
+msgstr "Você deve definir uma senha"
 
 #: backend3/root:24 backend3/root:28
 msgid "You should define a password for system administrator"
-msgstr "Треба надати пароль системного адміністратора"
+msgstr "Você deve definir uma senha para o Administrador"
 
 #: ui/users/add/index.scm:17
 msgid "You should define a system user"
-msgstr "Треба визначити системного користувача"
+msgstr "Você deve definir um usuário do sistema"
 
 #: backend3/dhcp:70 backend3/dhcp:229
-#, fuzzy
 msgid "You should define address range"
-msgstr "Треба надати пароль"
+msgstr "Você deve definir um endereço"
 
 #: backend3/dhcp:67
-#, fuzzy
 msgid "You should define network interface"
-msgstr "Треба надати пароль"
+msgstr "Você deve definir uma interface de rede"
 
 #: backend3/net-wifi:227
 msgid "access point"
-msgstr "точка доступу"
+msgstr "Ponto de Acesso"
 
 #: backend3/ahttpd-server:98
 msgid "all connections"
-msgstr "усі з'єднання"
+msgstr "todas conexões"
 
 #: backend3/lilo:122
 msgid "auto"
-msgstr ""
+msgstr "auto"
 
 #: backend3/x11:214 backend3/x11:229
 msgid "automatically"
-msgstr "автоматично"
+msgstr "automaticamente"
 
 #: helpers/lilo-hal.sh:18
 msgid "b"
-msgstr "б"
+msgstr "b"
 
 #: backend3/x11:203 backend3/x11:218
 msgid "bits"
-msgstr "біт"
+msgstr "bits"
 
 #: backend3/net-eth:139
 msgid "by MAC address"
-msgstr "за MAC-адресою"
+msgstr "por endereço MAC"
 
 #: backend3/net-eth:140
 msgid "by bus location"
-msgstr "за розміщенням на шині"
+msgstr "por localização"
 
 #: ui/pkg/groups/index.scm:85
 msgid "calculating..."
-msgstr "обчислювання..."
+msgstr "calculando..."
 
 #. '
 #: backend3/users:83
 msgid "can't create mail spool"
-msgstr "неможливо створити mail spool"
+msgstr "Não foi possível criar o \"Mail Spool\""
 
 #. '
 #: backend3/users:82
 msgid "can't create or remove home directory"
-msgstr "неможливо створити чи видалити домашню теку"
+msgstr "Não foi possivel criar ou remover o Diretório \"Home\""
 
 #: backend3/users:120
 msgid "can't remove user's primary group"
-msgstr "неможливо видалити первинну групу користувача"
+msgstr "Não foi possível Remover o Usuário Primario do Group"
 
 #: backend3/users:81 backend3/users:122
 msgid "can't update group file"
-msgstr "неможливо поновити базу груп"
+msgstr "Não foi possível atualizar o arquivo de grupo "
 
 #: backend3/users:74
 msgid "can't update password file"
-msgstr "неможливо поновити базу паролів"
+msgstr "Não foi possível atualizar o arquivo da senha"
 
 #: backend3/users:92
 msgid "cannot change password"
-msgstr "неможливо змінити пароль"
+msgstr "Não foi possível mudar a Senha"
 
 #. config
 #: backend3/x11:323 backend3/x11:338
 msgid "config file doesn't exist"
-msgstr "конфіґурацію не знайдено"
+msgstr "Arquivo de Configuração não existe"
 
 #: backend3/net-pptp:94
 msgid "connection down"
-msgstr "немає з'єднання"
+msgstr "Conexão caiu"
 
 #: backend3/net-pptp:94 backend3/net-pppoe:15
 msgid "connection established"
-msgstr "з'єднання встановлене"
+msgstr "Conexão estabelecida"
 
 #: backend3/net-pppoe:15
 msgid "connection failed"
-msgstr "з'єднання невдале"
+msgstr "Conexão falhou"
 
 #: interfaces/guile/type/date.scm:11
 msgid "date should be in YYYY-MM-DD format"
-msgstr "дата має бути у форматі РРРР-ММ-ДД"
+msgstr "o formato da Data deve ser YYYY-MM-DD"
 
 #: backend3/vsftpd:56
 msgid "default"
-msgstr "типово"
+msgstr "Padrão"
 
 #: backend3/vsftpd:109
 msgid "disable write access"
-msgstr "заборонити запис"
+msgstr "Disabilitar Acesso de Escrita"
 
 #: backend3/services:115
 msgid "do not change"
-msgstr "не чіпати"
+msgstr "Não mudar"
 
 #: backend3/net-pptp:216 backend3/net-pppoe:94
 msgid "don't change"
-msgstr "не змінювати"
+msgstr "Não mudar"
 
 #: backend3/vsftpd:108
 msgid "enable write access"
-msgstr "дозволити запис"
+msgstr "Habilitar Acesso de Escrita"
 
 #: backend3/ahttpd-server:99
 msgid "errors only"
-msgstr "тільки помилки"
+msgstr "Erros Apenas"
 
 #: backend3/control:55
 msgid "facility setup failed"
-msgstr "не вдалося встановити режим"
+msgstr "Instalação Facilitada Falhou"
 
 #: helpers/lilo-parser.sh:374 backend3/lilo:110
 msgid "failsafe"
-msgstr ""
+msgstr "FailSafe"
 
 #: стандартный ввод:28
 msgid "for"
-msgstr ""
+msgstr "para"
 
 #: backend3/groups:205
 msgid "from group"
-msgstr "з групи"
+msgstr "do grupo"
 
 #: backend3/users:118
 msgid "gid not unique"
-msgstr "gid не унікальний"
+msgstr "GID não é único"
 
 #: backend3/lilo:116
 msgid "graphics"
-msgstr "графічний"
+msgstr "gráficos"
 
 #. '
 #: backend3/users:121
 msgid "group name not unique"
-msgstr "ім'я групи вже зайняте"
+msgstr "nome do grupo não é único"
 
 #: backend3/pkg-sources:171 backend3/pkg-sources:202
 msgid "inactive"
-msgstr "недіюче"
+msgstr "inativo"
 
 #: backend3/lilo:133
 msgid "infinite"
-msgstr "нескінченно"
+msgstr "infinito"
 
 #: backend3/net-eth:180
 msgid "interface is down"
-msgstr "інтерфейс зупинено"
+msgstr "Interface está desabilitada"
 
 #: backend3/net-eth:180
 msgid "interface is up"
-msgstr "інтерфейс запущено"
+msgstr "Interface está habilitada"
 
 #: стандартный ввод:3 ui/xinetd/index.scm:46
 msgid "internal service"
-msgstr "вбудована служба"
+msgstr "Serviço Interno"
 
 #: interfaces/guile/type/ipv4-address.scm:16
 msgid "invalid IP address"
-msgstr "невірна IP-адреса"
+msgstr "Endereço IP Inválido"
 
 #: interfaces/guile/type/ipv4-address-list.scm:14
 msgid "invalid IP address list"
-msgstr "невірний список IP-адрес"
+msgstr "Endereço IP da Lista Inválidos"
 
 #: interfaces/guile/type/ipv4-network.scm:13
 msgid "invalid IP network specification"
-msgstr ""
+msgstr "IP Inválido"
 
 #: interfaces/guile/type/iso-3166-alpha-2.scm:258
 msgid "invalid ISO-3166-alpha-2 country code"
-msgstr "невірний код країни ISO-3166-alpha-2"
+msgstr "Inválido ISO-3166-alpha-2 codigo do país"
 
 #: interfaces/guile/type/dhcp-mac-address.scm:12
-#, fuzzy
 msgid "invalid MAC address"
-msgstr "невірна IP-адреса"
+msgstr "Endereço MAC Inválido"
 
 #: interfaces/guile/type/tcp-port.scm:12
 msgid "invalid TCP port"
-msgstr "невірний TCP-порт"
+msgstr "Porta TCP Inválida"
 
 #: interfaces/guile/type/postfix-address.scm:12
-#, fuzzy
 msgid "invalid address"
-msgstr "невірна IP-адреса"
+msgstr "Endereço Inválido"
 
 #: backend3/users:76
 msgid "invalid argument to option"
-msgstr "невірний параметр до аргумента"
+msgstr "Argumento da Opção Inválidos"
 
 #: interfaces/guile/type/boolean.scm:8
 msgid "invalid boolean value"
-msgstr "невірне булеве значення"
+msgstr "Valor do Boolen inválido"
 
 #. '
 #: backend3/users:75 backend3/users:116
 msgid "invalid command syntax"
-msgstr "невірний синтаксис команди"
+msgstr "Sintexe do Comando Inválido"
 
 #: backend3/users:117
 msgid "invalid group name"
-msgstr "невірне ім'я групи"
+msgstr "Nome do Grupo Inválido"
 
 #: interfaces/guile/type/hostname.scm:14
 msgid "invalid hostname"
-msgstr "невірне ім'я хосту"
+msgstr "Hostname Inválido"
 
 #: interfaces/guile/type/hostname-list.scm:14
 msgid "invalid hostname list"
-msgstr "невірний список імен хостів"
+msgstr "Inválida Lista de Hostnames"
 
 #: interfaces/guile/type/samba-resource.scm:12
-#, fuzzy
 msgid "invalid resource name"
-msgstr "невірне ім'я групи"
+msgstr "Nome do Recurso Inválido"
 
 #: backend3/lilo:123
 msgid "mbr"
-msgstr ""
+msgstr "MBR"
 
 #: backend3/lilo:124
 msgid "mbr-only"
-msgstr ""
+msgstr "Apenas MBR"
 
 #: стандартный ввод:18
 msgid "mirroring requires a lot of disk space."
-msgstr ""
+msgstr "Espelhos requeridos com um bom espaço em disco"
 
 #: backend3/net-eth:138
 msgid "missing"
-msgstr "немає"
+msgstr "perdidos"
 
 #: ui/net-eth/index.scm:94
 msgid "multiple values should be space separated"
-msgstr "декілька значень через пробіл"
+msgstr "multiplos valores com espaços em branco"
 
 #: backend3/vsftpd:56
 msgid "no"
-msgstr "ні"
+msgstr "não"
 
 #: backend3/mirror:67 backend3/mirror:87
 msgid "no mirroring"
-msgstr ""
+msgstr "nenhum espelho"
 
 #: backend3/lilo:127
 msgid "no wait"
-msgstr "не чекати"
+msgstr "não aguarde"
 
 #: backend3/x11:380 backend3/x11:387
 msgid "no workcopy was found"
-msgstr "робочу копію не знайдено"
+msgstr "nenhuma copia de trabalho foi encontrada"
 
 #: backend3/lilo:121
 msgid "none"
-msgstr "немає"
+msgstr "nenhum"
 
 #: backend3/ahttpd-server:100
 msgid "nothing"
-msgstr "нічого"
+msgstr "nada"
 
 #: interfaces/guile/type/latin-string.scm:11
 #: interfaces/guile/type/ahttpd-cert-field.scm:11
 msgid "only digits and latin letters allowed"
-msgstr "дозволені тільки цифри та латинські літери"
+msgstr "apenas digitos em letras"
 
 #: interfaces/guile/type/system-account-name.scm:12
 msgid "only small latin letters, digits and '_' allowed"
-msgstr "дозволені лише малі латинські літери, цифри і '_'"
+msgstr "apenas digitos em letras permitido '_'"
 
 #: helpers/lilo-hal.sh:61 helpers/lilo-other-system.sh:39
 msgid "partition"
-msgstr "підрозділ"
+msgstr "partição"
 
 #: backend3/net-eth:185
 msgid "plugged"
-msgstr "підключено"
+msgstr "plugado"
 
 #: backend3/pkg-upgrade:50
 msgid "process already running"
-msgstr "процес вже запущено"
+msgstr "processo já rodando"
 
 #: backend3/x11:180 backend3/x11:195
 msgid "recommended"
-msgstr "рекомендовано"
+msgstr "recomendado"
 
 #: backend3/vsftpd:110
 msgid "remove from list"
-msgstr "видалити зі списку"
+msgstr "remover da lista"
 
 #: backend3/services:118 backend3/net-pptp:219 backend3/net-pppoe:97
 msgid "restart"
-msgstr "перезапустити"
+msgstr "resetar"
 
 #: backend3/services:53 backend3/services:116
 msgid "running"
-msgstr "запущено"
+msgstr "rodando"
 
 #: backend3/mailman:142
 msgid "same virtual host is already defined"
-msgstr "подібний віртуальний сервер вже існує"
+msgstr "o host virtual já está definido"
 
 #: interfaces/guile/type/postfix-limit.scm:12
 msgid "should be non negative integer"
-msgstr ""
+msgstr "deve ser uma integração negativa"
 
 #: interfaces/guile/type/spamassassin-score.scm:11
 msgid "should be number"
-msgstr "має бути число"
+msgstr "deve ser um número"
 
 #: backend3/users:119
 msgid "specified group doesn't exist"
-msgstr "дана група не існує"
+msgstr "grupo especificado não existe"
 
 #: backend3/users:78
 msgid "specified user doesn't exist"
-msgstr "користувач не існує"
+msgstr "usuário especificado não existe"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #. '
@@ -2836,76 +2781,76 @@ msgstr "користувач не існує"
 #. '
 #: backend3/services:116 backend3/net-pptp:217 backend3/net-pppoe:95
 msgid "start"
-msgstr "запустити"
+msgstr "começar"
 
 #: стандартный ввод:1 ввод:2 ввод:5 ввод:16
 msgid "start, stop or restart service"
-msgstr "запустити, зупинити або перевантажити службу"
+msgstr "iniciar, parar ou resetar o serviço"
 
 #: backend3/services:117 backend3/net-pptp:218 backend3/net-pppoe:96
 msgid "stop"
-msgstr "зупинити"
+msgstr "parar"
 
 #: backend3/services:52 backend3/services:117 backend3/services:118
 msgid "stopped"
-msgstr "зупинено"
+msgstr "parado"
 
 #: backend3/lilo:117
 msgid "text"
-msgstr "текстовий"
+msgstr "texto"
 
 #: interfaces/guile/type/time.scm:10
 msgid "time should be in HH:MM:SS format"
-msgstr "час має бути у форматі ГГ:ХХ:СС"
+msgstr "A Hora deve ser no formato HH:MM:SS"
 
 #: backend3/groups:193
 msgid "to group"
-msgstr "в групу"
+msgstr "para o grupo"
 
 #: backend3/users:77
 msgid "uid already in use"
-msgstr "uid вже зайнятий"
+msgstr "UID já em uso"
 
 #: backend3/users:139
 msgid "unable to add user %s to group %s"
-msgstr "неможливо додати користувача %s до групи %s"
+msgstr "Não foi possível adicionar o usuário %s no grupo %s"
 
 #: ui/pkg/groups/index.scm:91
 msgid "unable to calculate"
-msgstr "неможливо обчислити"
+msgstr "Não foi possível calcular"
 
 #: backend3/datetime:58
 msgid "unable to setup time"
-msgstr "неможливо налаштувати час"
+msgstr "Não foi possível configurar o Relogio"
 
 #. Get status information: stopped|running|unknown
 #. Usage string must be provided
 #. (srv usage)
 #: backend3/services:48
 msgid "unknown"
-msgstr "невідомо"
+msgstr "desconhecido"
 
 #: backend3/net-eth:186
 msgid "unplugged"
-msgstr "відключено"
+msgstr "desplugado"
 
 #. '
 #: backend3/users:79
 msgid "user currently logged in"
-msgstr "користувач зараз у системі"
+msgstr "usuário logado"
 
 #: backend3/users:80
 msgid "username already in use"
-msgstr "ім'я користувача вже зайняте"
+msgstr "Nome de usuário já em uso"
 
 #: стандартный ввод:5 ui/net-iptables/index.scm:76
 msgid "via:"
-msgstr "через:"
+msgstr "voa:"
 
 #: стандартный ввод:16
 msgid "view full log of the latest operation"
-msgstr "переглянути повний журнал останньої операції"
+msgstr "Verão de Registro da última operação"
 
 #: backend3/vsftpd:56
 msgid "yes"
-msgstr "так"
+msgstr "sim"
