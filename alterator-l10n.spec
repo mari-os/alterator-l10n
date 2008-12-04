@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.11
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 
 
 %changelog
+* Thu Dec 04 2008 Stanislav Ievlev <inger@altlinux.org> 0.11-alt2
+- add pt_BR
+
 * Tue Dec 02 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.11-alt1
 - fix ru help files (by azol@):
   + notes-release-notes
