@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.11
-Release: alt2
+Version: 0.12
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,42 @@ make check
 
 
 %changelog
+* Fri Dec 05 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.12-alt1
+- update ru help (by azol@):
+  + acc-html
+  + auth
+  + datetime
+  + dhcp
+  + dovecot
+  + lightsquid (NEW)
+  + logs
+  + net-eth
+  + net-iptables
+  + net-pppoe
+  + net-pptp
+  + notes-license
+  + notes-release-notes
+  + nut-devices (NEW)
+  + pkg-groups
+  + pkg-register
+  + pkg-sources
+  + pkg-upgrade
+  + postfix-restrictions
+  + root
+  + samba
+  + services
+  + spamassassin
+  + squid
+  + sysconfig-kbd
+  + sysconfig-language
+  + sysconfig
+  + sysinfo
+  + tzone
+  + ulogd (NEW)
+  + users
+  + vsftpd
+  + xinetd
+
 * Thu Dec 04 2008 Stanislav Ievlev <inger@altlinux.org> 0.11-alt2
 - add pt_BR
 
