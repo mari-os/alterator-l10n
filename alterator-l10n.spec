@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.12
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,10 @@ make check
 
 
 %changelog
+* Tue Dec 09 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.12-alt2
+- fix ru help (auth dhcp net-eth nut-devices postfix-restrictions spamassassin ulogd)
+  (by bertis@)
+
 * Fri Dec 05 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.12-alt1
 - update ru help (by azol@):
   + acc-html
