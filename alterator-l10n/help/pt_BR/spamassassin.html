@@ -1,0 +1,58 @@
+<!-- (C) 2007 Grigory Batalov <bga@altlinux.org> -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+   <head>
+	<title>Help - ALT Linux Console</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   </head>
+   <body>
+     <h2>Proteção Anti-Spam</h2>
+     <p>Para proteger contra emails não desejados (<em> a spam </em>) o filtro built-in mail 
+		pode ser usado. No entendo a mais eficaz solução são filtros instalados 
+		no servidor de email</p>
+     <p>Existem dois tipos de filtros que podem ser usados (&quot;Modo de Filtro 
+		de Spam&quot;): Removedor imediato de SPAM e mensagens marcadas. A 
+		última opção é a mais preferível. Por um lado, esta máquina economiza 
+		recursos (por não iniciar um filtro local), por outro lado, cada usuário 
+		pode decidir o que é considerado como &quot;spam&quot; e como é processado..</p>
+     <p>O filtro analisa um email, em muitos critérios e defini uma pontuação 
+		final. Quanto maior ela for, maior a probabilidade que o email é um 
+		spam. (&quot;Necessário de pontuação&quot;). Existem parâmetros que definem um 
+		valor inicial, de que o email será reconhecido como um spam e, por 
+		exemplo,&nbsp; é removido. Emails avaliados com critérios podem ser 
+		definidas independentemente, com regras e sua pontuação.
+     </p>
+     <p>&quot;Pontuação&quot; é calculado is calculated from one or four numbers.<br/><br/>
+     RULE_NAME 0.5<br/>
+     RULE_NAME 0.5 0.6 0.5 0.5<br/>
+     RULE_NAME (0.2) (0.3) (0.2) (0.2)<br/>
+     <br/>
+     Um número significa regra pontuação final. Se quatro números são 
+		especificados, é um deles escolheram em função da utilização ou não 
+		utilização de uma estatística (sobre o algoritmo Bayes base) e 
+		analisadores de rede.<table border="1">
+        <colgroup width="50pt" span="4"/>
+	 <tbody>
+	    <tr align="center"><td colspan="2" rowspan="2">&nbsp;</td>
+		<td colspan="2">estatística</td>
+	    </tr>
+	    <tr align="center"><td>nenhum</td><td>usar</td></tr>
+	    <tr align="center">
+		<td rowspan="2" valign="middle">rede</td><td>nenhum</td>
+		<td align="center">1st</td>
+		<td align="center">3rd</td>
+	    </tr>
+	    <tr align="center"><td>usar</td>
+		<td align="center">2nd</td>
+		<td align="center">4th</td>
+	    </tr>
+	 </tbody>
+     </table><br/>
+     Se o número estiver entre parênteses, ele será adicionado à regra já 
+		contando a pontuação.&nbsp;
+     </p>
+     <p><i>Remetentes Lista Confiavel </i>permite estimar a sua fidelidade no 
+		recebimento dos emails por um longo tempo.
+     </p>
+   </body>
+</html>
