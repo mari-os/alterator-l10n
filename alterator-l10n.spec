@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.13
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -31,6 +31,9 @@ make check
 %_datadir/alterator/help
 
 %changelog
+* Thu Dec 11 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.13-alt4
+- update pt_BR.po
+
 * Thu Dec 11 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.13-alt3
 - install some help files in /usr/share/alterator/help/ directory
 
