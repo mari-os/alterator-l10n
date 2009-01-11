@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.12
-Release: alt2
+Version: 0.13
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -26,12 +26,17 @@ make check
 %install
 %makeinstall
 
-
 %files
 %_datadir/alterator/l10n
-
+%_datadir/alterator/help
 
 %changelog
+* Thu Dec 11 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.13-alt4
+- update pt_BR.po
+
+* Thu Dec 11 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.13-alt3
+- install some help files in /usr/share/alterator/help/ directory
+
 * Tue Dec 09 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.12-alt2
 - fix ru help (auth dhcp net-eth nut-devices postfix-restrictions spamassassin ulogd)
   (by bertis@)
