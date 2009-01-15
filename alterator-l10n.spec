@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.13
-Release: alt4
+Version: 0.14
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -31,6 +31,9 @@ make check
 %_datadir/alterator/help
 
 %changelog
+* Thu Jan 15 2009 Stanislav Ievlev <inger@altlinux.org> 0.14-alt1
+- move to new_help: net-eth
+
 * Thu Dec 11 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.13-alt4
 - update pt_BR.po
 
