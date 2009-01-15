@@ -32,7 +32,8 @@ make check
 
 %changelog
 * Thu Jan 15 2009 Stanislav Ievlev <inger@altlinux.org> 0.14-alt1
-- move to new_help: net-eth
+- move to new_help: net-eth, sysconfig-base
+- remove obsolete help: sysconfig-lang, sysconfig-kbd
 
 * Thu Dec 11 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.13-alt4
 - update pt_BR.po
