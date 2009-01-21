@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 0.13
-Release: alt5
+Version: 0.14
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -31,6 +31,10 @@ make check
 %_datadir/alterator/help
 
 %changelog
+* Wed Jan 21 2009 Vladislav Zavjalov <slazav@altlinux.org> 0.14-alt1
+- merge with azol@ (new help for alterator-office-server-root)
+- add help for chronograph and openldap (by manowar@)
+
 * Thu Dec 11 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.13-alt4
 - update pt_BR.po
 
