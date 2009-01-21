@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 0.13
-Release: alt4
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
