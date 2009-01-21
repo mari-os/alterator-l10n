@@ -1,5 +1,5 @@
 Name: alterator-l10n
-Version: 0.14
+Version: 0.16
 Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
@@ -31,9 +31,18 @@ make check
 %_datadir/alterator/help
 
 %changelog
-* Wed Jan 21 2009 Vladislav Zavjalov <slazav@altlinux.org> 0.14-alt1
+* Wed Jan 21 2009 Vladislav Zavjalov <slazav@altlinux.org> 0.16-alt1
 - merge with azol@ (new help for alterator-office-server-root)
 - add help for chronograph and openldap (by manowar@)
+
+* Thu Jan 15 2009 Stanislav Ievlev <inger@altlinux.org> 0.15-alt1
+- move to new help: tzone acc-html
+- update translations for alterator-fbi
+- remove obsolete help: timezone
+
+* Thu Jan 15 2009 Stanislav Ievlev <inger@altlinux.org> 0.14-alt1
+- move to new_help: net-eth, sysconfig-base
+- remove obsolete help: sysconfig-lang, sysconfig-kbd
 
 * Thu Dec 11 2008 Vladislav Zavjalov <slazav@altlinux.org> 0.13-alt4
 - update pt_BR.po
