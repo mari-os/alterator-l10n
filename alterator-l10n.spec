@@ -1,5 +1,5 @@
 Name: alterator-l10n
-Version: 0.17
+Version: 1.0
 Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
@@ -29,8 +29,14 @@ make check
 %files
 %_datadir/alterator/l10n
 %_datadir/alterator/help
+%_datadir/locale/*/LC_MESSAGES/*
 
 %changelog
+* Thu Jan 22 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.0-alt1
+- New style po files keeping!
+  keep and install separate dictionary for each module
+- add alterator-lilo and alterator-x11 dictionaries
+
 * Thu Jan 22 2009 Stanislav Ievlev <inger@altlinux.org> 0.17-alt1
 - move to new help: alterator-pkg
 - update translations for alterator-pkg

@@ -8,6 +8,7 @@ install:
 	install -d $(l10ndir)/help $(new_l10ndir)/help
 	cp -a old_help/* $(l10ndir)/help
 	cp -a new_help/* $(new_l10ndir)/help
+	PO_LOCALE_DIR=$(datadir)/locale ./install_po
 
 check:
 	for i in $(wildcard *.po) $(wildcard *.pot);do \

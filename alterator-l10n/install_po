@@ -1,0 +1,23 @@
+#!/bin/sh -eu
+
+PO_LOCALE_DIR=${PO_LOCALE_DIR:-/usr/share/locale}
+echo "PO_LOCALE_DIR=$PO_LOCALE_DIR"
+
+LANGLIST="ru uk pt_BR"
+
+for l in $LANGLIST; do
+  echo "Installing $l language:"
+  install -d "$PO_LOCALE_DIR/$l/LC_MESSAGES"
+
+  for po in po/$l/*.po; do
+    name="${po%.po}"
+    name="${name##*/}"
+    echo " * $name"
+    msgmerge --update --sort-output --backup=off \
+             --compendium="$l.po" "$po" "$po" &> /dev/null ||\
+      fatal "Can't do msgmerge for $l language"
+
+    msgfmt -o "$PO_LOCALE_DIR/$l/LC_MESSAGES/$name.mo" "$po"
+  done
+
+done

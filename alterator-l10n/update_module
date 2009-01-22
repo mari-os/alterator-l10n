@@ -1,0 +1,47 @@
+#!/bin/sh -efu
+
+. shell-error
+
+print_help(){
+cat <<EOF
+
+Update dictionary for a single module
+
+Usage: $0 <module directory>
+
+EOF
+}
+
+
+mod_dir="${1:-}"
+
+if [ -z "$mod_dir" ]; then
+  print_help 1>&2
+  exit 1
+fi
+
+
+LANGLIST="ru uk pt_BR"
+
+make -C "$mod_dir" update-po &> /dev/null || fatal "Can't do make update-po in $mod_dir"
+
+pot="$(find "$mod_dir/po" -name '*.pot')"
+[ -f "$pot" ] || fatal "Can't find $pot"
+
+name=${pot##*/}
+name=${name%.pot}
+
+echo "Updating dictionary for $name"
+
+for l in $LANGLIST; do
+  po="po/$l/$name.po"
+  mkdir -p "$l"
+  touch "$po"
+  msgmerge --update --sort-output --backup=off \
+           --compendium="$l.po" "$po" "$pot" &> /dev/null ||\
+    fatal "Can't do msgmerge for $l language"
+done
+
+rm -rf "$mod_dir/po/"
+
+
