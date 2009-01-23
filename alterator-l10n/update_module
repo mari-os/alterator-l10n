@@ -35,7 +35,7 @@ echo "Updating dictionary for $name"
 
 for l in $LANGLIST; do
   po="po/$l/$name.po"
-  mkdir -p "$l"
+  mkdir -p "po/$l"
   touch "$po"
   msgmerge --update --sort-output --backup=off \
            --compendium="$l.po" "$po" "$pot" &> /dev/null ||\
