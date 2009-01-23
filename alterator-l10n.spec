@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.0
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,10 @@ make check
 %_datadir/locale/*/LC_MESSAGES/*
 
 %changelog
+* Fri Jan 23 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.0-alt3
+- new-style help and po for alterator-xinetd and alterator-services
+- fix update_module script
+
 * Fri Jan 23 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.0-alt2
 - add alterator-samba dictionary
 - update alterator-samba help (by manowar@)
