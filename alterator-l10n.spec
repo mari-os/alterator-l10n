@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.0
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,11 @@ make check
 %_datadir/locale/*/LC_MESSAGES/*
 
 %changelog
+* Fri Jan 23 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.0-alt2
+- add alterator-samba dictionary
+- update alterator-samba help (by manowar@)
+- update alterator-lilo dictionary
+
 * Thu Jan 22 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.0-alt1
 - New style po files keeping!
   keep and install separate dictionary for each module
