@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.1
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -39,6 +39,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Jan 26 2009 Stanislav Ievlev <inger@altlinux.org> 1.1-alt3
+- move alterator-alternatives to new schema
+
 * Mon Jan 26 2009 Stanislav Ievlev <inger@altlinux.org> 1.1-alt2
 - move alterator-root to new schema
 
