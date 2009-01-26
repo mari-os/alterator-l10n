@@ -28,8 +28,15 @@ make check
 
 %files
 %_datadir/alterator/l10n
-%_datadir/alterator/help
-%_datadir/locale/*/LC_MESSAGES/*
+
+%lang(en) %_datadir/alterator/help/en_US/*.html
+%lang(ru) %_datadir/alterator/help/ru_RU/*.html
+%lang(uk) %_datadir/alterator/help/uk_UA/*.html
+%lang(pt_BR) %_datadir/alterator/help/pt_BR/*.html
+
+%lang(ru) %_datadir/locale/ru/LC_MESSAGES/*.mo
+%lang(uk) %_datadir/locale/uk/LC_MESSAGES/*.mo
+%lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
 * Mon Jan 26 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.1-alt1
