@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 1.0
-Release: alt3
+Version: 1.1
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -32,6 +32,9 @@ make check
 %_datadir/locale/*/LC_MESSAGES/*
 
 %changelog
+* Mon Jan 26 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.1-alt1
+- add update_desktop script
+
 * Fri Jan 23 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.0-alt3
 - new-style help and po for alterator-xinetd and alterator-services
 - fix update_module script
