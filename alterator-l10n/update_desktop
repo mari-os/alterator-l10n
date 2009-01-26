@@ -54,7 +54,7 @@ for f in $dfiles; do # for each desktop file
          # add translations
          printf '%s[%s]=%s\n' "$v" "$l" "$tr_str" >>"$f"
       else
-        message "Can't find translation of \"$str\" for language $l"
+        message "warning: can't find translation of \"$str\" for language $l"
       fi
 
     done
