@@ -1,0 +1,44 @@
+#!/bin/gawk -f
+
+BEGIN { name=""; in_ignore=0; in_id = 0; }
+
+function get_string()
+{
+    return gensub(/[^"]*"([^"]*)"/,"\\1",$0);
+}
+
+function append_db()
+{
+    if ((name != "") && (value != "")) tr[name]=value;
+}
+
+/\#, fuzzy/ { in_ignore=1; }
+
+/msgid[[:space:]]+/ {
+    in_id=1;
+    append_db();
+
+    name=(in_ignore)?"":get_string();
+    next;
+}
+
+/msgstr[[:space:]]+/ {
+    in_id=0;
+    in_ignore=0;
+    value=get_string();
+    next;
+}
+
+/[[:space:]]*"[^"]+"/ {
+    if (in_ignore) next;
+
+    if (in_id)
+	name=name get_string();
+    else
+	value=value get_string();
+}
+
+END {
+    append_db();
+    printf "%s",tr[msgid]; 
+}

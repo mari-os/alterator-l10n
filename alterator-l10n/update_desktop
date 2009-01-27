@@ -48,7 +48,7 @@ for f in $dfiles; do # for each desktop file
     for l in $LANGLIST; do # for each language
 
       # translate it using po-file for this module
-      tr_str="$(/usr/share/alterator/build/msggrep -v msgid="$str" "po/$l/$name.po")"
+      tr_str="$(./utils/get_po_transl -v msgid="$str" "po/$l/$name.po")"
 
       if [ -n "$tr_str" ]; then
          # add \n to the tail of file if needed
