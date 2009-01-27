@@ -34,6 +34,7 @@ Conflicts: alterator-tzone                < 1.0-alt6
 Conflicts: alterator-vsftpd               < 0.6-alt1
 Conflicts: alterator-x11                  < 0.21-alt4
 Conflicts: alterator-xinetd               < 1.4-alt4
+Conflicts: alterator-xinetd               < 2.1-alt2
 
 %description
 translations for all alterator modules
