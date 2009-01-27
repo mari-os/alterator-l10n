@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.3
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -65,6 +65,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Jan 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.3-alt2
+- update translations for alterator-vsftpd
+
 * Tue Jan 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.3-alt1
 - add new-style dictionaries and help for modules:
  + alterator-dhcp
