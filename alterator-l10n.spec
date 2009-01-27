@@ -13,12 +13,13 @@ License: GPL
 Group: System/Configuration/Other
 
 Conflicts: alterator              < 4.7-alt1
-Conflicts: alterator-net-eth      < 3.3-alt1
-Conflicts: alterator-fbi          < 5.5-alt1
 Conflicts: alterator-ahttpd       < 0.5-alt4
 Conflicts: alterator-alternatives < 1.1-alt1
+Conflicts: alterator-dhcp         < 0.3-alt6
+Conflicts: alterator-fbi          < 5.5-alt1
 Conflicts: alterator-lilo         < 1.1-alt6
 Conflicts: alterator-mirror       < 0.1-alt3
+Conflicts: alterator-net-eth      < 3.3-alt1
 Conflicts: alterator-net-wifi     < 0.6-alt8
 Conflicts: alterator-notes        < 1.1-alt9
 Conflicts: alterator-pkg          < 2.0-alt2
