@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 1.2
-Release: alt3
+Version: 1.3
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -65,6 +65,17 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Jan 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.3-alt1
+- add new-style dictionaries and help for modules:
+ + alterator-dhcp
+ + alterator-groups
+ + alterator-net-{pptp,pppoe,iptables}
+ + alterator-postfix-restrictions
+ + alterator-squid
+ + alterator-xkb
+- update Conflicts and modules.list
+- fix some po-files
+
 * Tue Jan 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.2-alt3
 - fix help for alterator-ahttpd-server
 - fix help for alterator-chronograph (by manowar@)
