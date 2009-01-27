@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 1.2
-Release: alt3
+Version: 1.3
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -12,26 +12,33 @@ Summary: translations for all alterator modules
 License: GPL
 Group: System/Configuration/Other
 
-Conflicts: alterator              < 4.7-alt1
-Conflicts: alterator-net-eth      < 3.3-alt1
-Conflicts: alterator-fbi          < 5.5-alt1
-Conflicts: alterator-ahttpd       < 0.5-alt4
-Conflicts: alterator-alternatives < 1.1-alt1
-Conflicts: alterator-lilo         < 1.1-alt6
-Conflicts: alterator-mirror       < 0.1-alt3
-Conflicts: alterator-net-wifi     < 0.6-alt8
-Conflicts: alterator-notes        < 1.1-alt9
-Conflicts: alterator-pkg          < 2.0-alt2
-Conflicts: alterator-root         < 0.5-alt1
-Conflicts: alterator-samba        < 0.6-alt2
-Conflicts: alterator-services     < 1.5-alt6
-Conflicts: alterator-spamassassin < 0.7-alt4
-Conflicts: alterator-squid        < 0.4-alt4
-Conflicts: alterator-sysconfig    < 1.0-alt1
-Conflicts: alterator-tzone        < 1.0-alt6
-Conflicts: alterator-vsftpd       < 0.6-alt1
-Conflicts: alterator-x11          < 0.21-alt4
-Conflicts: alterator-xinetd       < 1.4-alt4
+Conflicts: alterator                      < 4.7-alt1
+Conflicts: alterator-ahttpd               < 0.5-alt4
+Conflicts: alterator-alternatives         < 1.1-alt1
+Conflicts: alterator-dhcp                 < 0.3-alt6
+Conflicts: alterator-fbi                  < 5.5-alt1
+Conflicts: alterator-groups               < 0.4-alt4
+Conflicts: alterator-lilo                 < 1.1-alt6
+Conflicts: alterator-mirror               < 0.1-alt3
+Conflicts: alterator-net-eth              < 3.3-alt1
+Conflicts: alterator-net-pptp             < 0.7-alt6
+Conflicts: alterator-net-pppoe            < 0.6.1-alt6
+Conflicts: alterator-net-iptables         < 0.4-alt3
+Conflicts: alterator-net-wifi             < 0.6-alt8
+Conflicts: alterator-notes                < 1.1-alt9
+Conflicts: alterator-pkg                  < 2.0-alt2
+Conflicts: alterator-postfix-restrictions < 0.5-alt4
+Conflicts: alterator-root                 < 0.5-alt1
+Conflicts: alterator-samba                < 0.6-alt2
+Conflicts: alterator-services             < 1.5-alt6
+Conflicts: alterator-spamassassin         < 0.7-alt4
+Conflicts: alterator-squid                < 0.4-alt6
+Conflicts: alterator-sysconfig            < 1.0-alt1
+Conflicts: alterator-tzone                < 1.0-alt6
+Conflicts: alterator-vsftpd               < 0.6-alt1
+Conflicts: alterator-x11                  < 0.21-alt4
+Conflicts: alterator-xinetd               < 1.4-alt4
+Conflicts: alterator-xkb                  < 2.1-alt2
 
 %description
 translations for all alterator modules
@@ -58,6 +65,20 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Jan 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.3-alt2
+- update translations for alterator-vsftpd
+
+* Tue Jan 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.3-alt1
+- add new-style dictionaries and help for modules:
+ + alterator-dhcp
+ + alterator-groups
+ + alterator-net-{pptp,pppoe,iptables}
+ + alterator-postfix-restrictions
+ + alterator-squid
+ + alterator-xkb
+- update Conflicts and modules.list
+- fix some po-files
+
 * Tue Jan 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.2-alt3
 - fix help for alterator-ahttpd-server
 - fix help for alterator-chronograph (by manowar@)
