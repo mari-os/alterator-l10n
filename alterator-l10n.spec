@@ -12,9 +12,7 @@ Summary: translations for all alterator modules
 License: GPL
 Group: System/Configuration/Other
 
-Conflicts: alterator < 3.4-alt2
-
-
+Conflicts: alterator              < 4.7-alt1
 Conflicts: alterator-net-eth      < 3.3-alt1
 Conflicts: alterator-fbi          < 5.5-alt1
 Conflicts: alterator-ahttpd       < 0.5-alt4
