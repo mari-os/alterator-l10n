@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 1.1
-Release: alt4
+Version: 1.2
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -60,6 +60,29 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Jan 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.2-alt1
+- add new ru help (by azol@)
+  + ahttpd-server
+  + office-server-net
+  + mirror
+- move po-files for modules to alterator-l10n:
+  + alterator-spamassassin
+  + alterator-net-wifi
+  + alterator-notes
+  + alterator-notes
+  + alterator-mirror
+  + alterator-ahttpd
+  + alterator
+- move help to new-style directory:
+  + alterator (notfound.html)
+  + alterator-spamassassin
+- for modules converted to new-style help and po keepping:
+  + add conflicts on old versions
+  + remove modules from modules.list
+- add utils/get_po_transl script (moved from altertator:build/msggrep)
+- move install_po script to utils dir
+- fix update_desktop util: work with alterator itself, remove unused code
+
 * Mon Jan 26 2009 Stanislav Ievlev <inger@altlinux.org> 1.1-alt4
 - move alterator-vsftpd to new schema
 
