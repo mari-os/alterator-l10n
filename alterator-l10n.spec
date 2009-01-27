@@ -21,6 +21,8 @@ Conflicts: alterator-groups               < 0.4-alt4
 Conflicts: alterator-lilo                 < 1.1-alt6
 Conflicts: alterator-mirror               < 0.1-alt3
 Conflicts: alterator-net-eth              < 3.3-alt1
+Conflicts: alterator-net-pptp             < 0.7-alt6
+Conflicts: alterator-net-pppoe            < 0.6.1-alt6
 Conflicts: alterator-net-iptables         < 0.4-alt3
 Conflicts: alterator-net-wifi             < 0.6-alt8
 Conflicts: alterator-notes                < 1.1-alt9
