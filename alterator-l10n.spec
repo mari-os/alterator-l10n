@@ -14,6 +14,29 @@ Group: System/Configuration/Other
 
 Conflicts: alterator < 3.4-alt2
 
+
+Conflicts: alterator-net-eth      < 3.3-alt1
+Conflicts: alterator-fbi          < 5.5-alt1
+Conflicts: alterator-ahttpd       < 0.5-alt4
+# alternatives
+Conflicts: alterator-lilo         < 1.1-alt6
+Conflicts: alterator-mirror       < 0.1-alt3
+Conflicts: alterator-net-wifi     < 0.6-alt8
+Conflicts: alterator-notes        < 1.1-alt9
+# openldap
+Conflicts: alterator-pkg          < 2.0-alt2
+# root
+Conflicts: alterator-samba        < 0.6-alt2
+Conflicts: alterator-services     < 1.5-alt6
+Conflicts: alterator-spamassassin < 0.7-alt4
+Conflicts: alterator-squid        < 0.4-alt4
+Conflicts: alterator-sysconfig    < 1.0-alt1
+Conflicts: alterator-tzone        < 1.0-alt6
+Conflicts: alterator-vsftpd       < 0.5-alt4
+Conflicts: alterator-x11          < 0.21-alt4
+Conflicts: alterator-xinetd       < 1.4-alt4
+
+
 %description
 translations for all alterator modules
 
