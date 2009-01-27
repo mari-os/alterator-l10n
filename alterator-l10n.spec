@@ -17,6 +17,7 @@ Conflicts: alterator-ahttpd               < 0.5-alt4
 Conflicts: alterator-alternatives         < 1.1-alt1
 Conflicts: alterator-dhcp                 < 0.3-alt6
 Conflicts: alterator-fbi                  < 5.5-alt1
+Conflicts: alterator-groups               < 0.4-alt4
 Conflicts: alterator-lilo                 < 1.1-alt6
 Conflicts: alterator-mirror               < 0.1-alt3
 Conflicts: alterator-net-eth              < 3.3-alt1
@@ -34,7 +35,7 @@ Conflicts: alterator-tzone                < 1.0-alt6
 Conflicts: alterator-vsftpd               < 0.6-alt1
 Conflicts: alterator-x11                  < 0.21-alt4
 Conflicts: alterator-xinetd               < 1.4-alt4
-Conflicts: alterator-xinetd               < 2.1-alt2
+Conflicts: alterator-xkb                  < 2.1-alt2
 
 %description
 translations for all alterator modules
