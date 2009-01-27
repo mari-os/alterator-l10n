@@ -25,7 +25,9 @@ name="$(sed -e '/^[[:space:]]*NAME=/!d' -e 's/NAME=//' $mod_dir/Makefile)"
 
 [ -n "$name" ] || fatal "Can't find module name in $mod_dir/Makefile"
 
-echo "Updating desktop-files for alterator-$name"
+[ "$name" = "alterator" ] || name="alterator-$name"
+
+echo "Updating desktop-files for $name"
 
 dfiles="$(find "$mod_dir/applications" -name '*.desktop' 2>/dev/null ||:)"
 dfiles="$dfiles $(find "$mod_dir/desktop-directories" -name '*.directory' 2>/dev/null ||:)"
@@ -46,7 +48,7 @@ for f in $dfiles; do # for each desktop file
     for l in $LANGLIST; do # for each language
 
       # translate it using po-file for this module
-      tr_str="$(/usr/share/alterator/build/msggrep -v msgid="$str" "po/$l/alterator-$name.po")"
+      tr_str="$(/usr/share/alterator/build/msggrep -v msgid="$str" "po/$l/$name.po")"
 
       if [ -n "$tr_str" ]; then
          # add \n to the tail of file if needed
@@ -58,49 +60,5 @@ for f in $dfiles; do # for each desktop file
       fi
 
     done
-  done;
+  done
 done
-
-exit 0
-
-
-
-
-
-desktop_value()
-{
-    local name="$1";shift
-    local dfile="$1";shift
-    local mfile="$1";shift
-
-    local value="$(sed -n "s,^$name[[:space:]]*=[[:space:]]*,,p" "$dfile")"
-    [ -z "$value" ] || $SDK_DIR/msggrep -v msgid="$value" "$mfile"
-}
-
-desktop_append_tr()
-{
-    local name="$1";shift
-    local dfile="$1";shift
-    local mfile="$1";shift
-
-    local lang="${mfile##*/}"
-    lang="${lang%%.po}"
-
-    local value="$(desktop_value "$name" "$dfile" "$mfile")"
-    if [ -n "$value" ]; then
-       [ -z "$(tail -c1 "$dfile")" ] || echo >> "$dfile"
-       printf '%s[%s]=%s\n' "$name" "$lang" "$value" >>"$dfile"
-    fi
-}
-
-desktop_msgfmt()
-{
-    local dfile="$1";shift
-    local mfile="$1";shift
-    local lang="$1";shift
-
-    for v in Name Comment; do
-	grep -qs "^$v\[$lang\]" "$f" ||
-		desktop_append_tr "$v" "$dfile" "$mfile"
-    done
-}
