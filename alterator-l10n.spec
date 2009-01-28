@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.4
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -68,6 +68,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Jan 28 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.4-alt2
+- move help for alterator-openldap back to old_help dir
+
 * Wed Jan 28 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.4-alt1
 - update_module script: using dictionary from module directory when
   one in alterator-l10n does not exists yet
