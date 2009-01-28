@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.4
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -68,6 +68,10 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Jan 28 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.4-alt3
+- move UA and EN help for alterator-dovecot to new_help dir
+- remove old help for alterator-groups (new help is already in new_help dir)
+
 * Wed Jan 28 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.4-alt2
 - move help for alterator-openldap back to old_help dir
 
