@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 1.3
-Release: alt2
+Version: 1.4
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -68,6 +68,20 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Jan 28 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.4-alt1
+- update_module script: using dictionary from module directory when
+  one in alterator-l10n does not exists yet
+- add translations and new-style help for modules:
+  + alterator-users
+  + alterator-ulogd
+  + alterator-dovecot
+- move help to new_help dir for alterator-notes
+- ru help fixes (by azol@):
+  + services: add restart note
+  + ahttpd-server: add signature section
+  + openldap, samba, vsftpd, xinetd, dhcp, dovecot,
+    postfix-restrictions, squid, ulogd: add service restart warning
+
 * Tue Jan 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.3-alt2
 - update translations for alterator-vsftpd
 
