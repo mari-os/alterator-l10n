@@ -16,6 +16,7 @@ Conflicts: alterator                      < 4.7-alt1
 Conflicts: alterator-ahttpd               < 0.5-alt4
 Conflicts: alterator-alternatives         < 1.1-alt1
 Conflicts: alterator-dhcp                 < 0.3-alt6
+Conflicts: alterator-dovecot              < 0.4-alt9
 Conflicts: alterator-fbi                  < 5.5-alt1
 Conflicts: alterator-groups               < 0.4-alt4
 Conflicts: alterator-lilo                 < 1.1-alt6
