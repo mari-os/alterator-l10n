@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-28 12:19+0300\n"
+"PO-Revision-Date: 2008-09-01 18:01+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:10 ui/users/index.scm:103 ui/users/add/index.scm:66
+msgid "(enter passphrase)"
+msgstr "(введите фразу)"
+
+#: standard input:11 ui/users/index.scm:105 ui/users/add/index.scm:68
+msgid "(repeat passphrase)"
+msgstr "(повторите фразу)"
+
+#: standard input:13 ui/users/index.scm:116
+msgid "Apply"
+msgstr "Применить"
+
+#.
+#: standard input:4 ui/users/index.scm:81
+msgid "Comment:"
+msgstr "Комментарий:"
+
+#: standard input:2 ui/users/index.scm:67
+msgid "Create"
+msgstr "Создать"
+
+#: standard input:14 ui/users/index.scm:118
+msgid "Delete user"
+msgstr "Удалить пользователя"
+
+#: ui/users/index.scm:28
+msgid "Do you really want to delete user "
+msgstr "Вы действительно хотите удалить пользователя "
+
+#: standard input:12 ui/users/index.scm:107 ui/users/add/index.scm:70
+msgid "Generate"
+msgstr "Сгенерировать"
+
+#: standard input:9 ui/users/index.scm:100 ui/users/add/index.scm:63
+msgid "Generate automatically"
+msgstr "Создать автоматически"
+
+#.
+#: standard input:5 ui/users/index.scm:84
+msgid "Home directory:"
+msgstr "Домашний каталог:"
+
+#: standard input:7 ui/users/index.scm:91
+msgid "Member of administrators group"
+msgstr "Входит в группу администраторов"
+
+#: ui/users/add/index.scm:51
+msgid "Name:"
+msgstr "Имя:"
+
+#: standard input:1 ui/users/index.scm:65
+msgid "New account:"
+msgstr "Новая учётная запись:"
+
+#: ui/users/add/index.scm:46
+msgid "New user account"
+msgstr "Новая учётная запись пользователя"
+
+#.
+#: standard input:8 ui/users/index.scm:97 ui/users/add/index.scm:60
+msgid "Password:"
+msgstr "Пароль:"
+
+#: backend3/users:259 backend3/users:287
+msgid "Passwords mismatch"
+msgstr "Введённые пароли не совпадают"
+
+#: standard input:3
+msgid "Select"
+msgstr "Выбрать"
+
+#.
+#: standard input:6 ui/users/index.scm:87
+msgid "Shell:"
+msgstr "Интерпретатор команд:"
+
+#: standard input:1
+msgid "User accounts"
+msgstr "Учётные записи"
+
+#: ui/users/add/index.scm:20
+msgid "You should define a password"
+msgstr "Вы должны указать пароль"
+
+#: ui/users/add/index.scm:17
+msgid "You should define a system user"
+msgstr "Вы должны указать системного пользователя"
+
+#. '
+#: backend3/users:94
+msgid "can't create or remove home directory"
+msgstr "невозможно создать или удалить домашний каталог"
+
+#: backend3/users:165
+msgid "can't remove user's primary group"
+msgstr "невозможно удалить первичную группу пользователя"
+
+#: backend3/users:93 backend3/users:167
+msgid "can't update group file"
+msgstr "невозможно обновить базу групп"
+
+#: backend3/users:86
+msgid "can't update password file"
+msgstr "невозможно обновить базу паролей"
+
+#: backend3/users:107 backend3/users:110
+msgid "cannot change password"
+msgstr "невозможно изменить пароль"
+
+#. '
+#: backend3/users:95
+#, fuzzy
+msgid "cant create mail spool"
+msgstr "невозможно создать почтовую очередь"
+
+#: backend3/users:163
+msgid "gid not unique"
+msgstr "gid не уникален"
+
+#. '
+#: backend3/users:166
+msgid "group name not unique"
+msgstr "имя группы уже занято"
+
+#: backend3/users:88
+msgid "invalid argument to option"
+msgstr "неверный параметр к аргументу"
+
+#. '
+#: backend3/users:87 backend3/users:161
+msgid "invalid command syntax"
+msgstr "неверный синтаксис команды"
+
+#: backend3/users:162
+msgid "invalid group name"
+msgstr "неверное имя группы"
+
+#: backend3/users:164
+msgid "specified group doesn't exist"
+msgstr "указанная группа не существует"
+
+#: backend3/users:90
+msgid "specified user doesn't exist"
+msgstr "пользователь не существует"
+
+#: backend3/users:89
+msgid "uid already in use"
+msgstr "uid уже используется"
+
+#: backend3/users:184
+msgid "unable to add user %s to group %s"
+msgstr "невозможно добавить пользователя %s в группу %s"
+
+#. '
+#: backend3/users:91
+msgid "user currently logged in"
+msgstr "пользователь сейчас в системе"
+
+#: backend3/users:92
+msgid "username already in use"
+msgstr "имя пользователя уже занято"

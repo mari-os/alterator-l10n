@@ -37,6 +37,7 @@ Conflicts: alterator-squid                < 0.4-alt6
 Conflicts: alterator-sysconfig            < 1.0-alt1
 Conflicts: alterator-tzone                < 1.0-alt6
 Conflicts: alterator-ulogd                < 0.5-alt5
+Conflicts: alterator-users                < 9.3-alt3
 Conflicts: alterator-vsftpd               < 0.6-alt1
 Conflicts: alterator-x11                  < 0.21-alt4
 Conflicts: alterator-xinetd               < 1.4-alt4
