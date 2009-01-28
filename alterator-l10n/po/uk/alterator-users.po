@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-28 12:19+0300\n"
+"POT-Creation-Date: 2009-01-28 16:31+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -58,6 +58,10 @@ msgstr "Згенерувати автоматично"
 msgid "Home directory:"
 msgstr "Домашня тека:"
 
+#: standard input:1
+msgid "Local user accounts"
+msgstr "Налаштування локальних користувачів"
+
 #: standard input:7 ui/users/index.scm:91
 #, fuzzy
 msgid "Member of administrators group"
@@ -80,7 +84,7 @@ msgstr "Новий користувач"
 msgid "Password:"
 msgstr "Пароль:"
 
-#: backend3/users:259 backend3/users:287
+#: backend3/users:207 backend3/users:235
 msgid "Passwords mismatch"
 msgstr "Паролі не співпадають"
 
@@ -93,11 +97,6 @@ msgstr "Вибрати"
 msgid "Shell:"
 msgstr "Оболонка:"
 
-#: standard input:1
-#, fuzzy
-msgid "User accounts"
-msgstr "Новий користувач"
-
 #: ui/users/add/index.scm:20
 msgid "You should define a password"
 msgstr "Треба надати пароль"
@@ -107,75 +106,74 @@ msgid "You should define a system user"
 msgstr "Треба визначити системного користувача"
 
 #. '
-#: backend3/users:94
+#: backend3/users:83
+msgid "can't create mail spool"
+msgstr "неможливо створити mail spool"
+
+#. '
+#: backend3/users:82
 msgid "can't create or remove home directory"
 msgstr "неможливо створити чи видалити домашню теку"
 
-#: backend3/users:165
+#: backend3/users:120
 msgid "can't remove user's primary group"
 msgstr "неможливо видалити первинну групу користувача"
 
-#: backend3/users:93 backend3/users:167
+#: backend3/users:81 backend3/users:122
 msgid "can't update group file"
 msgstr "неможливо поновити базу груп"
 
-#: backend3/users:86
+#: backend3/users:74
 msgid "can't update password file"
 msgstr "неможливо поновити базу паролів"
 
-#: backend3/users:107 backend3/users:110
+#: backend3/users:92
 msgid "cannot change password"
 msgstr "неможливо змінити пароль"
 
-#. '
-#: backend3/users:95
-#, fuzzy
-msgid "cant create mail spool"
-msgstr "неможливо створити mail spool"
-
-#: backend3/users:163
+#: backend3/users:118
 msgid "gid not unique"
 msgstr "gid не унікальний"
 
 #. '
-#: backend3/users:166
+#: backend3/users:121
 msgid "group name not unique"
 msgstr "ім'я групи вже зайняте"
 
-#: backend3/users:88
+#: backend3/users:76
 msgid "invalid argument to option"
 msgstr "невірний параметр до аргумента"
 
 #. '
-#: backend3/users:87 backend3/users:161
+#: backend3/users:75 backend3/users:116
 msgid "invalid command syntax"
 msgstr "невірний синтаксис команди"
 
-#: backend3/users:162
+#: backend3/users:117
 msgid "invalid group name"
 msgstr "невірне ім'я групи"
 
-#: backend3/users:164
+#: backend3/users:119
 msgid "specified group doesn't exist"
 msgstr "дана група не існує"
 
-#: backend3/users:90
+#: backend3/users:78
 msgid "specified user doesn't exist"
 msgstr "користувач не існує"
 
-#: backend3/users:89
+#: backend3/users:77
 msgid "uid already in use"
 msgstr "uid вже зайнятий"
 
-#: backend3/users:184
+#: backend3/users:139
 msgid "unable to add user %s to group %s"
 msgstr "неможливо додати користувача %s до групи %s"
 
 #. '
-#: backend3/users:91
+#: backend3/users:79
 msgid "user currently logged in"
 msgstr "користувач зараз у системі"
 
-#: backend3/users:92
+#: backend3/users:80
 msgid "username already in use"
 msgstr "ім'я користувача вже зайняте"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-28 12:19+0300\n"
+"POT-Creation-Date: 2009-01-28 16:31+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -63,6 +63,10 @@ msgstr "Configurar automaticamente Data e Hora"
 msgid "Home directory:"
 msgstr "Diretório Home:"
 
+#: standard input:1
+msgid "Local user accounts"
+msgstr "Contas de Úsuarios Locais"
+
 #: standard input:7 ui/users/index.scm:91
 #, fuzzy
 msgid "Member of administrators group"
@@ -86,7 +90,7 @@ msgstr "Nova Conta de Usuário"
 msgid "Password:"
 msgstr "Senha"
 
-#: backend3/users:259 backend3/users:287
+#: backend3/users:207 backend3/users:235
 #, fuzzy
 msgid "Passwords mismatch"
 msgstr "Senha"
@@ -100,11 +104,6 @@ msgstr "Selecionar"
 msgid "Shell:"
 msgstr "Shell:"
 
-#: standard input:1
-#, fuzzy
-msgid "User accounts"
-msgstr "Nova Conta de Usuário"
-
 #: ui/users/add/index.scm:20
 #, fuzzy
 msgid "You should define a password"
@@ -115,77 +114,84 @@ msgid "You should define a system user"
 msgstr "Você deve definir um usuário para o sistema"
 
 #. '
-#: backend3/users:94
+#: backend3/users:83
+msgid "can't create mail spool"
+msgstr "Não foi possível criar o \"Mail Spool\""
+
+#. '
+#: backend3/users:82
 msgid "can't create or remove home directory"
 msgstr "Não foi possivel criar ou remover o Diretório \"Home\""
 
-#: backend3/users:165
+#: backend3/users:120
 msgid "can't remove user's primary group"
 msgstr "Não foi possível Remover o Usuário Primario do Group"
 
-#: backend3/users:93 backend3/users:167
+#: backend3/users:81 backend3/users:122
 msgid "can't update group file"
 msgstr "Não foi possível atualizar o arquivo de grupo "
 
-#: backend3/users:86
+#: backend3/users:74
 #, fuzzy
 msgid "can't update password file"
 msgstr "Não use senha"
 
-#: backend3/users:107 backend3/users:110
+#: backend3/users:92
 #, fuzzy
 msgid "cannot change password"
 msgstr "Não use senha"
 
-#. '
-#: backend3/users:95
-#, fuzzy
-msgid "cant create mail spool"
-msgstr "Não foi possível criar o \"Mail Spool\""
-
-#: backend3/users:163
+#: backend3/users:118
 msgid "gid not unique"
 msgstr "GID não é único"
 
 #. '
-#: backend3/users:166
+#: backend3/users:121
 msgid "group name not unique"
 msgstr "nome do grupo não é único"
 
-#: backend3/users:88
+#: backend3/users:76
 msgid "invalid argument to option"
 msgstr "Argumento da Opção Inválidos"
 
 #. '
-#: backend3/users:87 backend3/users:161
+#: backend3/users:75 backend3/users:116
 msgid "invalid command syntax"
 msgstr "Sintexe do Comando Inválido"
 
-#: backend3/users:162
+#: backend3/users:117
 msgid "invalid group name"
 msgstr "Nome do Grupo Inválido"
 
-#: backend3/users:164
+#: backend3/users:119
 msgid "specified group doesn't exist"
 msgstr "grupo especificado não existe"
 
-#: backend3/users:90
+#: backend3/users:78
 msgid "specified user doesn't exist"
 msgstr "usuário especificado não existe"
 
-#: backend3/users:89
+#: backend3/users:77
 msgid "uid already in use"
 msgstr "UID já em uso"
 
-#: backend3/users:184
+#: backend3/users:139
 msgid "unable to add user %s to group %s"
 msgstr "Não foi possível adicionar o usuário %s no grupo %s"
 
 #. '
-#: backend3/users:91
+#: backend3/users:79
 msgid "user currently logged in"
 msgstr "usuário logado"
 
-#: backend3/users:92
+#: backend3/users:80
 msgid "username already in use"
 msgstr "Nome de usuário já em uso"
+
+#, fuzzy
+#~ msgid "User accounts"
+#~ msgstr "Nova Conta de Usuário"
+
+#, fuzzy
+#~ msgid "cant create mail spool"
+#~ msgstr "Não foi possível criar o \"Mail Spool\""
