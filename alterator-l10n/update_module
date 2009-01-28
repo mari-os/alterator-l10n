@@ -34,9 +34,12 @@ name=${name%.pot}
 echo "Updating dictionary for $name"
 
 for l in $LANGLIST; do
+  mod_po="$mod_dir/po/$l.po"
   po="po/$l/$name.po"
   mkdir -p "po/$l"
-  touch "$po"
+
+  [ -f "$po" ] || mv "$mod_po" "$po"
+
   msgmerge --update --sort-output --backup=off \
            --compendium="$l.po" "$po" "$pot" &> /dev/null ||\
     fatal "Can't do msgmerge for $l language"
