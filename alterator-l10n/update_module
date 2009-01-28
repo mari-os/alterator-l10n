@@ -38,7 +38,9 @@ for l in $LANGLIST; do
   po="po/$l/$name.po"
   mkdir -p "po/$l"
 
-  [ -f "$po" ] || mv "$mod_po" "$po"
+  if [ ! -f "$po" ]; then
+    [ -f "$mod_po" ] && mv "$mod_po" "$po" || touch "$po"
+  fi
 
   msgmerge --update --sort-output --backup=off \
            --compendium="$l.po" "$po" "$pot" &> /dev/null ||\
