@@ -1,0 +1,27 @@
+<html>
+   <head>
+        <meta http-equiv="content-type" value="text/html;charset=utf-8"/>
+   </head>
+   <body>
+     <h2>Time zone</h2>
+     <p>A <strong>time zone</strong> is a region of the earth that has uniform standard time,
+     usually referred to as the local time.</p>
+
+     <p>There are two main clocks in a Linux system:</p>
+
+     <p>The Hardware Clock: This is a clock that runs independently of any control
+     program running in the CPU and even when the  machine  is  powered off.</p>
+
+     <p>The System Time: This is the time kept by a clock inside the Linux kernel
+     and driven by a timer interrupt. It has meaning only while Linux is running on the machine.</p>
+
+     <p>Every time Linux starts up, it will synchronize System Time with Hardware Clock.</p>
+
+     <p>Turned on "Hardware time set to GMT" flag indicates that the Hardware Clock 
+     is kept in Coordinated Universal Time, otherwise it is kept in local time</p>
+
+     <p>If you want to have automatic Daylight saving time (DST) support then you should to turn on
+     "Hardware time set to GMT" flag. But if you have Windows system installed on your computer,
+     then you should to turn off this flag.</p>
+   </body>
+</html>
