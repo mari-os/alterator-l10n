@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 1.4
-Release: alt3
+Version: 1.5
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -42,6 +42,7 @@ Conflicts: alterator-vsftpd               < 0.6-alt1
 Conflicts: alterator-x11                  < 0.21-alt4
 Conflicts: alterator-xinetd               < 1.4-alt4
 Conflicts: alterator-xkb                  < 2.1-alt2
+Conflicts: alterator-wizardface           < 1.0-alt1
 
 %description
 translations for all alterator modules
@@ -68,6 +69,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Jan 29 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt1
+- add alterator-wizardface
+
 * Wed Jan 28 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.4-alt3
 - move UA and EN help for alterator-dovecot to new_help dir
 - remove old help for alterator-groups (new help is already in new_help dir)
