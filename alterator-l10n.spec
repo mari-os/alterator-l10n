@@ -71,7 +71,7 @@ make check
 
 %changelog
 * Thu Jan 29 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt1
-- move to new schema: alterator-wizardface, alterator-lookout
+- move to new schema: alterator-wizardface, alterator-lookout, alterator-tzone
 
 * Wed Jan 28 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.4-alt3
 - move UA and EN help for alterator-dovecot to new_help dir
