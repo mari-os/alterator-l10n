@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.5
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Jan 30 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.5-alt3
+- add pt_BR po-files (by fmartini@)
+
 * Fri Jan 30 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt2
 - move to new scheme: alterator-datetime
 
