@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-01-22 19:05+0300\n"
-"PO-Revision-Date: 2008-12-02 22:29-0300\n"
+"PO-Revision-Date: 2009-01-29 13:05-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -39,139 +39,161 @@ msgstr "20 segundos"
 msgid "5 seconds"
 msgstr "5 segundos"
 
-#: index.scm:194 ui/lilo/expert/index.scm:194
+#: index.scm:194
+#: ui/lilo/expert/index.scm:194
 msgid "Add Linux kernel"
 msgstr "Adicionar Kernel do Linux"
 
-#: index.scm:195 ui/lilo/expert/index.scm:195
-#, fuzzy
+#: index.scm:195
+#: ui/lilo/expert/index.scm:195
 msgid "Add other loader"
-msgstr "Outro sistema"
+msgstr "Adicionar outro rodador"
 
-#: index.scm:171 ui/lilo/expert/index.scm:171
-#, fuzzy
+#: index.scm:171
+#: ui/lilo/expert/index.scm:171
 msgid "Additional parameters:"
-msgstr "Pacotes Adicionais"
+msgstr "Parametros adicionais"
 
-#: index.scm:176 ui/lilo/expert/index.scm:176
+#: index.scm:176
+#: ui/lilo/expert/index.scm:176
 msgid "Alias:"
 msgstr "Alias:"
 
-#: index.scm:206 ui/lilo/edit-source/index.scm:36 ui/lilo/index.scm:140
+#: index.scm:206
+#: ui/lilo/edit-source/index.scm:36
+#: ui/lilo/index.scm:140
 #: ui/lilo/expert/index.scm:206
 msgid "Apply"
 msgstr "Aplicar"
 
-#: index.scm:157 ui/lilo/expert/index.scm:157
+#: index.scm:157
+#: ui/lilo/expert/index.scm:157
 msgid "Boot variants"
 msgstr "Variantes de Boot"
 
 #: index.scm:178
 msgid "Boot-as:"
-msgstr ""
+msgstr "Boot-as:"
 
 #: standard input:1
-#, fuzzy
 msgid "Bootloader"
-msgstr "Outro sistema"
+msgstr "Rodador de Boot"
 
-#: index.scm:145 ui/lilo/expert/index.scm:145
+#: index.scm:145
+#: ui/lilo/expert/index.scm:145
 msgid "Common kernel parameters:"
 msgstr "Parametros Comuns do Kernel:"
 
-#: index.scm:127 ui/lilo/expert/index.scm:127
-#, fuzzy
+#: index.scm:127
+#: ui/lilo/expert/index.scm:127
 msgid "Common settings"
-msgstr "Configurações avançadas"
+msgstr "Definições comuns"
 
-#: index.scm:150 ui/lilo/expert/index.scm:150
-#, fuzzy
+#: index.scm:150
+#: ui/lilo/expert/index.scm:150
 msgid "Default boot variant:"
-msgstr "Rota Padrão via VPN"
+msgstr "Valores padrões do boot:"
 
-#: index.scm:189 ui/lilo/expert/index.scm:189
+#: index.scm:189
+#: ui/lilo/expert/index.scm:189
 msgid "Delete"
 msgstr "Deletar"
 
-#: index.scm:174 ui/lilo/expert/index.scm:174
-#, fuzzy
+#: index.scm:174
+#: ui/lilo/expert/index.scm:174
 msgid "Device:"
-msgstr "Dispositivo"
+msgstr "Dispositivo:"
 
-#: index.scm:119 ui/lilo/edit-source/index.scm:21 ui/lilo/expert/index.scm:119
-#, fuzzy
+#: index.scm:119
+#: ui/lilo/edit-source/index.scm:21
+#: ui/lilo/expert/index.scm:119
 msgid "Don't install bootloader"
-msgstr "Instale o gerenciador de inicialização em:"
+msgstr "Não instalar o rodador de boot"
 
-#: index.scm:123 ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:123
+#: index.scm:123
+#: ui/lilo/edit-source/index.scm:25
+#: ui/lilo/expert/index.scm:123
 msgid "Edit lilo.conf"
 msgstr "Editar lilo.conf"
 
-#: index.scm:122 ui/lilo/edit-source/index.scm:24 ui/lilo/index.scm:141
+#: index.scm:122
+#: ui/lilo/edit-source/index.scm:24
+#: ui/lilo/index.scm:141
 #: ui/lilo/expert/index.scm:122
-#, fuzzy
 msgid "Expert mode"
-msgstr "Configurações avançadas"
+msgstr "Modo Avançado"
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
+#: helpers/lilo-hal.sh:22
+#: helpers/lilo-sysfs.sh:22
+#: helpers/utils.sh:15
 msgid "Gb"
 msgstr "Gb"
 
-#: helpers/lilo-hal.sh:42 helpers/lilo-sysfs.sh:42
+#: helpers/lilo-hal.sh:42
+#: helpers/lilo-sysfs.sh:42
 msgid "Hard drive"
 msgstr "HD"
 
-#: index.scm:167 ui/lilo/expert/index.scm:167
+#: index.scm:167
+#: ui/lilo/expert/index.scm:167
 msgid "Initrd:"
 msgstr "Initrd:"
 
-#: index.scm:131 ui/lilo/index.scm:112 ui/lilo/expert/index.scm:131
+#: index.scm:131
+#: ui/lilo/index.scm:112
+#: ui/lilo/expert/index.scm:131
 msgid "Install boot loader on:"
 msgstr "Instale o gerenciador de inicialização em:"
 
-#: index.scm:142 ui/lilo/index.scm:129 ui/lilo/expert/index.scm:142
+#: index.scm:142
+#: ui/lilo/index.scm:129
+#: ui/lilo/expert/index.scm:142
 msgid "Interface timeout:"
 msgstr "Tempo de Interface:"
 
-#: index.scm:139 ui/lilo/expert/index.scm:139
-#, fuzzy
+#: index.scm:139
+#: ui/lilo/expert/index.scm:139
 msgid "Interface type:"
-msgstr "Interfaces de IP"
+msgstr "Tipo de interface:"
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
+#: helpers/lilo-hal.sh:22
+#: helpers/lilo-sysfs.sh:22
+#: helpers/utils.sh:15
 msgid "Kb"
 msgstr "Kb"
 
 #: helpers/lilo-parser.sh:341
 msgid "Kernel image is unspecified."
-msgstr ""
+msgstr "Imagem do Kernel é indeterminado."
 
-#: index.scm:165 ui/lilo/expert/index.scm:165
+#: index.scm:165
+#: ui/lilo/expert/index.scm:165
 msgid "Kernel image:"
 msgstr "Imagens do Kernel:"
 
 #: helpers/lilo-parser.sh:331
 msgid "Label is empty."
-msgstr ""
+msgstr "Label está vazia."
 
-#: index.scm:163 ui/lilo/expert/index.scm:163
+#: index.scm:163
+#: ui/lilo/expert/index.scm:163
 msgid "Label:"
 msgstr "Nome:"
 
 #: ui/lilo/edit-source/index.scm:31
-#, fuzzy
 msgid "Lilo options:"
-msgstr "Opções Global"
+msgstr "Opções Lilo:"
 
-#: index.scm:27 index.scm:35 ui/lilo/expert/index.scm:27
+#: index.scm:27
+#: index.scm:35
+#: ui/lilo/expert/index.scm:27
 #: ui/lilo/expert/index.scm:35
 msgid "Linux kernel"
 msgstr "Linux Kernel"
 
 #: ui/lilo/index.scm:51
-#, fuzzy
 msgid "Linux partition"
-msgstr "Mostrar Partições"
+msgstr "Partições Linux"
 
 #: ui/lilo/index.scm:126
 msgid "Load by default:"
@@ -182,82 +204,90 @@ msgid "Load other OS:"
 msgstr "Rodar outros SO:"
 
 #: ui/lilo/expert/index.scm:181
-#, fuzzy
 msgid "Master boot"
-msgstr "Boot Principal Gravado"
+msgstr "Boot Principal"
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
+#: helpers/lilo-hal.sh:22
+#: helpers/lilo-sysfs.sh:22
+#: helpers/utils.sh:15
 msgid "Mb"
 msgstr "Mb"
 
-#: index.scm:27 index.scm:35 ui/lilo/expert/index.scm:27
+#: index.scm:27
+#: index.scm:35
+#: ui/lilo/expert/index.scm:27
 #: ui/lilo/expert/index.scm:35
-#, fuzzy
 msgid "Other loader"
-msgstr "Outro sistema"
+msgstr "Outro rodador"
 
 #: helpers/lilo-parser.sh:336
 msgid "Other loader device is unspecified."
-msgstr ""
+msgstr "Outro rodador dispositivo é indeterminado."
 
-#: index.scm:134 ui/lilo/expert/index.scm:134
+#: index.scm:134
+#: ui/lilo/expert/index.scm:134
 msgid "Raid-extra-boot:"
 msgstr "Raid-extra-boot:"
 
-#: index.scm:187 index.scm:207 ui/lilo/edit-source/index.scm:37
-#: ui/lilo/expert/index.scm:187 ui/lilo/expert/index.scm:207
-#, fuzzy
+#: index.scm:187
+#: index.scm:207
+#: ui/lilo/edit-source/index.scm:37
+#: ui/lilo/expert/index.scm:187
+#: ui/lilo/expert/index.scm:207
 msgid "Reset"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (alterator_lilo)  #-#-#-#-#\n"
-"Resetar:\n"
-"#-#-#-#-#  pt_BR.po (Alterator)  #-#-#-#-#\n"
-"Resetar"
+msgstr "Resetar"
 
 #: helpers/lilo-parser.sh:346
 msgid "Root device is unspecified."
-msgstr ""
+msgstr "dispositivo raiz é indeterminado."
 
-#: index.scm:169 ui/lilo/expert/index.scm:169
+#: index.scm:169
+#: ui/lilo/expert/index.scm:169
 msgid "Root device:"
 msgstr "Interface ROOT"
 
-#: index.scm:186 ui/lilo/expert/index.scm:186
+#: index.scm:186
+#: ui/lilo/expert/index.scm:186
 msgid "Save"
 msgstr "Salvar"
 
 #: helpers/lilo-parser.sh:316
-#, fuzzy
 msgid "Section already exists."
-msgstr "Mesma entrada já existe"
+msgstr "Secção já existe."
 
-#: index.scm:121 ui/lilo/edit-source/index.scm:23 ui/lilo/expert/index.scm:121
-#, fuzzy
+#: index.scm:121
+#: ui/lilo/edit-source/index.scm:23
+#: ui/lilo/expert/index.scm:121
 msgid "Simple mode"
-msgstr "Modo Normal"
+msgstr "Modo Simples"
 
-#: index.scm:180 ui/lilo/expert/index.scm:178
+#: index.scm:180
+#: ui/lilo/expert/index.scm:178
 msgid "Table:"
 msgstr "Tabela:"
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
+#: helpers/lilo-hal.sh:22
+#: helpers/lilo-sysfs.sh:22
+#: helpers/utils.sh:15
 msgid "Tb"
 msgstr "Tb"
 
 #: helpers/lilo-parser.sh:272
-#, fuzzy
 msgid "Unknown section"
-msgstr "Desconhecido"
+msgstr "Secção desconhecida"
 
 #: backend3/lilo:116
 msgid "auto"
 msgstr "auto"
 
-#: helpers/lilo-hal.sh:18 helpers/lilo-sysfs.sh:18 helpers/utils.sh:11
+#: helpers/lilo-hal.sh:18
+#: helpers/lilo-sysfs.sh:18
+#: helpers/utils.sh:11
 msgid "b"
 msgstr "b"
 
-#: helpers/lilo-parser.sh:395 backend3/lilo:104
+#: helpers/lilo-parser.sh:395
+#: backend3/lilo:104
 msgid "failsafe"
 msgstr "FailSafe"
 
@@ -285,12 +315,13 @@ msgstr "não aguarde"
 msgid "none"
 msgstr "nenhum"
 
-#: helpers/lilo-hal.sh:61 helpers/lilo-other-system.sh:39
+#: helpers/lilo-hal.sh:61
+#: helpers/lilo-other-system.sh:39
 #: helpers/lilo-sysfs.sh:61
-#, fuzzy
 msgid "partition"
-msgstr "Mostrar Partições"
+msgstr "partição"
 
 #: backend3/lilo:111
 msgid "text"
 msgstr "texto"
+

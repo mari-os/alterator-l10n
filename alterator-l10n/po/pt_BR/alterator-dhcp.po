@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-01-27 15:54+0300\n"
-"PO-Revision-Date: 2008-12-02 22:29-0300\n"
+"PO-Revision-Date: 2009-01-29 12:41-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -96,18 +96,16 @@ msgid "Ending IP address:"
 msgstr "ùltimos IP:"
 
 #: standard input:28
-#, fuzzy
 msgid "Expiration time"
-msgstr "Sistema Operacional"
+msgstr "Tempo de expiração"
 
 #: standard input:29
 msgid "Fix address for selected hosts"
 msgstr "Corrigir endereço do Host Selecionado"
 
 #: standard input:4
-#, fuzzy
 msgid "General settings"
-msgstr "Configurações avançadas"
+msgstr "Configurações Gerais"
 
 #: standard input:17
 msgid "Host address"
@@ -118,9 +116,8 @@ msgid "Host address:"
 msgstr "Endereço Host:"
 
 #: standard input:25
-#, fuzzy
 msgid "Host name"
-msgstr "Nome da Conta:"
+msgstr "Nome do Host"
 
 #: standard input:27
 msgid "IP address"
@@ -131,15 +128,15 @@ msgid "Information provided for clients"
 msgstr "Informações fornecidas para clientes"
 
 #: standard input:5
-#, fuzzy
 msgid "Interface:"
-msgstr "Interfaces de IP"
+msgstr "Interface:"
 
 #: backend3/dhcp:232
 msgid "Invalid address range"
 msgstr "Endereço de Gama Inválido"
 
-#: standard input:18 input:26
+#: standard input:18
+#: input:26
 msgid "MAC address"
 msgstr "Endereço MAC"
 
@@ -156,13 +153,8 @@ msgid "Remove selected"
 msgstr "Remover selecionado"
 
 #: standard input:15
-#, fuzzy
 msgid "Reset"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (alterator_lilo)  #-#-#-#-#\n"
-"Resetar:\n"
-"#-#-#-#-#  pt_BR.po (Alterator)  #-#-#-#-#\n"
-"Resetar"
+msgstr "Resetar"
 
 #: backend3/dhcp:256
 msgid "Same entry already exists"
@@ -185,20 +177,19 @@ msgid "Static addresses"
 msgstr "Endereços Estaticos"
 
 #: standard input:2
-msgid ""
-"You must have statically configured ethernet interface to setup dhcp server."
+msgid "You must have statically configured ethernet interface to setup dhcp server."
 msgstr "Você deve configurar uma conexão DHCP"
 
-#: backend3/dhcp:70 backend3/dhcp:229
-#, fuzzy
+#: backend3/dhcp:70
+#: backend3/dhcp:229
 msgid "You should define address range"
-msgstr "Você deve definir um usuário para o sistema"
+msgstr "Você deve definir um endereço de range"
 
 #: backend3/dhcp:67
-#, fuzzy
 msgid "You should define network interface"
-msgstr "Você deve definir um usuário para o sistema"
+msgstr "Você deve definir uma interface de rede"
 
 #: interfaces/guile/type/dhcp-mac-address.scm:12
 msgid "invalid MAC address"
 msgstr "Endereço MAC Inválido"
+

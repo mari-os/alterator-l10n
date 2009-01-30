@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-01-27 16:20+0300\n"
-"PO-Revision-Date: 2008-12-02 22:29-0300\n"
+"PO-Revision-Date: 2009-01-29 13:00-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,8 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:7 ui/groups/index.scm:89
+#: standard input:7
+#: ui/groups/index.scm:89
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -48,39 +49,37 @@ msgid "Can't modify group with empty name"
 msgstr "Não é possível editar um grupo sem nome"
 
 #: backend3/groups:205
-#, fuzzy
 msgid "Can't remove user"
-msgstr "Criação do Sistema de Usuário"
+msgstr "Não foi possível remover o usuário"
 
-#: standard input:2 ui/groups/index.scm:67
+#: standard input:2
+#: ui/groups/index.scm:67
 msgid "Create"
 msgstr "Criar"
 
-#: standard input:9 ui/groups/index.scm:91
+#: standard input:9
+#: ui/groups/index.scm:91
 msgid "Delete"
 msgstr "Deletar"
 
-#: standard input:5 ui/groups/index.scm:80
-#, fuzzy
+#: standard input:5
+#: ui/groups/index.scm:80
 msgid "Description:"
-msgstr "Destino"
+msgstr "Descrição:"
 
 #: standard input:1
 msgid "Groups"
 msgstr "Grupos"
 
-#: standard input:1 ui/groups/index.scm:65
+#: standard input:1
+#: ui/groups/index.scm:65
 msgid "New group:"
 msgstr "Novo grupo:"
 
-#: standard input:8 ui/groups/index.scm:90
-#, fuzzy
+#: standard input:8
+#: ui/groups/index.scm:90
 msgid "Reset"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (alterator_lilo)  #-#-#-#-#\n"
-"Resetar:\n"
-"#-#-#-#-#  pt_BR.po (Alterator)  #-#-#-#-#\n"
-"Resetar"
+msgstr "Resetar"
 
 #: standard input:3
 msgid "Select"
@@ -98,12 +97,13 @@ msgstr "Pulas Grupos Primarios"
 msgid "Skip system groups"
 msgstr "Pular Grupos de Sistemas"
 
-#: standard input:4 ui/groups/index.scm:78
-#, fuzzy
+#: standard input:4
+#: ui/groups/index.scm:78
 msgid "System name:"
-msgstr "Usuário do Sistema"
+msgstr "Nome do Sistema:"
 
-#: standard input:6 ui/groups/index.scm:83
+#: standard input:6
+#: ui/groups/index.scm:83
 msgid "Users:"
 msgstr "Usuários:"
 
@@ -114,3 +114,4 @@ msgstr "do grupo"
 #: backend3/groups:193
 msgid "to group"
 msgstr "para o grupo"
+

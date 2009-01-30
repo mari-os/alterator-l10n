@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-01-23 17:39+0300\n"
-"PO-Revision-Date: 2008-12-02 22:29-0300\n"
+"PO-Revision-Date: 2009-01-29 13:13-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -35,11 +35,11 @@ msgid "(repeat passphrase)"
 msgstr "(repetir a senha)"
 
 #: standard input:14
-#, fuzzy
 msgid "Administrator DN:"
-msgstr "Administrador do Sistema"
+msgstr "Administrador DN:"
 
-#: standard input:5 input:20
+#: standard input:5
+#: input:20
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -52,9 +52,8 @@ msgid "Base DN:"
 msgstr "Base DN:"
 
 #: standard input:9
-#, fuzzy
 msgid "Computer name:"
-msgstr "Nome da Conta:"
+msgstr "Nome do computador:"
 
 #: standard input:28
 msgid "Create"
@@ -73,11 +72,11 @@ msgid "Folder name:"
 msgstr "Nome da Pasta:"
 
 #: standard input:8
-#, fuzzy
 msgid "General settings"
-msgstr "Configurações avançadas"
+msgstr "Configurações gerais"
 
-#: standard input:3 input:24
+#: standard input:3
+#: input:24
 msgid "Guest access"
 msgstr "Acesso Convidado"
 
@@ -102,11 +101,11 @@ msgid "No"
 msgstr "Não"
 
 #: backend3/samba:237
-#, fuzzy
 msgid "Passwords mismatch"
 msgstr "Senha"
 
-#: standard input:4 input:25
+#: standard input:4
+#: input:25
 msgid "Read only"
 msgstr "Leitura Apenas"
 
@@ -114,20 +113,17 @@ msgstr "Leitura Apenas"
 msgid "Remove selected"
 msgstr "Remover selecionado"
 
-#: standard input:6 input:21
-#, fuzzy
+#: standard input:6
+#: input:21
 msgid "Reset"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (alterator_lilo)  #-#-#-#-#\n"
-"Resetar:\n"
-"#-#-#-#-#  pt_BR.po (Alterator)  #-#-#-#-#\n"
-"Resetar"
+msgstr "Resetar"
 
 #: standard input:1
 msgid "Samba server"
 msgstr "Servidor Samba"
 
-#: backend3/samba:250 backend3/samba:278
+#: backend3/samba:250
+#: backend3/samba:278
 msgid "Same folder already exists"
 msgstr "A pasta já existe"
 
@@ -154,3 +150,4 @@ msgstr "Sim"
 #: interfaces/guile/type/samba-resource.scm:12
 msgid "invalid resource name"
 msgstr "Nome do Recurso Inválido"
+
