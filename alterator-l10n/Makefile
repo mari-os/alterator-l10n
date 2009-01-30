@@ -3,7 +3,7 @@ PO_LOCALEDIR=$(datadir)/locale
 l10ndir=$(datadir)/alterator/l10n
 new_l10ndir=$(datadir)/alterator/
 
-install: install-po install-tzone-po
+install: install-po install-tzone-po install-country-po
 	for i in $(wildcard *.po) $(wildcard *.pot); do \
 	  install $$i -Dpm644 $(l10ndir)/$$i; \
 	done
@@ -21,6 +21,14 @@ install-tzone-po:
 	for i in *.po; do \
 	    install -d $(PO_LOCALEDIR)/$${i%%.po}/LC_MESSAGES; \
 	    msgfmt -o $(PO_LOCALEDIR)/$${i%%.po}/LC_MESSAGES/alterator-tzone-tz.mo $$i || exit 1;\
+	done; \
+	cd -
+
+install-country-po:
+	cd country-po ; \
+	for i in *.po; do \
+	    install -d $(PO_LOCALEDIR)/$${i%%.po}/LC_MESSAGES; \
+	    msgfmt -o $(PO_LOCALEDIR)/$${i%%.po}/LC_MESSAGES/alterator-tzone-co.mo $$i || exit 1;\
 	done; \
 	cd -
 
