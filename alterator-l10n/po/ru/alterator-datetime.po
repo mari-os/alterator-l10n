@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-30 10:38+0300\n"
+"POT-Creation-Date: 2009-01-30 14:33+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,15 +18,26 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:6 ui/datetime/index.scm:39
+#: standard input:8 input:12 input:18 ui/datetime/system/index.scm:54
+#: ui/datetime/index.scm:39
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:4 ui/datetime/index.scm:29
+#: ui/datetime/system/timezone/index.scm:60
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ui/datetime/system/index.scm:49
+msgid "Change..."
+msgstr "Изменить..."
+
+#: standard input:4 input:16 ui/datetime/system/index.scm:32
+#: ui/datetime/index.scm:29
 msgid "Current date:"
 msgstr "Текущая дата:"
 
-#: standard input:5 ui/datetime/index.scm:30
+#: standard input:5 input:17 ui/datetime/system/index.scm:33
+#: ui/datetime/index.scm:30
 msgid "Current time:"
 msgstr "Текущее время:"
 
@@ -34,22 +45,47 @@ msgstr "Текущее время:"
 msgid "Date/Time"
 msgstr "Дата и время"
 
-#: standard input:1 ui/datetime/index.scm:20
+#: standard input:1 input:13 ui/datetime/system/index.scm:23
+#: ui/datetime/index.scm:20
 msgid "Get time from NTP server:"
 msgstr "Получать точное время с NTP-сервера:"
 
-#: standard input:2 ui/datetime/index.scm:21
+#: standard input:6 ui/datetime/system/index.scm:40
+msgid "Hardware time set to GMT"
+msgstr "Хранить время в BIOS по Гринвичу"
+
+#: standard input:2 input:14 ui/datetime/system/index.scm:24
+#: ui/datetime/index.scm:21
 msgid "NTP server:"
 msgstr "NTP-сервер:"
 
-#: standard input:7
+#: ui/datetime/system/timezone/index.scm:59
+msgid "OK"
+msgstr "OK"
+
+#.
+#: standard input:10 ui/datetime/system/timezone/index.scm:46
+msgid "Please, select country:"
+msgstr "Выберите страну:"
+
+#.
+#: standard input:11 ui/datetime/system/timezone/index.scm:51
+msgid "Please, select time zone:"
+msgstr "Выберите часовой пояс:"
+
+#: standard input:9 input:19
 msgid "Reset"
 msgstr "Вернуть"
 
-#: standard input:3 ui/datetime/index.scm:24
+#: standard input:7 ui/datetime/system/index.scm:45
+msgid "Time zone:"
+msgstr "Часовой пояс:"
+
+#: standard input:3 input:15 ui/datetime/system/index.scm:27
+#: ui/datetime/index.scm:24
 msgid "Work as NTP server"
 msgstr "Работать как NTP-сервер"
 
-#: backend3/datetime:58
+#: backend3/datetime:58 backend3/datetime-system:172
 msgid "unable to setup time"
 msgstr "невозможно установить время"
