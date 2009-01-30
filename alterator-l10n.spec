@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.5
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -44,6 +44,7 @@ Conflicts: alterator-xinetd               < 1.4-alt4
 Conflicts: alterator-xkb                  < 2.1-alt2
 Conflicts: alterator-wizardface           < 1.0-alt1
 Conflicts: alterator-lookout              < 1.6-alt1
+Conflicts: alterator-datetime             < 1.0-alt1
 
 %description
 translations for all alterator modules
@@ -70,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Jan 30 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt2
+- move to new scheme: alterator-datetime
+
 * Thu Jan 29 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt1
 - move to new schema: alterator-wizardface, alterator-lookout, alterator-tzone, alterator-fbi
 
