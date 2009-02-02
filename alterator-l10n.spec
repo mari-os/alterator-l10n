@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.5
-Release: alt4
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Feb 02 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt5
+- update translations for alterator-datetime
+
 * Fri Jan 30 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt4
 - update translations for new alterator-datetime
 

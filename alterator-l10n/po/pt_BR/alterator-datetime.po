@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-30 14:33+0300\n"
+"POT-Creation-Date: 2009-02-02 14:47+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,28 +19,29 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:8 input:12 input:18 ui/datetime/system/index.scm:54
-#: ui/datetime/index.scm:39
+#: standard input:8 input:12 ui/datetime/system/index.scm:54
+#: ui/datetime/installer/index.scm:80
 msgid "Apply"
 msgstr "Aplicar"
 
 #: ui/datetime/system/timezone/index.scm:60
+#: ui/datetime/installer/edit/index.scm:43
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: ui/datetime/system/index.scm:49
+#: ui/datetime/system/index.scm:49 ui/datetime/installer/index.scm:73
 #, fuzzy
 msgid "Change..."
 msgstr "Alteração"
 
-#: standard input:4 input:16 ui/datetime/system/index.scm:32
-#: ui/datetime/index.scm:29
+#: standard input:4 ui/datetime/system/index.scm:32
+#: ui/datetime/installer/edit/index.scm:32
 #, fuzzy
 msgid "Current date:"
 msgstr "Configurar a Data Atual:"
 
-#: standard input:5 input:17 ui/datetime/system/index.scm:33
-#: ui/datetime/index.scm:30
+#: standard input:5 ui/datetime/system/index.scm:33
+#: ui/datetime/installer/edit/index.scm:33 ui/datetime/installer/index.scm:71
 #, fuzzy
 msgid "Current time:"
 msgstr "Configurar a Hora Atual:"
@@ -49,37 +50,41 @@ msgstr "Configurar a Hora Atual:"
 msgid "Date/Time"
 msgstr "Data/Hora"
 
-#: standard input:1 input:13 ui/datetime/system/index.scm:23
-#: ui/datetime/index.scm:20
+#: standard input:1 ui/datetime/system/index.scm:23
+#: ui/datetime/installer/edit/index.scm:23
 msgid "Get time from NTP server:"
 msgstr "Tempo do NTP servidor:"
 
 #: standard input:6 ui/datetime/system/index.scm:40
+#: ui/datetime/installer/index.scm:66
 #, fuzzy
 msgid "Hardware time set to GMT"
 msgstr "Ajustar automaticamente o relógio pelo GMT"
 
-#: standard input:2 input:14 ui/datetime/system/index.scm:24
-#: ui/datetime/index.scm:21
+#: standard input:2 ui/datetime/system/index.scm:24
+#: ui/datetime/installer/edit/index.scm:24
 msgid "NTP server:"
 msgstr "Servidor NTP:"
 
 #: ui/datetime/system/timezone/index.scm:59
+#: ui/datetime/installer/edit/index.scm:42
 msgid "OK"
 msgstr "OK"
 
 #.
 #: standard input:10 ui/datetime/system/timezone/index.scm:46
+#: ui/datetime/installer/index.scm:60
 msgid "Please, select country:"
 msgstr "Selecione o seu país:"
 
 #.
 #: standard input:11 ui/datetime/system/timezone/index.scm:51
+#: ui/datetime/installer/index.scm:64
 #, fuzzy
 msgid "Please, select time zone:"
 msgstr "Selecione a Zona de Fuso Horário:"
 
-#: standard input:9 input:19
+#: standard input:9 ui/datetime/installer/index.scm:81
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -93,11 +98,21 @@ msgstr ""
 msgid "Time zone:"
 msgstr "Fuso horário"
 
-#: standard input:3 input:15 ui/datetime/system/index.scm:27
-#: ui/datetime/index.scm:24
+#: backend3/datetime-installer:101 backend3/datetime-system:107
+#, fuzzy
+msgid "Unable to setup timezone"
+msgstr "Não foi possível configurar o Relogio"
+
+#: standard input:3 ui/datetime/system/index.scm:27
+#: ui/datetime/installer/edit/index.scm:27
 msgid "Work as NTP server"
 msgstr "Trabalhar com Servidor NTP "
 
-#: backend3/datetime:58 backend3/datetime-system:172
+#: backend3/datetime-installer:17
+#, fuzzy
+msgid "set automatically"
+msgstr "Configurar automaticamente Data e Hora"
+
+#: backend3/datetime-installer:111 backend3/datetime-system:83
 msgid "unable to setup time"
 msgstr "Não foi possível configurar o Relogio"
