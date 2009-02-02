@@ -73,6 +73,7 @@ make check
 %changelog
 * Mon Feb 02 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt5
 - update translations for alterator-datetime
+- move to new schema: alterator-control
 
 * Fri Jan 30 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt4
 - update translations for new alterator-datetime
@@ -81,7 +82,7 @@ make check
 - add pt_BR po-files (by fmartini@)
 
 * Fri Jan 30 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt2
-- move to new scheme: alterator-datetime
+- move to new schema: alterator-datetime
 
 * Thu Jan 29 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt1
 - move to new schema: alterator-wizardface, alterator-lookout, alterator-tzone, alterator-fbi
