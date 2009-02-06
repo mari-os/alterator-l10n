@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.5
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Feb 06 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.5-alt6
+- update translations for alterator-net-iptables
+
 * Mon Feb 02 2009 Stanislav Ievlev <inger@altlinux.org> 1.5-alt5
 - update translations for alterator-datetime
 - move to new schema: alterator-control
