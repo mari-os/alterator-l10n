@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.5
-Release: alt6
+Release: alt7
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Feb 06 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.5-alt7
+- alterator-net-iptables: fix translation
+
 * Fri Feb 06 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.5-alt6
 - update translations for alterator-net-iptables
 
