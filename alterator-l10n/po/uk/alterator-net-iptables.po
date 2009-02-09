@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-06 14:46+0300\n"
+"POT-Creation-Date: 2009-02-09 12:37+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,69 +16,69 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: bin/iptables_helper:128 bin/iptables_helper:133
+#: bin/iptables_helper:130 bin/iptables_helper:135
 #, fuzzy
 msgid "(must be a number)"
 msgstr "має бути число"
 
-#: bin/iptables_helper:124
+#: bin/iptables_helper:126
 #, fuzzy
 msgid "(possible values: gateway or firewall)"
 msgstr "Мережевий екран"
 
-#: standard input:8 input:10 ui/net-iptables/index.scm:51
+#: standard input:6 input:8 ui/net-iptables/index.scm:51
 #: ui/net-iptables/index.scm:56
 msgid "(separated by commas or spaces)"
 msgstr ""
 
-#: standard input:5 ui/net-iptables/index.scm:37
+#: standard input:3 ui/net-iptables/index.scm:37
 #, fuzzy
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Дозволені з'єднання на вході"
 
-#: standard input:11 ui/net-iptables/index.scm:62
+#: standard input:9 ui/net-iptables/index.scm:62
 msgid "Apply"
 msgstr "Застосувати"
 
-#: bin/iptables_helper:267 bin/iptables_helper:269
+#: bin/iptables_helper:269 bin/iptables_helper:271
 msgid "Error while reloading firewalling rules"
 msgstr ""
 
-#: bin/iptables_helper:128
+#: bin/iptables_helper:130
 #, fuzzy
 msgid "Error: bad TCP port"
 msgstr "невірний TCP-порт"
 
-#: bin/iptables_helper:133
+#: bin/iptables_helper:135
 #, fuzzy
 msgid "Error: bad UTP port"
 msgstr "невірний TCP-порт"
 
-#: bin/iptables_helper:124
+#: bin/iptables_helper:126
 msgid "Error: bad mode"
 msgstr ""
 
-#: bin/iptables_helper:140
+#: bin/iptables_helper:142
 #, fuzzy
 msgid "Error: unknown interface"
 msgstr "Невідома служба"
 
-#: bin/iptables_helper:261
+#: bin/iptables_helper:263
 #, fuzzy
 msgid "Error: unknown option"
 msgstr "Невідома служба"
 
-#: bin/iptables_helper:147
+#: bin/iptables_helper:149
 #, fuzzy
 msgid "Error: unknown service"
 msgstr "Невідома служба"
 
-#: standard input:7 ui/net-iptables/index.scm:48
+#: standard input:5 ui/net-iptables/index.scm:48
 #, fuzzy
 msgid "Extra TCP ports:"
 msgstr "невірний TCP-порт"
 
-#: standard input:9 ui/net-iptables/index.scm:53
+#: standard input:7 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr ""
 
@@ -86,11 +86,11 @@ msgstr ""
 msgid "Network firewall"
 msgstr "Мережевий екран"
 
-#: standard input:12 ui/net-iptables/index.scm:65
+#: standard input:10 ui/net-iptables/index.scm:65
 msgid "Reset"
 msgstr "Скинути"
 
-#: standard input:4 ui/net-iptables/index.scm:36
+#: standard input:2 ui/net-iptables/index.scm:36
 #, fuzzy
 msgid "Select external interfaces:"
 msgstr "Ethernet-інтерфейси"
@@ -100,32 +100,31 @@ msgstr "Ethernet-інтерфейси"
 msgid "Select forwarding mode:"
 msgstr "Оберіть мову:"
 
-#: standard input:6 ui/net-iptables/index.scm:44
+#: standard input:4 ui/net-iptables/index.scm:44
 #, fuzzy
 msgid "Services:"
 msgstr "Служби"
 
-#: bin/iptables_helper:4
+#: bin/iptables_helper:6
 msgid "alterator-net-iptables"
 msgstr ""
 
-#: standard input:3 ui/net-iptables/index.scm:32
-#, fuzzy
-msgid "firewall"
-msgstr "Увімкнути екран"
-
-#: standard input:2 ui/net-iptables/index.scm:31
+#: ui/net-iptables/index.scm:31 backend3/net-iptables:16
 #, fuzzy
 msgid "gateway"
 msgstr "Типовий шлюз:"
 
-#: bin/iptables_helper:209
+#: bin/iptables_helper:211
 #, fuzzy
 msgid "in desktop-file for service"
 msgstr "вбудована служба"
 
-#: bin/iptables_helper:140
+#: bin/iptables_helper:142
 msgid "possible values:"
+msgstr ""
+
+#: ui/net-iptables/index.scm:32 backend3/net-iptables:15
+msgid "router"
 msgstr ""
 
 #~ msgid "Allow transit packets (forwarding)"
@@ -155,6 +154,10 @@ msgstr ""
 
 #~ msgid "Yes"
 #~ msgstr "Так"
+
+#, fuzzy
+#~ msgid "firewall"
+#~ msgstr "Увімкнути екран"
 
 #~ msgid "via:"
 #~ msgstr "через:"

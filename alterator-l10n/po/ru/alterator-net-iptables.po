@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-06 14:45+0300\n"
+"POT-Creation-Date: 2009-02-09 12:37+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -19,60 +19,60 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: bin/iptables_helper:128 bin/iptables_helper:133
+#: bin/iptables_helper:130 bin/iptables_helper:135
 msgid "(must be a number)"
 msgstr "(должно быть число)"
 
-#: bin/iptables_helper:124
+#: bin/iptables_helper:126
 msgid "(possible values: gateway or firewall)"
 msgstr "(допустимые значения: gateway или firewall)"
 
-#: standard input:8 input:10 ui/net-iptables/index.scm:51
+#: standard input:6 input:8 ui/net-iptables/index.scm:51
 #: ui/net-iptables/index.scm:56
 msgid "(separated by commas or spaces)"
 msgstr "(разделенные запятыми или пробелами)"
 
-#: standard input:5 ui/net-iptables/index.scm:37
+#: standard input:3 ui/net-iptables/index.scm:37
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Разрешить входящие соединения на внешних интерфейсах:"
 
-#: standard input:11 ui/net-iptables/index.scm:62
+#: standard input:9 ui/net-iptables/index.scm:62
 msgid "Apply"
 msgstr "Применить"
 
-#: bin/iptables_helper:267 bin/iptables_helper:269
+#: bin/iptables_helper:269 bin/iptables_helper:271
 msgid "Error while reloading firewalling rules"
 msgstr "Ошибка при перезагрузке правил брандмауэра"
 
-#: bin/iptables_helper:128
+#: bin/iptables_helper:130
 msgid "Error: bad TCP port"
 msgstr "Ошибка: плохой порт TCP"
 
-#: bin/iptables_helper:133
+#: bin/iptables_helper:135
 msgid "Error: bad UTP port"
 msgstr "Ошибка: плохой порт UDP"
 
-#: bin/iptables_helper:124
+#: bin/iptables_helper:126
 msgid "Error: bad mode"
 msgstr "Ошибка: плохой режим"
 
-#: bin/iptables_helper:140
+#: bin/iptables_helper:142
 msgid "Error: unknown interface"
 msgstr "Ошибка: неизвестный интерфейс"
 
-#: bin/iptables_helper:261
+#: bin/iptables_helper:263
 msgid "Error: unknown option"
 msgstr "Ошибка: неизвестный параметр"
 
-#: bin/iptables_helper:147
+#: bin/iptables_helper:149
 msgid "Error: unknown service"
 msgstr "Ошибка: неизвестная служба"
 
-#: standard input:7 ui/net-iptables/index.scm:48
+#: standard input:5 ui/net-iptables/index.scm:48
 msgid "Extra TCP ports:"
 msgstr "Дополнительные порты TCP:"
 
-#: standard input:9 ui/net-iptables/index.scm:53
+#: standard input:7 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr "Дополнительные порты UDP:"
 
@@ -80,11 +80,11 @@ msgstr "Дополнительные порты UDP:"
 msgid "Network firewall"
 msgstr "Брандмауэр"
 
-#: standard input:12 ui/net-iptables/index.scm:65
+#: standard input:10 ui/net-iptables/index.scm:65
 msgid "Reset"
 msgstr "Вернуть"
 
-#: standard input:4 ui/net-iptables/index.scm:36
+#: standard input:2 ui/net-iptables/index.scm:36
 msgid "Select external interfaces:"
 msgstr "Выберете внешние интерфейсы:"
 
@@ -92,26 +92,26 @@ msgstr "Выберете внешние интерфейсы:"
 msgid "Select forwarding mode:"
 msgstr "Выберите режим работы:"
 
-#: standard input:6 ui/net-iptables/index.scm:44
+#: standard input:4 ui/net-iptables/index.scm:44
 msgid "Services:"
 msgstr "Службы"
 
-#: bin/iptables_helper:4
+#: bin/iptables_helper:6
 msgid "alterator-net-iptables"
 msgstr ""
 
-#: standard input:3 ui/net-iptables/index.scm:32
-msgid "firewall"
-msgstr "брандмауэр"
-
-#: standard input:2 ui/net-iptables/index.scm:31
+#: ui/net-iptables/index.scm:31 backend3/net-iptables:16
 msgid "gateway"
 msgstr "шлюз"
 
-#: bin/iptables_helper:209
+#: bin/iptables_helper:211
 msgid "in desktop-file for service"
 msgstr "в desktop-файле для сервиса"
 
-#: bin/iptables_helper:140
+#: bin/iptables_helper:142
 msgid "possible values:"
 msgstr "допустимые значения:"
+
+#: ui/net-iptables/index.scm:32 backend3/net-iptables:15
+msgid "router"
+msgstr "роутер"

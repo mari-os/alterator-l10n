@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-06 14:46+0300\n"
+"POT-Creation-Date: 2009-02-09 12:37+0300\n"
 "PO-Revision-Date: 2009-01-29 13:07-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,69 +19,69 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: bin/iptables_helper:128 bin/iptables_helper:133
+#: bin/iptables_helper:130 bin/iptables_helper:135
 #, fuzzy
 msgid "(must be a number)"
 msgstr "deve ser um número"
 
-#: bin/iptables_helper:124
+#: bin/iptables_helper:126
 #, fuzzy
 msgid "(possible values: gateway or firewall)"
 msgstr "Configurações de Firewall"
 
-#: standard input:8 input:10 ui/net-iptables/index.scm:51
+#: standard input:6 input:8 ui/net-iptables/index.scm:51
 #: ui/net-iptables/index.scm:56
 msgid "(separated by commas or spaces)"
 msgstr "(separados por vírgulas ou espaços)"
 
-#: standard input:5 ui/net-iptables/index.scm:37
+#: standard input:3 ui/net-iptables/index.scm:37
 #, fuzzy
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Conexões de Entrada"
 
-#: standard input:11 ui/net-iptables/index.scm:62
+#: standard input:9 ui/net-iptables/index.scm:62
 msgid "Apply"
 msgstr "Aplicar"
 
-#: bin/iptables_helper:267 bin/iptables_helper:269
+#: bin/iptables_helper:269 bin/iptables_helper:271
 msgid "Error while reloading firewalling rules"
 msgstr ""
 
-#: bin/iptables_helper:128
+#: bin/iptables_helper:130
 #, fuzzy
 msgid "Error: bad TCP port"
 msgstr "Abrir portas extras de TCP:"
 
-#: bin/iptables_helper:133
+#: bin/iptables_helper:135
 #, fuzzy
 msgid "Error: bad UTP port"
 msgstr "Abrir portas extras de TCP:"
 
-#: bin/iptables_helper:124
+#: bin/iptables_helper:126
 msgid "Error: bad mode"
 msgstr ""
 
-#: bin/iptables_helper:140
+#: bin/iptables_helper:142
 #, fuzzy
 msgid "Error: unknown interface"
 msgstr "Desconhecido"
 
-#: bin/iptables_helper:261
+#: bin/iptables_helper:263
 #, fuzzy
 msgid "Error: unknown option"
 msgstr "Desconhecido"
 
-#: bin/iptables_helper:147
+#: bin/iptables_helper:149
 #, fuzzy
 msgid "Error: unknown service"
 msgstr "Desconhecido"
 
-#: standard input:7 ui/net-iptables/index.scm:48
+#: standard input:5 ui/net-iptables/index.scm:48
 #, fuzzy
 msgid "Extra TCP ports:"
 msgstr "Abrir portas extras de TCP:"
 
-#: standard input:9 ui/net-iptables/index.scm:53
+#: standard input:7 ui/net-iptables/index.scm:53
 #, fuzzy
 msgid "Extra UDP ports:"
 msgstr "Abrir portas extras de UDP:"
@@ -90,11 +90,11 @@ msgstr "Abrir portas extras de UDP:"
 msgid "Network firewall"
 msgstr "Configurações de Firewall"
 
-#: standard input:12 ui/net-iptables/index.scm:65
+#: standard input:10 ui/net-iptables/index.scm:65
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:4 ui/net-iptables/index.scm:36
+#: standard input:2 ui/net-iptables/index.scm:36
 #, fuzzy
 msgid "Select external interfaces:"
 msgstr "Interfaces de IP"
@@ -104,32 +104,31 @@ msgstr "Interfaces de IP"
 msgid "Select forwarding mode:"
 msgstr "Selecione sua Linguagem"
 
-#: standard input:6 ui/net-iptables/index.scm:44
+#: standard input:4 ui/net-iptables/index.scm:44
 #, fuzzy
 msgid "Services:"
 msgstr "Serviços"
 
-#: bin/iptables_helper:4
+#: bin/iptables_helper:6
 msgid "alterator-net-iptables"
 msgstr ""
 
-#: standard input:3 ui/net-iptables/index.scm:32
-#, fuzzy
-msgid "firewall"
-msgstr "Habilitar Firewall"
-
-#: standard input:2 ui/net-iptables/index.scm:31
+#: ui/net-iptables/index.scm:31 backend3/net-iptables:16
 #, fuzzy
 msgid "gateway"
 msgstr "Gateway PAdrão"
 
-#: bin/iptables_helper:209
+#: bin/iptables_helper:211
 #, fuzzy
 msgid "in desktop-file for service"
 msgstr "Serviço Interno"
 
-#: bin/iptables_helper:140
+#: bin/iptables_helper:142
 msgid "possible values:"
+msgstr ""
+
+#: ui/net-iptables/index.scm:32 backend3/net-iptables:15
+msgid "router"
 msgstr ""
 
 #~ msgid "Allow transit packets (forwarding)"
@@ -166,6 +165,10 @@ msgstr ""
 #~ msgstr ""
 #~ "Você está tentando fechar a porta para essa configuração de interface. "
 #~ "Tem certeza?"
+
+#, fuzzy
+#~ msgid "firewall"
+#~ msgstr "Habilitar Firewall"
 
 #~ msgid "via:"
 #~ msgstr "via:"
