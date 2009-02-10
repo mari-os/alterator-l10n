@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 1.5
-Release: alt8
+Version: 1.6
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,10 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Feb 10 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt1
+- move alterator-pkg to new schema
+- remove files for alterator-tzone
+
 * Mon Feb 09 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.5-alt8
 - alterator-net-iptables: fix label
 
