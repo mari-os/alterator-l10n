@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 11:09+0300\n"
+"POT-Creation-Date: 2009-02-11 16:55+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:8
+#: standard input:10
 msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
 msgstr ""
 
-#: standard input:4 input:9
+#: standard input:6 input:11
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:13
+#: standard input:15
 msgid "Architectures"
 msgstr ""
 
@@ -32,25 +32,63 @@ msgstr ""
 msgid "Architectures:"
 msgstr ""
 
-#: standard input:6
+#: backend3/mirror:250
+msgid "Can mirror only from sources with rsync procotol"
+msgstr ""
+
+#: standard input:8
 msgid "Clear local mirror"
 msgstr ""
 
-#: standard input:14
-#, fuzzy
-msgid "Disk usage"
-msgstr "Перша сторінка"
+#: backend3/mirror:146
+msgid "Custom url"
+msgstr ""
 
-#: standard input:7
+#: backend3/mirror:244
+#, fuzzy
+msgid "Custom url should be defined"
+msgstr "Треба надати пароль"
+
+#: standard input:9
 #, fuzzy
 msgid "Enable mirroring"
 msgstr "Дозволити персональні налаштування"
 
-#: standard input:1
-msgid "Local mirrors of repositories"
+#: backend3/mirror:63
+msgid "Gb"
+msgstr "Гб"
+
+#: backend3/mirror:247
+#, fuzzy
+msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
+msgstr "Невірний або непідтримуваний протокол.  Має бути http, ftp або file"
+
+#: backend3/mirror:62
+msgid "Kb"
+msgstr "Кб"
+
+#: standard input:16
+#, fuzzy
+msgid "Local mirror"
+msgstr "Дозволити персональні налаштування"
+
+#: standard input:4
+msgid "Local mirror of repository"
 msgstr ""
 
-#: standard input:11
+#: backend3/mirror:61
+msgid "Mb"
+msgstr "Мб"
+
+#: standard input:5
+msgid "Publish as a repository for automatic updates"
+msgstr ""
+
+#: standard input:17
+msgid "Published"
+msgstr ""
+
+#: standard input:13
 #, fuzzy
 msgid "Repository"
 msgstr "Репозиторій:"
@@ -59,11 +97,11 @@ msgstr "Репозиторій:"
 msgid "Repository:"
 msgstr "Репозиторій:"
 
-#: standard input:5 input:10
+#: standard input:7 input:12
 msgid "Reset"
 msgstr "Скинути"
 
-#: standard input:12
+#: standard input:14
 #, fuzzy
 msgid "Source"
 msgstr "Бали"
@@ -73,25 +111,38 @@ msgstr "Бали"
 msgid "Source:"
 msgstr "URI джерела:"
 
-#: standard input:15
+#: standard input:18
 msgid "Storage free space:"
 msgstr ""
 
-#: standard input:16
+#: standard input:19
 msgid ""
 "Synchronization will start every night. First synchronization with some "
 "repository may take a long time."
 msgstr ""
 
-#: standard input:17
+#: standard input:1
+msgid "Update sources"
+msgstr "Джерела поновлень"
+
+#: standard input:20
 #, fuzzy
 msgid "Warning:"
 msgstr "Попередження"
 
-#: standard input:18
+#: standard input:21
 msgid "mirroring requires a lot of disk space."
 msgstr ""
 
-#: backend3/mirror:67 backend3/mirror:87
-msgid "no mirroring"
-msgstr ""
+#: backend3/mirror:84 backend3/mirror:85 backend3/mirror:109
+#: backend3/mirror:116
+msgid "no"
+msgstr "ні"
+
+#: backend3/mirror:106 backend3/mirror:114
+msgid "yes"
+msgstr "так"
+
+#, fuzzy
+#~ msgid "Disk usage"
+#~ msgstr "Перша сторінка"

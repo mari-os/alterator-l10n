@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 11:09+0300\n"
+"POT-Creation-Date: 2009-02-11 16:55+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:8
+#: standard input:10
 msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
 msgstr "Acesso ao HD via NFS (/var/lib/alterator/mirror)"
 
-#: standard input:4 input:9
+#: standard input:6 input:11
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:13
+#: standard input:15
 msgid "Architectures"
 msgstr "Arquiteturas"
 
@@ -35,23 +35,63 @@ msgstr "Arquiteturas"
 msgid "Architectures:"
 msgstr "Arquiteturas:"
 
-#: standard input:6
+#: backend3/mirror:250
+msgid "Can mirror only from sources with rsync procotol"
+msgstr ""
+
+#: standard input:8
 msgid "Clear local mirror"
 msgstr "Limpar Endereços de \"Mirror\""
 
-#: standard input:14
-msgid "Disk usage"
-msgstr "Uso do Disco:"
+#: backend3/mirror:146
+msgid "Custom url"
+msgstr ""
 
-#: standard input:7
+#: backend3/mirror:244
+#, fuzzy
+msgid "Custom url should be defined"
+msgstr "Você deve definir um usuário para o sistema"
+
+#: standard input:9
 msgid "Enable mirroring"
 msgstr "Habilitar espelhamento"
 
-#: standard input:1
-msgid "Local mirrors of repositories"
+#: backend3/mirror:63
+msgid "Gb"
+msgstr "Gb"
+
+#: backend3/mirror:247
+#, fuzzy
+msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
+msgstr "Inválido ou não suportado protocolo . Deve ser http, ftp ou arquivo"
+
+#: backend3/mirror:62
+msgid "Kb"
+msgstr "Kb"
+
+#: standard input:16
+#, fuzzy
+msgid "Local mirror"
+msgstr "Limpar Endereços de \"Mirror\""
+
+#: standard input:4
+#, fuzzy
+msgid "Local mirror of repository"
 msgstr "Local de Mirrors"
 
-#: standard input:11
+#: backend3/mirror:61
+msgid "Mb"
+msgstr "Mb"
+
+#: standard input:5
+msgid "Publish as a repository for automatic updates"
+msgstr ""
+
+#: standard input:17
+msgid "Published"
+msgstr ""
+
+#: standard input:13
 msgid "Repository"
 msgstr "Repositório"
 
@@ -59,7 +99,7 @@ msgstr "Repositório"
 msgid "Repository:"
 msgstr "Repositório:"
 
-#: standard input:5 input:10
+#: standard input:7 input:12
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -68,7 +108,7 @@ msgstr ""
 "#-#-#-#-#  pt_BR.po (Alterator)  #-#-#-#-#\n"
 "Resetar"
 
-#: standard input:12
+#: standard input:14
 msgid "Source"
 msgstr "Fonte"
 
@@ -76,11 +116,11 @@ msgstr "Fonte"
 msgid "Source:"
 msgstr "Fonte:"
 
-#: standard input:15
+#: standard input:18
 msgid "Storage free space:"
 msgstr "Espaço de Disco de armazenamento:"
 
-#: standard input:16
+#: standard input:19
 msgid ""
 "Synchronization will start every night. First synchronization with some "
 "repository may take a long time."
@@ -88,14 +128,33 @@ msgstr ""
 "Sincronização irá iniciar todas as noites. Primeira sincronização com algum "
 "repositório pode demorar bastante tempo."
 
-#: standard input:17
+#: standard input:1
+#, fuzzy
+msgid "Update sources"
+msgstr "Ver código fonte"
+
+#: standard input:20
 msgid "Warning:"
 msgstr "Cuidado:"
 
-#: standard input:18
+#: standard input:21
 msgid "mirroring requires a lot of disk space."
 msgstr "Espelhos requeridos com um bom espaço em disco"
 
-#: backend3/mirror:67 backend3/mirror:87
-msgid "no mirroring"
-msgstr "nenhum espelho"
+#: backend3/mirror:84 backend3/mirror:85 backend3/mirror:109
+#: backend3/mirror:116
+msgid "no"
+msgstr "não"
+
+#: backend3/mirror:106 backend3/mirror:114
+msgid "yes"
+msgstr "sim"
+
+#~ msgid "Disk usage"
+#~ msgstr "Uso do Disco:"
+
+#~ msgid "Local mirrors of repositories"
+#~ msgstr "Local de Mirrors"
+
+#~ msgid "no mirroring"
+#~ msgstr "nenhum espelho"
