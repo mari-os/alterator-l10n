@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.6
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Feb 11 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt3
+- update translations for alterator-mirror
+
 * Wed Feb 11 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt2
 - add alterator-updates
 
