@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.6
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Feb 11 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt2
+- add alterator-updates
+
 * Tue Feb 10 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt1
 - move alterator-pkg to new schema
 - remove files for alterator-tzone
