@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.6
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Feb 13 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.6-alt4
+- rewrite ru help for new alterator-net-iptables
+
 * Wed Feb 11 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt3
 - update translations for alterator-mirror
 
