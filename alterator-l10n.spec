@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.6
-Release: alt4
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Feb 16 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt5
+- move alterator-net-eth to new schema
+
 * Fri Feb 13 2009 Vladislav Zavjalov <slazav@altlinux.org> 1.6-alt4
 - rewrite ru help for new alterator-net-iptables
 
