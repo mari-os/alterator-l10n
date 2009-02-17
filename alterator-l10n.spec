@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.6
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Feb 17 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt6
+- update translations for alterator-pkg and alterator-root
+
 * Mon Feb 16 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt5
 - move alterator-net-eth to new schema
 
