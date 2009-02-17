@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-26 15:27+0300\n"
+"POT-Creation-Date: 2009-02-17 16:14+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -24,9 +24,22 @@ msgstr "(вкажіть пароль)"
 msgid "(repeat passphrase)"
 msgstr "(повторіть пароль)"
 
+#: standard input:10
+msgid "Add"
+msgstr "Додати"
+
 #: standard input:6 ui/root/index.scm:46
 msgid "Apply"
 msgstr "Застосувати"
+
+#: standard input:7
+msgid "Authorized ssh keys:"
+msgstr ""
+
+#: standard input:8
+#, fuzzy
+msgid "Delete key"
+msgstr "Видалити користувача"
 
 #: standard input:5 ui/root/index.scm:37
 msgid "Generate"
@@ -36,11 +49,31 @@ msgstr "Згенерувати"
 msgid "Generate automatically"
 msgstr "Згенерувати автоматично"
 
-#: backend3/root:30
+#: backend3/root:38
+#, fuzzy
+msgid "Invalid ssh key"
+msgstr "Невірний формат диска"
+
+#: standard input:9
+#, fuzzy
+msgid "New key:"
+msgstr "Новий користувач:"
+
+#: standard input:1
+#, fuzzy
+msgid "Password for system administrator:"
+msgstr "Встановити пароль системного адміністратора:"
+
+#: backend3/root:88
 msgid "Passwords mismatch"
 msgstr "Паролі не співпадають"
 
-#: standard input:1 ui/root/index.scm:24
+#: backend3/root:45
+#, fuzzy
+msgid "Same ssh key already exists"
+msgstr "Такий користувач вже є"
+
+#: ui/root/index.scm:24
 msgid "Setup password for system administrator:"
 msgstr "Встановити пароль системного адміністратора:"
 
@@ -48,6 +81,6 @@ msgstr "Встановити пароль системного адмініст�
 msgid "System administrator"
 msgstr "Системний адміністратор"
 
-#: backend3/root:24 backend3/root:28
+#: backend3/root:82 backend3/root:86
 msgid "You should define a password for system administrator"
 msgstr "Треба надати пароль системного адміністратора"
