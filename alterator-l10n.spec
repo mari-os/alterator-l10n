@@ -74,6 +74,7 @@ make check
 * Tue Feb 24 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt8
 - alterator-ahttpd: update help
 - alterator-net-iptables: fix typo
+- add translations for alterator-firsttime
 
 * Thu Feb 19 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt7
 - update translations for alterator-updates
