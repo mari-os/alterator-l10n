@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-24 17:25+0300\n"
+"POT-Creation-Date: 2009-02-25 16:42+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,48 +18,52 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:5
+#: standard input:10
 msgid "(TCP port for server to listen to)"
 msgstr "(TCP порт на котором сервер принимает соединения)"
 
-#: standard input:7
+#: standard input:12
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(оставьте это поле пустым для работы на всех интерфейсах)"
 
-#: standard input:9
+#: standard input:14
 msgid "(logging granularity influences its size)"
 msgstr "(подробность протоколирования влияет на размер журнала)"
 
-#: standard input:20
+#: standard input:25
 msgid "(organization name, written in latin letters)"
 msgstr "(название организации, написанное латинскими буквами)"
 
-#: standard input:22
+#: standard input:27
 msgid "(organizational unit name, written in latin letters)"
 msgstr "(название подразделения, написанное латинскими буквами)"
 
-#: standard input:14
+#: standard input:19
 msgid "(public hostname)"
 msgstr "(публичное имя компьютера)"
 
-#: standard input:24
+#: standard input:29
 msgid "(recreate private key, sign request and self-signed certificate)"
 msgstr ""
 "(пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат)"
 
-#: standard input:18
+#: standard input:23
 msgid "(state or city, written in latin letters)"
 msgstr "(название города или области, написанное латинскими буквами)"
 
-#: standard input:16
+#: standard input:21
 msgid "(two letter country code)"
 msgstr "(двухбуквенный код страны)"
 
-#: standard input:33
+#: standard input:2
+msgid "Account name:"
+msgstr "Учётная запись:"
+
+#: standard input:38
 msgid "Add"
 msgstr "Добавить"
 
-#: standard input:10
+#: standard input:15
 msgid "Apply"
 msgstr "Применить"
 
@@ -71,19 +75,19 @@ msgstr "Апрель"
 msgid "August"
 msgstr "Август"
 
-#: backend3/login:13
+#: backend3/login:12
 msgid "Authentication failed"
 msgstr "Аутентификация не прошла"
 
-#: standard input:12
+#: standard input:17
 msgid "Certificate"
 msgstr "Сертификат"
 
-#: standard input:13
+#: standard input:18
 msgid "Common Name (CN):"
 msgstr "Общее имя (CN):"
 
-#: standard input:15
+#: standard input:20
 msgid "Country (C):"
 msgstr "Страна (C):"
 
@@ -91,7 +95,7 @@ msgstr "Страна (C):"
 msgid "December"
 msgstr "Декабрь"
 
-#: standard input:31
+#: standard input:36
 msgid "Delete"
 msgstr "Удалить"
 
@@ -99,16 +103,20 @@ msgstr "Удалить"
 msgid "Do you really want to delete "
 msgstr "Вы действительно желаете удалить "
 
-#: standard input:26
+#: standard input:31
 msgid "Download sign request"
 msgstr "Забрать запрос на подпись"
+
+#: standard input:45
+msgid "Exiting..."
+msgstr "Завершение работы..."
 
 #: interfaces/guile/ahttpd/translate.scm:54
 msgid "February"
 msgstr "Февраль"
 
 # ahttpd-acl
-#: standard input:30
+#: standard input:35
 msgid "Following users have access:"
 msgstr "Следующие пользователи имеют доступ:"
 
@@ -116,7 +124,7 @@ msgstr "Следующие пользователи имеют доступ:"
 msgid "Fr"
 msgstr "Пт"
 
-#: standard input:3
+#: standard input:8
 msgid "General settings"
 msgstr "Общие настройки"
 
@@ -124,7 +132,7 @@ msgstr "Общие настройки"
 msgid "HTTP server"
 msgstr "HTTP-сервер"
 
-#: standard input:1
+#: standard input:6
 msgid "HTTP server is restarting now. Please wait..."
 msgstr "HTTP-сервер перезапускается. Пожалуйста подождите..."
 
@@ -132,13 +140,17 @@ msgstr "HTTP-сервер перезапускается. Пожалуйста �
 msgid "Help"
 msgstr "Справка"
 
-#: standard input:36
+#: standard input:41
 msgid "Hide help"
 msgstr "Cкрыть справку"
 
-#: standard input:34
+#: standard input:39
 msgid "Hostname"
 msgstr "Имя компьютера"
+
+#: standard input:4
+msgid "Interface language:"
+msgstr "Язык интерфейса:"
 
 #: backend3/ahttpd-server:156
 msgid "Invalid certificate file"
@@ -156,17 +168,25 @@ msgstr "Июль"
 msgid "June"
 msgstr "Июнь"
 
-#: standard input:6
+#: standard input:11
 msgid "Listen address:"
 msgstr "Адрес:"
 
-#: standard input:17
+#: standard input:22
 msgid "Location (L):"
 msgstr "Местоположение (L):"
 
-#: standard input:8
+#: standard input:13
 msgid "Logging:"
 msgstr "Протоколирование:"
+
+#: standard input:5
+msgid "Login"
+msgstr "Войти"
+
+#: standard input:42
+msgid "Logout"
+msgstr "Выйти"
 
 #: interfaces/guile/ahttpd/translate.scm:55
 msgid "March"
@@ -181,17 +201,17 @@ msgid "Mo"
 msgstr "Пн"
 
 # ahttpd-acl
-#: standard input:29
+#: standard input:34
 msgid "Module access settings"
 msgstr "Параметры доступа к модулю"
 
 # ahttpd-acl
-#: standard input:38
+#: standard input:44
 msgid "Module access settings..."
 msgstr "Параметры доступа к модулю..."
 
 # ahttpd-acl
-#: standard input:32
+#: standard input:37
 msgid "New user:"
 msgstr "Новый пользователь:"
 
@@ -216,23 +236,31 @@ msgstr "Ноябрь"
 msgid "October"
 msgstr "Октябрь"
 
-#: standard input:19
+#: standard input:24
 msgid "Organization (O):"
 msgstr "Организация (O):"
 
-#: standard input:21
+#: standard input:26
 msgid "Organizational Unit (OU):"
 msgstr "Подразделение (OU):"
 
-#: standard input:4
+#: standard input:3
+msgid "Password:"
+msgstr "Пароль:"
+
+#: standard input:1
+msgid "Please login"
+msgstr "Пожалуйста зарегистрируйтесь"
+
+#: standard input:9
 msgid "Port:"
 msgstr "Порт:"
 
-#: standard input:23
+#: standard input:28
 msgid "Recreate"
 msgstr "Пересоздать"
 
-#: standard input:2
+#: standard input:7
 msgid "Restart HTTP server"
 msgstr "Перезапустить HTTP-сервер"
 
@@ -248,11 +276,11 @@ msgstr "Сб"
 msgid "September"
 msgstr "Сентябрь"
 
-#: standard input:35
+#: standard input:40
 msgid "Show help"
 msgstr "Показать справку"
 
-#: standard input:25
+#: standard input:30
 msgid "Sign"
 msgstr "Подпись"
 
@@ -260,11 +288,11 @@ msgstr "Подпись"
 msgid "Su"
 msgstr "Вс"
 
-#: standard input:37
+#: standard input:43
 msgid "System management center"
 msgstr "Центр управления системой"
 
-#: standard input:11
+#: standard input:16
 msgid "TLS settings"
 msgstr "Настройки TLS"
 
@@ -280,11 +308,11 @@ msgstr "Вт"
 msgid "Unsupported mode"
 msgstr "Неподдерживаемый режим"
 
-#: standard input:28
+#: standard input:33
 msgid "Upload"
 msgstr "Положить"
 
-#: standard input:27
+#: standard input:32
 msgid "Upload certificate signed by CA:"
 msgstr "Положить сертификат, подписанный УЦ:"
 

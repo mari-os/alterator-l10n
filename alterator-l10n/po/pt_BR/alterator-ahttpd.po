@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-24 17:25+0300\n"
+"POT-Creation-Date: 2009-02-25 16:42+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,47 +19,52 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:5
+#: standard input:10
 msgid "(TCP port for server to listen to)"
 msgstr "(Porta TCP para o servidor)"
 
-#: standard input:7
+#: standard input:12
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(deixe esse campo em branco para listar em todas as interfaces)"
 
-#: standard input:9
+#: standard input:14
 msgid "(logging granularity influences its size)"
 msgstr "(Tamanho do login)"
 
-#: standard input:20
+#: standard input:25
 msgid "(organization name, written in latin letters)"
 msgstr "(Nome da Empresa)"
 
-#: standard input:22
+#: standard input:27
 msgid "(organizational unit name, written in latin letters)"
 msgstr "(Unidade da Empresa)"
 
-#: standard input:14
+#: standard input:19
 msgid "(public hostname)"
 msgstr "(Hostname Público)"
 
-#: standard input:24
+#: standard input:29
 msgid "(recreate private key, sign request and self-signed certificate)"
 msgstr "(Recriar Private Key)"
 
-#: standard input:18
+#: standard input:23
 msgid "(state or city, written in latin letters)"
 msgstr "(Estado ou cidade)"
 
-#: standard input:16
+#: standard input:21
 msgid "(two letter country code)"
 msgstr "(Duas Letras do País)"
 
-#: standard input:33
+#: standard input:2
+#, fuzzy
+msgid "Account name:"
+msgstr "Nome da Conta:"
+
+#: standard input:38
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:10
+#: standard input:15
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -71,20 +76,20 @@ msgstr "Abril"
 msgid "August"
 msgstr "Agosto"
 
-#: backend3/login:13
+#: backend3/login:12
 #, fuzzy
 msgid "Authentication failed"
 msgstr "Destino"
 
-#: standard input:12
+#: standard input:17
 msgid "Certificate"
 msgstr "Certificado"
 
-#: standard input:13
+#: standard input:18
 msgid "Common Name (CN):"
 msgstr "Nome Comum (CN):"
 
-#: standard input:15
+#: standard input:20
 msgid "Country (C):"
 msgstr "País:"
 
@@ -92,7 +97,7 @@ msgstr "País:"
 msgid "December"
 msgstr "Dezembro"
 
-#: standard input:31
+#: standard input:36
 msgid "Delete"
 msgstr "Deletar"
 
@@ -100,15 +105,19 @@ msgstr "Deletar"
 msgid "Do you really want to delete "
 msgstr "Você realmente deseja apagar"
 
-#: standard input:26
+#: standard input:31
 msgid "Download sign request"
 msgstr "Download do Requerido"
+
+#: standard input:45
+msgid "Exiting..."
+msgstr ""
 
 #: interfaces/guile/ahttpd/translate.scm:54
 msgid "February"
 msgstr "Fevereiro"
 
-#: standard input:30
+#: standard input:35
 msgid "Following users have access:"
 msgstr "Os usuários não possuem acesso:"
 
@@ -116,7 +125,7 @@ msgstr "Os usuários não possuem acesso:"
 msgid "Fr"
 msgstr "Fr"
 
-#: standard input:3
+#: standard input:8
 #, fuzzy
 msgid "General settings"
 msgstr "Configurações avançadas"
@@ -125,7 +134,7 @@ msgstr "Configurações avançadas"
 msgid "HTTP server"
 msgstr "Servidor HTTP"
 
-#: standard input:1
+#: standard input:6
 msgid "HTTP server is restarting now. Please wait..."
 msgstr ""
 
@@ -133,14 +142,19 @@ msgstr ""
 msgid "Help"
 msgstr "Ajuda"
 
-#: standard input:36
+#: standard input:41
 #, fuzzy
 msgid "Hide help"
 msgstr "Atualizações de Ajuda"
 
-#: standard input:34
+#: standard input:39
 msgid "Hostname"
 msgstr "hostname:"
+
+#: standard input:4
+#, fuzzy
+msgid "Interface language:"
+msgstr "Selecione sua Linguagem"
 
 #: backend3/ahttpd-server:156
 msgid "Invalid certificate file"
@@ -158,17 +172,26 @@ msgstr "Julho"
 msgid "June"
 msgstr "Junho"
 
-#: standard input:6
+#: standard input:11
 msgid "Listen address:"
 msgstr "Endereços Disponíveis"
 
-#: standard input:17
+#: standard input:22
 msgid "Location (L):"
 msgstr "Localização:"
 
-#: standard input:8
+#: standard input:13
 msgid "Logging:"
 msgstr "Logando:"
+
+#: standard input:5
+#, fuzzy
+msgid "Login"
+msgstr "Logando:"
+
+#: standard input:42
+msgid "Logout"
+msgstr ""
 
 #: interfaces/guile/ahttpd/translate.scm:55
 msgid "March"
@@ -182,15 +205,15 @@ msgstr "Maio"
 msgid "Mo"
 msgstr "Mo"
 
-#: standard input:29
+#: standard input:34
 msgid "Module access settings"
 msgstr "Módulo de acesso nas configurações"
 
-#: standard input:38
+#: standard input:44
 msgid "Module access settings..."
 msgstr "Módulo de acesso nas configurações..."
 
-#: standard input:32
+#: standard input:37
 msgid "New user:"
 msgstr "Novo Usuário"
 
@@ -215,25 +238,35 @@ msgstr "Novembro"
 msgid "October"
 msgstr "Outro:"
 
-#: standard input:19
+#: standard input:24
 msgid "Organization (O):"
 msgstr "Organização:"
 
-#: standard input:21
+#: standard input:26
 msgid "Organizational Unit (OU):"
 msgstr "Unidade:"
 
-#: standard input:4
+#: standard input:3
+#, fuzzy
+msgid "Password:"
+msgstr "Senha"
+
+#: standard input:1
+#, fuzzy
+msgid "Please login"
+msgstr "Por favor insira um Disco"
+
+#: standard input:9
 #, fuzzy
 msgid "Port:"
 msgstr "Boot:"
 
-#: standard input:23
+#: standard input:28
 #, fuzzy
 msgid "Recreate"
 msgstr "Resetar:"
 
-#: standard input:2
+#: standard input:7
 msgid "Restart HTTP server"
 msgstr "Resetar Servidor HTTP"
 
@@ -251,11 +284,11 @@ msgstr "Salvar"
 msgid "September"
 msgstr "Usuário do Sistema"
 
-#: standard input:35
+#: standard input:40
 msgid "Show help"
 msgstr ""
 
-#: standard input:25
+#: standard input:30
 msgid "Sign"
 msgstr "Entrar"
 
@@ -263,11 +296,11 @@ msgstr "Entrar"
 msgid "Su"
 msgstr "Su"
 
-#: standard input:37
+#: standard input:43
 msgid "System management center"
 msgstr "Centro de Configuração do sistema"
 
-#: standard input:11
+#: standard input:16
 #, fuzzy
 msgid "TLS settings"
 msgstr "Configurações avançadas"
@@ -284,11 +317,11 @@ msgstr "Tu"
 msgid "Unsupported mode"
 msgstr "Modo não suportado"
 
-#: standard input:28
+#: standard input:33
 msgid "Upload"
 msgstr "Enviar"
 
-#: standard input:27
+#: standard input:32
 msgid "Upload certificate signed by CA:"
 msgstr "Atualizado Certificado assinado por:"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-24 17:25+0300\n"
+"POT-Creation-Date: 2009-02-25 16:42+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,52 +16,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:5
+#: standard input:10
 msgid "(TCP port for server to listen to)"
 msgstr "(TCP-порт, який має слухати сервер)"
 
-#: standard input:7
+#: standard input:12
 #, fuzzy
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr ""
 "(IP-адреса, на якій сервер приймає з'єднання або '*' для обслуговування усіх "
 "інтерфейсів)"
 
-#: standard input:9
+#: standard input:14
 msgid "(logging granularity influences its size)"
 msgstr "(докладність протоколу впливає на розмір журналу)"
 
-#: standard input:20
+#: standard input:25
 msgid "(organization name, written in latin letters)"
 msgstr "(назва організації латиницею)"
 
-#: standard input:22
+#: standard input:27
 msgid "(organizational unit name, written in latin letters)"
 msgstr "(назва підрозділу організації латиницею)"
 
-#: standard input:14
+#: standard input:19
 msgid "(public hostname)"
 msgstr "(невірне ім'я хоста)"
 
-#: standard input:24
+#: standard input:29
 msgid "(recreate private key, sign request and self-signed certificate)"
 msgstr ""
 "(створити наново секретний ключ, запит на підпис та самопідписаний "
 "сертифікат)"
 
-#: standard input:18
+#: standard input:23
 msgid "(state or city, written in latin letters)"
 msgstr "(місто латиницею)"
 
-#: standard input:16
+#: standard input:21
 msgid "(two letter country code)"
 msgstr "(дволітерний код країни)"
 
-#: standard input:33
+#: standard input:2
+#, fuzzy
+msgid "Account name:"
+msgstr "Логін:"
+
+#: standard input:38
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:10
+#: standard input:15
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -73,20 +78,20 @@ msgstr "Квітень"
 msgid "August"
 msgstr "Серпень"
 
-#: backend3/login:13
+#: backend3/login:12
 #, fuzzy
 msgid "Authentication failed"
 msgstr "Аутентифікація"
 
-#: standard input:12
+#: standard input:17
 msgid "Certificate"
 msgstr "Сертіфікат"
 
-#: standard input:13
+#: standard input:18
 msgid "Common Name (CN):"
 msgstr "Спільне ім'я (CN):"
 
-#: standard input:15
+#: standard input:20
 msgid "Country (C):"
 msgstr "Країна (C):"
 
@@ -94,7 +99,7 @@ msgstr "Країна (C):"
 msgid "December"
 msgstr "Грудень"
 
-#: standard input:31
+#: standard input:36
 msgid "Delete"
 msgstr "Видалити"
 
@@ -102,15 +107,19 @@ msgstr "Видалити"
 msgid "Do you really want to delete "
 msgstr "Ви дійсно бажаєте видалити "
 
-#: standard input:26
+#: standard input:31
 msgid "Download sign request"
 msgstr "Звантажити запит на підпис"
+
+#: standard input:45
+msgid "Exiting..."
+msgstr ""
 
 #: interfaces/guile/ahttpd/translate.scm:54
 msgid "February"
 msgstr "Лютий"
 
-#: standard input:30
+#: standard input:35
 msgid "Following users have access:"
 msgstr "Наступні користувачі мають доступ:"
 
@@ -118,7 +127,7 @@ msgstr "Наступні користувачі мають доступ:"
 msgid "Fr"
 msgstr "Пт"
 
-#: standard input:3
+#: standard input:8
 msgid "General settings"
 msgstr "Загальні параметри"
 
@@ -126,7 +135,7 @@ msgstr "Загальні параметри"
 msgid "HTTP server"
 msgstr "HTTP-сервер"
 
-#: standard input:1
+#: standard input:6
 msgid "HTTP server is restarting now. Please wait..."
 msgstr ""
 
@@ -134,14 +143,19 @@ msgstr ""
 msgid "Help"
 msgstr "Довідка"
 
-#: standard input:36
+#: standard input:41
 #, fuzzy
 msgid "Hide help"
 msgstr "Поновити довідку"
 
-#: standard input:34
+#: standard input:39
 msgid "Hostname"
 msgstr "Назва хоста"
+
+#: standard input:4
+#, fuzzy
+msgid "Interface language:"
+msgstr "Мова сайту:"
 
 #: backend3/ahttpd-server:156
 msgid "Invalid certificate file"
@@ -159,17 +173,26 @@ msgstr "Липень"
 msgid "June"
 msgstr "Червень"
 
-#: standard input:6
+#: standard input:11
 msgid "Listen address:"
 msgstr "IP-адреса:"
 
-#: standard input:17
+#: standard input:22
 msgid "Location (L):"
 msgstr "Місце (L):"
 
-#: standard input:8
+#: standard input:13
 msgid "Logging:"
 msgstr "Протоколювання:"
+
+#: standard input:5
+#, fuzzy
+msgid "Login"
+msgstr "Протоколювання:"
+
+#: standard input:42
+msgid "Logout"
+msgstr ""
 
 #: interfaces/guile/ahttpd/translate.scm:55
 msgid "March"
@@ -183,16 +206,16 @@ msgstr "Травень"
 msgid "Mo"
 msgstr "Пн"
 
-#: standard input:29
+#: standard input:34
 msgid "Module access settings"
 msgstr "Налаштування доступу до модуля"
 
-#: standard input:38
+#: standard input:44
 #, fuzzy
 msgid "Module access settings..."
 msgstr "Налаштування доступу до модуля"
 
-#: standard input:32
+#: standard input:37
 msgid "New user:"
 msgstr "Новий користувач:"
 
@@ -216,23 +239,32 @@ msgstr "Листопад"
 msgid "October"
 msgstr "Жовтень"
 
-#: standard input:19
+#: standard input:24
 msgid "Organization (O):"
 msgstr "Організація (O):"
 
-#: standard input:21
+#: standard input:26
 msgid "Organizational Unit (OU):"
 msgstr "Подрозділ (OU):"
 
-#: standard input:4
+#: standard input:3
+msgid "Password:"
+msgstr "Пароль:"
+
+#: standard input:1
+#, fuzzy
+msgid "Please login"
+msgstr "Вставте диск"
+
+#: standard input:9
 msgid "Port:"
 msgstr "Порт:"
 
-#: standard input:23
+#: standard input:28
 msgid "Recreate"
 msgstr "Створити наново"
 
-#: standard input:2
+#: standard input:7
 msgid "Restart HTTP server"
 msgstr "Перезапустити HTTP-сервер"
 
@@ -248,11 +280,11 @@ msgstr "Сб"
 msgid "September"
 msgstr "Вересень"
 
-#: standard input:35
+#: standard input:40
 msgid "Show help"
 msgstr ""
 
-#: standard input:25
+#: standard input:30
 msgid "Sign"
 msgstr "Підписати"
 
@@ -260,11 +292,11 @@ msgstr "Підписати"
 msgid "Su"
 msgstr "Нд"
 
-#: standard input:37
+#: standard input:43
 msgid "System management center"
 msgstr "Центр керування системою"
 
-#: standard input:11
+#: standard input:16
 msgid "TLS settings"
 msgstr "Налаштування TLS"
 
@@ -280,11 +312,11 @@ msgstr "Вт"
 msgid "Unsupported mode"
 msgstr "Режим не підтримується"
 
-#: standard input:28
+#: standard input:33
 msgid "Upload"
 msgstr "Відвантажити"
 
-#: standard input:27
+#: standard input:32
 msgid "Upload certificate signed by CA:"
 msgstr "Відвантажити сертифікат, підписаний УЦ:"
 
