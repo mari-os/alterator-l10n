@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 1.6
-Release: alt9
+Release: alt10
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Feb 26 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt10
+- add alterator-office-server
+
 * Wed Feb 25 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt9
 - alterator-ahttpd: update translations
 
