@@ -1,17 +1,11 @@
 PO_LOCALEDIR=$(datadir)/locale
 
-l10ndir=$(datadir)/alterator/l10n
-new_l10ndir=$(datadir)/alterator/
-
 install: install-po install-tzone-po install-country-po
-	for i in $(wildcard *.po) $(wildcard *.pot); do \
-	  install $$i -Dpm644 $(l10ndir)/$$i; \
-	done
 	install -d $(datadir)/alterator/help
 	cp -a help/* $(datadir)/alterator/help
 
 check:
-	for i in $(wildcard *.po) $(wildcard *.pot);do \
+	for i in $(wildcard po/*/*.po);do \
 	    msgfmt $$i -o /dev/null || exit 1; \
 	done
 

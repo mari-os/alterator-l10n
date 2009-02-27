@@ -59,8 +59,6 @@ make check
 %makeinstall
 
 %files
-%_datadir/alterator/l10n
-
 %lang(en) %_datadir/alterator/help/en_US/*.html
 %lang(ru) %_datadir/alterator/help/ru_RU/*.html
 %lang(uk) %_datadir/alterator/help/uk_UA/*.html
