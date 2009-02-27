@@ -7,9 +7,8 @@ install: install-po install-tzone-po install-country-po
 	for i in $(wildcard *.po) $(wildcard *.pot); do \
 	  install $$i -Dpm644 $(l10ndir)/$$i; \
 	done
-	install -d $(l10ndir)/help $(new_l10ndir)/help
-	cp -a old_help/* $(l10ndir)/help
-	cp -a new_help/* $(new_l10ndir)/help
+	install -d $(datadir)/alterator/help
+	cp -a help/* $(datadir)/alterator/help
 
 check:
 	for i in $(wildcard *.po) $(wildcard *.pot);do \
