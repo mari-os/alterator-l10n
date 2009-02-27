@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 1.6
-Release: alt10
+Version: 2.0
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -69,6 +69,11 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Feb 27 2009 Stanislav Ievlev <inger@altlinux.org> 2.0-alt1
+- move to new schema: alterator-standalone, alterator-mailman, alterator-logs
+- remove old help
+- don't install compendum
+
 * Thu Feb 26 2009 Stanislav Ievlev <inger@altlinux.org> 1.6-alt10
 - add alterator-office-server
 
