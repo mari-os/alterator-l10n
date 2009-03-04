@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.0
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -69,6 +69,10 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Mar 04 2009 Stanislav Ievlev <inger@altlinux.org> 2.0-alt2
+- add alterator-net-domain
+- update translations: alterator, alterator-net-eth
+
 * Fri Feb 27 2009 Stanislav Ievlev <inger@altlinux.org> 2.0-alt1
 - move to new schema: alterator-standalone, alterator-mailman, alterator-logs
 - remove old help
