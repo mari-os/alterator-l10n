@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 12:13+0300\n"
+"POT-Creation-Date: 2009-03-04 12:29+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,99 +18,99 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:3
+#: standard input:9
 msgid "Accounting"
 msgstr "Учёт"
 
-#: standard input:13
+#: standard input:1
 msgid "Date/Time"
 msgstr "Дата и время"
 
-#: standard input:19
+#: standard input:17
 msgid "Graphical interface"
 msgstr "Графический интерфейс"
 
-#: standard input:7
+#: standard input:21
 msgid "Mail"
 msgstr "Почта"
 
-#: standard input:11
+#: standard input:23
 msgid "Network"
 msgstr "Сеть"
 
-#: standard input:24
+#: standard input:20
 msgid "Operating system information and setup"
 msgstr "Информация об установленной системе и её настройка"
 
-#: standard input:5
+#: standard input:3
 msgid "Other"
 msgstr "Другие"
 
-#: standard input:6
+#: standard input:4
 msgid "Other system settings"
 msgstr "Прочие параметры системы"
 
-#: standard input:9
+#: standard input:5
 msgid "Programs"
 msgstr "Программное обеспечение"
 
-#: standard input:17
+#: standard input:11
 msgid "Servers"
 msgstr "Серверы"
 
-#: standard input:8
+#: standard input:22
 msgid "Setup e-mail service"
 msgstr "Настройка службы электронной почты"
 
-#: standard input:16
+#: standard input:14
 msgid "Setup embedded web server"
 msgstr "Настройка встроенного веб-сервера"
 
-#: standard input:20
+#: standard input:18
 msgid "Setup input/output devices"
 msgstr "Настройка устройств ввода-вывода"
 
-#: standard input:12
+#: standard input:24
 msgid "Setup network connections"
 msgstr "Настройка подключения к сети"
 
-#: standard input:10
+#: standard input:6
 msgid "Setup, remove and update programs"
 msgstr "Установка, удаление и обновление программ"
 
-#: standard input:1
+#: standard input:15
 msgid "Statistics"
 msgstr "Статистика"
 
-#: standard input:23
+#: standard input:19
 msgid "System"
 msgstr "Система"
 
-#: standard input:4
+#: standard input:10
 msgid "System accounting"
 msgstr "Учётная информация по системе"
 
-#: standard input:14
+#: standard input:2
 msgid "System clock setup"
 msgstr "Настройка системных часов"
 
-#: standard input:2
+#: standard input:16
 msgid "System statistics"
 msgstr "Статистика по компонентам системы"
 
-#: standard input:22
+#: standard input:8
 msgid "System users management"
 msgstr "Управление пользователями системы"
 
-#: standard input:21
+#: standard input:7
 msgid "Users"
 msgstr "Пользователи"
 
-#: standard input:18
+#: standard input:12
 msgid "Various network services"
 msgstr "Настройка различных сетевых служб"
 
-#: standard input:15
+#: standard input:13
 msgid "Web interface"
 msgstr "Веб-интерфейс"
 
@@ -149,6 +149,10 @@ msgstr "недопустимое имя компьютера"
 #: interfaces/guile/type/hostname-list.scm:14
 msgid "invalid hostname list"
 msgstr "недопустимый список имён компьютеров"
+
+#: interfaces/guile/type/system-computer-name.scm:12
+msgid "only latin letters, digits, '-', and '_' allowed"
+msgstr "допустимы только латинские символы, цифры, '-' и '_'"
 
 #: interfaces/guile/type/system-account-name.scm:12
 msgid "only small latin letters, digits and '_' allowed"

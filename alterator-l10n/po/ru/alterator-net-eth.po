@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-16 15:48+0300\n"
+"POT-Creation-Date: 2009-03-04 12:29+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,12 +18,17 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:11 ui/net-eth/index.scm:151
+#: standard input:11 ui/net-eth/index.scm:148
 msgid "Apply"
 msgstr "Применить"
 
 #.
-#: standard input:6 ui/net-eth/index.scm:119
+#: standard input:1 ui/net-eth/index.scm:80
+msgid "Computer name:"
+msgstr "Имя компьютера:"
+
+#.
+#: standard input:5 ui/net-eth/index.scm:115
 msgid "Configuration:"
 msgstr "Конфигурация:"
 
@@ -33,7 +38,7 @@ msgid "DNS servers:"
 msgstr "DNS-серверы:"
 
 #.
-#: standard input:9 ui/net-eth/index.scm:130
+#: standard input:8 ui/net-eth/index.scm:126
 msgid "Default gateway:"
 msgstr "Шлюз по умолчанию:"
 
@@ -42,17 +47,12 @@ msgid "Ethernet interfaces"
 msgstr "Ethernet-интерфейсы"
 
 #.
-#: standard input:10 ui/net-eth/index.scm:134
+#: standard input:9 ui/net-eth/index.scm:130
 msgid "Hardware binding:"
 msgstr "Привязка:"
 
 #.
-#: standard input:1 ui/net-eth/index.scm:80
-msgid "Host name:"
-msgstr "Имя компьютера:"
-
-#.
-#: standard input:7 ui/net-eth/index.scm:122
+#: standard input:6 ui/net-eth/index.scm:118
 msgid "IP address:"
 msgstr "IP-адрес:"
 
@@ -60,20 +60,20 @@ msgstr "IP-адрес:"
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
-#: backend3/net-eth:147
+#: backend3/net-eth:167
 msgid "Managed by user (NetworkManager)"
 msgstr "Управляется пользователем (NetworkManager)"
 
-#: backend3/net-eth:150
+#: backend3/net-eth:170
 msgid "Manually"
 msgstr "Вручную"
 
 #.
-#: standard input:8 ui/net-eth/index.scm:126
+#: standard input:7 ui/net-eth/index.scm:122
 msgid "Netmask:"
 msgstr "Маска сети:"
 
-#: standard input:12 ui/net-eth/index.scm:152
+#: standard input:12 ui/net-eth/index.scm:149
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -82,44 +82,31 @@ msgstr "Вернуть"
 msgid "Search domains:"
 msgstr "Домены поиска:"
 
-#.
-#: standard input:5 ui/net-eth/index.scm:115
-msgid "Status:"
-msgstr "Состояние:"
-
-#: backend3/net-eth:146
+#: backend3/net-eth:166
 msgid "Turned off"
 msgstr "Выключено"
 
-#: backend3/net-eth:148
+#: backend3/net-eth:168
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
-#: backend3/net-eth:149
+#: backend3/net-eth:169
 msgid "Use Zeroconf"
 msgstr "Использовать Zeroconf"
 
-#: ui/net-eth/index.scm:139
+#: standard input:10 ui/net-eth/index.scm:135
 msgid "Wireless settings..."
 msgstr "Настройка беспроводной связи..."
 
-#: backend3/net-eth:140
+#: backend3/net-eth:160
 msgid "by MAC address"
 msgstr "по  аппаратному адресу (MAC)"
 
-#: backend3/net-eth:141
+#: backend3/net-eth:161
 msgid "by bus location"
 msgstr "по местоположению на шине"
 
-#: backend3/net-eth:181
-msgid "interface is down"
-msgstr "интерфейс выключен"
-
-#: backend3/net-eth:181
-msgid "interface is up"
-msgstr "интерфейс включён"
-
-#: backend3/net-eth:139
+#: backend3/net-eth:159
 msgid "missing"
 msgstr "отсутствует"
 
@@ -127,10 +114,10 @@ msgstr "отсутствует"
 msgid "multiple values should be space separated"
 msgstr "несколько значений записываются через пробел"
 
-#: backend3/net-eth:186
+#: backend3/net-eth:206
 msgid "plugged"
 msgstr "провод подсоединён"
 
-#: backend3/net-eth:187
+#: backend3/net-eth:208
 msgid "unplugged"
 msgstr "провод отсоединён"

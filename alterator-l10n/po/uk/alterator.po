@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 12:13+0300\n"
+"POT-Creation-Date: 2009-03-04 12:29+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,99 +16,99 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:3
+#: standard input:9
 msgid "Accounting"
 msgstr "Облік"
 
-#: standard input:13
+#: standard input:1
 msgid "Date/Time"
 msgstr "Дата й час"
 
-#: standard input:19
+#: standard input:17
 msgid "Graphical interface"
 msgstr "Графічний інтерфейс"
 
-#: standard input:7
+#: standard input:21
 msgid "Mail"
 msgstr "Пошта"
 
-#: standard input:11
+#: standard input:23
 msgid "Network"
 msgstr "Мережа"
 
-#: standard input:24
+#: standard input:20
 msgid "Operating system information and setup"
 msgstr "Налаштування операційної системи та інформація щодо неї"
 
-#: standard input:5
+#: standard input:3
 msgid "Other"
 msgstr "Інше"
 
-#: standard input:6
+#: standard input:4
 msgid "Other system settings"
 msgstr "Інші системні налаштування"
 
-#: standard input:9
+#: standard input:5
 msgid "Programs"
 msgstr "Програми"
 
-#: standard input:17
+#: standard input:11
 msgid "Servers"
 msgstr "Сервери"
 
-#: standard input:8
+#: standard input:22
 msgid "Setup e-mail service"
 msgstr "Налаштування поштової служби"
 
-#: standard input:16
+#: standard input:14
 msgid "Setup embedded web server"
 msgstr "Налаштування вбудованого веб-серверу"
 
-#: standard input:20
+#: standard input:18
 msgid "Setup input/output devices"
 msgstr "Налаштування пристроїв вводу/виводу"
 
-#: standard input:12
+#: standard input:24
 msgid "Setup network connections"
 msgstr "Налаштування мережевих з'єднань"
 
-#: standard input:10
+#: standard input:6
 msgid "Setup, remove and update programs"
 msgstr "Додавання, прибирання та поновлення програм"
 
-#: standard input:1
+#: standard input:15
 msgid "Statistics"
 msgstr "Статистика"
 
-#: standard input:23
+#: standard input:19
 msgid "System"
 msgstr "Система"
 
-#: standard input:4
+#: standard input:10
 msgid "System accounting"
 msgstr "Системний облік"
 
-#: standard input:14
+#: standard input:2
 msgid "System clock setup"
 msgstr "Налаштування системного годинника"
 
-#: standard input:2
+#: standard input:16
 msgid "System statistics"
 msgstr "Системна статистика"
 
-#: standard input:22
+#: standard input:8
 msgid "System users management"
 msgstr "Керування системними користувачами"
 
-#: standard input:21
+#: standard input:7
 msgid "Users"
 msgstr "Користувачі"
 
-#: standard input:18
+#: standard input:12
 msgid "Various network services"
 msgstr "Різноманітні мережні сервіси"
 
-#: standard input:15
+#: standard input:13
 msgid "Web interface"
 msgstr "Web-інтерфейс"
 
@@ -147,6 +147,11 @@ msgstr "невірне ім'я хосту"
 #: interfaces/guile/type/hostname-list.scm:14
 msgid "invalid hostname list"
 msgstr "невірний список імен хостів"
+
+#: interfaces/guile/type/system-computer-name.scm:12
+#, fuzzy
+msgid "only latin letters, digits, '-', and '_' allowed"
+msgstr "дозволені лише малі латинські літери, цифри і '_'"
 
 #: interfaces/guile/type/system-account-name.scm:12
 msgid "only small latin letters, digits and '_' allowed"

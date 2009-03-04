@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-16 15:48+0300\n"
+"POT-Creation-Date: 2009-03-04 12:29+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,12 +19,18 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:11 ui/net-eth/index.scm:151
+#: standard input:11 ui/net-eth/index.scm:148
 msgid "Apply"
 msgstr "Aplicar"
 
 #.
-#: standard input:6 ui/net-eth/index.scm:119
+#: standard input:1 ui/net-eth/index.scm:80
+#, fuzzy
+msgid "Computer name:"
+msgstr "Nome da Conta:"
+
+#.
+#: standard input:5 ui/net-eth/index.scm:115
 #, fuzzy
 msgid "Configuration:"
 msgstr "Informação"
@@ -35,7 +41,7 @@ msgid "DNS servers:"
 msgstr "Servidores DNS:"
 
 #.
-#: standard input:9 ui/net-eth/index.scm:130
+#: standard input:8 ui/net-eth/index.scm:126
 msgid "Default gateway:"
 msgstr "Gateway PAdrão"
 
@@ -45,18 +51,12 @@ msgid "Ethernet interfaces"
 msgstr "Interfaces de IP"
 
 #.
-#: standard input:10 ui/net-eth/index.scm:134
+#: standard input:9 ui/net-eth/index.scm:130
 msgid "Hardware binding:"
 msgstr "Hadware vinculado:"
 
 #.
-#: standard input:1 ui/net-eth/index.scm:80
-#, fuzzy
-msgid "Host name:"
-msgstr "Nome da Conta:"
-
-#.
-#: standard input:7 ui/net-eth/index.scm:122
+#: standard input:6 ui/net-eth/index.scm:118
 msgid "IP address:"
 msgstr "Endereço IP:"
 
@@ -65,20 +65,20 @@ msgstr "Endereço IP:"
 msgid "Interfaces"
 msgstr "Interfaces de IP"
 
-#: backend3/net-eth:147
+#: backend3/net-eth:167
 msgid "Managed by user (NetworkManager)"
 msgstr "Administrado pelo Usuário (NetworkManager)"
 
-#: backend3/net-eth:150
+#: backend3/net-eth:170
 msgid "Manually"
 msgstr "Manualmente"
 
 #.
-#: standard input:8 ui/net-eth/index.scm:126
+#: standard input:7 ui/net-eth/index.scm:122
 msgid "Netmask:"
 msgstr "Mascara de Rede:"
 
-#: standard input:12 ui/net-eth/index.scm:152
+#: standard input:12 ui/net-eth/index.scm:149
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -92,46 +92,31 @@ msgstr ""
 msgid "Search domains:"
 msgstr "Procurar Domínios:"
 
-#.
-#: standard input:5 ui/net-eth/index.scm:115
-msgid "Status:"
-msgstr "Status:"
-
-#: backend3/net-eth:146
+#: backend3/net-eth:166
 msgid "Turned off"
 msgstr "Desligar"
 
-#: backend3/net-eth:148
+#: backend3/net-eth:168
 msgid "Use DHCP"
 msgstr "Usar DHCP:"
 
-#: backend3/net-eth:149
+#: backend3/net-eth:169
 msgid "Use Zeroconf"
 msgstr "Usar ZeroConfig"
 
-#: ui/net-eth/index.scm:139
+#: standard input:10 ui/net-eth/index.scm:135
 msgid "Wireless settings..."
 msgstr "Configurações de Rede Sem Fio"
 
-#: backend3/net-eth:140
+#: backend3/net-eth:160
 msgid "by MAC address"
 msgstr "por endereço MAC"
 
-#: backend3/net-eth:141
+#: backend3/net-eth:161
 msgid "by bus location"
 msgstr "por localização"
 
-#: backend3/net-eth:181
-#, fuzzy
-msgid "interface is down"
-msgstr "Interfaces de IP"
-
-#: backend3/net-eth:181
-#, fuzzy
-msgid "interface is up"
-msgstr "Interfaces de IP"
-
-#: backend3/net-eth:139
+#: backend3/net-eth:159
 msgid "missing"
 msgstr "perdidos"
 
@@ -139,10 +124,25 @@ msgstr "perdidos"
 msgid "multiple values should be space separated"
 msgstr "multiplos valores com espaços em branco"
 
-#: backend3/net-eth:186
+#: backend3/net-eth:206
 msgid "plugged"
 msgstr "plugado"
 
-#: backend3/net-eth:187
+#: backend3/net-eth:208
 msgid "unplugged"
 msgstr "desplugado"
+
+#, fuzzy
+#~ msgid "Host name:"
+#~ msgstr "Nome da Conta:"
+
+#~ msgid "Status:"
+#~ msgstr "Status:"
+
+#, fuzzy
+#~ msgid "interface is down"
+#~ msgstr "Interfaces de IP"
+
+#, fuzzy
+#~ msgid "interface is up"
+#~ msgstr "Interfaces de IP"
