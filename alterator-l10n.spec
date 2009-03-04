@@ -71,7 +71,7 @@ make check
 %changelog
 * Wed Mar 04 2009 Stanislav Ievlev <inger@altlinux.org> 2.0-alt2
 - add alterator-net-domain
-- update translations: alterator, alterator-net-eth
+- update translations: alterator, alterator-net-eth, alterator-office-server
 
 * Fri Feb 27 2009 Stanislav Ievlev <inger@altlinux.org> 2.0-alt1
 - move to new schema: alterator-standalone, alterator-mailman, alterator-logs
