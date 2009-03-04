@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-04 12:29+0300\n"
+"POT-Creation-Date: 2009-03-04 14:27+0300\n"
 "PO-Revision-Date: 2009-01-29 12:37-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -143,13 +143,14 @@ msgstr "Porta TCP Inválida"
 msgid "invalid boolean value"
 msgstr "Valor do Boolen inválido"
 
-#: interfaces/guile/type/hostname.scm:14
-msgid "invalid hostname"
-msgstr "Hostname Inválido"
-
 #: interfaces/guile/type/hostname-list.scm:14
 msgid "invalid hostname list"
 msgstr "Inválida Lista de Hostnames"
+
+#: interfaces/guile/type/hostname.scm:14
+#, fuzzy
+msgid "only latin letters, digits, '-', '.', and '_' allowed"
+msgstr "apenas digitos em letras permitido '_'"
 
 #: interfaces/guile/type/system-computer-name.scm:12
 #, fuzzy
@@ -163,3 +164,6 @@ msgstr "apenas digitos em letras permitido '_'"
 #: interfaces/guile/type/time.scm:10
 msgid "time should be in HH:MM:SS format"
 msgstr "A Hora deve ser no formato HH:MM:SS"
+
+#~ msgid "invalid hostname"
+#~ msgstr "Hostname Inválido"

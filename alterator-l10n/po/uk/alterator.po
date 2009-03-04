@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-04 12:29+0300\n"
+"POT-Creation-Date: 2009-03-04 14:27+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -140,13 +140,14 @@ msgstr "невірний TCP-порт"
 msgid "invalid boolean value"
 msgstr "невірне булеве значення"
 
-#: interfaces/guile/type/hostname.scm:14
-msgid "invalid hostname"
-msgstr "невірне ім'я хосту"
-
 #: interfaces/guile/type/hostname-list.scm:14
 msgid "invalid hostname list"
 msgstr "невірний список імен хостів"
+
+#: interfaces/guile/type/hostname.scm:14
+#, fuzzy
+msgid "only latin letters, digits, '-', '.', and '_' allowed"
+msgstr "дозволені лише малі латинські літери, цифри і '_'"
 
 #: interfaces/guile/type/system-computer-name.scm:12
 #, fuzzy
@@ -160,3 +161,6 @@ msgstr "дозволені лише малі латинські літери, ц
 #: interfaces/guile/type/time.scm:10
 msgid "time should be in HH:MM:SS format"
 msgstr "час має бути у форматі ГГ:ХХ:СС"
+
+#~ msgid "invalid hostname"
+#~ msgstr "невірне ім'я хосту"

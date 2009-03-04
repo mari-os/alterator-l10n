@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-04 12:29+0300\n"
+"POT-Creation-Date: 2009-03-04 14:27+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -142,13 +142,13 @@ msgstr "недопустимый TCP порт"
 msgid "invalid boolean value"
 msgstr "недопустимое логическое значение"
 
-#: interfaces/guile/type/hostname.scm:14
-msgid "invalid hostname"
-msgstr "недопустимое имя компьютера"
-
 #: interfaces/guile/type/hostname-list.scm:14
 msgid "invalid hostname list"
 msgstr "недопустимый список имён компьютеров"
+
+#: interfaces/guile/type/hostname.scm:14
+msgid "only latin letters, digits, '-', '.', and '_' allowed"
+msgstr "допустимы только латинские символы, цифры, '-', '.' и '_'"
 
 #: interfaces/guile/type/system-computer-name.scm:12
 msgid "only latin letters, digits, '-', and '_' allowed"
