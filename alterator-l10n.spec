@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 2.0
-Release: alt2
+Version: 2.1
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -70,6 +70,15 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Mar 11 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.1-alt1
+- add ru help for net-dnat, update ru help for net-iptables
+- update translations for alterator-net-iptables
+- add translations for alterator-netinst
+- add translations and help for alterator-sysinfo
+- add help for alterator-net-domain (by inger@)
+- update translations for alterator-office-server (by inger@)
+- update translation for alterator (by inger@)
+
 * Wed Mar 04 2009 Stanislav Ievlev <inger@altlinux.org> 2.0-alt2
 - add alterator-net-domain
 - update translations: alterator, alterator-net-eth, alterator-office-server
