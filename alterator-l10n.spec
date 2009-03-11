@@ -35,6 +35,7 @@ Conflicts: alterator-services             < 1.5-alt6
 Conflicts: alterator-spamassassin         < 0.7-alt4
 Conflicts: alterator-squid                < 0.4-alt6
 Conflicts: alterator-sysconfig            < 1.0-alt1
+Conflicts: alterator-sysinfo              < 0.6-alt1
 Conflicts: alterator-tzone                < 1.0-alt6
 Conflicts: alterator-ulogd                < 0.5-alt5
 Conflicts: alterator-users                < 9.3-alt3
