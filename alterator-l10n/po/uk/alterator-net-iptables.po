@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-09 12:37+0300\n"
+"POT-Creation-Date: 2009-03-11 15:24+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,59 +16,121 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: bin/iptables_helper:130 bin/iptables_helper:135
+#: bin/iptables_helper:200
+#, fuzzy
+msgid "(must be a number or empty string)"
+msgstr "має бути число"
+
+#: bin/iptables_helper:174 bin/iptables_helper:179 bin/iptables_helper:208
+#: bin/iptables_helper:210
 #, fuzzy
 msgid "(must be a number)"
 msgstr "має бути число"
 
-#: bin/iptables_helper:126
+#: bin/iptables_helper:170
 #, fuzzy
-msgid "(possible values: gateway or firewall)"
+msgid "(possible values: gateway or router)"
 msgstr "Мережевий екран"
 
-#: standard input:6 input:8 ui/net-iptables/index.scm:51
-#: ui/net-iptables/index.scm:56
+#: bin/iptables_helper:197
+#, fuzzy
+msgid "(possible values: on or off)"
+msgstr "Мережевий екран"
+
+#: standard input:6 input:8 ui/net-iptables/index.scm:50
+#: ui/net-iptables/index.scm:55
 msgid "(separated by commas or spaces)"
 msgstr ""
+
+#: standard input:19 ui/net-dnat/index.scm:57
+msgid "Add"
+msgstr "Додати"
+
+#: standard input:13 ui/net-dnat/index.scm:35
+#, fuzzy
+msgid "Add new rule:"
+msgstr "Додати правило"
 
 #: standard input:3 ui/net-iptables/index.scm:37
 #, fuzzy
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Дозволені з'єднання на вході"
 
-#: standard input:9 ui/net-iptables/index.scm:62
+#: standard input:9 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr "Застосувати"
 
-#: bin/iptables_helper:269 bin/iptables_helper:271
+#: standard input:11 ui/net-dnat/index.scm:29
+#, fuzzy
+msgid "Available rules:"
+msgstr "Доступні джерела:"
+
+#: bin/iptables_helper:393
+msgid "Can't add multiple values to list"
+msgstr ""
+
+#: bin/iptables_helper:401
+msgid "Can't remove multiple values from list"
+msgstr ""
+
+#: standard input:12 ui/net-dnat/index.scm:33
+msgid "Delete"
+msgstr "Видалити"
+
+#: bin/iptables_helper:361 bin/iptables_helper:363
 msgid "Error while reloading firewalling rules"
 msgstr ""
 
-#: bin/iptables_helper:130
+#: bin/iptables_helper:368
+msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
+msgstr ""
+
+#: bin/iptables_helper:200
+#, fuzzy
+msgid "Error: bad SQUID port"
+msgstr "невірний TCP-порт"
+
+#: bin/iptables_helper:174
 #, fuzzy
 msgid "Error: bad TCP port"
 msgstr "невірний TCP-порт"
 
-#: bin/iptables_helper:135
+#: bin/iptables_helper:197
+#, fuzzy
+msgid "Error: bad ULOGD mode"
+msgstr "невірний TCP-порт"
+
+#: bin/iptables_helper:179
 #, fuzzy
 msgid "Error: bad UTP port"
 msgstr "невірний TCP-порт"
 
-#: bin/iptables_helper:126
-msgid "Error: bad mode"
-msgstr ""
+#: bin/iptables_helper:212 bin/iptables_helper:214
+#, fuzzy
+msgid "Error: bad ip"
+msgstr "Увімкнути службу"
 
-#: bin/iptables_helper:142
+#: bin/iptables_helper:170
+#, fuzzy
+msgid "Error: bad mode"
+msgstr "Увімкнути службу"
+
+#: bin/iptables_helper:208 bin/iptables_helper:210 bin/iptables_helper:320
+#, fuzzy
+msgid "Error: bad port"
+msgstr "невірний TCP-порт"
+
+#: bin/iptables_helper:186
 #, fuzzy
 msgid "Error: unknown interface"
 msgstr "Невідома служба"
 
-#: bin/iptables_helper:263
+#: bin/iptables_helper:206
 #, fuzzy
-msgid "Error: unknown option"
+msgid "Error: unknown protocol"
 msgstr "Невідома служба"
 
-#: bin/iptables_helper:149
+#: bin/iptables_helper:193
 #, fuzzy
 msgid "Error: unknown service"
 msgstr "Невідома служба"
@@ -82,11 +144,20 @@ msgstr "невірний TCP-порт"
 msgid "Extra UDP ports:"
 msgstr ""
 
-#: standard input:1
+#: backend3/net-dnat:26
+msgid "Forwarding %s packets for %s:%s to %s:%s"
+msgstr ""
+
+#: standard input:2
 msgid "Network firewall"
 msgstr "Мережевий екран"
 
-#: standard input:10 ui/net-iptables/index.scm:65
+#: standard input:1
+#, fuzzy
+msgid "Port forwarding"
+msgstr "Оберіть мову:"
+
+#: standard input:10 ui/net-iptables/index.scm:64
 msgid "Reset"
 msgstr "Скинути"
 
@@ -105,25 +176,56 @@ msgstr "Оберіть мову:"
 msgid "Services:"
 msgstr "Служби"
 
-#: bin/iptables_helper:6
+#: bin/iptables_helper:7
 msgid "alterator-net-iptables"
 msgstr ""
 
-#: ui/net-iptables/index.scm:31 backend3/net-iptables:16
+#: standard input:15 ui/net-dnat/index.scm:47
+#, fuzzy
+msgid "destination IP address:"
+msgstr "IP-адреса:"
+
+#: standard input:17 ui/net-dnat/index.scm:52
+#, fuzzy
+msgid "forward to IP address:"
+msgstr "IP-адреса:"
+
+#: ui/net-iptables/index.scm:32 backend3/net-iptables:24
 #, fuzzy
 msgid "gateway"
 msgstr "Типовий шлюз:"
 
-#: bin/iptables_helper:211
+#: bin/iptables_helper:206 bin/iptables_helper:208 bin/iptables_helper:210
+#: bin/iptables_helper:212 bin/iptables_helper:214
+#, fuzzy
+msgid "in DNAT rule"
+msgstr "Додати правило"
+
+#: bin/iptables_helper:320
 #, fuzzy
 msgid "in desktop-file for service"
 msgstr "вбудована служба"
 
-#: bin/iptables_helper:142
+#: standard input:16 input:18 ui/net-dnat/index.scm:49
+#: ui/net-dnat/index.scm:54
+#, fuzzy
+msgid "port:"
+msgstr "Порт:"
+
+#: bin/iptables_helper:186 bin/iptables_helper:206
 msgid "possible values:"
 msgstr ""
 
-#: ui/net-iptables/index.scm:32 backend3/net-iptables:15
+#: bin/test.sh:8
+msgid "privet!"
+msgstr ""
+
+#: standard input:14 ui/net-dnat/index.scm:41
+#, fuzzy
+msgid "protocol:"
+msgstr "Протоколи, що підтримуються:"
+
+#: ui/net-iptables/index.scm:31 backend3/net-iptables:23
 msgid "router"
 msgstr ""
 
@@ -132,10 +234,6 @@ msgstr ""
 
 #~ msgid "Enable network address translation (NAT):"
 #~ msgstr "Увімкнути трансляцію мережевих адрес (NAT):"
-
-#, fuzzy
-#~ msgid "Error: bad service"
-#~ msgstr "Увімкнути службу"
 
 #~ msgid "General options"
 #~ msgstr "Загальні налаштування"

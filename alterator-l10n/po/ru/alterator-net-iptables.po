@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-09 12:37+0300\n"
+"POT-Creation-Date: 2009-03-11 15:24+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -19,52 +19,106 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: bin/iptables_helper:130 bin/iptables_helper:135
+#: bin/iptables_helper:200
+msgid "(must be a number or empty string)"
+msgstr "(должно быть числом или пустой строкой)"
+
+#: bin/iptables_helper:174 bin/iptables_helper:179 bin/iptables_helper:208
+#: bin/iptables_helper:210
 msgid "(must be a number)"
-msgstr "(должно быть число)"
+msgstr "(должно быть числом)"
 
-#: bin/iptables_helper:126
-msgid "(possible values: gateway or firewall)"
-msgstr "(допустимые значения: gateway или firewall)"
+#: bin/iptables_helper:170
+msgid "(possible values: gateway or router)"
+msgstr "(допустимые значения: gateway или router)"
 
-#: standard input:6 input:8 ui/net-iptables/index.scm:51
-#: ui/net-iptables/index.scm:56
+#: bin/iptables_helper:197
+msgid "(possible values: on or off)"
+msgstr "(допустимые значения: on или off)"
+
+#: standard input:6 input:8 ui/net-iptables/index.scm:50
+#: ui/net-iptables/index.scm:55
 msgid "(separated by commas or spaces)"
 msgstr "(разделенные запятыми или пробелами)"
+
+#: standard input:19 ui/net-dnat/index.scm:57
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:13 ui/net-dnat/index.scm:35
+msgid "Add new rule:"
+msgstr "Добавить новое правило:"
 
 #: standard input:3 ui/net-iptables/index.scm:37
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Разрешить входящие соединения на внешних интерфейсах:"
 
-#: standard input:9 ui/net-iptables/index.scm:62
+#: standard input:9 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr "Применить"
 
-#: bin/iptables_helper:269 bin/iptables_helper:271
+#: standard input:11 ui/net-dnat/index.scm:29
+msgid "Available rules:"
+msgstr "Доступные правила:"
+
+#: bin/iptables_helper:393
+msgid "Can't add multiple values to list"
+msgstr "Невозможно добавить несколько значений в список"
+
+#: bin/iptables_helper:401
+msgid "Can't remove multiple values from list"
+msgstr "Невозможно удалить несколько значений из списка"
+
+#: standard input:12 ui/net-dnat/index.scm:33
+msgid "Delete"
+msgstr "Удалить"
+
+#: bin/iptables_helper:361 bin/iptables_helper:363
 msgid "Error while reloading firewalling rules"
 msgstr "Ошибка при перезагрузке правил брандмауэра"
 
-#: bin/iptables_helper:130
+#: bin/iptables_helper:368
+msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
+msgstr ""
+"Ошибка при запуске скриптов из /usr/lib/alterator/hooks/net-iptables.d/"
+
+#: bin/iptables_helper:200
+msgid "Error: bad SQUID port"
+msgstr "Ошибка: плохой порт для SQUID"
+
+#: bin/iptables_helper:174
 msgid "Error: bad TCP port"
 msgstr "Ошибка: плохой порт TCP"
 
-#: bin/iptables_helper:135
+#: bin/iptables_helper:197
+msgid "Error: bad ULOGD mode"
+msgstr "Ошибка: плохой режим ULOGD"
+
+#: bin/iptables_helper:179
 msgid "Error: bad UTP port"
 msgstr "Ошибка: плохой порт UDP"
 
-#: bin/iptables_helper:126
+#: bin/iptables_helper:212 bin/iptables_helper:214
+msgid "Error: bad ip"
+msgstr "Ошибка: плохой IP адрес"
+
+#: bin/iptables_helper:170
 msgid "Error: bad mode"
 msgstr "Ошибка: плохой режим"
 
-#: bin/iptables_helper:142
+#: bin/iptables_helper:208 bin/iptables_helper:210 bin/iptables_helper:320
+msgid "Error: bad port"
+msgstr "Ошибка: плохой порт"
+
+#: bin/iptables_helper:186
 msgid "Error: unknown interface"
 msgstr "Ошибка: неизвестный интерфейс"
 
-#: bin/iptables_helper:263
-msgid "Error: unknown option"
-msgstr "Ошибка: неизвестный параметр"
+#: bin/iptables_helper:206
+msgid "Error: unknown protocol"
+msgstr "Ошибка: неизвестный протокол"
 
-#: bin/iptables_helper:149
+#: bin/iptables_helper:193
 msgid "Error: unknown service"
 msgstr "Ошибка: неизвестная служба"
 
@@ -76,11 +130,19 @@ msgstr "Дополнительные порты TCP:"
 msgid "Extra UDP ports:"
 msgstr "Дополнительные порты UDP:"
 
-#: standard input:1
+#: backend3/net-dnat:26
+msgid "Forwarding %s packets for %s:%s to %s:%s"
+msgstr "Перенаправление %s пакетов, идущих в %s:%s, на %s:%s"
+
+#: standard input:2
 msgid "Network firewall"
 msgstr "Брандмауэр"
 
-#: standard input:10 ui/net-iptables/index.scm:65
+#: standard input:1
+msgid "Port forwarding"
+msgstr "Перенаправление портов"
+
+#: standard input:10 ui/net-iptables/index.scm:64
 msgid "Reset"
 msgstr "Вернуть"
 
@@ -96,22 +158,44 @@ msgstr "Выберите режим работы:"
 msgid "Services:"
 msgstr "Службы:"
 
-#: bin/iptables_helper:6
+#: bin/iptables_helper:7
 msgid "alterator-net-iptables"
 msgstr ""
 
-#: ui/net-iptables/index.scm:31 backend3/net-iptables:16
+#: standard input:15 ui/net-dnat/index.scm:47
+msgid "destination IP address:"
+msgstr "IP адрес:"
+
+#: standard input:17 ui/net-dnat/index.scm:52
+msgid "forward to IP address:"
+msgstr "перенаправлять на IP адрес:"
+
+#: ui/net-iptables/index.scm:32 backend3/net-iptables:24
 msgid "gateway"
 msgstr "шлюз"
 
-#: bin/iptables_helper:211
+#: bin/iptables_helper:206 bin/iptables_helper:208 bin/iptables_helper:210
+#: bin/iptables_helper:212 bin/iptables_helper:214
+msgid "in DNAT rule"
+msgstr "в правиле DNAT"
+
+#: bin/iptables_helper:320
 msgid "in desktop-file for service"
 msgstr "в desktop-файле для сервиса"
 
-#: bin/iptables_helper:142
+#: standard input:16 input:18 ui/net-dnat/index.scm:49
+#: ui/net-dnat/index.scm:54
+msgid "port:"
+msgstr "порт:"
+
+#: bin/iptables_helper:186 bin/iptables_helper:206
 msgid "possible values:"
 msgstr "допустимые значения:"
 
-#: ui/net-iptables/index.scm:32 backend3/net-iptables:15
+#: standard input:14 ui/net-dnat/index.scm:41
+msgid "protocol:"
+msgstr "протокол:"
+
+#: ui/net-iptables/index.scm:31 backend3/net-iptables:23
 msgid "router"
 msgstr "роутер"
