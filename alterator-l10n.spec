@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.1
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -70,6 +70,9 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Mar 12 2009 Stanislav Ievlev <inger@altlinux.org> 2.1-alt2
+- update translations for alterator-dhcp
+
 * Wed Mar 11 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.1-alt1
 - add ru help for net-dnat, update ru help for net-iptables
 - update translations for alterator-net-iptables
