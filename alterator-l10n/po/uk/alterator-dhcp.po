@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 15:54+0300\n"
+"POT-Creation-Date: 2009-03-12 16:28+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,65 +16,70 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:23
-#, fuzzy
-msgid "(DNS name or IP address)"
-msgstr "невірна IP-адреса"
-
-#: standard input:6
+#: standard input:11
 msgid "(maximum possible address range)"
 msgstr ""
 
-#: backend3/dhcp:187
+#: backend3/dhcp:195
 msgid "1 day"
 msgstr ""
 
-#: backend3/dhcp:182
+#: backend3/dhcp:190
 msgid "1 hour"
 msgstr ""
 
-#: backend3/dhcp:190
+#: backend3/dhcp:198
 #, fuzzy
 msgid "1 month"
 msgstr "1 хвилина"
 
-#: backend3/dhcp:188
+#: backend3/dhcp:196
 msgid "1 week"
 msgstr ""
 
-#: backend3/dhcp:186
+#: backend3/dhcp:194
 msgid "12 hours"
 msgstr ""
 
-#: backend3/dhcp:183
+#: backend3/dhcp:191
 msgid "2 hours"
 msgstr ""
 
-#: backend3/dhcp:189
+#: backend3/dhcp:197
 msgid "2 weeks"
 msgstr ""
 
-#: backend3/dhcp:184
+#: backend3/dhcp:192
 msgid "4 hours"
 msgstr ""
 
-#: backend3/dhcp:185
+#: backend3/dhcp:193
 msgid "8 hours"
 msgstr ""
 
-#: standard input:22
+#: standard input:30
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:9
+#: standard input:14
 msgid "Address  expiration time:"
 msgstr ""
 
-#: standard input:14
+#: standard input:4 input:19
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:24
+#: standard input:24 input:32
+#, fuzzy
+msgid "Computer name"
+msgstr "Назва хоста:"
+
+#: standard input:3 input:29
+#, fuzzy
+msgid "Computer name:"
+msgstr "Назва хоста:"
+
+#: standard input:31
 msgid "Current dynamically allocated addresses"
 msgstr ""
 
@@ -82,124 +87,122 @@ msgstr ""
 msgid "DHCP server"
 msgstr "DHCP-сервер"
 
-#: standard input:11
+#: standard input:16
 #, fuzzy
 msgid "DNS server:"
 msgstr "DNS-сервери:"
 
-#: standard input:13
+#: standard input:18
 msgid "Default gateway:"
 msgstr "Типовий шлюз:"
 
-#: standard input:8
+#: standard input:13
 #, fuzzy
 msgid "Ending IP address:"
 msgstr "IP-адреса:"
 
-#: standard input:28
+#: standard input:35
 #, fuzzy
 msgid "Expiration time"
 msgstr "Складний режим"
 
-#: standard input:29
+#: standard input:36
 msgid "Fix address for selected hosts"
 msgstr ""
 
-#: standard input:4
+#: standard input:9
 msgid "General settings"
 msgstr "Загальні параметри"
 
-#: standard input:17
-#, fuzzy
-msgid "Host address"
-msgstr "IP-адреса:"
-
-#: standard input:20
-#, fuzzy
-msgid "Host address:"
-msgstr "IP-адреса:"
-
-#: standard input:25
-#, fuzzy
-msgid "Host name"
-msgstr "Назва хоста:"
-
-#: standard input:27
+#: standard input:22 input:34
 msgid "IP address"
 msgstr "IP-адреса"
 
-#: standard input:10
+#: standard input:2 input:27
+msgid "IP address:"
+msgstr "IP-адреса:"
+
+#: standard input:15
 msgid "Information provided for clients"
 msgstr ""
 
-#: standard input:5
+#: standard input:10
 msgid "Interface:"
 msgstr "Інтерфейс:"
 
-#: backend3/dhcp:232
+#: backend3/dhcp:250
 #, fuzzy
 msgid "Invalid address range"
 msgstr "невірна IP-адреса"
 
-#: standard input:18 input:26
+#: standard input:23 input:33
 #, fuzzy
 msgid "MAC address"
 msgstr "за MAC-адресою"
 
-#: standard input:21
+#: standard input:1 input:28
 #, fuzzy
 msgid "MAC address:"
 msgstr "за MAC-адресою"
 
-#: standard input:3
+#: standard input:26
+#, fuzzy
+msgid "New static address:"
+msgstr "невірна IP-адреса"
+
+#: standard input:8
 #, fuzzy
 msgid "Reconfigure ethernet interfaces..."
 msgstr "Переконфіґурувати інтерфейс"
 
-#: standard input:19
+#: standard input:25
 msgid "Remove selected"
 msgstr "Видалити виділені"
 
-#: standard input:15
+#: standard input:5 input:20
 msgid "Reset"
 msgstr "Скинути"
 
-#: backend3/dhcp:256
+#: backend3/dhcp:272
 #, fuzzy
 msgid "Same entry already exists"
 msgstr "Такий користувач вже є"
 
-#: standard input:12
+#: standard input:17
 #, fuzzy
 msgid "Search domain:"
 msgstr "Шукати у доменах:"
 
-#: standard input:1
+#: standard input:6
 #, fuzzy
 msgid "Start, stop or restart service..."
 msgstr "запустити, зупинити або перевантажити службу"
 
-#: standard input:7
+#: standard input:12
 #, fuzzy
 msgid "Starting IP address:"
 msgstr "IP-адреса:"
 
-#: standard input:16
+#: standard input:21
 #, fuzzy
 msgid "Static addresses"
 msgstr "невірна IP-адреса"
 
-#: standard input:2
+#: backend3/dhcp:275 backend3/dhcp:287
+msgid "This computer name is registered for internal purposes"
+msgstr ""
+
+#: standard input:7
 msgid ""
 "You must have statically configured ethernet interface to setup dhcp server."
 msgstr ""
 
-#: backend3/dhcp:70 backend3/dhcp:229
+#: backend3/dhcp:111 backend3/dhcp:247
 #, fuzzy
 msgid "You should define address range"
 msgstr "Треба надати пароль"
 
-#: backend3/dhcp:67
+#: backend3/dhcp:108
 #, fuzzy
 msgid "You should define network interface"
 msgstr "Треба надати пароль"
@@ -208,3 +211,19 @@ msgstr "Треба надати пароль"
 #, fuzzy
 msgid "invalid MAC address"
 msgstr "невірна IP-адреса"
+
+#, fuzzy
+#~ msgid "(DNS name or IP address)"
+#~ msgstr "невірна IP-адреса"
+
+#, fuzzy
+#~ msgid "Host address"
+#~ msgstr "IP-адреса:"
+
+#, fuzzy
+#~ msgid "Host address:"
+#~ msgstr "IP-адреса:"
+
+#, fuzzy
+#~ msgid "Host name"
+#~ msgstr "Назва хоста:"
