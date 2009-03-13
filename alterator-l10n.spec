@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.1
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -70,6 +70,10 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Mar 13 2009 Stanislav Ievlev <inger@altlinux.org> 2.1-alt3
+- update translations for alterator-distro-office-server (former alterator-office-server)
+- fix some Russian translations
+
 * Thu Mar 12 2009 Stanislav Ievlev <inger@altlinux.org> 2.1-alt2
 - update translations for alterator-dhcp
 
