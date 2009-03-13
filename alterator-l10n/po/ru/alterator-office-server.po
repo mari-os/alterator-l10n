@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-04 15:01+0300\n"
+"POT-Creation-Date: 2009-03-13 16:59+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:6
+#: standard input:9
 msgid "(enter passphrase)"
 msgstr "(введите фразу)"
 
-#: standard input:7
+#: standard input:10
 msgid "(repeat passphrase)"
 msgstr "(повторите фразу)"
 
-#: standard input:10
+#: standard input:13
 msgid "Apply"
 msgstr "Применить"
 
@@ -35,26 +35,29 @@ msgid ""
 "Before you begin to work with system you will have to made some initial "
 "actions."
 msgstr ""
-"Перед началом работы вам необходимо произвести несколько первоначальных "
-"настроек"
+"Перед началом работы вам необходимо указать некоторые начальные параметры"
 
-#: standard input:9
+#: standard input:12
 msgid "Choose external interfaces for correct setup of system firewall:"
-msgstr "Выберите внешние интерфейсы для правильной настройки брандмауера:"
+msgstr "Выберите внешние интерфейсы для правильной настройки брандмауэра:"
 
 #: standard input:2
 msgid "Choose interface language:"
 msgstr "Выберите язык интерфейса:"
 
+#: standard input:4
+msgid "Choose server role:"
+msgstr "Выберите роль сервера:"
+
 #: standard input:3
 msgid "Define domain:"
 msgstr "Назначьте домен:"
 
-#: standard input:8
+#: standard input:11
 msgid "Generate"
 msgstr "Сгенерировать"
 
-#: standard input:5
+#: standard input:8
 msgid "Generate automatically"
 msgstr "Создать автоматически"
 
@@ -62,6 +65,14 @@ msgstr "Создать автоматически"
 msgid "Initial system setup"
 msgstr "Первоначальная настройка системы"
 
-#: standard input:4
+#: standard input:5
+msgid "Master"
+msgstr "Главный"
+
+#: standard input:7
 msgid "Setup password for system administrator:"
 msgstr "Укажите пароль для системного администратора:"
+
+#: standard input:6
+msgid "Slave"
+msgstr "Подчинённый"
