@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-04 12:29+0300\n"
+"POT-Creation-Date: 2009-03-19 11:12+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,28 +16,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:11 ui/net-eth/index.scm:148
+#: standard input:15 ui/net-eth/index.scm:116
+#, fuzzy
+msgid "(multiple values should be space separated)"
+msgstr "декілька значень через пробіл"
+
+#: standard input:16 ui/net-eth/index.scm:123
+#, fuzzy
+msgid "Advanced..."
+msgstr "Додатково..."
+
+#: standard input:17 ui/net-eth/index.scm:133
 msgid "Apply"
 msgstr "Застосувати"
 
+#: standard input:6 ui/net-eth/advanced/index.scm:67
+msgid "Cancel"
+msgstr "Скасувати"
+
 #.
-#: standard input:1 ui/net-eth/index.scm:80
+#: standard input:7 ui/net-eth/index.scm:74
 #, fuzzy
 msgid "Computer name:"
 msgstr "Назва хоста:"
 
 #.
-#: standard input:5 ui/net-eth/index.scm:115
+#: standard input:9 ui/net-eth/index.scm:91
 msgid "Configuration:"
 msgstr "Конфіґурація:"
 
 #.
-#: standard input:2 ui/net-eth/index.scm:88
+#: standard input:13 ui/net-eth/index.scm:107
 msgid "DNS servers:"
 msgstr "DNS-сервери:"
 
 #.
-#: standard input:8 ui/net-eth/index.scm:126
+#: standard input:12 ui/net-eth/index.scm:102
 msgid "Default gateway:"
 msgstr "Типовий шлюз:"
 
@@ -46,89 +60,109 @@ msgid "Ethernet interfaces"
 msgstr "Ethernet-інтерфейси"
 
 #.
-#: standard input:9 ui/net-eth/index.scm:130
+#: standard input:3 ui/net-eth/advanced/index.scm:50
 msgid "Hardware binding:"
 msgstr "Прив'язування:"
 
 #.
-#: standard input:6 ui/net-eth/index.scm:118
+#: standard input:10 ui/net-eth/index.scm:94
 msgid "IP address:"
 msgstr "IP-адреса:"
 
-#: standard input:4 ui/net-eth/index.scm:105
+#.
+#: standard input:1 ui/net-eth/advanced/index.scm:42
+msgid "Interface:"
+msgstr "Інтерфейс:"
+
+#: standard input:8 ui/net-eth/index.scm:81
 msgid "Interfaces"
 msgstr "Інтерфейси"
 
-#: backend3/net-eth:167
-msgid "Managed by user (NetworkManager)"
-msgstr "Налаштовується користувачем (NetworkManager)"
-
-#: backend3/net-eth:170
+#: backend3/net-eth:161
 msgid "Manually"
 msgstr "Вручну"
 
 #.
-#: standard input:7 ui/net-eth/index.scm:122
+#: standard input:11 ui/net-eth/index.scm:98
 msgid "Netmask:"
 msgstr "Маска мережі:"
 
-#: standard input:12 ui/net-eth/index.scm:149
+#.
+#: standard input:2 ui/net-eth/advanced/index.scm:46
+#, fuzzy
+msgid "Network subsystem:"
+msgstr "Назва мережі:"
+
+#: standard input:5 ui/net-eth/advanced/index.scm:66
+msgid "OK"
+msgstr ""
+
+#: standard input:18 ui/net-eth/index.scm:134
 msgid "Reset"
 msgstr "Скинути"
 
 #.
-#: standard input:3 ui/net-eth/index.scm:93
+#: standard input:14 ui/net-eth/index.scm:111
 msgid "Search domains:"
 msgstr "Шукати у доменах:"
 
-#: backend3/net-eth:166
-msgid "Turned off"
-msgstr "Вимкнено"
-
-#: backend3/net-eth:168
+#: backend3/net-eth:159
 msgid "Use DHCP"
 msgstr "Використовувати DHCP"
 
-#: backend3/net-eth:169
+#: backend3/net-eth:160
 msgid "Use Zeroconf"
 msgstr "Використовувати Zeroconf"
 
-#: standard input:10 ui/net-eth/index.scm:135
+#: standard input:4 ui/net-eth/advanced/index.scm:55
 msgid "Wireless settings..."
 msgstr "Налаштування бездротових інтерфейсів..."
 
-#: backend3/net-eth:160
+#: backend3/net-eth:146
 msgid "by MAC address"
 msgstr "за MAC-адресою"
 
-#: backend3/net-eth:161
+#: backend3/net-eth:147
 msgid "by bus location"
 msgstr "за розміщенням на шині"
 
-#: backend3/net-eth:159
+#: backend3/net-eth:145
 msgid "missing"
 msgstr "немає"
 
-#: ui/net-eth/index.scm:99
-msgid "multiple values should be space separated"
-msgstr "декілька значень через пробіл"
+#: backend3/net-eth:154
+msgid "not under control"
+msgstr ""
 
-#: backend3/net-eth:206
+#: backend3/net-eth:197
 msgid "plugged"
 msgstr "підключено"
 
-#: backend3/net-eth:208
+#: backend3/net-eth:199
 msgid "unplugged"
 msgstr "відключено"
+
+#, fuzzy
+#~ msgid "Advanced.."
+#~ msgstr "Додатково..."
 
 #~ msgid "Host name:"
 #~ msgstr "Назва хоста:"
 
+#~ msgid "Managed by user (NetworkManager)"
+#~ msgstr "Налаштовується користувачем (NetworkManager)"
+
 #~ msgid "Status:"
 #~ msgstr "Стан:"
+
+#~ msgid "Turned off"
+#~ msgstr "Вимкнено"
 
 #~ msgid "interface is down"
 #~ msgstr "інтерфейс зупинено"
 
 #~ msgid "interface is up"
 #~ msgstr "інтерфейс запущено"
+
+#~ msgid "nothing"
+#~ msgstr "нічого"
