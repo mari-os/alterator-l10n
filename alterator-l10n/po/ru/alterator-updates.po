@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-11 15:59+0300\n"
+"POT-Creation-Date: 2009-03-23 11:12+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:12 ui/updates/index.scm:92
+#: standard input:12 ui/updates/index.scm:90
 msgid "Apply"
 msgstr "Применить"
 
@@ -42,15 +42,15 @@ msgstr "Должен быть выбран день недели"
 msgid "Don't update system"
 msgstr "Не обновлять систему"
 
-#: standard input:7 ui/updates/index.scm:72
+#: standard input:7 ui/updates/index.scm:70
 msgid "Every day"
 msgstr "Ежедневно"
 
-#: standard input:9 ui/updates/index.scm:78
+#: standard input:9 ui/updates/index.scm:76
 msgid "Every month at day:"
 msgstr "Ежемесячно в день:"
 
-#: standard input:8 ui/updates/index.scm:75
+#: standard input:8 ui/updates/index.scm:73
 msgid "Every week at:"
 msgstr "Еженедельно в:"
 
@@ -65,31 +65,31 @@ msgstr ""
 "Неверный или неподдерживаемый протокол. Должно быть http://, ftp://, "
 "rsync:// или file:"
 
-#: standard input:5 ui/updates/index.scm:60
+#: standard input:5 ui/updates/index.scm:58
 msgid "Repositories:"
 msgstr "Репозитории:"
 
-#: ui/updates/index.scm:93
+#: ui/updates/index.scm:91
 msgid "Reset"
 msgstr "Вернуть"
-
-#: standard input:1
-msgid "Software updates"
-msgstr "Обновление ПО"
 
 #: standard input:4 ui/updates/index.scm:50
 msgid "Source:"
 msgstr "Источник:"
 
+#: standard input:1
+msgid "System update"
+msgstr "Обновление системы"
+
 #: standard input:2 ui/updates/index.scm:45
 msgid "System update managed by server"
 msgstr "Обновление системы управляемое сервером"
 
-#: standard input:11 ui/updates/index.scm:85
+#: standard input:11 ui/updates/index.scm:83
 msgid "Time:"
 msgstr "Время:"
 
-#: standard input:6 ui/updates/index.scm:65
+#: standard input:6 ui/updates/index.scm:63
 msgid "Update schedule"
 msgstr "Расписание обновлений"
 
@@ -132,3 +132,6 @@ msgstr "вторник"
 #: backend3/updates:71
 msgid "wednesday"
 msgstr "среда"
+
+#~ msgid "Software updates"
+#~ msgstr "Обновление ПО"
