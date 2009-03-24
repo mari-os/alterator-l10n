@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-17 16:12+0300\n"
+"POT-Creation-Date: 2009-03-24 11:11+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ui/pkg/install/index.scm:72
+#: ui/pkg/install/index.scm:73
 msgid "Acquiring packages..."
 msgstr "Получение пакетов..."
 
@@ -92,7 +92,7 @@ msgstr "Источники для установки ПО"
 msgid "Installing base system"
 msgstr "Установка базовой системы"
 
-#: ui/pkg/install/index.scm:78
+#: ui/pkg/install/index.scm:79
 msgid "Installing packages..."
 msgstr "Установка пакетов..."
 
@@ -112,6 +112,10 @@ msgstr "Неверный формат диска"
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr "Неверный или неподдерживаемый протокол. Должно быть http, ftp или file"
 
+#: ui/pkg/install/index.scm:40
+msgid "Loading package information..."
+msgstr "Загрузка информации о пакетах..."
+
 #: standard input:7 ui/pkg/sources/mirrors/index.scm:49
 msgid "New source:"
 msgstr "Новый источник:"
@@ -128,7 +132,7 @@ msgstr "Пожалуйста, вставьте CD/DVD диск "
 msgid "Please insert disk"
 msgstr "Пожалуйста, вставьте CD/DVD диск"
 
-#: ui/pkg/groups/index.scm:134 ui/pkg/install/index.scm:92
+#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:134
 msgid "Preparing..."
 msgstr "Подготовка..."
 

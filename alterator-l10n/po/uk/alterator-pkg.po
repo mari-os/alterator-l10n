@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-17 16:12+0300\n"
+"POT-Creation-Date: 2009-03-24 11:11+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: ui/pkg/install/index.scm:72
+#: ui/pkg/install/index.scm:73
 msgid "Acquiring packages..."
 msgstr "Отримання пакетів..."
 
@@ -93,7 +93,7 @@ msgstr "Встановлення пакетів"
 msgid "Installing base system"
 msgstr "Встановлення пакетів"
 
-#: ui/pkg/install/index.scm:78
+#: ui/pkg/install/index.scm:79
 msgid "Installing packages..."
 msgstr "Встановлення пакетів..."
 
@@ -114,6 +114,11 @@ msgstr "Невірний формат диска"
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr "Невірний або непідтримуваний протокол.  Має бути http, ftp або file"
 
+#: ui/pkg/install/index.scm:40
+#, fuzzy
+msgid "Loading package information..."
+msgstr "Початок встановлення пакетів..."
+
 #: standard input:7 ui/pkg/sources/mirrors/index.scm:49
 msgid "New source:"
 msgstr "Нове джерело:"
@@ -130,7 +135,7 @@ msgstr "Будь ласка, вставте CD-ROM із назвою"
 msgid "Please insert disk"
 msgstr "Вставте диск"
 
-#: ui/pkg/groups/index.scm:134 ui/pkg/install/index.scm:92
+#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:134
 msgid "Preparing..."
 msgstr "Підготовка до встановлення..."
 

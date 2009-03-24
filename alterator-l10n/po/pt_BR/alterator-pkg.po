@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-17 16:12+0300\n"
+"POT-Creation-Date: 2009-03-24 11:11+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: ui/pkg/install/index.scm:72
+#: ui/pkg/install/index.scm:73
 #, fuzzy
 msgid "Acquiring packages..."
 msgstr "Adquirindo pacotes..."
@@ -99,7 +99,7 @@ msgstr "Instalando pacotes..."
 msgid "Installing base system"
 msgstr "Instalando pacotes..."
 
-#: ui/pkg/install/index.scm:78
+#: ui/pkg/install/index.scm:79
 #, fuzzy
 msgid "Installing packages..."
 msgstr "Instalando pacotes..."
@@ -121,6 +121,11 @@ msgstr "Disco Inválido"
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr "Inválido ou não suportado protocolo . Deve ser http, ftp ou arquivo"
 
+#: ui/pkg/install/index.scm:40
+#, fuzzy
+msgid "Loading package information..."
+msgstr "Pular a instalação"
+
 #: standard input:7 ui/pkg/sources/mirrors/index.scm:49
 #, fuzzy
 msgid "New source:"
@@ -138,7 +143,7 @@ msgstr "Por favor insira um CDROM/DVD etiquetado como "
 msgid "Please insert disk"
 msgstr "Por favor insira um Disco"
 
-#: ui/pkg/groups/index.scm:134 ui/pkg/install/index.scm:92
+#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:134
 msgid "Preparing..."
 msgstr "Preparado..."
 
