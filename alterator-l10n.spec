@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.1
-Release: alt8
+Release: alt9
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -70,6 +70,10 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Mar 25 2009 Stanislav Ievlev <inger@altlinux.org> 2.1-alt9
+- update translations for alterator-net-eth
+- add translations for alterator-bacula
+
 * Tue Mar 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.1-alt8
 - remove obsolete help for alterator-mirror
 - update translations for alterator-pkg
