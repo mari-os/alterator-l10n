@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-25 16:42+0300\n"
+"POT-Creation-Date: 2009-03-26 18:30+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -63,7 +63,7 @@ msgstr "Учётная запись:"
 msgid "Add"
 msgstr "Добавить"
 
-#: standard input:15
+#: standard input:15 input:43
 msgid "Apply"
 msgstr "Применить"
 
@@ -87,6 +87,10 @@ msgstr "Сертификат"
 msgid "Common Name (CN):"
 msgstr "Общее имя (CN):"
 
+#: standard input:39
+msgid "Continue work"
+msgstr "Продолжить работу"
+
 #: standard input:20
 msgid "Country (C):"
 msgstr "Страна (C):"
@@ -107,7 +111,7 @@ msgstr "Вы действительно желаете удалить "
 msgid "Download sign request"
 msgstr "Забрать запрос на подпись"
 
-#: standard input:45
+#: standard input:51
 msgid "Exiting..."
 msgstr "Завершение работы..."
 
@@ -128,23 +132,19 @@ msgstr "Пт"
 msgid "General settings"
 msgstr "Общие настройки"
 
-#: standard input:1
-msgid "HTTP server"
-msgstr "HTTP-сервер"
-
 #: standard input:6
 msgid "HTTP server is restarting now. Please wait..."
 msgstr "HTTP-сервер перезапускается. Пожалуйста, подождите..."
 
-#: standard input:2
+#: standard input:3
 msgid "Help"
 msgstr "Справка"
 
-#: standard input:41
+#: standard input:47
 msgid "Hide help"
 msgstr "Cкрыть справку"
 
-#: standard input:39
+#: standard input:45
 msgid "Hostname"
 msgstr "Имя компьютера"
 
@@ -184,7 +184,7 @@ msgstr "Протоколирование:"
 msgid "Login"
 msgstr "Войти"
 
-#: standard input:42
+#: standard input:48
 msgid "Logout"
 msgstr "Выйти"
 
@@ -206,7 +206,7 @@ msgid "Module access settings"
 msgstr "Параметры доступа к модулю"
 
 # ahttpd-acl
-#: standard input:44
+#: standard input:50
 msgid "Module access settings..."
 msgstr "Параметры доступа к модулю..."
 
@@ -256,9 +256,17 @@ msgstr "Пожалуйста, зарегистрируйтесь"
 msgid "Port:"
 msgstr "Порт:"
 
+#: standard input:41
+msgid "Reboot computer now"
+msgstr "Перезагрузить компьютер сейчас"
+
 #: standard input:28
 msgid "Recreate"
 msgstr "Пересоздать"
+
+#: standard input:44
+msgid "Reset"
+msgstr "Вернуть"
 
 #: standard input:7
 msgid "Restart HTTP server"
@@ -276,9 +284,13 @@ msgstr "Сб"
 msgid "September"
 msgstr "Сентябрь"
 
-#: standard input:40
+#: standard input:46
 msgid "Show help"
 msgstr "Показать справку"
+
+#: standard input:2
+msgid "Computer shutdown"
+msgstr "Выключение компьютера"
 
 #: standard input:30
 msgid "Sign"
@@ -288,7 +300,7 @@ msgstr "Подпись"
 msgid "Su"
 msgstr "Вс"
 
-#: standard input:43
+#: standard input:49
 msgid "System management center"
 msgstr "Центр управления системой"
 
@@ -303,6 +315,14 @@ msgstr "Чт"
 #: interfaces/guile/ahttpd/translate.scm:46
 msgid "Tu"
 msgstr "Вт"
+
+#: standard input:42
+msgid "Turn off computer every day at:"
+msgstr "Выключать компьютер каждый день в:"
+
+#: standard input:40
+msgid "Turn off computer now"
+msgstr "Выключить комьпютер сейчас"
 
 #: interfaces/guile/workflow/card-index.scm:159
 msgid "Unsupported mode"
@@ -319,6 +339,10 @@ msgstr "Положить сертификат, подписанный УЦ:"
 #: interfaces/guile/ahttpd/translate.scm:47
 msgid "We"
 msgstr "Ср"
+
+#: standard input:1
+msgid "Web interface"
+msgstr "Веб-интерфейс"
 
 #: interfaces/guile/workflow/card-index.scm:152
 msgid "Yes"

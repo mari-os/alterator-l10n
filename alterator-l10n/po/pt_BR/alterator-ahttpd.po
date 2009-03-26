@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-25 16:42+0300\n"
+"POT-Creation-Date: 2009-03-26 18:30+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -64,7 +64,7 @@ msgstr "Nome da Conta:"
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:15
+#: standard input:15 input:43
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -89,6 +89,11 @@ msgstr "Certificado"
 msgid "Common Name (CN):"
 msgstr "Nome Comum (CN):"
 
+#: standard input:39
+#, fuzzy
+msgid "Continue work"
+msgstr "Continuar"
+
 #: standard input:20
 msgid "Country (C):"
 msgstr "País:"
@@ -109,7 +114,7 @@ msgstr "Você realmente deseja apagar"
 msgid "Download sign request"
 msgstr "Download do Requerido"
 
-#: standard input:45
+#: standard input:51
 msgid "Exiting..."
 msgstr ""
 
@@ -130,24 +135,20 @@ msgstr "Fr"
 msgid "General settings"
 msgstr "Configurações avançadas"
 
-#: standard input:1
-msgid "HTTP server"
-msgstr "Servidor HTTP"
-
 #: standard input:6
 msgid "HTTP server is restarting now. Please wait..."
 msgstr ""
 
-#: standard input:2
+#: standard input:3
 msgid "Help"
 msgstr "Ajuda"
 
-#: standard input:41
+#: standard input:47
 #, fuzzy
 msgid "Hide help"
 msgstr "Atualizações de Ajuda"
 
-#: standard input:39
+#: standard input:45
 msgid "Hostname"
 msgstr "hostname:"
 
@@ -189,7 +190,7 @@ msgstr "Logando:"
 msgid "Login"
 msgstr "Logando:"
 
-#: standard input:42
+#: standard input:48
 msgid "Logout"
 msgstr ""
 
@@ -209,7 +210,7 @@ msgstr "Mo"
 msgid "Module access settings"
 msgstr "Módulo de acesso nas configurações"
 
-#: standard input:44
+#: standard input:50
 msgid "Module access settings..."
 msgstr "Módulo de acesso nas configurações..."
 
@@ -261,10 +262,23 @@ msgstr "Por favor insira um Disco"
 msgid "Port:"
 msgstr "Boot:"
 
+#: standard input:41
+msgid "Reboot computer now"
+msgstr ""
+
 #: standard input:28
 #, fuzzy
 msgid "Recreate"
 msgstr "Resetar:"
+
+#: standard input:44
+#, fuzzy
+msgid "Reset"
+msgstr ""
+"#-#-#-#-#  pt_BR.po (alterator_lilo)  #-#-#-#-#\n"
+"Resetar:\n"
+"#-#-#-#-#  pt_BR.po (Alterator)  #-#-#-#-#\n"
+"Resetar"
 
 #: standard input:7
 msgid "Restart HTTP server"
@@ -284,8 +298,12 @@ msgstr "Salvar"
 msgid "September"
 msgstr "Usuário do Sistema"
 
-#: standard input:40
+#: standard input:46
 msgid "Show help"
+msgstr ""
+
+#: standard input:2
+msgid "Shutdown computer"
 msgstr ""
 
 #: standard input:30
@@ -296,7 +314,7 @@ msgstr "Entrar"
 msgid "Su"
 msgstr "Su"
 
-#: standard input:43
+#: standard input:49
 msgid "System management center"
 msgstr "Centro de Configuração do sistema"
 
@@ -313,6 +331,14 @@ msgstr "Th"
 msgid "Tu"
 msgstr "Tu"
 
+#: standard input:42
+msgid "Turn off computer every day at:"
+msgstr ""
+
+#: standard input:40
+msgid "Turn off computer now"
+msgstr ""
+
 #: interfaces/guile/workflow/card-index.scm:159
 msgid "Unsupported mode"
 msgstr "Modo não suportado"
@@ -328,6 +354,11 @@ msgstr "Atualizado Certificado assinado por:"
 #: interfaces/guile/ahttpd/translate.scm:47
 msgid "We"
 msgstr "Nós"
+
+#: standard input:1
+#, fuzzy
+msgid "Web interface"
+msgstr "Interfaces de IP"
 
 #: interfaces/guile/workflow/card-index.scm:152
 msgid "Yes"
@@ -349,3 +380,6 @@ msgstr "nada"
 #: interfaces/guile/type/ahttpd-cert-field.scm:11
 msgid "only digits and latin letters allowed"
 msgstr "apenas digitos em letras"
+
+#~ msgid "HTTP server"
+#~ msgstr "Servidor HTTP"
