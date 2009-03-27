@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-12 16:28+0300\n"
+"POT-Creation-Date: 2009-03-27 11:17+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -20,40 +20,40 @@ msgstr ""
 msgid "(maximum possible address range)"
 msgstr ""
 
-#: backend3/dhcp:195
+#: backend3/dhcp:194
 msgid "1 day"
 msgstr ""
 
-#: backend3/dhcp:190
+#: backend3/dhcp:189
 msgid "1 hour"
 msgstr ""
 
-#: backend3/dhcp:198
+#: backend3/dhcp:197
 #, fuzzy
 msgid "1 month"
 msgstr "1 хвилина"
 
-#: backend3/dhcp:196
+#: backend3/dhcp:195
 msgid "1 week"
 msgstr ""
 
-#: backend3/dhcp:194
+#: backend3/dhcp:193
 msgid "12 hours"
 msgstr ""
 
-#: backend3/dhcp:191
+#: backend3/dhcp:190
 msgid "2 hours"
 msgstr ""
 
-#: backend3/dhcp:197
+#: backend3/dhcp:196
 msgid "2 weeks"
 msgstr ""
 
-#: backend3/dhcp:192
+#: backend3/dhcp:191
 msgid "4 hours"
 msgstr ""
 
-#: backend3/dhcp:193
+#: backend3/dhcp:192
 msgid "8 hours"
 msgstr ""
 
@@ -96,6 +96,11 @@ msgstr "DNS-сервери:"
 msgid "Default gateway:"
 msgstr "Типовий шлюз:"
 
+#: standard input:9
+#, fuzzy
+msgid "Enable DHCP server"
+msgstr "Увімкнути службу FTP"
+
 #: standard input:13
 #, fuzzy
 msgid "Ending IP address:"
@@ -110,7 +115,7 @@ msgstr "Складний режим"
 msgid "Fix address for selected hosts"
 msgstr ""
 
-#: standard input:9
+#: standard input:8
 msgid "General settings"
 msgstr "Загальні параметри"
 
@@ -130,7 +135,7 @@ msgstr ""
 msgid "Interface:"
 msgstr "Інтерфейс:"
 
-#: backend3/dhcp:250
+#: backend3/dhcp:261
 #, fuzzy
 msgid "Invalid address range"
 msgstr "невірна IP-адреса"
@@ -150,7 +155,7 @@ msgstr "за MAC-адресою"
 msgid "New static address:"
 msgstr "невірна IP-адреса"
 
-#: standard input:8
+#: standard input:7
 #, fuzzy
 msgid "Reconfigure ethernet interfaces..."
 msgstr "Переконфіґурувати інтерфейс"
@@ -163,7 +168,7 @@ msgstr "Видалити виділені"
 msgid "Reset"
 msgstr "Скинути"
 
-#: backend3/dhcp:272
+#: backend3/dhcp:283
 #, fuzzy
 msgid "Same entry already exists"
 msgstr "Такий користувач вже є"
@@ -172,11 +177,6 @@ msgstr "Такий користувач вже є"
 #, fuzzy
 msgid "Search domain:"
 msgstr "Шукати у доменах:"
-
-#: standard input:6
-#, fuzzy
-msgid "Start, stop or restart service..."
-msgstr "запустити, зупинити або перевантажити службу"
 
 #: standard input:12
 #, fuzzy
@@ -188,21 +188,21 @@ msgstr "IP-адреса:"
 msgid "Static addresses"
 msgstr "невірна IP-адреса"
 
-#: backend3/dhcp:275 backend3/dhcp:287
+#: backend3/dhcp:286 backend3/dhcp:298
 msgid "This computer name is registered for internal purposes"
 msgstr ""
 
-#: standard input:7
+#: standard input:6
 msgid ""
 "You must have statically configured ethernet interface to setup dhcp server."
 msgstr ""
 
-#: backend3/dhcp:111 backend3/dhcp:247
+#: backend3/dhcp:110 backend3/dhcp:258
 #, fuzzy
 msgid "You should define address range"
 msgstr "Треба надати пароль"
 
-#: backend3/dhcp:108
+#: backend3/dhcp:107
 #, fuzzy
 msgid "You should define network interface"
 msgstr "Треба надати пароль"
@@ -227,3 +227,7 @@ msgstr "невірна IP-адреса"
 #, fuzzy
 #~ msgid "Host name"
 #~ msgstr "Назва хоста:"
+
+#, fuzzy
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "запустити, зупинити або перевантажити службу"

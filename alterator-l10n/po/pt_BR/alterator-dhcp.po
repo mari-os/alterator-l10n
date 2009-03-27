@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-12 16:28+0300\n"
+"POT-Creation-Date: 2009-03-27 11:17+0300\n"
 "PO-Revision-Date: 2009-01-29 12:41-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -23,39 +23,39 @@ msgstr ""
 msgid "(maximum possible address range)"
 msgstr "(Intervalo Máximo possivel de Endereço)"
 
-#: backend3/dhcp:195
+#: backend3/dhcp:194
 msgid "1 day"
 msgstr "1 dia"
 
-#: backend3/dhcp:190
+#: backend3/dhcp:189
 msgid "1 hour"
 msgstr "1 hora"
 
-#: backend3/dhcp:198
+#: backend3/dhcp:197
 msgid "1 month"
 msgstr "1 mês"
 
-#: backend3/dhcp:196
+#: backend3/dhcp:195
 msgid "1 week"
 msgstr "1 semana"
 
-#: backend3/dhcp:194
+#: backend3/dhcp:193
 msgid "12 hours"
 msgstr "12 horas"
 
-#: backend3/dhcp:191
+#: backend3/dhcp:190
 msgid "2 hours"
 msgstr "2 horas"
 
-#: backend3/dhcp:197
+#: backend3/dhcp:196
 msgid "2 weeks"
 msgstr "2 semanas"
 
-#: backend3/dhcp:192
+#: backend3/dhcp:191
 msgid "4 hours"
 msgstr "4 horas"
 
-#: backend3/dhcp:193
+#: backend3/dhcp:192
 msgid "8 hours"
 msgstr "8 noras"
 
@@ -97,6 +97,11 @@ msgstr "Servidor DNS:"
 msgid "Default gateway:"
 msgstr "Gateway PAdrão"
 
+#: standard input:9
+#, fuzzy
+msgid "Enable DHCP server"
+msgstr "Habilitar Serviço de FTP"
+
 #: standard input:13
 msgid "Ending IP address:"
 msgstr "ùltimos IP:"
@@ -109,7 +114,7 @@ msgstr "Tempo de expiração"
 msgid "Fix address for selected hosts"
 msgstr "Corrigir endereço do Host Selecionado"
 
-#: standard input:9
+#: standard input:8
 msgid "General settings"
 msgstr "Configurações Gerais"
 
@@ -129,7 +134,7 @@ msgstr "Informações fornecidas para clientes"
 msgid "Interface:"
 msgstr "Interface:"
 
-#: backend3/dhcp:250
+#: backend3/dhcp:261
 msgid "Invalid address range"
 msgstr "Endereço de Gama Inválido"
 
@@ -146,7 +151,7 @@ msgstr "Endereço MAC:"
 msgid "New static address:"
 msgstr "Endereços Estaticos"
 
-#: standard input:8
+#: standard input:7
 msgid "Reconfigure ethernet interfaces..."
 msgstr "Reconfigurar Interface de Rede"
 
@@ -158,17 +163,13 @@ msgstr "Remover selecionado"
 msgid "Reset"
 msgstr "Resetar"
 
-#: backend3/dhcp:272
+#: backend3/dhcp:283
 msgid "Same entry already exists"
 msgstr "Mesma entrada já existe"
 
 #: standard input:17
 msgid "Search domain:"
 msgstr "Procura de Domínios:"
-
-#: standard input:6
-msgid "Start, stop or restart service..."
-msgstr "Iniciar, parar ou resetar o serviço"
 
 #: standard input:12
 msgid "Starting IP address:"
@@ -178,20 +179,20 @@ msgstr "Endereço IP Inicial"
 msgid "Static addresses"
 msgstr "Endereços Estaticos"
 
-#: backend3/dhcp:275 backend3/dhcp:287
+#: backend3/dhcp:286 backend3/dhcp:298
 msgid "This computer name is registered for internal purposes"
 msgstr ""
 
-#: standard input:7
+#: standard input:6
 msgid ""
 "You must have statically configured ethernet interface to setup dhcp server."
 msgstr "Você deve configurar uma conexão DHCP"
 
-#: backend3/dhcp:111 backend3/dhcp:247
+#: backend3/dhcp:110 backend3/dhcp:258
 msgid "You should define address range"
 msgstr "Você deve definir um endereço de range"
 
-#: backend3/dhcp:108
+#: backend3/dhcp:107
 msgid "You should define network interface"
 msgstr "Você deve definir uma interface de rede"
 
@@ -210,3 +211,6 @@ msgstr "Endereço MAC Inválido"
 
 #~ msgid "Host name"
 #~ msgstr "Nome do Host"
+
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "Iniciar, parar ou resetar o serviço"
