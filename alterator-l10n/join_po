@@ -1,0 +1,18 @@
+#!/bin/sh
+
+fix_po()
+{
+    sed -i \
+	-n \
+	-e "1 r headers/$1" \
+	-e '/#:/,$ p' \
+	-- $2
+}
+
+LANGLIST="ru uk pt_BR"
+
+for l in $LANGLIST; do
+    msgcat -s "po/$l/"*.po "$l.po" >"$l-new.po"
+    fix_po "$l.header" "$l-new.po"
+    mv -f "$l-new.po" "$l.po"
+done
