@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-24 11:11+0300\n"
-"PO-Revision-Date: 2008-12-02 22:29-0300\n"
+"PO-Revision-Date: 2009-03-28 09:53-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -20,19 +20,20 @@ msgstr ""
 "X-Poedit-Basepath: pt_BR\n"
 
 #: ui/pkg/install/index.scm:73
-#, fuzzy
 msgid "Acquiring packages..."
-msgstr "Adquirindo pacotes..."
+msgstr "Obtendo os pacotes..."
 
-#: standard input:8 input:13 ui/pkg/sources/mirrors/index.scm:51
+#: standard input:8
+#: input:13
+#: ui/pkg/sources/mirrors/index.scm:51
 #: ui/pkg/register/index.scm:42
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:2 ui/pkg/register/index.scm:26
-#, fuzzy
+#: standard input:2
+#: ui/pkg/register/index.scm:26
 msgid "Additional disks"
-msgstr "Pacotes Adicionais"
+msgstr "Discos adicionais"
 
 #: standard input:5
 msgid "Advanced..."
@@ -42,21 +43,21 @@ msgstr "Avançado..."
 msgid "Anvanced..."
 msgstr "Avançado..."
 
-#: standard input:9 ui/pkg/sources/mirrors/index.scm:53
-#, fuzzy
+#: standard input:9
+#: ui/pkg/sources/mirrors/index.scm:53
 msgid "Available sources:"
-msgstr "Ver código fonte"
+msgstr "Fontes disponíveis:"
 
 #: ui/pkg/install/index.scm:35
-#, fuzzy
 msgid "Building packages list"
-msgstr "Adquirindo pacotes..."
+msgstr "Consturindo lista de pacotes"
 
 #: ui/pkg/sources/mirrors/index.scm:60
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: standard input:4 ui/pkg/sources/index.scm:32
+#: standard input:4
+#: ui/pkg/sources/index.scm:32
 msgid "Change"
 msgstr "Alteração"
 
@@ -64,7 +65,8 @@ msgstr "Alteração"
 msgid "Critical error during install"
 msgstr "Erro Crítico durante a instalação"
 
-#: standard input:10 ui/pkg/sources/mirrors/index.scm:55
+#: standard input:10
+#: ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr "Deletar"
 
@@ -90,24 +92,20 @@ msgstr ""
 " insira-os um por um e pressione botão 'Adicionar'"
 
 #: standard input:1
-#, fuzzy
 msgid "Install sources"
-msgstr "Instalando pacotes..."
+msgstr "Instalar fontes"
 
 #: ui/pkg/install/index.scm:37
-#, fuzzy
 msgid "Installing base system"
-msgstr "Instalando pacotes..."
+msgstr "Instalando base do sistema"
 
 #: ui/pkg/install/index.scm:79
-#, fuzzy
 msgid "Installing packages..."
 msgstr "Instalando pacotes..."
 
 #: ui/pkg/install/index.scm:39
-#, fuzzy
 msgid "Installing software"
-msgstr "Instalando pacotes..."
+msgstr "Instalando aplicativos..."
 
 #: ui/pkg/cdrom/index.scm:10
 msgid "Into drive"
@@ -122,14 +120,13 @@ msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr "Inválido ou não suportado protocolo . Deve ser http, ftp ou arquivo"
 
 #: ui/pkg/install/index.scm:40
-#, fuzzy
 msgid "Loading package information..."
-msgstr "Pular a instalação"
+msgstr "Rodando informações de pacotes..."
 
-#: standard input:7 ui/pkg/sources/mirrors/index.scm:49
-#, fuzzy
+#: standard input:7
+#: ui/pkg/sources/mirrors/index.scm:49
 msgid "New source:"
-msgstr "Ver código fonte"
+msgstr "Nova fonte:"
 
 #: ui/pkg/sources/mirrors/index.scm:59
 msgid "OK"
@@ -143,20 +140,24 @@ msgstr "Por favor insira um CDROM/DVD etiquetado como "
 msgid "Please insert disk"
 msgstr "Por favor insira um Disco"
 
-#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:134
+#: ui/pkg/install/index.scm:98
+#: ui/pkg/groups/index.scm:134
 msgid "Preparing..."
 msgstr "Preparado..."
 
-#: ui/pkg/cdrom/index.scm:12 ui/pkg/error/index.scm:7
+#: ui/pkg/cdrom/index.scm:12
+#: ui/pkg/error/index.scm:7
 msgid "Press 'Next' button to continue"
 msgstr "Clique no Botão \"Seguinte\" para continuar"
 
-#: standard input:14 ui/pkg/register/index.scm:44
+#: standard input:14
+#: ui/pkg/register/index.scm:44
 msgid "Remove"
 msgstr "Remover"
 
 #.
-#: standard input:1 ui/pkg/sources/index.scm:23
+#: standard input:1
+#: ui/pkg/sources/index.scm:23
 msgid "Repositories:"
 msgstr "Repositórios:"
 
@@ -177,11 +178,11 @@ msgid "Select"
 msgstr "Selecionar"
 
 #: ui/pkg/groups/index.scm:119
-#, fuzzy
 msgid "Select groups you want to install:"
-msgstr "Selecione os pacotes que você deseja instalar"
+msgstr "Selecione os grupos que você deseja instalar:"
 
-#: standard input:3 ui/pkg/sources/index.scm:30
+#: standard input:3
+#: ui/pkg/sources/index.scm:30
 msgid "Source URI:"
 msgstr "Fonte do URI:"
 
@@ -189,23 +190,26 @@ msgstr "Fonte do URI:"
 msgid "This disk is already added"
 msgstr "Este Disco já foi adicionado"
 
-#: ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+#: ui/pkg/cdrom/index.scm:9
+#: ui/pkg/cdrom/index.scm:11
+#: ui/pkg/error/index.scm:6
 msgid "Unknown"
 msgstr "Desconhecido"
 
 #: standard input:6
-#, fuzzy
 msgid "Update sources"
-msgstr "Ver código fonte"
+msgstr "Atualizar fontes"
 
 #: ui/pkg/groups/index.scm:85
 msgid "calculating..."
 msgstr "calculando..."
 
-#: backend3/pkg-sources:185 backend3/pkg-sources:221
+#: backend3/pkg-sources:185
+#: backend3/pkg-sources:221
 msgid "inactive"
 msgstr "inativo"
 
 #: ui/pkg/groups/index.scm:91
 msgid "unable to calculate"
 msgstr "Não foi possível calcular"
+

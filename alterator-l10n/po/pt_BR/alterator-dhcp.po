@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-27 11:17+0300\n"
-"PO-Revision-Date: 2009-01-29 12:41-0300\n"
+"PO-Revision-Date: 2009-03-28 10:54-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -67,19 +67,20 @@ msgstr "Adicionar"
 msgid "Address  expiration time:"
 msgstr "Tempo de Expiração do Endereço:"
 
-#: standard input:4 input:19
+#: standard input:4
+#: input:19
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:24 input:32
-#, fuzzy
+#: standard input:24
+#: input:32
 msgid "Computer name"
-msgstr "Nome da Conta:"
+msgstr "Nome do computador"
 
-#: standard input:3 input:29
-#, fuzzy
+#: standard input:3
+#: input:29
 msgid "Computer name:"
-msgstr "Nome da Conta:"
+msgstr "Nome do computador:"
 
 #: standard input:31
 msgid "Current dynamically allocated addresses"
@@ -98,9 +99,8 @@ msgid "Default gateway:"
 msgstr "Gateway PAdrão"
 
 #: standard input:9
-#, fuzzy
 msgid "Enable DHCP server"
-msgstr "Habilitar Serviço de FTP"
+msgstr "Habilitar o servidor DHCP"
 
 #: standard input:13
 msgid "Ending IP address:"
@@ -118,11 +118,13 @@ msgstr "Corrigir endereço do Host Selecionado"
 msgid "General settings"
 msgstr "Configurações Gerais"
 
-#: standard input:22 input:34
+#: standard input:22
+#: input:34
 msgid "IP address"
 msgstr "Endereço IP"
 
-#: standard input:2 input:27
+#: standard input:2
+#: input:27
 msgid "IP address:"
 msgstr "Endereço IP:"
 
@@ -138,18 +140,19 @@ msgstr "Interface:"
 msgid "Invalid address range"
 msgstr "Endereço de Gama Inválido"
 
-#: standard input:23 input:33
+#: standard input:23
+#: input:33
 msgid "MAC address"
 msgstr "Endereço MAC"
 
-#: standard input:1 input:28
+#: standard input:1
+#: input:28
 msgid "MAC address:"
 msgstr "Endereço MAC:"
 
 #: standard input:26
-#, fuzzy
 msgid "New static address:"
-msgstr "Endereços Estaticos"
+msgstr "novo endereço estatico:"
 
 #: standard input:7
 msgid "Reconfigure ethernet interfaces..."
@@ -159,7 +162,8 @@ msgstr "Reconfigurar Interface de Rede"
 msgid "Remove selected"
 msgstr "Remover selecionado"
 
-#: standard input:5 input:20
+#: standard input:5
+#: input:20
 msgid "Reset"
 msgstr "Resetar"
 
@@ -179,16 +183,17 @@ msgstr "Endereço IP Inicial"
 msgid "Static addresses"
 msgstr "Endereços Estaticos"
 
-#: backend3/dhcp:286 backend3/dhcp:298
+#: backend3/dhcp:286
+#: backend3/dhcp:298
 msgid "This computer name is registered for internal purposes"
-msgstr ""
+msgstr "Esse nome do computador está registado para efeitos internos"
 
 #: standard input:6
-msgid ""
-"You must have statically configured ethernet interface to setup dhcp server."
+msgid "You must have statically configured ethernet interface to setup dhcp server."
 msgstr "Você deve configurar uma conexão DHCP"
 
-#: backend3/dhcp:110 backend3/dhcp:258
+#: backend3/dhcp:110
+#: backend3/dhcp:258
 msgid "You should define address range"
 msgstr "Você deve definir um endereço de range"
 
@@ -202,15 +207,12 @@ msgstr "Endereço MAC Inválido"
 
 #~ msgid "(DNS name or IP address)"
 #~ msgstr "(IP ou Nome do DNS)"
-
 #~ msgid "Host address"
 #~ msgstr "Endereço Host:"
-
 #~ msgid "Host address:"
 #~ msgstr "Endereço Host:"
-
 #~ msgid "Host name"
 #~ msgstr "Nome do Host"
-
 #~ msgid "Start, stop or restart service..."
 #~ msgstr "Iniciar, parar ou resetar o serviço"
+

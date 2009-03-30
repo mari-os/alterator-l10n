@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-01-28 16:31+0300\n"
-"PO-Revision-Date: 2008-12-02 22:29-0300\n"
+"PO-Revision-Date: 2009-03-28 10:48-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -19,47 +19,58 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:10 ui/users/index.scm:103 ui/users/add/index.scm:66
+#: standard input:10
+#: ui/users/index.scm:103
+#: ui/users/add/index.scm:66
 msgid "(enter passphrase)"
 msgstr "(Entre com a Senha)"
 
-#: standard input:11 ui/users/index.scm:105 ui/users/add/index.scm:68
+#: standard input:11
+#: ui/users/index.scm:105
+#: ui/users/add/index.scm:68
 msgid "(repeat passphrase)"
 msgstr "(repetir a senha)"
 
-#: standard input:13 ui/users/index.scm:116
+#: standard input:13
+#: ui/users/index.scm:116
 msgid "Apply"
 msgstr "Aplicar"
 
 #.
-#: standard input:4 ui/users/index.scm:81
+#: standard input:4
+#: ui/users/index.scm:81
 msgid "Comment:"
 msgstr "Comentários:"
 
-#: standard input:2 ui/users/index.scm:67
+#: standard input:2
+#: ui/users/index.scm:67
 msgid "Create"
 msgstr "Criar"
 
-#: standard input:14 ui/users/index.scm:118
-#, fuzzy
+#: standard input:14
+#: ui/users/index.scm:118
 msgid "Delete user"
-msgstr "Criação do Sistema de Usuário"
+msgstr "Deletar usuário"
 
 #: ui/users/index.scm:28
 msgid "Do you really want to delete user "
 msgstr "Você realmente deseja apagar o usuário"
 
-#: standard input:12 ui/users/index.scm:107 ui/users/add/index.scm:70
+#: standard input:12
+#: ui/users/index.scm:107
+#: ui/users/add/index.scm:70
 msgid "Generate"
 msgstr "Gerar"
 
-#: standard input:9 ui/users/index.scm:100 ui/users/add/index.scm:63
-#, fuzzy
+#: standard input:9
+#: ui/users/index.scm:100
+#: ui/users/add/index.scm:63
 msgid "Generate automatically"
-msgstr "Configurar automaticamente Data e Hora"
+msgstr "Gerar automaticamente"
 
 #.
-#: standard input:5 ui/users/index.scm:84
+#: standard input:5
+#: ui/users/index.scm:84
 msgid "Home directory:"
 msgstr "Diretório Home:"
 
@@ -67,16 +78,17 @@ msgstr "Diretório Home:"
 msgid "Local user accounts"
 msgstr "Contas de Úsuarios Locais"
 
-#: standard input:7 ui/users/index.scm:91
-#, fuzzy
+#: standard input:7
+#: ui/users/index.scm:91
 msgid "Member of administrators group"
-msgstr "Administrador do Sistema"
+msgstr "Membro do grupo de administradores"
 
 #: ui/users/add/index.scm:51
 msgid "Name:"
 msgstr "Nome:"
 
-#: standard input:1 ui/users/index.scm:65
+#: standard input:1
+#: ui/users/index.scm:65
 msgid "New account:"
 msgstr "Nova Conta:"
 
@@ -85,29 +97,30 @@ msgid "New user account"
 msgstr "Nova Conta de Usuário"
 
 #.
-#: standard input:8 ui/users/index.scm:97 ui/users/add/index.scm:60
-#, fuzzy
+#: standard input:8
+#: ui/users/index.scm:97
+#: ui/users/add/index.scm:60
 msgid "Password:"
-msgstr "Senha"
+msgstr "Senha:"
 
-#: backend3/users:207 backend3/users:235
-#, fuzzy
+#: backend3/users:207
+#: backend3/users:235
 msgid "Passwords mismatch"
-msgstr "Senha"
+msgstr "Senhas não conferem"
 
 #: standard input:3
 msgid "Select"
 msgstr "Selecionar"
 
 #.
-#: standard input:6 ui/users/index.scm:87
+#: standard input:6
+#: ui/users/index.scm:87
 msgid "Shell:"
 msgstr "Shell:"
 
 #: ui/users/add/index.scm:20
-#, fuzzy
 msgid "You should define a password"
-msgstr "Você deve definir um usuário para o sistema"
+msgstr "Você necessita definir uma senha"
 
 #: ui/users/add/index.scm:17
 msgid "You should define a system user"
@@ -127,19 +140,18 @@ msgstr "Não foi possivel criar ou remover o Diretório \"Home\""
 msgid "can't remove user's primary group"
 msgstr "Não foi possível Remover o Usuário Primario do Group"
 
-#: backend3/users:81 backend3/users:122
+#: backend3/users:81
+#: backend3/users:122
 msgid "can't update group file"
 msgstr "Não foi possível atualizar o arquivo de grupo "
 
 #: backend3/users:74
-#, fuzzy
 msgid "can't update password file"
-msgstr "Não use senha"
+msgstr "Não foi possivel atualizar o arquivo de senha"
 
 #: backend3/users:92
-#, fuzzy
 msgid "cannot change password"
-msgstr "Não use senha"
+msgstr "Não foi possível alterar a senha"
 
 #: backend3/users:118
 msgid "gid not unique"
@@ -155,7 +167,8 @@ msgid "invalid argument to option"
 msgstr "Argumento da Opção Inválidos"
 
 #. '
-#: backend3/users:75 backend3/users:116
+#: backend3/users:75
+#: backend3/users:116
 msgid "invalid command syntax"
 msgstr "Sintexe do Comando Inválido"
 
@@ -195,3 +208,4 @@ msgstr "Nome de usuário já em uso"
 #, fuzzy
 #~ msgid "cant create mail spool"
 #~ msgstr "Não foi possível criar o \"Mail Spool\""
+

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-22 15:59+0400\n"
-"PO-Revision-Date: 2008-12-02 22:29-0300\n"
+"PO-Revision-Date: 2009-03-28 10:44-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -24,11 +24,11 @@ msgid "(DNS name or IP address)"
 msgstr "(IP ou Nome do DNS)"
 
 #: standard input:6
-msgid ""
-"(IP address where server listen on, or '*' for listening on all interfaces)"
+msgid "(IP address where server listen on, or '*' for listening on all interfaces)"
 msgstr "(Endereço IP, ou use \"*\" para rodar em todas as interfaces)"
 
-#: standard input:4 input:5
+#: standard input:4
+#: input:5
 msgid "(TCP port for server to listen to)"
 msgstr "(Porta TCP para o servidor)"
 
@@ -36,16 +36,21 @@ msgstr "(Porta TCP para o servidor)"
 msgid "(TCP port where server listen on)"
 msgstr "(Porta do servidor)"
 
-#: standard input:10 input:13 ui/users/add/index.scm:66 ui/users/index.scm:103
-#: input:3 ui/root/index.scm:33
+#: standard input:10
+#: input:13
+#: ui/users/add/index.scm:66
+#: ui/users/index.scm:103
+#: input:3
+#: ui/root/index.scm:33
 msgid "(enter passphrase)"
-msgstr "(Entre com a Senha)"
+msgstr "(Entre com o passphrase)"
 
 #: standard input:8
 msgid "(granularity of the logging influences its size)"
 msgstr "(Tamanho do login)"
 
-#: standard input:6 input:7
+#: standard input:6
+#: input:7
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(deixe esse campo em branco para listar em todas as interfaces)"
 
@@ -57,15 +62,18 @@ msgstr "(Tamanho do login)"
 msgid "(maximum possible address range)"
 msgstr "(Intervalo Máximo possivel de Endereço)"
 
-#: standard input:19 input:20
+#: standard input:19
+#: input:20
 msgid "(organization name, written in latin letters)"
 msgstr "(Nome da Empresa)"
 
-#: standard input:21 input:22
+#: standard input:21
+#: input:22
 msgid "(organizational unit name, written in latin letters)"
 msgstr "(Unidade da Empresa)"
 
-#: standard input:13 input:14
+#: standard input:13
+#: input:14
 msgid "(public hostname)"
 msgstr "(Hostname Público)"
 
@@ -73,25 +81,34 @@ msgstr "(Hostname Público)"
 msgid "(quick access to usual network resources)"
 msgstr "(acesso rádio aos recursos de rede)"
 
-#: standard input:23 input:24
+#: standard input:23
+#: input:24
 msgid "(recreate private key, sign request and self-signed certificate)"
 msgstr "(Recriar Private Key)"
 
-#: standard input:11 input:14 ui/users/add/index.scm:68 ui/users/index.scm:105
-#: input:4 ui/root/index.scm:35
+#: standard input:11
+#: input:14
+#: ui/users/add/index.scm:68
+#: ui/users/index.scm:105
+#: input:4
+#: ui/root/index.scm:35
 msgid "(repeat passphrase)"
 msgstr "(repetir a senha)"
 
-#: standard input:10 input:12 ui/net-iptables/index.scm:101
+#: standard input:10
+#: input:12
+#: ui/net-iptables/index.scm:101
 #: ui/net-iptables/index.scm:106
 msgid "(separated by commas or spaces)"
-msgstr ""
+msgstr "(separados por vírgulas ou espaços)"
 
-#: standard input:17 input:18
+#: standard input:17
+#: input:18
 msgid "(state or city, written in latin letters)"
 msgstr "(Estado ou cidade)"
 
-#: standard input:15 input:16
+#: standard input:15
+#: input:16
 msgid "(two letter country code)"
 msgstr "(Duas Letras do País)"
 
@@ -99,7 +116,8 @@ msgstr "(Duas Letras do País)"
 msgid "(user visible contact information)"
 msgstr "(informações de contato visivel)"
 
-#: standard input:4 ui/dovecot/index.scm:45
+#: standard input:4
+#: ui/dovecot/index.scm:45
 msgid "(you can't disable all mechanisms)"
 msgstr "(você não pode desabilitar todos os mecanismos)"
 
@@ -207,36 +225,42 @@ msgstr "Acesso ao HD via NFS (/var/lib/alterator/mirror)"
 #.
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: standard input:5 ui/net-pppoe/index.scm:74 input:3
-#: ui/sysconfig/proxy/index.scm:14 ui/net-pptp/index.scm:84
-#, fuzzy
+#: standard input:5
+#: ui/net-pppoe/index.scm:74
+#: input:3
+#: ui/sysconfig/proxy/index.scm:14
+#: ui/net-pptp/index.scm:84
 msgid "Account:"
-msgstr "Nome da Conta:"
+msgstr "Conta:"
 
 #: standard input:9
-#, fuzzy
 msgid "Accounting"
-msgstr "Nome da Conta:"
+msgstr "Contabilidade"
 
 #: backend3/pkg-upgrade:182
-#, fuzzy
 msgid "Acquiring package database..."
-msgstr "Adquirindo pacotes..."
+msgstr "Adquirindo banco de dados de pacotes..."
 
 #: backend3/pkg-upgrade:179
-#, fuzzy
 msgid "Acquiring packages"
-msgstr "Adquirindo pacotes..."
+msgstr "Obtendo pacotes"
 
 #: ui/pkg/install/index.scm:72
-#, fuzzy
 msgid "Acquiring packages..."
-msgstr "Adquirindo pacotes..."
+msgstr "Obtendo pacotes..."
 
-#: standard input:8 input:19 ui/pkg/sources/mirrors/index.scm:51
-#: ui/pkg/register/index.scm:42 input:4 input:6
-#: ui/xkb/avail_layout/index.scm:26 ui/xkb/index.scm:37 input:22 input:34
-#: input:32 input:33
+#: standard input:8
+#: input:19
+#: ui/pkg/sources/mirrors/index.scm:51
+#: ui/pkg/register/index.scm:42
+#: input:4
+#: input:6
+#: ui/xkb/avail_layout/index.scm:26
+#: ui/xkb/index.scm:37
+#: input:22
+#: input:34
+#: input:32
+#: input:33
 msgid "Add"
 msgstr "Adicionar"
 
@@ -253,9 +277,8 @@ msgid "Add network"
 msgstr "Adicionar Rede"
 
 #: ui/lilo/expert/index.scm:195
-#, fuzzy
 msgid "Add other loader"
-msgstr "Outro sistema"
+msgstr "Adicionar outro rodador"
 
 #: standard input:4
 msgid "Add recipient"
@@ -285,34 +308,30 @@ msgstr "Adicionar Site"
 msgid "Add user:"
 msgstr "Adicionar Usuário:"
 
-#: standard input:3 ui/pkg/register/index.scm:26
-#, fuzzy
+#: standard input:3
+#: ui/pkg/register/index.scm:26
 msgid "Additional disks"
-msgstr "Pacotes Adicionais"
+msgstr "Discos Adicionais"
 
 #: backend3/pkg-upgrade:145
-#, fuzzy
 msgid "Additional packages to install"
-msgstr "Pacotes Adicionais"
+msgstr "Pacotes adicionais para instalar"
 
 #: ui/lilo/expert/index.scm:171
-#, fuzzy
 msgid "Additional parameters:"
-msgstr "Pacotes Adicionais"
+msgstr "Parâmetros adicionais:"
 
 #: standard input:9
 msgid "Address  expiration time:"
 msgstr "Tempo de Expiração do Endereço:"
 
 #: standard input:7
-#, fuzzy
 msgid "Administrator e-mail:"
-msgstr "Administrador do Sistema"
+msgstr "Email do Administrador:"
 
 #: standard input:9
-#, fuzzy
 msgid "Administrator password:"
-msgstr "Administrador do Sistema"
+msgstr "Senha do administrador:"
 
 #: ui/lilo/expert/index.scm:176
 msgid "Alias:"
@@ -334,7 +353,8 @@ msgstr "Permitir \"mkdir\""
 msgid "Allow rename/delete"
 msgstr "Permitir renomear/deletar"
 
-#: standard input:3 ui/net-iptables/index.scm:63
+#: standard input:3
+#: ui/net-iptables/index.scm:63
 msgid "Allow transit packets (forwarding)"
 msgstr "Permitir envio de pacotes"
 
@@ -351,7 +371,8 @@ msgid "Allowed client networks:"
 msgstr "Redes permitidas:"
 
 #.
-#: standard input:6 ui/net-iptables/index.scm:80
+#: standard input:6
+#: ui/net-iptables/index.scm:80
 msgid "Allowed incoming connections"
 msgstr "Conexões de Entrada"
 
@@ -364,11 +385,11 @@ msgid "Alt+Shift key"
 msgstr "Alt+Shift"
 
 #: standard input:1
-#, fuzzy
 msgid "Alternatives subsystem"
-msgstr "Sistema Operacional"
+msgstr "Sistema Operacional alternativo"
 
-#: standard input:1 ui/alternatives/index.scm:32
+#: standard input:1
+#: ui/alternatives/index.scm:32
 msgid "Alternatives:"
 msgstr "Alternativas:"
 
@@ -376,21 +397,50 @@ msgstr "Alternativas:"
 msgid "Anonymous user options"
 msgstr "Opções do Usuário Anônimo"
 
-#: standard input:5 ui/pkg/sources/index.scm:39
+#: standard input:5
+#: ui/pkg/sources/index.scm:39
 msgid "Anvanced..."
 msgstr "Avançado..."
 
-#: standard input:5 input:18 input:6 ui/alternatives/index.scm:77 input:8
-#: ui/net-pppoe/index.scm:88 input:15 input:13 ui/net-eth/index.scm:159
-#: ui/dovecot/index.scm:52 input:12 ui/net-wifi/index.scm:131 input:11
-#: input:16 ui/xinetd/index.scm:95 ui/xkb/index.scm:54 backend3/xkb:188
-#: input:3 ui/net-iptables/index.scm:115 ui/auth/index.scm:54
-#: ui/sysconfig/proxy/index.scm:26 ui/users/index.scm:116 ui/root/index.scm:46
-#: ui/net-pptp/index.scm:114 input:22 ui/control/index.scm:55 input:9
-#: ui/datetime/index.scm:32 input:10 input:14 ui/timezone/index.scm:71
-#: input:21 ui/x11/index.scm:97 ui/lilo/expert/index.scm:206
-#: ui/lilo/edit-source/index.scm:36 ui/lilo/index.scm:140 input:7
-#: ui/groups/index.scm:89 ui/services/index.scm:63
+#: standard input:5
+#: input:18
+#: input:6
+#: ui/alternatives/index.scm:77
+#: input:8
+#: ui/net-pppoe/index.scm:88
+#: input:15
+#: input:13
+#: ui/net-eth/index.scm:159
+#: ui/dovecot/index.scm:52
+#: input:12
+#: ui/net-wifi/index.scm:131
+#: input:11
+#: input:16
+#: ui/xinetd/index.scm:95
+#: ui/xkb/index.scm:54
+#: backend3/xkb:188
+#: input:3
+#: ui/net-iptables/index.scm:115
+#: ui/auth/index.scm:54
+#: ui/sysconfig/proxy/index.scm:26
+#: ui/users/index.scm:116
+#: ui/root/index.scm:46
+#: ui/net-pptp/index.scm:114
+#: input:22
+#: ui/control/index.scm:55
+#: input:9
+#: ui/datetime/index.scm:32
+#: input:10
+#: input:14
+#: ui/timezone/index.scm:71
+#: input:21
+#: ui/x11/index.scm:97
+#: ui/lilo/expert/index.scm:206
+#: ui/lilo/edit-source/index.scm:36
+#: ui/lilo/index.scm:140
+#: input:7
+#: ui/groups/index.scm:89
+#: ui/services/index.scm:63
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -403,9 +453,8 @@ msgid "Apply saved keyboard settings"
 msgstr "APlicar as alterações do Teclado"
 
 #: interfaces/guile/ahttpd/translate.scm:56
-#, fuzzy
 msgid "April"
-msgstr "Aplicar"
+msgstr "Abril"
 
 #: standard input:7
 msgid "Architectures"
@@ -419,18 +468,21 @@ msgstr "Arquiteturas:"
 msgid "August"
 msgstr "Agosto"
 
-#: standard input:3 ui/dovecot/index.scm:37
+#: standard input:3
+#: ui/dovecot/index.scm:37
 msgid "Auth mechanisms:"
 msgstr "Mecanismo de Autentificação:"
 
-#: standard input:9 ui/net-wifi/index.scm:125 input:1 ui/auth/index.scm:33
+#: standard input:9
+#: ui/net-wifi/index.scm:125
+#: input:1
+#: ui/auth/index.scm:33
 msgid "Auth type:"
 msgstr "Tipo de Autentificação:"
 
 #: standard input:1
-#, fuzzy
 msgid "Authentication"
-msgstr "Destino"
+msgstr "Autentificação"
 
 #: standard input:15
 msgid "Authentication (SASL)"
@@ -445,16 +497,18 @@ msgstr "Auto-detectar"
 msgid "Automatically detected"
 msgstr "Automaticamente Deletado"
 
-#: standard input:3 ui/xkb/avail_layout/index.scm:19
+#: standard input:3
+#: ui/xkb/avail_layout/index.scm:19
 msgid "Available layouts:"
 msgstr "Layouts disponíveis:"
 
-#: standard input:9 ui/pkg/sources/mirrors/index.scm:53
-#, fuzzy
+#: standard input:9
+#: ui/pkg/sources/mirrors/index.scm:53
 msgid "Available sources:"
-msgstr "Ver código fonte"
+msgstr "Fontes disponíveis:"
 
-#: standard input:3 ui/auth/index.scm:41
+#: standard input:3
+#: ui/auth/index.scm:41
 msgid "Base DN:"
 msgstr "Base DN:"
 
@@ -467,14 +521,12 @@ msgid "Boot variants"
 msgstr "Variantes de Boot"
 
 #: standard input:1
-#, fuzzy
 msgid "Bootloader"
-msgstr "Outro sistema"
+msgstr "Rodador de boot"
 
 #: ui/pkg/install/index.scm:35
-#, fuzzy
 msgid "Building packages list"
-msgstr "Adquirindo pacotes..."
+msgstr "Criando lista de pacotes"
 
 #: backend3/groups:126
 msgid "Can't add group"
@@ -500,26 +552,31 @@ msgstr "Não é possível excluir um grupo sem nome"
 msgid "Can't modify group with empty name"
 msgstr "Não é possível editar um grupo sem nome"
 
-#: backend3/xinetd:246 backend3/xinetd:310
+#: backend3/xinetd:246
+#: backend3/xinetd:310
 msgid "Can't open file"
 msgstr "Não pode abrir o arquivo"
 
-#: backend3/xinetd:247 backend3/xinetd:311
+#: backend3/xinetd:247
+#: backend3/xinetd:311
 msgid "Can't open temporary file"
 msgstr "Não foi possível abrir o arquivo temporário"
 
 #: backend3/groups:205
-#, fuzzy
 msgid "Can't remove user"
-msgstr "Criação do Sistema de Usuário"
+msgstr "Não foi possível remover o usuário"
 
-#: standard input:14 ui/pkg/sources/mirrors/index.scm:60
-#: ui/pkg/upgrade/index.scm:47 ui/xkb/avail_layout/index.scm:27
-#: ui/x11/driver/index.scm:31 ui/x11/monitor/index.scm:28
+#: standard input:14
+#: ui/pkg/sources/mirrors/index.scm:60
+#: ui/pkg/upgrade/index.scm:47
+#: ui/xkb/avail_layout/index.scm:27
+#: ui/x11/driver/index.scm:31
+#: ui/x11/monitor/index.scm:28
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: standard input:3 ui/alternatives/index.scm:53
+#: standard input:3
+#: ui/alternatives/index.scm:53
 msgid "Candidates:"
 msgstr "Candidatos"
 
@@ -527,24 +584,28 @@ msgstr "Candidatos"
 msgid "CapsLock key"
 msgstr "CapsLock"
 
-#: standard input:11 input:12
+#: standard input:11
+#: input:12
 msgid "Certificate"
 msgstr "Certificado"
 
-#: standard input:4 ui/pkg/sources/index.scm:32 input:8
+#: standard input:4
+#: ui/pkg/sources/index.scm:32
+#: input:8
 msgid "Change"
 msgstr "Alteração"
 
-#: standard input:10 ui/net-wifi/index.scm:127
-#, fuzzy
+#: standard input:10
+#: ui/net-wifi/index.scm:127
 msgid "Change password:"
-msgstr "Não use senha"
+msgstr "Senha alterada:"
 
 #: ui/services/index.scm:55
 msgid "Change state:"
 msgstr "Mudar Estado:"
 
-#: standard input:12 ui/pkg/upgrade/index.scm:35
+#: standard input:12
+#: ui/pkg/upgrade/index.scm:35
 msgid "Check for updates"
 msgstr "Verificar Atualizações"
 
@@ -552,7 +613,8 @@ msgstr "Verificar Atualizações"
 msgid "Checking for updates..."
 msgstr "Verificando Atualizações..."
 
-#: standard input:4 ui/alternatives/index.scm:62
+#: standard input:4
+#: ui/alternatives/index.scm:62
 msgid "Choose candidate manually"
 msgstr "Escolha do Candidato manualmente"
 
@@ -560,16 +622,19 @@ msgstr "Escolha do Candidato manualmente"
 msgid "Clear local mirror"
 msgstr "Limpar Endereços de \"Mirror\""
 
-#: standard input:9 ui/x11/index.scm:76
+#: standard input:9
+#: ui/x11/index.scm:76
 msgid "Color depth:"
 msgstr "Cor do Depth:"
 
 #.
-#: standard input:4 ui/users/index.scm:81
+#: standard input:4
+#: ui/users/index.scm:81
 msgid "Comment:"
 msgstr "Comentários:"
 
-#: standard input:12 input:13
+#: standard input:12
+#: input:13
 msgid "Common Name (CN):"
 msgstr "Nome Comum (CN):"
 
@@ -577,31 +642,34 @@ msgstr "Nome Comum (CN):"
 msgid "Common kernel parameters:"
 msgstr "Parametros Comuns do Kernel:"
 
-#: backend3/xinetd:107 backend3/xinetd:108 ui/lilo/expert/index.scm:127
-#, fuzzy
+#: backend3/xinetd:107
+#: backend3/xinetd:108
+#: ui/lilo/expert/index.scm:127
 msgid "Common settings"
-msgstr "Configurações avançadas"
+msgstr "Configurações comuns"
 
 #: standard input:3
-#, fuzzy
 msgid "Computer name:"
-msgstr "Nome da Conta:"
+msgstr "Nome do computador:"
 
 #.
-#: standard input:7 ui/net-eth/index.scm:121
-#, fuzzy
+#: standard input:7
+#: ui/net-eth/index.scm:121
 msgid "Configuration:"
-msgstr "Informação"
+msgstr "Configurações:"
 
-#: standard input:18 ui/net-wifi/index.scm:142
+#: standard input:18
+#: ui/net-wifi/index.scm:142
 msgid "Configure"
 msgstr "Configurar"
 
-#: standard input:15 ui/net-wifi/index.scm:136
+#: standard input:15
+#: ui/net-wifi/index.scm:136
 msgid "Configure new network"
 msgstr "Configurar a Rede"
 
-#: standard input:5 ui/net-wifi/index.scm:115
+#: standard input:5
+#: ui/net-wifi/index.scm:115
 msgid "Configured networks"
 msgstr "Rede Configurada"
 
@@ -609,7 +677,8 @@ msgstr "Rede Configurada"
 msgid "Connected to network"
 msgstr "Rede conectada"
 
-#: standard input:15 ui/pkg/upgrade/index.scm:53
+#: standard input:15
+#: ui/pkg/upgrade/index.scm:53
 msgid "Continue"
 msgstr "Continuar"
 
@@ -625,15 +694,20 @@ msgstr "CTRL+Shift"
 msgid "Control+Shift keys (UK,RU,EN)"
 msgstr "CTRL+Shit (UK,RU,EN,PT-BR)"
 
-#: standard input:14 input:15
+#: standard input:14
+#: input:15
 msgid "Country (C):"
 msgstr "País:"
 
-#: standard input:1 ui/xkb/avail_layout/index.scm:17
+#: standard input:1
+#: ui/xkb/avail_layout/index.scm:17
 msgid "Country:"
 msgstr "País:"
 
-#: standard input:13 input:2 ui/users/index.scm:67 ui/groups/index.scm:67
+#: standard input:13
+#: input:2
+#: ui/users/index.scm:67
+#: ui/groups/index.scm:67
 msgid "Create"
 msgstr "Criar"
 
@@ -645,10 +719,10 @@ msgstr "Crítico"
 msgid "Critical error during install"
 msgstr "Erro Crítico durante a instalação"
 
-#: standard input:4 ui/datetime/index.scm:22
-#, fuzzy
+#: standard input:4
+#: ui/datetime/index.scm:22
 msgid "Current date:"
-msgstr "Configurar a Data Atual:"
+msgstr "Data Atual:"
 
 #: standard input:24
 msgid "Current dynamically allocated addresses"
@@ -658,10 +732,10 @@ msgstr "Endereços atribuídos dinamicamente"
 msgid "Current network"
 msgstr "Rede Atual"
 
-#: standard input:4 ui/x11/index.scm:52
-#, fuzzy
+#: standard input:4
+#: ui/x11/index.scm:52
 msgid "Current settings"
-msgstr "Configurações avançadas"
+msgstr "Configurações Correntes"
 
 #: standard input:3
 msgid "Current state"
@@ -671,10 +745,10 @@ msgstr "Atual Estado"
 msgid "Current state:"
 msgstr "Atual Estado:"
 
-#: standard input:5 ui/datetime/index.scm:23
-#, fuzzy
+#: standard input:5
+#: ui/datetime/index.scm:23
 msgid "Current time:"
-msgstr "Configurar a Hora Atual:"
+msgstr "Hora Atual:"
 
 #: standard input:1
 msgid "DHCP server"
@@ -685,7 +759,8 @@ msgid "DNS server:"
 msgstr "Servidor DNS:"
 
 #.
-#: standard input:2 ui/net-eth/index.scm:83
+#: standard input:2
+#: ui/net-eth/index.scm:83
 msgid "DNS servers:"
 msgstr "Servidores DNS:"
 
@@ -698,22 +773,23 @@ msgid "December"
 msgstr "Dezembro"
 
 #: backend3/sysconfig-base:34
-#, fuzzy
 msgid "Default"
-msgstr "Setar Padrão"
+msgstr "Padrão"
 
 #: ui/lilo/expert/index.scm:150
-#, fuzzy
 msgid "Default boot variant:"
-msgstr "Rota Padrão via VPN"
+msgstr "Variante padrão do boot:"
 
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: standard input:10 ui/net-eth/index.scm:132 input:13
+#: standard input:10
+#: ui/net-eth/index.scm:132
+#: input:13
 msgid "Default gateway:"
 msgstr "Gateway PAdrão"
 
-#: standard input:8 ui/net-pptp/index.scm:94
+#: standard input:8
+#: ui/net-pptp/index.scm:94
 msgid "Default route via VPN"
 msgstr "Rota Padrão via VPN"
 
@@ -725,27 +801,40 @@ msgstr "Lista de Sites Padrões"
 msgid "Default upload directory (/var/ftp/incoming)"
 msgstr "Diretório de Upload Padrão (/var/ftp/incoming)"
 
-#: standard input:10 ui/pkg/sources/mirrors/index.scm:55 input:14
-#: ui/net-wifi/index.scm:133 input:17 input:3 input:7 input:25 input:37
-#: input:30 input:31 ui/lilo/expert/index.scm:189 input:9
+#: standard input:10
+#: ui/pkg/sources/mirrors/index.scm:55
+#: input:14
+#: ui/net-wifi/index.scm:133
+#: input:17
+#: input:3
+#: input:7
+#: input:25
+#: input:37
+#: input:30
+#: input:31
+#: ui/lilo/expert/index.scm:189
+#: input:9
 #: ui/groups/index.scm:91
 msgid "Delete"
 msgstr "Deletar"
 
-#: standard input:10 ui/net-pppoe/index.scm:91 input:15
+#: standard input:10
+#: ui/net-pppoe/index.scm:91
+#: input:15
 #: ui/net-pptp/index.scm:120
 msgid "Delete connection"
 msgstr "Deletar Conexão"
 
-#: standard input:14 ui/users/index.scm:118
-#, fuzzy
+#: standard input:14
+#: ui/users/index.scm:118
 msgid "Delete user"
-msgstr "Criação do Sistema de Usuário"
+msgstr "Deletar usuário"
 
-#: standard input:13 input:5 ui/groups/index.scm:80
-#, fuzzy
+#: standard input:13
+#: input:5
+#: ui/groups/index.scm:80
 msgid "Description:"
-msgstr "Destino"
+msgstr "Descrição:"
 
 #: ui/standalone/index.scm:13
 msgid "Desktop file not found"
@@ -755,20 +844,22 @@ msgstr "Arquivo do Desktop não encontrado"
 msgid "Destination of non-local mail:"
 msgstr "Local de Destino Email:"
 
-#: standard input:1 ui/x11/index.scm:29
+#: standard input:1
+#: ui/x11/index.scm:29
 msgid "Detected hardware"
 msgstr "Hadware Detectado"
 
 #: ui/lilo/expert/index.scm:174
-#, fuzzy
 msgid "Device:"
-msgstr "Dispositivo"
+msgstr "Dispositivo:"
 
 #: standard input:8
 msgid "Disk usage"
 msgstr "Uso do Disco:"
 
-#: standard input:1 input:13 input:18
+#: standard input:1
+#: input:13
+#: input:18
 msgid "Display"
 msgstr "Vídeo"
 
@@ -780,20 +871,23 @@ msgstr "Você realmente deseja apagar"
 msgid "Do you really want to delete user "
 msgstr "Você realmente deseja apagar o usuário"
 
-#: ui/lilo/expert/index.scm:119 ui/lilo/edit-source/index.scm:21
-#, fuzzy
+#: ui/lilo/expert/index.scm:119
+#: ui/lilo/edit-source/index.scm:21
 msgid "Don't install bootloader"
-msgstr "Instale o gerenciador de inicialização em:"
+msgstr "Não instalar o rodador de boot"
 
-#: standard input:9 ui/xkb/index.scm:41
+#: standard input:9
+#: ui/xkb/index.scm:41
 msgid "Down"
 msgstr "Abaixo"
 
-#: standard input:25 input:26
+#: standard input:25
+#: input:26
 msgid "Download sign request"
 msgstr "Download do Requerido"
 
-#: standard input:7 ui/x11/index.scm:67
+#: standard input:7
+#: ui/x11/index.scm:67
 msgid "Driver:"
 msgstr "Driver:"
 
@@ -801,7 +895,8 @@ msgstr "Driver:"
 msgid "Drivers"
 msgstr "Drivers"
 
-#: standard input:15 ui/x11/driver/index.scm:10
+#: standard input:15
+#: ui/x11/driver/index.scm:10
 msgid "Drivers:"
 msgstr "Drivers"
 
@@ -809,11 +904,14 @@ msgstr "Drivers"
 msgid "Drop mail"
 msgstr "Drop mail"
 
-#: ui/lilo/expert/index.scm:123 ui/lilo/edit-source/index.scm:25
+#: ui/lilo/expert/index.scm:123
+#: ui/lilo/edit-source/index.scm:25
 msgid "Edit lilo.conf"
 msgstr "Editar lilo.conf"
 
-#: standard input:17 input:19 input:21
+#: standard input:17
+#: input:19
+#: input:21
 msgid "Edit list..."
 msgstr "Editar Lista"
 
@@ -821,24 +919,27 @@ msgstr "Editar Lista"
 msgid "Email host"
 msgstr "Host Email"
 
-#: standard input:4 input:21
+#: standard input:4
+#: input:21
 msgid "Email host:"
 msgstr "Host Email:"
 
-#: standard input:7 ui/net-wifi/index.scm:123
-#, fuzzy
+#: standard input:7
+#: ui/net-wifi/index.scm:123
 msgid "Enable"
-msgstr "Tabela:"
+msgstr "Habilitado:"
 
 #: standard input:3
 msgid "Enable FTP service"
 msgstr "Habilitar Serviço de FTP"
 
-#: standard input:5 ui/auth/index.scm:48
+#: standard input:5
+#: ui/auth/index.scm:48
 msgid "Enable TLS/SSL"
 msgstr "Habilitar TLS/SSL"
 
-#: standard input:2 ui/net-iptables/index.scm:57
+#: standard input:2
+#: ui/net-iptables/index.scm:57
 msgid "Enable firewall"
 msgstr "Habilitar Firewall"
 
@@ -846,20 +947,22 @@ msgstr "Habilitar Firewall"
 msgid "Enable mirroring"
 msgstr "Habilitar espelhamento"
 
-#: standard input:4 ui/net-iptables/index.scm:70
+#: standard input:4
+#: ui/net-iptables/index.scm:70
 msgid "Enable network address translation (NAT):"
 msgstr "Habilitar transição NAT:"
 
 #: standard input:7
-#, fuzzy
 msgid "Enable per user settings"
-msgstr "Configurações avançadas"
+msgstr "Habilitar configurações por usuário"
 
-#: standard input:4 ui/xinetd/index.scm:61
+#: standard input:4
+#: ui/xinetd/index.scm:61
 msgid "Enable service"
 msgstr "Habilitar serviço"
 
-#: standard input:11 ui/net-wifi/index.scm:128
+#: standard input:11
+#: ui/net-wifi/index.scm:128
 msgid "Encryption:"
 msgstr "Encriptação:"
 
@@ -868,26 +971,25 @@ msgid "Ending IP address:"
 msgstr "ùltimos IP:"
 
 #: standard input:1
-#, fuzzy
 msgid "Ethernet interfaces"
-msgstr "Interfaces de IP"
+msgstr "Placas de redes"
 
-#: ui/lilo/expert/index.scm:122 ui/lilo/edit-source/index.scm:24
+#: ui/lilo/expert/index.scm:122
+#: ui/lilo/edit-source/index.scm:24
 #: ui/lilo/index.scm:141
-#, fuzzy
 msgid "Expert mode"
-msgstr "Configurações avançadas"
+msgstr "Modo avançado"
 
 #: standard input:28
-#, fuzzy
 msgid "Expiration time"
-msgstr "Sistema Operacional"
+msgstr "Tempo de expiração"
 
 #: standard input:1
 msgid "FTP server"
 msgstr "Servidor FTP"
 
-#: standard input:1 ui/control/index.scm:27
+#: standard input:1
+#: ui/control/index.scm:27
 msgid "Facility"
 msgstr "Facilidade"
 
@@ -915,11 +1017,14 @@ msgstr "Filtros de Receptores"
 msgid "Filter out senders"
 msgstr "Filtros de Destinátarios"
 
-#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
+#: ui/wizard/index.scm:40
+#: ui/wizard/index.scm:44
+#: ui/wizard/index.scm:48
 msgid "Finish"
 msgstr "Finalizar"
 
-#: standard input:5 ui/logs/index.scm:33
+#: standard input:5
+#: ui/logs/index.scm:33
 msgid "First page"
 msgstr "Primeira Página"
 
@@ -939,7 +1044,8 @@ msgstr "Pasta não está limpa"
 msgid "Folder name:"
 msgstr "Nome da Pasta:"
 
-#: standard input:29 input:30
+#: standard input:29
+#: input:30
 msgid "Following users have access:"
 msgstr "Os usuários não possuem acesso:"
 
@@ -969,42 +1075,52 @@ msgstr "Gb"
 
 #. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: standard input:2 input:1 ui/net-iptables/index.scm:52
-#, fuzzy
+#: standard input:2
+#: input:1
+#: ui/net-iptables/index.scm:52
 msgid "General options"
-msgstr "Opções Global"
+msgstr "Opções gerais"
 
-#: standard input:2 input:10 input:3 input:4
-#, fuzzy
+#: standard input:2
+#: input:10
+#: input:3
+#: input:4
 msgid "General settings"
-msgstr "Configurações avançadas"
+msgstr "Configurações gerais"
 
-#: standard input:1 input:5 input:35
-#, fuzzy
+#: standard input:1
+#: input:5
+#: input:35
 msgid "General settings..."
-msgstr "Configurações avançadas"
+msgstr "Configurações gerais..."
 
-#: standard input:12 ui/users/add/index.scm:70 ui/users/index.scm:107 input:5
+#: standard input:12
+#: ui/users/add/index.scm:70
+#: ui/users/index.scm:107
+#: input:5
 #: ui/root/index.scm:37
 msgid "Generate"
 msgstr "Gerar"
 
-#: standard input:9 ui/users/add/index.scm:63 ui/users/index.scm:100 input:2
+#: standard input:9
+#: ui/users/add/index.scm:63
+#: ui/users/index.scm:100
+#: input:2
 #: ui/root/index.scm:30
-#, fuzzy
 msgid "Generate automatically"
-msgstr "Configurar automaticamente Data e Hora"
+msgstr "Gerar automáticamente"
 
-#: standard input:1 ui/datetime/index.scm:13
+#: standard input:1
+#: ui/datetime/index.scm:13
 msgid "Get time from NTP server:"
 msgstr "Tempo do NTP servidor:"
 
 #: standard input:17
-#, fuzzy
 msgid "Graphical interface"
-msgstr "Interfaces de IP"
+msgstr "Interface Gráfica"
 
-#: standard input:6 ui/xinetd/index.scm:66
+#: standard input:6
+#: ui/xinetd/index.scm:66
 msgid "Group:"
 msgstr "Grupo:"
 
@@ -1012,7 +1128,8 @@ msgstr "Grupo:"
 msgid "Groups"
 msgstr "Grupos"
 
-#: standard input:9 input:16
+#: standard input:9
+#: input:16
 msgid "Guest access"
 msgstr "Acesso Convidado"
 
@@ -1022,19 +1139,20 @@ msgstr "Servidor HTTP"
 
 #: standard input:1
 msgid "HTTP server is restarting now. Please wait..."
-msgstr ""
+msgstr "Servidor HTTP está sendo reiniciado agora... Aguarde..."
 
 #: helpers/lilo-hal.sh:42
 msgid "Hard drive"
 msgstr "HD"
 
 #.
-#: standard input:11 ui/net-eth/index.scm:136
+#: standard input:11
+#: ui/net-eth/index.scm:136
 msgid "Hardware binding:"
 msgstr "Hadware vinculado:"
 
-#: standard input:4 ui/timezone/index.scm:60
-#, fuzzy
+#: standard input:4
+#: ui/timezone/index.scm:60
 msgid "Hardware time set to GMT"
 msgstr "Ajustar automaticamente o relógio pelo GMT"
 
@@ -1043,7 +1161,9 @@ msgstr "Ajustar automaticamente o relógio pelo GMT"
 msgid "Has conflict with ~S"
 msgstr "Tem conflito com ~S"
 
-#: ui/sysconfig/base/index.scm:24 ui/wizard/index.scm:121 standard input:2
+#: ui/sysconfig/base/index.scm:24
+#: ui/wizard/index.scm:121
+#: standard input:2
 #: input:35
 msgid "Help"
 msgstr "Ajuda"
@@ -1053,7 +1173,8 @@ msgid "Help:"
 msgstr "Ajuda:"
 
 #.
-#: standard input:5 ui/users/index.scm:84
+#: standard input:5
+#: ui/users/index.scm:84
 msgid "Home directory:"
 msgstr "Diretório Home:"
 
@@ -1066,15 +1187,14 @@ msgid "Host address:"
 msgstr "Endereço Host:"
 
 #: standard input:25
-#, fuzzy
 msgid "Host name"
-msgstr "Nome da Conta:"
+msgstr "Nome do host:"
 
 #.
-#: standard input:1 ui/net-eth/index.scm:75
-#, fuzzy
+#: standard input:1
+#: ui/net-eth/index.scm:75
 msgid "Host name:"
-msgstr "Nome da Conta:"
+msgstr "Nome do host:"
 
 #: standard input:34
 msgid "Hostname"
@@ -1088,12 +1208,14 @@ msgstr "IMAP4"
 msgid "IMAP4 over TLS/SSL"
 msgstr "IMAP4 sobre TLS/SSL"
 
-#: backend3/net-wifi:227 standard input:27
+#: backend3/net-wifi:227
+#: standard input:27
 msgid "IP address"
 msgstr "Endereço IP"
 
 #.
-#: standard input:8 ui/net-eth/index.scm:124
+#: standard input:8
+#: ui/net-eth/index.scm:124
 msgid "IP address:"
 msgstr "Endereço IP:"
 
@@ -1113,14 +1235,10 @@ msgstr ""
 "Se tiver alguma outra CDs ou DVDs para esta distribuição <br> \n"
 " insira-os um por um e pressione botão 'Adicionar'"
 
-#: standard input:5 ui/alternatives/index.scm:67
-msgid ""
-"In most cases candidates selection works well automatically using weight "
-"written in their config file, but you can choose variant manually"
-msgstr ""
-"Na maioria dos casos, os candidatos Selecção funciona bem automaticamente "
-"utilizando peso escrito em seu arquivo config, mas você pode escolher "
-"manualmente variante"
+#: standard input:5
+#: ui/alternatives/index.scm:67
+msgid "In most cases candidates selection works well automatically using weight written in their config file, but you can choose variant manually"
+msgstr "Na maioria dos casos, os candidatos Selecção funciona bem automaticamente utilizando peso escrito em seu arquivo config, mas você pode escolher manualmente variante"
 
 #: ui/std/base.scm:67
 msgid "Information"
@@ -1134,64 +1252,65 @@ msgstr "Informações fornecidas para clientes"
 msgid "Initrd:"
 msgstr "Initrd:"
 
-#: ui/lilo/expert/index.scm:131 ui/lilo/index.scm:112
+#: ui/lilo/expert/index.scm:131
+#: ui/lilo/index.scm:112
 msgid "Install boot loader on:"
 msgstr "Instale o gerenciador de inicialização em:"
 
 #: ui/notes/release-notes.scm:9
-#, fuzzy
 msgid "Installation complete"
-msgstr "<b>Instalação Completa</b>"
+msgstr "Instalação Completa"
 
 #: ui/pkg/install/index.scm:37
-#, fuzzy
 msgid "Installing base system"
-msgstr "Instalando pacotes..."
+msgstr "Instalando a base do sistema"
 
 #: backend3/pkg-upgrade:187
-#, fuzzy
 msgid "Installing packages"
-msgstr "Instalando pacotes..."
+msgstr "Instalando pacotes"
 
 #: ui/pkg/install/index.scm:78
-#, fuzzy
 msgid "Installing packages..."
 msgstr "Instalando pacotes..."
 
 #: ui/pkg/install/index.scm:39
-#, fuzzy
 msgid "Installing software"
-msgstr "Instalando pacotes..."
+msgstr "Instalando aplicativos..."
 
-#: standard input:10 ui/xinetd/index.scm:78
-#, fuzzy
+#: standard input:10
+#: ui/xinetd/index.scm:78
 msgid "Instances:"
-msgstr "Instalar:"
+msgstr "Instances:"
 
-#: ui/lilo/expert/index.scm:142 ui/lilo/index.scm:129
+#: ui/lilo/expert/index.scm:142
+#: ui/lilo/index.scm:129
 msgid "Interface timeout:"
 msgstr "Tempo de Interface:"
 
 #: ui/lilo/expert/index.scm:139
-#, fuzzy
 msgid "Interface type:"
-msgstr "Interfaces de IP"
+msgstr "Tipo da interface"
 
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: standard input:4 ui/net-pppoe/index.scm:71 input:2
-#: ui/net-wifi/index.scm:103 input:13 ui/xinetd/index.scm:87 input:7
-#: ui/net-iptables/index.scm:83 input:5
-#, fuzzy
+#: standard input:4
+#: ui/net-pppoe/index.scm:71
+#: input:2
+#: ui/net-wifi/index.scm:103
+#: input:13
+#: ui/xinetd/index.scm:87
+#: input:7
+#: ui/net-iptables/index.scm:83
+#: input:5
 msgid "Interface:"
-msgstr "Interfaces de IP"
+msgstr "Interface:"
 
-#: standard input:4 ui/net-eth/index.scm:102
-#, fuzzy
+#: standard input:4
+#: ui/net-eth/index.scm:102
 msgid "Interfaces"
-msgstr "Interfaces de IP"
+msgstr "Interfaces"
 
 #: ui/pkg/cdrom/index.scm:10
 msgid "Into drive"
@@ -1201,7 +1320,8 @@ msgstr "Driver:"
 msgid "Invalid address range"
 msgstr "Endereço de Gama Inválido"
 
-#: backend3/ahttpd-server:148 backend3/ahttpd-server:156
+#: backend3/ahttpd-server:148
+#: backend3/ahttpd-server:156
 msgid "Invalid certificate file"
 msgstr "Certificado Inválido"
 
@@ -1231,22 +1351,22 @@ msgstr "Kb"
 
 #: helpers/lilo-parser.sh:341
 msgid "Kernel image is unspecified."
-msgstr ""
+msgstr "A imagem do Kernel não foi especificada"
 
 #: ui/lilo/expert/index.scm:165
 msgid "Kernel image:"
 msgstr "Imagens do Kernel:"
 
 #: standard input:1
-#, fuzzy
 msgid "Keyboard"
-msgstr "Configurações de Teclado"
+msgstr "Teclado"
 
 #: backend3/auth:33
 msgid "LDAP"
 msgstr "LDAP"
 
-#: standard input:2 ui/auth/index.scm:38
+#: standard input:2
+#: ui/auth/index.scm:38
 msgid "LDAP server:"
 msgstr "Servidor LDAP:"
 
@@ -1256,21 +1376,24 @@ msgstr "LOGIN"
 
 #: helpers/lilo-parser.sh:331
 msgid "Label is empty."
-msgstr ""
+msgstr "Nome está em branco"
 
 #: ui/lilo/expert/index.scm:163
 msgid "Label:"
 msgstr "Nome:"
 
-#: standard input:6 ui/logs/index.scm:34
+#: standard input:6
+#: ui/logs/index.scm:34
 msgid "Last page"
 msgstr "Última Página"
 
-#: standard input:10 ui/xkb/index.scm:45
+#: standard input:10
+#: ui/xkb/index.scm:45
 msgid "Layout switching:"
 msgstr "Layout de comutação:"
 
-#: standard input:5 ui/xkb/index.scm:33
+#: standard input:5
+#: ui/xkb/index.scm:33
 msgid "Layouts:"
 msgstr "Layouts:"
 
@@ -1278,33 +1401,34 @@ msgstr "Layouts:"
 msgid "License"
 msgstr "Licença"
 
-#: ui/license/index.scm:10 ui/notes/license.scm:10
+#: ui/license/index.scm:10
+#: ui/notes/license.scm:10
 msgid "License file not found"
 msgstr "Arquivo de Licença não encontrado"
 
 #: ui/lilo/edit-source/index.scm:31
-#, fuzzy
 msgid "Lilo options:"
-msgstr "Opções Global"
+msgstr "Opções do Lilo:"
 
 #: backend3/logs:99
 msgid "Lines %s-%s of %s"
 msgstr "Linhas %s-%s of %s"
 
-#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
+#: ui/lilo/expert/index.scm:27
+#: ui/lilo/expert/index.scm:35
 msgid "Linux kernel"
 msgstr "Linux Kernel"
 
 #: ui/lilo/index.scm:51
-#, fuzzy
 msgid "Linux partition"
-msgstr "Mostrar Partições"
+msgstr "Partição Linux"
 
 #: standard input:12
 msgid "List creator password:"
 msgstr "Lista de Senhas Criadas"
 
-#: standard input:5 input:6
+#: standard input:5
+#: input:6
 msgid "Listen address:"
 msgstr "Endereços Disponíveis"
 
@@ -1329,23 +1453,26 @@ msgid "Local user accounts"
 msgstr "Contas de Úsuarios Locais"
 
 #: standard input:15
-#, fuzzy
 msgid "Local users settings"
-msgstr "Configurações avançadas"
+msgstr "Configurações dos usuários locais"
 
-#: standard input:16 input:17
+#: standard input:16
+#: input:17
 msgid "Location (L):"
 msgstr "Localização:"
 
-#: standard input:7 input:8
+#: standard input:7
+#: input:8
 msgid "Logging:"
 msgstr "Logando:"
 
-#: standard input:1 ui/logs/index.scm:25
+#: standard input:1
+#: ui/logs/index.scm:25
 msgid "Logs:"
 msgstr "Registros:"
 
-#: standard input:18 input:26
+#: standard input:18
+#: input:26
 msgid "MAC address"
 msgstr "Endereço MAC"
 
@@ -1353,7 +1480,9 @@ msgstr "Endereço MAC"
 msgid "MAC address:"
 msgstr "Endereço MAC:"
 
-#: standard input:7 ui/net-pppoe/index.scm:81 input:10
+#: standard input:7
+#: ui/net-pppoe/index.scm:81
+#: input:10
 #: ui/net-pptp/index.scm:100
 msgid "MPPE encryption"
 msgstr "Encriptação MPPE"
@@ -1387,9 +1516,8 @@ msgid "Mark only"
 msgstr "Marcar apenas"
 
 #: ui/lilo/expert/index.scm:181
-#, fuzzy
 msgid "Master boot"
-msgstr "Boot Principal Gravado"
+msgstr "Boot Principal"
 
 #: standard input:13
 msgid "Maximum mailbox size (Mb):"
@@ -1407,10 +1535,10 @@ msgstr "Maio"
 msgid "Mb"
 msgstr "Mb"
 
-#: standard input:7 ui/users/index.scm:91
-#, fuzzy
+#: standard input:7
+#: ui/users/index.scm:91
 msgid "Member of administrators group"
-msgstr "Administrador do Sistema"
+msgstr "Membro do grupo de administradores"
 
 #: interfaces/guile/ahttpd/translate.scm:45
 msgid "Mo"
@@ -1420,11 +1548,13 @@ msgstr "Mo"
 msgid "Mode:"
 msgstr "Modo:"
 
-#: standard input:11 ui/xkb/index.scm:48
+#: standard input:11
+#: ui/xkb/index.scm:48
 msgid "Model:"
 msgstr "Modelo:"
 
-#: standard input:28 input:29
+#: standard input:28
+#: input:29
 msgid "Module access settings"
 msgstr "Módulo de acesso nas configurações"
 
@@ -1436,16 +1566,20 @@ msgstr "Módulo de acesso nas configurações..."
 msgid "Monitor vendors"
 msgstr "Marca do Monitor"
 
-#: standard input:20 ui/x11/monitor/index.scm:9
+#: standard input:20
+#: ui/x11/monitor/index.scm:9
 msgid "Monitor vendors:"
 msgstr "Marca do Monitor:"
 
-#: standard input:3 input:5 ui/x11/index.scm:41 ui/x11/index.scm:58
-#, fuzzy
+#: standard input:3
+#: input:5
+#: ui/x11/index.scm:41
+#: ui/x11/index.scm:58
 msgid "Monitor:"
-msgstr "Initrd:"
+msgstr "Monitor:"
 
-#: standard input:2 ui/datetime/index.scm:14
+#: standard input:2
+#: ui/datetime/index.scm:14
 msgid "NTP server:"
 msgstr "Servidor NTP:"
 
@@ -1454,31 +1588,31 @@ msgid "Name:"
 msgstr "Nome:"
 
 #.
-#: standard input:9 ui/net-eth/index.scm:128
+#: standard input:9
+#: ui/net-eth/index.scm:128
 msgid "Netmask:"
 msgstr "Mascara de Rede:"
 
 #: standard input:23
-#, fuzzy
 msgid "Network"
-msgstr "Configurações de Rede"
+msgstr "Rede"
 
 #: standard input:1
-#, fuzzy
 msgid "Network firewall"
-msgstr "Configurações de Rede"
+msgstr "Firewall da rede"
 
-#: standard input:8 ui/net-wifi/index.scm:124
-#, fuzzy
+#: standard input:8
+#: ui/net-wifi/index.scm:124
 msgid "Network name:"
-msgstr "Configurações de Rede"
+msgstr "Nome da Rede:"
 
-#: standard input:16 ui/net-wifi/index.scm:139
-#, fuzzy
+#: standard input:16
+#: ui/net-wifi/index.scm:139
 msgid "Networks found:"
-msgstr "Configurações de Rede"
+msgstr "Rede encontradas:"
 
-#: standard input:1 ui/users/index.scm:65
+#: standard input:1
+#: ui/users/index.scm:65
 msgid "New account:"
 msgstr "Nova Conta:"
 
@@ -1487,11 +1621,12 @@ msgid "New alias value:"
 msgstr "Novo Valor de 'Alias'"
 
 #: standard input:31
-#, fuzzy
 msgid "New alias:"
-msgstr "Alias:"
+msgstr "Novo atalho:"
 
-#: standard input:1 ui/net-pppoe/index.scm:55 ui/net-pptp/index.scm:65
+#: standard input:1
+#: ui/net-pppoe/index.scm:55
+#: ui/net-pptp/index.scm:65
 msgid "New connection..."
 msgstr "Nova Conexão..."
 
@@ -1499,30 +1634,38 @@ msgstr "Nova Conexão..."
 msgid "New folder:"
 msgstr "Nova Pasta:"
 
-#: standard input:1 ui/groups/index.scm:65
+#: standard input:1
+#: ui/groups/index.scm:65
 msgid "New group:"
 msgstr "Novo grupo:"
 
-#: standard input:7 ui/pkg/sources/mirrors/index.scm:49
-#, fuzzy
+#: standard input:7
+#: ui/pkg/sources/mirrors/index.scm:49
 msgid "New source:"
-msgstr "Ver código fonte"
+msgstr "Nova fonte"
 
 #: ui/users/add/index.scm:46
 msgid "New user account"
 msgstr "Nova Conta de Usuário"
 
-#: standard input:31 input:32
+#: standard input:31
+#: input:32
 msgid "New user:"
 msgstr "Novo Usuário"
 
-#: standard input:4 ui/logs/index.scm:31 ui/sysconfig/base/index.scm:25
-#: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
+#: standard input:4
+#: ui/logs/index.scm:31
+#: ui/sysconfig/base/index.scm:25
+#: ui/wizard/index.scm:38
+#: ui/wizard/index.scm:42
+#: ui/wizard/index.scm:46
 msgid "Next"
 msgstr "Próximo"
 
-#: backend3/samba:91 standard input:17
-#: interfaces/guile/workflow/card-index.scm:150 ui/x11/c-messages.scm:3
+#: backend3/samba:91
+#: standard input:17
+#: interfaces/guile/workflow/card-index.scm:150
+#: ui/x11/c-messages.scm:3
 msgid "No"
 msgstr "Não"
 
@@ -1543,15 +1686,16 @@ msgid "No objects found..."
 msgstr "Nenhum objeto encontrado"
 
 #: backend3/net-wifi:161
-#, fuzzy
 msgid "No password"
-msgstr "Não use senha"
+msgstr "Nenhum password"
 
 #: backend3/pkg-upgrade:119
 msgid "No updates available"
 msgstr "Nenhuma Atualização disponível"
 
-#: backend3/net-wifi:402 backend3/net-wifi:428 backend3/net-wifi:438
+#: backend3/net-wifi:402
+#: backend3/net-wifi:428
+#: backend3/net-wifi:438
 msgid "Not a wireless interface"
 msgstr "Nenhuma Interface de Rede Sem Fio"
 
@@ -1559,15 +1703,19 @@ msgstr "Nenhuma Interface de Rede Sem Fio"
 msgid "November"
 msgstr "Novembro"
 
-#: ui/pkg/sources/mirrors/index.scm:59 ui/net-wifi/index.scm:144 standard
-#: input:19 input:21 ui/x11/driver/index.scm:25 ui/x11/monitor/index.scm:22
+#: ui/pkg/sources/mirrors/index.scm:59
+#: ui/net-wifi/index.scm:144
+#: standard
+#: input:19
+#: input:21
+#: ui/x11/driver/index.scm:25
+#: ui/x11/monitor/index.scm:22
 msgid "OK"
 msgstr "OK"
 
 #: interfaces/guile/ahttpd/translate.scm:62
-#, fuzzy
 msgid "October"
-msgstr "Outro:"
+msgstr "Outubro"
 
 #: backend3/postfix-restrictions:348
 msgid "Off"
@@ -1581,60 +1729,63 @@ msgstr "Ligar, com Filtro de Conteúdo"
 msgid "On, without content filtering"
 msgstr "Ligar, sem Filtro de Conteúdo"
 
-#: standard input:12 ui/xinetd/index.scm:84
+#: standard input:12
+#: ui/xinetd/index.scm:84
 msgid "Only from:"
 msgstr "Apenas de:"
 
-#: standard input:9 ui/net-iptables/index.scm:98
+#: standard input:9
+#: ui/net-iptables/index.scm:98
 msgid "Open extra TCP ports:"
-msgstr ""
+msgstr "Portas extra de TCP abertas:"
 
-#: standard input:11 ui/net-iptables/index.scm:103
+#: standard input:11
+#: ui/net-iptables/index.scm:103
 msgid "Open extra UDP ports:"
-msgstr ""
+msgstr "Portas extra de UDP abertas:"
 
 #: standard input:20
 msgid "Operating system information and setup"
 msgstr "Informações e Configurações do Sistema operacional"
 
-#: standard input:18 input:19
+#: standard input:18
+#: input:19
 msgid "Organization (O):"
 msgstr "Organização:"
 
-#: standard input:20 input:21
+#: standard input:20
+#: input:21
 msgid "Organizational Unit (OU):"
 msgstr "Unidade:"
 
 #: standard input:3
-#, fuzzy
 msgid "Other"
 msgstr "Outro:"
 
-#: standard input:8 ui/x11/index.scm:71
-#, fuzzy
+#: standard input:8
+#: ui/x11/index.scm:71
 msgid "Other driver..."
-msgstr "Outro sistema"
+msgstr "Outro driver..."
 
-#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
-#, fuzzy
+#: ui/lilo/expert/index.scm:27
+#: ui/lilo/expert/index.scm:35
 msgid "Other loader"
-msgstr "Outro sistema"
+msgstr "Outro rodador"
 
 #: helpers/lilo-parser.sh:336
 msgid "Other loader device is unspecified."
-msgstr ""
+msgstr "Outro dispositivo é loader indeterminado."
 
 #: backend3/net-wifi:133
-#, fuzzy
 msgid "Other network"
-msgstr "Outro sistema"
+msgstr "Outra rede"
 
 #: standard input:4
-#, fuzzy
 msgid "Other system settings"
-msgstr "Configurações avançadas"
+msgstr "Outras configurações do sistema"
 
-#: standard input:6 ui/x11/index.scm:62
+#: standard input:6
+#: ui/x11/index.scm:62
 msgid "Other vendor..."
 msgstr "Outro Vendedor"
 
@@ -1675,9 +1826,8 @@ msgid "Packages to REMOVE"
 msgstr "Pacotes para Remover"
 
 #: backend3/pkg-upgrade:141
-#, fuzzy
 msgid "Packages to install"
-msgstr "Selecione os pacotes que você deseja instalar"
+msgstr "Pacotes para instalação"
 
 #: backend3/pkg-upgrade:149
 msgid "Packages to upgrade"
@@ -1697,29 +1847,36 @@ msgstr "Senha é muito curta"
 #.
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: standard input:6 ui/net-pppoe/index.scm:77 input:4
-#: ui/sysconfig/proxy/index.scm:17 input:8 ui/users/add/index.scm:60
-#: ui/users/index.scm:97 ui/net-pptp/index.scm:87
-#, fuzzy
+#: standard input:6
+#: ui/net-pppoe/index.scm:77
+#: input:4
+#: ui/sysconfig/proxy/index.scm:17
+#: input:8
+#: ui/users/add/index.scm:60
+#: ui/users/index.scm:97
+#: ui/net-pptp/index.scm:87
 msgid "Password:"
-msgstr "Senha"
+msgstr "Senha:"
 
-#: backend3/mailman:130 backend3/mailman:137 backend3/users:207
-#: backend3/users:235 backend3/root:30
-#, fuzzy
+#: backend3/mailman:130
+#: backend3/mailman:137
+#: backend3/users:207
+#: backend3/users:235
+#: backend3/root:30
 msgid "Passwords mismatch"
-msgstr "Senha"
+msgstr "Senhas não conferem"
 
 #: ui/x11/c-messages.scm:4
 msgid "Pause"
 msgstr "Pausar"
 
-#: standard input:11 ui/xinetd/index.scm:81
-#, fuzzy
+#: standard input:11
+#: ui/xinetd/index.scm:81
 msgid "Per source:"
-msgstr "Ver código fonte"
+msgstr "por fonte"
 
-#: ui/pkg/cdrom/index.scm:8 backend3/pkg-upgrade:135
+#: ui/pkg/cdrom/index.scm:8
+#: backend3/pkg-upgrade:135
 msgid "Please insert CDROM labeled as"
 msgstr "Por favor insira um CDROM/DVD etiquetado como "
 
@@ -1728,40 +1885,43 @@ msgid "Please insert disk"
 msgstr "Por favor insira um Disco"
 
 #: ui/sysconfig/base/index.scm:30
-#, fuzzy
 msgid "Please select keyboard switch type:"
-msgstr "Selecione o seu país:"
+msgstr "Selecione o tipo de teclado:"
 
-#: ui/license/index.scm:8 ui/notes/license.scm:8
-#, fuzzy
+#: ui/license/index.scm:8
+#: ui/notes/license.scm:8
 msgid "Please take a moment to read the license agreement now."
-msgstr ""
-"Por favor, tome um momento para ler o contrato de licença agora. Se você "
-"aceitar os termos abaixo, clique em 'Eu, Aceito', em 'Próximo'."
+msgstr "Por favor, tome um momento para ler o contrato de licença agora."
 
-#: standard input:1 ui/timezone/index.scm:37
+#: standard input:1
+#: ui/timezone/index.scm:37
 msgid "Please, select country:"
 msgstr "Selecione o seu país:"
 
-#: standard input:3 ui/timezone/index.scm:50
-#, fuzzy
+#: standard input:3
+#: ui/timezone/index.scm:50
 msgid "Please, select time zone:"
 msgstr "Selecione a Zona de Fuso Horário:"
 
-#: standard input:4 ui/auth/index.scm:44
+#: standard input:4
+#: ui/auth/index.scm:44
 msgid "Port (optional):"
 msgstr "Porta (Opcional):"
 
-#: standard input:3 input:2 ui/sysconfig/proxy/index.scm:9 input:4
-#, fuzzy
+#: standard input:3
+#: input:2
+#: ui/sysconfig/proxy/index.scm:9
+#: input:4
 msgid "Port:"
-msgstr "Boot:"
+msgstr "Porta:"
 
-#: ui/pkg/install/index.scm:92 ui/pkg/groups/index.scm:134
+#: ui/pkg/install/index.scm:92
+#: ui/pkg/groups/index.scm:134
 msgid "Preparing..."
 msgstr "Preparado..."
 
-#: ui/pkg/cdrom/index.scm:12 ui/pkg/error/index.scm:7
+#: ui/pkg/cdrom/index.scm:12
+#: ui/pkg/error/index.scm:7
 msgid "Press 'Next' button to continue"
 msgstr "Clique no Botão \"Seguinte\" para continuar"
 
@@ -1773,8 +1933,11 @@ msgstr "Clique no Botão \"Sim\" se você está olhando a Foto Correta!"
 msgid "Press F1 for help"
 msgstr "Pressione F1 para Ajuda"
 
-#: standard input:3 ui/logs/index.scm:30 ui/wizard/index.scm:39
-#: ui/wizard/index.scm:43 ui/wizard/index.scm:47
+#: standard input:3
+#: ui/logs/index.scm:30
+#: ui/wizard/index.scm:39
+#: ui/wizard/index.scm:43
+#: ui/wizard/index.scm:47
 msgid "Previous"
 msgstr "Anterior"
 
@@ -1786,19 +1949,18 @@ msgstr "Programas"
 msgid "Proxy server"
 msgstr "Servidor Proxy"
 
-#: standard input:1 ui/sysconfig/proxy/index.scm:7
+#: standard input:1
+#: ui/sysconfig/proxy/index.scm:7
 msgid "Proxy server:"
 msgstr "Servidor Proxy:"
 
 #: standard input:1
-#, fuzzy
 msgid "Proxy settings"
-msgstr "Configurações avançadas"
+msgstr "Configurações do Proxy"
 
 #: ui/std/base.scm:77
-#, fuzzy
 msgid "Question"
-msgstr "Destino"
+msgstr "Questões"
 
 #: ui/x11/index.scm:100
 msgid "Quit"
@@ -1812,7 +1974,8 @@ msgstr "Servidor RBL:"
 msgid "Raid-extra-boot:"
 msgstr "Raid-extra-boot:"
 
-#: standard input:10 input:17
+#: standard input:10
+#: input:17
 msgid "Read only"
 msgstr "Leitura Apenas"
 
@@ -1824,16 +1987,18 @@ msgstr "Recipiente"
 msgid "Reconfigure ethernet interfaces..."
 msgstr "Reconfigurar Interface de Rede"
 
-#: standard input:3 ui/net-wifi/index.scm:106
+#: standard input:3
+#: ui/net-wifi/index.scm:106
 msgid "Reconfigure interface"
 msgstr "Reconfigurar Interface"
 
-#: standard input:22 input:23
-#, fuzzy
+#: standard input:22
+#: input:23
 msgid "Recreate"
-msgstr "Resetar:"
+msgstr "ReCriar"
 
-#: standard input:11 ui/net-pptp/index.scm:103
+#: standard input:11
+#: ui/net-pptp/index.scm:103
 msgid "Redial on hangup"
 msgstr "Remarcação"
 
@@ -1841,20 +2006,28 @@ msgstr "Remarcação"
 msgid "Redirect to"
 msgstr "Redirecionar para"
 
-#: standard input:2 ui/notes/release-notes.scm:7
+#: standard input:2
+#: ui/notes/release-notes.scm:7
 msgid "Release Notes"
 msgstr "Notas"
 
-#: standard input:20 ui/pkg/register/index.scm:44 input:7 ui/xkb/index.scm:38
+#: standard input:20
+#: ui/pkg/register/index.scm:44
+#: input:7
+#: ui/xkb/index.scm:38
 msgid "Remove"
 msgstr "Remover"
 
-#: standard input:11 input:21 input:19 input:30
+#: standard input:11
+#: input:21
+#: input:19
+#: input:30
 msgid "Remove selected"
 msgstr "Remover selecionado"
 
 #.
-#: standard input:1 ui/pkg/sources/index.scm:23
+#: standard input:1
+#: ui/pkg/sources/index.scm:23
 msgid "Repositories:"
 msgstr "Repositórios:"
 
@@ -1862,7 +2035,8 @@ msgstr "Repositórios:"
 msgid "Repository"
 msgstr "Repositório"
 
-#: ui/pkg/sources/mirrors/index.scm:10 standard input:13
+#: ui/pkg/sources/mirrors/index.scm:10
+#: standard input:13
 msgid "Repository:"
 msgstr "Repositório:"
 
@@ -1874,48 +2048,63 @@ msgstr "Espaço em Disco Requirido"
 msgid "Required score:"
 msgstr "Pontuação Necessária:"
 
-#: standard input:17 ui/net-wifi/index.scm:141
+#: standard input:17
+#: ui/net-wifi/index.scm:141
 msgid "Rescan"
 msgstr "Procurar novamente"
 
-#: standard input:6 input:19 input:7 input:9 ui/net-pppoe/index.scm:89
-#: input:16 input:14 ui/net-eth/index.scm:160 ui/dovecot/index.scm:53 input:13
-#: ui/net-wifi/index.scm:132 ui/xinetd/index.scm:97 input:4 input:17
-#: ui/auth/index.scm:55 ui/sysconfig/proxy/index.scm:29
-#: ui/net-pptp/index.scm:117 input:15 ui/timezone/index.scm:72 input:12
-#: input:22 ui/lilo/expert/index.scm:187 ui/lilo/expert/index.scm:207
-#: ui/lilo/edit-source/index.scm:37 input:8 ui/groups/index.scm:90
+#: standard input:6
+#: input:19
+#: input:7
+#: input:9
+#: ui/net-pppoe/index.scm:89
+#: input:16
+#: input:14
+#: ui/net-eth/index.scm:160
+#: ui/dovecot/index.scm:53
+#: input:13
+#: ui/net-wifi/index.scm:132
+#: ui/xinetd/index.scm:97
+#: input:4
+#: input:17
+#: ui/auth/index.scm:55
+#: ui/sysconfig/proxy/index.scm:29
+#: ui/net-pptp/index.scm:117
+#: input:15
+#: ui/timezone/index.scm:72
+#: input:12
+#: input:22
+#: ui/lilo/expert/index.scm:187
+#: ui/lilo/expert/index.scm:207
+#: ui/lilo/edit-source/index.scm:37
+#: input:8
+#: ui/groups/index.scm:90
 #: ui/services/index.scm:64
-#, fuzzy
 msgid "Reset"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (alterator_lilo)  #-#-#-#-#\n"
-"Resetar:\n"
-"#-#-#-#-#  pt_BR.po (Alterator)  #-#-#-#-#\n"
-"Resetar"
+msgstr "Resetar"
 
-#: standard input:10 ui/x11/index.scm:82
+#: standard input:10
+#: ui/x11/index.scm:82
 msgid "Resolution:"
 msgstr "Resolução"
 
-#: standard input:1 input:2
+#: standard input:1
+#: input:2
 msgid "Restart HTTP server"
 msgstr "Resetar Servidor HTTP"
 
 #: ui/net-iptables/index.scm:118
-#, fuzzy
 msgid "Restore default settings"
-msgstr "Configurações avançadas"
+msgstr "Restaurar as configurações padrões"
 
-#: standard input:12 input:23
-#, fuzzy
+#: standard input:12
+#: input:23
 msgid "Restrictions"
-msgstr "Destino"
+msgstr "Restrições"
 
 #: ui/x11/c-messages.scm:6
-#, fuzzy
 msgid "Resume"
-msgstr "Resetar:"
+msgstr "Resumir"
 
 #: standard input:16
 msgid "Return"
@@ -1925,14 +2114,14 @@ msgstr "Retornar"
 msgid "Return to view"
 msgstr "Retornar a Visão"
 
-#: standard input:9 ui/xinetd/index.scm:75
-#, fuzzy
+#: standard input:9
+#: ui/xinetd/index.scm:75
 msgid "Rlimit as:"
-msgstr "Alias:"
+msgstr "Rlimit como:"
 
 #: helpers/lilo-parser.sh:346
 msgid "Root device is unspecified."
-msgstr ""
+msgstr "Dispositivo root é indeterminado"
 
 #: ui/lilo/expert/index.scm:169
 msgid "Root device:"
@@ -1946,7 +2135,8 @@ msgstr "Regras"
 msgid "Rule:"
 msgstr "Regras:"
 
-#: standard input:9 input:18
+#: standard input:9
+#: input:18
 msgid "Rules and scores"
 msgstr "Regras e Pontuações"
 
@@ -1959,21 +2149,24 @@ msgid "SMTP transport:"
 msgstr "transport SMTP:"
 
 #: interfaces/guile/ahttpd/translate.scm:50
-#, fuzzy
 msgid "Sa"
-msgstr "Salvar"
+msgstr "Sa"
 
 #: standard input:1
 msgid "Samba server"
 msgstr "Servidor Samba"
 
-#: backend3/squid:118 backend3/squid:126 backend3/postfix-restrictions:396
-#: backend3/postfix-restrictions:411 backend3/postfix-restrictions:429
+#: backend3/squid:118
+#: backend3/squid:126
+#: backend3/postfix-restrictions:396
+#: backend3/postfix-restrictions:411
+#: backend3/postfix-restrictions:429
 #: backend3/dhcp:256
 msgid "Same entry already exists"
 msgstr "Mesma entrada já existe"
 
-#: backend3/samba:150 backend3/samba:178
+#: backend3/samba:150
+#: backend3/samba:178
 msgid "Same folder already exists"
 msgstr "A pasta já existe"
 
@@ -1985,11 +2178,13 @@ msgstr "A fonte já existe"
 msgid "Same user already exists"
 msgstr "O Usuário já existe"
 
-#: standard input:5 ui/lilo/expert/index.scm:186
+#: standard input:5
+#: ui/lilo/expert/index.scm:186
 msgid "Save"
 msgstr "Salvar"
 
-#: standard input:9 ui/net-pptp/index.scm:97
+#: standard input:9
+#: ui/net-pptp/index.scm:97
 msgid "Save route to VPN gateway"
 msgstr "Salvar a Rota no VPN Gateway"
 
@@ -2005,46 +2200,53 @@ msgstr "Pontuação"
 msgid "Score:"
 msgstr "Pontuação:"
 
-#: standard input:9 input:12
+#: standard input:9
+#: input:12
 msgid "Search domain:"
 msgstr "Procura de Domínios:"
 
 #.
-#: standard input:3 ui/net-eth/index.scm:88
+#: standard input:3
+#: ui/net-eth/index.scm:88
 msgid "Search domains:"
 msgstr "Procurar Domínios:"
 
 #: helpers/lilo-parser.sh:316
-#, fuzzy
 msgid "Section already exists."
-msgstr "Mesma entrada já existe"
+msgstr "Seleção já existe"
 
-#: standard input:2 input:12 input:5 input:6 input:8 input:3
+#: standard input:2
+#: input:12
+#: input:5
+#: input:6
+#: input:8
+#: input:3
 msgid "Select"
 msgstr "Selecionar"
 
 #: ui/pkg/groups/index.scm:119
-#, fuzzy
 msgid "Select groups you want to install:"
-msgstr "Selecione os pacotes que você deseja instalar"
+msgstr "Seleccione os grupos no qual deseja instalar:"
 
 #: ui/sysconfig/base/index.scm:29
-#, fuzzy
 msgid "Select your language:"
-msgstr "Selecione sua Linguagem"
+msgstr "Selecione sua linguagem:"
 
 #: interfaces/guile/ahttpd/translate.scm:61
-#, fuzzy
 msgid "September"
-msgstr "Usuário do Sistema"
+msgstr "Setembro"
 
-#: standard input:8 ui/xinetd/index.scm:72
+#: standard input:8
+#: ui/xinetd/index.scm:72
 msgid "Server args:"
 msgstr "Argumentos de Servidor"
 
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: standard input:7 ui/xinetd/index.scm:69 input:4 ui/net-pptp/index.scm:81
+#: standard input:7
+#: ui/xinetd/index.scm:69
+#: input:4
+#: ui/net-pptp/index.scm:81
 msgid "Server:"
 msgstr "Servidor:"
 
@@ -2052,7 +2254,9 @@ msgstr "Servidor:"
 msgid "Servers"
 msgstr "Servidores"
 
-#: standard input:1 ui/xinetd/index.scm:48 ui/services/index.scm:38
+#: standard input:1
+#: ui/xinetd/index.scm:48
+#: ui/services/index.scm:38
 msgid "Services"
 msgstr "Serviços"
 
@@ -2072,10 +2276,10 @@ msgstr "Configuraç]ões de Entrada/Saída de Dispositivo"
 msgid "Setup network connections"
 msgstr "Configuração de Conexões de Rede"
 
-#: standard input:1 ui/root/index.scm:24
-#, fuzzy
+#: standard input:1
+#: ui/root/index.scm:24
 msgid "Setup password for system administrator:"
-msgstr "Configuração da Senha do Administrador"
+msgstr "Senha do administrador do sistema:"
 
 #: standard input:3
 msgid "Setup rules and scores..."
@@ -2094,31 +2298,33 @@ msgid "Shared folders"
 msgstr "Pasta Compartilhada"
 
 #.
-#: standard input:6 ui/users/index.scm:87
+#: standard input:6
+#: ui/users/index.scm:87
 msgid "Shell:"
 msgstr "Shell:"
 
-#: standard input:7 ui/logs/index.scm:36
+#: standard input:7
+#: ui/logs/index.scm:36
 msgid "Show:"
 msgstr "Exibir"
 
-#: standard input:24 input:25
+#: standard input:24
+#: input:25
 msgid "Sign"
 msgstr "Entrar"
 
-#: ui/lilo/expert/index.scm:121 ui/lilo/edit-source/index.scm:23
-#, fuzzy
+#: ui/lilo/expert/index.scm:121
+#: ui/lilo/edit-source/index.scm:23
 msgid "Simple mode"
-msgstr "Modo Normal"
+msgstr "Modo simples"
 
 #: standard input:6
 msgid "Site MTA:"
 msgstr "Site MTA:"
 
 #: standard input:7
-#, fuzzy
 msgid "Site language:"
-msgstr "Selecione sua Linguagem"
+msgstr "Linguagem do site:"
 
 #: ui/groups/index.scm:100
 msgid "Skip empty groups"
@@ -2136,7 +2342,8 @@ msgstr "Pular Grupos de Sistemas"
 msgid "Source"
 msgstr "Fonte"
 
-#: standard input:3 ui/pkg/sources/index.scm:30
+#: standard input:3
+#: ui/pkg/sources/index.scm:30
 msgid "Source URI:"
 msgstr "Fonte do URI:"
 
@@ -2144,7 +2351,9 @@ msgstr "Fonte do URI:"
 msgid "Source:"
 msgstr "Fonte:"
 
-#: standard input:1 input:8 input:17
+#: standard input:1
+#: input:8
+#: input:17
 msgid "Spam filter"
 msgstr "Filtro de Spam"
 
@@ -2152,42 +2361,41 @@ msgstr "Filtro de Spam"
 msgid "Spam filter mode:"
 msgstr "Modo do Filtro de Spam:"
 
-#: standard input:12 ui/net-pptp/index.scm:106
+#: standard input:12
+#: ui/net-pptp/index.scm:106
 msgid "Start at boot"
 msgstr "Iniciar no boot"
 
-#: standard input:4 ui/services/index.scm:61
+#: standard input:4
+#: ui/services/index.scm:61
 msgid "Start on boot"
 msgstr "Iniciar o boot"
 
 #: backend3/pkg-upgrade:173
-#, fuzzy
 msgid "Start packages installation..."
-msgstr "Pular a instalação"
+msgstr "Iniciando a instalação dos pacotes..."
 
 #: standard input:1
-#, fuzzy
 msgid "Start, stop or restart service."
-msgstr "Iniciar, parar ou resetar o serviço"
+msgstr "Iniciar, parar ou resetar o serviço."
 
 #: standard input:1
 msgid "Start, stop or restart service..."
 msgstr "Iniciar, parar ou resetar o serviço"
 
 #: standard input:15
-#, fuzzy
 msgid "Start, stop or restart xinetd..."
-msgstr "Iniciar, parar e resetar XINETD"
+msgstr "Iniciar, parar ou resetar xinetd..."
 
 #: standard input:7
 msgid "Starting IP address:"
 msgstr "Endereço IP Inicial"
 
 #.
-#: standard input:3 ui/control/index.scm:44
-#, fuzzy
+#: standard input:3
+#: ui/control/index.scm:44
 msgid "State"
-msgstr "Salvar"
+msgstr "Estado"
 
 #: standard input:16
 msgid "Static addresses"
@@ -2203,8 +2411,13 @@ msgstr "Estatísticas"
 #.
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: standard input:3 ui/net-pppoe/index.scm:66 input:6 ui/net-eth/index.scm:117
-#: input:4 ui/net-wifi/index.scm:104 ui/net-pptp/index.scm:76
+#: standard input:3
+#: ui/net-pppoe/index.scm:66
+#: input:6
+#: ui/net-eth/index.scm:117
+#: input:4
+#: ui/net-wifi/index.scm:104
+#: ui/net-pptp/index.scm:76
 msgid "Status:"
 msgstr "Status:"
 
@@ -2216,59 +2429,53 @@ msgstr "Espaço de Disco de armazenamento:"
 msgid "Su"
 msgstr "Su"
 
-#: standard input:2 ui/control/index.scm:27
+#: standard input:2
+#: ui/control/index.scm:27
 msgid "Summary"
 msgstr "Resumo"
 
-#: standard input:2 ui/dovecot/index.scm:29
+#: standard input:2
+#: ui/dovecot/index.scm:29
 msgid "Supported protocols:"
 msgstr "Protocolos Suportados"
 
 #: standard input:10
-msgid ""
-"Synchronization will start every night. First synchronization with some "
-"repository may take a long time."
-msgstr ""
-"Sincronização irá iniciar todas as noites. Primeira sincronização com algum "
-"repositório pode demorar bastante tempo."
+msgid "Synchronization will start every night. First synchronization with some repository may take a long time."
+msgstr "Sincronização irá iniciar todas as noites. Primeira sincronização com algum repositório pode demorar bastante tempo."
 
 #: standard input:19
-#, fuzzy
 msgid "System"
-msgstr "Usuário do Sistema"
+msgstr "Sistema"
 
 #: standard input:10
 msgid "System accounting"
 msgstr "Sistema de Contabilidade"
 
 #: standard input:1
-#, fuzzy
 msgid "System administrator"
 msgstr "Administrador do Sistema"
 
 #: standard input:2
-#, fuzzy
 msgid "System clock setup"
-msgstr "Usuário do Sistema"
+msgstr "Configurações do Clock do sistema"
 
 #: standard input:1
-#, fuzzy
 msgid "System logs"
-msgstr "Usuário do Sistema"
+msgstr "Registros do Sistema"
 
-#: ui/acc/index.scm:12 standard input:36
+#: ui/acc/index.scm:12
+#: standard input:36
 msgid "System management center"
 msgstr "Centro de Configuração do sistema"
 
-#: standard input:4 ui/groups/index.scm:78
-#, fuzzy
+#: standard input:4
+#: ui/groups/index.scm:78
 msgid "System name:"
-msgstr "Usuário do Sistema"
+msgstr "Nome do sistema:"
 
 #: standard input:1
-#, fuzzy
 msgid "System restrictions"
-msgstr "Administrador do Sistema"
+msgstr "restrições do sistema"
 
 #: standard input:1
 msgid "System services"
@@ -2279,19 +2486,17 @@ msgid "System statistics"
 msgstr "Sistema de estatísticas"
 
 #: standard input:22
-#, fuzzy
 msgid "System users administration..."
-msgstr "Administrador do Sistema"
+msgstr "Usuários administradores do sistema..."
 
 #: standard input:8
-#, fuzzy
 msgid "System users management"
-msgstr "Configurações do Volume"
+msgstr "Gerenciador de usuários do sistema"
 
-#: standard input:10 input:11
-#, fuzzy
+#: standard input:10
+#: input:11
 msgid "TLS settings"
-msgstr "Configurações avançadas"
+msgstr "Configurações TLS"
 
 #: ui/lilo/expert/index.scm:178
 msgid "Table:"
@@ -2301,23 +2506,18 @@ msgstr "Tabela:"
 msgid "Tb"
 msgstr "Tb"
 
-#: ui/x11/index.scm:94 backend3/x11:270
-#, fuzzy
+#: ui/x11/index.scm:94
+#: backend3/x11:270
 msgid "Test"
-msgstr "Resetar:"
+msgstr "Teste"
 
 #: backend3/x11:268
 msgid "Test current display settings"
 msgstr "Testar Configurações atuais de Vídeo"
 
 #: backend3/x11:344
-msgid ""
-"Test disabled, because nv and nvidia drivers can not work on your video card "
-"simultaneously. Probably if one of them works fine now then the other one "
-"would work fine too."
-msgstr ""
-"Teste desabilitado, porque nv e nvidia drivers não funcionaram em sua placa "
-"de vídeo."
+msgid "Test disabled, because nv and nvidia drivers can not work on your video card simultaneously. Probably if one of them works fine now then the other one would work fine too."
+msgstr "Teste desabilitado, porque nv e nvidia drivers não funcionaram em sua placa de vídeo."
 
 #: backend3/x11:269
 msgid "Test failed"
@@ -2327,25 +2527,19 @@ msgstr "Teste Falhou"
 msgid "Th"
 msgstr "Th"
 
-#: ui/xinetd/index.scm:28 ui/services/index.scm:42
-msgid ""
-"There are unsaved changes in the service settings. Do you want to apply "
-"these changes?"
-msgstr ""
-"Lá estão as alterações não salvas as definições de serviço. Deseja aplicar "
-"estas mudanças?"
+#: ui/xinetd/index.scm:28
+#: ui/services/index.scm:42
+msgid "There are unsaved changes in the service settings. Do you want to apply these changes?"
+msgstr "Lá estão as alterações não salvas as definições de serviço. Deseja aplicar estas mudanças?"
 
 #: backend3/xinetd:111
 msgid "These settings will be applied to services with undefined fields"
 msgstr "Estas definições serão aplicadas aos serviços com campos indefinido"
 
-#: standard input:14 ui/xinetd/index.scm:90
-msgid ""
-"This dialog changes only configuration file for xinetd. You must restart "
-"running xinetd to make it reread new configuration."
-msgstr ""
-"Este diálogo só muda arquivo de configuração do xinetd. Você deve reiniciar "
-"executando o xinetd para torná-lo reli nova configuração."
+#: standard input:14
+#: ui/xinetd/index.scm:90
+msgid "This dialog changes only configuration file for xinetd. You must restart running xinetd to make it reread new configuration."
+msgstr "Este diálogo só muda arquivo de configuração do xinetd. Você deve reiniciar executando o xinetd para torná-lo reli nova configuração."
 
 #: backend3/pkg-register:64
 msgid "This disk is already added"
@@ -2367,7 +2561,8 @@ msgstr "Desligar"
 msgid "URL host"
 msgstr "Endereço do Host"
 
-#: standard input:3 input:20
+#: standard input:3
+#: input:20
 msgid "URL host:"
 msgstr "Endereço do Host:"
 
@@ -2375,25 +2570,26 @@ msgstr "Endereço do Host:"
 msgid "Unable to create network"
 msgstr "Não foi possível criar a rede"
 
-#: ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+#: ui/pkg/cdrom/index.scm:9
+#: ui/pkg/cdrom/index.scm:11
+#: ui/pkg/error/index.scm:6
 msgid "Unknown"
 msgstr "Desconhecido"
 
 #: helpers/lilo-parser.sh:272
-#, fuzzy
 msgid "Unknown section"
-msgstr "Desconhecido"
+msgstr "Desconhecido secção"
 
 #: backend3/xinetd:430
-#, fuzzy
 msgid "Unknown service"
-msgstr "Desconhecido"
+msgstr "Serviço desconhecido"
 
 #: interfaces/guile/workflow/card-index.scm:159
 msgid "Unsupported mode"
 msgstr "Modo não suportado"
 
-#: standard input:8 ui/xkb/index.scm:40
+#: standard input:8
+#: ui/xkb/index.scm:40
 msgid "Up"
 msgstr "Cima"
 
@@ -2401,15 +2597,15 @@ msgstr "Cima"
 msgid "Update help"
 msgstr "Atualizações de Ajuda"
 
-#: standard input:2 input:6
-#, fuzzy
+#: standard input:2
+#: input:6
 msgid "Update sources"
-msgstr "Ver código fonte"
+msgstr "Fontes de atualização"
 
-#: standard input:13 ui/pkg/upgrade/index.scm:41
-#, fuzzy
+#: standard input:13
+#: ui/pkg/upgrade/index.scm:41
 msgid "Update system"
-msgstr "Sistema Operacional"
+msgstr "Atualizar sistema"
 
 #: standard input:1
 msgid "Updates"
@@ -2423,11 +2619,13 @@ msgstr "Atualização Completa"
 msgid "Upgrade is starting..."
 msgstr "Iniciando Atualizações"
 
-#: standard input:27 input:28
+#: standard input:27
+#: input:28
 msgid "Upload"
 msgstr "Enviar"
 
-#: standard input:26 input:27
+#: standard input:26
+#: input:27
 msgid "Upload certificate signed by CA:"
 msgstr "Atualizado Certificado assinado por:"
 
@@ -2447,7 +2645,8 @@ msgstr "Usar Remetentes automaticamente"
 msgid "User"
 msgstr "Usuário"
 
-#: standard input:5 ui/xinetd/index.scm:63
+#: standard input:5
+#: ui/xinetd/index.scm:63
 msgid "User:"
 msgstr "Usuário:"
 
@@ -2455,7 +2654,8 @@ msgstr "Usuário:"
 msgid "Users"
 msgstr "Usuários"
 
-#: standard input:6 ui/groups/index.scm:83
+#: standard input:6
+#: ui/groups/index.scm:83
 msgid "Users:"
 msgstr "Usuários:"
 
@@ -2463,7 +2663,8 @@ msgstr "Usuários:"
 msgid "Various network services"
 msgstr "Diversos serviços de rede"
 
-#: standard input:2 ui/x11/index.scm:35
+#: standard input:2
+#: ui/x11/index.scm:35
 msgid "Video card:"
 msgstr "Placa de Vídeo:"
 
@@ -2476,9 +2677,8 @@ msgid "Virtual hosts"
 msgstr "Host Virtual"
 
 #: backend3/net-wifi:162
-#, fuzzy
 msgid "WEP Password"
-msgstr "Senha"
+msgstr "Senha WEP"
 
 #: backend3/net-wifi:165
 msgid "WPA Personal (WPA-PSK)"
@@ -2489,7 +2689,8 @@ msgid "WPA2 Personal (WPA-PSK)"
 msgstr "Meu WPA2 (WPA-PSK)"
 
 #.
-#: standard input:7 ui/net-pptp/index.scm:90
+#: standard input:7
+#: ui/net-pptp/index.scm:90
 msgid "Walk through interface:"
 msgstr "Falar com interface de Rede:"
 
@@ -2506,20 +2707,19 @@ msgid "We"
 msgstr "Nós"
 
 #: standard input:13
-#, fuzzy
 msgid "Web interface"
-msgstr "Interfaces de IP"
+msgstr "Interface Web"
 
 #: standard input:1
 msgid "Wi-Fi setup"
 msgstr "Rede sem Fio Configurações"
 
 #: standard input:1
-#, fuzzy
 msgid "Wifi interfaces"
-msgstr "Interfaces de IP"
+msgstr "Interface Wifi"
 
-#: standard input:12 ui/net-eth/index.scm:141
+#: standard input:12
+#: ui/net-eth/index.scm:141
 msgid "Wireless settings..."
 msgstr "Configurações de Rede Sem Fio"
 
@@ -2527,7 +2727,8 @@ msgstr "Configurações de Rede Sem Fio"
 msgid "Without dead keys"
 msgstr "sem senhas mortas"
 
-#: standard input:3 ui/datetime/index.scm:17
+#: standard input:3
+#: ui/datetime/index.scm:17
 msgid "Work as NTP server"
 msgstr "Trabalhar com Servidor NTP "
 
@@ -2549,31 +2750,32 @@ msgstr "Servidor XINetD "
 
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
-#: backend3/samba:89 standard input:16
-#: interfaces/guile/workflow/card-index.scm:152 ui/x11/c-messages.scm:2
+#: backend3/samba:89
+#: standard input:16
+#: interfaces/guile/workflow/card-index.scm:152
+#: ui/x11/c-messages.scm:2
 msgid "Yes"
 msgstr "Sim"
 
-#: ui/license/index.scm:15 ui/notes/license.scm:15
+#: ui/license/index.scm:15
+#: ui/notes/license.scm:15
 msgid "Yes, I agree"
 msgstr "Sim, Eu concordo"
 
 #: standard input:15
-msgid ""
-"You are trying to close port for this configuration interface. Are you sure?"
-msgstr ""
+msgid "You are trying to close port for this configuration interface. Are you sure?"
+msgstr "Você está tentando fechar a porta para esta configuração de interface. Você tem certeza?"
 
 #: standard input:2
-msgid ""
-"You must have statically configured ethernet interface to setup dhcp server."
+msgid "You must have statically configured ethernet interface to setup dhcp server."
 msgstr "Você deve configurar uma conexão DHCP"
 
 #: ui/users/add/index.scm:20
-#, fuzzy
 msgid "You should define a password"
-msgstr "Você deve definir um usuário para o sistema"
+msgstr "Você deve definir uma senha"
 
-#: backend3/root:24 backend3/root:28
+#: backend3/root:24
+#: backend3/root:28
 msgid "You should define a password for system administrator"
 msgstr "Você deve definir uma senha para o administrador de sistema"
 
@@ -2581,33 +2783,30 @@ msgstr "Você deve definir uma senha para o administrador de sistema"
 msgid "You should define a system user"
 msgstr "Você deve definir um usuário para o sistema"
 
-#: backend3/dhcp:70 backend3/dhcp:229
-#, fuzzy
+#: backend3/dhcp:70
+#: backend3/dhcp:229
 msgid "You should define address range"
-msgstr "Você deve definir um usuário para o sistema"
+msgstr "Você deve definir endereço gama"
 
 #: backend3/dhcp:67
-#, fuzzy
 msgid "You should define network interface"
-msgstr "Você deve definir um usuário para o sistema"
+msgstr "Você deve definir uma interface de rede"
 
 #: backend3/net-wifi:227
 msgid "access point"
 msgstr "Ponto de Acesso"
 
 #: backend3/ahttpd-server:98
-#, fuzzy
 msgid "all connections"
-msgstr "Opções Global"
+msgstr "Todas as conexões"
 
 #: backend3/lilo:116
 msgid "auto"
 msgstr "auto"
 
 #: backend3/x11:175
-#, fuzzy
 msgid "automatically"
-msgstr "Configurar automaticamente Data e Hora"
+msgstr "Automáticamente"
 
 #: helpers/lilo-hal.sh:18
 msgid "b"
@@ -2643,25 +2842,25 @@ msgstr "Não foi possivel criar ou remover o Diretório \"Home\""
 msgid "can't remove user's primary group"
 msgstr "Não foi possível Remover o Usuário Primario do Group"
 
-#: backend3/users:81 backend3/users:122
+#: backend3/users:81
+#: backend3/users:122
 msgid "can't update group file"
 msgstr "Não foi possível atualizar o arquivo de grupo "
 
 #: backend3/users:74
-#, fuzzy
 msgid "can't update password file"
-msgstr "Não use senha"
+msgstr "Não foi possível atualizar o arquivo de senha"
 
 #: backend3/users:92
-#, fuzzy
 msgid "cannot change password"
-msgstr "Não use senha"
+msgstr "Não foi possível alterar a senha"
 
 #: backend3/net-pptp:94
 msgid "connection down"
 msgstr "Conexão caiu"
 
-#: backend3/net-pppoe:15 backend3/net-pptp:94
+#: backend3/net-pppoe:15
+#: backend3/net-pptp:94
 msgid "connection established"
 msgstr "Conexão estabelecida"
 
@@ -2674,9 +2873,8 @@ msgid "date should be in YYYY-MM-DD format"
 msgstr "o formato da Data deve ser YYYY-MM-DD"
 
 #: backend3/vsftpd:56
-#, fuzzy
 msgid "default"
-msgstr "Setar Padrão"
+msgstr "padrão"
 
 #: backend3/vsftpd:109
 msgid "disable write access"
@@ -2686,7 +2884,8 @@ msgstr "Disabilitar Acesso de Escrita"
 msgid "do not change"
 msgstr "Não mudar"
 
-#: backend3/net-pppoe:94 backend3/net-pptp:216
+#: backend3/net-pppoe:94
+#: backend3/net-pptp:216
 msgid "don't change"
 msgstr "Não mudar"
 
@@ -2702,7 +2901,8 @@ msgstr "Erros Apenas"
 msgid "facility setup failed"
 msgstr "Instalação Facilitada Falhou"
 
-#: helpers/lilo-parser.sh:395 backend3/lilo:104
+#: helpers/lilo-parser.sh:395
+#: backend3/lilo:104
 msgid "failsafe"
 msgstr "FailSafe"
 
@@ -2727,7 +2927,8 @@ msgstr "gráficos"
 msgid "group name not unique"
 msgstr "nome do grupo não é único"
 
-#: backend3/pkg-sources:171 backend3/pkg-sources:202
+#: backend3/pkg-sources:171
+#: backend3/pkg-sources:202
 msgid "inactive"
 msgstr "inativo"
 
@@ -2736,16 +2937,15 @@ msgid "infinite"
 msgstr "infinito"
 
 #: backend3/net-eth:179
-#, fuzzy
 msgid "interface is down"
-msgstr "Interfaces de IP"
+msgstr "interface está desligada"
 
 #: backend3/net-eth:179
-#, fuzzy
 msgid "interface is up"
-msgstr "Interfaces de IP"
+msgstr "interface está ligada"
 
-#: standard input:3 ui/xinetd/index.scm:22
+#: standard input:3
+#: ui/xinetd/index.scm:22
 msgid "internal service"
 msgstr "Serviço Interno"
 
@@ -2786,7 +2986,8 @@ msgid "invalid boolean value"
 msgstr "Valor do Boolen inválido"
 
 #. '
-#: backend3/users:75 backend3/users:116
+#: backend3/users:75
+#: backend3/users:116
 msgid "invalid command syntax"
 msgstr "Sintexe do Comando Inválido"
 
@@ -2830,7 +3031,8 @@ msgstr "multiplos valores com espaços em branco"
 msgid "no"
 msgstr "não"
 
-#: backend3/mirror:67 backend3/mirror:87
+#: backend3/mirror:67
+#: backend3/mirror:87
 msgid "no mirroring"
 msgstr "nenhum espelho"
 
@@ -2859,10 +3061,10 @@ msgstr "apenas digitos em letras"
 msgid "only small latin letters, digits and '_' allowed"
 msgstr "apenas digitos em letras permitido '_'"
 
-#: helpers/lilo-hal.sh:61 helpers/lilo-other-system.sh:39
-#, fuzzy
+#: helpers/lilo-hal.sh:61
+#: helpers/lilo-other-system.sh:39
 msgid "partition"
-msgstr "Mostrar Partições"
+msgstr "Partição"
 
 #: backend3/net-eth:184
 msgid "plugged"
@@ -2880,11 +3082,14 @@ msgstr "recomendado"
 msgid "remove from list"
 msgstr "remover da lista"
 
-#: backend3/net-pppoe:97 backend3/net-pptp:219 backend3/services:119
+#: backend3/net-pppoe:97
+#: backend3/net-pptp:219
+#: backend3/services:119
 msgid "restart"
 msgstr "resetar"
 
-#: backend3/services:54 backend3/services:117
+#: backend3/services:54
+#: backend3/services:117
 msgid "running"
 msgstr "rodando"
 
@@ -2912,19 +3117,26 @@ msgstr "usuário especificado não existe"
 #. '
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #. '
-#: backend3/net-pppoe:95 backend3/net-pptp:217 backend3/services:117
+#: backend3/net-pppoe:95
+#: backend3/net-pptp:217
+#: backend3/services:117
 msgid "start"
 msgstr "começar"
 
-#: standard input:1 input:9
+#: standard input:1
+#: input:9
 msgid "start, stop or restart service"
 msgstr "iniciar, parar ou resetar o serviço"
 
-#: backend3/net-pppoe:96 backend3/net-pptp:218 backend3/services:118
+#: backend3/net-pppoe:96
+#: backend3/net-pptp:218
+#: backend3/services:118
 msgid "stop"
 msgstr "parar"
 
-#: backend3/services:53 backend3/services:118 backend3/services:119
+#: backend3/services:53
+#: backend3/services:118
+#: backend3/services:119
 msgid "stopped"
 msgstr "parado"
 
@@ -2976,10 +3188,10 @@ msgstr "usuário logado"
 msgid "username already in use"
 msgstr "Nome de usuário já em uso"
 
-#: standard input:5 ui/net-iptables/index.scm:73
-#, fuzzy
+#: standard input:5
+#: ui/net-iptables/index.scm:73
 msgid "via:"
-msgstr "Alias:"
+msgstr "via:"
 
 #: standard input:11
 msgid "view full log of the latest operation"
@@ -2988,3 +3200,4 @@ msgstr "Verão de Registro da última operação"
 #: backend3/vsftpd:56
 msgid "yes"
 msgstr "sim"
+

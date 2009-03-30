@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-23 11:04+0300\n"
-"PO-Revision-Date: 2008-12-02 22:29-0300\n"
+"PO-Revision-Date: 2009-03-28 10:50-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,8 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:2 input:18
+#: standard input:2
+#: input:18
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -33,7 +34,7 @@ msgstr "Arquiteturas:"
 
 #: backend3/mirror:279
 msgid "Can mirror only from sources with rsync procotol"
-msgstr ""
+msgstr "Posso apenas a partir de fontes com espelho rsync procotol"
 
 #: standard input:20
 msgid "Clear local mirror"
@@ -41,12 +42,11 @@ msgstr "Limpar Endereços de \"Mirror\""
 
 #: backend3/mirror:182
 msgid "Custom url"
-msgstr ""
+msgstr "Endereço (url) customizado"
 
 #: backend3/mirror:273
-#, fuzzy
 msgid "Custom url should be defined"
-msgstr "Você deve definir um usuário para o sistema"
+msgstr "URL personalizado deverá ser definido"
 
 #: standard input:1
 msgid "Enable mirroring"
@@ -57,23 +57,21 @@ msgid "Gb"
 msgstr "Gb"
 
 #: backend3/mirror:276
-#, fuzzy
 msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
-msgstr "Inválido ou não suportado protocolo . Deve ser http, ftp ou arquivo"
+msgstr "Inválido ou não suportado protocolo. Deve ser http, ftp ou rsync"
 
-#: backend3/mirror:56 backend3/mirror:141
+#: backend3/mirror:56
+#: backend3/mirror:141
 msgid "Kb"
 msgstr "Kb"
 
 #: standard input:7
-#, fuzzy
 msgid "Local mirror"
-msgstr "Limpar Endereços de \"Mirror\""
+msgstr "Espelhos Locais"
 
 #: standard input:16
-#, fuzzy
 msgid "Local mirror of repository"
-msgstr "Local de Mirrors"
+msgstr "Espelhos locais dos repositórios"
 
 #: backend3/mirror:55
 msgid "Mb"
@@ -81,11 +79,11 @@ msgstr "Mb"
 
 #: standard input:17
 msgid "Publish as a repository for automatic updates"
-msgstr ""
+msgstr "Publicar os repositórios para atualização automática"
 
 #: standard input:8
 msgid "Published"
-msgstr ""
+msgstr "Publicar"
 
 #: standard input:4
 msgid "Repository"
@@ -95,14 +93,10 @@ msgstr "Repositório"
 msgid "Repository:"
 msgstr "Repositório:"
 
-#: standard input:3 input:19
-#, fuzzy
+#: standard input:3
+#: input:19
 msgid "Reset"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (alterator_lilo)  #-#-#-#-#\n"
-"Resetar:\n"
-"#-#-#-#-#  pt_BR.po (Alterator)  #-#-#-#-#\n"
-"Resetar"
+msgstr "Resetar"
 
 #: standard input:5
 msgid "Source"
@@ -117,17 +111,12 @@ msgid "Storage free space:"
 msgstr "Espaço de Disco de armazenamento:"
 
 #: standard input:10
-msgid ""
-"Synchronization will start every night. First synchronization with some "
-"repository may take a long time."
-msgstr ""
-"Sincronização irá iniciar todas as noites. Primeira sincronização com algum "
-"repositório pode demorar bastante tempo."
+msgid "Synchronization will start every night. First synchronization with some repository may take a long time."
+msgstr "Sincronização irá iniciar todas as noites. Primeira sincronização com algum repositório pode demorar bastante tempo."
 
 #: standard input:1
-#, fuzzy
 msgid "Updates server"
-msgstr "Ver código fonte"
+msgstr "Servidor de Atualização"
 
 #: standard input:11
 msgid "Warning:"
@@ -137,23 +126,24 @@ msgstr "Cuidado:"
 msgid "mirroring requires a lot of disk space."
 msgstr "Espelhos requeridos com um bom espaço em disco"
 
-#: backend3/mirror:121 backend3/mirror:122 backend3/mirror:145
+#: backend3/mirror:121
+#: backend3/mirror:122
+#: backend3/mirror:145
 #: backend3/mirror:152
 msgid "no"
 msgstr "não"
 
-#: backend3/mirror:142 backend3/mirror:150
+#: backend3/mirror:142
+#: backend3/mirror:150
 msgid "yes"
 msgstr "sim"
 
 #~ msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
 #~ msgstr "Acesso ao HD via NFS (/var/lib/alterator/mirror)"
-
 #~ msgid "Disk usage"
 #~ msgstr "Uso do Disco:"
-
 #~ msgid "Local mirrors of repositories"
 #~ msgstr "Local de Mirrors"
-
 #~ msgid "no mirroring"
 #~ msgstr "nenhum espelho"
+
