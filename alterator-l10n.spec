@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 2.1
-Release: alt11
+Version: 2.2
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -70,6 +70,10 @@ make check
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Mar 30 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt1
+- update pt_BR translations
+- add help and translations from alterator-vm
+
 * Fri Mar 27 2009 Stanislav Ievlev <inger@altlinux.org> 2.1-alt11
 - update translations for alterator-netinst and alterator-dhcp
 
