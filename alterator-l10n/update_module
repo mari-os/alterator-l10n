@@ -31,6 +31,8 @@ pot="$(find "$mod_dir/po" -name '*.pot')"
 name=${pot##*/}
 name=${name%.pot}
 
+cp -f "$pot" pot/
+
 echo "Updating dictionary for $name"
 
 for l in $LANGLIST; do
@@ -43,7 +45,7 @@ for l in $LANGLIST; do
   fi
 
   msgmerge --update --sort-output --backup=off \
-           --compendium="$l.po" "$po" "$pot" &> /dev/null ||\
+           --compendium="$l.po" "$po" "$pot" &>/dev/null ||\
     fatal "Can't do msgmerge for $l language"
 done
 
