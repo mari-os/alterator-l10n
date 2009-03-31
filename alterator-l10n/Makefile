@@ -34,7 +34,7 @@ install-po:
 		name=$$(basename $$j .po); \
 		echo "* $$name"; \
 		msgmerge --update --sort-output --backup=off \
-			--compendium="$$lang.po" "$$j" "$$j" &>/dev/null || exit 1; \
+			--compendium="compendium/$$lang.po" "$$j" "$$j" &>/dev/null || exit 1; \
 		msgfmt -o "$(PO_LOCALEDIR)/$$lang/LC_MESSAGES/$$name.mo" "$$j" || exit 1; \
 	    done ; \
 	done
