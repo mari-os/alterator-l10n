@@ -1,5 +1,7 @@
 #!/bin/sh
 
+. ./functions
+
 fix_po()
 {
     sed -i \
@@ -9,10 +11,8 @@ fix_po()
 	-- $2
 }
 
-LANGLIST="ru uk pt_BR"
-
 for l in $LANGLIST; do
-    msgcat -s "po/$l/"*.po "$l.po" >"$l-new.po"
+    msgcat -s "po/$l/"*.po "compendium/$l.po" >"$l-new.po"
     fix_po "$l.header" "$l-new.po"
-    mv -f "$l-new.po" "$l.po"
+    mv -f "$l-new.po" "compendium/$l.po"
 done
