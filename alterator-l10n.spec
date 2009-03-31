@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.2
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Mar 31 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt2
+- add Spanish translations
+
 * Mon Mar 30 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt1
 - update pt_BR translations
 - add help and translations from alterator-vm
