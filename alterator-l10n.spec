@@ -68,6 +68,7 @@ make check
 %lang(ru) %_datadir/locale/ru/LC_MESSAGES/*.mo
 %lang(uk) %_datadir/locale/uk/LC_MESSAGES/*.mo
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
+%lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
 * Mon Mar 30 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt1
