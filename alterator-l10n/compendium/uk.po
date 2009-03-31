@@ -15,11 +15,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
+
 #: standard input:15
 msgid ""
 "\n"
 "x09x09  \n"
 "x09x09"
+msgstr ""
+
+#: ui/vm/table.scm:187
+msgid "   Name   "
+msgstr "   Ім'я   "
+
+#: ui/vm/ortodox.scm:40
+msgid " free"
+msgstr " вільно"
+
+#: ui/vm/ortodox.scm:40
+msgid " of "
+msgstr " з "
+
+#: ui/vm/dummystr.scm:84
+msgid " reboot, then continue installation."
 msgstr ""
 
 #: standard input:23
@@ -256,6 +273,11 @@ msgstr "Логін:"
 #. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -349,6 +371,11 @@ msgstr "Новий користувач:"
 msgid "Add user:"
 msgstr "Новий користувач:"
 
+#. expand seg
+#: ui/vm/dummystr.scm:61
+msgid "Additional Size"
+msgstr "Додатковий розмір"
+
 #: standard input:2 ui/pkg/register/index.scm:26 input:3
 msgid "Additional disks"
 msgstr "Додаткові диски"
@@ -390,6 +417,20 @@ msgstr ""
 msgid "Alias:"
 msgstr "Alias:"
 
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+#, fuzzy
+msgid "All data from all your disks will be lost!"
+msgstr "Всі дані на всіх дисках будуть знищені! Продовжити?"
+
+#: ui/vm/blonde.scm:91 ui/vm/ortodox.scm:70
+msgid "All data from all your disks will be lost! Continue?"
+msgstr "Всі дані на всіх дисках будуть знищені! Продовжити?"
+
+#: ui/vm/table.scm:135
+msgid "All data on following partitions will be lost:"
+msgstr "Всі дані у наступних розділах будуть втрачені:"
+
 #: standard input:4
 msgid "Allow anonymous login"
 msgstr "Дозволити вхід анонімному користувачеві"
@@ -428,6 +469,7 @@ msgstr "Дозволити запис"
 msgid "Allowed client networks:"
 msgstr "Дозволені з'єднання на вході"
 
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #.
 #: standard input:6 ui/net-iptables/index.scm:80
@@ -469,17 +511,21 @@ msgstr "Додатково..."
 #: ui/net-wifi/index.scm:131 input:26 ui/root/index.scm:46 input:20
 #: ui/services/index.scm:63 input:21 input:11 ui/html-messages.scm:6
 #: ui/html-messages.scm:14 ui/html-messages.scm:38 ui/html-messages.scm:57
-#: ui/updates/index.scm:90 ui/users/index.scm:116 ui/x11/index.scm:97 input:16
-#: ui/xinetd/index.scm:95 ui/xkb/index.scm:54 backend3/xkb:188
-#: ui/net-eth/index.scm:159 input:3 ui/net-iptables/index.scm:115
-#: ui/sysconfig/proxy/index.scm:26 input:22 ui/datetime/index.scm:32 input:10
-#: input:14 ui/timezone/index.scm:71
+#: ui/updates/index.scm:90 ui/users/index.scm:116 ui/vm/table.scm:258
+#: ui/x11/index.scm:97 input:16 ui/xinetd/index.scm:95 ui/xkb/index.scm:54
+#: backend3/xkb:188 ui/net-eth/index.scm:159 input:3
+#: ui/net-iptables/index.scm:115 ui/sysconfig/proxy/index.scm:26 input:22
+#: ui/datetime/index.scm:32 input:10 input:14 ui/timezone/index.scm:71
 msgid "Apply"
 msgstr "Застосувати"
 
 #: backend3/xkb:187
 msgid "Apply failed"
 msgstr "Помилка"
+
+#: ui/vm/table.scm:130
+msgid "Apply requested changes?"
+msgstr "Застосувати вказані зміни?"
 
 #: backend3/xkb:186
 msgid "Apply saved keyboard settings"
@@ -536,6 +582,9 @@ msgstr ""
 msgid "Autodetect"
 msgstr "Визначити адресу автоматично"
 
+#. #-#-#-#-#  alterator-x11.po (uk)  #-#-#-#-#
+#. for write_enum
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-x11.po (uk)  #-#-#-#-#
 #. for write_enum
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -664,9 +713,9 @@ msgstr "Неможливо видалити користувача"
 #: standard input:5 ui/datetime/system/timezone/index.scm:60
 #: ui/datetime/installer/edit/index.scm:43 input:6
 #: ui/net-eth/advanced/index.scm:67 input:13
-#: ui/pkg/sources/mirrors/index.scm:60 ui/x11/monitor/index.scm:28
-#: ui/x11/driver/index.scm:31 ui/xkb/avail_layout/index.scm:27 input:14
-#: ui/pkg/upgrade/index.scm:47
+#: ui/pkg/sources/mirrors/index.scm:60 ui/vm/choice.scm:35 ui/vm/popup.scm:112
+#: ui/x11/monitor/index.scm:28 ui/x11/driver/index.scm:31
+#: ui/xkb/avail_layout/index.scm:27 input:14 ui/pkg/upgrade/index.scm:47
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -677,6 +726,11 @@ msgstr "Кандидати:"
 #: backend3/sysconfig-base:29
 msgid "CapsLock key"
 msgstr "Клавіша CapsLock"
+
+#. jfs
+#: ui/vm/dummystr.scm:25
+msgid "Case Insensitive"
+msgstr "Ігнорувати малі/великі літери"
 
 #: standard input:17 input:11 input:12
 msgid "Certificate"
@@ -718,13 +772,31 @@ msgstr "Змінити стан:"
 msgid "Change..."
 msgstr "Змінити"
 
+#: ui/vm/table.scm:226
+msgid "Check Filesystem"
+msgstr "Перевірити файлову систему"
+
+#. ext2/3
+#: ui/vm/dummystr.scm:16
+msgid "Check For Bad Blocks"
+msgstr "Перевірка збійних ділянок"
+
 #: standard input:7
 msgid "Check IP"
 msgstr ""
 
+#. swap
+#: ui/vm/dummystr.scm:30
+msgid "Check for bad blocks"
+msgstr "Перевірка збійних ділянок"
+
 #: standard input:12 ui/pkg/upgrade/index.scm:35
 msgid "Check for updates"
 msgstr "Перевірити наявність поновлень"
+
+#: ui/vm/dummystr.scm:87
+msgid "Check order"
+msgstr ""
 
 #: backend3/pkg-upgrade:214
 msgid "Checking for updates..."
@@ -747,14 +819,35 @@ msgstr "Мова сайту:"
 msgid "Choose server role:"
 msgstr ""
 
+#. raid0
+#: ui/vm/dummystr.scm:51
+msgid "Chunk Size:"
+msgstr "Розмір чанку (chunk):"
+
+#: ui/vm/dummystr.scm:59
+msgid "Chunk size"
+msgstr "Розмір чанку (chunk)"
+
+#: ui/vm/ortodox.scm:92
+msgid "Clear all before applying profile"
+msgstr "Очистити всі диски перед застосуванням профілю"
+
 #: standard input:20 input:18
 msgid "Clear local mirror"
 msgstr ""
+
+#. ntfs
+#: ui/vm/dummystr.scm:34
+msgid "Cluster size"
+msgstr "Розмір кластеру"
 
 #: standard input:19 ui/x11/index.scm:76 input:9
 msgid "Color depth:"
 msgstr "Глибина кольору:"
 
+#. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -776,11 +869,18 @@ msgstr "Спільні параметри ядра:"
 msgid "Common settings"
 msgstr "Спільні налаштування"
 
+#: ui/vm/dummystr.scm:36
+msgid "Compression"
+msgstr "Стиснення"
+
 #: standard input:24 input:32
 #, fuzzy
 msgid "Computer name"
 msgstr "Назва хоста:"
 
+#. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
 #.
 #: standard input:3 input:29 input:7 ui/net-eth/index.scm:74 input:9
@@ -810,6 +910,10 @@ msgstr "Сконфіґурувати нову мережу"
 msgid "Configured networks"
 msgstr "Сконфіґуровані мережі"
 
+#: ui/vm/table.scm:86
+msgid "Congrats! You've found a secret level!"
+msgstr "Вітаю! Ви знайшли секретний рівень!"
+
 #: backend3/net-wifi:226
 msgid "Connected to network"
 msgstr "Підключено до мережі"
@@ -822,6 +926,10 @@ msgstr "Продовжити"
 #, fuzzy
 msgid "Continue work"
 msgstr "Продовжити"
+
+#: ui/vm/table.scm:138
+msgid "Continue?"
+msgstr "Продовжити?"
 
 #: backend3/sysconfig-base:31
 msgid "Control key"
@@ -847,6 +955,26 @@ msgstr "Країна:"
 #: input:13
 msgid "Create"
 msgstr "Створити"
+
+#: ui/vm/dummystr.scm:19
+msgid "Create Ext3 Journal"
+msgstr "Створити журнал Ext3"
+
+#: ui/vm/table.scm:209 ui/vm/table.scm:211
+msgid "Create Partition"
+msgstr "Створити розділ"
+
+#: ui/vm/table.scm:196
+msgid "Create RAID"
+msgstr "Створити RAID"
+
+#: ui/vm/table.scm:204 ui/vm/table.scm:216
+msgid "Create Volume"
+msgstr "Створити том"
+
+#: ui/vm/table.scm:199
+msgid "Create Volume Group"
+msgstr "Створити групу томів"
 
 #: standard input:7
 msgid "Created backups:"
@@ -905,6 +1033,14 @@ msgstr "Поточний стан:"
 msgid "Current time:"
 msgstr "Поточний час:"
 
+#: ui/vm/dummystr.scm:76
+msgid "Custom"
+msgstr "Вручну"
+
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr "Встановлення вручну"
+
 #: backend3/mirror:182 backend3/updates:64
 msgid "Custom url"
 msgstr ""
@@ -923,6 +1059,9 @@ msgstr "DHCP-сервер"
 msgid "DNS server:"
 msgstr "DNS-сервери:"
 
+#. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -973,6 +1112,9 @@ msgstr "Типовий маршрут через VPN"
 #. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: standard input:18 input:12 ui/net-eth/index.scm:102 input:10
@@ -996,6 +1138,11 @@ msgstr "Стандартна тека для отримання файлів (/v
 #, fuzzy
 msgid "Define domain:"
 msgstr "Шукати у доменах:"
+
+#. raid1
+#: ui/vm/dummystr.scm:54
+msgid "Degraded array"
+msgstr "Деградований масив"
 
 #: standard input:36 input:9 ui/groups/index.scm:91 index.scm:189
 #: ui/lilo/expert/index.scm:189 input:5 input:12 ui/net-dnat/index.scm:34
@@ -1039,6 +1186,19 @@ msgstr ""
 #: ui/html-messages.scm:49
 msgid "Destination port"
 msgstr ""
+
+#: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
+#: ui/vm/table.scm:214 ui/vm/table.scm:219
+msgid "Destroy"
+msgstr "Знищити"
+
+#: ui/vm/table.scm:210
+msgid "Destroy Partition Table"
+msgstr "Знищити таблицю розділів"
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr "Витерти всі диски та створити підрозділи автоматично"
 
 #: standard input:11 ui/x11/index.scm:29 input:1
 msgid "Detected hardware"
@@ -1131,6 +1291,14 @@ msgstr "Драйвери:"
 #: backend3/spamassassin:73
 msgid "Drop mail"
 msgstr "Видаляти пошту"
+
+#: ui/vm/dummystr.scm:86
+msgid "Dump Frequency"
+msgstr ""
+
+#: ui/vm/table.scm:224
+msgid "Edit Mountpoint"
+msgstr "Змінити точку монтування"
 
 #: index.scm:123 ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:123
 msgid "Edit lilo.conf"
@@ -1284,6 +1452,11 @@ msgstr "з'єднання невдале"
 msgid "Exiting..."
 msgstr ""
 
+#: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
+#: ui/vm/table.scm:217
+msgid "Expand"
+msgstr "Збільшити"
+
 #: index.scm:122 ui/lilo/edit-source/index.scm:24 ui/lilo/index.scm:141
 #: ui/lilo/expert/index.scm:122
 msgid "Expert mode"
@@ -1294,6 +1467,20 @@ msgstr "Складний режим"
 msgid "Expiration time"
 msgstr "Складний режим"
 
+#. fsims
+#: ui/vm/dummystr.scm:7
+msgid "Ext2/3 File System Interface Module"
+msgstr "Файлова система Ext2/3"
+
+#: ui/vm/dummystr.scm:40
+msgid "Extent-size for the new LVM2 container."
+msgstr "Розмір екстентів нового контейнеру LVM2."
+
+#. xfs
+#: ui/vm/dummystr.scm:21
+msgid "External Journal Volume"
+msgstr "Том для зовнішнього журналу"
+
 #: standard input:5 ui/net-iptables/index.scm:48
 #, fuzzy
 msgid "Extra TCP ports:"
@@ -1302,6 +1489,19 @@ msgstr "невірний TCP-порт"
 #: standard input:7 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr ""
+
+#. expand lv
+#: ui/vm/dummystr.scm:65
+msgid "Extra size for the LVM2 region."
+msgstr "Додатковий розмір для регіону LVM2."
+
+#: ui/vm/dummystr.scm:12
+msgid "FAT16 File System Interface Module"
+msgstr "Файлова система FAT16"
+
+#: ui/vm/dummystr.scm:13
+msgid "FAT32 File System Interface Module"
+msgstr "Файлова система FAT32"
 
 #: standard input:1
 msgid "FTP server"
@@ -1330,6 +1530,10 @@ msgstr ""
 #: ui/html-messages.scm:62
 msgid "File transfer (FTP)"
 msgstr ""
+
+#: ui/vm/table.scm:189 ui/vm/blonde.scm:46
+msgid "Filesystem"
+msgstr "Файлова система"
 
 #: standard input:24 input:20
 msgid "Filter out clients"
@@ -1400,6 +1604,14 @@ msgstr ""
 msgid "Forbidden senders:"
 msgstr ""
 
+#: ui/vm/dummystr.scm:23
+msgid "Force"
+msgstr "Примусово"
+
+#: ui/vm/dummystr.scm:72
+msgid "Format before using"
+msgstr "Відформатувати"
+
 #: backend3/net-dnat:27
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr ""
@@ -1425,6 +1637,7 @@ msgstr ""
 msgid "Gb"
 msgstr "Гб"
 
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
@@ -1485,6 +1698,13 @@ msgstr ""
 msgid "Hard drive"
 msgstr "Жорсткий диск"
 
+#: standard input:1
+msgid "Harddisks"
+msgstr ""
+
+#. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -1521,6 +1741,9 @@ msgstr "Поновити довідку"
 #. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #.
 #: standard input:5 ui/users/index.scm:84
 msgid "Home directory:"
@@ -1541,6 +1764,7 @@ msgstr "IP-адреса:"
 msgid "Host name"
 msgstr "Назва хоста:"
 
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #.
 #: standard input:1 ui/net-eth/index.scm:75
@@ -1567,6 +1791,9 @@ msgstr "IMAP4 через TLS/SSL"
 msgid "IP address"
 msgstr "IP-адреса"
 
+#. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -1620,6 +1847,10 @@ msgstr ""
 #: index.scm:167 ui/lilo/expert/index.scm:167
 msgid "Initrd:"
 msgstr "Initrd:"
+
+#: ui/vm/dummystr.scm:26
+msgid "Inline Log Size"
+msgstr "Розмір вбудованого журналу"
 
 #: index.scm:131 ui/lilo/index.scm:112 ui/lilo/expert/index.scm:131
 msgid "Install boot loader on:"
@@ -1679,6 +1910,11 @@ msgstr "Тип інтерфейсу:"
 #. #-#-#-#-#  alterator-net-pppoe.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pppoe.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -1715,6 +1951,24 @@ msgstr ""
 msgid "Invalid disk"
 msgstr "Невірний формат диска"
 
+#. guile-evms
+#: ui/vm/dummystr.scm:80
+#, fuzzy
+msgid "Invalid mountpoint"
+msgstr "Змінити точку монтування"
+
+#: ui/vm/dummystr.scm:81
+msgid "Invalid mountpoint for SWAPFS"
+msgstr ""
+
+#: ui/vm/dummystr.scm:82
+msgid "Invalid mountpoint: not a SWAPFS"
+msgstr ""
+
+#: ui/vm/dummystr.scm:83
+msgid "Invalid mountpoint: should start with /mnt"
+msgstr ""
+
 #: backend3/pkg-sources:89 backend3/pkg-sources:75
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr "Невірний або непідтримуваний протокол.  Має бути http, ftp або file"
@@ -1734,6 +1988,10 @@ msgstr "Невірний або непідтримуваний протокол.
 #, fuzzy
 msgid "Invalid ssh key"
 msgstr "Невірний формат диска"
+
+#: ui/vm/dummystr.scm:9
+msgid "JFS File System Interface Module"
+msgstr "Файлова система JFS"
 
 #: interfaces/guile/ahttpd/translate.scm:53
 msgid "January"
@@ -1807,6 +2065,10 @@ msgstr "Перемикання розкладки:"
 #: standard input:5 ui/xkb/index.scm:33
 msgid "Layouts:"
 msgstr "Розкладки:"
+
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
+msgstr "Запропонувати виконати мої зміни після застосування профілю"
 
 #: standard input:2 input:1
 msgid "License"
@@ -1883,6 +2145,10 @@ msgstr "Налаштування локальних користувачів"
 msgid "Location (L):"
 msgstr "Місце (L):"
 
+#: ui/vm/dummystr.scm:22
+msgid "Log Size"
+msgstr "Розмір журналу"
+
 #: standard input:13 input:7 input:8
 msgid "Logging:"
 msgstr "Протоколювання:"
@@ -1909,6 +2175,23 @@ msgstr "за MAC-адресою"
 #, fuzzy
 msgid "MAC address:"
 msgstr "за MAC-адресою"
+
+#: ui/vm/dummystr.scm:49
+msgid "MD RAID 4/5 Region Manager"
+msgstr "MD-пристрій рівня RAID4/5"
+
+#. raidx
+#: ui/vm/dummystr.scm:47
+msgid "MD RAID0 Region Manager"
+msgstr "MD-пристрій рівня RAID0"
+
+#: ui/vm/dummystr.scm:48
+msgid "MD Raid 1 Region Manager"
+msgstr "MD-пристрій рівня RAID1"
+
+#: ui/vm/dummystr.scm:35
+msgid "MFT zone multiplier"
+msgstr "Множник зони MFT"
 
 #: standard input:7 ui/net-pppoe/index.scm:81 input:10
 #: ui/net-pptp/index.scm:100
@@ -1942,6 +2225,10 @@ msgstr ""
 #: standard input:1
 msgid "Mailing list server"
 msgstr "Сервер електронних розсилань"
+
+#: ui/vm/table.scm:222 ui/vm/table.scm:225
+msgid "Make Filesystem"
+msgstr "Створити файлову систему"
 
 #: backend3/net-eth:145
 msgid "Managed by user (NetworkManager)"
@@ -2040,8 +2327,29 @@ msgstr "Постачальники моніторів:"
 msgid "Monitor:"
 msgstr "Монітор:"
 
+#: ui/vm/table.scm:227
+msgid "Mount Filesystem"
+msgstr "Монтувати файлову систему"
+
+#. assign
+#: ui/vm/dummystr.scm:71
+msgid "Mount Options"
+msgstr "Опції монтування"
+
+#: ui/vm/table.scm:193
+msgid "Mount options"
+msgstr "Опції монтування"
+
 #: standard input:12 input:27 ui/sysinfo/index.scm:57
 msgid "Mount point"
+msgstr "Точка монтування"
+
+#: ui/vm/table.scm:192
+msgid "Mounted on"
+msgstr "Змонтовано в"
+
+#: ui/vm/dummystr.scm:85 ui/vm/table.scm:191
+msgid "Mountpoint"
 msgstr "Точка монтування"
 
 #: ui/html-messages.scm:28
@@ -2049,15 +2357,36 @@ msgstr "Точка монтування"
 msgid "NAT table"
 msgstr "Table:"
 
+#: ui/vm/dummystr.scm:14
+msgid "NTFS File System Interface Module"
+msgstr "Файлова система NTFS "
+
 #: standard input:2 ui/datetime/system/index.scm:24
 #: ui/datetime/installer/edit/index.scm:24 ui/datetime/index.scm:14
 msgid "NTP server:"
 msgstr "FTP-сервер"
 
+#: ui/vm/blonde.scm:45
+msgid "Name"
+msgstr "Назва"
+
+#. lvm2 vg
+#: ui/vm/dummystr.scm:39
+msgid "Name for the new LVM2 container."
+msgstr "Ім'я нового контейнеру LVM2."
+
+#. lvm2 lv
+#: ui/vm/dummystr.scm:42
+msgid "Name for the new LVM2 region."
+msgstr "Ім'я нового регіону LVM2."
+
 #: ui/users/add/index.scm:51
 msgid "Name:"
 msgstr "Системне ім'я"
 
+#. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -2176,6 +2505,10 @@ msgstr "Новий користувач:"
 msgid "Next"
 msgstr "Далі"
 
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr "Наступна операція"
+
 #: interfaces/guile/workflow/card-index.scm:150 backend3/samba:94
 #: ui/x11/c-messages.scm:3 backend3/samba:91 standard input:17
 msgid "No"
@@ -2213,17 +2546,45 @@ msgstr "Немає доступних оновлень"
 msgid "Not a wireless interface"
 msgstr "Не бездротовий інтерфейс"
 
+#. misc
+#: ui/vm/dummystr.scm:78
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+msgstr ""
+"Зауваження: зміна розміру підрозділу Vista може призвести до неможливості "
+"завантаження Vista.  Продовжити?"
+
 #: interfaces/guile/ahttpd/translate.scm:63
 msgid "November"
 msgstr "Листопад"
 
+#: ui/vm/dummystr.scm:44
+msgid "Number of stripes for the new LVM2 region."
+msgstr "Кількість страйпів (stripes) для нового регіону LVM2."
+
+#: ui/vm/dummystr.scm:66
+msgid "Number of stripes for the new portion of the region."
+msgstr "Кількість страйпів (stripes) для нової області регіону."
+
 #: ui/datetime/system/timezone/index.scm:59
 #: ui/datetime/installer/edit/index.scm:42 standard input:5
 #: ui/net-eth/advanced/index.scm:66 input:12 ui/net-wifi/index.scm:144
-#: ui/pkg/sources/mirrors/index.scm:59 input:19 input:21
-#: ui/x11/monitor/index.scm:22 ui/x11/driver/index.scm:25
+#: ui/pkg/sources/mirrors/index.scm:59 ui/vm/choice.scm:34 ui/vm/popup.scm:109
+#: input:19 input:21 ui/x11/monitor/index.scm:22 ui/x11/driver/index.scm:25
 msgid "OK"
 msgstr ""
+
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr "Об'єкти"
+
+#: ui/vm/dummystr.scm:45
+msgid "Objects (PVs) to place the new LVM2 region on."
+msgstr "Розмістити новий регіон LVM2 на наступних пристроях (PV)."
+
+#: ui/vm/dummystr.scm:67
+msgid "Objects (PVs) to use for the new portion of the region."
+msgstr "Розмістити нову область регіону на наступних пристроях (PV)."
 
 #: interfaces/guile/ahttpd/translate.scm:62
 msgid "October"
@@ -2232,6 +2593,10 @@ msgstr "Жовтень"
 #: backend3/postfix-restrictions:348
 msgid "Off"
 msgstr "Вимкнений"
+
+#: ui/vm/dummystr.scm:3
+msgid "Offset"
+msgstr "Зміщення"
 
 #: standard input:17
 msgid "Oldest backup:"
@@ -2260,6 +2625,14 @@ msgstr ""
 #: standard input:20
 msgid "Operating system information and setup"
 msgstr "Налаштування операційної системи та інформація щодо неї"
+
+#: ui/vm/dummystr.scm:89
+msgid "Operation not permitted"
+msgstr ""
+
+#: ui/vm/popup.scm:96 ui/vm/ortodox.scm:89
+msgid "Options"
+msgstr "Налаштування"
 
 #: standard input:24 input:18 input:19
 msgid "Organization (O):"
@@ -2351,6 +2724,10 @@ msgstr "Наступні пакети будуть поновлені"
 msgid "Packages will be REPLACED"
 msgstr "Наступні пакети будуть ЗАМІНЕНІ"
 
+#: ui/vm/dummystr.scm:5
+msgid "Partition Type"
+msgstr "Тип розділу"
+
 #: standard input:1
 #, fuzzy
 msgid "Password for system administrator:"
@@ -2360,6 +2737,13 @@ msgstr "Встановити пароль системного адмініст�
 msgid "Password is too short"
 msgstr "Пароль надто короткий"
 
+#. #-#-#-#-#  alterator-net-pppoe.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pppoe.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
@@ -2396,6 +2780,10 @@ msgstr "На одну адресу:"
 msgid "Period:"
 msgstr ""
 
+#: ui/vm/table.scm:122
+msgid "Please assign \"/\" mount point"
+msgstr "Будь ласка, призначте точку монтування \"/\""
+
 #: backend3/bacula-backup:99
 #, fuzzy
 msgid "Please choose backup disk"
@@ -2426,6 +2814,18 @@ msgstr "Виберіть варіант перемикання розкладк�
 msgid "Please take a moment to read the license agreement now."
 msgstr "Будь ласка, прочитайте ліцензійну угоду."
 
+#: ui/vm/functions.scm:3
+#, fuzzy
+msgid "Please wait..."
+msgstr ""
+"#-#-#-#-#  alterator-ulogd.po (uk)  #-#-#-#-#\n"
+"Зачекайте, будь ласка...\n"
+"#-#-#-#-#  alterator-vm.po (uk)  #-#-#-#-#\n"
+"Зачекайте, будь-ласка..."
+
+#. #-#-#-#-#  alterator-datetime.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-datetime.po (uk)  #-#-#-#-#
 #.
 #: standard input:10 ui/datetime/system/timezone/index.scm:46
@@ -2433,6 +2833,9 @@ msgstr "Будь ласка, прочитайте ліцензійну угод�
 msgid "Please, select country:"
 msgstr "Оберіть країну:"
 
+#. #-#-#-#-#  alterator-datetime.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-datetime.po (uk)  #-#-#-#-#
 #.
 #: standard input:11 ui/datetime/system/timezone/index.scm:51
@@ -2476,6 +2879,10 @@ msgstr "Натисніть F1 для довідки"
 msgid "Previous"
 msgstr "Назад"
 
+#: ui/vm/dummystr.scm:4
+msgid "Primary Partition"
+msgstr "Основний розділ"
+
 #: standard input:2 input:17 ui/sysinfo/index.scm:38
 msgid "Processors"
 msgstr ""
@@ -2514,9 +2921,22 @@ msgstr ""
 msgid "Question"
 msgstr "Питання"
 
+#: ui/vm/dummystr.scm:37
+msgid "Quick mkfs"
+msgstr "Швидке створення"
+
 #: ui/x11/index.scm:100
 msgid "Quit"
 msgstr "Вихід"
+
+#: ui/vm/dummystr.scm:58
+msgid "RAID level"
+msgstr "Рівень RAID"
+
+#. raid5
+#: ui/vm/dummystr.scm:57
+msgid "RAID5 Algorithm"
+msgstr "Алгоритм RAID5"
 
 #: standard input:28 input:24
 #, fuzzy
@@ -2531,6 +2951,10 @@ msgstr ""
 #, fuzzy
 msgid "Read only"
 msgstr "Лише позначити"
+
+#: ui/vm/dummystr.scm:17
+msgid "Read/Write Check For Bad Blocks"
+msgstr "Перевірка збійних ділянок (R/W)"
 
 #: standard input:41
 msgid "Reboot computer now"
@@ -2562,6 +2986,10 @@ msgstr "Передзвонити за роз'єднання"
 msgid "Redirect to"
 msgstr "Домашня тека:"
 
+#: ui/vm/dummystr.scm:10
+msgid "ReiserFS File System Interface Module"
+msgstr "Файлова система ReiserFS"
+
 #: standard input:1 ui/notes/release-notes.scm:7 input:2
 msgid "Release Notes"
 msgstr "Інформація щодо дистрибутиву"
@@ -2579,12 +3007,19 @@ msgstr ""
 msgid "Remove"
 msgstr "Вилучити"
 
+#: ui/vm/table.scm:223 ui/vm/table.scm:229
+msgid "Remove Filesystem"
+msgstr "Видалити файлову систему"
+
 #: standard input:25 input:19 input:34 input:26 input:5 ui/html-messages.scm:8
 #: ui/html-messages.scm:22 ui/html-messages.scm:26 ui/html-messages.scm:30
 #: input:11 input:21 input:30
 msgid "Remove selected"
 msgstr "Видалити виділені"
 
+#. #-#-#-#-#  alterator-pkg.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-pkg.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -2624,7 +3059,7 @@ msgstr "Пересканувати"
 #: ui/net-pppoe/index.scm:89 input:14 ui/net-pptp/index.scm:117 input:13
 #: ui/net-wifi/index.scm:132 input:21 ui/services/index.scm:64 input:22
 #: ui/html-messages.scm:15 ui/html-messages.scm:39 ui/html-messages.scm:58
-#: ui/updates/index.scm:91 ui/xinetd/index.scm:97 input:16
+#: ui/updates/index.scm:91 ui/vm/table.scm:253 ui/xinetd/index.scm:97 input:16
 #: ui/net-eth/index.scm:160 input:4 input:17 ui/sysconfig/proxy/index.scm:29
 #: input:15 ui/timezone/index.scm:72 input:12
 msgid "Reset"
@@ -2788,6 +3223,9 @@ msgstr "Шукати у доменах:"
 #. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #.
 #: standard input:14 ui/net-eth/index.scm:111 input:3 ui/net-eth/index.scm:88
 msgid "Search domains:"
@@ -2799,9 +3237,13 @@ msgid "Section already exists."
 msgstr "Такий користувач вже є"
 
 #: standard input:2 input:3 input:4 input:6 input:18 ui/html-messages.scm:13
-#: input:12 input:5 input:8
+#: ui/vm/choice.scm:28 input:12 input:5 input:8
 msgid "Select"
 msgstr "Вибрати"
+
+#: ui/vm/ortodox.scm:78
+msgid "Select disks for use"
+msgstr "Виберіть диски для використання"
 
 #: standard input:2 ui/net-iptables/index.scm:36
 #, fuzzy
@@ -2818,6 +3260,14 @@ msgstr "Оберіть мову:"
 msgid "Select groups you want to install:"
 msgstr "Виберіть пакунки для встановлення:"
 
+#: ui/vm/blonde.scm:101
+msgid "Select installation method"
+msgstr "Оберіть метод встановлення"
+
+#: ui/vm/ortodox.scm:83
+msgid "Select profile"
+msgstr "Виберіть профіль"
+
 #: ui/sysconfig/base/index.scm:29
 msgid "Select your language:"
 msgstr "Оберіть мову:"
@@ -2830,6 +3280,9 @@ msgstr "Вересень"
 msgid "Server args:"
 msgstr "Аргументи сервера:"
 
+#. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -2869,6 +3322,15 @@ msgstr "Налаштування поштової служби"
 msgid "Setup embedded web server"
 msgstr "Налаштування вбудованого веб-серверу"
 
+#. profiles
+#: ui/vm/dummystr.scm:74
+msgid "Setup for server"
+msgstr "Встановлення сервера"
+
+#: ui/vm/dummystr.scm:75
+msgid "Setup for workstation"
+msgstr "Встановлення робочої станції"
+
 #: standard input:18
 msgid "Setup input/output devices"
 msgstr "Налаштування пристроїв вводу/виводу"
@@ -2901,6 +3363,9 @@ msgstr ""
 #. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #.
 #: standard input:6 ui/users/index.scm:87
 msgid "Shell:"
@@ -2911,6 +3376,10 @@ msgstr "Оболонка:"
 msgid "Show"
 msgstr "Показувати:"
 
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
+msgstr "Показати додаткові налаштування"
+
 #: standard input:46 input:3
 msgid "Show help"
 msgstr ""
@@ -2918,6 +3387,16 @@ msgstr ""
 #: standard input:7 ui/logs/index.scm:36
 msgid "Show:"
 msgstr "Показувати:"
+
+#: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
+#: ui/vm/table.scm:218
+msgid "Shrink"
+msgstr "Зменшити"
+
+#. shrink seg
+#: ui/vm/dummystr.scm:63
+msgid "Shrink by Size"
+msgstr "Зменшити розмір"
 
 #: standard input:2
 msgid "Shutdown computer"
@@ -2938,6 +3417,28 @@ msgstr "Який MTA використовується:"
 #: standard input:7
 msgid "Site language:"
 msgstr "Мова сайту:"
+
+#.
+#: ui/vm/dummystr.scm:2
+msgid "Size"
+msgstr "Розмір"
+
+#: ui/vm/table.scm:188
+msgid "Size [ free ]"
+msgstr "Розмір [ вільно ]"
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
+msgstr "Розмір [ вільно ]"
+
+#: ui/vm/dummystr.scm:43
+msgid "Size for the new LVM2 region."
+msgstr "Розмір нового регіону LVM2."
+
+#. shrink lv
+#: ui/vm/dummystr.scm:69
+msgid "Size to remove from the LVM2 region."
+msgstr "Зменшити том LVM2 на цей розмір."
 
 #: ui/groups/index.scm:100
 msgid "Skip empty groups"
@@ -2983,6 +3484,10 @@ msgstr "Спам-фільтр"
 msgid "Spam filter mode:"
 msgstr "Режим cпам-фільтрy:"
 
+#: ui/vm/dummystr.scm:55
+msgid "Spare Disk"
+msgstr "Резервний диск"
+
 #: standard input:12 ui/net-pptp/index.scm:106
 msgid "Start at boot"
 msgstr "Запускати при завантаженні"
@@ -3016,6 +3521,9 @@ msgstr "IP-адреса:"
 #. #-#-#-#-#  alterator-control.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-control.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #.
 #: standard input:3 ui/control/index.scm:44 ui/html-messages.scm:52
 msgid "State"
@@ -3035,6 +3543,11 @@ msgstr "Статистика"
 msgid "Statistics per interface"
 msgstr "Не бездротовий інтерфейс"
 
+#. #-#-#-#-#  alterator-net-pppoe.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pppoe.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
@@ -3071,6 +3584,10 @@ msgstr "Коментар"
 #: standard input:2 ui/dovecot/index.scm:29
 msgid "Supported protocols:"
 msgstr "Протоколи, що підтримуються:"
+
+#: ui/vm/dummystr.scm:11
+msgid "Swap File System Interface Module"
+msgstr "Файлова система SWAP"
 
 #: standard input:10 input:25 ui/sysinfo/index.scm:52
 msgid "Swap space (free):"
@@ -3270,9 +3787,26 @@ msgstr "Адреса веб-сайту"
 msgid "URL host:"
 msgstr "Адреса веб-сайту:"
 
+#: ui/vm/table.scm:228
+msgid "Umount Filesystem"
+msgstr "Розмонтувати файлову систему"
+
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
+msgstr "Неможливо застосувати профіль: недостатньо вільного місця на диску"
+
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
+msgstr "Неможливо створити підрозділи: недостатньо вільного місця на диску"
+
 #: backend3/net-wifi:479
 msgid "Unable to create network"
 msgstr "Неможливо створити мережу"
+
+#: ui/vm/lucky.scm:60
+#, fuzzy
+msgid "Unable to partition, not enough disk space"
+msgstr "Неможливо створити підрозділи: недостатньо вільного місця на диску"
 
 #: backend3/datetime-installer:101 backend3/datetime-system:107
 #, fuzzy
@@ -3367,6 +3901,10 @@ msgstr ""
 msgid "Use system disk"
 msgstr "Поновити систему"
 
+#: ui/vm/blonde.scm:83
+msgid "Use unpartitioned disk space"
+msgstr "Використати вільний від підрозділів простір"
+
 #: standard input:15 input:30 ui/sysinfo/index.scm:57
 msgid "Used"
 msgstr "Використовується"
@@ -3391,6 +3929,15 @@ msgstr "Користувачі:"
 msgid "Various network services"
 msgstr "Різноманітні мережні сервіси"
 
+#: ui/vm/dummystr.scm:52
+msgid "Version 1 Super Block"
+msgstr "Суперблок версії 1"
+
+#. reiserfs FIXME
+#: ui/vm/dummystr.scm:28
+msgid "Version of mkreiserfs"
+msgstr "Версія mkreiserfs"
+
 #: standard input:12 ui/x11/index.scm:35 input:2
 msgid "Video card:"
 msgstr "Відеокарта:"
@@ -3402,6 +3949,19 @@ msgstr "Переглянути"
 #: standard input:16
 msgid "Virtual hosts"
 msgstr ""
+
+#: ui/vm/dummystr.scm:18
+msgid "Volume Label"
+msgstr "Мітка тому"
+
+#. fat16/32
+#: ui/vm/dummystr.scm:32
+msgid "Volume label"
+msgstr "Мітка тому"
+
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr "Томи"
 
 #: backend3/net-wifi:162
 msgid "WEP Password"
@@ -3419,6 +3979,9 @@ msgstr "Персональний WPA2 (WPA-PSK)"
 msgid "Waiting"
 msgstr ""
 
+#. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
+#.
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
 #.
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -3483,10 +4046,17 @@ msgstr "Доступ для запису"
 msgid "X11 test failed"
 msgstr "Тест X11 невдалий"
 
+#: ui/vm/dummystr.scm:8
+msgid "XFS File System Interface Module"
+msgstr "Файлова система XFS"
+
 #: standard input:1
 msgid "Xinetd server"
 msgstr "xinetd-сервер"
 
+#. #-#-#-#-#  alterator-x11.po (uk)  #-#-#-#-#
+#. messages from C tools
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-x11.po (uk)  #-#-#-#-#
 #. messages from C tools
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -3500,6 +4070,10 @@ msgstr "Так"
 #: ui/notes/license.scm:15 ui/license/index.scm:15
 msgid "Yes, I agree"
 msgstr "Так, я згоден з умовами"
+
+#: ui/vm/lucky.scm:68
+msgid "Yes, i'm warned"
+msgstr ""
 
 #: standard input:15
 msgid ""
@@ -3590,11 +4164,17 @@ msgstr "обчислювання..."
 #. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
 #. '
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. '
 #: backend3/users:83
 msgid "can't create mail spool"
 msgstr "неможливо створити mail spool"
 
+#. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
 #. '
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -3699,6 +4279,10 @@ msgstr ""
 msgid "forward to IP address:"
 msgstr "IP-адреса:"
 
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
+msgstr "потрібно вільного місця:"
+
 #: backend3/updates:73
 msgid "friday"
 msgstr ""
@@ -3727,6 +4311,9 @@ msgstr "графічний"
 #. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
 #. '
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. '
 #: backend3/users:121
 msgid "group name not unique"
@@ -3742,6 +4329,10 @@ msgstr "Додати правило"
 #, fuzzy
 msgid "in desktop-file for service"
 msgstr "вбудована служба"
+
+#: ui/vm/dummystr.scm:88
+msgid "inaccesible or not a directory"
+msgstr ""
 
 #: backend3/pkg-sources:185 backend3/pkg-sources:221 backend3/pkg-sources:171
 #: backend3/pkg-sources:202
@@ -3807,6 +4398,9 @@ msgstr "невірний параметр до аргумента"
 msgid "invalid boolean value"
 msgstr "невірне булеве значення"
 
+#. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
 #. '
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -4003,6 +4597,11 @@ msgstr "користувач не існує"
 #. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
 #. '
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (uk)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  alterator-net-pptp.po (uk)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #. '
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -4074,6 +4673,11 @@ msgstr "неможливо налаштувати час"
 #. Usage string must be provided
 #. (srv usage)
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
+#. #-#-#-#-#  alterator-services.po (uk)  #-#-#-#-#
+#. Get status information: stopped|running|unknown
+#. Usage string must be provided
+#. (srv usage)
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. Get status information: stopped|running|unknown
 #. Usage string must be provided
 #. (srv usage)
@@ -4085,6 +4689,9 @@ msgstr "невідомо"
 msgid "unplugged"
 msgstr "відключено"
 
+#. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
 #. #-#-#-#-#  alterator-users.po (uk)  #-#-#-#-#
 #. '
 #. #-#-#-#-#  uk.po (uk)  #-#-#-#-#
@@ -4112,3 +4719,47 @@ msgstr ""
 #: backend3/mirror:142 backend3/mirror:150 backend3/vsftpd:56
 msgid "yes"
 msgstr "так"
+
+#~ msgid "<NEW>"
+#~ msgstr "<НОВИЙ>"
+
+#~ msgid "Access point"
+#~ msgstr "Точка доступу"
+
+#, fuzzy
+#~ msgid "Advanced.."
+#~ msgstr "Додатково..."
+
+#~ msgid "Boot-as:"
+#~ msgstr "Boot-as:"
+
+#~ msgid "EAP method"
+#~ msgstr "Метод EAP"
+
+#~ msgid "Encryption"
+#~ msgstr "Шифрування"
+
+#~ msgid "Network key"
+#~ msgstr "Ключ мережі"
+
+#~ msgid "Select packages you want to install:"
+#~ msgstr "Виберіть пакунки для встановлення:"
+
+#~ msgid "Set default"
+#~ msgstr "Типово"
+
+#~ msgid "Start, stop or restart xinetd"
+#~ msgstr "Запустити, зупинити або перевантажити xinetd"
+
+#~ msgid "Status"
+#~ msgstr "Статус:"
+
+#~ msgid "User name"
+#~ msgstr "Користувач"
+
+#~ msgid "config file doesn't exist"
+#~ msgstr "конфіґурацію не знайдено"
+
+#, fuzzy
+#~ msgid "firewall"
+#~ msgstr "Увімкнути екран"
