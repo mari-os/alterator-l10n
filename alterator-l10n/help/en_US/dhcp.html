@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <h2>DHCP server</h2>
+
+    <p>DHCP (Dynamic Host Configuration Protocol) - protocol used by client to
+    obtain automatically an IP address from reserved address range and also some useful 
+    information about local network (DNS-server, search domain, default gateway).</p>
+
+    <p>Typically the obtained address is valid for a limited period and can be 
+    later reused for another client.
+    </p>
+
+    <p>Sometimes it is useful to give same IP-address every time client connect to network.
+    In this case server can recognize client using hardware address of network adaptor (MAC address).
+    You can add a such clients to the table with <em>Static addresses</em>.</p>
+
+    <h2>Dynamic DNS</h2>
+
+    <p>DNS (Domain Name System) -  protocol to establish a relationship between human-friendly
+    symbolic names and IP addresses.</p>
+
+    <p>In some distributions you can find a DNS-server in pair with DHCP-server.
+    This server works automatically without any additional configuration and supports DNS-zone with name equal to 
+    the server domain name (see module "Domain"). This server will work only with 
+    statically (not DHCP or Zeroconf) configured network interfaces.
+    </p>
+
+    <p>In this case:
+      <ul>
+        <li>Dynamically allocated address will automatically registered in DNS with name equal to the client computer name</li>
+        <li>Table with static address will automatically mapped to DNS (if computer name was specified)</li>
+        <li>DNS-server and it's domain will automatically sended to all network clients.</li>
+      </ul>
+    </p>
+    <p><strong>Attention:</strong> DNS-server's database will be reset if you change domain name or 
+    change some static IP-address. List of static DHCP addresses will also be removed in this case.
+    </p>
+  </body>
+</html>
