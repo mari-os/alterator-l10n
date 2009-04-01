@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.2
-Release: alt4
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -71,6 +71,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Apr 01 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt5
+- update translations for alterator-fbi
+
 * Wed Apr 01 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt4
 - add English and Russian help for pkg-groups, dhcp
 - add Spanish translations for timezone information
