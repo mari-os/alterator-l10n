@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-25 16:42+0300\n"
+"POT-Creation-Date: 2009-04-01 19:39+0400\n"
 "PO-Revision-Date: 2009-03-19 15:10-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -63,7 +63,7 @@ msgstr "Nombre de la Cuenta:"
 msgid "Add"
 msgstr "Adiccionar"
 
-#: standard input:15
+#: standard input:15 input:43 input:47
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -79,6 +79,11 @@ msgstr "Agosto"
 msgid "Authentication failed"
 msgstr "Atutenticación fracasó"
 
+#: standard input:45
+#, fuzzy
+msgid "Base mode"
+msgstr "modo simples"
+
 #: standard input:17
 msgid "Certificate"
 msgstr "Certificado"
@@ -86,6 +91,21 @@ msgstr "Certificado"
 #: standard input:18
 msgid "Common Name (CN):"
 msgstr "Nombre Comum (CN):"
+
+#: standard input:2
+#, fuzzy
+msgid "Computer shutdown"
+msgstr "Nombre de la Cuenta"
+
+#: standard input:50
+#, fuzzy
+msgid "Configuration"
+msgstr "Información"
+
+#: standard input:39
+#, fuzzy
+msgid "Continue work"
+msgstr "Rede Configurada"
 
 #: standard input:20
 msgid "Country (C):"
@@ -107,9 +127,13 @@ msgstr "Usted realmente desea borrar"
 msgid "Download sign request"
 msgstr "Download de el Requerido"
 
-#: standard input:45
+#: standard input:56
 msgid "Exiting..."
 msgstr ""
+
+#: standard input:46
+msgid "Expert mode"
+msgstr "Modo Avanzado"
 
 #: interfaces/guile/ahttpd/translate.scm:54
 msgid "February"
@@ -127,23 +151,19 @@ msgstr "Fr"
 msgid "General settings"
 msgstr "Configuraciones generales"
 
-#: standard input:1
-msgid "HTTP server"
-msgstr "Servidor HTTP"
-
 #: standard input:6
 msgid "HTTP server is restarting now. Please wait..."
 msgstr ""
 
-#: standard input:2
+#: standard input:3
 msgid "Help"
 msgstr "Ayuda"
 
-#: standard input:41
+#: standard input:52
 msgid "Hide help"
 msgstr "Ayuda Oculta"
 
-#: standard input:39
+#: standard input:49
 msgid "Hostname"
 msgstr "hostname:"
 
@@ -183,7 +203,7 @@ msgstr "Logando:"
 msgid "Login"
 msgstr "Sesión"
 
-#: standard input:42
+#: standard input:53
 msgid "Logout"
 msgstr ""
 
@@ -203,7 +223,7 @@ msgstr "Mo"
 msgid "Module access settings"
 msgstr "Módulo de acceso al configuraciones"
 
-#: standard input:44
+#: standard input:55
 msgid "Module access settings..."
 msgstr "Módulo de acceso a las configuraciones"
 
@@ -251,9 +271,17 @@ msgstr "Por Favor Inicie la sesión"
 msgid "Port:"
 msgstr "Porta:"
 
+#: standard input:41
+msgid "Reboot computer now"
+msgstr ""
+
 #: standard input:28
 msgid "Recreate"
 msgstr "Recrear"
+
+#: standard input:44 input:48
+msgid "Reset"
+msgstr "Resetar"
 
 #: standard input:7
 msgid "Restart HTTP server"
@@ -271,7 +299,7 @@ msgstr "Sa"
 msgid "September"
 msgstr "Septiembre"
 
-#: standard input:40
+#: standard input:51
 msgid "Show help"
 msgstr ""
 
@@ -283,7 +311,7 @@ msgstr "Entrar"
 msgid "Su"
 msgstr "Su"
 
-#: standard input:43
+#: standard input:54
 msgid "System management center"
 msgstr "Centro de gestión del Sistema"
 
@@ -298,6 +326,14 @@ msgstr "Th"
 #: interfaces/guile/ahttpd/translate.scm:46
 msgid "Tu"
 msgstr "Tu"
+
+#: standard input:42
+msgid "Turn off computer every day at:"
+msgstr ""
+
+#: standard input:40
+msgid "Turn off computer now"
+msgstr ""
 
 #: interfaces/guile/workflow/card-index.scm:159
 msgid "Unsupported mode"
@@ -314,6 +350,10 @@ msgstr "Cargar Certificado asinado por:"
 #: interfaces/guile/ahttpd/translate.scm:47
 msgid "We"
 msgstr "Nosotros"
+
+#: standard input:1
+msgid "Web interface"
+msgstr "Interfaz Web"
 
 #: interfaces/guile/workflow/card-index.scm:152
 msgid "Yes"
@@ -335,3 +375,5 @@ msgstr "nada"
 msgid "only digits and latin letters allowed"
 msgstr "apenas digitos en letras"
 
+#~ msgid "HTTP server"
+#~ msgstr "Servidor HTTP"

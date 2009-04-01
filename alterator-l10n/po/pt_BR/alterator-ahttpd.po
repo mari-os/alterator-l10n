@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-26 18:30+0300\n"
+"POT-Creation-Date: 2009-04-01 19:39+0400\n"
 "PO-Revision-Date: 2009-03-28 10:55-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -63,8 +63,7 @@ msgstr "Nome da Conta:"
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:15
-#: input:43
+#: standard input:15 input:43 input:47
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -80,6 +79,11 @@ msgstr "Agosto"
 msgid "Authentication failed"
 msgstr "Autentificação falhou"
 
+#: standard input:45
+#, fuzzy
+msgid "Base mode"
+msgstr "modo simples"
+
 #: standard input:17
 msgid "Certificate"
 msgstr "Certificado"
@@ -87,6 +91,16 @@ msgstr "Certificado"
 #: standard input:18
 msgid "Common Name (CN):"
 msgstr "Nome Comum (CN):"
+
+#: standard input:2
+#, fuzzy
+msgid "Computer shutdown"
+msgstr "Nome do computador"
+
+#: standard input:50
+#, fuzzy
+msgid "Configuration"
+msgstr "Configurações:"
 
 #: standard input:39
 msgid "Continue work"
@@ -112,9 +126,13 @@ msgstr "Você realmente deseja apagar"
 msgid "Download sign request"
 msgstr "Download do Requerido"
 
-#: standard input:51
+#: standard input:56
 msgid "Exiting..."
 msgstr "Saindo..."
+
+#: standard input:46
+msgid "Expert mode"
+msgstr "Modo Avançado"
 
 #: interfaces/guile/ahttpd/translate.scm:54
 msgid "February"
@@ -140,11 +158,11 @@ msgstr "Servidor HTTP está sendo reiniciado agora. Aguarde..."
 msgid "Help"
 msgstr "Ajuda"
 
-#: standard input:47
+#: standard input:52
 msgid "Hide help"
 msgstr "Esconder a ajuda"
 
-#: standard input:45
+#: standard input:49
 msgid "Hostname"
 msgstr "hostname:"
 
@@ -184,7 +202,7 @@ msgstr "Logando:"
 msgid "Login"
 msgstr "Login"
 
-#: standard input:48
+#: standard input:53
 msgid "Logout"
 msgstr "Sair"
 
@@ -204,7 +222,7 @@ msgstr "Mo"
 msgid "Module access settings"
 msgstr "Módulo de acesso nas configurações"
 
-#: standard input:50
+#: standard input:55
 msgid "Module access settings..."
 msgstr "Módulo de acesso nas configurações..."
 
@@ -260,7 +278,7 @@ msgstr "Reiniciar o computador agora"
 msgid "Recreate"
 msgstr "ReCriar"
 
-#: standard input:44
+#: standard input:44 input:48
 msgid "Reset"
 msgstr "Resetar"
 
@@ -280,13 +298,9 @@ msgstr "Sa"
 msgid "September"
 msgstr "Setembro"
 
-#: standard input:46
+#: standard input:51
 msgid "Show help"
 msgstr "Ver ajuda"
-
-#: standard input:2
-msgid "Shutdown computer"
-msgstr "Desligar computador"
 
 #: standard input:30
 msgid "Sign"
@@ -296,7 +310,7 @@ msgstr "Entrar"
 msgid "Su"
 msgstr "Su"
 
-#: standard input:49
+#: standard input:54
 msgid "System management center"
 msgstr "Centro de Configuração do sistema"
 
@@ -360,3 +374,5 @@ msgstr "nada"
 msgid "only digits and latin letters allowed"
 msgstr "apenas digitos em letras"
 
+#~ msgid "Shutdown computer"
+#~ msgstr "Desligar computador"
