@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.2
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Apr 03 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.2-alt6
+- add translations for alterator-quota
+
 * Wed Apr 01 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt5
 - update translations for alterator-fbi
 
