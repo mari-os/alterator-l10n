@@ -1,8 +1,6 @@
 PO_LOCALEDIR=$(datadir)/locale
 
-install: install-po install-tzone-po install-country-po
-	install -d $(datadir)/alterator/help
-	cp -a help/* $(datadir)/alterator/help
+install: install-po install-tzone-po install-country-po install-help install-l10n
 
 check:
 	for i in $(wildcard po/*/*.po);do \
@@ -38,3 +36,11 @@ install-po:
 		msgfmt -o "$(PO_LOCALEDIR)/$$lang/LC_MESSAGES/$$name.mo" "$$j" || exit 1; \
 	    done ; \
 	done
+
+install-help:
+	install -d $(datadir)/alterator/help
+	cp -a help/* $(datadir)/alterator/help
+
+install-l10n:
+	install -dpm755 $(sysconfdir)/alterator
+	cp -a l10n $(sysconfdir)/alterator
