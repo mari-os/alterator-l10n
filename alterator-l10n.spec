@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.2
-Release: alt8
+Release: alt9
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Apr 08 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.2-alt9
+- update translations for alterator-netinst
+
 * Wed Apr 08 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.2-alt8
 - update help for alterator-xinetd (server reloading is not needed)
 - update help for alterator-dovecot (server reloading is not needed)
