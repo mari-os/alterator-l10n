@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.2
-Release: alt7
+Release: alt8
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,12 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Apr 08 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.2-alt8
+- update help for alterator-xinetd (server reloading is not needed)
+- update help for alterator-dovecot (server reloading is not needed)
+- update help for alterator-dovecot (disable_plaintext_auth)
+- update translations for alterator-dovecot (disable_plaintext_auth)
+
 * Tue Apr 07 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt7
 - update translations for alterator-office-server
 
