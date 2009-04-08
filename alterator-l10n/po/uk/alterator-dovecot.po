@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-28 11:52+0300\n"
+"POT-Creation-Date: 2009-04-08 15:21+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,43 +16,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:4 ui/dovecot/index.scm:45
+#: standard input:3 ui/dovecot/index.scm:47
 msgid "(you can't disable all mechanisms)"
 msgstr "(неможна вимкнути всі механізми)"
 
-#: backend3/dovecot:37
+#: backend3/dovecot:45
 msgid "ANONYMOUS"
 msgstr ""
 
-#: standard input:5 ui/dovecot/index.scm:52
+#: standard input:4 ui/dovecot/index.scm:54
+msgid "Allow plaintext authentification only on secure connections"
+msgstr ""
+
+#: standard input:5 ui/dovecot/index.scm:59
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:3 ui/dovecot/index.scm:37
+#: standard input:2 ui/dovecot/index.scm:39
 msgid "Auth mechanisms:"
 msgstr "Механізми аутентифікації:"
 
-#: backend3/dovecot:31
+#: backend3/dovecot:39
 msgid "IMAP4"
 msgstr ""
 
-#: backend3/dovecot:32
+#: backend3/dovecot:40
 msgid "IMAP4 over TLS/SSL"
 msgstr "IMAP4 через TLS/SSL"
 
-#: backend3/dovecot:36
+#: backend3/dovecot:44
 msgid "LOGIN"
 msgstr ""
 
-#: backend3/dovecot:35
+#: backend3/dovecot:43
 msgid "PLAIN"
 msgstr ""
 
-#: backend3/dovecot:29
+#: backend3/dovecot:37
 msgid "POP3"
 msgstr ""
 
-#: backend3/dovecot:30
+#: backend3/dovecot:38
 msgid "POP3 over TLS/SSL"
 msgstr "POP3 через TLS/SSL"
 
@@ -60,14 +64,13 @@ msgstr "POP3 через TLS/SSL"
 msgid "POP3/IMAP server"
 msgstr "POP3/IMAP-сервер"
 
-#: standard input:6 ui/dovecot/index.scm:53
+#: standard input:6 ui/dovecot/index.scm:60
 msgid "Reset"
 msgstr "Скинути"
 
-#: standard input:1
-msgid "Start, stop or restart service..."
-msgstr "Запустити, зупинити або перевантажити службу..."
-
-#: standard input:2 ui/dovecot/index.scm:29
+#: standard input:1 ui/dovecot/index.scm:31
 msgid "Supported protocols:"
 msgstr "Протоколи, що підтримуються:"
+
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "Запустити, зупинити або перевантажити службу..."

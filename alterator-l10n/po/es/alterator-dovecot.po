@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-28 11:52+0300\n"
+"POT-Creation-Date: 2009-04-08 15:21+0400\n"
 "PO-Revision-Date: 2009-03-19 16:40-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,46 +19,47 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:4
-#: ui/dovecot/index.scm:45
+#: standard input:3 ui/dovecot/index.scm:47
 msgid "(you can't disable all mechanisms)"
 msgstr "(usted no puede desabilitar todos todos los mecanismos)"
 
-#: backend3/dovecot:37
+#: backend3/dovecot:45
 msgid "ANONYMOUS"
 msgstr "Anónimo"
 
-#: standard input:5
-#: ui/dovecot/index.scm:52
+#: standard input:4 ui/dovecot/index.scm:54
+msgid "Allow plaintext authentification only on secure connections"
+msgstr ""
+
+#: standard input:5 ui/dovecot/index.scm:59
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:3
-#: ui/dovecot/index.scm:37
+#: standard input:2 ui/dovecot/index.scm:39
 msgid "Auth mechanisms:"
 msgstr "Mecanismo de Autentificación:"
 
-#: backend3/dovecot:31
+#: backend3/dovecot:39
 msgid "IMAP4"
 msgstr "IMAP4"
 
-#: backend3/dovecot:32
+#: backend3/dovecot:40
 msgid "IMAP4 over TLS/SSL"
 msgstr "IMAP4 sobre TLS/SSL"
 
-#: backend3/dovecot:36
+#: backend3/dovecot:44
 msgid "LOGIN"
 msgstr "LOGIN"
 
-#: backend3/dovecot:35
+#: backend3/dovecot:43
 msgid "PLAIN"
 msgstr "PLANO"
 
-#: backend3/dovecot:29
+#: backend3/dovecot:37
 msgid "POP3"
 msgstr "POP3"
 
-#: backend3/dovecot:30
+#: backend3/dovecot:38
 msgid "POP3 over TLS/SSL"
 msgstr "POP3 sobre TLS/SSL"
 
@@ -66,17 +67,13 @@ msgstr "POP3 sobre TLS/SSL"
 msgid "POP3/IMAP server"
 msgstr "Servidor POP3/IMAP"
 
-#: standard input:6
-#: ui/dovecot/index.scm:53
+#: standard input:6 ui/dovecot/index.scm:60
 msgid "Reset"
 msgstr "Restar"
 
-#: standard input:1
-msgid "Start, stop or restart service..."
-msgstr "Iniciar, parar o resetar el servicio..."
-
-#: standard input:2
-#: ui/dovecot/index.scm:29
+#: standard input:1 ui/dovecot/index.scm:31
 msgid "Supported protocols:"
 msgstr "Protocolos Suportados"
 
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "Iniciar, parar o resetar el servicio..."
