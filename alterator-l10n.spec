@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.2
-Release: alt11
+Release: alt12
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Apr 14 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt12
+- update pt_BR translations (closes: #19574)
+
 * Tue Apr 14 2009 Alexey I. Froloff <raorn@altlinux.org> 2.2-alt11
 - alterator-distro-office-server
 
