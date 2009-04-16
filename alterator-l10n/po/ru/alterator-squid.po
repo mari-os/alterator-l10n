@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-16 15:48+0400\n"
-"PO-Revision-Date: 2008-09-01 18:01+0400\n"
+"PO-Revision-Date: 2009-04-16 16:11+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "MIME-Version: 1.0\n"
@@ -20,121 +20,103 @@ msgstr ""
 
 #: standard input:8
 msgid "(Domain suffix, begins with a dot)"
-msgstr ""
+msgstr "(доменный суффикс, начиная с точки)"
 
 #: standard input:42
-#, fuzzy
 msgid "(IP address mask)"
-msgstr "IP-адрес"
+msgstr "(IP-маска)"
 
 #: standard input:40
-#, fuzzy
 msgid "(IP address)"
-msgstr "IP-адрес"
+msgstr "(IP-адрес)"
 
 #: standard input:29 input:51 input:53
-#, fuzzy
 msgid "(port number)"
-msgstr "(должно быть числом)"
+msgstr "(номер порта)"
 
 #: standard input:15
-#, fuzzy
 msgid "Access management"
-msgstr "Управление пользователями системы"
+msgstr "Управление доступом"
 
 #: standard input:17
 msgid "Add"
 msgstr "Добавить"
 
 #: standard input:19
-#, fuzzy
 msgid "Add domain"
-msgstr "Домен"
+msgstr "Добавить домен"
 
 #: standard input:41
-#, fuzzy
 msgid "Address mask:"
-msgstr "MAC-адрес:"
+msgstr "Адресная маска:"
 
 #: standard input:10 input:22 input:31 input:44 input:56
 msgid "Apply"
 msgstr "Применить"
 
 #: standard input:5 input:14 input:25 input:48 input:60
-#, fuzzy
 msgid "Back"
-msgstr "Резервное копирование"
+msgstr "Назад"
 
 #: standard input:9 input:43 input:55
 msgid "Comment:"
 msgstr "Комментарий:"
 
 #: standard input:4 input:37
-#, fuzzy
 msgid "Commit"
-msgstr "Комментарий:"
+msgstr "Обновить конфигурацию"
 
 #: standard input:3
 msgid "Configuration backup files are saved in "
-msgstr ""
+msgstr "Резервные копии конфигурационных файлов сохраняются в "
 
 #: standard input:54
-#, fuzzy
 msgid "Connection method:"
-msgstr "соединение установлено"
+msgstr "Способ соединения:"
 
 #: standard input:12 input:24 input:46 input:58
 msgid "Delete"
 msgstr "Удалить"
 
 #: standard input:20
-#, fuzzy
 msgid "Delete domain"
-msgstr "Назначьте домен:"
+msgstr "Удалить домен"
 
 #: standard input:21
-#, fuzzy
 msgid "Deny selected domains"
-msgstr "Назначьте домен:"
+msgstr "Запретить доступ в выбранные домены"
 
 #: standard input:6
-#, fuzzy
 msgid "Destination domains"
-msgstr "Порт получателя"
+msgstr "Целевые домены"
 
 #: standard input:18
-#, fuzzy
 msgid "Domain access"
-msgstr "Доступ на запись"
+msgstr "Доступ к доменам"
 
 #: standard input:35
-#, fuzzy
 msgid "Domains"
-msgstr "Домен"
+msgstr "Домены"
 
 #: standard input:2
-#, fuzzy
 msgid "Enable proxy-server service"
-msgstr "Включить сервис"
+msgstr "Включить сервис прокси-сервера"
 
 #: standard input:50
-#, fuzzy
 msgid "From port:"
-msgstr "порт:"
+msgstr "C порта:"
 
 #: standard input:36
 msgid "Groups"
 msgstr "Группы"
 
 #: standard input:39
-#, fuzzy
 msgid "IP-address:"
 msgstr "IP-адрес:"
 
 #: standard input:38
-#, fuzzy
 msgid "Internal networks"
-msgstr "Другая сеть"
+msgstr "Внутренние сети"
 
 #: interfaces/guile/backend/squid.scm:51
 msgid "Kerberos"
@@ -142,44 +124,39 @@ msgstr ""
 
 #: standard input:1
 msgid "Last update of the proxy-server configuration:"
-msgstr ""
+msgstr "Последнее обновление конфигурации прокси-сервера:"
 
 #: standard input:34
-#, fuzzy
 msgid "Networks"
-msgstr "Сеть"
+msgstr "Сети"
 
 #: standard input:13 input:47 input:59
-#, fuzzy
 msgid "New"
-msgstr "Сеть"
+msgstr "Новая"
 
 #: interfaces/guile/backend/squid.scm:50
-#, fuzzy
 msgid "No authentication"
-msgstr "Аутентификация"
+msgstr "Без аутентификации"
 
 #: interfaces/guile/backend/squid.scm:48
 msgid "Normal"
-msgstr ""
+msgstr "Обычный"
 
 #: interfaces/guile/backend/squid.scm:54
 msgid "Passthrough"
-msgstr ""
+msgstr "Сквозной"
 
 #: standard input:33
-#, fuzzy
 msgid "Ports"
-msgstr "Порт:"
+msgstr "Порты"
 
 #: interfaces/guile/backend/squid.scm:53
 msgid "Proxy"
-msgstr ""
+msgstr "Прокси"
 
 #: standard input:28
-#, fuzzy
 msgid "Proxy port:"
-msgstr "Прокси-сервер:"
+msgstr "Порт прокси-сервера:"
 
 #: standard input:1
 msgid "Proxy server"
@@ -187,162 +164,57 @@ msgstr "Прокси-сервер"
 
 #: standard input:49
 msgid "Registered ports"
-msgstr ""
+msgstr "Известные порты"
 
 #: standard input:11 input:23 input:32 input:45 input:57
-#, fuzzy
 msgid "Reset"
-msgstr ""
-"#-#-#-#-#  alterator-ahttpd.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-alternatives.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-auth.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-datetime.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-dhcp.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-dovecot.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-groups.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-lilo.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-mirror.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-domain.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-iptables.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-wifi.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-samba.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-services.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-spamassassin.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-ulogd.po (alterator-ulogd 0.1)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-updates.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-vm.po (alterator-vm 0.3)  #-#-#-#-#\n"
-"Сброс\n"
-"#-#-#-#-#  alterator-vsftpd.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-x11.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-xinetd.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-xkb.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
-"Вернуть"
+msgstr "Вернуть"
 
 #: standard input:27
-#, fuzzy
 msgid "Select authentication mode:"
-msgstr "Выберите метод установки"
+msgstr "Выберите способ аутентфикации:"
 
 #: standard input:30
-#, fuzzy
 msgid "Select internal interfaces:"
-msgstr "Выберете внешние интерфейсы:"
+msgstr "Выберете внутренние интерфейсы:"
 
 #: standard input:26
-#, fuzzy
 msgid "Select proxying mode:"
-msgstr "Выберите режим работы:"
+msgstr "Выберите режим проксирования:"
 
 #: standard input:7
 msgid "Suffix:"
-msgstr ""
+msgstr "Суффикс:"
 
 #: standard input:52
-#, fuzzy
 msgid "To port:"
-msgstr "порт:"
+msgstr "До порта:"
 
 #: interfaces/guile/backend/squid.scm:47
-#, fuzzy
 msgid "Transparent"
-msgstr "SMTP-транспорт:"
+msgstr "Прозрачный"
 
 #: standard input:16
-#, fuzzy
 msgid "User groups"
-msgstr "Добавить группу:"
+msgstr "Группы пользователей"
 
 #: interfaces/guile/type/domain-suffix.scm:14
-msgid ""
-"a number of names each starting with a dot (only small latin letters and '-' "
-"symbol allowed)"
-msgstr ""
+msgid "a number of names each starting with a dot (only small latin letters and '-' symbol are allowed)"
+msgstr "несколько имён, начинающихся с точки (только маленькие латинские буквы и символ '-')"
 
 #: backend3/squid-commit:41
 msgid "in progress..."
-msgstr ""
+msgstr "в процессе..."
 
 #: backend3/squid-commit:47
 msgid "manually updated"
-msgstr ""
+msgstr "обновлена вручную"
 
 #: backend3/squid-commit:69
 msgid "never"
-msgstr ""
+msgstr "никогда"
 
 #: backend3/squid-commit:61 backend3/squid-commit:65
 msgid "unknown"
 msgstr "неизвестно"
 
-#~ msgid "(TCP port for server to listen to)"
-#~ msgstr "(TCP порт на котором сервер принимает соединения)"
-
-#~ msgid "(leave this field empty for listening to all interfaces)"
-#~ msgstr "(оставьте это поле пустым для работы на всех интерфейсах)"
-
-#~ msgid "(quick access to usual network resources)"
-#~ msgstr "(быстрый доступ к сетевым ресурсам)"
-
-#~ msgid "(user visible contact information)"
-#~ msgstr "(контактная информация видимая пользователями)"
-
-#~ msgid "Add network"
-#~ msgstr "Добавить сеть"
-
-#~ msgid "Add site"
-#~ msgstr "Добавить сайт"
-
-#~ msgid "Administrator e-mail:"
-#~ msgstr "E-Mail администратора:"
-
-#~ msgid "Allowed client networks:"
-#~ msgstr "Разрешённые сети:"
-
-#~ msgid "Blocked sites:"
-#~ msgstr "Заблокированные сайты:"
-
-#~ msgid "General settings"
-#~ msgstr "Общие настройки"
-
-#~ msgid "Listen address:"
-#~ msgstr "Адрес:"
-
-#~ msgid "Restrictions"
-#~ msgstr "Ограничения"
-
-#~ msgid "Same entry already exists"
-#~ msgstr "Подобный элемент уже существует"
-
-#~ msgid "Search domain:"
-#~ msgstr "Домен поиска:"
-
-#~ msgid "Start, stop or restart service..."
-#~ msgstr "Запустить, остановить или перезапустить службу..."
