@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 16:38+0300\n"
+"POT-Creation-Date: 2009-04-16 15:48+0400\n"
 "PO-Revision-Date: 2009-03-27 20:53-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,80 +19,273 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:4
-msgid "(TCP port for server to listen to)"
-msgstr "(Porta TCP para el servidor)"
-
-#: standard input:6
-msgid "(leave this field empty for listening to all interfaces)"
-msgstr "(deje ese espacio en blanco para listar todas las interfaces)"
-
-#: standard input:10
-msgid "(quick access to usual network resources)"
-msgstr "(acesso aos recursos de Radio Red)"
-
 #: standard input:8
-msgid "(user visible contact information)"
-msgstr "(informaciones de contacto visivel)"
+msgid "(Domain suffix, begins with a dot)"
+msgstr ""
+
+#: standard input:42
+#, fuzzy
+msgid "(IP address mask)"
+msgstr "Dirección IP"
+
+#: standard input:40
+#, fuzzy
+msgid "(IP address)"
+msgstr "Dirección IP"
+
+#: standard input:29 input:51 input:53
+#, fuzzy
+msgid "(port number)"
+msgstr "deve ser un número"
 
 #: standard input:15
-msgid "Add network"
-msgstr "Adiccionar Red"
+#, fuzzy
+msgid "Access management"
+msgstr "Administração de Usuário"
 
-#: standard input:18
-msgid "Add site"
-msgstr "Adiccionar Sitio"
+#: standard input:17
+msgid "Add"
+msgstr "Adiccionar"
 
-#: standard input:7
-msgid "Administrator e-mail:"
-msgstr "Administrador E-mail:"
+#: standard input:19
+#, fuzzy
+msgid "Add domain"
+msgstr "Adiccionar Cliente"
 
-#: standard input:13
-msgid "Allowed client networks:"
-msgstr "Redes permitidas:"
+#: standard input:41
+#, fuzzy
+msgid "Address mask:"
+msgstr "Dirección MAC:"
 
-#: standard input:11
+#: standard input:10 input:22 input:31 input:44 input:56
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:16
-msgid "Blocked sites:"
-msgstr "Sitios bloqueados:"
+#: standard input:5 input:14 input:25 input:48 input:60
+msgid "Back"
+msgstr ""
 
-#: standard input:14
-#: input:17
+#: standard input:9 input:43 input:55
+msgid "Comment:"
+msgstr "Comentários:"
+
+#: standard input:4 input:37
+#, fuzzy
+msgid "Commit"
+msgstr "Comentários:"
+
+#: standard input:3
+msgid "Configuration backup files are saved in "
+msgstr ""
+
+#: standard input:54
+#, fuzzy
+msgid "Connection method:"
+msgstr "Conección establecida"
+
+#: standard input:12 input:24 input:46 input:58
 msgid "Delete"
 msgstr "Borrar"
 
+#: standard input:20
+#, fuzzy
+msgid "Delete domain"
+msgstr "Borrar conección"
+
+#: standard input:21
+msgid "Deny selected domains"
+msgstr ""
+
+#: standard input:6
+#, fuzzy
+msgid "Destination domains"
+msgstr "Destino"
+
+#: standard input:18
+#, fuzzy
+msgid "Domain access"
+msgstr "Accesso de Escrita"
+
+#: standard input:35
+msgid "Domains"
+msgstr ""
+
 #: standard input:2
-msgid "General settings"
-msgstr "Configuraciones generales"
+#, fuzzy
+msgid "Enable proxy-server service"
+msgstr "Posibilitar servicio"
 
-#: standard input:5
-msgid "Listen address:"
-msgstr "Escuchar la dirección:"
+#: standard input:50
+#, fuzzy
+msgid "From port:"
+msgstr "porta:"
 
-#: standard input:3
-msgid "Port:"
+#: standard input:36
+msgid "Groups"
+msgstr "Grupos"
+
+#: standard input:39
+#, fuzzy
+msgid "IP-address:"
+msgstr "Dirección IP:"
+
+#: standard input:38
+#, fuzzy
+msgid "Internal networks"
+msgstr "Otra rede"
+
+#: interfaces/guile/backend/squid.scm:51
+msgid "Kerberos"
+msgstr ""
+
+#: standard input:1
+msgid "Last update of the proxy-server configuration:"
+msgstr ""
+
+#: standard input:34
+#, fuzzy
+msgid "Networks"
+msgstr "Rede"
+
+#: standard input:13 input:47 input:59
+#, fuzzy
+msgid "New"
+msgstr "Rede"
+
+#: interfaces/guile/backend/squid.scm:50
+#, fuzzy
+msgid "No authentication"
+msgstr "Autenticación (SASL)"
+
+#: interfaces/guile/backend/squid.scm:48
+msgid "Normal"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:54
+msgid "Passthrough"
+msgstr ""
+
+#: standard input:33
+#, fuzzy
+msgid "Ports"
+msgstr "Porta:"
+
+#: interfaces/guile/backend/squid.scm:53
+msgid "Proxy"
+msgstr ""
+
+#: standard input:28
+#, fuzzy
+msgid "Proxy port:"
 msgstr "Porta:"
 
 #: standard input:1
 msgid "Proxy server"
 msgstr "Servidor Proxy"
 
-#: standard input:12
-msgid "Restrictions"
-msgstr "Restriciones"
-
-#: backend3/squid:118
-#: backend3/squid:126
-msgid "Same entry already exists"
-msgstr "Misma entrada ya existe"
-
-#: standard input:9
-msgid "Search domain:"
+#: standard input:49
+msgid "Registered ports"
 msgstr ""
 
-#: standard input:1
-msgid "Start, stop or restart service..."
-msgstr "Iniciar, parar o resetar el servicio..."
+#: standard input:11 input:23 input:32 input:45 input:57
+msgid "Reset"
+msgstr "Resetar"
+
+#: standard input:27
+#, fuzzy
+msgid "Select authentication mode:"
+msgstr "Seleccionar modo adelante:"
+
+#: standard input:30
+#, fuzzy
+msgid "Select internal interfaces:"
+msgstr "Seleccionar interfazes externas:"
+
+#: standard input:26
+#, fuzzy
+msgid "Select proxying mode:"
+msgstr "Seleccionar modo adelante:"
+
+#: standard input:7
+msgid "Suffix:"
+msgstr ""
+
+#: standard input:52
+#, fuzzy
+msgid "To port:"
+msgstr "porta:"
+
+#: interfaces/guile/backend/squid.scm:47
+#, fuzzy
+msgid "Transparent"
+msgstr "transport SMTP:"
+
+#: standard input:16
+#, fuzzy
+msgid "User groups"
+msgstr "Nuevo grupo:"
+
+#: interfaces/guile/type/domain-suffix.scm:14
+msgid ""
+"a number of names each starting with a dot (only small latin letters and '-' "
+"symbol allowed)"
+msgstr ""
+
+#: backend3/squid-commit:41
+#, fuzzy
+msgid "in progress..."
+msgstr "Download in progreso"
+
+#: backend3/squid-commit:47
+msgid "manually updated"
+msgstr ""
+
+#: backend3/squid-commit:69
+msgid "never"
+msgstr ""
+
+#: backend3/squid-commit:61 backend3/squid-commit:65
+msgid "unknown"
+msgstr "desconocido"
+
+#~ msgid "(TCP port for server to listen to)"
+#~ msgstr "(Porta TCP para el servidor)"
+
+#~ msgid "(leave this field empty for listening to all interfaces)"
+#~ msgstr "(deje ese espacio en blanco para listar todas las interfaces)"
+
+#~ msgid "(quick access to usual network resources)"
+#~ msgstr "(acesso aos recursos de Radio Red)"
+
+#~ msgid "(user visible contact information)"
+#~ msgstr "(informaciones de contacto visivel)"
+
+#~ msgid "Add network"
+#~ msgstr "Adiccionar Red"
+
+#~ msgid "Add site"
+#~ msgstr "Adiccionar Sitio"
+
+#~ msgid "Administrator e-mail:"
+#~ msgstr "Administrador E-mail:"
+
+#~ msgid "Allowed client networks:"
+#~ msgstr "Redes permitidas:"
+
+#~ msgid "Blocked sites:"
+#~ msgstr "Sitios bloqueados:"
+
+#~ msgid "General settings"
+#~ msgstr "Configuraciones generales"
+
+#~ msgid "Listen address:"
+#~ msgstr "Escuchar la dirección:"
+
+#~ msgid "Restrictions"
+#~ msgstr "Restriciones"
+
+#~ msgid "Same entry already exists"
+#~ msgstr "Misma entrada ya existe"
+
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "Iniciar, parar o resetar el servicio..."

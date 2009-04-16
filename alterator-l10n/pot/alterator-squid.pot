@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"POT-Creation-Date: 2009-04-16 15:48+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,78 +16,204 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: standard input:4
-msgid "(TCP port for server to listen to)"
-msgstr ""
-
-#: standard input:6
-msgid "(leave this field empty for listening to all interfaces)"
-msgstr ""
-
-#: standard input:10
-msgid "(quick access to usual network resources)"
-msgstr ""
-
-#: standard input:8
-msgid "(user visible contact information)"
-msgstr ""
-
-#: standard input:15
-msgid "Add network"
-msgstr ""
-
-#: standard input:18
-msgid "Add site"
-msgstr ""
-
-#: standard input:7
-msgid "Administrator e-mail:"
-msgstr ""
-
-#: standard input:13
-msgid "Allowed client networks:"
-msgstr ""
-
-#: standard input:11
-msgid "Apply"
-msgstr ""
-
-#: standard input:16
-msgid "Blocked sites:"
-msgstr ""
-
-#: standard input:14 input:17
-msgid "Delete"
-msgstr ""
-
-#: standard input:2
-msgid "General settings"
-msgstr ""
-
-#: standard input:5
-msgid "Listen address:"
-msgstr ""
-
-#: standard input:3
-msgid "Port:"
-msgstr ""
-
 #: standard input:1
 msgid "Proxy server"
 msgstr ""
 
-#: standard input:12
-msgid "Restrictions"
-msgstr ""
-
-#: backend3/squid:118 backend3/squid:126
-msgid "Same entry already exists"
-msgstr ""
-
-#: standard input:9
-msgid "Search domain:"
-msgstr ""
-
 #: standard input:1
-msgid "Start, stop or restart service..."
+msgid "Last update of the proxy-server configuration:"
+msgstr ""
+
+#: standard input:2
+msgid "Enable proxy-server service"
+msgstr ""
+
+#: standard input:3
+msgid "Configuration backup files are saved in "
+msgstr ""
+
+#: standard input:4 input:37
+msgid "Commit"
+msgstr ""
+
+#: standard input:5 input:14 input:25 input:48 input:60
+msgid "Back"
+msgstr ""
+
+#: standard input:6
+msgid "Destination domains"
+msgstr ""
+
+#: standard input:7
+msgid "Suffix:"
+msgstr ""
+
+#: standard input:8
+msgid "(Domain suffix, begins with a dot)"
+msgstr ""
+
+#: standard input:9 input:43 input:55
+msgid "Comment:"
+msgstr ""
+
+#: standard input:10 input:22 input:31 input:44 input:56
+msgid "Apply"
+msgstr ""
+
+#: standard input:11 input:23 input:32 input:45 input:57
+msgid "Reset"
+msgstr ""
+
+#: standard input:12 input:24 input:46 input:58
+msgid "Delete"
+msgstr ""
+
+#: standard input:13 input:47 input:59
+msgid "New"
+msgstr ""
+
+#: standard input:15
+msgid "Access management"
+msgstr ""
+
+#: standard input:16
+msgid "User groups"
+msgstr ""
+
+#: standard input:17
+msgid "Add"
+msgstr ""
+
+#: standard input:18
+msgid "Domain access"
+msgstr ""
+
+#: standard input:19
+msgid "Add domain"
+msgstr ""
+
+#: standard input:20
+msgid "Delete domain"
+msgstr ""
+
+#: standard input:21
+msgid "Deny selected domains"
+msgstr ""
+
+#: standard input:26
+msgid "Select proxying mode:"
+msgstr ""
+
+#: standard input:27
+msgid "Select authentication mode:"
+msgstr ""
+
+#: standard input:28
+msgid "Proxy port:"
+msgstr ""
+
+#: standard input:29 input:51 input:53
+msgid "(port number)"
+msgstr ""
+
+#: standard input:30
+msgid "Select internal interfaces:"
+msgstr ""
+
+#: standard input:33
+msgid "Ports"
+msgstr ""
+
+#: standard input:34
+msgid "Networks"
+msgstr ""
+
+#: standard input:35
+msgid "Domains"
+msgstr ""
+
+#: standard input:36
+msgid "Groups"
+msgstr ""
+
+#: standard input:38
+msgid "Internal networks"
+msgstr ""
+
+#: standard input:39
+msgid "IP-address:"
+msgstr ""
+
+#: standard input:40
+msgid "(IP address)"
+msgstr ""
+
+#: standard input:41
+msgid "Address mask:"
+msgstr ""
+
+#: standard input:42
+msgid "(IP address mask)"
+msgstr ""
+
+#: standard input:49
+msgid "Registered ports"
+msgstr ""
+
+#: standard input:50
+msgid "From port:"
+msgstr ""
+
+#: standard input:52
+msgid "To port:"
+msgstr ""
+
+#: standard input:54
+msgid "Connection method:"
+msgstr ""
+
+#: interfaces/guile/type/domain-suffix.scm:14
+msgid ""
+"a number of names each starting with a dot (only small latin letters and '-' "
+"symbol allowed)"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:47
+msgid "Transparent"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:48
+msgid "Normal"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:50
+msgid "No authentication"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:51
+msgid "Kerberos"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:53
+msgid "Proxy"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:54
+msgid "Passthrough"
+msgstr ""
+
+#: backend3/squid-commit:41
+msgid "in progress..."
+msgstr ""
+
+#: backend3/squid-commit:47
+msgid "manually updated"
+msgstr ""
+
+#: backend3/squid-commit:61 backend3/squid-commit:65
+msgid "unknown"
+msgstr ""
+
+#: backend3/squid-commit:69
+msgid "never"
 msgstr ""

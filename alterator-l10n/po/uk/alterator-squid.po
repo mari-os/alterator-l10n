@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 16:38+0300\n"
+"POT-Creation-Date: 2009-04-16 15:48+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,91 +16,277 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:4
-msgid "(TCP port for server to listen to)"
-msgstr "(TCP-порт, який має слухати сервер)"
-
-#: standard input:6
-#, fuzzy
-msgid "(leave this field empty for listening to all interfaces)"
-msgstr ""
-"(IP-адреса, на якій сервер приймає з'єднання або '*' для обслуговування усіх "
-"інтерфейсів)"
-
-#: standard input:10
-msgid "(quick access to usual network resources)"
-msgstr ""
-
 #: standard input:8
-msgid "(user visible contact information)"
+msgid "(Domain suffix, begins with a dot)"
 msgstr ""
+
+#: standard input:42
+#, fuzzy
+msgid "(IP address mask)"
+msgstr "IP-адреса"
+
+#: standard input:40
+#, fuzzy
+msgid "(IP address)"
+msgstr "IP-адреса"
+
+#: standard input:29 input:51 input:53
+#, fuzzy
+msgid "(port number)"
+msgstr "має бути число"
 
 #: standard input:15
 #, fuzzy
-msgid "Add network"
-msgstr "Інша мережа"
+msgid "Access management"
+msgstr "Керування системними користувачами"
 
-#: standard input:18
+#: standard input:17
+msgid "Add"
+msgstr "Додати"
+
+#: standard input:19
 #, fuzzy
-msgid "Add site"
+msgid "Add domain"
 msgstr "Новий користувач:"
 
-#: standard input:7
-msgid "Administrator e-mail:"
-msgstr ""
-
-#: standard input:13
+#: standard input:41
 #, fuzzy
-msgid "Allowed client networks:"
-msgstr "Дозволені з'єднання на вході"
+msgid "Address mask:"
+msgstr "за MAC-адресою"
 
-#: standard input:11
+#: standard input:10 input:22 input:31 input:44 input:56
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:16
-msgid "Blocked sites:"
+#: standard input:5 input:14 input:25 input:48 input:60
+msgid "Back"
 msgstr ""
 
-#: standard input:14 input:17
+#: standard input:9 input:43 input:55
+msgid "Comment:"
+msgstr "Коментар:"
+
+#: standard input:4 input:37
+#, fuzzy
+msgid "Commit"
+msgstr "Коментар:"
+
+#: standard input:3
+msgid "Configuration backup files are saved in "
+msgstr ""
+
+#: standard input:54
+#, fuzzy
+msgid "Connection method:"
+msgstr "з'єднання встановлене"
+
+#: standard input:12 input:24 input:46 input:58
 msgid "Delete"
 msgstr "Видалити"
 
-#: standard input:2
-msgid "General settings"
-msgstr "Загальні параметри"
+#: standard input:20
+#, fuzzy
+msgid "Delete domain"
+msgstr "Шукати у доменах:"
 
-#: standard input:5
-msgid "Listen address:"
+#: standard input:21
+#, fuzzy
+msgid "Deny selected domains"
+msgstr "Шукати у доменах:"
+
+#: standard input:6
+#, fuzzy
+msgid "Destination domains"
+msgstr "невірна IP-адреса"
+
+#: standard input:18
+#, fuzzy
+msgid "Domain access"
+msgstr "Доступ для запису"
+
+#: standard input:35
+msgid "Domains"
+msgstr ""
+
+#: standard input:2
+#, fuzzy
+msgid "Enable proxy-server service"
+msgstr "Увімкнути службу"
+
+#: standard input:50
+#, fuzzy
+msgid "From port:"
+msgstr "Порт:"
+
+#: standard input:36
+msgid "Groups"
+msgstr "Групи"
+
+#: standard input:39
+#, fuzzy
+msgid "IP-address:"
 msgstr "IP-адреса:"
 
-#: standard input:3
-msgid "Port:"
+#: standard input:38
+#, fuzzy
+msgid "Internal networks"
+msgstr "Інша мережа"
+
+#: interfaces/guile/backend/squid.scm:51
+msgid "Kerberos"
+msgstr ""
+
+#: standard input:1
+msgid "Last update of the proxy-server configuration:"
+msgstr ""
+
+#: standard input:34
+#, fuzzy
+msgid "Networks"
+msgstr "Мережа"
+
+#: standard input:13 input:47 input:59
+#, fuzzy
+msgid "New"
+msgstr "Мережа"
+
+#: interfaces/guile/backend/squid.scm:50
+#, fuzzy
+msgid "No authentication"
+msgstr "Аутентифікація"
+
+#: interfaces/guile/backend/squid.scm:48
+msgid "Normal"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:54
+msgid "Passthrough"
+msgstr ""
+
+#: standard input:33
+#, fuzzy
+msgid "Ports"
 msgstr "Порт:"
+
+#: interfaces/guile/backend/squid.scm:53
+msgid "Proxy"
+msgstr ""
+
+#: standard input:28
+#, fuzzy
+msgid "Proxy port:"
+msgstr "Проксі-сервер"
 
 #: standard input:1
 msgid "Proxy server"
 msgstr "Проксі-сервер"
 
-#: standard input:12
-#, fuzzy
-msgid "Restrictions"
-msgstr "Системні обмеження"
+#: standard input:49
+msgid "Registered ports"
+msgstr ""
 
-#: backend3/squid:118 backend3/squid:126
-#, fuzzy
-msgid "Same entry already exists"
-msgstr "Такий користувач вже є"
+#: standard input:11 input:23 input:32 input:45 input:57
+msgid "Reset"
+msgstr "Скинути"
 
-#: standard input:9
+#: standard input:27
 #, fuzzy
-msgid "Search domain:"
-msgstr "Шукати у доменах:"
+msgid "Select authentication mode:"
+msgstr "Оберіть метод встановлення"
 
-#: standard input:1
+#: standard input:30
 #, fuzzy
-msgid "Start, stop or restart service..."
-msgstr "запустити, зупинити або перевантажити службу"
+msgid "Select internal interfaces:"
+msgstr "Ethernet-інтерфейси"
+
+#: standard input:26
+#, fuzzy
+msgid "Select proxying mode:"
+msgstr "Оберіть мову:"
+
+#: standard input:7
+msgid "Suffix:"
+msgstr ""
+
+#: standard input:52
+#, fuzzy
+msgid "To port:"
+msgstr "Порт:"
+
+#: interfaces/guile/backend/squid.scm:47
+#, fuzzy
+msgid "Transparent"
+msgstr "SMTP-транспорт:"
+
+#: standard input:16
+#, fuzzy
+msgid "User groups"
+msgstr "Нова група:"
+
+#: interfaces/guile/type/domain-suffix.scm:14
+msgid ""
+"a number of names each starting with a dot (only small latin letters and '-' "
+"symbol allowed)"
+msgstr ""
+
+#: backend3/squid-commit:41
+msgid "in progress..."
+msgstr ""
+
+#: backend3/squid-commit:47
+msgid "manually updated"
+msgstr ""
+
+#: backend3/squid-commit:69
+msgid "never"
+msgstr ""
+
+#: backend3/squid-commit:61 backend3/squid-commit:65
+msgid "unknown"
+msgstr "невідомо"
+
+#~ msgid "(TCP port for server to listen to)"
+#~ msgstr "(TCP-порт, який має слухати сервер)"
+
+#, fuzzy
+#~ msgid "(leave this field empty for listening to all interfaces)"
+#~ msgstr ""
+#~ "(IP-адреса, на якій сервер приймає з'єднання або '*' для обслуговування "
+#~ "усіх інтерфейсів)"
+
+#, fuzzy
+#~ msgid "Add network"
+#~ msgstr "Інша мережа"
+
+#, fuzzy
+#~ msgid "Add site"
+#~ msgstr "Новий користувач:"
+
+#, fuzzy
+#~ msgid "Allowed client networks:"
+#~ msgstr "Дозволені з'єднання на вході"
+
+#~ msgid "General settings"
+#~ msgstr "Загальні параметри"
+
+#~ msgid "Listen address:"
+#~ msgstr "IP-адреса:"
+
+#, fuzzy
+#~ msgid "Restrictions"
+#~ msgstr "Системні обмеження"
+
+#, fuzzy
+#~ msgid "Same entry already exists"
+#~ msgstr "Такий користувач вже є"
+
+#, fuzzy
+#~ msgid "Search domain:"
+#~ msgstr "Шукати у доменах:"
+
+#, fuzzy
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "запустити, зупинити або перевантажити службу"
 
 #~ msgid "start, stop or restart service"
 #~ msgstr "запустити, зупинити або перевантажити службу"
