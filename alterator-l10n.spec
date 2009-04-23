@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 2.2
-Release: alt12
+Version: 2.3
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Apr 23 2009 Paul Wolneykien <manowar@altlinux.ru> 2.3-alt1
+- Squid module dictionary.
+- Squidmill module dictionary.
+
 * Tue Apr 14 2009 Stanislav Ievlev <inger@altlinux.org> 2.2-alt12
 - update pt_BR translations (closes: #19574)
 
