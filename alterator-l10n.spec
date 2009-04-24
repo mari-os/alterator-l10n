@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.3
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Apr 24 2009 Paul Wolneykien <manowar@altlinux.ru> 2.3-alt2
+- Squidmill module dictionary updated.
+
 * Thu Apr 23 2009 Paul Wolneykien <manowar@altlinux.ru> 2.3-alt1
 - Squid module dictionary.
 - Squidmill module dictionary.
