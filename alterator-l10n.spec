@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.3
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Apr 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.3-alt3
+- update translations for alterator-net-iptables and alterator-netinst
+
 * Fri Apr 24 2009 Paul Wolneykien <manowar@altlinux.ru> 2.3-alt2
 - Squidmill module dictionary updated.
 
