@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.3
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,11 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Apr 30 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.3-alt4
+[ azol@ ]
+- add initial russian ahttpd-poweroff help
+- po/ru/alterator-ahttpd.po: fix two typos
+
 * Mon Apr 27 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.3-alt3
 - update translations for alterator-net-iptables and alterator-netinst
 
