@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.3
-Release: alt4
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -63,21 +63,29 @@ make check
 %config(noreplace) %dir %_sysconfdir/alterator/l10n
 %lang(en) %config(noreplace) %_sysconfdir/alterator/l10n/*-en_*
 %lang(ru) %config(noreplace) %_sysconfdir/alterator/l10n/*-ru_*
-%lang(uk) %config(noreplace) %_sysconfdir/alterator/l10n/*-uk_*
+#%lang(uk) %config(noreplace) %_sysconfdir/alterator/l10n/*-uk_*
 %lang(pt_BR) %config(noreplace) %_sysconfdir/alterator/l10n/*-pt_BR
 %lang(es) %config(noreplace) %_sysconfdir/alterator/l10n/*-es_*
 
 %lang(en) %_datadir/alterator/help/en_US/*.html
 %lang(ru) %_datadir/alterator/help/ru_RU/*.html
-%lang(uk) %_datadir/alterator/help/uk_UA/*.html
+#%lang(uk) %_datadir/alterator/help/uk_UA/*.html
 %lang(pt_BR) %_datadir/alterator/help/pt_BR/*.html
 
 %lang(ru) %_datadir/locale/ru/LC_MESSAGES/*.mo
-%lang(uk) %_datadir/locale/uk/LC_MESSAGES/*.mo
+#%lang(uk) %_datadir/locale/uk/LC_MESSAGES/*.mo
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu May 07 2009 Stanislav Ievlev <inger@altlinux.org> 2.3-alt6
+- update translations for alterator-pkg
+- fix typo in help (closes: #19756)
+
+* Thu May 07 2009 Stanislav Ievlev <inger@altlinux.org> 2.3-alt5
+- update translations for alterator-fbi
+- turn off uk_UA (too obsolete) and es_ES (too differ from American's variant) locales.
+
 * Thu Apr 30 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.3-alt4
 [ azol@ ]
 - add initial russian ahttpd-poweroff help

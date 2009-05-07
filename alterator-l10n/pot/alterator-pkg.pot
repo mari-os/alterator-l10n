@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"POT-Creation-Date: 2009-05-07 14:56+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,8 +16,41 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ui/pkg/install/index.scm:73
-msgid "Acquiring packages..."
+#: standard input:1
+msgid "Install sources"
+msgstr ""
+
+#: standard input:2 ui/pkg/register/index.scm:26
+msgid "Additional disks"
+msgstr ""
+
+#.
+#: standard input:1 ui/pkg/sources/index.scm:24
+msgid "Repositories:"
+msgstr ""
+
+#: standard input:2
+msgid "Select"
+msgstr ""
+
+#: standard input:3 ui/pkg/sources/index.scm:31
+msgid "Source URI:"
+msgstr ""
+
+#: standard input:4 ui/pkg/sources/index.scm:33
+msgid "Change"
+msgstr ""
+
+#: standard input:5 ui/pkg/sources/index.scm:40
+msgid "Advanced..."
+msgstr ""
+
+#: standard input:6
+msgid "Update sources"
+msgstr ""
+
+#: standard input:7 ui/pkg/sources/mirrors/index.scm:49
+msgid "New source:"
 msgstr ""
 
 #: standard input:8 input:13 ui/pkg/sources/mirrors/index.scm:51
@@ -25,45 +58,12 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: standard input:2 ui/pkg/register/index.scm:26
-msgid "Additional disks"
-msgstr ""
-
-#: standard input:5
-msgid "Advanced..."
-msgstr ""
-
-#: ui/pkg/sources/index.scm:39
-msgid "Anvanced..."
-msgstr ""
-
 #: standard input:9 ui/pkg/sources/mirrors/index.scm:53
 msgid "Available sources:"
 msgstr ""
 
-#: ui/pkg/install/index.scm:35
-msgid "Building packages list"
-msgstr ""
-
-#: ui/pkg/sources/mirrors/index.scm:60
-msgid "Cancel"
-msgstr ""
-
-#: standard input:4 ui/pkg/sources/index.scm:32
-msgid "Change"
-msgstr ""
-
-#: ui/pkg/error/index.scm:5
-msgid "Critical error during install"
-msgstr ""
-
 #: standard input:10 ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:69
-#, lisp-format
-msgid "Has conflict with ~S"
 msgstr ""
 
 #: standard input:11
@@ -72,30 +72,119 @@ msgid ""
 "    please insert them one by one and press \"Add\" button"
 msgstr ""
 
-#: ui/pkg/register/index.scm:31
-msgid ""
-"If you have any additional CDs or DVDs for this distribution<br>\n"
-"please insert them one by one and press 'Add' button"
+#: standard input:14 ui/pkg/register/index.scm:44
+msgid "Remove"
 msgstr ""
 
-#: standard input:1
-msgid "Install sources"
+#: ui/pkg/cdrom/index.scm:8
+msgid "Please insert CDROM labeled as"
+msgstr ""
+
+#: ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+msgid "Unknown"
+msgstr ""
+
+#: ui/pkg/cdrom/index.scm:10
+msgid "Into drive"
+msgstr ""
+
+#: ui/pkg/cdrom/index.scm:12 ui/pkg/error/index.scm:7
+msgid "Press 'Next' button to continue"
+msgstr ""
+
+#: ui/pkg/install/index.scm:35
+msgid "Building packages list"
 msgstr ""
 
 #: ui/pkg/install/index.scm:37
 msgid "Installing base system"
 msgstr ""
 
-#: ui/pkg/install/index.scm:79
-msgid "Installing packages..."
-msgstr ""
-
 #: ui/pkg/install/index.scm:39
 msgid "Installing software"
 msgstr ""
 
-#: ui/pkg/cdrom/index.scm:10
-msgid "Into drive"
+#: ui/pkg/install/index.scm:40
+msgid "Loading package information..."
+msgstr ""
+
+#: ui/pkg/install/index.scm:73
+msgid "Acquiring packages..."
+msgstr ""
+
+#: ui/pkg/install/index.scm:79
+msgid "Installing packages..."
+msgstr ""
+
+#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:148
+msgid "Preparing..."
+msgstr ""
+
+#: ui/pkg/sources/mirrors/index.scm:10
+msgid "Repository:"
+msgstr ""
+
+#: ui/pkg/sources/mirrors/index.scm:59
+msgid "OK"
+msgstr ""
+
+#: ui/pkg/sources/mirrors/index.scm:60
+msgid "Cancel"
+msgstr ""
+
+#: ui/pkg/error/index.scm:5
+msgid "Critical error during install"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:69
+#, lisp-format
+msgid "Has conflict with ~S"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:87
+msgid "kB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:88
+msgid "MB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:89
+msgid "GB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:90
+msgid "TB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:94
+msgid "Required disk space"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:100
+msgid "calculating..."
+msgstr ""
+
+#: ui/pkg/groups/index.scm:105
+msgid "unable to calculate"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:133
+msgid "Additional applications:"
+msgstr ""
+
+#: ui/pkg/register/index.scm:31
+msgid ""
+"If you have any additional CDs or DVDs for this distribution<br>\n"
+"please insert them one by one and press 'Add' button"
+msgstr ""
+
+#: backend3/pkg-register:62
+msgid "Please insert disk"
+msgstr ""
+
+#: backend3/pkg-register:64
+msgid "This disk is already added"
 msgstr ""
 
 #: backend3/pkg-register:68
@@ -106,87 +195,10 @@ msgstr ""
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr ""
 
-#: ui/pkg/install/index.scm:40
-msgid "Loading package information..."
-msgstr ""
-
-#: standard input:7 ui/pkg/sources/mirrors/index.scm:49
-msgid "New source:"
-msgstr ""
-
-#: ui/pkg/sources/mirrors/index.scm:59
-msgid "OK"
-msgstr ""
-
-#: ui/pkg/cdrom/index.scm:8
-msgid "Please insert CDROM labeled as"
-msgstr ""
-
-#: backend3/pkg-register:62
-msgid "Please insert disk"
-msgstr ""
-
-#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:134
-msgid "Preparing..."
-msgstr ""
-
-#: ui/pkg/cdrom/index.scm:12 ui/pkg/error/index.scm:7
-msgid "Press 'Next' button to continue"
-msgstr ""
-
-#: standard input:14 ui/pkg/register/index.scm:44
-msgid "Remove"
-msgstr ""
-
-#.
-#: standard input:1 ui/pkg/sources/index.scm:23
-msgid "Repositories:"
-msgstr ""
-
-#: ui/pkg/sources/mirrors/index.scm:10
-msgid "Repository:"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:79
-msgid "Required disk space"
-msgstr ""
-
 #: backend3/pkg-sources:92
 msgid "Same source already exists"
 msgstr ""
 
-#: standard input:2
-msgid "Select"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:119
-msgid "Select groups you want to install:"
-msgstr ""
-
-#: standard input:3 ui/pkg/sources/index.scm:30
-msgid "Source URI:"
-msgstr ""
-
-#: backend3/pkg-register:64
-msgid "This disk is already added"
-msgstr ""
-
-#: ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
-msgid "Unknown"
-msgstr ""
-
-#: standard input:6
-msgid "Update sources"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:85
-msgid "calculating..."
-msgstr ""
-
 #: backend3/pkg-sources:185 backend3/pkg-sources:221
 msgid "inactive"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:91
-msgid "unable to calculate"
 msgstr ""

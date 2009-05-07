@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-24 11:11+0300\n"
+"POT-Creation-Date: 2009-05-07 14:56+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -25,16 +25,17 @@ msgstr "Отримання пакетів..."
 msgid "Add"
 msgstr "Додати"
 
+#: ui/pkg/groups/index.scm:133
+#, fuzzy
+msgid "Additional applications:"
+msgstr "Додаткові параметри:"
+
 #: standard input:2 ui/pkg/register/index.scm:26
 msgid "Additional disks"
 msgstr "Додаткові диски"
 
-#: standard input:5
+#: standard input:5 ui/pkg/sources/index.scm:40
 msgid "Advanced..."
-msgstr "Додатково..."
-
-#: ui/pkg/sources/index.scm:39
-msgid "Anvanced..."
 msgstr "Додатково..."
 
 #: standard input:9 ui/pkg/sources/mirrors/index.scm:53
@@ -50,7 +51,7 @@ msgstr "Отримання пакетів"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: standard input:4 ui/pkg/sources/index.scm:32
+#: standard input:4 ui/pkg/sources/index.scm:33
 msgid "Change"
 msgstr "Змінити"
 
@@ -61,6 +62,10 @@ msgstr "Критичена помилка встановлення"
 #: standard input:10 ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr "Видалити"
+
+#: ui/pkg/groups/index.scm:89
+msgid "GB"
+msgstr ""
 
 #: ui/pkg/groups/index.scm:69
 #, lisp-format
@@ -119,6 +124,10 @@ msgstr "Невірний або непідтримуваний протокол.
 msgid "Loading package information..."
 msgstr "Початок встановлення пакетів..."
 
+#: ui/pkg/groups/index.scm:88
+msgid "MB"
+msgstr ""
+
 #: standard input:7 ui/pkg/sources/mirrors/index.scm:49
 msgid "New source:"
 msgstr "Нове джерело:"
@@ -135,7 +144,7 @@ msgstr "Будь ласка, вставте CD-ROM із назвою"
 msgid "Please insert disk"
 msgstr "Вставте диск"
 
-#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:134
+#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:148
 msgid "Preparing..."
 msgstr "Підготовка до встановлення..."
 
@@ -148,7 +157,7 @@ msgid "Remove"
 msgstr "Вилучити"
 
 #.
-#: standard input:1 ui/pkg/sources/index.scm:23
+#: standard input:1 ui/pkg/sources/index.scm:24
 msgid "Repositories:"
 msgstr "Репозиторії:"
 
@@ -156,7 +165,7 @@ msgstr "Репозиторії:"
 msgid "Repository:"
 msgstr "Репозиторій:"
 
-#: ui/pkg/groups/index.scm:79
+#: ui/pkg/groups/index.scm:94
 msgid "Required disk space"
 msgstr "Потрібне місце на диску"
 
@@ -168,14 +177,13 @@ msgstr "Таке джерело вже є"
 msgid "Select"
 msgstr "Вибрати"
 
-#: ui/pkg/groups/index.scm:119
-#, fuzzy
-msgid "Select groups you want to install:"
-msgstr "Виберіть пакунки для встановлення:"
-
-#: standard input:3 ui/pkg/sources/index.scm:30
+#: standard input:3 ui/pkg/sources/index.scm:31
 msgid "Source URI:"
 msgstr "URI джерела:"
+
+#: ui/pkg/groups/index.scm:90
+msgid "TB"
+msgstr ""
 
 #: backend3/pkg-register:64
 msgid "This disk is already added"
@@ -189,7 +197,7 @@ msgstr "Невідомо"
 msgid "Update sources"
 msgstr "Джерела поновлень"
 
-#: ui/pkg/groups/index.scm:85
+#: ui/pkg/groups/index.scm:100
 msgid "calculating..."
 msgstr "обчислювання..."
 
@@ -197,6 +205,17 @@ msgstr "обчислювання..."
 msgid "inactive"
 msgstr "недіюче"
 
-#: ui/pkg/groups/index.scm:91
+#: ui/pkg/groups/index.scm:87
+msgid "kB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:105
 msgid "unable to calculate"
 msgstr "неможливо обчислити"
+
+#~ msgid "Anvanced..."
+#~ msgstr "Додатково..."
+
+#, fuzzy
+#~ msgid "Select groups you want to install:"
+#~ msgstr "Виберіть пакунки для встановлення:"
