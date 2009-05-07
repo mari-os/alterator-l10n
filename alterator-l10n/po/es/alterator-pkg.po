@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-17 16:12+0300\n"
+"POT-Creation-Date: 2009-05-07 14:56+0400\n"
 "PO-Revision-Date: 2009-03-27 18:26-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,32 +19,29 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: ui/pkg/install/index.scm:72
+#: ui/pkg/install/index.scm:73
 msgid "Acquiring packages..."
 msgstr "Adquisición de paquete..."
 
-#: standard input:8
-#: input:13
-#: ui/pkg/sources/mirrors/index.scm:51
+#: standard input:8 input:13 ui/pkg/sources/mirrors/index.scm:51
 #: ui/pkg/register/index.scm:42
 msgid "Add"
 msgstr "Adiccionar"
 
-#: standard input:2
-#: ui/pkg/register/index.scm:26
+#: ui/pkg/groups/index.scm:133
+#, fuzzy
+msgid "Additional applications:"
+msgstr "Parámetros adicionais"
+
+#: standard input:2 ui/pkg/register/index.scm:26
 msgid "Additional disks"
 msgstr "Paquetes adicionales"
 
-#: standard input:5
+#: standard input:5 ui/pkg/sources/index.scm:40
 msgid "Advanced..."
 msgstr "Avanzado..."
 
-#: ui/pkg/sources/index.scm:39
-msgid "Anvanced..."
-msgstr "Avanzado..."
-
-#: standard input:9
-#: ui/pkg/sources/mirrors/index.scm:53
+#: standard input:9 ui/pkg/sources/mirrors/index.scm:53
 msgid "Available sources:"
 msgstr "Ver código fuente"
 
@@ -56,8 +53,7 @@ msgstr "La adquisición de paquetes..."
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: standard input:4
-#: ui/pkg/sources/index.scm:32
+#: standard input:4 ui/pkg/sources/index.scm:33
 msgid "Change"
 msgstr "Alteración"
 
@@ -65,10 +61,13 @@ msgstr "Alteración"
 msgid "Critical error during install"
 msgstr "Erro Crítico durante la instalación"
 
-#: standard input:10
-#: ui/pkg/sources/mirrors/index.scm:55
+#: standard input:10 ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr "Borrar"
+
+#: ui/pkg/groups/index.scm:89
+msgid "GB"
+msgstr ""
 
 #: ui/pkg/groups/index.scm:69
 #, lisp-format
@@ -79,13 +78,17 @@ msgstr "Hay conflicto con ~S"
 msgid ""
 "If you have any additional CDs or DVDs for this distribution\n"
 "    please insert them one by one and press \"Add\" button"
-msgstr "Por favor, introduzca uno a uno y pulse \"Añadir \" botón insira-os um por um e pressione 'Adicionar' botão"
+msgstr ""
+"Por favor, introduzca uno a uno y pulse \"Añadir \" botón insira-os um por "
+"um e pressione 'Adicionar' botão"
 
 #: ui/pkg/register/index.scm:31
 msgid ""
 "If you have any additional CDs or DVDs for this distribution<br>\n"
 "please insert them one by one and press 'Add' button"
-msgstr "Si usted tiene cualquier CD o DVD para esta distribución <br> \n insira-os um por um e pressione botão 'Adicionar'"
+msgstr ""
+"Si usted tiene cualquier CD o DVD para esta distribución <br> \n"
+" insira-os um por um e pressione botão 'Adicionar'"
 
 #: standard input:1
 msgid "Install sources"
@@ -95,7 +98,7 @@ msgstr "Instalación de paquetes..."
 msgid "Installing base system"
 msgstr "Instalación de paquetes..."
 
-#: ui/pkg/install/index.scm:78
+#: ui/pkg/install/index.scm:79
 msgid "Installing packages..."
 msgstr "Instalación de paquetes..."
 
@@ -115,8 +118,15 @@ msgstr "Disco Inválido"
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr "No válido o no suportado el protocolo. Debe ser http, ftp o archivo"
 
-#: standard input:7
-#: ui/pkg/sources/mirrors/index.scm:49
+#: ui/pkg/install/index.scm:40
+msgid "Loading package information..."
+msgstr ""
+
+#: ui/pkg/groups/index.scm:88
+msgid "MB"
+msgstr ""
+
+#: standard input:7 ui/pkg/sources/mirrors/index.scm:49
 msgid "New source:"
 msgstr "Nueva fuente"
 
@@ -132,24 +142,20 @@ msgstr "Por favor, introduzca la etiqueta de CD-ROM"
 msgid "Please insert disk"
 msgstr "Por favor insira un Disco"
 
-#: ui/pkg/groups/index.scm:134
-#: ui/pkg/install/index.scm:92
+#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:148
 msgid "Preparing..."
 msgstr "Preparando..."
 
-#: ui/pkg/cdrom/index.scm:12
-#: ui/pkg/error/index.scm:7
+#: ui/pkg/cdrom/index.scm:12 ui/pkg/error/index.scm:7
 msgid "Press 'Next' button to continue"
 msgstr "Haga clic en el botón \"Siguiente\" para continuar"
 
-#: standard input:14
-#: ui/pkg/register/index.scm:44
+#: standard input:14 ui/pkg/register/index.scm:44
 msgid "Remove"
 msgstr "Remover"
 
 #.
-#: standard input:1
-#: ui/pkg/sources/index.scm:23
+#: standard input:1 ui/pkg/sources/index.scm:24
 msgid "Repositories:"
 msgstr "Repositórios:"
 
@@ -157,7 +163,7 @@ msgstr "Repositórios:"
 msgid "Repository:"
 msgstr "Repositorio:"
 
-#: ui/pkg/groups/index.scm:79
+#: ui/pkg/groups/index.scm:94
 msgid "Required disk space"
 msgstr "Requiere de espacio en disco"
 
@@ -169,22 +175,19 @@ msgstr "Ya existe la fuente"
 msgid "Select"
 msgstr "Seleccionar"
 
-#: ui/pkg/groups/index.scm:119
-msgid "Select groups you want to install:"
-msgstr "Selecciona paquetes que quiera instalar"
-
-#: standard input:3
-#: ui/pkg/sources/index.scm:30
+#: standard input:3 ui/pkg/sources/index.scm:31
 msgid "Source URI:"
 msgstr "Fuente del URI:"
+
+#: ui/pkg/groups/index.scm:90
+msgid "TB"
+msgstr ""
 
 #: backend3/pkg-register:64
 msgid "This disk is already added"
 msgstr "Este disco ya está añadido"
 
-#: ui/pkg/cdrom/index.scm:9
-#: ui/pkg/cdrom/index.scm:11
-#: ui/pkg/error/index.scm:6
+#: ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
 msgid "Unknown"
 msgstr "Desconocido"
 
@@ -192,16 +195,24 @@ msgstr "Desconocido"
 msgid "Update sources"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:85
+#: ui/pkg/groups/index.scm:100
 msgid "calculating..."
 msgstr "calculando..."
 
-#: backend3/pkg-sources:185
-#: backend3/pkg-sources:221
+#: backend3/pkg-sources:185 backend3/pkg-sources:221
 msgid "inactive"
 msgstr "inactivo"
 
-#: ui/pkg/groups/index.scm:91
+#: ui/pkg/groups/index.scm:87
+msgid "kB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:105
 msgid "unable to calculate"
 msgstr "No fue posible calcular"
 
+#~ msgid "Anvanced..."
+#~ msgstr "Avanzado..."
+
+#~ msgid "Select groups you want to install:"
+#~ msgstr "Selecciona paquetes que quiera instalar"

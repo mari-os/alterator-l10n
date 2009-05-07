@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-24 11:11+0300\n"
+"POT-Creation-Date: 2009-05-07 14:56+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -27,16 +27,16 @@ msgstr "Получение пакетов..."
 msgid "Add"
 msgstr "Добавить"
 
+#: ui/pkg/groups/index.scm:133
+msgid "Additional applications:"
+msgstr "Дополнительные приложения:"
+
 #: standard input:2 ui/pkg/register/index.scm:26
 msgid "Additional disks"
 msgstr "Дополнительные диски"
 
-#: standard input:5
+#: standard input:5 ui/pkg/sources/index.scm:40
 msgid "Advanced..."
-msgstr "Дополнительно..."
-
-#: ui/pkg/sources/index.scm:39
-msgid "Anvanced..."
 msgstr "Дополнительно..."
 
 #: standard input:9 ui/pkg/sources/mirrors/index.scm:53
@@ -51,7 +51,7 @@ msgstr "Построение списка пакетов"
 msgid "Cancel"
 msgstr "Отмена"
 
-#: standard input:4 ui/pkg/sources/index.scm:32
+#: standard input:4 ui/pkg/sources/index.scm:33
 msgid "Change"
 msgstr "Изменить"
 
@@ -62,6 +62,10 @@ msgstr "Критическая ошибка установки"
 #: standard input:10 ui/pkg/sources/mirrors/index.scm:55
 msgid "Delete"
 msgstr "Удалить"
+
+#: ui/pkg/groups/index.scm:89
+msgid "GB"
+msgstr "ГБ"
 
 #: ui/pkg/groups/index.scm:69
 #, lisp-format
@@ -116,6 +120,10 @@ msgstr "Неверный или неподдерживаемый протоко�
 msgid "Loading package information..."
 msgstr "Загрузка информации о пакетах..."
 
+#: ui/pkg/groups/index.scm:88
+msgid "MB"
+msgstr "МБ"
+
 #: standard input:7 ui/pkg/sources/mirrors/index.scm:49
 msgid "New source:"
 msgstr "Новый источник:"
@@ -132,7 +140,7 @@ msgstr "Пожалуйста, вставьте CD/DVD диск "
 msgid "Please insert disk"
 msgstr "Пожалуйста, вставьте CD/DVD диск"
 
-#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:134
+#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:148
 msgid "Preparing..."
 msgstr "Подготовка..."
 
@@ -145,7 +153,7 @@ msgid "Remove"
 msgstr "Удалить"
 
 #.
-#: standard input:1 ui/pkg/sources/index.scm:23
+#: standard input:1 ui/pkg/sources/index.scm:24
 msgid "Repositories:"
 msgstr "Репозитории:"
 
@@ -153,7 +161,7 @@ msgstr "Репозитории:"
 msgid "Repository:"
 msgstr "Репозиторий:"
 
-#: ui/pkg/groups/index.scm:79
+#: ui/pkg/groups/index.scm:94
 msgid "Required disk space"
 msgstr "Требуемое место на диске"
 
@@ -165,13 +173,13 @@ msgstr "Подобный источник уже существует"
 msgid "Select"
 msgstr "Выбрать"
 
-#: ui/pkg/groups/index.scm:119
-msgid "Select groups you want to install:"
-msgstr "Выберите группы пакетов для установки:"
-
-#: standard input:3 ui/pkg/sources/index.scm:30
+#: standard input:3 ui/pkg/sources/index.scm:31
 msgid "Source URI:"
 msgstr "Адрес источника:"
+
+#: ui/pkg/groups/index.scm:90
+msgid "TB"
+msgstr "ТБ"
 
 #: backend3/pkg-register:64
 msgid "This disk is already added"
@@ -185,7 +193,7 @@ msgstr "Неизвестно"
 msgid "Update sources"
 msgstr "Источники обновлений"
 
-#: ui/pkg/groups/index.scm:85
+#: ui/pkg/groups/index.scm:100
 msgid "calculating..."
 msgstr "вычисление..."
 
@@ -193,6 +201,10 @@ msgstr "вычисление..."
 msgid "inactive"
 msgstr "неактивно"
 
-#: ui/pkg/groups/index.scm:91
+#: ui/pkg/groups/index.scm:87
+msgid "kB"
+msgstr "кБ"
+
+#: ui/pkg/groups/index.scm:105
 msgid "unable to calculate"
 msgstr "невозможно вычислить"
