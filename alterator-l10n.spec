@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.3
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu May 07 2009 Stanislav Ievlev <inger@altlinux.org> 2.3-alt6
+- update translations for alterator-pkg
+- fix typo in help (closes: #19756)
+
 * Thu May 07 2009 Stanislav Ievlev <inger@altlinux.org> 2.3-alt5
 - update translations for alterator-fbi
 - turn off uk_UA (too obsolete) and es_ES (too differ from American's variant) locales.
