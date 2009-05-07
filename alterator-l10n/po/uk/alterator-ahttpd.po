@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-01 19:39+0400\n"
+"POT-Creation-Date: 2009-05-07 11:00+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,57 +16,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:10
+#: standard input:11
 msgid "(TCP port for server to listen to)"
 msgstr "(TCP-порт, який має слухати сервер)"
 
-#: standard input:12
+#: standard input:13
 #, fuzzy
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr ""
 "(IP-адреса, на якій сервер приймає з'єднання або '*' для обслуговування усіх "
 "інтерфейсів)"
 
-#: standard input:14
+#: standard input:15
 msgid "(logging granularity influences its size)"
 msgstr "(докладність протоколу впливає на розмір журналу)"
 
-#: standard input:25
+#: standard input:26
 msgid "(organization name, written in latin letters)"
 msgstr "(назва організації латиницею)"
 
-#: standard input:27
+#: standard input:28
 msgid "(organizational unit name, written in latin letters)"
 msgstr "(назва підрозділу організації латиницею)"
 
-#: standard input:19
+#: standard input:20
 msgid "(public hostname)"
 msgstr "(невірне ім'я хоста)"
 
-#: standard input:29
+#: standard input:30
 msgid "(recreate private key, sign request and self-signed certificate)"
 msgstr ""
 "(створити наново секретний ключ, запит на підпис та самопідписаний "
 "сертифікат)"
 
-#: standard input:23
+#: standard input:24
 msgid "(state or city, written in latin letters)"
 msgstr "(місто латиницею)"
 
-#: standard input:21
+#: standard input:22
 msgid "(two letter country code)"
 msgstr "(дволітерний код країни)"
 
-#: standard input:2
+#: standard input:3
 #, fuzzy
 msgid "Account name:"
 msgstr "Логін:"
 
-#: standard input:38
+#: standard input:39
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:15 input:43 input:47
+#: standard input:41
+msgid "All your changes will take effect after restart of HTTP server"
+msgstr ""
+
+#: standard input:16 input:47 input:51
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -78,21 +82,21 @@ msgstr "Квітень"
 msgid "August"
 msgstr "Серпень"
 
-#: backend3/login:12
+#: backend3/login:26
 #, fuzzy
 msgid "Authentication failed"
 msgstr "Аутентифікація"
 
-#: standard input:45
+#: standard input:49
 #, fuzzy
 msgid "Base mode"
 msgstr "Нормальний режим"
 
-#: standard input:17
+#: standard input:18
 msgid "Certificate"
 msgstr "Сертіфікат"
 
-#: standard input:18
+#: standard input:19
 msgid "Common Name (CN):"
 msgstr "Спільне ім'я (CN):"
 
@@ -101,17 +105,17 @@ msgstr "Спільне ім'я (CN):"
 msgid "Computer shutdown"
 msgstr "Назва хоста:"
 
-#: standard input:50
+#: standard input:55
 #, fuzzy
 msgid "Configuration"
 msgstr "Конфіґурація:"
 
-#: standard input:39
+#: standard input:43
 #, fuzzy
 msgid "Continue work"
 msgstr "Продовжити"
 
-#: standard input:20
+#: standard input:21
 msgid "Country (C):"
 msgstr "Країна (C):"
 
@@ -119,23 +123,23 @@ msgstr "Країна (C):"
 msgid "December"
 msgstr "Грудень"
 
-#: standard input:36
+#: standard input:37
 msgid "Delete"
 msgstr "Видалити"
 
-#: interfaces/guile/workflow/card-index.scm:149
+#: interfaces/guile/workflow/card-index.scm:143
 msgid "Do you really want to delete "
 msgstr "Ви дійсно бажаєте видалити "
 
-#: standard input:31
+#: standard input:32
 msgid "Download sign request"
 msgstr "Звантажити запит на підпис"
 
-#: standard input:56
+#: standard input:62
 msgid "Exiting..."
 msgstr ""
 
-#: standard input:46
+#: standard input:50
 msgid "Expert mode"
 msgstr "Складний режим"
 
@@ -143,7 +147,7 @@ msgstr "Складний режим"
 msgid "February"
 msgstr "Лютий"
 
-#: standard input:35
+#: standard input:36
 msgid "Following users have access:"
 msgstr "Наступні користувачі мають доступ:"
 
@@ -151,11 +155,11 @@ msgstr "Наступні користувачі мають доступ:"
 msgid "Fr"
 msgstr "Пт"
 
-#: standard input:8
+#: standard input:9
 msgid "General settings"
 msgstr "Загальні параметри"
 
-#: standard input:6
+#: standard input:7
 msgid "HTTP server is restarting now. Please wait..."
 msgstr ""
 
@@ -163,21 +167,21 @@ msgstr ""
 msgid "Help"
 msgstr "Довідка"
 
-#: standard input:52
+#: standard input:57
 #, fuzzy
 msgid "Hide help"
 msgstr "Поновити довідку"
 
-#: standard input:49
+#: standard input:54
 msgid "Hostname"
 msgstr "Назва хоста"
 
-#: standard input:4
+#: standard input:5
 #, fuzzy
 msgid "Interface language:"
 msgstr "Мова сайту:"
 
-#: backend3/ahttpd-server:156
+#: backend3/ahttpd-server:161
 msgid "Invalid certificate file"
 msgstr "Невірний файл сертифікату"
 
@@ -193,24 +197,24 @@ msgstr "Липень"
 msgid "June"
 msgstr "Червень"
 
-#: standard input:11
+#: standard input:12
 msgid "Listen address:"
 msgstr "IP-адреса:"
 
-#: standard input:22
+#: standard input:23
 msgid "Location (L):"
 msgstr "Місце (L):"
 
-#: standard input:13
+#: standard input:14
 msgid "Logging:"
 msgstr "Протоколювання:"
 
-#: standard input:5
+#: standard input:6
 #, fuzzy
 msgid "Login"
 msgstr "Протоколювання:"
 
-#: standard input:53
+#: standard input:58
 msgid "Logout"
 msgstr ""
 
@@ -226,20 +230,20 @@ msgstr "Травень"
 msgid "Mo"
 msgstr "Пн"
 
-#: standard input:34
+#: standard input:35
 msgid "Module access settings"
 msgstr "Налаштування доступу до модуля"
 
-#: standard input:55
+#: standard input:60
 #, fuzzy
 msgid "Module access settings..."
 msgstr "Налаштування доступу до модуля"
 
-#: standard input:37
+#: standard input:38
 msgid "New user:"
 msgstr "Новий користувач:"
 
-#: interfaces/guile/workflow/card-index.scm:150
+#: interfaces/guile/workflow/card-index.scm:144
 msgid "No"
 msgstr "Ні"
 
@@ -251,6 +255,11 @@ msgstr "Модуль не знайдено"
 msgid "No objects found..."
 msgstr "Об'єкти не знайдено..."
 
+#: standard input:40
+#, fuzzy
+msgid "Note:"
+msgstr "Порт:"
+
 #: interfaces/guile/ahttpd/translate.scm:63
 msgid "November"
 msgstr "Листопад"
@@ -259,40 +268,40 @@ msgstr "Листопад"
 msgid "October"
 msgstr "Жовтень"
 
-#: standard input:24
+#: standard input:25
 msgid "Organization (O):"
 msgstr "Організація (O):"
 
-#: standard input:26
+#: standard input:27
 msgid "Organizational Unit (OU):"
 msgstr "Подрозділ (OU):"
 
-#: standard input:3
+#: standard input:4
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:1
+#: standard input:2
 #, fuzzy
 msgid "Please login"
 msgstr "Вставте диск"
 
-#: standard input:9
+#: standard input:10
 msgid "Port:"
 msgstr "Порт:"
 
-#: standard input:41
+#: standard input:45
 msgid "Reboot computer now"
 msgstr ""
 
-#: standard input:28
+#: standard input:29
 msgid "Recreate"
 msgstr "Створити наново"
 
-#: standard input:44 input:48
+#: standard input:48 input:52
 msgid "Reset"
 msgstr "Скинути"
 
-#: standard input:7
+#: standard input:8 input:42
 msgid "Restart HTTP server"
 msgstr "Перезапустити HTTP-сервер"
 
@@ -308,11 +317,11 @@ msgstr "Сб"
 msgid "September"
 msgstr "Вересень"
 
-#: standard input:51
+#: standard input:56
 msgid "Show help"
 msgstr ""
 
-#: standard input:30
+#: standard input:31
 msgid "Sign"
 msgstr "Підписати"
 
@@ -320,11 +329,11 @@ msgstr "Підписати"
 msgid "Su"
 msgstr "Нд"
 
-#: standard input:54
+#: standard input:59
 msgid "System management center"
 msgstr "Центр керування системою"
 
-#: standard input:16
+#: standard input:17
 msgid "TLS settings"
 msgstr "Налаштування TLS"
 
@@ -332,27 +341,34 @@ msgstr "Налаштування TLS"
 msgid "Th"
 msgstr "Чт"
 
+#: standard input:1 input:53 input:61
+msgid ""
+"This page uses Javascript. Your browser either doesn't support Javascript or "
+"you have it turned off. To see this page as it is meant to appear please use "
+"a Javascript enabled browser."
+msgstr ""
+
 #: interfaces/guile/ahttpd/translate.scm:46
 msgid "Tu"
 msgstr "Вт"
 
-#: standard input:42
+#: standard input:46
 msgid "Turn off computer every day at:"
 msgstr ""
 
-#: standard input:40
+#: standard input:44
 msgid "Turn off computer now"
 msgstr ""
 
-#: interfaces/guile/workflow/card-index.scm:159
+#: interfaces/guile/workflow/card-index.scm:153
 msgid "Unsupported mode"
 msgstr "Режим не підтримується"
 
-#: standard input:33
+#: standard input:34
 msgid "Upload"
 msgstr "Відвантажити"
 
-#: standard input:32
+#: standard input:33
 msgid "Upload certificate signed by CA:"
 msgstr "Відвантажити сертифікат, підписаний УЦ:"
 
@@ -364,7 +380,7 @@ msgstr "Ср"
 msgid "Web interface"
 msgstr "Web-інтерфейс"
 
-#: interfaces/guile/workflow/card-index.scm:152
+#: interfaces/guile/workflow/card-index.scm:146
 msgid "Yes"
 msgstr "Так"
 
@@ -380,7 +396,7 @@ msgstr "тільки помилки"
 msgid "nothing"
 msgstr "нічого"
 
-#: interfaces/guile/type/ahttpd-cert-field.scm:11
+#: type/ahttpd-cert-field.scm:11
 msgid "only digits and latin letters allowed"
 msgstr "дозволені тільки цифри та латинські літери"
 
