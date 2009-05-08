@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.3
-Release: alt7
+Release: alt8
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,8 +78,13 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
-* Fri May 08 2009 Paul Wolneykien <manowar@altlinux.ru> 2.3-alt7
+* Fri May 08 2009 Paul Wolneykien <manowar@altlinux.ru> 2.3-alt8
 - Russian help page for modules Squid and Squidmill updated.
+
+* Fri May 08 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.3-alt7
+[ azol@ ]
+- update ru help for acc
+- add initial russian bacula-backup help
 
 * Thu May 07 2009 Stanislav Ievlev <inger@altlinux.org> 2.3-alt6
 - update translations for alterator-pkg
