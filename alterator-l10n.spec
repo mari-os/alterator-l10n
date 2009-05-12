@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.3
-Release: alt8
+Release: alt9
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -78,6 +78,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue May 12 2009 Paul Wolneykien <manowar@altlinux.ru> 2.3-alt9
+- Update Russian dictionary for alterator-openldap.
+
 * Fri May 08 2009 Paul Wolneykien <manowar@altlinux.ru> 2.3-alt8
 - Russian help page for modules Squid and Squidmill updated.
 
