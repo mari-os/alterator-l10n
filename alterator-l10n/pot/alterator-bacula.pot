@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-30 16:34+0400\n"
+"POT-Creation-Date: 2009-05-21 10:41+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,51 +20,51 @@ msgstr ""
 msgid "Backup"
 msgstr ""
 
-#: standard input:1
+#: standard input:1 ui/bacula/backup/disk/index.scm:12
 msgid "Use system disk"
 msgstr ""
 
-#: standard input:2
-msgid "Use external USB disk"
+#: standard input:2 ui/bacula/backup/disk/index.scm:15
+msgid "Use additional disk:"
 msgstr ""
 
-#: standard input:3
+#: standard input:3 ui/bacula/backup/disk/index.scm:29
 msgid "Attention:"
 msgstr ""
 
-#: standard input:4
-msgid "After disk change all previous backup data will be removed"
+#: standard input:4 ui/bacula/backup/disk/index.scm:30
+msgid "All existing backups on the new disk will be removed."
 msgstr ""
 
-#: standard input:5
+#: standard input:5 ui/bacula/backup/disk/index.scm:35
 msgid "Cancel"
 msgstr ""
 
-#: standard input:6
+#: standard input:6 ui/bacula/backup/disk/index.scm:37
 msgid "Change disk"
 msgstr ""
 
-#: standard input:7
+#: standard input:7 ui/bacula/backup/advanced/index.scm:11
 msgid "Created backups:"
 msgstr ""
 
-#: standard input:8
+#: standard input:8 ui/bacula/backup/advanced/index.scm:15
 msgid "Creation date"
 msgstr ""
 
-#: standard input:9
+#: standard input:9 ui/bacula/backup/advanced/index.scm:15
 msgid "Creation result"
 msgstr ""
 
-#: standard input:10
+#: standard input:10 ui/bacula/backup/advanced/index.scm:20
 msgid "Return"
 msgstr ""
 
-#: standard input:11
+#: standard input:11 ui/bacula/backup/advanced/index.scm:22
 msgid "Run backup now"
 msgstr ""
 
-#: standard input:12
+#: standard input:12 ui/bacula/backup/index.scm:9
 msgid "Don't backup system"
 msgstr ""
 
@@ -72,78 +72,154 @@ msgstr ""
 msgid "Backup start time:"
 msgstr ""
 
-#: standard input:14
+#: standard input:14 ui/bacula/backup/index.scm:13
 msgid "Backup system every day at:"
 msgstr ""
 
-#: standard input:15
+#: standard input:15 ui/bacula/backup/index.scm:18
 msgid "Backup user data"
 msgstr ""
 
-#: standard input:16
+#: standard input:16 ui/bacula/backup/index.scm:21
 msgid "Backup disk:"
 msgstr ""
 
-#: standard input:17
+#: standard input:17 ui/bacula/backup/index.scm:23
 msgid "Oldest backup:"
 msgstr ""
 
-#: standard input:18
+#: standard input:18 ui/bacula/backup/index.scm:25
 msgid "Latest backup:"
 msgstr ""
 
-#: standard input:19
+#: standard input:19 ui/bacula/backup/index.scm:32
 msgid "Save settings"
 msgstr ""
 
-#: standard input:20
+#: standard input:20 ui/bacula/backup/index.scm:34
 msgid "Change disk..."
 msgstr ""
 
-#: standard input:21
+#: standard input:21 ui/bacula/backup/index.scm:36
 msgid "Advanced..."
 msgstr ""
 
-#: standard input:22
+#: standard input:22 ui/bacula/backup/index.scm:41
 msgid "Restore user data"
 msgstr ""
 
-#: standard input:23
+#: standard input:23 ui/bacula/backup/index.scm:45
 msgid "Restore file or directory:"
 msgstr ""
 
-#: standard input:24
+#: standard input:24 ui/bacula/backup/index.scm:54
 msgid "Date:"
 msgstr ""
 
-#: standard input:25
+#: standard input:25 ui/bacula/backup/index.scm:59
 msgid "Restore"
 msgstr ""
 
-#: backend3/bacula-backup:29
+#: ui/bacula/restore/index.scm:10
+msgid "Continue"
+msgstr ""
+
+#: ui/bacula/restore/index.scm:24
+msgid "Fatal error"
+msgstr ""
+
+#: ui/bacula/restore/index.scm:31
+msgid "Unable to find backup disk. Please insert one and try again..."
+msgstr ""
+
+#: ui/bacula/restore/index.scm:48
+msgid "Searching for backups..."
+msgstr ""
+
+#: ui/bacula/restore/index.scm:49
+msgid "Preparing..."
+msgstr ""
+
+#: ui/bacula/restore/index.scm:50
+msgid "Restoring backup database..."
+msgstr ""
+
+#: ui/bacula/restore/index.scm:51
+msgid "Restoring system..."
+msgstr ""
+
+#: ui/bacula/restore/index.scm:52
+msgid "Restoring is done"
+msgstr ""
+
+#: ui/bacula/backup/disk/index.scm:22
+msgid "Store backups for:"
+msgstr ""
+
+#: backend3/bacula-backup:43
+msgid "B"
+msgstr ""
+
+#: backend3/bacula-backup:44
+msgid "kB"
+msgstr ""
+
+#: backend3/bacula-backup:45
+msgid "MB"
+msgstr ""
+
+#: backend3/bacula-backup:46
+msgid "GB"
+msgstr ""
+
+#: backend3/bacula-backup:47
+msgid "TB"
+msgstr ""
+
+#: backend3/bacula-backup:114
 msgid "System disk"
 msgstr ""
 
-#: backend3/bacula-backup:37
+#: backend3/bacula-backup:123
 msgid "Waiting"
 msgstr ""
 
-#: backend3/bacula-backup:38
+#: backend3/bacula-backup:124
 msgid "Success"
 msgstr ""
 
-#: backend3/bacula-backup:39
+#: backend3/bacula-backup:125
 msgid "Error"
 msgstr ""
 
-#: backend3/bacula-backup:40
+#: backend3/bacula-backup:126
 msgid "Running"
 msgstr ""
 
-#: backend3/bacula-backup:99
+#: backend3/bacula-backup:143
+msgid "1 week"
+msgstr ""
+
+#: backend3/bacula-backup:144
+msgid "2 weeks"
+msgstr ""
+
+#: backend3/bacula-backup:145
+msgid "1 month"
+msgstr ""
+
+#: backend3/bacula-backup:196
 msgid "Please choose backup disk"
 msgstr ""
 
-#: backend3/bacula-backup:107
+#: backend3/bacula-backup:204
 msgid "Please define backup start time"
+msgstr ""
+
+#: backend3/bacula-backup:238
+msgid "Disk is not selected"
+msgstr ""
+
+#: backend3/bacula-backup:243
+msgid "Unable to mount disk"
 msgstr ""

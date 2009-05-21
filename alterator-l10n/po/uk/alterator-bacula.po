@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-30 16:34+0400\n"
+"POT-Creation-Date: 2009-05-21 10:41+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,25 +16,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:21
+#: backend3/bacula-backup:145
+#, fuzzy
+msgid "1 month"
+msgstr "1 хвилина"
+
+#: backend3/bacula-backup:143
+msgid "1 week"
+msgstr ""
+
+#: backend3/bacula-backup:144
+msgid "2 weeks"
+msgstr ""
+
+#: standard input:21 ui/bacula/backup/index.scm:36
 #, fuzzy
 msgid "Advanced..."
 msgstr "Додатково..."
 
-#: standard input:4
-msgid "After disk change all previous backup data will be removed"
+#: standard input:4 ui/bacula/backup/disk/index.scm:30
+msgid "All existing backups on the new disk will be removed."
 msgstr ""
 
-#: standard input:3
+#: standard input:3 ui/bacula/backup/disk/index.scm:29
 #, fuzzy
 msgid "Attention:"
 msgstr "Аутентифікація"
+
+#: backend3/bacula-backup:43
+msgid "B"
+msgstr ""
 
 #: standard input:1
 msgid "Backup"
 msgstr ""
 
-#: standard input:16
+#: standard input:16 ui/bacula/backup/index.scm:21
 msgid "Backup disk:"
 msgstr ""
 
@@ -42,120 +59,186 @@ msgstr ""
 msgid "Backup start time:"
 msgstr ""
 
-#: standard input:14
+#: standard input:14 ui/bacula/backup/index.scm:13
 msgid "Backup system every day at:"
 msgstr ""
 
-#: standard input:15
+#: standard input:15 ui/bacula/backup/index.scm:18
 msgid "Backup user data"
 msgstr ""
 
-#: standard input:5
+#: standard input:5 ui/bacula/backup/disk/index.scm:35
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: standard input:6
+#: standard input:6 ui/bacula/backup/disk/index.scm:37
 #, fuzzy
 msgid "Change disk"
 msgstr "Змінити"
 
-#: standard input:20
+#: standard input:20 ui/bacula/backup/index.scm:34
 #, fuzzy
 msgid "Change disk..."
 msgstr "Змінити"
 
-#: standard input:7
+#: ui/bacula/restore/index.scm:10
+msgid "Continue"
+msgstr "Продовжити"
+
+#: standard input:7 ui/bacula/backup/advanced/index.scm:11
 msgid "Created backups:"
 msgstr ""
 
-#: standard input:8
+#: standard input:8 ui/bacula/backup/advanced/index.scm:15
 #, fuzzy
 msgid "Creation date"
 msgstr "Поточна дата:"
 
-#: standard input:9
+#: standard input:9 ui/bacula/backup/advanced/index.scm:15
 msgid "Creation result"
 msgstr ""
 
-#: standard input:24
+#: standard input:24 ui/bacula/backup/index.scm:54
 msgid "Date:"
 msgstr ""
 
-#: standard input:12
+#: backend3/bacula-backup:238
+#, fuzzy
+msgid "Disk is not selected"
+msgstr "Для вибраних:"
+
+#: standard input:12 ui/bacula/backup/index.scm:9
 msgid "Don't backup system"
 msgstr ""
 
-#: backend3/bacula-backup:39
+#: backend3/bacula-backup:125
 msgid "Error"
 msgstr ""
 
-#: standard input:18
+#: ui/bacula/restore/index.scm:24
+msgid "Fatal error"
+msgstr "Критична помилка"
+
+#: backend3/bacula-backup:46
+msgid "GB"
+msgstr ""
+
+#: standard input:18 ui/bacula/backup/index.scm:25
 msgid "Latest backup:"
 msgstr ""
 
-#: standard input:17
+#: backend3/bacula-backup:45
+msgid "MB"
+msgstr ""
+
+#: standard input:17 ui/bacula/backup/index.scm:23
 msgid "Oldest backup:"
 msgstr ""
 
-#: backend3/bacula-backup:99
+#: backend3/bacula-backup:196
 #, fuzzy
 msgid "Please choose backup disk"
 msgstr "Вставте диск"
 
-#: backend3/bacula-backup:107
+#: backend3/bacula-backup:204
 msgid "Please define backup start time"
 msgstr ""
 
-#: standard input:25
+#: ui/bacula/restore/index.scm:49
+msgid "Preparing..."
+msgstr "Підготовка до встановлення..."
+
+#: standard input:25 ui/bacula/backup/index.scm:59
 msgid "Restore"
 msgstr ""
 
-#: standard input:23
+#: standard input:23 ui/bacula/backup/index.scm:45
 #, fuzzy
 msgid "Restore file or directory:"
 msgstr "Домашня тека:"
 
-#: standard input:22
+#: standard input:22 ui/bacula/backup/index.scm:41
 msgid "Restore user data"
 msgstr ""
 
-#: standard input:10
+#: ui/bacula/restore/index.scm:50
+#, fuzzy
+msgid "Restoring backup database..."
+msgstr "Отримання бази даних пакетів..."
+
+#: ui/bacula/restore/index.scm:52
+msgid "Restoring is done"
+msgstr ""
+
+#: ui/bacula/restore/index.scm:51
+#, fuzzy
+msgid "Restoring system..."
+msgstr "Видалити файлову систему"
+
+#: standard input:10 ui/bacula/backup/advanced/index.scm:20
 msgid "Return"
 msgstr "Вернутися"
 
-#: standard input:11
+#: standard input:11 ui/bacula/backup/advanced/index.scm:22
 msgid "Run backup now"
 msgstr ""
 
-#: backend3/bacula-backup:40
+#: backend3/bacula-backup:126
 #, fuzzy
 msgid "Running"
 msgstr "запущено"
 
-#: standard input:19
+#: standard input:19 ui/bacula/backup/index.scm:32
 #, fuzzy
 msgid "Save settings"
 msgstr "Налаштування TLS"
 
-#: backend3/bacula-backup:38
+#: ui/bacula/restore/index.scm:48
+#, fuzzy
+msgid "Searching for backups..."
+msgstr "Перевірка наявності оновлень..."
+
+#: ui/bacula/backup/disk/index.scm:22
+msgid "Store backups for:"
+msgstr ""
+
+#: backend3/bacula-backup:124
 #, fuzzy
 msgid "Success"
 msgstr "Доступ для запису"
 
-#: backend3/bacula-backup:29
+#: backend3/bacula-backup:114
 #, fuzzy
 msgid "System disk"
 msgstr "Системні журнали"
 
-#: standard input:2
-msgid "Use external USB disk"
+#: backend3/bacula-backup:47
+msgid "TB"
 msgstr ""
 
-#: standard input:1
+#: ui/bacula/restore/index.scm:31
+msgid "Unable to find backup disk. Please insert one and try again..."
+msgstr ""
+
+#: backend3/bacula-backup:243
+#, fuzzy
+msgid "Unable to mount disk"
+msgstr "неможливо налаштувати час"
+
+#: standard input:2 ui/bacula/backup/disk/index.scm:15
+#, fuzzy
+msgid "Use additional disk:"
+msgstr "Додаткові диски"
+
+#: standard input:1 ui/bacula/backup/disk/index.scm:12
 #, fuzzy
 msgid "Use system disk"
 msgstr "Поновити систему"
 
-#: backend3/bacula-backup:37
+#: backend3/bacula-backup:123
 msgid "Waiting"
+msgstr ""
+
+#: backend3/bacula-backup:44
+msgid "kB"
 msgstr ""
