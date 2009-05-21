@@ -28,9 +28,17 @@ msgstr ""
 msgid "   Name   "
 msgstr "   Имя   "
 
+#: standard input:5 input:25
+msgid " Kb"
+msgstr " Кб"
+
 #: ui/vm/ortodox.scm:40
 msgid " free"
 msgstr " свободно"
+
+#: standard input:15
+msgid " min"
+msgstr " мин"
 
 #: ui/vm/ortodox.scm:40
 msgid " of "
@@ -46,6 +54,14 @@ msgstr ""
 msgid "(DNS name or IP address)"
 msgstr "(имя в DNS или IP адрес)"
 
+#: standard input:8
+msgid "(Domain suffix, begins with a dot)"
+msgstr "(доменный суффикс, начиная с точки)"
+
+#: standard input:42
+msgid "(IP address mask)"
+msgstr "(IP-маска)"
+
 #: standard input:6
 msgid ""
 "(IP address where server listen on, or '*' for listening on all interfaces)"
@@ -53,7 +69,11 @@ msgstr ""
 "(IP адрес на котором сервер принимает соединения или '*' для работы на всех "
 "интерфейсах)"
 
-#: standard input:10 input:4 input:5
+#: standard input:40
+msgid "(IP address)"
+msgstr "(IP-адрес)"
+
+#: standard input:11 input:10 input:4 input:5
 msgid "(TCP port for server to listen to)"
 msgstr "(TCP порт на котором сервер принимает соединения)"
 
@@ -61,8 +81,8 @@ msgstr "(TCP порт на котором сервер принимает сое
 msgid "(TCP port where server listen on)"
 msgstr "(TCP порт на котором сервер принимает соединения)"
 
-#: standard input:10 input:13 input:9 input:3 ui/root/index.scm:33 input:18
-#: ui/users/index.scm:103 ui/users/add/index.scm:66
+#: standard input:10 input:13 input:3 ui/root/index.scm:33 input:18
+#: ui/users/index.scm:103 ui/users/add/index.scm:66 input:9
 msgid "(enter passphrase)"
 msgstr "(введите фразу)"
 
@@ -70,15 +90,15 @@ msgstr "(введите фразу)"
 msgid "(granularity of the logging influences its size)"
 msgstr "(подробность протоколирования влияет на размер журнала)"
 
-#: standard input:12 input:6 input:7
+#: standard input:13 input:12 input:6 input:7
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(оставьте это поле пустым для работы на всех интерфейсах)"
 
-#: standard input:8
+#: standard input:9 input:8
 msgid "(local path or internet URL)"
 msgstr "(локальный путь или URL)"
 
-#: standard input:14 input:9
+#: standard input:15 input:14 input:9
 msgid "(logging granularity influences its size)"
 msgstr "(подробность протоколирования влияет на размер журнала)"
 
@@ -90,32 +110,42 @@ msgstr "(максимально допустимый диапазон адрес
 msgid "(multiple values should be space separated)"
 msgstr "(несколько значений записываются через пробел)"
 
+#: bin/alterator-net-iptables:158 bin/iptables_helper:158
 #: bin/iptables_helper:200
 msgid "(must be a number or empty string)"
 msgstr "(должно быть числом или пустой строкой)"
 
-#: bin/iptables_helper:174 bin/iptables_helper:179 bin/iptables_helper:208
-#: bin/iptables_helper:210
+#: bin/alterator-net-iptables:132 bin/alterator-net-iptables:137
+#: bin/alterator-net-iptables:166 bin/alterator-net-iptables:168
+#: bin/iptables_helper:132 bin/iptables_helper:137 bin/iptables_helper:166
+#: bin/iptables_helper:168 bin/iptables_helper:174 bin/iptables_helper:179
+#: bin/iptables_helper:208 bin/iptables_helper:210
 msgid "(must be a number)"
 msgstr "(должно быть числом)"
 
-#: standard input:25 input:19 input:20
+#: standard input:26 input:25 input:19 input:20
 msgid "(organization name, written in latin letters)"
 msgstr "(название организации, написанное латинскими буквами)"
 
-#: standard input:27 input:21 input:22
+#: standard input:28 input:27 input:21 input:22
 msgid "(organizational unit name, written in latin letters)"
 msgstr "(название подразделения, написанное латинскими буквами)"
 
+#: standard input:29 input:51 input:53
+msgid "(port number)"
+msgstr "(номер порта)"
+
+#: bin/alterator-net-iptables:128 bin/iptables_helper:128
 #: bin/iptables_helper:170
 msgid "(possible values: gateway or router)"
 msgstr "(допустимые значения: gateway или router)"
 
+#: bin/alterator-net-iptables:155 bin/iptables_helper:155
 #: bin/iptables_helper:197
 msgid "(possible values: on or off)"
 msgstr "(допустимые значения: on или off)"
 
-#: standard input:19 input:13 input:14
+#: standard input:20 input:19 input:13 input:14
 msgid "(public hostname)"
 msgstr "(публичное имя компьютера)"
 
@@ -123,13 +153,13 @@ msgstr "(публичное имя компьютера)"
 msgid "(quick access to usual network resources)"
 msgstr "(быстрый доступ к сетевым ресурсам)"
 
-#: standard input:29 input:23 input:24
+#: standard input:30 input:29 input:23 input:24
 msgid "(recreate private key, sign request and self-signed certificate)"
 msgstr ""
 "(пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат)"
 
-#: standard input:11 input:14 input:10 input:4 ui/root/index.scm:35 input:19
-#: ui/users/index.scm:105 ui/users/add/index.scm:68
+#: standard input:11 input:14 input:4 ui/root/index.scm:35 input:19
+#: ui/users/index.scm:105 ui/users/add/index.scm:68 input:10
 msgid "(repeat passphrase)"
 msgstr "(повторите фразу)"
 
@@ -138,11 +168,11 @@ msgstr "(повторите фразу)"
 msgid "(separated by commas or spaces)"
 msgstr "(разделенные запятыми или пробелами)"
 
-#: standard input:23 input:17 input:18
+#: standard input:24 input:23 input:17 input:18
 msgid "(state or city, written in latin letters)"
 msgstr "(название города или области, написанное латинскими буквами)"
 
-#: standard input:21 input:15 input:16
+#: standard input:22 input:21 input:15 input:16
 msgid "(two letter country code)"
 msgstr "(двухбуквенный код страны)"
 
@@ -150,7 +180,7 @@ msgstr "(двухбуквенный код страны)"
 msgid "(user visible contact information)"
 msgstr "(контактная информация видимая пользователями)"
 
-#: standard input:4 ui/dovecot/index.scm:45
+#: standard input:3 ui/dovecot/index.scm:47 input:4 ui/dovecot/index.scm:45
 msgid "(you can't disable all mechanisms)"
 msgstr "(вы должны выбрать хотя бы один механизм)"
 
@@ -166,7 +196,7 @@ msgstr "1 час"
 msgid "1 minute"
 msgstr "1 минута"
 
-#: backend3/dhcp:197 backend3/dhcp:190
+#: backend3/bacula-backup:145 backend3/dhcp:197 backend3/dhcp:190
 msgid "1 month"
 msgstr "1 месяц"
 
@@ -174,7 +204,7 @@ msgstr "1 месяц"
 msgid "1 second"
 msgstr "1 секунда"
 
-#: backend3/dhcp:195 backend3/dhcp:188
+#: backend3/bacula-backup:143 backend3/dhcp:195 backend3/dhcp:188
 msgid "1 week"
 msgstr "1 неделя"
 
@@ -202,7 +232,7 @@ msgstr "16 миллионов цветов (24 бита)"
 msgid "2 hours"
 msgstr "2 часа"
 
-#: backend3/dhcp:196 backend3/dhcp:189
+#: backend3/bacula-backup:144 backend3/dhcp:196 backend3/dhcp:189
 msgid "2 weeks"
 msgstr "2 недели"
 
@@ -246,18 +276,31 @@ msgstr "65 тысяч цветов (16 бит)"
 msgid "8 hours"
 msgstr "8 часов"
 
-#: backend3/dovecot:37
+#: backend3/dovecot:45 backend3/dovecot:37
 msgid "ANONYMOUS"
 msgstr "ANONYMOUS"
+
+#: standard input:4
+msgid "Accept local connections only"
+msgstr "Принимать только локальные соединения"
+
+#: standard input:15
+msgid "Access management"
+msgstr "Управление доступом"
 
 #: standard input:2
 msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
 msgstr "Доступ к хранилищу через NFS (/var/lib/alterator/mirror)"
 
-#: standard input:2
+#: standard input:3 input:2
 msgid "Account name:"
 msgstr "Учётная запись:"
 
+#. #-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#
@@ -297,12 +340,16 @@ msgstr "Получение пакетов..."
 msgid "Action"
 msgstr "Реакция"
 
-#: standard input:38 input:30 input:22 input:7 input:19
+#: standard input:10
+msgid "Action/Code: "
+msgstr "Action/Code: "
+
+#: standard input:39 input:30 input:23 input:22 input:10 input:19
 #: ui/net-dnat/index.scm:58 input:8 input:13
-#: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 input:10
-#: ui/html-messages.scm:23 ui/html-messages.scm:27 ui/html-messages.scm:31
-#: input:4 input:6 ui/xkb/index.scm:37 ui/xkb/avail_layout/index.scm:26
-#: input:34 input:32 input:33
+#: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 input:38
+#: input:17 ui/html-messages.scm:23 ui/html-messages.scm:27
+#: ui/html-messages.scm:31 input:4 input:6 ui/xkb/index.scm:37
+#: ui/xkb/avail_layout/index.scm:26 input:7 input:34 input:32 input:33
 msgid "Add"
 msgstr "Добавить"
 
@@ -313,6 +360,10 @@ msgstr "Добавить ядро Linux"
 #: standard input:8 input:38
 msgid "Add client"
 msgstr "Добавить клиента"
+
+#: standard input:19
+msgid "Add domain"
+msgstr "Добавить домен"
 
 #: standard input:15
 msgid "Add network"
@@ -359,9 +410,17 @@ msgstr "Добавить пользователя:"
 msgid "Additional Size"
 msgstr "Дополнительный размер"
 
+#: ui/pkg/groups/index.scm:133
+msgid "Additional applications:"
+msgstr "Дополнительные приложения:"
+
 #: standard input:2 ui/pkg/register/index.scm:26 input:3
 msgid "Additional disks"
 msgstr "Дополнительные диски"
+
+#: standard input:25
+msgid "Additional info"
+msgstr "Дополнительная информация"
 
 #: backend3/pkg-upgrade:145
 msgid "Additional packages to install"
@@ -375,6 +434,10 @@ msgstr "Доп. параметры ядра:"
 msgid "Address  expiration time:"
 msgstr "Срок действия адреса:"
 
+#: standard input:41
+msgid "Address mask:"
+msgstr "Адресная маска:"
+
 #: standard input:14
 msgid "Administrator DN:"
 msgstr "DN администратора:"
@@ -387,7 +450,8 @@ msgstr "E-Mail администратора:"
 msgid "Administrator password:"
 msgstr "Пароль администратора:"
 
-#: standard input:21 input:16 ui/net-eth/index.scm:123 input:5
+#: standard input:21 ui/bacula/backup/index.scm:36 input:16
+#: ui/net-eth/index.scm:123 input:5 ui/pkg/sources/index.scm:40
 msgid "Advanced..."
 msgstr "Дополнительно..."
 
@@ -412,6 +476,14 @@ msgstr "Все Ваши данные на всех дисках будут ут�
 msgid "All data on following partitions will be lost:"
 msgstr "Все данные на следующих разделах будут утеряны:"
 
+#: standard input:4 ui/bacula/backup/disk/index.scm:30
+msgid "All existing backups on the new disk will be removed."
+msgstr "Все существующие резервные копии на новом диске будут удалены."
+
+#: standard input:41
+msgid "All your changes will take effect after restart of HTTP server."
+msgstr "Все ваши изменения вступят в силу после перезапуска HTTP сервера."
+
 #: standard input:4
 msgid "Allow anonymous login"
 msgstr "Разрешить вход анонимному пользователю"
@@ -427,6 +499,10 @@ msgstr "Разрешить вход локальных пользователе�
 #: standard input:9
 msgid "Allow mkdir"
 msgstr "Разрешить создание каталогов"
+
+#: standard input:4 ui/dovecot/index.scm:54
+msgid "Allow plaintext authentification only on secure connections"
+msgstr "Принимать незашифрованные пароли только через безопасные соединения"
 
 #: standard input:12
 msgid "Allow rename/delete"
@@ -477,22 +553,24 @@ msgstr "Параметры анонимного пользователя"
 msgid "Anvanced..."
 msgstr "Дополнительно..."
 
-#: standard input:15 input:43 input:6 ui/alternatives/index.scm:77
+#: standard input:16 input:47 input:51 input:6 ui/alternatives/index.scm:77
 #: ui/auth/index.scm:54 ui/control/index.scm:55 input:8 input:12
 #: ui/datetime/system/index.scm:54 ui/datetime/installer/index.scm:80 input:4
-#: input:19 input:5 ui/dovecot/index.scm:52 input:7 ui/groups/index.scm:89
+#: input:19 input:5 ui/dovecot/index.scm:59 input:7 ui/groups/index.scm:89
 #: index.scm:206 ui/lilo/edit-source/index.scm:36 ui/lilo/index.scm:140
-#: ui/lilo/expert/index.scm:206 input:2 input:18 ui/net-domain/index.scm:33
-#: input:17 ui/net-eth/index.scm:133 input:9 ui/net-iptables/index.scm:61
-#: ui/net-pppoe/index.scm:88 input:13 ui/net-pptp/index.scm:114
-#: ui/net-wifi/index.scm:131 input:26 ui/root/index.scm:46 input:20
-#: ui/services/index.scm:63 input:21 input:11 ui/html-messages.scm:6
+#: ui/lilo/expert/index.scm:206 input:15 input:2 input:18
+#: ui/net-domain/index.scm:33 input:17 ui/net-eth/index.scm:133 input:9
+#: ui/net-iptables/index.scm:61 ui/net-pppoe/index.scm:88 input:13
+#: ui/net-pptp/index.scm:114 ui/net-wifi/index.scm:131 input:14 input:26
+#: ui/quota/index.scm:73 ui/root/index.scm:46 input:20
+#: ui/services/index.scm:63 input:21 input:10 input:22 input:31 input:44
+#: input:56 ui/sysconfig/proxy/index.scm:26 ui/html-messages.scm:6
 #: ui/html-messages.scm:14 ui/html-messages.scm:38 ui/html-messages.scm:57
 #: ui/updates/index.scm:90 ui/users/index.scm:116 ui/vm/table.scm:258
-#: ui/x11/index.scm:97 input:16 ui/xinetd/index.scm:95 ui/xkb/index.scm:54
-#: backend3/xkb:188 ui/net-eth/index.scm:159 input:3
-#: ui/net-iptables/index.scm:115 ui/sysconfig/proxy/index.scm:26 input:22
-#: ui/datetime/index.scm:32 input:10 input:14 ui/timezone/index.scm:71
+#: ui/x11/index.scm:97 ui/xinetd/index.scm:95 ui/xkb/index.scm:54
+#: backend3/xkb:188 input:43 ui/dovecot/index.scm:52 input:11
+#: ui/net-eth/index.scm:159 input:3 ui/net-iptables/index.scm:115
+#: ui/datetime/index.scm:32 ui/timezone/index.scm:71
 msgid "Apply"
 msgstr "Применить"
 
@@ -520,7 +598,8 @@ msgstr "Архитектуры"
 msgid "Architectures:"
 msgstr "Архитектуры:"
 
-#: standard input:3 input:2 ui/net-domain/index.scm:26
+#: standard input:3 ui/bacula/backup/disk/index.scm:29 input:2
+#: ui/net-domain/index.scm:26
 msgid "Attention:"
 msgstr "Внимание:"
 
@@ -528,7 +607,7 @@ msgstr "Внимание:"
 msgid "August"
 msgstr "Август"
 
-#: standard input:3 ui/dovecot/index.scm:37
+#: standard input:2 ui/dovecot/index.scm:39 input:3 ui/dovecot/index.scm:37
 msgid "Auth mechanisms:"
 msgstr "Механизмы аутентификации:"
 
@@ -545,7 +624,7 @@ msgstr "Аутентификация"
 msgid "Authentication (SASL)"
 msgstr "Аутентификация (SASL)"
 
-#: backend3/login:12
+#: backend3/login:26 backend3/login:12
 msgid "Authentication failed"
 msgstr "Аутентификация не прошла"
 
@@ -578,11 +657,19 @@ msgstr "Доступные правила:"
 msgid "Available sources:"
 msgstr "Доступные источники:"
 
+#: backend3/bacula-backup:43
+msgid "B"
+msgstr "Б"
+
+#: standard input:12 input:5 input:14 input:25 input:48 input:60
+msgid "Back"
+msgstr "Назад"
+
 #: standard input:1
 msgid "Backup"
 msgstr "Резервное копирование"
 
-#: standard input:16
+#: standard input:16 ui/bacula/backup/index.scm:21
 msgid "Backup disk:"
 msgstr "Диск c резервной копией:"
 
@@ -590,17 +677,25 @@ msgstr "Диск c резервной копией:"
 msgid "Backup start time:"
 msgstr "Время начала резервного копирования:"
 
-#: standard input:14
+#: standard input:14 ui/bacula/backup/index.scm:13
 msgid "Backup system every day at:"
 msgstr "Делать резервные копии системы каждый день в:"
 
-#: standard input:15
+#: standard input:15 ui/bacula/backup/index.scm:18
 msgid "Backup user data"
 msgstr "Резервные копии пользовательских данных"
+
+#: standard input:11
+msgid "Base DN"
+msgstr "Базовый DN:"
 
 #: standard input:3 ui/auth/index.scm:41 input:13
 msgid "Base DN:"
 msgstr "Базовый DN:"
+
+#: standard input:49
+msgid "Base mode"
+msgstr "Основной режим"
 
 #: standard input:1
 msgid ""
@@ -645,6 +740,7 @@ msgstr "Невозможно создать группу"
 msgid "Can't add group with empty name"
 msgstr "Невозможно создать группу с пустым именем"
 
+#: bin/alterator-net-iptables:357 bin/iptables_helper:357
 #: bin/iptables_helper:393
 msgid "Can't add multiple values to list"
 msgstr "Невозможно добавить несколько значений в список"
@@ -673,6 +769,7 @@ msgstr "Ошибка открытия файла"
 msgid "Can't open temporary file"
 msgstr "Ошибка создания временного файла"
 
+#: bin/alterator-net-iptables:365 bin/iptables_helper:365
 #: bin/iptables_helper:401
 msgid "Can't remove multiple values from list"
 msgstr "Невозможно удалить несколько значений из списка"
@@ -681,12 +778,14 @@ msgstr "Невозможно удалить несколько значений 
 msgid "Can't remove user"
 msgstr "Невозможно удалить пользователя"
 
-#: standard input:5 ui/datetime/system/timezone/index.scm:60
+#: standard input:5 ui/bacula/backup/disk/index.scm:35
+#: ui/datetime/system/timezone/index.scm:60
 #: ui/datetime/installer/edit/index.scm:43 input:6
-#: ui/net-eth/advanced/index.scm:67 input:13
+#: ui/net-eth/advanced/index.scm:67 input:16
 #: ui/pkg/sources/mirrors/index.scm:60 ui/vm/choice.scm:35 ui/vm/popup.scm:112
 #: ui/x11/monitor/index.scm:28 ui/x11/driver/index.scm:31
-#: ui/xkb/avail_layout/index.scm:27 input:14 ui/pkg/upgrade/index.scm:47
+#: ui/xkb/avail_layout/index.scm:27 input:13 input:14
+#: ui/pkg/upgrade/index.scm:47
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -703,7 +802,7 @@ msgstr "Клавиша CapsLock"
 msgid "Case Insensitive"
 msgstr "Нечуствительность к регистру"
 
-#: standard input:17 input:11 input:12
+#: standard input:18 input:17 input:11 input:12
 msgid "Certificate"
 msgstr "Сертификат"
 
@@ -715,15 +814,16 @@ msgstr "Цепочка"
 msgid "Chain policy"
 msgstr "Политика цепочки"
 
-#: standard input:8 input:4 ui/pkg/sources/index.scm:32
+#: standard input:8 input:4 ui/pkg/sources/index.scm:33
+#: ui/pkg/sources/index.scm:32
 msgid "Change"
 msgstr "Изменить"
 
-#: standard input:6
+#: standard input:6 ui/bacula/backup/disk/index.scm:37
 msgid "Change disk"
 msgstr "Сменить диск"
 
-#: standard input:20
+#: standard input:20 ui/bacula/backup/index.scm:34
 msgid "Change disk..."
 msgstr "Сменить диск..."
 
@@ -773,7 +873,7 @@ msgstr "Поиск обновлений..."
 msgid "Choose candidate manually"
 msgstr "Указать кандидата вручную"
 
-#: standard input:12
+#: standard input:13 input:12
 msgid "Choose external interfaces for correct setup of system firewall:"
 msgstr "Выберите внешние интерфейсы для правильной настройки брандмауэра:"
 
@@ -781,7 +881,7 @@ msgstr "Выберите внешние интерфейсы для правил
 msgid "Choose interface language:"
 msgstr "Выберите язык интерфейса:"
 
-#: standard input:4
+#: standard input:5 input:4
 msgid "Choose server role:"
 msgstr "Выберите роль сервера:"
 
@@ -811,12 +911,19 @@ msgstr "Размер кластера"
 msgid "Color depth:"
 msgstr "Глубина цвета:"
 
+#. #-#-#-#-#  alterator-users.po (ru)  #-#-#-#-#
 #.
-#: standard input:4 ui/users/index.scm:81
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#.
+#: standard input:9 input:43 input:55 input:4 ui/users/index.scm:81
 msgid "Comment:"
 msgstr "Комментарий:"
 
-#: standard input:18 input:12 input:13
+#: standard input:4 input:37
+msgid "Commit"
+msgstr "Обновить конфигурацию"
+
+#: standard input:19 input:18 input:12 input:13
 msgid "Common Name (CN):"
 msgstr "Общее имя (CN):"
 
@@ -842,6 +949,9 @@ msgstr "Имя компьютера"
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#
 #.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#
+#.
 #: standard input:3 input:29 input:7 ui/net-eth/index.scm:74 input:9
 msgid "Computer name:"
 msgstr "Имя компьютера:"
@@ -849,6 +959,14 @@ msgstr "Имя компьютера:"
 #: standard input:2
 msgid "Computer shutdown"
 msgstr "Выключение компьютера"
+
+#: standard input:55
+msgid "Configuration"
+msgstr "Настройка"
+
+#: standard input:3
+msgid "Configuration backup files are saved in "
+msgstr "Резервные копии конфигурационных файлов сохраняются в "
 
 #.
 #: standard input:9 ui/net-eth/index.scm:91 input:7 ui/net-eth/index.scm:121
@@ -879,11 +997,20 @@ msgstr "Поздравляю! Вы обнаружили секретный ур�
 msgid "Connected to network"
 msgstr "Подключен к сети"
 
-#: standard input:15 ui/pkg/upgrade/index.scm:53
+#: standard input:54
+msgid "Connection method:"
+msgstr "Способ соединения:"
+
+#: standard input:11
+msgid "Content type: "
+msgstr ""
+
+#: ui/bacula/restore/index.scm:10 standard input:15
+#: ui/pkg/upgrade/index.scm:53
 msgid "Continue"
 msgstr "Продолжить"
 
-#: standard input:39
+#: standard input:43 input:39
 msgid "Continue work"
 msgstr "Продолжить работу"
 
@@ -903,7 +1030,7 @@ msgstr "Клавиши Control и Shift одновременно"
 msgid "Control+Shift keys (UK,RU,EN)"
 msgstr "Клавиши Control и Shift одновременно (UK, RU, EN)"
 
-#: standard input:20 input:14 input:15
+#: standard input:21 input:20 input:14 input:15
 msgid "Country (C):"
 msgstr "Страна (C):"
 
@@ -911,8 +1038,8 @@ msgstr "Страна (C):"
 msgid "Country:"
 msgstr "Страна:"
 
-#: standard input:2 ui/groups/index.scm:67 input:28 ui/users/index.scm:67
-#: input:13
+#: standard input:2 ui/groups/index.scm:67 input:3 input:10 input:28
+#: ui/users/index.scm:67 input:13
 msgid "Create"
 msgstr "Создать"
 
@@ -936,15 +1063,15 @@ msgstr "Создать том"
 msgid "Create Volume Group"
 msgstr "Создать группу томов"
 
-#: standard input:7
+#: standard input:7 ui/bacula/backup/advanced/index.scm:11
 msgid "Created backups:"
 msgstr "Созданные резервные копии:"
 
-#: standard input:8
+#: standard input:8 ui/bacula/backup/advanced/index.scm:15
 msgid "Creation date"
 msgstr "Дата создания"
 
-#: standard input:9
+#: standard input:9 ui/bacula/backup/advanced/index.scm:15
 msgid "Creation result"
 msgstr "Результат"
 
@@ -1030,7 +1157,7 @@ msgstr "Дата, время"
 msgid "Date/Time"
 msgstr "Дата и время"
 
-#: standard input:24
+#: standard input:24 ui/bacula/backup/index.scm:54
 msgid "Date:"
 msgstr "Дата:"
 
@@ -1064,6 +1191,9 @@ msgstr "Вариант загрузки, используемый по умол�
 #. #-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #: standard input:18 input:12 ui/net-eth/index.scm:102 input:10
@@ -1083,20 +1213,24 @@ msgstr "Главная рассылка сайта:"
 msgid "Default upload directory (/var/ftp/incoming)"
 msgstr "Стандартный каталог для приёма файлов (/var/ftp/incoming)"
 
-#: standard input:3
+#: standard input:4 input:3
 msgid "Define domain:"
 msgstr "Назначьте домен:"
+
+#: standard input:3
+msgid "Define organization name:"
+msgstr "Введите название организации:"
 
 #. raid1
 #: ui/vm/dummystr.scm:54
 msgid "Degraded array"
 msgstr "Деградированный массив"
 
-#: standard input:36 input:9 ui/groups/index.scm:91 index.scm:189
+#: standard input:37 input:9 ui/groups/index.scm:91 index.scm:189
 #: ui/lilo/expert/index.scm:189 input:5 input:12 ui/net-dnat/index.scm:34
-#: input:14 ui/net-wifi/index.scm:133 input:10
+#: input:14 ui/net-wifi/index.scm:133 backend3/openldap:94 input:10
 #: ui/pkg/sources/mirrors/index.scm:55 input:3 input:7 input:11 input:29
-#: input:17 input:25 input:37 input:30 input:31
+#: input:24 input:46 input:58 input:36 input:17 input:25 input:30 input:31
 msgid "Delete"
 msgstr "Удалить"
 
@@ -1105,13 +1239,21 @@ msgstr "Удалить"
 msgid "Delete connection"
 msgstr "Удалить соединение"
 
+#: standard input:20
+msgid "Delete domain"
+msgstr "Удалить домен"
+
 #: standard input:8
 msgid "Delete key"
 msgstr "Удалить ключ"
 
-#: standard input:14 ui/users/index.scm:118
+#: standard input:29 input:14 ui/users/index.scm:118
 msgid "Delete user"
 msgstr "Удалить пользователя"
+
+#: standard input:21
+msgid "Deny selected domains"
+msgstr "Запретить доступ в выбранные домены"
 
 #: standard input:5 ui/groups/index.scm:80 input:19 input:13
 msgid "Description:"
@@ -1124,6 +1266,10 @@ msgstr "Desktop-файл не найден"
 #: ui/html-messages.scm:45
 msgid "Destination address"
 msgstr "Адрес получателя"
+
+#: standard input:6
+msgid "Destination domains"
+msgstr "Целевые домены"
 
 #: standard input:16 input:12
 msgid "Destination of non-local mail:"
@@ -1154,6 +1300,22 @@ msgstr "Обнаруженное оборудование"
 msgid "Device:"
 msgstr "Устройство:"
 
+#: standard input:1
+msgid "Directory server configuration (OpenLDAP)"
+msgstr "Конфигурация службы каталогов (Open LDAP)"
+
+#: standard input:1
+msgid "Directory service LDAP"
+msgstr "Служба каталогов LDAP"
+
+#: backend3/bacula-backup:238
+msgid "Disk is not selected"
+msgstr "Не указан диск"
+
+#: standard input:1
+msgid "Disk quotas"
+msgstr "Ограничение использования диска"
+
 #: standard input:11 input:26 ui/sysinfo/index.scm:55 input:8
 msgid "Disk usage"
 msgstr "Использование диска"
@@ -1162,6 +1324,7 @@ msgstr "Использование диска"
 msgid "Display"
 msgstr "Дисплей"
 
+#: interfaces/guile/workflow/card-index.scm:143
 #: interfaces/guile/workflow/card-index.scm:149
 msgid "Do you really want to delete "
 msgstr "Вы действительно желаете удалить "
@@ -1173,6 +1336,10 @@ msgstr "Вы действительно хотите удалить пользо
 #: standard input:1
 msgid "Domain"
 msgstr "Домен"
+
+#: standard input:18
+msgid "Domain access"
+msgstr "Доступ к доменам"
 
 #: standard input:3 ui/net-domain/index.scm:27
 msgid "Domain change may reset data of some network services"
@@ -1186,7 +1353,11 @@ msgstr "Сервер доменных имён (DNS)"
 msgid "Domain:"
 msgstr "Домен:"
 
-#: standard input:12
+#: standard input:35
+msgid "Domains"
+msgstr "Домены"
+
+#: standard input:12 ui/bacula/backup/index.scm:9
 msgid "Don't backup system"
 msgstr "Не делать резервных копий системы"
 
@@ -1202,19 +1373,27 @@ msgstr "Не обновлять систему"
 msgid "Down"
 msgstr "Ниже"
 
-#: standard input:10
+#: standard input:12 input:10
 msgid "Download complete"
 msgstr "Загрузка завершена"
 
-#: standard input:9
+#: standard input:11 input:9
 msgid "Download failed"
 msgstr "Загрузка не удалась"
 
-#: standard input:31 input:25 input:26
+#: standard input:8
+msgid "Download file:"
+msgstr "Загрузить файл:"
+
+#: standard input:32 input:31 input:25 input:26
 msgid "Download sign request"
 msgstr "Забрать запрос на подпись"
 
-#: standard input:11
+#: standard input:13
+msgid "Download stopped"
+msgstr "Загрузка остановлена"
+
+#: standard input:14 input:11
 msgid "Downloading image..."
 msgstr "Загрузка образа..."
 
@@ -1250,6 +1429,10 @@ msgstr "Редактировать lilo.conf"
 msgid "Edit list..."
 msgstr "Редактировать список..."
 
+#: standard input:21
+msgid "Email"
+msgstr "Электронная почта"
+
 #: standard input:18
 msgid "Email host"
 msgstr "Адрес почтового сервера"
@@ -1269,6 +1452,14 @@ msgstr "Включить службу DHCP"
 #: standard input:3
 msgid "Enable FTP service"
 msgstr "Включить службу FTP"
+
+#: standard input:5
+msgid "Enable LDAP port"
+msgstr "Слушать порт LDAP"
+
+#: standard input:6
+msgid "Enable LDAPS (TLS)"
+msgstr "Слушать порт LDAPS (защищённый TLS)"
 
 #: standard input:5 ui/auth/index.scm:48
 msgid "Enable TLS/SSL"
@@ -1290,6 +1481,10 @@ msgstr "Включить трансляцию сетевых адресов (NAT
 msgid "Enable per user settings"
 msgstr "Разрешить настройки для локальных пользователей"
 
+#: standard input:2
+msgid "Enable proxy-server service"
+msgstr "Включить сервис прокси-сервера"
+
 #: standard input:4 ui/xinetd/index.scm:61
 msgid "Enable service"
 msgstr "Включить сервис"
@@ -1302,44 +1497,57 @@ msgstr "Шифрование"
 msgid "Ending IP address:"
 msgstr "Конечный IP адрес:"
 
-#: backend3/bacula-backup:39
+#: backend3/bacula-backup:125 backend3/bacula-backup:39
 msgid "Error"
 msgstr "Ошибка"
 
-#: bin/iptables_helper:361 bin/iptables_helper:363
+#: bin/alterator-net-iptables:325 bin/alterator-net-iptables:327
+#: bin/iptables_helper:325 bin/iptables_helper:327 bin/iptables_helper:361
+#: bin/iptables_helper:363
 msgid "Error while reloading firewalling rules"
 msgstr "Ошибка при перезагрузке правил брандмауэра"
 
+#: bin/alterator-net-iptables:332 bin/iptables_helper:332
 #: bin/iptables_helper:368
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr ""
 "Ошибка при запуске скриптов из /usr/lib/alterator/hooks/net-iptables.d/"
 
+#: bin/alterator-net-iptables:158 bin/iptables_helper:158
 #: bin/iptables_helper:200
 msgid "Error: bad SQUID port"
 msgstr "Ошибка: плохой порт для SQUID"
 
+#: bin/alterator-net-iptables:132 bin/iptables_helper:132
 #: bin/iptables_helper:174
 msgid "Error: bad TCP port"
 msgstr "Ошибка: плохой порт TCP"
 
+#: bin/alterator-net-iptables:155 bin/iptables_helper:155
 #: bin/iptables_helper:197
 msgid "Error: bad ULOGD mode"
 msgstr "Ошибка: плохой режим ULOGD"
 
+#: bin/alterator-net-iptables:137 bin/iptables_helper:137
 #: bin/iptables_helper:179
 msgid "Error: bad UTP port"
 msgstr "Ошибка: плохой порт UDP"
 
-#: bin/iptables_helper:212 bin/iptables_helper:214
+#: bin/alterator-net-iptables:170 bin/alterator-net-iptables:172
+#: bin/iptables_helper:170 bin/iptables_helper:172 bin/iptables_helper:212
+#: bin/iptables_helper:214
 msgid "Error: bad ip"
 msgstr "Ошибка: плохой IP адрес"
 
+#: bin/alterator-net-iptables:128 bin/iptables_helper:128
 #: bin/iptables_helper:170
 msgid "Error: bad mode"
 msgstr "Ошибка: плохой режим"
 
-#: bin/iptables_helper:208 bin/iptables_helper:210 bin/iptables_helper:320
+#: bin/alterator-net-iptables:166 bin/alterator-net-iptables:168
+#: bin/alterator-net-iptables:283 bin/iptables_helper:166
+#: bin/iptables_helper:168 bin/iptables_helper:283 bin/iptables_helper:208
+#: bin/iptables_helper:210 bin/iptables_helper:320
 msgid "Error: bad port"
 msgstr "Ошибка: плохой порт"
 
@@ -1347,10 +1555,12 @@ msgstr "Ошибка: плохой порт"
 msgid "Error: unknown interface"
 msgstr "Ошибка: неизвестный интерфейс"
 
+#: bin/alterator-net-iptables:164 bin/iptables_helper:164
 #: bin/iptables_helper:206
 msgid "Error: unknown protocol"
 msgstr "Ошибка: неизвестный протокол"
 
+#: bin/alterator-net-iptables:151 bin/iptables_helper:151
 #: bin/iptables_helper:193
 msgid "Error: unknown service"
 msgstr "Ошибка: неизвестная служба"
@@ -1375,7 +1585,11 @@ msgstr "Еженедельно в:"
 msgid "Execution of script failed"
 msgstr "Запуск скрипта не удался"
 
-#: standard input:51
+#: standard input:4
+msgid "Existing users"
+msgstr "Зарегистрированные пользователи:"
+
+#: standard input:62 input:51
 msgid "Exiting..."
 msgstr "Завершение работы..."
 
@@ -1384,8 +1598,8 @@ msgstr "Завершение работы..."
 msgid "Expand"
 msgstr "Увеличить"
 
-#: index.scm:122 ui/lilo/edit-source/index.scm:24 ui/lilo/index.scm:141
-#: ui/lilo/expert/index.scm:122
+#: standard input:50 index.scm:122 ui/lilo/edit-source/index.scm:24
+#: ui/lilo/index.scm:141 ui/lilo/expert/index.scm:122
 msgid "Expert mode"
 msgstr "Режим эксперта"
 
@@ -1436,7 +1650,7 @@ msgstr "FTP-сервер"
 msgid "Facility"
 msgstr "Системный объект"
 
-#: backend3/pkg-upgrade:125
+#: ui/bacula/restore/index.scm:24 backend3/pkg-upgrade:125
 msgid "Fatal error"
 msgstr "Критическая ошибка"
 
@@ -1460,6 +1674,10 @@ msgstr "Передача файлов (FTP)"
 msgid "Filesystem"
 msgstr "Файловая система"
 
+#: standard input:1 ui/quota/index.scm:39
+msgid "Filesystem:"
+msgstr "Файловая система:"
+
 #: standard input:24 input:20
 msgid "Filter out clients"
 msgstr "Фильтровать клиентов"
@@ -1479,6 +1697,9 @@ msgstr ""
 "#-#-#-#-#  alterator-ulogd.po (alterator-ulogd 0.1)  #-#-#-#-#\n"
 "внутренний\n"
 "#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
+"#-#-#-#-#  alterator-ulogd.po (alterator-ulogd 0.1)  #-#-#-#-#\n"
+"внутренний\n"
+"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
 
 #: ui/html-messages.scm:12
 msgid "Filtering rules"
@@ -1487,6 +1708,10 @@ msgstr "Правила фильтрации"
 #: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
 msgid "Finish"
 msgstr "Завершить"
+
+#: standard input:9
+msgid "First name:"
+msgstr "Имя:"
 
 #: standard input:5 ui/logs/index.scm:33
 msgid "First page"
@@ -1509,7 +1734,7 @@ msgid "Folder name:"
 msgstr "Имя папки:"
 
 # ahttpd-acl
-#: standard input:35 input:29 input:30
+#: standard input:36 input:35 input:29 input:30
 msgid "Following users have access:"
 msgstr "Следующие пользователи имеют доступ:"
 
@@ -1537,7 +1762,7 @@ msgstr "Форсировать"
 msgid "Format before using"
 msgstr "Отформатировать"
 
-#: backend3/net-dnat:27
+#: backend3/net-dnat:23 backend3/net-dnat:27
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr "%s пакеты, идущие на %s:%s, перенаправлять на %s:%s"
 
@@ -1557,11 +1782,20 @@ msgstr "Свободно"
 msgid "Frequency (MHz)"
 msgstr "Частота (МГц)"
 
+#: standard input:50
+msgid "From port:"
+msgstr "C порта:"
+
+#: backend3/bacula-backup:46 ui/pkg/groups/index.scm:89
+msgid "GB"
+msgstr "ГБ"
+
 #: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
 #: backend3/mirror:57
 msgid "Gb"
 msgstr "Гб"
 
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-iptables.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -1570,7 +1804,7 @@ msgstr "Гб"
 msgid "General options"
 msgstr "Общие параметры"
 
-#: standard input:8 input:2 input:14 input:10 input:3 input:4
+#: standard input:9 input:8 input:2 input:14 input:10 input:3 input:4
 msgid "General settings"
 msgstr "Общие настройки"
 
@@ -1578,15 +1812,19 @@ msgstr "Общие настройки"
 msgid "General settings..."
 msgstr "Общие настройки"
 
-#: standard input:11 input:5 ui/root/index.scm:37 input:12
-#: ui/users/index.scm:107 ui/users/add/index.scm:70
+#: standard input:12 input:5 ui/root/index.scm:37 ui/users/index.scm:107
+#: ui/users/add/index.scm:70 input:11
 msgid "Generate"
 msgstr "Сгенерировать"
 
-#: standard input:8 input:2 ui/root/index.scm:30 input:9
-#: ui/users/index.scm:100 ui/users/add/index.scm:63
+#: standard input:9 input:2 ui/root/index.scm:30 ui/users/index.scm:100
+#: ui/users/add/index.scm:63 input:8
 msgid "Generate automatically"
 msgstr "Создать автоматически"
+
+#: standard input:7
+msgid "Get from CD/DVD"
+msgstr "Загрузить с CD/DVD"
 
 #: standard input:1 ui/datetime/system/index.scm:23
 #: ui/datetime/installer/edit/index.scm:23 ui/datetime/index.scm:13
@@ -1601,7 +1839,7 @@ msgstr "Графический интерфейс"
 msgid "Group:"
 msgstr "Группа:"
 
-#: standard input:1
+#: standard input:1 input:36
 msgid "Groups"
 msgstr "Группы"
 
@@ -1613,13 +1851,17 @@ msgstr "Гостевой доступ"
 msgid "HTTP server"
 msgstr "HTTP-сервер"
 
-#: standard input:6 input:1
+#: standard input:7 input:1 input:6
 msgid "HTTP server is restarting now. Please wait..."
 msgstr "HTTP-сервер перезапускается. Пожалуйста, подождите..."
 
 #: helpers/lilo-hal.sh:42 helpers/lilo-sysfs.sh:42
 msgid "Hard drive"
 msgstr "Жёсткий диск"
+
+#: standard input:7 ui/quota/index.scm:56
+msgid "Hard limit:"
+msgstr "Жесткое ограничение:"
 
 #: standard input:1
 msgid "Harddisks"
@@ -1641,7 +1883,7 @@ msgstr "Хранить время в BIOS по Гринвичу"
 msgid "Has conflict with ~S"
 msgstr "Имеется конфликт с ~S"
 
-#: standard input:3 ui/wizard/index.scm:121 ui/sysconfig/base/index.scm:24
+#: standard input:3 ui/sysconfig/base/index.scm:24 ui/wizard/index.scm:121
 #: input:2 input:35
 msgid "Help"
 msgstr "Справка"
@@ -1650,16 +1892,13 @@ msgstr "Справка"
 msgid "Help:"
 msgstr "Справка:"
 
-#: standard input:47 input:4
-#, fuzzy
+#: standard input:57 input:4
 msgid "Hide help"
+msgstr "Скрыть справку"
+
+#: standard input:7
+msgid "Hierarchy/From: "
 msgstr ""
-"#-#-#-#-#  alterator-ahttpd.po (ru)  #-#-#-#-#\n"
-"Cкрыть справку\n"
-"#-#-#-#-#  alterator-firsttime.po (ru)  #-#-#-#-#\n"
-"Скрыть справку\n"
-"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
-"Скрыть справку"
 
 #.
 #: standard input:5 ui/users/index.scm:84
@@ -1683,7 +1922,7 @@ msgstr "Имя компьютера"
 msgid "Host name:"
 msgstr "Имя компьютера:"
 
-#: standard input:45 input:2 input:34
+#: standard input:54 input:2 input:45 input:34
 msgid "Hostname"
 msgstr "Имя компьютера"
 
@@ -1691,11 +1930,11 @@ msgstr "Имя компьютера"
 msgid "ICMP type"
 msgstr "Тип ICMP"
 
-#: backend3/dovecot:31
+#: backend3/dovecot:39 backend3/dovecot:31
 msgid "IMAP4"
 msgstr "IMAP4"
 
-#: backend3/dovecot:32
+#: backend3/dovecot:40 backend3/dovecot:32
 msgid "IMAP4 over TLS/SSL"
 msgstr "IMAP4 через TLS/SSL"
 
@@ -1709,10 +1948,17 @@ msgstr "IP-адрес"
 #. #-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #.
 #: standard input:2 input:27 input:10 ui/net-eth/index.scm:94 input:8
 #: ui/net-eth/index.scm:124
 msgid "IP address:"
+msgstr "IP-адрес:"
+
+#: standard input:39
+msgid "IP-address:"
 msgstr "IP-адрес:"
 
 #: standard input:11
@@ -1780,6 +2026,18 @@ msgstr "Файловая система initrd:"
 msgid "Inline Log Size"
 msgstr "Размер области журналирования"
 
+#: standard input:11 ui/quota/index.scm:68
+msgid "Inode hard limit:"
+msgstr "Жесткое ограничение количества файлов:"
+
+#: standard input:10 ui/quota/index.scm:64
+msgid "Inode soft limit:"
+msgstr "Мягкое ограничение количества файлов:"
+
+#: standard input:9 ui/quota/index.scm:60
+msgid "Inodes used:"
+msgstr "Количество файлов:"
+
 #: index.scm:131 ui/lilo/index.scm:112 ui/lilo/expert/index.scm:131
 msgid "Install boot loader on:"
 msgstr "Установить загрузчик на:"
@@ -1816,7 +2074,7 @@ msgstr "Количество процессов:"
 msgid "Interface"
 msgstr "Интерфейс"
 
-#: standard input:4
+#: standard input:5 input:4
 msgid "Interface language:"
 msgstr "Язык интерфейса:"
 
@@ -1828,6 +2086,11 @@ msgstr "Время ожидания:"
 msgid "Interface type:"
 msgstr "Интерфейс:"
 
+#. #-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#
@@ -1853,6 +2116,10 @@ msgstr "Интерфейс:"
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
+#: standard input:38
+msgid "Internal networks"
+msgstr "Внутренние сети"
+
 #: ui/pkg/cdrom/index.scm:10
 msgid "Into drive"
 msgstr "В привод"
@@ -1861,7 +2128,8 @@ msgstr "В привод"
 msgid "Invalid address range"
 msgstr "Неверный диапазон адресов"
 
-#: backend3/ahttpd-server:156 backend3/ahttpd-server:148
+#: backend3/ahttpd-server:161 backend3/ahttpd-server:156
+#: backend3/ahttpd-server:148
 msgid "Invalid certificate file"
 msgstr "Неверный сертификат"
 
@@ -1931,6 +2199,10 @@ msgstr "Июнь"
 msgid "Kb"
 msgstr "Кб"
 
+#: interfaces/guile/backend/squid.scm:51
+msgid "Kerberos"
+msgstr ""
+
 #: helpers/lilo-parser.sh:341
 msgid "Kernel image is unspecified."
 msgstr "Образ ядра не указан."
@@ -1959,7 +2231,7 @@ msgstr "LDAP"
 msgid "LDAP server:"
 msgstr "LDAP-сервер:"
 
-#: backend3/dovecot:36
+#: backend3/dovecot:44 backend3/dovecot:36
 msgid "LOGIN"
 msgstr "LOGIN"
 
@@ -1971,11 +2243,31 @@ msgstr "Название не указано."
 msgid "Label:"
 msgstr "Название:"
 
+#: standard input:8
+msgid "Last name:"
+msgstr "Фамилия:"
+
 #: standard input:6 ui/logs/index.scm:34
 msgid "Last page"
 msgstr "Последняя страница"
 
-#: standard input:18
+#: standard input:27
+msgid "Last request"
+msgstr "Последний запрос"
+
+#: standard input:2 input:22
+msgid "Last request on: "
+msgstr "Последний запрос был: "
+
+#: standard input:6
+msgid "Last request parameters"
+msgstr "Параметры последнего запроса"
+
+#: standard input:1
+msgid "Last update of the proxy-server configuration:"
+msgstr "Последнее обновление конфигурации прокси-сервера:"
+
+#: standard input:18 ui/bacula/backup/index.scm:25
 msgid "Latest backup:"
 msgstr "Последняя резервная копия:"
 
@@ -1986,6 +2278,10 @@ msgstr "Переключение раскладок:"
 #: standard input:5 ui/xkb/index.scm:33
 msgid "Layouts:"
 msgstr "Раскладки:"
+
+#: standard input:1
+msgid "Ldap user accounts"
+msgstr "Пользователи"
 
 #: ui/vm/ortodox.scm:98
 msgid "Let me make my changes after profile applying"
@@ -2020,7 +2316,7 @@ msgstr "Раздел Linux"
 msgid "List creator password:"
 msgstr "Пароль создателя рассылок:"
 
-#: standard input:11 input:5 input:6
+#: standard input:12 input:11 input:5 input:6
 msgid "Listen address:"
 msgstr "Адрес:"
 
@@ -2060,7 +2356,7 @@ msgstr "Локальные учётные записи"
 msgid "Local users settings"
 msgstr "Параметры локальных пользователей"
 
-#: standard input:22 input:16 input:17
+#: standard input:23 input:22 input:16 input:17
 msgid "Location (L):"
 msgstr "Местоположение (L):"
 
@@ -2068,15 +2364,15 @@ msgstr "Местоположение (L):"
 msgid "Log Size"
 msgstr "Размер области журналирования"
 
-#: standard input:13 input:7 input:8
+#: standard input:14 input:13 input:7 input:8
 msgid "Logging:"
 msgstr "Протоколирование:"
 
-#: standard input:5
+#: standard input:6 input:5
 msgid "Login"
 msgstr "Войти"
 
-#: standard input:48
+#: standard input:58 input:48
 msgid "Logout"
 msgstr "Выйти"
 
@@ -2091,6 +2387,10 @@ msgstr "MAC-адрес"
 #: standard input:1 input:28 input:21
 msgid "MAC address:"
 msgstr "MAC-адрес:"
+
+#: backend3/bacula-backup:45 ui/pkg/groups/index.scm:88
+msgid "MB"
+msgstr "МБ"
 
 #: ui/vm/dummystr.scm:49
 msgid "MD RAID 4/5 Region Manager"
@@ -2141,6 +2441,10 @@ msgstr "Почтовый сервер (SMTP)"
 #: standard input:1
 msgid "Mailing list server"
 msgstr "Сервер электронных рассылок"
+
+#: standard input:3
+msgid "Main settings"
+msgstr "Основные параметры"
 
 #: ui/vm/table.scm:222 ui/vm/table.scm:225
 msgid "Make Filesystem"
@@ -2203,9 +2507,17 @@ msgstr "ОЗУ (всего):"
 msgid "Memory usage"
 msgstr "Использование памяти"
 
+#: standard input:8
+msgid "Method: "
+msgstr ""
+
 #: interfaces/guile/ahttpd/translate.scm:45
 msgid "Mo"
 msgstr "Пн"
+
+#: standard input:20
+msgid "Mobile phone:"
+msgstr "Мобильный телефон:"
 
 #: standard input:4
 msgid "Mode:"
@@ -2220,12 +2532,12 @@ msgid "Model:"
 msgstr "Модель:"
 
 # ahttpd-acl
-#: standard input:34 input:28 input:29
+#: standard input:35 input:34 input:28 input:29
 msgid "Module access settings"
 msgstr "Параметры доступа к модулю"
 
 # ahttpd-acl
-#: standard input:50 input:37
+#: standard input:60 input:50 input:37
 msgid "Module access settings..."
 msgstr "Параметры доступа к модулю..."
 
@@ -2241,6 +2553,10 @@ msgstr "Производители мониторов:"
 #: input:5
 msgid "Monitor:"
 msgstr "Монитор:"
+
+#: standard input:20
+msgid "Month"
+msgstr "Месяц"
 
 #: ui/vm/table.scm:227
 msgid "Mount Filesystem"
@@ -2294,9 +2610,16 @@ msgstr "Имя группы томов"
 msgid "Name for the new LVM2 region."
 msgstr "Имя тома"
 
-#: ui/users/add/index.scm:51
+#: standard input:7 ui/users/add/index.scm:51
+#, fuzzy
 msgid "Name:"
-msgstr "Имя:"
+msgstr ""
+"#-#-#-#-#  alterator-ldap-users.po (alterator-ldap-users)  #-#-#-#-#\n"
+"Системное имя:\n"
+"#-#-#-#-#  alterator-users.po (ru)  #-#-#-#-#\n"
+"Имя:\n"
+"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
+"Имя:"
 
 #.
 #: standard input:11 ui/net-eth/index.scm:98 input:9 ui/net-eth/index.scm:128
@@ -2336,9 +2659,21 @@ msgstr "Сетевая подсистема:"
 msgid "Network traffic"
 msgstr "Сетевой трафик"
 
+#: standard input:34
+msgid "Networks"
+msgstr "Сети"
+
 #: standard input:16 ui/net-wifi/index.scm:139
 msgid "Networks found:"
 msgstr "Найденные сети:"
+
+#: standard input:13 input:47 input:59
+msgid "New"
+msgstr "Новая"
+
+#: standard input:2
+msgid "New account name:"
+msgstr "Учетная запись:"
 
 #: standard input:1 ui/users/index.scm:65
 msgid "New account:"
@@ -2352,9 +2687,17 @@ msgstr "Значение нового псевдонима:"
 msgid "New alias:"
 msgstr "Новый псевдоним:"
 
+#: standard input:9
+msgid "New base DN:"
+msgstr "Новый базовый DN:"
+
 #: standard input:1 ui/net-pppoe/index.scm:55 ui/net-pptp/index.scm:65
 msgid "New connection..."
 msgstr "Создать соединение..."
+
+#: standard input:22
+msgid "New email:"
+msgstr "Новый email:"
 
 #: standard input:27 input:12
 msgid "New folder:"
@@ -2389,18 +2732,24 @@ msgstr "Новый источник:"
 msgid "New static address:"
 msgstr "Новый статический адрес:"
 
-#: ui/users/add/index.scm:46
+#: standard input:1 ui/users/add/index.scm:46
+#, fuzzy
 msgid "New user account"
-msgstr "Новая учётная запись пользователя"
+msgstr ""
+"#-#-#-#-#  alterator-ldap-users.po (alterator-ldap-users)  #-#-#-#-#\n"
+"Новый пользователь\n"
+"#-#-#-#-#  alterator-users.po (ru)  #-#-#-#-#\n"
+"Новая учётная запись пользователя\n"
+"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
+"Новая учётная запись пользователя"
 
 # ahttpd-acl
-#: standard input:37 input:31 input:32
+#: standard input:38 input:37 input:31 input:32
 msgid "New user:"
 msgstr "Новый пользователь:"
 
-#: standard input:4 ui/logs/index.scm:31 ui/wizard/index.scm:38
-#: ui/wizard/index.scm:42 ui/wizard/index.scm:46
-#: ui/sysconfig/base/index.scm:25
+#: standard input:4 ui/logs/index.scm:31 ui/sysconfig/base/index.scm:25
+#: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
 msgid "Next"
 msgstr "Далее"
 
@@ -2408,10 +2757,15 @@ msgstr "Далее"
 msgid "Next operation"
 msgstr "Следующая операция"
 
-#: interfaces/guile/workflow/card-index.scm:150 backend3/samba:94
-#: ui/x11/c-messages.scm:3 backend3/samba:91 standard input:17
+#: interfaces/guile/workflow/card-index.scm:144 backend3/samba:94
+#: ui/x11/c-messages.scm:3 interfaces/guile/workflow/card-index.scm:150
+#: backend3/samba:91 standard input:17
 msgid "No"
 msgstr "Нет"
+
+#: interfaces/guile/backend/squid.scm:50
+msgid "No authentication"
+msgstr "Без аутентификации"
 
 #: backend3/netinst:18
 msgid "No image"
@@ -2442,6 +2796,10 @@ msgstr "Без пароля"
 msgid "No updates available"
 msgstr "Нет обновлений"
 
+#: interfaces/guile/backend/squid.scm:48
+msgid "Normal"
+msgstr "Обычный"
+
 #: backend3/net-wifi:402 backend3/net-wifi:428 backend3/net-wifi:438
 msgid "Not a wireless interface"
 msgstr "Не беспроводной интерфейс"
@@ -2453,6 +2811,10 @@ msgid ""
 msgstr ""
 "Изменение размеров раздела Vista может привести к невозможности загрузки с "
 "этого раздела. Продолжить?"
+
+#: standard input:40
+msgid "Note:"
+msgstr "Замечание:"
 
 #: interfaces/guile/ahttpd/translate.scm:63
 msgid "November"
@@ -2468,9 +2830,10 @@ msgstr "Число расслоений (stripes) для новой област
 
 #: ui/datetime/system/timezone/index.scm:59
 #: ui/datetime/installer/edit/index.scm:42 standard input:5
-#: ui/net-eth/advanced/index.scm:66 input:12 ui/net-wifi/index.scm:144
+#: ui/net-eth/advanced/index.scm:66 input:15 ui/net-wifi/index.scm:144
 #: ui/pkg/sources/mirrors/index.scm:59 ui/vm/choice.scm:34 ui/vm/popup.scm:109
 #: input:19 input:21 ui/x11/monitor/index.scm:22 ui/x11/driver/index.scm:25
+#: input:12
 msgid "OK"
 msgstr "OK"
 
@@ -2498,7 +2861,7 @@ msgstr "Выключен"
 msgid "Offset"
 msgstr "Смещение"
 
-#: standard input:17
+#: standard input:17 ui/bacula/backup/index.scm:23
 msgid "Oldest backup:"
 msgstr "Первая резервная копия:"
 
@@ -2534,11 +2897,15 @@ msgstr "Операция невозможна"
 msgid "Options"
 msgstr "Параметры"
 
-#: standard input:24 input:18 input:19
+#: standard input:25 input:24 input:18 input:19
 msgid "Organization (O):"
 msgstr "Организация (O):"
 
-#: standard input:26 input:20 input:21
+#: standard input:17
+msgid "Organization:"
+msgstr "Организация:"
+
+#: standard input:27 input:26 input:20 input:21
 msgid "Organizational Unit (OU):"
 msgstr "Подразделение (OU):"
 
@@ -2575,15 +2942,15 @@ msgstr "Другой производитель..."
 msgid "Out (Kb)"
 msgstr "Исходящие (Кб)"
 
-#: backend3/dovecot:35
+#: backend3/dovecot:43 backend3/dovecot:35
 msgid "PLAIN"
 msgstr "PLAIN"
 
-#: backend3/dovecot:29
+#: backend3/dovecot:37 backend3/dovecot:29
 msgid "POP3"
 msgstr "POP3"
 
-#: backend3/dovecot:30
+#: backend3/dovecot:38 backend3/dovecot:30
 msgid "POP3 over TLS/SSL"
 msgstr "POP3 через TLS/SSL"
 
@@ -2627,6 +2994,10 @@ msgstr "Следующие пакеты будут ЗАМЕНЕНЫ"
 msgid "Partition Type"
 msgstr "Тип раздела"
 
+#: interfaces/guile/backend/squid.scm:54
+msgid "Passthrough"
+msgstr "Сквозной"
+
 #: standard input:1
 msgid "Password for system administrator:"
 msgstr "Пароль системного администратора:"
@@ -2649,15 +3020,22 @@ msgstr "Слишком короткий пароль"
 #. #-#-#-#-#  alterator-users.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-users.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pppoe.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-users.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-pptp.pot (PACKAGE VERSION)  #-#-#-#-#
 #.
-#: standard input:3 input:6 ui/net-pppoe/index.scm:77 ui/net-pptp/index.scm:87
-#: input:8 ui/users/index.scm:97 ui/users/add/index.scm:60 input:4
-#: ui/sysconfig/proxy/index.scm:17
+#: standard input:4 input:6 ui/net-pppoe/index.scm:77 ui/net-pptp/index.scm:87
+#: ui/sysconfig/proxy/index.scm:17 input:8 ui/users/index.scm:97
+#: ui/users/add/index.scm:60 input:3
 msgid "Password:"
 msgstr "Пароль:"
 
@@ -2665,6 +3043,10 @@ msgstr "Пароль:"
 #: backend3/samba:237 backend3/users:207 backend3/users:235 backend3/root:30
 msgid "Passwords mismatch"
 msgstr "Введённые пароли не совпадают"
+
+#: standard input:10
+msgid "Patronym:"
+msgstr "Отчество:"
 
 #: ui/x11/c-messages.scm:4
 msgid "Pause"
@@ -2678,15 +3060,19 @@ msgstr "На каждого клиента:"
 msgid "Period:"
 msgstr "Период:"
 
+#: standard input:19
+msgid "Phone:"
+msgstr "Телефон:"
+
 #: ui/vm/table.scm:122
 msgid "Please assign \"/\" mount point"
 msgstr "Пожалуйста, назначьте какому-либо тому точку монтирования \"/\""
 
-#: backend3/bacula-backup:99
+#: backend3/bacula-backup:196 backend3/bacula-backup:99
 msgid "Please choose backup disk"
 msgstr "Пожалуйста выберите диск для резервного копирования"
 
-#: backend3/bacula-backup:107
+#: backend3/bacula-backup:204 backend3/bacula-backup:107
 msgid "Please define backup start time"
 msgstr "Пожалуйста назначьте время старта копирования"
 
@@ -2698,7 +3084,7 @@ msgstr "Пожалуйста, вставьте CD/DVD диск "
 msgid "Please insert disk"
 msgstr "Пожалуйста, вставьте CD/DVD диск"
 
-#: standard input:1
+#: standard input:2 input:1
 msgid "Please login"
 msgstr "Пожалуйста, зарегистрируйтесь"
 
@@ -2721,11 +3107,17 @@ msgstr "Пожалуйста, подождите..."
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-datetime.po (ru)  #-#-#-#-#
 #.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. #-#-#-#-#  alterator-datetime.po (ru)  #-#-#-#-#
+#.
 #: standard input:10 ui/datetime/system/timezone/index.scm:46
 #: ui/datetime/installer/index.scm:60 input:1 ui/timezone/index.scm:37
 msgid "Please, select country:"
 msgstr "Выберите страну:"
 
+#. #-#-#-#-#  alterator-datetime.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-datetime.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
@@ -2744,11 +3136,17 @@ msgstr "Порт (необязательно):"
 msgid "Port forwarding"
 msgstr "Перенаправление портов"
 
-#: standard input:9 input:3 input:2 ui/sysconfig/proxy/index.scm:9 input:4
+#: standard input:10 input:2 ui/sysconfig/proxy/index.scm:9 input:9 input:3
+#: input:4
 msgid "Port:"
 msgstr "Порт:"
 
-#: ui/pkg/install/index.scm:98 ui/pkg/groups/index.scm:134
+#: standard input:33
+msgid "Ports"
+msgstr "Порты"
+
+#: ui/bacula/restore/index.scm:49 ui/pkg/install/index.scm:98
+#: ui/pkg/groups/index.scm:148 ui/pkg/groups/index.scm:134
 #: ui/pkg/install/index.scm:92
 msgid "Preparing..."
 msgstr "Подготовка..."
@@ -2786,9 +3184,21 @@ msgstr "Программное обеспечение"
 msgid "Protocol"
 msgstr "Протокол"
 
+#: interfaces/guile/backend/squid.scm:53
+msgid "Proxy"
+msgstr "Прокси"
+
+#: standard input:28
+msgid "Proxy port:"
+msgstr "Порт прокси-сервера:"
+
 #: standard input:1 ui/html-messages.scm:67
 msgid "Proxy server"
 msgstr "Прокси-сервер"
+
+#: standard input:1
+msgid "Proxy server statistics"
+msgstr "Статистика использования проски-сервера"
 
 #: standard input:1 ui/sysconfig/proxy/index.scm:7
 msgid "Proxy server:"
@@ -2797,6 +3207,10 @@ msgstr "Прокси-сервер:"
 #: standard input:1
 msgid "Proxy settings"
 msgstr "Настройки proxy"
+
+#: backend3/openldap:92
+msgid "Publish"
+msgstr "Опубликовать"
 
 #: standard input:17
 msgid "Publish as a repository for automatic updates"
@@ -2843,7 +3257,7 @@ msgstr "Только чтение"
 msgid "Read/Write Check For Bad Blocks"
 msgstr "Проверка сбойных участков (чтение/запись)"
 
-#: standard input:41
+#: standard input:45 input:41
 msgid "Reboot computer now"
 msgstr "Перезагрузить компьютер сейчас"
 
@@ -2859,7 +3273,7 @@ msgstr "Перенастроить Ethernet-интерфейсы..."
 msgid "Reconfigure interface"
 msgstr "Перенастроить интерфейс"
 
-#: standard input:28 input:22 input:23
+#: standard input:29 input:28 input:22 input:23
 msgid "Recreate"
 msgstr "Пересоздать"
 
@@ -2870,6 +3284,10 @@ msgstr "Перезвонить при обрыве"
 #: standard input:33 input:29
 msgid "Redirect to"
 msgstr "Перенаправить на"
+
+#: standard input:49
+msgid "Registered ports"
+msgstr "Известные порты"
 
 #: ui/vm/dummystr.scm:10
 msgid "ReiserFS File System Interface Module"
@@ -2887,8 +3305,8 @@ msgstr "Удалённый доступ (SSH)"
 msgid "Remote access (telnet)"
 msgstr "Удалённый доступ (telnet)"
 
-#: standard input:14 ui/pkg/register/index.scm:44 input:7 ui/xkb/index.scm:38
-#: input:20
+#: standard input:24 input:14 ui/pkg/register/index.scm:44 input:7
+#: ui/xkb/index.scm:38 input:20
 msgid "Remove"
 msgstr "Удалить"
 
@@ -2908,9 +3326,12 @@ msgstr "Удалить выделенные"
 #. #-#-#-#-#  alterator-pkg.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. #-#-#-#-#  alterator-pkg.po (ru)  #-#-#-#-#
 #.
-#: standard input:1 ui/pkg/sources/index.scm:23 input:5
-#: ui/updates/index.scm:58
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#.
+#: standard input:1 ui/pkg/sources/index.scm:24 input:5
+#: ui/updates/index.scm:58 ui/pkg/sources/index.scm:23
 msgid "Repositories:"
 msgstr "Репозитории:"
 
@@ -2922,7 +3343,7 @@ msgstr "Репозиторий"
 msgid "Repository:"
 msgstr "Репозиторий:"
 
-#: ui/pkg/groups/index.scm:79
+#: ui/pkg/groups/index.scm:94 ui/pkg/groups/index.scm:79
 msgid "Required disk space"
 msgstr "Требуемое место на диске"
 
@@ -2934,83 +3355,30 @@ msgstr "Пороговое значение:"
 msgid "Rescan"
 msgstr "Сканировать"
 
-#: standard input:44 input:7 ui/auth/index.scm:55 input:9
+#: standard input:48 input:52 input:7 ui/auth/index.scm:55 input:9
 #: ui/datetime/installer/index.scm:81 input:5 input:20 input:6
-#: ui/dovecot/index.scm:53 input:8 ui/groups/index.scm:90 index.scm:187
+#: ui/dovecot/index.scm:60 input:8 ui/groups/index.scm:90 index.scm:187
 #: index.scm:207 ui/lilo/edit-source/index.scm:37 ui/lilo/expert/index.scm:187
 #: ui/lilo/expert/index.scm:207 input:3 input:19 ui/net-domain/index.scm:35
 #: input:18 ui/net-eth/index.scm:134 input:10 ui/net-iptables/index.scm:64
 #: ui/net-pppoe/index.scm:89 input:14 ui/net-pptp/index.scm:117 input:13
-#: ui/net-wifi/index.scm:132 input:21 ui/services/index.scm:64 input:22
-#: ui/html-messages.scm:15 ui/html-messages.scm:39 ui/html-messages.scm:58
-#: ui/updates/index.scm:91 ui/vm/table.scm:253 ui/xinetd/index.scm:97 input:16
-#: ui/net-eth/index.scm:160 input:4 input:17 ui/sysconfig/proxy/index.scm:29
-#: input:15 ui/timezone/index.scm:72 input:12
-#, fuzzy
+#: ui/net-wifi/index.scm:132 ui/quota/index.scm:74 input:21
+#: ui/services/index.scm:64 input:22 input:11 input:23 input:32 input:45
+#: input:57 ui/sysconfig/proxy/index.scm:29 ui/html-messages.scm:15
+#: ui/html-messages.scm:39 ui/html-messages.scm:58 ui/updates/index.scm:91
+#: ui/vm/table.scm:253 ui/xinetd/index.scm:97
 msgid "Reset"
-msgstr ""
-"#-#-#-#-#  alterator-ahttpd.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-alternatives.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-auth.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-datetime.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-dhcp.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-dovecot.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-groups.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-lilo.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-mirror.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-domain.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-eth.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-iptables.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-net-wifi.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-samba.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-services.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-spamassassin.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-ulogd.po (alterator-ulogd 0.1)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-updates.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-vm.po (alterator-vm 0.3)  #-#-#-#-#\n"
-"Сброс\n"
-"#-#-#-#-#  alterator-vsftpd.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-x11.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-xinetd.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  alterator-xkb.po (ru)  #-#-#-#-#\n"
-"Вернуть\n"
-"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
-"Вернуть"
+msgstr "Вернуть"
 
 #: standard input:20 ui/x11/index.scm:82 input:10
 msgid "Resolution:"
 msgstr "Разрешение:"
 
-#: standard input:7 input:1 input:2
+#: standard input:8 input:42 input:7 input:1 input:2
 msgid "Restart HTTP server"
 msgstr "Перезапустить HTTP-сервер"
 
-#: standard input:25
+#: standard input:25 ui/bacula/backup/index.scm:59
 msgid "Restore"
 msgstr "Восстановить"
 
@@ -3018,13 +3386,25 @@ msgstr "Восстановить"
 msgid "Restore default settings"
 msgstr "Восстановить настройки по умолчанию"
 
-#: standard input:23
+#: standard input:23 ui/bacula/backup/index.scm:45
 msgid "Restore file or directory:"
 msgstr "Восстановить файл или каталог:"
 
-#: standard input:22
+#: standard input:22 ui/bacula/backup/index.scm:41
 msgid "Restore user data"
 msgstr "Восстановить пользовательские данные"
+
+#: ui/bacula/restore/index.scm:50
+msgid "Restoring backup database..."
+msgstr "Восстановление базы данных по резервным копиям..."
+
+#: ui/bacula/restore/index.scm:52
+msgid "Restoring is done"
+msgstr "Восстановление завершено"
+
+#: ui/bacula/restore/index.scm:51
+msgid "Restoring system..."
+msgstr "Восстановление системы..."
 
 #: standard input:27 input:12 input:23
 msgid "Restrictions"
@@ -3034,7 +3414,7 @@ msgstr "Ограничения"
 msgid "Resume"
 msgstr "Пуск"
 
-#: standard input:10 input:16
+#: standard input:10 ui/bacula/backup/advanced/index.scm:20 input:16
 msgid "Return"
 msgstr "Вернуться"
 
@@ -3070,11 +3450,11 @@ msgstr "Правило:"
 msgid "Rules and scores"
 msgstr "Правила и баллы"
 
-#: standard input:11
+#: standard input:11 ui/bacula/backup/advanced/index.scm:22
 msgid "Run backup now"
 msgstr "Запустить создание резервной копии"
 
-#: backend3/bacula-backup:40
+#: backend3/bacula-backup:126 backend3/bacula-backup:40
 msgid "Running"
 msgstr "Работает"
 
@@ -3116,7 +3496,7 @@ msgstr "Подобный ключ уже существует"
 msgid "Same user already exists"
 msgstr "Подобный пользователь уже существует"
 
-#: standard input:5 index.scm:186 ui/lilo/expert/index.scm:186
+#: standard input:5 input:28 index.scm:186 ui/lilo/expert/index.scm:186
 msgid "Save"
 msgstr "Сохранить"
 
@@ -3124,7 +3504,7 @@ msgstr "Сохранить"
 msgid "Save route to VPN gateway"
 msgstr "Сохранить маршрут к VPN-серверу"
 
-#: standard input:19
+#: standard input:19 ui/bacula/backup/index.scm:32
 msgid "Save settings"
 msgstr "Сохранить параметры"
 
@@ -3153,12 +3533,16 @@ msgstr "Домен поиска:"
 msgid "Search domains:"
 msgstr "Домены поиска:"
 
+#: ui/bacula/restore/index.scm:48
+msgid "Searching for backups..."
+msgstr "Поиск резервных копий..."
+
 #: helpers/lilo-parser.sh:316
 msgid "Section already exists."
 msgstr "Вариант загрузки с таким именем уже существует."
 
 #: standard input:2 input:3 input:4 input:6 input:18 ui/html-messages.scm:13
-#: ui/vm/choice.scm:28 input:12 input:5 input:8
+#: ui/vm/choice.scm:28
 #, fuzzy
 msgid "Select"
 msgstr ""
@@ -3189,9 +3573,15 @@ msgstr ""
 "#-#-#-#-#  alterator-xinetd.po (ru)  #-#-#-#-#\n"
 "Выбрать\n"
 "#-#-#-#-#  alterator-xkb.po (ru)  #-#-#-#-#\n"
-"Выбрать\n"
-"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
 "Выбрать"
+
+#: standard input:14
+msgid "Select action:"
+msgstr "Выберите операцию:"
+
+#: standard input:27
+msgid "Select authentication mode:"
+msgstr "Выберите способ аутентфикации:"
 
 #: ui/vm/ortodox.scm:78
 msgid "Select disks for use"
@@ -3213,9 +3603,17 @@ msgstr "Выберите группы пакетов для установки:"
 msgid "Select installation method"
 msgstr "Выберите метод установки"
 
+#: standard input:30
+msgid "Select internal interfaces:"
+msgstr "Выберете внутренние интерфейсы:"
+
 #: ui/vm/ortodox.scm:83
 msgid "Select profile"
 msgstr "Выберите профиль"
+
+#: standard input:26
+msgid "Select proxying mode:"
+msgstr "Выберите режим проксирования:"
 
 #: ui/sysconfig/base/index.scm:29
 msgid "Select your language:"
@@ -3229,6 +3627,9 @@ msgstr "Сентябрь"
 msgid "Server args:"
 msgstr "Аргументы сервера:"
 
+#. #-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
@@ -3261,6 +3662,10 @@ msgstr "Службы"
 msgid "Services:"
 msgstr "Службы:"
 
+#: standard input:16
+msgid "Set"
+msgstr "Установить"
+
 #: standard input:22
 msgid "Setup e-mail service"
 msgstr "Настройка службы электронной почты"
@@ -3286,7 +3691,7 @@ msgstr "Настройка устройств ввода-вывода"
 msgid "Setup network connections"
 msgstr "Настройка подключения к сети"
 
-#: standard input:7 ui/root/index.scm:24 input:1
+#: standard input:8 ui/root/index.scm:24 input:7 input:1
 msgid "Setup password for system administrator:"
 msgstr "Укажите пароль для системного администратора:"
 
@@ -3319,7 +3724,7 @@ msgstr "Показать"
 msgid "Show extra options"
 msgstr "Показывать дополнительные настройки"
 
-#: standard input:46 input:3
+#: standard input:56 input:3 input:46
 msgid "Show help"
 msgstr "Показать справку"
 
@@ -3337,7 +3742,7 @@ msgstr "Уменьшить"
 msgid "Shrink by Size"
 msgstr "Уменьшить на"
 
-#: standard input:30 input:24 input:25
+#: standard input:31 input:30 input:24 input:25
 msgid "Sign"
 msgstr "Подпись"
 
@@ -3370,6 +3775,10 @@ msgstr "Размер [свободно]"
 msgid "Size for the new LVM2 region."
 msgstr "Размер тома"
 
+#: standard input:29
+msgid "Size summary (Kb)"
+msgstr "Всего получено, Кб"
+
 #. shrink lv
 #: ui/vm/dummystr.scm:69
 msgid "Size to remove from the LVM2 region."
@@ -3387,11 +3796,15 @@ msgstr "Не показывать первичные группы"
 msgid "Skip system groups"
 msgstr "Не показывать системные группы"
 
-#: standard input:5 input:6
+#: standard input:5 ui/quota/index.scm:52
+msgid "Soft limit:"
+msgstr "Мягкое ограничение:"
+
+#: standard input:5 input:12 input:6
 msgid "Source"
 msgstr "Источник"
 
-#: standard input:3 ui/pkg/sources/index.scm:30
+#: standard input:3 ui/pkg/sources/index.scm:31 ui/pkg/sources/index.scm:30
 msgid "Source URI:"
 msgstr "Адрес источника:"
 
@@ -3435,7 +3848,7 @@ msgstr "Установка пакетов началась..."
 msgid "Start, stop or restart service."
 msgstr ""
 
-#: standard input:1 input:13 input:7
+#: standard input:2 input:13 input:7 input:1
 msgid "Start, stop or restart service..."
 msgstr "Запустить, остановить или перезапустить службу..."
 
@@ -3447,6 +3860,9 @@ msgstr "Запустить, остановить или перезапустит
 msgid "Starting IP address:"
 msgstr "Начальный IP адрес:"
 
+#. #-#-#-#-#  alterator-control.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-control.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
@@ -3470,6 +3886,19 @@ msgstr "Статистика"
 msgid "Statistics per interface"
 msgstr "Статистика по интерфейсу"
 
+#: standard input:13
+msgid "Statistics updated: "
+msgstr "Статистика обновлена: "
+
+#: standard input:13
+msgid "Status"
+msgstr "Состояние"
+
+#. #-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#
+#.
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#
 #.
 #. #-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#
@@ -3495,19 +3924,27 @@ msgstr "Состояние:"
 msgid "Storage free space:"
 msgstr "Свободное место:"
 
+#: ui/bacula/backup/disk/index.scm:22
+msgid "Store backups for:"
+msgstr "Хранить резервные копии за:"
+
 #: interfaces/guile/ahttpd/translate.scm:51
 msgid "Su"
 msgstr "Вс"
 
-#: backend3/bacula-backup:38
+#: backend3/bacula-backup:124 backend3/bacula-backup:38
 msgid "Success"
 msgstr "Успешно"
+
+#: standard input:7
+msgid "Suffix:"
+msgstr "Суффикс:"
 
 #: standard input:2 ui/control/index.scm:27
 msgid "Summary"
 msgstr "Комментарий"
 
-#: standard input:2 ui/dovecot/index.scm:29
+#: standard input:1 ui/dovecot/index.scm:31 input:2 ui/dovecot/index.scm:29
 msgid "Supported protocols:"
 msgstr "Поддерживаемые протоколы:"
 
@@ -3547,7 +3984,7 @@ msgstr "Администратор системы"
 msgid "System clock setup"
 msgstr "Настройка системных часов"
 
-#: backend3/bacula-backup:29
+#: backend3/bacula-backup:114 backend3/bacula-backup:29
 msgid "System disk"
 msgstr "Системный диск"
 
@@ -3559,7 +3996,7 @@ msgstr "Информация о системе"
 msgid "System logs"
 msgstr "Системные журналы"
 
-#: standard input:49 ui/acc/index.scm:12 input:36
+#: standard input:59 ui/acc/index.scm:12 input:49 input:36
 msgid "System management center"
 msgstr "Центр управления системой"
 
@@ -3595,6 +4032,10 @@ msgstr "Управление системными пользователями..
 msgid "System users management"
 msgstr "Управление пользователями системы"
 
+#: backend3/bacula-backup:47 ui/pkg/groups/index.scm:90
+msgid "TB"
+msgstr "ТБ"
+
 #: ui/html-messages.scm:50
 msgid "TCP flags"
 msgstr "Флаги TCP"
@@ -3603,7 +4044,7 @@ msgstr "Флаги TCP"
 msgid "TCP option"
 msgstr "Параметр TCP"
 
-#: standard input:16 input:10 input:11
+#: standard input:17 input:16 input:10 input:11
 msgid "TLS settings"
 msgstr "Настройки TLS"
 
@@ -3611,6 +4052,9 @@ msgstr "Настройки TLS"
 #, fuzzy
 msgid "Table"
 msgstr ""
+"#-#-#-#-#  alterator-ulogd.po (alterator-ulogd 0.1)  #-#-#-#-#\n"
+"Всего\n"
+"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
 "#-#-#-#-#  alterator-ulogd.po (alterator-ulogd 0.1)  #-#-#-#-#\n"
 "Всего\n"
 "#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
@@ -3679,6 +4123,20 @@ msgstr ""
 msgid "This disk is already added"
 msgstr "Данный диск уже добавлен"
 
+#: standard input:1 input:53 input:61
+msgid ""
+"This page uses Javascript. Your browser either doesn't support Javascript or "
+"you have it turned off. To see this page as it is meant to appear please use "
+"a Javascript enabled browser."
+msgstr ""
+"Эта страница использует Javascript. Ваш браузер или не "
+"поддерживаетJavascript или вы его отключили.Для нормальной работы с этой "
+"страницы пожалуйста используйте браузер с включенной поддержкой Javascript."
+
+#: standard input:28
+msgid "Time summary"
+msgstr "Всего времени"
+
 #: standard input:1
 msgid "Time zone"
 msgstr "Часовой пояс"
@@ -3691,25 +4149,67 @@ msgstr "Часовой пояс:"
 msgid "Time:"
 msgstr "Время:"
 
-#: standard input:13 input:28 ui/sysinfo/index.scm:57 backend3/ulogd:132
+#: standard input:18
+msgid "Title:"
+msgstr "Должность:"
+
+#: standard input:52
+msgid "To port:"
+msgstr "По порт:"
+
+#: standard input:18
+msgid "Today"
+msgstr "Сегодня"
+
+#: standard input:21 input:13 input:28 ui/sysinfo/index.scm:57
+#: backend3/ulogd:132
 msgid "Total"
 msgstr "Всего"
+
+#: standard input:4 input:24
+msgid "Total data received: "
+msgstr "Всего получено: "
+
+#: standard input:3 input:23
+msgid "Total time elapsed: "
+msgstr "Всего времени прошло: "
+
+#: interfaces/guile/backend/squid.scm:47
+msgid "Transparent"
+msgstr "Прозрачный"
 
 #: interfaces/guile/ahttpd/translate.scm:46
 msgid "Tu"
 msgstr "Вт"
 
-#: standard input:42
+#: standard input:46 input:42
 msgid "Turn off computer every day at:"
 msgstr "Выключать компьютер каждый день в:"
 
-#: standard input:40
+#: standard input:44 input:40
+#, fuzzy
 msgid "Turn off computer now"
-msgstr "Выключить комьпютер сейчас"
+msgstr ""
+"#-#-#-#-#  alterator-ahttpd.po (ru)  #-#-#-#-#\n"
+"Выключить компьютер сейчас\n"
+"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
+"Выключить комьпютер сейчас"
 
 #: backend3/net-eth:144
 msgid "Turned off"
 msgstr "Выключено"
+
+#: standard input:26
+msgid "UID/Address"
+msgstr "UID/IP-адрес"
+
+#: standard input:1
+msgid "UID/IP Address: "
+msgstr "UID/IP-адрес: "
+
+#: standard input:9
+msgid "URI: "
+msgstr ""
 
 #: standard input:17
 msgid "URL host"
@@ -3735,6 +4235,16 @@ msgstr "Невозможно создать все разделы, недост�
 msgid "Unable to create network"
 msgstr "Невозможно создать сеть"
 
+#: ui/bacula/restore/index.scm:31
+msgid "Unable to find backup disk. Please insert one and try again..."
+msgstr ""
+"Диск с резервной копией не найден. Убедитесь что диск вставлен и попробуйте "
+"ещё..."
+
+#: backend3/bacula-backup:243
+msgid "Unable to mount disk"
+msgstr "Ошибка монтирования диска"
+
 #: ui/vm/lucky.scm:60
 msgid "Unable to partition, not enough disk space"
 msgstr "Невозможно создать все разделы, недостаточно места на диске"
@@ -3755,6 +4265,11 @@ msgstr "Неизвестный вариант загрузки"
 msgid "Unknown service"
 msgstr "Неизвестная служба"
 
+#: backend3/openldap:93
+msgid "Unpublish"
+msgstr "Скрыть"
+
+#: interfaces/guile/workflow/card-index.scm:153
 #: interfaces/guile/workflow/card-index.scm:159
 msgid "Unsupported mode"
 msgstr "Неподдерживаемый режим"
@@ -3767,6 +4282,10 @@ msgstr "Выше"
 msgid "Update help"
 msgstr "Обновить справку"
 
+#: standard input:17
+msgid "Update now"
+msgstr "Обновить сейчас"
+
 #: standard input:6 ui/updates/index.scm:63
 msgid "Update schedule"
 msgstr "Расписание обновлений"
@@ -3774,6 +4293,10 @@ msgstr "Расписание обновлений"
 #: standard input:6 input:2
 msgid "Update sources"
 msgstr "Источники обновлений"
+
+#: standard input:14
+msgid "Update statistic data automatically each "
+msgstr "Обновлять данные автоматически, каждые "
 
 #: standard input:13 ui/pkg/upgrade/index.scm:41
 msgid "Update system"
@@ -3799,11 +4322,11 @@ msgstr "Обновление завершено"
 msgid "Upgrade is starting..."
 msgstr "Начало обновления..."
 
-#: standard input:33 input:27 input:28
+#: standard input:34 input:33 input:27 input:28
 msgid "Upload"
 msgstr "Положить"
 
-#: standard input:32 input:26 input:27
+#: standard input:33 input:32 input:26 input:27
 msgid "Upload certificate signed by CA:"
 msgstr "Положить сертификат, подписанный УЦ:"
 
@@ -3815,6 +4338,10 @@ msgstr "Использовать DHCP"
 msgid "Use Zeroconf"
 msgstr "Использовать Zeroconf"
 
+#: standard input:2 ui/bacula/backup/disk/index.scm:15
+msgid "Use additional disk:"
+msgstr "Использовать дополнительный диск:"
+
 #: standard input:11 input:5
 msgid "Use automatic sender whitelist:"
 msgstr "Вести белый список отправителей:"
@@ -3823,7 +4350,7 @@ msgstr "Вести белый список отправителей:"
 msgid "Use external USB disk"
 msgstr "Использовать внешний USB диск"
 
-#: standard input:1
+#: standard input:1 ui/bacula/backup/disk/index.scm:12
 msgid "Use system disk"
 msgstr "Использовать системный диск"
 
@@ -3835,11 +4362,27 @@ msgstr "Использовать неразмеченное пространст
 msgid "Used"
 msgstr "Используется"
 
+#: standard input:3 ui/quota/index.scm:48
+msgid "Used disk space:"
+msgstr "Текущее использование диска:"
+
 #: standard input:16
 msgid "User"
 msgstr "Пользователь"
 
-#: standard input:5 ui/xinetd/index.scm:63
+#: standard input:6
+msgid "User account:"
+msgstr "Учетная запись"
+
+#: standard input:16
+msgid "User groups"
+msgstr "Группы пользователей"
+
+#: standard input:5
+msgid "User's List:"
+msgstr "Список:"
+
+#: standard input:2 ui/quota/index.scm:43 input:5 ui/xinetd/index.scm:63
 msgid "User:"
 msgstr "Пользователь:"
 
@@ -3868,7 +4411,7 @@ msgstr "Версия mkreiserfs"
 msgid "Video card:"
 msgstr "Видеокарта:"
 
-#: standard input:2
+#: standard input:2 input:30
 msgid "View"
 msgstr "Посмотреть"
 
@@ -3901,7 +4444,7 @@ msgstr "WPA персональный (WPA-PSK)"
 msgid "WPA2 Personal (WPA-PSK)"
 msgstr "WPA2 персональный (WPA-PSK)"
 
-#: backend3/bacula-backup:37
+#: backend3/bacula-backup:123 backend3/bacula-backup:37
 msgid "Waiting"
 msgstr "Ожидание"
 
@@ -3930,6 +4473,10 @@ msgstr "Веб-интерфейс"
 msgid "Web server (HTTP/HTTPS)"
 msgstr "Веб-сервер (HTTP/HTTPS)"
 
+#: standard input:19
+msgid "Week"
+msgstr "Неделя"
+
 #: standard input:1
 msgid "Wi-Fi setup"
 msgstr "Настройка WiFi"
@@ -3946,6 +4493,10 @@ msgstr "Настройка беспроводной связи..."
 #: backend3/sysconfig-base:35
 msgid "Without dead keys"
 msgstr "Без 'мёртвых' клавиш"
+
+#: standard input:16
+msgid "Work"
+msgstr "Работа"
 
 #: standard input:3 ui/datetime/system/index.scm:27
 #: ui/datetime/installer/edit/index.scm:27 ui/datetime/index.scm:17
@@ -3978,10 +4529,14 @@ msgstr "Службы xinetd"
 #. #-#-#-#-#  alterator-x11.po (ru)  #-#-#-#-#
 #. messages from C tools
 #. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. #-#-#-#-#  alterator-x11.po (ru)  #-#-#-#-#
+#. messages from C tools
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-x11.pot (PACKAGE VERSION)  #-#-#-#-#
 #. messages from C tools
-#: interfaces/guile/workflow/card-index.scm:152 backend3/samba:92
-#: ui/x11/c-messages.scm:2 backend3/samba:89 standard input:16
+#: interfaces/guile/workflow/card-index.scm:146 backend3/samba:92
+#: ui/x11/c-messages.scm:2 interfaces/guile/workflow/card-index.scm:152
+#: backend3/samba:89 standard input:16
 msgid "Yes"
 msgstr "Да"
 
@@ -3997,6 +4552,11 @@ msgstr "Да, я согласен."
 msgid ""
 "You are trying to close port for this configuration interface. Are you sure?"
 msgstr ""
+
+#: hooks/net-eth-precommit.d/office-server:21
+msgid "You must define as minimum one statically configured Ethernet interface"
+msgstr ""
+"Вы должны иметь хотя бы один статически сконфигурированный Ethernet интерфейс"
 
 #: standard input:6 input:2
 msgid ""
@@ -4033,6 +4593,14 @@ msgstr "Вы должны явно задать другой адрес"
 msgid "You should define network interface"
 msgstr "Вы должны назначить интерфейс"
 
+#: interfaces/guile/type/domain-suffix.scm:14
+msgid ""
+"a number of names each starting with a dot (only small latin letters and '-' "
+"symbol are allowed)"
+msgstr ""
+"несколько имён, начинающихся с точки (только маленькие латинские буквы и "
+"символ '-')"
+
 #: backend3/net-wifi:227
 msgid "access point"
 msgstr "точка доступа"
@@ -4041,8 +4609,12 @@ msgstr "точка доступа"
 msgid "all connections"
 msgstr "все соединения"
 
-#: bin/iptables_helper:7
+#: bin/alterator-net-iptables:7 bin/iptables_helper:7
 msgid "alterator-net-iptables"
+msgstr ""
+
+#: hooks/net-eth-precommit.d/office-server:7
+msgid "alterator-office-server"
 msgstr ""
 
 #: backend3/lilo:116
@@ -4073,7 +4645,7 @@ msgstr "по  аппаратному адресу (MAC)"
 msgid "by bus location"
 msgstr "по местоположению на шине"
 
-#: ui/pkg/groups/index.scm:85
+#: ui/pkg/groups/index.scm:100 ui/pkg/groups/index.scm:85
 msgid "calculating..."
 msgstr "вычисление..."
 
@@ -4107,6 +4679,9 @@ msgstr "невозможно изменить пароль"
 #, fuzzy
 msgid "check"
 msgstr ""
+"#-#-#-#-#  alterator-ulogd.po (alterator-ulogd 0.1)  #-#-#-#-#\n"
+"Сверять IP\n"
+"#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
 "#-#-#-#-#  alterator-ulogd.po (alterator-ulogd 0.1)  #-#-#-#-#\n"
 "Сверять IP\n"
 "#-#-#-#-#  ru.po (ru)  #-#-#-#-#\n"
@@ -4209,6 +4784,10 @@ msgstr "из группы"
 msgid "gateway"
 msgstr "шлюз"
 
+#: backend3/net-iptables:24
+msgid "gateway (NAT)"
+msgstr "шлюз (NAT)"
+
 #: backend3/users:118
 msgid "gid not unique"
 msgstr "gid не уникален"
@@ -4222,14 +4801,23 @@ msgstr "графический"
 msgid "group name not unique"
 msgstr "имя группы уже занято"
 
-#: bin/iptables_helper:206 bin/iptables_helper:208 bin/iptables_helper:210
-#: bin/iptables_helper:212 bin/iptables_helper:214
+#: bin/alterator-net-iptables:164 bin/alterator-net-iptables:166
+#: bin/alterator-net-iptables:168 bin/alterator-net-iptables:170
+#: bin/alterator-net-iptables:172 bin/iptables_helper:164
+#: bin/iptables_helper:166 bin/iptables_helper:168 bin/iptables_helper:170
+#: bin/iptables_helper:172 bin/iptables_helper:206 bin/iptables_helper:208
+#: bin/iptables_helper:210 bin/iptables_helper:212 bin/iptables_helper:214
 msgid "in DNAT rule"
 msgstr "в правиле DNAT"
 
+#: bin/alterator-net-iptables:283 bin/iptables_helper:283
 #: bin/iptables_helper:320
 msgid "in desktop-file for service"
 msgstr "в desktop-файле для сервиса"
+
+#: backend3/squid-commit:42
+msgid "in progress..."
+msgstr "в процессе..."
 
 #: ui/vm/dummystr.scm:88
 msgid "inaccesible or not a directory"
@@ -4317,7 +4905,20 @@ msgstr "недопустимый список имён компьютеров"
 msgid "invalid resource name"
 msgstr "неверное имя ресурса"
 
-#: standard input:5
+#: backend3/bacula-backup:44 ui/pkg/groups/index.scm:87
+msgid "kB"
+msgstr "кБ"
+
+#: standard input:4 input:6 input:8 ui/quota/index.scm:50
+#: ui/quota/index.scm:54 ui/quota/index.scm:58
+msgid "kb"
+msgstr "кб"
+
+#: backend3/squid-commit:48
+msgid "manually updated"
+msgstr "обновлена вручную"
+
+#: standard input:6 input:5
 msgid "master"
 msgstr "главный"
 
@@ -4344,6 +4945,10 @@ msgstr "понедельник"
 #: ui/net-eth/index.scm:94
 msgid "multiple values should be space separated"
 msgstr "несколько значений записываются через пробел"
+
+#: interfaces/guile/backend/squidmill.scm:256 backend3/squid-commit:70
+msgid "never"
+msgstr "никогда"
 
 #: backend3/mirror:121 backend3/mirror:122 backend3/mirror:145
 #: backend3/mirror:152 backend3/vsftpd:56
@@ -4374,6 +4979,7 @@ msgstr "не контролируется"
 msgid "nothing"
 msgstr "отсутствует"
 
+#: type/ahttpd-cert-field.scm:11
 #: interfaces/guile/type/ahttpd-cert-field.scm:11
 #: interfaces/guile/type/latin-string.scm:11
 msgid "only digits and latin letters allowed"
@@ -4405,6 +5011,7 @@ msgstr "провод подсоединён"
 msgid "port:"
 msgstr "порт:"
 
+#: bin/alterator-net-iptables:164 bin/iptables_helper:164
 #: bin/iptables_helper:186 bin/iptables_helper:206
 msgid "possible values:"
 msgstr "допустимые значения:"
@@ -4461,7 +5068,7 @@ msgstr "должно быть число"
 msgid "simple mode"
 msgstr "упрощённый режим"
 
-#: standard input:6
+#: standard input:7 input:6
 msgid "slave"
 msgstr "подчинённый"
 
@@ -4473,6 +5080,11 @@ msgstr "указанная группа не существует"
 msgid "specified user doesn't exist"
 msgstr "пользователь не существует"
 
+#. #-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pppoe.po (ru)  #-#-#-#-#
 #. '
 #. #-#-#-#-#  alterator-net-pptp.po (ru)  #-#-#-#-#
@@ -4539,7 +5151,7 @@ msgstr "uid уже используется"
 msgid "unable to add user %s to group %s"
 msgstr "невозможно добавить пользователя %s в группу %s"
 
-#: ui/pkg/groups/index.scm:91
+#: ui/pkg/groups/index.scm:105 ui/pkg/groups/index.scm:91
 msgid "unable to calculate"
 msgstr "невозможно вычислить"
 
@@ -4548,10 +5160,15 @@ msgstr "невозможно вычислить"
 msgid "unable to setup time"
 msgstr "невозможно установить время"
 
+#. #-#-#-#-#  alterator-services.po (ru)  #-#-#-#-#
 #. Get status information: stopped|running|unknown
 #. Usage string must be provided
 #. (srv usage)
-#: backend3/services:49
+#. #-#-#-#-#  ru.po (ru)  #-#-#-#-#
+#. Get status information: stopped|running|unknown
+#. Usage string must be provided
+#. (srv usage)
+#: backend3/services:49 backend3/squid-commit:62 backend3/squid-commit:66
 msgid "unknown"
 msgstr "неизвестно"
 
@@ -4572,6 +5189,10 @@ msgstr "имя пользователя уже занято"
 msgid "via:"
 msgstr "через:"
 
+#: standard input:31
+msgid "view"
+msgstr "просмотр"
+
 #: standard input:11
 msgid "view full log of the latest operation"
 msgstr "посмотреть подробный отчёт о последней выполненной операции"
@@ -4588,6 +5209,21 @@ msgstr ""
 "да\n"
 "#-#-#-#-#  alterator-vsftpd.po (ru)  #-#-#-#-#\n"
 "есть"
+
+#: interfaces/guile/backend/squidmill.scm:166
+#, lisp-format
+msgid "~5,3f s"
+msgstr "~5,3f с"
+
+#: interfaces/guile/backend/squidmill.scm:168
+#, lisp-format
+msgid "~d h "
+msgstr "~d ч "
+
+#: interfaces/guile/backend/squidmill.scm:167
+#, lisp-format
+msgid "~d min "
+msgstr "~d мин "
 
 #~ msgid "Software updates"
 #~ msgstr "Обновление ПО"
