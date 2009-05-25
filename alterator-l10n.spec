@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.3
-Release: alt10
+Release: alt11
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -67,17 +67,32 @@ make check
 %lang(pt_BR) %config(noreplace) %_sysconfdir/alterator/l10n/*-pt_BR
 %lang(es) %config(noreplace) %_sysconfdir/alterator/l10n/*-es_*
 
+%dir %_datadir/alterator/help/
+%lang(en) %dir %_datadir/alterator/help/en_US/
 %lang(en) %_datadir/alterator/help/en_US/*.html
-%lang(ru) %_datadir/alterator/help/ru_RU/*.html
-#%lang(uk) %_datadir/alterator/help/uk_UA/*.html
-%lang(pt_BR) %_datadir/alterator/help/pt_BR/*.html
 
+%lang(ru) %dir %_datadir/alterator/help/ru_RU/
+%lang(ru) %_datadir/alterator/help/ru_RU/*.html
 %lang(ru) %_datadir/locale/ru/LC_MESSAGES/*.mo
+
+#%lang(uk) %dir %_datadir/alterator/help/uk_UA/
+#%lang(uk) %_datadir/alterator/help/uk_UA/*.html
 #%lang(uk) %_datadir/locale/uk/LC_MESSAGES/*.mo
+
+%lang(pt_BR) %dir %_datadir/alterator/help/pt_BR/
+%lang(pt_BR) %_datadir/alterator/help/pt_BR/*.html
 %lang(pt_BR) %_datadir/locale/pt_BR/LC_MESSAGES/*.mo
+
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon May 25 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.3-alt11
+[barabashka@]
+- add initial russian ldap-groups translate
+- add initial russian ldap-users translate
+[slazav@]
+- pack ownerless dirs (/usr/share/alterator/help)
+
 * Thu May 21 2009 Stanislav Ievlev <inger@altlinux.org> 2.3-alt10
 - update translations for alterator-bacula
 
