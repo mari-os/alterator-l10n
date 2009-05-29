@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-21 10:41+0400\n"
+"POT-Creation-Date: 2009-05-29 12:57+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,31 +18,35 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: backend3/bacula-backup:145
+#: backend3/bacula-backup:167
 msgid "1 month"
 msgstr "1 месяц"
 
-#: backend3/bacula-backup:143
+#: backend3/bacula-backup:165
 msgid "1 week"
 msgstr "1 неделя"
 
-#: backend3/bacula-backup:144
+#: backend3/bacula-backup:166
 msgid "2 weeks"
 msgstr "2 недели"
 
-#: standard input:21 ui/bacula/backup/index.scm:36
+#: standard input:16 ui/bacula/backup/advanced/index.scm:38
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:26 ui/bacula/backup/index.scm:34
 msgid "Advanced..."
 msgstr "Дополнительно..."
 
-#: standard input:4 ui/bacula/backup/disk/index.scm:30
+#: standard input:5 ui/bacula/backup/disk/index.scm:35
 msgid "All existing backups on the new disk will be removed."
 msgstr "Все существующие резервные копии на новом диске будут удалены."
 
-#: standard input:3 ui/bacula/backup/disk/index.scm:29
+#: standard input:4 ui/bacula/backup/disk/index.scm:34
 msgid "Attention:"
 msgstr "Внимание:"
 
-#: backend3/bacula-backup:43
+#: backend3/bacula-backup:63
 msgid "B"
 msgstr "Б"
 
@@ -50,31 +54,31 @@ msgstr "Б"
 msgid "Backup"
 msgstr "Резервное копирование"
 
-#: standard input:16 ui/bacula/backup/index.scm:21
+#: standard input:21 ui/bacula/backup/index.scm:19
 msgid "Backup disk:"
 msgstr "Диск c резервной копией:"
 
-#: standard input:13
+#: standard input:19
 msgid "Backup start time:"
 msgstr "Время начала резервного копирования:"
 
-#: standard input:14 ui/bacula/backup/index.scm:13
+#: standard input:20 ui/bacula/backup/index.scm:13
 msgid "Backup system every day at:"
 msgstr "Делать резервные копии системы каждый день в:"
 
-#: standard input:15 ui/bacula/backup/index.scm:18
-msgid "Backup user data"
-msgstr "Резервные копии пользовательских данных"
-
-#: standard input:5 ui/bacula/backup/disk/index.scm:35
+#: standard input:6 ui/bacula/backup/disk/index.scm:40
 msgid "Cancel"
 msgstr "Отмена"
 
-#: standard input:6 ui/bacula/backup/disk/index.scm:37
+#: standard input:12 ui/bacula/backup/advanced/index.scm:24
+msgid "Cancel active jobs"
+msgstr "Отменить активные задания"
+
+#: standard input:7 ui/bacula/backup/disk/index.scm:42
 msgid "Change disk"
 msgstr "Сменить диск"
 
-#: standard input:20 ui/bacula/backup/index.scm:34
+#: standard input:25 ui/bacula/backup/index.scm:32
 msgid "Change disk..."
 msgstr "Сменить диск..."
 
@@ -82,31 +86,39 @@ msgstr "Сменить диск..."
 msgid "Continue"
 msgstr "Продолжить"
 
-#: standard input:7 ui/bacula/backup/advanced/index.scm:11
+#: standard input:8 ui/bacula/backup/advanced/index.scm:12
 msgid "Created backups:"
 msgstr "Созданные резервные копии:"
 
-#: standard input:8 ui/bacula/backup/advanced/index.scm:15
+#: standard input:9 ui/bacula/backup/advanced/index.scm:17
 msgid "Creation date"
 msgstr "Дата создания"
 
-#: standard input:9 ui/bacula/backup/advanced/index.scm:15
+#: standard input:10 ui/bacula/backup/advanced/index.scm:17
 msgid "Creation result"
 msgstr "Результат"
 
-#: standard input:24 ui/bacula/backup/index.scm:54
+#: standard input:29 ui/bacula/backup/index.scm:52
 msgid "Date:"
 msgstr "Дата:"
 
-#: backend3/bacula-backup:238
+#: standard input:14 ui/bacula/backup/advanced/index.scm:31
+msgid "Delete"
+msgstr "Удалить"
+
+#: backend3/bacula-backup:271
 msgid "Disk is not selected"
 msgstr "Не указан диск"
 
-#: standard input:12 ui/bacula/backup/index.scm:9
+#: standard input:13 ui/bacula/backup/advanced/index.scm:28
+msgid "Do not backup:"
+msgstr "Не делать резервных копий для:"
+
+#: standard input:18 ui/bacula/backup/index.scm:9
 msgid "Don't backup system"
 msgstr "Не делать резервных копий системы"
 
-#: backend3/bacula-backup:125
+#: backend3/bacula-backup:148
 msgid "Error"
 msgstr "Ошибка"
 
@@ -114,27 +126,31 @@ msgstr "Ошибка"
 msgid "Fatal error"
 msgstr "Критическая ошибка"
 
-#: backend3/bacula-backup:46
+#: backend3/bacula-backup:66
 msgid "GB"
 msgstr "ГБ"
 
-#: standard input:18 ui/bacula/backup/index.scm:25
+#: standard input:23 ui/bacula/backup/index.scm:23
 msgid "Latest backup:"
 msgstr "Последняя резервная копия:"
 
-#: backend3/bacula-backup:45
+#: backend3/bacula-backup:65
 msgid "MB"
 msgstr "МБ"
 
-#: standard input:17 ui/bacula/backup/index.scm:23
+#: standard input:15
+msgid "New path:"
+msgstr "Новый путь:"
+
+#: standard input:22 ui/bacula/backup/index.scm:21
 msgid "Oldest backup:"
 msgstr "Первая резервная копия:"
 
-#: backend3/bacula-backup:196
+#: backend3/bacula-backup:238
 msgid "Please choose backup disk"
 msgstr "Пожалуйста выберите диск для резервного копирования"
 
-#: backend3/bacula-backup:204
+#: backend3/bacula-backup:246
 msgid "Please define backup start time"
 msgstr "Пожалуйста назначьте время старта копирования"
 
@@ -142,15 +158,19 @@ msgstr "Пожалуйста назначьте время старта копи
 msgid "Preparing..."
 msgstr "Подготовка..."
 
-#: standard input:25 ui/bacula/backup/index.scm:59
+#: standard input:30 ui/bacula/backup/index.scm:57
 msgid "Restore"
 msgstr "Восстановить"
 
-#: standard input:23 ui/bacula/backup/index.scm:45
+#: standard input:28 ui/bacula/backup/index.scm:43
 msgid "Restore file or directory:"
 msgstr "Восстановить файл или каталог:"
 
-#: standard input:22 ui/bacula/backup/index.scm:41
+#: backend3/bacula-restore:141
+msgid "Restore is failed..."
+msgstr "Ошибка восстановления"
+
+#: standard input:27 ui/bacula/backup/index.scm:39
 msgid "Restore user data"
 msgstr "Восстановить пользовательские данные"
 
@@ -166,7 +186,7 @@ msgstr "Восстановление завершено"
 msgid "Restoring system..."
 msgstr "Восстановление системы..."
 
-#: standard input:10 ui/bacula/backup/advanced/index.scm:20
+#: standard input:17 ui/bacula/backup/advanced/index.scm:41
 msgid "Return"
 msgstr "Вернуться"
 
@@ -174,11 +194,11 @@ msgstr "Вернуться"
 msgid "Run backup now"
 msgstr "Запустить создание резервной копии"
 
-#: backend3/bacula-backup:126
+#: backend3/bacula-backup:149
 msgid "Running"
 msgstr "Работает"
 
-#: standard input:19 ui/bacula/backup/index.scm:32
+#: standard input:24 ui/bacula/backup/index.scm:30
 msgid "Save settings"
 msgstr "Сохранить параметры"
 
@@ -186,19 +206,19 @@ msgstr "Сохранить параметры"
 msgid "Searching for backups..."
 msgstr "Поиск резервных копий..."
 
-#: ui/bacula/backup/disk/index.scm:22
+#: standard input:3 ui/bacula/backup/disk/index.scm:27
 msgid "Store backups for:"
 msgstr "Хранить резервные копии за:"
 
-#: backend3/bacula-backup:124
+#: backend3/bacula-backup:147
 msgid "Success"
 msgstr "Успешно"
 
-#: backend3/bacula-backup:114
+#: backend3/bacula-backup:137
 msgid "System disk"
 msgstr "Системный диск"
 
-#: backend3/bacula-backup:47
+#: backend3/bacula-backup:67
 msgid "TB"
 msgstr "ТБ"
 
@@ -208,22 +228,35 @@ msgstr ""
 "Диск с резервной копией не найден. Убедитесь что диск вставлен и попробуйте "
 "ещё..."
 
-#: backend3/bacula-backup:243
+#: backend3/bacula-backup:304 backend3/bacula-backup:314
+msgid "Unable to modify settings until some jobs is runnning"
+msgstr ""
+"Невозможно изменить настройки во время исполнения резервного копирования"
+
+#: backend3/bacula-backup:276
 msgid "Unable to mount disk"
 msgstr "Ошибка монтирования диска"
 
-#: standard input:2 ui/bacula/backup/disk/index.scm:15
+#: standard input:2 ui/bacula/backup/disk/index.scm:20
 msgid "Use additional disk:"
 msgstr "Использовать дополнительный диск:"
 
-#: standard input:1 ui/bacula/backup/disk/index.scm:12
+#: standard input:1 ui/bacula/backup/disk/index.scm:14
 msgid "Use system disk"
 msgstr "Использовать системный диск"
 
-#: backend3/bacula-backup:123
+#: backend3/bacula-backup:146
 msgid "Waiting"
 msgstr "Ожидание"
 
-#: backend3/bacula-backup:44
+#: backend3/bacula-restore:132
+msgid "Waiting..."
+msgstr "Ожидание..."
+
+#: type/bacula-system-path.scm:11
+msgid "invalid system path specification"
+msgstr "неверно указан путь на файловой системе"
+
+#: backend3/bacula-backup:64
 msgid "kB"
 msgstr "кБ"
