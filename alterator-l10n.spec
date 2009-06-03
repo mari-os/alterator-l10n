@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.3
-Release: alt12
+Release: alt13
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -86,6 +86,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Jun 03 2009 Stanislav Ievlev <inger@altlinux.org> 2.3-alt13
+- update translations for alterator-bacula
+
 * Fri May 29 2009 Stanislav Ievlev <inger@altlinux.org> 2.3-alt12
 - update translations for alterator-bacula
 

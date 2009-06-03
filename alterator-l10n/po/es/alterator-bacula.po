@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-29 12:57+0400\n"
+"POT-Creation-Date: 2009-06-03 11:12+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: backend3/bacula-backup:167
+#: backend3/bacula-backup:151
 msgid "1 month"
 msgstr "1 mês"
 
-#: backend3/bacula-backup:165
+#: backend3/bacula-backup:149
 msgid "1 week"
 msgstr "1 semana"
 
-#: backend3/bacula-backup:166
+#: backend3/bacula-backup:150
 msgid "2 weeks"
 msgstr "2 semanas"
 
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Attention:"
 msgstr "Acción"
 
-#: backend3/bacula-backup:63
+#: backend3/bacula-backup:47
 msgid "B"
 msgstr ""
 
@@ -86,7 +86,7 @@ msgstr "Alteración"
 msgid "Change disk..."
 msgstr "Alteración"
 
-#: ui/bacula/restore/index.scm:10
+#: ui/bacula/restore/search/index.scm:10
 msgid "Continue"
 msgstr ""
 
@@ -103,7 +103,7 @@ msgstr "Configurar la Fecha Actual:"
 msgid "Creation result"
 msgstr ""
 
-#: standard input:29 ui/bacula/backup/index.scm:52
+#: standard input:28 ui/bacula/backup/index.scm:47
 msgid "Date:"
 msgstr ""
 
@@ -111,7 +111,7 @@ msgstr ""
 msgid "Delete"
 msgstr "Borrar"
 
-#: backend3/bacula-backup:271
+#: backend3/bacula-backup:250
 #, fuzzy
 msgid "Disk is not selected"
 msgstr "Por selecionado:"
@@ -124,28 +124,37 @@ msgstr ""
 msgid "Don't backup system"
 msgstr ""
 
-#: backend3/bacula-backup:148
+#: backend3/bacula-backup:132
 msgid "Error"
 msgstr ""
 
-#: ui/bacula/restore/index.scm:24
+#: ui/bacula/restore/restore/index.scm:44
+msgid "Error during restore process"
+msgstr ""
+
+#: ui/bacula/restore/restore/index.scm:36
+#: ui/bacula/restore/search/index.scm:27
 #, fuzzy
 msgid "Fatal error"
 msgstr "Limpiar Direcciones de \"Mirror\""
 
-#: backend3/bacula-backup:66
+#: backend3/bacula-backup:50
 msgid "GB"
+msgstr ""
+
+#: ui/bacula/restore/restore/index.scm:45
+msgid "However you can try to continue installation"
 msgstr ""
 
 #: standard input:23 ui/bacula/backup/index.scm:23
 msgid "Latest backup:"
 msgstr ""
 
-#: backend3/bacula-backup:65
+#: backend3/bacula-backup:49
 msgid "MB"
 msgstr ""
 
-#: standard input:15
+#: standard input:15 ui/bacula/backup/advanced/index.scm:36
 #, fuzzy
 msgid "New path:"
 msgstr "Nueva cuenta:"
@@ -154,46 +163,37 @@ msgstr "Nueva cuenta:"
 msgid "Oldest backup:"
 msgstr ""
 
-#: backend3/bacula-backup:238
+#: backend3/bacula-backup:217
 #, fuzzy
 msgid "Please choose backup disk"
 msgstr "Por favor insira un Disco"
 
-#: backend3/bacula-backup:246
+#: backend3/bacula-backup:225
 msgid "Please define backup start time"
 msgstr ""
 
-#: ui/bacula/restore/index.scm:49
+#: ui/bacula/restore/search/index.scm:50
 msgid "Preparing..."
 msgstr "Preparando..."
 
-#: standard input:30 ui/bacula/backup/index.scm:57
+#: standard input:29 ui/bacula/backup/index.scm:52
 msgid "Restore"
 msgstr ""
 
-#: standard input:28 ui/bacula/backup/index.scm:43
+#: standard input:27 ui/bacula/backup/index.scm:44
 #, fuzzy
 msgid "Restore file or directory:"
 msgstr "Directorio Inicial:"
 
-#: backend3/bacula-restore:141
-#, fuzzy
-msgid "Restore is failed..."
-msgstr "Prueba falló"
-
-#: standard input:27 ui/bacula/backup/index.scm:39
-msgid "Restore user data"
-msgstr ""
-
-#: ui/bacula/restore/index.scm:50
+#: ui/bacula/restore/search/index.scm:51
 msgid "Restoring backup database..."
 msgstr ""
 
-#: ui/bacula/restore/index.scm:52
+#: ui/bacula/restore/restore/index.scm:68
 msgid "Restoring is done"
 msgstr ""
 
-#: ui/bacula/restore/index.scm:51
+#: ui/bacula/restore/restore/index.scm:67
 #, fuzzy
 msgid "Restoring system..."
 msgstr "Configuraciones de Rede"
@@ -206,47 +206,53 @@ msgstr ""
 msgid "Run backup now"
 msgstr ""
 
-#: backend3/bacula-backup:149
+#: backend3/bacula-backup:133
 #, fuzzy
 msgid "Running"
 msgstr "rodando"
+
+#: ui/bacula/restore/restore/index.scm:66
+#, fuzzy
+msgid "Running restore process..."
+msgstr "Download in progreso"
 
 #: standard input:24 ui/bacula/backup/index.scm:30
 #, fuzzy
 msgid "Save settings"
 msgstr "Ajustes"
 
-#: ui/bacula/restore/index.scm:48
+#: ui/bacula/restore/search/index.scm:49
 msgid "Searching for backups..."
 msgstr ""
+
+#: ui/bacula/restore/restore/index.scm:21
+#, fuzzy
+msgid "Select backup date:"
+msgstr "Borrar conección"
 
 #: standard input:3 ui/bacula/backup/disk/index.scm:27
 msgid "Store backups for:"
 msgstr ""
 
-#: backend3/bacula-backup:147
+#: backend3/bacula-backup:131
 #, fuzzy
 msgid "Success"
 msgstr "Acesso Convidado"
 
-#: backend3/bacula-backup:137
+#: backend3/bacula-backup:121
 #, fuzzy
 msgid "System disk"
 msgstr "Usuário del Sistema"
 
-#: backend3/bacula-backup:67
+#: backend3/bacula-backup:51
 msgid "TB"
 msgstr ""
 
-#: ui/bacula/restore/index.scm:31
+#: ui/bacula/restore/search/index.scm:34
 msgid "Unable to find backup disk. Please insert one and try again..."
 msgstr ""
 
-#: backend3/bacula-backup:304 backend3/bacula-backup:314
-msgid "Unable to modify settings until some jobs is runnning"
-msgstr ""
-
-#: backend3/bacula-backup:276
+#: backend3/bacula-backup:255
 #, fuzzy
 msgid "Unable to mount disk"
 msgstr "No fue posible configurar el Reloj"
@@ -261,20 +267,23 @@ msgstr "Paquetes adicionales"
 msgid "Use system disk"
 msgstr "Otras configuraciones del Sistema"
 
-#: backend3/bacula-backup:146
+#: backend3/bacula-backup:130
 msgid "Waiting"
 msgstr ""
 
-#: backend3/bacula-restore:132
+#: backend3/bacula-restore:159
 #, fuzzy
 msgid "Waiting..."
 msgstr "calculando..."
 
-#: type/bacula-system-path.scm:11
-#, fuzzy
-msgid "invalid system path specification"
-msgstr "IP Inválido"
-
-#: backend3/bacula-backup:64
+#: backend3/bacula-backup:48
 msgid "kB"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Restore is failed..."
+#~ msgstr "Prueba falló"
+
+#, fuzzy
+#~ msgid "invalid system path specification"
+#~ msgstr "IP Inválido"
