@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-27 14:33+0400\n"
+"POT-Creation-Date: 2009-06-03 18:14+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -15,26 +15,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "#-#-#-#-#  alterator-net-iptables.po (ru)  #-#-#-#-#\n"
+"#-#-#-#-#  alterator-net-iptables.po (ru)  #-#-#-#-#\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: bin/alterator-net-iptables:158 bin/iptables_helper:158
+#: bin/alterator-net-iptables:165 bin/iptables_helper:165
 msgid "(must be a number or empty string)"
 msgstr "(должно быть числом или пустой строкой)"
 
-#: bin/alterator-net-iptables:132 bin/alterator-net-iptables:137
-#: bin/alterator-net-iptables:166 bin/alterator-net-iptables:168
-#: bin/iptables_helper:132 bin/iptables_helper:137 bin/iptables_helper:166
-#: bin/iptables_helper:168
+#: bin/alterator-net-iptables:139 bin/alterator-net-iptables:144
+#: bin/alterator-net-iptables:173 bin/alterator-net-iptables:175
+#: bin/iptables_helper:139 bin/iptables_helper:144 bin/iptables_helper:173
+#: bin/iptables_helper:175
 msgid "(must be a number)"
 msgstr "(должно быть числом)"
 
-#: bin/alterator-net-iptables:128 bin/iptables_helper:128
+#: bin/alterator-net-iptables:135 bin/iptables_helper:135
 msgid "(possible values: gateway or router)"
 msgstr "(допустимые значения: gateway или router)"
 
-#: bin/alterator-net-iptables:155 bin/iptables_helper:155
+#: bin/alterator-net-iptables:162 bin/iptables_helper:162
 msgid "(possible values: on or off)"
 msgstr "(допустимые значения: on или off)"
 
@@ -63,64 +64,82 @@ msgstr "Применить"
 msgid "Available rules:"
 msgstr "Доступные правила:"
 
-#: bin/alterator-net-iptables:357 bin/iptables_helper:357
+#: standard input:13
+msgid "CUPS printing system"
+msgstr "Система печати CUPS"
+
+#: bin/alterator-net-iptables:395 bin/iptables_helper:395
 msgid "Can't add multiple values to list"
 msgstr "Невозможно добавить несколько значений в список"
 
-#: bin/alterator-net-iptables:365 bin/iptables_helper:365
+#: bin/alterator-net-iptables:403 bin/iptables_helper:403
 msgid "Can't remove multiple values from list"
 msgstr "Невозможно удалить несколько значений из списка"
+
+#: standard input:8
+msgid "DHCP server"
+msgstr "DHCP-сервер"
+
+#: standard input:14
+msgid "DNS server"
+msgstr "DNS-сервер"
 
 #: standard input:12 ui/net-dnat/index.scm:34
 msgid "Delete"
 msgstr "Удалить"
 
-#: bin/alterator-net-iptables:325 bin/alterator-net-iptables:327
-#: bin/iptables_helper:325 bin/iptables_helper:327
+#: bin/alterator-net-iptables:363 bin/alterator-net-iptables:365
+#: bin/iptables_helper:363 bin/iptables_helper:365
 msgid "Error while reloading firewalling rules"
 msgstr "Ошибка при перезагрузке правил брандмауэра"
 
-#: bin/alterator-net-iptables:332 bin/iptables_helper:332
+#: bin/alterator-net-iptables:370 bin/iptables_helper:370
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr ""
 "Ошибка при запуске скриптов из /usr/lib/alterator/hooks/net-iptables.d/"
 
-#: bin/alterator-net-iptables:158 bin/iptables_helper:158
+#: bin/alterator-net-iptables:189 bin/iptables_helper:189
+#, fuzzy
+msgid "Error: bad MAC-address"
+msgstr "Ошибка: плохой режим"
+
+#: bin/alterator-net-iptables:165 bin/iptables_helper:165
 msgid "Error: bad SQUID port"
 msgstr "Ошибка: плохой порт для SQUID"
 
-#: bin/alterator-net-iptables:132 bin/iptables_helper:132
+#: bin/alterator-net-iptables:139 bin/iptables_helper:139
 msgid "Error: bad TCP port"
 msgstr "Ошибка: плохой порт TCP"
 
-#: bin/alterator-net-iptables:155 bin/iptables_helper:155
+#: bin/alterator-net-iptables:162 bin/iptables_helper:162
 msgid "Error: bad ULOGD mode"
 msgstr "Ошибка: плохой режим ULOGD"
 
-#: bin/alterator-net-iptables:137 bin/iptables_helper:137
+#: bin/alterator-net-iptables:144 bin/iptables_helper:144
 msgid "Error: bad UTP port"
 msgstr "Ошибка: плохой порт UDP"
 
-#: bin/alterator-net-iptables:170 bin/alterator-net-iptables:172
-#: bin/iptables_helper:170 bin/iptables_helper:172
+#: bin/alterator-net-iptables:177 bin/alterator-net-iptables:179
+#: bin/alterator-net-iptables:187 bin/iptables_helper:177
+#: bin/iptables_helper:179 bin/iptables_helper:187
 msgid "Error: bad ip"
 msgstr "Ошибка: плохой IP адрес"
 
-#: bin/alterator-net-iptables:128 bin/iptables_helper:128
+#: bin/alterator-net-iptables:135 bin/iptables_helper:135
 msgid "Error: bad mode"
 msgstr "Ошибка: плохой режим"
 
-#: bin/alterator-net-iptables:166 bin/alterator-net-iptables:168
-#: bin/alterator-net-iptables:283 bin/iptables_helper:166
-#: bin/iptables_helper:168 bin/iptables_helper:283
+#: bin/alterator-net-iptables:173 bin/alterator-net-iptables:175
+#: bin/alterator-net-iptables:321 bin/iptables_helper:173
+#: bin/iptables_helper:175 bin/iptables_helper:321
 msgid "Error: bad port"
 msgstr "Ошибка: плохой порт"
 
-#: bin/alterator-net-iptables:164 bin/iptables_helper:164
+#: bin/alterator-net-iptables:171 bin/iptables_helper:171
 msgid "Error: unknown protocol"
 msgstr "Ошибка: неизвестный протокол"
 
-#: bin/alterator-net-iptables:151 bin/iptables_helper:151
+#: bin/alterator-net-iptables:158 bin/iptables_helper:158
 msgid "Error: unknown service"
 msgstr "Ошибка: неизвестная служба"
 
@@ -132,17 +151,61 @@ msgstr "Дополнительные порты TCP:"
 msgid "Extra UDP ports:"
 msgstr "Дополнительные порты UDP:"
 
+#: standard input:9
+msgid "File server (Samba)"
+msgstr "Файловый сервер (Samba)"
+
+#: standard input:7
+msgid "File transfer (FTP)"
+msgstr "Передача файлов (FTP)"
+
 #: backend3/net-dnat:23
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr "%s пакеты, идущие на %s:%s, перенаправлять на %s:%s"
 
 #: standard input:2
+msgid "LDAP"
+msgstr "LDAP"
+
+#: standard input:6
+msgid "Mail server (IMAP)"
+msgstr "Почтовый сервер (IMAP)"
+
+#: standard input:11
+msgid "Mail server (POP3)"
+msgstr "Почтовый сервер (POP3)"
+
+#: standard input:17
+msgid "Mail server (SMTP)"
+msgstr "Почтовый сервер (SMTP)"
+
+#: standard input:20
 msgid "Network firewall"
 msgstr "Брандмауэр"
 
-#: standard input:1
+#: standard input:18
+msgid "Network management (SNMP)"
+msgstr "Управление сетью (SNMP)"
+
+#: standard input:15
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+#: standard input:19
 msgid "Port forwarding"
 msgstr "Перенаправление портов"
+
+#: standard input:5
+msgid "Proxy server"
+msgstr "Прокси-сервер"
+
+#: standard input:16
+msgid "Remote access (SSH)"
+msgstr "Удалённый доступ (SSH)"
+
+#: standard input:4
+msgid "Remote access (telnet)"
+msgstr "Удалённый доступ (telnet)"
 
 #: standard input:10 ui/net-iptables/index.scm:64
 msgid "Reset"
@@ -156,9 +219,25 @@ msgstr "Выберете внешние интерфейсы:"
 msgid "Select forwarding mode:"
 msgstr "Выберите режим работы:"
 
+#: standard input:1
+msgid "Service packets (ICMP)"
+msgstr "Служебные пакеты (ICMP)"
+
 #: standard input:4 ui/net-iptables/index.scm:44
 msgid "Services:"
 msgstr "Службы:"
+
+#: standard input:10
+msgid "System management center (www)"
+msgstr "Центр управления системой (www)"
+
+#: standard input:3
+msgid "Web server (HTTP/HTTPS)"
+msgstr "Web-сервер (HTTP/HTTPS)"
+
+#: standard input:12
+msgid "Zeroconf"
+msgstr "Zeroconf"
 
 #: bin/alterator-net-iptables:7 bin/iptables_helper:7
 msgid "alterator-net-iptables"
@@ -180,24 +259,30 @@ msgstr "шлюз"
 msgid "gateway (NAT)"
 msgstr "шлюз (NAT)"
 
-#: bin/alterator-net-iptables:164 bin/alterator-net-iptables:166
-#: bin/alterator-net-iptables:168 bin/alterator-net-iptables:170
-#: bin/alterator-net-iptables:172 bin/iptables_helper:164
-#: bin/iptables_helper:166 bin/iptables_helper:168 bin/iptables_helper:170
-#: bin/iptables_helper:172
+#: bin/alterator-net-iptables:171 bin/alterator-net-iptables:173
+#: bin/alterator-net-iptables:175 bin/alterator-net-iptables:177
+#: bin/alterator-net-iptables:179 bin/iptables_helper:171
+#: bin/iptables_helper:173 bin/iptables_helper:175 bin/iptables_helper:177
+#: bin/iptables_helper:179
 msgid "in DNAT rule"
 msgstr "в правиле DNAT"
 
-#: bin/alterator-net-iptables:283 bin/iptables_helper:283
+#: bin/alterator-net-iptables:321 bin/iptables_helper:321
 msgid "in desktop-file for service"
 msgstr "в desktop-файле для сервиса"
+
+#: bin/alterator-net-iptables:187 bin/alterator-net-iptables:189
+#: bin/iptables_helper:187 bin/iptables_helper:189
+#, fuzzy
+msgid "in fixmac rule"
+msgstr "в правиле DNAT"
 
 #: standard input:16 input:18 ui/net-dnat/index.scm:50
 #: ui/net-dnat/index.scm:55
 msgid "port:"
 msgstr "порт:"
 
-#: bin/alterator-net-iptables:164 bin/iptables_helper:164
+#: bin/alterator-net-iptables:171 bin/iptables_helper:171
 msgid "possible values:"
 msgstr "допустимые значения:"
 
@@ -208,4 +293,3 @@ msgstr "протокол:"
 #: ui/net-iptables/index.scm:31 backend3/net-iptables:23
 msgid "router"
 msgstr "роутер"
-

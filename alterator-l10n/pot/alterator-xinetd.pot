@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"POT-Creation-Date: 2009-06-03 18:14+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,102 +16,141 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: standard input:16 ui/xinetd/index.scm:95
+#: standard input:1
+msgid "Xinetd server"
+msgstr ""
+
+#: standard input:2
+msgid "An echo server. This is the udp version."
+msgstr ""
+
+#: standard input:3
+msgid "A chargen server. This is the udp version."
+msgstr ""
+
+#: standard input:4
+msgid "A discard server. This is the udp version."
+msgstr ""
+
+#: standard input:5
+msgid "A daytime server. This is the tcp version."
+msgstr ""
+
+#: standard input:6
+msgid "The vsftpd FTP server."
+msgstr ""
+
+#: standard input:7
+msgid "An echo server. This is the tcp version."
+msgstr ""
+
+#: standard input:8
+msgid "A chargen server. This is the tcp version."
+msgstr ""
+
+#: standard input:9
+msgid "A discard server. This is the tcp version."
+msgstr ""
+
+#: standard input:10
+msgid ""
+"The cups-lpd mini daemon enable cups accepting jobs from a remote LPD client"
+msgstr ""
+
+#: standard input:11
+msgid "The git server offers access to git repositories."
+msgstr ""
+
+#: standard input:12
+msgid "An RFC 868 time server. This is the tcp version."
+msgstr ""
+
+#: standard input:13
+msgid "An RFC 868 time server. This is the udp version."
+msgstr ""
+
+#: standard input:14
+msgid "A daytime server. This is the udp version."
+msgstr ""
+
+#: standard input:1 ui/xinetd/index.scm:18
+msgid "Services"
+msgstr ""
+
+#: standard input:2 ui/xinetd/index.scm:89
+msgid "internal service"
+msgstr ""
+
+#: standard input:3 ui/xinetd/index.scm:28
+msgid "Enable service"
+msgstr ""
+
+#: standard input:4 ui/xinetd/index.scm:30
+msgid "User:"
+msgstr ""
+
+#: standard input:5 ui/xinetd/index.scm:33
+msgid "Group:"
+msgstr ""
+
+#: standard input:6 ui/xinetd/index.scm:36
+msgid "Server:"
+msgstr ""
+
+#: standard input:7 ui/xinetd/index.scm:39
+msgid "Server args:"
+msgstr ""
+
+#: standard input:8 ui/xinetd/index.scm:42
+msgid "Rlimit as:"
+msgstr ""
+
+#: standard input:9 ui/xinetd/index.scm:45
+msgid "Instances:"
+msgstr ""
+
+#: standard input:10 ui/xinetd/index.scm:48
+msgid "Per source:"
+msgstr ""
+
+#: standard input:11 ui/xinetd/index.scm:51
+msgid "Only from:"
+msgstr ""
+
+#: standard input:12 ui/xinetd/index.scm:54
+msgid "Interface:"
+msgstr ""
+
+#: standard input:13 ui/xinetd/index.scm:59
 msgid "Apply"
 msgstr ""
 
-#: backend3/xinetd:246 backend3/xinetd:310
-msgid "Can't open file"
-msgstr ""
-
-#: backend3/xinetd:247 backend3/xinetd:311
-msgid "Can't open temporary file"
+#: standard input:14 ui/xinetd/index.scm:60
+msgid "Reset"
 msgstr ""
 
 #: backend3/xinetd:107 backend3/xinetd:108
 msgid "Common settings"
 msgstr ""
 
-#: standard input:4 ui/xinetd/index.scm:61
-msgid "Enable service"
-msgstr ""
-
-#: standard input:6 ui/xinetd/index.scm:66
-msgid "Group:"
-msgstr ""
-
-#: standard input:10 ui/xinetd/index.scm:78
-msgid "Instances:"
-msgstr ""
-
-#: standard input:13 ui/xinetd/index.scm:87
-msgid "Interface:"
-msgstr ""
-
-#: standard input:12 ui/xinetd/index.scm:84
-msgid "Only from:"
-msgstr ""
-
-#: standard input:11 ui/xinetd/index.scm:81
-msgid "Per source:"
-msgstr ""
-
-#: ui/xinetd/index.scm:97
-msgid "Reset"
-msgstr ""
-
-#: standard input:9 ui/xinetd/index.scm:75
-msgid "Rlimit as:"
-msgstr ""
-
-#: standard input:2
-msgid "Select"
-msgstr ""
-
-#: standard input:8 ui/xinetd/index.scm:72
-msgid "Server args:"
-msgstr ""
-
-#: standard input:7 ui/xinetd/index.scm:69
-msgid "Server:"
-msgstr ""
-
-#: standard input:1 ui/xinetd/index.scm:48
-msgid "Services"
-msgstr ""
-
-#: standard input:15
-msgid "Start, stop or restart xinetd..."
-msgstr ""
-
-#: ui/xinetd/index.scm:28
-msgid ""
-"There are unsaved changes in the service settings. Do you want to apply "
-"these changes?"
-msgstr ""
-
 #: backend3/xinetd:111
 msgid "These settings will be applied to services with undefined fields"
 msgstr ""
 
-#: standard input:14 ui/xinetd/index.scm:90
-msgid ""
-"This dialog changes only configuration file for xinetd. You must restart "
-"running xinetd to make it reread new configuration."
+#: backend3/xinetd:246 backend3/xinetd:314
+msgid "Can't open file"
 msgstr ""
 
-#: backend3/xinetd:430
+#: backend3/xinetd:247 backend3/xinetd:315
+msgid "Can't open temporary file"
+msgstr ""
+
+#: backend3/xinetd:439
 msgid "Unknown service"
 msgstr ""
 
-#: standard input:5 ui/xinetd/index.scm:63
-msgid "User:"
-msgstr ""
-
-#: standard input:1
-msgid "Xinetd server"
-msgstr ""
-
-#: standard input:3 ui/xinetd/index.scm:22
-msgid "internal service"
+#: ui/xinetd/index.scm:112
+msgid ""
+"There are unsaved changes in the service settings. Do you want to apply "
+"these changes?"
 msgstr ""

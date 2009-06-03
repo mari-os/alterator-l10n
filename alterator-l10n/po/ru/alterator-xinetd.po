@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-23 18:33+0300\n"
+"POT-Creation-Date: 2009-06-03 18:14+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,15 +18,55 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:16 ui/xinetd/index.scm:95
+#: standard input:8
+msgid "A chargen server. This is the tcp version."
+msgstr ""
+
+#: standard input:3
+msgid "A chargen server. This is the udp version."
+msgstr ""
+
+#: standard input:5
+msgid "A daytime server. This is the tcp version."
+msgstr ""
+
+#: standard input:14
+msgid "A daytime server. This is the udp version."
+msgstr ""
+
+#: standard input:9
+msgid "A discard server. This is the tcp version."
+msgstr ""
+
+#: standard input:4
+msgid "A discard server. This is the udp version."
+msgstr ""
+
+#: standard input:12
+msgid "An RFC 868 time server. This is the tcp version."
+msgstr ""
+
+#: standard input:13
+msgid "An RFC 868 time server. This is the udp version."
+msgstr ""
+
+#: standard input:7
+msgid "An echo server. This is the tcp version."
+msgstr ""
+
+#: standard input:2
+msgid "An echo server. This is the udp version."
+msgstr ""
+
+#: standard input:13 ui/xinetd/index.scm:59
 msgid "Apply"
 msgstr "Применить"
 
-#: backend3/xinetd:246 backend3/xinetd:310
+#: backend3/xinetd:246 backend3/xinetd:314
 msgid "Can't open file"
 msgstr "Ошибка открытия файла"
 
-#: backend3/xinetd:247 backend3/xinetd:311
+#: backend3/xinetd:247 backend3/xinetd:315
 msgid "Can't open temporary file"
 msgstr "Ошибка создания временного файла"
 
@@ -34,59 +74,64 @@ msgstr "Ошибка создания временного файла"
 msgid "Common settings"
 msgstr "Общие настройки"
 
-#: standard input:4 ui/xinetd/index.scm:61
+#: standard input:3 ui/xinetd/index.scm:28
 msgid "Enable service"
 msgstr "Включить сервис"
 
-#: standard input:6 ui/xinetd/index.scm:66
+#: standard input:5 ui/xinetd/index.scm:33
 msgid "Group:"
 msgstr "Группа:"
 
-#: standard input:10 ui/xinetd/index.scm:78
+#: standard input:9 ui/xinetd/index.scm:45
 msgid "Instances:"
 msgstr "Количество процессов:"
 
-#: standard input:13 ui/xinetd/index.scm:87
+#: standard input:12 ui/xinetd/index.scm:54
 msgid "Interface:"
 msgstr "Интерфейс:"
 
-#: standard input:12 ui/xinetd/index.scm:84
+#: standard input:11 ui/xinetd/index.scm:51
 msgid "Only from:"
 msgstr "Только с адресов:"
 
-#: standard input:11 ui/xinetd/index.scm:81
+#: standard input:10 ui/xinetd/index.scm:48
 msgid "Per source:"
 msgstr "На каждого клиента:"
 
-#: ui/xinetd/index.scm:97
+#: standard input:14 ui/xinetd/index.scm:60
 msgid "Reset"
 msgstr "Вернуть"
 
-#: standard input:9 ui/xinetd/index.scm:75
+#: standard input:8 ui/xinetd/index.scm:42
 msgid "Rlimit as:"
 msgstr "Ограничения адресного пространства:"
 
-#: standard input:2
-msgid "Select"
-msgstr "Выбрать"
-
-#: standard input:8 ui/xinetd/index.scm:72
+#: standard input:7 ui/xinetd/index.scm:39
 msgid "Server args:"
 msgstr "Аргументы сервера:"
 
-#: standard input:7 ui/xinetd/index.scm:69
+#: standard input:6 ui/xinetd/index.scm:36
 msgid "Server:"
 msgstr "Сервер:"
 
-#: standard input:1 ui/xinetd/index.scm:48
+#: standard input:1 ui/xinetd/index.scm:18
 msgid "Services"
 msgstr "Службы"
 
-#: standard input:15
-msgid "Start, stop or restart xinetd..."
-msgstr "Запустить, остановить или перезапустить xinetd..."
+#: standard input:10
+msgid ""
+"The cups-lpd mini daemon enable cups accepting jobs from a remote LPD client"
+msgstr "Печать через CUPS заданий от удаленных LPD-клиентов"
 
-#: ui/xinetd/index.scm:28
+#: standard input:11
+msgid "The git server offers access to git repositories."
+msgstr "Доступ к репозитариям GIT"
+
+#: standard input:6
+msgid "The vsftpd FTP server."
+msgstr "FTP-сервер"
+
+#: ui/xinetd/index.scm:112
 msgid ""
 "There are unsaved changes in the service settings. Do you want to apply "
 "these changes?"
@@ -100,19 +145,11 @@ msgstr ""
 "Данные настройки будут применены к службам для которых соответствующие поля "
 "не определены"
 
-#: standard input:14 ui/xinetd/index.scm:90
-msgid ""
-"This dialog changes only configuration file for xinetd. You must restart "
-"running xinetd to make it reread new configuration."
-msgstr ""
-"Этот диалог меняет конфигурационный файл для xinetd. Чтобы изменения "
-"повлияли на работающую службу xinetd — перезапустите её."
-
-#: backend3/xinetd:430
+#: backend3/xinetd:439
 msgid "Unknown service"
 msgstr "Неизвестная служба"
 
-#: standard input:5 ui/xinetd/index.scm:63
+#: standard input:4 ui/xinetd/index.scm:30
 msgid "User:"
 msgstr "Пользователь:"
 
@@ -120,6 +157,19 @@ msgstr "Пользователь:"
 msgid "Xinetd server"
 msgstr "Службы xinetd"
 
-#: standard input:3 ui/xinetd/index.scm:22
+#: standard input:2 ui/xinetd/index.scm:89
 msgid "internal service"
 msgstr "встроенный сервис"
+
+#~ msgid "Select"
+#~ msgstr "Выбрать"
+
+#~ msgid "Start, stop or restart xinetd..."
+#~ msgstr "Запустить, остановить или перезапустить xinetd..."
+
+#~ msgid ""
+#~ "This dialog changes only configuration file for xinetd. You must restart "
+#~ "running xinetd to make it reread new configuration."
+#~ msgstr ""
+#~ "Этот диалог меняет конфигурационный файл для xinetd. Чтобы изменения "
+#~ "повлияли на работающую службу xinetd — перезапустите её."
