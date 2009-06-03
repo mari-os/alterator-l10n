@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 2.3
-Release: alt13
+Version: 2.4
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -86,6 +86,12 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Jun 03 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.4-alt1
+- update_desktop: look for desktop and directory
+  files in the whole module tree
+- add translations for desktop-files from 
+  alterator-{xinetd,services,net-iptables}
+
 * Wed Jun 03 2009 Stanislav Ievlev <inger@altlinux.org> 2.3-alt13
 - update translations for alterator-bacula
 
