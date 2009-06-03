@@ -28,11 +28,10 @@ name="$(sed -e '/^[[:space:]]*NAME=/!d' -e 's/NAME=//' $mod_dir/Makefile)"
 
 echo "Updating desktop-files for $name"
 
-dfiles="$(find "$mod_dir/applications" -name '*.desktop' 2>/dev/null ||:)"
-dfiles="$dfiles $(find "$mod_dir/desktop-directories" -name '*.directory' 2>/dev/null ||:)"
+dfiles="$(find "$mod_dir" -name "*.desktop" -or -name "*.directory" 2>/dev/null ||:)"
 
 [ -n "${dfiles% }" ] ||\
-  fatal "Can't find $mod_dir/applications/*.desktop or $mod_dir/desktop-directories/*.directory"
+  fatal "Can't find $mod_dir/*.desktop or $mod_dir/*.directory"
 
 for f in $dfiles; do # for each desktop file
   for v in Name Comment; do # for each field we want to translate
