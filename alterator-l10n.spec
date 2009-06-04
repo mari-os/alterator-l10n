@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.4
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -86,6 +86,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Jun 04 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt2
+- update translations for alterator-distro-office-server
+
 * Wed Jun 03 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.4-alt1
 - update_desktop: look for desktop and directory
   files in the whole module tree
