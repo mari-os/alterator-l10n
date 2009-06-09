@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.4
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -86,6 +86,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Jun 09 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.4-alt3
+- update translations for alterator-net-iptables
+
 * Thu Jun 04 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt2
 - update translations for alterator-distro-office-server
 
