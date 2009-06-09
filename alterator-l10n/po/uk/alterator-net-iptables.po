@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-03 18:14+0400\n"
+"POT-Creation-Date: 2009-06-09 15:30+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,25 +16,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: bin/alterator-net-iptables:165 bin/iptables_helper:165
+#: bin/alterator-net-iptables:171 bin/iptables_helper:171
 #, fuzzy
 msgid "(must be a number or empty string)"
 msgstr "має бути число"
 
-#: bin/alterator-net-iptables:139 bin/alterator-net-iptables:144
-#: bin/alterator-net-iptables:173 bin/alterator-net-iptables:175
-#: bin/iptables_helper:139 bin/iptables_helper:144 bin/iptables_helper:173
-#: bin/iptables_helper:175
+#: bin/alterator-net-iptables:144 bin/alterator-net-iptables:149
+#: bin/alterator-net-iptables:179 bin/alterator-net-iptables:181
+#: bin/iptables_helper:144 bin/iptables_helper:149 bin/iptables_helper:179
+#: bin/iptables_helper:181
 #, fuzzy
 msgid "(must be a number)"
 msgstr "має бути число"
 
-#: bin/alterator-net-iptables:135 bin/iptables_helper:135
+#: bin/alterator-net-iptables:140 bin/iptables_helper:140
 #, fuzzy
 msgid "(possible values: gateway or router)"
 msgstr "Мережевий екран"
 
-#: bin/alterator-net-iptables:162 bin/iptables_helper:162
+#: bin/alterator-net-iptables:168 bin/alterator-net-iptables:190
+#: bin/iptables_helper:168 bin/iptables_helper:190
 #, fuzzy
 msgid "(possible values: on or off)"
 msgstr "Мережевий екран"
@@ -44,9 +45,20 @@ msgstr "Мережевий екран"
 msgid "(separated by commas or spaces)"
 msgstr ""
 
-#: standard input:19 ui/net-dnat/index.scm:58
+#: standard input:19 input:28 ui/net-dnat/index.scm:58
+#: ui/net-fixmac/index.scm:52
 msgid "Add"
 msgstr "Додати"
+
+#: ui/net-fixmac/index.scm:33
+#, fuzzy
+msgid "Add new bindings:"
+msgstr "Прив'язування:"
+
+#: standard input:24
+#, fuzzy
+msgid "Add new client:"
+msgstr "Новий користувач:"
 
 #: standard input:13 ui/net-dnat/index.scm:36
 #, fuzzy
@@ -58,9 +70,18 @@ msgstr "Додати правило"
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Дозволені з'єднання на вході"
 
-#: standard input:9 ui/net-iptables/index.scm:61
+#: standard input:9 input:21 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr "Застосувати"
+
+#: standard input:22
+msgid "Authorized clients (MAC - IP):"
+msgstr ""
+
+#: ui/net-fixmac/index.scm:27
+#, fuzzy
+msgid "Available bindings:"
+msgstr "Доступні розкладки:"
 
 #: standard input:11 ui/net-dnat/index.scm:30
 #, fuzzy
@@ -72,11 +93,11 @@ msgstr "Доступні джерела:"
 msgid "CUPS printing system"
 msgstr "Поновити систему"
 
-#: bin/alterator-net-iptables:395 bin/iptables_helper:395
+#: bin/alterator-net-iptables:421 bin/iptables_helper:421
 msgid "Can't add multiple values to list"
 msgstr ""
 
-#: bin/alterator-net-iptables:403 bin/iptables_helper:403
+#: bin/alterator-net-iptables:429 bin/iptables_helper:429
 msgid "Can't remove multiple values from list"
 msgstr ""
 
@@ -89,69 +110,80 @@ msgstr "DHCP-сервер"
 msgid "DNS server"
 msgstr "DNS-сервери:"
 
-#: standard input:12 ui/net-dnat/index.scm:34
+#: standard input:12 input:23 ui/net-dnat/index.scm:34
+#: ui/net-fixmac/index.scm:31
 msgid "Delete"
 msgstr "Видалити"
 
-#: bin/alterator-net-iptables:363 bin/alterator-net-iptables:365
-#: bin/iptables_helper:363 bin/iptables_helper:365
+#: standard input:20
+#, fuzzy
+msgid "Enable restrictions on all internal interfaces"
+msgstr "Ethernet-інтерфейси"
+
+#: bin/alterator-net-iptables:389 bin/alterator-net-iptables:391
+#: bin/iptables_helper:389 bin/iptables_helper:391
 msgid "Error while reloading firewalling rules"
 msgstr ""
 
-#: bin/alterator-net-iptables:370 bin/iptables_helper:370
+#: bin/alterator-net-iptables:396 bin/iptables_helper:396
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr ""
 
-#: bin/alterator-net-iptables:189 bin/iptables_helper:189
+#: bin/alterator-net-iptables:198 bin/iptables_helper:198
 #, fuzzy
 msgid "Error: bad MAC-address"
 msgstr "Увімкнути службу"
 
-#: bin/alterator-net-iptables:165 bin/iptables_helper:165
+#: bin/alterator-net-iptables:171 bin/iptables_helper:171
 #, fuzzy
 msgid "Error: bad SQUID port"
 msgstr "невірний TCP-порт"
 
-#: bin/alterator-net-iptables:139 bin/iptables_helper:139
+#: bin/alterator-net-iptables:144 bin/iptables_helper:144
 #, fuzzy
 msgid "Error: bad TCP port"
 msgstr "невірний TCP-порт"
 
-#: bin/alterator-net-iptables:162 bin/iptables_helper:162
+#: bin/alterator-net-iptables:168 bin/iptables_helper:168
 #, fuzzy
 msgid "Error: bad ULOGD mode"
 msgstr "невірний TCP-порт"
 
-#: bin/alterator-net-iptables:144 bin/iptables_helper:144
+#: bin/alterator-net-iptables:149 bin/iptables_helper:149
 #, fuzzy
 msgid "Error: bad UTP port"
 msgstr "невірний TCP-порт"
 
-#: bin/alterator-net-iptables:177 bin/alterator-net-iptables:179
-#: bin/alterator-net-iptables:187 bin/iptables_helper:177
-#: bin/iptables_helper:179 bin/iptables_helper:187
+#: bin/alterator-net-iptables:190 bin/iptables_helper:190
+#, fuzzy
+msgid "Error: bad fixmac mode"
+msgstr "Увімкнути службу"
+
+#: bin/alterator-net-iptables:183 bin/alterator-net-iptables:185
+#: bin/alterator-net-iptables:196 bin/iptables_helper:183
+#: bin/iptables_helper:185 bin/iptables_helper:196
 #, fuzzy
 msgid "Error: bad ip"
 msgstr "Увімкнути службу"
 
-#: bin/alterator-net-iptables:135 bin/iptables_helper:135
+#: bin/alterator-net-iptables:140 bin/iptables_helper:140
 #, fuzzy
 msgid "Error: bad mode"
 msgstr "Увімкнути службу"
 
-#: bin/alterator-net-iptables:173 bin/alterator-net-iptables:175
-#: bin/alterator-net-iptables:321 bin/iptables_helper:173
-#: bin/iptables_helper:175 bin/iptables_helper:321
+#: bin/alterator-net-iptables:179 bin/alterator-net-iptables:181
+#: bin/alterator-net-iptables:233 bin/iptables_helper:179
+#: bin/iptables_helper:181 bin/iptables_helper:233
 #, fuzzy
 msgid "Error: bad port"
 msgstr "невірний TCP-порт"
 
-#: bin/alterator-net-iptables:171 bin/iptables_helper:171
+#: bin/alterator-net-iptables:177 bin/iptables_helper:177
 #, fuzzy
 msgid "Error: unknown protocol"
 msgstr "Невідома служба"
 
-#: bin/alterator-net-iptables:158 bin/iptables_helper:158
+#: bin/alterator-net-iptables:164 bin/iptables_helper:164
 #, fuzzy
 msgid "Error: unknown service"
 msgstr "Невідома служба"
@@ -177,9 +209,23 @@ msgstr ""
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr ""
 
+#: standard input:25 ui/net-fixmac/index.scm:48
+msgid "IP address:"
+msgstr "IP-адреса:"
+
+#: standard input:20
+#, fuzzy
+msgid "Internal network restrictions"
+msgstr "Інша мережа"
+
 #: standard input:2
 msgid "LDAP"
 msgstr ""
+
+#: standard input:26 ui/net-fixmac/index.scm:45
+#, fuzzy
+msgid "MAC address:"
+msgstr "за MAC-адресою"
 
 #: standard input:6
 msgid "Mail server (IMAP)"
@@ -193,7 +239,7 @@ msgstr ""
 msgid "Mail server (SMTP)"
 msgstr ""
 
-#: standard input:20
+#: standard input:21
 msgid "Network firewall"
 msgstr "Мережевий екран"
 
@@ -225,6 +271,11 @@ msgstr ""
 
 #: standard input:10 ui/net-iptables/index.scm:64
 msgid "Reset"
+msgstr "Скинути"
+
+#: standard input:27
+#, fuzzy
+msgid "Resolve"
 msgstr "Скинути"
 
 #: standard input:2 ui/net-iptables/index.scm:36
@@ -284,22 +335,22 @@ msgstr "Типовий шлюз:"
 msgid "gateway (NAT)"
 msgstr "Типовий шлюз:"
 
-#: bin/alterator-net-iptables:171 bin/alterator-net-iptables:173
-#: bin/alterator-net-iptables:175 bin/alterator-net-iptables:177
-#: bin/alterator-net-iptables:179 bin/iptables_helper:171
-#: bin/iptables_helper:173 bin/iptables_helper:175 bin/iptables_helper:177
-#: bin/iptables_helper:179
+#: bin/alterator-net-iptables:177 bin/alterator-net-iptables:179
+#: bin/alterator-net-iptables:181 bin/alterator-net-iptables:183
+#: bin/alterator-net-iptables:185 bin/iptables_helper:177
+#: bin/iptables_helper:179 bin/iptables_helper:181 bin/iptables_helper:183
+#: bin/iptables_helper:185
 #, fuzzy
 msgid "in DNAT rule"
 msgstr "Додати правило"
 
-#: bin/alterator-net-iptables:321 bin/iptables_helper:321
+#: bin/alterator-net-iptables:233 bin/iptables_helper:233
 #, fuzzy
 msgid "in desktop-file for service"
 msgstr "вбудована служба"
 
-#: bin/alterator-net-iptables:187 bin/alterator-net-iptables:189
-#: bin/iptables_helper:187 bin/iptables_helper:189
+#: bin/alterator-net-iptables:196 bin/alterator-net-iptables:198
+#: bin/iptables_helper:196 bin/iptables_helper:198
 #, fuzzy
 msgid "in fixmac rule"
 msgstr "Додати правило"
@@ -310,11 +361,11 @@ msgstr "Додати правило"
 msgid "port:"
 msgstr "Порт:"
 
-#: bin/alterator-net-iptables:171 bin/iptables_helper:171
+#: bin/alterator-net-iptables:177 bin/iptables_helper:177
 msgid "possible values:"
 msgstr ""
 
-#: standard input:14 ui/net-dnat/index.scm:42
+#: standard input:14 ui/net-dnat/index.scm:42 ui/net-fixmac/index.scm:39
 #, fuzzy
 msgid "protocol:"
 msgstr "Протоколи, що підтримуються:"
