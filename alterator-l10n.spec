@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.4
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -46,6 +46,8 @@ Conflicts: alterator-xkb                  < 2.1-alt2
 Conflicts: alterator-wizardface           < 1.0-alt1
 Conflicts: alterator-lookout              < 1.6-alt1
 Conflicts: alterator-datetime             < 1.0-alt1
+Conflicts: alterator-ca                   < 0.5-alt2
+Conflicts: alterator-trust                < 0.6.2-alt1
 
 %description
 translations for all alterator modules
@@ -86,6 +88,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Jun 17 2009 Alexey I. Froloff <raorn@altlinux.org> 2.4-alt4
+- add translations for alterator-trust (closes: #19908)
+- add translations for alterator-ca (closes: #19910)
+
 * Tue Jun 09 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.4-alt3
 - update translations for alterator-net-iptables
 
