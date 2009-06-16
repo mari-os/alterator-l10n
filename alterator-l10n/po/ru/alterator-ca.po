@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-16 23:02+0400\n"
-"PO-Revision-Date: 2008-09-01 18:01+0400\n"
+"PO-Revision-Date: 2009-06-17 00:00+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "MIME-Version: 1.0\n"
@@ -31,56 +31,48 @@ msgid "Add"
 msgstr "Добавить"
 
 #: standard input:13
-#, fuzzy
 msgid "Add host:"
-msgstr "Добавить сайт"
+msgstr "Добавить хост:"
 
 #: standard input:4
 msgid "Apply"
 msgstr "Применить"
 
 #: standard input:15
-#, fuzzy
 msgid "Back to list"
-msgstr "назад к списку цепочек"
+msgstr "Вернуться к списку"
 
 #: backend3/ca:281
-#, fuzzy
 msgid "CA already initialized"
-msgstr "uid уже используется"
+msgstr "УЦ уже создан"
 
 #: standard input:2 input:25
-#, fuzzy
 msgid "CA management"
-msgstr "Управление доступом"
+msgstr "Управление УЦ"
 
 #: backend3/ca:142
 msgid "CA not initialized"
-msgstr ""
+msgstr "УЦ не создан"
 
 #: standard input:26
-#, fuzzy
 msgid "CA status:"
-msgstr "Состояние:"
+msgstr "Состояние УЦ:"
 
 #: standard input:1 input:24
-#, fuzzy
 msgid "Certificate management"
-msgstr "Управление доступом"
+msgstr "Управление сертификатами"
 
 #: standard input:1
-#, fuzzy
 msgid "Certification Authority"
-msgstr "Порт получателя"
+msgstr "Удостоверяющий Центр"
 
 #: standard input:28 input:33
 msgid "Common Name (CN):"
 msgstr "Общее имя (CN):"
 
 #: standard input:49
-#, fuzzy
 msgid "Confirm"
-msgstr "Настроить"
+msgstr "Подтвердить"
 
 #: standard input:31 input:36 input:45
 msgid "Country (C):"
@@ -88,95 +80,83 @@ msgstr "Страна (C):"
 
 #: backend3/ca:266
 msgid "Country and Organizaton must be defined"
-msgstr ""
+msgstr "Страна и Организация должны быть заданы"
 
 #: backend3/ca:274
-#, fuzzy
 msgid "Country must be defined"
-msgstr "Другой адрес должен быть явно указан"
+msgstr "Страна должна быть задана"
 
 #: standard input:50
 msgid "Create"
 msgstr "Создать"
 
 #: standard input:18
-#, fuzzy
 msgid "Date issued"
-msgstr "Дата, время"
+msgstr "Дата выдачи"
 
 #: standard input:11
 msgid "Delete"
 msgstr "Удалить"
 
 #: standard input:42
-#, fuzzy
 msgid "Download certificate:"
-msgstr "Загрузить файл:"
+msgstr "Забрать сертификат:"
 
 #: standard input:43
-#, fuzzy
 msgid "Download sign request:"
 msgstr "Забрать запрос на подпись"
 
 #: standard input:3
-#, fuzzy
 msgid "Enable daily updates at"
-msgstr "обновлена вручную"
+msgstr "Включить ужудневные обновления в"
 
 #: standard input:39
 msgid "Expires on:"
-msgstr ""
+msgstr "Истeкает:"
 
 #: standard input:19
-#, fuzzy
 msgid "Expiry date"
 msgstr "Годен до"
 
 #: standard input:9
-#, fuzzy
 msgid "Host"
-msgstr "Имя компьютера"
+msgstr "Хост"
 
 #: backend3/ca:302
-#, fuzzy
 msgid "Invalid sign request"
-msgstr "Забрать запрос на подпись"
+msgstr "Неправильный запрос на подпись"
 
 #: standard input:38
-#, fuzzy
 msgid "Issued on:"
-msgstr "Примонтировано в"
+msgstr "Дата выдачи:"
 
 #: standard input:32
 msgid "Issuer"
 msgstr ""
 
 #: backend3/ca:170
-#, fuzzy
 msgid "Local"
-msgstr "Локальные файлы"
+msgstr "Локальные"
 
 #: backend3/ca:126
-#, fuzzy
 msgid "Local certificates"
-msgstr "Сертификат"
+msgstr "Локальные сертификаты"
 
 #: standard input:41
 msgid "MD5 Fingerprint:"
-msgstr ""
+msgstr "MD5-сумма"
 
 #: standard input:8
 msgid "Managed hosts"
-msgstr ""
+msgstr "Управляемые хосты"
 
 #: backend3/ca:154
-#, fuzzy
 msgid "Missing sign request"
-msgstr "Забрать запрос на подпись"
+msgstr "Отсутствует запрос на подпись"
 
 #: standard input:17
 msgid "Name"
-msgstr "Имя устройства"
+msgstr "Имя"
 
 #: standard input:30 input:35 input:47
 msgid "Organization (O):"
@@ -188,69 +168,56 @@ msgstr "Подразделение (OU):"
 
 #: backend3/ca:270
 msgid "Organizaton must be defined"
-msgstr ""
+msgstr "Организация должна быть задана"
 
 #: standard input:37
 msgid "Other"
 msgstr "Другие"
 
 #: standard input:44
-#, fuzzy
 msgid "Re-generate CA"
-msgstr "Сгенерировать"
+msgstr "Перегенерировать УЦ"
 
 #: standard input:40
 msgid "SHA1 Fingerprint:"
-msgstr ""
+msgstr "SHA1-сумма"
 
 #: standard input:7 input:23
 msgid "Sign"
-msgstr "Подпись"
+msgstr "Подписать"
 
 #: standard input:5
-#, fuzzy
 msgid "Sign certificate"
-msgstr "Сертификат"
+msgstr "Подписать сертификат"
 
 #: standard input:21
 msgid "Status"
 msgstr "Состояние"
 
 #: standard input:20 input:27
-#, fuzzy
 msgid "Subject"
-msgstr "Объекты"
+msgstr ""
 
 #: backend3/ca:159
-#, fuzzy
 msgid "Unable to sign request"
-msgstr "Забрать запрос на подпись"
+msgstr "Невозможно подписать запрос"
 
 #: standard input:12
-#, fuzzy
 msgid "Update"
-msgstr "Обновления"
+msgstr "Обновить"
 
 #: standard input:6
-#, fuzzy
 msgid "Upload request"
-msgstr "Последний запрос"
+msgstr "Загрузить запрос"
 
 #: standard input:10 input:22
-#, fuzzy
 msgid "With selected:"
 msgstr "Для выделенных:"
 
-#: backend3/ca:108
-msgid "_"
-msgstr ""
-
 #: standard input:16
-#, fuzzy
 msgid "certificates"
-msgstr "Сертификат"
+msgstr "сертификаты"
 
 #: interfaces/guile/type/ca-cert-field.scm:11
-#, fuzzy
 msgid "only digits, punctuation and latin letters allowed"
-msgstr "допустимы только латинские символы и цифры"
+msgstr "допустимы только латинские символы, знаки пунктуации и цифры"
