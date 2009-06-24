@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.4
-Release: alt4
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,11 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Jun 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt5
+- update translations for alterator-bacula
+- add translations for alterator-distro-backup-server
+- finally remove obsolete uk_UA translations
+
 * Wed Jun 17 2009 Alexey I. Froloff <raorn@altlinux.org> 2.4-alt4
 - add translations for alterator-trust (closes: #19908)
 - add translations for alterator-ca (closes: #19910)
