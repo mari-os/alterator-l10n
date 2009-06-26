@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.4
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Jun 26 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.4-alt6
+- add some translations for altertator-lilo
+
 * Wed Jun 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt5
 - update translations for alterator-bacula
 - add translations for alterator-distro-backup-server
