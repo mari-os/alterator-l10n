@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-22 19:05+0300\n"
+"POT-Creation-Date: 2009-06-26 14:25+0400\n"
 "PO-Revision-Date: 2009-01-29 13:05-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,163 +19,137 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: backend3/lilo:126
+#: backend3/lilo:164
 msgid "1 minute"
 msgstr "1 minuto"
 
-#: backend3/lilo:122
+#: backend3/lilo:160
 msgid "1 second"
 msgstr "1 segundo"
 
-#: backend3/lilo:124
+#: backend3/lilo:162
 msgid "10 seconds"
 msgstr "10 segundos"
 
-#: backend3/lilo:125
+#: backend3/lilo:163
 msgid "20 seconds"
 msgstr "20 segundos"
 
-#: backend3/lilo:123
+#: backend3/lilo:161
 msgid "5 seconds"
 msgstr "5 segundos"
 
-#: index.scm:194
 #: ui/lilo/expert/index.scm:194
 msgid "Add Linux kernel"
 msgstr "Adicionar Kernel do Linux"
 
-#: index.scm:195
 #: ui/lilo/expert/index.scm:195
 msgid "Add other loader"
 msgstr "Adicionar outro rodador"
 
-#: index.scm:171
 #: ui/lilo/expert/index.scm:171
 msgid "Additional parameters:"
 msgstr "Parametros adicionais:"
 
-#: index.scm:176
 #: ui/lilo/expert/index.scm:176
 msgid "Alias:"
 msgstr "Alias:"
 
-#: index.scm:206
-#: ui/lilo/edit-source/index.scm:36
-#: ui/lilo/index.scm:140
+#: ui/lilo/edit-source/index.scm:36 ui/lilo/index.scm:136
 #: ui/lilo/expert/index.scm:206
 msgid "Apply"
 msgstr "Aplicar"
 
-#: index.scm:157
 #: ui/lilo/expert/index.scm:157
 msgid "Boot variants"
 msgstr "Variantes de Boot"
-
-#: index.scm:178
-msgid "Boot-as:"
-msgstr "Boot-as:"
 
 #: standard input:1
 msgid "Bootloader"
 msgstr "Rodador de Boot"
 
-#: index.scm:145
+#: standard input:2
+#, fuzzy
+msgid "Bootloader setup"
+msgstr "Rodador de Boot"
+
 #: ui/lilo/expert/index.scm:145
 msgid "Common kernel parameters:"
 msgstr "Parametros Comuns do Kernel:"
 
-#: index.scm:127
 #: ui/lilo/expert/index.scm:127
 msgid "Common settings"
 msgstr "Configurações comuns"
 
-#: index.scm:150
+#: helpers/lilo-conf.sh:146
+msgid "Could not find kernel image"
+msgstr ""
+
 #: ui/lilo/expert/index.scm:150
 msgid "Default boot variant:"
 msgstr "Valores padrões do boot:"
 
-#: index.scm:189
 #: ui/lilo/expert/index.scm:189
 msgid "Delete"
 msgstr "Deletar"
 
-#: index.scm:174
 #: ui/lilo/expert/index.scm:174
 msgid "Device:"
 msgstr "Dispositivo:"
 
-#: index.scm:119
-#: ui/lilo/edit-source/index.scm:21
-#: ui/lilo/expert/index.scm:119
+#: ui/lilo/edit-source/index.scm:21 ui/lilo/expert/index.scm:119
 msgid "Don't install bootloader"
 msgstr "Não instalar o rodador de boot"
 
-#: index.scm:123
-#: ui/lilo/edit-source/index.scm:25
-#: ui/lilo/expert/index.scm:123
+#: ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:123
 msgid "Edit lilo.conf"
 msgstr "Editar lilo.conf"
 
-#: index.scm:122
-#: ui/lilo/edit-source/index.scm:24
-#: ui/lilo/index.scm:141
+#: ui/lilo/edit-source/index.scm:24 ui/lilo/index.scm:137
 #: ui/lilo/expert/index.scm:122
 msgid "Expert mode"
 msgstr "Modo Avançado"
 
-#: helpers/lilo-hal.sh:22
-#: helpers/lilo-sysfs.sh:22
-#: helpers/utils.sh:15
+#: backend3/lilo:108
 msgid "Gb"
 msgstr "Gb"
 
-#: helpers/lilo-hal.sh:42
-#: helpers/lilo-sysfs.sh:42
+#: backend3/lilo:111
 msgid "Hard drive"
 msgstr "HD"
 
-#: index.scm:167
+#: helpers/lilo-conf.sh:141
+msgid "Inconsistent Raid version information on"
+msgstr ""
+
 #: ui/lilo/expert/index.scm:167
 msgid "Initrd:"
 msgstr "Initrd:"
 
-#: index.scm:131
-#: ui/lilo/index.scm:112
-#: ui/lilo/expert/index.scm:131
+#: ui/lilo/index.scm:108 ui/lilo/expert/index.scm:131
 msgid "Install boot loader on:"
 msgstr "Instale o gerenciador de inicialização em:"
 
-#: index.scm:142
-#: ui/lilo/index.scm:129
-#: ui/lilo/expert/index.scm:142
+#: ui/lilo/index.scm:125 ui/lilo/expert/index.scm:142
 msgid "Interface timeout:"
 msgstr "Tempo de Interface:"
 
-#: index.scm:139
 #: ui/lilo/expert/index.scm:139
 msgid "Interface type:"
 msgstr "Tipo de interface:"
 
-#: helpers/lilo-hal.sh:22
-#: helpers/lilo-sysfs.sh:22
-#: helpers/utils.sh:15
-msgid "Kb"
-msgstr "Kb"
-
-#: helpers/lilo-parser.sh:341
+#: helpers/lilo-parser.sh:348
 msgid "Kernel image is unspecified."
 msgstr "Imagem do Kernel é indeterminado."
 
-#: index.scm:165
 #: ui/lilo/expert/index.scm:165
 msgid "Kernel image:"
 msgstr "Imagens do Kernel:"
 
-#: helpers/lilo-parser.sh:331
+#: helpers/lilo-parser.sh:338
 msgid "Label is empty."
 msgstr "Label está vazia."
 
-#: index.scm:163
 #: ui/lilo/expert/index.scm:163
 msgid "Label:"
 msgstr "Nome:"
@@ -184,22 +158,19 @@ msgstr "Nome:"
 msgid "Lilo options:"
 msgstr "Opções Lilo:"
 
-#: index.scm:27
-#: index.scm:35
-#: ui/lilo/expert/index.scm:27
-#: ui/lilo/expert/index.scm:35
+#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
 msgid "Linux kernel"
 msgstr "Linux Kernel"
 
-#: ui/lilo/index.scm:51
+#: backend3/lilo:112
 msgid "Linux partition"
 msgstr "Partições Linux"
 
-#: ui/lilo/index.scm:126
+#: ui/lilo/index.scm:122
 msgid "Load by default:"
 msgstr "Rodar pro padrão"
 
-#: ui/lilo/index.scm:117
+#: ui/lilo/index.scm:113
 msgid "Load other OS:"
 msgstr "Rodar outros SO:"
 
@@ -207,121 +178,182 @@ msgstr "Rodar outros SO:"
 msgid "Master boot"
 msgstr "Boot Principal"
 
-#: helpers/lilo-hal.sh:22
-#: helpers/lilo-sysfs.sh:22
-#: helpers/utils.sh:15
+#: backend3/lilo:107
 msgid "Mb"
 msgstr "Mb"
 
-#: index.scm:27
-#: index.scm:35
-#: ui/lilo/expert/index.scm:27
-#: ui/lilo/expert/index.scm:35
+#: helpers/lilo-conf.sh:98
+#, fuzzy
+msgid "No boot device"
+msgstr "Interface ROOT"
+
+#: helpers/lilo-conf.sh:132
+msgid "Not a RAID install, 'raid-extra-boot=' not allowed"
+msgstr ""
+
+#: helpers/lilo-conf.sh:142
+msgid "Only RAID1 devices are supported as boot devices"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
 msgid "Other loader"
 msgstr "Outro rodador"
 
-#: helpers/lilo-parser.sh:336
+#: helpers/lilo-parser.sh:343
 msgid "Other loader device is unspecified."
 msgstr "Outro rodador dispositivo é indeterminado."
 
-#: index.scm:134
+#: helpers/lilo-conf.sh:143
+msgid "RAID install requires LBA32 or LINEAR; LBA32 assumed."
+msgstr ""
+
+#: helpers/lilo-conf.sh:133
+msgid "RAID1 install implied by 'boot=/'"
+msgstr ""
+
+#: helpers/lilo-conf.sh:138
+msgid "Raid major versions > 0 are not supported"
+msgstr ""
+
+#: helpers/lilo-conf.sh:139
+msgid "Raid versions < 0.90 are not supported"
+msgstr ""
+
 #: ui/lilo/expert/index.scm:134
 msgid "Raid-extra-boot:"
 msgstr "Raid-extra-boot:"
 
-#: index.scm:187
-#: index.scm:207
-#: ui/lilo/edit-source/index.scm:37
-#: ui/lilo/expert/index.scm:187
+#: ui/lilo/edit-source/index.scm:37 ui/lilo/expert/index.scm:187
 #: ui/lilo/expert/index.scm:207
 msgid "Reset"
 msgstr "Resetar"
 
-#: helpers/lilo-parser.sh:346
+#: helpers/lilo-parser.sh:353
 msgid "Root device is unspecified."
 msgstr "Dispositivo raiz é indeterminado."
 
-#: index.scm:169
 #: ui/lilo/expert/index.scm:169
 msgid "Root device:"
 msgstr "Interface ROOT"
 
-#: index.scm:186
 #: ui/lilo/expert/index.scm:186
 msgid "Save"
 msgstr "Salvar"
 
-#: helpers/lilo-parser.sh:316
+#: helpers/lilo-parser.sh:323
 msgid "Section already exists."
 msgstr "Secção já existe."
 
-#: index.scm:121
-#: ui/lilo/edit-source/index.scm:23
-#: ui/lilo/expert/index.scm:121
+#: ui/lilo/edit-source/index.scm:23 ui/lilo/expert/index.scm:121
 msgid "Simple mode"
 msgstr "Modo Simples"
 
-#: index.scm:180
 #: ui/lilo/expert/index.scm:178
 msgid "Table:"
 msgstr "Tabela:"
 
-#: helpers/lilo-hal.sh:22
-#: helpers/lilo-sysfs.sh:22
-#: helpers/utils.sh:15
+#: backend3/lilo:109
 msgid "Tb"
 msgstr "Tb"
 
-#: helpers/lilo-parser.sh:272
+#: backend3/lilo:269
+#, fuzzy
+msgid "Unable to create temp config file"
+msgstr "Não foi possível criar a rede"
+
+#: helpers/lilo-conf.sh:140
+#, fuzzy
+msgid "Unable to get RAID info on"
+msgstr "Não foi possível configurar o fuso horário"
+
+#: helpers/lilo-conf.sh:137
+#, fuzzy
+msgid "Unable to get RAID version on"
+msgstr "Não foi possível configurar o fuso horário"
+
+#: helpers/lilo-conf.sh:134
+#, fuzzy
+msgid "Unable to open"
+msgstr "Não foi possível configurar o Relogio"
+
+#: helpers/lilo-conf.sh:135
+#, fuzzy
+msgid "Unable to stat"
+msgstr "Não foi possível configurar o Relogio"
+
+#: backend3/lilo:275
+#, fuzzy
+msgid "Unable to write new lilo.conf"
+msgstr "Não foi possível criar a rede"
+
+#: helpers/lilo-parser.sh:279
 msgid "Unknown section"
 msgstr "Secção desconhecida"
 
-#: backend3/lilo:116
+#: backend3/lilo:154
 msgid "auto"
 msgstr "auto"
 
-#: helpers/lilo-hal.sh:18
-#: helpers/lilo-sysfs.sh:18
-#: helpers/utils.sh:11
+#: backend3/lilo:105
 msgid "b"
 msgstr "b"
 
-#: helpers/lilo-parser.sh:395
-#: backend3/lilo:104
+#: helpers/lilo-conf.sh:144
+#, fuzzy
+msgid "boot device not found"
+msgstr "Arquivo não encontrado"
+
+#: helpers/lilo-conf.sh:29 helpers/lilo-conf.sh:145
+#, fuzzy
+msgid "device not found"
+msgstr "Arquivo não encontrado"
+
+#: helpers/lilo-parser.sh:402 backend3/lilo:142
 msgid "failsafe"
 msgstr "FailSafe"
 
-#: backend3/lilo:110
+#: backend3/lilo:148
 msgid "graphics"
 msgstr "gráficos"
 
-#: backend3/lilo:127
+#: backend3/lilo:165
 msgid "infinite"
 msgstr "infinito"
 
-#: backend3/lilo:117
+#: helpers/lilo-conf.sh:136
+msgid "is not a block device"
+msgstr ""
+
+#: backend3/lilo:106
+msgid "kb"
+msgstr "kb"
+
+#: backend3/lilo:155
 msgid "mbr"
 msgstr "MBR"
 
-#: backend3/lilo:118
+#: backend3/lilo:156
 msgid "mbr-only"
 msgstr "Apenas MBR"
 
-#: backend3/lilo:121
+#: backend3/lilo:159
 msgid "no wait"
 msgstr "não aguarde"
 
-#: backend3/lilo:115
+#: backend3/lilo:153
 msgid "none"
 msgstr "nenhum"
 
-#: helpers/lilo-hal.sh:61
-#: helpers/lilo-other-system.sh:39
-#: helpers/lilo-sysfs.sh:61
+#: helpers/lilo-other-system.sh:41
 msgid "partition"
 msgstr "partição"
 
-#: backend3/lilo:111
+#: backend3/lilo:149
 msgid "text"
 msgstr "texto"
 
+#~ msgid "Boot-as:"
+#~ msgstr "Boot-as:"
+
+#~ msgid "Kb"
+#~ msgstr "Kb"

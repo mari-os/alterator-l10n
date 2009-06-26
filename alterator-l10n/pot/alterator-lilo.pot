@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"POT-Creation-Date: 2009-06-26 14:25+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,256 +16,325 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: backend3/lilo:126
-msgid "1 minute"
-msgstr ""
-
-#: backend3/lilo:122
-msgid "1 second"
-msgstr ""
-
-#: backend3/lilo:124
-msgid "10 seconds"
-msgstr ""
-
-#: backend3/lilo:125
-msgid "20 seconds"
-msgstr ""
-
-#: backend3/lilo:123
-msgid "5 seconds"
-msgstr ""
-
-#: index.scm:194 ui/lilo/expert/index.scm:194
-msgid "Add Linux kernel"
-msgstr ""
-
-#: index.scm:195 ui/lilo/expert/index.scm:195
-msgid "Add other loader"
-msgstr ""
-
-#: index.scm:171 ui/lilo/expert/index.scm:171
-msgid "Additional parameters:"
-msgstr ""
-
-#: index.scm:176 ui/lilo/expert/index.scm:176
-msgid "Alias:"
-msgstr ""
-
-#: index.scm:206 ui/lilo/edit-source/index.scm:36 ui/lilo/index.scm:140
-#: ui/lilo/expert/index.scm:206
-msgid "Apply"
-msgstr ""
-
-#: index.scm:157 ui/lilo/expert/index.scm:157
-msgid "Boot variants"
-msgstr ""
-
-#: index.scm:178
-msgid "Boot-as:"
-msgstr ""
-
 #: standard input:1
 msgid "Bootloader"
 msgstr ""
 
-#: index.scm:145 ui/lilo/expert/index.scm:145
-msgid "Common kernel parameters:"
+#: standard input:2
+msgid "Bootloader setup"
 msgstr ""
 
-#: index.scm:127 ui/lilo/expert/index.scm:127
-msgid "Common settings"
-msgstr ""
-
-#: index.scm:150 ui/lilo/expert/index.scm:150
-msgid "Default boot variant:"
-msgstr ""
-
-#: index.scm:189 ui/lilo/expert/index.scm:189
-msgid "Delete"
-msgstr ""
-
-#: index.scm:174 ui/lilo/expert/index.scm:174
-msgid "Device:"
-msgstr ""
-
-#: index.scm:119 ui/lilo/edit-source/index.scm:21 ui/lilo/expert/index.scm:119
+#: ui/lilo/edit-source/index.scm:21 ui/lilo/expert/index.scm:119
 msgid "Don't install bootloader"
 msgstr ""
 
-#: index.scm:123 ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:123
-msgid "Edit lilo.conf"
+#: ui/lilo/edit-source/index.scm:23 ui/lilo/expert/index.scm:121
+msgid "Simple mode"
 msgstr ""
 
-#: index.scm:122 ui/lilo/edit-source/index.scm:24 ui/lilo/index.scm:141
+#: ui/lilo/edit-source/index.scm:24 ui/lilo/index.scm:137
 #: ui/lilo/expert/index.scm:122
 msgid "Expert mode"
 msgstr ""
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
-msgid "Gb"
-msgstr ""
-
-#: helpers/lilo-hal.sh:42 helpers/lilo-sysfs.sh:42
-msgid "Hard drive"
-msgstr ""
-
-#: index.scm:167 ui/lilo/expert/index.scm:167
-msgid "Initrd:"
-msgstr ""
-
-#: index.scm:131 ui/lilo/index.scm:112 ui/lilo/expert/index.scm:131
-msgid "Install boot loader on:"
-msgstr ""
-
-#: index.scm:142 ui/lilo/index.scm:129 ui/lilo/expert/index.scm:142
-msgid "Interface timeout:"
-msgstr ""
-
-#: index.scm:139 ui/lilo/expert/index.scm:139
-msgid "Interface type:"
-msgstr ""
-
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
-msgid "Kb"
-msgstr ""
-
-#: helpers/lilo-parser.sh:341
-msgid "Kernel image is unspecified."
-msgstr ""
-
-#: index.scm:165 ui/lilo/expert/index.scm:165
-msgid "Kernel image:"
-msgstr ""
-
-#: helpers/lilo-parser.sh:331
-msgid "Label is empty."
-msgstr ""
-
-#: index.scm:163 ui/lilo/expert/index.scm:163
-msgid "Label:"
+#: ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:123
+msgid "Edit lilo.conf"
 msgstr ""
 
 #: ui/lilo/edit-source/index.scm:31
 msgid "Lilo options:"
 msgstr ""
 
-#: index.scm:27 index.scm:35 ui/lilo/expert/index.scm:27
-#: ui/lilo/expert/index.scm:35
-msgid "Linux kernel"
+#: ui/lilo/edit-source/index.scm:36 ui/lilo/index.scm:136
+#: ui/lilo/expert/index.scm:206
+msgid "Apply"
 msgstr ""
 
-#: ui/lilo/index.scm:51
-msgid "Linux partition"
+#: ui/lilo/edit-source/index.scm:37 ui/lilo/expert/index.scm:187
+#: ui/lilo/expert/index.scm:207
+msgid "Reset"
 msgstr ""
 
-#: ui/lilo/index.scm:126
+#: ui/lilo/index.scm:108 ui/lilo/expert/index.scm:131
+msgid "Install boot loader on:"
+msgstr ""
+
+#: ui/lilo/index.scm:113
+msgid "Load other OS:"
+msgstr ""
+
+#: ui/lilo/index.scm:122
 msgid "Load by default:"
 msgstr ""
 
-#: ui/lilo/index.scm:117
-msgid "Load other OS:"
+#: ui/lilo/index.scm:125 ui/lilo/expert/index.scm:142
+msgid "Interface timeout:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
+msgid "Linux kernel"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
+msgid "Other loader"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:127
+msgid "Common settings"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:134
+msgid "Raid-extra-boot:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:139
+msgid "Interface type:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:145
+msgid "Common kernel parameters:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:150
+msgid "Default boot variant:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:157
+msgid "Boot variants"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:163
+msgid "Label:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:165
+msgid "Kernel image:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:167
+msgid "Initrd:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:169
+msgid "Root device:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:171
+msgid "Additional parameters:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:174
+msgid "Device:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:176
+msgid "Alias:"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:178
+msgid "Table:"
 msgstr ""
 
 #: ui/lilo/expert/index.scm:181
 msgid "Master boot"
 msgstr ""
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
-msgid "Mb"
-msgstr ""
-
-#: index.scm:27 index.scm:35 ui/lilo/expert/index.scm:27
-#: ui/lilo/expert/index.scm:35
-msgid "Other loader"
-msgstr ""
-
-#: helpers/lilo-parser.sh:336
-msgid "Other loader device is unspecified."
-msgstr ""
-
-#: index.scm:134 ui/lilo/expert/index.scm:134
-msgid "Raid-extra-boot:"
-msgstr ""
-
-#: index.scm:187 index.scm:207 ui/lilo/edit-source/index.scm:37
-#: ui/lilo/expert/index.scm:187 ui/lilo/expert/index.scm:207
-msgid "Reset"
-msgstr ""
-
-#: helpers/lilo-parser.sh:346
-msgid "Root device is unspecified."
-msgstr ""
-
-#: index.scm:169 ui/lilo/expert/index.scm:169
-msgid "Root device:"
-msgstr ""
-
-#: index.scm:186 ui/lilo/expert/index.scm:186
+#: ui/lilo/expert/index.scm:186
 msgid "Save"
 msgstr ""
 
-#: helpers/lilo-parser.sh:316
-msgid "Section already exists."
+#: ui/lilo/expert/index.scm:189
+msgid "Delete"
 msgstr ""
 
-#: index.scm:121 ui/lilo/edit-source/index.scm:23 ui/lilo/expert/index.scm:121
-msgid "Simple mode"
+#: ui/lilo/expert/index.scm:194
+msgid "Add Linux kernel"
 msgstr ""
 
-#: index.scm:180 ui/lilo/expert/index.scm:178
-msgid "Table:"
+#: ui/lilo/expert/index.scm:195
+msgid "Add other loader"
 msgstr ""
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
-msgid "Tb"
+#: helpers/lilo-conf.sh:29 helpers/lilo-conf.sh:145
+msgid "device not found"
 msgstr ""
 
-#: helpers/lilo-parser.sh:272
-msgid "Unknown section"
+#: helpers/lilo-conf.sh:98
+msgid "No boot device"
 msgstr ""
 
-#: backend3/lilo:116
-msgid "auto"
+#: helpers/lilo-conf.sh:132
+msgid "Not a RAID install, 'raid-extra-boot=' not allowed"
 msgstr ""
 
-#: helpers/lilo-hal.sh:18 helpers/lilo-sysfs.sh:18 helpers/utils.sh:11
-msgid "b"
+#: helpers/lilo-conf.sh:133
+msgid "RAID1 install implied by 'boot=/'"
 msgstr ""
 
-#: helpers/lilo-parser.sh:395 backend3/lilo:104
-msgid "failsafe"
+#: helpers/lilo-conf.sh:134
+msgid "Unable to open"
 msgstr ""
 
-#: backend3/lilo:110
-msgid "graphics"
+#: helpers/lilo-conf.sh:135
+msgid "Unable to stat"
 msgstr ""
 
-#: backend3/lilo:127
-msgid "infinite"
+#: helpers/lilo-conf.sh:136
+msgid "is not a block device"
 msgstr ""
 
-#: backend3/lilo:117
-msgid "mbr"
+#: helpers/lilo-conf.sh:137
+msgid "Unable to get RAID version on"
 msgstr ""
 
-#: backend3/lilo:118
-msgid "mbr-only"
+#: helpers/lilo-conf.sh:138
+msgid "Raid major versions > 0 are not supported"
 msgstr ""
 
-#: backend3/lilo:121
-msgid "no wait"
+#: helpers/lilo-conf.sh:139
+msgid "Raid versions < 0.90 are not supported"
 msgstr ""
 
-#: backend3/lilo:115
-msgid "none"
+#: helpers/lilo-conf.sh:140
+msgid "Unable to get RAID info on"
 msgstr ""
 
-#: helpers/lilo-hal.sh:61 helpers/lilo-other-system.sh:39
-#: helpers/lilo-sysfs.sh:61
+#: helpers/lilo-conf.sh:141
+msgid "Inconsistent Raid version information on"
+msgstr ""
+
+#: helpers/lilo-conf.sh:142
+msgid "Only RAID1 devices are supported as boot devices"
+msgstr ""
+
+#: helpers/lilo-conf.sh:143
+msgid "RAID install requires LBA32 or LINEAR; LBA32 assumed."
+msgstr ""
+
+#: helpers/lilo-conf.sh:144
+msgid "boot device not found"
+msgstr ""
+
+#: helpers/lilo-conf.sh:146
+msgid "Could not find kernel image"
+msgstr ""
+
+#: helpers/lilo-other-system.sh:41
 msgid "partition"
 msgstr ""
 
+#: helpers/lilo-parser.sh:279
+msgid "Unknown section"
+msgstr ""
+
+#: helpers/lilo-parser.sh:323
+msgid "Section already exists."
+msgstr ""
+
+#: helpers/lilo-parser.sh:338
+msgid "Label is empty."
+msgstr ""
+
+#: helpers/lilo-parser.sh:343
+msgid "Other loader device is unspecified."
+msgstr ""
+
+#: helpers/lilo-parser.sh:348
+msgid "Kernel image is unspecified."
+msgstr ""
+
+#: helpers/lilo-parser.sh:353
+msgid "Root device is unspecified."
+msgstr ""
+
+#: helpers/lilo-parser.sh:402 backend3/lilo:142
+msgid "failsafe"
+msgstr ""
+
+#: backend3/lilo:105
+msgid "b"
+msgstr ""
+
+#: backend3/lilo:106
+msgid "kb"
+msgstr ""
+
+#: backend3/lilo:107
+msgid "Mb"
+msgstr ""
+
+#: backend3/lilo:108
+msgid "Gb"
+msgstr ""
+
+#: backend3/lilo:109
+msgid "Tb"
+msgstr ""
+
 #: backend3/lilo:111
+msgid "Hard drive"
+msgstr ""
+
+#: backend3/lilo:112
+msgid "Linux partition"
+msgstr ""
+
+#: backend3/lilo:148
+msgid "graphics"
+msgstr ""
+
+#: backend3/lilo:149
 msgid "text"
+msgstr ""
+
+#: backend3/lilo:153
+msgid "none"
+msgstr ""
+
+#: backend3/lilo:154
+msgid "auto"
+msgstr ""
+
+#: backend3/lilo:155
+msgid "mbr"
+msgstr ""
+
+#: backend3/lilo:156
+msgid "mbr-only"
+msgstr ""
+
+#: backend3/lilo:159
+msgid "no wait"
+msgstr ""
+
+#: backend3/lilo:160
+msgid "1 second"
+msgstr ""
+
+#: backend3/lilo:161
+msgid "5 seconds"
+msgstr ""
+
+#: backend3/lilo:162
+msgid "10 seconds"
+msgstr ""
+
+#: backend3/lilo:163
+msgid "20 seconds"
+msgstr ""
+
+#: backend3/lilo:164
+msgid "1 minute"
+msgstr ""
+
+#: backend3/lilo:165
+msgid "infinite"
+msgstr ""
+
+#: backend3/lilo:269
+msgid "Unable to create temp config file"
+msgstr ""
+
+#: backend3/lilo:275
+msgid "Unable to write new lilo.conf"
 msgstr ""
