@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-07 11:00+0400\n"
+"POT-Creation-Date: 2009-07-24 17:48+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -75,6 +75,10 @@ msgstr "Применить"
 msgid "April"
 msgstr "Апрель"
 
+#: interfaces/guile/ajax.scm:368
+msgid "Attention"
+msgstr "Внимание"
+
 #: interfaces/guile/ahttpd/translate.scm:60
 msgid "August"
 msgstr "Август"
@@ -86,6 +90,10 @@ msgstr "Аутентификация не прошла"
 #: standard input:49
 msgid "Base mode"
 msgstr "Основной режим"
+
+#: interfaces/guile/ajax.scm:235
+msgid "Cancel"
+msgstr "Отмена"
 
 #: standard input:18
 msgid "Certificate"
@@ -119,13 +127,13 @@ msgstr "Декабрь"
 msgid "Delete"
 msgstr "Удалить"
 
-#: interfaces/guile/workflow/card-index.scm:143
-msgid "Do you really want to delete "
-msgstr "Вы действительно желаете удалить "
-
 #: standard input:32
 msgid "Download sign request"
 msgstr "Забрать запрос на подпись"
+
+#: interfaces/guile/ajax.scm:364
+msgid "Error"
+msgstr "Ошибка"
 
 #: standard input:62
 msgid "Exiting..."
@@ -235,18 +243,10 @@ msgstr "Параметры доступа к модулю..."
 msgid "New user:"
 msgstr "Новый пользователь:"
 
-#: interfaces/guile/workflow/card-index.scm:144
-msgid "No"
-msgstr "Нет"
-
 # ahttpd-acl
 #: backend3/ahttpd-acl:108
 msgid "No module found"
 msgstr "модуль не найден"
-
-#: interfaces/guile/workflow/card-index.scm:98
-msgid "No objects found..."
-msgstr "Объектов не обнаружено..."
 
 #: standard input:40
 msgid "Note:"
@@ -255,6 +255,10 @@ msgstr "Замечание:"
 #: interfaces/guile/ahttpd/translate.scm:63
 msgid "November"
 msgstr "Ноябрь"
+
+#: interfaces/guile/ajax.scm:234
+msgid "OK"
+msgstr "OK"
 
 #: interfaces/guile/ahttpd/translate.scm:62
 msgid "October"
@@ -280,6 +284,10 @@ msgstr "Пожалуйста, зарегистрируйтесь"
 msgid "Port:"
 msgstr "Порт:"
 
+#: interfaces/guile/ajax.scm:233
+msgid "Question"
+msgstr "Вопрос"
+
 #: standard input:45
 msgid "Reboot computer now"
 msgstr "Перезагрузить компьютер сейчас"
@@ -295,10 +303,6 @@ msgstr "Вернуть"
 #: standard input:8 input:42
 msgid "Restart HTTP server"
 msgstr "Перезапустить HTTP-сервер"
-
-#: interfaces/guile/workflow/card-index.scm:106
-msgid "Return to view"
-msgstr "Вернуться к просмотру"
 
 #: interfaces/guile/ahttpd/translate.scm:50
 msgid "Sa"
@@ -337,9 +341,10 @@ msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
 "a Javascript enabled browser."
-msgstr "Эта страница использует Javascript. Ваш браузер или не поддерживает"
-"Javascript или вы его отключили."
-"Для нормальной работы с этой страницы пожалуйста используйте браузер с включенной поддержкой Javascript."
+msgstr ""
+"Эта страница использует Javascript. Ваш браузер или не "
+"поддерживаетJavascript или вы его отключили.Для нормальной работы с этой "
+"страницы пожалуйста используйте браузер с включенной поддержкой Javascript."
 
 #: interfaces/guile/ahttpd/translate.scm:46
 msgid "Tu"
@@ -352,10 +357,6 @@ msgstr "Выключать компьютер каждый день в:"
 #: standard input:44
 msgid "Turn off computer now"
 msgstr "Выключить компьютер сейчас"
-
-#: interfaces/guile/workflow/card-index.scm:153
-msgid "Unsupported mode"
-msgstr "Неподдерживаемый режим"
 
 #: standard input:34
 msgid "Upload"
@@ -372,10 +373,6 @@ msgstr "Ср"
 #: standard input:1
 msgid "Web interface"
 msgstr "Веб-интерфейс"
-
-#: interfaces/guile/workflow/card-index.scm:146
-msgid "Yes"
-msgstr "Да"
 
 #: backend3/ahttpd-server:98
 msgid "all connections"

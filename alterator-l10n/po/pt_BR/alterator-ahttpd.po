@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-07 11:00+0400\n"
+"POT-Creation-Date: 2009-07-24 17:48+0400\n"
 "PO-Revision-Date: 2009-04-10 12:41-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -64,7 +64,7 @@ msgid "Add"
 msgstr "Adicionar"
 
 #: standard input:41
-msgid "All your changes will take effect after restart of HTTP server"
+msgid "All your changes will take effect after restart of HTTP server."
 msgstr ""
 
 #: standard input:16 input:47 input:51
@@ -74,6 +74,11 @@ msgstr "Aplicar"
 #: interfaces/guile/ahttpd/translate.scm:56
 msgid "April"
 msgstr "Abril"
+
+#: interfaces/guile/ajax.scm:368
+#, fuzzy
+msgid "Attention"
+msgstr "Atenção:"
 
 #: interfaces/guile/ahttpd/translate.scm:60
 msgid "August"
@@ -86,6 +91,10 @@ msgstr "Autentificação falhou"
 #: standard input:49
 msgid "Base mode"
 msgstr "Modo base"
+
+#: interfaces/guile/ajax.scm:235
+msgid "Cancel"
+msgstr "Cancelar"
 
 #: standard input:18
 msgid "Certificate"
@@ -119,13 +128,13 @@ msgstr "Dezembro"
 msgid "Delete"
 msgstr "Deletar"
 
-#: interfaces/guile/workflow/card-index.scm:143
-msgid "Do you really want to delete "
-msgstr "Você realmente deseja apagar"
-
 #: standard input:32
 msgid "Download sign request"
 msgstr "Download do Requerido"
+
+#: interfaces/guile/ajax.scm:364
+msgid "Error"
+msgstr "Erro"
 
 #: standard input:62
 msgid "Exiting..."
@@ -231,17 +240,9 @@ msgstr "Módulo de acesso nas configurações..."
 msgid "New user:"
 msgstr "Novo Usuário"
 
-#: interfaces/guile/workflow/card-index.scm:144
-msgid "No"
-msgstr "Não"
-
 #: backend3/ahttpd-acl:108
 msgid "No module found"
 msgstr "Nenhum modulo disponível"
-
-#: interfaces/guile/workflow/card-index.scm:98
-msgid "No objects found..."
-msgstr "Nenhum objeto encontrado"
 
 #: standard input:40
 #, fuzzy
@@ -251,6 +252,10 @@ msgstr "Porta:"
 #: interfaces/guile/ahttpd/translate.scm:63
 msgid "November"
 msgstr "Novembro"
+
+#: interfaces/guile/ajax.scm:234
+msgid "OK"
+msgstr "OK"
 
 #: interfaces/guile/ahttpd/translate.scm:62
 msgid "October"
@@ -276,6 +281,10 @@ msgstr "Porfavor login"
 msgid "Port:"
 msgstr "Porta:"
 
+#: interfaces/guile/ajax.scm:233
+msgid "Question"
+msgstr "Questão"
+
 #: standard input:45
 msgid "Reboot computer now"
 msgstr "Reiniciar o computador agora"
@@ -291,10 +300,6 @@ msgstr "Resetar"
 #: standard input:8 input:42
 msgid "Restart HTTP server"
 msgstr "Resetar Servidor HTTP"
-
-#: interfaces/guile/workflow/card-index.scm:106
-msgid "Return to view"
-msgstr "Retornar a Visão"
 
 #: interfaces/guile/ahttpd/translate.scm:50
 msgid "Sa"
@@ -347,10 +352,6 @@ msgstr "Desligue computador todos os dias às:"
 msgid "Turn off computer now"
 msgstr "Desligar computador agora"
 
-#: interfaces/guile/workflow/card-index.scm:153
-msgid "Unsupported mode"
-msgstr "Modo não suportado"
-
 #: standard input:34
 msgid "Upload"
 msgstr "Enviar"
@@ -366,10 +367,6 @@ msgstr "Nós"
 #: standard input:1
 msgid "Web interface"
 msgstr "Interface Web"
-
-#: interfaces/guile/workflow/card-index.scm:146
-msgid "Yes"
-msgstr "Sim"
 
 #: backend3/ahttpd-server:98
 msgid "all connections"
@@ -387,5 +384,23 @@ msgstr "nada"
 msgid "only digits and latin letters allowed"
 msgstr "apenas digitos em letras"
 
+#~ msgid "Do you really want to delete "
+#~ msgstr "Você realmente deseja apagar"
+
+#~ msgid "No"
+#~ msgstr "Não"
+
+#~ msgid "No objects found..."
+#~ msgstr "Nenhum objeto encontrado"
+
+#~ msgid "Return to view"
+#~ msgstr "Retornar a Visão"
+
 #~ msgid "Shutdown computer"
 #~ msgstr "Desligar computador"
+
+#~ msgid "Unsupported mode"
+#~ msgstr "Modo não suportado"
+
+#~ msgid "Yes"
+#~ msgstr "Sim"
