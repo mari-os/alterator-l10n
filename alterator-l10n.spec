@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.4
-Release: alt6
+Release: alt7
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Jul 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt7
+- update translations for alterator-fbi
+- azol@: add initial russian alterator-trust help
+
 * Fri Jun 26 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.4-alt6
 - add some translations for altertator-lilo
 
