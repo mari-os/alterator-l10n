@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-11 16:55+0300\n"
+"POT-Creation-Date: 2009-08-04 14:00+0400\n"
 "PO-Revision-Date: 2009-03-20 17:19-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,124 +19,200 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:10
-msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
-msgstr "Acesso al HD por NFS (/var/lib/alterator/mirror)"
-
-#: standard input:6
-#: input:11
+#: standard input:15 input:22
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:15
+#: standard input:3
 msgid "Architectures"
 msgstr "Architeturas"
 
-#: standard input:3
+#: standard input:19
 msgid "Architectures:"
 msgstr "Architeturas:"
 
-#: backend3/mirror:250
+#: ui/mirror/repository/ajax.scm:51
+msgid "Are really want to clear local repository?"
+msgstr ""
+
+#: backend3/mirror:371
 msgid "Can mirror only from sources with rsync procotol"
 msgstr ""
 
-#: standard input:8
+#: standard input:24
 msgid "Clear local mirror"
 msgstr "Limpiar Direcciones de \"Mirror\""
 
-#: backend3/mirror:146
+#: backend3/mirror:186
 msgid "Custom url"
 msgstr ""
 
-#: backend3/mirror:244
+#: backend3/mirror:365
 msgid "Custom url should be defined"
 msgstr "Usted deve definir un usuário para el sistema"
 
-#: standard input:9
-msgid "Enable mirroring"
-msgstr "posibilitar espejamiento"
+#: backend3/mirror:259
+#, fuzzy
+msgid "Day of month should be defined"
+msgstr "Usted deve definir un usuário para el sistema"
 
-#: backend3/mirror:63
+#: standard input:13
+#, fuzzy
+msgid "Day of month:"
+msgstr "1 mês"
+
+#: backend3/mirror:254
+msgid "Day of week should be selected"
+msgstr ""
+
+#: backend3/mirror:60
 msgid "Gb"
 msgstr "Gb"
 
-#: backend3/mirror:247
+#: backend3/mirror:368
 msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
 msgstr "Inválido o protocolo no suportado. Deve ser http, ftp ou archivo"
 
-#: backend3/mirror:62
+#: backend3/mirror:59 backend3/mirror:144
 msgid "Kb"
 msgstr "Kb"
 
-#: standard input:16
+#: standard input:4
 msgid "Local mirror"
 msgstr "Limpiar Direcciones de \"Mirror\""
 
-#: standard input:4
+#: standard input:20
 msgid "Local mirror of repository"
 msgstr "Sitio de Mirrors"
 
-#: backend3/mirror:61
+#: backend3/mirror:58
 msgid "Mb"
 msgstr "Mb"
 
-#: standard input:5
+#: standard input:10
+msgid "Mirror every day"
+msgstr ""
+
+#: standard input:12
+msgid "Mirror every month at day:"
+msgstr ""
+
+#: standard input:11
+msgid "Mirror every week at:"
+msgstr ""
+
+#: ui/mirror/repository/ajax.scm:51
+msgid "No"
+msgstr "No"
+
+#: standard input:21
 msgid "Publish as a repository for automatic updates"
 msgstr ""
 
-#: standard input:17
+#: standard input:5
 msgid "Published"
 msgstr ""
 
-#: standard input:13
+#: ui/mirror/repository/ajax.scm:51
+msgid "Question"
+msgstr ""
+
+#: standard input:1
 msgid "Repository"
 msgstr "Repositório"
 
-#: standard input:1
+#: standard input:17
 msgid "Repository:"
 msgstr "Repositorio:"
 
-#: standard input:7
-#: input:12
+#: standard input:16 input:23
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:14
+#: standard input:2
 msgid "Source"
 msgstr "Fuente"
 
-#: standard input:2
+#: standard input:18
 msgid "Source:"
 msgstr "Fuente:"
 
-#: standard input:18
+#: standard input:6
 msgid "Storage free space:"
 msgstr "Espacio de Disco de almacenamiento:"
 
-#: standard input:19
-msgid "Synchronization will start every night. First synchronization with some repository may take a long time."
-msgstr "Sincronización comenzará todas las noches. Primera sincronización con algun repositorio puede llevar demasiado tiempo."
+#: standard input:14
+#, fuzzy
+msgid "Time:"
+msgstr "Zona Horaria"
+
+#: standard input:9
+#, fuzzy
+msgid "Turn off mirroring"
+msgstr "posibilitar espejamiento"
+
+#: backend3/mirror:269
+#, fuzzy
+msgid "Unable to create temp file"
+msgstr "No és posible crear rede"
 
 #: standard input:1
-msgid "Update sources"
-msgstr ""
+#, fuzzy
+msgid "Updates server"
+msgstr "Adiccionar Servidor"
 
-#: standard input:20
+#: standard input:7
 msgid "Warning:"
 msgstr "Aviso:"
 
-#: standard input:21
+#: ui/mirror/repository/ajax.scm:51
+msgid "Yes"
+msgstr "Sí"
+
+#: backend3/mirror:294
+msgid "friday"
+msgstr ""
+
+#: standard input:8
 msgid "mirroring requires a lot of disk space."
 msgstr "Espejos requieren un buen espacio en disco"
 
-#: backend3/mirror:84
-#: backend3/mirror:85
-#: backend3/mirror:109
-#: backend3/mirror:116
-msgid "no"
-msgstr "no"
+#: backend3/mirror:290
+msgid "monday"
+msgstr ""
 
-#: backend3/mirror:106
-#: backend3/mirror:114
-msgid "yes"
-msgstr "sí"
+#: backend3/mirror:295
+msgid "saturday"
+msgstr ""
+
+#: backend3/mirror:296
+msgid "sunday"
+msgstr ""
+
+#: backend3/mirror:293
+msgid "thursday"
+msgstr ""
+
+#: backend3/mirror:291
+msgid "tuesday"
+msgstr ""
+
+#: backend3/mirror:292
+msgid "wednesday"
+msgstr ""
+
+#~ msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
+#~ msgstr "Acesso al HD por NFS (/var/lib/alterator/mirror)"
+
+#~ msgid ""
+#~ "Synchronization will start every night. First synchronization with some "
+#~ "repository may take a long time."
+#~ msgstr ""
+#~ "Sincronización comenzará todas las noches. Primera sincronización con "
+#~ "algun repositorio puede llevar demasiado tiempo."
+
+#~ msgid "no"
+#~ msgstr "no"
+
+#~ msgid "yes"
+#~ msgstr "sí"

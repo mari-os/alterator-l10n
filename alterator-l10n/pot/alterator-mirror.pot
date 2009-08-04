@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"POT-Creation-Date: 2009-08-04 14:00+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,117 +16,178 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: standard input:2 input:18
-msgid "Apply"
-msgstr ""
-
-#: standard input:6
-msgid "Architectures"
-msgstr ""
-
-#: standard input:15
-msgid "Architectures:"
-msgstr ""
-
-#: backend3/mirror:279
-msgid "Can mirror only from sources with rsync procotol"
-msgstr ""
-
-#: standard input:20
-msgid "Clear local mirror"
-msgstr ""
-
-#: backend3/mirror:182
-msgid "Custom url"
-msgstr ""
-
-#: backend3/mirror:273
-msgid "Custom url should be defined"
-msgstr ""
-
-#: standard input:1
-msgid "Enable mirroring"
-msgstr ""
-
-#: backend3/mirror:57
-msgid "Gb"
-msgstr ""
-
-#: backend3/mirror:276
-msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
-msgstr ""
-
-#: backend3/mirror:56 backend3/mirror:141
-msgid "Kb"
-msgstr ""
-
-#: standard input:7
-msgid "Local mirror"
-msgstr ""
-
-#: standard input:16
-msgid "Local mirror of repository"
-msgstr ""
-
-#: backend3/mirror:55
-msgid "Mb"
-msgstr ""
-
-#: standard input:17
-msgid "Publish as a repository for automatic updates"
-msgstr ""
-
-#: standard input:8
-msgid "Published"
-msgstr ""
-
-#: standard input:4
-msgid "Repository"
-msgstr ""
-
-#: standard input:13
-msgid "Repository:"
-msgstr ""
-
-#: standard input:3 input:19
-msgid "Reset"
-msgstr ""
-
-#: standard input:5
-msgid "Source"
-msgstr ""
-
-#: standard input:14
-msgid "Source:"
-msgstr ""
-
-#: standard input:9
-msgid "Storage free space:"
-msgstr ""
-
-#: standard input:10
-msgid ""
-"Synchronization will start every night. First synchronization with some "
-"repository may take a long time."
-msgstr ""
-
 #: standard input:1
 msgid "Updates server"
 msgstr ""
 
-#: standard input:11
+#: standard input:1
+msgid "Repository"
+msgstr ""
+
+#: standard input:2
+msgid "Source"
+msgstr ""
+
+#: standard input:3
+msgid "Architectures"
+msgstr ""
+
+#: standard input:4
+msgid "Local mirror"
+msgstr ""
+
+#: standard input:5
+msgid "Published"
+msgstr ""
+
+#: standard input:6
+msgid "Storage free space:"
+msgstr ""
+
+#: standard input:7
 msgid "Warning:"
 msgstr ""
 
-#: standard input:12
+#: standard input:8
 msgid "mirroring requires a lot of disk space."
 msgstr ""
 
-#: backend3/mirror:121 backend3/mirror:122 backend3/mirror:145
-#: backend3/mirror:152
-msgid "no"
+#: standard input:9
+msgid "Turn off mirroring"
 msgstr ""
 
-#: backend3/mirror:142 backend3/mirror:150
-msgid "yes"
+#: standard input:10
+msgid "Mirror every day"
+msgstr ""
+
+#: standard input:11
+msgid "Mirror every week at:"
+msgstr ""
+
+#: standard input:12
+msgid "Mirror every month at day:"
+msgstr ""
+
+#: standard input:13
+msgid "Day of month:"
+msgstr ""
+
+#: standard input:14
+msgid "Time:"
+msgstr ""
+
+#: standard input:15 input:22
+msgid "Apply"
+msgstr ""
+
+#: standard input:16 input:23
+msgid "Reset"
+msgstr ""
+
+#: standard input:17
+msgid "Repository:"
+msgstr ""
+
+#: standard input:18
+msgid "Source:"
+msgstr ""
+
+#: standard input:19
+msgid "Architectures:"
+msgstr ""
+
+#: standard input:20
+msgid "Local mirror of repository"
+msgstr ""
+
+#: standard input:21
+msgid "Publish as a repository for automatic updates"
+msgstr ""
+
+#: standard input:24
+msgid "Clear local mirror"
+msgstr ""
+
+#: ui/mirror/repository/ajax.scm:51
+msgid "Are really want to clear local repository?"
+msgstr ""
+
+#: ui/mirror/repository/ajax.scm:51
+msgid "Question"
+msgstr ""
+
+#: ui/mirror/repository/ajax.scm:51
+msgid "Yes"
+msgstr ""
+
+#: ui/mirror/repository/ajax.scm:51
+msgid "No"
+msgstr ""
+
+#: backend3/mirror:58
+msgid "Mb"
+msgstr ""
+
+#: backend3/mirror:59 backend3/mirror:144
+msgid "Kb"
+msgstr ""
+
+#: backend3/mirror:60
+msgid "Gb"
+msgstr ""
+
+#: backend3/mirror:186
+msgid "Custom url"
+msgstr ""
+
+#: backend3/mirror:254
+msgid "Day of week should be selected"
+msgstr ""
+
+#: backend3/mirror:259
+msgid "Day of month should be defined"
+msgstr ""
+
+#: backend3/mirror:269
+msgid "Unable to create temp file"
+msgstr ""
+
+#: backend3/mirror:290
+msgid "monday"
+msgstr ""
+
+#: backend3/mirror:291
+msgid "tuesday"
+msgstr ""
+
+#: backend3/mirror:292
+msgid "wednesday"
+msgstr ""
+
+#: backend3/mirror:293
+msgid "thursday"
+msgstr ""
+
+#: backend3/mirror:294
+msgid "friday"
+msgstr ""
+
+#: backend3/mirror:295
+msgid "saturday"
+msgstr ""
+
+#: backend3/mirror:296
+msgid "sunday"
+msgstr ""
+
+#: backend3/mirror:365
+msgid "Custom url should be defined"
+msgstr ""
+
+#: backend3/mirror:368
+msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
+msgstr ""
+
+#: backend3/mirror:371
+msgid "Can mirror only from sources with rsync procotol"
 msgstr ""

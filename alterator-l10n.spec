@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.4
-Release: alt8
+Release: alt9
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Aug 04 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt9
+- update translations for alterator-mirror
+
 * Thu Jul 30 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt8
 - update translations for alterator-pkg
 
