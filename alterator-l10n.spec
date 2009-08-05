@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.4
-Release: alt9
+Release: alt10
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Aug 05 2009 Paul Wolneykien <manowar@altlinux.ru> 2.4-alt10
+- update translations for alterator-squid
+
 * Tue Aug 04 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt9
 - update translations for alterator-mirror
 
