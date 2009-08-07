@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.4
-Release: alt11
+Release: alt12
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Aug 07 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt12
+- update translations for alterator-pkg
+
 * Thu Aug 06 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt11
 - add translations for alterator-cd2
 

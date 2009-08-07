@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-30 17:13+0400\n"
+"POT-Creation-Date: 2009-08-07 13:12+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,12 +18,11 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ui/pkg/install/index.scm:76
+#: ui/pkg/install/index.scm:75
 msgid "Acquiring packages..."
 msgstr "Получение пакетов..."
 
-#: standard input:8 input:13 ui/pkg/sources/mirrors/index.scm:51
-#: ui/pkg/register/index.scm:42
+#: standard input:7 ui/pkg/sources/mirrors/index.scm:58
 msgid "Add"
 msgstr "Добавить"
 
@@ -31,63 +30,55 @@ msgstr "Добавить"
 msgid "Additional applications:"
 msgstr "Дополнительные приложения:"
 
-#: standard input:2 ui/pkg/register/index.scm:26
-msgid "Additional disks"
-msgstr "Дополнительные диски"
-
-#: standard input:5 ui/pkg/sources/index.scm:40
+#: standard input:4 ui/pkg/sources/index.scm:20
 msgid "Advanced..."
 msgstr "Дополнительно..."
 
-#: standard input:9 ui/pkg/sources/mirrors/index.scm:53
+#: standard input:8 ui/pkg/sources/mirrors/index.scm:60
 msgid "Available sources:"
 msgstr "Доступные источники:"
 
-#: ui/pkg/install/index.scm:35
+#: ui/pkg/install/index.scm:34
 msgid "Building packages list"
 msgstr "Построение списка пакетов"
 
-#: ui/pkg/sources/mirrors/index.scm:60
-msgid "Cancel"
-msgstr "Отмена"
-
-#: standard input:4 ui/pkg/sources/index.scm:33
+#: standard input:3 ui/pkg/sources/index.scm:15
 msgid "Change"
 msgstr "Изменить"
 
-#: standard input:11
+#: standard input:10
 msgid "Communications"
 msgstr ""
 
-#: standard input:6
+#: standard input:5
 msgid "Communications (full)"
 msgstr ""
 
-#: ui/pkg/error/index.scm:5
+#: ui/pkg/error/index.scm:4
 msgid "Critical error during install"
 msgstr "Критическая ошибка установки"
 
-#: standard input:10 ui/pkg/sources/mirrors/index.scm:55
+#: standard input:9 ui/pkg/sources/mirrors/index.scm:62
 msgid "Delete"
 msgstr "Удалить"
 
-#: standard input:15
+#: standard input:14
 msgid "Desktop"
 msgstr ""
 
-#: standard input:7
+#: standard input:6
 msgid "Desktop (full)"
 msgstr ""
 
-#: standard input:13
+#: standard input:12
 msgid "Documentation"
 msgstr ""
 
-#: standard input:3
+#: standard input:2
 msgid "Edutainment"
 msgstr ""
 
-#: standard input:8
+#: standard input:7
 msgid "Emulators"
 msgstr ""
 
@@ -95,15 +86,15 @@ msgstr ""
 msgid "GB"
 msgstr "ГБ"
 
-#: standard input:9
+#: standard input:8
 msgid "Games"
 msgstr ""
 
-#: standard input:16
+#: standard input:15
 msgid "Graphics"
 msgstr ""
 
-#: standard input:5
+#: standard input:4
 msgid "Graphics (full)"
 msgstr ""
 
@@ -112,55 +103,38 @@ msgstr ""
 msgid "Has conflict with ~S"
 msgstr "Имеется конфликт с ~S"
 
-#: standard input:11
-msgid ""
-"If you have any additional CDs or DVDs for this distribution\n"
-"    please insert them one by one and press \"Add\" button"
-msgstr ""
-"Если у вас есть дополнительные CD или DVD диски для данного\n"
-"дистрибутива, пожалуйста, вставьте их и нажмите кнопку \"Добавить\""
-
-#: ui/pkg/register/index.scm:31
-msgid ""
-"If you have any additional CDs or DVDs for this distribution<br>\n"
-"please insert them one by one and press 'Add' button"
-msgstr ""
-"Если у вас есть дополнительные CD или DVD диски для данного<br>\n"
-"дистрибутива, пожалуйста, вставьте их и нажмите кнопку 'Добавить'"
-
 #: standard input:1
 msgid "Install sources"
 msgstr "Источники для установки ПО"
 
-#: ui/pkg/install/index.scm:42
+#: ui/pkg/install/index.scm:41
 msgid "Installing additional software"
 msgstr "Установка дополнительного программного обеспечения"
 
-#: ui/pkg/install/index.scm:37
+#: ui/pkg/install/index.scm:36
 msgid "Installing base system"
 msgstr "Установка базовой системы"
 
-#: ui/pkg/install/index.scm:82
+#: ui/pkg/install/index.scm:81
 msgid "Installing packages..."
 msgstr "Установка пакетов..."
 
-#: ui/pkg/install/index.scm:39
+#: ui/pkg/install/index.scm:38
 msgid "Installing software"
 msgstr "Установка программного обеспечения"
 
-#: ui/pkg/cdrom/index.scm:10
+#: ui/pkg/cdrom/index.scm:9
 msgid "Into drive"
 msgstr "В привод"
 
-#: backend3/pkg-register:68
-msgid "Invalid disk"
-msgstr "Неверный формат диска"
+#: backend3/pkg-sources:91
+msgid ""
+"Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
+msgstr ""
+"Неверный или неподдерживаемый протокол. Должно быть http://, ftp://, "
+"rsync:// или file:"
 
-#: backend3/pkg-sources:89
-msgid "Invalid or unsupported protocol. Should be http, ftp or file"
-msgstr "Неверный или неподдерживаемый протокол. Должно быть http, ftp или file"
-
-#: ui/pkg/install/index.scm:40 ui/pkg/install/index.scm:43
+#: ui/pkg/install/index.scm:39 ui/pkg/install/index.scm:42
 msgid "Loading package information..."
 msgstr "Загрузка информации о пакетах..."
 
@@ -168,56 +142,43 @@ msgstr "Загрузка информации о пакетах..."
 msgid "MB"
 msgstr "МБ"
 
-#: standard input:14
+#: standard input:13
 msgid "Multimedia"
 msgstr ""
 
-#: standard input:12
+#: standard input:11
 msgid "Multimedia (full)"
 msgstr ""
 
-#: standard input:7 ui/pkg/sources/mirrors/index.scm:49
+#: standard input:6 ui/pkg/sources/mirrors/index.scm:56
 msgid "New source:"
 msgstr "Новый источник:"
 
-#: ui/pkg/sources/mirrors/index.scm:59
-msgid "OK"
-msgstr "OK"
-
-#: standard input:10
+#: standard input:9
 msgid "Office Suite"
 msgstr ""
 
-#: standard input:4
+#: standard input:3
 msgid "Office Suite (full)"
 msgstr ""
 
-#: ui/pkg/cdrom/index.scm:8
+#: ui/pkg/cdrom/index.scm:7
 msgid "Please insert CDROM labeled as"
 msgstr "Пожалуйста, вставьте CD/DVD диск "
 
-#: backend3/pkg-register:62
-msgid "Please insert disk"
-msgstr "Пожалуйста, вставьте CD/DVD диск"
-
-#: ui/pkg/install/index.scm:101 ui/pkg/groups/index.scm:148
+#: ui/pkg/install/index.scm:100 ui/pkg/groups/index.scm:148
 msgid "Preparing..."
 msgstr "Подготовка..."
 
-#: ui/pkg/cdrom/index.scm:12 ui/pkg/error/index.scm:7
+#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
 msgid "Press 'Next' button to continue"
 msgstr "Нажмите кнопку 'Далее' для продолжения"
 
-#: standard input:14 ui/pkg/register/index.scm:44
-msgid "Remove"
-msgstr "Удалить"
-
-#.
-#: standard input:1 ui/pkg/sources/index.scm:24
+#: standard input:1 ui/pkg/sources/index.scm:8
 msgid "Repositories:"
 msgstr "Репозитории:"
 
-#: ui/pkg/sources/mirrors/index.scm:10
+#: standard input:5 ui/pkg/sources/mirrors/index.scm:52
 msgid "Repository:"
 msgstr "Репозиторий:"
 
@@ -225,15 +186,15 @@ msgstr "Репозиторий:"
 msgid "Required disk space"
 msgstr "Требуемое место на диске"
 
-#: backend3/pkg-sources:92
+#: standard input:10 ui/pkg/sources/mirrors/index.scm:66
+msgid "Return"
+msgstr "Вернуться"
+
+#: backend3/pkg-sources:94
 msgid "Same source already exists"
 msgstr "Подобный источник уже существует"
 
-#: standard input:2
-msgid "Select"
-msgstr "Выбрать"
-
-#: standard input:3 ui/pkg/sources/index.scm:31
+#: standard input:2 ui/pkg/sources/index.scm:13
 msgid "Source URI:"
 msgstr "Адрес источника:"
 
@@ -241,23 +202,15 @@ msgstr "Адрес источника:"
 msgid "TB"
 msgstr "ТБ"
 
-#: backend3/pkg-register:64
-msgid "This disk is already added"
-msgstr "Данный диск уже добавлен"
-
-#: ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
 msgid "Unknown"
 msgstr "Неизвестно"
-
-#: standard input:6
-msgid "Update sources"
-msgstr "Источники обновлений"
 
 #: ui/pkg/groups/index.scm:100
 msgid "calculating..."
 msgstr "вычисление..."
 
-#: backend3/pkg-sources:185 backend3/pkg-sources:221
+#: backend3/pkg-sources:187 backend3/pkg-sources:210
 msgid "inactive"
 msgstr "неактивно"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-30 17:13+0400\n"
+"POT-Creation-Date: 2009-08-07 13:12+0400\n"
 "PO-Revision-Date: 2009-03-27 18:26-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,12 +19,11 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: ui/pkg/install/index.scm:76
+#: ui/pkg/install/index.scm:75
 msgid "Acquiring packages..."
 msgstr "Adquisición de paquete..."
 
-#: standard input:8 input:13 ui/pkg/sources/mirrors/index.scm:51
-#: ui/pkg/register/index.scm:42
+#: standard input:7 ui/pkg/sources/mirrors/index.scm:58
 msgid "Add"
 msgstr "Adiccionar"
 
@@ -33,65 +32,57 @@ msgstr "Adiccionar"
 msgid "Additional applications:"
 msgstr "Parámetros adicionais"
 
-#: standard input:2 ui/pkg/register/index.scm:26
-msgid "Additional disks"
-msgstr "Paquetes adicionales"
-
-#: standard input:5 ui/pkg/sources/index.scm:40
+#: standard input:4 ui/pkg/sources/index.scm:20
 msgid "Advanced..."
 msgstr "Avanzado..."
 
-#: standard input:9 ui/pkg/sources/mirrors/index.scm:53
+#: standard input:8 ui/pkg/sources/mirrors/index.scm:60
 msgid "Available sources:"
 msgstr "Ver código fuente"
 
-#: ui/pkg/install/index.scm:35
+#: ui/pkg/install/index.scm:34
 msgid "Building packages list"
 msgstr "La adquisición de paquetes..."
 
-#: ui/pkg/sources/mirrors/index.scm:60
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: standard input:4 ui/pkg/sources/index.scm:33
+#: standard input:3 ui/pkg/sources/index.scm:15
 msgid "Change"
 msgstr "Alteración"
 
-#: standard input:11
+#: standard input:10
 #, fuzzy
 msgid "Communications"
 msgstr "Información"
 
-#: standard input:6
+#: standard input:5
 msgid "Communications (full)"
 msgstr ""
 
-#: ui/pkg/error/index.scm:5
+#: ui/pkg/error/index.scm:4
 msgid "Critical error during install"
 msgstr "Erro Crítico durante la instalación"
 
-#: standard input:10 ui/pkg/sources/mirrors/index.scm:55
+#: standard input:9 ui/pkg/sources/mirrors/index.scm:62
 msgid "Delete"
 msgstr "Borrar"
 
-#: standard input:15
+#: standard input:14
 msgid "Desktop"
 msgstr ""
 
-#: standard input:7
+#: standard input:6
 msgid "Desktop (full)"
 msgstr ""
 
-#: standard input:13
+#: standard input:12
 #, fuzzy
 msgid "Documentation"
 msgstr "Autenticación (SASL)"
 
-#: standard input:3
+#: standard input:2
 msgid "Edutainment"
 msgstr ""
 
-#: standard input:8
+#: standard input:7
 msgid "Emulators"
 msgstr ""
 
@@ -99,16 +90,16 @@ msgstr ""
 msgid "GB"
 msgstr ""
 
-#: standard input:9
+#: standard input:8
 msgid "Games"
 msgstr ""
 
-#: standard input:16
+#: standard input:15
 #, fuzzy
 msgid "Graphics"
 msgstr "gráficos"
 
-#: standard input:5
+#: standard input:4
 #, fuzzy
 msgid "Graphics (full)"
 msgstr "gráficos"
@@ -118,56 +109,38 @@ msgstr "gráficos"
 msgid "Has conflict with ~S"
 msgstr "Hay conflicto con ~S"
 
-#: standard input:11
-msgid ""
-"If you have any additional CDs or DVDs for this distribution\n"
-"    please insert them one by one and press \"Add\" button"
-msgstr ""
-"Por favor, introduzca uno a uno y pulse \"Añadir \" botón insira-os um por "
-"um e pressione 'Adicionar' botão"
-
-#: ui/pkg/register/index.scm:31
-msgid ""
-"If you have any additional CDs or DVDs for this distribution<br>\n"
-"please insert them one by one and press 'Add' button"
-msgstr ""
-"Si usted tiene cualquier CD o DVD para esta distribución <br> \n"
-" insira-os um por um e pressione botão 'Adicionar'"
-
 #: standard input:1
 msgid "Install sources"
 msgstr "Instalación de paquetes..."
 
-#: ui/pkg/install/index.scm:42
+#: ui/pkg/install/index.scm:41
 #, fuzzy
 msgid "Installing additional software"
 msgstr "Instalación de paquetes"
 
-#: ui/pkg/install/index.scm:37
+#: ui/pkg/install/index.scm:36
 msgid "Installing base system"
 msgstr "Instalación de paquetes..."
 
-#: ui/pkg/install/index.scm:82
+#: ui/pkg/install/index.scm:81
 msgid "Installing packages..."
 msgstr "Instalación de paquetes..."
 
-#: ui/pkg/install/index.scm:39
+#: ui/pkg/install/index.scm:38
 msgid "Installing software"
 msgstr "Instalación de paquetes"
 
-#: ui/pkg/cdrom/index.scm:10
+#: ui/pkg/cdrom/index.scm:9
 msgid "Into drive"
 msgstr "Driver:"
 
-#: backend3/pkg-register:68
-msgid "Invalid disk"
-msgstr "Disco Inválido"
-
-#: backend3/pkg-sources:89
-msgid "Invalid or unsupported protocol. Should be http, ftp or file"
+#: backend3/pkg-sources:91
+#, fuzzy
+msgid ""
+"Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
 msgstr "No válido o no suportado el protocolo. Debe ser http, ftp o archivo"
 
-#: ui/pkg/install/index.scm:40 ui/pkg/install/index.scm:43
+#: ui/pkg/install/index.scm:39 ui/pkg/install/index.scm:42
 msgid "Loading package information..."
 msgstr ""
 
@@ -175,56 +148,43 @@ msgstr ""
 msgid "MB"
 msgstr ""
 
-#: standard input:14
+#: standard input:13
 msgid "Multimedia"
 msgstr ""
 
-#: standard input:12
+#: standard input:11
 msgid "Multimedia (full)"
 msgstr ""
 
-#: standard input:7 ui/pkg/sources/mirrors/index.scm:49
+#: standard input:6 ui/pkg/sources/mirrors/index.scm:56
 msgid "New source:"
 msgstr "Nueva fuente"
 
-#: ui/pkg/sources/mirrors/index.scm:59
-msgid "OK"
-msgstr "OK"
-
-#: standard input:10
+#: standard input:9
 msgid "Office Suite"
 msgstr ""
 
-#: standard input:4
+#: standard input:3
 msgid "Office Suite (full)"
 msgstr ""
 
-#: ui/pkg/cdrom/index.scm:8
+#: ui/pkg/cdrom/index.scm:7
 msgid "Please insert CDROM labeled as"
 msgstr "Por favor, introduzca la etiqueta de CD-ROM"
 
-#: backend3/pkg-register:62
-msgid "Please insert disk"
-msgstr "Por favor insira un Disco"
-
-#: ui/pkg/install/index.scm:101 ui/pkg/groups/index.scm:148
+#: ui/pkg/install/index.scm:100 ui/pkg/groups/index.scm:148
 msgid "Preparing..."
 msgstr "Preparando..."
 
-#: ui/pkg/cdrom/index.scm:12 ui/pkg/error/index.scm:7
+#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
 msgid "Press 'Next' button to continue"
 msgstr "Haga clic en el botón \"Siguiente\" para continuar"
 
-#: standard input:14 ui/pkg/register/index.scm:44
-msgid "Remove"
-msgstr "Remover"
-
-#.
-#: standard input:1 ui/pkg/sources/index.scm:24
+#: standard input:1 ui/pkg/sources/index.scm:8
 msgid "Repositories:"
 msgstr "Repositórios:"
 
-#: ui/pkg/sources/mirrors/index.scm:10
+#: standard input:5 ui/pkg/sources/mirrors/index.scm:52
 msgid "Repository:"
 msgstr "Repositorio:"
 
@@ -232,15 +192,15 @@ msgstr "Repositorio:"
 msgid "Required disk space"
 msgstr "Requiere de espacio en disco"
 
-#: backend3/pkg-sources:92
+#: standard input:10 ui/pkg/sources/mirrors/index.scm:66
+msgid "Return"
+msgstr ""
+
+#: backend3/pkg-sources:94
 msgid "Same source already exists"
 msgstr "Ya existe la fuente"
 
-#: standard input:2
-msgid "Select"
-msgstr "Seleccionar"
-
-#: standard input:3 ui/pkg/sources/index.scm:31
+#: standard input:2 ui/pkg/sources/index.scm:13
 msgid "Source URI:"
 msgstr "Fuente del URI:"
 
@@ -248,23 +208,15 @@ msgstr "Fuente del URI:"
 msgid "TB"
 msgstr ""
 
-#: backend3/pkg-register:64
-msgid "This disk is already added"
-msgstr "Este disco ya está añadido"
-
-#: ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
 msgid "Unknown"
 msgstr "Desconocido"
-
-#: standard input:6
-msgid "Update sources"
-msgstr ""
 
 #: ui/pkg/groups/index.scm:100
 msgid "calculating..."
 msgstr "calculando..."
 
-#: backend3/pkg-sources:185 backend3/pkg-sources:221
+#: backend3/pkg-sources:187 backend3/pkg-sources:210
 msgid "inactive"
 msgstr "inactivo"
 
@@ -276,8 +228,46 @@ msgstr ""
 msgid "unable to calculate"
 msgstr "No fue posible calcular"
 
+#~ msgid "Additional disks"
+#~ msgstr "Paquetes adicionales"
+
 #~ msgid "Anvanced..."
 #~ msgstr "Avanzado..."
 
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid ""
+#~ "If you have any additional CDs or DVDs for this distribution\n"
+#~ "    please insert them one by one and press \"Add\" button"
+#~ msgstr ""
+#~ "Por favor, introduzca uno a uno y pulse \"Añadir \" botón insira-os um "
+#~ "por um e pressione 'Adicionar' botão"
+
+#~ msgid ""
+#~ "If you have any additional CDs or DVDs for this distribution<br>\n"
+#~ "please insert them one by one and press 'Add' button"
+#~ msgstr ""
+#~ "Si usted tiene cualquier CD o DVD para esta distribución <br> \n"
+#~ " insira-os um por um e pressione botão 'Adicionar'"
+
+#~ msgid "Invalid disk"
+#~ msgstr "Disco Inválido"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Please insert disk"
+#~ msgstr "Por favor insira un Disco"
+
+#~ msgid "Remove"
+#~ msgstr "Remover"
+
+#~ msgid "Select"
+#~ msgstr "Seleccionar"
+
 #~ msgid "Select groups you want to install:"
 #~ msgstr "Selecciona paquetes que quiera instalar"
+
+#~ msgid "This disk is already added"
+#~ msgstr "Este disco ya está añadido"
