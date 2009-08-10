@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-30 18:16+0400\n"
+"POT-Creation-Date: 2009-08-10 15:35+0400\n"
 "PO-Revision-Date: 2009-04-10 13:58-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -40,12 +40,18 @@ msgstr " reiniciar, então continue a instalação."
 msgid "Additional Size"
 msgstr "Tamanho adicional"
 
+#: ui/vm/blonde.scm:91
+#, fuzzy
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr "Todos os dados de todos os seus discos serão perdidos! Continuar?"
+
 #. ---------------------------------------------------------------
 #: ui/vm/lucky.scm:67
 msgid "All data from all your disks will be lost!"
 msgstr "Todos os dados de todos os seus discos serão perdidos!"
 
-#: ui/vm/blonde.scm:91
 #: ui/vm/ortodox.scm:70
 msgid "All data from all your disks will be lost! Continue?"
 msgstr "Todos os dados de todos os seus discos serão perdidos! Continuar?"
@@ -62,8 +68,7 @@ msgstr "Aplicar"
 msgid "Apply requested changes?"
 msgstr "Aplicar alterações solicitadas?"
 
-#: ui/vm/choice.scm:35
-#: ui/vm/popup.scm:112
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -124,8 +129,7 @@ msgstr "Continuar?"
 msgid "Create Ext3 Journal"
 msgstr "Criar ext3 Oficial"
 
-#: ui/vm/table.scm:209
-#: ui/vm/table.scm:211
+#: ui/vm/table.scm:209 ui/vm/table.scm:211
 msgid "Create Partition"
 msgstr "Criar Partição"
 
@@ -133,8 +137,7 @@ msgstr "Criar Partição"
 msgid "Create RAID"
 msgstr "Criar RAID"
 
-#: ui/vm/table.scm:204
-#: ui/vm/table.scm:216
+#: ui/vm/table.scm:204 ui/vm/table.scm:216
 msgid "Create Volume"
 msgstr "Criar Volume"
 
@@ -155,11 +158,8 @@ msgstr "Instalação customizada"
 msgid "Degraded array"
 msgstr "Desagrados array"
 
-#: ui/vm/table.scm:197
-#: ui/vm/table.scm:202
-#: ui/vm/table.scm:207
-#: ui/vm/table.scm:214
-#: ui/vm/table.scm:219
+#: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
+#: ui/vm/table.scm:214 ui/vm/table.scm:219
 msgid "Destroy"
 msgstr "Destruir"
 
@@ -179,9 +179,7 @@ msgstr "Frequência Dump"
 msgid "Edit Mountpoint"
 msgstr "Editar Ponto de montagem"
 
-#: ui/vm/table.scm:200
-#: ui/vm/table.scm:205
-#: ui/vm/table.scm:212
+#: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
 #: ui/vm/table.scm:217
 msgid "Expand"
 msgstr "Expandir"
@@ -213,8 +211,7 @@ msgstr "FAT16 Sistema de arquivo Interface Módulo"
 msgid "FAT32 File System Interface Module"
 msgstr "FAT32 Sistema de arquivo Interface Módulo"
 
-#: ui/vm/table.scm:189
-#: ui/vm/blonde.scm:46
+#: ui/vm/table.scm:189 ui/vm/blonde.scm:46
 msgid "Filesystem"
 msgstr "Sistema de arquivos"
 
@@ -226,7 +223,7 @@ msgstr "Forçar"
 msgid "Format before using"
 msgstr "Formato antes de usar"
 
-#: standard input:1
+#: standard input:2
 msgid "Harddisks"
 msgstr "HD"
 
@@ -280,8 +277,7 @@ msgstr "MD Raid 1 Região Administrador"
 msgid "MFT zone multiplier"
 msgstr "MFT zona multiplicador"
 
-#: ui/vm/table.scm:222
-#: ui/vm/table.scm:225
+#: ui/vm/table.scm:222 ui/vm/table.scm:225
 msgid "Make Filesystem"
 msgstr "Criar sistema de arquivos"
 
@@ -302,8 +298,7 @@ msgstr "Opções de Montagem"
 msgid "Mounted on"
 msgstr "Montado"
 
-#: ui/vm/dummystr.scm:85
-#: ui/vm/table.scm:191
+#: ui/vm/dummystr.scm:85 ui/vm/table.scm:191
 msgid "Mountpoint"
 msgstr "Ponto de montagem"
 
@@ -331,8 +326,11 @@ msgstr "Próxima operação"
 
 #. misc
 #: ui/vm/dummystr.scm:78
-msgid "Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
-msgstr "Nota, esse redimensionamento da partição Vista podem levar a insuficiência Vista Boot. Prossiga?"
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+msgstr ""
+"Nota, esse redimensionamento da partição Vista podem levar a insuficiência "
+"Vista Boot. Prossiga?"
 
 #: ui/vm/dummystr.scm:44
 msgid "Number of stripes for the new LVM2 region."
@@ -342,8 +340,7 @@ msgstr "Número de faixas para o novo LVM2 região."
 msgid "Number of stripes for the new portion of the region."
 msgstr "úmero de faixas para a nova porção da região."
 
-#: ui/vm/choice.scm:34
-#: ui/vm/popup.scm:109
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
 msgid "OK"
 msgstr "OK"
 
@@ -367,8 +364,7 @@ msgstr "Renovo"
 msgid "Operation not permitted"
 msgstr "Operação não permitida"
 
-#: ui/vm/popup.scm:96
-#: ui/vm/ortodox.scm:89
+#: ui/vm/popup.scm:96 ui/vm/ortodox.scm:89
 msgid "Options"
 msgstr "Opções"
 
@@ -409,8 +405,7 @@ msgstr "Ler/Escrever Checar para Mal Blocos"
 msgid "ReiserFS File System Interface Module"
 msgstr "ReiserFS File System Interface Módulo"
 
-#: ui/vm/table.scm:223
-#: ui/vm/table.scm:229
+#: ui/vm/table.scm:223 ui/vm/table.scm:229
 msgid "Remove Filesystem"
 msgstr "Remover Sistema de arquivos"
 
@@ -447,9 +442,7 @@ msgstr "Configuração para estação de trabalho"
 msgid "Show extra options"
 msgstr "Mostrar opções extras"
 
-#: ui/vm/table.scm:201
-#: ui/vm/table.scm:206
-#: ui/vm/table.scm:213
+#: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
 #: ui/vm/table.scm:218
 msgid "Shrink"
 msgstr "Encolha"
@@ -495,7 +488,8 @@ msgstr "Demonstrar sistema de arquivos"
 
 #: ui/vm/ortodox.scm:129
 msgid "Unable to apply selected profile, not enough disk space"
-msgstr "Não é possível aplicar perfil seleccionado, não é suficiente espaço em disco"
+msgstr ""
+"Não é possível aplicar perfil seleccionado, não é suficiente espaço em disco"
 
 #: ui/vm/blonde.scm:138
 msgid "Unable to autopartition, not enough disk space"
@@ -527,6 +521,11 @@ msgstr "Nome do Volume"
 msgid "Volume label"
 msgstr "Nome do volume"
 
+#: standard input:1
+#, fuzzy
+msgid "Volume management"
+msgstr "Administração de Usuário"
+
 #: ui/vm/blonde.scm:97
 msgid "Volumes"
 msgstr "Volumes"
@@ -546,4 +545,3 @@ msgstr "espaço livre necessário:"
 #: ui/vm/dummystr.scm:88
 msgid "inaccesible or not a directory"
 msgstr "inaccesible ou não um diretório"
-
