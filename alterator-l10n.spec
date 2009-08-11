@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 2.4
-Release: alt12
+Version: 2.5
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,14 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Aug 10 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt1
+- update translations for alterator-vm
+- add translations for alterator-livecd (closes: #20602)
+- add initial russian alterator-quota help (azol@)
+- add initial russian alterator-netinst help (azol@)
+- add initial russian ldap-groups help (azol@)
+- add initial russian alterator-ca help (azol@)
+
 * Fri Aug 07 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt12
 - update translations for alterator-pkg
 
@@ -108,7 +116,7 @@ make check
 - azol@: add initial russian alterator-trust help
 
 * Fri Jun 26 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.4-alt6
-- add some translations for altertator-lilo
+- add some translations for alterator-lilo
 
 * Wed Jun 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.4-alt5
 - update translations for alterator-bacula
