@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-05 18:18+0400\n"
+"POT-Creation-Date: 2009-08-13 22:16+0000\n"
 "PO-Revision-Date: 2009-01-29 13:14-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -24,6 +24,108 @@ msgstr ""
 msgid "&lt;new&gt;"
 msgstr "&lt;novo&gt;"
 
+#: standard input:36
+#, fuzzy
+msgid "(IP address mask)"
+msgstr "Endereço IP"
+
+#: standard input:34
+#, fuzzy
+msgid "(IP address)"
+msgstr "Endereço IP"
+
+#: standard input:3
+msgid "(Space separated list of domain suffixes, each starting with a dot)"
+msgstr ""
+
+#: standard input:25 input:45 input:47
+#, fuzzy
+msgid "(port number)"
+msgstr "(apenas um número)"
+
+#: standard input:10
+#, fuzzy
+msgid "Access management"
+msgstr "Administração de Usuário"
+
+#: standard input:12
+msgid "Add"
+msgstr "Adicionar"
+
+#: standard input:14
+#, fuzzy
+msgid "Add domain"
+msgstr "Adicionar Cliente"
+
+#: standard input:35
+#, fuzzy
+msgid "Address mask:"
+msgstr "Endereço MAC:"
+
+#: standard input:5 input:18 input:27 input:38 input:50
+msgid "Apply"
+msgstr "Aplicar"
+
+#: standard input:9 input:21 input:42 input:54
+msgid "Back"
+msgstr ""
+
+#: standard input:4 input:37 input:49
+msgid "Comment:"
+msgstr "Comentários:"
+
+#: standard input:48
+#, fuzzy
+msgid "Connection method:"
+msgstr "Conexão estabelecida"
+
+#: standard input:7 input:20 input:40 input:52
+msgid "Delete"
+msgstr "Deletar"
+
+#: standard input:16
+#, fuzzy
+msgid "Delete domain"
+msgstr "Deletar Conexão"
+
+#: standard input:17
+msgid "Deny selected domains"
+msgstr ""
+
+#: standard input:1
+#, fuzzy
+msgid "Destination domains"
+msgstr "Porta destino"
+
+#: standard input:13
+#, fuzzy
+msgid "Domain access"
+msgstr "Acesso de Escrita"
+
+#: standard input:26
+#, fuzzy
+msgid "Enable proxy-server service"
+msgstr "Habilitar serviço"
+
+#: standard input:44
+#, fuzzy
+msgid "From port:"
+msgstr "porta:"
+
+#: standard input:31
+msgid "Groups"
+msgstr "Grupos"
+
+#: standard input:33
+#, fuzzy
+msgid "IP-address:"
+msgstr "Endereço IP:"
+
+#: standard input:32
+#, fuzzy
+msgid "Internal networks"
+msgstr "Outra rede"
+
 #: interfaces/guile/backend/squid.scm:77
 msgid "Kerberos"
 msgstr ""
@@ -31,6 +133,21 @@ msgstr ""
 #: interfaces/guile/backend/squid.scm:79
 msgid "Kerberos+PAM"
 msgstr ""
+
+#: standard input:15
+#, fuzzy
+msgid "Manage domains"
+msgstr "Definir domínio:"
+
+#: standard input:30
+#, fuzzy
+msgid "Networks"
+msgstr "Rede"
+
+#: standard input:8 input:41 input:53
+#, fuzzy
+msgid "New"
+msgstr "Rede"
 
 #: interfaces/guile/backend/squid.scm:76
 #, fuzzy
@@ -49,18 +166,60 @@ msgstr ""
 msgid "Passthrough"
 msgstr ""
 
+#: standard input:29
+#, fuzzy
+msgid "Ports"
+msgstr "Porta:"
+
 #: interfaces/guile/backend/squid.scm:81
 msgid "Proxy"
 msgstr ""
+
+#: standard input:24
+#, fuzzy
+msgid "Proxy port:"
+msgstr "Servidor Proxy:"
 
 #: standard input:1
 msgid "Proxy server"
 msgstr "Servidor Proxy"
 
+#: standard input:43
+msgid "Registered ports"
+msgstr ""
+
+#: standard input:6 input:19 input:28 input:39 input:51
+msgid "Reset"
+msgstr "Resetar"
+
+#: standard input:23
+#, fuzzy
+msgid "Select authentication mode:"
+msgstr "Servidor de Instalação via rede"
+
+#: standard input:22
+#, fuzzy
+msgid "Select proxying mode:"
+msgstr "Selecione o modo de redirecionamento:"
+
+#: standard input:2
+msgid "Suffix list:"
+msgstr ""
+
+#: standard input:46
+#, fuzzy
+msgid "To port:"
+msgstr "porta:"
+
 #: interfaces/guile/backend/squid.scm:73
 #, fuzzy
 msgid "Transparent"
 msgstr "transport SMTP:"
+
+#: standard input:11
+#, fuzzy
+msgid "User groups"
+msgstr "Novo grupo:"
 
 #: interfaces/guile/type/domain-suffix.scm:14
 msgid "a domain suffix starting with a dot"
@@ -86,23 +245,11 @@ msgstr ""
 msgid "unknown"
 msgstr "desconhecido"
 
-#, fuzzy
-#~ msgid "(IP address mask)"
-#~ msgstr "Endereço IP"
-
-#, fuzzy
-#~ msgid "(IP address)"
-#~ msgstr "Endereço IP"
-
 #~ msgid "(TCP port for server to listen to)"
 #~ msgstr "(Porta TCP para o servidor)"
 
 #~ msgid "(leave this field empty for listening to all interfaces)"
 #~ msgstr "(deixe esse campo em branco para listar em todas as interfaces)"
-
-#, fuzzy
-#~ msgid "(port number)"
-#~ msgstr "(apenas um número)"
 
 #~ msgid "(quick access to usual network resources)"
 #~ msgstr "(acesso rádio aos recursos de rede)"
@@ -113,26 +260,11 @@ msgstr "desconhecido"
 #~ msgid "<new>"
 #~ msgstr "<novo>"
 
-#, fuzzy
-#~ msgid "Access management"
-#~ msgstr "Administração de Usuário"
-
-#~ msgid "Add"
-#~ msgstr "Adicionar"
-
-#, fuzzy
-#~ msgid "Add domain"
-#~ msgstr "Adicionar Cliente"
-
 #~ msgid "Add network"
 #~ msgstr "Adicionar Rede"
 
 #~ msgid "Add site"
 #~ msgstr "Adicionar Site"
-
-#, fuzzy
-#~ msgid "Address mask:"
-#~ msgstr "Endereço MAC:"
 
 #~ msgid "Administrator e-mail:"
 #~ msgstr "Administrador E-mail:"
@@ -140,81 +272,18 @@ msgstr "desconhecido"
 #~ msgid "Allowed client networks:"
 #~ msgstr "Redes permitidas:"
 
-#~ msgid "Apply"
-#~ msgstr "Aplicar"
-
 #~ msgid "Blocked sites:"
 #~ msgstr "Sites bloqueados:"
-
-#~ msgid "Comment:"
-#~ msgstr "Comentários:"
 
 #, fuzzy
 #~ msgid "Commit"
 #~ msgstr "Comentários:"
 
-#, fuzzy
-#~ msgid "Connection method:"
-#~ msgstr "Conexão estabelecida"
-
-#~ msgid "Delete"
-#~ msgstr "Deletar"
-
-#, fuzzy
-#~ msgid "Delete domain"
-#~ msgstr "Deletar Conexão"
-
-#, fuzzy
-#~ msgid "Destination domains"
-#~ msgstr "Porta destino"
-
-#, fuzzy
-#~ msgid "Domain access"
-#~ msgstr "Acesso de Escrita"
-
-#, fuzzy
-#~ msgid "Enable proxy-server service"
-#~ msgstr "Habilitar serviço"
-
-#, fuzzy
-#~ msgid "From port:"
-#~ msgstr "porta:"
-
 #~ msgid "General settings"
 #~ msgstr "Configurações gerais"
 
-#~ msgid "Groups"
-#~ msgstr "Grupos"
-
-#, fuzzy
-#~ msgid "IP-address:"
-#~ msgstr "Endereço IP:"
-
-#, fuzzy
-#~ msgid "Internal networks"
-#~ msgstr "Outra rede"
-
 #~ msgid "Listen address:"
 #~ msgstr "Endereços Disponíveis"
-
-#, fuzzy
-#~ msgid "Networks"
-#~ msgstr "Rede"
-
-#, fuzzy
-#~ msgid "New"
-#~ msgstr "Rede"
-
-#, fuzzy
-#~ msgid "Ports"
-#~ msgstr "Porta:"
-
-#, fuzzy
-#~ msgid "Proxy port:"
-#~ msgstr "Servidor Proxy:"
-
-#~ msgid "Reset"
-#~ msgstr "Resetar"
 
 #~ msgid "Restrictions"
 #~ msgstr "Restrições"
@@ -226,24 +295,8 @@ msgstr "desconhecido"
 #~ msgstr "Procura de Domínios:"
 
 #, fuzzy
-#~ msgid "Select authentication mode:"
-#~ msgstr "Servidor de Instalação via rede"
-
-#, fuzzy
 #~ msgid "Select internal interfaces:"
 #~ msgstr "Selecionar interface externa:"
 
-#, fuzzy
-#~ msgid "Select proxying mode:"
-#~ msgstr "Selecione o modo de redirecionamento:"
-
 #~ msgid "Start, stop or restart service..."
 #~ msgstr "Iniciar, parar ou resetar o serviço"
-
-#, fuzzy
-#~ msgid "To port:"
-#~ msgstr "porta:"
-
-#, fuzzy
-#~ msgid "User groups"
-#~ msgstr "Novo grupo:"

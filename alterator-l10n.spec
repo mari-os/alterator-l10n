@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Aug 14 2009 Paul Wolneykien <manowar@altlinux.ru> 2.5-alt3
+- update translations for alterator-squid (restore missing ones)
+
 * Thu Aug 13 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt2
 - update translations for alterator-bacula
 
