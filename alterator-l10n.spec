@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Aug 13 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt2
+- update translations for alterator-bacula
+
 * Mon Aug 10 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt1
 - update translations for alterator-vm
 - add translations for alterator-livecd (closes: #20602)
