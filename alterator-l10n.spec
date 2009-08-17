@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -88,6 +88,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Aug 17 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.5-alt4
+- add initial russian help for ldap-users, mirror,
+  sysconfig-proxy modules (by azol@)
+
 * Fri Aug 14 2009 Paul Wolneykien <manowar@altlinux.ru> 2.5-alt3
 - update translations for alterator-squid (restore missing ones)
 
