@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt4
+Release: alt5
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -48,6 +48,8 @@ Conflicts: alterator-lookout              < 1.6-alt1
 Conflicts: alterator-datetime             < 1.0-alt1
 Conflicts: alterator-ca                   < 0.5-alt2
 Conflicts: alterator-trust                < 0.6.2-alt1
+Conflicts: alterator-net-openvpn          < 0.7.1-alt1
+Conflicts: alterator-openvpn-server       < 0.6.3-alt1
 
 %description
 translations for all alterator modules
@@ -88,6 +90,13 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Aug 20 2009 Mikhail Efremov <sem@altlinux.org> 2.5-alt5
+- add translations for alterator-net-openvpn.
+- add translations for alterator-openvpn-server.
+- add initial russian alterator-xkb help (by azol@).
+- add initial russian net-openvpn help (by azol@).
+- add initial russian openvpn-server help (by azol@).
+
 * Mon Aug 17 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.5-alt4
 - add initial russian help for ldap-users, mirror,
   sysconfig-proxy modules (by azol@)
