@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -90,6 +90,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Aug 24 2009 Paul Wolneykien <manowar@altlinux.ru> 2.5-alt6
+- Update Squid related russian help page.
+- Add Squid related english help page.
+
 * Thu Aug 20 2009 Mikhail Efremov <sem@altlinux.org> 2.5-alt5
 - add translations for alterator-net-openvpn.
 - add translations for alterator-openvpn-server.
