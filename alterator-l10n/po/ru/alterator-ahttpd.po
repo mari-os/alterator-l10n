@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-24 17:48+0400\n"
+"POT-Creation-Date: 2009-08-24 16:40+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,56 +18,31 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:11
+#: standard input:21
 msgid "(TCP port for server to listen to)"
 msgstr "(TCP порт на котором сервер принимает соединения)"
 
-#: standard input:13
+#: standard input:23
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(оставьте это поле пустым для работы на всех интерфейсах)"
 
-#: standard input:15
+#: standard input:25
 msgid "(logging granularity influences its size)"
 msgstr "(подробность протоколирования влияет на размер журнала)"
-
-#: standard input:26
-msgid "(organization name, written in latin letters)"
-msgstr "(название организации, написанное латинскими буквами)"
-
-#: standard input:28
-msgid "(organizational unit name, written in latin letters)"
-msgstr "(название подразделения, написанное латинскими буквами)"
-
-#: standard input:20
-msgid "(public hostname)"
-msgstr "(публичное имя компьютера)"
-
-#: standard input:30
-msgid "(recreate private key, sign request and self-signed certificate)"
-msgstr ""
-"(пересоздать секретный ключ, запрос на подпись и самоподписанный сертификат)"
-
-#: standard input:24
-msgid "(state or city, written in latin letters)"
-msgstr "(название города или области, написанное латинскими буквами)"
-
-#: standard input:22
-msgid "(two letter country code)"
-msgstr "(двухбуквенный код страны)"
 
 #: standard input:3
 msgid "Account name:"
 msgstr "Учётная запись:"
 
-#: standard input:39
+#: standard input:32
 msgid "Add"
 msgstr "Добавить"
 
-#: standard input:41
+#: standard input:34
 msgid "All your changes will take effect after restart of HTTP server."
 msgstr "Все ваши изменения вступят в силу после перезапуска HTTP сервера."
 
-#: standard input:16 input:47 input:51
+#: standard input:11 input:15 input:26
 msgid "Apply"
 msgstr "Применить"
 
@@ -75,7 +50,7 @@ msgstr "Применить"
 msgid "April"
 msgstr "Апрель"
 
-#: interfaces/guile/ajax.scm:368
+#: interfaces/guile/ajax.scm:393
 msgid "Attention"
 msgstr "Внимание"
 
@@ -87,59 +62,43 @@ msgstr "Август"
 msgid "Authentication failed"
 msgstr "Аутентификация не прошла"
 
-#: standard input:49
+#: standard input:13
 msgid "Base mode"
 msgstr "Основной режим"
 
-#: interfaces/guile/ajax.scm:235
+#: interfaces/guile/ajax.scm:247
 msgid "Cancel"
 msgstr "Отмена"
 
-#: standard input:18
-msgid "Certificate"
-msgstr "Сертификат"
-
-#: standard input:19
-msgid "Common Name (CN):"
-msgstr "Общее имя (CN):"
-
-#: standard input:2
+#: standard input:1
 msgid "Computer shutdown"
 msgstr "Выключение компьютера"
 
-#: standard input:55
+#: standard input:38
 msgid "Configuration"
 msgstr "Настройка"
 
-#: standard input:43
+#: standard input:7
 msgid "Continue work"
 msgstr "Продолжить работу"
-
-#: standard input:21
-msgid "Country (C):"
-msgstr "Страна (C):"
 
 #: interfaces/guile/ahttpd/translate.scm:64
 msgid "December"
 msgstr "Декабрь"
 
-#: standard input:37
+#: standard input:30
 msgid "Delete"
 msgstr "Удалить"
 
-#: standard input:32
-msgid "Download sign request"
-msgstr "Забрать запрос на подпись"
-
-#: interfaces/guile/ajax.scm:364
+#: interfaces/guile/ajax.scm:389
 msgid "Error"
 msgstr "Ошибка"
 
-#: standard input:62
+#: standard input:45
 msgid "Exiting..."
 msgstr "Завершение работы..."
 
-#: standard input:50
+#: standard input:14
 msgid "Expert mode"
 msgstr "Режим эксперта"
 
@@ -148,7 +107,7 @@ msgid "February"
 msgstr "Февраль"
 
 # ahttpd-acl
-#: standard input:36
+#: standard input:29
 msgid "Following users have access:"
 msgstr "Следующие пользователи имеют доступ:"
 
@@ -156,23 +115,23 @@ msgstr "Следующие пользователи имеют доступ:"
 msgid "Fr"
 msgstr "Пт"
 
-#: standard input:9
+#: standard input:19
 msgid "General settings"
 msgstr "Общие настройки"
 
-#: standard input:7
+#: standard input:17
 msgid "HTTP server is restarting now. Please wait..."
 msgstr "HTTP-сервер перезапускается. Пожалуйста, подождите..."
 
-#: standard input:3
+#: standard input:2
 msgid "Help"
 msgstr "Справка"
 
-#: standard input:57
+#: standard input:40
 msgid "Hide help"
 msgstr "Скрыть справку"
 
-#: standard input:54
+#: standard input:37
 msgid "Hostname"
 msgstr "Имя компьютера"
 
@@ -196,15 +155,11 @@ msgstr "Июль"
 msgid "June"
 msgstr "Июнь"
 
-#: standard input:12
+#: standard input:22
 msgid "Listen address:"
 msgstr "Адрес:"
 
-#: standard input:23
-msgid "Location (L):"
-msgstr "Местоположение (L):"
-
-#: standard input:14
+#: standard input:24
 msgid "Logging:"
 msgstr "Протоколирование:"
 
@@ -212,7 +167,7 @@ msgstr "Протоколирование:"
 msgid "Login"
 msgstr "Войти"
 
-#: standard input:58
+#: standard input:41
 msgid "Logout"
 msgstr "Выйти"
 
@@ -229,17 +184,17 @@ msgid "Mo"
 msgstr "Пн"
 
 # ahttpd-acl
-#: standard input:35
+#: standard input:28
 msgid "Module access settings"
 msgstr "Параметры доступа к модулю"
 
 # ahttpd-acl
-#: standard input:60
+#: standard input:43
 msgid "Module access settings..."
 msgstr "Параметры доступа к модулю..."
 
 # ahttpd-acl
-#: standard input:38
+#: standard input:31
 msgid "New user:"
 msgstr "Новый пользователь:"
 
@@ -248,7 +203,7 @@ msgstr "Новый пользователь:"
 msgid "No module found"
 msgstr "модуль не найден"
 
-#: standard input:40
+#: standard input:33
 msgid "Note:"
 msgstr "Замечание:"
 
@@ -256,21 +211,13 @@ msgstr "Замечание:"
 msgid "November"
 msgstr "Ноябрь"
 
-#: interfaces/guile/ajax.scm:234
+#: interfaces/guile/ajax.scm:246
 msgid "OK"
 msgstr "OK"
 
 #: interfaces/guile/ahttpd/translate.scm:62
 msgid "October"
 msgstr "Октябрь"
-
-#: standard input:25
-msgid "Organization (O):"
-msgstr "Организация (O):"
-
-#: standard input:27
-msgid "Organizational Unit (OU):"
-msgstr "Подразделение (OU):"
 
 #: standard input:4
 msgid "Password:"
@@ -280,27 +227,23 @@ msgstr "Пароль:"
 msgid "Please login"
 msgstr "Пожалуйста, зарегистрируйтесь"
 
-#: standard input:10
+#: standard input:20
 msgid "Port:"
 msgstr "Порт:"
 
-#: interfaces/guile/ajax.scm:233
+#: interfaces/guile/ajax.scm:245
 msgid "Question"
 msgstr "Вопрос"
 
-#: standard input:45
+#: standard input:9
 msgid "Reboot computer now"
 msgstr "Перезагрузить компьютер сейчас"
 
-#: standard input:29
-msgid "Recreate"
-msgstr "Пересоздать"
-
-#: standard input:48 input:52
+#: standard input:12 input:16
 msgid "Reset"
 msgstr "Вернуть"
 
-#: standard input:8 input:42
+#: standard input:18 input:35
 msgid "Restart HTTP server"
 msgstr "Перезапустить HTTP-сервер"
 
@@ -312,31 +255,27 @@ msgstr "Сб"
 msgid "September"
 msgstr "Сентябрь"
 
-#: standard input:56
+#: standard input:39
 msgid "Show help"
 msgstr "Показать справку"
-
-#: standard input:31
-msgid "Sign"
-msgstr "Подпись"
 
 #: interfaces/guile/ahttpd/translate.scm:51
 msgid "Su"
 msgstr "Вс"
 
-#: standard input:59
+#: standard input:42
 msgid "System management center"
 msgstr "Центр управления системой"
 
-#: standard input:17
-msgid "TLS settings"
-msgstr "Настройки TLS"
+#: standard input:27
+msgid "TLS settings..."
+msgstr "Настройки TLS..."
 
 #: interfaces/guile/ahttpd/translate.scm:48
 msgid "Th"
 msgstr "Чт"
 
-#: standard input:1 input:53 input:61
+#: standard input:1 input:36 input:44
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
@@ -350,27 +289,19 @@ msgstr ""
 msgid "Tu"
 msgstr "Вт"
 
-#: standard input:46
+#: standard input:10
 msgid "Turn off computer every day at:"
 msgstr "Выключать компьютер каждый день в:"
 
-#: standard input:44
+#: standard input:8
 msgid "Turn off computer now"
 msgstr "Выключить компьютер сейчас"
-
-#: standard input:34
-msgid "Upload"
-msgstr "Положить"
-
-#: standard input:33
-msgid "Upload certificate signed by CA:"
-msgstr "Положить сертификат, подписанный УЦ:"
 
 #: interfaces/guile/ahttpd/translate.scm:47
 msgid "We"
 msgstr "Ср"
 
-#: standard input:1
+#: standard input:3
 msgid "Web interface"
 msgstr "Веб-интерфейс"
 

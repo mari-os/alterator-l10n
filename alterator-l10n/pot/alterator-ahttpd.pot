@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-24 17:48+0400\n"
+"POT-Creation-Date: 2009-08-24 16:40+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: standard input:1
-msgid "Web interface"
-msgstr ""
-
-#: standard input:2
 msgid "Computer shutdown"
 msgstr ""
 
-#: standard input:3
+#: standard input:2
 msgid "Help"
 msgstr ""
 
-#: standard input:1 input:53 input:61
+#: standard input:3
+msgid "Web interface"
+msgstr ""
+
+#: standard input:1 input:36 input:44
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
@@ -56,202 +56,134 @@ msgid "Login"
 msgstr ""
 
 #: standard input:7
-msgid "HTTP server is restarting now. Please wait..."
-msgstr ""
-
-#: standard input:8 input:42
-msgid "Restart HTTP server"
-msgstr ""
-
-#: standard input:9
-msgid "General settings"
-msgstr ""
-
-#: standard input:10
-msgid "Port:"
-msgstr ""
-
-#: standard input:11
-msgid "(TCP port for server to listen to)"
-msgstr ""
-
-#: standard input:12
-msgid "Listen address:"
-msgstr ""
-
-#: standard input:13
-msgid "(leave this field empty for listening to all interfaces)"
-msgstr ""
-
-#: standard input:14
-msgid "Logging:"
-msgstr ""
-
-#: standard input:15
-msgid "(logging granularity influences its size)"
-msgstr ""
-
-#: standard input:16 input:47 input:51
-msgid "Apply"
-msgstr ""
-
-#: standard input:17
-msgid "TLS settings"
-msgstr ""
-
-#: standard input:18
-msgid "Certificate"
-msgstr ""
-
-#: standard input:19
-msgid "Common Name (CN):"
-msgstr ""
-
-#: standard input:20
-msgid "(public hostname)"
-msgstr ""
-
-#: standard input:21
-msgid "Country (C):"
-msgstr ""
-
-#: standard input:22
-msgid "(two letter country code)"
-msgstr ""
-
-#: standard input:23
-msgid "Location (L):"
-msgstr ""
-
-#: standard input:24
-msgid "(state or city, written in latin letters)"
-msgstr ""
-
-#: standard input:25
-msgid "Organization (O):"
-msgstr ""
-
-#: standard input:26
-msgid "(organization name, written in latin letters)"
-msgstr ""
-
-#: standard input:27
-msgid "Organizational Unit (OU):"
-msgstr ""
-
-#: standard input:28
-msgid "(organizational unit name, written in latin letters)"
-msgstr ""
-
-#: standard input:29
-msgid "Recreate"
-msgstr ""
-
-#: standard input:30
-msgid "(recreate private key, sign request and self-signed certificate)"
-msgstr ""
-
-#: standard input:31
-msgid "Sign"
-msgstr ""
-
-#: standard input:32
-msgid "Download sign request"
-msgstr ""
-
-#: standard input:33
-msgid "Upload certificate signed by CA:"
-msgstr ""
-
-#: standard input:34
-msgid "Upload"
-msgstr ""
-
-#: standard input:35
-msgid "Module access settings"
-msgstr ""
-
-#: standard input:36
-msgid "Following users have access:"
-msgstr ""
-
-#: standard input:37
-msgid "Delete"
-msgstr ""
-
-#: standard input:38
-msgid "New user:"
-msgstr ""
-
-#: standard input:39
-msgid "Add"
-msgstr ""
-
-#: standard input:40
-msgid "Note:"
-msgstr ""
-
-#: standard input:41
-msgid "All your changes will take effect after restart of HTTP server."
-msgstr ""
-
-#: standard input:43
 msgid "Continue work"
 msgstr ""
 
-#: standard input:44
+#: standard input:8
 msgid "Turn off computer now"
 msgstr ""
 
-#: standard input:45
+#: standard input:9
 msgid "Reboot computer now"
 msgstr ""
 
-#: standard input:46
+#: standard input:10
 msgid "Turn off computer every day at:"
 msgstr ""
 
-#: standard input:48 input:52
+#: standard input:11 input:15 input:26
+msgid "Apply"
+msgstr ""
+
+#: standard input:12 input:16
 msgid "Reset"
 msgstr ""
 
-#: standard input:49
+#: standard input:13
 msgid "Base mode"
 msgstr ""
 
-#: standard input:50
+#: standard input:14
 msgid "Expert mode"
 msgstr ""
 
-#: standard input:54
+#: standard input:17
+msgid "HTTP server is restarting now. Please wait..."
+msgstr ""
+
+#: standard input:18 input:35
+msgid "Restart HTTP server"
+msgstr ""
+
+#: standard input:19
+msgid "General settings"
+msgstr ""
+
+#: standard input:20
+msgid "Port:"
+msgstr ""
+
+#: standard input:21
+msgid "(TCP port for server to listen to)"
+msgstr ""
+
+#: standard input:22
+msgid "Listen address:"
+msgstr ""
+
+#: standard input:23
+msgid "(leave this field empty for listening to all interfaces)"
+msgstr ""
+
+#: standard input:24
+msgid "Logging:"
+msgstr ""
+
+#: standard input:25
+msgid "(logging granularity influences its size)"
+msgstr ""
+
+#: standard input:27
+msgid "TLS settings..."
+msgstr ""
+
+#: standard input:28
+msgid "Module access settings"
+msgstr ""
+
+#: standard input:29
+msgid "Following users have access:"
+msgstr ""
+
+#: standard input:30
+msgid "Delete"
+msgstr ""
+
+#: standard input:31
+msgid "New user:"
+msgstr ""
+
+#: standard input:32
+msgid "Add"
+msgstr ""
+
+#: standard input:33
+msgid "Note:"
+msgstr ""
+
+#: standard input:34
+msgid "All your changes will take effect after restart of HTTP server."
+msgstr ""
+
+#: standard input:37
 msgid "Hostname"
 msgstr ""
 
-#: standard input:55
+#: standard input:38
 msgid "Configuration"
 msgstr ""
 
-#: standard input:56
+#: standard input:39
 msgid "Show help"
 msgstr ""
 
-#: standard input:57
+#: standard input:40
 msgid "Hide help"
 msgstr ""
 
-#: standard input:58
+#: standard input:41
 msgid "Logout"
 msgstr ""
 
-#: standard input:59
+#: standard input:42
 msgid "System management center"
 msgstr ""
 
-#: standard input:60
+#: standard input:43
 msgid "Module access settings..."
 msgstr ""
 
-#: standard input:62
+#: standard input:45
 msgid "Exiting..."
 msgstr ""
 
@@ -331,23 +263,23 @@ msgstr ""
 msgid "December"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:233
+#: interfaces/guile/ajax.scm:245
 msgid "Question"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:234
+#: interfaces/guile/ajax.scm:246
 msgid "OK"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:235
+#: interfaces/guile/ajax.scm:247
 msgid "Cancel"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:364
+#: interfaces/guile/ajax.scm:389
 msgid "Error"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:368
+#: interfaces/guile/ajax.scm:393
 msgid "Attention"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-24 17:48+0400\n"
+"POT-Creation-Date: 2009-08-24 16:40+0400\n"
 "PO-Revision-Date: 2009-03-19 15:10-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,55 +19,31 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:11
+#: standard input:21
 msgid "(TCP port for server to listen to)"
 msgstr "(Porta TCP para el servidor)"
 
-#: standard input:13
+#: standard input:23
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(deje ese espacio en blanco para listar todas las interfaces)"
 
-#: standard input:15
+#: standard input:25
 msgid "(logging granularity influences its size)"
 msgstr "(tala granularidad influye en su tamaño)"
-
-#: standard input:26
-msgid "(organization name, written in latin letters)"
-msgstr "(Nombre de la Empresa)"
-
-#: standard input:28
-msgid "(organizational unit name, written in latin letters)"
-msgstr "(Unidade da Empresa)"
-
-#: standard input:20
-msgid "(public hostname)"
-msgstr "(hostname público)"
-
-#: standard input:30
-msgid "(recreate private key, sign request and self-signed certificate)"
-msgstr "(Recrear la Clave Privada)"
-
-#: standard input:24
-msgid "(state or city, written in latin letters)"
-msgstr "(Provincia o ciudad)"
-
-#: standard input:22
-msgid "(two letter country code)"
-msgstr "(Codigo del País)"
 
 #: standard input:3
 msgid "Account name:"
 msgstr "Nombre de la Cuenta:"
 
-#: standard input:39
+#: standard input:32
 msgid "Add"
 msgstr "Adiccionar"
 
-#: standard input:41
+#: standard input:34
 msgid "All your changes will take effect after restart of HTTP server."
 msgstr ""
 
-#: standard input:16 input:47 input:51
+#: standard input:11 input:15 input:26
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -75,7 +51,7 @@ msgstr "Aplicar"
 msgid "April"
 msgstr "Abril"
 
-#: interfaces/guile/ajax.scm:368
+#: interfaces/guile/ajax.scm:393
 #, fuzzy
 msgid "Attention"
 msgstr "Acción"
@@ -88,63 +64,47 @@ msgstr "Agosto"
 msgid "Authentication failed"
 msgstr "Atutenticación fracasó"
 
-#: standard input:49
+#: standard input:13
 #, fuzzy
 msgid "Base mode"
 msgstr "modo simples"
 
-#: interfaces/guile/ajax.scm:235
+#: interfaces/guile/ajax.scm:247
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: standard input:18
-msgid "Certificate"
-msgstr "Certificado"
-
-#: standard input:19
-msgid "Common Name (CN):"
-msgstr "Nombre Comum (CN):"
-
-#: standard input:2
+#: standard input:1
 #, fuzzy
 msgid "Computer shutdown"
 msgstr "Nombre de la Cuenta"
 
-#: standard input:55
+#: standard input:38
 #, fuzzy
 msgid "Configuration"
 msgstr "Información"
 
-#: standard input:43
+#: standard input:7
 #, fuzzy
 msgid "Continue work"
 msgstr "Rede Configurada"
-
-#: standard input:21
-msgid "Country (C):"
-msgstr "País:"
 
 #: interfaces/guile/ahttpd/translate.scm:64
 msgid "December"
 msgstr "Deciembre"
 
-#: standard input:37
+#: standard input:30
 msgid "Delete"
 msgstr "Borrar"
 
-#: standard input:32
-msgid "Download sign request"
-msgstr "Download de el Requerido"
-
-#: interfaces/guile/ajax.scm:364
+#: interfaces/guile/ajax.scm:389
 msgid "Error"
 msgstr ""
 
-#: standard input:62
+#: standard input:45
 msgid "Exiting..."
 msgstr ""
 
-#: standard input:50
+#: standard input:14
 msgid "Expert mode"
 msgstr "Modo Avanzado"
 
@@ -152,7 +112,7 @@ msgstr "Modo Avanzado"
 msgid "February"
 msgstr "Febrero"
 
-#: standard input:36
+#: standard input:29
 msgid "Following users have access:"
 msgstr "Los usuarios no tienen acceso:"
 
@@ -160,23 +120,23 @@ msgstr "Los usuarios no tienen acceso:"
 msgid "Fr"
 msgstr "Fr"
 
-#: standard input:9
+#: standard input:19
 msgid "General settings"
 msgstr "Configuraciones generales"
 
-#: standard input:7
+#: standard input:17
 msgid "HTTP server is restarting now. Please wait..."
 msgstr ""
 
-#: standard input:3
+#: standard input:2
 msgid "Help"
 msgstr "Ayuda"
 
-#: standard input:57
+#: standard input:40
 msgid "Hide help"
 msgstr "Ayuda Oculta"
 
-#: standard input:54
+#: standard input:37
 msgid "Hostname"
 msgstr "hostname:"
 
@@ -200,15 +160,11 @@ msgstr "Julio"
 msgid "June"
 msgstr "Junio"
 
-#: standard input:12
+#: standard input:22
 msgid "Listen address:"
 msgstr "Escuchar la dirección:"
 
-#: standard input:23
-msgid "Location (L):"
-msgstr "Localização:"
-
-#: standard input:14
+#: standard input:24
 msgid "Logging:"
 msgstr "Logando:"
 
@@ -216,7 +172,7 @@ msgstr "Logando:"
 msgid "Login"
 msgstr "Sesión"
 
-#: standard input:58
+#: standard input:41
 msgid "Logout"
 msgstr ""
 
@@ -232,15 +188,15 @@ msgstr "Mayo"
 msgid "Mo"
 msgstr "Mo"
 
-#: standard input:35
+#: standard input:28
 msgid "Module access settings"
 msgstr "Módulo de acceso al configuraciones"
 
-#: standard input:60
+#: standard input:43
 msgid "Module access settings..."
 msgstr "Módulo de acceso a las configuraciones"
 
-#: standard input:38
+#: standard input:31
 msgid "New user:"
 msgstr "Nuevo Usuario"
 
@@ -248,7 +204,7 @@ msgstr "Nuevo Usuario"
 msgid "No module found"
 msgstr "Niguno Modulo Disponible"
 
-#: standard input:40
+#: standard input:33
 #, fuzzy
 msgid "Note:"
 msgstr "Porta:"
@@ -257,21 +213,13 @@ msgstr "Porta:"
 msgid "November"
 msgstr "Noviembre"
 
-#: interfaces/guile/ajax.scm:234
+#: interfaces/guile/ajax.scm:246
 msgid "OK"
 msgstr "OK"
 
 #: interfaces/guile/ahttpd/translate.scm:62
 msgid "October"
 msgstr "Outubro"
-
-#: standard input:25
-msgid "Organization (O):"
-msgstr "Empresa"
-
-#: standard input:27
-msgid "Organizational Unit (OU):"
-msgstr "Unidade:"
 
 #: standard input:4
 msgid "Password:"
@@ -281,27 +229,23 @@ msgstr "Contraseña:"
 msgid "Please login"
 msgstr "Por Favor Inicie la sesión"
 
-#: standard input:10
+#: standard input:20
 msgid "Port:"
 msgstr "Porta:"
 
-#: interfaces/guile/ajax.scm:233
+#: interfaces/guile/ajax.scm:245
 msgid "Question"
 msgstr ""
 
-#: standard input:45
+#: standard input:9
 msgid "Reboot computer now"
 msgstr ""
 
-#: standard input:29
-msgid "Recreate"
-msgstr "Recrear"
-
-#: standard input:48 input:52
+#: standard input:12 input:16
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:8 input:42
+#: standard input:18 input:35
 msgid "Restart HTTP server"
 msgstr "Resetar Servidor HTTP"
 
@@ -313,31 +257,28 @@ msgstr "Sa"
 msgid "September"
 msgstr "Septiembre"
 
-#: standard input:56
+#: standard input:39
 msgid "Show help"
 msgstr ""
-
-#: standard input:31
-msgid "Sign"
-msgstr "Entrar"
 
 #: interfaces/guile/ahttpd/translate.scm:51
 msgid "Su"
 msgstr "Su"
 
-#: standard input:59
+#: standard input:42
 msgid "System management center"
 msgstr "Centro de gestión del Sistema"
 
-#: standard input:17
-msgid "TLS settings"
+#: standard input:27
+#, fuzzy
+msgid "TLS settings..."
 msgstr "Ajustes"
 
 #: interfaces/guile/ahttpd/translate.scm:48
 msgid "Th"
 msgstr "Th"
 
-#: standard input:1 input:53 input:61
+#: standard input:1 input:36 input:44
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
@@ -348,27 +289,19 @@ msgstr ""
 msgid "Tu"
 msgstr "Tu"
 
-#: standard input:46
+#: standard input:10
 msgid "Turn off computer every day at:"
 msgstr ""
 
-#: standard input:44
+#: standard input:8
 msgid "Turn off computer now"
 msgstr ""
-
-#: standard input:34
-msgid "Upload"
-msgstr "Cargar"
-
-#: standard input:33
-msgid "Upload certificate signed by CA:"
-msgstr "Cargar Certificado asinado por:"
 
 #: interfaces/guile/ahttpd/translate.scm:47
 msgid "We"
 msgstr "Nosotros"
 
-#: standard input:1
+#: standard input:3
 msgid "Web interface"
 msgstr "Interfaz Web"
 
@@ -388,11 +321,44 @@ msgstr "nada"
 msgid "only digits and latin letters allowed"
 msgstr "apenas digitos en letras"
 
+#~ msgid "(organization name, written in latin letters)"
+#~ msgstr "(Nombre de la Empresa)"
+
+#~ msgid "(organizational unit name, written in latin letters)"
+#~ msgstr "(Unidade da Empresa)"
+
+#~ msgid "(public hostname)"
+#~ msgstr "(hostname público)"
+
+#~ msgid "(recreate private key, sign request and self-signed certificate)"
+#~ msgstr "(Recrear la Clave Privada)"
+
+#~ msgid "(state or city, written in latin letters)"
+#~ msgstr "(Provincia o ciudad)"
+
+#~ msgid "(two letter country code)"
+#~ msgstr "(Codigo del País)"
+
+#~ msgid "Certificate"
+#~ msgstr "Certificado"
+
+#~ msgid "Common Name (CN):"
+#~ msgstr "Nombre Comum (CN):"
+
+#~ msgid "Country (C):"
+#~ msgstr "País:"
+
 #~ msgid "Do you really want to delete "
 #~ msgstr "Usted realmente desea borrar"
 
+#~ msgid "Download sign request"
+#~ msgstr "Download de el Requerido"
+
 #~ msgid "HTTP server"
 #~ msgstr "Servidor HTTP"
+
+#~ msgid "Location (L):"
+#~ msgstr "Localização:"
 
 #~ msgid "No"
 #~ msgstr "No"
@@ -400,8 +366,26 @@ msgstr "apenas digitos en letras"
 #~ msgid "No objects found..."
 #~ msgstr "No se encontraron objectos"
 
+#~ msgid "Organization (O):"
+#~ msgstr "Empresa"
+
+#~ msgid "Organizational Unit (OU):"
+#~ msgstr "Unidade:"
+
+#~ msgid "Recreate"
+#~ msgstr "Recrear"
+
+#~ msgid "Sign"
+#~ msgstr "Entrar"
+
 #~ msgid "Unsupported mode"
 #~ msgstr "Modo no suportado"
+
+#~ msgid "Upload"
+#~ msgstr "Cargar"
+
+#~ msgid "Upload certificate signed by CA:"
+#~ msgstr "Cargar Certificado asinado por:"
 
 #~ msgid "Yes"
 #~ msgstr "Sí"
