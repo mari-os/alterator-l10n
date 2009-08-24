@@ -92,7 +92,7 @@ make check
 %changelog
 * Mon Aug 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt7
 - add translations for alterator-chainmail
-- add Russian help for Chainmail's firsttime
+- add Russian help for Chainmail's firsttime and Chainmail's control center
 - update Russian help for Office server's firsttime (parameter 'server
   role' is hidden now)
 - minor translation improvements for alterator-net-openvpn
