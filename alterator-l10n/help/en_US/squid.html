@@ -16,47 +16,48 @@
     is the possibility of use the caching proxy-server to cache incoming
     files. Popular pages would be cached at first visit, saved and
     reused responding to later requests. That would speed up request
-    processing and reduce the amount of incoming <em>trafic</em>.</p>
+    processing and reduce the amount of incoming <em>traffic</em>.</p>
 
     <p>Proxy-server listens to the incoming requests from the local
-    network and, if necessary, transmits them to the Internet. Server
-    waits for the incoming connection on the configured <em>port</em>,
-    which by default has standard value 3128. If for some reason the use
-    of that port is unwanted, any another value can be used.</p>
+    network and, if necessary, transmits them to the outer network.
+    Server waits for the incoming connection on the configured
+    <em>port</em>, which by default has standard value 3128. If for some
+    reason the use of that port is unwanted, any another value can be
+    used.</p>
     
     <p>Source address of each request is checked for internal network
-    membership. In order to forward the local network originated
-    requests the corresponding netrowk address group should be added
+    membership. In order to forward the local network-originated
+    requests the corresponding network address group should be added
     to the list of internal networks (subnet address and address mask)
     at the <em>Networks</em> section.</p>
     
     <p>An other restriction under which the request is forwarded is
     the <em>destination port</em> range. If the destination port number
     of the request is not contained in one of the registered port range
-    the access to the outer network is denied. The list of regidtered
+    the access to the outer network is denied. The list of registered
     port numbers (services) can be managed in the <em>Ports</em>
     section.</p>
 
     <p>Proxy-server can operate in two modes: <em>standard</em> and
     <em>transparent</em>. Standard mode implies (manual) reconfiguration
-    of the programs in the local network. For that reason transparent
-    mode became very popular. In transparent proxying mode all local
-    network-originated requests to the registered services (ports) on
-    the global netrowk are automatically intercepted at the gate.
-    Local network programs continue to work without any reconfiguration
-    as there is no proxy at all. The main drawback of the transparent
-    mode is the lack of any user indetification mechanism -- all of the
-    requests are anonymous.</p>
+    of the programs in the local network. For that reason the other mode
+    -- transparent -- became very popular. In transparent proxying mode
+    all local network-originated requests sent to the registered
+    services (ports) on the global network are automatically intercepted
+    at the gate. Local network programs continue to work without any
+    reconfiguration as there is no proxy at all. The main drawback of
+    the transparent mode is the lack of any user identification
+    mechanism -- all of the requests are anonymous.</p>
 
     <p>The main advantage of the standard proxying mode which can be
     used after reconfiguration of the programs in the local network are
     a number of user authentication mechanisms. To enable authentication
     select one of the <em>authentication methods</em> other than "no
-    authentiation".</p>
+    authentication".</p>
 
-    <p>Outer netrowk access policy consists of the authentication policy
-    (method) and a number of user group based domain access polocies.
-    Use the <em>Groups</em> section to view and edit group-domain
+    <p>Outer network access policy consists of an authentication policy
+    (method) and a number of user group based domain access policies.
+    Use the <em>Groups</em> section to view and edit that
     policies. For each group of users a number of restricted
     (or allowed) domains can be defined. For the user group membership
     management system-wide module "Users/Groups" can be used.</p>
@@ -64,17 +65,17 @@
     <h3>View proxy-server statistic reports</h3>
     <p>Information on every request forwarded to the outer network is
     fixed in the proxy-server log. That statistical data is processed 
-    on a regular basis to emerge trafic reports. The reports include
-    information on size of recieved responses and time consumed.
+    on a regular basis to emerge traffic reports. The reports include
+    information on size of received responses and time consumed.
     The reports are accessible in the <em>Statistics/Proxy-server</em>
     module.</p>
 
     <p>If one of the authentication method was used to control network
     access the reports are generated on per-user basis. Otherwise the
-    local network address would be used as request identifier.</p>
+    local network address is used as request identifier.</p>
 
     <p>With regular and intensive usage of global network, the amount
-    of statistical information grows enourmously. To make the reports
+    of statistical information grows enormously. To make the reports
     more readable and to save disk space the values are averaged as they
     get old forming the four report detail levels: <em>today</em>,
     <em>last week</em>, <em>last month</em> and the summary.</p>
@@ -82,7 +83,7 @@
     <p>Report calculation consumes time and system computational
     resources. Because of that the reports are not updated in realtime
     but periodically. The update period can be selected for 5 to 45
-    minutes. To update the reports on demand the <em>Updtae now</em>
+    minutes. To update the reports on demand the <em>Update now</em>
     button can be used.</p>
 
   </body>
