@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt6
+Release: alt7
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -90,6 +90,14 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Aug 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt7
+- add translations for alterator-chainmail
+- add Russian help for Chainmail's firsttime
+- update Russian help for Office server's firsttime (parameter 'server
+  role' is hidden now)
+- minor translation improvements for alterator-net-openvpn
+- update translations for alterator-fbi
+
 * Mon Aug 24 2009 Paul Wolneykien <manowar@altlinux.ru> 2.5-alt6
 - Update Squid related russian help page.
 - Add Squid related english help page.
