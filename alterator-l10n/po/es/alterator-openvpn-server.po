@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-20 18:20+0400\n"
+"POT-Creation-Date: 2009-08-25 22:18+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:6 input:17
+#: standard input:7 input:18
 msgid "Add"
 msgstr "Adiccionar"
 
@@ -59,7 +59,7 @@ msgstr "Servidor DNS:"
 msgid "Client domain:"
 msgstr "Borrar conección"
 
-#: standard input:3
+#: standard input:4
 #, fuzzy
 msgid "Client name:"
 msgstr "Nome de la carpeta"
@@ -67,16 +67,6 @@ msgstr "Nome de la carpeta"
 #: backend3/openvpn-server:968
 msgid "Client nameserver not in client network(s)"
 msgstr ""
-
-#: standard input:5
-#, fuzzy
-msgid "Client network mask:"
-msgstr "Rede Actual"
-
-#: standard input:4
-#, fuzzy
-msgid "Client network:"
-msgstr "Rede Actual"
 
 #: standard input:1
 msgid "Clients"
@@ -124,10 +114,15 @@ msgstr ""
 msgid "Network conflicts with other client network"
 msgstr ""
 
-#: standard input:22
+#: standard input:6 input:17 input:22
 #, fuzzy
 msgid "Network mask:"
 msgstr "Nombre de la Rede:"
+
+#: standard input:5 input:16
+#, fuzzy
+msgid "New network:"
+msgstr "Rede"
 
 #: standard input:1
 msgid "OpenVPN-server"
@@ -137,7 +132,7 @@ msgstr ""
 msgid "Port:"
 msgstr "Porta:"
 
-#: standard input:7 input:18
+#: standard input:3 input:15
 msgid "Remove"
 msgstr "Remover"
 
@@ -218,16 +213,6 @@ msgstr ""
 msgid "Server network conflicts with other server network"
 msgstr ""
 
-#: standard input:16
-#, fuzzy
-msgid "Server network mask:"
-msgstr "Argumentos del Servidor"
-
-#: standard input:15
-#, fuzzy
-msgid "Server network:"
-msgstr "Otra rede"
-
 #: standard input:14
 #, fuzzy
 msgid "Server networks"
@@ -289,3 +274,19 @@ msgstr ""
 #: backend3/openvpn-server:882
 msgid "openvpn server start failed"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Client network mask:"
+#~ msgstr "Rede Actual"
+
+#, fuzzy
+#~ msgid "Client network:"
+#~ msgstr "Rede Actual"
+
+#, fuzzy
+#~ msgid "Server network mask:"
+#~ msgstr "Argumentos del Servidor"
+
+#, fuzzy
+#~ msgid "Server network:"
+#~ msgstr "Otra rede"

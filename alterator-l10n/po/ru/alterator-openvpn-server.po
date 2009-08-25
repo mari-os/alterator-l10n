@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-20 18:20+0400\n"
+"POT-Creation-Date: 2009-08-25 22:18+0400\n"
 "PO-Revision-Date: 2009-04-16 15:32+0400\n"
 "Last-Translator:  <sem@altlinux.org>\n"
 "Language-Team: Russian\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:6 input:17
+#: standard input:7 input:18
 msgid "Add"
 msgstr "Добавить"
 
@@ -53,21 +53,13 @@ msgstr "DNS-сервер клиента:"
 msgid "Client domain:"
 msgstr "Домен клиента:"
 
-#: standard input:3
+#: standard input:4
 msgid "Client name:"
 msgstr "Имя клиента:"
 
 #: backend3/openvpn-server:968
 msgid "Client nameserver not in client network(s)"
 msgstr "Адрес DNS-сервера клиента не принадлежит сетям клиента"
-
-#: standard input:5
-msgid "Client network mask:"
-msgstr "Маска сети клиента:"
-
-#: standard input:4
-msgid "Client network:"
-msgstr "Сеть клиента:"
 
 #: standard input:1
 msgid "Clients"
@@ -109,9 +101,13 @@ msgstr "Сжатие LZO"
 msgid "Network conflicts with other client network"
 msgstr "Сеть конфликтует с другой сетью клиента"
 
-#: standard input:22
+#: standard input:6 input:17 input:22
 msgid "Network mask:"
 msgstr "Маска сети:"
+
+#: standard input:5 input:16
+msgid "New network:"
+msgstr "Новая сеть:"
 
 #: standard input:1
 msgid "OpenVPN-server"
@@ -121,7 +117,7 @@ msgstr "OpenVPN-сервер"
 msgid "Port:"
 msgstr "Порт:"
 
-#: standard input:7 input:18
+#: standard input:3 input:15
 msgid "Remove"
 msgstr "Удалить"
 
@@ -148,14 +144,6 @@ msgstr "Сеть сервера конфликтует с сетью клиен�
 #: backend3/openvpn-server:951
 msgid "Server network conflicts with other server network"
 msgstr "Сеть сервера конфликтует с другой сетью сервера"
-
-#: standard input:16
-msgid "Server network mask:"
-msgstr "Маска сети сервера:"
-
-#: standard input:15
-msgid "Server network:"
-msgstr "Сеть сервера:"
 
 #: standard input:14
 msgid "Server networks"
@@ -212,3 +200,4 @@ msgstr "Начальный адрес VPN не принадлежит VPN-сет
 #: backend3/openvpn-server:882
 msgid "openvpn server start failed"
 msgstr "Запуск openvpn сервера не удался"
+
