@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-13 14:24+0400\n"
+"POT-Creation-Date: 2009-08-27 10:48+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -133,6 +133,11 @@ msgstr "Borrar conección"
 msgid "Clients:"
 msgstr ""
 
+#: ui/bacula/restore/finish/index.scm:5
+#, fuzzy
+msgid "Congratulations!"
+msgstr "Información"
+
 #: ui/bacula/restore/search/index.scm:10
 msgid "Continue"
 msgstr ""
@@ -219,6 +224,10 @@ msgstr "Limpiar Direcciones de \"Mirror\""
 msgid "Fileset for"
 msgstr "Archivo no encontrado"
 
+#: standard input:2
+msgid "Finish"
+msgstr "Finalizar"
+
 #: standard input:52
 #, fuzzy
 msgid "First backup"
@@ -231,6 +240,11 @@ msgstr ""
 #: ui/bacula/restore/restore/index.scm:45
 msgid "However you can try to continue"
 msgstr ""
+
+#: ui/bacula/restore/select/index.scm:8
+#, fuzzy
+msgid "Install a new system"
+msgstr "Instalación de paquetes..."
 
 #: standard input:53
 #, fuzzy
@@ -317,6 +331,7 @@ msgstr ""
 msgid "Restore"
 msgstr ""
 
+#: ui/bacula/local-backup/ajax.scm:30
 #: ui/bacula/client-backup/archive/ajax.scm:24
 #, fuzzy
 msgid "Restore completed"
@@ -327,6 +342,7 @@ msgstr "Instalación completa"
 msgid "Restore date:"
 msgstr "Configuraciones avanzadas"
 
+#: ui/bacula/local-backup/ajax.scm:33
 #: ui/bacula/client-backup/archive/ajax.scm:27
 #, fuzzy
 msgid "Restore failed, see logs for details"
@@ -337,15 +353,21 @@ msgstr "Directorio Inicial:"
 msgid "Restore file or directory:"
 msgstr "Directorio Inicial:"
 
-#: standard input:2
+#: standard input:4
 #, fuzzy
 msgid "Restore system"
+msgstr "Configuraciones de Rede"
+
+#: ui/bacula/restore/select/index.scm:9
+#, fuzzy
+msgid "Restore system from backup"
 msgstr "Configuraciones de Rede"
 
 #: ui/bacula/restore/search/index.scm:51
 msgid "Restoring backup database..."
 msgstr ""
 
+#: ui/bacula/local-backup/ajax.scm:38
 #: ui/bacula/client-backup/archive/ajax.scm:32
 #, fuzzy
 msgid "Restoring file"
@@ -406,6 +428,7 @@ msgstr "Borrar conección"
 msgid "Setup fileset..."
 msgstr "Configuración norma y pontuaciones..."
 
+#: ui/bacula/local-backup/ajax.scm:35
 #: ui/bacula/client-backup/archive/ajax.scm:29
 #, fuzzy
 msgid "Starting restore..."
@@ -425,6 +448,15 @@ msgstr "Acesso Convidado"
 msgid "System disk"
 msgstr "Usuário del Sistema"
 
+#: standard input:3
+#, fuzzy
+msgid "System installation"
+msgstr "Información del sistema:"
+
+#: ui/bacula/restore/finish/index.scm:6
+msgid "System was successfully restored from backup"
+msgstr ""
+
 #: bin/bacula-alterator-sh-functions:42
 msgid "TB"
 msgstr ""
@@ -439,6 +471,12 @@ msgstr "Clientes Prohibido:"
 msgid "Target directory:"
 msgstr "Directorio Inicial:"
 
+#: ui/bacula/restore/select/index.scm:6
+msgid ""
+"Target disk is prepared for operation system. You can install a new system "
+"or restore one from existing backup. "
+msgstr ""
+
 #: ui/bacula/restore/search/index.scm:34
 msgid "Unable to find backup disk. Please insert one and try again..."
 msgstr ""
@@ -452,7 +490,7 @@ msgstr ""
 msgid "Unable to mount disk"
 msgstr "No fue posible configurar el Reloj"
 
-#: backend3/bacula-client-backup:163 backend3/bacula-local-backup:253
+#: backend3/bacula-client-backup:163 backend3/bacula-local-backup:258
 #, fuzzy
 msgid "Unable to restore"
 msgstr "No és posible crear rede"
@@ -486,7 +524,7 @@ msgstr "Otras configuraciones del Sistema"
 msgid "Waiting"
 msgstr ""
 
-#: backend3/bacula-restore:161
+#: backend3/bacula-restore:188
 #, fuzzy
 msgid "Waiting..."
 msgstr "calculando..."
