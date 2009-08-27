@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt7
+Release: alt8
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -90,6 +90,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Aug 27 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt8
+- update translations for alterator-wizard and alterator-bacula
+- sem@: update translations for alterator-openvpn-server
+
 * Mon Aug 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt7
 - add translations for alterator-chainmail
 - add Russian help for Chainmail's firsttime and Chainmail's control center
