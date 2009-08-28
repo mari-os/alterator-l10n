@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt8
+Release: alt9
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -37,7 +37,7 @@ Conflicts: alterator-squid                < 0.4-alt6
 Conflicts: alterator-sysconfig            < 1.0-alt1
 Conflicts: alterator-sysinfo              < 0.6-alt1
 Conflicts: alterator-tzone                < 1.0-alt6
-Conflicts: alterator-ulogd                < 0.5-alt5
+Conflicts: alterator-ulogd                < 0.2.0-alt1
 Conflicts: alterator-users                < 9.3-alt3
 Conflicts: alterator-vsftpd               < 0.6-alt1
 Conflicts: alterator-x11                  < 0.21-alt4
@@ -90,6 +90,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Aug 28 2009 Mikhail Efremov <sem@altlinux.org> 2.5-alt9
+-  update translations for alterator-ulogd.
+
 * Thu Aug 27 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt8
 - update translations for alterator-wizard and alterator-bacula
 - sem@: update translations for alterator-openvpn-server
