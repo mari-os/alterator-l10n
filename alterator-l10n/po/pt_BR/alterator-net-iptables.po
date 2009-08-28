@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-09 15:30+0400\n"
+"POT-Creation-Date: 2009-08-28 18:56+0400\n"
 "PO-Revision-Date: 2009-03-28 10:54-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,83 +19,97 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: bin/alterator-net-iptables:171 bin/iptables_helper:171
-msgid "(must be a number or empty string)"
-msgstr "(deve sre apenas um número ou deixar em branco)"
-
-#: bin/alterator-net-iptables:144 bin/alterator-net-iptables:149
-#: bin/alterator-net-iptables:179 bin/alterator-net-iptables:181
-#: bin/iptables_helper:144 bin/iptables_helper:149 bin/iptables_helper:179
-#: bin/iptables_helper:181
+#: bin/alterator-net-iptables:225 bin/alterator-net-iptables:230
+#: bin/alterator-net-iptables:434 bin/iptables_helper:225
+#: bin/iptables_helper:230 bin/iptables_helper:434
 msgid "(must be a number)"
 msgstr "(apenas um número)"
 
-#: bin/alterator-net-iptables:140 bin/iptables_helper:140
+#: bin/alterator-net-iptables:221 bin/iptables_helper:221
 msgid "(possible values: gateway or router)"
 msgstr "(possiveis valores: gateway ou router)"
 
-#: bin/alterator-net-iptables:168 bin/alterator-net-iptables:190
-#: bin/iptables_helper:168 bin/iptables_helper:190
-msgid "(possible values: on or off)"
-msgstr "(possivel valores: on ou off)"
-
-#: standard input:6 input:8 ui/net-iptables/index.scm:50
+#: standard input:11 input:13 input:39 input:41 ui/net-iptables/index.scm:50
 #: ui/net-iptables/index.scm:55
 msgid "(separated by commas or spaces)"
 msgstr "(separados por vírgulas ou espaços)"
 
-#: standard input:19 input:28 ui/net-dnat/index.scm:58
-#: ui/net-fixmac/index.scm:52
+#: standard input:22
+#, fuzzy
+msgid "Access from internal networks"
+msgstr "Outra rede"
+
+#: standard input:5 input:21 input:46 ui/net-bl/index.scm:36
+#: ui/net-dnat/index.scm:59
 msgid "Add"
 msgstr "Adicionar"
 
-#: ui/net-fixmac/index.scm:33
+#: ui/net-bl/index.scm:34
 #, fuzzy
-msgid "Add new bindings:"
-msgstr "Hadware vinculado:"
+msgid "Add host or network IP-address:"
+msgstr "endereço do IP de destino:"
 
-#: standard input:24
+#: ui/net-bl/index.scm:32
+#, fuzzy
+msgid "Add new IP:"
+msgstr "Adicionar nova regra:"
+
+#: standard input:44
 #, fuzzy
 msgid "Add new client:"
 msgstr "Adicionar Cliente"
 
-#: standard input:13 ui/net-dnat/index.scm:36
+#: standard input:4 input:19 ui/net-dnat/index.scm:37
 msgid "Add new rule:"
 msgstr "Adicionar nova regra:"
 
-#: standard input:3 ui/net-iptables/index.scm:37
+#: standard input:8 ui/net-iptables/index.scm:37
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Permitir conexões de entrada na interface externa:"
 
-#: standard input:9 input:21 ui/net-iptables/index.scm:61
+#: standard input:36
+#, fuzzy
+msgid "Allowed connections:"
+msgstr "Todas conexões"
+
+#: standard input:14 input:42 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:22
-msgid "Authorized clients (MAC - IP):"
-msgstr ""
-
-#: ui/net-fixmac/index.scm:27
+#: standard input:28
 #, fuzzy
-msgid "Available bindings:"
-msgstr "Imagens disponíveis:"
+msgid "Authorized clients:"
+msgstr "Chaves SSH autorizadas:"
 
-#: standard input:11 ui/net-dnat/index.scm:30
+#: standard input:17 ui/net-dnat/index.scm:31
 msgid "Available rules:"
 msgstr "Regras disponíveis:"
+
+#: standard input:19
+msgid "Blacklist"
+msgstr ""
+
+#: standard input:2 ui/net-bl/index.scm:26
+msgid "Blacklist:"
+msgstr ""
 
 #: standard input:13
 #, fuzzy
 msgid "CUPS printing system"
 msgstr "Atualizar sistema"
 
-#: bin/alterator-net-iptables:421 bin/iptables_helper:421
+#: bin/alterator-net-iptables:394 bin/iptables_helper:394
 msgid "Can't add multiple values to list"
 msgstr "Não foi possível adicionar valores multiplos na lista"
 
-#: bin/alterator-net-iptables:429 bin/iptables_helper:429
+#: bin/alterator-net-iptables:402 bin/iptables_helper:402
 msgid "Can't remove multiple values from list"
 msgstr "Não foi possível remover os valores multiplos da lista"
+
+#: standard input:27
+#, fuzzy
+msgid "Configure internal interfaces..."
+msgstr "Reconfigurar Interface de Rede"
 
 #: standard input:8
 msgid "DHCP server"
@@ -106,80 +120,95 @@ msgstr "Servidor DHCP"
 msgid "DNS server"
 msgstr "Servidor DNS:"
 
-#: standard input:12 input:23 ui/net-dnat/index.scm:34
-#: ui/net-fixmac/index.scm:31
+#: backend3/net-tc:59
+msgid "Default"
+msgstr "Padrão"
+
+#: standard input:3 input:18 input:43 ui/net-bl/index.scm:30
+#: ui/net-dnat/index.scm:35
 msgid "Delete"
 msgstr "Deletar"
 
-#: standard input:20
+#: standard input:1 ui/net-bl/index.scm:23
+msgid "Enable blacklist filtering"
+msgstr ""
+
+#: standard input:16 ui/net-dnat/index.scm:28
+#, fuzzy
+msgid "Enable port forwarding"
+msgstr "Redirecionamento de porta"
+
+#: standard input:26
 #, fuzzy
 msgid "Enable restrictions on all internal interfaces"
 msgstr "Selecionar interface externa:"
 
-#: bin/alterator-net-iptables:389 bin/alterator-net-iptables:391
-#: bin/iptables_helper:389 bin/iptables_helper:391
+#: bin/alterator-net-iptables:362 bin/alterator-net-iptables:364
+#: bin/iptables_helper:362 bin/iptables_helper:364
 msgid "Error while reloading firewalling rules"
 msgstr "Erro durante a recarga firewalling regras"
 
-#: bin/alterator-net-iptables:396 bin/iptables_helper:396
+#: bin/alterator-net-iptables:369 bin/iptables_helper:369
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr "Erro enquanto rodava /usr/lib/alterator/hooks/net-iptables.d/*"
 
-#: bin/alterator-net-iptables:198 bin/iptables_helper:198
+#: bin/alterator-net-iptables:809 bin/iptables_helper:809
+msgid "Error: MAC-address is not allowed in default rule"
+msgstr ""
+
+#: bin/alterator-net-iptables:424 bin/iptables_helper:424
+#, fuzzy
+msgid "Error: bad IP-address"
+msgstr "Erro: modo ruim"
+
+#: bin/alterator-net-iptables:448 bin/iptables_helper:448
 #, fuzzy
 msgid "Error: bad MAC-address"
 msgstr "Erro: modo ruim"
 
-#: bin/alterator-net-iptables:171 bin/iptables_helper:171
-msgid "Error: bad SQUID port"
-msgstr "Erro: ruim porta SQUID"
-
-#: bin/alterator-net-iptables:144 bin/iptables_helper:144
+#: bin/alterator-net-iptables:225 bin/iptables_helper:225
 msgid "Error: bad TCP port"
 msgstr "Erro: ruim TCP porta"
 
-#: bin/alterator-net-iptables:168 bin/iptables_helper:168
-msgid "Error: bad ULOGD mode"
-msgstr "Erro: ruim modo ULOGD "
-
-#: bin/alterator-net-iptables:149 bin/iptables_helper:149
+#: bin/alterator-net-iptables:230 bin/iptables_helper:230
 msgid "Error: bad UTP port"
 msgstr "Erro: porta UTP ruim"
 
-#: bin/alterator-net-iptables:190 bin/iptables_helper:190
-#, fuzzy
-msgid "Error: bad fixmac mode"
-msgstr "Erro: modo ruim"
-
-#: bin/alterator-net-iptables:183 bin/alterator-net-iptables:185
-#: bin/alterator-net-iptables:196 bin/iptables_helper:183
-#: bin/iptables_helper:185 bin/iptables_helper:196
-msgid "Error: bad ip"
-msgstr "Erro: Ip ruim"
-
-#: bin/alterator-net-iptables:140 bin/iptables_helper:140
+#: bin/alterator-net-iptables:221 bin/iptables_helper:221
 msgid "Error: bad mode"
 msgstr "Erro: modo ruim"
 
-#: bin/alterator-net-iptables:179 bin/alterator-net-iptables:181
-#: bin/alterator-net-iptables:233 bin/iptables_helper:179
-#: bin/iptables_helper:181 bin/iptables_helper:233
+#: bin/alterator-net-iptables:429 bin/iptables_helper:429
+#, fuzzy
+msgid "Error: bad network or host IP-address"
+msgstr "Erro: modo ruim"
+
+#: bin/alterator-net-iptables:196 bin/alterator-net-iptables:209
+#: bin/alterator-net-iptables:434 bin/iptables_helper:196
+#: bin/iptables_helper:209 bin/iptables_helper:434
 msgid "Error: bad port"
 msgstr "Erro: porta com problemas"
 
-#: bin/alterator-net-iptables:177 bin/iptables_helper:177
+#: bin/alterator-net-iptables:439 bin/alterator-net-iptables:443
+#: bin/iptables_helper:439 bin/iptables_helper:443
+#, fuzzy
+msgid "Error: bad port or port range"
+msgstr "Erro: porta com problemas"
+
+#: bin/alterator-net-iptables:419 bin/iptables_helper:419
 msgid "Error: unknown protocol"
 msgstr "Erro: protocolo desconhecido"
 
-#: bin/alterator-net-iptables:164 bin/iptables_helper:164
+#: bin/alterator-net-iptables:191 bin/alterator-net-iptables:822
+#: bin/iptables_helper:191 bin/iptables_helper:822
 msgid "Error: unknown service"
 msgstr "Erro: serviço desconhecido"
 
-#: standard input:5 ui/net-iptables/index.scm:48
+#: standard input:10 input:38 ui/net-iptables/index.scm:48
 msgid "Extra TCP ports:"
 msgstr "Portas TCP extras:"
 
-#: standard input:7 ui/net-iptables/index.scm:53
+#: standard input:12 input:40 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr "Portas UDP extras:"
 
@@ -191,24 +220,28 @@ msgstr "Servidor de Arquivo (Samba)"
 msgid "File transfer (FTP)"
 msgstr "Transferencia de arquivo (FTP)"
 
-#: backend3/net-dnat:23
+#: backend3/net-dnat:29
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr "Encaminhando %s pacotes para %s.%s para %s.%s"
 
-#: standard input:25 ui/net-fixmac/index.scm:48
+#: standard input:29 input:45
 msgid "IP address:"
 msgstr "Endereço IP:"
 
-#: standard input:20
-#, fuzzy
-msgid "Internal network restrictions"
-msgstr "Outra rede"
+#: standard input:34
+msgid "Incoming rate (kbps):"
+msgstr ""
 
 #: standard input:2
 msgid "LDAP"
 msgstr "LDAP"
 
-#: standard input:26 ui/net-fixmac/index.scm:45
+#: standard input:30
+#, fuzzy
+msgid "MAC address restrictions:"
+msgstr "Endereço MAC:"
+
+#: standard input:31
 msgid "MAC address:"
 msgstr "Endereço MAC:"
 
@@ -237,7 +270,11 @@ msgstr "Menegement de Rede (SNMP)"
 msgid "OpenVPN"
 msgstr ""
 
-#: standard input:19
+#: standard input:35
+msgid "Outcoming rate (kbps):"
+msgstr ""
+
+#: standard input:20
 msgid "Port forwarding"
 msgstr "Redirecionamento de porta"
 
@@ -253,20 +290,20 @@ msgstr "Acesso remoto (SSH)"
 msgid "Remote access (telnet)"
 msgstr "Acesso remoto (telnet)"
 
-#: standard input:10 ui/net-iptables/index.scm:64
+#: standard input:15 ui/net-iptables/index.scm:64
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:27
+#: standard input:32
 #, fuzzy
 msgid "Resolve"
 msgstr "Resetar"
 
-#: standard input:2 ui/net-iptables/index.scm:36
+#: standard input:7 ui/net-iptables/index.scm:36
 msgid "Select external interfaces:"
 msgstr "Selecionar interface externa:"
 
-#: standard input:1 ui/net-iptables/index.scm:30
+#: standard input:6 ui/net-iptables/index.scm:30
 msgid "Select forwarding mode:"
 msgstr "Selecione o modo de redirecionamento:"
 
@@ -274,7 +311,7 @@ msgstr "Selecione o modo de redirecionamento:"
 msgid "Service packets (ICMP)"
 msgstr "Pacote de Serviços (ICMP)"
 
-#: standard input:4 ui/net-iptables/index.scm:44
+#: standard input:9 input:37 ui/net-iptables/index.scm:44
 msgid "Services:"
 msgstr "Serviços:"
 
@@ -282,6 +319,11 @@ msgstr "Serviços:"
 #, fuzzy
 msgid "System management center (www)"
 msgstr "Centro de Configuração do sistema"
+
+#: standard input:33
+#, fuzzy
+msgid "Traffic rate restrictions:"
+msgstr "Restrições do sistema"
 
 #: standard input:3
 msgid "Web server (HTTP/HTTPS)"
@@ -292,15 +334,15 @@ msgstr "Servidor web (HTTP/HTTPS)"
 msgid "Zeroconf"
 msgstr "Usar ZeroConfig"
 
-#: bin/alterator-net-iptables:7 bin/iptables_helper:7
+#: bin/alterator-net-iptables:12 bin/iptables_helper:12
 msgid "alterator-net-iptables"
 msgstr "alterator-net-iptables"
 
-#: standard input:15 ui/net-dnat/index.scm:48
+#: standard input:22 ui/net-dnat/index.scm:49
 msgid "destination IP address:"
 msgstr "endereço do IP de destino:"
 
-#: standard input:17 ui/net-dnat/index.scm:53
+#: standard input:24 ui/net-dnat/index.scm:54
 msgid "forward to IP address:"
 msgstr "redirecionamento para o endereço IP:"
 
@@ -313,34 +355,20 @@ msgstr "Gateway"
 msgid "gateway (NAT)"
 msgstr "Gateway"
 
-#: bin/alterator-net-iptables:177 bin/alterator-net-iptables:179
-#: bin/alterator-net-iptables:181 bin/alterator-net-iptables:183
-#: bin/alterator-net-iptables:185 bin/iptables_helper:177
-#: bin/iptables_helper:179 bin/iptables_helper:181 bin/iptables_helper:183
-#: bin/iptables_helper:185
-msgid "in DNAT rule"
-msgstr "na regra DNAT"
-
-#: bin/alterator-net-iptables:233 bin/iptables_helper:233
+#: bin/alterator-net-iptables:196 bin/iptables_helper:196
 msgid "in desktop-file for service"
 msgstr "no desktop para o serviço de arquivo"
 
-#: bin/alterator-net-iptables:196 bin/alterator-net-iptables:198
-#: bin/iptables_helper:196 bin/iptables_helper:198
-#, fuzzy
-msgid "in fixmac rule"
-msgstr "na regra DNAT"
-
-#: standard input:16 input:18 ui/net-dnat/index.scm:50
-#: ui/net-dnat/index.scm:55
+#: standard input:23 input:25 ui/net-dnat/index.scm:51
+#: ui/net-dnat/index.scm:56
 msgid "port:"
 msgstr "porta:"
 
-#: bin/alterator-net-iptables:177 bin/iptables_helper:177
+#: bin/alterator-net-iptables:419 bin/iptables_helper:419
 msgid "possible values:"
 msgstr "valores possíveis:"
 
-#: standard input:14 ui/net-dnat/index.scm:42 ui/net-fixmac/index.scm:39
+#: standard input:20 ui/net-dnat/index.scm:43
 msgid "protocol:"
 msgstr "protocolo:"
 
@@ -348,8 +376,54 @@ msgstr "protocolo:"
 msgid "router"
 msgstr "rotiador"
 
+#~ msgid "(must be a number or empty string)"
+#~ msgstr "(deve sre apenas um número ou deixar em branco)"
+
+#~ msgid "(possible values: on or off)"
+#~ msgstr "(possivel valores: on ou off)"
+
+#, fuzzy
+#~ msgid "Add new bindings:"
+#~ msgstr "Hadware vinculado:"
+
+#, fuzzy
+#~ msgid "Available bindings:"
+#~ msgstr "Imagens disponíveis:"
+
+#, fuzzy
+#~ msgid "Enable blacklisting"
+#~ msgstr "Habilitar espelhamento"
+
+#~ msgid "Error: bad SQUID port"
+#~ msgstr "Erro: ruim porta SQUID"
+
+#~ msgid "Error: bad ULOGD mode"
+#~ msgstr "Erro: ruim modo ULOGD "
+
+#, fuzzy
+#~ msgid "Error: bad fixmac mode"
+#~ msgstr "Erro: modo ruim"
+
+#~ msgid "Error: bad ip"
+#~ msgstr "Erro: Ip ruim"
+
+#, fuzzy
+#~ msgid "Error: bad port: "
+#~ msgstr "Erro: porta com problemas"
+
 #~ msgid "Error: unknown interface"
 #~ msgstr "Erro: interface desconhecida"
+
+#, fuzzy
+#~ msgid "Internal network restrictions"
+#~ msgstr "Outra rede"
+
+#~ msgid "in DNAT rule"
+#~ msgstr "na regra DNAT"
+
+#, fuzzy
+#~ msgid "in fixmac rule"
+#~ msgstr "na regra DNAT"
 
 #~ msgid "privet!"
 #~ msgstr "privado!"

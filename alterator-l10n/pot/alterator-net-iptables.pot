@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-09 15:30+0400\n"
+"POT-Creation-Date: 2009-08-28 18:56+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,111 +89,159 @@ msgid "Network management (SNMP)"
 msgstr ""
 
 #: standard input:19
-msgid "Port forwarding"
+msgid "Blacklist"
 msgstr ""
 
 #: standard input:20
-msgid "Internal network restrictions"
+msgid "Port forwarding"
 msgstr ""
 
 #: standard input:21
 msgid "Network firewall"
 msgstr ""
 
-#: standard input:1 ui/net-iptables/index.scm:30
+#: standard input:22
+msgid "Access from internal networks"
+msgstr ""
+
+#: standard input:1 ui/net-bl/index.scm:23
+msgid "Enable blacklist filtering"
+msgstr ""
+
+#: standard input:2 ui/net-bl/index.scm:26
+msgid "Blacklist:"
+msgstr ""
+
+#: standard input:3 input:18 input:43 ui/net-bl/index.scm:30
+#: ui/net-dnat/index.scm:35
+msgid "Delete"
+msgstr ""
+
+#: standard input:4 input:19 ui/net-dnat/index.scm:37
+msgid "Add new rule:"
+msgstr ""
+
+#: standard input:5 input:21 input:46 ui/net-bl/index.scm:36
+#: ui/net-dnat/index.scm:59
+msgid "Add"
+msgstr ""
+
+#: standard input:6 ui/net-iptables/index.scm:30
 msgid "Select forwarding mode:"
 msgstr ""
 
-#: standard input:2 ui/net-iptables/index.scm:36
+#: standard input:7 ui/net-iptables/index.scm:36
 msgid "Select external interfaces:"
 msgstr ""
 
-#: standard input:3 ui/net-iptables/index.scm:37
+#: standard input:8 ui/net-iptables/index.scm:37
 msgid "Allow incoming connections on external interfaces:"
 msgstr ""
 
-#: standard input:4 ui/net-iptables/index.scm:44
+#: standard input:9 input:37 ui/net-iptables/index.scm:44
 msgid "Services:"
 msgstr ""
 
-#: standard input:5 ui/net-iptables/index.scm:48
+#: standard input:10 input:38 ui/net-iptables/index.scm:48
 msgid "Extra TCP ports:"
 msgstr ""
 
-#: standard input:6 input:8 ui/net-iptables/index.scm:50
+#: standard input:11 input:13 input:39 input:41 ui/net-iptables/index.scm:50
 #: ui/net-iptables/index.scm:55
 msgid "(separated by commas or spaces)"
 msgstr ""
 
-#: standard input:7 ui/net-iptables/index.scm:53
+#: standard input:12 input:40 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr ""
 
-#: standard input:9 input:21 ui/net-iptables/index.scm:61
+#: standard input:14 input:42 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr ""
 
-#: standard input:10 ui/net-iptables/index.scm:64
+#: standard input:15 ui/net-iptables/index.scm:64
 msgid "Reset"
 msgstr ""
 
-#: standard input:11 ui/net-dnat/index.scm:30
+#: standard input:16 ui/net-dnat/index.scm:28
+msgid "Enable port forwarding"
+msgstr ""
+
+#: standard input:17 ui/net-dnat/index.scm:31
 msgid "Available rules:"
 msgstr ""
 
-#: standard input:12 input:23 ui/net-dnat/index.scm:34
-#: ui/net-fixmac/index.scm:31
-msgid "Delete"
-msgstr ""
-
-#: standard input:13 ui/net-dnat/index.scm:36
-msgid "Add new rule:"
-msgstr ""
-
-#: standard input:14 ui/net-dnat/index.scm:42 ui/net-fixmac/index.scm:39
+#: standard input:20 ui/net-dnat/index.scm:43
 msgid "protocol:"
 msgstr ""
 
-#: standard input:15 ui/net-dnat/index.scm:48
+#: standard input:22 ui/net-dnat/index.scm:49
 msgid "destination IP address:"
 msgstr ""
 
-#: standard input:16 input:18 ui/net-dnat/index.scm:50
-#: ui/net-dnat/index.scm:55
+#: standard input:23 input:25 ui/net-dnat/index.scm:51
+#: ui/net-dnat/index.scm:56
 msgid "port:"
 msgstr ""
 
-#: standard input:17 ui/net-dnat/index.scm:53
+#: standard input:24 ui/net-dnat/index.scm:54
 msgid "forward to IP address:"
 msgstr ""
 
-#: standard input:19 input:28 ui/net-dnat/index.scm:58
-#: ui/net-fixmac/index.scm:52
-msgid "Add"
-msgstr ""
-
-#: standard input:20
+#: standard input:26
 msgid "Enable restrictions on all internal interfaces"
 msgstr ""
 
-#: standard input:22
-msgid "Authorized clients (MAC - IP):"
+#: standard input:27
+msgid "Configure internal interfaces..."
 msgstr ""
 
-#: standard input:24
-msgid "Add new client:"
+#: standard input:28
+msgid "Authorized clients:"
 msgstr ""
 
-#: standard input:25 ui/net-fixmac/index.scm:48
+#: standard input:29 input:45
 msgid "IP address:"
 msgstr ""
 
-#: standard input:26 ui/net-fixmac/index.scm:45
+#: standard input:30
+msgid "MAC address restrictions:"
+msgstr ""
+
+#: standard input:31
 msgid "MAC address:"
 msgstr ""
 
-#: standard input:27
+#: standard input:32
 msgid "Resolve"
+msgstr ""
+
+#: standard input:33
+msgid "Traffic rate restrictions:"
+msgstr ""
+
+#: standard input:34
+msgid "Incoming rate (kbps):"
+msgstr ""
+
+#: standard input:35
+msgid "Outcoming rate (kbps):"
+msgstr ""
+
+#: standard input:36
+msgid "Allowed connections:"
+msgstr ""
+
+#: standard input:44
+msgid "Add new client:"
+msgstr ""
+
+#: ui/net-bl/index.scm:32
+msgid "Add new IP:"
+msgstr ""
+
+#: ui/net-bl/index.scm:34
+msgid "Add host or network IP-address:"
 msgstr ""
 
 #: ui/net-iptables/index.scm:31 backend3/net-iptables:23
@@ -204,128 +252,101 @@ msgstr ""
 msgid "gateway"
 msgstr ""
 
-#: ui/net-fixmac/index.scm:27
-msgid "Available bindings:"
-msgstr ""
-
-#: ui/net-fixmac/index.scm:33
-msgid "Add new bindings:"
-msgstr ""
-
-#: bin/alterator-net-iptables:7 bin/iptables_helper:7
+#: bin/alterator-net-iptables:12 bin/iptables_helper:12
 msgid "alterator-net-iptables"
 msgstr ""
 
-#: bin/alterator-net-iptables:140 bin/iptables_helper:140
-msgid "Error: bad mode"
-msgstr ""
-
-#: bin/alterator-net-iptables:140 bin/iptables_helper:140
-msgid "(possible values: gateway or router)"
-msgstr ""
-
-#: bin/alterator-net-iptables:144 bin/iptables_helper:144
-msgid "Error: bad TCP port"
-msgstr ""
-
-#: bin/alterator-net-iptables:144 bin/alterator-net-iptables:149
-#: bin/alterator-net-iptables:179 bin/alterator-net-iptables:181
-#: bin/iptables_helper:144 bin/iptables_helper:149 bin/iptables_helper:179
-#: bin/iptables_helper:181
-msgid "(must be a number)"
-msgstr ""
-
-#: bin/alterator-net-iptables:149 bin/iptables_helper:149
-msgid "Error: bad UTP port"
-msgstr ""
-
-#: bin/alterator-net-iptables:164 bin/iptables_helper:164
+#: bin/alterator-net-iptables:191 bin/alterator-net-iptables:822
+#: bin/iptables_helper:191 bin/iptables_helper:822
 msgid "Error: unknown service"
 msgstr ""
 
-#: bin/alterator-net-iptables:168 bin/iptables_helper:168
-msgid "Error: bad ULOGD mode"
-msgstr ""
-
-#: bin/alterator-net-iptables:168 bin/alterator-net-iptables:190
-#: bin/iptables_helper:168 bin/iptables_helper:190
-msgid "(possible values: on or off)"
-msgstr ""
-
-#: bin/alterator-net-iptables:171 bin/iptables_helper:171
-msgid "Error: bad SQUID port"
-msgstr ""
-
-#: bin/alterator-net-iptables:171 bin/iptables_helper:171
-msgid "(must be a number or empty string)"
-msgstr ""
-
-#: bin/alterator-net-iptables:177 bin/iptables_helper:177
-msgid "Error: unknown protocol"
-msgstr ""
-
-#: bin/alterator-net-iptables:177 bin/alterator-net-iptables:179
-#: bin/alterator-net-iptables:181 bin/alterator-net-iptables:183
-#: bin/alterator-net-iptables:185 bin/iptables_helper:177
-#: bin/iptables_helper:179 bin/iptables_helper:181 bin/iptables_helper:183
-#: bin/iptables_helper:185
-msgid "in DNAT rule"
-msgstr ""
-
-#: bin/alterator-net-iptables:177 bin/iptables_helper:177
-msgid "possible values:"
-msgstr ""
-
-#: bin/alterator-net-iptables:179 bin/alterator-net-iptables:181
-#: bin/alterator-net-iptables:233 bin/iptables_helper:179
-#: bin/iptables_helper:181 bin/iptables_helper:233
+#: bin/alterator-net-iptables:196 bin/alterator-net-iptables:209
+#: bin/alterator-net-iptables:434 bin/iptables_helper:196
+#: bin/iptables_helper:209 bin/iptables_helper:434
 msgid "Error: bad port"
 msgstr ""
 
-#: bin/alterator-net-iptables:183 bin/alterator-net-iptables:185
-#: bin/alterator-net-iptables:196 bin/iptables_helper:183
-#: bin/iptables_helper:185 bin/iptables_helper:196
-msgid "Error: bad ip"
-msgstr ""
-
-#: bin/alterator-net-iptables:190 bin/iptables_helper:190
-msgid "Error: bad fixmac mode"
-msgstr ""
-
-#: bin/alterator-net-iptables:196 bin/alterator-net-iptables:198
-#: bin/iptables_helper:196 bin/iptables_helper:198
-msgid "in fixmac rule"
-msgstr ""
-
-#: bin/alterator-net-iptables:198 bin/iptables_helper:198
-msgid "Error: bad MAC-address"
-msgstr ""
-
-#: bin/alterator-net-iptables:233 bin/iptables_helper:233
+#: bin/alterator-net-iptables:196 bin/iptables_helper:196
 msgid "in desktop-file for service"
 msgstr ""
 
-#: bin/alterator-net-iptables:389 bin/alterator-net-iptables:391
-#: bin/iptables_helper:389 bin/iptables_helper:391
+#: bin/alterator-net-iptables:221 bin/iptables_helper:221
+msgid "Error: bad mode"
+msgstr ""
+
+#: bin/alterator-net-iptables:221 bin/iptables_helper:221
+msgid "(possible values: gateway or router)"
+msgstr ""
+
+#: bin/alterator-net-iptables:225 bin/iptables_helper:225
+msgid "Error: bad TCP port"
+msgstr ""
+
+#: bin/alterator-net-iptables:225 bin/alterator-net-iptables:230
+#: bin/alterator-net-iptables:434 bin/iptables_helper:225
+#: bin/iptables_helper:230 bin/iptables_helper:434
+msgid "(must be a number)"
+msgstr ""
+
+#: bin/alterator-net-iptables:230 bin/iptables_helper:230
+msgid "Error: bad UTP port"
+msgstr ""
+
+#: bin/alterator-net-iptables:362 bin/alterator-net-iptables:364
+#: bin/iptables_helper:362 bin/iptables_helper:364
 msgid "Error while reloading firewalling rules"
 msgstr ""
 
-#: bin/alterator-net-iptables:396 bin/iptables_helper:396
+#: bin/alterator-net-iptables:369 bin/iptables_helper:369
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr ""
 
-#: bin/alterator-net-iptables:421 bin/iptables_helper:421
+#: bin/alterator-net-iptables:394 bin/iptables_helper:394
 msgid "Can't add multiple values to list"
 msgstr ""
 
-#: bin/alterator-net-iptables:429 bin/iptables_helper:429
+#: bin/alterator-net-iptables:402 bin/iptables_helper:402
 msgid "Can't remove multiple values from list"
 msgstr ""
 
-#: backend3/net-dnat:23
+#: bin/alterator-net-iptables:419 bin/iptables_helper:419
+msgid "Error: unknown protocol"
+msgstr ""
+
+#: bin/alterator-net-iptables:419 bin/iptables_helper:419
+msgid "possible values:"
+msgstr ""
+
+#: bin/alterator-net-iptables:424 bin/iptables_helper:424
+msgid "Error: bad IP-address"
+msgstr ""
+
+#: bin/alterator-net-iptables:429 bin/iptables_helper:429
+msgid "Error: bad network or host IP-address"
+msgstr ""
+
+#: bin/alterator-net-iptables:439 bin/alterator-net-iptables:443
+#: bin/iptables_helper:439 bin/iptables_helper:443
+msgid "Error: bad port or port range"
+msgstr ""
+
+#: bin/alterator-net-iptables:448 bin/iptables_helper:448
+msgid "Error: bad MAC-address"
+msgstr ""
+
+#: bin/alterator-net-iptables:809 bin/iptables_helper:809
+msgid "Error: MAC-address is not allowed in default rule"
+msgstr ""
+
+#: backend3/net-dnat:29
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr ""
 
 #: backend3/net-iptables:24
 msgid "gateway (NAT)"
+msgstr ""
+
+#: backend3/net-tc:59
+msgid "Default"
 msgstr ""
