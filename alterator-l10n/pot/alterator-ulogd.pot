@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"POT-Creation-Date: 2009-08-28 15:46+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,270 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ui/html-messages.scm:42
-msgid "Action"
+#: backend3/ulogd.awk:48 backend3/ulogd.awk:51 backend3/ulogd.awk:54
+msgid "internal"
 msgstr ""
 
-#: ui/html-messages.scm:23 ui/html-messages.scm:27 ui/html-messages.scm:31
-msgid "Add"
+#: backend3/ulogd.awk:56
+msgid "external"
 msgstr ""
 
-#: ui/html-messages.scm:6 ui/html-messages.scm:14 ui/html-messages.scm:38
-#: ui/html-messages.scm:57
-msgid "Apply"
+#: backend3/ulogd.awk:130 backend3/ulogd:179
+msgid "Other"
 msgstr ""
 
-#: ui/html-messages.scm:4 ui/html-messages.scm:36
-msgid "Chain"
-msgstr ""
-
-#: ui/html-messages.scm:5
-msgid "Chain policy"
-msgstr ""
-
-#: standard input:7
-msgid "Check IP"
-msgstr ""
-
-#: ui/html-messages.scm:60
-msgid "Configurator"
-msgstr ""
-
-#: ui/html-messages.scm:56
-msgid "Date, time"
-msgstr ""
-
-#: ui/html-messages.scm:45
-msgid "Destination address"
-msgstr ""
-
-#: ui/html-messages.scm:49
-msgid "Destination port"
-msgstr ""
-
-#: ui/html-messages.scm:61
-msgid "Domain name server (DNS)"
-msgstr ""
-
-#: ui/html-messages.scm:68
-msgid "File server (Samba)"
-msgstr ""
-
-#: ui/html-messages.scm:62
-msgid "File transfer (FTP)"
-msgstr ""
-
-#: ui/html-messages.scm:20
-msgid "Filter table"
-msgstr ""
-
-#: ui/html-messages.scm:12
-msgid "Filtering rules"
-msgstr ""
-
-#: ui/html-messages.scm:47
-msgid "Fragment"
-msgstr ""
-
-#: ui/html-messages.scm:55
-msgid "ICMP type"
-msgstr ""
-
-#: standard input:10
-msgid "In (Kb)"
-msgstr ""
-
-#: ui/html-messages.scm:44 ui/html-messages.scm:46
-msgid "Interface"
-msgstr ""
-
-#: standard input:6
-msgid "Interface:"
-msgstr ""
-
-#: ui/html-messages.scm:64
-msgid "Mail server (IMAP)"
-msgstr ""
-
-#: ui/html-messages.scm:65
-msgid "Mail server (POP2)"
-msgstr ""
-
-#: ui/html-messages.scm:66
-msgid "Mail server (POP3)"
-msgstr ""
-
-#: ui/html-messages.scm:69
-msgid "Mail server (SMTP)"
-msgstr ""
-
-#: ui/html-messages.scm:24
-msgid "Mangle table"
-msgstr ""
-
-#: ui/html-messages.scm:28
-msgid "NAT table"
-msgstr ""
-
-#: ui/html-messages.scm:1 ui/html-messages.scm:11 ui/html-messages.scm:18
-#: ui/html-messages.scm:33
-msgid "Network firewall"
-msgstr ""
-
-#: ui/html-messages.scm:70
-msgid "Network menegement (SNMP)"
+#: backend3/ulogd.awk:132 backend3/ulogd:182
+msgid "Total"
 msgstr ""
 
 #: standard input:1
 msgid "Network traffic"
 msgstr ""
 
-#: ui/html-messages.scm:9
-msgid "New rule"
-msgstr ""
-
-#: ui/html-messages.scm:40
-msgid "New rule number"
-msgstr ""
-
-#: backend3/ulogd:130
-msgid "Other"
-msgstr ""
-
-#: standard input:11
-msgid "Out (Kb)"
-msgstr ""
-
-#: standard input:3
-msgid "Period:"
-msgstr ""
-
-#: ui/html-messages.scm:41
-msgid "Protocol"
-msgstr ""
-
-#: ui/html-messages.scm:67
-msgid "Proxy server"
-msgstr ""
-
-#: ui/html-messages.scm:71
-msgid "Remote access (SSH)"
-msgstr ""
-
-#: ui/html-messages.scm:72
-msgid "Remote access (telnet)"
-msgstr ""
-
-#: ui/html-messages.scm:8 ui/html-messages.scm:22 ui/html-messages.scm:26
-#: ui/html-messages.scm:30
-msgid "Remove selected"
-msgstr ""
-
-#: ui/html-messages.scm:15 ui/html-messages.scm:39 ui/html-messages.scm:58
-msgid "Reset"
-msgstr ""
-
-#: ui/html-messages.scm:16
-msgid "Restore default settings"
-msgstr ""
-
-#: ui/html-messages.scm:37
-msgid "Return to view"
-msgstr ""
-
-#: ui/html-messages.scm:19
-msgid "Rule chains"
-msgstr ""
-
-#: ui/html-messages.scm:13
-msgid "Select"
-msgstr ""
-
-#: standard input:9
-msgid "Service"
-msgstr ""
-
-#: ui/html-messages.scm:63
-msgid "Service packets (ICMP)"
-msgstr ""
-
-#: standard input:8
-msgid "Show"
-msgstr ""
-
-#: ui/html-messages.scm:43
-msgid "Source address"
-msgstr ""
-
-#: ui/html-messages.scm:48
-msgid "Source port"
-msgstr ""
-
 #: standard input:1
-msgid "Start, stop or restart service..."
-msgstr ""
-
-#: ui/html-messages.scm:52
-msgid "State"
+msgid "Enable data collection"
 msgstr ""
 
 #: standard input:2
-msgid "Statistics per interface"
+msgid "Apply"
 msgstr ""
 
-#: ui/html-messages.scm:50
-msgid "TCP flags"
-msgstr ""
-
-#: ui/html-messages.scm:54
-msgid "TCP option"
-msgstr ""
-
-#: ui/html-messages.scm:2 ui/html-messages.scm:34
-msgid "Table"
-msgstr ""
-
-#: backend3/ulogd:132
-msgid "Total"
-msgstr ""
-
-#: ui/html-messages.scm:73
-msgid "Web server (HTTP/HTTPS)"
-msgstr ""
-
-#: ui/html-messages.scm:3 ui/html-messages.scm:35
-msgid "back to chain list"
-msgstr ""
-
-#: ui/html-messages.scm:51 ui/html-messages.scm:53
-msgid "check"
-msgstr ""
-
-#: ui/html-messages.scm:7 ui/html-messages.scm:21 ui/html-messages.scm:25
-#: ui/html-messages.scm:29
-msgid "edit"
-msgstr ""
-
-#: ui/html-messages.scm:17
-msgid "expert mode"
-msgstr ""
-
-#: backend3/ulogd:56
-msgid "external"
+#: standard input:3
+msgid "Period from:"
 msgstr ""
 
 #: standard input:4
-msgid "from"
-msgstr ""
-
-#: backend3/ulogd:48 backend3/ulogd:51 backend3/ulogd:54
-msgid "internal"
-msgstr ""
-
-#: ui/html-messages.scm:10 ui/html-messages.scm:32 ui/html-messages.scm:59
-msgid "simple mode"
+msgid "to"
 msgstr ""
 
 #: standard input:5
-msgid "to"
+msgid "Interface:"
+msgstr ""
+
+#: standard input:6
+msgid "Show"
+msgstr ""
+
+#: standard input:7
+msgid "Service"
+msgstr ""
+
+#: standard input:8
+msgid "In (Kb)"
+msgstr ""
+
+#: standard input:9
+msgid "Out (Kb)"
 msgstr ""
