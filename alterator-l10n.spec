@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt11
+Release: alt12
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -90,6 +90,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Sep 01 2009 Andrey Cherepanov <cas@altlinux.org> 2.5-alt12
+- Update translations for alterator-auth (closes #20302) 
+
 * Tue Sep 01 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt11
 - update translations for alterator-firsttime
 
