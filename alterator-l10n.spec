@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt10
+Release: alt11
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -90,6 +90,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Sep 01 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt11
+- update translations for alterator-firsttime
+
 * Fri Aug 28 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.5-alt10
 - update translations for alterator-net-iptables
 
