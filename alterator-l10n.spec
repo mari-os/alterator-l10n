@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt12
+Release: alt13
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -90,6 +90,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Sep 03 2009 Andrey Cherepanov <cas@altlinux.org> 2.5-alt13
+- Fix spell error in documentation and section names 
+
 * Tue Sep 01 2009 Andrey Cherepanov <cas@altlinux.org> 2.5-alt12
 - Update translations for alterator-auth (closes #20302) 
 
