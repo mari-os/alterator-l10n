@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-ulogd 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-28 15:46+0400\n"
+"POT-Creation-Date: 2009-09-03 19:30+0400\n"
 "PO-Revision-Date: 2007-08-09 20:48+0400\n"
 "Last-Translator: Grigory Batalov <bga@altlinux.org>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -24,8 +24,8 @@ msgid "Enable data collection"
 msgstr "Включить сбор данных"
 
 #: standard input:8
-msgid "In (Kb)"
-msgstr "Входящие (Кб)"
+msgid "Incoming traffic(Kb)"
+msgstr "Входящий трафик(Кб)"
 
 #: standard input:5
 msgid "Interface:"
@@ -35,13 +35,13 @@ msgstr "Интерфейс:"
 msgid "Network traffic"
 msgstr "Сетевой трафик"
 
-#: backend3/ulogd.awk:130 backend3/ulogd:179
+#: backend3/ulogd:243
 msgid "Other"
 msgstr "Другие"
 
 #: standard input:9
-msgid "Out (Kb)"
-msgstr "Исходящие (Кб)"
+msgid "Outgoing traffic(Kb)"
+msgstr "Исходящий трафик(Кб)"
 
 #: standard input:3
 msgid "Period from:"
@@ -55,17 +55,9 @@ msgstr "Служба"
 msgid "Show"
 msgstr "Показать"
 
-#: backend3/ulogd.awk:132 backend3/ulogd:182
+#: backend3/ulogd:246
 msgid "Total"
 msgstr "Всего"
-
-#: backend3/ulogd.awk:56
-msgid "external"
-msgstr "внешний"
-
-#: backend3/ulogd.awk:48 backend3/ulogd.awk:51 backend3/ulogd.awk:54
-msgid "internal"
-msgstr "внутренний"
 
 #: standard input:4
 msgid "to"
@@ -74,4 +66,8 @@ msgstr "по"
 #~ msgid "Check IP"
 #~ msgstr "Сверять IP"
 
+#~ msgid "external"
+#~ msgstr "внешний"
 
+#~ msgid "internal"
+#~ msgstr "внутренний"

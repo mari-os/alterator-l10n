@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator_lilo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-28 15:46+0400\n"
+"POT-Creation-Date: 2009-09-03 19:30+0400\n"
 "PO-Revision-Date: 2009-03-27 21:57-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_br <fmartini@altlinux.org>\n"
@@ -32,8 +32,8 @@ msgstr ""
 "Borrar Conección"
 
 #: standard input:8
-msgid "In (Kb)"
-msgstr "En (Kb)"
+msgid "Incoming traffic(Kb)"
+msgstr ""
 
 #: standard input:5
 msgid "Interface:"
@@ -43,13 +43,13 @@ msgstr "Interfaz:"
 msgid "Network traffic"
 msgstr "Tráfico de Red"
 
-#: backend3/ulogd.awk:130 backend3/ulogd:179
+#: backend3/ulogd:243
 msgid "Other"
 msgstr "Otro"
 
 #: standard input:9
-msgid "Out (Kb)"
-msgstr "Fuera"
+msgid "Outgoing traffic(Kb)"
+msgstr ""
 
 #: standard input:3
 #, fuzzy
@@ -64,17 +64,9 @@ msgstr "Servicio"
 msgid "Show"
 msgstr "Mostrar"
 
-#: backend3/ulogd.awk:132 backend3/ulogd:182
+#: backend3/ulogd:246
 msgid "Total"
 msgstr "Total"
-
-#: backend3/ulogd.awk:56
-msgid "external"
-msgstr "externos"
-
-#: backend3/ulogd.awk:48 backend3/ulogd.awk:51 backend3/ulogd.awk:54
-msgid "internal"
-msgstr "Interno"
 
 #: standard input:4
 msgid "to"
@@ -128,6 +120,9 @@ msgstr "para"
 #~ msgid "ICMP type"
 #~ msgstr "Tipo ICMP"
 
+#~ msgid "In (Kb)"
+#~ msgstr "En (Kb)"
+
 #~ msgid "Interface"
 #~ msgstr "Interfaces del IP"
 
@@ -160,6 +155,9 @@ msgstr "para"
 
 #~ msgid "New rule number"
 #~ msgstr "Nueva norma numérica"
+
+#~ msgid "Out (Kb)"
+#~ msgstr "Fuera"
 
 #~ msgid "Protocol"
 #~ msgstr "Protocolo"
@@ -230,8 +228,14 @@ msgstr "para"
 #~ msgid "expert mode"
 #~ msgstr "Modo Inteligente"
 
+#~ msgid "external"
+#~ msgstr "externos"
+
 #~ msgid "from"
 #~ msgstr "del"
+
+#~ msgid "internal"
+#~ msgstr "Interno"
 
 #~ msgid "simple mode"
 #~ msgstr "modo simples"
