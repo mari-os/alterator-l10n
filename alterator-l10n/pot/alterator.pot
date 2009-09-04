@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"POT-Creation-Date: 2009-09-04 14:25+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,146 +16,150 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: standard input:9
-msgid "Accounting"
+#: standard input:1
+msgid "Graphical interface"
 msgstr ""
 
-#: standard input:1
-msgid "Date/Time"
+#: standard input:2
+msgid "Setup input/output devices"
+msgstr ""
+
+#: standard input:3
+msgid "Users"
+msgstr ""
+
+#: standard input:4
+msgid "System users management"
+msgstr ""
+
+#: standard input:5
+msgid "Web interface"
+msgstr ""
+
+#: standard input:6
+msgid "Setup embedded web server"
+msgstr ""
+
+#: standard input:7
+msgid "System"
+msgstr ""
+
+#: standard input:8
+msgid "Operating system information and setup"
+msgstr ""
+
+#: standard input:9
+msgid "Servers"
+msgstr ""
+
+#: standard input:10
+msgid "Various network services"
+msgstr ""
+
+#: standard input:11
+msgid "Statistics"
+msgstr ""
+
+#: standard input:12
+msgid "System statistics"
+msgstr ""
+
+#: standard input:13
+msgid "Programs"
+msgstr ""
+
+#: standard input:14
+msgid "Setup, remove and update programs"
+msgstr ""
+
+#: standard input:15
+msgid "Other"
+msgstr ""
+
+#: standard input:16
+msgid "Other system settings"
 msgstr ""
 
 #: standard input:17
-msgid "Graphical interface"
+msgid "Date/Time"
+msgstr ""
+
+#: standard input:18
+msgid "System clock setup"
+msgstr ""
+
+#: standard input:19
+msgid "Accounting"
+msgstr ""
+
+#: standard input:20
+msgid "System accounting"
 msgstr ""
 
 #: standard input:21
 msgid "Mail"
 msgstr ""
 
-#: standard input:23
-msgid "Network"
-msgstr ""
-
-#: standard input:20
-msgid "Operating system information and setup"
-msgstr ""
-
-#: standard input:3
-msgid "Other"
-msgstr ""
-
-#: standard input:4
-msgid "Other system settings"
-msgstr ""
-
-#: standard input:5
-msgid "Programs"
-msgstr ""
-
-#: standard input:11
-msgid "Servers"
-msgstr ""
-
 #: standard input:22
 msgid "Setup e-mail service"
 msgstr ""
 
-#: standard input:14
-msgid "Setup embedded web server"
-msgstr ""
-
-#: standard input:18
-msgid "Setup input/output devices"
+#: standard input:23
+msgid "Network"
 msgstr ""
 
 #: standard input:24
 msgid "Setup network connections"
 msgstr ""
 
-#: standard input:6
-msgid "Setup, remove and update programs"
+#: type/e-mail.scm:12
+msgid "invalid e-mail address"
 msgstr ""
 
-#: standard input:15
-msgid "Statistics"
-msgstr ""
-
-#: standard input:19
-msgid "System"
-msgstr ""
-
-#: standard input:10
-msgid "System accounting"
-msgstr ""
-
-#: standard input:2
-msgid "System clock setup"
-msgstr ""
-
-#: standard input:16
-msgid "System statistics"
-msgstr ""
-
-#: standard input:8
-msgid "System users management"
-msgstr ""
-
-#: standard input:7
-msgid "Users"
-msgstr ""
-
-#: standard input:12
-msgid "Various network services"
-msgstr ""
-
-#: standard input:13
-msgid "Web interface"
-msgstr ""
-
-#: interfaces/guile/type/date.scm:11
-msgid "date should be in YYYY-MM-DD format"
-msgstr ""
-
-#: interfaces/guile/type/ipv4-address.scm:16
-msgid "invalid IP address"
-msgstr ""
-
-#: interfaces/guile/type/ipv4-address-list.scm:14
-msgid "invalid IP address list"
-msgstr ""
-
-#: interfaces/guile/type/ipv4-network.scm:13
-msgid "invalid IP network specification"
-msgstr ""
-
-#: interfaces/guile/type/iso-3166-alpha-2.scm:258
-msgid "invalid ISO-3166-alpha-2 country code"
-msgstr ""
-
-#: interfaces/guile/type/tcp-port.scm:12
-msgid "invalid TCP port"
-msgstr ""
-
-#: interfaces/guile/type/boolean.scm:8
-msgid "invalid boolean value"
-msgstr ""
-
-#: interfaces/guile/type/hostname-list.scm:14
-msgid "invalid hostname list"
-msgstr ""
-
-#: interfaces/guile/type/hostname.scm:14
+#: type/hostname.scm:14
 msgid "only latin letters, digits, '-', '.', and '_' allowed"
 msgstr ""
 
-#: interfaces/guile/type/system-computer-name.scm:12
-msgid "only latin letters, digits, '-', and '_' allowed"
+#: type/tcp-port.scm:12
+msgid "invalid TCP port"
 msgstr ""
 
-#: interfaces/guile/type/system-account-name.scm:12
+#: type/ipv4-address.scm:16
+msgid "invalid IP address"
+msgstr ""
+
+#: type/ipv4-address-list.scm:14
+msgid "invalid IP address list"
+msgstr ""
+
+#: type/system-account-name.scm:12
 msgid "only small latin letters, digits and '_' allowed"
 msgstr ""
 
-#: interfaces/guile/type/time.scm:10
+#: type/time.scm:10
 msgid "time should be in HH:MM:SS format"
+msgstr ""
+
+#: type/system-computer-name.scm:12
+msgid "only latin letters, digits, '-', and '_' allowed"
+msgstr ""
+
+#: type/date.scm:11
+msgid "date should be in YYYY-MM-DD format"
+msgstr ""
+
+#: type/ipv4-network.scm:13
+msgid "invalid IP network specification"
+msgstr ""
+
+#: type/iso-3166-alpha-2.scm:258
+msgid "invalid ISO-3166-alpha-2 country code"
+msgstr ""
+
+#: type/boolean.scm:8
+msgid "invalid boolean value"
+msgstr ""
+
+#: type/hostname-list.scm:14
+msgid "invalid hostname list"
 msgstr ""

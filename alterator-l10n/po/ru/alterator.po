@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-04 14:27+0300\n"
+"POT-Creation-Date: 2009-09-04 14:25+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:9
+#: standard input:19
 msgid "Accounting"
 msgstr "Учёт"
 
-#: standard input:1
+#: standard input:17
 msgid "Date/Time"
 msgstr "Дата и время"
 
-#: standard input:17
+#: standard input:1
 msgid "Graphical interface"
 msgstr "Графический интерфейс"
 
@@ -38,23 +38,23 @@ msgstr "Почта"
 msgid "Network"
 msgstr "Сеть"
 
-#: standard input:20
+#: standard input:8
 msgid "Operating system information and setup"
 msgstr "Информация об установленной системе и её настройка"
 
-#: standard input:3
+#: standard input:15
 msgid "Other"
 msgstr "Другие"
 
-#: standard input:4
+#: standard input:16
 msgid "Other system settings"
 msgstr "Прочие параметры системы"
 
-#: standard input:5
+#: standard input:13
 msgid "Programs"
 msgstr "Программное обеспечение"
 
-#: standard input:11
+#: standard input:9
 msgid "Servers"
 msgstr "Серверы"
 
@@ -62,11 +62,11 @@ msgstr "Серверы"
 msgid "Setup e-mail service"
 msgstr "Настройка службы электронной почты"
 
-#: standard input:14
+#: standard input:6
 msgid "Setup embedded web server"
 msgstr "Настройка встроенного веб-сервера"
 
-#: standard input:18
+#: standard input:2
 msgid "Setup input/output devices"
 msgstr "Настройка устройств ввода-вывода"
 
@@ -74,90 +74,94 @@ msgstr "Настройка устройств ввода-вывода"
 msgid "Setup network connections"
 msgstr "Настройка подключения к сети"
 
-#: standard input:6
+#: standard input:14
 msgid "Setup, remove and update programs"
 msgstr "Установка, удаление и обновление программ"
 
-#: standard input:15
+#: standard input:11
 msgid "Statistics"
 msgstr "Статистика"
 
-#: standard input:19
+#: standard input:7
 msgid "System"
 msgstr "Система"
 
-#: standard input:10
+#: standard input:20
 msgid "System accounting"
 msgstr "Учётная информация по системе"
 
-#: standard input:2
+#: standard input:18
 msgid "System clock setup"
 msgstr "Настройка системных часов"
 
-#: standard input:16
+#: standard input:12
 msgid "System statistics"
 msgstr "Статистика по компонентам системы"
 
-#: standard input:8
+#: standard input:4
 msgid "System users management"
 msgstr "Управление пользователями системы"
 
-#: standard input:7
+#: standard input:3
 msgid "Users"
 msgstr "Пользователи"
 
-#: standard input:12
+#: standard input:10
 msgid "Various network services"
 msgstr "Настройка различных сетевых служб"
 
-#: standard input:13
+#: standard input:5
 msgid "Web interface"
 msgstr "Веб-интерфейс"
 
-#: interfaces/guile/type/date.scm:11
+#: type/date.scm:11
 msgid "date should be in YYYY-MM-DD format"
 msgstr "дата должна быть в формате ГГГГ-ММ-ДД"
 
-#: interfaces/guile/type/ipv4-address.scm:16
+#: type/ipv4-address.scm:16
 msgid "invalid IP address"
 msgstr "недопустимый IP адрес"
 
-#: interfaces/guile/type/ipv4-address-list.scm:14
+#: type/ipv4-address-list.scm:14
 msgid "invalid IP address list"
 msgstr "недопустимый список IP адресов"
 
-#: interfaces/guile/type/ipv4-network.scm:13
+#: type/ipv4-network.scm:13
 msgid "invalid IP network specification"
 msgstr "неверно указана IP сеть"
 
-#: interfaces/guile/type/iso-3166-alpha-2.scm:258
+#: type/iso-3166-alpha-2.scm:258
 msgid "invalid ISO-3166-alpha-2 country code"
 msgstr "недопустимый код страны (ISO-3166-alpha-2)"
 
-#: interfaces/guile/type/tcp-port.scm:12
+#: type/tcp-port.scm:12
 msgid "invalid TCP port"
 msgstr "недопустимый TCP порт"
 
-#: interfaces/guile/type/boolean.scm:8
+#: type/boolean.scm:8
 msgid "invalid boolean value"
 msgstr "недопустимое логическое значение"
 
-#: interfaces/guile/type/hostname-list.scm:14
+#: type/e-mail.scm:12
+msgid "invalid e-mail address"
+msgstr "недопустимый адрес электронной почты"
+
+#: type/hostname-list.scm:14
 msgid "invalid hostname list"
 msgstr "недопустимый список имён компьютеров"
 
-#: interfaces/guile/type/hostname.scm:14
+#: type/hostname.scm:14
 msgid "only latin letters, digits, '-', '.', and '_' allowed"
 msgstr "допустимы только латинские символы, цифры, '-', '.' и '_'"
 
-#: interfaces/guile/type/system-computer-name.scm:12
+#: type/system-computer-name.scm:12
 msgid "only latin letters, digits, '-', and '_' allowed"
 msgstr "допустимы только латинские символы, цифры, '-' и '_'"
 
-#: interfaces/guile/type/system-account-name.scm:12
+#: type/system-account-name.scm:12
 msgid "only small latin letters, digits and '_' allowed"
 msgstr "допустимы только маленькие латинские символы, цифры и '_'"
 
-#: interfaces/guile/type/time.scm:10
+#: type/time.scm:10
 msgid "time should be in HH:MM:SS format"
 msgstr "время должно быть в формате ЧЧ:ММ:CC"
