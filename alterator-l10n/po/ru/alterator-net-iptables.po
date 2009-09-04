@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-28 18:56+0400\n"
+"POT-Creation-Date: 2009-09-04 14:28+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -20,13 +20,13 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: bin/alterator-net-iptables:225 bin/alterator-net-iptables:230
-#: bin/alterator-net-iptables:434 bin/iptables_helper:225
-#: bin/iptables_helper:230 bin/iptables_helper:434
+#: bin/alterator-net-iptables:191 bin/alterator-net-iptables:196
+#: bin/alterator-net-iptables:406 bin/iptables_helper:191
+#: bin/iptables_helper:196 bin/iptables_helper:406
 msgid "(must be a number)"
 msgstr "(должно быть числом)"
 
-#: bin/alterator-net-iptables:221 bin/iptables_helper:221
+#: bin/alterator-net-iptables:187 bin/iptables_helper:187
 msgid "(possible values: gateway or router)"
 msgstr "(допустимые значения: gateway или router)"
 
@@ -35,7 +35,7 @@ msgstr "(допустимые значения: gateway или router)"
 msgid "(separated by commas or spaces)"
 msgstr "(разделенные запятыми или пробелами)"
 
-#: standard input:22
+#: standard input:24
 msgid "Access from internal networks"
 msgstr "Доступ из внутренних сетей"
 
@@ -44,7 +44,7 @@ msgstr "Доступ из внутренних сетей"
 msgid "Add"
 msgstr "Добавить"
 
-#: ui/net-bl/index.scm:34
+#: standard input:4 ui/net-bl/index.scm:34
 msgid "Add host or network IP-address:"
 msgstr "Добавить IP адрес сети или хоста:"
 
@@ -56,7 +56,7 @@ msgstr "Добавить IP-адрес:"
 msgid "Add new client:"
 msgstr "Добавить клиента:"
 
-#: standard input:4 input:19 ui/net-dnat/index.scm:37
+#: standard input:19 ui/net-dnat/index.scm:37
 msgid "Add new rule:"
 msgstr "Добавить новое правило:"
 
@@ -80,7 +80,7 @@ msgstr "Разрешенные клиенты:"
 msgid "Available rules:"
 msgstr "Доступные правила:"
 
-#: standard input:19
+#: standard input:21
 msgid "Blacklist"
 msgstr "Черный список"
 
@@ -88,15 +88,15 @@ msgstr "Черный список"
 msgid "Blacklist:"
 msgstr "Черный список:"
 
-#: standard input:13
+#: standard input:14
 msgid "CUPS printing system"
 msgstr "Система печати CUPS"
 
-#: bin/alterator-net-iptables:394 bin/iptables_helper:394
+#: bin/alterator-net-iptables:366 bin/iptables_helper:366
 msgid "Can't add multiple values to list"
 msgstr "Невозможно добавить несколько значений в список"
 
-#: bin/alterator-net-iptables:402 bin/iptables_helper:402
+#: bin/alterator-net-iptables:374 bin/iptables_helper:374
 msgid "Can't remove multiple values from list"
 msgstr "Невозможно удалить несколько значений из списка"
 
@@ -104,15 +104,15 @@ msgstr "Невозможно удалить несколько значений 
 msgid "Configure internal interfaces..."
 msgstr "Настроить внутренние интерфейсы..."
 
-#: standard input:8
-msgid "DHCP server"
-msgstr "DHCP-сервер"
+#: standard input:9
+msgid "DHCP"
+msgstr ""
 
-#: standard input:14
-msgid "DNS server"
-msgstr "DNS-сервер"
+#: standard input:15
+msgid "DNS"
+msgstr ""
 
-#: backend3/net-tc:59
+#: backend3/net-tc:23
 msgid "Default"
 msgstr "По умолчанию"
 
@@ -133,61 +133,63 @@ msgstr "Включить перенаправление портов"
 msgid "Enable restrictions on all internal interfaces"
 msgstr "Включить ограничение доступа на всех внутренних интерфейсах:"
 
-#: bin/alterator-net-iptables:362 bin/alterator-net-iptables:364
-#: bin/iptables_helper:362 bin/iptables_helper:364
+#: bin/alterator-net-iptables:334 bin/alterator-net-iptables:336
+#: bin/alterator-net-tc:18 bin/alterator-net-tc:20 bin/iptables_helper:334
+#: bin/iptables_helper:336
 msgid "Error while reloading firewalling rules"
 msgstr "Ошибка при перезагрузке правил брандмауэра"
 
-#: bin/alterator-net-iptables:369 bin/iptables_helper:369
+#: bin/alterator-net-iptables:341 bin/iptables_helper:341
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr ""
 "Ошибка при запуске скриптов из /usr/lib/alterator/hooks/net-iptables.d/"
 
-#: bin/alterator-net-iptables:809 bin/iptables_helper:809
+#: bin/alterator-net-iptables:779 bin/iptables_helper:779
+msgid "Error: Bad rule"
+msgstr "Ошибка: плохое правило"
+
+#: bin/alterator-net-iptables:785 bin/iptables_helper:785
 msgid "Error: MAC-address is not allowed in default rule"
 msgstr "Ошибка: "
 
-#: bin/alterator-net-iptables:424 bin/iptables_helper:424
+#: bin/alterator-net-iptables:396 bin/iptables_helper:396
 msgid "Error: bad IP-address"
 msgstr "Ошибка: плохой IP-адрес"
 
-#: bin/alterator-net-iptables:448 bin/iptables_helper:448
+#: bin/alterator-net-iptables:420 bin/iptables_helper:420
 msgid "Error: bad MAC-address"
 msgstr "Ошибка: плохой MAC-адрес"
 
-#: bin/alterator-net-iptables:225 bin/iptables_helper:225
+#: bin/alterator-net-iptables:191 bin/iptables_helper:191
 msgid "Error: bad TCP port"
 msgstr "Ошибка: плохой порт TCP"
 
-#: bin/alterator-net-iptables:230 bin/iptables_helper:230
+#: bin/alterator-net-iptables:196 bin/iptables_helper:196
 msgid "Error: bad UTP port"
 msgstr "Ошибка: плохой порт UDP"
 
-#: bin/alterator-net-iptables:221 bin/iptables_helper:221
+#: bin/alterator-net-iptables:187 bin/iptables_helper:187
 msgid "Error: bad mode"
 msgstr "Ошибка: плохой режим"
 
-#: bin/alterator-net-iptables:429 bin/iptables_helper:429
+#: bin/alterator-net-iptables:401 bin/iptables_helper:401
 msgid "Error: bad network or host IP-address"
 msgstr "Ошибка: плохой IP-адрес сети или хоста"
 
-#: bin/alterator-net-iptables:196 bin/alterator-net-iptables:209
-#: bin/alterator-net-iptables:434 bin/iptables_helper:196
-#: bin/iptables_helper:209 bin/iptables_helper:434
+#: bin/alterator-net-iptables:406 bin/iptables_helper:406
 msgid "Error: bad port"
 msgstr "Ошибка: плохой порт"
 
-#: bin/alterator-net-iptables:439 bin/alterator-net-iptables:443
-#: bin/iptables_helper:439 bin/iptables_helper:443
+#: bin/alterator-net-iptables:411 bin/alterator-net-iptables:415
+#: bin/iptables_helper:411 bin/iptables_helper:415
 msgid "Error: bad port or port range"
 msgstr "Ошибка: плохой порт или диапазон портов"
 
-#: bin/alterator-net-iptables:419 bin/iptables_helper:419
+#: bin/alterator-net-iptables:391 bin/iptables_helper:391
 msgid "Error: unknown protocol"
 msgstr "Ошибка: неизвестный протокол"
 
-#: bin/alterator-net-iptables:191 bin/alterator-net-iptables:822
-#: bin/iptables_helper:191 bin/iptables_helper:822
+#: bin/alterator-net-iptables:798 bin/iptables_helper:798
 msgid "Error: unknown service"
 msgstr "Ошибка: неизвестная служба"
 
@@ -199,11 +201,11 @@ msgstr "Дополнительные порты TCP:"
 msgid "Extra UDP ports:"
 msgstr "Дополнительные порты UDP:"
 
-#: standard input:9
+#: standard input:10
 msgid "File server (Samba)"
 msgstr "Файловый сервер (Samba)"
 
-#: standard input:7
+#: standard input:8
 msgid "File transfer (FTP)"
 msgstr "Передача файлов (FTP)"
 
@@ -211,67 +213,71 @@ msgstr "Передача файлов (FTP)"
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr "%s пакеты, идущие на %s:%s, перенаправлять на %s:%s"
 
+#: standard input:4
+msgid "HTTP/HTTPS"
+msgstr ""
+
 #: standard input:29 input:45
 msgid "IP address:"
 msgstr "IP-адрес:"
 
 #: standard input:34
-msgid "Incoming rate (kbps):"
-msgstr "Входящий трафик (kbps):"
+msgid "Incoming rate (kb/s):"
+msgstr "Входящий трафик (кбайт/c):"
 
-#: standard input:2
+#: standard input:3
 msgid "LDAP"
 msgstr "LDAP"
 
 #: standard input:30
-msgid "MAC address restrictions:"
-msgstr "Привязка к MAC-адресам:"
+msgid "MAC address restriction:"
+msgstr "Привязка к MAC-адресу:"
 
 #: standard input:31
 msgid "MAC address:"
 msgstr "MAC-адрес:"
 
-#: standard input:6
+#: standard input:7
 msgid "Mail server (IMAP)"
 msgstr "Почтовый сервер (IMAP)"
 
-#: standard input:11
+#: standard input:12
 msgid "Mail server (POP3)"
 msgstr "Почтовый сервер (POP3)"
 
-#: standard input:17
+#: standard input:19
 msgid "Mail server (SMTP)"
 msgstr "Почтовый сервер (SMTP)"
 
-#: standard input:21
+#: standard input:23
 msgid "Network firewall"
 msgstr "Брандмауэр"
 
-#: standard input:18
+#: standard input:20
 msgid "Network management (SNMP)"
 msgstr "Управление сетью (SNMP)"
 
-#: standard input:15
+#: standard input:16
 msgid "OpenVPN"
 msgstr "OpenVPN"
 
 #: standard input:35
-msgid "Outcoming rate (kbps):"
-msgstr "Исходящий трафик (kbps)"
+msgid "Outcoming rate (kb/s):"
+msgstr "Исходящий трафик (кбайт/c)"
 
-#: standard input:20
+#: standard input:22
 msgid "Port forwarding"
 msgstr "Перенаправление портов"
 
-#: standard input:5
+#: standard input:6
 msgid "Proxy server"
 msgstr "Прокси-сервер"
 
-#: standard input:16
+#: standard input:18
 msgid "Remote access (SSH)"
 msgstr "Удалённый доступ (SSH)"
 
-#: standard input:4
+#: standard input:5
 msgid "Remote access (telnet)"
 msgstr "Удалённый доступ (telnet)"
 
@@ -282,6 +288,14 @@ msgstr "Вернуть"
 #: standard input:32
 msgid "Resolve"
 msgstr "Определить"
+
+#: standard input:17
+msgid "SIP/H.323"
+msgstr ""
+
+#: standard input:2
+msgid "STUN"
+msgstr ""
 
 #: standard input:7 ui/net-iptables/index.scm:36
 msgid "Select external interfaces:"
@@ -299,7 +313,7 @@ msgstr "Служебные пакеты (ICMP)"
 msgid "Services:"
 msgstr "Службы:"
 
-#: standard input:10
+#: standard input:11
 msgid "System management center (www)"
 msgstr "Центр управления системой (www)"
 
@@ -307,11 +321,7 @@ msgstr "Центр управления системой (www)"
 msgid "Traffic rate restrictions:"
 msgstr "Ограничение скорости доступа:"
 
-#: standard input:3
-msgid "Web server (HTTP/HTTPS)"
-msgstr "Web-сервер (HTTP/HTTPS)"
-
-#: standard input:12
+#: standard input:13
 msgid "Zeroconf"
 msgstr "Zeroconf"
 
@@ -335,16 +345,12 @@ msgstr "шлюз"
 msgid "gateway (NAT)"
 msgstr "шлюз (NAT)"
 
-#: bin/alterator-net-iptables:196 bin/iptables_helper:196
-msgid "in desktop-file for service"
-msgstr "в desktop-файле для сервиса"
-
 #: standard input:23 input:25 ui/net-dnat/index.scm:51
 #: ui/net-dnat/index.scm:56
 msgid "port:"
 msgstr "порт:"
 
-#: bin/alterator-net-iptables:419 bin/iptables_helper:419
+#: bin/alterator-net-iptables:391 bin/iptables_helper:391
 msgid "possible values:"
 msgstr "допустимые значения:"
 
@@ -355,3 +361,4 @@ msgstr "протокол:"
 #: ui/net-iptables/index.scm:31 backend3/net-iptables:23
 msgid "router"
 msgstr "роутер"
+
