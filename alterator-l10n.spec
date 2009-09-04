@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt14
+Release: alt15
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -90,6 +90,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Sep 04 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.5-alt15
+- update translations for alterator-net-iptables
+- update translations for alterator (by inger@)
+
 * Thu Sep 03 2009 Mikhail Efremov <sem@altlinux.org> 2.5-alt14
 - update translations for alterator-ulogd.
 
