@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.5
-Release: alt15
+Release: alt16
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -91,6 +91,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Sep 07 2009 Mikhail Efremov <sem@altlinux.org> 2.5-alt16
+- add translations for alterator-sslkey.
+
 * Fri Sep 04 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.5-alt15
 - update translations for alterator-net-iptables
 - update translations for alterator (by inger@)
