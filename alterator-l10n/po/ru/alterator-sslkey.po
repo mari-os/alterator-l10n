@@ -1,0 +1,188 @@
+# Russian translations for PACKAGE package.
+# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <sem@altlinux.org>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-07 19:50+0400\n"
+"PO-Revision-Date: 2009-07-29 21:20+0400\n"
+"Last-Translator:  <sem@altlinux.org>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:14
+msgid "(Re)create key and sign request"
+msgstr "(Пере)создать ключ и запрос на подпись"
+
+#: standard input:3
+msgid "(hostname for server or something else for client)"
+msgstr "(имя компьтера для сервера или что-либо другое для клиента)"
+
+#: standard input:9
+msgid "(organization name, written in latin letters)"
+msgstr "(название организации, написанное латинскими буквами)"
+
+#: standard input:11
+msgid "(organizational unit name, written in latin letters)"
+msgstr "(название подразделения, написанное латинскими буквами)"
+
+#: standard input:7
+msgid "(state or city, written in latin letters)"
+msgstr "(название города или области, написанное латинскими буквами)"
+
+#: standard input:5
+msgid "(two letter country code)"
+msgstr "(двухбуквенный код страны)"
+
+#: standard input:13
+msgid "(your e-mail address)"
+msgstr "(ваш адрес электронной почты)"
+
+#: ui/sslkey/generate/index.scm:213
+msgid "Apply"
+msgstr "Применить"
+
+#: ui/sslkey/generate/index.scm:214
+msgid "Cancel"
+msgstr "Отмена"
+
+#: standard input:22 ui/sslkey/index.scm:35
+msgid "Change..."
+msgstr "Изменить..."
+
+#: standard input:2 ui/sslkey/generate/index.scm:168
+msgid "Common Name (CN):"
+msgstr "Общее имя (CN):"
+
+#: standard input:15 input:24 ui/sslkey/generate/index.scm:187
+#: ui/sslkey/index.scm:40
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#.
+#: standard input:4 ui/sslkey/generate/index.scm:171
+msgid "Country (C):"
+msgstr "Страна (C):"
+
+#: standard input:23 ui/sslkey/index.scm:39
+msgid "Delete key, certificate and sign request"
+msgstr "Удалить ключ, сертификат и запрос на подпись"
+
+#: ui/sslkey/generate/index.scm:193
+msgid "Destination directory:"
+msgstr "Целевой каталог:"
+
+#: standard input:17
+msgid "Download sign request"
+msgstr "Забрать запрос на подпись"
+
+#.
+#: standard input:12 ui/sslkey/generate/index.scm:183
+msgid "E-mail address:"
+msgstr "E-mail адрес"
+
+#.
+#: ui/sslkey/generate/index.scm:191 ui/sslkey/generate/index.scm:194
+msgid "Export sign request"
+msgstr "Экспортировать запрос на подпись"
+
+#: backend3/sslkey:234
+msgid "Export sign request failed"
+msgstr "Экспорт запроса на подпись не удался"
+
+#.
+#: ui/sslkey/generate/index.scm:186
+msgid "Generate key and sign request"
+msgstr "Создать ключ и запрос на подпись"
+
+#: ui/sslkey/generate/index.scm:203
+msgid "Import user certificate"
+msgstr "Импортировать сертификат пользователя"
+
+#.
+#: ui/sslkey/generate/index.scm:202
+msgid "Import user certificate:"
+msgstr "Импортировать сертификат пользователя:"
+
+#: backend3/sslkey:223
+msgid "Invalid certificate file"
+msgstr "Неверный сертификат"
+
+#.
+#: standard input:6 ui/sslkey/generate/index.scm:174
+msgid "Location (L):"
+msgstr "Местоположение (L):"
+
+#: standard input:21 ui/sslkey/index.scm:34
+msgid "New..."
+msgstr "Новый..."
+
+#: ui/sslkey/generate/index.scm:212
+msgid "OK"
+msgstr "OK"
+
+#.
+#: standard input:8 ui/sslkey/generate/index.scm:177
+msgid "Organization (O):"
+msgstr "Организация (O):"
+
+#.
+#: standard input:10 ui/sslkey/generate/index.scm:180
+msgid "Organizational Unit (OU):"
+msgstr "Подразделение (OU):"
+
+#: standard input:1
+msgid "SSL keys management"
+msgstr ""
+
+#: standard input:20
+msgid "SSL keys:"
+msgstr "SSL ключи:"
+
+#: standard input:1
+msgid "SSL settings"
+msgstr "Настройки SSL"
+
+#: ui/sslkey/generate/index.scm:167
+msgid "SSL settings:"
+msgstr "Настройки SSL:"
+
+#: standard input:16
+msgid "Sign"
+msgstr "Подпись"
+
+#: backend3/sslkey:229
+msgid "Sign request does not exist"
+msgstr "Запрос на подпись не существует"
+
+#: backend3/sslkey:231
+msgid "Target directory does not exist"
+msgstr "Целевой каталог не существует"
+
+#: backend3/sslkey:194
+msgid "Unable to determine file name"
+msgstr "Невозможно определить имя файла"
+
+#: standard input:19
+msgid "Upload"
+msgstr "Положить"
+
+#: standard input:18
+msgid "Upload certificate signed by CA:"
+msgstr "Положить сертификат, подписанный УЦ:"
+
+#: type/ssl-cert-country-code.scm:11
+msgid "invalid ISO-3166-alpha-2 country code"
+msgstr "недопустимый код страны (ISO-3166-alpha-2)"
+
+#: type/ssl-cert-field.scm:11
+msgid "only digits, punctuation and latin letters allowed"
+msgstr "допустимы только цифры, знаки пунктуации и латинские символы"
+
