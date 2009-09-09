@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-ldap-users\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-19 14:13+0000\n"
+"POT-Creation-Date: 2009-09-09 12:01+0400\n"
 "PO-Revision-Date: 2009-05-21 16:53+0400\n"
 "Last-Translator: Sergey Lebedev <lsv@altlinux.ru>\n"
 "Language-Team: \n"
@@ -16,127 +16,114 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#: standard input:10
+msgid "(enter passphrase)"
+msgstr "(введите фразу)"
+
+#: standard input:11
+msgid "(repeat passphrase)"
+msgstr "(повторите фразу)"
+
+#: standard input:21
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:22
+msgid "Additional info"
+msgstr "Дополнительная информация"
+
+#: standard input:2
+msgid "Create"
+msgstr "Создать"
+
+#: standard input:26
+msgid "Delete user"
+msgstr "Удалить пользователя"
+
+#: standard input:18
+msgid "Email"
+msgstr "Электронная почта"
+
+#: standard input:6
+msgid "First name:"
+msgstr "Имя:"
+
+#: standard input:12
+msgid "Generate"
+msgstr "Сгенерировать"
+
+#: standard input:9
+msgid "Generate automatically"
+msgstr "Создать автоматически"
+
+#: standard input:23
+msgid "Home directory:"
+msgstr "Домашний каталог:"
+
+#: standard input:5
+msgid "Last name:"
+msgstr "Фамилия:"
+
 #: standard input:1
 msgid "Ldap user accounts"
 msgstr "Пользователи"
 
-#: standard input:1
-msgid "New user account"
-msgstr "Новый пользователь"
-
-#: standard input:2
-msgid "New account name:"
-msgstr "Учетная запись:"
-
-#: standard input:3
-msgid "Create"
-msgstr "Создать"
-
-#: standard input:4
-msgid "Existing users"
-msgstr "Зарегистрированные пользователи:"
-
-#: standard input:5
-msgid "User's List:"
-msgstr "Список:"
-
-#: standard input:6
-msgid "User account:"
-msgstr "Учетная запись"
-
-#: standard input:7
-msgid "Name:"
-msgstr "Системное имя:"
-
-#: standard input:8
-msgid "Last name:"
-msgstr "Фамилия:"
-
-#: standard input:9
-msgid "First name:"
-msgstr "Имя:"
-
-#: standard input:10
-msgid "Patronym:"
-msgstr "Отчество:"
-
-#: standard input:11
-msgid "Password:"
-msgstr ""
-
-#: standard input:12
-msgid "Generate automatically"
-msgstr ""
-
-#: standard input:13
-msgid "(enter passphrase)"
-msgstr ""
-
-#: standard input:14
-msgid "(repeat passphrase)"
-msgstr ""
-
-#: standard input:15
-msgid "Generate"
-msgstr ""
-
-#: standard input:16
-msgid "Work"
-msgstr "Работа"
-
 #: standard input:17
-msgid "Organization:"
-msgstr "Организация:"
-
-#: standard input:18
-msgid "Title:"
-msgstr "Должность:"
-
-#: standard input:19
-msgid "Phone:"
-msgstr "Телефон:"
-
-#: standard input:20
 msgid "Mobile phone:"
 msgstr "Мобильный телефон:"
 
-#: standard input:21
-msgid "Email"
-msgstr "Электронная почта"
+#: standard input:4
+msgid "Name:"
+msgstr "Системное имя:"
 
-#: standard input:22
+#: standard input:1
+msgid "New account:"
+msgstr "Новая учётная запись:"
+
+#: standard input:20
 msgid "New email:"
 msgstr "Новый email:"
 
-#: standard input:23
-msgid "Add"
-msgstr "Добавить"
+#: standard input:14
+msgid "Organization:"
+msgstr "Организация:"
 
-#: standard input:24
+#: standard input:8
+msgid "Password:"
+msgstr "Пароль:"
+
+#: backend3/ldap-users:171
+msgid "Passwords mismatch"
+msgstr "Введённые пароли не совпадают"
+
+#: standard input:7
+msgid "Patronym:"
+msgstr "Отчество:"
+
+#: standard input:16
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: standard input:19
 msgid "Remove"
 msgstr "Удалить"
 
 #: standard input:25
-msgid "Additional info"
-msgstr "Дополнительная информация"
-
-#: standard input:26
-msgid "Home directory:"
-msgstr ""
-
-#: standard input:27
-msgid "Shell:"
-msgstr ""
-
-#: standard input:28
 msgid "Save"
 msgstr "Сохранить"
 
-#: standard input:29
-msgid "Delete user"
-msgstr "Удалить пользователя"
+#: standard input:24
+msgid "Shell:"
+msgstr "Интерпретатор команд:"
 
-#: backend3/ldap-users:168
-msgid "Passwords mismatch"
-msgstr ""
+#: standard input:15
+msgid "Title:"
+msgstr "Должность:"
 
+#: standard input:3
+msgid "User account:"
+msgstr "Учетная запись"
+
+#: standard input:13
+msgid "Work"
+msgstr "Работа"
