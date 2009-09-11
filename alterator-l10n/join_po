@@ -12,6 +12,7 @@ fix_po()
 }
 
 for l in $LANGLIST; do
+    touch "compendium/$l.po"
     msgcat -s "po/$l/"*.po "compendium/$l.po" >"$l-new.po"
     fix_po "$l.header" "$l-new.po"
     mv -f "$l-new.po" "compendium/$l.po"
