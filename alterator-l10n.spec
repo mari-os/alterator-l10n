@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 2.5
-Release: alt18
+Version: 2.6
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -91,6 +91,13 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Sep 11 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.6-alt1
+- add uk translations (by yatsenko.alexandr@gmail.com)
+- update compendiums
+- join_po: don't fail on new compendum
+- fix Conflicts
+- fix ua/alterator-ldap-users.po
+
 * Fri Sep 11 2009 Stanislav Ievlev <inger@altlinux.org> 2.5-alt18
 - add translations for alterator-bind
 - rename help file for alterator-bacula (bacula-backup -> bacula-local-backup)
