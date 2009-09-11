@@ -26,44 +26,77 @@ msgid ""
 "x09x09"
 msgstr ""
 
+#: ui/vm/table.scm:187
+msgid "   Name   "
+msgstr ""
+
 #: standard input:5 input:25
 #, fuzzy
 msgid " Kb"
 msgstr "Kb"
+
+#: ui/vm/ortodox.scm:40
+msgid " free"
+msgstr ""
 
 #: standard input:15
 #, fuzzy
 msgid " min"
 msgstr "1 minuto"
 
+#: ui/vm/ortodox.scm:40
+msgid " of "
+msgstr ""
+
+#: ui/vm/dummystr.scm:84
+msgid " reboot, then continue installation."
+msgstr ""
+
 #: standard input:11
 msgid "% done"
 msgstr ""
+
+#: ui/squid/domains/ajax.scm:14 ui/squid/networks/ajax.scm:14
+#: ui/squid/safe-ports/ajax.scm:14
+msgid "&lt;new&gt;"
+msgstr "&lt;nuevo&gt;"
 
 #: standard input:8
 msgid "(Domain suffix, begins with a dot)"
 msgstr ""
 
-#: standard input:42
+#: standard input:36 input:42
 #, fuzzy
 msgid "(IP address mask)"
 msgstr "Dirección IP"
 
-#: standard input:40
+#: standard input:34 input:40
 #, fuzzy
 msgid "(IP address)"
 msgstr "Dirección IP"
 
-#: standard input:11 input:10 input:4
+#: standard input:14
+msgid "(Re)create key and sign request"
+msgstr ""
+
+#: standard input:3
+msgid "(Space separated list of domain suffixes, each starting with a dot)"
+msgstr ""
+
+#: standard input:21 input:11 input:10 input:4
 msgid "(TCP port for server to listen to)"
 msgstr "(Porta TCP para el servidor)"
 
-#: standard input:10 input:13 input:3 ui/root/index.scm:33 input:18
-#: ui/users/index.scm:103 ui/users/add/index.scm:66
+#: standard input:16 input:12 input:10 input:13 input:3 ui/root/index.scm:33
+#: input:18 ui/users/index.scm:103 ui/users/add/index.scm:66
 msgid "(enter passphrase)"
 msgstr "(entre com la contraseña)"
 
-#: standard input:13 input:12 input:6
+#: standard input:3
+msgid "(hostname for server or something else for client)"
+msgstr ""
+
+#: standard input:23 input:13 input:12 input:6
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(deje ese espacio en blanco para listar todas las interfaces)"
 
@@ -71,7 +104,7 @@ msgstr "(deje ese espacio en blanco para listar todas las interfaces)"
 msgid "(local path or internet URL)"
 msgstr ""
 
-#: standard input:15 input:14
+#: standard input:25 input:15 input:14
 msgid "(logging granularity influences its size)"
 msgstr "(tala granularidad influye en su tamaño)"
 
@@ -79,7 +112,8 @@ msgstr "(tala granularidad influye en su tamaño)"
 msgid "(maximum possible address range)"
 msgstr "(Intervalo Máximo posiblel de Dirección)"
 
-#: standard input:15 ui/net-eth/index.scm:116
+#: standard input:35 ui/backup-server/network/index.scm:96 input:15
+#: ui/net-eth/index.scm:116
 msgid "(multiple values should be space separated)"
 msgstr "multiplos valores com espacios vacíos"
 
@@ -88,6 +122,9 @@ msgstr "multiplos valores com espacios vacíos"
 msgid "(must be a number or empty string)"
 msgstr "deve ser un número"
 
+#: bin/alterator-net-iptables:191 bin/alterator-net-iptables:196
+#: bin/alterator-net-iptables:406 bin/iptables_helper:191
+#: bin/iptables_helper:196 bin/iptables_helper:406
 #: bin/alterator-net-iptables:132 bin/alterator-net-iptables:137
 #: bin/alterator-net-iptables:166 bin/alterator-net-iptables:168
 #: bin/iptables_helper:132 bin/iptables_helper:137 bin/iptables_helper:166
@@ -96,19 +133,20 @@ msgstr "deve ser un número"
 msgid "(must be a number)"
 msgstr "deve ser un número"
 
-#: standard input:26 input:25
+#: standard input:48 input:9 input:26 input:25
 msgid "(organization name, written in latin letters)"
 msgstr "(Nombre de la Empresa)"
 
-#: standard input:28 input:27
+#: standard input:11 input:28 input:27
 msgid "(organizational unit name, written in latin letters)"
 msgstr "(Unidade da Empresa)"
 
-#: standard input:29 input:51 input:53
+#: standard input:25 input:45 input:47 input:29 input:51 input:53
 #, fuzzy
 msgid "(port number)"
 msgstr "deve ser un número"
 
+#: bin/alterator-net-iptables:187 bin/iptables_helper:187
 #: bin/alterator-net-iptables:128 bin/iptables_helper:128
 #: bin/iptables_helper:170
 msgid "(possible values: gateway or router)"
@@ -131,21 +169,21 @@ msgstr "(acesso aos recursos de Radio Red)"
 msgid "(recreate private key, sign request and self-signed certificate)"
 msgstr "(Recrear la Clave Privada)"
 
-#: standard input:11 input:14 input:4 ui/root/index.scm:35 input:19
-#: ui/users/index.scm:105 ui/users/add/index.scm:68
+#: standard input:17 input:13 input:11 input:14 input:4 ui/root/index.scm:35
+#: input:19 ui/users/index.scm:105 ui/users/add/index.scm:68
 msgid "(repeat passphrase)"
 msgstr "(repetir la contraseña)"
 
-#: standard input:6 input:8 ui/net-iptables/index.scm:50
-#: ui/net-iptables/index.scm:55
+#: standard input:11 input:13 input:39 input:41 ui/net-iptables/index.scm:50
+#: ui/net-iptables/index.scm:55 input:6 input:8
 msgid "(separated by commas or spaces)"
 msgstr "(separados por comas o espacios)"
 
-#: standard input:24 input:23
+#: standard input:7 input:24 input:23
 msgid "(state or city, written in latin letters)"
 msgstr "(Provincia o ciudad)"
 
-#: standard input:22 input:21
+#: standard input:46 input:5 input:22 input:21
 msgid "(two letter country code)"
 msgstr "(Codigo del País)"
 
@@ -157,6 +195,19 @@ msgstr "(informaciones de contacto visivel)"
 msgid "(you can't disable all mechanisms)"
 msgstr "(usted no puede desabilitar todos todos los mecanismos)"
 
+#: standard input:13
+msgid "(you should first upload this key to slave servers)"
+msgstr ""
+
+#: standard input:13
+#, fuzzy
+msgid "(your e-mail address)"
+msgstr "Fuente de la dirección"
+
+#: standard input:2
+msgid "/etc/net is network configuration software"
+msgstr ""
+
 #: backend3/dhcp:195
 msgid "1 day"
 msgstr "1 dia"
@@ -165,19 +216,21 @@ msgstr "1 dia"
 msgid "1 hour"
 msgstr "1 hora"
 
-#: backend3/lilo:126
+#: backend3/lilo:164 backend3/lilo:126
 msgid "1 minute"
 msgstr "1 minuto"
 
-#: backend3/bacula-backup:145 backend3/dhcp:198
+#: backend3/bacula-client-backup:65 backend3/bacula-local-backup:124
+#: backend3/dhcp:198 backend3/bacula-backup:145
 msgid "1 month"
 msgstr "1 mês"
 
-#: backend3/lilo:122
+#: backend3/lilo:160 backend3/lilo:122
 msgid "1 second"
 msgstr "1 segundo"
 
-#: backend3/bacula-backup:143 backend3/dhcp:196
+#: backend3/bacula-client-backup:63 backend3/bacula-local-backup:122
+#: backend3/dhcp:196 backend3/bacula-backup:143
 msgid "1 week"
 msgstr "1 semana"
 
@@ -185,7 +238,7 @@ msgstr "1 semana"
 msgid "10 lines"
 msgstr "10 líneas"
 
-#: backend3/lilo:124
+#: backend3/lilo:162 backend3/lilo:124
 msgid "10 seconds"
 msgstr "10 segundos"
 
@@ -205,7 +258,8 @@ msgstr "16 milliones de cores (24bits)"
 msgid "2 hours"
 msgstr "2 horas"
 
-#: backend3/bacula-backup:144 backend3/dhcp:197
+#: backend3/bacula-client-backup:64 backend3/bacula-local-backup:123
+#: backend3/dhcp:197 backend3/bacula-backup:144
 msgid "2 weeks"
 msgstr "2 semanas"
 
@@ -213,7 +267,7 @@ msgstr "2 semanas"
 msgid "20 lines"
 msgstr "20 líneas"
 
-#: backend3/lilo:125
+#: backend3/lilo:163 backend3/lilo:125
 msgid "20 seconds"
 msgstr "20 segundos"
 
@@ -233,7 +287,7 @@ msgstr "4 biliones de cores (32bits)"
 msgid "4 hours"
 msgstr "4 horas"
 
-#: backend3/lilo:123
+#: backend3/lilo:161 backend3/lilo:123
 msgid "5 seconds"
 msgstr "5 segundos"
 
@@ -249,6 +303,30 @@ msgstr "65 Millones de Cores (16 bits)"
 msgid "8 hours"
 msgstr "8 noras"
 
+#: standard input:8
+msgid "A chargen server. This is the tcp version."
+msgstr ""
+
+#: standard input:3
+msgid "A chargen server. This is the udp version."
+msgstr ""
+
+#: standard input:5
+msgid "A daytime server. This is the tcp version."
+msgstr ""
+
+#: standard input:14
+msgid "A daytime server. This is the udp version."
+msgstr ""
+
+#: standard input:9
+msgid "A discard server. This is the tcp version."
+msgstr ""
+
+#: standard input:4
+msgid "A discard server. This is the udp version."
+msgstr ""
+
 #: backend3/dovecot:45 backend3/dovecot:37
 msgid "ANONYMOUS"
 msgstr "Anónimo"
@@ -258,7 +336,12 @@ msgstr "Anónimo"
 msgid "Accept local connections only"
 msgstr "Todas las conecciones"
 
-#: standard input:15
+#: standard input:24
+#, fuzzy
+msgid "Access from internal networks"
+msgstr "Otra rede"
+
+#: standard input:10 input:15
 #, fuzzy
 msgid "Access management"
 msgstr "Administração de Usuário"
@@ -281,17 +364,33 @@ msgstr "Nombre de la Cuenta:"
 #. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
 #.
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #.
 #: standard input:5 ui/net-pppoe/index.scm:74 ui/net-pptp/index.scm:84 input:3
 #: ui/sysconfig/proxy/index.scm:14
 msgid "Account:"
 msgstr "Cuenta:"
 
-#: standard input:9
+#: standard input:19 input:9
 msgid "Accounting"
 msgstr "Contabilidade"
 
-#: ui/pkg/install/index.scm:73 ui/pkg/install/index.scm:72
+#: ui/pkg/install/index.scm:75 ui/pkg/install/index.scm:73
+#: ui/pkg/install/index.scm:72
 msgid "Acquiring packages..."
 msgstr "Adquisición de paquete..."
 
@@ -304,16 +403,19 @@ msgstr "Acción"
 msgid "Action/Code: "
 msgstr "Acción"
 
-#: standard input:39 input:30 input:22 input:10 input:19
+#: standard input:32 input:16 input:34 input:38
+#: ui/bacula/local-backup/advanced/index.scm:38 input:14 input:30 input:21
+#: input:22 input:10 input:5 input:46 ui/net-bl/index.scm:36
+#: ui/net-dnat/index.scm:59 input:7 input:18
+#: ui/pkg/sources/mirrors/index.scm:58 input:12 input:4 input:6
+#: ui/xkb/index.scm:37 ui/xkb/avail_layout/index.scm:26 input:39 input:19
 #: ui/net-dnat/index.scm:58 input:8 input:13
-#: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 input:38
-#: input:17 ui/html-messages.scm:23 ui/html-messages.scm:27
-#: ui/html-messages.scm:31 input:4 input:6 ui/xkb/index.scm:37
-#: ui/xkb/avail_layout/index.scm:26
+#: ui/pkg/sources/mirrors/index.scm:51 ui/pkg/register/index.scm:42 input:17
+#: ui/html-messages.scm:23 ui/html-messages.scm:27 ui/html-messages.scm:31
 msgid "Add"
 msgstr "Adiccionar"
 
-#: index.scm:194 ui/lilo/expert/index.scm:194
+#: ui/lilo/expert/index.scm:194 index.scm:194
 msgid "Add Linux kernel"
 msgstr "Adiccionar Kernel do Linux"
 
@@ -321,24 +423,50 @@ msgstr "Adiccionar Kernel do Linux"
 msgid "Add client"
 msgstr "Adiccionar Cliente"
 
-#: standard input:19
+#: standard input:14 input:19
 #, fuzzy
 msgid "Add domain"
 msgstr "Adiccionar Cliente"
+
+#: standard input:21
+#, fuzzy
+msgid "Add host by name:"
+msgstr "Nombre de la Cuenta:"
+
+#: standard input:4 ui/net-bl/index.scm:34
+#, fuzzy
+msgid "Add host or network IP-address:"
+msgstr "Destino IP:"
+
+#: standard input:13
+#, fuzzy
+msgid "Add host:"
+msgstr "Adiccionar Sitio"
 
 #: standard input:15
 msgid "Add network"
 msgstr "Adiccionar Red"
 
+#: ui/net-bl/index.scm:32
+#, fuzzy
+msgid "Add new IP:"
+msgstr "Adiccionar Norma"
+
+#: standard input:44
+#, fuzzy
+msgid "Add new client:"
+msgstr "Adiccionar Cliente"
+
 #: standard input:7
 msgid "Add new image:"
 msgstr "Adiccionar nuevas imagens:"
 
-#: standard input:13 ui/net-dnat/index.scm:36
+#: standard input:19 ui/net-dnat/index.scm:37 input:13
+#: ui/net-dnat/index.scm:36
 msgid "Add new rule:"
 msgstr "Adiccionar Norma"
 
-#: index.scm:195 ui/lilo/expert/index.scm:195
+#: ui/lilo/expert/index.scm:195 index.scm:195
 msgid "Add other loader"
 msgstr "Adiccionar outro rodador"
 
@@ -370,6 +498,12 @@ msgstr "Adiccionar Sitio"
 msgid "Add user:"
 msgstr "Adiccionar Usuário:"
 
+#. expand seg
+#: ui/vm/dummystr.scm:61
+#, fuzzy
+msgid "Additional Size"
+msgstr "Paquetes adicionales"
+
 #: ui/pkg/groups/index.scm:133
 #, fuzzy
 msgid "Additional applications:"
@@ -379,7 +513,12 @@ msgstr "Parámetros adicionais"
 msgid "Additional disks"
 msgstr "Paquetes adicionales"
 
-#: index.scm:171 ui/lilo/expert/index.scm:171
+#: standard input:22
+#, fuzzy
+msgid "Additional info"
+msgstr "Paquetes adicionales"
+
+#: ui/lilo/expert/index.scm:171 index.scm:171
 msgid "Additional parameters:"
 msgstr "Parámetros adicionais"
 
@@ -387,9 +526,14 @@ msgstr "Parámetros adicionais"
 msgid "Address  expiration time:"
 msgstr "Tiempo del Expiracción de la Dirección:"
 
-#: standard input:41
+#: standard input:35 input:41
 #, fuzzy
 msgid "Address mask:"
+msgstr "Dirección MAC:"
+
+#: standard input:42
+#, fuzzy
+msgid "Address:"
 msgstr "Dirección MAC:"
 
 #: standard input:14
@@ -404,28 +548,72 @@ msgstr "Administrador E-mail:"
 msgid "Administrator password:"
 msgstr "Administrador del Sistema"
 
-#: standard input:21 ui/bacula/backup/index.scm:36 input:16
-#: ui/net-eth/index.scm:123 input:5 ui/pkg/sources/index.scm:40
+#: standard input:14
+#, fuzzy
+msgid "Administrator's password successfully updated"
+msgstr "Administrador del Sistema"
+
+#: standard input:22 input:19
+#, fuzzy
+msgid "Administrator's password:"
+msgstr "Administrador del Sistema"
+
+#: standard input:66
+#, fuzzy
+msgid "Advanced restore options"
+msgstr "Argumento de opcione inválido"
+
+#: standard input:26 ui/bacula/local-backup/index.scm:34 input:16
+#: ui/net-eth/index.scm:123 input:4 ui/pkg/sources/index.scm:20 input:21
+#: ui/bacula/backup/index.scm:36 input:5 ui/pkg/sources/index.scm:40
 msgid "Advanced..."
 msgstr "Avanzado..."
 
-#: index.scm:176 ui/lilo/expert/index.scm:176
+#: ui/lilo/expert/index.scm:176 index.scm:176
 msgid "Alias:"
 msgstr "Alias:"
 
-#: standard input:4 ui/bacula/backup/disk/index.scm:30
+#: ui/vm/blonde.scm:91
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr ""
+
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+msgid "All data from all your disks will be lost!"
+msgstr ""
+
+#: ui/vm/ortodox.scm:70
+msgid "All data from all your disks will be lost! Continue?"
+msgstr ""
+
+#: ui/vm/table.scm:135
+msgid "All data on following partitions will be lost:"
+msgstr ""
+
+#: standard input:5 ui/bacula/local-backup/disk/index.scm:35 input:4
+#: ui/bacula/backup/disk/index.scm:30
 msgid "All existing backups on the new disk will be removed."
+msgstr ""
+
+#: ui/livecd/finish/index.scm:7
+msgid "All work is succesfully done."
 msgstr ""
 
 #: standard input:41
 msgid "All your changes will take effect after restart of HTTP server"
 msgstr ""
 
+#: standard input:34
+msgid "All your changes will take effect after restart of HTTP server."
+msgstr ""
+
 #: standard input:4
 msgid "Allow anonymous login"
 msgstr "Permitir Usuário anônimo"
 
-#: standard input:3 ui/net-iptables/index.scm:37
+#: standard input:8 ui/net-iptables/index.scm:37 input:3
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Conección de entrada"
 
@@ -457,6 +645,11 @@ msgstr "Permitir Escrita"
 msgid "Allowed client networks:"
 msgstr "Redes permitidas:"
 
+#: standard input:36
+#, fuzzy
+msgid "Allowed connections:"
+msgstr "Todas las conecciones"
+
 #: backend3/sysconfig-base:32
 #, fuzzy
 msgid "Alt key"
@@ -464,6 +657,10 @@ msgstr "Borrar llave"
 
 #: backend3/sysconfig-base:28
 msgid "Alt+Shift key"
+msgstr ""
+
+#: standard input:45
+msgid "Alterator specific httpd"
 msgstr ""
 
 #: standard input:1
@@ -474,6 +671,22 @@ msgstr "Subsistema alternativo"
 msgid "Alternatives:"
 msgstr "Alternativas:"
 
+#: standard input:12
+msgid "An RFC 868 time server. This is the tcp version."
+msgstr ""
+
+#: standard input:13
+msgid "An RFC 868 time server. This is the udp version."
+msgstr ""
+
+#: standard input:7
+msgid "An echo server. This is the tcp version."
+msgstr ""
+
+#: standard input:2
+msgid "An echo server. This is the udp version."
+msgstr ""
+
 #: standard input:8
 msgid "Anonymous user options"
 msgstr "Opciones de Usuário Anônimo"
@@ -482,27 +695,40 @@ msgstr "Opciones de Usuário Anônimo"
 msgid "Anvanced..."
 msgstr "Avanzado..."
 
-#: standard input:16 input:47 input:51 input:6 ui/alternatives/index.scm:77
-#: ui/auth/index.scm:54 ui/control/index.scm:55 input:8 input:12
-#: ui/datetime/system/index.scm:54 ui/datetime/installer/index.scm:80 input:4
-#: input:19 input:5 ui/dovecot/index.scm:59 input:7 ui/groups/index.scm:89
-#: index.scm:206 ui/lilo/edit-source/index.scm:36 ui/lilo/index.scm:140
-#: ui/lilo/expert/index.scm:206 input:15 input:11 input:17
-#: ui/net-eth/index.scm:133 input:9 ui/net-iptables/index.scm:61
-#: ui/net-pppoe/index.scm:88 input:13 ui/net-pptp/index.scm:114
-#: ui/net-wifi/index.scm:131 input:14 input:26 ui/quota/index.scm:73
-#: ui/root/index.scm:46 input:20 ui/services/index.scm:63 input:21 input:10
-#: input:22 input:31 input:44 input:56 ui/sysconfig/proxy/index.scm:26
-#: ui/html-messages.scm:6 ui/html-messages.scm:14 ui/html-messages.scm:38
-#: ui/html-messages.scm:57 ui/users/index.scm:116 ui/x11/index.scm:97
-#: ui/xinetd/index.scm:95 ui/xkb/index.scm:54 backend3/xkb:188
-#: ui/dovecot/index.scm:52
+#: standard input:10
+msgid ""
+"Apache is a World Wide Web server.  It is used to serve HTML files and CGI."
+msgstr ""
+
+#: standard input:11 input:15 input:26 input:6 ui/alternatives/index.scm:77
+#: input:3 ui/auth/index.scm:43 input:36
+#: ui/backup-server/network/index.scm:106 input:5 input:4 input:16
+#: ui/control/index.scm:55 input:8 input:12 ui/datetime/system/index.scm:54
+#: ui/datetime/installer/index.scm:80 input:19 ui/dovecot/index.scm:59 input:7
+#: ui/groups/index.scm:89 ui/lilo/edit-source/index.scm:36
+#: ui/lilo/index.scm:136 ui/lilo/expert/index.scm:206 input:22 input:17
+#: ui/net-eth/index.scm:133 input:14 input:42 ui/net-iptables/index.scm:61
+#: input:9 ui/net-openvpn/index.scm:123 ui/net-pppoe/index.scm:88 input:13
+#: ui/net-pptp/index.scm:114 ui/net-wifi/index.scm:131 input:10 input:30
+#: ui/quota/index.scm:73 ui/root/index.scm:46 input:20
+#: ui/services/index.scm:16 input:21 input:18 input:27 input:38 input:50
+#: ui/sslkey/generate/index.scm:213 ui/sysconfig/proxy/index.scm:26 input:2
+#: ui/users/index.scm:116 ui/vm/table.scm:258 ui/x11/index.scm:97
+#: ui/xinetd/index.scm:59 ui/xkb/index.scm:54 backend3/xkb:188 input:47
+#: input:51 ui/auth/index.scm:54 index.scm:206 ui/lilo/index.scm:140
+#: ui/services/index.scm:63 input:31 input:44 input:56 ui/html-messages.scm:6
+#: ui/html-messages.scm:14 ui/html-messages.scm:38 ui/html-messages.scm:57
+#: ui/xinetd/index.scm:95 ui/dovecot/index.scm:52
 msgid "Apply"
 msgstr "Aplicar"
 
 #: backend3/xkb:187
 msgid "Apply failed"
 msgstr "No aplicación"
+
+#: ui/vm/table.scm:130
+msgid "Apply requested changes?"
+msgstr ""
 
 #: backend3/xkb:186
 msgid "Apply saved keyboard settings"
@@ -512,15 +738,45 @@ msgstr "Aplicar alteraciones de teclado"
 msgid "April"
 msgstr "Abril"
 
-#: standard input:15
+#: standard input:3 input:15
 msgid "Architectures"
 msgstr "Architeturas"
 
-#: standard input:3
+#: standard input:19 input:3
 msgid "Architectures:"
 msgstr "Architeturas:"
 
-#: standard input:3 ui/bacula/backup/disk/index.scm:29
+#: standard input:4
+#, fuzzy
+msgid "Archive"
+msgstr "Architeturas"
+
+#: standard input:60
+#, fuzzy
+msgid "Archive actions:"
+msgstr "Architeturas:"
+
+#: standard input:57
+#, fuzzy
+msgid "Archive settings:"
+msgstr "Ajustes"
+
+#: ui/mirror/repository/ajax.scm:51
+msgid "Are really want to clear local repository?"
+msgstr ""
+
+#: ui/bind/ajax.scm:81
+#, fuzzy
+msgid "Are you really want to destroy domain "
+msgstr "Usted realmente desea borrar"
+
+#: interfaces/guile/ajax.scm:393
+#, fuzzy
+msgid "Attention"
+msgstr "Acción"
+
+#: standard input:1 input:4 ui/bacula/local-backup/disk/index.scm:34
+#: ui/livecd/start/index.scm:7 input:3 ui/bacula/backup/disk/index.scm:29
 #, fuzzy
 msgid "Attention:"
 msgstr "Acción"
@@ -533,8 +789,8 @@ msgstr "Agosto"
 msgid "Auth mechanisms:"
 msgstr "Mecanismo de Autentificación:"
 
-#: standard input:1 ui/auth/index.scm:33 input:9 ui/net-wifi/index.scm:125
-#: input:11
+#: standard input:9 ui/net-wifi/index.scm:125 input:11 input:1
+#: ui/auth/index.scm:33
 msgid "Auth type:"
 msgstr "Tipo de Autentificación:"
 
@@ -550,6 +806,11 @@ msgstr "Autenticación (SASL)"
 msgid "Authentication failed"
 msgstr "Atutenticación fracasó"
 
+#: standard input:28
+#, fuzzy
+msgid "Authorized clients:"
+msgstr "llave ssh autorizada"
+
 #: standard input:7
 msgid "Authorized ssh keys:"
 msgstr "llave ssh autorizada"
@@ -557,6 +818,10 @@ msgstr "llave ssh autorizada"
 #: standard input:5
 msgid "Autodetect"
 msgstr "Auto-detectar"
+
+#: standard input:26
+msgid "Automates a packet filtering firewall with iptables"
+msgstr ""
 
 #. for write_enum
 #: backend3/x11:206
@@ -571,35 +836,63 @@ msgstr "Layouts disponibles:"
 msgid "Available layouts:"
 msgstr "Layouts disponibles:"
 
-#: standard input:11 ui/net-dnat/index.scm:30
+#: standard input:17 ui/net-dnat/index.scm:31 input:11
+#: ui/net-dnat/index.scm:30
 msgid "Available rules:"
 msgstr "Ver código fuente"
 
-#: standard input:9 ui/pkg/sources/mirrors/index.scm:53
+#: standard input:8 ui/pkg/sources/mirrors/index.scm:60 input:9
+#: ui/pkg/sources/mirrors/index.scm:53
 msgid "Available sources:"
 msgstr "Ver código fuente"
 
-#: backend3/bacula-backup:43
+#: bin/bacula-alterator-sh-functions:38 backend3/bacula-backup:43
 msgid "B"
 msgstr ""
 
-#: standard input:12 input:5 input:14 input:25 input:48 input:60
+#: standard input:18 input:11 input:34 input:12 input:9 input:21 input:42
+#: input:54 input:5 input:14 input:25 input:48 input:60
 msgid "Back"
 msgstr ""
+
+#: standard input:15
+#, fuzzy
+msgid "Back to list"
+msgstr "Volver para lista de cadena"
 
 #: standard input:1
 msgid "Backup"
 msgstr ""
 
-#: standard input:16 ui/bacula/backup/index.scm:21
+#: standard input:75
+msgid "Backup client's data every day at:"
+msgstr ""
+
+#: standard input:21 ui/bacula/local-backup/index.scm:19 input:16
+#: ui/bacula/backup/index.scm:21
 msgid "Backup disk:"
 msgstr ""
 
-#: standard input:13
+#: standard input:2
+#, fuzzy
+msgid "Backup server"
+msgstr "Servidores RBL:"
+
+#: ui/backup-server/network/index.scm:61
+#, fuzzy
+msgid "Backup server interface:"
+msgstr "Uso por interfaz:"
+
+#: standard input:55
+msgid "Backup size"
+msgstr ""
+
+#: standard input:19 input:74 input:13
 msgid "Backup start time:"
 msgstr ""
 
-#: standard input:14 ui/bacula/backup/index.scm:13
+#: standard input:20 ui/bacula/local-backup/index.scm:13 input:14
+#: ui/bacula/backup/index.scm:13
 msgid "Backup system every day at:"
 msgstr ""
 
@@ -607,31 +900,43 @@ msgstr ""
 msgid "Backup user data"
 msgstr ""
 
+#: standard input:31
+msgid "Backup:"
+msgstr ""
+
 #: standard input:11
 #, fuzzy
 msgid "Base DN"
 msgstr "Base DN:"
 
-#: standard input:3 ui/auth/index.scm:41 input:13
+#: standard input:13 input:3 ui/auth/index.scm:41
 msgid "Base DN:"
 msgstr "Base DN:"
 
-#: standard input:49
+#: standard input:13 input:49
 #, fuzzy
 msgid "Base mode"
 msgstr "modo simples"
 
-#: standard input:1
+#: standard input:7 input:1
 msgid ""
 "Before you begin to work with system you will have to made some initial "
 "actions."
+msgstr ""
+
+#: standard input:21
+msgid "Blacklist"
+msgstr ""
+
+#: standard input:2 ui/net-bl/index.scm:26
+msgid "Blacklist:"
 msgstr ""
 
 #: standard input:16
 msgid "Blocked sites:"
 msgstr "Sitios bloqueados:"
 
-#: index.scm:157 ui/lilo/expert/index.scm:157
+#: ui/lilo/expert/index.scm:157 index.scm:157
 msgid "Boot variants"
 msgstr "Variantes del Boot"
 
@@ -643,15 +948,56 @@ msgstr "Boot-como:"
 msgid "Bootloader"
 msgstr "Rodador de Boot"
 
-#: ui/pkg/install/index.scm:35
+#: standard input:2
+#, fuzzy
+msgid "Bootloader setup"
+msgstr "Rodador de Boot"
+
+#: standard input:19
+msgid "Bridge:"
+msgstr ""
+
+#: backend3/openvpn-server:358
+msgid "Bridged (TAP)"
+msgstr ""
+
+#: ui/pkg/install/index.scm:34 ui/pkg/install/index.scm:35
 msgid "Building packages list"
 msgstr "La adquisición de paquetes..."
+
+#: backend3/ca:281
+#, fuzzy
+msgid "CA already initialized"
+msgstr "UID ya está en uso"
+
+#: standard input:2 input:25
+#, fuzzy
+msgid "CA management"
+msgstr "Administração de Usuário"
+
+#: backend3/openvpn-server:878
+#, fuzzy
+msgid "CA not found!"
+msgstr "Archivo no encontrado"
+
+#: backend3/ca:142
+msgid "CA not initialized"
+msgstr ""
+
+#: standard input:26
+#, fuzzy
+msgid "CA status:"
+msgstr "Status:"
+
+#: standard input:14
+msgid "CUPS printing system"
+msgstr ""
 
 #: standard input:5 input:20 ui/sysinfo/index.scm:40
 msgid "Cache"
 msgstr "Cache"
 
-#: backend3/mirror:250
+#: backend3/mirror:371 backend3/mirror:250
 msgid "Can mirror only from sources with rsync procotol"
 msgstr ""
 
@@ -663,6 +1009,7 @@ msgstr "No es posible adiccionar un grupo"
 msgid "Can't add group with empty name"
 msgstr "No es posible adiccionar el grupo sin nombre"
 
+#: bin/alterator-net-iptables:366 bin/iptables_helper:366
 #: bin/alterator-net-iptables:357 bin/iptables_helper:357
 #: bin/iptables_helper:393
 msgid "Can't add multiple values to list"
@@ -684,14 +1031,15 @@ msgstr "No es posible adiccionar un grupo sin nombre"
 msgid "Can't modify group with empty name"
 msgstr "No es posible adiccionar es grupo sin nombre"
 
-#: backend3/xinetd:246 backend3/xinetd:310
+#: backend3/xinetd:246 backend3/xinetd:314 backend3/xinetd:310
 msgid "Can't open file"
 msgstr "No puede abrir el archivo"
 
-#: backend3/xinetd:247 backend3/xinetd:311
+#: backend3/xinetd:247 backend3/xinetd:315 backend3/xinetd:311
 msgid "Can't open temporary file"
 msgstr "No puede abrir archivo temporário"
 
+#: bin/alterator-net-iptables:374 bin/iptables_helper:374
 #: bin/alterator-net-iptables:365 bin/iptables_helper:365
 #: bin/iptables_helper:401
 msgid "Can't remove multiple values from list"
@@ -701,14 +1049,20 @@ msgstr "No puede remover multiplos valores de la lista"
 msgid "Can't remove user"
 msgstr "No fue posible remover el usuário"
 
-#: standard input:5 ui/bacula/backup/disk/index.scm:35
+#: interfaces/guile/ajax.scm:247 standard input:6
+#: ui/bacula/local-backup/disk/index.scm:40
 #: ui/datetime/system/timezone/index.scm:60
-#: ui/datetime/installer/edit/index.scm:43 input:6
-#: ui/net-eth/advanced/index.scm:67 input:16
-#: ui/pkg/sources/mirrors/index.scm:60 ui/x11/monitor/index.scm:28
-#: ui/x11/driver/index.scm:31 ui/xkb/avail_layout/index.scm:27
+#: ui/datetime/installer/edit/index.scm:43 ui/net-eth/advanced/index.scm:67
+#: input:16 ui/net-openvpn/ca/index.scm:49 ui/sslkey/generate/index.scm:214
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112 ui/x11/monitor/index.scm:28
+#: ui/x11/driver/index.scm:31 ui/xkb/avail_layout/index.scm:27 input:5
+#: ui/bacula/backup/disk/index.scm:35 ui/pkg/sources/mirrors/index.scm:60
 msgid "Cancel"
 msgstr "Cancelar"
+
+#: standard input:12 ui/bacula/local-backup/advanced/index.scm:24
+msgid "Cancel active jobs"
+msgstr ""
 
 #: standard input:3 ui/alternatives/index.scm:53
 msgid "Candidates:"
@@ -718,9 +1072,29 @@ msgstr "Candidatos"
 msgid "CapsLock key"
 msgstr ""
 
+#. jfs
+#: ui/vm/dummystr.scm:25
+msgid "Case Insensitive"
+msgstr ""
+
 #: standard input:18 input:17
 msgid "Certificate"
 msgstr "Certificado"
+
+#: standard input:1 input:24
+#, fuzzy
+msgid "Certificate management"
+msgstr "Administração de Usuário"
+
+#: backend3/openvpn-server:874
+#, fuzzy
+msgid "Certificate not found!"
+msgstr "Archivo del Desktop no encontrado "
+
+#: standard input:1
+#, fuzzy
+msgid "Certification Authority"
+msgstr "Destino"
 
 #: ui/html-messages.scm:4 ui/html-messages.scm:36
 msgid "Chain"
@@ -730,17 +1104,29 @@ msgstr "Cadena"
 msgid "Chain policy"
 msgstr "Cadena de la política"
 
-#: standard input:8 input:4 ui/pkg/sources/index.scm:33
-#: ui/pkg/sources/index.scm:32
+#: standard input:8 input:3 ui/pkg/sources/index.scm:15 input:4
+#: ui/pkg/sources/index.scm:33 ui/pkg/sources/index.scm:32
 msgid "Change"
 msgstr "Alteración"
 
-#: standard input:6 ui/bacula/backup/disk/index.scm:37
+#: standard input:12
+#, fuzzy
+msgid "Change IP address..."
+msgstr "Alteración"
+
+#: standard input:11
+#, fuzzy
+msgid "Change date..."
+msgstr "Alteración"
+
+#: standard input:7 ui/bacula/local-backup/disk/index.scm:42 input:6
+#: ui/bacula/backup/disk/index.scm:37
 #, fuzzy
 msgid "Change disk"
 msgstr "Alteración"
 
-#: standard input:20 ui/bacula/backup/index.scm:34
+#: standard input:25 ui/bacula/local-backup/index.scm:32 input:20
+#: ui/bacula/backup/index.scm:34
 #, fuzzy
 msgid "Change disk..."
 msgstr "Alteración"
@@ -749,27 +1135,47 @@ msgstr "Alteración"
 msgid "Change password:"
 msgstr "Cambiar contraseña:"
 
-#: ui/services/index.scm:55
+#: ui/services/index.scm:11 ui/services/index.scm:55
 msgid "Change state:"
 msgstr "Cambiar estado:"
 
-#: ui/datetime/system/index.scm:49 ui/datetime/installer/index.scm:73
+#: ui/datetime/system/index.scm:49 ui/datetime/installer/index.scm:73 standard
+#: input:22 ui/sslkey/index.scm:35
 msgid "Change..."
 msgstr "Alteración"
 
+#: ui/vm/table.scm:226
+msgid "Check Filesystem"
+msgstr ""
+
+#. ext2/3
+#: ui/vm/dummystr.scm:16
+msgid "Check For Bad Blocks"
+msgstr ""
+
 #: standard input:7
 msgid "Check IP"
+msgstr "Comprobar IP"
+
+#. swap
+#: ui/vm/dummystr.scm:30
+msgid "Check for bad blocks"
+msgstr ""
+
+#: ui/vm/dummystr.scm:87
+#, fuzzy
+msgid "Check order"
 msgstr "Comprobar IP"
 
 #: standard input:4 ui/alternatives/index.scm:62
 msgid "Choose candidate manually"
 msgstr "Escoja el candidato manualmente"
 
-#: standard input:13
+#: standard input:15 input:13
 msgid "Choose external interfaces for correct setup of system firewall:"
 msgstr ""
 
-#: standard input:2
+#: standard input:8 input:2
 #, fuzzy
 msgid "Choose interface language:"
 msgstr "Seleccione sua Lenguage"
@@ -778,9 +1184,78 @@ msgstr "Seleccione sua Lenguage"
 msgid "Choose server role:"
 msgstr ""
 
-#: standard input:8
+#. raid0
+#: ui/vm/dummystr.scm:51
+msgid "Chunk Size:"
+msgstr ""
+
+#: ui/vm/dummystr.scm:59
+msgid "Chunk size"
+msgstr ""
+
+#: ui/vm/ortodox.scm:92
+msgid "Clear all before applying profile"
+msgstr ""
+
+#: standard input:24 input:8
 msgid "Clear local mirror"
 msgstr "Limpiar Direcciones de \"Mirror\""
+
+#: standard input:51
+#, fuzzy
+msgid "Client"
+msgstr "Adiccionar Cliente"
+
+#: standard input:8
+#, fuzzy
+msgid "Client DNS-server:"
+msgstr "Servidor DNS:"
+
+#: standard input:50
+#, fuzzy
+msgid "Client backups:"
+msgstr "Borrar conección"
+
+#: standard input:9
+#, fuzzy
+msgid "Client domain:"
+msgstr "Borrar conección"
+
+#: standard input:4
+#, fuzzy
+msgid "Client name:"
+msgstr "Nome de la carpeta"
+
+#: backend3/openvpn-server:968
+msgid "Client nameserver not in client network(s)"
+msgstr ""
+
+#: standard input:6 input:1
+msgid "Clients"
+msgstr ""
+
+#: standard input:2
+#, fuzzy
+msgid "Clients networks"
+msgstr "Rede Actual"
+
+#: standard input:29
+#, fuzzy
+msgid "Clients networks..."
+msgstr "Rede Actual"
+
+#: standard input:56 input:72
+msgid "Clients:"
+msgstr ""
+
+#: ui/livecd/start/index.scm:9
+msgid "Close all open windows before you continue to work."
+msgstr ""
+
+#. ntfs
+#: ui/vm/dummystr.scm:34
+msgid "Cluster size"
+msgstr ""
 
 #: standard input:19 ui/x11/index.scm:76
 msgid "Color depth:"
@@ -792,8 +1267,18 @@ msgstr "Cor de la profundidad:"
 #. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
 #.
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
 #.
-#: standard input:9 input:43 input:55 input:4 ui/users/index.scm:81
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:4 input:37 input:49 ui/users/index.scm:81 input:9 input:43
+#: input:55
 msgid "Comment:"
 msgstr "Comentários:"
 
@@ -802,18 +1287,32 @@ msgstr "Comentários:"
 msgid "Commit"
 msgstr "Comentários:"
 
-#: standard input:19 input:18
+#: standard input:28 input:33 input:2 ui/sslkey/generate/index.scm:168
+#: input:19 input:18
 msgid "Common Name (CN):"
 msgstr "Nombre Comum (CN):"
 
-#: index.scm:145 ui/lilo/expert/index.scm:145
+#: ui/lilo/expert/index.scm:145 index.scm:145
 msgid "Common kernel parameters:"
 msgstr "Parámetros Comuns del Kernel:"
 
-#: index.scm:127 ui/lilo/expert/index.scm:127 backend3/xinetd:107
-#: backend3/xinetd:108
+#: ui/lilo/expert/index.scm:127 backend3/xinetd:107 backend3/xinetd:108
+#: index.scm:127
 msgid "Common settings"
 msgstr "Configuraciones comuns"
+
+#: standard input:10
+#, fuzzy
+msgid "Communications"
+msgstr "Información"
+
+#: standard input:5
+msgid "Communications (full)"
+msgstr ""
+
+#: ui/vm/dummystr.scm:36
+msgid "Compression"
+msgstr ""
 
 #: standard input:24 input:32
 msgid "Computer name"
@@ -827,16 +1326,25 @@ msgstr "Nombre de la Cuenta"
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
 #.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
 #: standard input:3 input:29 input:7 ui/net-eth/index.scm:74 input:9
 msgid "Computer name:"
 msgstr "Nombre de la computadora:"
 
-#: standard input:2
+#: standard input:1 input:2
 #, fuzzy
 msgid "Computer shutdown"
 msgstr "Nombre de la Cuenta"
 
-#: standard input:55
+#: standard input:38 input:55
 #, fuzzy
 msgid "Configuration"
 msgstr "Información"
@@ -846,7 +1354,8 @@ msgid "Configuration backup files are saved in "
 msgstr ""
 
 #.
-#: standard input:9 ui/net-eth/index.scm:91
+#: standard input:29 ui/backup-server/network/index.scm:72 input:9
+#: ui/net-eth/index.scm:91
 msgid "Configuration:"
 msgstr "Información"
 
@@ -858,6 +1367,11 @@ msgstr "Configurador"
 msgid "Configure"
 msgstr "Configurar"
 
+#: standard input:27
+#, fuzzy
+msgid "Configure internal interfaces..."
+msgstr "Reconfigurar Interface de la Rede"
+
 #: standard input:15 ui/net-wifi/index.scm:136
 msgid "Configure new network"
 msgstr "Configurar la Rede"
@@ -866,27 +1380,55 @@ msgstr "Configurar la Rede"
 msgid "Configured networks"
 msgstr "Rede Configurada"
 
+#: standard input:5
+msgid "Configuring system. Please wait..."
+msgstr ""
+
+#: standard input:49 input:15 input:24 ui/sslkey/generate/index.scm:187
+#: ui/sslkey/index.scm:40
+#, fuzzy
+msgid "Confirm"
+msgstr "Configurar"
+
+#: ui/vm/table.scm:86
+msgid "Congrats! You've found a secret level!"
+msgstr ""
+
+#: ui/bacula/restore/finish/index.scm:5
+#, fuzzy
+msgid "Congratulations!"
+msgstr "Información"
+
 #: backend3/net-wifi:226
 msgid "Connected to network"
 msgstr "Rede conectada"
 
-#: standard input:54
+#: standard input:48 input:54
 #, fuzzy
 msgid "Connection method:"
 msgstr "Conección establecida"
+
+#: standard input:36
+msgid "Connects to PPPoE provider"
+msgstr ""
 
 #: standard input:11
 #, fuzzy
 msgid "Content type: "
 msgstr "Tipo de interfaz:"
 
-#: ui/bacula/restore/index.scm:10
+#: ui/bacula/restore/search/index.scm:10 ui/bacula/restore/index.scm:10
 msgid "Continue"
 msgstr ""
 
-#: standard input:43
+#: standard input:7 input:43
 #, fuzzy
 msgid "Continue work"
+msgstr "Rede Configurada"
+
+#: ui/vm/table.scm:138
+#, fuzzy
+msgid "Continue?"
 msgstr "Rede Configurada"
 
 #: backend3/sysconfig-base:31
@@ -901,29 +1443,86 @@ msgstr ""
 msgid "Control+Shift keys (UK,RU,EN)"
 msgstr ""
 
-#: standard input:21 input:20
+#: helpers/lilo-conf.sh:146
+msgid "Could not find kernel image"
+msgstr ""
+
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:31 input:36 input:45 input:4
+#: ui/sslkey/generate/index.scm:171 input:21 input:20
 msgid "Country (C):"
 msgstr "País:"
+
+#: backend3/ca:266
+msgid "Country and Organizaton must be defined"
+msgstr ""
+
+#: backend3/ca:274
+#, fuzzy
+msgid "Country must be defined"
+msgstr "Usted deve definir un usuário para el sistema"
 
 #: standard input:1 ui/xkb/avail_layout/index.scm:17
 msgid "Country:"
 msgstr "País:"
 
-#: standard input:2 ui/groups/index.scm:67 input:10 input:28
+#: standard input:41 input:2 input:50 ui/groups/index.scm:67 input:10 input:28
 #: ui/users/index.scm:67
 msgid "Create"
 msgstr "Crear"
 
-#: standard input:7 ui/bacula/backup/advanced/index.scm:11
+#: ui/vm/dummystr.scm:19
+msgid "Create Ext3 Journal"
+msgstr ""
+
+#: ui/vm/table.scm:209 ui/vm/table.scm:211
+#, fuzzy
+msgid "Create Partition"
+msgstr "particíon"
+
+#: ui/vm/table.scm:196
+#, fuzzy
+msgid "Create RAID"
+msgstr "Crear"
+
+#: ui/vm/table.scm:204 ui/vm/table.scm:216
+#, fuzzy
+msgid "Create Volume"
+msgstr "Crear"
+
+#: ui/vm/table.scm:199
+msgid "Create Volume Group"
+msgstr ""
+
+#: standard input:13 ui/net-openvpn/index.scm:136
+#, fuzzy
+msgid "Create connection"
+msgstr ""
+"#-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#\n"
+"Borrar conección\n"
+"#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
+"Borrar Conección"
+
+#: standard input:8 ui/bacula/local-backup/advanced/index.scm:12 input:7
+#: ui/bacula/backup/advanced/index.scm:11
 msgid "Created backups:"
 msgstr ""
 
-#: standard input:8 ui/bacula/backup/advanced/index.scm:15
+#: standard input:9 ui/bacula/local-backup/advanced/index.scm:17 input:8
+#: ui/bacula/backup/advanced/index.scm:15
 #, fuzzy
 msgid "Creation date"
 msgstr "Configurar la Fecha Actual:"
 
-#: standard input:9 ui/bacula/backup/advanced/index.scm:15
+#: standard input:10 ui/bacula/local-backup/advanced/index.scm:17 input:9
+#: ui/bacula/backup/advanced/index.scm:15
 msgid "Creation result"
 msgstr ""
 
@@ -931,13 +1530,23 @@ msgstr ""
 msgid "Critical"
 msgstr "Crítico"
 
-#: ui/pkg/error/index.scm:5
+#: ui/pkg/error/index.scm:4 ui/pkg/error/index.scm:5
 msgid "Critical error during install"
 msgstr "Erro Crítico durante la instalación"
 
-#: standard input:4 ui/datetime/system/index.scm:32
+#: standard input:10
+#, fuzzy
+msgid "Current IP address:"
+msgstr "Dirección IP:"
+
+#: standard input:9 input:4 ui/datetime/system/index.scm:32
 #: ui/datetime/installer/edit/index.scm:32
 msgid "Current date:"
+msgstr "Configurar la Fecha Actual:"
+
+#: standard input:1 ui/auth/index.scm:27
+#, fuzzy
+msgid "Current domain:"
 msgstr "Configurar la Fecha Actual:"
 
 #: standard input:31
@@ -961,7 +1570,7 @@ msgstr "Rede Actual"
 msgid "Current settings"
 msgstr "COnfiguraciones actuales"
 
-#: standard input:3
+#: standard input:2 input:3
 msgid "Current state"
 msgstr "Estado actual"
 
@@ -974,52 +1583,107 @@ msgstr "Estado actual:"
 msgid "Current time:"
 msgstr "Configurar la Hora Atual:"
 
-#: backend3/mirror:146
+#: ui/vm/dummystr.scm:76
+msgid "Custom"
+msgstr ""
+
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr ""
+
+#: backend3/mirror:186 backend3/mirror:146
 msgid "Custom url"
 msgstr ""
 
-#: backend3/mirror:244
+#: backend3/mirror:365 backend3/mirror:244
 msgid "Custom url should be defined"
 msgstr "Usted deve definir un usuário para el sistema"
+
+#: standard input:9
+#, fuzzy
+msgid "DHCP"
+msgstr "Usar DHCP:"
 
 #: standard input:1
 msgid "DHCP server"
 msgstr "Servidor DHCP"
+
+#: standard input:15
+msgid "DNS"
+msgstr ""
+
+#: standard input:1
+#, fuzzy
+msgid "DNS server"
+msgstr "Servidor DNS:"
 
 #: standard input:16
 msgid "DNS server:"
 msgstr "Servidor DNS:"
 
 #.
-#: standard input:13 ui/net-eth/index.scm:107
+#: standard input:33 ui/backup-server/network/index.scm:87 input:13
+#: ui/net-eth/index.scm:107
 msgid "DNS servers:"
 msgstr "Servidores DNS:"
+
+#: standard input:18
+#, fuzzy
+msgid "Date issued"
+msgstr "Fecha/Hora"
 
 #: ui/html-messages.scm:56
 msgid "Date, time"
 msgstr "Fecha/Hora"
 
-#: standard input:1
+#: standard input:1 input:5 input:17
 msgid "Date/Time"
 msgstr "Fecha/Hora"
 
-#: standard input:24 ui/bacula/backup/index.scm:54
+#: standard input:28 ui/bacula/local-backup/index.scm:47 input:24
+#: ui/bacula/backup/index.scm:54
 msgid "Date:"
+msgstr ""
+
+#: backend3/mirror:259
+#, fuzzy
+msgid "Day of month should be defined"
+msgstr "Usted deve definir un usuário para el sistema"
+
+#: standard input:13
+#, fuzzy
+msgid "Day of month:"
+msgstr "1 mês"
+
+#: backend3/mirror:254
+msgid "Day of week should be selected"
 msgstr ""
 
 #: interfaces/guile/ahttpd/translate.scm:64
 msgid "December"
 msgstr "Deciembre"
 
-#: backend3/sysconfig-base:34
+#: backend3/net-tc:23 backend3/sysconfig-base:34
 #, fuzzy
 msgid "Default"
 msgstr "predeterminado"
 
-#: index.scm:150 ui/lilo/expert/index.scm:150
+#: ui/lilo/expert/index.scm:150 index.scm:150
 msgid "Default boot variant:"
 msgstr "Valor predeterminado del boot:"
 
+#. #-#-#-#-#  alterator-backup-server.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-backup-server.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-backup-server.po (Alterator)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
 #.
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
@@ -1028,11 +1692,16 @@ msgstr "Valor predeterminado del boot:"
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
 #.
-#: standard input:18 input:12 ui/net-eth/index.scm:102
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:32 ui/backup-server/network/index.scm:83 input:18 input:12
+#: ui/net-eth/index.scm:102
 msgid "Default gateway:"
 msgstr "Gateway Predeterminado:"
 
-#: standard input:8 ui/net-pptp/index.scm:94
+#: standard input:7 ui/net-openvpn/index.scm:113 input:8
+#: ui/net-pptp/index.scm:94
 msgid "Default route via VPN"
 msgstr "Rota Padrón por VPN"
 
@@ -1044,7 +1713,7 @@ msgstr "Lista de Sitio Predeterminado"
 msgid "Default upload directory (/var/ftp/incoming)"
 msgstr "Directório de Upload Predeterminado (/var/ftp/incoming)"
 
-#: standard input:4
+#: standard input:9 input:4
 #, fuzzy
 msgid "Define domain:"
 msgstr "Procurar Dominios:"
@@ -1054,13 +1723,27 @@ msgstr "Procurar Dominios:"
 msgid "Define organization name:"
 msgstr "Empresa"
 
-#: standard input:37 input:9 ui/groups/index.scm:91 index.scm:189
-#: ui/lilo/expert/index.scm:189 input:5 input:12 ui/net-dnat/index.scm:34
-#: input:14 ui/net-wifi/index.scm:133 backend3/openldap:94 input:10
-#: ui/pkg/sources/mirrors/index.scm:55 input:3 input:7 input:11 input:29
-#: input:24 input:46 input:58 input:36 input:6 input:17
+#. raid1
+#: ui/vm/dummystr.scm:54
+msgid "Degraded array"
+msgstr ""
+
+#: standard input:30 input:14 input:32 input:36
+#: ui/bacula/local-backup/advanced/index.scm:31 input:11 input:9
+#: ui/groups/index.scm:91 ui/lilo/expert/index.scm:189 input:5 input:3
+#: input:18 input:43 ui/net-bl/index.scm:30 ui/net-dnat/index.scm:35
+#: ui/net-openvpn/index.scm:138 ui/net-wifi/index.scm:133 backend3/openldap:94
+#: ui/pkg/sources/mirrors/index.scm:62 input:7 input:29 input:20 input:40
+#: input:52 input:37 index.scm:189 input:12 ui/net-dnat/index.scm:34 input:10
+#: ui/pkg/sources/mirrors/index.scm:55 input:24 input:46 input:58 input:6
+#: input:17
 msgid "Delete"
 msgstr "Borrar"
+
+#: standard input:48
+#, fuzzy
+msgid "Delete client"
+msgstr "Borrar llave"
 
 #: standard input:10 ui/net-pppoe/index.scm:91 input:15
 #: ui/net-pptp/index.scm:120
@@ -1072,26 +1755,43 @@ msgstr ""
 "#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
 "Borrar Conección"
 
-#: standard input:20
+#: standard input:16 input:20
 #, fuzzy
 msgid "Delete domain"
 msgstr "Borrar conección"
 
-#: standard input:8
+#: standard input:8 input:6
 msgid "Delete key"
 msgstr "Borrar llave"
 
-#: standard input:14 ui/users/index.scm:118
+#: standard input:23 ui/sslkey/index.scm:39
+msgid "Delete key, certificate and sign request"
+msgstr ""
+
+#: standard input:19
+#, fuzzy
+msgid "Delete selected"
+msgstr "Remover seleccionado"
+
+#: standard input:26 input:14 ui/users/index.scm:118
 msgid "Delete user"
 msgstr "Borrar usuário"
 
-#: standard input:21
+#: standard input:17 input:21
 msgid "Deny selected domains"
 msgstr ""
 
 #: standard input:5 ui/groups/index.scm:80 input:19
 msgid "Description:"
 msgstr "Descripción:"
+
+#: standard input:14
+msgid "Desktop"
+msgstr ""
+
+#: standard input:6
+msgid "Desktop (full)"
+msgstr ""
 
 #: ui/standalone/index.scm:13
 msgid "Desktop file not found"
@@ -1101,7 +1801,12 @@ msgstr "Archivo del Desktop no encontrado "
 msgid "Destination address"
 msgstr "Destino Inválido"
 
-#: standard input:6
+#: ui/sslkey/generate/index.scm:193
+#, fuzzy
+msgid "Destination directory:"
+msgstr "Destino"
+
+#: standard input:1 input:6
 #, fuzzy
 msgid "Destination domains"
 msgstr "Destino"
@@ -1114,11 +1819,24 @@ msgstr "Local del Destino del Email:"
 msgid "Destination port"
 msgstr "Destino"
 
+#: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
+#: ui/vm/table.scm:214 ui/vm/table.scm:219
+msgid "Destroy"
+msgstr ""
+
+#: ui/vm/table.scm:210
+msgid "Destroy Partition Table"
+msgstr ""
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr ""
+
 #: standard input:11 ui/x11/index.scm:29
 msgid "Detected hardware"
 msgstr "Hadware Detectado"
 
-#: index.scm:174 ui/lilo/expert/index.scm:174
+#: ui/lilo/expert/index.scm:174 index.scm:174
 msgid "Device:"
 msgstr "Dispositivo:"
 
@@ -1130,7 +1848,11 @@ msgstr ""
 msgid "Directory service LDAP"
 msgstr ""
 
-#: backend3/bacula-backup:238
+#: standard input:2
+msgid "Disk full. Please remove unused client's backups."
+msgstr ""
+
+#: backend3/bacula-local-backup:214 backend3/bacula-backup:238
 #, fuzzy
 msgid "Disk is not selected"
 msgstr "Por selecionado:"
@@ -1144,47 +1866,104 @@ msgstr "Uso del Disco:"
 msgid "Disk usage"
 msgstr "Uso del Disco:"
 
+#: standard input:5
+#, fuzzy
+msgid "Disk usage:"
+msgstr "Uso del Disco:"
+
 #: standard input:1 input:6
 msgid "Display"
 msgstr "Vídeo"
+
+#: standard input:73
+msgid "Do not backup client's data"
+msgstr ""
+
+#: standard input:13 input:35 ui/bacula/local-backup/advanced/index.scm:28
+msgid "Do not backup:"
+msgstr ""
+
+#: ui/bacula/client-backup/archive/ajax.scm:45
+#, fuzzy
+msgid "Do you really want clear all backups for client"
+msgstr "Usted realmente desea borrar el usuário"
 
 #: interfaces/guile/workflow/card-index.scm:143
 #: interfaces/guile/workflow/card-index.scm:149
 msgid "Do you really want to delete "
 msgstr "Usted realmente desea borrar"
 
+#: ui/bacula/client-backup/client/ajax.scm:27
+#, fuzzy
+msgid "Do you really want to delete client"
+msgstr "Usted realmente desea borrar"
+
 #: ui/users/index.scm:28
 msgid "Do you really want to delete user "
 msgstr "Usted realmente desea borrar el usuário"
 
-#: standard input:18
+#: standard input:12
+#, fuzzy
+msgid "Documentation"
+msgstr "Autenticación (SASL)"
+
+#: standard input:13 input:18
 #, fuzzy
 msgid "Domain access"
+msgstr "Accesso de Escrita"
+
+#: standard input:2 ui/auth/index.scm:32
+#, fuzzy
+msgid "Domain list:"
 msgstr "Accesso de Escrita"
 
 #: ui/html-messages.scm:61
 msgid "Domain name server (DNS)"
 msgstr "Nombre del servidor de dominio"
 
+#: backend3/auth:81 backend3/auth:88
+msgid "Domain not set"
+msgstr ""
+
+#: standard input:3
+#, fuzzy
+msgid "Domain:"
+msgstr "Procurar Dominios:"
+
 #: standard input:35
 msgid "Domains"
 msgstr ""
 
-#: standard input:12 ui/bacula/backup/index.scm:9
+#: standard input:18 ui/bacula/local-backup/index.scm:9 input:12
+#: ui/bacula/backup/index.scm:9
 msgid "Don't backup system"
 msgstr ""
 
-#: index.scm:119 ui/lilo/edit-source/index.scm:21 ui/lilo/expert/index.scm:119
+#: ui/lilo/edit-source/index.scm:21 ui/lilo/expert/index.scm:119 index.scm:119
 msgid "Don't install bootloader"
 msgstr "No instalar gestor de boot"
+
+#: standard input:59
+msgid "Dovecot Imap Server"
+msgstr ""
 
 #: standard input:9 ui/xkb/index.scm:41
 msgid "Down"
 msgstr "Abajo"
 
+#: standard input:42
+#, fuzzy
+msgid "Download certificate:"
+msgstr "Conección falló"
+
 #: standard input:12
 #, fuzzy
 msgid "Download complete"
+msgstr "Download completo"
+
+#: standard input:45
+#, fuzzy
+msgid "Download config for client"
 msgstr "Download completo"
 
 #: standard input:11
@@ -1197,8 +1976,18 @@ msgstr "Conección falló"
 msgid "Download file:"
 msgstr "Conección falló"
 
-#: standard input:32 input:31
+#: standard input:12
+#, fuzzy
+msgid "Download key file"
+msgstr "Conección falló"
+
+#: standard input:17 input:32 input:31
 msgid "Download sign request"
+msgstr "Download de el Requerido"
+
+#: standard input:43
+#, fuzzy
+msgid "Download sign request:"
 msgstr "Download de el Requerido"
 
 #: standard input:13
@@ -1239,13 +2028,44 @@ msgstr "Drivers"
 msgid "Drop mail"
 msgstr "Drop mail"
 
-#: index.scm:123 ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:123
+#: ui/vm/dummystr.scm:86
+#, fuzzy
+msgid "Dump Frequency"
+msgstr "Frecuencia (Mhz)"
+
+#: ui/livecd/start/index.scm:11
+msgid ""
+"During process all devices will be unmounted and all swap partitions will be "
+"turned off."
+msgstr ""
+
+#.
+#: standard input:12 ui/sslkey/generate/index.scm:183
+#, fuzzy
+msgid "E-mail address:"
+msgstr "Dirección IP:"
+
+#: ui/vm/table.scm:224
+#, fuzzy
+msgid "Edit Mountpoint"
+msgstr "Punto de montaje"
+
+#: ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:123 index.scm:123
 msgid "Edit lilo.conf"
 msgstr "Editar lilo.conf"
 
 #: standard input:21 input:23 input:25
 msgid "Edit list..."
 msgstr "Editar Lista"
+
+#: standard input:2
+msgid "Edutainment"
+msgstr ""
+
+#: standard input:18
+#, fuzzy
+msgid "Email"
+msgstr "Host Email"
 
 #: standard input:18
 msgid "Email host"
@@ -1254,6 +2074,10 @@ msgstr "Host Email"
 #: standard input:4 input:21
 msgid "Email host:"
 msgstr "Host Email:"
+
+#: standard input:7
+msgid "Emulators"
+msgstr ""
 
 #: standard input:7 ui/net-wifi/index.scm:123
 msgid "Enable"
@@ -1273,9 +2097,31 @@ msgstr "Portas UDP extras"
 msgid "Enable LDAPS (TLS)"
 msgstr "Posibilitar TLS/SSL"
 
+#: standard input:12
+#, fuzzy
+msgid "Enable OpenVPN server"
+msgstr "Servicio posibilitado de FTP"
+
 #: standard input:5 ui/auth/index.scm:48
 msgid "Enable TLS/SSL"
 msgstr "Posibilitar TLS/SSL"
+
+#: standard input:1 ui/net-bl/index.scm:23
+msgid "Enable blacklist filtering"
+msgstr ""
+
+#: standard input:3
+msgid "Enable daily updates at"
+msgstr ""
+
+#: standard input:1
+#, fuzzy
+msgid "Enable data collection"
+msgstr ""
+"#-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#\n"
+"Borrar conección\n"
+"#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
+"Borrar Conección"
 
 #: standard input:9
 msgid "Enable mirroring"
@@ -1285,12 +2131,22 @@ msgstr "posibilitar espejamiento"
 msgid "Enable per user settings"
 msgstr "Permitir configuraciones por usuário"
 
-#: standard input:2
+#: standard input:16 ui/net-dnat/index.scm:28
+#, fuzzy
+msgid "Enable port forwarding"
+msgstr "Adelantar porta"
+
+#: standard input:26 input:2
 #, fuzzy
 msgid "Enable proxy-server service"
 msgstr "Posibilitar servicio"
 
-#: standard input:4 ui/xinetd/index.scm:61
+#: standard input:26
+#, fuzzy
+msgid "Enable restrictions on all internal interfaces"
+msgstr "Seleccionar interfazes externas:"
+
+#: standard input:3 ui/xinetd/index.scm:28 input:4 ui/xinetd/index.scm:61
 msgid "Enable service"
 msgstr "Posibilitar servicio"
 
@@ -1302,26 +2158,62 @@ msgstr "Cfira:"
 msgid "Ending IP address:"
 msgstr "Últimos IP:"
 
+#: interfaces/guile/ajax.scm:389 bin/bacula-alterator-sh-functions:29
 #: backend3/bacula-backup:125
 msgid "Error"
 msgstr ""
 
-#: bin/alterator-net-iptables:325 bin/alterator-net-iptables:327
-#: bin/iptables_helper:325 bin/iptables_helper:327 bin/iptables_helper:361
-#: bin/iptables_helper:363
+#: backend3/trust:353
+msgid "Error adding host(s):%s"
+msgstr ""
+
+#: ui/bacula/restore/restore/index.scm:44
+msgid "Error during restore process"
+msgstr ""
+
+#: backend3/trust:371
+msgid "Error removing host(s):%s"
+msgstr ""
+
+#: bin/alterator-net-iptables:334 bin/alterator-net-iptables:336
+#: bin/alterator-net-tc:18 bin/alterator-net-tc:20 bin/iptables_helper:334
+#: bin/iptables_helper:336 bin/alterator-net-iptables:325
+#: bin/alterator-net-iptables:327 bin/iptables_helper:325
+#: bin/iptables_helper:327 bin/iptables_helper:361 bin/iptables_helper:363
 msgid "Error while reloading firewalling rules"
 msgstr "Erro mientra recarga normas de FIREWALL"
 
+#: bin/alterator-net-iptables:341 bin/iptables_helper:341
 #: bin/alterator-net-iptables:332 bin/iptables_helper:332
 #: bin/iptables_helper:368
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr ""
+
+#: bin/alterator-net-iptables:779 bin/iptables_helper:779
+#, fuzzy
+msgid "Error: Bad rule"
+msgstr "Error: modo"
+
+#: bin/alterator-net-iptables:785 bin/iptables_helper:785
+msgid "Error: MAC-address is not allowed in default rule"
+msgstr ""
+
+#: bin/alterator-net-iptables:396 bin/iptables_helper:396
+#, fuzzy
+msgid "Error: bad IP-address"
+msgstr "Error: modo"
+
+#: bin/alterator-net-iptables:420 bin/iptables_helper:420
+#, fuzzy
+msgid "Error: bad MAC-address"
+msgstr "Error: modo"
 
 #: bin/alterator-net-iptables:158 bin/iptables_helper:158
 #: bin/iptables_helper:200
 msgid "Error: bad SQUID port"
 msgstr "Error: Porta SQUID"
 
+#: bin/alterator-net-iptables:191 bin/iptables_helper:191
 #: bin/alterator-net-iptables:132 bin/iptables_helper:132
 #: bin/iptables_helper:174
 msgid "Error: bad TCP port"
@@ -1332,6 +2224,7 @@ msgstr "Error: porta TCP"
 msgid "Error: bad ULOGD mode"
 msgstr "Error: modo ULOGD"
 
+#: bin/alterator-net-iptables:196 bin/iptables_helper:196
 #: bin/alterator-net-iptables:137 bin/iptables_helper:137
 #: bin/iptables_helper:179
 msgid "Error: bad UTP port"
@@ -1343,11 +2236,18 @@ msgstr "Error: porta UTP"
 msgid "Error: bad ip"
 msgstr "Error: IP"
 
+#: bin/alterator-net-iptables:187 bin/iptables_helper:187
 #: bin/alterator-net-iptables:128 bin/iptables_helper:128
 #: bin/iptables_helper:170
 msgid "Error: bad mode"
 msgstr "Error: modo"
 
+#: bin/alterator-net-iptables:401 bin/iptables_helper:401
+#, fuzzy
+msgid "Error: bad network or host IP-address"
+msgstr "Error: modo"
+
+#: bin/alterator-net-iptables:406 bin/iptables_helper:406
 #: bin/alterator-net-iptables:166 bin/alterator-net-iptables:168
 #: bin/alterator-net-iptables:283 bin/iptables_helper:166
 #: bin/iptables_helper:168 bin/iptables_helper:283 bin/iptables_helper:208
@@ -1355,15 +2255,23 @@ msgstr "Error: modo"
 msgid "Error: bad port"
 msgstr "Error: porta"
 
+#: bin/alterator-net-iptables:411 bin/alterator-net-iptables:415
+#: bin/iptables_helper:411 bin/iptables_helper:415
+#, fuzzy
+msgid "Error: bad port or port range"
+msgstr "Error: porta"
+
 #: bin/iptables_helper:186
 msgid "Error: unknown interface"
 msgstr "Error: interfaz desconocida"
 
+#: bin/alterator-net-iptables:391 bin/iptables_helper:391
 #: bin/alterator-net-iptables:164 bin/iptables_helper:164
 #: bin/iptables_helper:206
 msgid "Error: unknown protocol"
 msgstr "Error: protocolo desconocido"
 
+#: bin/alterator-net-iptables:798 bin/iptables_helper:798
 #: bin/alterator-net-iptables:151 bin/iptables_helper:151
 #: bin/iptables_helper:193
 msgid "Error: unknown service"
@@ -1373,12 +2281,17 @@ msgstr "Error: Servicio desconocido"
 msgid "Ethernet interfaces"
 msgstr "Interfaz de IP"
 
-#: standard input:62 input:45
+#: standard input:45 input:39 input:23 input:62
 msgid "Exiting..."
 msgstr ""
 
-#: standard input:50 index.scm:122 ui/lilo/edit-source/index.scm:24
-#: ui/lilo/index.scm:141 ui/lilo/expert/index.scm:122
+#: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
+#: ui/vm/table.scm:217
+msgid "Expand"
+msgstr ""
+
+#: standard input:14 ui/lilo/edit-source/index.scm:24 ui/lilo/index.scm:137
+#: ui/lilo/expert/index.scm:122 input:50 index.scm:122 ui/lilo/index.scm:141
 msgid "Expert mode"
 msgstr "Modo Avanzado"
 
@@ -1386,13 +2299,59 @@ msgstr "Modo Avanzado"
 msgid "Expiration time"
 msgstr "Tiempo de Expiracción"
 
-#: standard input:5 ui/net-iptables/index.scm:48
+#: standard input:39
+msgid "Expires on:"
+msgstr ""
+
+#: standard input:19
+#, fuzzy
+msgid "Expiry date"
+msgstr "Tiempo de Expiracción"
+
+#.
+#: ui/sslkey/generate/index.scm:191 ui/sslkey/generate/index.scm:194
+#, fuzzy
+msgid "Export sign request"
+msgstr "Download de el Requerido"
+
+#: backend3/sslkey:234
+msgid "Export sign request failed"
+msgstr ""
+
+#. fsims
+#: ui/vm/dummystr.scm:7
+msgid "Ext2/3 File System Interface Module"
+msgstr ""
+
+#: ui/vm/dummystr.scm:40
+msgid "Extent-size for the new LVM2 container."
+msgstr ""
+
+#. xfs
+#: ui/vm/dummystr.scm:21
+msgid "External Journal Volume"
+msgstr ""
+
+#: standard input:10 input:38 ui/net-iptables/index.scm:48 input:5
 msgid "Extra TCP ports:"
 msgstr "Portas TCP extra"
 
-#: standard input:7 ui/net-iptables/index.scm:53
+#: standard input:12 input:40 ui/net-iptables/index.scm:53 input:7
 msgid "Extra UDP ports:"
 msgstr "Portas UDP extras"
+
+#. expand lv
+#: ui/vm/dummystr.scm:65
+msgid "Extra size for the LVM2 region."
+msgstr ""
+
+#: ui/vm/dummystr.scm:12
+msgid "FAT16 File System Interface Module"
+msgstr ""
+
+#: ui/vm/dummystr.scm:13
+msgid "FAT32 File System Interface Module"
+msgstr ""
 
 #: standard input:1
 msgid "FTP server"
@@ -1402,6 +2361,8 @@ msgstr "Servidor FTP"
 msgid "Facility"
 msgstr "Facilidade"
 
+#: ui/bacula/restore/restore/index.scm:36
+#: ui/bacula/restore/search/index.scm:27 ui/livecd/install/index.scm:24
 #: ui/bacula/restore/index.scm:24
 #, fuzzy
 msgid "Fatal error"
@@ -1411,17 +2372,32 @@ msgstr "Limpiar Direcciones de \"Mirror\""
 msgid "February"
 msgstr "Febrero"
 
+#: backend3/net-openvpn:321
+#, fuzzy
+msgid "File does not exist"
+msgstr "usuário espeficado no existe"
+
 #: backend3/notes:33
 msgid "File not found"
 msgstr "Archivo no encontrado"
 
-#: ui/html-messages.scm:68
+#: standard input:10 ui/html-messages.scm:68
 msgid "File server (Samba)"
 msgstr "Servidor de archivos (Samba)"
 
-#: ui/html-messages.scm:62
+#: standard input:8 ui/html-messages.scm:62
 msgid "File transfer (FTP)"
 msgstr "Transferencia de archivos (FTP)"
+
+#: standard input:30
+#, fuzzy
+msgid "Fileset for"
+msgstr "Archivo no encontrado"
+
+#: ui/vm/table.scm:189 ui/vm/blonde.scm:46
+#, fuzzy
+msgid "Filesystem"
+msgstr "Sistema"
 
 #: standard input:1 ui/quota/index.scm:39
 msgid "Filesystem:"
@@ -1447,9 +2423,29 @@ msgstr "Lista del filtro"
 msgid "Filtering rules"
 msgstr "Filtrando normas"
 
-#: ui/wizard/index.scm:40 ui/wizard/index.scm:44 ui/wizard/index.scm:48
+#: standard input:2 ui/wizard/index.scm:36 ui/wizard/index.scm:40
+#: ui/wizard/index.scm:44 ui/wizard/index.scm:48
 msgid "Finish"
 msgstr "Finalizar"
+
+#: standard input:2
+msgid "Finish installation"
+msgstr ""
+
+#: ui/livecd/install/index.scm:38
+#, fuzzy
+msgid "Finishing..."
+msgstr "Finalizar"
+
+#: standard input:52
+#, fuzzy
+msgid "First backup"
+msgstr "Primer Página"
+
+#: standard input:6
+#, fuzzy
+msgid "First name:"
+msgstr "Primer Página"
 
 #: standard input:5 ui/logs/index.scm:33
 msgid "First page"
@@ -1471,7 +2467,7 @@ msgstr "Pasta no está limpia"
 msgid "Folder name:"
 msgstr "Nome de la carpeta"
 
-#: standard input:36 input:35
+#: standard input:29 input:36 input:35
 msgid "Following users have access:"
 msgstr "Los usuarios no tienen acceso:"
 
@@ -1491,7 +2487,15 @@ msgstr "Destinatários phroibido:"
 msgid "Forbidden senders:"
 msgstr "Remitentes prohibido:"
 
-#: backend3/net-dnat:23 backend3/net-dnat:27
+#: ui/vm/dummystr.scm:23
+msgid "Force"
+msgstr ""
+
+#: ui/vm/dummystr.scm:72
+msgid "Format before using"
+msgstr ""
+
+#: backend3/net-dnat:29 backend3/net-dnat:23 backend3/net-dnat:27
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr "Adelantar %s pacotes para %s:%s para %s:%s"
 
@@ -1503,6 +2507,10 @@ msgstr "Fr"
 msgid "Fragment"
 msgstr "Fragmento"
 
+#: standard input:30
+msgid "Framebuffer post initialization."
+msgstr ""
+
 #: standard input:14 input:29 ui/sysinfo/index.scm:57
 msgid "Free"
 msgstr "Livre"
@@ -1511,17 +2519,31 @@ msgstr "Livre"
 msgid "Frequency (MHz)"
 msgstr "Frecuencia (Mhz)"
 
-#: standard input:50
+#: standard input:44 input:50
 #, fuzzy
 msgid "From port:"
 msgstr "porta:"
 
-#: backend3/bacula-backup:46 ui/pkg/groups/index.scm:89
+#: bin/bacula-alterator-sh-functions:41 ui/pkg/groups/index.scm:89
+#: backend3/bacula-backup:46
 msgid "GB"
 msgstr ""
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
-#: backend3/mirror:63
+#: standard input:8
+msgid "Games"
+msgstr ""
+
+#: backend3/openvpn-server:785
+msgid "Gateway address in VPN addresses pool"
+msgstr ""
+
+#: standard input:21
+#, fuzzy
+msgid "Gateway address:"
+msgstr "Escuchar la dirección:"
+
+#: backend3/lilo:108 backend3/mirror:60 helpers/lilo-hal.sh:22
+#: helpers/lilo-sysfs.sh:22 helpers/utils.sh:15 backend3/mirror:63
 msgid "Gb"
 msgstr "Gb"
 
@@ -1529,7 +2551,7 @@ msgstr "Gb"
 msgid "General options"
 msgstr "Opciones generales"
 
-#: standard input:9 input:2 input:14 input:8
+#: standard input:19 input:9 input:2 input:14 input:8
 msgid "General settings"
 msgstr "Configuraciones generales"
 
@@ -1537,15 +2559,21 @@ msgstr "Configuraciones generales"
 msgid "General settings..."
 msgstr "Configuraciones generales..."
 
-#: standard input:12 input:5 ui/root/index.scm:37 ui/users/index.scm:107
-#: ui/users/add/index.scm:70
+#: standard input:18 input:14 input:12 input:5 ui/root/index.scm:37
+#: ui/users/index.scm:107 ui/users/add/index.scm:70
 msgid "Generate"
 msgstr "Generar"
 
-#: standard input:9 input:2 ui/root/index.scm:30 ui/users/index.scm:100
-#: ui/users/add/index.scm:63
+#: standard input:15 input:11 input:9 input:2 ui/root/index.scm:30
+#: ui/users/index.scm:100 ui/users/add/index.scm:63
 msgid "Generate automatically"
 msgstr "Generar automaticamente"
+
+#.
+#: ui/sslkey/generate/index.scm:186
+#, fuzzy
+msgid "Generate key and sign request"
+msgstr "Download de el Requerido"
 
 #: standard input:7
 msgid "Get from CD/DVD"
@@ -1556,15 +2584,29 @@ msgstr ""
 msgid "Get time from NTP server:"
 msgstr "Tiempo del NTP servidor:"
 
-#: standard input:17
+#: standard input:1 input:17
 msgid "Graphical interface"
 msgstr "Interfaz Gráfica"
 
-#: standard input:6 ui/xinetd/index.scm:66
+#: standard input:15
+#, fuzzy
+msgid "Graphics"
+msgstr "gráficos"
+
+#: standard input:4
+#, fuzzy
+msgid "Graphics (full)"
+msgstr "gráficos"
+
+#: standard input:4
+msgid "Greeting"
+msgstr ""
+
+#: standard input:5 ui/xinetd/index.scm:33 input:6 ui/xinetd/index.scm:66
 msgid "Group:"
 msgstr "Grupo:"
 
-#: standard input:1 input:36
+#: standard input:1 input:31 input:36
 msgid "Groups"
 msgstr "Grupos"
 
@@ -1576,17 +2618,27 @@ msgstr "Acesso Convidado"
 msgid "HTTP server"
 msgstr "Servidor HTTP"
 
-#: standard input:7 input:6
+#: standard input:17 input:7 input:6
 msgid "HTTP server is restarting now. Please wait..."
 msgstr ""
 
-#: helpers/lilo-hal.sh:42 helpers/lilo-sysfs.sh:42
+#: standard input:4
+#, fuzzy
+msgid "HTTP/HTTPS"
+msgstr "Servidor Web (HTTP/HTTPS)"
+
+#: backend3/lilo:111 helpers/lilo-hal.sh:42 helpers/lilo-sysfs.sh:42
 msgid "Hard drive"
 msgstr "HD"
 
 #: standard input:7 ui/quota/index.scm:56
 msgid "Hard limit:"
 msgstr ""
+
+#: standard input:2
+#, fuzzy
+msgid "Harddisks"
+msgstr "HD"
 
 #.
 #: standard input:3 ui/net-eth/advanced/index.scm:50
@@ -1603,8 +2655,8 @@ msgstr "Ajustar automaticamente el reloj pelo GMT"
 msgid "Has conflict with ~S"
 msgstr "Hay conflicto con ~S"
 
-#: standard input:3 ui/sysconfig/base/index.scm:24 ui/wizard/index.scm:121
-#: input:2
+#: standard input:2 ui/sysconfig/base/index.scm:24 ui/wizard/index.scm:109
+#: input:3 ui/wizard/index.scm:121
 msgid "Help"
 msgstr "Ayuda"
 
@@ -1612,7 +2664,7 @@ msgstr "Ayuda"
 msgid "Help:"
 msgstr "Ayuda:"
 
-#: standard input:57 input:41
+#: standard input:40 input:27 input:4 input:57 input:41
 msgid "Hide help"
 msgstr "Ayuda Oculta"
 
@@ -1620,14 +2672,51 @@ msgstr "Ayuda Oculta"
 msgid "Hierarchy/From: "
 msgstr ""
 
+#. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
 #.
-#: standard input:5 ui/users/index.scm:84
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:23 input:5 ui/users/index.scm:84
 msgid "Home directory:"
 msgstr "Directorio Inicial:"
 
-#: standard input:54 input:39
+#: standard input:9
+#, fuzzy
+msgid "Host"
+msgstr "hostname:"
+
+#: backend3/trust:132 backend3/trust:163
+msgid "Host is down!"
+msgstr ""
+
+#: standard input:2 input:11 input:17
+#, fuzzy
+msgid "Host key:"
+msgstr "Borrar llave"
+
+#: standard input:12
+#, fuzzy
+msgid "Host:"
+msgstr "hostname:"
+
+#: standard input:37 input:2 input:54 input:39
 msgid "Hostname"
 msgstr "hostname:"
+
+#: standard input:8
+#, fuzzy
+msgid "Hosts:"
+msgstr "hostname:"
+
+#: ui/bacula/restore/restore/index.scm:45
+msgid "However you can try to continue"
+msgstr ""
 
 #: ui/html-messages.scm:55
 msgid "ICMP type"
@@ -1641,10 +2730,22 @@ msgstr "IMAP4"
 msgid "IMAP4 over TLS/SSL"
 msgstr "IMAP4 sobre TLS/SSL"
 
-#: standard input:22 input:34 backend3/net-wifi:227
+#: standard input:10 input:22 input:34 backend3/net-wifi:227
 msgid "IP address"
 msgstr "Dirección IP"
 
+#. #-#-#-#-#  alterator-backup-server.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-backup-server.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-backup-server.po (Alterator)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
 #.
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
@@ -1653,11 +2754,15 @@ msgstr "Dirección IP"
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
 #.
-#: standard input:2 input:27 input:10 ui/net-eth/index.scm:94
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:30 ui/backup-server/network/index.scm:75 input:13 input:2
+#: input:27 input:10 ui/net-eth/index.scm:94 input:29 input:45
 msgid "IP address:"
 msgstr "Dirección IP:"
 
-#: standard input:39
+#: standard input:33 input:39
 #, fuzzy
 msgid "IP-address:"
 msgstr "Dirección IP:"
@@ -1678,6 +2783,30 @@ msgstr ""
 "Si usted tiene cualquier CD o DVD para esta distribución <br> \n"
 " insira-os um por um e pressione botão 'Adicionar'"
 
+#: ui/net-openvpn/ca/index.scm:40
+#, fuzzy
+msgid "Import CA certificate"
+msgstr "Certificado"
+
+#.
+#: ui/net-openvpn/ca/index.scm:39
+#, fuzzy
+msgid "Import CA certificate:"
+msgstr "Certificado"
+
+#: backend3/net-openvpn:323
+msgid "Import CA failed"
+msgstr ""
+
+#: ui/sslkey/generate/index.scm:203
+msgid "Import user certificate"
+msgstr ""
+
+#.
+#: ui/sslkey/generate/index.scm:202
+msgid "Import user certificate:"
+msgstr ""
+
 #: standard input:10
 msgid "In (Kb)"
 msgstr "En (Kb)"
@@ -1691,6 +2820,18 @@ msgstr ""
 "automaticamente utilizando peso escrito en su arquivo config, pero usted "
 "puede elegir la variante manualmente"
 
+#: standard input:34
+msgid "Incoming rate (kb/s):"
+msgstr ""
+
+#: standard input:8
+msgid "Incoming traffic(Kb)"
+msgstr ""
+
+#: helpers/lilo-conf.sh:141
+msgid "Inconsistent Raid version information on"
+msgstr ""
+
 #: ui/std/base.scm:67
 msgid "Information"
 msgstr "Información"
@@ -1703,9 +2844,13 @@ msgstr "Informaciones fornecido para los clientes"
 msgid "Initial system setup"
 msgstr ""
 
-#: index.scm:167 ui/lilo/expert/index.scm:167
+#: ui/lilo/expert/index.scm:167 index.scm:167
 msgid "Initrd:"
 msgstr "Initrd:"
+
+#: ui/vm/dummystr.scm:26
+msgid "Inline Log Size"
+msgstr ""
 
 #: standard input:11 ui/quota/index.scm:68
 msgid "Inode hard limit:"
@@ -1719,7 +2864,13 @@ msgstr ""
 msgid "Inodes used:"
 msgstr ""
 
-#: index.scm:131 ui/lilo/index.scm:112 ui/lilo/expert/index.scm:131
+#: ui/bacula/restore/select/index.scm:8
+#, fuzzy
+msgid "Install a new system"
+msgstr "Instalación de paquetes..."
+
+#: ui/lilo/index.scm:108 ui/lilo/expert/index.scm:131 index.scm:131
+#: ui/lilo/index.scm:112
 msgid "Install boot loader on:"
 msgstr "Instale el gerenciador de inicialización en:"
 
@@ -1727,23 +2878,44 @@ msgstr "Instale el gerenciador de inicialización en:"
 msgid "Install sources"
 msgstr "Instalación de paquetes..."
 
+#: ui/wizard/index.scm:85 ui/wizard/index.scm:90
+#, fuzzy
+msgid "Installation"
+msgstr "Instalación completa"
+
 #: ui/notes/release-notes.scm:9
 msgid "Installation complete"
 msgstr "Instalación completa"
 
-#: ui/pkg/install/index.scm:37
+#: ui/livecd/install/index.scm:39
+#, fuzzy
+msgid "Installation is done"
+msgstr "Instalación completa"
+
+#: ui/pkg/install/index.scm:41
+#, fuzzy
+msgid "Installing additional software"
+msgstr "Instalación de paquetes"
+
+#: ui/pkg/install/index.scm:36 ui/pkg/install/index.scm:37
 msgid "Installing base system"
 msgstr "Instalación de paquetes..."
 
-#: ui/pkg/install/index.scm:79 ui/pkg/install/index.scm:78
+#: ui/pkg/install/index.scm:81 ui/pkg/install/index.scm:79
+#: ui/pkg/install/index.scm:78
 msgid "Installing packages..."
 msgstr "Instalación de paquetes..."
 
-#: ui/pkg/install/index.scm:39
+#: ui/pkg/install/index.scm:38 ui/pkg/install/index.scm:39
 msgid "Installing software"
 msgstr "Instalación de paquetes"
 
-#: standard input:10 ui/xinetd/index.scm:78
+#: ui/livecd/install/index.scm:36
+#, fuzzy
+msgid "Installing system..."
+msgstr "Instalación de paquetes..."
+
+#: standard input:9 ui/xinetd/index.scm:45 input:10 ui/xinetd/index.scm:78
 msgid "Instances:"
 msgstr "Casos:"
 
@@ -1751,15 +2923,16 @@ msgstr "Casos:"
 msgid "Interface"
 msgstr "Interfaces del IP"
 
-#: standard input:5 input:4
+#: standard input:5 input:23 input:20 input:4
 msgid "Interface language:"
 msgstr "Seleccione sua Lenguage"
 
-#: index.scm:142 ui/lilo/index.scm:129 ui/lilo/expert/index.scm:142
+#: ui/lilo/index.scm:125 ui/lilo/expert/index.scm:142 index.scm:142
+#: ui/lilo/index.scm:129
 msgid "Interface timeout:"
 msgstr "Tiempo de Interfaz:"
 
-#: index.scm:139 ui/lilo/expert/index.scm:139
+#: ui/lilo/expert/index.scm:139 index.scm:139
 msgid "Interface type:"
 msgstr "Tipo de interfaz:"
 
@@ -1777,9 +2950,24 @@ msgstr "Tipo de interfaz:"
 #.
 #. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
 #.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-eth.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#.
 #: standard input:10 input:1 ui/net-eth/advanced/index.scm:42 input:4
-#: ui/net-pppoe/index.scm:71 input:2 ui/net-wifi/index.scm:103 input:6
-#: input:13 ui/xinetd/index.scm:87
+#: ui/net-pppoe/index.scm:71 input:2 ui/net-wifi/index.scm:103 input:5
+#: input:12 ui/xinetd/index.scm:54 input:6 input:13 ui/xinetd/index.scm:87
 msgid "Interface:"
 msgstr "Interfaz:"
 
@@ -1787,12 +2975,12 @@ msgstr "Interfaz:"
 msgid "Interfaces"
 msgstr "Interfaz de IP"
 
-#: standard input:38
+#: standard input:32 input:38
 #, fuzzy
 msgid "Internal networks"
 msgstr "Otra rede"
 
-#: ui/pkg/cdrom/index.scm:10
+#: ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:10
 msgid "Into drive"
 msgstr "Driver:"
 
@@ -1800,25 +2988,76 @@ msgstr "Driver:"
 msgid "Invalid address range"
 msgstr "Dirección de la línea inválida"
 
-#: backend3/ahttpd-server:161 backend3/ahttpd-server:156
+#: backend3/ahttpd-server:161 backend3/sslkey:223 backend3/ahttpd-server:156
 msgid "Invalid certificate file"
 msgstr "Certificado Inválido"
 
-#: backend3/pkg-register:68
+#: backend3/openvpn-server:472
+#, fuzzy
+msgid "Invalid config value 'dev'"
+msgstr "Valor del Boolen inválido"
+
+#: backend3/net-openvpn:112
+#, fuzzy
+msgid "Invalid config value 'dev':"
+msgstr "Valor del Boolen inválido"
+
+#: backend3/cd2:65 backend3/pkg-register:68
 msgid "Invalid disk"
 msgstr "Disco Inválido"
+
+#. guile-evms
+#: ui/vm/dummystr.scm:80
+#, fuzzy
+msgid "Invalid mountpoint"
+msgstr "Punto de montaje"
+
+#: ui/vm/dummystr.scm:81
+msgid "Invalid mountpoint for SWAPFS"
+msgstr ""
+
+#: ui/vm/dummystr.scm:82
+msgid "Invalid mountpoint: not a SWAPFS"
+msgstr ""
+
+#: ui/vm/dummystr.scm:83
+msgid "Invalid mountpoint: should start with /mnt"
+msgstr ""
 
 #: backend3/pkg-sources:89
 msgid "Invalid or unsupported protocol. Should be http, ftp or file"
 msgstr "No válido o no suportado el protocolo. Debe ser http, ftp o archivo"
 
-#: backend3/mirror:247
+#: backend3/mirror:368 backend3/mirror:247
 msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
 msgstr "Inválido o protocolo no suportado. Deve ser http, ftp ou archivo"
 
-#: backend3/root:38
+#: backend3/pkg-sources:91
+#, fuzzy
+msgid ""
+"Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
+msgstr "No válido o no suportado el protocolo. Debe ser http, ftp o archivo"
+
+#: backend3/ca:302
+#, fuzzy
+msgid "Invalid sign request"
+msgstr "Download de el Requerido"
+
+#: backend3/root:38 backend3/trust:259
 msgid "Invalid ssh key"
 msgstr "llave ssh inválida"
+
+#: standard input:38
+msgid "Issued on:"
+msgstr ""
+
+#: standard input:32
+msgid "Issuer"
+msgstr ""
+
+#: ui/vm/dummystr.scm:9
+msgid "JFS File System Interface Module"
+msgstr ""
 
 #: interfaces/guile/ahttpd/translate.scm:53
 msgid "January"
@@ -1832,20 +3071,24 @@ msgstr "Julio"
 msgid "June"
 msgstr "Junio"
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
-#: backend3/mirror:62
+#: backend3/mirror:59 backend3/mirror:144 helpers/lilo-hal.sh:22
+#: helpers/lilo-sysfs.sh:22 helpers/utils.sh:15 backend3/mirror:62
 msgid "Kb"
 msgstr "Kb"
 
-#: interfaces/guile/backend/squid.scm:51
+#: interfaces/guile/backend/squid.scm:77 interfaces/guile/backend/squid.scm:51
 msgid "Kerberos"
 msgstr ""
 
-#: helpers/lilo-parser.sh:341
+#: interfaces/guile/backend/squid.scm:79
+msgid "Kerberos+PAM"
+msgstr ""
+
+#: helpers/lilo-parser.sh:348 helpers/lilo-parser.sh:341
 msgid "Kernel image is unspecified."
 msgstr "Imagen del Kernel es indeterminada."
 
-#: index.scm:165 ui/lilo/expert/index.scm:165
+#: ui/lilo/expert/index.scm:165 index.scm:165
 msgid "Kernel image:"
 msgstr "Imagen del Kernel:"
 
@@ -1857,29 +3100,73 @@ msgstr "Versión del Kermel"
 msgid "Kernel version:"
 msgstr "Imagens del Kermel"
 
+#: standard input:4
+#, fuzzy
+msgid "Key created by:"
+msgstr "Recrear"
+
+#: backend3/trust:135
+msgid "Key does not match! New key:"
+msgstr ""
+
+#: backend3/openvpn-server:876
+#, fuzzy
+msgid "Key not found!"
+msgstr "Archivo no encontrado"
+
+#.
+#: standard input:4 ui/net-openvpn/index.scm:99
+msgid "Key:"
+msgstr ""
+
 #: standard input:1
 msgid "Keyboard"
 msgstr "Teclado"
 
-#: backend3/auth:33 backend3/samba:103
+#: standard input:5 ui/net-openvpn/index.scm:106
+#, fuzzy
+msgid "Keys managament..."
+msgstr "Administração de Usuário"
+
+#: standard input:3 backend3/samba:103 backend3/auth:33
 msgid "LDAP"
 msgstr "LDAP"
 
-#: standard input:2 ui/auth/index.scm:38 input:12
+#: standard input:12 input:2 ui/auth/index.scm:38
 msgid "LDAP server:"
 msgstr "Servidor LDAP:"
+
+#: standard input:22 input:46
+msgid ""
+"LDAP stands for Lightweight Directory Access Protocol, used for implementing "
+"the industry standard directory services."
+msgstr ""
 
 #: backend3/dovecot:44 backend3/dovecot:36
 msgid "LOGIN"
 msgstr "LOGIN"
 
-#: helpers/lilo-parser.sh:331
+#: standard input:8 ui/net-openvpn/index.scm:117 input:26
+msgid "LZO compression"
+msgstr ""
+
+#: helpers/lilo-parser.sh:338 helpers/lilo-parser.sh:331
 msgid "Label is empty."
 msgstr "La clasificación está vacía."
 
-#: index.scm:163 ui/lilo/expert/index.scm:163
+#: ui/lilo/expert/index.scm:163 index.scm:163
 msgid "Label:"
 msgstr "Clasificación:"
+
+#: standard input:53
+#, fuzzy
+msgid "Last backup"
+msgstr "Última Página"
+
+#: standard input:5
+#, fuzzy
+msgid "Last name:"
+msgstr "Última Página"
 
 #: standard input:6 ui/logs/index.scm:34
 msgid "Last page"
@@ -1899,11 +3186,17 @@ msgstr ""
 msgid "Last request parameters"
 msgstr "Download de el Requerido"
 
+#: standard input:54
+#, fuzzy
+msgid "Last status"
+msgstr "Download de el Requerido"
+
 #: standard input:1
 msgid "Last update of the proxy-server configuration:"
 msgstr ""
 
-#: standard input:18 ui/bacula/backup/index.scm:25
+#: standard input:23 ui/bacula/local-backup/index.scm:23 input:18
+#: ui/bacula/backup/index.scm:25
 msgid "Latest backup:"
 msgstr ""
 
@@ -1914,6 +3207,15 @@ msgstr "Layout de comutación:"
 #: standard input:5 ui/xkb/index.scm:33
 msgid "Layouts:"
 msgstr "Layouts:"
+
+#: standard input:1
+#, fuzzy
+msgid "Ldap user accounts"
+msgstr "Cuentas de usuários locales"
+
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
+msgstr ""
 
 #: standard input:2
 msgid "License"
@@ -1931,12 +3233,16 @@ msgstr "Opciones Lilo:"
 msgid "Lines %s-%s of %s"
 msgstr "Lineas %s-%s of %s"
 
-#: index.scm:27 index.scm:35 ui/lilo/expert/index.scm:27
-#: ui/lilo/expert/index.scm:35
+#: backend3/bacula-client-backup:68
+msgid "Linux"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35 index.scm:27
+#: index.scm:35
 msgid "Linux kernel"
 msgstr "Linux Kernel"
 
-#: ui/lilo/index.scm:51
+#: backend3/lilo:112 ui/lilo/index.scm:51
 msgid "Linux partition"
 msgstr "Partición Linux"
 
@@ -1944,31 +3250,46 @@ msgstr "Partición Linux"
 msgid "List creator password:"
 msgstr "Lista de Contraseñas Creadas"
 
-#: standard input:12 input:11 input:5
+#: standard input:22 input:12 input:11 input:5
 msgid "Listen address:"
 msgstr "Escuchar la dirección:"
 
-#: ui/lilo/index.scm:126
+#: standard input:41
+msgid "Listen and dispatch ACPI events from the kernel"
+msgstr ""
+
+#: ui/lilo/index.scm:122 ui/lilo/index.scm:126
 msgid "Load by default:"
 msgstr "Rotar predeterminadamiente"
 
-#: ui/lilo/index.scm:117
+#: ui/lilo/index.scm:113 ui/lilo/index.scm:117
 msgid "Load other OS:"
 msgstr "Rotar otros SO:"
 
+#: ui/pkg/install/index.scm:39 ui/pkg/install/index.scm:42
 #: ui/pkg/install/index.scm:40
 msgid "Loading package information..."
 msgstr ""
 
-#: backend3/auth:30 backend3/samba:100
+#: backend3/ca:170
+#, fuzzy
+msgid "Local"
+msgstr "Local de los archivos"
+
+#: backend3/ca:126
+#, fuzzy
+msgid "Local certificates"
+msgstr "Certificado"
+
+#: backend3/samba:100 backend3/auth:30
 msgid "Local files"
 msgstr "Local de los archivos"
 
-#: standard input:16
+#: standard input:4 input:16
 msgid "Local mirror"
 msgstr "Limpiar Direcciones de \"Mirror\""
 
-#: standard input:4
+#: standard input:20 input:4
 msgid "Local mirror of repository"
 msgstr "Sitio de Mirrors"
 
@@ -1980,19 +3301,36 @@ msgstr "Cuentas de usuários locales"
 msgid "Local users settings"
 msgstr "Usuários de configuraciones local"
 
-#: standard input:23 input:22
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:6 ui/sslkey/generate/index.scm:174 input:23 input:22
 msgid "Location (L):"
 msgstr "Localização:"
 
-#: standard input:14 input:13
+#: standard input:7
+#, fuzzy
+msgid "Log"
+msgstr "Sesión"
+
+#: ui/vm/dummystr.scm:22
+msgid "Log Size"
+msgstr ""
+
+#: standard input:24 input:14 input:13
 msgid "Logging:"
 msgstr "Logando:"
 
-#: standard input:6 input:5
+#: standard input:6 input:24 input:21 input:5
 msgid "Login"
 msgstr "Sesión"
 
-#: standard input:58 input:42
+#: standard input:41 input:28 input:5 input:58 input:42
 msgid "Logout"
 msgstr ""
 
@@ -2004,12 +3342,39 @@ msgstr "Registros:"
 msgid "MAC address"
 msgstr "Dirección MAC"
 
-#: standard input:1 input:28
+#: standard input:30
+#, fuzzy
+msgid "MAC address restriction:"
+msgstr "Dirección MAC:"
+
+#: standard input:1 input:28 input:31
 msgid "MAC address:"
 msgstr "Dirección MAC:"
 
-#: backend3/bacula-backup:45 ui/pkg/groups/index.scm:88
+#: bin/bacula-alterator-sh-functions:40 ui/pkg/groups/index.scm:88
+#: backend3/bacula-backup:45
 msgid "MB"
+msgstr ""
+
+#: ui/vm/dummystr.scm:49
+msgid "MD RAID 4/5 Region Manager"
+msgstr ""
+
+#. raidx
+#: ui/vm/dummystr.scm:47
+msgid "MD RAID0 Region Manager"
+msgstr ""
+
+#: ui/vm/dummystr.scm:48
+msgid "MD Raid 1 Region Manager"
+msgstr ""
+
+#: standard input:41
+msgid "MD5 Fingerprint:"
+msgstr ""
+
+#: ui/vm/dummystr.scm:35
+msgid "MFT zone multiplier"
 msgstr ""
 
 #: standard input:7 ui/net-pppoe/index.scm:81 input:10
@@ -2025,7 +3390,7 @@ msgstr "Email"
 msgid "Mail aliases"
 msgstr "Alias de Email"
 
-#: ui/html-messages.scm:64
+#: standard input:7 ui/html-messages.scm:64
 msgid "Mail server (IMAP)"
 msgstr "Servidor de correo (IMAP)"
 
@@ -2033,11 +3398,11 @@ msgstr "Servidor de correo (IMAP)"
 msgid "Mail server (POP2)"
 msgstr "Servidor de correo (POP2)"
 
-#: ui/html-messages.scm:66
+#: standard input:12 ui/html-messages.scm:66
 msgid "Mail server (POP3)"
 msgstr "Servidor de correo (POP3)"
 
-#: ui/html-messages.scm:69
+#: standard input:19 ui/html-messages.scm:69
 msgid "Mail server (SMTP)"
 msgstr "Servidor de correo (SMTP) "
 
@@ -2049,6 +3414,24 @@ msgstr "Servidor de Grupo de Emails"
 #, fuzzy
 msgid "Main settings"
 msgstr "Ajustes"
+
+#: ui/vm/table.scm:222 ui/vm/table.scm:225
+msgid "Make Filesystem"
+msgstr ""
+
+#: standard input:15
+#, fuzzy
+msgid "Manage domains"
+msgstr "Procurar Dominios:"
+
+#: standard input:18
+#, fuzzy
+msgid "Manage selected"
+msgstr "Remover seleccionado"
+
+#: standard input:8
+msgid "Managed hosts"
+msgstr ""
 
 #: ui/html-messages.scm:24
 msgid "Mangle table"
@@ -2070,6 +3453,15 @@ msgstr "Marcar apenas"
 msgid "Master boot"
 msgstr "Boot Principal"
 
+#: standard input:3 input:10
+#, fuzzy
+msgid "Master server"
+msgstr "Servidor de Grupo de Emails"
+
+#: standard input:5
+msgid "Master server key:"
+msgstr ""
+
 #: standard input:17
 msgid "Maximum mailbox size (Mb):"
 msgstr "Máximo de tamaño de buzón (MB):"
@@ -2082,8 +3474,8 @@ msgstr "Tamanho Máximo da Mensagem (Mb):"
 msgid "May"
 msgstr "Mayo"
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
-#: backend3/mirror:61
+#: backend3/lilo:107 backend3/mirror:58 helpers/lilo-hal.sh:22
+#: helpers/lilo-sysfs.sh:22 helpers/utils.sh:15 backend3/mirror:61
 msgid "Mb"
 msgstr "Mb"
 
@@ -2107,9 +3499,31 @@ msgstr "Uso de la memoria"
 msgid "Method: "
 msgstr ""
 
+#: standard input:10
+msgid "Mirror every day"
+msgstr ""
+
+#: standard input:12
+msgid "Mirror every month at day:"
+msgstr ""
+
+#: standard input:11
+msgid "Mirror every week at:"
+msgstr ""
+
+#: backend3/ca:154
+#, fuzzy
+msgid "Missing sign request"
+msgstr "Download de el Requerido"
+
 #: interfaces/guile/ahttpd/translate.scm:45
 msgid "Mo"
 msgstr "Mo"
+
+#: standard input:17
+#, fuzzy
+msgid "Mobile phone:"
+msgstr "Zona Horaria"
 
 #: standard input:4
 msgid "Mode:"
@@ -2123,11 +3537,11 @@ msgstr "Nombre de la carpeta:"
 msgid "Model:"
 msgstr "Modelo:"
 
-#: standard input:35 input:34
+#: standard input:28 input:35 input:34
 msgid "Module access settings"
 msgstr "Módulo de acceso al configuraciones"
 
-#: standard input:60 input:44
+#: standard input:43 input:60 input:44
 msgid "Module access settings..."
 msgstr "Módulo de acceso a las configuraciones"
 
@@ -2148,25 +3562,104 @@ msgstr "Monitor:"
 msgid "Month"
 msgstr "1 mês"
 
+#: ui/vm/table.scm:227
+msgid "Mount Filesystem"
+msgstr ""
+
+#. assign
+#: ui/vm/dummystr.scm:71
+#, fuzzy
+msgid "Mount Options"
+msgstr "Punto de montaje"
+
+#: ui/vm/table.scm:193
+#, fuzzy
+msgid "Mount options"
+msgstr "Punto de montaje"
+
 #: standard input:12 input:27 ui/sysinfo/index.scm:57
 msgid "Mount point"
 msgstr "Punto de montaje"
 
+#: ui/vm/table.scm:192
+#, fuzzy
+msgid "Mounted on"
+msgstr "Punto de montaje"
+
+#: ui/vm/dummystr.scm:85 ui/vm/table.scm:191
+#, fuzzy
+msgid "Mountpoint"
+msgstr "Punto de montaje"
+
+#: standard input:55
+msgid "Mounts and unmounts all NFS, SMB, CIFS and NCP mount points."
+msgstr ""
+
+#: standard input:13
+msgid "Multimedia"
+msgstr ""
+
+#: standard input:11
+msgid "Multimedia (full)"
+msgstr ""
+
 #: ui/html-messages.scm:28
 msgid "NAT table"
 msgstr "Tabla NAT"
+
+#: standard input:5
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP networks. This "
+"service provides NFS file locking functionality."
+msgstr ""
+
+#: standard input:47
+msgid ""
+"NFS is a popular protocol for file sharing across TCP/IP networks. This "
+"service provides NFS server functionality, which is configured via the /etc/"
+"exports and /etc/sysconfig/nfs files."
+msgstr ""
+
+#: standard input:34
+msgid "NFS-related daemon that manages RPCSEC GSS contexts"
+msgstr ""
+
+#: standard input:42
+msgid ""
+"NFSv4-related daemon that maps usernames to UID/GID numbers and vice versa"
+msgstr ""
+
+#: ui/vm/dummystr.scm:14
+msgid "NTFS File System Interface Module"
+msgstr ""
 
 #: standard input:2 ui/datetime/system/index.scm:24
 #: ui/datetime/installer/edit/index.scm:24
 msgid "NTP server:"
 msgstr "Servidor NTP:"
 
-#: ui/users/add/index.scm:51 standard input:2
+#: standard input:17 ui/vm/blonde.scm:45
+#, fuzzy
+msgid "Name"
+msgstr "Nombre:"
+
+#. lvm2 vg
+#: ui/vm/dummystr.scm:39
+msgid "Name for the new LVM2 container."
+msgstr ""
+
+#. lvm2 lv
+#: ui/vm/dummystr.scm:42
+msgid "Name for the new LVM2 region."
+msgstr ""
+
+#: standard input:4 ui/users/add/index.scm:51 input:2
 msgid "Name:"
 msgstr "Nombre:"
 
 #.
-#: standard input:11 ui/net-eth/index.scm:98
+#: standard input:31 ui/backup-server/network/index.scm:79 input:11
+#: ui/net-eth/index.scm:98
 msgid "Netmask:"
 msgstr "Máscara de Rede:"
 
@@ -2174,7 +3667,11 @@ msgstr "Máscara de Rede:"
 msgid "Network"
 msgstr "Rede"
 
-#: standard input:2 ui/html-messages.scm:1 ui/html-messages.scm:11
+#: backend3/openvpn-server:981
+msgid "Network conflicts with other client network"
+msgstr ""
+
+#: standard input:23 input:2 ui/html-messages.scm:1 ui/html-messages.scm:11
 #: ui/html-messages.scm:18 ui/html-messages.scm:33
 msgid "Network firewall"
 msgstr "Configuraciones de Firewall"
@@ -2186,6 +3683,16 @@ msgstr ""
 #: standard input:1
 msgid "Network installation server"
 msgstr ""
+
+#: standard input:20
+#, fuzzy
+msgid "Network management (SNMP)"
+msgstr "Manejo de red (SNMP)"
+
+#: standard input:6 input:17 input:22
+#, fuzzy
+msgid "Network mask:"
+msgstr "Nombre de la Rede:"
 
 #: ui/html-messages.scm:70
 msgid "Network menegement (SNMP)"
@@ -2204,7 +3711,12 @@ msgstr "Configuraciones de Rede"
 msgid "Network traffic"
 msgstr "Tráfico de Red"
 
-#: standard input:34
+#: standard input:11 ui/net-openvpn/index.scm:130
+#, fuzzy
+msgid "Network tunnel (TUN)"
+msgstr "Manejo de red (SNMP)"
+
+#: standard input:30 input:34
 #, fuzzy
 msgid "Networks"
 msgstr "Rede"
@@ -2213,7 +3725,12 @@ msgstr "Rede"
 msgid "Networks found:"
 msgstr "Redes encontradas:"
 
-#: standard input:13 input:47 input:59
+#: standard input:4
+#, fuzzy
+msgid "Networks:"
+msgstr "Rede"
+
+#: standard input:8 input:41 input:53 input:13 input:47 input:59
 #, fuzzy
 msgid "New"
 msgstr "Rede"
@@ -2235,9 +3752,29 @@ msgstr "Nuevo alias:"
 msgid "New base DN:"
 msgstr "Base DN:"
 
+#: standard input:40
+#, fuzzy
+msgid "New client:"
+msgstr "Nueva cuenta:"
+
 #: standard input:1 ui/net-pppoe/index.scm:55 ui/net-pptp/index.scm:65
 msgid "New connection..."
 msgstr "Nueva conección..."
+
+#: standard input:10 ui/net-openvpn/index.scm:126
+#, fuzzy
+msgid "New connection:"
+msgstr "Nueva conección..."
+
+#: standard input:1
+#, fuzzy
+msgid "New domain:"
+msgstr "Procurar Dominios:"
+
+#: standard input:20
+#, fuzzy
+msgid "New email:"
+msgstr "Nuevo alias:"
 
 #: standard input:27
 msgid "New folder:"
@@ -2256,6 +3793,17 @@ msgstr "Adiccionar nuevas imagens:"
 msgid "New key:"
 msgstr "Nueva llave"
 
+#: standard input:5 input:16
+#, fuzzy
+msgid "New network:"
+msgstr "Rede"
+
+#: standard input:15 input:33 input:37
+#: ui/bacula/local-backup/advanced/index.scm:36
+#, fuzzy
+msgid "New path:"
+msgstr "Nueva cuenta:"
+
 #: ui/html-messages.scm:9
 msgid "New rule"
 msgstr "Nueva norma"
@@ -2264,7 +3812,8 @@ msgstr "Nueva norma"
 msgid "New rule number"
 msgstr "Nueva norma numérica"
 
-#: standard input:7 ui/pkg/sources/mirrors/index.scm:49
+#: standard input:6 ui/pkg/sources/mirrors/index.scm:56 input:7
+#: ui/pkg/sources/mirrors/index.scm:49
 msgid "New source:"
 msgstr "Nueva fuente"
 
@@ -2272,28 +3821,47 @@ msgstr "Nueva fuente"
 msgid "New static address:"
 msgstr "Direcciones Estaticas"
 
+#: ui/livecd/finish/index.scm:9
+msgid "New system is available at /mnt/destination mount point."
+msgstr ""
+
 #: ui/users/add/index.scm:46
 msgid "New user account"
 msgstr "Nueva cuenta del usuário"
 
-#: standard input:38 input:37
+#: standard input:31 input:38 input:37
 msgid "New user:"
 msgstr "Nuevo Usuario"
 
+#: standard input:21 ui/sslkey/index.scm:34
+msgid "New..."
+msgstr ""
+
 #: standard input:4 ui/logs/index.scm:31 ui/sysconfig/base/index.scm:25
-#: ui/wizard/index.scm:38 ui/wizard/index.scm:42 ui/wizard/index.scm:46
+#: ui/wizard/index.scm:34 ui/wizard/index.scm:38 ui/wizard/index.scm:42
+#: ui/wizard/index.scm:46
 msgid "Next"
 msgstr "Siguiente"
 
-#: interfaces/guile/workflow/card-index.scm:144 backend3/samba:94
-#: ui/x11/c-messages.scm:3 interfaces/guile/workflow/card-index.scm:150
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr ""
+
+#: ui/mirror/repository/ajax.scm:51 backend3/samba:94 ui/x11/c-messages.scm:3
+#: interfaces/guile/workflow/card-index.scm:144
+#: interfaces/guile/workflow/card-index.scm:150
 msgid "No"
 msgstr "No"
 
-#: interfaces/guile/backend/squid.scm:50
+#: interfaces/guile/backend/squid.scm:76 interfaces/guile/backend/squid.scm:50
 #, fuzzy
 msgid "No authentication"
 msgstr "Autenticación (SASL)"
+
+#: helpers/lilo-conf.sh:98
+#, fuzzy
+msgid "No boot device"
+msgstr "Interfaz ROOT"
 
 #: backend3/netinst:18
 msgid "No image"
@@ -2311,15 +3879,29 @@ msgstr "No se encontraron objectos"
 msgid "No password"
 msgstr "Contraseña"
 
-#: interfaces/guile/backend/squid.scm:48
+#: standard input:49 input:70
+msgid "No registered clients found"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:74 interfaces/guile/backend/squid.scm:48
 msgid "Normal"
+msgstr ""
+
+#: helpers/lilo-conf.sh:132
+msgid "Not a RAID install, 'raid-extra-boot=' not allowed"
 msgstr ""
 
 #: backend3/net-wifi:402 backend3/net-wifi:428 backend3/net-wifi:438
 msgid "Not a wireless interface"
 msgstr "Nigua interfaz wireless"
 
-#: standard input:40
+#. misc
+#: ui/vm/dummystr.scm:78
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+msgstr ""
+
+#: standard input:33 input:40
 #, fuzzy
 msgid "Note:"
 msgstr "Porta:"
@@ -2328,13 +3910,36 @@ msgstr "Porta:"
 msgid "November"
 msgstr "Noviembre"
 
+#: ui/vm/dummystr.scm:44
+msgid "Number of stripes for the new LVM2 region."
+msgstr ""
+
+#: ui/vm/dummystr.scm:66
+msgid "Number of stripes for the new portion of the region."
+msgstr ""
+
+#: interfaces/guile/ajax.scm:246 standard input:69
 #: ui/datetime/system/timezone/index.scm:59
-#: ui/datetime/installer/edit/index.scm:42 standard input:5
-#: ui/net-eth/advanced/index.scm:66 input:15 ui/net-wifi/index.scm:144
-#: ui/pkg/sources/mirrors/index.scm:59 input:19 input:21
+#: ui/datetime/installer/edit/index.scm:42 input:5
+#: ui/net-eth/advanced/index.scm:66 input:15 ui/net-openvpn/ca/index.scm:48
+#: ui/net-wifi/index.scm:144 ui/sslkey/generate/index.scm:212
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109 input:19 input:21
 #: ui/x11/monitor/index.scm:22 ui/x11/driver/index.scm:25
+#: ui/pkg/sources/mirrors/index.scm:59
 msgid "OK"
 msgstr "OK"
+
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr ""
+
+#: ui/vm/dummystr.scm:45
+msgid "Objects (PVs) to place the new LVM2 region on."
+msgstr ""
+
+#: ui/vm/dummystr.scm:67
+msgid "Objects (PVs) to use for the new portion of the region."
+msgstr ""
 
 #: interfaces/guile/ahttpd/translate.scm:62
 msgid "October"
@@ -2344,7 +3949,20 @@ msgstr "Outubro"
 msgid "Off"
 msgstr "Apagado"
 
-#: standard input:17 ui/bacula/backup/index.scm:23
+#: standard input:9
+msgid "Office Suite"
+msgstr ""
+
+#: standard input:3
+msgid "Office Suite (full)"
+msgstr ""
+
+#: ui/vm/dummystr.scm:3
+msgid "Offset"
+msgstr ""
+
+#: standard input:22 ui/bacula/local-backup/index.scm:21 input:17
+#: ui/bacula/backup/index.scm:23
 msgid "Oldest backup:"
 msgstr ""
 
@@ -2356,27 +3974,84 @@ msgstr "Ligar, con filtro de contenido"
 msgid "On, without content filtering"
 msgstr "Ligar, sin Filtro de Contenido"
 
-#: standard input:12 ui/xinetd/index.scm:84
+#: helpers/lilo-conf.sh:142
+msgid "Only RAID1 devices are supported as boot devices"
+msgstr ""
+
+#: standard input:11 ui/xinetd/index.scm:51 input:12 ui/xinetd/index.scm:84
 msgid "Only from:"
 msgstr "Apenas de:"
 
-#: standard input:20
+#: standard input:25
+msgid "OpenSSH server daemon"
+msgstr ""
+
+#: standard input:16
+msgid "OpenVPN"
+msgstr ""
+
+#: standard input:1
+#, fuzzy
+msgid "OpenVPN-connections"
+msgstr "PPTP conecciones"
+
+#: standard input:1
+msgid "OpenVPN-server"
+msgstr ""
+
+#: standard input:8 input:20
 msgid "Operating system information and setup"
 msgstr "Información del sistema operativo y la configuración"
 
-#: standard input:25 input:24
+#: ui/vm/dummystr.scm:89
+msgid "Operation not permitted"
+msgstr ""
+
+#: ui/vm/popup.scm:96 ui/vm/ortodox.scm:89
+#, fuzzy
+msgid "Options"
+msgstr "Acción"
+
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:30 input:35 input:47 input:8
+#: ui/sslkey/generate/index.scm:177 input:25 input:24
 msgid "Organization (O):"
 msgstr "Empresa"
 
-#: standard input:27 input:26
+#: standard input:14
+#, fuzzy
+msgid "Organization:"
+msgstr "Empresa"
+
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-sslkey.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:29 input:34 input:10 ui/sslkey/generate/index.scm:180
+#: input:27 input:26
 msgid "Organizational Unit (OU):"
 msgstr "Unidade:"
+
+#: backend3/ca:270
+msgid "Organizaton must be defined"
+msgstr ""
 
 #: standard input:3
 msgid "Original URL:"
 msgstr ""
 
-#: standard input:3 backend3/ulogd:130
+#: standard input:37 input:15 backend3/ulogd:243 input:3 backend3/ulogd:130
 msgid "Other"
 msgstr "Otro"
 
@@ -2384,12 +4059,12 @@ msgstr "Otro"
 msgid "Other driver..."
 msgstr "Otro dirver..."
 
-#: index.scm:27 index.scm:35 ui/lilo/expert/index.scm:27
-#: ui/lilo/expert/index.scm:35
+#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35 index.scm:27
+#: index.scm:35
 msgid "Other loader"
 msgstr "Outro rodador"
 
-#: helpers/lilo-parser.sh:336
+#: helpers/lilo-parser.sh:343 helpers/lilo-parser.sh:336
 msgid "Other loader device is unspecified."
 msgstr "Outro dispositivo para cargar está indeterminado."
 
@@ -2397,7 +4072,7 @@ msgstr "Outro dispositivo para cargar está indeterminado."
 msgid "Other network"
 msgstr "Otra rede"
 
-#: standard input:4
+#: standard input:16 input:4
 msgid "Other system settings"
 msgstr "Otras configuraciones del Sistema"
 
@@ -2408,6 +4083,18 @@ msgstr "Otro Vendedor"
 #: standard input:11
 msgid "Out (Kb)"
 msgstr "Fuera"
+
+#: standard input:35
+msgid "Outcoming rate (kb/s):"
+msgstr ""
+
+#: standard input:9
+msgid "Outgoing traffic(Kb)"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:78
+msgid "PAM"
+msgstr ""
 
 #: backend3/dovecot:43 backend3/dovecot:35
 msgid "PLAIN"
@@ -2437,7 +4124,12 @@ msgstr "PPPoE conecciones"
 msgid "PPTP connections"
 msgstr "PPTP conecciones"
 
-#: interfaces/guile/backend/squid.scm:54
+#: ui/vm/dummystr.scm:5
+#, fuzzy
+msgid "Partition Type"
+msgstr "particíon"
+
+#: interfaces/guile/backend/squid.scm:82 interfaces/guile/backend/squid.scm:54
 msgid "Passthrough"
 msgstr ""
 
@@ -2472,41 +4164,63 @@ msgstr ""
 "#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
 "Contraseña:"
 
-#: backend3/mailman:130 backend3/mailman:137 backend3/root:88
-#: backend3/samba:237 backend3/users:207 backend3/users:235
+#: backend3/ldap-users:171 backend3/mailman:130 backend3/mailman:137
+#: backend3/root:88 backend3/samba:237 backend3/users:207 backend3/users:235
 msgid "Passwords mismatch"
 msgstr "Contraseña"
+
+#: standard input:7
+msgid "Patronym:"
+msgstr ""
 
 #: ui/x11/c-messages.scm:4
 msgid "Pause"
 msgstr "Pausar"
 
-#: standard input:11 ui/xinetd/index.scm:81
+#: standard input:10 ui/xinetd/index.scm:48 input:11 ui/xinetd/index.scm:81
 msgid "Per source:"
 msgstr "por fuente:"
+
+#: standard input:3
+#, fuzzy
+msgid "Period from:"
+msgstr "Período:"
 
 #: standard input:3
 msgid "Period:"
 msgstr "Período:"
 
-#: backend3/bacula-backup:196
+#: standard input:16
+msgid "Phone:"
+msgstr ""
+
+#: ui/vm/table.scm:122
+msgid "Please assign \"/\" mount point"
+msgstr ""
+
+#: backend3/bacula-local-backup:180 backend3/bacula-backup:196
 #, fuzzy
 msgid "Please choose backup disk"
 msgstr "Por favor insira un Disco"
 
-#: backend3/bacula-backup:204
+#: backend3/bacula-local-backup:188 backend3/bacula-backup:204
 msgid "Please define backup start time"
 msgstr ""
 
-#: ui/pkg/cdrom/index.scm:8
+#: ui/pkg/cdrom/index.scm:7 ui/pkg/cdrom/index.scm:8
 msgid "Please insert CDROM labeled as"
 msgstr "Por favor, introduzca la etiqueta de CD-ROM"
 
-#: backend3/pkg-register:62
+#: ui/cd2/index.scm:20
+#, fuzzy
+msgid "Please insert an additional disk"
+msgstr "Por favor insira un Disco"
+
+#: backend3/cd2:63 backend3/pkg-register:62
 msgid "Please insert disk"
 msgstr "Por favor insira un Disco"
 
-#: standard input:2 input:1
+#: standard input:2 input:21 input:18 input:1
 msgid "Please login"
 msgstr "Por Favor Inicie la sesión"
 
@@ -2515,9 +4229,19 @@ msgstr "Por Favor Inicie la sesión"
 msgid "Please select keyboard switch type:"
 msgstr "Seleccione su país:"
 
+#: ui/chainmail/firsttime/ajax.scm:71 ui/office-server/firsttime/ajax.scm:89
+#, fuzzy
+msgid "Please select server role"
+msgstr "Seleccione la Zona Horaria:"
+
 #: ui/notes/license.scm:8 ui/license/index.scm:8
 msgid "Please take a moment to read the license agreement now."
 msgstr "Por favor, lea el contrato"
+
+#: ui/vm/functions.scm:3
+#, fuzzy
+msgid "Please wait..."
+msgstr "Por Favor Inicie la sesión"
 
 #.
 #: standard input:10 ui/datetime/system/timezone/index.scm:46
@@ -2535,25 +4259,44 @@ msgstr "Seleccione la Zona Horaria:"
 msgid "Port (optional):"
 msgstr "Porta (Opcionale):"
 
-#: standard input:1
+#: standard input:22 input:1
 msgid "Port forwarding"
 msgstr "Adelantar porta"
 
-#: standard input:10 input:2 ui/sysconfig/proxy/index.scm:9 input:9 input:3
+#. #-#-#-#-#  alterator-net-openvpn.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-openvpn.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-openvpn.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:20 input:43 input:3 ui/net-openvpn/index.scm:95 input:25
+#: input:2 ui/sysconfig/proxy/index.scm:9 input:10 input:9
 msgid "Port:"
 msgstr "Porta:"
 
-#: standard input:33
+#: standard input:29 input:33
 #, fuzzy
 msgid "Ports"
 msgstr "Porta:"
 
+#: standard input:23
+msgid ""
+"Postfix is Wietse Venema's attempt to provide an alternative to the widely-"
+"used sendmail program. Postfix Mail Transport Agent attempts to be fast, "
+"easy to administer, and hopefully secure, while at the same time being "
+"sendmail compatible enough to not upset your users."
+msgstr ""
+
+#: ui/bacula/restore/search/index.scm:50 ui/livecd/install/index.scm:37
+#: ui/pkg/install/index.scm:100 ui/pkg/groups/index.scm:148
 #: ui/bacula/restore/index.scm:49 ui/pkg/install/index.scm:98
-#: ui/pkg/groups/index.scm:148 ui/pkg/groups/index.scm:134
-#: ui/pkg/install/index.scm:92
+#: ui/pkg/groups/index.scm:134 ui/pkg/install/index.scm:92
 msgid "Preparing..."
 msgstr "Preparando..."
 
+#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
 #: ui/pkg/cdrom/index.scm:12 ui/pkg/error/index.scm:7
 msgid "Press 'Next' button to continue"
 msgstr "Haga clic en el botón \"Siguiente\" para continuar"
@@ -2566,16 +4309,21 @@ msgstr "Presa 'Yes' si usted ve la imagen correcta"
 msgid "Press F1 for help"
 msgstr "Presa F1 para Ayuda"
 
-#: standard input:3 ui/logs/index.scm:30 ui/wizard/index.scm:39
-#: ui/wizard/index.scm:43 ui/wizard/index.scm:47
+#: standard input:3 ui/logs/index.scm:30 ui/wizard/index.scm:35
+#: ui/wizard/index.scm:39 ui/wizard/index.scm:43 ui/wizard/index.scm:47
 msgid "Previous"
 msgstr "Anterior"
+
+#: ui/vm/dummystr.scm:4
+#, fuzzy
+msgid "Primary Partition"
+msgstr "Partición Linux"
 
 #: standard input:2 input:17 ui/sysinfo/index.scm:38
 msgid "Processors"
 msgstr "Procesadores"
 
-#: standard input:5
+#: standard input:13 input:5
 msgid "Programs"
 msgstr "Programas"
 
@@ -2583,16 +4331,16 @@ msgstr "Programas"
 msgid "Protocol"
 msgstr "Protocolo"
 
-#: interfaces/guile/backend/squid.scm:53
+#: interfaces/guile/backend/squid.scm:81 interfaces/guile/backend/squid.scm:53
 msgid "Proxy"
 msgstr ""
 
-#: standard input:28
+#: standard input:24 input:28
 #, fuzzy
 msgid "Proxy port:"
 msgstr "Porta:"
 
-#: standard input:1 ui/html-messages.scm:67
+#: standard input:6 input:1 ui/html-messages.scm:67
 msgid "Proxy server"
 msgstr "Servidor Proxy"
 
@@ -2615,35 +4363,74 @@ msgstr "Ajustes"
 msgid "Publish"
 msgstr ""
 
-#: standard input:5
+#: standard input:21 input:5
 msgid "Publish as a repository for automatic updates"
 msgstr ""
 
-#: standard input:17
+#: standard input:5 input:17
 msgid "Published"
 msgstr ""
 
-#: ui/std/base.scm:77
+#: interfaces/guile/ajax.scm:245 ui/std/base.scm:77
+#: ui/mirror/repository/ajax.scm:51
 msgid "Question"
+msgstr ""
+
+#: ui/vm/dummystr.scm:37
+msgid "Quick mkfs"
 msgstr ""
 
 #: ui/x11/index.scm:100
 msgid "Quit"
 msgstr "Salir"
 
+#: helpers/lilo-conf.sh:143
+msgid "RAID install requires LBA32 or LINEAR; LBA32 assumed."
+msgstr ""
+
+#: ui/vm/dummystr.scm:58
+msgid "RAID level"
+msgstr ""
+
+#: helpers/lilo-conf.sh:133
+msgid "RAID1 install implied by 'boot=/'"
+msgstr ""
+
+#. raid5
+#: ui/vm/dummystr.scm:57
+msgid "RAID5 Algorithm"
+msgstr ""
+
 #: standard input:28
 msgid "RBL servers:"
 msgstr "Servidores RBL:"
 
-#: index.scm:134 ui/lilo/expert/index.scm:134
+#: helpers/lilo-conf.sh:138
+msgid "Raid major versions > 0 are not supported"
+msgstr ""
+
+#: helpers/lilo-conf.sh:139
+msgid "Raid versions < 0.90 are not supported"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:134 index.scm:134
 msgid "Raid-extra-boot:"
 msgstr "Raid-extra-boot:"
+
+#: standard input:44
+#, fuzzy
+msgid "Re-generate CA"
+msgstr "Generar"
 
 #: standard input:4 input:25
 msgid "Read only"
 msgstr "Sólo lectura"
 
-#: standard input:45
+#: ui/vm/dummystr.scm:17
+msgid "Read/Write Check For Bad Blocks"
+msgstr ""
+
+#: standard input:9 input:45
 msgid "Reboot computer now"
 msgstr ""
 
@@ -2671,41 +4458,70 @@ msgstr "Rellamar"
 msgid "Redirect to"
 msgstr "Redireccionar para"
 
-#: standard input:49
+#: standard input:20
+msgid "Refresh list"
+msgstr ""
+
+#: standard input:43 input:49
 msgid "Registered ports"
+msgstr ""
+
+#: ui/vm/dummystr.scm:10
+msgid "ReiserFS File System Interface Module"
 msgstr ""
 
 #: standard input:1 ui/notes/release-notes.scm:7
 msgid "Release Notes"
 msgstr "Notas"
 
-#: ui/html-messages.scm:71
+#: standard input:18 ui/html-messages.scm:71
 msgid "Remote access (SSH)"
 msgstr "Acceso remoto (SSH)"
 
-#: ui/html-messages.scm:72
+#: standard input:5 ui/html-messages.scm:72
 msgid "Remote access (telnet)"
 msgstr "Acceso remoto (telnet)"
 
-#: standard input:14 ui/pkg/register/index.scm:44 input:7 ui/xkb/index.scm:38
+#: standard input:19 input:3 input:15 input:7 ui/xkb/index.scm:38 input:14
+#: ui/pkg/register/index.scm:44
 msgid "Remove"
 msgstr "Remover"
 
-#: standard input:25 input:19 input:34 input:26 input:5 ui/html-messages.scm:8
-#: ui/html-messages.scm:22 ui/html-messages.scm:26 ui/html-messages.scm:30
+#: ui/vm/table.scm:223 ui/vm/table.scm:229
+#, fuzzy
+msgid "Remove Filesystem"
+msgstr "Remover seleccionado"
+
+#: standard input:62
+msgid "Remove all client's backups"
+msgstr ""
+
+#: standard input:7
+#, fuzzy
+msgid "Remove domain"
+msgstr "Borrar conección"
+
+#: standard input:11 input:25 input:19 input:34 input:26 input:5
+#: ui/html-messages.scm:8 ui/html-messages.scm:22 ui/html-messages.scm:26
+#: ui/html-messages.scm:30
 msgid "Remove selected"
 msgstr "Remover seleccionado"
 
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #.
-#: standard input:1 ui/pkg/sources/index.scm:24 ui/pkg/sources/index.scm:23
+#: standard input:1 ui/pkg/sources/index.scm:8 ui/pkg/sources/index.scm:24
+#: ui/pkg/sources/index.scm:23
 msgid "Repositories:"
 msgstr "Repositórios:"
 
-#: standard input:13
+#: standard input:1 input:13
 msgid "Repository"
 msgstr "Repositório"
 
-#: standard input:1 ui/pkg/sources/mirrors/index.scm:10
+#: standard input:17 input:5 ui/pkg/sources/mirrors/index.scm:52 input:1
+#: ui/pkg/sources/mirrors/index.scm:10
 msgid "Repository:"
 msgstr "Repositorio:"
 
@@ -2721,17 +4537,15 @@ msgstr "Pontuación Necesaria:"
 msgid "Rescan"
 msgstr "Inténtelo de nuevo"
 
-#: standard input:48 input:52 input:7 ui/auth/index.scm:55 input:9
+#: standard input:12 input:16 input:7 input:9
 #: ui/datetime/installer/index.scm:81 input:5 input:20 input:6
-#: ui/dovecot/index.scm:60 input:8 ui/groups/index.scm:90 index.scm:187
-#: index.scm:207 ui/lilo/edit-source/index.scm:37 ui/lilo/expert/index.scm:187
-#: ui/lilo/expert/index.scm:207 input:12 input:18 ui/net-eth/index.scm:134
-#: input:10 ui/net-iptables/index.scm:64 ui/net-pppoe/index.scm:89 input:14
+#: ui/dovecot/index.scm:60 input:8 ui/groups/index.scm:90
+#: ui/lilo/edit-source/index.scm:37 ui/lilo/expert/index.scm:187
+#: ui/lilo/expert/index.scm:207 input:23 input:18 ui/net-eth/index.scm:134
+#: input:15 ui/net-iptables/index.scm:64 ui/net-pppoe/index.scm:89 input:14
 #: ui/net-pptp/index.scm:117 input:13 ui/net-wifi/index.scm:132
-#: ui/quota/index.scm:74 input:21 ui/services/index.scm:64 input:22 input:11
-#: input:23 input:32 input:45 input:57 ui/sysconfig/proxy/index.scm:29
-#: ui/html-messages.scm:15 ui/html-messages.scm:39 ui/html-messages.scm:58
-#: ui/xinetd/index.scm:97
+#: ui/quota/index.scm:74 input:21 input:22 input:19 input:28 input:39 input:51
+#: ui/sysconfig/proxy/index.scm:29 input:10 ui/xinetd/index.scm:60
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -2792,36 +4606,76 @@ msgstr ""
 msgid "Resolution:"
 msgstr "Resolución:"
 
-#: standard input:8 input:42 input:7
+#: standard input:32
+#, fuzzy
+msgid "Resolve"
+msgstr "Resetar"
+
+#: standard input:18 input:35 input:8 input:42 input:7
 msgid "Restart HTTP server"
 msgstr "Resetar Servidor HTTP"
 
-#: standard input:25 ui/bacula/backup/index.scm:59
+#: standard input:29 ui/bacula/local-backup/index.scm:52 input:25
+#: ui/bacula/backup/index.scm:59
 msgid "Restore"
 msgstr ""
+
+#: ui/bacula/local-backup/ajax.scm:30
+#: ui/bacula/client-backup/archive/ajax.scm:24
+#, fuzzy
+msgid "Restore completed"
+msgstr "Instalación completa"
+
+#: standard input:63
+#, fuzzy
+msgid "Restore date:"
+msgstr "Configuraciones avanzadas"
 
 #: ui/html-messages.scm:16
 msgid "Restore default settings"
 msgstr "Configuraciones avanzadas"
 
-#: standard input:23 ui/bacula/backup/index.scm:45
+#: ui/bacula/local-backup/ajax.scm:33
+#: ui/bacula/client-backup/archive/ajax.scm:27
+#, fuzzy
+msgid "Restore failed, see logs for details"
+msgstr "Directorio Inicial:"
+
+#: standard input:27 input:64 ui/bacula/local-backup/index.scm:44 input:23
+#: ui/bacula/backup/index.scm:45
 #, fuzzy
 msgid "Restore file or directory:"
 msgstr "Directorio Inicial:"
+
+#: standard input:4
+#, fuzzy
+msgid "Restore system"
+msgstr "Configuraciones de Rede"
+
+#: ui/bacula/restore/select/index.scm:9
+#, fuzzy
+msgid "Restore system from backup"
+msgstr "Configuraciones de Rede"
 
 #: standard input:22 ui/bacula/backup/index.scm:41
 msgid "Restore user data"
 msgstr ""
 
-#: ui/bacula/restore/index.scm:50
+#: ui/bacula/restore/search/index.scm:51 ui/bacula/restore/index.scm:50
 msgid "Restoring backup database..."
 msgstr ""
 
-#: ui/bacula/restore/index.scm:52
+#: ui/bacula/local-backup/ajax.scm:38
+#: ui/bacula/client-backup/archive/ajax.scm:32
+#, fuzzy
+msgid "Restoring file"
+msgstr "Prueba falló"
+
+#: ui/bacula/restore/restore/index.scm:68 ui/bacula/restore/index.scm:52
 msgid "Restoring is done"
 msgstr ""
 
-#: ui/bacula/restore/index.scm:51
+#: ui/bacula/restore/restore/index.scm:67 ui/bacula/restore/index.scm:51
 #, fuzzy
 msgid "Restoring system..."
 msgstr "Configuraciones de Rede"
@@ -2834,7 +4688,14 @@ msgstr "Restriciones"
 msgid "Resume"
 msgstr "Resumo"
 
-#: standard input:10 ui/bacula/backup/advanced/index.scm:20
+#: standard input:27
+msgid ""
+"Retries udev events which could not be processed earlier during startup."
+msgstr ""
+
+#: standard input:17 input:39 ui/bacula/local-backup/advanced/index.scm:41
+#: input:10 ui/pkg/sources/mirrors/index.scm:66
+#: ui/bacula/backup/advanced/index.scm:20
 msgid "Return"
 msgstr ""
 
@@ -2842,17 +4703,25 @@ msgstr ""
 msgid "Return to view"
 msgstr ""
 
-#: standard input:9 ui/xinetd/index.scm:75
+#: standard input:8 ui/xinetd/index.scm:42 input:9 ui/xinetd/index.scm:75
 msgid "Rlimit as:"
 msgstr "Rlimit como:"
 
-#: helpers/lilo-parser.sh:346
+#: helpers/lilo-parser.sh:353 helpers/lilo-parser.sh:346
 msgid "Root device is unspecified."
 msgstr "dispositivo raíz é indeterminado."
 
-#: index.scm:169 ui/lilo/expert/index.scm:169
+#: ui/lilo/expert/index.scm:169 index.scm:169
 msgid "Root device:"
 msgstr "Interfaz ROOT"
+
+#: standard input:9
+msgid "Rotate the list of KDCs listed in /etc/krb5.conf"
+msgstr ""
+
+#: backend3/openvpn-server:357
+msgid "Routed (TUN)"
+msgstr ""
 
 #: standard input:3
 msgid "Rule"
@@ -2870,14 +4739,32 @@ msgstr "Norma:"
 msgid "Rules and scores"
 msgstr "Normas y pontuaciones"
 
-#: standard input:11 ui/bacula/backup/advanced/index.scm:22
+#: standard input:11 input:61 ui/bacula/local-backup/advanced/index.scm:22
+#: ui/bacula/backup/advanced/index.scm:22
 msgid "Run backup now"
 msgstr ""
 
-#: backend3/bacula-backup:126
+#: standard input:6
+msgid "Run cron jobs that were left out due to downtime"
+msgstr ""
+
+#: bin/bacula-alterator-sh-functions:30 backend3/bacula-backup:126
 #, fuzzy
 msgid "Running"
 msgstr "rodando"
+
+#: ui/bacula/restore/restore/index.scm:66
+#, fuzzy
+msgid "Running restore process..."
+msgstr "Download in progreso"
+
+#: standard input:40
+msgid "SHA1 Fingerprint:"
+msgstr ""
+
+#: standard input:17
+msgid "SIP/H.323"
+msgstr ""
 
 #: standard input:1
 msgid "SMTP server"
@@ -2887,6 +4774,33 @@ msgstr "Servidor SMTP"
 msgid "SMTP transport:"
 msgstr "transport SMTP:"
 
+#: standard input:27
+msgid "SSL certificate and key..."
+msgstr ""
+
+#: standard input:1
+#, fuzzy
+msgid "SSL keys management"
+msgstr "Administração de Usuário"
+
+#: standard input:20
+msgid "SSL keys:"
+msgstr ""
+
+#: standard input:1
+#, fuzzy
+msgid "SSL settings"
+msgstr "Ajustes"
+
+#: ui/sslkey/generate/index.scm:167
+#, fuzzy
+msgid "SSL settings:"
+msgstr "Ajustes"
+
+#: standard input:2
+msgid "STUN"
+msgstr ""
+
 #: interfaces/guile/ahttpd/translate.scm:50
 msgid "Sa"
 msgstr "Sa"
@@ -2894,6 +4808,21 @@ msgstr "Sa"
 #: standard input:1
 msgid "Samba server"
 msgstr "Servidor Samba"
+
+#: backend3/bind:141
+#, fuzzy
+msgid "Same binding of host to IP address already exists"
+msgstr "La carpeta ya existe"
+
+#: backend3/bacula-client-backup:132
+#, fuzzy
+msgid "Same client already exists"
+msgstr "Misma entrada ya existe"
+
+#: backend3/bind:116
+#, fuzzy
+msgid "Same domain already exists"
+msgstr "Misma entrada ya existe"
 
 #: backend3/dhcp:272 backend3/postfix-restrictions:396
 #: backend3/postfix-restrictions:411 backend3/postfix-restrictions:429
@@ -2905,11 +4834,11 @@ msgstr "Misma entrada ya existe"
 msgid "Same folder already exists"
 msgstr "La carpeta ya existe"
 
-#: backend3/pkg-sources:92
+#: backend3/pkg-sources:94 backend3/pkg-sources:92
 msgid "Same source already exists"
 msgstr "Ya existe la fuente"
 
-#: backend3/root:45
+#: backend3/root:45 backend3/trust:266
 msgid "Same ssh key already exists"
 msgstr "Misma llave ssh ya existe"
 
@@ -2917,7 +4846,7 @@ msgstr "Misma llave ssh ya existe"
 msgid "Same user already exists"
 msgstr "Mismo usuário ya existe"
 
-#: standard input:5 index.scm:186 ui/lilo/expert/index.scm:186
+#: standard input:5 input:25 ui/lilo/expert/index.scm:186 index.scm:186
 msgid "Save"
 msgstr "Salvar"
 
@@ -2925,14 +4854,29 @@ msgstr "Salvar"
 msgid "Save route to VPN gateway"
 msgstr "Salvar a Rota en VPN Gateway"
 
-#: standard input:19 ui/bacula/backup/index.scm:32
+#: standard input:24 ui/bacula/local-backup/index.scm:30 input:19
+#: ui/bacula/backup/index.scm:32
 #, fuzzy
 msgid "Save settings"
 msgstr "Ajustes"
 
+#: standard input:39
+msgid ""
+"Saves and restores system entropy pool for higher quality random number "
+"generation."
+msgstr ""
+
 #: backend3/net-wifi:230
 msgid "Scanning..."
 msgstr "Buscando..."
+
+#: standard input:5
+msgid "Schedule"
+msgstr ""
+
+#: standard input:71
+msgid "Schedule:"
+msgstr ""
 
 #: standard input:4
 msgid "Score"
@@ -2947,20 +4891,21 @@ msgid "Search domain:"
 msgstr ""
 
 #.
-#: standard input:14 ui/net-eth/index.scm:111
+#: standard input:34 ui/backup-server/network/index.scm:91 input:14
+#: ui/net-eth/index.scm:111
 msgid "Search domains:"
 msgstr "Procurar Dominios:"
 
-#: ui/bacula/restore/index.scm:48
+#: ui/bacula/restore/search/index.scm:49 ui/bacula/restore/index.scm:48
 msgid "Searching for backups..."
 msgstr ""
 
-#: helpers/lilo-parser.sh:316
+#: helpers/lilo-parser.sh:323 helpers/lilo-parser.sh:316
 msgid "Section already exists."
 msgstr "Sección ya existe."
 
-#: standard input:2 input:3 input:4 input:6 input:18 ui/html-messages.scm:13
-#: input:5
+#: standard input:2 input:3 input:4 input:6 input:18 ui/vm/choice.scm:28
+#: ui/html-messages.scm:13 input:5
 msgid "Select"
 msgstr "Seleccionar"
 
@@ -2969,16 +4914,25 @@ msgstr "Seleccionar"
 msgid "Select action:"
 msgstr "Borrar conección"
 
-#: standard input:27
+#: standard input:23 input:27
 #, fuzzy
 msgid "Select authentication mode:"
 msgstr "Seleccionar modo adelante:"
 
-#: standard input:2 ui/net-iptables/index.scm:36
+#: ui/bacula/restore/restore/index.scm:21
+#, fuzzy
+msgid "Select backup date:"
+msgstr "Borrar conección"
+
+#: ui/vm/ortodox.scm:78
+msgid "Select disks for use"
+msgstr ""
+
+#: standard input:7 ui/net-iptables/index.scm:36 input:2
 msgid "Select external interfaces:"
 msgstr "Seleccionar interfazes externas:"
 
-#: standard input:1 ui/net-iptables/index.scm:30
+#: standard input:6 ui/net-iptables/index.scm:30 input:1
 msgid "Select forwarding mode:"
 msgstr "Seleccionar modo adelante:"
 
@@ -2986,12 +4940,22 @@ msgstr "Seleccionar modo adelante:"
 msgid "Select groups you want to install:"
 msgstr "Selecciona paquetes que quiera instalar"
 
+#: ui/vm/blonde.scm:101
+#, fuzzy
+msgid "Select installation method"
+msgstr "Seleccionar modo adelante:"
+
 #: standard input:30
 #, fuzzy
 msgid "Select internal interfaces:"
 msgstr "Seleccionar interfazes externas:"
 
-#: standard input:26
+#: ui/vm/ortodox.scm:83
+#, fuzzy
+msgid "Select profile"
+msgstr "Seleccionar modo adelante:"
+
+#: standard input:22 input:26
 #, fuzzy
 msgid "Select proxying mode:"
 msgstr "Seleccionar modo adelante:"
@@ -3005,10 +4969,53 @@ msgstr "Selecione su Lenguage"
 msgid "September"
 msgstr "Septiembre"
 
-#: standard input:8 ui/xinetd/index.scm:72
+#: standard input:3 input:16
+#, fuzzy
+msgid "Server"
+msgstr "Servidor:"
+
+#: standard input:7 ui/xinetd/index.scm:39 input:8 ui/xinetd/index.scm:72
 msgid "Server args:"
 msgstr "Argumentos del Servidor"
 
+#: standard input:6
+#, fuzzy
+msgid "Server name:"
+msgstr "Argumentos del Servidor"
+
+#: backend3/openvpn-server:953
+msgid "Server network conflicts with VPN network"
+msgstr ""
+
+#: backend3/openvpn-server:955 backend3/openvpn-server:977
+msgid "Server network conflicts with client network"
+msgstr ""
+
+#: backend3/openvpn-server:951
+msgid "Server network conflicts with other server network"
+msgstr ""
+
+#: standard input:14
+#, fuzzy
+msgid "Server networks"
+msgstr "Otra rede"
+
+#: standard input:4
+msgid "Server settings succesfully updated"
+msgstr ""
+
+#. #-#-#-#-#  alterator-net-openvpn.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-openvpn.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-openvpn.po (Alterator)  #-#-#-#-#
+#.
 #. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
 #.
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
@@ -3017,27 +5024,33 @@ msgstr "Argumentos del Servidor"
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
 #.
-#: standard input:4 ui/net-pptp/index.scm:81 input:7 ui/xinetd/index.scm:69
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:2 ui/net-openvpn/index.scm:91 input:4
+#: ui/net-pptp/index.scm:81 input:6 ui/xinetd/index.scm:36 input:7
+#: ui/xinetd/index.scm:69
 msgid "Server:"
 msgstr "Servidor:"
 
-#: standard input:11
+#: standard input:9 input:11
 msgid "Servers"
 msgstr "Servidores"
 
-#: standard input:9
+#: standard input:7 input:9
 msgid "Service"
 msgstr "Servicio"
 
-#: ui/html-messages.scm:63
+#: standard input:1 ui/html-messages.scm:63
 msgid "Service packets (ICMP)"
 msgstr "Servicio de Paquetes"
 
-#: standard input:1 ui/services/index.scm:38 ui/xinetd/index.scm:48
+#: standard input:1 ui/services/index.scm:4 ui/xinetd/index.scm:18
+#: ui/services/index.scm:38 ui/xinetd/index.scm:48
 msgid "Services"
 msgstr "Servicios"
 
-#: standard input:4 ui/net-iptables/index.scm:44
+#: standard input:9 input:37 ui/net-iptables/index.scm:44 input:4
 msgid "Services:"
 msgstr "Servicios"
 
@@ -3046,15 +5059,35 @@ msgstr "Servicios"
 msgid "Set"
 msgstr "Seleccionar"
 
+#: standard input:48
+msgid "Set sysfs variables from /etc/sysfs.conf"
+msgstr ""
+
 #: standard input:22
 msgid "Setup e-mail service"
 msgstr "Configurar Servicio de Email"
 
-#: standard input:14
+#: standard input:6 input:14
 msgid "Setup embedded web server"
 msgstr "Configuraciones de Servidor Web incrustado"
 
-#: standard input:18
+#: standard input:47
+#, fuzzy
+msgid "Setup fileset..."
+msgstr "Configuración norma y pontuaciones..."
+
+#. profiles
+#: ui/vm/dummystr.scm:74
+#, fuzzy
+msgid "Setup for server"
+msgstr "Configurar Servicio de Email"
+
+#: ui/vm/dummystr.scm:75
+#, fuzzy
+msgid "Setup for workstation"
+msgstr "Configuración de conecciones en Rede"
+
+#: standard input:2 input:18
 msgid "Setup input/output devices"
 msgstr "Configuraciones de entrada/salida de dispositivos"
 
@@ -3062,7 +5095,7 @@ msgstr "Configuraciones de entrada/salida de dispositivos"
 msgid "Setup network connections"
 msgstr "Configuración de conecciones en Rede"
 
-#: standard input:8 ui/root/index.scm:24
+#: standard input:10 input:8 ui/root/index.scm:24
 msgid "Setup password for system administrator:"
 msgstr "Configuración del sistema administrador:"
 
@@ -3070,7 +5103,7 @@ msgstr "Configuración del sistema administrador:"
 msgid "Setup rules and scores..."
 msgstr "Configuración norma y pontuaciones..."
 
-#: standard input:6
+#: standard input:14 input:6
 msgid "Setup, remove and update programs"
 msgstr "Configurar, remover o Actualizar programas"
 
@@ -3082,16 +5115,30 @@ msgstr "Configurações de Pasta compartilhada"
 msgid "Shared folders"
 msgstr "Carpeta compartida"
 
+#. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
 #.
-#: standard input:6 ui/users/index.scm:87
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:24 input:6 ui/users/index.scm:87
 msgid "Shell:"
 msgstr "Shell:"
 
-#: standard input:8
+#: standard input:6 input:8
 msgid "Show"
 msgstr "Mostrar"
 
-#: standard input:56 input:40
+#: ui/vm/popup.scm:103
+#, fuzzy
+msgid "Show extra options"
+msgstr "Opciones generales"
+
+#: standard input:39 input:26 input:3 input:56 input:40
 msgid "Show help"
 msgstr ""
 
@@ -3099,11 +5146,31 @@ msgstr ""
 msgid "Show:"
 msgstr "Exibir"
 
-#: standard input:31 input:30
+#: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
+#: ui/vm/table.scm:218
+msgid "Shrink"
+msgstr ""
+
+#. shrink seg
+#: ui/vm/dummystr.scm:63
+msgid "Shrink by Size"
+msgstr ""
+
+#: standard input:7 input:23 input:16 input:31 input:30
 msgid "Sign"
 msgstr "Entrar"
 
-#: index.scm:121 ui/lilo/edit-source/index.scm:23 ui/lilo/expert/index.scm:121
+#: standard input:5
+#, fuzzy
+msgid "Sign certificate"
+msgstr "Certificado"
+
+#: backend3/sslkey:229
+#, fuzzy
+msgid "Sign request does not exist"
+msgstr "usuário espeficado no existe"
+
+#: ui/lilo/edit-source/index.scm:23 ui/lilo/expert/index.scm:121 index.scm:121
 msgid "Simple mode"
 msgstr "Modo Simples"
 
@@ -3115,8 +5182,30 @@ msgstr "Sitio MTA:"
 msgid "Site language:"
 msgstr "Selecione su Lenguage"
 
+#.
+#: ui/vm/dummystr.scm:2
+msgid "Size"
+msgstr ""
+
+#: ui/vm/table.scm:188
+msgid "Size [ free ]"
+msgstr ""
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
+msgstr ""
+
+#: ui/vm/dummystr.scm:43
+msgid "Size for the new LVM2 region."
+msgstr ""
+
 #: standard input:29
 msgid "Size summary (Kb)"
+msgstr ""
+
+#. shrink lv
+#: ui/vm/dummystr.scm:69
+msgid "Size to remove from the LVM2 region."
 msgstr ""
 
 #: ui/groups/index.scm:100
@@ -3131,15 +5220,30 @@ msgstr "Saltar Grupos Primarios"
 msgid "Skip system groups"
 msgstr "Saltar Grupos de Sistemas"
 
+#: standard input:1
+#, fuzzy
+msgid "Slave server"
+msgstr "Servidor Samba"
+
+#: standard input:14
+#, fuzzy
+msgid "Slave servers"
+msgstr "Servidores DNS:"
+
 #: standard input:5 ui/quota/index.scm:52
 msgid "Soft limit:"
 msgstr ""
 
-#: standard input:14 input:12
+#: standard input:32
+msgid "Software RAID monitoring and management"
+msgstr ""
+
+#: standard input:2 input:12 input:14
 msgid "Source"
 msgstr "Fuente"
 
-#: standard input:3 ui/pkg/sources/index.scm:31 ui/pkg/sources/index.scm:30
+#: standard input:2 ui/pkg/sources/index.scm:13 input:3
+#: ui/pkg/sources/index.scm:31 ui/pkg/sources/index.scm:30
 msgid "Source URI:"
 msgstr "Fuente del URI:"
 
@@ -3151,7 +5255,7 @@ msgstr "Fuente de la dirección"
 msgid "Source port"
 msgstr "Porta de la fuente"
 
-#: standard input:2
+#: standard input:18 input:2
 msgid "Source:"
 msgstr "Fuente:"
 
@@ -3163,11 +5267,33 @@ msgstr "Filtro de Spam"
 msgid "Spam filter mode:"
 msgstr "Filtro de Spam:"
 
-#: standard input:12 ui/net-pptp/index.scm:106
+#: ui/vm/dummystr.scm:55
+msgid "Spare Disk"
+msgstr ""
+
+#: standard input:35
+msgid ""
+"Squid - Internet Object Cache. Internet object caching is a way to store "
+"requested Internet objects (i.e., data available via the HTTP, FTP, and "
+"gopher protocols) on a system closer to the requesting site than to the "
+"source. Web browsers can then use the local Squid cache as a proxy HTTP "
+"server, reducing access time as well as bandwidth consumption."
+msgstr ""
+
+#. #-#-#-#-#  alterator-net-openvpn.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-openvpn.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-openvpn.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:6 ui/net-openvpn/index.scm:109 input:12
+#: ui/net-pptp/index.scm:106
 msgid "Start at boot"
 msgstr "Empezar por boot"
 
-#: standard input:4 ui/services/index.scm:61
+#: standard input:3 ui/services/index.scm:15 input:4 ui/services/index.scm:61
 msgid "Start on boot"
 msgstr "Iniciar el boot"
 
@@ -3183,6 +5309,38 @@ msgstr "Iniciar, parar o resetar el servicio xinetd..."
 msgid "Starting IP address:"
 msgstr "Iniciando Dirección IP:"
 
+#: ui/bacula/local-backup/ajax.scm:35
+#: ui/bacula/client-backup/archive/ajax.scm:29
+#, fuzzy
+msgid "Starting restore..."
+msgstr "Configuraciones de Rede"
+
+#: standard input:54
+#, fuzzy
+msgid "Starts and stops PPTP connection."
+msgstr "PPTP conecciones"
+
+#: standard input:37
+msgid ""
+"Starts and stops the Samba Winbindd daemon used to provide seamless NT "
+"domain integration."
+msgstr ""
+
+#: standard input:7
+msgid ""
+"Starts and stops the Samba smbd and nmbd daemons used to provide SMB network "
+"services."
+msgstr ""
+
+#. #-#-#-#-#  alterator-control.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-control.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-control.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #. #-#-#-#-#  alterator-control.po (Alterator)  #-#-#-#-#
 #.
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
@@ -3199,7 +5357,7 @@ msgstr "Estado"
 msgid "Static addresses"
 msgstr "Dirección Estatica"
 
-#: standard input:15
+#: standard input:11 input:15
 msgid "Statistics"
 msgstr "Estatísticas"
 
@@ -3212,7 +5370,7 @@ msgstr "Estatística por interfaz"
 msgid "Statistics updated: "
 msgstr "Estatísticas"
 
-#: standard input:13
+#: standard input:21 input:13 input:15
 #, fuzzy
 msgid "Status"
 msgstr "Status:"
@@ -3231,15 +5389,32 @@ msgstr "Status:"
 #.
 #. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
 #.
-#: standard input:3 ui/net-pppoe/index.scm:66 ui/net-pptp/index.scm:76 input:4
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#.
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#.
+#: standard input:1 ui/net-openvpn/index.scm:85 input:3
+#: ui/net-pppoe/index.scm:66 ui/net-pptp/index.scm:76 input:4
 #: ui/net-wifi/index.scm:104
 msgid "Status:"
 msgstr "Status:"
 
-#: standard input:18
+#: standard input:6 input:18
 msgid "Storage free space:"
 msgstr "Espacio de Disco de almacenamiento:"
 
+#: standard input:3 input:58 ui/bacula/local-backup/disk/index.scm:27
 #: ui/bacula/backup/disk/index.scm:22
 msgid "Store backups for:"
 msgstr ""
@@ -3248,10 +5423,18 @@ msgstr ""
 msgid "Su"
 msgstr "Su"
 
-#: backend3/bacula-backup:124
+#: standard input:20 input:27
+msgid "Subject"
+msgstr ""
+
+#: bin/bacula-alterator-sh-functions:28 backend3/bacula-backup:124
 #, fuzzy
 msgid "Success"
 msgstr "Acesso Convidado"
+
+#: standard input:2
+msgid "Suffix list:"
+msgstr ""
 
 #: standard input:7
 msgid "Suffix:"
@@ -3264,6 +5447,10 @@ msgstr "Resumo"
 #: standard input:1 ui/dovecot/index.scm:31 input:2 ui/dovecot/index.scm:29
 msgid "Supported protocols:"
 msgstr "Protocolos Suportados"
+
+#: ui/vm/dummystr.scm:11
+msgid "Swap File System Interface Module"
+msgstr ""
 
 #: standard input:10 input:25 ui/sysinfo/index.scm:52
 msgid "Swap space (free):"
@@ -3281,11 +5468,27 @@ msgstr ""
 "Sincronización comenzará todas las noches. Primera sincronización con algun "
 "repositorio puede llevar demasiado tiempo."
 
-#: standard input:19
+#: standard input:11
+msgid ""
+"Syslog is the facility by which many daemons use to log messages to various "
+"system log files. It is a good idea to always run syslog."
+msgstr ""
+
+#: standard input:3 input:7 input:19
 msgid "System"
 msgstr "Sistema"
 
-#: standard input:10
+#: standard input:6
+#, fuzzy
+msgid "System Administrator"
+msgstr "Administrador del Sistema"
+
+#: standard input:1
+#, fuzzy
+msgid "System User"
+msgstr "Servicio el Sistema"
+
+#: standard input:20 input:10
 msgid "System accounting"
 msgstr "Cuenta de Sistema"
 
@@ -3293,11 +5496,21 @@ msgstr "Cuenta de Sistema"
 msgid "System administrator"
 msgstr "Administrador del Sistema"
 
-#: standard input:2
+#: standard input:13
+#, fuzzy
+msgid "System administrator's password"
+msgstr "Administrador del Sistema"
+
+#: standard input:18 input:2
 msgid "System clock setup"
 msgstr "Configuración de hora del sistema"
 
-#: backend3/bacula-backup:114
+#: standard input:12 input:49
+#, fuzzy
+msgid "System configurator"
+msgstr "Administrador del Sistema"
+
+#: backend3/bacula-local-backup:114 backend3/bacula-backup:114
 #, fuzzy
 msgid "System disk"
 msgstr "Usuário del Sistema"
@@ -3306,12 +5519,22 @@ msgstr "Usuário del Sistema"
 msgid "System information"
 msgstr "Información del sistema:"
 
+#: standard input:3
+#, fuzzy
+msgid "System installation"
+msgstr "Información del sistema:"
+
 #: standard input:1
 msgid "System logs"
 msgstr "Usuário del Sistema"
 
-#: standard input:59 ui/acc/index.scm:12 input:43
+#: standard input:42 input:6 ui/acc/index.scm:12 input:59 input:43
 msgid "System management center"
+msgstr "Centro de gestión del Sistema"
+
+#: standard input:11
+#, fuzzy
+msgid "System management center (www)"
 msgstr "Centro de gestión del Sistema"
 
 #: standard input:4 ui/groups/index.scm:78
@@ -3322,11 +5545,20 @@ msgstr "Nombre del Sistema:"
 msgid "System restrictions"
 msgstr "Restriciones de el Sistema"
 
-#: standard input:1
+#: standard input:61 input:1
 msgid "System services"
 msgstr "Servicio el Sistema"
 
-#: standard input:16
+#: standard input:8
+#, fuzzy
+msgid "System settings"
+msgstr "Ajustes"
+
+#: standard input:1
+msgid "System startup script for console splash screens"
+msgstr ""
+
+#: standard input:12 input:16
 msgid "System statistics"
 msgstr "Sistema de estatísticas"
 
@@ -3334,11 +5566,16 @@ msgstr "Sistema de estatísticas"
 msgid "System users administration..."
 msgstr "Administración del usuário del sistema"
 
-#: standard input:8
+#: standard input:4 input:8
 msgid "System users management"
 msgstr "Administração de Usuário"
 
-#: backend3/bacula-backup:47 ui/pkg/groups/index.scm:90
+#: ui/bacula/restore/finish/index.scm:6
+msgid "System was successfully restored from backup"
+msgstr ""
+
+#: bin/bacula-alterator-sh-functions:42 ui/pkg/groups/index.scm:90
+#: backend3/bacula-backup:47
 msgid "TB"
 msgstr ""
 
@@ -3354,15 +5591,41 @@ msgstr "Opción TCP"
 msgid "TLS settings"
 msgstr "Ajustes"
 
+#: standard input:27
+#, fuzzy
+msgid "TLS settings..."
+msgstr "Ajustes"
+
 #: ui/html-messages.scm:2 ui/html-messages.scm:34
 msgid "Table"
 msgstr "Tabla:"
 
-#: index.scm:180 ui/lilo/expert/index.scm:178
+#: ui/lilo/expert/index.scm:178 index.scm:180
 msgid "Table:"
 msgstr "Tabela:"
 
-#: helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22 helpers/utils.sh:15
+#: standard input:67
+#, fuzzy
+msgid "Target client:"
+msgstr "Clientes Prohibido:"
+
+#: backend3/sslkey:231
+msgid "Target directory does not exist"
+msgstr ""
+
+#: standard input:68
+#, fuzzy
+msgid "Target directory:"
+msgstr "Directorio Inicial:"
+
+#: ui/bacula/restore/select/index.scm:6
+msgid ""
+"Target disk is prepared for operation system. You can install a new system "
+"or restore one from existing backup. "
+msgstr ""
+
+#: backend3/lilo:109 helpers/lilo-hal.sh:22 helpers/lilo-sysfs.sh:22
+#: helpers/utils.sh:15
 msgid "Tb"
 msgstr "Tb"
 
@@ -3392,7 +5655,63 @@ msgstr "Prueba falló"
 msgid "Th"
 msgstr "Th"
 
-#: ui/services/index.scm:42 ui/xinetd/index.scm:28
+#: standard input:40
+msgid ""
+"The Common UNIX Printing System (CUPS), an advanced printer spooling system "
+"which allows setting of printer options and automatic availability of a "
+"printer configured on one server in the whole network."
+msgstr ""
+
+#: standard input:4
+msgid ""
+"The Internet Software Consortium DHCP Server, dhcpd, implements he Dynamic "
+"Host Configuration Protocol (DHCP) and the Internet Bootstrap Protocol "
+"(BOOTP).  DHCP allows hosts on a TCP/IP network to request and be assigned "
+"IP addresses, and also to discover information about the network to which "
+"they are attached.  BOOTP provides similar functionality, with certain "
+"restrictions."
+msgstr ""
+
+#: standard input:24
+#, fuzzy
+msgid "The UPS drivers"
+msgstr "Otro dirver..."
+
+#: standard input:43
+msgid "The UPS information server"
+msgstr ""
+
+#: standard input:58
+msgid "The UPS monitor and shutdown controller"
+msgstr ""
+
+#: standard input:10
+msgid ""
+"The cups-lpd mini daemon enable cups accepting jobs from a remote LPD client"
+msgstr ""
+
+#: standard input:11
+msgid "The git server offers access to git repositories."
+msgstr ""
+
+#: standard input:53
+msgid ""
+"The portmapper manages RPC connections, which are used by protocols such as "
+"NFS and NIS. The portmap server must be running on machines which act as "
+"servers for protocols which make use of the RPC mechanism."
+msgstr ""
+
+#: standard input:3
+msgid ""
+"The start/stop script for MySQL - very fast and reliable SQL database engine."
+msgstr ""
+
+#: standard input:6
+#, fuzzy
+msgid "The vsftpd FTP server."
+msgstr "Resetar Servidor HTTP"
+
+#: ui/xinetd/index.scm:112 ui/services/index.scm:42 ui/xinetd/index.scm:28
 msgid ""
 "There are unsaved changes in the service settings. Do you want to apply "
 "these changes?"
@@ -3405,7 +5724,7 @@ msgid "These settings will be applied to services with undefined fields"
 msgstr ""
 "Estas configuraciones van ser apliadas para servicios con campos indefinidos"
 
-#: backend3/dhcp:275 backend3/dhcp:287
+#: backend3/bind:144 backend3/dhcp:275 backend3/dhcp:287
 msgid "This computer name is registered for internal purposes"
 msgstr ""
 
@@ -3421,11 +5740,51 @@ msgstr ""
 msgid "This disk is already added"
 msgstr "Este disco ya está añadido"
 
-#: standard input:1 input:53 input:61
+#: standard input:16
+msgid ""
+"This is a daemon for collecting and maintaing information about hardware "
+"from several sources."
+msgstr ""
+
+#: standard input:31
+msgid "This is a daemon which broadcasts notifications of system events"
+msgstr ""
+
+#: standard input:50 input:60
+msgid ""
+"This is a daemon which handles passwd and group lookups for running programs "
+"and cache the results for the next query.  You should start this daemon if "
+"you use slow naming services like NIS, NIS+, LDAP, or hesiod."
+msgstr ""
+
+#: standard input:28
+msgid "This package loads console powersaver configuration."
+msgstr ""
+
+#: standard input:56
+msgid ""
+"This package loads the selected keyboard map as set in /etc/sysconfig/"
+"keyboard. This can be selected using the kbdconfig utility."
+msgstr ""
+
+#: standard input:1 input:36 input:44 input:20 input:25 input:38 input:17
+#: input:22 input:53 input:61
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
 "a Javascript enabled browser."
+msgstr ""
+
+#: standard input:57
+msgid ""
+"This scripts assignes raw devices to block devices (such as hard drive "
+"partitions). This is for the use of applications such as Oracle. You can set "
+"up the raw device to block device mapping by editing the file /etc/sysconfig/"
+"rawdevices."
+msgstr ""
+
+#: standard input:20
+msgid "This startup script launches the graphical display manager"
 msgstr ""
 
 #: standard input:28
@@ -3437,7 +5796,16 @@ msgstr "Resumo"
 msgid "Time zone:"
 msgstr "Zona Horaria"
 
-#: standard input:52
+#: standard input:14
+#, fuzzy
+msgid "Time:"
+msgstr "Zona Horaria"
+
+#: standard input:15
+msgid "Title:"
+msgstr ""
+
+#: standard input:46 input:52
 #, fuzzy
 msgid "To port:"
 msgstr "porta:"
@@ -3446,7 +5814,7 @@ msgstr "porta:"
 msgid "Today"
 msgstr ""
 
-#: standard input:21 backend3/ulogd:132
+#: standard input:21 backend3/ulogd:246 backend3/ulogd:132
 msgid "Total"
 msgstr "Total"
 
@@ -3458,21 +5826,43 @@ msgstr ""
 msgid "Total time elapsed: "
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:47
+#: standard input:33
+#, fuzzy
+msgid "Traffic rate restrictions:"
+msgstr "Restriciones de el Sistema"
+
+#: interfaces/guile/backend/squid.scm:73 interfaces/guile/backend/squid.scm:47
 #, fuzzy
 msgid "Transparent"
 msgstr "transport SMTP:"
+
+#: standard input:1
+msgid "Trust relationships"
+msgstr ""
 
 #: interfaces/guile/ahttpd/translate.scm:46
 msgid "Tu"
 msgstr "Tu"
 
-#: standard input:46
+#: standard input:29
+msgid "Tunes Ethernet cards if needed."
+msgstr ""
+
+#: standard input:10 input:46
 msgid "Turn off computer every day at:"
 msgstr ""
 
-#: standard input:44
+#: standard input:8 input:44
 msgid "Turn off computer now"
+msgstr ""
+
+#: standard input:9
+#, fuzzy
+msgid "Turn off mirroring"
+msgstr "posibilitar espejamiento"
+
+#: standard input:13
+msgid "Type:"
 msgstr ""
 
 #: standard input:26
@@ -3501,32 +5891,128 @@ msgstr "Dirección del Host:"
 msgid "URL:"
 msgstr ""
 
+#: ui/vm/table.scm:228
+msgid "Umount Filesystem"
+msgstr ""
+
+#: backend3/trust:348
+#, fuzzy
+msgid "Unable to add host %s: %s"
+msgstr "No adiccionar usário %s para grupo %s"
+
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
+msgstr ""
+
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
+msgstr ""
+
+#: backend3/livecd-start:32
+#, fuzzy
+msgid "Unable to create directory for new system"
+msgstr "No és posible crear rede"
+
 #: backend3/net-wifi:479
 msgid "Unable to create network"
 msgstr "No és posible crear rede"
 
-#: ui/bacula/restore/index.scm:31
+#: backend3/lilo:269
+#, fuzzy
+msgid "Unable to create temp config file"
+msgstr "No és posible crear rede"
+
+#: backend3/mirror:269
+#, fuzzy
+msgid "Unable to create temp file"
+msgstr "No és posible crear rede"
+
+#: backend3/bind:126
+#, fuzzy
+msgid "Unable to destroy system domain"
+msgstr "No fue posible configurar el reloj"
+
+#: backend3/sslkey:194
+#, fuzzy
+msgid "Unable to determine file name"
+msgstr "No fue posible configurar el reloj"
+
+#: ui/bacula/restore/search/index.scm:34 ui/bacula/restore/index.scm:31
 msgid "Unable to find backup disk. Please insert one and try again..."
 msgstr ""
 
-#: backend3/bacula-backup:243
+#: helpers/lilo-conf.sh:140
+#, fuzzy
+msgid "Unable to get RAID info on"
+msgstr "No fue posible configurar el reloj"
+
+#: helpers/lilo-conf.sh:137
+#, fuzzy
+msgid "Unable to get RAID version on"
+msgstr "No fue posible configurar el reloj"
+
+#: bin/bacula-alterator-sh-functions:11
+msgid "Unable to modify settings until some jobs is runnning"
+msgstr ""
+
+#: backend3/bacula-local-backup:219 backend3/bacula-backup:243
 #, fuzzy
 msgid "Unable to mount disk"
 msgstr "No fue posible configurar el Reloj"
+
+#: helpers/lilo-conf.sh:134
+#, fuzzy
+msgid "Unable to open"
+msgstr "No fue posible configurar el Reloj"
+
+#: ui/vm/lucky.scm:60
+msgid "Unable to partition, not enough disk space"
+msgstr ""
+
+#: backend3/bacula-client-backup:163 backend3/bacula-local-backup:258
+#, fuzzy
+msgid "Unable to restore"
+msgstr "No és posible crear rede"
 
 #: backend3/datetime-installer:101 backend3/datetime-system:107
 msgid "Unable to setup timezone"
 msgstr "No fue posible configurar el reloj"
 
+#: backend3/ca:159
+#, fuzzy
+msgid "Unable to sign request"
+msgstr "Download de el Requerido"
+
+#: helpers/lilo-conf.sh:135
+#, fuzzy
+msgid "Unable to stat"
+msgstr "No fue posible configurar el Reloj"
+
+#: backend3/livecd-start:27
+#, fuzzy
+msgid "Unable to turn off swap partitions"
+msgstr "No fue posible configurar el reloj"
+
+#: backend3/livecd-start:20
+#, fuzzy
+msgid "Unable to unmount %s\\n"
+msgstr "No fue posible configurar el Reloj"
+
+#: backend3/lilo:275
+#, fuzzy
+msgid "Unable to write new lilo.conf"
+msgstr "No és posible crear rede"
+
+#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
 #: ui/pkg/cdrom/index.scm:9 ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: helpers/lilo-parser.sh:272
+#: helpers/lilo-parser.sh:279 helpers/lilo-parser.sh:272
 msgid "Unknown section"
 msgstr "Sección desconocida"
 
-#: backend3/xinetd:430
+#: backend3/xinetd:439 backend3/xinetd:430
 msgid "Unknown service"
 msgstr "Servicio desconocido"
 
@@ -3543,6 +6029,11 @@ msgstr "Modo no suportado"
 msgid "Up"
 msgstr "Arriba"
 
+#: standard input:59 input:12
+#, fuzzy
+msgid "Update"
+msgstr "Atualización de la ayuda"
+
 #: standard input:6
 msgid "Update help"
 msgstr "Atualización de la ayuda"
@@ -3552,6 +6043,26 @@ msgstr "Atualización de la ayuda"
 msgid "Update now"
 msgstr "Atualización de la ayuda"
 
+#: standard input:19
+#, fuzzy
+msgid "Update password"
+msgstr "Cambiar contraseña:"
+
+#: standard input:76
+#, fuzzy
+msgid "Update schedule"
+msgstr "Atualización de la ayuda"
+
+#: standard input:7
+#, fuzzy
+msgid "Update server settings"
+msgstr "Permitir configuraciones por usuário"
+
+#: standard input:46
+#, fuzzy
+msgid "Update settings"
+msgstr "Ajustes"
+
 #: standard input:1 input:6
 msgid "Update sources"
 msgstr ""
@@ -3560,13 +6071,42 @@ msgstr ""
 msgid "Update statistic data automatically each: "
 msgstr ""
 
-#: standard input:34 input:33
+#: standard input:17
+msgid "Updates Window Manager Sessions."
+msgstr ""
+
+#: standard input:1
+#, fuzzy
+msgid "Updates server"
+msgstr "Adiccionar Servidor"
+
+#: standard input:17 input:33 input:19 input:8 input:34
 msgid "Upload"
 msgstr "Cargar"
 
-#: standard input:33 input:32
+#: standard input:15 ui/net-openvpn/index.scm:142 input:28
+#, fuzzy
+msgid "Upload CA certificate..."
+msgstr "Cargar Certificado asinado por:"
+
+#: standard input:16 input:32
+#, fuzzy
+msgid "Upload CA certificate:"
+msgstr "Cargar Certificado asinado por:"
+
+#: standard input:18 input:33 input:32
 msgid "Upload certificate signed by CA:"
 msgstr "Cargar Certificado asinado por:"
+
+#: standard input:7
+#, fuzzy
+msgid "Upload key:"
+msgstr "Cargar"
+
+#: standard input:6
+#, fuzzy
+msgid "Upload request"
+msgstr "Download de el Requerido"
 
 #: backend3/net-eth:159
 msgid "Use DHCP"
@@ -3576,7 +6116,8 @@ msgstr "Usar DHCP:"
 msgid "Use Zeroconf"
 msgstr "Usar ZeroConfig"
 
-#: standard input:2 ui/bacula/backup/disk/index.scm:15
+#: standard input:2 ui/bacula/local-backup/disk/index.scm:20
+#: ui/bacula/backup/disk/index.scm:15
 #, fuzzy
 msgid "Use additional disk:"
 msgstr "Paquetes adicionales"
@@ -3585,10 +6126,16 @@ msgstr "Paquetes adicionales"
 msgid "Use automatic sender whitelist:"
 msgstr "Usar Remitentes automaticamente"
 
-#: standard input:1 ui/bacula/backup/disk/index.scm:12
+#: standard input:1 ui/bacula/local-backup/disk/index.scm:14
+#: ui/bacula/backup/disk/index.scm:12
 #, fuzzy
 msgid "Use system disk"
 msgstr "Otras configuraciones del Sistema"
+
+#: ui/vm/blonde.scm:83
+#, fuzzy
+msgid "Use unpartitioned disk space"
+msgstr "Requiere de espacio en disco"
 
 #: standard input:15 input:30 ui/sysinfo/index.scm:57
 msgid "Used"
@@ -3603,16 +6150,22 @@ msgstr "Requiere de espacio en disco"
 msgid "User"
 msgstr "Usuário"
 
-#: standard input:16
+#: standard input:3
+#, fuzzy
+msgid "User account:"
+msgstr "Nueva cuenta:"
+
+#: standard input:11 input:16
 #, fuzzy
 msgid "User groups"
 msgstr "Nuevo grupo:"
 
-#: standard input:2 ui/quota/index.scm:43 input:5 ui/xinetd/index.scm:63
+#: standard input:2 ui/quota/index.scm:43 input:4 ui/xinetd/index.scm:30
+#: input:5 ui/xinetd/index.scm:63
 msgid "User:"
 msgstr "Usuário:"
 
-#: standard input:7
+#: standard input:3 input:7
 msgid "Users"
 msgstr "Usuários"
 
@@ -3620,9 +6173,57 @@ msgstr "Usuários"
 msgid "Users:"
 msgstr "Usuarios:"
 
-#: standard input:12
+#: standard input:21
+msgid "Userspace logging daemon for netfilter"
+msgstr ""
+
+#: standard input:24
+#, fuzzy
+msgid "VPN addresses end:"
+msgstr "Dirección IP:"
+
+#: standard input:23
+#, fuzzy
+msgid "VPN addresses start:"
+msgstr "Dirección IP:"
+
+#: backend3/openvpn-server:774
+msgid "VPN end address not in VPN network"
+msgstr ""
+
+#: backend3/openvpn-server:761 backend3/openvpn-server:979
+msgid "VPN network conflicts with client network"
+msgstr ""
+
+#: backend3/openvpn-server:757
+msgid "VPN network conflicts with server network"
+msgstr ""
+
+#: standard input:20
+#, fuzzy
+msgid "VPN network:"
+msgstr "Rede"
+
+#: backend3/openvpn-server:780
+msgid "VPN start address is greater than VPN end address"
+msgstr ""
+
+#: backend3/openvpn-server:770
+msgid "VPN start address not in VPN network"
+msgstr ""
+
+#: standard input:10 input:12
 msgid "Various network services"
 msgstr "Mas servicios de rede"
+
+#: ui/vm/dummystr.scm:52
+msgid "Version 1 Super Block"
+msgstr ""
+
+#. reiserfs FIXME
+#: ui/vm/dummystr.scm:28
+msgid "Version of mkreiserfs"
+msgstr ""
 
 #: standard input:12 ui/x11/index.scm:35
 msgid "Video card:"
@@ -3632,9 +6233,31 @@ msgstr "Placa de Vídeo:"
 msgid "View"
 msgstr "Ver"
 
+#: standard input:12 ui/net-openvpn/index.scm:132
+msgid "Virtual Ethernet device (TAP)"
+msgstr ""
+
 #: standard input:16
 msgid "Virtual hosts"
 msgstr "Host Virtual"
+
+#: ui/vm/dummystr.scm:18
+msgid "Volume Label"
+msgstr ""
+
+#. fat16/32
+#: ui/vm/dummystr.scm:32
+msgid "Volume label"
+msgstr ""
+
+#: standard input:1
+#, fuzzy
+msgid "Volume management"
+msgstr "Administração de Usuário"
+
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr ""
 
 #: backend3/net-wifi:162
 msgid "WEP Password"
@@ -3648,9 +6271,14 @@ msgstr "WPA Personale (WPA-PSK)"
 msgid "WPA2 Personal (WPA-PSK)"
 msgstr " WPA2 Personale (WPA-PSK)"
 
-#: backend3/bacula-backup:123
+#: bin/bacula-alterator-sh-functions:27 backend3/bacula-backup:123
 msgid "Waiting"
 msgstr ""
+
+#: backend3/bacula-restore:188
+#, fuzzy
+msgid "Waiting..."
+msgstr "calculando..."
 
 #.
 #: standard input:7 ui/net-pptp/index.scm:90
@@ -3661,7 +6289,7 @@ msgstr "Uso por interfaz:"
 msgid "Warning"
 msgstr "Aviso"
 
-#: standard input:20
+#: standard input:7 input:20
 msgid "Warning:"
 msgstr "Aviso:"
 
@@ -3669,8 +6297,13 @@ msgstr "Aviso:"
 msgid "We"
 msgstr "Nosotros"
 
-#: standard input:1 input:13
+#: standard input:3 input:5 input:1 input:13
 msgid "Web interface"
+msgstr "Interfaz Web"
+
+#: standard input:1
+#, fuzzy
+msgid "Web interface HTTP server"
 msgstr "Interfaz Web"
 
 #: ui/html-messages.scm:73
@@ -3689,12 +6322,25 @@ msgstr "Configuraciones de Wireless"
 msgid "Wifi interfaces"
 msgstr "Interfaz Wifi"
 
+#: backend3/bacula-client-backup:69
+msgid "Windows"
+msgstr ""
+
 #: standard input:4 ui/net-eth/advanced/index.scm:55
 msgid "Wireless settings..."
 msgstr "Configuración de Rede Wireless"
 
+#: standard input:10 input:22
+#, fuzzy
+msgid "With selected:"
+msgstr "Por selecionado:"
+
 #: backend3/sysconfig-base:35
 msgid "Without dead keys"
+msgstr ""
+
+#: standard input:13
+msgid "Work"
 msgstr ""
 
 #: standard input:3 ui/datetime/system/index.scm:27
@@ -3714,6 +6360,10 @@ msgstr "Accesso de Escrita"
 msgid "X11 test failed"
 msgstr "No prueba [ X11 ]"
 
+#: ui/vm/dummystr.scm:8
+msgid "XFS File System Interface Module"
+msgstr ""
+
 #: standard input:1
 msgid "Xinetd server"
 msgstr "Servidor xinetd"
@@ -3726,13 +6376,28 @@ msgstr "Servidor xinetd"
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #. #-#-#-#-#  alterator-x11.po (Alterator)  #-#-#-#-#
 #. messages from C tools
-#: interfaces/guile/workflow/card-index.scm:146 backend3/samba:92
-#: ui/x11/c-messages.scm:2 interfaces/guile/workflow/card-index.scm:152
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-x11.po (Alterator)  #-#-#-#-#
+#. messages from C tools
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-x11.po (Alterator)  #-#-#-#-#
+#. messages from C tools
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-x11.po (Alterator)  #-#-#-#-#
+#. messages from C tools
+#: ui/mirror/repository/ajax.scm:51 backend3/samba:92 ui/x11/c-messages.scm:2
+#: interfaces/guile/workflow/card-index.scm:146
+#: interfaces/guile/workflow/card-index.scm:152
 msgid "Yes"
 msgstr "Sí"
 
 #: ui/notes/license.scm:15 ui/license/index.scm:15
 msgid "Yes, I agree"
+msgstr "Sim, Estoy de acuerdo"
+
+#: ui/vm/lucky.scm:68
+#, fuzzy
+msgid "Yes, i'm warned"
 msgstr "Sim, Estoy de acuerdo"
 
 #: hooks/net-eth-precommit.d/office-server:21
@@ -3767,10 +6432,28 @@ msgstr "Usted deberia definir la línea de dirección"
 msgid "You should define network interface"
 msgstr "Usted deberia definir la red de interfaz"
 
+#: standard input:9
+#, fuzzy
+msgid "You should first download key from master server."
+msgstr "Usted deveria definir un sistema de usuário"
+
+#: standard input:13
+#, fuzzy
+msgid "Zeroconf"
+msgstr "Usar ZeroConfig"
+
+#: interfaces/guile/type/domain-suffix.scm:14
+msgid "a domain suffix starting with a dot"
+msgstr ""
+
 #: interfaces/guile/type/domain-suffix.scm:14
 msgid ""
 "a number of names each starting with a dot (only small latin letters and '-' "
 "symbol are allowed)"
+msgstr ""
+
+#: interfaces/guile/type/domain-suffix-list.scm:14
+msgid "a space separated list of domain suffixes each starting with a dot"
 msgstr ""
 
 #: backend3/net-wifi:227
@@ -3781,6 +6464,12 @@ msgstr "Punto de Acceso"
 msgid "all connections"
 msgstr "Todas las conecciones"
 
+#: backend3/trust:301
+#, fuzzy
+msgid "already exists"
+msgstr "Sección ya existe."
+
+#: bin/alterator-net-iptables:12 bin/iptables_helper:12
 #: bin/alterator-net-iptables:7 bin/iptables_helper:7
 msgid "alterator-net-iptables"
 msgstr "alterator-net-iptables"
@@ -3789,7 +6478,7 @@ msgstr "alterator-net-iptables"
 msgid "alterator-office-server"
 msgstr ""
 
-#: backend3/lilo:116
+#: backend3/lilo:154 backend3/lilo:116
 msgid "auto"
 msgstr "auto"
 
@@ -3797,7 +6486,8 @@ msgstr "auto"
 msgid "automatically"
 msgstr "automáticamente"
 
-#: helpers/lilo-hal.sh:18 helpers/lilo-sysfs.sh:18 helpers/utils.sh:11
+#: backend3/lilo:105 helpers/lilo-hal.sh:18 helpers/lilo-sysfs.sh:18
+#: helpers/utils.sh:11
 msgid "b"
 msgstr "b"
 
@@ -3808,6 +6498,11 @@ msgstr "Volver para lista de cadena"
 #: backend3/x11:164
 msgid "bits"
 msgstr "bits"
+
+#: helpers/lilo-conf.sh:144
+#, fuzzy
+msgid "boot device not found"
+msgstr "Archivo no encontrado"
 
 #: backend3/net-eth:146
 msgid "by MAC address"
@@ -3820,6 +6515,10 @@ msgstr "por localización"
 #: ui/pkg/groups/index.scm:100 ui/pkg/groups/index.scm:85
 msgid "calculating..."
 msgstr "calculando..."
+
+#: backend3/trust:303
+msgid "can't connect (missing key?)"
+msgstr ""
 
 #. '
 #: backend3/users:83
@@ -3847,6 +6546,11 @@ msgstr "No use su contraseña"
 msgid "cannot change password"
 msgstr "No puede cambiar contraseña"
 
+#: standard input:16
+#, fuzzy
+msgid "certificates"
+msgstr "Certificado"
+
 #: ui/html-messages.scm:51 ui/html-messages.scm:53
 msgid "check"
 msgstr "comprobar"
@@ -3863,7 +6567,18 @@ msgstr "Conección establecida"
 msgid "connection failed"
 msgstr "No conección"
 
-#: interfaces/guile/type/date.scm:11
+#: standard input:18
+msgid ""
+"cron is a standard UNIX program that runs user-specified programs at "
+"periodic scheduled times. vixie cron adds a number of features to the basic "
+"UNIX cron, including better security and more powerful configuration options."
+msgstr ""
+
+#: backend3/auth:37
+msgid "custom"
+msgstr ""
+
+#: type/date.scm:11 interfaces/guile/type/date.scm:11
 msgid "date should be in YYYY-MM-DD format"
 msgstr "el formato de la Data deve ser YYYY-MM-DD"
 
@@ -3871,19 +6586,30 @@ msgstr "el formato de la Data deve ser YYYY-MM-DD"
 msgid "default"
 msgstr "predeterminado"
 
-#: standard input:15 ui/net-dnat/index.scm:48
+#: standard input:22 ui/net-dnat/index.scm:49 input:15
+#: ui/net-dnat/index.scm:48
 msgid "destination IP address:"
 msgstr "Destino IP:"
+
+#: helpers/lilo-conf.sh:29 helpers/lilo-conf.sh:145
+#, fuzzy
+msgid "device not found"
+msgstr "Archivo no encontrado"
 
 #: backend3/vsftpd:109
 msgid "disable write access"
 msgstr "Desactivar acceso escrito"
 
-#: backend3/services:116
+#: backend3/net-openvpn:120
+#, fuzzy
+msgid "disabled"
+msgstr "Tabla:"
+
+#: backend3/services:118 backend3/services:116
 msgid "do not change"
 msgstr "No cambiar"
 
-#: backend3/net-pppoe:94 backend3/net-pptp:216
+#: backend3/net-openvpn:60 backend3/net-pppoe:94 backend3/net-pptp:216
 msgid "don't change"
 msgstr "No cambiar"
 
@@ -3895,6 +6621,11 @@ msgstr "editar"
 #: backend3/vsftpd:108
 msgid "enable write access"
 msgstr "permitir accesso escrito"
+
+#: backend3/net-openvpn:118
+#, fuzzy
+msgid "enabled"
+msgstr "Permitido"
 
 #: backend3/ahttpd-server:99
 msgid "errors only"
@@ -3912,7 +6643,8 @@ msgstr "externos"
 msgid "facility setup failed"
 msgstr "Configuración falló"
 
-#: helpers/lilo-parser.sh:395 backend3/lilo:104
+#: helpers/lilo-parser.sh:402 backend3/lilo:142 helpers/lilo-parser.sh:395
+#: backend3/lilo:104
 msgid "failsafe"
 msgstr "FailSafe"
 
@@ -3920,9 +6652,23 @@ msgstr "FailSafe"
 msgid "for"
 msgstr "para"
 
-#: standard input:17 ui/net-dnat/index.scm:53
+#: standard input:65
+#, fuzzy
+msgid "for date:"
+msgstr "Configurar la Fecha Actual:"
+
+#: standard input:24 ui/net-dnat/index.scm:54 input:17
+#: ui/net-dnat/index.scm:53
 msgid "forward to IP address:"
 msgstr "Adelantar dirección de IP"
+
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
+msgstr ""
+
+#: backend3/mirror:294
+msgid "friday"
+msgstr ""
 
 #: standard input:2 input:4
 msgid "from"
@@ -3945,7 +6691,7 @@ msgstr "Gateway"
 msgid "gid not unique"
 msgstr "GID no és único"
 
-#: backend3/lilo:110
+#: backend3/lilo:148 backend3/lilo:110
 msgid "graphics"
 msgstr "gráficos"
 
@@ -3953,6 +6699,10 @@ msgstr "gráficos"
 #: backend3/users:121
 msgid "group name not unique"
 msgstr "nombre del grupo no és único"
+
+#: standard input:44
+msgid "ifplugd watches network interface to (re)configure it"
+msgstr ""
 
 #: bin/alterator-net-iptables:164 bin/alterator-net-iptables:166
 #: bin/alterator-net-iptables:168 bin/alterator-net-iptables:170
@@ -3968,16 +6718,22 @@ msgstr "Norma DNAT"
 msgid "in desktop-file for service"
 msgstr "Archivo desktop para servicio"
 
-#: backend3/squid-commit:42
+#: backend3/squid-commit:47 backend3/squid-commit:42
 #, fuzzy
 msgid "in progress..."
 msgstr "Download in progreso"
 
-#: backend3/pkg-sources:185 backend3/pkg-sources:221
+#: ui/vm/dummystr.scm:88
+#, fuzzy
+msgid "inaccesible or not a directory"
+msgstr "Directorio Inicial:"
+
+#: backend3/pkg-sources:187 backend3/pkg-sources:210 backend3/pkg-sources:185
+#: backend3/pkg-sources:221
 msgid "inactive"
 msgstr "inactivo"
 
-#: backend3/lilo:127
+#: backend3/lilo:165 backend3/lilo:127
 msgid "infinite"
 msgstr "infinito"
 
@@ -3985,22 +6741,24 @@ msgstr "infinito"
 msgid "internal"
 msgstr "Interno"
 
-#: standard input:3 ui/xinetd/index.scm:22
+#: standard input:2 ui/xinetd/index.scm:89 input:3 ui/xinetd/index.scm:22
 msgid "internal service"
 msgstr "Servicio interno"
 
-#: interfaces/guile/type/ipv4-address.scm:16
+#: type/ipv4-address.scm:16 interfaces/guile/type/ipv4-address.scm:16
 msgid "invalid IP address"
 msgstr "Dirección IP Inválido"
 
+#: type/ipv4-address-list.scm:14
 #: interfaces/guile/type/ipv4-address-list.scm:14
 msgid "invalid IP address list"
 msgstr "Dirección IP de la Lista Inválidos"
 
-#: interfaces/guile/type/ipv4-network.scm:13
+#: type/ipv4-network.scm:13 interfaces/guile/type/ipv4-network.scm:13
 msgid "invalid IP network specification"
 msgstr "IP Inválido"
 
+#: type/iso-3166-alpha-2.scm:258 type/ssl-cert-country-code.scm:11
 #: interfaces/guile/type/iso-3166-alpha-2.scm:258
 msgid "invalid ISO-3166-alpha-2 country code"
 msgstr "Inválido ISO-3166-alpha-2 código del país"
@@ -4009,7 +6767,7 @@ msgstr "Inválido ISO-3166-alpha-2 código del país"
 msgid "invalid MAC address"
 msgstr "Dirección MAC Inválido"
 
-#: interfaces/guile/type/tcp-port.scm:12
+#: type/tcp-port.scm:12 interfaces/guile/type/tcp-port.scm:12
 msgid "invalid TCP port"
 msgstr "Puerta TCP Inválida"
 
@@ -4021,7 +6779,7 @@ msgstr "Dirección inválido"
 msgid "invalid argument to option"
 msgstr "Argumento de opcione inválido"
 
-#: interfaces/guile/type/boolean.scm:8
+#: type/boolean.scm:8 interfaces/guile/type/boolean.scm:8
 msgid "invalid boolean value"
 msgstr "Valor del Boolen inválido"
 
@@ -4030,11 +6788,16 @@ msgstr "Valor del Boolen inválido"
 msgid "invalid command syntax"
 msgstr "Comando syntax inválido"
 
+#: type/e-mail.scm:12
+#, fuzzy
+msgid "invalid e-mail address"
+msgstr "Dirección inválido"
+
 #: backend3/users:117
 msgid "invalid group name"
 msgstr "Nombre del grupo inválido"
 
-#: interfaces/guile/type/hostname-list.scm:14
+#: type/hostname-list.scm:14 interfaces/guile/type/hostname-list.scm:14
 msgid "invalid hostname list"
 msgstr "Inválida Lista de Hostnames"
 
@@ -4042,17 +6805,39 @@ msgstr "Inválida Lista de Hostnames"
 msgid "invalid resource name"
 msgstr "Nombre de recursos inválido"
 
-#: backend3/bacula-backup:44 ui/pkg/groups/index.scm:87
+#: helpers/lilo-conf.sh:136
+msgid "is not a block device"
+msgstr ""
+
+#: bin/bacula-alterator-sh-functions:39 ui/pkg/groups/index.scm:87
+#: backend3/bacula-backup:44
 msgid "kB"
 msgstr ""
 
-#: standard input:4 input:6 input:8 ui/quota/index.scm:50
+#: backend3/lilo:106 standard input:4 input:6 input:8 ui/quota/index.scm:50
 #: ui/quota/index.scm:54 ui/quota/index.scm:58
 #, fuzzy
 msgid "kb"
 msgstr "b"
 
-#: backend3/squid-commit:48
+#: standard input:33
+msgid "klogd is kernel message trapping daemon."
+msgstr ""
+
+#: backend3/auth:28
+msgid "local"
+msgstr ""
+
+#: standard input:38
+msgid "manage user-space device nodes in /dev"
+msgstr ""
+
+#: backend3/bind:57
+#, fuzzy
+msgid "managed by DHCP server"
+msgstr "Servidor DHCP"
+
+#: backend3/squid-commit:53 backend3/squid-commit:48
 msgid "manually updated"
 msgstr ""
 
@@ -4060,15 +6845,15 @@ msgstr ""
 msgid "master"
 msgstr ""
 
-#: backend3/lilo:117
+#: backend3/lilo:155 backend3/lilo:117
 msgid "mbr"
 msgstr "MBR"
 
-#: backend3/lilo:118
+#: backend3/lilo:156 backend3/lilo:118
 msgid "mbr-only"
 msgstr "Apenas MBR"
 
-#: standard input:21
+#: standard input:8 input:21
 msgid "mirroring requires a lot of disk space."
 msgstr "Espejos requieren un buen espacio en disco"
 
@@ -4076,16 +6861,31 @@ msgstr "Espejos requieren un buen espacio en disco"
 msgid "missing"
 msgstr "perdidos"
 
-#: interfaces/guile/backend/squidmill.scm:256 backend3/squid-commit:70
+#: backend3/mirror:290
+msgid "monday"
+msgstr ""
+
+#: standard input:51
+msgid "multi-line description of the service."
+msgstr ""
+
+#: standard input:52
+msgid ""
+"named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+"names to IP addresses."
+msgstr ""
+
+#: interfaces/guile/backend/squidmill.scm:256 backend3/squid-commit:75
+#: backend3/squid-commit:70
 msgid "never"
 msgstr ""
 
-#: backend3/mirror:84 backend3/mirror:85 backend3/mirror:109
-#: backend3/mirror:116 backend3/vsftpd:56
+#: backend3/vsftpd:56 backend3/mirror:84 backend3/mirror:85
+#: backend3/mirror:109 backend3/mirror:116
 msgid "no"
 msgstr "no"
 
-#: backend3/lilo:121
+#: backend3/lilo:159 backend3/lilo:121
 msgid "no wait"
 msgstr "no aguarde"
 
@@ -4093,9 +6893,13 @@ msgstr "no aguarde"
 msgid "no workcopy was found"
 msgstr "niguma copia copia fue encontrada"
 
-#: backend3/lilo:115
+#: backend3/lilo:153 backend3/lilo:115
 msgid "none"
 msgstr "nada"
+
+#: backend3/trust:230 backend3/trust:231
+msgid "not set"
+msgstr ""
 
 #: backend3/net-eth:154
 msgid "not under control"
@@ -4105,37 +6909,63 @@ msgstr ""
 msgid "nothing"
 msgstr "nada"
 
+#: standard input:14
+msgid "ntpd is a time synchronization daemon"
+msgstr ""
+
 #: type/ahttpd-cert-field.scm:11
 #: interfaces/guile/type/ahttpd-cert-field.scm:11
 msgid "only digits and latin letters allowed"
 msgstr "apenas digitos en letras"
 
-#: interfaces/guile/type/hostname.scm:14
+#: interfaces/guile/type/ca-cert-field.scm:11 type/ssl-cert-field.scm:11
+#, fuzzy
+msgid "only digits, punctuation and latin letters allowed"
+msgstr "apenas digitos en letras"
+
+#: type/hostname.scm:14 interfaces/guile/type/hostname.scm:14
 msgid "only latin letters, digits, '-', '.', and '_' allowed"
 msgstr "apenas dígitos con letras permitido '_'"
 
+#: type/system-computer-name.scm:12
 #: interfaces/guile/type/system-computer-name.scm:12
 msgid "only latin letters, digits, '-', and '_' allowed"
 msgstr "apenas dígitos con letras permitido '_'"
 
+#: type/system-account-name.scm:12
 #: interfaces/guile/type/system-account-name.scm:12
 msgid "only small latin letters, digits and '_' allowed"
 msgstr "apenas dígitos con letras permitido '_'"
 
-#: helpers/lilo-hal.sh:61 helpers/lilo-other-system.sh:39
-#: helpers/lilo-sysfs.sh:61
+#: backend3/openvpn-server:882
+msgid "openvpn server start failed"
+msgstr ""
+
+#: backend3/net-openvpn:267
+#, fuzzy
+msgid "openvpn start failed"
+msgstr "Prueba falló"
+
+#: helpers/lilo-other-system.sh:41 helpers/lilo-hal.sh:61
+#: helpers/lilo-other-system.sh:39 helpers/lilo-sysfs.sh:61
 msgid "partition"
 msgstr "particíon"
+
+#: type/bacula-password.scm:12
+msgid "password contains illegal characters"
+msgstr ""
 
 #: backend3/net-eth:197
 msgid "plugged"
 msgstr "conectado"
 
-#: standard input:16 input:18 ui/net-dnat/index.scm:50
+#: standard input:23 input:25 ui/net-dnat/index.scm:51
+#: ui/net-dnat/index.scm:56 input:16 input:18 ui/net-dnat/index.scm:50
 #: ui/net-dnat/index.scm:55
 msgid "port:"
 msgstr "porta:"
 
+#: bin/alterator-net-iptables:391 bin/iptables_helper:391
 #: bin/alterator-net-iptables:164 bin/iptables_helper:164
 #: bin/iptables_helper:186 bin/iptables_helper:206
 msgid "possible values:"
@@ -4145,7 +6975,8 @@ msgstr "valores posibles"
 msgid "privet!"
 msgstr "privada"
 
-#: standard input:14 ui/net-dnat/index.scm:42
+#: standard input:20 ui/net-dnat/index.scm:43 input:14
+#: ui/net-dnat/index.scm:42
 msgid "protocol:"
 msgstr "Protocolo:"
 
@@ -4157,7 +6988,8 @@ msgstr "recomiendado"
 msgid "remove from list"
 msgstr "remover de la lista"
 
-#: backend3/net-pppoe:97 backend3/net-pptp:219 backend3/services:119
+#: backend3/net-pppoe:97 backend3/net-pptp:219 backend3/services:121
+#: backend3/services:119
 msgid "restart"
 msgstr "resetar"
 
@@ -4165,13 +6997,22 @@ msgstr "resetar"
 msgid "router"
 msgstr "roteador"
 
-#: backend3/services:54 backend3/services:117
+#: backend3/services:56 backend3/services:119 backend3/services:54
+#: backend3/services:117
 msgid "running"
 msgstr "rodando"
 
 #: backend3/mailman:142
 msgid "same virtual host is already defined"
 msgstr "el host virtual ya está definido"
+
+#: backend3/mirror:295
+msgid "saturday"
+msgstr ""
+
+#: standard input:13
+msgid "sensors is used for monitoring motherboard sensor values."
+msgstr ""
 
 #: backend3/datetime-installer:17
 msgid "set automatically"
@@ -4191,6 +7032,12 @@ msgstr "modo simples"
 
 #: standard input:7
 msgid "slave"
+msgstr ""
+
+#: standard input:15
+msgid ""
+"spamd is a daemon process which uses SpamAssassin to check email messages "
+"for SPAM. It is normally called by spamc from a MDA (or MTA)."
 msgstr ""
 
 #: backend3/users:119
@@ -4215,7 +7062,23 @@ msgstr "usuário espeficado no existe"
 #. '
 #. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
 #. '
-#: backend3/net-pppoe:95 backend3/net-pptp:217 backend3/services:117
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#
+#. '
+#. #-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#
+#. '
+#: backend3/net-openvpn:61 backend3/net-pppoe:95 backend3/net-pptp:217
+#: backend3/services:119 backend3/services:117
 msgid "start"
 msgstr "empezar"
 
@@ -4223,29 +7086,44 @@ msgstr "empezar"
 msgid "start, stop or restart service"
 msgstr "iniciar, parar o resetar el servicio"
 
-#: backend3/net-pppoe:96 backend3/net-pptp:218 backend3/services:118
+#: backend3/net-openvpn:62 backend3/net-pppoe:96 backend3/net-pptp:218
+#: backend3/services:120 backend3/services:118
 msgid "stop"
 msgstr "parar"
 
-#: backend3/services:53 backend3/services:118 backend3/services:119
+#: backend3/services:54 backend3/services:55 backend3/services:120
+#: backend3/services:121 backend3/services:53 backend3/services:118
+#: backend3/services:119
 msgid "stopped"
 msgstr "parado"
 
-#: backend3/lilo:111
+#: backend3/mirror:296
+msgid "sunday"
+msgstr ""
+
+#: backend3/lilo:149 backend3/lilo:111
 msgid "text"
 msgstr "texto"
 
-#: interfaces/guile/type/time.scm:10
+#: backend3/mirror:293
+msgid "thursday"
+msgstr ""
+
+#: type/time.scm:10 interfaces/guile/type/time.scm:10
 msgid "time should be in HH:MM:SS format"
 msgstr "La Hora deve ser en el formato HH:MM:SS"
 
-#: standard input:5
+#: standard input:4 input:5
 msgid "to"
 msgstr "para"
 
 #: backend3/groups:193
 msgid "to group"
 msgstr "para el grupo"
+
+#: backend3/mirror:291
+msgid "tuesday"
+msgstr ""
 
 #: backend3/users:77
 msgid "uid already in use"
@@ -4259,25 +7137,40 @@ msgstr "No adiccionar usário %s para grupo %s"
 msgid "unable to calculate"
 msgstr "No fue posible calcular"
 
+#: backend3/trust:302
+#, fuzzy
+msgid "unable to get host key"
+msgstr "No fue posible configurar el Reloj"
+
 #: backend3/datetime-installer:111 backend3/datetime-system:83
 msgid "unable to setup time"
 msgstr "No fue posible configurar el Reloj"
 
-#. #-#-#-#-#  alterator-services.po (Alterator)  #-#-#-#-#
-#. Get status information: stopped|running|unknown
-#. Usage string must be provided
-#. (srv usage)
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
 #. #-#-#-#-#  alterator-services.po (Alterator)  #-#-#-#-#
 #. Get status information: stopped|running|unknown
 #. Usage string must be provided
 #. (srv usage)
 #. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. #-#-#-#-#  alterator-services.po (Alterator)  #-#-#-#-#
 #. Get status information: stopped|running|unknown
 #. Usage string must be provided
 #. (srv usage)
-#: backend3/services:49 backend3/squid-commit:62 backend3/squid-commit:66
+#. #-#-#-#-#  es.po (Alterator)  #-#-#-#-#
+#. Get status information: stopped|running|unknown
+#. Usage string must be provided
+#. (srv usage)
+#: backend3/services:50 backend3/services:57 backend3/squid-commit:67
+#: backend3/squid-commit:71 backend3/services:49 backend3/squid-commit:62
+#: backend3/squid-commit:66
 msgid "unknown"
+msgstr "desconocido"
+
+#: backend3/trust:300
+#, fuzzy
+msgid "unknown host"
 msgstr "desconocido"
 
 #: backend3/net-eth:199
@@ -4297,7 +7190,28 @@ msgstr "Nombre de usuário ya está en uso"
 msgid "view"
 msgstr ""
 
-#: backend3/mirror:106 backend3/mirror:114 backend3/vsftpd:56
+#: backend3/mirror:292
+msgid "wednesday"
+msgstr ""
+
+#: standard input:8
+msgid ""
+"wpa_supplicant is an implementation of the WPA Supplicant component, i.e., "
+"the part that runs in the client stations. It implements WPA key negotiation "
+"with a WPA Authenticator and EAP authentication with Authentication Server. "
+"In addition, it controls the roaming and IEEE 802.11 authentication/"
+"association of the wlan driver."
+msgstr ""
+
+#: standard input:19
+msgid ""
+"xinetd is a powerful replacement for inetd. xinetd has access control "
+"machanisms, extensive logging capabilities, the ability to make services "
+"available based on time, and can place limits on the number of servers that "
+"can be started, among other things. "
+msgstr ""
+
+#: backend3/vsftpd:56 backend3/mirror:106 backend3/mirror:114
 msgid "yes"
 msgstr "sí"
 
@@ -4315,3 +7229,54 @@ msgstr ""
 #, lisp-format
 msgid "~d min "
 msgstr ""
+
+#~ msgid "<new>"
+#~ msgstr "<nuevo>"
+
+#, fuzzy
+#~ msgid "Add new bindings:"
+#~ msgstr "Adiccionar nuevas imagens:"
+
+#, fuzzy
+#~ msgid "Available bindings:"
+#~ msgstr "Layouts disponibles:"
+
+#, fuzzy
+#~ msgid "Client network mask:"
+#~ msgstr "Rede Actual"
+
+#, fuzzy
+#~ msgid "Client network:"
+#~ msgstr "Rede Actual"
+
+#, fuzzy
+#~ msgid "Enable blacklisting"
+#~ msgstr "posibilitar espejamiento"
+
+#, fuzzy
+#~ msgid "Error: bad fixmac mode"
+#~ msgstr "Error: modo"
+
+#, fuzzy
+#~ msgid "Error: bad port: "
+#~ msgstr "Error: porta"
+
+#, fuzzy
+#~ msgid "Internal network restrictions"
+#~ msgstr "Otra rede"
+
+#, fuzzy
+#~ msgid "Server network mask:"
+#~ msgstr "Argumentos del Servidor"
+
+#, fuzzy
+#~ msgid "Server network:"
+#~ msgstr "Otra rede"
+
+#, fuzzy
+#~ msgid "in fixmac rule"
+#~ msgstr "Norma DNAT"
+
+#, fuzzy
+#~ msgid "invalid system path specification"
+#~ msgstr "IP Inválido"
