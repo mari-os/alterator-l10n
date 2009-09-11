@@ -50,7 +50,7 @@ Conflicts: alterator-ca                   < 0.5-alt2
 Conflicts: alterator-trust                < 0.6.2-alt1
 Conflicts: alterator-net-openvpn          < 0.7.1-alt1
 Conflicts: alterator-openvpn-server       < 0.6.3-alt1
-Conflicts: alterator-sslkey               < 0.1.1-alt1
+Conflicts: alterator-sslkey               < 0.1.2-alt1
 
 %description
 translations for all alterator modules
