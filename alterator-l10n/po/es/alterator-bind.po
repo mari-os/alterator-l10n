@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-11 10:56+0400\n"
+"POT-Creation-Date: 2009-09-11 11:08+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:13
+#: standard input:14
 msgid "Add"
 msgstr "Adiccionar"
 
@@ -46,21 +46,26 @@ msgstr "Servidor DNS:"
 msgid "Domain:"
 msgstr "Procurar Dominios:"
 
-#: standard input:8
+#: standard input:9
 #, fuzzy
 msgid "Host"
 msgstr "hostname:"
 
-#: standard input:11
+#: standard input:12
 #, fuzzy
 msgid "Host:"
 msgstr "hostname:"
 
-#: standard input:9
+#: standard input:8
+#, fuzzy
+msgid "Hosts:"
+msgstr "hostname:"
+
+#: standard input:10
 msgid "IP address"
 msgstr "Dirección IP"
 
-#: standard input:12
+#: standard input:13
 msgid "IP address:"
 msgstr "Dirección IP:"
 
@@ -79,7 +84,7 @@ msgstr "Procurar Dominios:"
 msgid "Remove domain"
 msgstr "Borrar conección"
 
-#: standard input:10
+#: standard input:11
 msgid "Remove selected"
 msgstr "Remover seleccionado"
 
@@ -158,3 +163,8 @@ msgstr ""
 #, fuzzy
 msgid "Unable to destroy system domain"
 msgstr "No fue posible configurar el reloj"
+
+#: backend3/bind:57
+#, fuzzy
+msgid "managed by DHCP server"
+msgstr "Servidor DHCP"

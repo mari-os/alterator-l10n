@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-11 10:56+0400\n"
+"POT-Creation-Date: 2009-09-11 11:08+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:13
+#: standard input:14
 msgid "Add"
 msgstr "Добавить"
 
@@ -42,19 +42,23 @@ msgstr "DNS-сервер"
 msgid "Domain:"
 msgstr "Домен:"
 
-#: standard input:8
+#: standard input:9
 msgid "Host"
 msgstr "Хост"
 
-#: standard input:11
+#: standard input:12
 msgid "Host:"
 msgstr "Хост:"
 
-#: standard input:9
+#: standard input:8
+msgid "Hosts:"
+msgstr "Хосты:"
+
+#: standard input:10
 msgid "IP address"
 msgstr "IP-адрес"
 
-#: standard input:12
+#: standard input:13
 msgid "IP address:"
 msgstr "IP-адрес:"
 
@@ -70,7 +74,7 @@ msgstr "Новый домен:"
 msgid "Remove domain"
 msgstr "Удалить домен"
 
-#: standard input:10
+#: standard input:11
 msgid "Remove selected"
 msgstr "Удалить выделенные"
 
@@ -80,16 +84,20 @@ msgstr "Вернуть"
 
 #: backend3/bind:141
 msgid "Same binding of host to IP address already exists"
-msgstr "Подобная связка хоста и IP-адреса уже существует"
+msgstr "Подобная привязка хоста к IP-адресу уже существует"
 
 #: backend3/bind:116
 msgid "Same domain already exists"
 msgstr "Подобный домен уже существует"
 
 #: backend3/bind:144
-msgid "This computer name is registered for internal purposes"
-msgstr "Подобное имя компьютера зарезервированно"
+msgid "This hostname is registered for internal purposes"
+msgstr "Данное имя хоста зарезервировано для системы"
 
 #: backend3/bind:126
 msgid "Unable to destroy system domain"
 msgstr "Невозможно установить системный домен"
+
+#: backend3/bind:57
+msgid "managed by DHCP server"
+msgstr "управляется DHCP-сервером"
