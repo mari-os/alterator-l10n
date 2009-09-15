@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-16 23:57+0400\n"
-"PO-Revision-Date: 2008-12-02 22:29-0300\n"
-"Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
+"PO-Revision-Date: 2009-09-14 19:08-0300\n"
+"Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -32,222 +32,205 @@ msgid "Add"
 msgstr "Adicionar"
 
 #: standard input:13
-#, fuzzy
 msgid "Add host:"
-msgstr "Adicionar Site"
+msgstr "Adicionar host:"
 
 #: standard input:4
 msgid "Apply"
 msgstr "Aplicar"
 
 #: standard input:15
-#, fuzzy
 msgid "Back to list"
-msgstr "Voltar a lista de cadeias"
+msgstr "Voltar a lista"
 
 #: backend3/ca:281
-#, fuzzy
 msgid "CA already initialized"
-msgstr "UID já em uso"
+msgstr "Ca já iniciliazada"
 
-#: standard input:2 input:25
-#, fuzzy
+#: standard input:2
+#: input:25
 msgid "CA management"
-msgstr "Administração de Usuário"
+msgstr "Gestão CA"
 
 #: backend3/ca:142
 msgid "CA not initialized"
-msgstr ""
+msgstr "CA não inicializado"
 
 #: standard input:26
-#, fuzzy
 msgid "CA status:"
-msgstr "Status:"
-
-#: standard input:1 input:24
-#, fuzzy
-msgid "Certificate management"
-msgstr "Administração de Usuário"
+msgstr "CA estado:"
 
 #: standard input:1
-#, fuzzy
-msgid "Certification Authority"
-msgstr "Porta destino"
+#: input:24
+msgid "Certificate management"
+msgstr "Gestão de certificados"
 
-#: standard input:28 input:33
+#: standard input:1
+msgid "Certification Authority"
+msgstr "Autoridade de Certificação"
+
+#: standard input:28
+#: input:33
 msgid "Common Name (CN):"
 msgstr "Nome Comum (CN):"
 
 #: standard input:49
-#, fuzzy
 msgid "Confirm"
-msgstr "Configurar"
+msgstr "Confirme"
 
-#: standard input:31 input:36 input:45
+#: standard input:31
+#: input:36
+#: input:45
 msgid "Country (C):"
 msgstr "País:"
 
 #: backend3/ca:266
 msgid "Country and Organizaton must be defined"
-msgstr ""
+msgstr "País e Organização deve ser definido"
 
 #: backend3/ca:274
-#, fuzzy
 msgid "Country must be defined"
-msgstr "URL personalizado deverá ser definido"
+msgstr "País deve ser definido"
 
 #: standard input:50
 msgid "Create"
 msgstr "Criar"
 
 #: standard input:18
-#, fuzzy
 msgid "Date issued"
-msgstr "Data, hora"
+msgstr "Data de emissão"
 
 #: standard input:11
 msgid "Delete"
 msgstr "Deletar"
 
 #: standard input:42
-#, fuzzy
 msgid "Download certificate:"
-msgstr "Download do arquivo:"
+msgstr "Download do Certificado:"
 
 #: standard input:43
-#, fuzzy
 msgid "Download sign request:"
-msgstr "Download do Requerido"
+msgstr "Sinal de pedido de transferência:"
 
 #: standard input:3
 msgid "Enable daily updates at"
-msgstr ""
+msgstr "Ativar atualizações diárias no"
 
 #: standard input:39
 msgid "Expires on:"
-msgstr ""
+msgstr "Expira em:"
 
 #: standard input:19
-#, fuzzy
 msgid "Expiry date"
-msgstr "Tempo de expiração"
+msgstr "Prazo de validade"
 
 #: standard input:9
-#, fuzzy
 msgid "Host"
-msgstr "hostname:"
+msgstr "Host:"
 
 #: backend3/ca:302
-#, fuzzy
 msgid "Invalid sign request"
-msgstr "Download do Requerido"
+msgstr "Pedido de assinatura inválidos"
 
 #: standard input:38
-#, fuzzy
 msgid "Issued on:"
-msgstr "Montado"
+msgstr "Data de Emissão:"
 
 #: standard input:32
 msgid "Issuer"
-msgstr ""
+msgstr "Emitente"
 
 #: backend3/ca:170
-#, fuzzy
 msgid "Local"
-msgstr "Local dos Arquivos"
+msgstr "Local"
 
 #: backend3/ca:126
-#, fuzzy
 msgid "Local certificates"
-msgstr "Certificado"
+msgstr "Certificados Local"
 
 #: standard input:41
 msgid "MD5 Fingerprint:"
-msgstr ""
+msgstr "MD5 Fingerprint:"
 
 #: standard input:8
 msgid "Managed hosts"
-msgstr ""
+msgstr "Hosts gerenciados"
 
 #: backend3/ca:154
-#, fuzzy
 msgid "Missing sign request"
-msgstr "Download do Requerido"
+msgstr "Requerimento de assinatura perdido"
 
 #: standard input:17
 msgid "Name"
 msgstr "Nome"
 
-#: standard input:30 input:35 input:47
+#: standard input:30
+#: input:35
+#: input:47
 msgid "Organization (O):"
 msgstr "Organização:"
 
-#: standard input:29 input:34
+#: standard input:29
+#: input:34
 msgid "Organizational Unit (OU):"
 msgstr "Unidade:"
 
 #: backend3/ca:270
 msgid "Organizaton must be defined"
-msgstr ""
+msgstr "Organização deve ser definido"
 
 #: standard input:37
 msgid "Other"
 msgstr "Outro"
 
 #: standard input:44
-#, fuzzy
 msgid "Re-generate CA"
-msgstr "Gerar"
+msgstr " Re-gerar CA"
 
 #: standard input:40
 msgid "SHA1 Fingerprint:"
-msgstr ""
+msgstr "SHA1 Fingerprint:"
 
-#: standard input:7 input:23
+#: standard input:7
+#: input:23
 msgid "Sign"
 msgstr "Entrar"
 
 #: standard input:5
-#, fuzzy
 msgid "Sign certificate"
-msgstr "Certificado"
+msgstr "Assinatura certificado"
 
 #: standard input:21
-#, fuzzy
 msgid "Status"
-msgstr "Status:"
+msgstr "Estado:"
 
-#: standard input:20 input:27
-#, fuzzy
+#: standard input:20
+#: input:27
 msgid "Subject"
-msgstr "Objetos"
+msgstr "Assunto:"
 
 #: backend3/ca:159
-#, fuzzy
 msgid "Unable to sign request"
-msgstr "Download do Requerido"
+msgstr "Não é possível assinar pedido"
 
 #: standard input:12
-#, fuzzy
 msgid "Update"
-msgstr "Atualizações"
+msgstr "Atualizar"
 
 #: standard input:6
-#, fuzzy
 msgid "Upload request"
-msgstr "Download do Requerido"
+msgstr "Pedido de envio"
 
-#: standard input:10 input:22
-#, fuzzy
+#: standard input:10
+#: input:22
 msgid "With selected:"
-msgstr "Para Seleção:"
+msgstr "Com selecionado:"
 
 #: standard input:16
-#, fuzzy
 msgid "certificates"
-msgstr "Certificado"
+msgstr "certificados"
 
 #: interfaces/guile/type/ca-cert-field.scm:11
-#, fuzzy
 msgid "only digits, punctuation and latin letters allowed"
-msgstr "apenas digitos em letras"
+msgstr "apenas dígitos, pontuação e letras latino permitiu"
+

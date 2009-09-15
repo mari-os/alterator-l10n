@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-04 14:00+0400\n"
-"PO-Revision-Date: 2009-03-28 10:50-0300\n"
-"Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
+"PO-Revision-Date: 2009-09-14 19:21-0300\n"
+"Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -19,7 +19,8 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:15 input:22
+#: standard input:15
+#: input:22
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -33,7 +34,7 @@ msgstr "Arquiteturas:"
 
 #: ui/mirror/repository/ajax.scm:51
 msgid "Are really want to clear local repository?"
-msgstr ""
+msgstr "São realmente deseja limpar repositório local?"
 
 #: backend3/mirror:371
 msgid "Can mirror only from sources with rsync procotol"
@@ -71,7 +72,8 @@ msgstr "Gb"
 msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
 msgstr "Inválido ou não suportado protocolo. Deve ser http, ftp ou rsync"
 
-#: backend3/mirror:59 backend3/mirror:144
+#: backend3/mirror:59
+#: backend3/mirror:144
 msgid "Kb"
 msgstr "Kb"
 
@@ -88,19 +90,16 @@ msgid "Mb"
 msgstr "Mb"
 
 #: standard input:10
-#, fuzzy
 msgid "Mirror every day"
-msgstr "Todos os dias"
+msgstr "Espelho todos os dias"
 
 #: standard input:12
-#, fuzzy
 msgid "Mirror every month at day:"
-msgstr "Todos os meses no dia:"
+msgstr "Espelho de cada mês, no dia:"
 
 #: standard input:11
-#, fuzzy
 msgid "Mirror every week at:"
-msgstr "Todas as semanas em:"
+msgstr "Espelho toda semana em:"
 
 #: ui/mirror/repository/ajax.scm:51
 msgid "No"
@@ -126,7 +125,8 @@ msgstr "Repositório"
 msgid "Repository:"
 msgstr "Repositório:"
 
-#: standard input:16 input:23
+#: standard input:16
+#: input:23
 msgid "Reset"
 msgstr "Resetar"
 
@@ -147,14 +147,12 @@ msgid "Time:"
 msgstr "Hora:"
 
 #: standard input:9
-#, fuzzy
 msgid "Turn off mirroring"
-msgstr "nenhum espelho"
+msgstr "Desligue o espelhamento"
 
 #: backend3/mirror:269
-#, fuzzy
 msgid "Unable to create temp file"
-msgstr "Não foi possível criar a rede"
+msgstr "Não é possível criar arquivo temporário"
 
 #: standard input:1
 msgid "Updates server"
@@ -200,18 +198,4 @@ msgstr "terça-feira"
 msgid "wednesday"
 msgstr "quarta-feira"
 
-#~ msgid "Enable mirroring"
-#~ msgstr "Habilitar espelhamento"
 
-#~ msgid ""
-#~ "Synchronization will start every night. First synchronization with some "
-#~ "repository may take a long time."
-#~ msgstr ""
-#~ "Sincronização irá iniciar todas as noites. Primeira sincronização com "
-#~ "algum repositório pode demorar bastante tempo."
-
-#~ msgid "no"
-#~ msgstr "não"
-
-#~ msgid "yes"
-#~ msgstr "sim"
