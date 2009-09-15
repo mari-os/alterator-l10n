@@ -1,5 +1,5 @@
 Name: alterator-l10n
-Version: 2.6
+Version: 2.7
 Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
@@ -91,10 +91,14 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Sep 15 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.7-alt1
+- add pt_BR translations (by fmartini@altlinux.com.br) (closes: #21567)
+- update pt_BR compendium
+
 * Fri Sep 11 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.6-alt1
 - add uk translations (by yatsenko.alexandr@gmail.com)
 - update compendiums
-- join_po: don't fail on new compendum
+- join_po: don't fail on new compendium
 - fix Conflicts
 - fix ua/alterator-ldap-users.po
 
