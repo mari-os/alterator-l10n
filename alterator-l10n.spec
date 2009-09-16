@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt1
+Release: alt2
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -91,6 +91,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Sep 16 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt2
+- update translations for alterator-ldap-groups and alterator-ldap-users
+
 * Tue Sep 15 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.7-alt1
 - add pt_BR translations (by fmartini@altlinux.com.br) (closes: #21567)
 - update pt_BR compendium

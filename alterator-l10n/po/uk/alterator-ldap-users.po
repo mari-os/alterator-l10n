@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-ldap-users\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-19 14:13+0000\n"
+"POT-Creation-Date: 2009-09-16 17:09+0400\n"
 "PO-Revision-Date: 2009-08-22 01:16+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -16,130 +16,132 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:10
+msgid "(enter passphrase)"
+msgstr "(уведіть пароль)"
+
+#: standard input:11
+msgid "(repeat passphrase)"
+msgstr "(повторіть пароль)"
+
+#: standard input:3
+#, fuzzy
+msgid "Account"
+msgstr "Обліковий запис:"
+
+#: standard input:21
+msgid "Add"
+msgstr "Додати"
+
+#: standard input:22
+msgid "Additional info"
+msgstr "Додаткова інформація"
+
+#: standard input:2
+msgid "Create"
+msgstr "Створити"
+
+#: standard input:26
+msgid "Delete user"
+msgstr "Вилучити користувача"
+
+#: standard input:18
+#, fuzzy
+msgid "E-mail"
+msgstr "Электрона пошта"
+
+#: standard input:6
+msgid "First name:"
+msgstr "Ім’я:"
+
+#: standard input:12
+msgid "Generate"
+msgstr "Генерувати"
+
+#: standard input:9
+msgid "Generate automatically"
+msgstr "Створти автоматично"
+
+#: standard input:23
+msgid "Home directory:"
+msgstr "Домашня тека:"
+
+#: standard input:5
+msgid "Last name:"
+msgstr "Прізвище:"
 
 #: standard input:1
 msgid "Ldap user accounts"
 msgstr "Облікові записи користувачів LDAP"
 
-#: standard input:1
-msgid "New user account"
-msgstr "Новий обліковий запис користувача"
-
-#: standard input:2
-msgid "New account name:"
-msgstr "Обліковий запис:"
-
-#: standard input:3
-msgid "Create"
-msgstr "Створити"
-
-#: standard input:4
-msgid "Existing users"
-msgstr "Існуючі користувачі:"
-
-#: standard input:5
-msgid "User's List:"
-msgstr "Список користувачів:"
-
-#: standard input:6
-msgid "User account:"
-msgstr "Обліковий запис:"
-
-#: standard input:7
-msgid "Name:"
-msgstr "Системне ім’я:"
-
-#: standard input:8
-msgid "Last name:"
-msgstr "Прізвище:"
-
-#: standard input:9
-msgid "First name:"
-msgstr "Ім’я:"
-
-#: standard input:10
-msgid "Patronym:"
-msgstr "По батькові:"
-
-#: standard input:11
-msgid "Password:"
-msgstr "Пароль:"
-
-#: standard input:12
-msgid "Generate automatically"
-msgstr "Створти автоматично"
-
-#: standard input:13
-msgid "(enter passphrase)"
-msgstr "(уведіть пароль)"
-
-#: standard input:14
-msgid "(repeat passphrase)"
-msgstr "(повторіть пароль)"
-
-#: standard input:15
-msgid "Generate"
-msgstr "Генерувати"
-
-#: standard input:16
-msgid "Work"
-msgstr "Робота"
-
 #: standard input:17
-msgid "Organization:"
-msgstr "Організація:"
-
-#: standard input:18
-msgid "Title:"
-msgstr "Посада:"
-
-#: standard input:19
-msgid "Phone:"
-msgstr "Телефон:"
-
-#: standard input:20
 msgid "Mobile phone:"
 msgstr "Мобільний телефон:"
 
-#: standard input:21
-msgid "Email"
-msgstr "Электрона пошта"
+#: standard input:4
+msgid "Name:"
+msgstr "Системне ім’я:"
 
-#: standard input:22
+#: standard input:1
+#, fuzzy
+msgid "New account:"
+msgstr "Обліковий запис:"
+
+#: standard input:20
 msgid "New email:"
 msgstr "Новий email:"
 
-#: standard input:23
-msgid "Add"
-msgstr "Додати"
+#: standard input:14
+msgid "Organization:"
+msgstr "Організація:"
 
-#: standard input:24
+#: standard input:8
+msgid "Password:"
+msgstr "Пароль:"
+
+#: backend3/ldap-users:171
+msgid "Passwords mismatch"
+msgstr "Паролі не співпадає"
+
+#: standard input:7
+msgid "Patronym:"
+msgstr "По батькові:"
+
+#: standard input:16
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: standard input:19
 msgid "Remove"
 msgstr "Вилучити"
 
 #: standard input:25
-msgid "Additional info"
-msgstr "Додаткова інформація"
-
-#: standard input:26
-msgid "Home directory:"
-msgstr "Домашня тека:"
-
-#: standard input:27
-msgid "Shell:"
-msgstr "Оболонка:"
-
-#: standard input:28
 msgid "Save"
 msgstr "Зберегти"
 
-#: standard input:29
-msgid "Delete user"
-msgstr "Вилучити користувача"
+#: standard input:24
+msgid "Shell:"
+msgstr "Оболонка:"
 
-#: backend3/ldap-users:168
-msgid "Passwords mismatch"
-msgstr "Паролі не співпадає"
+#: standard input:15
+msgid "Title:"
+msgstr "Посада:"
 
+#: standard input:13
+msgid "Work"
+msgstr "Робота"
 
+#~ msgid "Existing users"
+#~ msgstr "Існуючі користувачі:"
+
+#~ msgid "New user account"
+#~ msgstr "Новий обліковий запис користувача"
+
+#~ msgid "User account:"
+#~ msgstr "Обліковий запис:"
+
+#~ msgid "User's List:"
+#~ msgstr "Список користувачів:"
