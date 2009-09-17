@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -91,6 +91,11 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Sep 17 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt3
+- update translations for alterator-root
+- update help for alterator-root (closes: #21285)
+- add help for bind (@azol) (closes: #21449)
+
 * Wed Sep 16 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt2
 - update translations for alterator-ldap-groups and alterator-ldap-users
 
