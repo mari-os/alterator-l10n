@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-24 16:40+0400\n"
+"POT-Creation-Date: 2009-09-18 17:55+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:21
+#: standard input:23
 msgid "(TCP port for server to listen to)"
 msgstr "(TCP порт на котором сервер принимает соединения)"
 
-#: standard input:23
+#: standard input:25
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(оставьте это поле пустым для работы на всех интерфейсах)"
 
-#: standard input:25
+#: standard input:27
 msgid "(logging granularity influences its size)"
 msgstr "(подробность протоколирования влияет на размер журнала)"
 
@@ -34,15 +34,15 @@ msgstr "(подробность протоколирования влияет н
 msgid "Account name:"
 msgstr "Учётная запись:"
 
-#: standard input:32
+#: standard input:34
 msgid "Add"
 msgstr "Добавить"
 
-#: standard input:34
+#: standard input:36
 msgid "All your changes will take effect after restart of HTTP server."
 msgstr "Все ваши изменения вступят в силу после перезапуска HTTP сервера."
 
-#: standard input:11 input:15 input:26
+#: standard input:13 input:17 input:28
 msgid "Apply"
 msgstr "Применить"
 
@@ -50,7 +50,15 @@ msgstr "Применить"
 msgid "April"
 msgstr "Апрель"
 
-#: interfaces/guile/ajax.scm:393
+#: ui/ahttpd/power/ajax.scm:29
+msgid "Are you really want to reboot system?"
+msgstr "Вы действительно желаете перезагрузить систему?"
+
+#: ui/ahttpd/power/ajax.scm:24
+msgid "Are you really want to shutdown system?"
+msgstr "Вы действительно желаете выключить систему?"
+
+#: interfaces/guile/ajax.scm:395
 msgid "Attention"
 msgstr "Внимание"
 
@@ -62,11 +70,11 @@ msgstr "Август"
 msgid "Authentication failed"
 msgstr "Аутентификация не прошла"
 
-#: standard input:13
+#: standard input:15
 msgid "Base mode"
 msgstr "Основной режим"
 
-#: interfaces/guile/ajax.scm:247
+#: interfaces/guile/ajax.scm:249
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -74,7 +82,7 @@ msgstr "Отмена"
 msgid "Computer shutdown"
 msgstr "Выключение компьютера"
 
-#: standard input:38
+#: standard input:40
 msgid "Configuration"
 msgstr "Настройка"
 
@@ -86,19 +94,19 @@ msgstr "Продолжить работу"
 msgid "December"
 msgstr "Декабрь"
 
-#: standard input:30
+#: standard input:32
 msgid "Delete"
 msgstr "Удалить"
 
-#: interfaces/guile/ajax.scm:389
+#: interfaces/guile/ajax.scm:391
 msgid "Error"
 msgstr "Ошибка"
 
-#: standard input:45
+#: standard input:47
 msgid "Exiting..."
 msgstr "Завершение работы..."
 
-#: standard input:14
+#: standard input:16
 msgid "Expert mode"
 msgstr "Режим эксперта"
 
@@ -107,7 +115,7 @@ msgid "February"
 msgstr "Февраль"
 
 # ahttpd-acl
-#: standard input:29
+#: standard input:31
 msgid "Following users have access:"
 msgstr "Следующие пользователи имеют доступ:"
 
@@ -115,11 +123,11 @@ msgstr "Следующие пользователи имеют доступ:"
 msgid "Fr"
 msgstr "Пт"
 
-#: standard input:19
+#: standard input:21
 msgid "General settings"
 msgstr "Общие настройки"
 
-#: standard input:17
+#: standard input:19
 msgid "HTTP server is restarting now. Please wait..."
 msgstr "HTTP-сервер перезапускается. Пожалуйста, подождите..."
 
@@ -127,11 +135,11 @@ msgstr "HTTP-сервер перезапускается. Пожалуйста, 
 msgid "Help"
 msgstr "Справка"
 
-#: standard input:40
+#: standard input:42
 msgid "Hide help"
 msgstr "Скрыть справку"
 
-#: standard input:37
+#: standard input:39
 msgid "Hostname"
 msgstr "Имя компьютера"
 
@@ -155,11 +163,11 @@ msgstr "Июль"
 msgid "June"
 msgstr "Июнь"
 
-#: standard input:22
+#: standard input:24
 msgid "Listen address:"
 msgstr "Адрес:"
 
-#: standard input:24
+#: standard input:26
 msgid "Logging:"
 msgstr "Протоколирование:"
 
@@ -167,7 +175,7 @@ msgstr "Протоколирование:"
 msgid "Login"
 msgstr "Войти"
 
-#: standard input:41
+#: standard input:43
 msgid "Logout"
 msgstr "Выйти"
 
@@ -184,26 +192,30 @@ msgid "Mo"
 msgstr "Пн"
 
 # ahttpd-acl
-#: standard input:28
+#: standard input:30
 msgid "Module access settings"
 msgstr "Параметры доступа к модулю"
 
 # ahttpd-acl
-#: standard input:43
+#: standard input:45
 msgid "Module access settings..."
 msgstr "Параметры доступа к модулю..."
 
 # ahttpd-acl
-#: standard input:31
+#: standard input:33
 msgid "New user:"
 msgstr "Новый пользователь:"
+
+#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+msgid "No"
+msgstr "Нет"
 
 # ahttpd-acl
 #: backend3/ahttpd-acl:108
 msgid "No module found"
 msgstr "модуль не найден"
 
-#: standard input:33
+#: standard input:35
 msgid "Note:"
 msgstr "Замечание:"
 
@@ -211,7 +223,7 @@ msgstr "Замечание:"
 msgid "November"
 msgstr "Ноябрь"
 
-#: interfaces/guile/ajax.scm:246
+#: interfaces/guile/ajax.scm:248
 msgid "OK"
 msgstr "OK"
 
@@ -227,11 +239,11 @@ msgstr "Пароль:"
 msgid "Please login"
 msgstr "Пожалуйста, зарегистрируйтесь"
 
-#: standard input:20
+#: standard input:22
 msgid "Port:"
 msgstr "Порт:"
 
-#: interfaces/guile/ajax.scm:245
+#: interfaces/guile/ajax.scm:247
 msgid "Question"
 msgstr "Вопрос"
 
@@ -239,11 +251,11 @@ msgstr "Вопрос"
 msgid "Reboot computer now"
 msgstr "Перезагрузить компьютер сейчас"
 
-#: standard input:12 input:16
+#: standard input:14 input:18
 msgid "Reset"
 msgstr "Вернуть"
 
-#: standard input:18 input:35
+#: standard input:20 input:37
 msgid "Restart HTTP server"
 msgstr "Перезапустить HTTP-сервер"
 
@@ -255,7 +267,7 @@ msgstr "Сб"
 msgid "September"
 msgstr "Сентябрь"
 
-#: standard input:39
+#: standard input:41
 msgid "Show help"
 msgstr "Показать справку"
 
@@ -263,11 +275,19 @@ msgstr "Показать справку"
 msgid "Su"
 msgstr "Вс"
 
-#: standard input:42
+#: standard input:11
+msgid "System is going to reboot now..."
+msgstr "Система перезагружается..."
+
+#: standard input:12
+msgid "System is going to shutdown now..."
+msgstr "Система выключается..."
+
+#: standard input:44
 msgid "System management center"
 msgstr "Центр управления системой"
 
-#: standard input:27
+#: standard input:29
 msgid "TLS settings..."
 msgstr "Настройки TLS..."
 
@@ -275,7 +295,7 @@ msgstr "Настройки TLS..."
 msgid "Th"
 msgstr "Чт"
 
-#: standard input:1 input:36 input:44
+#: standard input:1 input:38 input:46
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
@@ -304,6 +324,10 @@ msgstr "Ср"
 #: standard input:3
 msgid "Web interface"
 msgstr "Веб-интерфейс"
+
+#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+msgid "Yes"
+msgstr "Да"
 
 #: backend3/ahttpd-server:98
 msgid "all connections"

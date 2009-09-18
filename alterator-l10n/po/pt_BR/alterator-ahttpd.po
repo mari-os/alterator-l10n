@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-24 16:40+0400\n"
+"POT-Creation-Date: 2009-09-18 17:55+0400\n"
 "PO-Revision-Date: 2009-09-14 18:34-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:21
+#: standard input:23
 msgid "(TCP port for server to listen to)"
 msgstr "(Porta TCP para o servidor)"
 
-#: standard input:23
+#: standard input:25
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(deixe esse campo em branco para listar em todas as interfaces)"
 
-#: standard input:25
+#: standard input:27
 msgid "(logging granularity influences its size)"
 msgstr "(Tamanho do login)"
 
@@ -35,17 +35,15 @@ msgstr "(Tamanho do login)"
 msgid "Account name:"
 msgstr "Nome da Conta:"
 
-#: standard input:32
+#: standard input:34
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:34
+#: standard input:36
 msgid "All your changes will take effect after restart of HTTP server."
 msgstr "Todas as alterações terão efeito após o reinício do servidor HTTP."
 
-#: standard input:11
-#: input:15
-#: input:26
+#: standard input:13 input:17 input:28
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -53,7 +51,17 @@ msgstr "Aplicar"
 msgid "April"
 msgstr "Abril"
 
-#: interfaces/guile/ajax.scm:393
+#: ui/ahttpd/power/ajax.scm:29
+#, fuzzy
+msgid "Are you really want to reboot system?"
+msgstr "Se você realmente quer destruir domínio"
+
+#: ui/ahttpd/power/ajax.scm:24
+#, fuzzy
+msgid "Are you really want to shutdown system?"
+msgstr "Se você realmente quer destruir domínio"
+
+#: interfaces/guile/ajax.scm:395
 msgid "Attention"
 msgstr "Atenção"
 
@@ -65,11 +73,11 @@ msgstr "Agosto"
 msgid "Authentication failed"
 msgstr "Autentificação falhou"
 
-#: standard input:13
+#: standard input:15
 msgid "Base mode"
 msgstr "Modo base"
 
-#: interfaces/guile/ajax.scm:247
+#: interfaces/guile/ajax.scm:249
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -77,7 +85,7 @@ msgstr "Cancelar"
 msgid "Computer shutdown"
 msgstr "Desligar computador"
 
-#: standard input:38
+#: standard input:40
 msgid "Configuration"
 msgstr "Configuração"
 
@@ -89,19 +97,19 @@ msgstr "Continuar o trabalho"
 msgid "December"
 msgstr "Dezembro"
 
-#: standard input:30
+#: standard input:32
 msgid "Delete"
 msgstr "Deletar"
 
-#: interfaces/guile/ajax.scm:389
+#: interfaces/guile/ajax.scm:391
 msgid "Error"
 msgstr "Erro"
 
-#: standard input:45
+#: standard input:47
 msgid "Exiting..."
 msgstr "Saindo..."
 
-#: standard input:14
+#: standard input:16
 msgid "Expert mode"
 msgstr "Modo Avançado"
 
@@ -109,7 +117,7 @@ msgstr "Modo Avançado"
 msgid "February"
 msgstr "Fevereiro"
 
-#: standard input:29
+#: standard input:31
 msgid "Following users have access:"
 msgstr "Os usuários não possuem acesso:"
 
@@ -117,11 +125,11 @@ msgstr "Os usuários não possuem acesso:"
 msgid "Fr"
 msgstr "Fr"
 
-#: standard input:19
+#: standard input:21
 msgid "General settings"
 msgstr "Configurações gerais"
 
-#: standard input:17
+#: standard input:19
 msgid "HTTP server is restarting now. Please wait..."
 msgstr "Servidor HTTP está sendo reiniciado agora. Aguarde..."
 
@@ -129,11 +137,11 @@ msgstr "Servidor HTTP está sendo reiniciado agora. Aguarde..."
 msgid "Help"
 msgstr "Ajuda"
 
-#: standard input:40
+#: standard input:42
 msgid "Hide help"
 msgstr "Esconder a ajuda"
 
-#: standard input:37
+#: standard input:39
 msgid "Hostname"
 msgstr "hostname:"
 
@@ -157,11 +165,11 @@ msgstr "Julho"
 msgid "June"
 msgstr "Junho"
 
-#: standard input:22
+#: standard input:24
 msgid "Listen address:"
 msgstr "Endereços Disponíveis"
 
-#: standard input:24
+#: standard input:26
 msgid "Logging:"
 msgstr "Logando:"
 
@@ -169,7 +177,7 @@ msgstr "Logando:"
 msgid "Login"
 msgstr "Login"
 
-#: standard input:41
+#: standard input:43
 msgid "Logout"
 msgstr "Sair"
 
@@ -185,23 +193,27 @@ msgstr "Maio"
 msgid "Mo"
 msgstr "Mo"
 
-#: standard input:28
+#: standard input:30
 msgid "Module access settings"
 msgstr "Módulo de acesso nas configurações"
 
-#: standard input:43
+#: standard input:45
 msgid "Module access settings..."
 msgstr "Módulo de acesso nas configurações..."
 
-#: standard input:31
+#: standard input:33
 msgid "New user:"
 msgstr "Novo Usuário"
+
+#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+msgid "No"
+msgstr "Não"
 
 #: backend3/ahttpd-acl:108
 msgid "No module found"
 msgstr "Nenhum modulo disponível"
 
-#: standard input:33
+#: standard input:35
 msgid "Note:"
 msgstr "Nota:"
 
@@ -209,7 +221,7 @@ msgstr "Nota:"
 msgid "November"
 msgstr "Novembro"
 
-#: interfaces/guile/ajax.scm:246
+#: interfaces/guile/ajax.scm:248
 msgid "OK"
 msgstr "OK"
 
@@ -225,11 +237,11 @@ msgstr "Senha:"
 msgid "Please login"
 msgstr "Porfavor login"
 
-#: standard input:20
+#: standard input:22
 msgid "Port:"
 msgstr "Porta:"
 
-#: interfaces/guile/ajax.scm:245
+#: interfaces/guile/ajax.scm:247
 msgid "Question"
 msgstr "Questão"
 
@@ -237,13 +249,11 @@ msgstr "Questão"
 msgid "Reboot computer now"
 msgstr "Reiniciar o computador agora"
 
-#: standard input:12
-#: input:16
+#: standard input:14 input:18
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:18
-#: input:35
+#: standard input:20 input:37
 msgid "Restart HTTP server"
 msgstr "Resetar Servidor HTTP"
 
@@ -255,7 +265,7 @@ msgstr "Sa"
 msgid "September"
 msgstr "Setembro"
 
-#: standard input:39
+#: standard input:41
 msgid "Show help"
 msgstr "Ver ajuda"
 
@@ -263,11 +273,19 @@ msgstr "Ver ajuda"
 msgid "Su"
 msgstr "Su"
 
-#: standard input:42
+#: standard input:11
+msgid "System is going to reboot now..."
+msgstr ""
+
+#: standard input:12
+msgid "System is going to shutdown now..."
+msgstr ""
+
+#: standard input:44
 msgid "System management center"
 msgstr "Centro de Configuração do sistema"
 
-#: standard input:27
+#: standard input:29
 msgid "TLS settings..."
 msgstr "configurações TLS..."
 
@@ -275,11 +293,15 @@ msgstr "configurações TLS..."
 msgid "Th"
 msgstr "Th"
 
-#: standard input:1
-#: input:36
-#: input:44
-msgid "This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser."
-msgstr "Esta página utiliza Javascript. Seu navegador não suporta Javascript ou você tem isso desligado. Para ver esta página como é suposto que apareça por favor use um browser que interprete Javascript."
+#: standard input:1 input:38 input:46
+msgid ""
+"This page uses Javascript. Your browser either doesn't support Javascript or "
+"you have it turned off. To see this page as it is meant to appear please use "
+"a Javascript enabled browser."
+msgstr ""
+"Esta página utiliza Javascript. Seu navegador não suporta Javascript ou você "
+"tem isso desligado. Para ver esta página como é suposto que apareça por "
+"favor use um browser que interprete Javascript."
 
 #: interfaces/guile/ahttpd/translate.scm:46
 msgid "Tu"
@@ -301,6 +323,10 @@ msgstr "Nós"
 msgid "Web interface"
 msgstr "Interface Web"
 
+#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+msgid "Yes"
+msgstr "Sim"
+
 #: backend3/ahttpd-server:98
 msgid "all connections"
 msgstr "Todas conexões"
@@ -316,4 +342,3 @@ msgstr "nada"
 #: type/ahttpd-cert-field.scm:11
 msgid "only digits and latin letters allowed"
 msgstr "apenas digitos em letras"
-

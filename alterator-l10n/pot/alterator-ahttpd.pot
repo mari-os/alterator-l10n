@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-24 16:40+0400\n"
+"POT-Creation-Date: 2009-09-18 17:55+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "Web interface"
 msgstr ""
 
-#: standard input:1 input:36 input:44
+#: standard input:1 input:38 input:46
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
@@ -71,119 +71,127 @@ msgstr ""
 msgid "Turn off computer every day at:"
 msgstr ""
 
-#: standard input:11 input:15 input:26
+#: standard input:11
+msgid "System is going to reboot now..."
+msgstr ""
+
+#: standard input:12
+msgid "System is going to shutdown now..."
+msgstr ""
+
+#: standard input:13 input:17 input:28
 msgid "Apply"
 msgstr ""
 
-#: standard input:12 input:16
+#: standard input:14 input:18
 msgid "Reset"
 msgstr ""
 
-#: standard input:13
+#: standard input:15
 msgid "Base mode"
 msgstr ""
 
-#: standard input:14
+#: standard input:16
 msgid "Expert mode"
 msgstr ""
 
-#: standard input:17
+#: standard input:19
 msgid "HTTP server is restarting now. Please wait..."
 msgstr ""
 
-#: standard input:18 input:35
+#: standard input:20 input:37
 msgid "Restart HTTP server"
 msgstr ""
 
-#: standard input:19
+#: standard input:21
 msgid "General settings"
 msgstr ""
 
-#: standard input:20
+#: standard input:22
 msgid "Port:"
 msgstr ""
 
-#: standard input:21
+#: standard input:23
 msgid "(TCP port for server to listen to)"
 msgstr ""
 
-#: standard input:22
+#: standard input:24
 msgid "Listen address:"
 msgstr ""
 
-#: standard input:23
+#: standard input:25
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr ""
 
-#: standard input:24
+#: standard input:26
 msgid "Logging:"
 msgstr ""
 
-#: standard input:25
+#: standard input:27
 msgid "(logging granularity influences its size)"
 msgstr ""
 
-#: standard input:27
+#: standard input:29
 msgid "TLS settings..."
 msgstr ""
 
-#: standard input:28
+#: standard input:30
 msgid "Module access settings"
 msgstr ""
 
-#: standard input:29
+#: standard input:31
 msgid "Following users have access:"
 msgstr ""
 
-#: standard input:30
+#: standard input:32
 msgid "Delete"
 msgstr ""
 
-#: standard input:31
+#: standard input:33
 msgid "New user:"
 msgstr ""
 
-#: standard input:32
+#: standard input:34
 msgid "Add"
 msgstr ""
 
-#: standard input:33
+#: standard input:35
 msgid "Note:"
 msgstr ""
 
-#: standard input:34
+#: standard input:36
 msgid "All your changes will take effect after restart of HTTP server."
 msgstr ""
 
-#: standard input:37
+#: standard input:39
 msgid "Hostname"
 msgstr ""
 
-#: standard input:38
+#: standard input:40
 msgid "Configuration"
 msgstr ""
 
-#: standard input:39
+#: standard input:41
 msgid "Show help"
 msgstr ""
 
-#: standard input:40
+#: standard input:42
 msgid "Hide help"
 msgstr ""
 
-#: standard input:41
+#: standard input:43
 msgid "Logout"
 msgstr ""
 
-#: standard input:42
+#: standard input:44
 msgid "System management center"
 msgstr ""
 
-#: standard input:43
+#: standard input:45
 msgid "Module access settings..."
 msgstr ""
 
-#: standard input:45
+#: standard input:47
 msgid "Exiting..."
 msgstr ""
 
@@ -263,28 +271,44 @@ msgstr ""
 msgid "December"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:245
+#: interfaces/guile/ajax.scm:247
 msgid "Question"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:246
+#: interfaces/guile/ajax.scm:248
 msgid "OK"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:247
+#: interfaces/guile/ajax.scm:249
 msgid "Cancel"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:389
+#: interfaces/guile/ajax.scm:391
 msgid "Error"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:393
+#: interfaces/guile/ajax.scm:395
 msgid "Attention"
 msgstr ""
 
 #: type/ahttpd-cert-field.scm:11
 msgid "only digits and latin letters allowed"
+msgstr ""
+
+#: ui/ahttpd/power/ajax.scm:24
+msgid "Are you really want to shutdown system?"
+msgstr ""
+
+#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+msgid "Yes"
+msgstr ""
+
+#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+msgid "No"
+msgstr ""
+
+#: ui/ahttpd/power/ajax.scm:29
+msgid "Are you really want to reboot system?"
 msgstr ""
 
 #: backend3/ahttpd-acl:108

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-24 17:48+0400\n"
+"POT-Creation-Date: 2009-09-18 17:55+0400\n"
 "PO-Revision-Date: 2009-08-21 14:02+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -15,59 +15,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:11
+#: standard input:23
 msgid "(TCP port for server to listen to)"
 msgstr "(TCP порт для з'єднання з сервером)"
 
-#: standard input:13
+#: standard input:25
 msgid "(leave this field empty for listening to all interfaces)"
 msgstr "(залиште поле порожнім для прослуховування всіх інтерфейсів)"
 
-#: standard input:15
+#: standard input:27
 msgid "(logging granularity influences its size)"
 msgstr "(Розбиття журналів впливає на їх розмір)"
-
-#: standard input:26
-msgid "(organization name, written in latin letters)"
-msgstr "(назва організації, латинськими літерами)"
-
-#: standard input:28
-msgid "(organizational unit name, written in latin letters)"
-msgstr "(назва підрозділу організації, латинськими літерами)"
-
-#: standard input:20
-msgid "(public hostname)"
-msgstr "(публічне ім'я вузла)"
-
-#: standard input:30
-msgid "(recreate private key, sign request and self-signed certificate)"
-msgstr ""
-"(перестворити публічний ключ, запит на підпис і самопідписний сертифікат)"
-
-#: standard input:24
-msgid "(state or city, written in latin letters)"
-msgstr "(регіон або місто, латинськими літерами)"
-
-#: standard input:22
-msgid "(two letter country code)"
-msgstr "(код країни, два символи)"
 
 #: standard input:3
 msgid "Account name:"
 msgstr "Обліковий запис"
 
-#: standard input:39
+#: standard input:34
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:41
+#: standard input:36
 msgid "All your changes will take effect after restart of HTTP server."
 msgstr "Всі ваші зміни будуть задіяні після перезапуску HTTP сервера."
 
-#: standard input:16 input:47 input:51
+#: standard input:13 input:17 input:28
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -75,7 +50,17 @@ msgstr "Застосувати"
 msgid "April"
 msgstr "Квітень"
 
-#: interfaces/guile/ajax.scm:368
+#: ui/ahttpd/power/ajax.scm:29
+#, fuzzy
+msgid "Are you really want to reboot system?"
+msgstr "Ви дійсно хочете вилучити клієнта"
+
+#: ui/ahttpd/power/ajax.scm:24
+#, fuzzy
+msgid "Are you really want to shutdown system?"
+msgstr "Ви дійсно хочете вилучити клієнта"
+
+#: interfaces/guile/ajax.scm:395
 msgid "Attention"
 msgstr "Увага"
 
@@ -87,59 +72,43 @@ msgstr "Серпень"
 msgid "Authentication failed"
 msgstr "Автентифікацію провалено"
 
-#: standard input:49
+#: standard input:15
 msgid "Base mode"
 msgstr "Основний режим"
 
-#: interfaces/guile/ajax.scm:235
+#: interfaces/guile/ajax.scm:249
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: standard input:18
-msgid "Certificate"
-msgstr "Сертифікат"
-
-#: standard input:19
-msgid "Common Name (CN):"
-msgstr "Загальне ім’я (CN):"
-
-#: standard input:2
+#: standard input:1
 msgid "Computer shutdown"
 msgstr "Вимкнення комп’ютера"
 
-#: standard input:55
+#: standard input:40
 msgid "Configuration"
 msgstr "Налаштування:"
 
-#: standard input:43
+#: standard input:7
 msgid "Continue work"
 msgstr "Продовжити работу"
-
-#: standard input:21
-msgid "Country (C):"
-msgstr "Країна (С):"
 
 #: interfaces/guile/ahttpd/translate.scm:64
 msgid "December"
 msgstr "Грудень"
 
-#: standard input:37
+#: standard input:32
 msgid "Delete"
 msgstr "Вилучити"
 
-#: standard input:32
-msgid "Download sign request"
-msgstr "Звантажити запит на підпис"
-
-#: interfaces/guile/ajax.scm:364
+#: interfaces/guile/ajax.scm:391
 msgid "Error"
 msgstr "Помилка"
 
-#: standard input:62
+#: standard input:47
 msgid "Exiting..."
 msgstr "Завершення роботи..."
 
-#: standard input:50
+#: standard input:16
 msgid "Expert mode"
 msgstr "Режим експерта"
 
@@ -148,7 +117,7 @@ msgid "February"
 msgstr "Лютий"
 
 # ahttpd-acl
-#: standard input:36
+#: standard input:31
 msgid "Following users have access:"
 msgstr "Наступні користувачі мають доступ:"
 
@@ -156,23 +125,23 @@ msgstr "Наступні користувачі мають доступ:"
 msgid "Fr"
 msgstr "Пт"
 
-#: standard input:9
+#: standard input:21
 msgid "General settings"
 msgstr "Загальні налаштування"
 
-#: standard input:7
+#: standard input:19
 msgid "HTTP server is restarting now. Please wait..."
 msgstr "HTTP сервер перезавантажується. Зачекайте..."
 
-#: standard input:3
+#: standard input:2
 msgid "Help"
 msgstr "Довідка"
 
-#: standard input:57
+#: standard input:42
 msgid "Hide help"
 msgstr "Сховати довідку"
 
-#: standard input:54
+#: standard input:39
 msgid "Hostname"
 msgstr "Ім'я вузла"
 
@@ -196,15 +165,11 @@ msgstr "Липень"
 msgid "June"
 msgstr "Червень"
 
-#: standard input:12
+#: standard input:24
 msgid "Listen address:"
 msgstr "Слухати адресу:"
 
-#: standard input:23
-msgid "Location (L):"
-msgstr "Розміщення (L):"
-
-#: standard input:14
+#: standard input:26
 msgid "Logging:"
 msgstr "Журналювання:"
 
@@ -212,7 +177,7 @@ msgstr "Журналювання:"
 msgid "Login"
 msgstr "Увійти"
 
-#: standard input:58
+#: standard input:43
 msgid "Logout"
 msgstr "Вийти"
 
@@ -229,26 +194,30 @@ msgid "Mo"
 msgstr "Пн"
 
 # ahttpd-acl
-#: standard input:35
+#: standard input:30
 msgid "Module access settings"
 msgstr "Налаштування доступа до модуля"
 
 # ahttpd-acl
-#: standard input:60
+#: standard input:45
 msgid "Module access settings..."
 msgstr "Налаштування доступа до модуля..."
 
 # ahttpd-acl
-#: standard input:38
+#: standard input:33
 msgid "New user:"
 msgstr "Новий користувач:"
+
+#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+msgid "No"
+msgstr "Ні"
 
 # ahttpd-acl
 #: backend3/ahttpd-acl:108
 msgid "No module found"
 msgstr "Модуль не знайдено"
 
-#: standard input:40
+#: standard input:35
 msgid "Note:"
 msgstr "Помітка:"
 
@@ -256,21 +225,13 @@ msgstr "Помітка:"
 msgid "November"
 msgstr "Листопад"
 
-#: interfaces/guile/ajax.scm:234
+#: interfaces/guile/ajax.scm:248
 msgid "OK"
 msgstr "OK"
 
 #: interfaces/guile/ahttpd/translate.scm:62
 msgid "October"
 msgstr "Жовтень"
-
-#: standard input:25
-msgid "Organization (O):"
-msgstr "Організація (О):"
-
-#: standard input:27
-msgid "Organizational Unit (OU):"
-msgstr "Підрозділ організації (OU):"
 
 #: standard input:4
 msgid "Password:"
@@ -280,27 +241,23 @@ msgstr "Пароль:"
 msgid "Please login"
 msgstr "Будь-ласка, увійдіть"
 
-#: standard input:10
+#: standard input:22
 msgid "Port:"
 msgstr "Порт:"
 
-#: interfaces/guile/ajax.scm:233
+#: interfaces/guile/ajax.scm:247
 msgid "Question"
 msgstr "Запитання"
 
-#: standard input:45
+#: standard input:9
 msgid "Reboot computer now"
 msgstr "Перезавантажити комп’ютер зараз"
 
-#: standard input:29
-msgid "Recreate"
-msgstr "Створити заново"
-
-#: standard input:48 input:52
+#: standard input:14 input:18
 msgid "Reset"
 msgstr "Скинути"
 
-#: standard input:8 input:42
+#: standard input:20 input:37
 msgid "Restart HTTP server"
 msgstr "Перезапустити HTTP сервер"
 
@@ -312,31 +269,36 @@ msgstr "Сб"
 msgid "September"
 msgstr "Вересень"
 
-#: standard input:56
+#: standard input:41
 msgid "Show help"
 msgstr "Показати довідку"
-
-#: standard input:31
-msgid "Sign"
-msgstr "Підпис"
 
 #: interfaces/guile/ahttpd/translate.scm:51
 msgid "Su"
 msgstr "Нд"
 
-#: standard input:59
+#: standard input:11
+msgid "System is going to reboot now..."
+msgstr ""
+
+#: standard input:12
+msgid "System is going to shutdown now..."
+msgstr ""
+
+#: standard input:44
 msgid "System management center"
 msgstr "Центр налаштування системи"
 
-#: standard input:17
-msgid "TLS settings"
+#: standard input:29
+#, fuzzy
+msgid "TLS settings..."
 msgstr "Налаштування TLS"
 
 #: interfaces/guile/ahttpd/translate.scm:48
 msgid "Th"
 msgstr "Чт"
 
-#: standard input:1 input:53 input:61
+#: standard input:1 input:38 input:46
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
@@ -350,29 +312,25 @@ msgstr ""
 msgid "Tu"
 msgstr "Вт"
 
-#: standard input:46
+#: standard input:10
 msgid "Turn off computer every day at:"
 msgstr "Вимикати комп’ютер щодня о:"
 
-#: standard input:44
+#: standard input:8
 msgid "Turn off computer now"
 msgstr "Вимкнути комп’ютер зараз"
-
-#: standard input:34
-msgid "Upload"
-msgstr "Завантажити"
-
-#: standard input:33
-msgid "Upload certificate signed by CA:"
-msgstr "Завантажити сертифікат, підписаний CA:"
 
 #: interfaces/guile/ahttpd/translate.scm:47
 msgid "We"
 msgstr "Ср"
 
-#: standard input:1
+#: standard input:3
 msgid "Web interface"
 msgstr "Веб-інтерфейс"
+
+#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+msgid "Yes"
+msgstr "Так"
 
 #: backend3/ahttpd-server:98
 msgid "all connections"
@@ -390,3 +348,54 @@ msgstr "нічого"
 msgid "only digits and latin letters allowed"
 msgstr "дозволені лише цифри та латинські літери"
 
+#~ msgid "(organization name, written in latin letters)"
+#~ msgstr "(назва організації, латинськими літерами)"
+
+#~ msgid "(organizational unit name, written in latin letters)"
+#~ msgstr "(назва підрозділу організації, латинськими літерами)"
+
+#~ msgid "(public hostname)"
+#~ msgstr "(публічне ім'я вузла)"
+
+#~ msgid "(recreate private key, sign request and self-signed certificate)"
+#~ msgstr ""
+#~ "(перестворити публічний ключ, запит на підпис і самопідписний сертифікат)"
+
+#~ msgid "(state or city, written in latin letters)"
+#~ msgstr "(регіон або місто, латинськими літерами)"
+
+#~ msgid "(two letter country code)"
+#~ msgstr "(код країни, два символи)"
+
+#~ msgid "Certificate"
+#~ msgstr "Сертифікат"
+
+#~ msgid "Common Name (CN):"
+#~ msgstr "Загальне ім’я (CN):"
+
+#~ msgid "Country (C):"
+#~ msgstr "Країна (С):"
+
+#~ msgid "Download sign request"
+#~ msgstr "Звантажити запит на підпис"
+
+#~ msgid "Location (L):"
+#~ msgstr "Розміщення (L):"
+
+#~ msgid "Organization (O):"
+#~ msgstr "Організація (О):"
+
+#~ msgid "Organizational Unit (OU):"
+#~ msgstr "Підрозділ організації (OU):"
+
+#~ msgid "Recreate"
+#~ msgstr "Створити заново"
+
+#~ msgid "Sign"
+#~ msgstr "Підпис"
+
+#~ msgid "Upload"
+#~ msgstr "Завантажити"
+
+#~ msgid "Upload certificate signed by CA:"
+#~ msgstr "Завантажити сертифікат, підписаний CA:"
