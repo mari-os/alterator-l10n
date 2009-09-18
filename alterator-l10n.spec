@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -91,6 +91,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Sep 18 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt4
+- update translations for alterator-fbi
+- add initial help for backup server screens
+
 * Thu Sep 17 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt3
 - update translations for alterator-root
 - update help for alterator-root (closes: #21285)
