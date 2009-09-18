@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <h2>Backup schedule setup.</h2>
+    <p>You only need to specify a backup start time. Backup type will be choosen automatically:
+      <ul>
+        <li>Incremental backup at every day of workweek (from monday to saturday);</li>
+        <li>Full backup at every first sunday of the month;</li>
+        <li>Differential backup at every 2nd, 3th, 4th, and 5th sunday of the month.</li>
+      </ul>
+    </p>
+    <p>Bacula is a very smart backup system.
+       It will automatically made a full backup instead of incremental or
+       differential if no previous full backup was not found.</p>
+    <p>Please note, that a real backup time depends on some factors, e.g., network bandwidth.</p>
+  </body>
+</html>
