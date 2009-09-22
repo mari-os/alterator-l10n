@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-27 14:30+0400\n"
+"POT-Creation-Date: 2009-09-22 17:13+0400\n"
 "PO-Revision-Date: 2009-03-20 17:41-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -27,11 +27,16 @@ msgstr ""
 msgid "Add"
 msgstr "Adiccionar"
 
+#: ui/netinst/ajax.scm:30
+#, fuzzy
+msgid "Are you really want to remove image?"
+msgstr "Usted realmente desea borrar"
+
 #: standard input:3
 msgid "Available images:"
 msgstr "Layouts disponibles:"
 
-#: standard input:16
+#: standard input:12
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -44,12 +49,7 @@ msgstr "Configurar la Hora Atual:"
 msgid "Delete"
 msgstr "Borrar"
 
-#: standard input:12
-#, fuzzy
-msgid "Download complete"
-msgstr "Download completo"
-
-#: standard input:11
+#: ui/netinst/wait/ajax.scm:23
 #, fuzzy
 msgid "Download failed"
 msgstr "Conección falló"
@@ -59,12 +59,7 @@ msgstr "Conección falló"
 msgid "Download file:"
 msgstr "Conección falló"
 
-#: standard input:13
-#, fuzzy
-msgid "Download stopped"
-msgstr "Download completo"
-
-#: standard input:14
+#: ui/netinst/wait/ajax.scm:15
 #, fuzzy
 msgid "Downloading image..."
 msgstr "Download in progreso"
@@ -82,21 +77,41 @@ msgstr ""
 msgid "New image:"
 msgstr "Adiccionar nuevas imagens:"
 
+#: ui/netinst/ajax.scm:30
+msgid "No"
+msgstr "No"
+
 #: backend3/netinst:18
 msgid "No image"
 msgstr ""
 
-#: standard input:15
+#: standard input:11
 msgid "OK"
 msgstr "OK"
+
+#: ui/netinst/ajax.scm:30
+msgid "Question"
+msgstr ""
 
 #: standard input:4
 msgid "Select"
 msgstr "Seleccionar"
 
+#: ui/netinst/ajax.scm:30
+msgid "Yes"
+msgstr "Sí"
+
 #: standard input:2
 msgid "from"
 msgstr "del"
+
+#, fuzzy
+#~ msgid "Download complete"
+#~ msgstr "Download completo"
+
+#, fuzzy
+#~ msgid "Download stopped"
+#~ msgstr "Download completo"
 
 #~ msgid "Name:"
 #~ msgstr "Nombre:"

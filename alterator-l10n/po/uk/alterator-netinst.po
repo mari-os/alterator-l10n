@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-27 14:30+0400\n"
+"POT-Creation-Date: 2009-09-22 17:13+0400\n"
 "PO-Revision-Date: 2009-08-22 02:25+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:9
 msgid "(local path or internet URL)"
@@ -26,11 +26,16 @@ msgstr "(локальний шлях чи URL)"
 msgid "Add"
 msgstr "Додати"
 
+#: ui/netinst/ajax.scm:30
+#, fuzzy
+msgid "Are you really want to remove image?"
+msgstr "Ви дійсно хочете вилучити клієнта"
+
 #: standard input:3
 msgid "Available images:"
 msgstr "Доступні образи дисків:"
 
-#: standard input:16
+#: standard input:12
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -42,11 +47,7 @@ msgstr "Поточний образ:"
 msgid "Delete"
 msgstr "Вилучити"
 
-#: standard input:12
-msgid "Download complete"
-msgstr "Звантаження завершене"
-
-#: standard input:11
+#: ui/netinst/wait/ajax.scm:23
 msgid "Download failed"
 msgstr "Звантаження провалене"
 
@@ -54,11 +55,7 @@ msgstr "Звантаження провалене"
 msgid "Download file:"
 msgstr "Звантажити файл:"
 
-#: standard input:13
-msgid "Download stopped"
-msgstr "Звантаження зупинено"
-
-#: standard input:14
+#: ui/netinst/wait/ajax.scm:15
 msgid "Downloading image..."
 msgstr "Звантаження образа..."
 
@@ -74,20 +71,36 @@ msgstr "Сервер для встановлень по мережі"
 msgid "New image:"
 msgstr "Новий образ:"
 
+#: ui/netinst/ajax.scm:30
+msgid "No"
+msgstr "Ні"
+
 #: backend3/netinst:18
 msgid "No image"
 msgstr "Немає образа"
 
-#: standard input:15
+#: standard input:11
 msgid "OK"
 msgstr "Гаразд"
+
+#: ui/netinst/ajax.scm:30
+msgid "Question"
+msgstr "Запитання"
 
 #: standard input:4
 msgid "Select"
 msgstr "Обрати"
 
+#: ui/netinst/ajax.scm:30
+msgid "Yes"
+msgstr "Так"
+
 #: standard input:2
 msgid "from"
 msgstr "із"
 
+#~ msgid "Download complete"
+#~ msgstr "Звантаження завершене"
 
+#~ msgid "Download stopped"
+#~ msgstr "Звантаження зупинено"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-27 14:30+0400\n"
+"POT-Creation-Date: 2009-09-22 17:13+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -26,11 +26,15 @@ msgstr "(локальный путь или URL)"
 msgid "Add"
 msgstr "Добавить"
 
+#: ui/netinst/ajax.scm:30
+msgid "Are you really want to remove image?"
+msgstr "Вы действительно желаете удалить образ?"
+
 #: standard input:3
 msgid "Available images:"
 msgstr "Доступные образы дисков:"
 
-#: standard input:16
+#: standard input:12
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -42,11 +46,7 @@ msgstr "Текущий образ:"
 msgid "Delete"
 msgstr "Удалить"
 
-#: standard input:12
-msgid "Download complete"
-msgstr "Загрузка завершена"
-
-#: standard input:11
+#: ui/netinst/wait/ajax.scm:23
 msgid "Download failed"
 msgstr "Загрузка не удалась"
 
@@ -54,11 +54,7 @@ msgstr "Загрузка не удалась"
 msgid "Download file:"
 msgstr "Загрузить файл:"
 
-#: standard input:13
-msgid "Download stopped"
-msgstr "Загрузка остановлена"
-
-#: standard input:14
+#: ui/netinst/wait/ajax.scm:15
 msgid "Downloading image..."
 msgstr "Загрузка образа..."
 
@@ -74,17 +70,29 @@ msgstr "Сервер сетевых установок"
 msgid "New image:"
 msgstr "Новый образ:"
 
+#: ui/netinst/ajax.scm:30
+msgid "No"
+msgstr "Нет"
+
 #: backend3/netinst:18
 msgid "No image"
 msgstr "Нет образа"
 
-#: standard input:15
+#: standard input:11
 msgid "OK"
 msgstr "OK"
+
+#: ui/netinst/ajax.scm:30
+msgid "Question"
+msgstr "Вопрос"
 
 #: standard input:4
 msgid "Select"
 msgstr "Выбрать"
+
+#: ui/netinst/ajax.scm:30
+msgid "Yes"
+msgstr "Да"
 
 #: standard input:2
 msgid "from"

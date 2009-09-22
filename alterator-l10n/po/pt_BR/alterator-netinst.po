@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-27 14:30+0400\n"
+"POT-Creation-Date: 2009-09-22 17:13+0400\n"
 "PO-Revision-Date: 2009-09-14 19:22-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -27,11 +27,16 @@ msgstr "(caminho local ou internet URL)"
 msgid "Add"
 msgstr "Adicionar"
 
+#: ui/netinst/ajax.scm:30
+#, fuzzy
+msgid "Are you really want to remove image?"
+msgstr "Se você realmente quer destruir domínio"
+
 #: standard input:3
 msgid "Available images:"
 msgstr "Imagens disponíveis:"
 
-#: standard input:16
+#: standard input:12
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -43,11 +48,7 @@ msgstr "Imagem atual:"
 msgid "Delete"
 msgstr "Deletar"
 
-#: standard input:12
-msgid "Download complete"
-msgstr "Download completo"
-
-#: standard input:11
+#: ui/netinst/wait/ajax.scm:23
 msgid "Download failed"
 msgstr "Download falhou"
 
@@ -55,11 +56,7 @@ msgstr "Download falhou"
 msgid "Download file:"
 msgstr "Download do arquivo:"
 
-#: standard input:13
-msgid "Download stopped"
-msgstr "Download interrompido"
-
-#: standard input:14
+#: ui/netinst/wait/ajax.scm:15
 msgid "Downloading image..."
 msgstr "Obtendo a imagem..."
 
@@ -75,19 +72,36 @@ msgstr "Servidor de Instalação via rede"
 msgid "New image:"
 msgstr "Nova imagem:"
 
+#: ui/netinst/ajax.scm:30
+msgid "No"
+msgstr "Não"
+
 #: backend3/netinst:18
 msgid "No image"
 msgstr "Nenhuma imagem"
 
-#: standard input:15
+#: standard input:11
 msgid "OK"
 msgstr "OK"
+
+#: ui/netinst/ajax.scm:30
+msgid "Question"
+msgstr "Questão"
 
 #: standard input:4
 msgid "Select"
 msgstr "Selecionar"
 
+#: ui/netinst/ajax.scm:30
+msgid "Yes"
+msgstr "Sim"
+
 #: standard input:2
 msgid "from"
 msgstr "de"
 
+#~ msgid "Download complete"
+#~ msgstr "Download completo"
+
+#~ msgid "Download stopped"
+#~ msgstr "Download interrompido"
