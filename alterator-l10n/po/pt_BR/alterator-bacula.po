@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-27 10:48+0400\n"
+"POT-Creation-Date: 2009-09-24 17:41+0400\n"
 "PO-Revision-Date: 2009-09-14 18:54-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,56 +19,52 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: backend3/bacula-client-backup:65
-#: backend3/bacula-local-backup:124
+#: backend3/bacula-client-backup:134 backend3/bacula-local-backup:124
 msgid "1 month"
 msgstr "1 mês"
 
-#: backend3/bacula-client-backup:63
-#: backend3/bacula-local-backup:122
+#: backend3/bacula-client-backup:132 backend3/bacula-local-backup:122
 msgid "1 week"
 msgstr "1 semana"
 
-#: backend3/bacula-client-backup:64
-#: backend3/bacula-local-backup:123
+#: backend3/bacula-client-backup:133 backend3/bacula-local-backup:123
 msgid "2 weeks"
 msgstr "2 semanas"
 
-#: standard input:16
-#: input:34
-#: input:38
+#: standard input:32
+msgid "Account:"
+msgstr "Conta:"
+
+#: standard input:16 input:40 input:44
 #: ui/bacula/local-backup/advanced/index.scm:38
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:42
+#: standard input:33
 msgid "Address:"
 msgstr "Endereço:"
 
-#: standard input:66
+#: standard input:65
 msgid "Advanced restore options"
 msgstr "Opções avançadas de restauração"
 
-#: standard input:26
-#: ui/bacula/local-backup/index.scm:34
+#: standard input:26 ui/bacula/local-backup/index.scm:34
 msgid "Advanced..."
 msgstr "Avançado..."
 
-#: standard input:5
-#: ui/bacula/local-backup/disk/index.scm:35
+#: standard input:5 ui/bacula/local-backup/disk/index.scm:35
 msgid "All existing backups on the new disk will be removed."
 msgstr "Todas as cópias de segurança existentes no novo disco será removido."
 
-#: standard input:60
+#: standard input:59
 msgid "Archive actions:"
 msgstr "Ação de Arquivos:"
 
-#: standard input:57
+#: standard input:56
 msgid "Archive settings:"
 msgstr "Definições de Arquivo:"
 
-#: standard input:4
-#: ui/bacula/local-backup/disk/index.scm:34
+#: standard input:4 ui/bacula/local-backup/disk/index.scm:34
 msgid "Attention:"
 msgstr "Atenção:"
 
@@ -80,63 +76,60 @@ msgstr "B"
 msgid "Backup"
 msgstr "Backup"
 
-#: standard input:75
+#: standard input:74
 msgid "Backup client's data every day at:"
 msgstr "Dados do cliente de backup de todos os dias às:"
 
-#: standard input:21
-#: ui/bacula/local-backup/index.scm:19
+#: standard input:21 ui/bacula/local-backup/index.scm:19
 msgid "Backup disk:"
 msgstr "Disco de Backup:"
 
-#: standard input:55
+#: standard input:54
 msgid "Backup size"
 msgstr "Tamanho do Backup"
 
-#: standard input:19
-#: input:74
+#: standard input:19 input:73
 msgid "Backup start time:"
 msgstr "Backup iniciar tempo:"
 
-#: standard input:20
-#: ui/bacula/local-backup/index.scm:13
+#: standard input:20 ui/bacula/local-backup/index.scm:13
 msgid "Backup system every day at:"
 msgstr "Backup sistema todos os dias às:"
 
-#: standard input:31
+#: standard input:37
 msgid "Backup:"
 msgstr "Backup:"
 
-#: standard input:6
-#: ui/bacula/local-backup/disk/index.scm:40
+#: standard input:6 ui/bacula/local-backup/disk/index.scm:40
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: standard input:12
-#: ui/bacula/local-backup/advanced/index.scm:24
+#: standard input:12 ui/bacula/local-backup/advanced/index.scm:24
 msgid "Cancel active jobs"
 msgstr "Cancelar trabalhos de ativos"
 
-#: standard input:7
-#: ui/bacula/local-backup/disk/index.scm:42
+#: standard input:7 ui/bacula/local-backup/disk/index.scm:42
 msgid "Change disk"
 msgstr "Alterar disco"
 
-#: standard input:25
-#: ui/bacula/local-backup/index.scm:32
+#: standard input:25 ui/bacula/local-backup/index.scm:32
 msgid "Change disk..."
 msgstr "Alterar disco"
 
-#: standard input:51
+#: standard input:50
 msgid "Client"
 msgstr "Cliente"
 
-#: standard input:50
+#: standard input:49
 msgid "Client backups:"
 msgstr "Backups de clientes:"
 
-#: standard input:56
-#: input:72
+#: standard input:45
+#, fuzzy
+msgid "Client settings successfully updated"
+msgstr "Configurações do servidor atualizada com sucesso"
+
+#: standard input:55 input:71
 msgid "Clients:"
 msgstr "Clientes:"
 
@@ -148,38 +141,32 @@ msgstr "Parabéns!"
 msgid "Continue"
 msgstr "Continuar"
 
-#: standard input:41
+#: standard input:31
 msgid "Create"
 msgstr "Criar"
 
-#: standard input:8
-#: ui/bacula/local-backup/advanced/index.scm:12
+#: standard input:8 ui/bacula/local-backup/advanced/index.scm:12
 msgid "Created backups:"
 msgstr "Criado em backups:"
 
-#: standard input:9
-#: ui/bacula/local-backup/advanced/index.scm:17
+#: standard input:9 ui/bacula/local-backup/advanced/index.scm:17
 msgid "Creation date"
 msgstr "Criar data"
 
-#: standard input:10
-#: ui/bacula/local-backup/advanced/index.scm:17
+#: standard input:10 ui/bacula/local-backup/advanced/index.scm:17
 msgid "Creation result"
 msgstr "Criação resultado"
 
-#: standard input:28
-#: ui/bacula/local-backup/index.scm:47
+#: standard input:28 ui/bacula/local-backup/index.scm:47
 msgid "Date:"
 msgstr "Data:"
 
-#: standard input:14
-#: input:32
-#: input:36
+#: standard input:14 input:38 input:42
 #: ui/bacula/local-backup/advanced/index.scm:31
 msgid "Delete"
 msgstr "Deletar"
 
-#: standard input:48
+#: standard input:47
 msgid "Delete client"
 msgstr "Excluir cliente"
 
@@ -187,13 +174,11 @@ msgstr "Excluir cliente"
 msgid "Disk is not selected"
 msgstr "Disco não está selecionado"
 
-#: standard input:73
+#: standard input:72
 msgid "Do not backup client's data"
 msgstr "Não foi possível fazer o backup dos dados do cliente"
 
-#: standard input:13
-#: input:35
-#: ui/bacula/local-backup/advanced/index.scm:28
+#: standard input:13 input:41 ui/bacula/local-backup/advanced/index.scm:28
 msgid "Do not backup:"
 msgstr "Não backup:"
 
@@ -201,16 +186,15 @@ msgstr "Não backup:"
 msgid "Do you really want clear all backups for client"
 msgstr "Você realmente quer apagar todos os backups para o cliente"
 
-#: ui/bacula/client-backup/client/ajax.scm:27
+#: ui/bacula/client-backup/client/ajax.scm:87
 msgid "Do you really want to delete client"
 msgstr "Você realmente quer apagar cliente"
 
-#: standard input:18
-#: ui/bacula/local-backup/index.scm:9
+#: standard input:18 ui/bacula/local-backup/index.scm:9
 msgid "Don't backup system"
 msgstr "Não sistema de backup"
 
-#: standard input:45
+#: standard input:36
 msgid "Download config for client"
 msgstr "Download de configuração para o cliente"
 
@@ -227,15 +211,11 @@ msgstr "Erro durante o processo de restauração"
 msgid "Fatal error"
 msgstr "Erro Fatal"
 
-#: standard input:30
-msgid "Fileset for"
-msgstr "Fileset para"
-
 #: standard input:2
 msgid "Finish"
 msgstr "Finalizar"
 
-#: standard input:52
+#: standard input:51
 msgid "First backup"
 msgstr "Primeiro backup:"
 
@@ -251,20 +231,19 @@ msgstr "No entanto, você pode tentar continuar"
 msgid "Install a new system"
 msgstr "Instalar um novo sistema"
 
-#: standard input:53
+#: standard input:52
 msgid "Last backup"
 msgstr "Último backup:"
 
-#: standard input:54
+#: standard input:53
 msgid "Last status"
 msgstr "Último estado:"
 
-#: standard input:23
-#: ui/bacula/local-backup/index.scm:23
+#: standard input:23 ui/bacula/local-backup/index.scm:23
 msgid "Latest backup:"
 msgstr "Últimas backup:"
 
-#: backend3/bacula-client-backup:68
+#: backend3/bacula-client-backup:137
 msgid "Linux"
 msgstr "Linux"
 
@@ -272,32 +251,32 @@ msgstr "Linux"
 msgid "MB"
 msgstr "MB"
 
-#: standard input:40
+#: standard input:30
 msgid "New client:"
 msgstr "Nova Cliente:"
 
-#: standard input:15
-#: input:33
-#: input:37
+#: standard input:15 input:39 input:43
 #: ui/bacula/local-backup/advanced/index.scm:36
 msgid "New path:"
 msgstr "Novo caminho:"
 
-#: standard input:49
-#: input:70
+#: ui/bacula/client-backup/client/ajax.scm:93
+msgid "No"
+msgstr "Não"
+
+#: standard input:48 input:69
 msgid "No registered clients found"
 msgstr "Não encontrou clientes cadastrados"
 
-#: standard input:69
+#: standard input:68
 msgid "OK"
 msgstr "OK"
 
-#: standard input:22
-#: ui/bacula/local-backup/index.scm:21
+#: standard input:22 ui/bacula/local-backup/index.scm:21
 msgid "Oldest backup:"
 msgstr "Antigos backup:"
 
-#: standard input:44
+#: standard input:35
 msgid "Password:"
 msgstr "Senha:"
 
@@ -309,7 +288,7 @@ msgstr "Por favor escolha um disco de backup"
 msgid "Please define backup start time"
 msgstr "Por favor definir backup start time"
 
-#: standard input:43
+#: standard input:34
 msgid "Port:"
 msgstr "Porta:"
 
@@ -317,12 +296,15 @@ msgstr "Porta:"
 msgid "Preparing..."
 msgstr "Preparado..."
 
-#: standard input:62
+#: ui/bacula/client-backup/client/ajax.scm:91
+msgid "Question"
+msgstr "Questão"
+
+#: standard input:61
 msgid "Remove all client's backups"
 msgstr "Remover todas as cópias de segurança do cliente"
 
-#: standard input:29
-#: ui/bacula/local-backup/index.scm:52
+#: standard input:29 ui/bacula/local-backup/index.scm:52
 msgid "Restore"
 msgstr "Restaurar"
 
@@ -331,7 +313,7 @@ msgstr "Restaurar"
 msgid "Restore completed"
 msgstr "Restauração concluída"
 
-#: standard input:63
+#: standard input:62
 msgid "Restore date:"
 msgstr "Restauração Data:"
 
@@ -340,9 +322,7 @@ msgstr "Restauração Data:"
 msgid "Restore failed, see logs for details"
 msgstr "Restauração falhou, ver logs para obter detalhes"
 
-#: standard input:27
-#: input:64
-#: ui/bacula/local-backup/index.scm:44
+#: standard input:27 input:63 ui/bacula/local-backup/index.scm:44
 msgid "Restore file or directory:"
 msgstr "Restaurar arquivo ou diretório:"
 
@@ -371,15 +351,11 @@ msgstr "A restauração é feita"
 msgid "Restoring system..."
 msgstr "A restauração do sistema ..."
 
-#: standard input:17
-#: input:39
-#: ui/bacula/local-backup/advanced/index.scm:41
+#: standard input:17 ui/bacula/local-backup/advanced/index.scm:41
 msgid "Return"
 msgstr "Retornar"
 
-#: standard input:11
-#: input:61
-#: ui/bacula/local-backup/advanced/index.scm:22
+#: standard input:11 input:60 ui/bacula/local-backup/advanced/index.scm:22
 msgid "Run backup now"
 msgstr "Executar backup agora"
 
@@ -391,16 +367,15 @@ msgstr "Rodando"
 msgid "Running restore process..."
 msgstr "Rodando processo de restauração..."
 
-#: backend3/bacula-client-backup:132
+#: backend3/bacula-client-backup:209
 msgid "Same client already exists"
 msgstr "Mesmo cliente já existe"
 
-#: standard input:24
-#: ui/bacula/local-backup/index.scm:30
+#: standard input:24 input:46 ui/bacula/local-backup/index.scm:30
 msgid "Save settings"
 msgstr "Salvar configurações"
 
-#: standard input:71
+#: standard input:70
 msgid "Schedule:"
 msgstr "Horários:"
 
@@ -412,18 +387,12 @@ msgstr "Procurando por backups..."
 msgid "Select backup date:"
 msgstr "Selecione a data de backup:"
 
-#: standard input:47
-msgid "Setup fileset..."
-msgstr "Conjunto de arquivos de configuração ..."
-
 #: ui/bacula/local-backup/ajax.scm:35
 #: ui/bacula/client-backup/archive/ajax.scm:29
 msgid "Starting restore..."
 msgstr "Iniciando restauraçaõ"
 
-#: standard input:3
-#: input:58
-#: ui/bacula/local-backup/disk/index.scm:27
+#: standard input:3 input:57 ui/bacula/local-backup/disk/index.scm:27
 msgid "Store backups for:"
 msgstr "Armazene os backups para:"
 
@@ -447,54 +416,56 @@ msgstr "O sistema foi restaurado com sucesso a partir do backup"
 msgid "TB"
 msgstr "TB"
 
-#: standard input:67
+#: standard input:66
 msgid "Target client:"
 msgstr "Cliente-alvo:"
 
-#: standard input:68
+#: standard input:67
 msgid "Target directory:"
 msgstr "Directório de destino:"
 
 #: ui/bacula/restore/select/index.scm:6
-msgid "Target disk is prepared for operation system. You can install a new system or restore one from existing backup. "
-msgstr "Disco de destino está preparada para o sistema de operação. Você pode instalar um novo sistema ou restaurar um de backup existente."
+#, fuzzy
+msgid ""
+"Target disk is prepared for operation system. You can install a new system "
+"or restore one from existing backup."
+msgstr ""
+"Disco de destino está preparada para o sistema de operação. Você pode "
+"instalar um novo sistema ou restaurar um de backup existente."
 
 #: ui/bacula/restore/search/index.scm:34
 msgid "Unable to find backup disk. Please insert one and try again..."
-msgstr "Incapaz de encontrar disco de backup. Por favor insira um e tente novamente ..."
+msgstr ""
+"Incapaz de encontrar disco de backup. Por favor insira um e tente "
+"novamente ..."
 
 #: bin/bacula-alterator-sh-functions:11
 msgid "Unable to modify settings until some jobs is runnning"
-msgstr "Não é possível modificar as configurações até que alguns postos de trabalho é runnning"
+msgstr ""
+"Não é possível modificar as configurações até que alguns postos de trabalho "
+"é runnning"
 
 #: backend3/bacula-local-backup:219
 msgid "Unable to mount disk"
 msgstr "Não foi possível montar disco"
 
-#: backend3/bacula-client-backup:163
-#: backend3/bacula-local-backup:258
+#: backend3/bacula-client-backup:240 backend3/bacula-local-backup:258
 msgid "Unable to restore"
 msgstr "Não foi possível recuperar"
 
-#: standard input:59
+#: standard input:58
 msgid "Update"
 msgstr "Atualizar"
 
-#: standard input:76
+#: standard input:75
 msgid "Update schedule"
 msgstr "Atualizar cronograma"
 
-#: standard input:46
-msgid "Update settings"
-msgstr "Definições de actualização"
-
-#: standard input:2
-#: ui/bacula/local-backup/disk/index.scm:20
+#: standard input:2 ui/bacula/local-backup/disk/index.scm:20
 msgid "Use additional disk:"
 msgstr "Use disco adicional:"
 
-#: standard input:1
-#: ui/bacula/local-backup/disk/index.scm:14
+#: standard input:1 ui/bacula/local-backup/disk/index.scm:14
 msgid "Use system disk"
 msgstr "Usar disco do sistema"
 
@@ -506,11 +477,15 @@ msgstr "Aguardando"
 msgid "Waiting..."
 msgstr "Aguardando.."
 
-#: backend3/bacula-client-backup:69
+#: backend3/bacula-client-backup:138
 msgid "Windows"
 msgstr "Windows"
 
-#: standard input:65
+#: ui/bacula/client-backup/client/ajax.scm:92
+msgid "Yes"
+msgstr "Sim"
+
+#: standard input:64
 msgid "for date:"
 msgstr "para a data:"
 
@@ -522,3 +497,11 @@ msgstr "kB"
 msgid "password contains illegal characters"
 msgstr "senha contém caracteres ilegais"
 
+#~ msgid "Fileset for"
+#~ msgstr "Fileset para"
+
+#~ msgid "Setup fileset..."
+#~ msgstr "Conjunto de arquivos de configuração ..."
+
+#~ msgid "Update settings"
+#~ msgstr "Definições de actualização"

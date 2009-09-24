@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt7
+Release: alt8
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -91,6 +91,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Sep 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt8
+- update translations for alterator-bacula
+
 * Thu Sep 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt7
 - update translations for alterator-ldap-groups, alterator-ldap-groups
 
