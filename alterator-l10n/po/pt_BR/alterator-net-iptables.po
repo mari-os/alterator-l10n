@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-04 14:28+0400\n"
+"POT-Creation-Date: 2009-09-25 14:24+0400\n"
 "PO-Revision-Date: 2009-09-14 19:24-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,25 +19,17 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: bin/alterator-net-iptables:191
-#: bin/alterator-net-iptables:196
-#: bin/alterator-net-iptables:406
-#: bin/iptables_helper:191
-#: bin/iptables_helper:196
-#: bin/iptables_helper:406
+#: bin/alterator-net-iptables:191 bin/alterator-net-iptables:196
+#: bin/alterator-net-iptables:413 bin/iptables_helper:191
+#: bin/iptables_helper:196 bin/iptables_helper:413
 msgid "(must be a number)"
 msgstr "(apenas um número)"
 
-#: bin/alterator-net-iptables:187
-#: bin/iptables_helper:187
+#: bin/alterator-net-iptables:187 bin/iptables_helper:187
 msgid "(possible values: gateway or router)"
 msgstr "(possiveis valores: gateway ou router)"
 
-#: standard input:11
-#: input:13
-#: input:39
-#: input:41
-#: ui/net-iptables/index.scm:50
+#: standard input:11 input:13 input:38 input:40 ui/net-iptables/index.scm:50
 #: ui/net-iptables/index.scm:55
 msgid "(separated by commas or spaces)"
 msgstr "(separados por vírgulas ou espaços)"
@@ -47,16 +39,12 @@ msgstr "(separados por vírgulas ou espaços)"
 msgid "Access from internal networks"
 msgstr "Outra rede"
 
-#: standard input:5
-#: input:21
-#: input:46
-#: ui/net-bl/index.scm:36
+#: standard input:5 input:21 input:45 ui/net-bl/index.scm:36
 #: ui/net-dnat/index.scm:59
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:4
-#: ui/net-bl/index.scm:34
+#: standard input:4 ui/net-bl/index.scm:34
 #, fuzzy
 msgid "Add host or network IP-address:"
 msgstr "endereço do IP de destino:"
@@ -66,29 +54,29 @@ msgstr "endereço do IP de destino:"
 msgid "Add new IP:"
 msgstr "Adicionar nova regra:"
 
-#: standard input:44
+#: standard input:43
 #, fuzzy
 msgid "Add new client:"
 msgstr "Adicionar Cliente"
 
-#: standard input:19
-#: ui/net-dnat/index.scm:37
+#: standard input:19 ui/net-dnat/index.scm:37
 msgid "Add new rule:"
 msgstr "Adicionar nova regra:"
 
-#: standard input:8
-#: ui/net-iptables/index.scm:37
+#: ui/net-tc/ajax.scm:19
+#, fuzzy
+msgid "Additional allowed connections:"
+msgstr "Todas conexões"
+
+#: standard input:8 ui/net-iptables/index.scm:37
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Permitir conexões de entrada na interface externa:"
 
-#: standard input:36
-#, fuzzy
-msgid "Allowed connections:"
-msgstr "Todas conexões"
+#: ui/net-tc/ajax.scm:20
+msgid "Allowed connections for all authorized clients:"
+msgstr ""
 
-#: standard input:14
-#: input:42
-#: ui/net-iptables/index.scm:61
+#: standard input:14 input:41 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -97,8 +85,7 @@ msgstr "Aplicar"
 msgid "Authorized clients:"
 msgstr "Chaves SSH autorizadas:"
 
-#: standard input:17
-#: ui/net-dnat/index.scm:31
+#: standard input:17 ui/net-dnat/index.scm:31
 msgid "Available rules:"
 msgstr "Regras disponíveis:"
 
@@ -106,8 +93,7 @@ msgstr "Regras disponíveis:"
 msgid "Blacklist"
 msgstr "Blacklist"
 
-#: standard input:2
-#: ui/net-bl/index.scm:26
+#: standard input:2 ui/net-bl/index.scm:26
 msgid "Blacklist:"
 msgstr "Blacklist:"
 
@@ -116,13 +102,11 @@ msgstr "Blacklist:"
 msgid "CUPS printing system"
 msgstr "Atualizar sistema"
 
-#: bin/alterator-net-iptables:366
-#: bin/iptables_helper:366
+#: bin/alterator-net-iptables:373 bin/iptables_helper:373
 msgid "Can't add multiple values to list"
 msgstr "Não foi possível adicionar valores multiplos na lista"
 
-#: bin/alterator-net-iptables:374
-#: bin/iptables_helper:374
+#: bin/alterator-net-iptables:381 bin/iptables_helper:381
 msgid "Can't remove multiple values from list"
 msgstr "Não foi possível remover os valores multiplos da lista"
 
@@ -144,21 +128,16 @@ msgstr "DNS"
 msgid "Default"
 msgstr "Padrão"
 
-#: standard input:3
-#: input:18
-#: input:43
-#: ui/net-bl/index.scm:30
+#: standard input:3 input:18 input:42 ui/net-bl/index.scm:30
 #: ui/net-dnat/index.scm:35
 msgid "Delete"
 msgstr "Deletar"
 
-#: standard input:1
-#: ui/net-bl/index.scm:23
+#: standard input:1 ui/net-bl/index.scm:23
 msgid "Enable blacklist filtering"
 msgstr "Ativar filtragem de lista negra"
 
-#: standard input:16
-#: ui/net-dnat/index.scm:28
+#: standard input:16 ui/net-dnat/index.scm:28
 #, fuzzy
 msgid "Enable port forwarding"
 msgstr "Redirecionamento de porta"
@@ -168,96 +147,75 @@ msgstr "Redirecionamento de porta"
 msgid "Enable restrictions on all internal interfaces"
 msgstr "Selecionar interface externa:"
 
-#: bin/alterator-net-iptables:334
-#: bin/alterator-net-iptables:336
-#: bin/alterator-net-tc:18
-#: bin/alterator-net-tc:20
-#: bin/iptables_helper:334
-#: bin/iptables_helper:336
+#: bin/alterator-net-iptables:341 bin/alterator-net-iptables:343
+#: bin/alterator-net-tc:18 bin/alterator-net-tc:20 bin/iptables_helper:341
+#: bin/iptables_helper:343
 msgid "Error while reloading firewalling rules"
 msgstr "Erro durante a recarga firewalling regras"
 
-#: bin/alterator-net-iptables:341
-#: bin/iptables_helper:341
+#: bin/alterator-net-iptables:348 bin/iptables_helper:348
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr "Erro enquanto rodava /usr/lib/alterator/hooks/net-iptables.d/*"
 
-#: bin/alterator-net-iptables:779
-#: bin/iptables_helper:779
+#: bin/alterator-net-iptables:786 bin/iptables_helper:786
 #, fuzzy
 msgid "Error: Bad rule"
 msgstr "Erro: modo ruim"
 
-#: bin/alterator-net-iptables:785
-#: bin/iptables_helper:785
+#: bin/alterator-net-iptables:792 bin/iptables_helper:792
 msgid "Error: MAC-address is not allowed in default rule"
 msgstr "Erro: endereço MAC não é permitido na regra padrão"
 
-#: bin/alterator-net-iptables:396
-#: bin/iptables_helper:396
+#: bin/alterator-net-iptables:403 bin/iptables_helper:403
 #, fuzzy
 msgid "Error: bad IP-address"
 msgstr "Erro: modo ruim"
 
-#: bin/alterator-net-iptables:420
-#: bin/iptables_helper:420
+#: bin/alterator-net-iptables:427 bin/iptables_helper:427
 #, fuzzy
 msgid "Error: bad MAC-address"
 msgstr "Erro: modo ruim"
 
-#: bin/alterator-net-iptables:191
-#: bin/iptables_helper:191
+#: bin/alterator-net-iptables:191 bin/iptables_helper:191
 msgid "Error: bad TCP port"
 msgstr "Erro: ruim TCP porta"
 
-#: bin/alterator-net-iptables:196
-#: bin/iptables_helper:196
+#: bin/alterator-net-iptables:196 bin/iptables_helper:196
 msgid "Error: bad UTP port"
 msgstr "Erro: porta UTP ruim"
 
-#: bin/alterator-net-iptables:187
-#: bin/iptables_helper:187
+#: bin/alterator-net-iptables:187 bin/iptables_helper:187
 msgid "Error: bad mode"
 msgstr "Erro: modo ruim"
 
-#: bin/alterator-net-iptables:401
-#: bin/iptables_helper:401
+#: bin/alterator-net-iptables:408 bin/iptables_helper:408
 #, fuzzy
 msgid "Error: bad network or host IP-address"
 msgstr "Erro: modo ruim"
 
-#: bin/alterator-net-iptables:406
-#: bin/iptables_helper:406
+#: bin/alterator-net-iptables:413 bin/iptables_helper:413
 msgid "Error: bad port"
 msgstr "Erro: porta com problemas"
 
-#: bin/alterator-net-iptables:411
-#: bin/alterator-net-iptables:415
-#: bin/iptables_helper:411
-#: bin/iptables_helper:415
+#: bin/alterator-net-iptables:418 bin/alterator-net-iptables:422
+#: bin/iptables_helper:418 bin/iptables_helper:422
 #, fuzzy
 msgid "Error: bad port or port range"
 msgstr "Erro: porta com problemas"
 
-#: bin/alterator-net-iptables:391
-#: bin/iptables_helper:391
+#: bin/alterator-net-iptables:398 bin/iptables_helper:398
 msgid "Error: unknown protocol"
 msgstr "Erro: protocolo desconhecido"
 
-#: bin/alterator-net-iptables:798
-#: bin/iptables_helper:798
+#: bin/alterator-net-iptables:805 bin/iptables_helper:805
 msgid "Error: unknown service"
 msgstr "Erro: serviço desconhecido"
 
-#: standard input:10
-#: input:38
-#: ui/net-iptables/index.scm:48
+#: standard input:10 input:37 ui/net-iptables/index.scm:48
 msgid "Extra TCP ports:"
 msgstr "Portas TCP extras:"
 
-#: standard input:12
-#: input:40
-#: ui/net-iptables/index.scm:53
+#: standard input:12 input:39 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr "Portas UDP extras:"
 
@@ -278,8 +236,7 @@ msgstr "Encaminhando %s pacotes para %s.%s para %s.%s"
 msgid "HTTP/HTTPS"
 msgstr "Servidor web (HTTP/HTTPS)"
 
-#: standard input:29
-#: input:45
+#: standard input:29 input:44
 msgid "IP address:"
 msgstr "Endereço IP:"
 
@@ -345,8 +302,7 @@ msgstr "Acesso remoto (SSH)"
 msgid "Remote access (telnet)"
 msgstr "Acesso remoto (telnet)"
 
-#: standard input:15
-#: ui/net-iptables/index.scm:64
+#: standard input:15 ui/net-iptables/index.scm:64
 msgid "Reset"
 msgstr "Resetar"
 
@@ -363,13 +319,11 @@ msgstr "SIP/H.323"
 msgid "STUN"
 msgstr "STUN"
 
-#: standard input:7
-#: ui/net-iptables/index.scm:36
+#: standard input:7 ui/net-iptables/index.scm:36
 msgid "Select external interfaces:"
 msgstr "Selecionar interface externa:"
 
-#: standard input:6
-#: ui/net-iptables/index.scm:30
+#: standard input:6 ui/net-iptables/index.scm:30
 msgid "Select forwarding mode:"
 msgstr "Selecione o modo de redirecionamento:"
 
@@ -377,9 +331,7 @@ msgstr "Selecione o modo de redirecionamento:"
 msgid "Service packets (ICMP)"
 msgstr "Pacote de Serviços (ICMP)"
 
-#: standard input:9
-#: input:37
-#: ui/net-iptables/index.scm:44
+#: standard input:9 input:36 ui/net-iptables/index.scm:44
 msgid "Services:"
 msgstr "Serviços:"
 
@@ -398,18 +350,15 @@ msgstr "Restrições do sistema"
 msgid "Zeroconf"
 msgstr "Usar ZeroConfig"
 
-#: bin/alterator-net-iptables:12
-#: bin/iptables_helper:12
+#: bin/alterator-net-iptables:12 bin/iptables_helper:12
 msgid "alterator-net-iptables"
 msgstr "alterator-net-iptables"
 
-#: standard input:22
-#: ui/net-dnat/index.scm:49
+#: standard input:22 ui/net-dnat/index.scm:49
 msgid "destination IP address:"
 msgstr "endereço do IP de destino:"
 
-#: standard input:24
-#: ui/net-dnat/index.scm:54
+#: standard input:24 ui/net-dnat/index.scm:54
 msgid "forward to IP address:"
 msgstr "redirecionamento para o endereço IP:"
 
@@ -422,26 +371,19 @@ msgstr "Gateway"
 msgid "gateway (NAT)"
 msgstr "Gateway"
 
-#: standard input:23
-#: input:25
-#: ui/net-dnat/index.scm:51
+#: standard input:23 input:25 ui/net-dnat/index.scm:51
 #: ui/net-dnat/index.scm:56
 msgid "port:"
 msgstr "porta:"
 
-#: bin/alterator-net-iptables:391
-#: bin/iptables_helper:391
+#: bin/alterator-net-iptables:398 bin/iptables_helper:398
 msgid "possible values:"
 msgstr "valores possíveis:"
 
-#: standard input:20
-#: ui/net-dnat/index.scm:43
+#: standard input:20 ui/net-dnat/index.scm:43
 msgid "protocol:"
 msgstr "protocolo:"
 
-#: ui/net-iptables/index.scm:31
-#: backend3/net-iptables:23
+#: ui/net-iptables/index.scm:31 backend3/net-iptables:23
 msgid "router"
 msgstr "rotiador"
-
-

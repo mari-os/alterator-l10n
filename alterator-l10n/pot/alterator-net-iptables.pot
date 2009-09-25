@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-04 14:28+0400\n"
+"POT-Creation-Date: 2009-09-25 14:24+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,7 +120,7 @@ msgstr ""
 msgid "Blacklist:"
 msgstr ""
 
-#: standard input:3 input:18 input:43 ui/net-bl/index.scm:30
+#: standard input:3 input:18 input:42 ui/net-bl/index.scm:30
 #: ui/net-dnat/index.scm:35
 msgid "Delete"
 msgstr ""
@@ -129,7 +129,7 @@ msgstr ""
 msgid "Add host or network IP-address:"
 msgstr ""
 
-#: standard input:5 input:21 input:46 ui/net-bl/index.scm:36
+#: standard input:5 input:21 input:45 ui/net-bl/index.scm:36
 #: ui/net-dnat/index.scm:59
 msgid "Add"
 msgstr ""
@@ -146,24 +146,24 @@ msgstr ""
 msgid "Allow incoming connections on external interfaces:"
 msgstr ""
 
-#: standard input:9 input:37 ui/net-iptables/index.scm:44
+#: standard input:9 input:36 ui/net-iptables/index.scm:44
 msgid "Services:"
 msgstr ""
 
-#: standard input:10 input:38 ui/net-iptables/index.scm:48
+#: standard input:10 input:37 ui/net-iptables/index.scm:48
 msgid "Extra TCP ports:"
 msgstr ""
 
-#: standard input:11 input:13 input:39 input:41 ui/net-iptables/index.scm:50
+#: standard input:11 input:13 input:38 input:40 ui/net-iptables/index.scm:50
 #: ui/net-iptables/index.scm:55
 msgid "(separated by commas or spaces)"
 msgstr ""
 
-#: standard input:12 input:40 ui/net-iptables/index.scm:53
+#: standard input:12 input:39 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr ""
 
-#: standard input:14 input:42 ui/net-iptables/index.scm:61
+#: standard input:14 input:41 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr ""
 
@@ -212,7 +212,7 @@ msgstr ""
 msgid "Authorized clients:"
 msgstr ""
 
-#: standard input:29 input:45
+#: standard input:29 input:44
 msgid "IP address:"
 msgstr ""
 
@@ -240,11 +240,7 @@ msgstr ""
 msgid "Outcoming rate (kb/s):"
 msgstr ""
 
-#: standard input:36
-msgid "Allowed connections:"
-msgstr ""
-
-#: standard input:44
+#: standard input:43
 msgid "Add new client:"
 msgstr ""
 
@@ -258,6 +254,14 @@ msgstr ""
 
 #: ui/net-iptables/index.scm:32
 msgid "gateway"
+msgstr ""
+
+#: ui/net-tc/ajax.scm:19
+msgid "Additional allowed connections:"
+msgstr ""
+
+#: ui/net-tc/ajax.scm:20
+msgid "Allowed connections for all authorized clients:"
 msgstr ""
 
 #: bin/alterator-net-iptables:12 bin/iptables_helper:12
@@ -277,8 +281,8 @@ msgid "Error: bad TCP port"
 msgstr ""
 
 #: bin/alterator-net-iptables:191 bin/alterator-net-iptables:196
-#: bin/alterator-net-iptables:406 bin/iptables_helper:191
-#: bin/iptables_helper:196 bin/iptables_helper:406
+#: bin/alterator-net-iptables:413 bin/iptables_helper:191
+#: bin/iptables_helper:196 bin/iptables_helper:413
 msgid "(must be a number)"
 msgstr ""
 
@@ -286,62 +290,62 @@ msgstr ""
 msgid "Error: bad UTP port"
 msgstr ""
 
-#: bin/alterator-net-iptables:334 bin/alterator-net-iptables:336
-#: bin/alterator-net-tc:18 bin/alterator-net-tc:20 bin/iptables_helper:334
-#: bin/iptables_helper:336
+#: bin/alterator-net-iptables:341 bin/alterator-net-iptables:343
+#: bin/alterator-net-tc:18 bin/alterator-net-tc:20 bin/iptables_helper:341
+#: bin/iptables_helper:343
 msgid "Error while reloading firewalling rules"
 msgstr ""
 
-#: bin/alterator-net-iptables:341 bin/iptables_helper:341
+#: bin/alterator-net-iptables:348 bin/iptables_helper:348
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr ""
 
-#: bin/alterator-net-iptables:366 bin/iptables_helper:366
+#: bin/alterator-net-iptables:373 bin/iptables_helper:373
 msgid "Can't add multiple values to list"
 msgstr ""
 
-#: bin/alterator-net-iptables:374 bin/iptables_helper:374
+#: bin/alterator-net-iptables:381 bin/iptables_helper:381
 msgid "Can't remove multiple values from list"
 msgstr ""
 
-#: bin/alterator-net-iptables:391 bin/iptables_helper:391
+#: bin/alterator-net-iptables:398 bin/iptables_helper:398
 msgid "Error: unknown protocol"
 msgstr ""
 
-#: bin/alterator-net-iptables:391 bin/iptables_helper:391
+#: bin/alterator-net-iptables:398 bin/iptables_helper:398
 msgid "possible values:"
 msgstr ""
 
-#: bin/alterator-net-iptables:396 bin/iptables_helper:396
+#: bin/alterator-net-iptables:403 bin/iptables_helper:403
 msgid "Error: bad IP-address"
 msgstr ""
 
-#: bin/alterator-net-iptables:401 bin/iptables_helper:401
+#: bin/alterator-net-iptables:408 bin/iptables_helper:408
 msgid "Error: bad network or host IP-address"
 msgstr ""
 
-#: bin/alterator-net-iptables:406 bin/iptables_helper:406
+#: bin/alterator-net-iptables:413 bin/iptables_helper:413
 msgid "Error: bad port"
 msgstr ""
 
-#: bin/alterator-net-iptables:411 bin/alterator-net-iptables:415
-#: bin/iptables_helper:411 bin/iptables_helper:415
+#: bin/alterator-net-iptables:418 bin/alterator-net-iptables:422
+#: bin/iptables_helper:418 bin/iptables_helper:422
 msgid "Error: bad port or port range"
 msgstr ""
 
-#: bin/alterator-net-iptables:420 bin/iptables_helper:420
+#: bin/alterator-net-iptables:427 bin/iptables_helper:427
 msgid "Error: bad MAC-address"
 msgstr ""
 
-#: bin/alterator-net-iptables:779 bin/iptables_helper:779
+#: bin/alterator-net-iptables:786 bin/iptables_helper:786
 msgid "Error: Bad rule"
 msgstr ""
 
-#: bin/alterator-net-iptables:785 bin/iptables_helper:785
+#: bin/alterator-net-iptables:792 bin/iptables_helper:792
 msgid "Error: MAC-address is not allowed in default rule"
 msgstr ""
 
-#: bin/alterator-net-iptables:798 bin/iptables_helper:798
+#: bin/alterator-net-iptables:805 bin/iptables_helper:805
 msgid "Error: unknown service"
 msgstr ""
 

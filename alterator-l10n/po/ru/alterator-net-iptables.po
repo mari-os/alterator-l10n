@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-04 14:28+0400\n"
+"POT-Creation-Date: 2009-09-25 14:24+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -21,8 +21,8 @@ msgstr ""
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: bin/alterator-net-iptables:191 bin/alterator-net-iptables:196
-#: bin/alterator-net-iptables:406 bin/iptables_helper:191
-#: bin/iptables_helper:196 bin/iptables_helper:406
+#: bin/alterator-net-iptables:413 bin/iptables_helper:191
+#: bin/iptables_helper:196 bin/iptables_helper:413
 msgid "(must be a number)"
 msgstr "(должно быть числом)"
 
@@ -30,7 +30,7 @@ msgstr "(должно быть числом)"
 msgid "(possible values: gateway or router)"
 msgstr "(допустимые значения: gateway или router)"
 
-#: standard input:11 input:13 input:39 input:41 ui/net-iptables/index.scm:50
+#: standard input:11 input:13 input:38 input:40 ui/net-iptables/index.scm:50
 #: ui/net-iptables/index.scm:55
 msgid "(separated by commas or spaces)"
 msgstr "(разделенные запятыми или пробелами)"
@@ -39,7 +39,7 @@ msgstr "(разделенные запятыми или пробелами)"
 msgid "Access from internal networks"
 msgstr "Доступ из внутренних сетей"
 
-#: standard input:5 input:21 input:46 ui/net-bl/index.scm:36
+#: standard input:5 input:21 input:45 ui/net-bl/index.scm:36
 #: ui/net-dnat/index.scm:59
 msgid "Add"
 msgstr "Добавить"
@@ -52,7 +52,7 @@ msgstr "Добавить IP адрес сети или хоста:"
 msgid "Add new IP:"
 msgstr "Добавить IP-адрес:"
 
-#: standard input:44
+#: standard input:43
 msgid "Add new client:"
 msgstr "Добавить клиента:"
 
@@ -60,15 +60,19 @@ msgstr "Добавить клиента:"
 msgid "Add new rule:"
 msgstr "Добавить новое правило:"
 
+#: ui/net-tc/ajax.scm:19
+msgid "Additional allowed connections:"
+msgstr "Дополнительно разрешенные соединения:"
+
 #: standard input:8 ui/net-iptables/index.scm:37
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Разрешить входящие соединения на внешних интерфейсах:"
 
-#: standard input:36
-msgid "Allowed connections:"
-msgstr "Разрешенные соединения:"
+#: ui/net-tc/ajax.scm:20
+msgid "Allowed connections for all authorized clients:"
+msgstr "Разрешенные соединения для всех разрешенных клиентов:"
 
-#: standard input:14 input:42 ui/net-iptables/index.scm:61
+#: standard input:14 input:41 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr "Применить"
 
@@ -92,11 +96,11 @@ msgstr "Черный список:"
 msgid "CUPS printing system"
 msgstr "Система печати CUPS"
 
-#: bin/alterator-net-iptables:366 bin/iptables_helper:366
+#: bin/alterator-net-iptables:373 bin/iptables_helper:373
 msgid "Can't add multiple values to list"
 msgstr "Невозможно добавить несколько значений в список"
 
-#: bin/alterator-net-iptables:374 bin/iptables_helper:374
+#: bin/alterator-net-iptables:381 bin/iptables_helper:381
 msgid "Can't remove multiple values from list"
 msgstr "Невозможно удалить несколько значений из списка"
 
@@ -116,7 +120,7 @@ msgstr ""
 msgid "Default"
 msgstr "По умолчанию"
 
-#: standard input:3 input:18 input:43 ui/net-bl/index.scm:30
+#: standard input:3 input:18 input:42 ui/net-bl/index.scm:30
 #: ui/net-dnat/index.scm:35
 msgid "Delete"
 msgstr "Удалить"
@@ -133,30 +137,30 @@ msgstr "Включить перенаправление портов"
 msgid "Enable restrictions on all internal interfaces"
 msgstr "Включить ограничение доступа на всех внутренних интерфейсах:"
 
-#: bin/alterator-net-iptables:334 bin/alterator-net-iptables:336
-#: bin/alterator-net-tc:18 bin/alterator-net-tc:20 bin/iptables_helper:334
-#: bin/iptables_helper:336
+#: bin/alterator-net-iptables:341 bin/alterator-net-iptables:343
+#: bin/alterator-net-tc:18 bin/alterator-net-tc:20 bin/iptables_helper:341
+#: bin/iptables_helper:343
 msgid "Error while reloading firewalling rules"
 msgstr "Ошибка при перезагрузке правил брандмауэра"
 
-#: bin/alterator-net-iptables:341 bin/iptables_helper:341
+#: bin/alterator-net-iptables:348 bin/iptables_helper:348
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr ""
 "Ошибка при запуске скриптов из /usr/lib/alterator/hooks/net-iptables.d/"
 
-#: bin/alterator-net-iptables:779 bin/iptables_helper:779
+#: bin/alterator-net-iptables:786 bin/iptables_helper:786
 msgid "Error: Bad rule"
 msgstr "Ошибка: плохое правило"
 
-#: bin/alterator-net-iptables:785 bin/iptables_helper:785
+#: bin/alterator-net-iptables:792 bin/iptables_helper:792
 msgid "Error: MAC-address is not allowed in default rule"
 msgstr "Ошибка: "
 
-#: bin/alterator-net-iptables:396 bin/iptables_helper:396
+#: bin/alterator-net-iptables:403 bin/iptables_helper:403
 msgid "Error: bad IP-address"
 msgstr "Ошибка: плохой IP-адрес"
 
-#: bin/alterator-net-iptables:420 bin/iptables_helper:420
+#: bin/alterator-net-iptables:427 bin/iptables_helper:427
 msgid "Error: bad MAC-address"
 msgstr "Ошибка: плохой MAC-адрес"
 
@@ -172,32 +176,32 @@ msgstr "Ошибка: плохой порт UDP"
 msgid "Error: bad mode"
 msgstr "Ошибка: плохой режим"
 
-#: bin/alterator-net-iptables:401 bin/iptables_helper:401
+#: bin/alterator-net-iptables:408 bin/iptables_helper:408
 msgid "Error: bad network or host IP-address"
 msgstr "Ошибка: плохой IP-адрес сети или хоста"
 
-#: bin/alterator-net-iptables:406 bin/iptables_helper:406
+#: bin/alterator-net-iptables:413 bin/iptables_helper:413
 msgid "Error: bad port"
 msgstr "Ошибка: плохой порт"
 
-#: bin/alterator-net-iptables:411 bin/alterator-net-iptables:415
-#: bin/iptables_helper:411 bin/iptables_helper:415
+#: bin/alterator-net-iptables:418 bin/alterator-net-iptables:422
+#: bin/iptables_helper:418 bin/iptables_helper:422
 msgid "Error: bad port or port range"
 msgstr "Ошибка: плохой порт или диапазон портов"
 
-#: bin/alterator-net-iptables:391 bin/iptables_helper:391
+#: bin/alterator-net-iptables:398 bin/iptables_helper:398
 msgid "Error: unknown protocol"
 msgstr "Ошибка: неизвестный протокол"
 
-#: bin/alterator-net-iptables:798 bin/iptables_helper:798
+#: bin/alterator-net-iptables:805 bin/iptables_helper:805
 msgid "Error: unknown service"
 msgstr "Ошибка: неизвестная служба"
 
-#: standard input:10 input:38 ui/net-iptables/index.scm:48
+#: standard input:10 input:37 ui/net-iptables/index.scm:48
 msgid "Extra TCP ports:"
 msgstr "Дополнительные порты TCP:"
 
-#: standard input:12 input:40 ui/net-iptables/index.scm:53
+#: standard input:12 input:39 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr "Дополнительные порты UDP:"
 
@@ -217,7 +221,7 @@ msgstr "%s пакеты, идущие на %s:%s, перенаправлять �
 msgid "HTTP/HTTPS"
 msgstr ""
 
-#: standard input:29 input:45
+#: standard input:29 input:44
 msgid "IP address:"
 msgstr "IP-адрес:"
 
@@ -309,7 +313,7 @@ msgstr "Выберите режим работы:"
 msgid "Service packets (ICMP)"
 msgstr "Служебные пакеты (ICMP)"
 
-#: standard input:9 input:37 ui/net-iptables/index.scm:44
+#: standard input:9 input:36 ui/net-iptables/index.scm:44
 msgid "Services:"
 msgstr "Службы:"
 
@@ -350,7 +354,7 @@ msgstr "шлюз (NAT)"
 msgid "port:"
 msgstr "порт:"
 
-#: bin/alterator-net-iptables:391 bin/iptables_helper:391
+#: bin/alterator-net-iptables:398 bin/iptables_helper:398
 msgid "possible values:"
 msgstr "допустимые значения:"
 
@@ -361,4 +365,3 @@ msgstr "протокол:"
 #: ui/net-iptables/index.scm:31 backend3/net-iptables:23
 msgid "router"
 msgstr "роутер"
-
