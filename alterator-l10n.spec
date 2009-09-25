@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt8
+Release: alt9
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -91,6 +91,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Sep 25 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.7-alt9
+- update translations for alterator-net-iptables
+
 * Thu Sep 24 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt8
 - update translations for alterator-bacula
 
