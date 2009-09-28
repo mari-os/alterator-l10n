@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 19:50+0400\n"
+"POT-Creation-Date: 2009-09-28 17:25+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -100,7 +100,7 @@ msgstr "Dirección IP:"
 msgid "Export sign request"
 msgstr "Download de el Requerido"
 
-#: backend3/sslkey:234
+#: backend3/sslkey:243
 msgid "Export sign request failed"
 msgstr ""
 
@@ -119,7 +119,12 @@ msgstr ""
 msgid "Import user certificate:"
 msgstr ""
 
-#: backend3/sslkey:223
+#: backend3/sslkey:41
+#, fuzzy
+msgid "Invalid certificate"
+msgstr "Certificado Inválido"
+
+#: backend3/sslkey:232
 msgid "Invalid certificate file"
 msgstr "Certificado Inválido"
 
@@ -132,9 +137,19 @@ msgstr "Localização:"
 msgid "New..."
 msgstr ""
 
+#: backend3/sslkey:44
+#, fuzzy
+msgid "No certificate"
+msgstr "Certificado"
+
 #: ui/sslkey/generate/index.scm:212
 msgid "OK"
 msgstr "OK"
+
+#: backend3/sslkey:38
+#, fuzzy
+msgid "OK certificate"
+msgstr "Certificado"
 
 #.
 #: standard input:8 ui/sslkey/generate/index.scm:177
@@ -169,16 +184,16 @@ msgstr "Ajustes"
 msgid "Sign"
 msgstr "Entrar"
 
-#: backend3/sslkey:229
+#: backend3/sslkey:238
 #, fuzzy
 msgid "Sign request does not exist"
 msgstr "usuário espeficado no existe"
 
-#: backend3/sslkey:231
+#: backend3/sslkey:240
 msgid "Target directory does not exist"
 msgstr ""
 
-#: backend3/sslkey:194
+#: backend3/sslkey:203
 #, fuzzy
 msgid "Unable to determine file name"
 msgstr "No fue posible configurar el reloj"
@@ -190,6 +205,10 @@ msgstr "Cargar"
 #: standard input:18
 msgid "Upload certificate signed by CA:"
 msgstr "Cargar Certificado asinado por:"
+
+#: backend3/sslkey:36
+msgid "expire"
+msgstr ""
 
 #: type/ssl-cert-country-code.scm:11
 msgid "invalid ISO-3166-alpha-2 country code"

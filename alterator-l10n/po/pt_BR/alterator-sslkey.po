@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-07 19:50+0400\n"
+"POT-Creation-Date: 2009-09-28 17:25+0400\n"
 "PO-Revision-Date: 2009-09-14 20:20-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -55,31 +55,25 @@ msgstr "Aplicar"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: standard input:22
-#: ui/sslkey/index.scm:35
+#: standard input:22 ui/sslkey/index.scm:35
 msgid "Change..."
 msgstr "Alterar..."
 
-#: standard input:2
-#: ui/sslkey/generate/index.scm:168
+#: standard input:2 ui/sslkey/generate/index.scm:168
 msgid "Common Name (CN):"
 msgstr "Nome Comum (CN):"
 
-#: standard input:15
-#: input:24
-#: ui/sslkey/generate/index.scm:187
+#: standard input:15 input:24 ui/sslkey/generate/index.scm:187
 #: ui/sslkey/index.scm:40
 msgid "Confirm"
 msgstr "Confirme"
 
 #.
-#: standard input:4
-#: ui/sslkey/generate/index.scm:171
+#: standard input:4 ui/sslkey/generate/index.scm:171
 msgid "Country (C):"
 msgstr "País:"
 
-#: standard input:23
-#: ui/sslkey/index.scm:39
+#: standard input:23 ui/sslkey/index.scm:39
 msgid "Delete key, certificate and sign request"
 msgstr "chave de deletar, certificado e assinar"
 
@@ -92,18 +86,16 @@ msgid "Download sign request"
 msgstr "Download do Requerido"
 
 #.
-#: standard input:12
-#: ui/sslkey/generate/index.scm:183
+#: standard input:12 ui/sslkey/generate/index.scm:183
 msgid "E-mail address:"
 msgstr "E-mail:"
 
 #.
-#: ui/sslkey/generate/index.scm:191
-#: ui/sslkey/generate/index.scm:194
+#: ui/sslkey/generate/index.scm:191 ui/sslkey/generate/index.scm:194
 msgid "Export sign request"
 msgstr "Exportar pedido assinar"
 
-#: backend3/sslkey:234
+#: backend3/sslkey:243
 msgid "Export sign request failed"
 msgstr "Exportação pedido sinal falhou"
 
@@ -121,34 +113,45 @@ msgstr "Importação do Certificado de usuário"
 msgid "Import user certificate:"
 msgstr "Importação do Certificado de usuário:"
 
-#: backend3/sslkey:223
+#: backend3/sslkey:41
+#, fuzzy
+msgid "Invalid certificate"
+msgstr "Certificado Inválido"
+
+#: backend3/sslkey:232
 msgid "Invalid certificate file"
 msgstr "Certificado Inválido"
 
 #.
-#: standard input:6
-#: ui/sslkey/generate/index.scm:174
+#: standard input:6 ui/sslkey/generate/index.scm:174
 msgid "Location (L):"
 msgstr "Localização:"
 
-#: standard input:21
-#: ui/sslkey/index.scm:34
+#: standard input:21 ui/sslkey/index.scm:34
 msgid "New..."
 msgstr "Novo..."
+
+#: backend3/sslkey:44
+#, fuzzy
+msgid "No certificate"
+msgstr "certificados"
 
 #: ui/sslkey/generate/index.scm:212
 msgid "OK"
 msgstr "OK"
 
+#: backend3/sslkey:38
+#, fuzzy
+msgid "OK certificate"
+msgstr "certificados"
+
 #.
-#: standard input:8
-#: ui/sslkey/generate/index.scm:177
+#: standard input:8 ui/sslkey/generate/index.scm:177
 msgid "Organization (O):"
 msgstr "Organização:"
 
 #.
-#: standard input:10
-#: ui/sslkey/generate/index.scm:180
+#: standard input:10 ui/sslkey/generate/index.scm:180
 msgid "Organizational Unit (OU):"
 msgstr "Unidade:"
 
@@ -172,15 +175,15 @@ msgstr "Configurações de SSL:"
 msgid "Sign"
 msgstr "Entrar"
 
-#: backend3/sslkey:229
+#: backend3/sslkey:238
 msgid "Sign request does not exist"
 msgstr "Cadastro do pedido não existe"
 
-#: backend3/sslkey:231
+#: backend3/sslkey:240
 msgid "Target directory does not exist"
 msgstr "Diretório de destino não existe"
 
-#: backend3/sslkey:194
+#: backend3/sslkey:203
 msgid "Unable to determine file name"
 msgstr "Incapaz de determinar o nome do arquivo"
 
@@ -192,6 +195,10 @@ msgstr "Enviar"
 msgid "Upload certificate signed by CA:"
 msgstr "Atualizado Certificado assinado por:"
 
+#: backend3/sslkey:36
+msgid "expire"
+msgstr ""
+
 #: type/ssl-cert-country-code.scm:11
 msgid "invalid ISO-3166-alpha-2 country code"
 msgstr "Inválido ISO-3166-alpha-2 codigo do país"
@@ -199,5 +206,3 @@ msgstr "Inválido ISO-3166-alpha-2 codigo do país"
 #: type/ssl-cert-field.scm:11
 msgid "only digits, punctuation and latin letters allowed"
 msgstr "apenas dígitos, pontuação e letras latino permitiu"
-
-
