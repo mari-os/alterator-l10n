@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt9
+Release: alt10
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -91,6 +91,14 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Sep 28 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt10
+- add Russian documentation on net-bl (ALT 21364)
+- add Russian documentation on sslkey (ALT 21216)
+- fix Russian documentation on ulogd (ALT 21402)
+- add Russian documentation for 'Package' module (ALT 21215)
+- update Russian translation for alterator-sslkey (sem@)
+- improve russian ldap-users help (azol@)
+
 * Fri Sep 25 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.7-alt9
 - update translations for alterator-net-iptables
 
