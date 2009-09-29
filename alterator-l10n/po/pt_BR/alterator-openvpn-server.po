@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-25 22:18+0400\n"
+"POT-Creation-Date: 2009-09-29 18:10+0400\n"
 "PO-Revision-Date: 2009-09-14 19:41-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,18 +19,15 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:7
-#: input:18
+#: standard input:7 input:18
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:10
-#: input:30
+#: standard input:10 input:32
 msgid "Apply"
 msgstr "Aplicar"
 
 #: standard input:11
-#: input:34
 msgid "Back"
 msgstr "Voltar"
 
@@ -38,15 +35,20 @@ msgstr "Voltar"
 msgid "Bridge:"
 msgstr "Bridge:"
 
-#: backend3/openvpn-server:358
+#: backend3/openvpn-server:314
 msgid "Bridged (TAP)"
 msgstr "Bridged (TAP)"
 
-#: backend3/openvpn-server:878
+#: standard input:30
+#, fuzzy
+msgid "CA certificate successfully uploaded"
+msgstr "Configurações do servidor atualizada com sucesso"
+
+#: backend3/openvpn-server:834
 msgid "CA not found!"
 msgstr "CA não encontrado"
 
-#: backend3/openvpn-server:874
+#: backend3/openvpn-server:830
 msgid "Certificate not found!"
 msgstr "Certificado não encontrado!"
 
@@ -62,7 +64,7 @@ msgstr "Domínio de cliente:"
 msgid "Client name:"
 msgstr "Nome do cliente:"
 
-#: backend3/openvpn-server:968
+#: backend3/openvpn-server:926
 msgid "Client nameserver not in client network(s)"
 msgstr "Nameserver cliente não estiver na rede do cliente (s)"
 
@@ -74,7 +76,7 @@ msgstr "Clientes"
 msgid "Clients networks"
 msgstr "Redes de clientes"
 
-#: standard input:29
+#: standard input:31
 msgid "Clients networks..."
 msgstr "Redes de clientes ..."
 
@@ -82,7 +84,11 @@ msgstr "Redes de clientes ..."
 msgid "Enable OpenVPN server"
 msgstr "Ativar servidor OpenVPN"
 
-#: backend3/openvpn-server:785
+#: backend3/openvpn-server:954
+msgid "File does not exist"
+msgstr "O arquivo não existe"
+
+#: backend3/openvpn-server:741
 msgid "Gateway address in VPN addresses pool"
 msgstr "Endereço do gateway VPN em endereços pool"
 
@@ -90,11 +96,11 @@ msgstr "Endereço do gateway VPN em endereços pool"
 msgid "Gateway address:"
 msgstr "Endereço do Gateway:"
 
-#: backend3/openvpn-server:472
+#: backend3/openvpn-server:428
 msgid "Invalid config value 'dev'"
 msgstr "Valor da configuração inválido 'dev'"
 
-#: backend3/openvpn-server:876
+#: backend3/openvpn-server:832
 msgid "Key not found!"
 msgstr "Chave não encontrada!"
 
@@ -102,18 +108,15 @@ msgstr "Chave não encontrada!"
 msgid "LZO compression"
 msgstr "Compressão LZO"
 
-#: backend3/openvpn-server:981
+#: backend3/openvpn-server:939
 msgid "Network conflicts with other client network"
 msgstr "Conflitos de rede com a rede de outro cliente"
 
-#: standard input:6
-#: input:17
-#: input:22
+#: standard input:6 input:17 input:22
 msgid "Network mask:"
 msgstr "Máscara de rede:"
 
-#: standard input:5
-#: input:16
+#: standard input:5 input:16
 msgid "New network:"
 msgstr "Nova Rede:"
 
@@ -125,16 +128,15 @@ msgstr "OpenVPN-Server"
 msgid "Port:"
 msgstr "Porta:"
 
-#: standard input:3
-#: input:15
+#: standard input:3 input:15
 msgid "Remove"
 msgstr "Remover"
 
-#: standard input:31
+#: standard input:33
 msgid "Reset"
 msgstr "Resetar"
 
-#: backend3/openvpn-server:357
+#: backend3/openvpn-server:313
 msgid "Routed (TUN)"
 msgstr "Routed (TUN)"
 
@@ -142,16 +144,15 @@ msgstr "Routed (TUN)"
 msgid "SSL certificate and key..."
 msgstr "Certificado SSL e Chave..."
 
-#: backend3/openvpn-server:953
+#: backend3/openvpn-server:911
 msgid "Server network conflicts with VPN network"
 msgstr " Conflitos de rede do servidor com a rede VPN"
 
-#: backend3/openvpn-server:955
-#: backend3/openvpn-server:977
+#: backend3/openvpn-server:913 backend3/openvpn-server:935
 msgid "Server network conflicts with client network"
 msgstr "Conflitos de rede do servidor com a rede do cliente"
 
-#: backend3/openvpn-server:951
+#: backend3/openvpn-server:909
 msgid "Server network conflicts with other server network"
 msgstr "Conflitos de rede do servidor com a rede de outro servidor"
 
@@ -163,17 +164,18 @@ msgstr "Redes Server"
 msgid "Type:"
 msgstr "Tipo:"
 
-#: standard input:33
+#: standard input:29
 msgid "Upload"
 msgstr "Enviar"
 
 #: standard input:28
-msgid "Upload CA certificate..."
-msgstr "Enviar certificado CA..."
-
-#: standard input:32
 msgid "Upload CA certificate:"
 msgstr "Enviar certificado CA:"
+
+#: backend3/openvpn-server:956
+#, fuzzy
+msgid "Upload CA failed"
+msgstr "Importação falhou CA"
 
 #: standard input:24
 msgid "VPN addresses end:"
@@ -183,16 +185,15 @@ msgstr "Endereços VPN terminou:"
 msgid "VPN addresses start:"
 msgstr "Endereços VPN iniciar:"
 
-#: backend3/openvpn-server:774
+#: backend3/openvpn-server:730
 msgid "VPN end address not in VPN network"
 msgstr "VPN endereço final não na rede VPN"
 
-#: backend3/openvpn-server:761
-#: backend3/openvpn-server:979
+#: backend3/openvpn-server:717 backend3/openvpn-server:937
 msgid "VPN network conflicts with client network"
 msgstr "Conflitos de rede VPN com a rede do cliente"
 
-#: backend3/openvpn-server:757
+#: backend3/openvpn-server:713
 msgid "VPN network conflicts with server network"
 msgstr "Conflitos de rede VPN com servidor de rede"
 
@@ -200,15 +201,17 @@ msgstr "Conflitos de rede VPN com servidor de rede"
 msgid "VPN network:"
 msgstr "Rede VPN:"
 
-#: backend3/openvpn-server:780
+#: backend3/openvpn-server:736
 msgid "VPN start address is greater than VPN end address"
 msgstr "VPN endereço inicial é superior a VPN endereço final"
 
-#: backend3/openvpn-server:770
+#: backend3/openvpn-server:726
 msgid "VPN start address not in VPN network"
 msgstr "VPN endereço de início não na rede VPN"
 
-#: backend3/openvpn-server:882
+#: backend3/openvpn-server:838
 msgid "openvpn server start failed"
 msgstr "servidor não conseguiu iniciar openvpn"
 
+#~ msgid "Upload CA certificate..."
+#~ msgstr "Enviar certificado CA..."

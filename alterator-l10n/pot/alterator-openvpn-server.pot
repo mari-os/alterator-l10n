@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-25 22:18+0400\n"
+"POT-Creation-Date: 2009-09-29 18:10+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,11 +56,11 @@ msgstr ""
 msgid "Client domain:"
 msgstr ""
 
-#: standard input:10 input:30
+#: standard input:10 input:32
 msgid "Apply"
 msgstr ""
 
-#: standard input:11 input:34
+#: standard input:11
 msgid "Back"
 msgstr ""
 
@@ -109,93 +109,101 @@ msgid "SSL certificate and key..."
 msgstr ""
 
 #: standard input:28
-msgid "Upload CA certificate..."
-msgstr ""
-
-#: standard input:29
-msgid "Clients networks..."
-msgstr ""
-
-#: standard input:31
-msgid "Reset"
-msgstr ""
-
-#: standard input:32
 msgid "Upload CA certificate:"
 msgstr ""
 
-#: standard input:33
+#: standard input:29
 msgid "Upload"
 msgstr ""
 
-#: backend3/openvpn-server:357
+#: standard input:30
+msgid "CA certificate successfully uploaded"
+msgstr ""
+
+#: standard input:31
+msgid "Clients networks..."
+msgstr ""
+
+#: standard input:33
+msgid "Reset"
+msgstr ""
+
+#: backend3/openvpn-server:313
 msgid "Routed (TUN)"
 msgstr ""
 
-#: backend3/openvpn-server:358
+#: backend3/openvpn-server:314
 msgid "Bridged (TAP)"
 msgstr ""
 
-#: backend3/openvpn-server:472
+#: backend3/openvpn-server:428
 msgid "Invalid config value 'dev'"
 msgstr ""
 
-#: backend3/openvpn-server:757
+#: backend3/openvpn-server:713
 msgid "VPN network conflicts with server network"
 msgstr ""
 
-#: backend3/openvpn-server:761 backend3/openvpn-server:979
+#: backend3/openvpn-server:717 backend3/openvpn-server:937
 msgid "VPN network conflicts with client network"
 msgstr ""
 
-#: backend3/openvpn-server:770
+#: backend3/openvpn-server:726
 msgid "VPN start address not in VPN network"
 msgstr ""
 
-#: backend3/openvpn-server:774
+#: backend3/openvpn-server:730
 msgid "VPN end address not in VPN network"
 msgstr ""
 
-#: backend3/openvpn-server:780
+#: backend3/openvpn-server:736
 msgid "VPN start address is greater than VPN end address"
 msgstr ""
 
-#: backend3/openvpn-server:785
+#: backend3/openvpn-server:741
 msgid "Gateway address in VPN addresses pool"
 msgstr ""
 
-#: backend3/openvpn-server:874
+#: backend3/openvpn-server:830
 msgid "Certificate not found!"
 msgstr ""
 
-#: backend3/openvpn-server:876
+#: backend3/openvpn-server:832
 msgid "Key not found!"
 msgstr ""
 
-#: backend3/openvpn-server:878
+#: backend3/openvpn-server:834
 msgid "CA not found!"
 msgstr ""
 
-#: backend3/openvpn-server:882
+#: backend3/openvpn-server:838
 msgid "openvpn server start failed"
 msgstr ""
 
-#: backend3/openvpn-server:951
+#: backend3/openvpn-server:909
 msgid "Server network conflicts with other server network"
 msgstr ""
 
-#: backend3/openvpn-server:953
+#: backend3/openvpn-server:911
 msgid "Server network conflicts with VPN network"
 msgstr ""
 
-#: backend3/openvpn-server:955 backend3/openvpn-server:977
+#: backend3/openvpn-server:913 backend3/openvpn-server:935
 msgid "Server network conflicts with client network"
 msgstr ""
 
-#: backend3/openvpn-server:968
+#: backend3/openvpn-server:926
 msgid "Client nameserver not in client network(s)"
 msgstr ""
 
-#: backend3/openvpn-server:981
+#: backend3/openvpn-server:939
 msgid "Network conflicts with other client network"
+msgstr ""
+
+#: backend3/openvpn-server:954
+msgid "File does not exist"
+msgstr ""
+
+#: backend3/openvpn-server:956
+msgid "Upload CA failed"
 msgstr ""

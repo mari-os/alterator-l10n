@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt12
+Release: alt13
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -49,9 +49,9 @@ Conflicts: alterator-lookout              < 1.6-alt1
 Conflicts: alterator-datetime             < 1.0-alt1
 Conflicts: alterator-ca                   < 0.5-alt2
 Conflicts: alterator-trust                < 0.6.2-alt1
-Conflicts: alterator-net-openvpn          < 0.7.1-alt1
-Conflicts: alterator-openvpn-server       < 0.6.3-alt1
-Conflicts: alterator-sslkey               < 0.1.2-alt1
+Conflicts: alterator-net-openvpn          < 0.8.0-alt1
+Conflicts: alterator-openvpn-server       < 0.8.0-alt1
+Conflicts: alterator-sslkey               < 0.2.0-alt1
 
 %description
 translations for all alterator modules
@@ -92,10 +92,14 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
-* Tue Sep 29 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt12
+* Tue Sep 29 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt13
 - add Russian documentation for module 'Access from internal networks' (ALT 21729)
 - add translations for alterator-pkcs11 
 - small fixes
+
+* Tue Sep 29 2009 Mikhail Efremov <sem@altlinux.org> 2.7-alt12
+- update Russian translation for alterator-openvpn-server.
+- update Russian translation for alterator-net-openvpn.
 
 * Tue Sep 29 2009 Alexey I. Froloff <raorn@altlinux.org> 2.7-alt11
 - add Russian translation for alterator-pkcs11
