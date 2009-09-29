@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt11
+Release: alt12
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,6 +92,11 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Sep 29 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt12
+- add Russian documentation for module 'Access from internal networks' (ALT 21729)
+- add translations for alterator-pkcs11 
+- small fixes
+
 * Tue Sep 29 2009 Alexey I. Froloff <raorn@altlinux.org> 2.7-alt11
 - add Russian translation for alterator-pkcs11
 
