@@ -126,7 +126,7 @@ msgstr "Служба повторения событий udev, не обрабо
 
 #: standard input:9
 msgid "Rotate the list of KDCs listed in /etc/krb5.conf"
-msgstr "Ротация списка контекстов KDC в /etc/krb5.conf[Desktop Entry]"
+msgstr "Ротация списка контекстов KDC в /etc/krb5.conf"
 
 #: standard input:6
 msgid "Run cron jobs that were left out due to downtime"
@@ -206,7 +206,7 @@ msgid ""
 "printer configured on one server in the whole network."
 msgstr ""
 "Общая система печати UNIX (CUPS) — система печати с поддержкой очередей для "
-"нескольких принтеров, доступных в сети.[Desktop Entry]"
+"нескольких принтеров, доступных в сети."
 
 #: standard input:4
 msgid ""
@@ -221,7 +221,7 @@ msgstr ""
 "настройки узлов (DHCP) и загрузки Интернет (BOOTP). DHCP позволяет узлам "
 "сети TCP/IP запросить и назначить IP-адреса, а также получить информацию о "
 "сети, к которой подключен компьютер. BOOTP предлагает такие же возможности, "
-"что и DHCP, но с некоторыми ограничениями.[Desktop Entry]"
+"что и DHCP, но с некоторыми ограничениями."
 
 #: standard input:24
 msgid "The UPS drivers"
@@ -317,7 +317,7 @@ msgstr ""
 "cron — стандартная программа UNIX, которая запускает указанные пользователем "
 "программы по расписанию. vixie cron содержит больше возможностей по "
 "сравнению с базовой программой cron для UNIX, включая улучшенную "
-"безопасность и большую гибкость.[Desktop Entry]"
+"безопасность и большую гибкость."
 
 #: backend3/services:118
 msgid "do not change"
@@ -408,6 +408,98 @@ msgstr ""
 "xinetd — расширенная замена inetd. Служба предоставляет механизм контроля "
 "доступа, журналирование, поддержку периодичной доступности и лимитов для "
 "сетевых служб."
+
+#: ahttpd-firsttime.desktop
+msgid "alterator specific httpd"
+msgstr "Служба первоначальной настройки Alterator"
+
+#: arpwatch.desktop
+msgid ""
+"The arpwatch daemon attempts to keep track of ethernet/ip address pairings"
+msgstr "Служба отслеживания назначения IP-адресов"
+
+#: auditd.desktop
+msgid "This starts the Linux Auditing System Daemon"
+msgstr "Служба системы аудита Linux"
+
+#: avahi-daemon.desktop
+msgid ""
+"This is a daemon which runs on client machines to perform Zeroconf service "
+"discovery on a network. avahi-daemon must be running on systems that use "
+"Avahi for service discovery. Avahi-daemon should not be running otherwise"
+msgstr "Служба обнаружения доступных служб Zeroconf в сети"
+
+#: bacula-dir.desktop
+msgid "It comes by night and sucks the vital essence from your computers..."
+msgstr "Служба резервного копирования"
+
+#: bridge.desktop
+msgid "Layer 2 Bridge"
+msgstr "Служба организации виртуального сетевого моста"
+
+#: dnsmasq.desktop
+msgid "This script starts your DNS caching server"
+msgstr "Кеширующий сервер DNS"
+
+#: kadmin.desktop
+msgid ""
+"Kerberos 5 is a trusted third-party authentication system. This script "
+"starts and stops the Kerberos 5 administrative server, which should only be "
+"run on the master server for a realm"
+msgstr "Управляющий сервер Kerberos"
+
+#: kprop.desktop
+msgid ""
+"Kerberos 5 is a trusted third-party authentication system. This script "
+"starts and stops the service that allows this KDC to receive updates from "
+"your master KDC"
+msgstr "Служба получения обновления с управляющего сервера Kerberos"
+
+#: krb5kdc.desktop
+msgid ""
+"Kerberos 5 is a trusted third-party authentication system. This script "
+"starts and stops the server that Kerberos IV and 5 clients need to connect "
+"to in order to obtain credentials"
+msgstr "Служба раздачи тикетов Kerberos"
+
+#: kvm.desktop
+msgid "KVM accelerator kernel modules."
+msgstr "Служба аппаратной поддержки виртуальных машин KVM"
+
+#: libvirtd.desktop
+msgid "This is a daemon for managing guest instances"
+msgstr "Служба управления интерфейсами к запущенным вирутальным машинам OpenVZ"
+
+#: lvm2-monitor.desktop
+msgid "Starts and stops dmeventd monitoring for lvm2"
+msgstr "Служба поддержки LVM2"
+
+#: openvpn.desktop
+msgid ""
+"OpenVPN is a full-featured SSL VPN solution which can accomodate a wide "
+"range of configurations, including road warrior access, home/office/campus "
+"telecommuting, WiFi security, secure branch office linking, and enterprise-"
+"scale remote access solutions with load balancing, failover, and fine-"
+"grained access-controls"
+msgstr "Сервер VPN (Virtual Private Network)"
+
+#: publish-acc-to-console.desktop
+msgid "publish alterator web interface on console and alt-notes"
+msgstr "Служба показа адресов доступа к Alterator"
+
+#: smartd.desktop
+msgid ""
+"Self Monitoring and Reporting Technology (S.M.A.R.T.) Daemon monitors the "
+"reliability of ATA and SCSI hard drives"
+msgstr "Служба отслеживания состояния жёстких дисков S.M.A.R.T."
+
+#: vz.desktop
+msgid "OpenVZ startup script"
+msgstr "Служба поддержки виртуальных машин OpenVZ"
+
+#: x11presetdrv.desktop
+msgid "Prepare X11 drivers"
+msgstr "Служба автоматического определения драйвера графической системы"
 
 #~ msgid "Current state:"
 #~ msgstr "Текущее состояние службы:"
