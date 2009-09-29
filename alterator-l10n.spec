@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt10
+Release: alt11
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -27,6 +27,7 @@ Conflicts: alterator-net-pppoe            < 0.6.1-alt6
 Conflicts: alterator-net-iptables         < 0.4-alt3
 Conflicts: alterator-net-wifi             < 0.6-alt8
 Conflicts: alterator-notes                < 1.1-alt9
+Conflicts: alterator-pkcs11               < 0.1-alt2
 Conflicts: alterator-pkg                  < 2.0-alt2
 Conflicts: alterator-postfix-restrictions < 0.5-alt4
 Conflicts: alterator-root                 < 0.5-alt1
@@ -91,6 +92,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Sep 29 2009 Alexey I. Froloff <raorn@altlinux.org> 2.7-alt11
+- add Russian translation for alterator-pkcs11
+
 * Mon Sep 28 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt10
 - add Russian documentation on net-bl (ALT 21364)
 - add Russian documentation on sslkey (ALT 21216)
