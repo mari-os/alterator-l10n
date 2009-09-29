@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-20 18:26+0400\n"
+"POT-Creation-Date: 2009-09-29 17:45+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,68 +20,68 @@ msgstr ""
 msgid "OpenVPN-connections"
 msgstr ""
 
-#: standard input:1 ui/net-openvpn/index.scm:85
+#: standard input:1 ui/net-openvpn/index.scm:104
+msgid "New connection:"
+msgstr ""
+
+#: standard input:2 ui/net-openvpn/index.scm:108
+msgid "Network tunnel (TUN)"
+msgstr ""
+
+#: standard input:3 ui/net-openvpn/index.scm:110
+msgid "Virtual Ethernet device (TAP)"
+msgstr ""
+
+#: standard input:4 ui/net-openvpn/index.scm:112
+msgid "Create connection"
+msgstr ""
+
+#: standard input:5 ui/net-openvpn/index.scm:127
 msgid "Status:"
 msgstr ""
 
 #.
-#: standard input:2 ui/net-openvpn/index.scm:91
+#: standard input:6 ui/net-openvpn/index.scm:133
 msgid "Server:"
 msgstr ""
 
 #.
-#: standard input:3 ui/net-openvpn/index.scm:95
+#: standard input:7 ui/net-openvpn/index.scm:137
 msgid "Port:"
 msgstr ""
 
 #.
-#: standard input:4 ui/net-openvpn/index.scm:99
+#: standard input:8 ui/net-openvpn/index.scm:141
 msgid "Key:"
 msgstr ""
 
-#: standard input:5 ui/net-openvpn/index.scm:106
+#: standard input:9 ui/net-openvpn/index.scm:148
 msgid "Keys managament..."
 msgstr ""
 
 #.
-#: standard input:6 ui/net-openvpn/index.scm:109
+#: standard input:10 ui/net-openvpn/index.scm:151
 msgid "Start at boot"
 msgstr ""
 
-#: standard input:7 ui/net-openvpn/index.scm:113
+#: standard input:11 ui/net-openvpn/index.scm:155
 msgid "Default route via VPN"
 msgstr ""
 
-#: standard input:8 ui/net-openvpn/index.scm:117
+#: standard input:12 ui/net-openvpn/index.scm:159
 msgid "LZO compression"
 msgstr ""
 
-#: standard input:9 ui/net-openvpn/index.scm:123
+#: standard input:13 ui/net-openvpn/index.scm:165
 msgid "Apply"
 msgstr ""
 
-#: standard input:10 ui/net-openvpn/index.scm:126
-msgid "New connection:"
+#: standard input:14 ui/net-openvpn/index.scm:166
+msgid "Reset"
 msgstr ""
 
-#: standard input:11 ui/net-openvpn/index.scm:130
-msgid "Network tunnel (TUN)"
-msgstr ""
-
-#: standard input:12 ui/net-openvpn/index.scm:132
-msgid "Virtual Ethernet device (TAP)"
-msgstr ""
-
-#: standard input:13 ui/net-openvpn/index.scm:136
-msgid "Create connection"
-msgstr ""
-
-#: standard input:14 ui/net-openvpn/index.scm:138
-msgid "Delete"
-msgstr ""
-
-#: standard input:15 ui/net-openvpn/index.scm:142
-msgid "Upload CA certificate..."
+#: standard input:15 ui/net-openvpn/index.scm:168
+msgid "Delete connection"
 msgstr ""
 
 #: standard input:16
@@ -93,24 +93,19 @@ msgid "Upload"
 msgstr ""
 
 #: standard input:18
-msgid "Back"
+msgid "CA certificate successfully uploaded"
 msgstr ""
 
-#.
-#: ui/net-openvpn/ca/index.scm:39
+#: ui/net-openvpn/index.scm:174
 msgid "Import CA certificate:"
 msgstr ""
 
-#: ui/net-openvpn/ca/index.scm:40
+#: ui/net-openvpn/index.scm:175
 msgid "Import CA certificate"
 msgstr ""
 
-#: ui/net-openvpn/ca/index.scm:48
-msgid "OK"
-msgstr ""
-
-#: ui/net-openvpn/ca/index.scm:49
-msgid "Cancel"
+#: ui/net-openvpn/index.scm:179
+msgid "Import"
 msgstr ""
 
 #: backend3/net-openvpn:60

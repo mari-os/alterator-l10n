@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-20 18:26+0400\n"
+"POT-Creation-Date: 2009-09-29 17:45+0400\n"
 "PO-Revision-Date: 2009-04-16 16:14+0400\n"
 "Last-Translator:  <sem@altlinux.org>\n"
 "Language-Team: Russian\n"
@@ -18,40 +18,39 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:9 ui/net-openvpn/index.scm:123
+#: standard input:13 ui/net-openvpn/index.scm:165
 msgid "Apply"
 msgstr "Применить"
 
 #: standard input:18
-msgid "Back"
-msgstr "Назад"
+msgid "CA certificate successfully uploaded"
+msgstr "Сертификат УЦ успешно загружен"
 
-#: ui/net-openvpn/ca/index.scm:49
-msgid "Cancel"
-msgstr "Отмена"
-
-#: standard input:13 ui/net-openvpn/index.scm:136
+#: standard input:4 ui/net-openvpn/index.scm:112
 msgid "Create connection"
 msgstr "Создать соединение"
 
-#: standard input:7 ui/net-openvpn/index.scm:113
+#: standard input:11 ui/net-openvpn/index.scm:155
 msgid "Default route via VPN"
 msgstr "Маршрут по умолчанию через VPN"
 
-#: standard input:14 ui/net-openvpn/index.scm:138
-msgid "Delete"
-msgstr "Удалить"
+#: standard input:15 ui/net-openvpn/index.scm:168
+msgid "Delete connection"
+msgstr "Удалить соединение"
 
 #: backend3/net-openvpn:321
 msgid "File does not exist"
 msgstr "Файл не существует"
 
-#: ui/net-openvpn/ca/index.scm:40
+#: ui/net-openvpn/index.scm:179
+msgid "Import"
+msgstr "Импортировать"
+
+#: ui/net-openvpn/index.scm:175
 msgid "Import CA certificate"
 msgstr "Импортировать сертификат УЦ:"
 
-#.
-#: ui/net-openvpn/ca/index.scm:39
+#: ui/net-openvpn/index.scm:174
 msgid "Import CA certificate:"
 msgstr "Импортировать сертификат УЦ:"
 
@@ -64,50 +63,50 @@ msgid "Invalid config value 'dev':"
 msgstr ""
 
 #.
-#: standard input:4 ui/net-openvpn/index.scm:99
+#: standard input:8 ui/net-openvpn/index.scm:141
 msgid "Key:"
 msgstr "Ключ:"
 
-#: standard input:5 ui/net-openvpn/index.scm:106
+#: standard input:9 ui/net-openvpn/index.scm:148
 msgid "Keys managament..."
 msgstr "Управление ключами..."
 
-#: standard input:8 ui/net-openvpn/index.scm:117
+#: standard input:12 ui/net-openvpn/index.scm:159
 msgid "LZO compression"
 msgstr "Сжатие LZO"
 
-#: standard input:11 ui/net-openvpn/index.scm:130
+#: standard input:2 ui/net-openvpn/index.scm:108
 msgid "Network tunnel (TUN)"
 msgstr "Сетевой тунель (TUN)"
 
-#: standard input:10 ui/net-openvpn/index.scm:126
+#: standard input:1 ui/net-openvpn/index.scm:104
 msgid "New connection:"
 msgstr "Новое соединение:"
-
-#: ui/net-openvpn/ca/index.scm:48
-msgid "OK"
-msgstr "OK"
 
 #: standard input:1
 msgid "OpenVPN-connections"
 msgstr "OpenVPN-соединения"
 
 #.
-#: standard input:3 ui/net-openvpn/index.scm:95
+#: standard input:7 ui/net-openvpn/index.scm:137
 msgid "Port:"
 msgstr "Порт:"
 
+#: standard input:14 ui/net-openvpn/index.scm:166
+msgid "Reset"
+msgstr "Вернуть"
+
 #.
-#: standard input:2 ui/net-openvpn/index.scm:91
+#: standard input:6 ui/net-openvpn/index.scm:133
 msgid "Server:"
 msgstr "Сервер:"
 
 #.
-#: standard input:6 ui/net-openvpn/index.scm:109
+#: standard input:10 ui/net-openvpn/index.scm:151
 msgid "Start at boot"
 msgstr "Запускать при загрузке"
 
-#: standard input:1 ui/net-openvpn/index.scm:85
+#: standard input:5 ui/net-openvpn/index.scm:127
 msgid "Status:"
 msgstr "Состояние:"
 
@@ -115,15 +114,11 @@ msgstr "Состояние:"
 msgid "Upload"
 msgstr "Положить"
 
-#: standard input:15 ui/net-openvpn/index.scm:142
-msgid "Upload CA certificate..."
-msgstr "Положить сертификат УЦ..."
-
 #: standard input:16
 msgid "Upload CA certificate:"
 msgstr "Положить сертификат УЦ:"
 
-#: standard input:12 ui/net-openvpn/index.scm:132
+#: standard input:3 ui/net-openvpn/index.scm:110
 msgid "Virtual Ethernet device (TAP)"
 msgstr "Виртуальное Ethernet устройство (TAP)"
 
@@ -150,3 +145,4 @@ msgstr "запустить"
 #: backend3/net-openvpn:62
 msgid "stop"
 msgstr "остановить"
+
