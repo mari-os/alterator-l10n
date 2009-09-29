@@ -1,0 +1,34 @@
+#!/bin/ash -eu
+
+# get all translated Name and Comment fields from
+# desktop-files and append them to <lang>.po files
+# todo: use alterator-dump-desktop?
+
+for i in "$@"; do
+  name="$(sed -n 's/^[[:space:]]*Name=//p' "$i")"
+  comment="$(sed -n 's/^[[:space:]]*Comment=//p' "$i")"
+  langlist="$(sed -n 's/^[[:space:]]*Name\[\([^]]\+\)\]=.*/\1/p
+                      s/^[[:space:]]*Comment\[\([^]]\+\)\]=.*/\1/p' "$i" |
+              sort -u)";
+  for l in $langlist; do
+    name_tr="$(sed -n "s/^[[:space:]]*Name\[$l\]=//p" "$i")"
+    comment_tr="$(sed -n "s/^[[:space:]]*Comment\[$l\]=//p" "$i")"
+
+    [ -z "$name_tr" -o -z "$name" ] ||
+    cat >> $l.po << EOF
+#: $i
+msgid "$name"
+msgstr "$name_tr"
+
+EOF
+
+    [ -z "$comment_tr" -o -z "$comment" ] ||
+    cat >> $l.po << EOF
+#: $i
+msgid "$comment"
+msgstr "$comment_tr"
+
+EOF
+
+  done
+done
