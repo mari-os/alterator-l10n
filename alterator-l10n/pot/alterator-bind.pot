@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-11 11:08+0400\n"
+"POT-Creation-Date: 2009-10-06 12:51+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,69 +33,85 @@ msgid "Domain:"
 msgstr ""
 
 #: standard input:4
-msgid "Networks:"
+msgid "Name servers:"
 msgstr ""
 
 #: standard input:5
-msgid "Apply"
+msgid "(whitespace separated list of hostnames and ip addresses)"
 msgstr ""
 
 #: standard input:6
-msgid "Reset"
+msgid "Mail servers:"
 msgstr ""
 
 #: standard input:7
-msgid "Remove domain"
+msgid "(whitespace separated list of hostnames in priority descend order)"
 msgstr ""
 
 #: standard input:8
-msgid "Hosts:"
+msgid "Networks:"
 msgstr ""
 
 #: standard input:9
-msgid "Host"
+msgid "Apply"
 msgstr ""
 
 #: standard input:10
-msgid "IP address"
+msgid "Reset"
 msgstr ""
 
 #: standard input:11
-msgid "Remove selected"
+msgid "Remove domain"
 msgstr ""
 
 #: standard input:12
-msgid "Host:"
+msgid "Hosts:"
 msgstr ""
 
 #: standard input:13
-msgid "IP address:"
+msgid "Host"
 msgstr ""
 
 #: standard input:14
+msgid "IP address"
+msgstr ""
+
+#: standard input:15
+msgid "Remove selected"
+msgstr ""
+
+#: standard input:16
+msgid "Host:"
+msgstr ""
+
+#: standard input:17
+msgid "IP address:"
+msgstr ""
+
+#: standard input:18
 msgid "Add"
 msgstr ""
 
-#: ui/bind/ajax.scm:81
+#: ui/bind/ajax.scm:83
 msgid "Are you really want to destroy domain "
 msgstr ""
 
-#: backend3/bind:57
+#: backend3/bind:98
 msgid "managed by DHCP server"
 msgstr ""
 
-#: backend3/bind:116
+#: backend3/bind:163
 msgid "Same domain already exists"
 msgstr ""
 
-#: backend3/bind:126
+#: backend3/bind:173
 msgid "Unable to destroy system domain"
 msgstr ""
 
-#: backend3/bind:141
+#: backend3/bind:188
 msgid "Same binding of host to IP address already exists"
 msgstr ""
 
-#: backend3/bind:144
-msgid "This computer name is registered for internal purposes"
+#: backend3/bind:191
+msgid "This hostname is registered for internal purposes"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-04 13:04+0400\n"
+"POT-Creation-Date: 2009-10-06 12:51+0400\n"
 "PO-Revision-Date: 2009-09-14 19:27-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,33 +19,35 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:10
+#: standard input:7
 msgid "(enter passphrase)"
 msgstr "(entre com o senha)"
 
-#: standard input:11
+#: standard input:8
 msgid "(repeat passphrase)"
 msgstr "(repetir a senha)"
 
-#: standard input:14
+#: standard input:11
 msgid "Apply"
 msgstr "Aplicar"
 
 #: standard input:1
-msgid "Before you begin to work with system you will have to made some initial actions."
-msgstr "Antes de começar a trabalhar com o sistema terá que fez algumas acções iniciais."
+msgid ""
+"Before you begin to work with system you will have to made some initial "
+"actions."
+msgstr ""
+"Antes de começar a trabalhar com o sistema terá que fez algumas acções "
+"iniciais."
 
-#: standard input:13
+#: standard input:10
 msgid "Choose external interfaces for correct setup of system firewall:"
-msgstr "Escolha as interfaces externas para a correta configuração do sistema de firewall:"
+msgstr ""
+"Escolha as interfaces externas para a correta configuração do sistema de "
+"firewall:"
 
 #: standard input:2
 msgid "Choose interface language:"
 msgstr "Escolha interface língua:"
-
-#: standard input:5
-msgid "Choose server role:"
-msgstr "Escolher regras do servidor:"
 
 #: standard input:4
 msgid "Define domain:"
@@ -55,11 +57,11 @@ msgstr "Definir domínio:"
 msgid "Define organization name:"
 msgstr "Definir o nome da organização:"
 
-#: standard input:12
+#: standard input:9
 msgid "Generate"
 msgstr "Gerar"
 
-#: standard input:9
+#: standard input:6
 msgid "Generate automatically"
 msgstr "Gerar automáticamente"
 
@@ -67,27 +69,33 @@ msgstr "Gerar automáticamente"
 msgid "Initial system setup"
 msgstr "configuração do sistema Initial"
 
-#: ui/office-server/firsttime/ajax.scm:89
+#: ui/office-server/firsttime/ajax.scm:72
+#, fuzzy
+msgid "Please define domain name"
+msgstr "Por favor definir backup start time"
+
+#: ui/office-server/firsttime/ajax.scm:70
 msgid "Please select server role"
 msgstr " Por favor, selecione o papel de servidor"
 
-#: standard input:8
+#: standard input:5
 msgid "Setup password for system administrator:"
 msgstr "Instalação da senha do administrador de sistema:"
 
 #: hooks/net-eth-precommit.d/office-server:21
 msgid "You must define as minimum one statically configured Ethernet interface"
-msgstr "Você deve definir no mínimo um configurado estaticamente interface de rede"
+msgstr ""
+"Você deve definir no mínimo um configurado estaticamente interface de rede"
 
 #: hooks/net-eth-precommit.d/office-server:7
 msgid "alterator-office-server"
 msgstr "alterator-office-server"
 
-#: standard input:6
-msgid "master"
-msgstr "master"
+#~ msgid "Choose server role:"
+#~ msgstr "Escolher regras do servidor:"
 
-#: standard input:7
-msgid "slave"
-msgstr "slave"
+#~ msgid "master"
+#~ msgstr "master"
 
+#~ msgid "slave"
+#~ msgstr "slave"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-04 13:04+0400\n"
+"POT-Creation-Date: 2009-10-06 12:51+0400\n"
 "PO-Revision-Date: 2009-08-23 01:47+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -15,18 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:10
+#: standard input:7
 msgid "(enter passphrase)"
 msgstr "(уведіть пароль)"
 
-#: standard input:11
+#: standard input:8
 msgid "(repeat passphrase)"
 msgstr "(повторіть пароль)"
 
-#: standard input:14
+#: standard input:11
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -36,17 +36,13 @@ msgid ""
 "actions."
 msgstr "Перед початком роботи вам необхідно вказати деякі початкові параметри."
 
-#: standard input:13
+#: standard input:10
 msgid "Choose external interfaces for correct setup of system firewall:"
 msgstr "Оберіть зовнішні інтерфейси для правильного налаштування брандмауер"
 
 #: standard input:2
 msgid "Choose interface language:"
 msgstr "Оберіть мову інтерфейса:"
-
-#: standard input:5
-msgid "Choose server role:"
-msgstr "Оберіть роль сервера:"
 
 #: standard input:4
 msgid "Define domain:"
@@ -56,11 +52,11 @@ msgstr "Призначте домен:"
 msgid "Define organization name:"
 msgstr "Уведіть назву організації:"
 
-#: standard input:12
+#: standard input:9
 msgid "Generate"
 msgstr "Генерувати"
 
-#: standard input:9
+#: standard input:6
 msgid "Generate automatically"
 msgstr "Генерувати автоматично"
 
@@ -68,11 +64,16 @@ msgstr "Генерувати автоматично"
 msgid "Initial system setup"
 msgstr "Початкові налаштування системи"
 
-#: ui/office-server/firsttime/ajax.scm:89
+#: ui/office-server/firsttime/ajax.scm:72
+#, fuzzy
+msgid "Please define domain name"
+msgstr "Будь-ласка, оберіть час початку резервного копіювання:"
+
+#: ui/office-server/firsttime/ajax.scm:70
 msgid "Please select server role"
 msgstr "Будь-ласка, оберіть роль сервера"
 
-#: standard input:8
+#: standard input:5
 msgid "Setup password for system administrator:"
 msgstr "Встановити пароль адміністратора"
 
@@ -84,11 +85,11 @@ msgstr "Ви повиніі мати хоча-б один статично на�
 msgid "alterator-office-server"
 msgstr ""
 
-#: standard input:6
-msgid "master"
-msgstr "головний"
+#~ msgid "Choose server role:"
+#~ msgstr "Оберіть роль сервера:"
 
-#: standard input:7
-msgid "slave"
-msgstr "підлеглий"
+#~ msgid "master"
+#~ msgstr "головний"
 
+#~ msgid "slave"
+#~ msgstr "підлеглий"

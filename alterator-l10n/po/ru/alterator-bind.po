@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-11 11:08+0400\n"
+"POT-Creation-Date: 2009-10-06 12:51+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,15 +18,23 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:14
+#: standard input:5
+msgid "(whitespace separated list of hostnames and ip addresses)"
+msgstr "(список хостов или IP-адресов через пробел)"
+
+#: standard input:7
+msgid "(whitespace separated list of hostnames in priority descend order)"
+msgstr "(список хостов через пробел в порядке убывания приоритета)"
+
+#: standard input:18
 msgid "Add"
 msgstr "Добавить"
 
-#: standard input:5
+#: standard input:9
 msgid "Apply"
 msgstr "Применить"
 
-#: ui/bind/ajax.scm:81
+#: ui/bind/ajax.scm:83
 msgid "Are you really want to destroy domain "
 msgstr "Вы действительно желаете удалить домен "
 
@@ -42,27 +50,35 @@ msgstr "DNS-сервер"
 msgid "Domain:"
 msgstr "Домен:"
 
-#: standard input:9
+#: standard input:13
 msgid "Host"
 msgstr "Хост"
 
-#: standard input:12
+#: standard input:16
 msgid "Host:"
 msgstr "Хост:"
 
-#: standard input:8
+#: standard input:12
 msgid "Hosts:"
 msgstr "Хосты:"
 
-#: standard input:10
+#: standard input:14
 msgid "IP address"
 msgstr "IP-адрес"
 
-#: standard input:13
+#: standard input:17
 msgid "IP address:"
 msgstr "IP-адрес:"
 
+#: standard input:6
+msgid "Mail servers:"
+msgstr "Почтовые серверы:"
+
 #: standard input:4
+msgid "Name servers:"
+msgstr "Серверы имён:"
+
+#: standard input:8
 msgid "Networks:"
 msgstr "Сети:"
 
@@ -70,34 +86,34 @@ msgstr "Сети:"
 msgid "New domain:"
 msgstr "Новый домен:"
 
-#: standard input:7
+#: standard input:11
 msgid "Remove domain"
 msgstr "Удалить домен"
 
-#: standard input:11
+#: standard input:15
 msgid "Remove selected"
 msgstr "Удалить выделенные"
 
-#: standard input:6
+#: standard input:10
 msgid "Reset"
 msgstr "Вернуть"
 
-#: backend3/bind:141
+#: backend3/bind:188
 msgid "Same binding of host to IP address already exists"
 msgstr "Подобная привязка хоста к IP-адресу уже существует"
 
-#: backend3/bind:116
+#: backend3/bind:163
 msgid "Same domain already exists"
 msgstr "Подобный домен уже существует"
 
-#: backend3/bind:144
+#: backend3/bind:191
 msgid "This hostname is registered for internal purposes"
 msgstr "Данное имя хоста зарезервировано для системы"
 
-#: backend3/bind:126
+#: backend3/bind:173
 msgid "Unable to destroy system domain"
 msgstr "Невозможно установить системный домен"
 
-#: backend3/bind:57
+#: backend3/bind:98
 msgid "managed by DHCP server"
 msgstr "управляется DHCP-сервером"

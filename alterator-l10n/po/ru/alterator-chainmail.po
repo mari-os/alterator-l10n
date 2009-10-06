@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-24 16:58+0400\n"
+"POT-Creation-Date: 2009-10-06 12:51+0400\n"
 "PO-Revision-Date: 2009-09-29 17:29+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -14,8 +14,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:12
 msgid "(enter passphrase)"
@@ -88,11 +88,15 @@ msgstr "Войти"
 msgid "Logout"
 msgstr "Выйти"
 
+#: ui/chainmail/firsttime/ajax.scm:53
+msgid "Please define domain name"
+msgstr "Пожалуйста задайте имя домену"
+
 #: standard input:18
 msgid "Please login"
 msgstr "Пожалуйста, зарегистрируйтесь"
 
-#: ui/chainmail/firsttime/ajax.scm:71
+#: ui/chainmail/firsttime/ajax.scm:51
 msgid "Please select server role"
 msgstr "Выберите роль сервера"
 
@@ -114,9 +118,8 @@ msgid ""
 "you have it turned off. To see this page as it is meant to appear please use "
 "a Javascript enabled browser."
 msgstr ""
-"Эта страница использует Javascript. Ваш браузер или не "
-"поддерживает Javascript или вы его отключили. Для полноценной работы с "
-"веб-интерфейсом "
+"Эта страница использует Javascript. Ваш браузер или не поддерживает "
+"Javascript или вы его отключили. Для полноценной работы с веб-интерфейсом "
 "используйте браузер с включенной поддержкой Javascript."
 
 #: hooks/net-eth-precommit.d/office-server:21
@@ -127,4 +130,3 @@ msgstr ""
 #: hooks/net-eth-precommit.d/office-server:7
 msgid "alterator-office-server"
 msgstr "alterator-office-server"
-
