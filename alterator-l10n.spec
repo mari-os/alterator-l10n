@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt13
+Release: alt14
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,6 +92,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Oct 06 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt14
+- update translations for alterator-distro-chainmail,
+  alterator-distro-office-server, and alterator-bind.
+
 * Tue Sep 29 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt13
 - add Russian documentation for module 'Access from internal networks' (ALT 21729)
 - add translations for alterator-pkcs11 
