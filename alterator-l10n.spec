@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt14
+Release: alt15
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,6 +92,11 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Oct 13 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt15
+- add alterator-postfix-dovecot Russian documentation (closes: #21266)
+- add Russian documentation on restore backup mode (closes: #21388)
+- check spell in Russian documentation
+
 * Tue Oct 06 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt14
 - update translations for alterator-distro-chainmail,
   alterator-distro-office-server, and alterator-bind.
