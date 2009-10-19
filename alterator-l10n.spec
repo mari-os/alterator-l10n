@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt15
+Release: alt16
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,6 +92,15 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Oct 19 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt16
+- update Russian translation of alterator-squid (closes: #21450)
+- update Russian translation of alterator-squidimill (closes: #21920)
+- fix alterator-squidmill documentation
+- rename ahttpd-poweroff help to appropriate module name
+- fix Russian documentation on alterator-postfix-dovecot
+- update translations for alterator-sysinfo (slazav@)
+- add uk/alterator-services.po (slazav@)
+
 * Tue Oct 13 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt15
 - add alterator-postfix-dovecot Russian documentation (closes: #21266)
 - add Russian documentation on restore backup mode (closes: #21388)
