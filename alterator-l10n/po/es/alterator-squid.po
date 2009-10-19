@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-13 22:16+0000\n"
+"POT-Creation-Date: 2009-10-19 14:26+0400\n"
 "PO-Revision-Date: 2009-03-27 20:53-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,206 +19,139 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: ui/squid/domains/ajax.scm:14 ui/squid/networks/ajax.scm:14
+#: ui/squid/networks/ajax.scm:14 ui/squid/domains/ajax.scm:14
 #: ui/squid/safe-ports/ajax.scm:14
 msgid "&lt;new&gt;"
 msgstr "&lt;nuevo&gt;"
 
-#: standard input:36
+#: standard input:11
 #, fuzzy
-msgid "(IP address mask)"
+msgid "(IP address/network bits)"
 msgstr "Dirección IP"
 
-#: standard input:34
+#: interfaces/guile/backend/squid.scm:83
 #, fuzzy
-msgid "(IP address)"
-msgstr "Dirección IP"
+msgid "All users"
+msgstr "Adiccionar Usuário:"
 
-#: standard input:3
-msgid "(Space separated list of domain suffixes, each starting with a dot)"
-msgstr ""
-
-#: standard input:25 input:45 input:47
-#, fuzzy
-msgid "(port number)"
-msgstr "deve ser un número"
-
-#: standard input:10
-#, fuzzy
-msgid "Access management"
-msgstr "Administração de Usuário"
-
-#: standard input:12
-msgid "Add"
-msgstr "Adiccionar"
-
-#: standard input:14
-#, fuzzy
-msgid "Add domain"
-msgstr "Adiccionar Cliente"
-
-#: standard input:35
-#, fuzzy
-msgid "Address mask:"
-msgstr "Dirección MAC:"
-
-#: standard input:5 input:18 input:27 input:38 input:50
+#: standard input:13
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:9 input:21 input:42 input:54
-msgid "Back"
-msgstr ""
+#: interfaces/guile/backend/squid.scm:85
+#, fuzzy
+msgid "Authenticated users"
+msgstr "Atutenticación fracasó"
 
-#: standard input:4 input:37 input:49
+#: standard input:12
 msgid "Comment:"
 msgstr "Comentários:"
 
-#: standard input:48
-#, fuzzy
-msgid "Connection method:"
-msgstr "Conección establecida"
-
-#: standard input:7 input:20 input:40 input:52
+#: standard input:15
 msgid "Delete"
 msgstr "Borrar"
 
-#: standard input:16
+#: standard input:8
 #, fuzzy
-msgid "Delete domain"
-msgstr "Borrar conección"
-
-#: standard input:17
-msgid "Deny selected domains"
-msgstr ""
-
-#: standard input:1
-#, fuzzy
-msgid "Destination domains"
-msgstr "Destino"
-
-#: standard input:13
-#, fuzzy
-msgid "Domain access"
+msgid "Domain list"
 msgstr "Accesso de Escrita"
 
-#: standard input:26
+#: standard input:6
 #, fuzzy
-msgid "Enable proxy-server service"
-msgstr "Posibilitar servicio"
+msgid "External ports"
+msgstr "Portas TCP extra"
 
-#: standard input:44
+#: standard input:10
 #, fuzzy
-msgid "From port:"
-msgstr "porta:"
+msgid "IP-network:"
+msgstr "Rede"
 
-#: standard input:31
-msgid "Groups"
-msgstr "Grupos"
-
-#: standard input:33
-#, fuzzy
-msgid "IP-address:"
-msgstr "Dirección IP:"
-
-#: standard input:32
+#: standard input:1 input:5
 #, fuzzy
 msgid "Internal networks"
 msgstr "Otra rede"
 
-#: interfaces/guile/backend/squid.scm:77
+#: interfaces/guile/backend/squid.scm:137
 msgid "Kerberos"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:79
+#: interfaces/guile/backend/squid.scm:139
 msgid "Kerberos+PAM"
 msgstr ""
 
-#: standard input:15
+#: standard input:4
 #, fuzzy
-msgid "Manage domains"
-msgstr "Procurar Dominios:"
+msgid "Main section"
+msgstr "Ajustes"
 
-#: standard input:30
+#: standard input:3
 #, fuzzy
-msgid "Networks"
-msgstr "Rede"
+msgid "Navigation:"
+msgstr "Empresa"
 
-#: standard input:8 input:41 input:53
+#: standard input:9
 #, fuzzy
 msgid "New"
 msgstr "Rede"
 
-#: interfaces/guile/backend/squid.scm:76
+#: interfaces/guile/backend/squid.scm:136
 #, fuzzy
 msgid "No authentication"
 msgstr "Autenticación (SASL)"
 
-#: interfaces/guile/backend/squid.scm:74
+#: interfaces/guile/backend/squid.scm:134
 msgid "Normal"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:78
+#: interfaces/guile/backend/squid.scm:138
 msgid "PAM"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:82
+#: interfaces/guile/backend/squid.scm:142
 msgid "Passthrough"
 msgstr ""
 
-#: standard input:29
-#, fuzzy
-msgid "Ports"
-msgstr "Porta:"
-
-#: interfaces/guile/backend/squid.scm:81
+#: interfaces/guile/backend/squid.scm:141
 msgid "Proxy"
 msgstr ""
-
-#: standard input:24
-#, fuzzy
-msgid "Proxy port:"
-msgstr "Porta:"
 
 #: standard input:1
 msgid "Proxy server"
 msgstr "Servidor Proxy"
 
-#: standard input:43
-msgid "Registered ports"
+#: standard input:2
+msgid ""
+"Requests originated from the networks listed below are forwarded to the "
+"external network. All other requests are blocked."
 msgstr ""
 
-#: standard input:6 input:19 input:28 input:39 input:51
+#: standard input:14
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:23
-#, fuzzy
-msgid "Select authentication mode:"
-msgstr "Seleccionar modo adelante:"
-
-#: standard input:22
-#, fuzzy
-msgid "Select proxying mode:"
-msgstr "Seleccionar modo adelante:"
-
-#: standard input:2
-msgid "Suffix list:"
-msgstr ""
-
-#: standard input:46
-#, fuzzy
-msgid "To port:"
-msgstr "porta:"
-
-#: interfaces/guile/backend/squid.scm:73
+#: interfaces/guile/backend/squid.scm:133
 #, fuzzy
 msgid "Transparent"
 msgstr "transport SMTP:"
 
-#: standard input:11
+#: backend3/squid-commit:56
 #, fuzzy
-msgid "User groups"
+msgid "Unable to reload the proxy server service"
+msgstr "Posibilitar servicio"
+
+#: backend3/squid-commit:71
+#, fuzzy
+msgid "Unable to set proxy server service startup status"
+msgstr "Posibilitar servicio"
+
+#: backend3/squid-commit:65
+#, fuzzy
+msgid "Unable to turn proxy server service %s"
+msgstr "Posibilitar servicio"
+
+#: standard input:7
+#, fuzzy
+msgid "User group access policy"
 msgstr "Nuevo grupo:"
 
 #: interfaces/guile/type/domain-suffix.scm:14
@@ -229,28 +162,19 @@ msgstr ""
 msgid "a space separated list of domain suffixes each starting with a dot"
 msgstr ""
 
-#: backend3/squid-commit:47
 #, fuzzy
-msgid "in progress..."
-msgstr "Download in progreso"
-
-#: backend3/squid-commit:53
-msgid "manually updated"
-msgstr ""
-
-#: backend3/squid-commit:75
-msgid "never"
-msgstr ""
-
-#: backend3/squid-commit:67 backend3/squid-commit:71
-msgid "unknown"
-msgstr "desconocido"
+#~ msgid "(IP address)"
+#~ msgstr "Dirección IP"
 
 #~ msgid "(TCP port for server to listen to)"
 #~ msgstr "(Porta TCP para el servidor)"
 
 #~ msgid "(leave this field empty for listening to all interfaces)"
 #~ msgstr "(deje ese espacio en blanco para listar todas las interfaces)"
+
+#, fuzzy
+#~ msgid "(port number)"
+#~ msgstr "deve ser un número"
 
 #~ msgid "(quick access to usual network resources)"
 #~ msgstr "(acesso aos recursos de Radio Red)"
@@ -261,11 +185,26 @@ msgstr "desconocido"
 #~ msgid "<new>"
 #~ msgstr "<nuevo>"
 
+#, fuzzy
+#~ msgid "Access management"
+#~ msgstr "Administração de Usuário"
+
+#~ msgid "Add"
+#~ msgstr "Adiccionar"
+
+#, fuzzy
+#~ msgid "Add domain"
+#~ msgstr "Adiccionar Cliente"
+
 #~ msgid "Add network"
 #~ msgstr "Adiccionar Red"
 
 #~ msgid "Add site"
 #~ msgstr "Adiccionar Sitio"
+
+#, fuzzy
+#~ msgid "Address mask:"
+#~ msgstr "Dirección MAC:"
 
 #~ msgid "Administrator e-mail:"
 #~ msgstr "Administrador E-mail:"
@@ -280,11 +219,54 @@ msgstr "desconocido"
 #~ msgid "Commit"
 #~ msgstr "Comentários:"
 
+#, fuzzy
+#~ msgid "Connection method:"
+#~ msgstr "Conección establecida"
+
+#, fuzzy
+#~ msgid "Delete domain"
+#~ msgstr "Borrar conección"
+
+#, fuzzy
+#~ msgid "Destination domains"
+#~ msgstr "Destino"
+
+#, fuzzy
+#~ msgid "Domain access"
+#~ msgstr "Accesso de Escrita"
+
+#, fuzzy
+#~ msgid "From port:"
+#~ msgstr "porta:"
+
 #~ msgid "General settings"
 #~ msgstr "Configuraciones generales"
 
+#~ msgid "Groups"
+#~ msgstr "Grupos"
+
+#, fuzzy
+#~ msgid "IP-address:"
+#~ msgstr "Dirección IP:"
+
 #~ msgid "Listen address:"
 #~ msgstr "Escuchar la dirección:"
+
+#, fuzzy
+#~ msgid "Manage domains"
+#~ msgstr "Procurar Dominios:"
+
+#, fuzzy
+#~ msgid "Networks"
+#~ msgstr "Rede"
+
+#, fuzzy
+#~ msgid "Ports"
+#~ msgstr "Porta:"
+
+#, fuzzy
+#~ msgid "Proxy port:"
+#~ msgstr "Porta:"
 
 #~ msgid "Restrictions"
 #~ msgstr "Restriciones"
@@ -293,8 +275,27 @@ msgstr "desconocido"
 #~ msgstr "Misma entrada ya existe"
 
 #, fuzzy
+#~ msgid "Select authentication mode:"
+#~ msgstr "Seleccionar modo adelante:"
+
+#, fuzzy
 #~ msgid "Select internal interfaces:"
 #~ msgstr "Seleccionar interfazes externas:"
 
+#, fuzzy
+#~ msgid "Select proxying mode:"
+#~ msgstr "Seleccionar modo adelante:"
+
 #~ msgid "Start, stop or restart service..."
 #~ msgstr "Iniciar, parar o resetar el servicio..."
+
+#, fuzzy
+#~ msgid "To port:"
+#~ msgstr "porta:"
+
+#, fuzzy
+#~ msgid "in progress..."
+#~ msgstr "Download in progreso"
+
+#~ msgid "unknown"
+#~ msgstr "desconocido"

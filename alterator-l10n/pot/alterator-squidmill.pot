@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-24 17:24+0400\n"
+"POT-Creation-Date: 2009-10-19 14:26+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,128 +21,181 @@ msgid "Proxy server statistics"
 msgstr ""
 
 #: standard input:1
-msgid "UID/IP Address: "
+msgid "Follow proxy-server log: "
 msgstr ""
 
-#: standard input:2 input:22
-msgid "Last request on: "
+#: standard input:2
+msgid "Apply"
 msgstr ""
 
-#: standard input:3 input:23
-msgid "Total time elapsed: "
+#: standard input:3
+msgid "Total amount of data received for"
 msgstr ""
 
-#: standard input:4 input:24
-msgid "Total data received: "
+#: standard input:4
+msgid "today"
 msgstr ""
 
-#: standard input:5 input:25
-msgid " Kb"
+#: standard input:5
+msgid "last week"
 msgstr ""
 
 #: standard input:6
-msgid "Last request parameters"
+msgid "last month"
 msgstr ""
 
 #: standard input:7
-msgid "Hierarchy/From: "
+msgid "last year"
 msgstr ""
 
 #: standard input:8
-msgid "Method: "
+msgid "the period"
 msgstr ""
 
 #: standard input:9
-msgid "URI: "
+msgid "all time"
 msgstr ""
 
-#: standard input:10
-msgid "Action/Code: "
+#: standard input:10 input:17
+msgid "from"
 msgstr ""
 
 #: standard input:11
-msgid "Content type: "
+msgid "to"
 msgstr ""
 
 #: standard input:12
-msgid "Back"
+msgid "by"
 msgstr ""
 
 #: standard input:13
-msgid "Statistics updated: "
+msgid "all users"
 msgstr ""
 
 #: standard input:14
-msgid "Update statistic data automatically each: "
+msgid "one user"
 msgstr ""
 
 #: standard input:15
-msgid " min"
+msgid "some users"
 msgstr ""
 
-#: standard input:16
-msgid "Set"
-msgstr ""
-
-#: standard input:17
-msgid "Update now"
+#: standard input:16 input:20
+msgid "defined by pattern"
 msgstr ""
 
 #: standard input:18
-msgid "Today"
+msgid "all sites"
 msgstr ""
 
 #: standard input:19
-msgid "Week"
-msgstr ""
-
-#: standard input:20
-msgid "Month"
+msgid "some sites"
 msgstr ""
 
 #: standard input:21
-msgid "Total"
+msgid "comes to"
+msgstr ""
+
+#: standard input:22
+msgid "Update"
+msgstr ""
+
+#: standard input:23
+msgid "List of sites that count for"
+msgstr ""
+
+#: standard input:24
+msgid "any amount"
+msgstr ""
+
+#: standard input:25
+msgid "more than 100 Gb"
 msgstr ""
 
 #: standard input:26
-msgid "UID/Address"
+msgid "less than 100 Gb"
 msgstr ""
 
 #: standard input:27
-msgid "Last request"
+msgid "less than 10 Gb"
 msgstr ""
 
 #: standard input:28
-msgid "Time summary"
+msgid "less than 1 Gb"
 msgstr ""
 
 #: standard input:29
-msgid "Size summary (Kb)"
+msgid "less than 100 Mb"
 msgstr ""
 
 #: standard input:30
-msgid "View"
+msgid "less than 10 Mb"
 msgstr ""
 
 #: standard input:31
-msgid "view"
+msgid "less than 1 Mb"
 msgstr ""
 
-#: interfaces/guile/backend/squidmill.scm:166
-#, lisp-format
-msgid "~5,3f s"
+#: standard input:32
+msgid "less than 100 Kb"
 msgstr ""
 
-#: interfaces/guile/backend/squidmill.scm:167
-#, lisp-format
-msgid "~d min "
+#: standard input:33
+msgid "less than 10 Kb"
 msgstr ""
 
-#: interfaces/guile/backend/squidmill.scm:168
-#, lisp-format
-msgid "~d h "
+#: standard input:34
+msgid "less than 1 Kb"
 msgstr ""
 
-#: interfaces/guile/backend/squidmill.scm:256
-msgid "never"
+#: standard input:35
+msgid "of data"
+msgstr ""
+
+#: standard input:36
+msgid "UID/Address"
+msgstr ""
+
+#: standard input:37
+msgid "Amount"
+msgstr ""
+
+#: standard input:38
+msgid "URI/Domain"
+msgstr ""
+
+#: standard input:39
+msgid "Last request time"
+msgstr ""
+
+#: standard input:40
+msgid "First"
+msgstr ""
+
+#: standard input:41
+msgid "records are shown..."
+msgstr ""
+
+#: ui/squidmill/ajax.scm:161
+msgid "Gb"
+msgstr ""
+
+#: ui/squidmill/ajax.scm:164
+msgid "Mb"
+msgstr ""
+
+#: ui/squidmill/ajax.scm:167
+msgid "Kb"
+msgstr ""
+
+#: ui/squidmill/ajax.scm:169 ui/squidmill/ajax.scm:171
+msgid "b"
+msgstr ""
+
+#: backend3/squidmill:23
+msgid "Unable to turn squidmill service %s"
+msgstr ""
+
+#: backend3/squidmill:28
+msgid "Unable to set squidmill service startup status"
 msgstr ""

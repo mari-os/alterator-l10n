@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-24 17:24+0400\n"
+"POT-Creation-Date: 2009-10-19 14:26+0400\n"
 "PO-Revision-Date: 2009-09-14 20:15-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,138 +19,283 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:5
-#: input:25
-msgid " Kb"
-msgstr " Kb"
-
-#: standard input:15
-msgid " min"
-msgstr "min"
-
-#: standard input:10
-msgid "Action/Code: "
-msgstr "Ação/Código:"
-
-#: standard input:12
-msgid "Back"
-msgstr "Voltar"
-
-#: standard input:11
-msgid "Content type: "
-msgstr "Tipo de conteúdo:"
-
-#: standard input:7
-msgid "Hierarchy/From: "
-msgstr "Hierarquia/De:"
-
-#: standard input:27
-msgid "Last request"
-msgstr "Último pedido"
+#: standard input:37
+#, fuzzy
+msgid "Amount"
+msgstr "Conta:"
 
 #: standard input:2
-#: input:22
-msgid "Last request on: "
-msgstr "Pedido última vez em:"
+msgid "Apply"
+msgstr "Aplicar"
 
-#: standard input:6
-msgid "Last request parameters"
-msgstr "Parâmetros do pedido Última"
+#: standard input:40
+#, fuzzy
+msgid "First"
+msgstr "Primeira Página"
 
-#: standard input:8
-msgid "Method: "
-msgstr "Método:"
+#: standard input:1
+msgid "Follow proxy-server log: "
+msgstr ""
 
-#: standard input:20
-msgid "Month"
-msgstr "Mês"
+#: ui/squidmill/ajax.scm:161
+msgid "Gb"
+msgstr "Gb"
+
+#: ui/squidmill/ajax.scm:167
+msgid "Kb"
+msgstr "Kb"
+
+#: standard input:39
+#, fuzzy
+msgid "Last request time"
+msgstr "Último pedido"
+
+#: standard input:23
+msgid "List of sites that count for"
+msgstr ""
+
+#: ui/squidmill/ajax.scm:164
+msgid "Mb"
+msgstr "Mb"
 
 #: standard input:1
 msgid "Proxy server statistics"
 msgstr "Estatísticas do servidor Proxy"
 
-#: standard input:16
-msgid "Set"
-msgstr "Ajustar"
-
-#: standard input:29
-msgid "Size summary (Kb)"
-msgstr "Resumo Tamanho (Kb)"
-
-#: standard input:13
-msgid "Statistics updated: "
-msgstr "Estatísticas actualização:"
-
-#: standard input:28
-msgid "Time summary"
-msgstr "Resumo do Tempo"
-
-#: standard input:18
-msgid "Today"
-msgstr "Hoje"
-
-#: standard input:21
-msgid "Total"
-msgstr "Total"
-
-#: standard input:4
-#: input:24
-msgid "Total data received: "
+#: standard input:3
+#, fuzzy
+msgid "Total amount of data received for"
 msgstr "Total de dados recebidos:"
 
-#: standard input:3
-#: input:23
-msgid "Total time elapsed: "
-msgstr "O tempo total decorrido:"
-
-#: standard input:26
+#: standard input:36
 msgid "UID/Address"
 msgstr "UID/Endereço"
 
-#: standard input:1
-msgid "UID/IP Address: "
-msgstr "UID/IP Endereço:"
+#: standard input:38
+#, fuzzy
+msgid "URI/Domain"
+msgstr "Domínio"
+
+#: backend3/squidmill:28
+msgid "Unable to set squidmill service startup status"
+msgstr ""
+
+#: backend3/squidmill:23
+msgid "Unable to turn squidmill service %s"
+msgstr ""
+
+#: standard input:22
+msgid "Update"
+msgstr "Atualizar"
+
+#: standard input:18
+#, fuzzy
+msgid "all sites"
+msgstr "Sites bloqueados:"
 
 #: standard input:9
-msgid "URI: "
-msgstr "URI:"
+#, fuzzy
+msgid "all time"
+msgstr "Data, hora"
 
-#: standard input:17
-msgid "Update now"
-msgstr "Atualizar agora"
+#: standard input:13
+#, fuzzy
+msgid "all users"
+msgstr "Deletar usuário"
 
-#: standard input:14
-msgid "Update statistic data automatically each: "
-msgstr "Estatística de dados de atualização automaticamente cada um:"
+#: standard input:24
+msgid "any amount"
+msgstr ""
 
-#: standard input:30
-msgid "View"
-msgstr "Ver"
+#: ui/squidmill/ajax.scm:169 ui/squidmill/ajax.scm:171
+msgid "b"
+msgstr "b"
 
-#: standard input:19
-msgid "Week"
-msgstr "Semana"
+#: standard input:12
+#, fuzzy
+msgid "by"
+msgstr "b"
 
-#: interfaces/guile/backend/squidmill.scm:256
-msgid "never"
-msgstr "nunca"
+#: standard input:21
+msgid "comes to"
+msgstr ""
+
+#: standard input:16 input:20
+msgid "defined by pattern"
+msgstr ""
+
+#: standard input:10 input:17
+msgid "from"
+msgstr "de"
+
+#: standard input:6
+#, fuzzy
+msgid "last month"
+msgstr "1 mês"
+
+#: standard input:5
+#, fuzzy
+msgid "last week"
+msgstr "1 semana"
+
+#: standard input:7
+msgid "last year"
+msgstr ""
+
+#: standard input:28
+msgid "less than 1 Gb"
+msgstr ""
+
+#: standard input:34
+msgid "less than 1 Kb"
+msgstr ""
 
 #: standard input:31
-msgid "view"
-msgstr "visualizar"
+msgid "less than 1 Mb"
+msgstr ""
 
-#: interfaces/guile/backend/squidmill.scm:166
-#, lisp-format
-msgid "~5,3f s"
-msgstr "~5,3f s"
+#: standard input:27
+msgid "less than 10 Gb"
+msgstr ""
 
-#: interfaces/guile/backend/squidmill.scm:168
-#, lisp-format
-msgid "~d h "
-msgstr "~d h "
+#: standard input:33
+msgid "less than 10 Kb"
+msgstr ""
 
-#: interfaces/guile/backend/squidmill.scm:167
-#, lisp-format
-msgid "~d min "
-msgstr "~d min "
+#: standard input:30
+msgid "less than 10 Mb"
+msgstr ""
 
+#: standard input:26
+msgid "less than 100 Gb"
+msgstr ""
+
+#: standard input:32
+msgid "less than 100 Kb"
+msgstr ""
+
+#: standard input:29
+msgid "less than 100 Mb"
+msgstr ""
+
+#: standard input:25
+msgid "more than 100 Gb"
+msgstr ""
+
+#: standard input:35
+#, fuzzy
+msgid "of data"
+msgstr "para a data:"
+
+#: standard input:14
+#, fuzzy
+msgid "one user"
+msgstr "Novo Usuário"
+
+#: standard input:41
+msgid "records are shown..."
+msgstr ""
+
+#: standard input:19
+#, fuzzy
+msgid "some sites"
+msgstr "Sites bloqueados:"
+
+#: standard input:15
+#, fuzzy
+msgid "some users"
+msgstr "Novo Usuário"
+
+#: standard input:8
+msgid "the period"
+msgstr ""
+
+#: standard input:11
+msgid "to"
+msgstr "para"
+
+#: standard input:4
+#, fuzzy
+msgid "today"
+msgstr "Hoje"
+
+#~ msgid " Kb"
+#~ msgstr " Kb"
+
+#~ msgid " min"
+#~ msgstr "min"
+
+#~ msgid "Action/Code: "
+#~ msgstr "Ação/Código:"
+
+#~ msgid "Back"
+#~ msgstr "Voltar"
+
+#~ msgid "Content type: "
+#~ msgstr "Tipo de conteúdo:"
+
+#~ msgid "Hierarchy/From: "
+#~ msgstr "Hierarquia/De:"
+
+#~ msgid "Last request on: "
+#~ msgstr "Pedido última vez em:"
+
+#~ msgid "Last request parameters"
+#~ msgstr "Parâmetros do pedido Última"
+
+#~ msgid "Method: "
+#~ msgstr "Método:"
+
+#~ msgid "Month"
+#~ msgstr "Mês"
+
+#~ msgid "Set"
+#~ msgstr "Ajustar"
+
+#~ msgid "Size summary (Kb)"
+#~ msgstr "Resumo Tamanho (Kb)"
+
+#~ msgid "Statistics updated: "
+#~ msgstr "Estatísticas actualização:"
+
+#~ msgid "Time summary"
+#~ msgstr "Resumo do Tempo"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Total time elapsed: "
+#~ msgstr "O tempo total decorrido:"
+
+#~ msgid "UID/IP Address: "
+#~ msgstr "UID/IP Endereço:"
+
+#~ msgid "URI: "
+#~ msgstr "URI:"
+
+#~ msgid "Update now"
+#~ msgstr "Atualizar agora"
+
+#~ msgid "Update statistic data automatically each: "
+#~ msgstr "Estatística de dados de atualização automaticamente cada um:"
+
+#~ msgid "View"
+#~ msgstr "Ver"
+
+#~ msgid "Week"
+#~ msgstr "Semana"
+
+#~ msgid "never"
+#~ msgstr "nunca"
+
+#~ msgid "view"
+#~ msgstr "visualizar"
+
+#~ msgid "~5,3f s"
+#~ msgstr "~5,3f s"
+
+#~ msgid "~d h "
+#~ msgstr "~d h "
+
+#~ msgid "~d min "
+#~ msgstr "~d min "
