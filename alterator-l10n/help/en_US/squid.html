@@ -68,23 +68,21 @@
     on a regular basis to emerge traffic reports. The reports include
     information on size of received responses and time consumed.
     The reports are accessible in the <em>Statistics/Proxy-server</em>
-    module.</p>
+    module. If statistic collection is not switched on (<strong>Enable
+    statistic data collection</strong>) new network usage data are
+    not written to the statistical database.</p>
 
-    <p>If one of the authentication method was used to control network
-    access the reports are generated on per-user basis. Otherwise the
-    local network address is used as request identifier.</p>
+    <p>The main purpose of the module is the network usage statistic 
+    display If one of the authentication method is used to control
+    network access the reports are generated on per-user basis.
+    Otherwise the local network address is used as request identifier.
+    </p>
 
-    <p>With regular and intensive usage of global network, the amount
-    of statistical information grows enormously. To make the reports
-    more readable and to save disk space the values are averaged as they
-    get old forming the four report detail levels: <em>today</em>,
-    <em>last week</em>, <em>last month</em> and the summary.</p>
-
-    <p>Report calculation consumes time and system computational
-    resources. Because of that the reports are not updated in realtime
-    but periodically. The update period can be selected for 5 to 45
-    minutes. To update the reports on demand the <em>Update now</em>
-    button can be used.</p>
+    <p>Displayed report is not updated automatically. To update it
+    use "<strong>Update</strong>" button. Each update is done with the
+    use of the selection settings which can be modified. Report records
+    is ordered by the descending of the amount of the received data.
+    </p>
 
   </body>
 </html>

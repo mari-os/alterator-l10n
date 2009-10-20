@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt16
+Release: alt17
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,6 +92,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Oct 20 2009 Paul Wolneykien <manowar@altlinux.ru> 2.7-alt17
+- Update Squid-related help pages in Russian and English.
+
 * Mon Oct 19 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt16
 - update Russian translation of alterator-squid (closes: #21450)
 - update Russian translation of alterator-squidimill (closes: #21920)
