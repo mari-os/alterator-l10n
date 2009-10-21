@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.7
-Release: alt18
+Release: alt19
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,8 +92,11 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Oct 21 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt19
+- update translations for alterator-bacula
+
 * Wed Oct 21 2009 Andrey Cherepanov <cas@altlinux.org> 2.7-alt18
-- fix widget type and typography quotes in alterator-squid help 
+- fix widget type and typography quotes in alterator-squid help
 - update alterator-squid module localization
 
 * Tue Oct 20 2009 Paul Wolneykien <manowar@altlinux.ru> 2.7-alt17
