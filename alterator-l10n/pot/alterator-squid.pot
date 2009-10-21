@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-19 14:26+0400\n"
+"POT-Creation-Date: 2009-10-21 12:40+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Proxy server"
 msgstr ""
 
-#: standard input:1 input:5
+#: standard input:1 input:34
 msgid "Internal networks"
 msgstr ""
 
@@ -30,55 +30,164 @@ msgid ""
 "external network. All other requests are blocked."
 msgstr ""
 
-#: standard input:3
-msgid "Navigation:"
-msgstr ""
-
-#: standard input:4
-msgid "Main section"
-msgstr ""
-
-#: standard input:6
-msgid "External ports"
-msgstr ""
-
-#: standard input:7
-msgid "User group access policy"
-msgstr ""
-
-#: standard input:8
-msgid "Domain list"
-msgstr ""
-
-#: standard input:9
+#: standard input:3 input:38 input:47
 msgid "New"
 msgstr ""
 
-#: standard input:10
+#: standard input:4
 msgid "IP-network:"
 msgstr ""
 
-#: standard input:11
+#: standard input:5
 msgid "(IP address/network bits)"
 msgstr ""
 
-#: standard input:12
+#: standard input:6 input:41 input:54
 msgid "Comment:"
 msgstr ""
 
-#: standard input:13
+#: standard input:7 input:20 input:42 input:55
 msgid "Apply"
 msgstr ""
 
-#: standard input:14
+#: standard input:8 input:43 input:56
 msgid "Reset"
 msgstr ""
 
-#: standard input:15
+#: standard input:9 input:44 input:57
 msgid "Delete"
 msgstr ""
 
+#: standard input:10 input:58
+msgid "Back"
+msgstr ""
+
+#: standard input:11
+msgid "Module main section"
+msgstr ""
+
+#: standard input:12
+msgid ""
+"General proxy-server parameters management and service runtime status "
+"control."
+msgstr ""
+
+#: standard input:13
+msgid "Enable proxy-server service"
+msgstr ""
+
+#: standard input:14
+msgid "Select proxying mode:"
+msgstr ""
+
+#: standard input:15
+msgid "Select authentication mode:"
+msgstr ""
+
+#: standard input:16
+msgid "Proxy port:"
+msgstr ""
+
+#: standard input:17 input:49 input:51
+msgid "(port number)"
+msgstr ""
+
+#: standard input:18
+msgid "Allowed networks..."
+msgstr ""
+
+#: standard input:19
+msgid "Allowed protocols..."
+msgstr ""
+
+#: standard input:21
+msgid "Domain access policy"
+msgstr ""
+
+#: standard input:22
+msgid ""
+"For each of the user group listed below the access to a number of domians on "
+"the external network can exclusively be granted or rewoked."
+msgstr ""
+
+#: standard input:23
+msgid "Group:"
+msgstr ""
+
+#: standard input:24
+msgid "Group access policy:"
+msgstr ""
+
+#: standard input:25
+msgid "Allow access"
+msgstr ""
+
+#: standard input:26
+msgid "Deny access"
+msgstr ""
+
+#: standard input:27 input:39
+msgid "Suffix list:"
+msgstr ""
+
+#: standard input:28 input:40
+msgid "(Space separated list of domain suffixes, each starting with a dot)"
+msgstr ""
+
+#: standard input:29
+msgid "Save"
+msgstr ""
+
+#: standard input:30 input:37
+msgid "Domain list"
+msgstr ""
+
+#: standard input:31
+msgid ""
+"Domains defined below can be used in the group-domain access policy "
+"configured at the upper section \"User group access policy\"."
+msgstr ""
+
+#: standard input:32
+msgid "Navigation:"
+msgstr ""
+
+#: standard input:33
+msgid "Main section"
+msgstr ""
+
+#: standard input:35 input:45
+msgid "External ports"
+msgstr ""
+
+#: standard input:36
+msgid "User group access policy"
+msgstr ""
+
+#: standard input:46
+msgid ""
+"Requests for the services (ports) listed below are forwarded to the external "
+"network. All other requests are blocked."
+msgstr ""
+
+#: standard input:48
+msgid "From port:"
+msgstr ""
+
+#: standard input:50
+msgid "To port:"
+msgstr ""
+
+#: standard input:52
+msgid "Connection method:"
+msgstr ""
+
+#: standard input:53
+msgid "Enable transparent redirection"
+msgstr ""
+
 #: interfaces/guile/backend/squid.scm:83
+#: interfaces/guile/backend/squid.scm:269
 msgid "All users"
 msgstr ""
 
@@ -86,36 +195,40 @@ msgstr ""
 msgid "Authenticated users"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:133
+#: interfaces/guile/backend/squid.scm:182
 msgid "Transparent"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:134
+#: interfaces/guile/backend/squid.scm:183
 msgid "Normal"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:136
+#: interfaces/guile/backend/squid.scm:185
 msgid "No authentication"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:137
+#: interfaces/guile/backend/squid.scm:186
 msgid "Kerberos"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:138
+#: interfaces/guile/backend/squid.scm:187
 msgid "PAM"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:139
+#: interfaces/guile/backend/squid.scm:188
 msgid "Kerberos+PAM"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:141
+#: interfaces/guile/backend/squid.scm:190
 msgid "Proxy"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:142
+#: interfaces/guile/backend/squid.scm:191
 msgid "Passthrough"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:271
+msgid "Athenticated users"
 msgstr ""
 
 #: interfaces/guile/type/domain-suffix-list.scm:14
@@ -131,14 +244,14 @@ msgstr ""
 msgid "&lt;new&gt;"
 msgstr ""
 
-#: backend3/squid-commit:56
+#: backend3/squid-commit:67
 msgid "Unable to reload the proxy server service"
 msgstr ""
 
-#: backend3/squid-commit:65
+#: backend3/squid-commit:76
 msgid "Unable to turn proxy server service %s"
 msgstr ""
 
-#: backend3/squid-commit:71
+#: backend3/squid-commit:82
 msgid "Unable to set proxy server service startup status"
 msgstr ""

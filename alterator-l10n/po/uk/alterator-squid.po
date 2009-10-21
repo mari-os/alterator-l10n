@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-19 14:26+0400\n"
+"POT-Creation-Date: 2009-10-21 12:40+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -21,99 +21,206 @@ msgstr ""
 msgid "&lt;new&gt;"
 msgstr ""
 
-#: standard input:11
+#: standard input:5
 msgid "(IP address/network bits)"
 msgstr ""
 
+#: standard input:28 input:40
+msgid "(Space separated list of domain suffixes, each starting with a dot)"
+msgstr ""
+
+#: standard input:17 input:49 input:51
+#, fuzzy
+msgid "(port number)"
+msgstr "(має бути число)"
+
 #: interfaces/guile/backend/squid.scm:83
+#: interfaces/guile/backend/squid.scm:269
 #, fuzzy
 msgid "All users"
 msgstr "Вилучити користувача"
 
-#: standard input:13
+#: standard input:25
+msgid "Allow access"
+msgstr ""
+
+#: standard input:18
+#, fuzzy
+msgid "Allowed networks..."
+msgstr "Налаштовані мережі"
+
+#: standard input:19
+#, fuzzy
+msgid "Allowed protocols..."
+msgstr "Підтримувані протоколи:"
+
+#: standard input:7 input:20 input:42 input:55
 msgid "Apply"
 msgstr "Застосувати"
+
+#: interfaces/guile/backend/squid.scm:271
+#, fuzzy
+msgid "Athenticated users"
+msgstr "Автентифікація"
 
 #: interfaces/guile/backend/squid.scm:85
 #, fuzzy
 msgid "Authenticated users"
 msgstr "Автентифікація"
 
-#: standard input:12
+#: standard input:10 input:58
+#, fuzzy
+msgid "Back"
+msgstr "Резервне копіювання"
+
+#: standard input:6 input:41 input:54
 msgid "Comment:"
 msgstr ""
 
-#: standard input:15
+#: standard input:52
+#, fuzzy
+msgid "Connection method:"
+msgstr "з'єднання встановлене"
+
+#: standard input:9 input:44 input:57
 msgid "Delete"
 msgstr "Вилучити"
 
-#: standard input:8
+#: standard input:26
+#, fuzzy
+msgid "Deny access"
+msgstr "Гостьовий доступ"
+
+#: standard input:21
+#, fuzzy
+msgid "Domain access policy"
+msgstr "точка доступу"
+
+#: standard input:30 input:37
 #, fuzzy
 msgid "Domain list"
 msgstr "Домен"
 
-#: standard input:6
+#: standard input:31
+msgid ""
+"Domains defined below can be used in the group-domain access policy "
+"configured at the upper section \"User group access policy\"."
+msgstr ""
+
+#: standard input:13
+#, fuzzy
+msgid "Enable proxy-server service"
+msgstr "Неможливо вимкнути розділ підкачування"
+
+#: standard input:53
+msgid "Enable transparent redirection"
+msgstr ""
+
+#: standard input:35 input:45
 #, fuzzy
 msgid "External ports"
 msgstr "Додаткові порти TCP:"
 
-#: standard input:10
+#: standard input:22
+msgid ""
+"For each of the user group listed below the access to a number of domians on "
+"the external network can exclusively be granted or rewoked."
+msgstr ""
+
+#: standard input:48
+#, fuzzy
+msgid "From port:"
+msgstr "порт:"
+
+#: standard input:12
+msgid ""
+"General proxy-server parameters management and service runtime status "
+"control."
+msgstr ""
+
+#: standard input:24
+#, fuzzy
+msgid "Group access policy:"
+msgstr "точка доступу"
+
+#: standard input:23
+#, fuzzy
+msgid "Group:"
+msgstr "Група"
+
+#: standard input:4
 #, fuzzy
 msgid "IP-network:"
 msgstr "Мережа"
 
-#: standard input:1 input:5
+#: standard input:1 input:34
 #, fuzzy
 msgid "Internal networks"
 msgstr "Обмеження доступу з внутрішніх мереж"
 
-#: interfaces/guile/backend/squid.scm:137
+#: interfaces/guile/backend/squid.scm:186
 msgid "Kerberos"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:139
+#: interfaces/guile/backend/squid.scm:188
 msgid "Kerberos+PAM"
 msgstr ""
 
-#: standard input:4
+#: standard input:33
 #, fuzzy
 msgid "Main section"
 msgstr "Основні налаштування"
 
-#: standard input:3
+#: standard input:11
+#, fuzzy
+msgid "Module main section"
+msgstr "Основні налаштування"
+
+#: standard input:32
 #, fuzzy
 msgid "Navigation:"
 msgstr "Організація:"
 
-#: standard input:9
+#: standard input:3 input:38 input:47
 #, fuzzy
 msgid "New"
 msgstr "Мережа"
 
-#: interfaces/guile/backend/squid.scm:136
+#: interfaces/guile/backend/squid.scm:185
 #, fuzzy
 msgid "No authentication"
 msgstr "Автентифікація"
 
-#: interfaces/guile/backend/squid.scm:134
+#: interfaces/guile/backend/squid.scm:183
 msgid "Normal"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:138
+#: interfaces/guile/backend/squid.scm:187
 msgid "PAM"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:142
+#: interfaces/guile/backend/squid.scm:191
 msgid "Passthrough"
 msgstr ""
 
-#: interfaces/guile/backend/squid.scm:141
+#: interfaces/guile/backend/squid.scm:190
 msgid "Proxy"
 msgstr ""
+
+#: standard input:16
+#, fuzzy
+msgid "Proxy port:"
+msgstr "порт:"
 
 #: standard input:1
 msgid "Proxy server"
 msgstr "Proxy сервер"
+
+#: standard input:46
+msgid ""
+"Requests for the services (ports) listed below are forwarded to the external "
+"network. All other requests are blocked."
+msgstr ""
 
 #: standard input:2
 msgid ""
@@ -121,30 +228,53 @@ msgid ""
 "external network. All other requests are blocked."
 msgstr ""
 
-#: standard input:14
+#: standard input:8 input:43 input:56
 msgid "Reset"
 msgstr "Скинути"
 
-#: interfaces/guile/backend/squid.scm:133
+#: standard input:29
+msgid "Save"
+msgstr "Зберегти"
+
+#: standard input:15
+#, fuzzy
+msgid "Select authentication mode:"
+msgstr "Обрати дію:"
+
+#: standard input:14
+#, fuzzy
+msgid "Select proxying mode:"
+msgstr "Оберіть режим роботи:"
+
+#: standard input:27 input:39
+msgid "Suffix list:"
+msgstr ""
+
+#: standard input:50
+#, fuzzy
+msgid "To port:"
+msgstr "порт:"
+
+#: interfaces/guile/backend/squid.scm:182
 #, fuzzy
 msgid "Transparent"
 msgstr "SMTP транспорт:"
 
-#: backend3/squid-commit:56
+#: backend3/squid-commit:67
 #, fuzzy
 msgid "Unable to reload the proxy server service"
 msgstr "Неможливо створити теку під нову систему"
 
-#: backend3/squid-commit:71
+#: backend3/squid-commit:82
 msgid "Unable to set proxy server service startup status"
 msgstr ""
 
-#: backend3/squid-commit:65
+#: backend3/squid-commit:76
 #, fuzzy
 msgid "Unable to turn proxy server service %s"
 msgstr "Неможливо вимкнути розділ підкачування"
 
-#: standard input:7
+#: standard input:36
 msgid "User group access policy"
 msgstr ""
 
