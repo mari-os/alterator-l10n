@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 2.7
-Release: alt19
+Version: 2.8
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,6 +92,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Oct 22 2009 Stanislav Ievlev <inger@altlinux.org> 2.8-alt1
+- update English help for Bran backup server project
+- update translations for alterator-distro-chainmail
+
 * Wed Oct 21 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt19
 - update translations for alterator-bacula
 
