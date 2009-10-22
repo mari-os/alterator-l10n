@@ -94,7 +94,7 @@ make check
 %changelog
 * Thu Oct 22 2009 Stanislav Ievlev <inger@altlinux.org> 2.8-alt1
 - update English help for Bran backup server project
-- update translations for alterator-distro-chainmail
+- update translations for alterator-distro-chainmail, alterator-firsttime
 
 * Wed Oct 21 2009 Stanislav Ievlev <inger@altlinux.org> 2.7-alt19
 - update translations for alterator-bacula
