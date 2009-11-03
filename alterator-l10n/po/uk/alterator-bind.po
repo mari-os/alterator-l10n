@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-06 12:51+0400\n"
+"POT-Creation-Date: 2009-11-03 16:58+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,26 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:5
-msgid "(whitespace separated list of hostnames and ip addresses)"
-msgstr ""
-
-#: standard input:7
+#: standard input:9
 msgid "(whitespace separated list of hostnames in priority descend order)"
 msgstr ""
 
-#: standard input:18
+#: standard input:5
+msgid "(whitespace separated list of hostnames)"
+msgstr ""
+
+#: standard input:7
+msgid "(whitespace separated list of ip addresses)"
+msgstr ""
+
+#: standard input:24
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:9
-msgid "Apply"
-msgstr "Застосувати"
-
-#: ui/bind/ajax.scm:83
+#: ui/bind/ajax.scm:90
 #, fuzzy
 msgid "Are you really want to destroy domain "
 msgstr "Ви дійсно хочете вилучити клієнта"
+
+#: standard input:15
+#, fuzzy
+msgid "Change settings"
+msgstr "Зберегти налаштування"
 
 #: standard input:2
 msgid "Create"
@@ -45,43 +50,59 @@ msgstr "Створити"
 msgid "DNS server"
 msgstr "Сервер DNS"
 
-#: standard input:3
-msgid "Domain:"
+#: standard input:10 input:12
+#, fuzzy
+msgid "Domain key:"
 msgstr "Домен:"
 
-#: standard input:13
+#: standard input:11
+#, fuzzy
+msgid "Download..."
+msgstr "Звантаження образа..."
+
+#: standard input:3
+#, fuzzy
+msgid "Existing domains:"
+msgstr "Існуючі групи"
+
+#: standard input:19
 msgid "Host"
 msgstr "Вузол"
 
-#: standard input:16
+#: standard input:22
 #, fuzzy
 msgid "Host:"
 msgstr "Вузол"
 
-#: standard input:12
+#: standard input:18
 #, fuzzy
 msgid "Hosts:"
 msgstr "Вузол"
 
-#: standard input:14
+#: standard input:20
 msgid "IP address"
 msgstr "IP адреса"
 
-#: standard input:17
+#: standard input:23
 msgid "IP address:"
 msgstr "IP адреса:"
 
-#: standard input:6
+#: backend3/bind:234
+#, fuzzy
+msgid "Invalid domain key file"
+msgstr "Невірний файл сертифікату"
+
+#: standard input:8
 #, fuzzy
 msgid "Mail servers:"
 msgstr "Сервери DNS:"
 
-#: standard input:4
+#: standard input:6
 #, fuzzy
-msgid "Name servers:"
+msgid "Master servers:"
 msgstr "Сервери DNS:"
 
-#: standard input:8
+#: standard input:14
 #, fuzzy
 msgid "Networks:"
 msgstr "Мережа"
@@ -91,40 +112,85 @@ msgstr "Мережа"
 msgid "New domain:"
 msgstr "Новий email:"
 
-#: standard input:11
+# ahttpd-acl
+#: backend3/bind:176
+#, fuzzy
+msgid "No domain key found"
+msgstr "Модуль не знайдено"
+
+#: standard input:17
 #, fuzzy
 msgid "Remove domain"
 msgstr "Призначте домен:"
 
-#: standard input:15
+#: standard input:21
 msgid "Remove selected"
 msgstr "Вилучити обране"
 
-#: standard input:10
+#: standard input:16
 msgid "Reset"
 msgstr "Скинути"
 
-#: backend3/bind:188
+#: backend3/bind:212
 #, fuzzy
 msgid "Same binding of host to IP address already exists"
 msgstr "Така тека вже існує"
 
-#: backend3/bind:163
+#: backend3/bind:187
 #, fuzzy
 msgid "Same domain already exists"
 msgstr "Такий клієнт уже існує"
 
-#: backend3/bind:191
+#: standard input:4
+#, fuzzy
+msgid "Slave servers:"
+msgstr "Сервери DNS:"
+
+#: backend3/bind:215
 #, fuzzy
 msgid "This hostname is registered for internal purposes"
 msgstr "Таке ім’я комп’ютера зарезервонане для внутрішніх потреб"
 
-#: backend3/bind:173
+#: backend3/bind:197
 #, fuzzy
 msgid "Unable to destroy system domain"
 msgstr "Неможливо встановити часову зону"
 
-#: backend3/bind:98
+#: standard input:13
+msgid "Upload a new domain key"
+msgstr ""
+
+#: backend3/bind:174
+#, fuzzy
+msgid "You should define as minimum one master server for slave domain"
+msgstr "Ви маєте вказати пароль системного адміністратора"
+
+#: ui/bind/ajax.scm:60
+#, fuzzy
+msgid "activated"
+msgstr "неактивно"
+
+#: backend3/bind:100
 #, fuzzy
 msgid "managed by DHCP server"
 msgstr "Увімкнути службу DHCP"
+
+#: backend3/bind:146
+msgid "master"
+msgstr "головний"
+
+#: ui/bind/ajax.scm:59
+#, fuzzy
+msgid "not loaded yet!"
+msgstr "Налаштування завантажувача"
+
+#: backend3/bind:147
+msgid "slave"
+msgstr "підлеглий"
+
+#~ msgid "Apply"
+#~ msgstr "Застосувати"
+
+#, fuzzy
+#~ msgid "Name servers:"
+#~ msgstr "Сервери DNS:"

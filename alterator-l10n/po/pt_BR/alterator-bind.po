@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-06 12:51+0400\n"
+"POT-Creation-Date: 2009-11-03 16:58+0300\n"
 "PO-Revision-Date: 2009-09-14 18:57-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,25 +19,30 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:5
-msgid "(whitespace separated list of hostnames and ip addresses)"
-msgstr ""
-
-#: standard input:7
+#: standard input:9
 msgid "(whitespace separated list of hostnames in priority descend order)"
 msgstr ""
 
-#: standard input:18
+#: standard input:5
+msgid "(whitespace separated list of hostnames)"
+msgstr ""
+
+#: standard input:7
+msgid "(whitespace separated list of ip addresses)"
+msgstr ""
+
+#: standard input:24
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:9
-msgid "Apply"
-msgstr "Aplicar"
-
-#: ui/bind/ajax.scm:83
+#: ui/bind/ajax.scm:90
 msgid "Are you really want to destroy domain "
 msgstr "Se você realmente quer destruir domínio"
+
+#: standard input:15
+#, fuzzy
+msgid "Change settings"
+msgstr "Salvar configurações"
 
 #: standard input:2
 msgid "Create"
@@ -47,41 +52,57 @@ msgstr "Criar"
 msgid "DNS server"
 msgstr "Servidor DNS"
 
-#: standard input:3
-msgid "Domain:"
+#: standard input:10 input:12
+#, fuzzy
+msgid "Domain key:"
 msgstr "Domínio:"
 
-#: standard input:13
+#: standard input:11
+#, fuzzy
+msgid "Download..."
+msgstr "Obtendo a imagem..."
+
+#: standard input:3
+#, fuzzy
+msgid "Existing domains:"
+msgstr "Domínios Destino"
+
+#: standard input:19
 msgid "Host"
 msgstr "Host:"
 
-#: standard input:16
+#: standard input:22
 msgid "Host:"
 msgstr "Host:"
 
-#: standard input:12
+#: standard input:18
 msgid "Hosts:"
 msgstr "Hosts:"
 
-#: standard input:14
+#: standard input:20
 msgid "IP address"
 msgstr "Endereço IP"
 
-#: standard input:17
+#: standard input:23
 msgid "IP address:"
 msgstr "Endereço IP:"
 
-#: standard input:6
+#: backend3/bind:234
+#, fuzzy
+msgid "Invalid domain key file"
+msgstr "Baixar arquivo de chave"
+
+#: standard input:8
 #, fuzzy
 msgid "Mail servers:"
 msgstr "Servidores DNS:"
 
-#: standard input:4
+#: standard input:6
 #, fuzzy
-msgid "Name servers:"
-msgstr "Servidores DNS:"
+msgid "Master servers:"
+msgstr "Servidor Master"
 
-#: standard input:8
+#: standard input:14
 msgid "Networks:"
 msgstr "Redes:"
 
@@ -89,35 +110,83 @@ msgstr "Redes:"
 msgid "New domain:"
 msgstr "Novo domínio:"
 
-#: standard input:11
+#: backend3/bind:176
+#, fuzzy
+msgid "No domain key found"
+msgstr "Nenhum modulo disponível"
+
+#: standard input:17
 msgid "Remove domain"
 msgstr "Remover domínio"
 
-#: standard input:15
+#: standard input:21
 msgid "Remove selected"
 msgstr "Remover selecionado"
 
-#: standard input:10
+#: standard input:16
 msgid "Reset"
 msgstr "Resetar"
 
-#: backend3/bind:188
+#: backend3/bind:212
 msgid "Same binding of host to IP address already exists"
 msgstr "Mesma ligação do host para endereço IP já existe"
 
-#: backend3/bind:163
+#: backend3/bind:187
 msgid "Same domain already exists"
 msgstr "Mesmo domínio já existe"
 
-#: backend3/bind:191
+#: standard input:4
+#, fuzzy
+msgid "Slave servers:"
+msgstr "Servidores Slave"
+
+#: backend3/bind:215
 #, fuzzy
 msgid "This hostname is registered for internal purposes"
 msgstr "Esse nome do computador está registado para efeitos internos"
 
-#: backend3/bind:173
+#: backend3/bind:197
 msgid "Unable to destroy system domain"
 msgstr "Não é possível destruir o domínio do sistema"
 
-#: backend3/bind:98
+#: standard input:13
+msgid "Upload a new domain key"
+msgstr ""
+
+#: backend3/bind:174
+#, fuzzy
+msgid "You should define as minimum one master server for slave domain"
+msgstr "Você deverá definir no minimo um repositório"
+
+#: ui/bind/ajax.scm:60
+#, fuzzy
+msgid "activated"
+msgstr "inativo"
+
+#: backend3/bind:100
 msgid "managed by DHCP server"
 msgstr "administrado por um servidor DHCP"
+
+#: backend3/bind:146
+msgid "master"
+msgstr "master"
+
+#: ui/bind/ajax.scm:59
+#, fuzzy
+msgid "not loaded yet!"
+msgstr "Bootloader setup"
+
+#: backend3/bind:147
+msgid "slave"
+msgstr "slave"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#, fuzzy
+#~ msgid "Name servers:"
+#~ msgstr "Servidores DNS:"
+
+#, fuzzy
+#~ msgid "of type"
+#~ msgstr "tipo ICMP"

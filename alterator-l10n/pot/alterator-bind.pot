@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-06 12:51+0400\n"
+"POT-Creation-Date: 2009-11-03 16:58+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,89 +29,137 @@ msgid "Create"
 msgstr ""
 
 #: standard input:3
-msgid "Domain:"
+msgid "Existing domains:"
 msgstr ""
 
 #: standard input:4
-msgid "Name servers:"
+msgid "Slave servers:"
 msgstr ""
 
 #: standard input:5
-msgid "(whitespace separated list of hostnames and ip addresses)"
+msgid "(whitespace separated list of hostnames)"
 msgstr ""
 
 #: standard input:6
-msgid "Mail servers:"
+msgid "Master servers:"
 msgstr ""
 
 #: standard input:7
-msgid "(whitespace separated list of hostnames in priority descend order)"
+msgid "(whitespace separated list of ip addresses)"
 msgstr ""
 
 #: standard input:8
-msgid "Networks:"
+msgid "Mail servers:"
 msgstr ""
 
 #: standard input:9
-msgid "Apply"
+msgid "(whitespace separated list of hostnames in priority descend order)"
 msgstr ""
 
-#: standard input:10
-msgid "Reset"
+#: standard input:10 input:12
+msgid "Domain key:"
 msgstr ""
 
 #: standard input:11
-msgid "Remove domain"
-msgstr ""
-
-#: standard input:12
-msgid "Hosts:"
+msgid "Download..."
 msgstr ""
 
 #: standard input:13
-msgid "Host"
+msgid "Upload a new domain key"
 msgstr ""
 
 #: standard input:14
-msgid "IP address"
+msgid "Networks:"
 msgstr ""
 
 #: standard input:15
-msgid "Remove selected"
+msgid "Change settings"
 msgstr ""
 
 #: standard input:16
-msgid "Host:"
+msgid "Reset"
 msgstr ""
 
 #: standard input:17
-msgid "IP address:"
+msgid "Remove domain"
 msgstr ""
 
 #: standard input:18
+msgid "Hosts:"
+msgstr ""
+
+#: standard input:19
+msgid "Host"
+msgstr ""
+
+#: standard input:20
+msgid "IP address"
+msgstr ""
+
+#: standard input:21
+msgid "Remove selected"
+msgstr ""
+
+#: standard input:22
+msgid "Host:"
+msgstr ""
+
+#: standard input:23
+msgid "IP address:"
+msgstr ""
+
+#: standard input:24
 msgid "Add"
 msgstr ""
 
-#: ui/bind/ajax.scm:83
+#: ui/bind/ajax.scm:59
+msgid "not loaded yet!"
+msgstr ""
+
+#: ui/bind/ajax.scm:60
+msgid "activated"
+msgstr ""
+
+#: ui/bind/ajax.scm:90
 msgid "Are you really want to destroy domain "
 msgstr ""
 
-#: backend3/bind:98
+#: backend3/bind:100
 msgid "managed by DHCP server"
 msgstr ""
 
-#: backend3/bind:163
+#: backend3/bind:146
+msgid "master"
+msgstr ""
+
+#: backend3/bind:147
+msgid "slave"
+msgstr ""
+
+#: backend3/bind:174
+msgid "You should define as minimum one master server for slave domain"
+msgstr ""
+
+#: backend3/bind:176
+msgid "No domain key found"
+msgstr ""
+
+#: backend3/bind:187
 msgid "Same domain already exists"
 msgstr ""
 
-#: backend3/bind:173
+#: backend3/bind:197
 msgid "Unable to destroy system domain"
 msgstr ""
 
-#: backend3/bind:188
+#: backend3/bind:212
 msgid "Same binding of host to IP address already exists"
 msgstr ""
 
-#: backend3/bind:191
+#: backend3/bind:215
 msgid "This hostname is registered for internal purposes"
+msgstr ""
+
+#: backend3/bind:234
+msgid "Invalid domain key file"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-06 12:51+0400\n"
+"POT-Creation-Date: 2009-11-03 16:58+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,25 +18,29 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:5
-msgid "(whitespace separated list of hostnames and ip addresses)"
-msgstr "(список хостов или IP-адресов через пробел)"
-
-#: standard input:7
+#: standard input:9
 msgid "(whitespace separated list of hostnames in priority descend order)"
 msgstr "(список хостов через пробел в порядке убывания приоритета)"
 
-#: standard input:18
+#: standard input:5
+msgid "(whitespace separated list of hostnames)"
+msgstr "(список хостов через пробел)"
+
+#: standard input:7
+msgid "(whitespace separated list of ip addresses)"
+msgstr "(список IP-адресов через пробел)"
+
+#: standard input:24
 msgid "Add"
 msgstr "Добавить"
 
-#: standard input:9
-msgid "Apply"
-msgstr "Применить"
-
-#: ui/bind/ajax.scm:83
+#: ui/bind/ajax.scm:90
 msgid "Are you really want to destroy domain "
 msgstr "Вы действительно желаете удалить домен "
+
+#: standard input:15
+msgid "Change settings"
+msgstr "Сменить параметры"
 
 #: standard input:2
 msgid "Create"
@@ -46,39 +50,51 @@ msgstr "Создать"
 msgid "DNS server"
 msgstr "DNS-сервер"
 
-#: standard input:3
-msgid "Domain:"
-msgstr "Домен:"
+#: standard input:10 input:12
+msgid "Domain key:"
+msgstr "Ключ домена:"
 
-#: standard input:13
+#: standard input:11
+msgid "Download..."
+msgstr "Загрузить..."
+
+#: standard input:3
+msgid "Existing domains:"
+msgstr "Существующие домены:"
+
+#: standard input:19
 msgid "Host"
 msgstr "Хост"
 
-#: standard input:16
+#: standard input:22
 msgid "Host:"
 msgstr "Хост:"
 
-#: standard input:12
+#: standard input:18
 msgid "Hosts:"
 msgstr "Хосты:"
 
-#: standard input:14
+#: standard input:20
 msgid "IP address"
 msgstr "IP-адрес"
 
-#: standard input:17
+#: standard input:23
 msgid "IP address:"
 msgstr "IP-адрес:"
 
-#: standard input:6
+#: backend3/bind:234
+msgid "Invalid domain key"
+msgstr "Неверный ключ домен"
+
+#: standard input:8
 msgid "Mail servers:"
 msgstr "Почтовые серверы:"
 
-#: standard input:4
-msgid "Name servers:"
-msgstr "Серверы имён:"
+#: standard input:6
+msgid "Master servers:"
+msgstr "Главные серверы:"
 
-#: standard input:8
+#: standard input:14
 msgid "Networks:"
 msgstr "Сети:"
 
@@ -86,34 +102,67 @@ msgstr "Сети:"
 msgid "New domain:"
 msgstr "Новый домен:"
 
-#: standard input:11
+# ahttpd-acl
+#: backend3/bind:176
+msgid "No domain key found"
+msgstr "Ключ домена не найден"
+
+#: standard input:17
 msgid "Remove domain"
 msgstr "Удалить домен"
 
-#: standard input:15
+#: standard input:21
 msgid "Remove selected"
 msgstr "Удалить выделенные"
 
-#: standard input:10
+#: standard input:16
 msgid "Reset"
 msgstr "Вернуть"
 
-#: backend3/bind:188
+#: backend3/bind:212
 msgid "Same binding of host to IP address already exists"
 msgstr "Подобная привязка хоста к IP-адресу уже существует"
 
-#: backend3/bind:163
+#: backend3/bind:187
 msgid "Same domain already exists"
 msgstr "Подобный домен уже существует"
 
-#: backend3/bind:191
+#: standard input:4
+msgid "Slave servers:"
+msgstr "Подчинённые серверы:"
+
+#: backend3/bind:215
 msgid "This hostname is registered for internal purposes"
 msgstr "Данное имя хоста зарезервировано для системы"
 
-#: backend3/bind:173
+#: backend3/bind:197
 msgid "Unable to destroy system domain"
 msgstr "Невозможно установить системный домен"
 
-#: backend3/bind:98
+#: standard input:13
+msgid "Upload a new domain key"
+msgstr "Загрузить новый ключ домена"
+
+#: backend3/bind:174
+msgid "You should define as minimum one master server for slave domain"
+msgstr "Вы должны указать как минимум один главный сервер для подчинённого домена"
+
+#: ui/bind/ajax.scm:60
+msgid "activated"
+msgstr "активирован"
+
+#: backend3/bind:100
 msgid "managed by DHCP server"
 msgstr "управляется DHCP-сервером"
+
+#: backend3/bind:146
+msgid "master"
+msgstr "главный"
+
+#: ui/bind/ajax.scm:59
+msgid "not loaded yet!"
+msgstr "ещё не загружен!"
+
+#: backend3/bind:147
+msgid "slave"
+msgstr "подчинённый"
