@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-24 13:38+0400\n"
+"POT-Creation-Date: 2009-11-05 11:34+0300\n"
 "PO-Revision-Date: 2009-08-21 14:16+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -15,30 +15,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:16
-msgid "(enter passphrase)"
-msgstr "(уведіть пароль)"
-
-#: standard input:35 ui/backup-server/network/index.scm:96
+#: standard input:17 ui/backup-server/network/index.scm:96
 msgid "(multiple values should be space separated)"
 msgstr "(декілька значень мають бути розділені пробілами)"
 
-#: standard input:17
-msgid "(repeat passphrase)"
-msgstr "(повторіть пароль)"
+#: standard input:8
+#, fuzzy
+msgid "Administrator"
+msgstr "DN адміністратора:"
 
-#: standard input:14
-msgid "Administrator's password successfully updated"
-msgstr "Пароль адміністратора успішно оновлено"
-
-#: standard input:22
+#: standard input:6
 msgid "Administrator's password:"
 msgstr "Пароль адміністратора:"
 
-#: standard input:36 ui/backup-server/network/index.scm:106
+#: standard input:18 ui/backup-server/network/index.scm:106
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -46,110 +39,81 @@ msgstr "Застосувати"
 msgid "Archive"
 msgstr "Архів"
 
-#: standard input:1
-msgid "Attention:"
-msgstr "Увага:"
-
-#: standard input:2
-msgid "Backup server"
-msgstr "Сервер резервного копіювання"
-
 #: ui/backup-server/network/index.scm:61
 msgid "Backup server interface:"
 msgstr "Інтерфейс сервера резервного копіювання:"
 
-#: standard input:12
-msgid "Change IP address..."
-msgstr "Змінити IP-адресу..."
-
-#: standard input:11
-msgid "Change date..."
-msgstr "Змінити дату..."
-
 #: standard input:6
+msgid "Bacula Director"
+msgstr ""
+
+#: standard input:1
 msgid "Clients"
 msgstr "Клієнти"
 
 #.
-#: standard input:29 ui/backup-server/network/index.scm:72
+#: standard input:11 ui/backup-server/network/index.scm:72
 msgid "Configuration:"
 msgstr "Налаштування:"
 
-#: standard input:10
-msgid "Current IP address:"
-msgstr "Поточна IP адреса:"
-
-#: standard input:9
-msgid "Current date:"
-msgstr "Поточна дата:"
-
 #.
-#: standard input:33 ui/backup-server/network/index.scm:87
+#: standard input:15 ui/backup-server/network/index.scm:87
 msgid "DNS servers:"
 msgstr "Сервери DNS:"
 
+#: standard input:2
+msgid "Date/Time"
+msgstr "Дата/Час"
+
 #.
-#: standard input:32 ui/backup-server/network/index.scm:83
+#: standard input:14 ui/backup-server/network/index.scm:83
 msgid "Default gateway:"
 msgstr "Типовий шлюз:"
 
-#: standard input:2
-msgid "Disk full. Please remove unused client's backups."
-msgstr ""
-"Диск переповнено. Будь-ласка, вилучіть резервні дані клієнтів, що не "
-"використовуються."
-
-#: standard input:5
-msgid "Disk usage:"
-msgstr "Використання диску"
-
-#: standard input:39
+#: standard input:10
 msgid "Exiting..."
 msgstr "Завершення роботи..."
 
-#: standard input:18
-msgid "Generate"
-msgstr "Генерувати"
-
-#: standard input:15
-msgid "Generate automatically"
-msgstr "Генерувати автоматично"
-
-#: standard input:27
-msgid "Hide help"
-msgstr "Сховати довідку"
+#: standard input:2
+msgid "Help"
+msgstr "Довідка"
 
 #.
-#: standard input:30 ui/backup-server/network/index.scm:75
+#: standard input:12 ui/backup-server/network/index.scm:75
 msgid "IP address:"
 msgstr "IP адреса:"
 
-#: standard input:23
+#: standard input:7
+#, fuzzy
+msgid "IP-address"
+msgstr "IP адреса"
+
+#: standard input:7
 msgid "Interface language:"
 msgstr "Мова інтерфейсу:"
 
-#: standard input:7
+#: standard input:3
 msgid "Log"
 msgstr "Журнал"
 
-#: standard input:24
+#: standard input:8
 msgid "Login"
 msgstr "Увійти"
 
-#: standard input:28
+#: standard input:3
 msgid "Logout"
 msgstr "Вийти"
 
 #.
-#: standard input:31 ui/backup-server/network/index.scm:79
+#: standard input:13 ui/backup-server/network/index.scm:79
 msgid "Netmask:"
 msgstr "Маска мережі:"
 
-#: standard input:21
+#: standard input:5
 msgid "Please login"
 msgstr "Будь-ласка, увійдіть"
 
-#: standard input:37
+#: standard input:19
 msgid "Reset"
 msgstr "Скинути"
 
@@ -158,39 +122,11 @@ msgid "Schedule"
 msgstr "Розклад"
 
 #.
-#: standard input:34 ui/backup-server/network/index.scm:91
+#: standard input:16 ui/backup-server/network/index.scm:91
 msgid "Search domains:"
 msgstr "Пошукові домени:"
 
-#: standard input:3
-msgid "Server"
-msgstr "Сервер"
-
-#: standard input:6
-msgid "Server name:"
-msgstr "Ім’я сервера:"
-
-#: standard input:4
-msgid "Server settings succesfully updated"
-msgstr "Налаштування сервера успішно оновлено"
-
-#: standard input:26
-msgid "Show help"
-msgstr "Показати довідку"
-
-#: standard input:3
-msgid "System"
-msgstr "Система"
-
-#: standard input:13
-msgid "System administrator's password"
-msgstr "Пароль адміністратора"
-
-#: standard input:8
-msgid "System settings"
-msgstr "Налаштування системи"
-
-#: standard input:20 input:25 input:38
+#: standard input:1 input:4 input:9
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
@@ -200,15 +136,81 @@ msgstr ""
 "Javascript, або ви його вимкнули. Щоб нормально побачити цю сторінку, "
 "використовуйте браузер з Javascript."
 
-#: standard input:19
-msgid "Update password"
-msgstr "Змінити пароль:"
+#: backend3/backup-server-menu:19
+#, fuzzy
+msgid "utilization"
+msgstr "Автентифікація"
 
-#: standard input:7
-msgid "Update server settings"
-msgstr "Оновити налаштування сервера"
+#~ msgid "(enter passphrase)"
+#~ msgstr "(уведіть пароль)"
 
-#: standard input:1
-msgid "Web interface HTTP server"
-msgstr "HTTP-сервер веб-інтерфейсу"
+#~ msgid "(repeat passphrase)"
+#~ msgstr "(повторіть пароль)"
 
+#~ msgid "Administrator's password successfully updated"
+#~ msgstr "Пароль адміністратора успішно оновлено"
+
+#~ msgid "Attention:"
+#~ msgstr "Увага:"
+
+#~ msgid "Backup server"
+#~ msgstr "Сервер резервного копіювання"
+
+#~ msgid "Change IP address..."
+#~ msgstr "Змінити IP-адресу..."
+
+#~ msgid "Change date..."
+#~ msgstr "Змінити дату..."
+
+#~ msgid "Current IP address:"
+#~ msgstr "Поточна IP адреса:"
+
+#~ msgid "Current date:"
+#~ msgstr "Поточна дата:"
+
+#~ msgid "Disk full. Please remove unused client's backups."
+#~ msgstr ""
+#~ "Диск переповнено. Будь-ласка, вилучіть резервні дані клієнтів, що не "
+#~ "використовуються."
+
+#~ msgid "Disk usage:"
+#~ msgstr "Використання диску"
+
+#~ msgid "Generate"
+#~ msgstr "Генерувати"
+
+#~ msgid "Generate automatically"
+#~ msgstr "Генерувати автоматично"
+
+#~ msgid "Hide help"
+#~ msgstr "Сховати довідку"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "Server name:"
+#~ msgstr "Ім’я сервера:"
+
+#~ msgid "Server settings succesfully updated"
+#~ msgstr "Налаштування сервера успішно оновлено"
+
+#~ msgid "Show help"
+#~ msgstr "Показати довідку"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "System administrator's password"
+#~ msgstr "Пароль адміністратора"
+
+#~ msgid "System settings"
+#~ msgstr "Налаштування системи"
+
+#~ msgid "Update password"
+#~ msgstr "Змінити пароль:"
+
+#~ msgid "Update server settings"
+#~ msgstr "Оновити налаштування сервера"
+
+#~ msgid "Web interface HTTP server"
+#~ msgstr "HTTP-сервер веб-інтерфейсу"

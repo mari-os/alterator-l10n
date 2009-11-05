@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-24 13:38+0400\n"
+"POT-Creation-Date: 2009-11-05 11:34+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,29 +19,21 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:16
-msgid "(enter passphrase)"
-msgstr "(entre com la contraseña)"
-
-#: standard input:35 ui/backup-server/network/index.scm:96
+#: standard input:17 ui/backup-server/network/index.scm:96
 msgid "(multiple values should be space separated)"
 msgstr "multiplos valores com espacios vacíos"
 
-#: standard input:17
-msgid "(repeat passphrase)"
-msgstr "(repetir la contraseña)"
-
-#: standard input:14
+#: standard input:8
 #, fuzzy
-msgid "Administrator's password successfully updated"
-msgstr "Administrador del Sistema"
+msgid "Administrator"
+msgstr "Administrador DN:"
 
-#: standard input:22
+#: standard input:6
 #, fuzzy
 msgid "Administrator's password:"
 msgstr "Administrador del Sistema"
 
-#: standard input:36 ui/backup-server/network/index.scm:106
+#: standard input:18 ui/backup-server/network/index.scm:106
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -50,116 +42,83 @@ msgstr "Aplicar"
 msgid "Archive"
 msgstr "Architeturas"
 
-#: standard input:1
-#, fuzzy
-msgid "Attention:"
-msgstr "Acción"
-
-#: standard input:2
-#, fuzzy
-msgid "Backup server"
-msgstr "Servidores RBL:"
-
 #: ui/backup-server/network/index.scm:61
 #, fuzzy
 msgid "Backup server interface:"
 msgstr "Uso por interfaz:"
 
-#: standard input:12
-#, fuzzy
-msgid "Change IP address..."
-msgstr "Alteración"
-
-#: standard input:11
-#, fuzzy
-msgid "Change date..."
-msgstr "Alteración"
-
 #: standard input:6
+msgid "Bacula Director"
+msgstr ""
+
+#: standard input:1
 msgid "Clients"
 msgstr ""
 
 #.
-#: standard input:29 ui/backup-server/network/index.scm:72
+#: standard input:11 ui/backup-server/network/index.scm:72
 msgid "Configuration:"
 msgstr "Información"
 
-#: standard input:10
-#, fuzzy
-msgid "Current IP address:"
-msgstr "Dirección IP:"
-
-#: standard input:9
-msgid "Current date:"
-msgstr "Configurar la Fecha Actual:"
-
 #.
-#: standard input:33 ui/backup-server/network/index.scm:87
+#: standard input:15 ui/backup-server/network/index.scm:87
 msgid "DNS servers:"
 msgstr "Servidores DNS:"
 
+#: standard input:2
+msgid "Date/Time"
+msgstr "Fecha/Hora"
+
 #.
-#: standard input:32 ui/backup-server/network/index.scm:83
+#: standard input:14 ui/backup-server/network/index.scm:83
 msgid "Default gateway:"
 msgstr "Gateway Predeterminado:"
 
-#: standard input:2
-msgid "Disk full. Please remove unused client's backups."
-msgstr ""
-
-#: standard input:5
-#, fuzzy
-msgid "Disk usage:"
-msgstr "Uso del Disco:"
-
-#: standard input:39
+#: standard input:10
 msgid "Exiting..."
 msgstr ""
 
-#: standard input:18
-msgid "Generate"
-msgstr "Generar"
-
-#: standard input:15
-msgid "Generate automatically"
-msgstr "Generar automaticamente"
-
-#: standard input:27
-msgid "Hide help"
-msgstr "Ayuda Oculta"
+#: standard input:2
+msgid "Help"
+msgstr "Ayuda"
 
 #.
-#: standard input:30 ui/backup-server/network/index.scm:75
+#: standard input:12 ui/backup-server/network/index.scm:75
 msgid "IP address:"
 msgstr "Dirección IP:"
 
-#: standard input:23
+#: standard input:7
+#, fuzzy
+msgid "IP-address"
+msgstr "Dirección IP:"
+
+#: standard input:7
 msgid "Interface language:"
 msgstr "Seleccione sua Lenguage"
 
-#: standard input:7
+#: standard input:3
 #, fuzzy
 msgid "Log"
 msgstr "Sesión"
 
-#: standard input:24
+#: standard input:8
 msgid "Login"
 msgstr "Sesión"
 
-#: standard input:28
+#: standard input:3
 msgid "Logout"
 msgstr ""
 
 #.
-#: standard input:31 ui/backup-server/network/index.scm:79
+#: standard input:13 ui/backup-server/network/index.scm:79
 msgid "Netmask:"
 msgstr "Máscara de Rede:"
 
-#: standard input:21
+#: standard input:5
 msgid "Please login"
 msgstr "Por Favor Inicie la sesión"
 
-#: standard input:37
+#: standard input:19
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -221,60 +180,95 @@ msgid "Schedule"
 msgstr ""
 
 #.
-#: standard input:34 ui/backup-server/network/index.scm:91
+#: standard input:16 ui/backup-server/network/index.scm:91
 msgid "Search domains:"
 msgstr "Procurar Dominios:"
 
-#: standard input:3
-#, fuzzy
-msgid "Server"
-msgstr "Servidor:"
-
-#: standard input:6
-#, fuzzy
-msgid "Server name:"
-msgstr "Argumentos del Servidor"
-
-#: standard input:4
-msgid "Server settings succesfully updated"
-msgstr ""
-
-#: standard input:26
-msgid "Show help"
-msgstr ""
-
-#: standard input:3
-msgid "System"
-msgstr "Sistema"
-
-#: standard input:13
-#, fuzzy
-msgid "System administrator's password"
-msgstr "Administrador del Sistema"
-
-#: standard input:8
-#, fuzzy
-msgid "System settings"
-msgstr "Ajustes"
-
-#: standard input:20 input:25 input:38
+#: standard input:1 input:4 input:9
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
 "a Javascript enabled browser."
 msgstr ""
 
-#: standard input:19
+#: backend3/backup-server-menu:19
 #, fuzzy
-msgid "Update password"
-msgstr "Cambiar contraseña:"
+msgid "utilization"
+msgstr "Instalación completa"
 
-#: standard input:7
-#, fuzzy
-msgid "Update server settings"
-msgstr "Permitir configuraciones por usuário"
+#~ msgid "(enter passphrase)"
+#~ msgstr "(entre com la contraseña)"
 
-#: standard input:1
+#~ msgid "(repeat passphrase)"
+#~ msgstr "(repetir la contraseña)"
+
 #, fuzzy
-msgid "Web interface HTTP server"
-msgstr "Interfaz Web"
+#~ msgid "Administrator's password successfully updated"
+#~ msgstr "Administrador del Sistema"
+
+#, fuzzy
+#~ msgid "Attention:"
+#~ msgstr "Acción"
+
+#, fuzzy
+#~ msgid "Backup server"
+#~ msgstr "Servidores RBL:"
+
+#, fuzzy
+#~ msgid "Change IP address..."
+#~ msgstr "Alteración"
+
+#, fuzzy
+#~ msgid "Change date..."
+#~ msgstr "Alteración"
+
+#, fuzzy
+#~ msgid "Current IP address:"
+#~ msgstr "Dirección IP:"
+
+#~ msgid "Current date:"
+#~ msgstr "Configurar la Fecha Actual:"
+
+#, fuzzy
+#~ msgid "Disk usage:"
+#~ msgstr "Uso del Disco:"
+
+#~ msgid "Generate"
+#~ msgstr "Generar"
+
+#~ msgid "Generate automatically"
+#~ msgstr "Generar automaticamente"
+
+#~ msgid "Hide help"
+#~ msgstr "Ayuda Oculta"
+
+#, fuzzy
+#~ msgid "Server"
+#~ msgstr "Servidor:"
+
+#, fuzzy
+#~ msgid "Server name:"
+#~ msgstr "Argumentos del Servidor"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#, fuzzy
+#~ msgid "System administrator's password"
+#~ msgstr "Administrador del Sistema"
+
+#, fuzzy
+#~ msgid "System settings"
+#~ msgstr "Ajustes"
+
+#, fuzzy
+#~ msgid "Update password"
+#~ msgstr "Cambiar contraseña:"
+
+#, fuzzy
+#~ msgid "Update server settings"
+#~ msgstr "Permitir configuraciones por usuário"
+
+#, fuzzy
+#~ msgid "Web interface HTTP server"
+#~ msgstr "Interfaz Web"
