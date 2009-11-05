@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.8
-Release: alt2
+Release: alt3
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,6 +92,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Nov 05 2009 Stanislav Ievlev <inger@altlinux.org> 2.8-alt3
+- update translations for alterator-distro-backup-server
+
 * Mon Nov 02 2009 Stanislav Ievlev <inger@altlinux.org> 2.8-alt2
 - update translations for alterator-bind
 
