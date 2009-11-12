@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.8
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,6 +92,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Nov 12 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.8-alt4
+- update translations for alterator-net-iptables
+- add Russian translation for alterator-snort (by sem@)
+
 * Thu Nov 05 2009 Stanislav Ievlev <inger@altlinux.org> 2.8-alt3
 - update translations for alterator-distro-backup-server
 
