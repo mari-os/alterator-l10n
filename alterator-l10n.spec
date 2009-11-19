@@ -1,6 +1,6 @@
 Name: alterator-l10n
-Version: 2.8
-Release: alt4
+Version: 2.9
+Release: alt1
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -92,6 +92,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Nov 19 2009 Stanislav Ievlev <inger@altlinux.org> 2.9-alt1
+- add translations for alterator-postfix-dovecot
+
 * Thu Nov 12 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.8-alt4
 - update translations for alterator-net-iptables
 - add Russian translation for alterator-snort (by sem@)
