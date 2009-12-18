@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt3
+Release: alt4
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -94,6 +94,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Dec 18 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.9-alt4
+- update translations for alterator-vsftpd
+
 * Fri Dec 04 2009 Mikhail Efremov <sem@altlinux.org> 2.9-alt3
 - add conflict with old versions of alterator-{snort, hotstandby}.
 - add Russian translation for alterator-hotstandby.
