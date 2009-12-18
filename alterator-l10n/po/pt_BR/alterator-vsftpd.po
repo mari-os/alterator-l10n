@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 17:04+0300\n"
+"POT-Creation-Date: 2009-12-18 17:58+0300\n"
 "PO-Revision-Date: 2009-01-29 13:19-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:20
+#: standard input:19
 msgid "Add user:"
 msgstr "Adicionar Usuário:"
 
@@ -27,43 +27,44 @@ msgstr "Adicionar Usuário:"
 msgid "Allow anonymous login"
 msgstr "Permitir Usuário anônimo"
 
-#: standard input:6
+#: standard input:5
 msgid "Allow local users login"
 msgstr "Permitir Usuários Locais"
 
-#: standard input:9
+#: standard input:8
 msgid "Allow mkdir"
 msgstr "Permitir \"mkdir\""
 
-#: standard input:12
+#: standard input:11
 msgid "Allow rename/delete"
 msgstr "Permitir renomear/deletar"
 
-#: standard input:10
+#: standard input:9
 msgid "Allow upload"
 msgstr "Permitir Upload"
 
-#: standard input:5
+#: standard input:3
 msgid "Allow write"
 msgstr "Permitir Escrita"
 
-#: standard input:8
-msgid "Anonymous user options"
+#: standard input:7
+#, fuzzy
+msgid "Anonymous user write options"
 msgstr "Opções do Usuário Anônimo"
 
-#: standard input:13
+#: standard input:12
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:11
+#: standard input:10
 msgid "Default upload directory (/var/ftp/incoming)"
 msgstr "Diretório de Upload Padrão (/var/ftp/incoming)"
 
-#: standard input:3
+#: standard input:2
 msgid "Enable FTP service"
 msgstr "Habilitar Serviço de FTP"
 
-#: standard input:7
+#: standard input:6
 msgid "Enable per user settings"
 msgstr "Ativar por configurações do usuário"
 
@@ -71,43 +72,35 @@ msgstr "Ativar por configurações do usuário"
 msgid "FTP server"
 msgstr "Servidor FTP"
 
-#: standard input:18
+#: standard input:17
 msgid "For selected:"
 msgstr "Para Seleção:"
 
-#: standard input:2
+#: standard input:1
 msgid "General options"
 msgstr "Opções gerais"
 
-#: standard input:15
+#: standard input:14
 msgid "Local users settings"
 msgstr "Configurações do usuário local"
 
-#: standard input:19 input:21
+#: standard input:18 input:20
 msgid "OK"
 msgstr "OK"
 
-#: standard input:14
+#: standard input:13
 msgid "Reset"
 msgstr "Resetar"
 
-#: backend3/vsftpd:170
+#: backend3/vsftpd:156
 msgid "Same user already exists"
 msgstr "O Usuário já existe"
 
-#: standard input:1
-msgid "Start, stop or restart service..."
-msgstr "Iniciar, parar ou resetar o serviço"
-
-#: standard input:22
-msgid "System users administration..."
-msgstr "Usuário do administrador do Sistema"
-
-#: standard input:16
+#: standard input:15
 msgid "User"
 msgstr "Usuário"
 
-#: standard input:17
+#: standard input:16
 msgid "Write access"
 msgstr "Acesso de Escrita"
 
@@ -115,11 +108,11 @@ msgstr "Acesso de Escrita"
 msgid "default"
 msgstr "padrão"
 
-#: backend3/vsftpd:109
+#: backend3/vsftpd:203
 msgid "disable write access"
 msgstr "Disabilitar Acesso de Escrita"
 
-#: backend3/vsftpd:108
+#: backend3/vsftpd:202
 msgid "enable write access"
 msgstr "Habilitar Acesso de Escrita"
 
@@ -127,10 +120,16 @@ msgstr "Habilitar Acesso de Escrita"
 msgid "no"
 msgstr "não"
 
-#: backend3/vsftpd:110
+#: backend3/vsftpd:204
 msgid "remove from list"
 msgstr "remover da lista"
 
 #: backend3/vsftpd:56
 msgid "yes"
 msgstr "sim"
+
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "Iniciar, parar ou resetar o serviço"
+
+#~ msgid "System users administration..."
+#~ msgstr "Usuário do administrador do Sistema"
