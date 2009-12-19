@@ -21,7 +21,7 @@ if [ -z "$mod_dir" ]; then
   exit 1
 fi
 
-make -C "$mod_dir" update-po &> /dev/null || fatal "Can't do make update-po in $mod_dir"
+make -C "$mod_dir" update-po >/dev/null || fatal "Can't do make update-po in $mod_dir"
 
 pot="$(find "$mod_dir/po" -name '*.pot')"
 [ -f "$pot" ] || fatal "Can't find $pot"
