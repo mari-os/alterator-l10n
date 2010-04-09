@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt5
+Release: alt6
 
 Packager: Stanislav Ievlev <inger@altlinux.org>
 
@@ -94,6 +94,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Apr 09 2010 Anton V. Boyarshinov <boyarsh@altlinux.ru> 2.9-alt6
+- update translations alterator-netinst
+
 * Sat Dec 19 2009 Vladislav Zavjalov <slazav@altlinux.org> 2.9-alt5
 - update_module: open stderr output in make update-po
 

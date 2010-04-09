@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-22 17:13+0400\n"
+"POT-Creation-Date: 2010-04-09 12:04+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,13 +18,30 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#: standard input:17
+msgid "(IP or name of client)"
+msgstr "(IP адрес или имя компьютера)"
+
 #: standard input:9
 msgid "(local path or internet URL)"
 msgstr "(локальный путь или URL)"
 
+#: standard input:15
+msgid "(password)"
+msgstr "(пароль)"
+
+#: standard input:11
+#, fuzzy
+msgid "Activate VNC install"
+msgstr "Включить установку через VNC"
+
 #: standard input:10
 msgid "Add"
 msgstr "Добавить"
+
+#: standard input:18
+msgid "Apply"
+msgstr "Применить"
 
 #: ui/netinst/ajax.scm:30
 msgid "Are you really want to remove image?"
@@ -34,9 +51,21 @@ msgstr "Вы действительно желаете удалить образ
 msgid "Available images:"
 msgstr "Доступные образы дисков:"
 
-#: standard input:12
+#: standard input:20
 msgid "Cancel"
 msgstr "Отмена"
+
+#: standard input:14
+msgid "Connect from client"
+msgstr "Подключение со стороны VNC клиента"
+
+#: standard input:16
+msgid "Connect to client"
+msgstr "Подключение со стороны VNC сервера"
+
+#: standard input:13
+msgid "Connection direction:"
+msgstr "Направление соединения:"
 
 #: standard input:1
 msgid "Current image:"
@@ -74,11 +103,11 @@ msgstr "Новый образ:"
 msgid "No"
 msgstr "Нет"
 
-#: backend3/netinst:18
+#: backend3/netinst:20
 msgid "No image"
 msgstr "Нет образа"
 
-#: standard input:11
+#: standard input:19
 msgid "OK"
 msgstr "OK"
 
@@ -89,6 +118,10 @@ msgstr "Вопрос"
 #: standard input:4
 msgid "Select"
 msgstr "Выбрать"
+
+#: standard input:12
+msgid "VNC only"
+msgstr "Только по VNC"
 
 #: ui/netinst/ajax.scm:30
 msgid "Yes"
