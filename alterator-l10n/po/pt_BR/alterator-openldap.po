@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-12 14:02+0400\n"
+"POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: 2009-09-14 19:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,78 +19,243 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:4
-msgid "Accept local connections only"
+#: backend3/openldap:188
+#, fuzzy
+msgid " used for system autentification."
+msgstr "Sem autenticação"
+
+#: standard input:44
+#, fuzzy
+msgid "(Separated by commas or spaces. Without ou=)"
+msgstr "(separados por vírgulas ou espaços)"
+
+#: standard input:10
+#, fuzzy
+msgid "Accept only local connections"
 msgstr "Aceitar apenas ligações locais"
 
-#: standard input:7
-#: input:15
-msgid "Apply"
-msgstr "Aplicar"
+#: standard input:20
+msgid "Add"
+msgstr "Adicionar"
 
-#: standard input:11
+#: standard input:2
+msgid "All option on this form is demo only !!!"
+msgstr ""
+
+#: standard input:5
+#, fuzzy
+msgid "Available Containers:"
+msgstr "Imagens disponíveis:"
+
+#: standard input:24
 #, fuzzy
 msgid "Base DN"
 msgstr "Base DN:"
 
-#: standard input:10
+#: standard input:34
+msgid "Base DN:"
+msgstr "Base DN:"
+
+#: standard input:23
+#, fuzzy
+msgid "Bases management"
+msgstr "O gerenciamento de acesso"
+
+#: standard input:35
+#, fuzzy
+msgid "Bind DN:"
+msgstr "Base DN:"
+
+#: standard input:36
+msgid "Bind PW:"
+msgstr ""
+
+#: standard input:17 input:25
+#, fuzzy
+msgid "Config File"
+msgstr "Configurar"
+
+#: standard input:4
+#, fuzzy
+msgid "Containers:"
+msgstr "Continuar"
+
+#: standard input:29
 msgid "Create"
 msgstr "Criar"
 
-#: backend3/openldap:94
+#: standard input:43
+#, fuzzy
+msgid "Create containers:"
+msgstr "Criar ligação"
+
+#: standard input:45
+#, fuzzy
+msgid "Create new base"
+msgstr "Criado em backups:"
+
+#: standard input:6
+#, fuzzy
+msgid "Create selected"
+msgstr " Excluir selecionados"
+
+#: backend3/openldap:103
 msgid "Delete"
 msgstr "Deletar"
 
-#: standard input:1
-msgid "Directory server configuration (OpenLDAP)"
-msgstr "Diretório de configuração do servidor (OpenLDAP)"
+#: standard input:27
+#, fuzzy
+msgid "Delete selected bases"
+msgstr " Excluir selecionados"
 
 #: standard input:1
 msgid "Directory service LDAP"
 msgstr "Serviço de diretório LDAP"
 
-#: standard input:5
-msgid "Enable LDAP port"
-msgstr "Ativar porta LDAP"
-
-#: standard input:6
+#: standard input:11
 msgid "Enable LDAPS (TLS)"
 msgstr "Habilitar LDAPS (TLS)"
 
-#: standard input:3
-msgid "Main settings"
+#: standard input:9
+#, fuzzy
+msgid "Enable SLAPD server"
+msgstr "Habilitar o servidor DHCP"
+
+#: standard input:37
+msgid "Encript rootPW"
+msgstr ""
+
+#: standard input:39
+msgid "Encripted passwor NOT accessible for other modules."
+msgstr ""
+
+#: standard input:30
+msgid "Expert mode"
+msgstr "Modo Avançado"
+
+#: standard input:38
+msgid "For SAMBA PDC"
+msgstr ""
+
+#: standard input:21
+#, fuzzy
+msgid "Include selected"
+msgstr " Excluir selecionados"
+
+#: standard input:12
+msgid "LDAP on local and LDAPS (TLS) on all interfaces"
+msgstr ""
+
+#: standard input:8
+#, fuzzy
+msgid "Main server option"
 msgstr "Definições Principais"
 
-#: standard input:9
+#: standard input:1
+#, fuzzy
+msgid "Manage base:"
+msgstr "Gerenciar domínios"
+
+#: standard input:14
+#, fuzzy
+msgid "Manage schema"
+msgstr "Gerenciar selecionados"
+
+#: standard input:28
 msgid "New base DN:"
 msgstr "Nova Base DN:"
 
-#: backend3/openldap:92
+#: standard input:31
+#, fuzzy
+msgid "New base:"
+msgstr "Nova Base DN:"
+
+#: standard input:18
+msgid "New schema file:"
+msgstr ""
+
+#: standard input:19
+#, fuzzy
+msgid "New schema name:"
+msgstr "Nome do Sistema:"
+
+#. echo "$(set|grep -a "in_")" >&2
+#: backend3/openldap:402
+#, fuzzy
+msgid "Not all data present."
+msgstr "Total de dados recebidos:"
+
+#: standard input:42
+msgid "Please, remember this password!!!"
+msgstr ""
+
+#: backend3/openldap:101
 #, fuzzy
 msgid "Publish"
 msgstr "Publicar"
 
-#: standard input:8
-msgid "Reset"
-msgstr "Resetar"
+#: standard input:7 input:22 input:46
+#, fuzzy
+msgid "Return to list"
+msgstr "Retornar a Visão"
 
-#: standard input:14
+#: standard input:13
+#, fuzzy
+msgid "Save options"
+msgstr "Salvar configurações"
+
+#: standard input:16
+msgid "Schema"
+msgstr ""
+
+#: standard input:15
+#, fuzzy
+msgid "Schema management"
+msgstr "O gerenciamento de acesso"
+
+#: standard input:3
 msgid "Select action:"
 msgstr "Escolha a acção:"
 
-#: standard input:12
-msgid "Source"
-msgstr "Fonte"
-
-#: standard input:2
-msgid "Start, stop or restart service..."
-msgstr "Iniciar, parar ou resetar o serviço"
-
-#: standard input:13
+#: standard input:26
 msgid "Status"
 msgstr "Estado:"
 
-#: backend3/openldap:93
+#: backend3/openldap:102
 msgid "Unpublish"
 msgstr "despublicar"
 
+#: standard input:32
+#, fuzzy
+msgid "Upload LDIF file:"
+msgstr "Download do arquivo:"
+
+#: standard input:40
+msgid "You will be asked for a password every time "
+msgstr ""
+
+#: standard input:33
+msgid "Your FQDN:"
+msgstr ""
+
+#: standard input:41
+msgid "of using modules, e.g. \"Users\" and \"Groups\"."
+msgstr ""
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Directory server configuration (OpenLDAP)"
+#~ msgstr "Diretório de configuração do servidor (OpenLDAP)"
+
+#~ msgid "Enable LDAP port"
+#~ msgstr "Ativar porta LDAP"
+
+#~ msgid "Reset"
+#~ msgstr "Resetar"
+
+#~ msgid "Source"
+#~ msgstr "Fonte"
+
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "Iniciar, parar ou resetar o serviço"

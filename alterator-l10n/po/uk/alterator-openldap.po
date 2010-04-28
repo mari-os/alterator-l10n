@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-12 14:02+0400\n"
+"POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: 2009-08-23 01:51+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -15,78 +15,242 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:4
-msgid "Accept local connections only"
+#: backend3/openldap:188
+msgid " used for system autentification."
+msgstr ""
+
+#: standard input:44
+#, fuzzy
+msgid "(Separated by commas or spaces. Without ou=)"
+msgstr "(розділені комами чи пробілами)"
+
+#: standard input:10
+#, fuzzy
+msgid "Accept only local connections"
 msgstr "Приймати лише локальні з’єднання"
 
-#: standard input:7 input:15
-msgid "Apply"
-msgstr "Застосувати"
+#: standard input:20
+msgid "Add"
+msgstr "Додати"
 
-#: standard input:11
+#: standard input:2
+msgid "All option on this form is demo only !!!"
+msgstr ""
+
+#: standard input:5
+#, fuzzy
+msgid "Available Containers:"
+msgstr "Доступні з’єднання:"
+
+#: standard input:24
 msgid "Base DN"
 msgstr "Базовий DN"
 
-#: standard input:10
+#: standard input:34
+msgid "Base DN:"
+msgstr "Базовий DN:"
+
+#: standard input:23
+#, fuzzy
+msgid "Bases management"
+msgstr "Керування ВС"
+
+#: standard input:35
+#, fuzzy
+msgid "Bind DN:"
+msgstr "Базовий DN:"
+
+#: standard input:36
+msgid "Bind PW:"
+msgstr ""
+
+#: standard input:17 input:25
+#, fuzzy
+msgid "Config File"
+msgstr "Налаштувати"
+
+#: standard input:4
+#, fuzzy
+msgid "Containers:"
+msgstr "Продовжити"
+
+#: standard input:29
 msgid "Create"
 msgstr "Створити"
 
-#: backend3/openldap:94
+#: standard input:43
+msgid "Create containers:"
+msgstr ""
+
+#: standard input:45
+#, fuzzy
+msgid "Create new base"
+msgstr "Створені резервні копії:"
+
+#: standard input:6
+#, fuzzy
+msgid "Create selected"
+msgstr "Вилучити обране"
+
+#: backend3/openldap:103
 msgid "Delete"
 msgstr "Вилучити"
 
-#: standard input:1
-msgid "Directory server configuration (OpenLDAP)"
-msgstr "Конфігурація служби каталогів (Open LDAP)"
+#: standard input:27
+#, fuzzy
+msgid "Delete selected bases"
+msgstr "Вилучити обране"
 
 #: standard input:1
 msgid "Directory service LDAP"
 msgstr "Служба каталогів LDAP"
 
-#: standard input:5
-msgid "Enable LDAP port"
-msgstr "Слухати порт LDAP"
-
-#: standard input:6
+#: standard input:11
 msgid "Enable LDAPS (TLS)"
 msgstr "Слухати порт LDAPS (захищений TLS)"
 
-#: standard input:3
-msgid "Main settings"
+#: standard input:9
+#, fuzzy
+msgid "Enable SLAPD server"
+msgstr "Увімкнути службу DHCP"
+
+#: standard input:37
+msgid "Encript rootPW"
+msgstr ""
+
+#: standard input:39
+msgid "Encripted passwor NOT accessible for other modules."
+msgstr ""
+
+#: standard input:30
+msgid "Expert mode"
+msgstr "Режим експерта"
+
+#: standard input:38
+msgid "For SAMBA PDC"
+msgstr ""
+
+#: standard input:21
+#, fuzzy
+msgid "Include selected"
+msgstr "Вилучити обране"
+
+#: standard input:12
+msgid "LDAP on local and LDAPS (TLS) on all interfaces"
+msgstr ""
+
+#: standard input:8
+#, fuzzy
+msgid "Main server option"
 msgstr "Основні налаштування"
 
-#: standard input:9
+#: standard input:1
+#, fuzzy
+msgid "Manage base:"
+msgstr "Керовані вузли"
+
+#: standard input:14
+#, fuzzy
+msgid "Manage schema"
+msgstr "Керовані вузли"
+
+#: standard input:28
 msgid "New base DN:"
 msgstr "Новий базовий DN:"
 
-#: backend3/openldap:92
+#: standard input:31
+#, fuzzy
+msgid "New base:"
+msgstr "Новий базовий DN:"
+
+#: standard input:18
+#, fuzzy
+msgid "New schema file:"
+msgstr "Новий email:"
+
+#: standard input:19
+#, fuzzy
+msgid "New schema name:"
+msgstr "Обліковий запис:"
+
+#. echo "$(set|grep -a "in_")" >&2
+#: backend3/openldap:402
+msgid "Not all data present."
+msgstr ""
+
+#: standard input:42
+msgid "Please, remember this password!!!"
+msgstr ""
+
+#: backend3/openldap:101
 msgid "Publish"
 msgstr "Опублікувати"
 
-#: standard input:8
-msgid "Reset"
-msgstr "Скинути"
+#: standard input:7 input:22 input:46
+#, fuzzy
+msgid "Return to list"
+msgstr "Повернутися до списку"
 
-#: standard input:14
+#: standard input:13
+#, fuzzy
+msgid "Save options"
+msgstr "Зберегти налаштування"
+
+#: standard input:16
+msgid "Schema"
+msgstr ""
+
+#: standard input:15
+#, fuzzy
+msgid "Schema management"
+msgstr "Керування ВС"
+
+#: standard input:3
 msgid "Select action:"
 msgstr "Обрати дію:"
 
-#: standard input:12
-msgid "Source"
-msgstr "Джерело"
-
-#: standard input:2
-msgid "Start, stop or restart service..."
-msgstr "Запуск, зупинка та перезапуск служби..."
-
-#: standard input:13
+#: standard input:26
 msgid "Status"
 msgstr "Стан"
 
-#: backend3/openldap:93
+#: backend3/openldap:102
 msgid "Unpublish"
 msgstr "Приховати"
 
+#: standard input:32
+#, fuzzy
+msgid "Upload LDIF file:"
+msgstr "Звантажити файл:"
+
+#: standard input:40
+msgid "You will be asked for a password every time "
+msgstr ""
+
+#: standard input:33
+msgid "Your FQDN:"
+msgstr ""
+
+#: standard input:41
+msgid "of using modules, e.g. \"Users\" and \"Groups\"."
+msgstr ""
+
+#~ msgid "Apply"
+#~ msgstr "Застосувати"
+
+#~ msgid "Directory server configuration (OpenLDAP)"
+#~ msgstr "Конфігурація служби каталогів (Open LDAP)"
+
+#~ msgid "Enable LDAP port"
+#~ msgstr "Слухати порт LDAP"
+
+#~ msgid "Reset"
+#~ msgstr "Скинути"
+
+#~ msgid "Source"
+#~ msgstr "Джерело"
+
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "Запуск, зупинка та перезапуск служби..."

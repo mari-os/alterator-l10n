@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-24 14:33+0400\n"
+"POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,59 +19,125 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:10
+#: standard input:41
 msgid "(enter passphrase)"
 msgstr "(entre com la contraseña)"
 
-#: standard input:11
+#: standard input:75
+msgid "(re)Read file"
+msgstr ""
+
+#: standard input:42
 msgid "(repeat passphrase)"
 msgstr "(repetir la contraseña)"
 
-#: standard input:3
+#: standard input:10 input:70
+msgid "/etc/passwd file on this server"
+msgstr ""
+
+#: standard input:32
 #, fuzzy
 msgid "Account"
 msgstr "Cuenta:"
 
-#: standard input:21
+#: standard input:62
 msgid "Add"
 msgstr "Adiccionar"
 
-#: standard input:22
+#: standard input:52
 #, fuzzy
-msgid "Additional info"
-msgstr "Paquetes adicionales"
+msgid "Available"
+msgstr "Ver código fuente"
 
-#: standard input:2
+#: standard input:5
+msgid "Bind"
+msgstr ""
+
+#: standard input:49
+msgid "Cansel"
+msgstr ""
+
+#: standard input:23
 msgid "Create"
 msgstr "Crear"
 
-#: standard input:27
+#: standard input:9
+#, fuzzy
+msgid "Current auth state"
+msgstr "Estado actual"
+
+#: standard input:46
+#, fuzzy
+msgid "Del"
+msgstr "Borrar"
+
+#: standard input:67
 msgid "Delete user"
 msgstr "Borrar usuário"
 
-#: standard input:18
+#: standard input:64
+msgid "Do not forget save data..."
+msgstr ""
+
+#: standard input:59
 #, fuzzy
 msgid "E-mail"
 msgstr "Host Email"
 
-#: standard input:6
+#: standard input:86
+#, fuzzy
+msgid "Export selected"
+msgstr "Por selecionado:"
+
+#: standard input:73
+msgid "Filter UID. From"
+msgstr ""
+
+#: standard input:26
+#, fuzzy
+msgid "Filter:"
+msgstr "Lista del filtro"
+
+#: standard input:35
 #, fuzzy
 msgid "First name:"
 msgstr "Primer Página"
 
-#: standard input:12
+#: standard input:80
+msgid "GID"
+msgstr ""
+
+#: standard input:81
+msgid "Gecos"
+msgstr ""
+
+#: standard input:43
 msgid "Generate"
 msgstr "Generar"
 
-#: standard input:9
+#: standard input:40
 msgid "Generate automatically"
 msgstr "Generar automaticamente"
 
-#: standard input:23
+#: standard input:50
+msgid "Group Membership"
+msgstr ""
+
+#: standard input:82
+#, fuzzy
+msgid "Home dir"
+msgstr "Directorio Inicial:"
+
+#: standard input:37
 msgid "Home directory:"
 msgstr "Directorio Inicial:"
 
-#: standard input:5
+#: standard input:11
+#, fuzzy
+msgid "LDAP base on this server"
+msgstr "Servidor LDAP:"
+
+#: standard input:34
 #, fuzzy
 msgid "Last name:"
 msgstr "Última Página"
@@ -81,30 +147,77 @@ msgstr "Última Página"
 msgid "Ldap user accounts"
 msgstr "Cuentas de usuários locales"
 
-#: standard input:17
+#: standard input:78
+msgid "Login"
+msgstr "Sesión"
+
+#: standard input:51
+msgid "Member of"
+msgstr ""
+
+#: standard input:68
+#, fuzzy
+msgid "Migration tool"
+msgstr "Tiempo de Expiracción"
+
+#: standard input:25
+#, fuzzy
+msgid "Migration tools"
+msgstr "Tiempo de Expiracción"
+
+#: standard input:58
 #, fuzzy
 msgid "Mobile phone:"
 msgstr "Zona Horaria"
 
-#: standard input:4
+#: standard input:33
 msgid "Name:"
 msgstr "Nombre:"
 
-#: standard input:1
+#: standard input:22
 msgid "New account:"
 msgstr "Nueva cuenta:"
 
-#: standard input:20
+#: standard input:61
 #, fuzzy
 msgid "New email:"
 msgstr "Nuevo alias:"
 
-#: standard input:14
+#: standard input:55
+#, fuzzy
+msgid "Organisation Unit:"
+msgstr "Unidade:"
+
+#: standard input:54
 #, fuzzy
 msgid "Organization:"
 msgstr "Empresa"
 
-#: standard input:8
+#: standard input:12
+#, fuzzy
+msgid "Other LDAP server"
+msgstr "Servidor LDAP:"
+
+#: standard input:72
+msgid "Other server (LDAP, AD or 389ds) "
+msgstr ""
+
+#: standard input:84
+#, fuzzy
+msgid "Password {hash}"
+msgstr ""
+"#-#-#-#-#  alterator-ahttpd.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#\n"
+"Contraseña\n"
+"#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-sysconfig.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:"
+
+#: standard input:39
 #, fuzzy
 msgid "Password:"
 msgstr ""
@@ -119,43 +232,195 @@ msgstr ""
 "#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
 "Contraseña:"
 
-#: backend3/ldap-users:235
+#: backend3/ldap-users:575
 msgid "Passwords mismatch"
 msgstr "Contraseña"
 
-#: standard input:7
+#: standard input:36
 msgid "Patronym:"
 msgstr ""
 
-#: standard input:16
+#: standard input:28
+msgid "Peoples"
+msgstr ""
+
+#: standard input:57
 msgid "Phone:"
 msgstr ""
 
-#: standard input:19
+#: standard input:44
+msgid "Photo"
+msgstr ""
+
+#: standard input:13
+#, fuzzy
+msgid "Remote host:"
+msgstr "Dirección del Host:"
+
+#: standard input:60
 msgid "Remove"
 msgstr "Remover"
 
-#: standard input:26
+#: standard input:16 input:87
+#, fuzzy
+msgid "Return to list"
+msgstr "Volver para lista de cadena"
+
+#: standard input:63
+msgid "Samba"
+msgstr ""
+
+#: standard input:66
 #, fuzzy
 msgid "Save settings"
 msgstr "Ajustes"
 
-#: standard input:24
+#: standard input:31
+msgid "Select"
+msgstr "Seleccionar"
+
+#: standard input:85
+msgid "Select a baseDN, which will be taken accounts"
+msgstr ""
+
+#: standard input:69
+#, fuzzy
+msgid "Select migration source"
+msgstr "Borrar conección"
+
+#: standard input:47
+#, fuzzy
+msgid "Select new user photo:"
+msgstr "Borrar usuário"
+
+#: standard input:7
+#, fuzzy
+msgid "Select other"
+msgstr "Seleccionar modo adelante:"
+
+#: standard input:8
+#, fuzzy
+msgid "Select userlist source"
+msgstr "Seleccionar interfazes externas:"
+
+#: standard input:45
+#, fuzzy
+msgid "Set"
+msgstr "Seleccionar"
+
+#: standard input:83
+#, fuzzy
+msgid "Shell"
+msgstr "Shell:"
+
+#: standard input:38
 msgid "Shell:"
 msgstr "Shell:"
 
-#: standard input:15
+#: standard input:24
+#, fuzzy
+msgid "Source selector"
+msgstr "Porta de la fuente"
+
+#: standard input:27
+#, fuzzy
+msgid "System only"
+msgstr "Usuário del Sistema"
+
+#: standard input:56
 msgid "Title:"
 msgstr ""
 
-#: standard input:25
+#: standard input:79
+msgid "UID"
+msgstr ""
+
+#: standard input:29
+msgid "UID From:"
+msgstr ""
+
+#: standard input:48 input:77
+msgid "Upload"
+msgstr "Cargar"
+
+#: standard input:76
+#, fuzzy
+msgid "Upload file:"
+msgstr "Cargar"
+
+#: standard input:71
+msgid "Uploaded file. (Formated such as /etc/passwd )"
+msgstr ""
+
+#: standard input:15
+#, fuzzy
+msgid "Use selected source"
+msgstr "Seleccione su país:"
+
+#: standard input:20
+#, fuzzy
+msgid "Used base:"
+msgstr "Base DN:"
+
+#: standard input:17
+msgid "Used local:"
+msgstr ""
+
+#: standard input:65
 #, fuzzy
 msgid "User settings successfully updated"
 msgstr "Administrador del Sistema"
 
-#: standard input:13
+#: standard input:53
 msgid "Work"
 msgstr ""
+
+#: standard input:1
+msgid "You must enter bind data for base"
+msgstr ""
+
+#: standard input:2 input:21
+#, fuzzy
+msgid "on host"
+msgstr "desconocido"
+
+#: standard input:19
+msgid "on localhost"
+msgstr ""
+
+#: type/ldap-account-name.scm:12
+msgid "only small latin letters, digits and '_' allowed"
+msgstr "apenas dígitos con letras permitido '_'"
+
+#: standard input:6
+#, fuzzy
+msgid "or"
+msgstr "para"
+
+#: standard input:14
+msgid "remote base:"
+msgstr ""
+
+#: standard input:3
+#, fuzzy
+msgid "root dn:"
+msgstr "Interfaz ROOT"
+
+#: standard input:4
+msgid "root pw:"
+msgstr ""
+
+#: standard input:18
+msgid "tcb"
+msgstr ""
+
+#: standard input:30 input:74
+msgid "to"
+msgstr "para"
+
+#, fuzzy
+#~ msgid "Additional info"
+#~ msgstr "Paquetes adicionales"
 
 #~ msgid "Save"
 #~ msgstr "Salvar"

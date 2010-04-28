@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-07 13:12+0400\n"
+"POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,23 +21,23 @@ msgid "Install sources"
 msgstr ""
 
 #: standard input:2
-msgid "Edutainment"
+msgid "Multimedia (full)"
 msgstr ""
 
 #: standard input:3
-msgid "Office Suite (full)"
-msgstr ""
-
-#: standard input:4
-msgid "Graphics (full)"
-msgstr ""
-
-#: standard input:5
 msgid "Communications (full)"
 msgstr ""
 
+#: standard input:4
+msgid "Office Suite"
+msgstr ""
+
+#: standard input:5
+msgid "Graphics"
+msgstr ""
+
 #: standard input:6
-msgid "Desktop (full)"
+msgid "Desktop"
 msgstr ""
 
 #: standard input:7
@@ -45,75 +45,116 @@ msgid "Emulators"
 msgstr ""
 
 #: standard input:8
-msgid "Games"
-msgstr ""
-
-#: standard input:9
-msgid "Office Suite"
-msgstr ""
-
-#: standard input:10
-msgid "Communications"
-msgstr ""
-
-#: standard input:11
-msgid "Multimedia (full)"
-msgstr ""
-
-#: standard input:12
-msgid "Documentation"
-msgstr ""
-
-#: standard input:13
 msgid "Multimedia"
 msgstr ""
 
+#: standard input:9
+msgid "Communications"
+msgstr ""
+
+#: standard input:10
+msgid "Graphics (full)"
+msgstr ""
+
+#: standard input:11
+msgid "Office Suite (full)"
+msgstr ""
+
+#: standard input:12
+msgid "Games"
+msgstr ""
+
+#: standard input:13
+msgid "Documentation"
+msgstr ""
+
 #: standard input:14
-msgid "Desktop"
+msgid "Desktop (full)"
 msgstr ""
 
 #: standard input:15
-msgid "Graphics"
+msgid "Edutainment"
 msgstr ""
 
-#: standard input:1 ui/pkg/sources/index.scm:8
-msgid "Repositories:"
-msgstr ""
-
-#: standard input:2 ui/pkg/sources/index.scm:13
-msgid "Source URI:"
-msgstr ""
-
-#: standard input:3 ui/pkg/sources/index.scm:15
-msgid "Change"
-msgstr ""
-
-#: standard input:4 ui/pkg/sources/index.scm:20
-msgid "Advanced..."
-msgstr ""
-
-#: standard input:5 ui/pkg/sources/mirrors/index.scm:52
+#: standard input:1 ui/pkg/sources/mirrors/index.scm:52
 msgid "Repository:"
 msgstr ""
 
-#: standard input:6 ui/pkg/sources/mirrors/index.scm:56
+#: standard input:2 ui/pkg/sources/mirrors/index.scm:56
 msgid "New source:"
 msgstr ""
 
-#: standard input:7 ui/pkg/sources/mirrors/index.scm:58
+#: standard input:3 ui/pkg/sources/mirrors/index.scm:58
 msgid "Add"
 msgstr ""
 
-#: standard input:8 ui/pkg/sources/mirrors/index.scm:60
+#: standard input:4 ui/pkg/sources/mirrors/index.scm:60
 msgid "Available sources:"
 msgstr ""
 
-#: standard input:9 ui/pkg/sources/mirrors/index.scm:62
+#: standard input:5 ui/pkg/sources/mirrors/index.scm:62
 msgid "Delete"
 msgstr ""
 
-#: standard input:10 ui/pkg/sources/mirrors/index.scm:66
+#: standard input:6 ui/pkg/sources/mirrors/index.scm:66
 msgid "Return"
+msgstr ""
+
+#: standard input:7 ui/pkg/sources/index.scm:8
+msgid "Repositories:"
+msgstr ""
+
+#: standard input:8 ui/pkg/sources/index.scm:13
+msgid "Source URI:"
+msgstr ""
+
+#: standard input:9 ui/pkg/sources/index.scm:15
+msgid "Change"
+msgstr ""
+
+#: standard input:10 ui/pkg/sources/index.scm:20
+msgid "Advanced..."
+msgstr ""
+
+#: ui/pkg/groups/index.scm:69
+#, lisp-format
+msgid "Has conflict with ~S"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:87
+msgid "kB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:88
+msgid "MB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:89
+msgid "GB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:90
+msgid "TB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:94
+msgid "Required disk space"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:100
+msgid "calculating..."
+msgstr ""
+
+#: ui/pkg/groups/index.scm:105
+msgid "unable to calculate"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:133
+msgid "Additional applications:"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:148 ui/pkg/install/index.scm:100
+msgid "Preparing..."
 msgstr ""
 
 #: ui/pkg/cdrom/index.scm:7
@@ -160,49 +201,8 @@ msgstr ""
 msgid "Installing packages..."
 msgstr ""
 
-#: ui/pkg/install/index.scm:100 ui/pkg/groups/index.scm:148
-msgid "Preparing..."
-msgstr ""
-
 #: ui/pkg/error/index.scm:4
 msgid "Critical error during install"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:69
-#, lisp-format
-msgid "Has conflict with ~S"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:87
-msgid "kB"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:88
-msgid "MB"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:89
-msgid "GB"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:90
-msgid "TB"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:94
-msgid "Required disk space"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:100
-msgid "calculating..."
-msgstr ""
-
-#: ui/pkg/groups/index.scm:105
-msgid "unable to calculate"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:133
-msgid "Additional applications:"
 msgstr ""
 
 #: backend3/pkg-sources:91

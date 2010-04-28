@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-02 14:47+0300\n"
+"POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: 2009-03-19 15:30-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,33 +19,27 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:8
-#: input:12
-#: ui/datetime/system/index.scm:54
-#: ui/datetime/installer/index.scm:80
+#: standard input:3 input:12 ui/datetime/system/index.scm:54
 msgid "Apply"
 msgstr "Aplicar"
 
-#: ui/datetime/system/timezone/index.scm:60
+#: ui/datetime/system/timezone/index.scm:63
 #: ui/datetime/installer/edit/index.scm:43
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: ui/datetime/system/index.scm:49
-#: ui/datetime/installer/index.scm:73
+#: standard input:11 ui/datetime/system/index.scm:49
+#: ui/datetime/installer/index.scm:71
 msgid "Change..."
 msgstr "Alteración"
 
-#: standard input:4
-#: ui/datetime/system/index.scm:32
+#: standard input:7 ui/datetime/system/index.scm:32
 #: ui/datetime/installer/edit/index.scm:32
 msgid "Current date:"
 msgstr "Configurar la Fecha Actual:"
 
-#: standard input:5
-#: ui/datetime/system/index.scm:33
-#: ui/datetime/installer/edit/index.scm:33
-#: ui/datetime/installer/index.scm:71
+#: standard input:8 ui/datetime/system/index.scm:33
+#: ui/datetime/installer/edit/index.scm:33 ui/datetime/installer/index.scm:69
 msgid "Current time:"
 msgstr "Configurar la Hora Atual:"
 
@@ -53,70 +47,60 @@ msgstr "Configurar la Hora Atual:"
 msgid "Date/Time"
 msgstr "Fecha/Hora"
 
-#: standard input:1
-#: ui/datetime/system/index.scm:23
+#: standard input:4 ui/datetime/system/index.scm:23
 #: ui/datetime/installer/edit/index.scm:23
 msgid "Get time from NTP server:"
 msgstr "Tiempo del NTP servidor:"
 
-#: standard input:6
-#: ui/datetime/system/index.scm:40
-#: ui/datetime/installer/index.scm:66
+#: standard input:9 ui/datetime/system/index.scm:40
+#: ui/datetime/installer/index.scm:64
 msgid "Hardware time set to GMT"
 msgstr "Ajustar automaticamente el reloj pelo GMT"
 
-#: standard input:2
-#: ui/datetime/system/index.scm:24
+#: standard input:5 ui/datetime/system/index.scm:24
 #: ui/datetime/installer/edit/index.scm:24
 msgid "NTP server:"
 msgstr "Servidor NTP:"
 
-#: ui/datetime/system/timezone/index.scm:59
+#: ui/datetime/system/timezone/index.scm:62
 #: ui/datetime/installer/edit/index.scm:42
 msgid "OK"
 msgstr "OK"
 
 #.
-#: standard input:10
-#: ui/datetime/system/timezone/index.scm:46
-#: ui/datetime/installer/index.scm:60
+#: standard input:1 ui/datetime/system/timezone/index.scm:49
+#: ui/datetime/installer/index.scm:58
 msgid "Please, select country:"
 msgstr "Seleccione su país:"
 
 #.
-#: standard input:11
-#: ui/datetime/system/timezone/index.scm:51
-#: ui/datetime/installer/index.scm:64
+#: standard input:2 ui/datetime/system/timezone/index.scm:54
+#: ui/datetime/installer/index.scm:62
 msgid "Please, select time zone:"
 msgstr "Seleccione la Zona Horaria:"
 
-#: standard input:9
-#: ui/datetime/installer/index.scm:81
+#: standard input:13
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:7
-#: ui/datetime/system/index.scm:45
+#: standard input:10 ui/datetime/system/index.scm:45
 msgid "Time zone:"
 msgstr "Zona Horaria"
 
-#: backend3/datetime-installer:101
-#: backend3/datetime-system:107
-msgid "Unable to setup timezone"
+#: backend3/datetime-installer:102 backend3/datetime-system:111
+#, fuzzy
+msgid "Unable to setup time zone"
 msgstr "No fue posible configurar el reloj"
 
-#: standard input:3
-#: ui/datetime/system/index.scm:27
+#: standard input:6 ui/datetime/system/index.scm:27
 #: ui/datetime/installer/edit/index.scm:27
 msgid "Work as NTP server"
 msgstr "Trajar con el Servidor NTP "
 
-#: backend3/datetime-installer:17
+#: backend3/datetime-installer:18
 msgid "set automatically"
 msgstr "Configurar automaticamente Fecha y Hora"
 
-#: backend3/datetime-installer:111
-#: backend3/datetime-system:83
+#: backend3/datetime-installer:118 backend3/datetime-system:93
 msgid "unable to setup time"
 msgstr "No fue posible configurar el Reloj"
-

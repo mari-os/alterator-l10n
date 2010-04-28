@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-01 18:37+0400\n"
+"POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:3 ui/auth/index.scm:43
+#: standard input:13 ui/auth/index.scm:43
 msgid "Apply"
 msgstr "Применить"
 
@@ -26,47 +26,79 @@ msgstr "Применить"
 msgid "Authentication"
 msgstr "Аутентификация"
 
-#: standard input:1 ui/auth/index.scm:27
+#: standard input:1
+#, fuzzy
+msgid "Available authentication methods"
+msgstr "Выберите способ аутентфикации:"
+
+#: standard input:9
+msgid "Base DN:"
+msgstr "Базовый DN:"
+
+#: standard input:11 ui/auth/index.scm:27
 msgid "Current domain:"
 msgstr "Используется домен:"
 
-#: standard input:2 ui/auth/index.scm:32
+#: standard input:12 ui/auth/index.scm:32
 msgid "Domain list:"
 msgstr "Выберите домен:"
 
-#: backend3/auth:81 backend3/auth:88
+#: backend3/auth:161
 msgid "Domain not set"
 msgstr "нет"
 
-# Настройка вручную
-#: backend3/auth:37
-msgid "custom"
-msgstr "Другой"
+#: standard input:4
+#, fuzzy
+msgid "Kerberos domain"
+msgstr "Удалить домен"
 
-#: backend3/auth:28
+#: standard input:3
+#, fuzzy
+msgid "LDAP base"
+msgstr "LDAP-сервер:"
+
+#: standard input:7
+msgid "LDAP server:"
+msgstr "LDAP-сервер:"
+
+#: standard input:2
+msgid "Local files"
+msgstr "Локальные файлы"
+
+#: standard input:5
+msgid "Multi"
+msgstr ""
+
+#: standard input:6
+msgid "Pkcs11"
+msgstr ""
+
+#: standard input:10
+#, fuzzy
+msgid "Select"
+msgstr "Выберите операцию:"
+
+#: standard input:8
+#, fuzzy
+msgid "TLS/SSL"
+msgstr "Включить TLS/SSL"
+
+#: backend3/auth:61
 msgid "local"
 msgstr "Не использовать домен"
 
 #~ msgid "Auth type:"
 #~ msgstr "Тип аутентификации:"
 
-#~ msgid "Base DN:"
-#~ msgstr "Базовый DN:"
-
-#~ msgid "Enable TLS/SSL"
-#~ msgstr "Включить TLS/SSL"
-
 #~ msgid "LDAP"
 #~ msgstr "LDAP"
-
-#~ msgid "LDAP server:"
-#~ msgstr "LDAP-сервер:"
-
-#~ msgid "Local files"
-#~ msgstr "Локальные файлы"
 
 #~ msgid "Port (optional):"
 #~ msgstr "Порт (необязательно):"
 
 #~ msgid "Reset"
 #~ msgstr "Вернуть"
+
+# Настройка вручную
+#~ msgid "custom"
+#~ msgstr "Другой"

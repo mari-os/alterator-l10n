@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-16 20:20+0400\n"
+"POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: 2009-09-14 20:27-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,27 +19,27 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:13
+#: standard input:4
 msgid "(you should first upload this key to slave servers)"
 msgstr "(você deve primeiro carregar esta chave para servidores escravos)"
 
-#: standard input:22
+#: standard input:13
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:21
+#: standard input:12
 msgid "Add host by name:"
 msgstr "Adicionar host pelo nome:"
 
-#: standard input:6
+#: standard input:19
 msgid "Delete key"
 msgstr "Excluir chave"
 
-#: standard input:19
+#: standard input:10
 msgid "Delete selected"
 msgstr " Excluir selecionados"
 
-#: standard input:12
+#: standard input:3
 msgid "Download key file"
 msgstr "Baixar arquivo de chave"
 
@@ -51,14 +51,11 @@ msgstr " Erro ao adicionar host (s):%s"
 msgid "Error removing host(s):%s"
 msgstr "Erro de acolhimento remoção (s):%s"
 
-#: backend3/trust:132
-#: backend3/trust:163
+#: backend3/trust:132 backend3/trust:163
 msgid "Host is down!"
 msgstr "Host é abaixo"
 
-#: standard input:2
-#: input:11
-#: input:17
+#: standard input:2 input:8 input:15
 msgid "Host key:"
 msgstr "Host-chave:"
 
@@ -66,7 +63,7 @@ msgstr "Host-chave:"
 msgid "Invalid ssh key"
 msgstr "Chave ssh inválida"
 
-#: standard input:4
+#: standard input:17
 msgid "Key created by:"
 msgstr "Chave criado por:"
 
@@ -74,20 +71,19 @@ msgstr "Chave criado por:"
 msgid "Key does not match! New key:"
 msgstr "Peça não combina! Nova chave:"
 
-#: standard input:18
+#: standard input:9
 msgid "Manage selected"
 msgstr "Gerenciar selecionados"
 
-#: standard input:3
-#: input:10
+#: standard input:1 input:16
 msgid "Master server"
 msgstr "Servidor Master"
 
-#: standard input:5
+#: standard input:18
 msgid "Master server key:"
 msgstr "Master chave do servidor:"
 
-#: standard input:20
+#: standard input:11
 msgid "Refresh list"
 msgstr "Atualizar lista"
 
@@ -95,19 +91,19 @@ msgstr "Atualizar lista"
 msgid "Same ssh key already exists"
 msgstr "A chave ssh já existe"
 
-#: standard input:16
+#: standard input:7
 msgid "Server"
 msgstr "Servidor"
 
-#: standard input:1
+#: standard input:14
 msgid "Slave server"
 msgstr "Servidor slave"
 
-#: standard input:14
+#: standard input:5
 msgid "Slave servers"
 msgstr "Servidores Slave"
 
-#: standard input:15
+#: standard input:6
 msgid "Status"
 msgstr "Estado:"
 
@@ -119,15 +115,15 @@ msgstr "As relações de confiança"
 msgid "Unable to add host %s: %s"
 msgstr "Não é possível adicionar host %s:%s"
 
-#: standard input:8
+#: standard input:21
 msgid "Upload"
 msgstr "Enviar"
 
-#: standard input:7
+#: standard input:20
 msgid "Upload key:"
 msgstr "Envio de Chave:"
 
-#: standard input:9
+#: standard input:22
 msgid "You should first download key from master server."
 msgstr "Você chave deve primeiro fazer o download do servidor mestre."
 
@@ -139,8 +135,7 @@ msgstr "já existe"
 msgid "can't connect (missing key?)"
 msgstr "não pode se conectar (tecla faltando?)"
 
-#: backend3/trust:230
-#: backend3/trust:231
+#: backend3/trust:230 backend3/trust:231
 msgid "not set"
 msgstr "não definida"
 
@@ -151,4 +146,3 @@ msgstr "incapaz de obter a chave de host"
 #: backend3/trust:300
 msgid "unknown host"
 msgstr "host desconhecido"
-

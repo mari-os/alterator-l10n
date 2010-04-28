@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 14:25+0400\n"
+"POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,58 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: standard input:1
-msgid "Bootloader"
-msgstr ""
-
-#: standard input:2
 msgid "Bootloader setup"
 msgstr ""
 
-#: ui/lilo/edit-source/index.scm:21 ui/lilo/expert/index.scm:119
-msgid "Don't install bootloader"
+#: standard input:2
+msgid "Bootloader"
 msgstr ""
 
-#: ui/lilo/edit-source/index.scm:23 ui/lilo/expert/index.scm:121
-msgid "Simple mode"
-msgstr ""
-
-#: ui/lilo/edit-source/index.scm:24 ui/lilo/index.scm:137
-#: ui/lilo/expert/index.scm:122
-msgid "Expert mode"
-msgstr ""
-
-#: ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:123
-msgid "Edit lilo.conf"
-msgstr ""
-
-#: ui/lilo/edit-source/index.scm:31
-msgid "Lilo options:"
-msgstr ""
-
-#: ui/lilo/edit-source/index.scm:36 ui/lilo/index.scm:136
-#: ui/lilo/expert/index.scm:206
-msgid "Apply"
-msgstr ""
-
-#: ui/lilo/edit-source/index.scm:37 ui/lilo/expert/index.scm:187
-#: ui/lilo/expert/index.scm:207
-msgid "Reset"
-msgstr ""
-
-#: ui/lilo/index.scm:108 ui/lilo/expert/index.scm:131
+#: ui/lilo/index.scm:97 ui/lilo/expert/index.scm:131
 msgid "Install boot loader on:"
 msgstr ""
 
-#: ui/lilo/index.scm:113
+#: ui/lilo/index.scm:102
 msgid "Load other OS:"
 msgstr ""
 
-#: ui/lilo/index.scm:122
+#: ui/lilo/index.scm:111
 msgid "Load by default:"
 msgstr ""
 
-#: ui/lilo/index.scm:125 ui/lilo/expert/index.scm:142
+#: ui/lilo/index.scm:114 ui/lilo/expert/index.scm:142
 msgid "Interface timeout:"
+msgstr ""
+
+#: ui/lilo/index.scm:126 ui/lilo/expert/index.scm:206
+#: ui/lilo/edit-source/index.scm:57
+msgid "Apply"
+msgstr ""
+
+#: ui/lilo/index.scm:127 ui/lilo/expert/index.scm:122
+#: ui/lilo/edit-source/index.scm:41
+msgid "Expert mode"
 msgstr ""
 
 #: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
@@ -77,6 +56,18 @@ msgstr ""
 
 #: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
 msgid "Other loader"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:119 ui/lilo/edit-source/index.scm:38
+msgid "Don't install bootloader"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:121 ui/lilo/edit-source/index.scm:40
+msgid "Simple mode"
+msgstr ""
+
+#: ui/lilo/expert/index.scm:123 ui/lilo/edit-source/index.scm:42
+msgid "Edit lilo.conf"
 msgstr ""
 
 #: ui/lilo/expert/index.scm:127
@@ -143,6 +134,11 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
+#: ui/lilo/expert/index.scm:187 ui/lilo/expert/index.scm:207
+#: ui/lilo/edit-source/index.scm:58
+msgid "Reset"
+msgstr ""
+
 #: ui/lilo/expert/index.scm:189
 msgid "Delete"
 msgstr ""
@@ -153,6 +149,10 @@ msgstr ""
 
 #: ui/lilo/expert/index.scm:195
 msgid "Add other loader"
+msgstr ""
+
+#: ui/lilo/edit-source/index.scm:49
+msgid "Lilo options:"
 msgstr ""
 
 #: helpers/lilo-conf.sh:29 helpers/lilo-conf.sh:145
@@ -219,7 +219,7 @@ msgstr ""
 msgid "Could not find kernel image"
 msgstr ""
 
-#: helpers/lilo-other-system.sh:41
+#: helpers/lilo-other-system.sh:65
 msgid "partition"
 msgstr ""
 
@@ -247,94 +247,94 @@ msgstr ""
 msgid "Root device is unspecified."
 msgstr ""
 
-#: helpers/lilo-parser.sh:402 backend3/lilo:142
-msgid "failsafe"
-msgstr ""
-
-#: backend3/lilo:105
+#: backend3/lilo:107
 msgid "b"
 msgstr ""
 
-#: backend3/lilo:106
+#: backend3/lilo:108
 msgid "kb"
 msgstr ""
 
-#: backend3/lilo:107
+#: backend3/lilo:109
 msgid "Mb"
 msgstr ""
 
-#: backend3/lilo:108
+#: backend3/lilo:110
 msgid "Gb"
 msgstr ""
 
-#: backend3/lilo:109
+#: backend3/lilo:111
 msgid "Tb"
 msgstr ""
 
-#: backend3/lilo:111
+#: backend3/lilo:113
 msgid "Hard drive"
 msgstr ""
 
-#: backend3/lilo:112
+#: backend3/lilo:114
 msgid "Linux partition"
 msgstr ""
 
-#: backend3/lilo:148
-msgid "graphics"
+#: backend3/lilo:144
+msgid "failsafe"
 msgstr ""
 
 #: backend3/lilo:149
+msgid "graphics"
+msgstr ""
+
+#: backend3/lilo:150
 msgid "text"
 msgstr ""
 
-#: backend3/lilo:153
+#: backend3/lilo:154
 msgid "none"
 msgstr ""
 
-#: backend3/lilo:154
+#: backend3/lilo:155
 msgid "auto"
 msgstr ""
 
-#: backend3/lilo:155
+#: backend3/lilo:156
 msgid "mbr"
 msgstr ""
 
-#: backend3/lilo:156
+#: backend3/lilo:157
 msgid "mbr-only"
 msgstr ""
 
-#: backend3/lilo:159
+#: backend3/lilo:160
 msgid "no wait"
 msgstr ""
 
-#: backend3/lilo:160
+#: backend3/lilo:161
 msgid "1 second"
 msgstr ""
 
-#: backend3/lilo:161
+#: backend3/lilo:162
 msgid "5 seconds"
 msgstr ""
 
-#: backend3/lilo:162
+#: backend3/lilo:163
 msgid "10 seconds"
 msgstr ""
 
-#: backend3/lilo:163
+#: backend3/lilo:164
 msgid "20 seconds"
 msgstr ""
 
-#: backend3/lilo:164
+#: backend3/lilo:165
 msgid "1 minute"
 msgstr ""
 
-#: backend3/lilo:165
+#: backend3/lilo:166
 msgid "infinite"
 msgstr ""
 
-#: backend3/lilo:269
+#: backend3/lilo:270
 msgid "Unable to create temp config file"
 msgstr ""
 
-#: backend3/lilo:275
+#: backend3/lilo:276
 msgid "Unable to write new lilo.conf"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-24 14:33+0400\n"
+"POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,113 +21,337 @@ msgid "Ldap user accounts"
 msgstr ""
 
 #: standard input:1
-msgid "New account:"
+msgid "You must enter bind data for base"
 msgstr ""
 
-#: standard input:2
-msgid "Create"
+#: standard input:2 input:21
+msgid "on host"
 msgstr ""
 
 #: standard input:3
-msgid "Account"
+msgid "root dn:"
 msgstr ""
 
 #: standard input:4
-msgid "Name:"
+msgid "root pw:"
 msgstr ""
 
 #: standard input:5
-msgid "Last name:"
+msgid "Bind"
 msgstr ""
 
 #: standard input:6
-msgid "First name:"
+msgid "or"
 msgstr ""
 
 #: standard input:7
-msgid "Patronym:"
+msgid "Select other"
 msgstr ""
 
 #: standard input:8
-msgid "Password:"
+msgid "Select userlist source"
 msgstr ""
 
 #: standard input:9
-msgid "Generate automatically"
+msgid "Current auth state"
 msgstr ""
 
-#: standard input:10
-msgid "(enter passphrase)"
+#: standard input:10 input:70
+msgid "/etc/passwd file on this server"
 msgstr ""
 
 #: standard input:11
-msgid "(repeat passphrase)"
+msgid "LDAP base on this server"
 msgstr ""
 
 #: standard input:12
-msgid "Generate"
+msgid "Other LDAP server"
 msgstr ""
 
 #: standard input:13
-msgid "Work"
+msgid "Remote host:"
 msgstr ""
 
 #: standard input:14
-msgid "Organization:"
+msgid "remote base:"
 msgstr ""
 
 #: standard input:15
-msgid "Title:"
+msgid "Use selected source"
 msgstr ""
 
-#: standard input:16
-msgid "Phone:"
+#: standard input:16 input:87
+msgid "Return to list"
 msgstr ""
 
 #: standard input:17
-msgid "Mobile phone:"
+msgid "Used local:"
 msgstr ""
 
 #: standard input:18
-msgid "E-mail"
+msgid "tcb"
 msgstr ""
 
 #: standard input:19
-msgid "Remove"
+msgid "on localhost"
 msgstr ""
 
 #: standard input:20
-msgid "New email:"
-msgstr ""
-
-#: standard input:21
-msgid "Add"
+msgid "Used base:"
 msgstr ""
 
 #: standard input:22
-msgid "Additional info"
+msgid "New account:"
 msgstr ""
 
 #: standard input:23
-msgid "Home directory:"
+msgid "Create"
 msgstr ""
 
 #: standard input:24
-msgid "Shell:"
+msgid "Source selector"
 msgstr ""
 
 #: standard input:25
-msgid "User settings successfully updated"
+msgid "Migration tools"
 msgstr ""
 
 #: standard input:26
-msgid "Save settings"
+msgid "Filter:"
 msgstr ""
 
 #: standard input:27
+msgid "System only"
+msgstr ""
+
+#: standard input:28
+msgid "Peoples"
+msgstr ""
+
+#: standard input:29
+msgid "UID From:"
+msgstr ""
+
+#: standard input:30 input:74
+msgid "to"
+msgstr ""
+
+#: standard input:31
+msgid "Select"
+msgstr ""
+
+#: standard input:32
+msgid "Account"
+msgstr ""
+
+#: standard input:33
+msgid "Name:"
+msgstr ""
+
+#: standard input:34
+msgid "Last name:"
+msgstr ""
+
+#: standard input:35
+msgid "First name:"
+msgstr ""
+
+#: standard input:36
+msgid "Patronym:"
+msgstr ""
+
+#: standard input:37
+msgid "Home directory:"
+msgstr ""
+
+#: standard input:38
+msgid "Shell:"
+msgstr ""
+
+#: standard input:39
+msgid "Password:"
+msgstr ""
+
+#: standard input:40
+msgid "Generate automatically"
+msgstr ""
+
+#: standard input:41
+msgid "(enter passphrase)"
+msgstr ""
+
+#: standard input:42
+msgid "(repeat passphrase)"
+msgstr ""
+
+#: standard input:43
+msgid "Generate"
+msgstr ""
+
+#: standard input:44
+msgid "Photo"
+msgstr ""
+
+#: standard input:45
+msgid "Set"
+msgstr ""
+
+#: standard input:46
+msgid "Del"
+msgstr ""
+
+#: standard input:47
+msgid "Select new user photo:"
+msgstr ""
+
+#: standard input:48 input:77
+msgid "Upload"
+msgstr ""
+
+#: standard input:49
+msgid "Cansel"
+msgstr ""
+
+#: standard input:50
+msgid "Group Membership"
+msgstr ""
+
+#: standard input:51
+msgid "Member of"
+msgstr ""
+
+#: standard input:52
+msgid "Available"
+msgstr ""
+
+#: standard input:53
+msgid "Work"
+msgstr ""
+
+#: standard input:54
+msgid "Organization:"
+msgstr ""
+
+#: standard input:55
+msgid "Organisation Unit:"
+msgstr ""
+
+#: standard input:56
+msgid "Title:"
+msgstr ""
+
+#: standard input:57
+msgid "Phone:"
+msgstr ""
+
+#: standard input:58
+msgid "Mobile phone:"
+msgstr ""
+
+#: standard input:59
+msgid "E-mail"
+msgstr ""
+
+#: standard input:60
+msgid "Remove"
+msgstr ""
+
+#: standard input:61
+msgid "New email:"
+msgstr ""
+
+#: standard input:62
+msgid "Add"
+msgstr ""
+
+#: standard input:63
+msgid "Samba"
+msgstr ""
+
+#: standard input:64
+msgid "Do not forget save data..."
+msgstr ""
+
+#: standard input:65
+msgid "User settings successfully updated"
+msgstr ""
+
+#: standard input:66
+msgid "Save settings"
+msgstr ""
+
+#: standard input:67
 msgid "Delete user"
 msgstr ""
 
-#: backend3/ldap-users:235
+#: standard input:68
+msgid "Migration tool"
+msgstr ""
+
+#: standard input:69
+msgid "Select migration source"
+msgstr ""
+
+#: standard input:71
+msgid "Uploaded file. (Formated such as /etc/passwd )"
+msgstr ""
+
+#: standard input:72
+msgid "Other server (LDAP, AD or 389ds) "
+msgstr ""
+
+#: standard input:73
+msgid "Filter UID. From"
+msgstr ""
+
+#: standard input:75
+msgid "(re)Read file"
+msgstr ""
+
+#: standard input:76
+msgid "Upload file:"
+msgstr ""
+
+#: standard input:78
+msgid "Login"
+msgstr ""
+
+#: standard input:79
+msgid "UID"
+msgstr ""
+
+#: standard input:80
+msgid "GID"
+msgstr ""
+
+#: standard input:81
+msgid "Gecos"
+msgstr ""
+
+#: standard input:82
+msgid "Home dir"
+msgstr ""
+
+#: standard input:83
+msgid "Shell"
+msgstr ""
+
+#: standard input:84
+msgid "Password {hash}"
+msgstr ""
+
+#: standard input:85
+msgid "Select a baseDN, which will be taken accounts"
+msgstr ""
+
+#: standard input:86
+msgid "Export selected"
+msgstr ""
+
+#: type/ldap-account-name.scm:12
+msgid "only small latin letters, digits and '_' allowed"
+msgstr ""
+
+#: backend3/ldap-users:575
 msgid "Passwords mismatch"
 msgstr ""

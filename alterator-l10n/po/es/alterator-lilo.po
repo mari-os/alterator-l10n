@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 14:25+0400\n"
+"POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: 2009-03-20 16:42-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,23 +19,23 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: backend3/lilo:164
+#: backend3/lilo:165
 msgid "1 minute"
 msgstr "1 minuto"
 
-#: backend3/lilo:160
+#: backend3/lilo:161
 msgid "1 second"
 msgstr "1 segundo"
 
-#: backend3/lilo:162
+#: backend3/lilo:163
 msgid "10 seconds"
 msgstr "10 segundos"
 
-#: backend3/lilo:163
+#: backend3/lilo:164
 msgid "20 seconds"
 msgstr "20 segundos"
 
-#: backend3/lilo:161
+#: backend3/lilo:162
 msgid "5 seconds"
 msgstr "5 segundos"
 
@@ -55,8 +55,8 @@ msgstr "Parámetros adicionais"
 msgid "Alias:"
 msgstr "Alias:"
 
-#: ui/lilo/edit-source/index.scm:36 ui/lilo/index.scm:136
-#: ui/lilo/expert/index.scm:206
+#: ui/lilo/index.scm:126 ui/lilo/expert/index.scm:206
+#: ui/lilo/edit-source/index.scm:57
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -64,11 +64,11 @@ msgstr "Aplicar"
 msgid "Boot variants"
 msgstr "Variantes del Boot"
 
-#: standard input:1
+#: standard input:2
 msgid "Bootloader"
 msgstr "Rodador de Boot"
 
-#: standard input:2
+#: standard input:1
 #, fuzzy
 msgid "Bootloader setup"
 msgstr "Rodador de Boot"
@@ -97,24 +97,24 @@ msgstr "Borrar"
 msgid "Device:"
 msgstr "Dispositivo:"
 
-#: ui/lilo/edit-source/index.scm:21 ui/lilo/expert/index.scm:119
+#: ui/lilo/expert/index.scm:119 ui/lilo/edit-source/index.scm:38
 msgid "Don't install bootloader"
 msgstr "No instalar gestor de boot"
 
-#: ui/lilo/edit-source/index.scm:25 ui/lilo/expert/index.scm:123
+#: ui/lilo/expert/index.scm:123 ui/lilo/edit-source/index.scm:42
 msgid "Edit lilo.conf"
 msgstr "Editar lilo.conf"
 
-#: ui/lilo/edit-source/index.scm:24 ui/lilo/index.scm:137
-#: ui/lilo/expert/index.scm:122
+#: ui/lilo/index.scm:127 ui/lilo/expert/index.scm:122
+#: ui/lilo/edit-source/index.scm:41
 msgid "Expert mode"
 msgstr "Modo Avanzado"
 
-#: backend3/lilo:108
+#: backend3/lilo:110
 msgid "Gb"
 msgstr "Gb"
 
-#: backend3/lilo:111
+#: backend3/lilo:113
 msgid "Hard drive"
 msgstr "HD"
 
@@ -126,11 +126,11 @@ msgstr ""
 msgid "Initrd:"
 msgstr "Initrd:"
 
-#: ui/lilo/index.scm:108 ui/lilo/expert/index.scm:131
+#: ui/lilo/index.scm:97 ui/lilo/expert/index.scm:131
 msgid "Install boot loader on:"
 msgstr "Instale el gerenciador de inicialización en:"
 
-#: ui/lilo/index.scm:125 ui/lilo/expert/index.scm:142
+#: ui/lilo/index.scm:114 ui/lilo/expert/index.scm:142
 msgid "Interface timeout:"
 msgstr "Tiempo de Interfaz:"
 
@@ -154,7 +154,7 @@ msgstr "La clasificación está vacía."
 msgid "Label:"
 msgstr "Clasificación:"
 
-#: ui/lilo/edit-source/index.scm:31
+#: ui/lilo/edit-source/index.scm:49
 msgid "Lilo options:"
 msgstr "Opciones Lilo:"
 
@@ -162,15 +162,15 @@ msgstr "Opciones Lilo:"
 msgid "Linux kernel"
 msgstr "Linux Kernel"
 
-#: backend3/lilo:112
+#: backend3/lilo:114
 msgid "Linux partition"
 msgstr "Partición Linux"
 
-#: ui/lilo/index.scm:122
+#: ui/lilo/index.scm:111
 msgid "Load by default:"
 msgstr "Rotar predeterminadamiente"
 
-#: ui/lilo/index.scm:113
+#: ui/lilo/index.scm:102
 msgid "Load other OS:"
 msgstr "Rotar otros SO:"
 
@@ -178,7 +178,7 @@ msgstr "Rotar otros SO:"
 msgid "Master boot"
 msgstr "Boot Principal"
 
-#: backend3/lilo:107
+#: backend3/lilo:109
 msgid "Mb"
 msgstr "Mb"
 
@@ -223,8 +223,8 @@ msgstr ""
 msgid "Raid-extra-boot:"
 msgstr "Raid-extra-boot:"
 
-#: ui/lilo/edit-source/index.scm:37 ui/lilo/expert/index.scm:187
-#: ui/lilo/expert/index.scm:207
+#: ui/lilo/expert/index.scm:187 ui/lilo/expert/index.scm:207
+#: ui/lilo/edit-source/index.scm:58
 msgid "Reset"
 msgstr "Resetar"
 
@@ -244,7 +244,7 @@ msgstr "Salvar"
 msgid "Section already exists."
 msgstr "Sección ya existe."
 
-#: ui/lilo/edit-source/index.scm:23 ui/lilo/expert/index.scm:121
+#: ui/lilo/expert/index.scm:121 ui/lilo/edit-source/index.scm:40
 msgid "Simple mode"
 msgstr "Modo Simples"
 
@@ -252,11 +252,11 @@ msgstr "Modo Simples"
 msgid "Table:"
 msgstr "Tabela:"
 
-#: backend3/lilo:109
+#: backend3/lilo:111
 msgid "Tb"
 msgstr "Tb"
 
-#: backend3/lilo:269
+#: backend3/lilo:270
 #, fuzzy
 msgid "Unable to create temp config file"
 msgstr "No és posible crear rede"
@@ -281,7 +281,7 @@ msgstr "No fue posible configurar el Reloj"
 msgid "Unable to stat"
 msgstr "No fue posible configurar el Reloj"
 
-#: backend3/lilo:275
+#: backend3/lilo:276
 #, fuzzy
 msgid "Unable to write new lilo.conf"
 msgstr "No és posible crear rede"
@@ -290,11 +290,11 @@ msgstr "No és posible crear rede"
 msgid "Unknown section"
 msgstr "Sección desconocida"
 
-#: backend3/lilo:154
+#: backend3/lilo:155
 msgid "auto"
 msgstr "auto"
 
-#: backend3/lilo:105
+#: backend3/lilo:107
 msgid "b"
 msgstr "b"
 
@@ -308,15 +308,15 @@ msgstr "Archivo no encontrado"
 msgid "device not found"
 msgstr "Archivo no encontrado"
 
-#: helpers/lilo-parser.sh:402 backend3/lilo:142
+#: backend3/lilo:144
 msgid "failsafe"
 msgstr "FailSafe"
 
-#: backend3/lilo:148
+#: backend3/lilo:149
 msgid "graphics"
 msgstr "gráficos"
 
-#: backend3/lilo:165
+#: backend3/lilo:166
 msgid "infinite"
 msgstr "infinito"
 
@@ -324,32 +324,32 @@ msgstr "infinito"
 msgid "is not a block device"
 msgstr ""
 
-#: backend3/lilo:106
+#: backend3/lilo:108
 #, fuzzy
 msgid "kb"
 msgstr "b"
 
-#: backend3/lilo:155
+#: backend3/lilo:156
 msgid "mbr"
 msgstr "MBR"
 
-#: backend3/lilo:156
+#: backend3/lilo:157
 msgid "mbr-only"
 msgstr "Apenas MBR"
 
-#: backend3/lilo:159
+#: backend3/lilo:160
 msgid "no wait"
 msgstr "no aguarde"
 
-#: backend3/lilo:153
+#: backend3/lilo:154
 msgid "none"
 msgstr "nada"
 
-#: helpers/lilo-other-system.sh:41
+#: helpers/lilo-other-system.sh:65
 msgid "partition"
 msgstr "particíon"
 
-#: backend3/lilo:149
+#: backend3/lilo:150
 msgid "text"
 msgstr "texto"
 

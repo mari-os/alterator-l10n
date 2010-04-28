@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,97 +16,88 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: standard input:12 ui/updates/index.scm:90
-msgid "Apply"
+#: standard input:1
+msgid "System update"
 msgstr ""
 
-#: backend3/updates:64
-msgid "Custom url"
+#: standard input:1 ui/updates/index.scm:8
+msgid "Don't update system"
 msgstr ""
 
-#: backend3/updates:136
-msgid "Day of month should be defined"
+#: standard input:2 ui/updates/index.scm:9
+msgid "System update managed by server"
+msgstr ""
+
+#: standard input:3 ui/updates/index.scm:10
+msgid "Update system automatically from Internet"
+msgstr ""
+
+#: standard input:4 ui/updates/index.scm:14
+msgid "Source:"
+msgstr ""
+
+#: standard input:5 ui/updates/index.scm:22
+msgid "Repositories:"
+msgstr ""
+
+#: standard input:6 ui/updates/index.scm:27
+msgid "Update schedule"
+msgstr ""
+
+#: standard input:7 ui/updates/index.scm:34
+msgid "Every day"
+msgstr ""
+
+#: standard input:8 ui/updates/index.scm:37
+msgid "Every week at:"
+msgstr ""
+
+#: standard input:9 ui/updates/index.scm:40
+msgid "Every month at day:"
 msgstr ""
 
 #: standard input:10
 msgid "Day of month:"
 msgstr ""
 
-#: backend3/updates:131
-msgid "Day of week should be selected"
-msgstr ""
-
-#: standard input:1 ui/updates/index.scm:44
-msgid "Don't update system"
-msgstr ""
-
-#: standard input:7 ui/updates/index.scm:70
-msgid "Every day"
-msgstr ""
-
-#: standard input:9 ui/updates/index.scm:76
-msgid "Every month at day:"
-msgstr ""
-
-#: standard input:8 ui/updates/index.scm:73
-msgid "Every week at:"
-msgstr ""
-
-#: interfaces/guile/type/updates-day.scm:12
-msgid "Invalid day of month"
-msgstr ""
-
-#: backend3/updates:196
-msgid ""
-"Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
-msgstr ""
-
-#: standard input:5 ui/updates/index.scm:58
-msgid "Repositories:"
-msgstr ""
-
-#: ui/updates/index.scm:91
-msgid "Reset"
-msgstr ""
-
-#: standard input:4 ui/updates/index.scm:50
-msgid "Source:"
-msgstr ""
-
-#: standard input:1
-msgid "System update"
-msgstr ""
-
-#: standard input:2 ui/updates/index.scm:45
-msgid "System update managed by server"
-msgstr ""
-
-#: standard input:11 ui/updates/index.scm:83
+#: standard input:11 ui/updates/index.scm:47
 msgid "Time:"
 msgstr ""
 
-#: standard input:6 ui/updates/index.scm:63
-msgid "Update schedule"
+#: standard input:12 ui/updates/index.scm:54
+msgid "Apply"
 msgstr ""
 
-#: standard input:3 ui/updates/index.scm:46
-msgid "Update system automatically from Internet"
+#: standard input:13 ui/updates/index.scm:55
+msgid "Reset"
 msgstr ""
 
-#: backend3/updates:187
-msgid "You should define a minimum one repository"
+#: type/updates-day.scm:12
+msgid "Invalid day of month"
 msgstr ""
 
-#: backend3/updates:193
-msgid "You should define custom url"
-msgstr ""
-
-#: backend3/updates:73
-msgid "friday"
+#: backend3/updates:64
+msgid "Custom url"
 msgstr ""
 
 #: backend3/updates:69
 msgid "monday"
+msgstr ""
+
+#: backend3/updates:70
+msgid "tuesday"
+msgstr ""
+
+#: backend3/updates:71
+msgid "wednesday"
+msgstr ""
+
+#: backend3/updates:72
+msgid "thursday"
+msgstr ""
+
+#: backend3/updates:73
+msgid "friday"
 msgstr ""
 
 #: backend3/updates:74
@@ -117,14 +108,27 @@ msgstr ""
 msgid "sunday"
 msgstr ""
 
-#: backend3/updates:72
-msgid "thursday"
+#: backend3/updates:131
+msgid "Day of week should be selected"
 msgstr ""
 
-#: backend3/updates:70
-msgid "tuesday"
+#: backend3/updates:136
+msgid "Day of month should be defined"
 msgstr ""
 
-#: backend3/updates:71
-msgid "wednesday"
+#: backend3/updates:146
+msgid "Unable to create temp file"
+msgstr ""
+
+#: backend3/updates:192
+msgid "You should define a minimum one repository"
+msgstr ""
+
+#: backend3/updates:198
+msgid "You should define custom url"
+msgstr ""
+
+#: backend3/updates:201
+msgid ""
+"Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-27 15:00+0300\n"
+"POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: 2009-08-21 14:04+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -15,46 +15,90 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:6 ui/auth/index.scm:54
+#: standard input:13 ui/auth/index.scm:43
 msgid "Apply"
 msgstr "Застосувати"
-
-#: standard input:1 ui/auth/index.scm:33
-msgid "Auth type:"
-msgstr "Тип автентифікації:"
 
 #: standard input:1
 msgid "Authentication"
 msgstr "Автентифікація"
 
-#: standard input:3 ui/auth/index.scm:41
+#: standard input:1
+#, fuzzy
+msgid "Available authentication methods"
+msgstr "Автентифікацію провалено"
+
+#: standard input:9
 msgid "Base DN:"
 msgstr "Базовий DN:"
 
-#: standard input:5 ui/auth/index.scm:48
-msgid "Enable TLS/SSL"
-msgstr "Дозволити TLS/SSL"
+#: standard input:11 ui/auth/index.scm:27
+#, fuzzy
+msgid "Current domain:"
+msgstr "Поточна дата:"
 
-#: backend3/auth:33
-msgid "LDAP"
-msgstr "LDAP"
+#: standard input:12 ui/auth/index.scm:32
+#, fuzzy
+msgid "Domain list:"
+msgstr "Домен:"
 
-#: standard input:2 ui/auth/index.scm:38
+#: backend3/auth:161
+#, fuzzy
+msgid "Domain not set"
+msgstr "Домен"
+
+#: standard input:4
+#, fuzzy
+msgid "Kerberos domain"
+msgstr "Призначте домен:"
+
+#: standard input:3
+#, fuzzy
+msgid "LDAP base"
+msgstr "Сервер LDAP:"
+
+#: standard input:7
 msgid "LDAP server:"
 msgstr "Сервер LDAP:"
 
-#: backend3/auth:30
+#: standard input:2
 msgid "Local files"
 msgstr "Локальні файли"
 
-#: standard input:4 ui/auth/index.scm:44
-msgid "Port (optional):"
-msgstr "Порт (не обов'язково):"
+#: standard input:5
+#, fuzzy
+msgid "Multi"
+msgstr "Мультимедіа"
 
-#: standard input:7 ui/auth/index.scm:55
-msgid "Reset"
-msgstr "Скинути"
+#: standard input:6
+msgid "Pkcs11"
+msgstr ""
 
+#: standard input:10
+msgid "Select"
+msgstr "Обрати"
+
+#: standard input:8
+#, fuzzy
+msgid "TLS/SSL"
+msgstr "Дозволити TLS/SSL"
+
+#: backend3/auth:61
+#, fuzzy
+msgid "local"
+msgstr "Локальний"
+
+#~ msgid "Auth type:"
+#~ msgstr "Тип автентифікації:"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "Port (optional):"
+#~ msgstr "Порт (не обов'язково):"
+
+#~ msgid "Reset"
+#~ msgstr "Скинути"

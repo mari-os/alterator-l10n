@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-03 16:47+0400\n"
+"POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: 2009-08-23 02:22+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:12 ui/quota/index.scm:73
 msgid "Apply"
@@ -30,17 +30,9 @@ msgstr "обмеження використання диску"
 msgid "Filesystem:"
 msgstr "Файлова система:"
 
-#: standard input:7 ui/quota/index.scm:56
+#: standard input:7 input:11 ui/quota/index.scm:56 ui/quota/index.scm:68
 msgid "Hard limit:"
 msgstr "Жорстке обмеження:"
-
-#: standard input:11 ui/quota/index.scm:68
-msgid "Inode hard limit:"
-msgstr "Жорстке обмеження кількості файлів:"
-
-#: standard input:10 ui/quota/index.scm:64
-msgid "Inode soft limit:"
-msgstr "М1яке обмеження кількості файлів:"
 
 #: standard input:9 ui/quota/index.scm:60
 msgid "Inodes used:"
@@ -50,7 +42,7 @@ msgstr "Кількість файлів:"
 msgid "Reset"
 msgstr "Скинути"
 
-#: standard input:5 ui/quota/index.scm:52
+#: standard input:5 input:10 ui/quota/index.scm:52 ui/quota/index.scm:64
 msgid "Soft limit:"
 msgstr "М’яке обмеження:"
 
@@ -67,3 +59,8 @@ msgstr "Користувач:"
 msgid "kb"
 msgstr "кб"
 
+#~ msgid "Inode hard limit:"
+#~ msgstr "Жорстке обмеження кількості файлів:"
+
+#~ msgid "Inode soft limit:"
+#~ msgstr "М1яке обмеження кількості файлів:"

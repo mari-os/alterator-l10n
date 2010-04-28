@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-10 15:35+0400\n"
+"POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,16 +24,44 @@ msgstr ""
 msgid "Harddisks"
 msgstr ""
 
-#: ui/vm/choice.scm:28
-msgid "Select"
+#: ui/vm/ortodox.scm:40
+msgid " of "
 msgstr ""
 
-#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
-msgid "OK"
+#: ui/vm/ortodox.scm:40
+msgid " free"
 msgstr ""
 
-#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
-msgid "Cancel"
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
+msgstr ""
+
+#: ui/vm/ortodox.scm:70
+msgid "All data from all your disks will be lost! Continue?"
+msgstr ""
+
+#: ui/vm/ortodox.scm:78
+msgid "Select disks for use"
+msgstr ""
+
+#: ui/vm/ortodox.scm:83
+msgid "Select profile"
+msgstr ""
+
+#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
+msgid "Options"
+msgstr ""
+
+#: ui/vm/ortodox.scm:92
+msgid "Clear all before applying profile"
+msgstr ""
+
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
+msgstr ""
+
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
 msgstr ""
 
 #.
@@ -324,8 +352,46 @@ msgstr ""
 msgid "Operation not permitted"
 msgstr ""
 
-#: ui/vm/functions.scm:3
-msgid "Please wait..."
+#: ui/vm/blonde.scm:45
+msgid "Name"
+msgstr ""
+
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:189
+msgid "Filesystem"
+msgstr ""
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
+msgstr ""
+
+#: ui/vm/blonde.scm:83
+msgid "Use unpartitioned disk space"
+msgstr ""
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr ""
+
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr ""
+
+#: ui/vm/blonde.scm:91
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr ""
+
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr ""
+
+#: ui/vm/blonde.scm:101
+msgid "Select installation method"
+msgstr ""
+
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
 msgstr ""
 
 #: ui/vm/lucky.scm:60
@@ -367,10 +433,6 @@ msgstr ""
 
 #: ui/vm/table.scm:188
 msgid "Size [ free ]"
-msgstr ""
-
-#: ui/vm/table.scm:189 ui/vm/blonde.scm:46
-msgid "Filesystem"
 msgstr ""
 
 #: ui/vm/table.scm:192
@@ -448,50 +510,8 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: ui/vm/blonde.scm:45
-msgid "Name"
-msgstr ""
-
-#: ui/vm/blonde.scm:47
-msgid "Size [free]"
-msgstr ""
-
-#: ui/vm/blonde.scm:83
-msgid "Use unpartitioned disk space"
-msgstr ""
-
-#: ui/vm/blonde.scm:84
-msgid "Destroy all partitions, then autopartition"
-msgstr ""
-
-#: ui/vm/blonde.scm:85
-msgid "Custom install"
-msgstr ""
-
-#: ui/vm/blonde.scm:91
-msgid ""
-"All data from all your disks (including removable ones) will be lost! "
-"Continue?"
-msgstr ""
-
-#: ui/vm/blonde.scm:97
-msgid "Volumes"
-msgstr ""
-
-#: ui/vm/blonde.scm:101
-msgid "Select installation method"
-msgstr ""
-
-#: ui/vm/blonde.scm:138
-msgid "Unable to autopartition, not enough disk space"
-msgstr ""
-
 #: ui/vm/popup.scm:92
 msgid "Objects"
-msgstr ""
-
-#: ui/vm/popup.scm:96 ui/vm/ortodox.scm:89
-msgid "Options"
 msgstr ""
 
 #: ui/vm/popup.scm:100
@@ -502,38 +522,18 @@ msgstr ""
 msgid "Show extra options"
 msgstr ""
 
-#: ui/vm/ortodox.scm:40
-msgid " of "
+#: ui/vm/popup.scm:109 ui/vm/choice.scm:34
+msgid "OK"
 msgstr ""
 
-#: ui/vm/ortodox.scm:40
-msgid " free"
+#: ui/vm/popup.scm:112 ui/vm/choice.scm:35
+msgid "Cancel"
 msgstr ""
 
-#: ui/vm/ortodox.scm:52
-msgid "free space required:"
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
 msgstr ""
 
-#: ui/vm/ortodox.scm:70
-msgid "All data from all your disks will be lost! Continue?"
-msgstr ""
-
-#: ui/vm/ortodox.scm:78
-msgid "Select disks for use"
-msgstr ""
-
-#: ui/vm/ortodox.scm:83
-msgid "Select profile"
-msgstr ""
-
-#: ui/vm/ortodox.scm:92
-msgid "Clear all before applying profile"
-msgstr ""
-
-#: ui/vm/ortodox.scm:98
-msgid "Let me make my changes after profile applying"
-msgstr ""
-
-#: ui/vm/ortodox.scm:129
-msgid "Unable to apply selected profile, not enough disk space"
+#: ui/vm/choice.scm:28
+msgid "Select"
 msgstr ""

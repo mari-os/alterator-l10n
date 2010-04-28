@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-01 18:37+0400\n"
+"POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: 2009-03-19 15:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:3 ui/auth/index.scm:43
+#: standard input:13 ui/auth/index.scm:43
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -27,45 +27,73 @@ msgstr "Aplicar"
 msgid "Authentication"
 msgstr ""
 
-#: standard input:1 ui/auth/index.scm:27
+#: standard input:1
+#, fuzzy
+msgid "Available authentication methods"
+msgstr "Seleccionar modo adelante:"
+
+#: standard input:9
+msgid "Base DN:"
+msgstr "Base DN:"
+
+#: standard input:11 ui/auth/index.scm:27
 #, fuzzy
 msgid "Current domain:"
 msgstr "Configurar la Fecha Actual:"
 
-#: standard input:2 ui/auth/index.scm:32
+#: standard input:12 ui/auth/index.scm:32
 #, fuzzy
 msgid "Domain list:"
 msgstr "Accesso de Escrita"
 
-#: backend3/auth:81 backend3/auth:88
+#: backend3/auth:161
 msgid "Domain not set"
 msgstr ""
 
-#: backend3/auth:37
-msgid "custom"
+#: standard input:4
+#, fuzzy
+msgid "Kerberos domain"
+msgstr "Borrar conección"
+
+#: standard input:3
+#, fuzzy
+msgid "LDAP base"
+msgstr "Servidor LDAP:"
+
+#: standard input:7
+msgid "LDAP server:"
+msgstr "Servidor LDAP:"
+
+#: standard input:2
+msgid "Local files"
+msgstr "Local de los archivos"
+
+#: standard input:5
+msgid "Multi"
 msgstr ""
 
-#: backend3/auth:28
+#: standard input:6
+msgid "Pkcs11"
+msgstr ""
+
+#: standard input:10
+msgid "Select"
+msgstr "Seleccionar"
+
+#: standard input:8
+#, fuzzy
+msgid "TLS/SSL"
+msgstr "Posibilitar TLS/SSL"
+
+#: backend3/auth:61
 msgid "local"
 msgstr ""
 
 #~ msgid "Auth type:"
 #~ msgstr "Tipo de Autentificación:"
 
-#~ msgid "Base DN:"
-#~ msgstr "Base DN:"
-
-#~ msgid "Enable TLS/SSL"
-#~ msgstr "Posibilitar TLS/SSL"
-
 #~ msgid "LDAP"
 #~ msgstr "LDAP"
-
-#~ msgid "LDAP server:"
-#~ msgstr "Servidor LDAP:"
-
-#~ msgid "Local files"
-#~ msgstr "Local de los archivos"
 
 #~ msgid "Port (optional):"
 #~ msgstr "Porta (Opcionale):"

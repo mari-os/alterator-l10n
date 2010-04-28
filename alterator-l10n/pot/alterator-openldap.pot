@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-12 14:08+0400\n"
+"POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,69 +21,194 @@ msgid "Directory service LDAP"
 msgstr ""
 
 #: standard input:1
-msgid "Directory server configuration (OpenLDAP)"
+msgid "Manage base:"
 msgstr ""
 
 #: standard input:2
-msgid "Start, stop or restart service..."
+msgid "All option on this form is demo only !!!"
 msgstr ""
 
 #: standard input:3
-msgid "Main settings"
-msgstr ""
-
-#: standard input:4
-msgid "Accept local connections only"
-msgstr ""
-
-#: standard input:5
-msgid "Enable LDAP port"
-msgstr ""
-
-#: standard input:6
-msgid "Enable LDAPS (TLS)"
-msgstr ""
-
-#: standard input:7 input:15
-msgid "Apply"
-msgstr ""
-
-#: standard input:8
-msgid "Reset"
-msgstr ""
-
-#: standard input:9
-msgid "New base DN:"
-msgstr ""
-
-#: standard input:10
-msgid "Create"
-msgstr ""
-
-#: standard input:11
-msgid "Base DN"
-msgstr ""
-
-#: standard input:12
-msgid "Source"
-msgstr ""
-
-#: standard input:13
-msgid "Status"
-msgstr ""
-
-#: standard input:14
 msgid "Select action:"
 msgstr ""
 
-#: backend3/openldap:92
+#: standard input:4
+msgid "Containers:"
+msgstr ""
+
+#: standard input:5
+msgid "Available Containers:"
+msgstr ""
+
+#: standard input:6
+msgid "Create selected"
+msgstr ""
+
+#: standard input:7 input:22 input:46
+msgid "Return to list"
+msgstr ""
+
+#: standard input:8
+msgid "Main server option"
+msgstr ""
+
+#: standard input:9
+msgid "Enable SLAPD server"
+msgstr ""
+
+#: standard input:10
+msgid "Accept only local connections"
+msgstr ""
+
+#: standard input:11
+msgid "Enable LDAPS (TLS)"
+msgstr ""
+
+#: standard input:12
+msgid "LDAP on local and LDAPS (TLS) on all interfaces"
+msgstr ""
+
+#: standard input:13
+msgid "Save options"
+msgstr ""
+
+#: standard input:14
+msgid "Manage schema"
+msgstr ""
+
+#: standard input:15
+msgid "Schema management"
+msgstr ""
+
+#: standard input:16
+msgid "Schema"
+msgstr ""
+
+#: standard input:17 input:25
+msgid "Config File"
+msgstr ""
+
+#: standard input:18
+msgid "New schema file:"
+msgstr ""
+
+#: standard input:19
+msgid "New schema name:"
+msgstr ""
+
+#: standard input:20
+msgid "Add"
+msgstr ""
+
+#: standard input:21
+msgid "Include selected"
+msgstr ""
+
+#: standard input:23
+msgid "Bases management"
+msgstr ""
+
+#: standard input:24
+msgid "Base DN"
+msgstr ""
+
+#: standard input:26
+msgid "Status"
+msgstr ""
+
+#: standard input:27
+msgid "Delete selected bases"
+msgstr ""
+
+#: standard input:28
+msgid "New base DN:"
+msgstr ""
+
+#: standard input:29
+msgid "Create"
+msgstr ""
+
+#: standard input:30
+msgid "Expert mode"
+msgstr ""
+
+#: standard input:31
+msgid "New base:"
+msgstr ""
+
+#: standard input:32
+msgid "Upload LDIF file:"
+msgstr ""
+
+#: standard input:33
+msgid "Your FQDN:"
+msgstr ""
+
+#: standard input:34
+msgid "Base DN:"
+msgstr ""
+
+#: standard input:35
+msgid "Bind DN:"
+msgstr ""
+
+#: standard input:36
+msgid "Bind PW:"
+msgstr ""
+
+#: standard input:37
+msgid "Encript rootPW"
+msgstr ""
+
+#: standard input:38
+msgid "For SAMBA PDC"
+msgstr ""
+
+#: standard input:39
+msgid "Encripted passwor NOT accessible for other modules."
+msgstr ""
+
+#: standard input:40
+msgid "You will be asked for a password every time "
+msgstr ""
+
+#: standard input:41
+msgid "of using modules, e.g. \"Users\" and \"Groups\"."
+msgstr ""
+
+#: standard input:42
+msgid "Please, remember this password!!!"
+msgstr ""
+
+#: standard input:43
+msgid "Create containers:"
+msgstr ""
+
+#: standard input:44
+msgid "(Separated by commas or spaces. Without ou=)"
+msgstr ""
+
+#: standard input:45
+msgid "Create new base"
+msgstr ""
+
+#: backend3/openldap:101
 msgid "Publish"
 msgstr ""
 
-#: backend3/openldap:93
+#: backend3/openldap:102
 msgid "Unpublish"
 msgstr ""
 
-#: backend3/openldap:94
+#: backend3/openldap:103
 msgid "Delete"
+msgstr ""
+
+#: backend3/openldap:188
+msgid " used for system autentification."
+msgstr ""
+
+#. echo "$(set|grep -a "in_")" >&2
+#: backend3/openldap:402
+msgid "Not all data present."
 msgstr ""

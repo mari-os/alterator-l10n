@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-27 15:53+0300\n"
+"POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: 2009-08-22 01:51+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -15,62 +15,90 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: backend3/logs:118
-msgid "10 lines"
-msgstr "10 рядків"
+#: standard input:4
+msgid "Backup server"
+msgstr "Сервер резервного копіювання"
 
-#: backend3/logs:121
-msgid "100 lines"
-msgstr "100 рядків"
+#: standard input:5
+#, fuzzy
+msgid "E-mail"
+msgstr "Электрона пошта"
 
-#: backend3/logs:119
-msgid "20 lines"
-msgstr "20 рядків"
-
-#: backend3/logs:120
-msgid "50 lines"
-msgstr "50 рядків"
-
-#: standard input:8
-msgid "Change"
-msgstr "Змінити"
-
-#: standard input:5 ui/logs/index.scm:33
+#: ui/logs/index.scm:18
 msgid "First page"
 msgstr "Перша сторінка"
 
-#: standard input:6 ui/logs/index.scm:34
+#: standard input:3
+#, fuzzy
+msgid "Kernel"
+msgstr "Образ ядра:"
+
+#: ui/logs/index.scm:19
 msgid "Last page"
 msgstr "Остання сторінка"
 
-#: backend3/logs:99
-msgid "Lines %s-%s of %s"
-msgstr "Рядки %s-%s з %s"
-
-#: standard input:1 ui/logs/index.scm:25
+#: standard input:1 ui/logs/index.scm:9
 msgid "Logs:"
 msgstr "Журнали:"
 
-#: standard input:4 ui/logs/index.scm:31
+#: standard input:7
+msgid "Network firewall"
+msgstr "Брандмауер мережі"
+
+#: ui/logs/index.scm:16
 msgid "Next"
 msgstr "Далі"
 
-#: standard input:3 ui/logs/index.scm:30
+#: ui/logs/ajax.scm:47
+msgid "No logs available"
+msgstr ""
+
+#: ui/logs/index.scm:15
 msgid "Previous"
 msgstr "Попередній"
 
-#: standard input:7 ui/logs/index.scm:36
+#: standard input:2
+msgid "Security"
+msgstr ""
+
+#: standard input:2 ui/logs/index.scm:21
 msgid "Show:"
 msgstr "Показати:"
+
+#: standard input:6
+#, fuzzy
+msgid "System configurator"
+msgstr "Пароль адміністратора"
 
 #: standard input:1
 msgid "System logs"
 msgstr "Системні журнали"
 
-#: standard input:2
-msgid "View"
-msgstr "Огляд"
+#: standard input:8
+#, fuzzy
+msgid "System messages"
+msgstr "Системні журнали"
 
+#~ msgid "10 lines"
+#~ msgstr "10 рядків"
+
+#~ msgid "100 lines"
+#~ msgstr "100 рядків"
+
+#~ msgid "20 lines"
+#~ msgstr "20 рядків"
+
+#~ msgid "50 lines"
+#~ msgstr "50 рядків"
+
+#~ msgid "Change"
+#~ msgstr "Змінити"
+
+#~ msgid "Lines %s-%s of %s"
+#~ msgstr "Рядки %s-%s з %s"
+
+#~ msgid "View"
+#~ msgstr "Огляд"

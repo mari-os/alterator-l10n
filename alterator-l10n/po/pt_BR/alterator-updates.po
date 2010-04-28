@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-22 15:59+0400\n"
+"POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: 2009-03-31 00:01-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,8 +19,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:12
-#: ui/updates/index.scm:90
+#: standard input:12 ui/updates/index.scm:54
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -40,45 +39,40 @@ msgstr "Dia do mês:"
 msgid "Day of week should be selected"
 msgstr "Dia da semana, devem ser selecionados"
 
-#: standard input:1
-#: ui/updates/index.scm:44
+#: standard input:1 ui/updates/index.scm:8
 msgid "Don't update system"
 msgstr "Não sistema de atualização"
 
-#: standard input:7
-#: ui/updates/index.scm:70
+#: standard input:7 ui/updates/index.scm:34
 msgid "Every day"
 msgstr "Todos os dias"
 
-#: standard input:9
-#: ui/updates/index.scm:76
+#: standard input:9 ui/updates/index.scm:40
 msgid "Every month at day:"
 msgstr "Todos os meses no dia:"
 
-#: standard input:8
-#: ui/updates/index.scm:73
+#: standard input:8 ui/updates/index.scm:37
 msgid "Every week at:"
 msgstr "Todas as semanas em:"
 
-#: interfaces/guile/type/updates-day.scm:12
+#: type/updates-day.scm:12
 msgid "Invalid day of month"
 msgstr "Inválido dia do mês"
 
-#: backend3/updates:196
-msgid "Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
+#: backend3/updates:201
+msgid ""
+"Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
 msgstr "Inválido ou não suportado protocolo . Deve ser http, ftp ou arquivo"
 
-#: standard input:5
-#: ui/updates/index.scm:58
+#: standard input:5 ui/updates/index.scm:22
 msgid "Repositories:"
 msgstr "Repositórios:"
 
-#: ui/updates/index.scm:91
+#: standard input:13 ui/updates/index.scm:55
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:4
-#: ui/updates/index.scm:50
+#: standard input:4 ui/updates/index.scm:14
 msgid "Source:"
 msgstr "Fonte:"
 
@@ -86,31 +80,31 @@ msgstr "Fonte:"
 msgid "System update"
 msgstr "Atualização do sistema"
 
-#: standard input:2
-#: ui/updates/index.scm:45
+#: standard input:2 ui/updates/index.scm:9
 msgid "System update managed by server"
 msgstr "Sistema de atualização atualizado pelo servidor"
 
-#: standard input:11
-#: ui/updates/index.scm:83
+#: standard input:11 ui/updates/index.scm:47
 msgid "Time:"
 msgstr "Hora:"
 
-#: standard input:6
-#: ui/updates/index.scm:63
+#: backend3/updates:146
+msgid "Unable to create temp file"
+msgstr "Não é possível criar arquivo temporário"
+
+#: standard input:6 ui/updates/index.scm:27
 msgid "Update schedule"
 msgstr "Atualizar cronograma"
 
-#: standard input:3
-#: ui/updates/index.scm:46
+#: standard input:3 ui/updates/index.scm:10
 msgid "Update system automatically from Internet"
 msgstr "Atualizar o sistema automaticamente pela internet"
 
-#: backend3/updates:187
+#: backend3/updates:192
 msgid "You should define a minimum one repository"
 msgstr "Você deverá definir no minimo um repositório"
 
-#: backend3/updates:193
+#: backend3/updates:198
 msgid "You should define custom url"
 msgstr "Você deve definir um URL personalizado"
 
@@ -141,4 +135,3 @@ msgstr "terça-feira"
 #: backend3/updates:71
 msgid "wednesday"
 msgstr "quarta-feira"
-
