@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-11 10:07+0300\n"
+"POT-Creation-Date: 2010-05-12 17:22+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -16,6 +16,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 "X-Language: uk_UA\n"
+
+#: backend3/drweb:58
+msgid "100 lines"
+msgstr "100 рядків"
+
+#: backend3/drweb:59
+msgid "150 lines"
+msgstr "150 рядків"
+
+#: backend3/drweb:60
+msgid "200 lines"
+msgstr "200 рядків"
+
+#: backend3/drweb:56
+msgid "25 lines"
+msgstr "25 рядків"
+
+#: backend3/drweb:57
+msgid "50 lines"
+msgstr "50 рядків"
 
 #: input:14
 msgid "Applications"
@@ -29,6 +49,10 @@ msgstr "Застосувати"
 msgid "Automatic update bases"
 msgstr "Автоматично поновляти бази"
 
+#: input:26
+msgid "Begining with"
+msgstr ""
+
 #: input:15
 msgid "Created"
 msgstr "Створено"
@@ -41,19 +65,19 @@ msgstr "Поточний ключ"
 msgid "Current status: "
 msgstr "Поточний стан:"
 
-#: input:28
+#: input:32
 msgid "Date"
 msgstr "Дата"
 
-#: input:36
+#: input:40
 msgid "Date:"
 msgstr "Дата:"
 
-#: input:41
+#: input:45
 msgid "Delete file"
 msgstr "Вилучити файл"
 
-#: input:31
+#: input:35
 msgid "Delete selected"
 msgstr "Вилучити обране"
 
@@ -73,15 +97,15 @@ msgstr "Викинути"
 msgid "Expires"
 msgstr "Збігає"
 
-#: input:27
+#: input:31
 msgid "File"
 msgstr "Файл"
 
-#: input:29
+#: input:33
 msgid "From"
 msgstr "Від"
 
-#: input:37
+#: input:41
 msgid "From:"
 msgstr "Від:"
 
@@ -97,7 +121,7 @@ msgstr "Керування ключами:"
 msgid "Key string"
 msgstr "Рядки ключа"
 
-#: input:7
+#: input:8
 msgid "Last update status: "
 msgstr "Стан останнього поновлення"
 
@@ -105,23 +129,19 @@ msgstr "Стан останнього поновлення"
 msgid "New key"
 msgstr "Новий ключ"
 
-#: input:34
+#: input:38
 msgid "Quarantined file:"
 msgstr "Файли у карантині:"
-
-#: input:26
-msgid "Quarantined messages:"
-msgstr "Повідомлення у карантині:"
 
 #: input:22
 msgid "Quarantined:"
 msgstr "У карантині:"
 
-#: input:40
+#: input:44
 msgid "Reason:"
 msgstr "Підстава:"
 
-#: input:43
+#: input:47
 msgid "Release and deliver"
 msgstr "Звільнити та доставити"
 
@@ -129,15 +149,15 @@ msgstr "Звільнити та доставити"
 msgid "Reload service"
 msgstr "Перезавантажити"
 
-#: input:42
+#: input:46
 msgid "Rescan file"
 msgstr "Сканувати знову"
 
-#: input:32 input:44
+#: input:36 input:48
 msgid "Return"
 msgstr "Повернутися"
 
-#: input:33
+#: input:37
 msgid "Select another file:"
 msgstr "Обрати инший файл:"
 
@@ -145,7 +165,7 @@ msgstr "Обрати инший файл:"
 msgid "Select new key:"
 msgstr "Обрати новий ключ:"
 
-#: input:39
+#: input:43
 msgid "Subject:"
 msgstr "Тема:"
 
@@ -153,15 +173,15 @@ msgstr "Тема:"
 msgid "SubscriptionExpires"
 msgstr "Підписка збігає"
 
-#: input:30
+#: input:34
 msgid "To"
 msgstr "Для"
 
-#: input:38
+#: input:42
 msgid "To:"
 msgstr "Для:"
 
-#: input:8
+#: input:7
 msgid "Update now"
 msgstr "Оновити зараз"
 
@@ -185,6 +205,21 @@ msgstr "кожні"
 msgid "file(s)."
 msgstr "файл(и)."
 
+#: input:27
+msgid "line,"
+msgstr "рядку"
+
 #: input:6
 msgid "min."
 msgstr "хв."
+
+#: input:29
+msgid "per page."
+msgstr "на сторінку"
+
+#: input:30
+msgid "rows total."
+msgstr ""
+
+#~ msgid "Quarantined messages:"
+#~ msgstr "Повідомлення у карантині:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-11 10:07+0300\n"
+"POT-Creation-Date: 2010-05-12 17:22+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,6 +18,26 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: ru_RU\n"
+
+#: backend3/drweb:58
+msgid "100 lines"
+msgstr "100 строк"
+
+#: backend3/drweb:59
+msgid "150 lines"
+msgstr "150 строк"
+
+#: backend3/drweb:60
+msgid "200 lines"
+msgstr "200 строк"
+
+#: backend3/drweb:56
+msgid "25 lines"
+msgstr "25 строк"
+
+#: backend3/drweb:57
+msgid "50 lines"
+msgstr "50 строк"
 
 #: input:14
 msgid "Applications"
@@ -31,6 +51,10 @@ msgstr "Применить"
 msgid "Automatic update bases"
 msgstr "Автоматически обновлять базы"
 
+#: input:26
+msgid "Begining with"
+msgstr ""
+
 #: input:15
 msgid "Created"
 msgstr "Создан"
@@ -43,19 +67,19 @@ msgstr "Текущий ключ"
 msgid "Current status: "
 msgstr "Текущее состояние:"
 
-#: input:28
+#: input:32
 msgid "Date"
 msgstr "Дата"
 
-#: input:36
+#: input:40
 msgid "Date:"
 msgstr "Дата:"
 
-#: input:41
+#: input:45
 msgid "Delete file"
 msgstr "Удалить файл"
 
-#: input:31
+#: input:35
 msgid "Delete selected"
 msgstr "Удалить выделенные"
 
@@ -75,15 +99,15 @@ msgstr "Выбросить"
 msgid "Expires"
 msgstr "Истeкает"
 
-#: input:27
+#: input:31
 msgid "File"
 msgstr "Файл"
 
-#: input:29
+#: input:33
 msgid "From"
 msgstr "От"
 
-#: input:37
+#: input:41
 msgid "From:"
 msgstr "От:"
 
@@ -99,7 +123,7 @@ msgstr "Управление ключами:"
 msgid "Key string"
 msgstr "Строки ключа"
 
-#: input:7
+#: input:8
 msgid "Last update status: "
 msgstr "Статус последнего обновления:"
 
@@ -107,23 +131,19 @@ msgstr "Статус последнего обновления:"
 msgid "New key"
 msgstr "Новый ключ"
 
-#: input:34
+#: input:38
 msgid "Quarantined file:"
 msgstr "Файлы в карантине:"
-
-#: input:26
-msgid "Quarantined messages:"
-msgstr "Сообщение в карантине:"
 
 #: input:22
 msgid "Quarantined:"
 msgstr "В карантине:"
 
-#: input:40
+#: input:44
 msgid "Reason:"
 msgstr "Причина:"
 
-#: input:43
+#: input:47
 msgid "Release and deliver"
 msgstr "Освободить и доставить"
 
@@ -131,15 +151,15 @@ msgstr "Освободить и доставить"
 msgid "Reload service"
 msgstr "Перезапустить сервис"
 
-#: input:42
+#: input:46
 msgid "Rescan file"
 msgstr "Сканировать снова"
 
-#: input:32 input:44
+#: input:36 input:48
 msgid "Return"
 msgstr "Вернуться"
 
-#: input:33
+#: input:37
 msgid "Select another file:"
 msgstr "Выберите другой файл:"
 
@@ -147,7 +167,7 @@ msgstr "Выберите другой файл:"
 msgid "Select new key:"
 msgstr "Выберите новый ключ:"
 
-#: input:39
+#: input:43
 msgid "Subject:"
 msgstr "Тема:"
 
@@ -155,15 +175,15 @@ msgstr "Тема:"
 msgid "SubscriptionExpires"
 msgstr "Подписка истекает"
 
-#: input:30
+#: input:34
 msgid "To"
 msgstr "Для"
 
-#: input:38
+#: input:42
 msgid "To:"
 msgstr "Для:"
 
-#: input:8
+#: input:7
 msgid "Update now"
 msgstr "Обновить сейчас"
 
@@ -187,6 +207,21 @@ msgstr "каждые"
 msgid "file(s)."
 msgstr "файл(ы)."
 
+#: input:27
+msgid "line,"
+msgstr "строки"
+
 #: input:6
 msgid "min."
 msgstr "мин."
+
+#: input:29
+msgid "per page."
+msgstr "на страницу"
+
+#: input:30
+msgid "rows total."
+msgstr ""
+
+#~ msgid "Quarantined messages:"
+#~ msgstr "Сообщение в карантине:"
