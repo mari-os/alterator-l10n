@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-12 17:36+0300\n"
+"POT-Creation-Date: 2010-05-16 12:56+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -17,43 +17,43 @@ msgstr ""
 "X-Generator: KBabel 1.10.1\n"
 "X-Language: uk_UA\n"
 
-#: backend3/drweb:58
+#: backend3/drweb:55
 msgid "100 lines"
 msgstr "100 рядків"
 
-#: backend3/drweb:59
+#: backend3/drweb:56
 msgid "150 lines"
 msgstr "150 рядків"
 
-#: backend3/drweb:60
+#: backend3/drweb:57
 msgid "200 lines"
 msgstr "200 рядків"
 
-#: backend3/drweb:56
+#: backend3/drweb:53
 msgid "25 lines"
 msgstr "25 рядків"
 
-#: backend3/drweb:57
+#: backend3/drweb:54
 msgid "50 lines"
 msgstr "50 рядків"
 
-#: input:14
+#: input:19
+msgid "Accept"
+msgstr "Прийняти"
+
+#: input:13
 msgid "Applications"
 msgstr "Доданки"
 
-#: input:25
+#: input:24
 msgid "Apply"
 msgstr "Застосувати"
 
 #: input:4
 msgid "Automatic update bases"
-msgstr "Автоматично поновляти бази"
+msgstr "Поновлюватити автоматично"
 
-#: input:26
-msgid "Begining with"
-msgstr "Відображено, починаючи з"
-
-#: input:15
+#: input:14
 msgid "Created"
 msgstr "Створено"
 
@@ -65,21 +65,29 @@ msgstr "Поточний ключ"
 msgid "Current status: "
 msgstr "Зараз:"
 
-#: input:32
+#: input:30
 msgid "Date"
 msgstr "Дата"
 
-#: input:40
+#: input:38
 msgid "Date:"
 msgstr "Дата:"
 
-#: input:45
-msgid "Delete file"
-msgstr "Вилучити файл"
+#: input:42
+msgid "Delete from disk"
+msgstr "Вилучити з диску"
 
-#: input:35
+#: input:33
 msgid "Delete selected"
 msgstr "Вилучити обране"
+
+#: input:44
+msgid "Deliver and remove"
+msgstr "Доставити та видалити"
+
+#: input:25
+msgid "Displayed:"
+msgstr "Відображено"
 
 #: input:1
 msgid "DrWeb antivirus system configuration"
@@ -89,29 +97,33 @@ msgstr "Конфигурация антивірусної системи Dr. Web
 msgid "DrWeb service enabled:"
 msgstr "Сервіс DrWeb вімкнуто:"
 
-#: input:21
+#: input:20
 msgid "Drop"
 msgstr "Викинути"
 
-#: input:16
+#: backend3/drweb:160
+msgid "Expired !!!"
+msgstr "Прострочено !!!"
+
+#: input:15
 msgid "Expires"
 msgstr "Збігає"
 
-#: input:31
+#: input:29
 msgid "File"
 msgstr "Файл"
 
-#: input:33
+#: input:31
 msgid "From"
 msgstr "Від"
 
-#: input:41
+#: input:39
 msgid "From:"
 msgstr "Від:"
 
-#: input:24
+#: input:23
 msgid "Inspect"
-msgstr "Перевірити"
+msgstr "Перевірити карантин"
 
 #: input:9
 msgid "Key management:"
@@ -122,62 +134,54 @@ msgid "Key string"
 msgstr "Рядки ключа"
 
 #: input:8
-msgid "Last update status: "
-msgstr "Стан останнього поновлення"
+msgid "Last update time: "
+msgstr "Час останнього поновлення"
 
-#: input:12
-msgid "New key"
+#: ui/drweb/ajax.scm:52
+msgid "New Key"
 msgstr "Новий ключ"
 
-#: input:38
+#: input:36
 msgid "Quarantined file:"
-msgstr "Файли у карантині:"
+msgstr "Файл у карантині:"
 
-#: input:22
+#: input:21
 msgid "Quarantined:"
 msgstr "У карантині:"
-
-#: input:44
-msgid "Reason:"
-msgstr "Підстава:"
-
-#: input:47
-msgid "Release and deliver"
-msgstr "Звільнити та доставити"
 
 #: input:3
 msgid "Reload service"
 msgstr "Перезавантажити"
 
-#: input:46
-msgid "Rescan file"
-msgstr "Сканувати знову"
-
-#: input:36 input:48
+#: input:34
 msgid "Return"
 msgstr "Повернутися"
 
-#: input:37
+#: input:45
+msgid "Return to list"
+msgstr "Повернутися до списку"
+
+#: input:35
 msgid "Select another file:"
 msgstr "Обрати инший файл:"
 
-#: input:18
+#: input:17
 msgid "Select new key:"
 msgstr "Обрати новий ключ:"
 
-#: input:43
+#: input:41
 msgid "Subject:"
 msgstr "Тема:"
 
-#: input:17
+#: input:16
 msgid "SubscriptionExpires"
 msgstr "Підписка збігає"
 
-#: input:34
+#: input:32
 msgid "To"
 msgstr "Для"
 
-#: input:42
+#: input:40
 msgid "To:"
 msgstr "Для:"
 
@@ -185,41 +189,72 @@ msgstr "Для:"
 msgid "Update now"
 msgstr "Оновити зараз"
 
-#: input:19
+#: input:18
 msgid "Upload"
 msgstr "Завантажити"
 
-#: input:20
-msgid "Use"
-msgstr "Встановити"
-
-#: input:13
+#: input:12
 msgid "Version"
 msgstr "Версія"
 
+#: input:43
+msgid "What reason?"
+msgstr "З якої причини?"
+
+#: backend3/drweb:234
+msgid "date"
+msgstr "дата"
+
 #: input:5
 msgid "every "
-msgstr "кожні"
+msgstr "кожні "
 
-#: input:23
+#: backend3/drweb:219 backend3/drweb:234
+msgid "file"
+msgstr "файл"
+
+#: input:22
 msgid "file(s)."
-msgstr "файл(и)."
+msgstr "файл(и|ів)."
 
-#: input:27
-msgid "line,"
+#: backend3/drweb:234
+msgid "from"
+msgstr "із"
+
+#: input:26
+msgid "lines,"
 msgstr "рядку,"
 
 #: input:6
 msgid "min."
 msgstr "хв."
 
-#: input:29
+#: input:27
 msgid "per page."
-msgstr "на сторінку"
+msgstr "на сторінку."
 
-#: input:30
+#: input:28
 msgid "rows total."
 msgstr "рядків усього."
 
+#: backend3/drweb:234
+msgid "to"
+msgstr "до"
+
+#~ msgid "Begining with"
+#~ msgstr "Відображено, починаючи з"
+
 #~ msgid "Quarantined messages:"
 #~ msgstr "Повідомлення у карантині:"
+
+#~ msgid "Reason:"
+#~ msgstr "Підстава:"
+
+#~ msgid "Release and deliver"
+#~ msgstr "Звільнити та доставити"
+
+#~ msgid "Rescan file"
+#~ msgstr "Сканувати знову"
+
+#~ msgid "Use"
+#~ msgstr "Встановити"
