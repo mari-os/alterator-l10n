@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-11-19 13:14+0300\n"
+"POT-Creation-Date: 2010-05-20 09:21+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -15,123 +15,128 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
+"X-Language: uk_UA\n"
 
-#: standard input:7
+#: input:7
 msgid "(Accept mail for these domains)"
-msgstr ""
+msgstr "(Приймати пошту для наступних доменів)"
 
-#: standard input:19
-#, fuzzy
+#: input:19
 msgid "(Filtered recipients)"
 msgstr "Фільтрувати отримувачів"
 
-#: standard input:11
+#: input:11
 msgid "(Maximum message size in megabytes)"
-msgstr ""
+msgstr "Максимальній розмір повідомлень у мегабайтах"
 
-#: standard input:9
+#: input:9
 msgid "(Root mail goes to this mailbox)"
-msgstr ""
+msgstr "(Пошла для root складаеться в цю скриньку)"
 
-#: standard input:5
+#: input:5
 msgid "(Send all outgoing mail to specified server)"
-msgstr ""
+msgstr "(Пересилати вихідну пошту на вказаний сервер)"
 
-#: standard input:12
-#, fuzzy
+#: input:12
 msgid "Allow authentification"
-msgstr "Автентифікація"
+msgstr "Дозволити аутентифікацію"
 
-#: standard input:23
+#: input:28
 msgid "Apply"
 msgstr "Застосувати"
 
-#: backend3/postfix-dovecot:90
-#, fuzzy
+#: backend3/postfix-dovecot:94
 msgid "Authentication server (dovecot) is not installed"
-msgstr "Не встановлено POP3/IMAP сервера (dovecot)"
+msgstr "Сервер аутентифікації (dovecot) не встановлено"
 
-#: standard input:6
-#, fuzzy
+#: input:22
+msgid "ClamAV antivirus daemon"
+msgstr "Демон атнівіруса ClamAV"
+
+#: input:6
 msgid "Domain list:"
-msgstr "Домен:"
+msgstr "Список доменів:"
 
-#: standard input:21
-#, fuzzy
+#: input:21
+msgid "Dr.Web antivirus daemon"
+msgstr "Демон антивіруса Dr.Web"
+
+#: input:26
 msgid "Enable POP3/IMAP server"
-msgstr "POP3/IMAP сервер"
+msgstr "Увімкнути службу POP3/IMAP"
 
-#: standard input:2
-#, fuzzy
+#: input:2
 msgid "Enable SMTP server"
-msgstr "Увімкнути службу DHCP"
+msgstr "Увімкнути службу SMTP"
 
-#: standard input:18
-#, fuzzy
+#: input:18
 msgid "Filter recipients"
 msgstr "Фільтрувати отримувачів"
 
-#: standard input:16
-#, fuzzy
+#: input:16
 msgid "Filter senders"
 msgstr "Фільтрувати відправників"
 
-#: standard input:15
+#: input:15
 msgid "Filter spam"
-msgstr ""
+msgstr "Фільтрувати спам"
 
-#: standard input:17
-#, fuzzy
+#: input:24
+msgid "First ClamAV, second Dr.Web"
+msgstr "Спершу ClamAV, потім Dr.Web"
+
+#: input:23
+msgid "First Dr.Web, second ClamAV"
+msgstr "Спершу Dr.Web, потім ClamAV"
+
+#: input:17
 msgid "Local networks:"
-msgstr "Локальні файли"
+msgstr "Локальні мережі:"
 
-#: backend3/postfix-dovecot:336
+#: backend3/postfix-dovecot:500
 msgid "MX"
-msgstr ""
+msgstr "Сервер"
 
-#: standard input:1
-#, fuzzy
+#: input:1
 msgid "Mail server"
-msgstr "Поштовий сервер (IMAP)"
+msgstr "Поштовий сервер"
 
-#: standard input:10
-#, fuzzy
+#: input:10
 msgid "Maximum message size (MB):"
-msgstr "Максимальний розмір поштової скриньки (Мб):"
+msgstr "Максимальний розмір повідомлення (Мб):"
 
-#: standard input:3
-#, fuzzy
+#: input:3
 msgid "Operational mode:"
-msgstr "Кінцевий час"
+msgstr "Режим роботи:"
 
-#: standard input:20
-#, fuzzy
+#: input:25
 msgid "POP3/IMAP Server"
-msgstr "POP3/IMAP сервер"
+msgstr "Сервер POP3/IMAP"
 
-#: standard input:13 input:22
-#, fuzzy
+#: input:13 input:27
 msgid "Plain text authentification only over secure connection"
 msgstr "Приймати незашифровані паролі тільки через безпечні з’єднання"
 
-#: backend3/postfix-dovecot:335
+#: backend3/postfix-dovecot:499
 msgid "Relay"
-msgstr ""
+msgstr "Посередник"
 
-#: standard input:8
-#, fuzzy
+#: input:8
 msgid "Root mail alias:"
-msgstr "Поштові псевдоніми"
+msgstr "Псевдонім адміністратора:"
 
-#: standard input:1
-#, fuzzy
+#: input:1
 msgid "SMTP Server"
-msgstr "SMTP сервер"
+msgstr "Сервер SMTP"
 
-#: standard input:14
+#: input:14
 msgid "Security"
-msgstr ""
+msgstr "Безпека"
 
-#: standard input:4
+#: input:4
 msgid "Upstream SMTP host:"
-msgstr ""
+msgstr "Приймаючий сервер SMTP:"
+
+#: input:20
+msgid "Use antivirus"
+msgstr "Перевіряти антівірусом"

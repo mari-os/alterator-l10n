@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-11-19 13:14+0300\n"
+"POT-Creation-Date: 2010-05-20 09:21+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -45,14 +45,18 @@ msgstr ""
 msgid "Allow authentification"
 msgstr "Autenticación (SASL)"
 
-#: standard input:23
+#: standard input:28
 msgid "Apply"
 msgstr "Aplicar"
 
-#: backend3/postfix-dovecot:90
+#: backend3/postfix-dovecot:94
 #, fuzzy
 msgid "Authentication server (dovecot) is not installed"
 msgstr "POP3/IMAP Servidor (dovecot) no fue instalado"
+
+#: standard input:22
+msgid "ClamAV antivirus daemon"
+msgstr ""
 
 #: standard input:6
 #, fuzzy
@@ -60,6 +64,10 @@ msgid "Domain list:"
 msgstr "Accesso de Escrita"
 
 #: standard input:21
+msgid "Dr.Web antivirus daemon"
+msgstr ""
+
+#: standard input:26
 #, fuzzy
 msgid "Enable POP3/IMAP server"
 msgstr "Servidor POP3/IMAP"
@@ -84,12 +92,20 @@ msgstr "Filtros de los Destinátarios"
 msgid "Filter spam"
 msgstr "Lista del filtro"
 
+#: standard input:24
+msgid "First ClamAV, second Dr.Web"
+msgstr ""
+
+#: standard input:23
+msgid "First Dr.Web, second ClamAV"
+msgstr ""
+
 #: standard input:17
 #, fuzzy
 msgid "Local networks:"
 msgstr "Otra rede"
 
-#: backend3/postfix-dovecot:336
+#: backend3/postfix-dovecot:500
 msgid "MX"
 msgstr ""
 
@@ -108,16 +124,16 @@ msgstr "Máximo de tamaño de buzón (MB):"
 msgid "Operational mode:"
 msgstr "Tiempo de Expiracción"
 
-#: standard input:20
+#: standard input:25
 #, fuzzy
 msgid "POP3/IMAP Server"
 msgstr "Servidor POP3/IMAP"
 
-#: standard input:13 input:22
+#: standard input:13 input:27
 msgid "Plain text authentification only over secure connection"
 msgstr ""
 
-#: backend3/postfix-dovecot:335
+#: backend3/postfix-dovecot:499
 msgid "Relay"
 msgstr ""
 
@@ -137,4 +153,8 @@ msgstr ""
 
 #: standard input:4
 msgid "Upstream SMTP host:"
+msgstr ""
+
+#: standard input:20
+msgid "Use antivirus"
 msgstr ""
