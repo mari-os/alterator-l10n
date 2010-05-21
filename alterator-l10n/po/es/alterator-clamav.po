@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-21 11:39+0300\n"
+"POT-Creation-Date: 2010-05-21 15:42+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,11 +19,15 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:22
+#: standard input:23
 msgid "Add X-Header in scaned E-Mails:"
 msgstr ""
 
-#: standard input:17
+#: standard input:8
+msgid "Antivirus database files updated on:"
+msgstr ""
+
+#: standard input:18
 msgid "Antivirus filter settings (clamsmtpd)"
 msgstr ""
 
@@ -36,6 +40,11 @@ msgstr "Ajustes"
 #, fuzzy
 msgid "Automatic update bases"
 msgstr "Automaticamente Borrado"
+
+#: standard input:29
+#, fuzzy
+msgid "Cancel settings"
+msgstr "Ajustes"
 
 #: standard input:1
 msgid "ClamAV service enabled:"
@@ -50,11 +59,15 @@ msgstr ""
 msgid "Current status: "
 msgstr "Estado actual:"
 
-#: standard input:9
+#: standard input:10
 msgid "Database updater settings (freshclam)"
 msgstr ""
 
-#: standard input:21
+#: standard input:25
+msgid "Files in quarantine:"
+msgstr ""
+
+#: standard input:22
 msgid "Hold quarantined files in:"
 msgstr ""
 
@@ -62,7 +75,7 @@ msgstr ""
 msgid "Inspect"
 msgstr ""
 
-#: standard input:14
+#: standard input:15
 #, fuzzy
 msgid "Password:"
 msgstr ""
@@ -77,44 +90,39 @@ msgstr ""
 "#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
 "Contraseña:"
 
-#: standard input:12
+#: standard input:13
 msgid "Port:"
 msgstr "Porta:"
 
-#: standard input:11
+#: standard input:12
 #, fuzzy
 msgid "Proxy URL:"
 msgstr "Porta:"
 
-#: standard input:13
+#: standard input:14
 #, fuzzy
 msgid "Proxy User:"
 msgstr "Servidor Proxy"
-
-#: standard input:24
-msgid "Quarantined:"
-msgstr ""
 
 #: standard input:3
 #, fuzzy
 msgid "Reload service"
 msgstr "Servicio interno"
 
-#: standard input:19
+#: standard input:20
 #, fuzzy
 msgid "Resieve mail on port:"
 msgstr "Destino"
 
-#: standard input:20
+#: standard input:21
 msgid "Send checked mail to:"
 msgstr ""
 
 #: standard input:27
-#, fuzzy
-msgid "Show settings"
-msgstr "Ajustes"
+msgid "Setup"
+msgstr ""
 
-#: standard input:18
+#: standard input:19
 #, fuzzy
 msgid "Transparent Proxy:"
 msgstr "transport SMTP:"
@@ -124,38 +132,39 @@ msgstr "transport SMTP:"
 msgid "Update now"
 msgstr "Atualización de la ayuda"
 
-#: standard input:15
+#: standard input:16
 msgid "Use DNS to verify database version:"
 msgstr ""
 
-#: standard input:10
+#: standard input:11
 msgid "Use HTTP Proxy:"
 msgstr ""
 
-#: standard input:16
+#: standard input:17
 msgid "Use regionaly updating source:"
 msgstr ""
 
-#: standard input:23
+#: standard input:24
 msgid "Use virus action script:"
 msgstr ""
 
-#: standard input:8
-msgid "Virus database files updated at:"
-msgstr ""
+#: standard input:9
+#, fuzzy
+msgid "at"
+msgstr "auto"
 
 #: standard input:5
 msgid "every "
-msgstr ""
-
-#: standard input:25
-msgid "file(s)."
 msgstr ""
 
 #: standard input:6
 msgid "min."
 msgstr ""
 
-#: backend3/clamav:233
+#: backend3/clamav:202
 msgid "not tested"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Show settings"
+#~ msgstr "Ajustes"

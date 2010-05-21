@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-21 11:39+0300\n"
+"POT-Creation-Date: 2010-05-21 15:42+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -17,11 +17,15 @@ msgstr ""
 "X-Generator: KBabel 1.10.1\n"
 "X-Language: uk_UA\n"
 
-#: input:22
+#: input:23
 msgid "Add X-Header in scaned E-Mails:"
 msgstr "Додавати X-Header у повідомлення:"
 
-#: input:17
+#: input:8
+msgid "Antivirus database files updated on:"
+msgstr "База антивіруса оновлена:"
+
+#: input:18
 msgid "Antivirus filter settings (clamsmtpd)"
 msgstr "Налаштування анивірусного фільтру (clamsmtpd)"
 
@@ -32,6 +36,10 @@ msgstr "Прийняти налаштування"
 #: input:4
 msgid "Automatic update bases"
 msgstr "Автоматично поновлювати бази"
+
+#: input:29
+msgid "Cancel settings"
+msgstr "Відмінити налаштування"
 
 #: input:1
 msgid "ClamAV service enabled:"
@@ -45,11 +53,15 @@ msgstr "Антивірусна система Clamav"
 msgid "Current status: "
 msgstr "Поточний стан:"
 
-#: input:9
+#: input:10
 msgid "Database updater settings (freshclam)"
 msgstr "Налаштування поновлення баз (freshclam)"
 
-#: input:21
+#: input:25
+msgid "Files in quarantine:"
+msgstr "Повідомлень у карантині:"
+
+#: input:22
 msgid "Hold quarantined files in:"
 msgstr "Зберігати файли в карантині:"
 
@@ -57,43 +69,39 @@ msgstr "Зберігати файли в карантині:"
 msgid "Inspect"
 msgstr "Перевірити"
 
-#: input:14
+#: input:15
 msgid "Password:"
 msgstr "Пароль:"
 
-#: input:12
+#: input:13
 msgid "Port:"
 msgstr "Порт:"
 
-#: input:11
+#: input:12
 msgid "Proxy URL:"
 msgstr "Адреса серверу:"
 
-#: input:13
+#: input:14
 msgid "Proxy User:"
 msgstr "Користувач:"
-
-#: input:24
-msgid "Quarantined:"
-msgstr "У карантині:"
 
 #: input:3
 msgid "Reload service"
 msgstr "Перезавантажити"
 
-#: input:19
+#: input:20
 msgid "Resieve mail on port:"
 msgstr "Приймати повідомлення на порту:"
 
-#: input:20
+#: input:21
 msgid "Send checked mail to:"
 msgstr "Відправляти перевірені в:"
 
 #: input:27
-msgid "Show settings"
-msgstr "Відобразити налаштування"
+msgid "Setup"
+msgstr "Налаштувати"
 
-#: input:18
+#: input:19
 msgid "Transparent Proxy:"
 msgstr "Прозорий проксі"
 
@@ -101,38 +109,40 @@ msgstr "Прозорий проксі"
 msgid "Update now"
 msgstr "Оновити зараз"
 
-#: input:15
+#: input:16
 msgid "Use DNS to verify database version:"
 msgstr "Перевіряти версії баз через DNS:"
 
-#: input:10
+#: input:11
 msgid "Use HTTP Proxy:"
 msgstr "Використовувати проксі сервер:"
 
-#: input:16
+#: input:17
 msgid "Use regionaly updating source:"
 msgstr "Регіональне джерело поновлення:"
 
-#: input:23
+#: input:24
 msgid "Use virus action script:"
 msgstr "Запускати скрипт при виявленні вірусу:"
 
-#: input:8
-msgid "Virus database files updated at:"
-msgstr "База вірусів оновлена в:"
+#: input:9
+msgid "at"
+msgstr "в"
 
 #: input:5
 msgid "every "
 msgstr "кожні "
 
-#: input:25
-msgid "file(s)."
-msgstr "файл(а|и)"
-
 #: input:6
 msgid "min."
 msgstr "хв."
 
-#: backend3/clamav:233
+#: backend3/clamav:202
 msgid "not tested"
 msgstr "не тестовано"
+
+#~ msgid "Show settings"
+#~ msgstr "Відобразити налаштування"
+
+#~ msgid "file(s)."
+#~ msgstr "файл(а|и)"
