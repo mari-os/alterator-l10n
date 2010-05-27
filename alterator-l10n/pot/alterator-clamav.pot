@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-21 15:42+0300\n"
+"POT-Creation-Date: 2010-05-27 17:37+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,86 +56,139 @@ msgstr ""
 msgid "at"
 msgstr ""
 
-#: standard input:10
-msgid "Database updater settings (freshclam)"
-msgstr ""
-
-#: standard input:11
-msgid "Use HTTP Proxy:"
+#: standard input:10 input:11
+msgid "Database updater (freshclam) not installed."
 msgstr ""
 
 #: standard input:12
-msgid "Proxy URL:"
+msgid "Database updater settings (freshclam)"
 msgstr ""
 
 #: standard input:13
-msgid "Port:"
+msgid "Use HTTP Proxy:"
 msgstr ""
 
 #: standard input:14
-msgid "Proxy User:"
+msgid "Proxy URL:"
 msgstr ""
 
 #: standard input:15
-msgid "Password:"
+msgid "Port:"
 msgstr ""
 
 #: standard input:16
-msgid "Use DNS to verify database version:"
+msgid "Proxy User:"
 msgstr ""
 
 #: standard input:17
-msgid "Use regionaly updating source:"
+msgid "Password:"
 msgstr ""
 
 #: standard input:18
-msgid "Antivirus filter settings (clamsmtpd)"
+msgid "Use DNS to verify database version:"
 msgstr ""
 
 #: standard input:19
-msgid "Transparent Proxy:"
+msgid "Use regionaly updating source:"
 msgstr ""
 
 #: standard input:20
-msgid "Resieve mail on port:"
+msgid "Antivirus filter (clamsmtpd) not installed."
 msgstr ""
 
 #: standard input:21
-msgid "Send checked mail to:"
+msgid "Antivirus filter settings (clamsmtpd)"
 msgstr ""
 
 #: standard input:22
-msgid "Hold quarantined files in:"
+msgid "Transparent Proxy:"
 msgstr ""
 
 #: standard input:23
-msgid "Add X-Header in scaned E-Mails:"
+msgid "Resieve mail on port:"
 msgstr ""
 
 #: standard input:24
-msgid "Use virus action script:"
+msgid "Send checked mail to:"
 msgstr ""
 
-#: standard input:25
-msgid "Files in quarantine:"
+#: standard input:25 input:34
+msgid "Hold quarantined files in:"
 msgstr ""
 
 #: standard input:26
-msgid "Inspect"
+msgid "Add X-Header in scaned E-Mails:"
 msgstr ""
 
 #: standard input:27
-msgid "Setup"
+msgid "Use virus action script:"
 msgstr ""
 
 #: standard input:28
-msgid "Apply settings"
+msgid "Antivirus scanner (vscan-clamav) not installed."
 msgstr ""
 
 #: standard input:29
+msgid "Antivirus scanner settings (vscan-clamav)"
+msgstr ""
+
+#: standard input:30
+msgid "Infected file action:"
+msgstr ""
+
+#: standard input:31
+msgid "quarantine"
+msgstr ""
+
+#: standard input:32
+msgid "delete"
+msgstr ""
+
+#: standard input:33
+msgid "nothing"
+msgstr ""
+
+#: standard input:35
+msgid "File prefix:"
+msgstr ""
+
+#: standard input:36
+msgid "Exclude file types semi-colon seperated list"
+msgstr ""
+
+#: standard input:37
+msgid "Exclude files via regular expression"
+msgstr ""
+
+#: standard input:38
+msgid "Send warning message:"
+msgstr ""
+
+#: standard input:39
+msgid ""
+"Send a warning message via Windows Messenger service when virus is found."
+msgstr ""
+
+#: standard input:40
+msgid "Files in quarantine:"
+msgstr ""
+
+#: standard input:41
+msgid "Inspect"
+msgstr ""
+
+#: standard input:42
+msgid "Setup"
+msgstr ""
+
+#: standard input:43
+msgid "Apply settings"
+msgstr ""
+
+#: standard input:44
 msgid "Cancel settings"
 msgstr ""
 
-#: backend3/clamav:202
+#: backend3/clamav:262
 msgid "not tested"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-21 15:42+0300\n"
+"POT-Creation-Date: 2010-05-27 17:37+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: ru_RU\n"
 
-#: input:23
+#: input:26
 msgid "Add X-Header in scaned E-Mails:"
 msgstr "Добавлять X-Header в сообщения:"
 
@@ -27,11 +27,23 @@ msgstr "Добавлять X-Header в сообщения:"
 msgid "Antivirus database files updated on:"
 msgstr "База вирусов обновлена:"
 
-#: input:18
+#: input:20
+msgid "Antivirus filter (clamsmtpd) not installed."
+msgstr "Антивирусный фильтр (clamsmtpd) не установлен."
+
+#: input:21
 msgid "Antivirus filter settings (clamsmtpd)"
 msgstr "Настройки антивирусного фильтра (clamsmtpd)"
 
 #: input:28
+msgid "Antivirus scanner (vscan-clamav) not installed."
+msgstr "Антивирусный сканер (vscan-ClamAV) не установлен."
+
+#: input:29
+msgid "Antivirus scanner settings (vscan-clamav)"
+msgstr "Настройки антивирусного сканера (vscan-clamav)"
+
+#: input:43
 msgid "Apply settings"
 msgstr "Принять настройки"
 
@@ -39,7 +51,7 @@ msgstr "Принять настройки"
 msgid "Automatic update bases"
 msgstr "Автоматически обновлять базы"
 
-#: input:29
+#: input:44
 msgid "Cancel settings"
 msgstr "Отменить настройки"
 
@@ -55,35 +67,55 @@ msgstr "Антивирусная система Clamav"
 msgid "Current status: "
 msgstr "Текущее состояние:"
 
-#: input:10
+#: input:10 input:11
+msgid "Database updater (freshclam) not installed."
+msgstr "Обновление баз (freshclam) не установлено."
+
+#: input:12
 msgid "Database updater settings (freshclam)"
 msgstr "Настройка обновления баз (freshclam)"
 
-#: input:25
+#: input:36
+msgid "Exclude file types semi-colon seperated list"
+msgstr "Список исключаемых типов файлов разделенных"
+
+#: input:37
+msgid "Exclude files via regular expression"
+msgstr "Исключение файлов с помощью регулярных выражений"
+
+#: input:35
+msgid "File prefix:"
+msgstr "Префикс файла:"
+
+#: input:40
 msgid "Files in quarantine:"
 msgstr "Сообщений в карантине:"
 
-#: input:22
+#: input:25 input:34
 msgid "Hold quarantined files in:"
 msgstr "Сохранять файлы в карантине:"
 
-#: input:26
+#: input:30
+msgid "Infected file action:"
+msgstr "Действие с инфицированным:"
+
+#: input:41
 msgid "Inspect"
 msgstr "Проверить"
 
-#: input:15
+#: input:17
 msgid "Password:"
 msgstr "Пароль:"
 
-#: input:13
+#: input:15
 msgid "Port:"
 msgstr "Порт:"
 
-#: input:12
+#: input:14
 msgid "Proxy URL:"
 msgstr "Адрес сервера:"
 
-#: input:14
+#: input:16
 msgid "Proxy User:"
 msgstr "Пользователь:"
 
@@ -91,19 +123,28 @@ msgstr "Пользователь:"
 msgid "Reload service"
 msgstr "Перезапустить"
 
-#: input:20
+#: input:23
 msgid "Resieve mail on port:"
 msgstr "Принимать сообщения на порту:"
 
-#: input:21
+#: input:39
+msgid ""
+"Send a warning message via Windows Messenger service when virus is found."
+msgstr "Уведомлять с помощью Windows Messenger при обнаружении вируса."
+
+#: input:24
 msgid "Send checked mail to:"
 msgstr "Передавать проверенные в:"
 
-#: input:27
+#: input:38
+msgid "Send warning message:"
+msgstr "Уведомлять об ошибке:"
+
+#: input:42
 msgid "Setup"
 msgstr "Настроить"
 
-#: input:19
+#: input:22
 msgid "Transparent Proxy:"
 msgstr "Прозрачный прокси"
 
@@ -111,25 +152,29 @@ msgstr "Прозрачный прокси"
 msgid "Update now"
 msgstr "Обновить сейчас"
 
-#: input:16
+#: input:18
 msgid "Use DNS to verify database version:"
 msgstr "Проверять версии баз через DNS:"
 
-#: input:11
+#: input:13
 msgid "Use HTTP Proxy:"
 msgstr "Использовать прокси сервер:"
 
-#: input:17
+#: input:19
 msgid "Use regionaly updating source:"
 msgstr "Региональный источник обновлений:"
 
-#: input:24
+#: input:27
 msgid "Use virus action script:"
 msgstr "Запускать скрипт при обнаружении вируса:"
 
 #: input:9
 msgid "at"
 msgstr "в"
+
+#: input:32
+msgid "delete"
+msgstr "Удалить"
 
 #: input:5
 msgid "every "
@@ -139,9 +184,17 @@ msgstr "каждые "
 msgid "min."
 msgstr "мин."
 
-#: backend3/clamav:202
+#: backend3/clamav:262
 msgid "not tested"
-msgstr "Не тестируется"
+msgstr "не тестируется"
+
+#: input:33
+msgid "nothing"
+msgstr "отсутствует"
+
+#: input:31
+msgid "quarantine"
+msgstr "карантин"
 
 #~ msgid "Show settings"
 #~ msgstr "Показать настройки"

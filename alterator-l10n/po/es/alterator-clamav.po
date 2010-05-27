@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-21 15:42+0300\n"
+"POT-Creation-Date: 2010-05-27 17:37+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:23
+#: standard input:26
 msgid "Add X-Header in scaned E-Mails:"
 msgstr ""
 
@@ -27,11 +27,23 @@ msgstr ""
 msgid "Antivirus database files updated on:"
 msgstr ""
 
-#: standard input:18
+#: standard input:20
+msgid "Antivirus filter (clamsmtpd) not installed."
+msgstr ""
+
+#: standard input:21
 msgid "Antivirus filter settings (clamsmtpd)"
 msgstr ""
 
 #: standard input:28
+msgid "Antivirus scanner (vscan-clamav) not installed."
+msgstr ""
+
+#: standard input:29
+msgid "Antivirus scanner settings (vscan-clamav)"
+msgstr ""
+
+#: standard input:43
 #, fuzzy
 msgid "Apply settings"
 msgstr "Ajustes"
@@ -41,7 +53,7 @@ msgstr "Ajustes"
 msgid "Automatic update bases"
 msgstr "Automaticamente Borrado"
 
-#: standard input:29
+#: standard input:44
 #, fuzzy
 msgid "Cancel settings"
 msgstr "Ajustes"
@@ -59,23 +71,44 @@ msgstr ""
 msgid "Current status: "
 msgstr "Estado actual:"
 
-#: standard input:10
+#: standard input:10 input:11
+msgid "Database updater (freshclam) not installed."
+msgstr ""
+
+#: standard input:12
 msgid "Database updater settings (freshclam)"
 msgstr ""
 
-#: standard input:25
+#: standard input:36
+msgid "Exclude file types semi-colon seperated list"
+msgstr ""
+
+#: standard input:37
+msgid "Exclude files via regular expression"
+msgstr ""
+
+#: standard input:35
+msgid "File prefix:"
+msgstr ""
+
+#: standard input:40
 msgid "Files in quarantine:"
 msgstr ""
 
-#: standard input:22
+#: standard input:25 input:34
 msgid "Hold quarantined files in:"
 msgstr ""
 
-#: standard input:26
+#: standard input:30
+#, fuzzy
+msgid "Infected file action:"
+msgstr "Borrar conección"
+
+#: standard input:41
 msgid "Inspect"
 msgstr ""
 
-#: standard input:15
+#: standard input:17
 #, fuzzy
 msgid "Password:"
 msgstr ""
@@ -90,16 +123,16 @@ msgstr ""
 "#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
 "Contraseña:"
 
-#: standard input:13
+#: standard input:15
 msgid "Port:"
 msgstr "Porta:"
 
-#: standard input:12
+#: standard input:14
 #, fuzzy
 msgid "Proxy URL:"
 msgstr "Porta:"
 
-#: standard input:14
+#: standard input:16
 #, fuzzy
 msgid "Proxy User:"
 msgstr "Servidor Proxy"
@@ -109,20 +142,29 @@ msgstr "Servidor Proxy"
 msgid "Reload service"
 msgstr "Servicio interno"
 
-#: standard input:20
+#: standard input:23
 #, fuzzy
 msgid "Resieve mail on port:"
 msgstr "Destino"
 
-#: standard input:21
+#: standard input:39
+msgid ""
+"Send a warning message via Windows Messenger service when virus is found."
+msgstr ""
+
+#: standard input:24
 msgid "Send checked mail to:"
 msgstr ""
 
-#: standard input:27
+#: standard input:38
+msgid "Send warning message:"
+msgstr ""
+
+#: standard input:42
 msgid "Setup"
 msgstr ""
 
-#: standard input:19
+#: standard input:22
 #, fuzzy
 msgid "Transparent Proxy:"
 msgstr "transport SMTP:"
@@ -132,19 +174,19 @@ msgstr "transport SMTP:"
 msgid "Update now"
 msgstr "Atualización de la ayuda"
 
-#: standard input:16
+#: standard input:18
 msgid "Use DNS to verify database version:"
 msgstr ""
 
-#: standard input:11
+#: standard input:13
 msgid "Use HTTP Proxy:"
 msgstr ""
 
-#: standard input:17
+#: standard input:19
 msgid "Use regionaly updating source:"
 msgstr ""
 
-#: standard input:24
+#: standard input:27
 msgid "Use virus action script:"
 msgstr ""
 
@@ -152,6 +194,11 @@ msgstr ""
 #, fuzzy
 msgid "at"
 msgstr "auto"
+
+#: standard input:32
+#, fuzzy
+msgid "delete"
+msgstr "Borrar"
 
 #: standard input:5
 msgid "every "
@@ -161,8 +208,16 @@ msgstr ""
 msgid "min."
 msgstr ""
 
-#: backend3/clamav:202
+#: backend3/clamav:262
 msgid "not tested"
+msgstr ""
+
+#: standard input:33
+msgid "nothing"
+msgstr "nada"
+
+#: standard input:31
+msgid "quarantine"
 msgstr ""
 
 #, fuzzy
