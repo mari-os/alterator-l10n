@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-27 17:37+0300\n"
+"POT-Creation-Date: 2010-05-31 17:51+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,7 +19,30 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:26
+#: backend3/clamav:34
+msgid "100 lines"
+msgstr "100 linhas"
+
+#: backend3/clamav:35
+#, fuzzy
+msgid "150 lines"
+msgstr "50 linhas"
+
+#: backend3/clamav:36
+#, fuzzy
+msgid "200 lines"
+msgstr "20 linhas"
+
+#: backend3/clamav:32
+#, fuzzy
+msgid "25 lines"
+msgstr "20 linhas"
+
+#: backend3/clamav:33
+msgid "50 lines"
+msgstr "50 linhas"
+
+#: standard input:28
 msgid "Add X-Header in scaned E-Mails:"
 msgstr ""
 
@@ -27,19 +50,19 @@ msgstr ""
 msgid "Antivirus database files updated on:"
 msgstr ""
 
-#: standard input:20
+#: standard input:22
 msgid "Antivirus filter (clamsmtpd) not installed."
 msgstr ""
 
-#: standard input:21
+#: standard input:23
 msgid "Antivirus filter settings (clamsmtpd)"
 msgstr ""
 
-#: standard input:28
+#: standard input:30
 msgid "Antivirus scanner (vscan-clamav) not installed."
 msgstr ""
 
-#: standard input:29
+#: standard input:31
 msgid "Antivirus scanner settings (vscan-clamav)"
 msgstr ""
 
@@ -71,81 +94,139 @@ msgstr ""
 msgid "Current status: "
 msgstr "Atual Estado:"
 
-#: standard input:10 input:11
+#: standard input:10 input:13
 msgid "Database updater (freshclam) not installed."
 msgstr ""
 
-#: standard input:12
+#: standard input:14
 msgid "Database updater settings (freshclam)"
 msgstr ""
 
-#: standard input:36
+#: standard input:50
+#, fuzzy
+msgid "Date"
+msgstr "Data:"
+
+#: standard input:58
+msgid "Date:"
+msgstr "Data:"
+
+#: standard input:63
+#, fuzzy
+msgid "Delete from disk"
+msgstr "Deletar domínio"
+
+#: standard input:53
+msgid "Delete selected"
+msgstr " Excluir selecionados"
+
+#: standard input:45
+#, fuzzy
+msgid "Displayed:"
+msgstr "Vídeo"
+
+#: standard input:38
 msgid "Exclude file types semi-colon seperated list"
 msgstr ""
 
-#: standard input:37
+#: standard input:39
 msgid "Exclude files via regular expression"
 msgstr ""
 
-#: standard input:35
+#: standard input:49
+msgid "File"
+msgstr ""
+
+#: standard input:37
 msgid "File prefix:"
 msgstr ""
 
-#: standard input:40
+#: standard input:11
 msgid "Files in quarantine:"
 msgstr ""
 
-#: standard input:25 input:34
+#: standard input:51
+msgid "From"
+msgstr ""
+
+#: standard input:59
+#, fuzzy
+msgid "From:"
+msgstr "Da porta:"
+
+#: standard input:27 input:36
 msgid "Hold quarantined files in:"
 msgstr ""
 
-#: standard input:30
+#: standard input:32
 #, fuzzy
 msgid "Infected file action:"
 msgstr "Escolha a acção:"
 
-#: standard input:41
+#: standard input:12
 msgid "Inspect"
 msgstr ""
 
-#: standard input:17
+#: standard input:19
 msgid "Password:"
 msgstr "Senha:"
 
-#: standard input:15
+#: standard input:17
 msgid "Port:"
 msgstr "Porta:"
 
-#: standard input:14
+#: standard input:16
 #, fuzzy
 msgid "Proxy URL:"
 msgstr "Porta proxy:"
 
-#: standard input:16
+#: standard input:18
 #, fuzzy
 msgid "Proxy User:"
 msgstr "Servidor Proxy:"
+
+#: standard input:56
+msgid "Quarantined file:"
+msgstr ""
+
+#: standard input:62
+msgid "Reason:"
+msgstr ""
 
 #: standard input:3
 #, fuzzy
 msgid "Reload service"
 msgstr "Serviço Interno"
 
-#: standard input:23
+#: standard input:25
 #, fuzzy
 msgid "Resieve mail on port:"
 msgstr "Porta destino"
 
-#: standard input:39
+#: standard input:54
+msgid "Return"
+msgstr "Retornar"
+
+#: standard input:64
+#, fuzzy
+msgid "Return to list"
+msgstr "Retornar a Visão"
+
+#: standard input:55
+#, fuzzy
+msgid "Select another file:"
+msgstr "Selecionar profile"
+
+#: standard input:41
 msgid ""
 "Send a warning message via Windows Messenger service when virus is found."
 msgstr ""
 
-#: standard input:24
+#: standard input:26
 msgid "Send checked mail to:"
 msgstr ""
 
-#: standard input:38
+#: standard input:40
 msgid "Send warning message:"
 msgstr ""
 
@@ -153,7 +234,20 @@ msgstr ""
 msgid "Setup"
 msgstr ""
 
-#: standard input:22
+#: standard input:61
+#, fuzzy
+msgid "Subject:"
+msgstr "Assunto:"
+
+#: standard input:52
+msgid "To"
+msgstr ""
+
+#: standard input:60
+msgid "To:"
+msgstr ""
+
+#: standard input:24
 #, fuzzy
 msgid "Transparent Proxy:"
 msgstr "Transparente"
@@ -162,19 +256,19 @@ msgstr "Transparente"
 msgid "Update now"
 msgstr "Atualizar agora"
 
-#: standard input:18
+#: standard input:20
 msgid "Use DNS to verify database version:"
 msgstr ""
 
-#: standard input:13
+#: standard input:15
 msgid "Use HTTP Proxy:"
 msgstr ""
 
-#: standard input:19
+#: standard input:21
 msgid "Use regionaly updating source:"
 msgstr ""
 
-#: standard input:27
+#: standard input:29
 msgid "Use virus action script:"
 msgstr ""
 
@@ -183,7 +277,7 @@ msgstr ""
 msgid "at"
 msgstr "auto"
 
-#: standard input:32
+#: standard input:34
 #, fuzzy
 msgid "delete"
 msgstr "Deletar"
@@ -193,20 +287,30 @@ msgstr "Deletar"
 msgid "every "
 msgstr "nunca"
 
+#: standard input:46
+#, fuzzy
+msgid "lines,"
+msgstr "10 linhas"
+
 #: standard input:6
 msgid "min."
 msgstr ""
 
-#: backend3/clamav:262
-msgid "not tested"
-msgstr ""
-
-#: standard input:33
+#: standard input:35
 msgid "nothing"
 msgstr "nada"
 
-#: standard input:31
+#: standard input:47
+#, fuzzy
+msgid "per page."
+msgstr "Primeira Página"
+
+#: standard input:33
 msgid "quarantine"
+msgstr ""
+
+#: standard input:48
+msgid "rows total."
 msgstr ""
 
 #, fuzzy

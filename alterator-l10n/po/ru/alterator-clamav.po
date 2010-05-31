@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-27 17:37+0300\n"
+"POT-Creation-Date: 2010-05-31 17:51+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -19,7 +19,27 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: ru_RU\n"
 
-#: input:26
+#: backend3/clamav:34
+msgid "100 lines"
+msgstr "100 строк"
+
+#: backend3/clamav:35
+msgid "150 lines"
+msgstr "150 строк"
+
+#: backend3/clamav:36
+msgid "200 lines"
+msgstr "200 строк"
+
+#: backend3/clamav:32
+msgid "25 lines"
+msgstr "25 строк"
+
+#: backend3/clamav:33
+msgid "50 lines"
+msgstr "50 строк"
+
+#: input:28
 msgid "Add X-Header in scaned E-Mails:"
 msgstr "Добавлять X-Header в сообщения:"
 
@@ -27,19 +47,19 @@ msgstr "Добавлять X-Header в сообщения:"
 msgid "Antivirus database files updated on:"
 msgstr "База вирусов обновлена:"
 
-#: input:20
+#: input:22
 msgid "Antivirus filter (clamsmtpd) not installed."
 msgstr "Антивирусный фильтр (clamsmtpd) не установлен."
 
-#: input:21
+#: input:23
 msgid "Antivirus filter settings (clamsmtpd)"
 msgstr "Настройки антивирусного фильтра (clamsmtpd)"
 
-#: input:28
+#: input:30
 msgid "Antivirus scanner (vscan-clamav) not installed."
 msgstr "Антивирусный сканер (vscan-ClamAV) не установлен."
 
-#: input:29
+#: input:31
 msgid "Antivirus scanner settings (vscan-clamav)"
 msgstr "Настройки антивирусного сканера (vscan-clamav)"
 
@@ -67,76 +87,128 @@ msgstr "Антивирусная система Clamav"
 msgid "Current status: "
 msgstr "Текущее состояние:"
 
-#: input:10 input:11
+#: input:10 input:13
 msgid "Database updater (freshclam) not installed."
 msgstr "Обновление баз (freshclam) не установлено."
 
-#: input:12
+#: input:14
 msgid "Database updater settings (freshclam)"
 msgstr "Настройка обновления баз (freshclam)"
 
-#: input:36
+#: input:50
+msgid "Date"
+msgstr "Дата"
+
+#: input:58
+msgid "Date:"
+msgstr "Дата:"
+
+#: input:63
+msgid "Delete from disk"
+msgstr "Удалить с диска"
+
+#: input:53
+msgid "Delete selected"
+msgstr "Удалить выделенные"
+
+#: input:45
+msgid "Displayed:"
+msgstr "Отображено:"
+
+#: input:38
 msgid "Exclude file types semi-colon seperated list"
 msgstr "Список исключаемых типов файлов разделенных"
 
-#: input:37
+#: input:39
 msgid "Exclude files via regular expression"
 msgstr "Исключение файлов с помощью регулярных выражений"
 
-#: input:35
+#: input:49
+msgid "File"
+msgstr "Файл"
+
+#: input:37
 msgid "File prefix:"
 msgstr "Префикс файла:"
 
-#: input:40
+#: input:11
 msgid "Files in quarantine:"
 msgstr "Сообщений в карантине:"
 
-#: input:25 input:34
+#: input:51
+msgid "From"
+msgstr "От"
+
+#: input:59
+msgid "From:"
+msgstr "От:"
+
+#: input:27 input:36
 msgid "Hold quarantined files in:"
 msgstr "Сохранять файлы в карантине:"
 
-#: input:30
+#: input:32
 msgid "Infected file action:"
 msgstr "Действие с инфицированным:"
 
-#: input:41
+#: input:12
 msgid "Inspect"
 msgstr "Проверить"
 
-#: input:17
+#: input:19
 msgid "Password:"
 msgstr "Пароль:"
 
-#: input:15
+#: input:17
 msgid "Port:"
 msgstr "Порт:"
 
-#: input:14
+#: input:16
 msgid "Proxy URL:"
 msgstr "Адрес сервера:"
 
-#: input:16
+#: input:18
 msgid "Proxy User:"
 msgstr "Пользователь:"
+
+#: input:56
+msgid "Quarantined file:"
+msgstr "Файл в карантине:"
+
+#: input:62
+msgid "Reason:"
+msgstr "Причина:"
 
 #: input:3
 msgid "Reload service"
 msgstr "Перезапустить"
 
-#: input:23
+#: input:25
 msgid "Resieve mail on port:"
 msgstr "Принимать сообщения на порту:"
 
-#: input:39
+#: input:54
+msgid "Return"
+msgstr "Вернуться"
+
+#: input:64
+msgid "Return to list"
+msgstr "Вернуться к просмотру"
+
+#: input:55
+msgid "Select another file:"
+msgstr "Выбрать другой файл:"
+
+#: input:41
 msgid ""
 "Send a warning message via Windows Messenger service when virus is found."
 msgstr "Уведомлять с помощью Windows Messenger при обнаружении вируса."
 
-#: input:24
+#: input:26
 msgid "Send checked mail to:"
 msgstr "Передавать проверенные в:"
 
-#: input:38
+#: input:40
 msgid "Send warning message:"
 msgstr "Уведомлять об ошибке:"
 
@@ -144,7 +216,19 @@ msgstr "Уведомлять об ошибке:"
 msgid "Setup"
 msgstr "Настроить"
 
-#: input:22
+#: input:61
+msgid "Subject:"
+msgstr "Тема:"
+
+#: input:52
+msgid "To"
+msgstr "Для"
+
+#: input:60
+msgid "To:"
+msgstr "Для:"
+
+#: input:24
 msgid "Transparent Proxy:"
 msgstr "Прозрачный прокси"
 
@@ -152,19 +236,19 @@ msgstr "Прозрачный прокси"
 msgid "Update now"
 msgstr "Обновить сейчас"
 
-#: input:18
+#: input:20
 msgid "Use DNS to verify database version:"
 msgstr "Проверять версии баз через DNS:"
 
-#: input:13
+#: input:15
 msgid "Use HTTP Proxy:"
 msgstr "Использовать прокси сервер:"
 
-#: input:19
+#: input:21
 msgid "Use regionaly updating source:"
 msgstr "Региональный источник обновлений:"
 
-#: input:27
+#: input:29
 msgid "Use virus action script:"
 msgstr "Запускать скрипт при обнаружении вируса:"
 
@@ -172,7 +256,7 @@ msgstr "Запускать скрипт при обнаружении вирус
 msgid "at"
 msgstr "в"
 
-#: input:32
+#: input:34
 msgid "delete"
 msgstr "Удалить"
 
@@ -180,24 +264,35 @@ msgstr "Удалить"
 msgid "every "
 msgstr "каждые "
 
+#: input:46
+msgid "lines,"
+msgstr "строк,"
+
 #: input:6
 msgid "min."
 msgstr "мин."
 
-#: backend3/clamav:262
-msgid "not tested"
-msgstr "не тестируется"
-
-#: input:33
+#: input:35
 msgid "nothing"
 msgstr "отсутствует"
 
-#: input:31
+#: input:47
+msgid "per page."
+msgstr "на страницу."
+
+#: input:33
 msgid "quarantine"
 msgstr "карантин"
+
+#: input:48
+msgid "rows total."
+msgstr "строк всего."
 
 #~ msgid "Show settings"
 #~ msgstr "Показать настройки"
 
 #~ msgid "file(s)."
 #~ msgstr "файл(а|ы)"
+
+#~ msgid "not tested"
+#~ msgstr "не тестируется"
