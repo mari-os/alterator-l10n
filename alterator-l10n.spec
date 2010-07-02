@@ -1,8 +1,8 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt6
+Release: alt7
 
-Packager: Stanislav Ievlev <inger@altlinux.org>
+Packager: Dmitriy Kruglikov <dkr@altlinux.org>
 
 BuildArch:	noarch
 
@@ -94,6 +94,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Jun 02 2010 Dmitriy Kruglikov <dkr@altlinux.org>  2.9-alt7
+- added translation alterator-sshd
+
 * Fri Apr 09 2010 Anton V. Boyarshinov <boyarsh@altlinux.ru> 2.9-alt6
 - update translations alterator-netinst
 
