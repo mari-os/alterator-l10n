@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt7
+Release: alt8
 
 Packager: Dmitriy Kruglikov <dkr@altlinux.org>
 
@@ -69,6 +69,14 @@ make check
 
 %files
 %config(noreplace) %dir %_sysconfdir/alterator/l10n
+
+# Remove duplicate translations
+%exclude %_datadir/locale/*/LC_MESSAGES/alterator-hpc.mo
+%exclude %_datadir/locale/*/LC_MESSAGES/alterator-mkbootflash.mo
+%exclude %_datadir/locale/*/LC_MESSAGES/alterator-mkve.mo
+%exclude %_datadir/locale/*/LC_MESSAGES/alterator-packages.mo
+#%exclude %_datadir/locale/*/LC_MESSAGES/alterator-printers.mo
+
 %lang(en) %config(noreplace) %_sysconfdir/alterator/l10n/*-en_*
 %lang(ru) %config(noreplace) %_sysconfdir/alterator/l10n/*-ru_*
 #%lang(uk) %config(noreplace) %_sysconfdir/alterator/l10n/*-uk_*
@@ -94,6 +102,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Jul 05 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt8
+- fix conflict with some translated alterator modules (closes: #23719)
+
 * Fri Jun 02 2010 Dmitriy Kruglikov <dkr@altlinux.org>  2.9-alt7
 - added translation alterator-sshd
 
