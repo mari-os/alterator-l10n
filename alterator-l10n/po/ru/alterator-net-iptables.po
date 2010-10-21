@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -35,12 +35,12 @@ msgstr "(допустимые значения: gateway или router)"
 msgid "(possible values: on or off)"
 msgstr "(допустимые значения: on или off)"
 
-#: standard input:16 input:18 input:53 input:55 ui/net-iptables/index.scm:50
+#: standard input:24 input:26 input:40 input:42 ui/net-iptables/index.scm:50
 #: ui/net-iptables/index.scm:55
 msgid "(separated by commas or spaces)"
 msgstr "(разделенные запятыми или пробелами)"
 
-#: standard input:1 input:24 input:37
+#: standard input:1 input:9 input:45
 msgid ""
 "ATTANTION: Firewall is setting up manually. Settings done by\n"
 "          this module will not take effect until you turn manual firewalling "
@@ -50,7 +50,7 @@ msgstr ""
 "сделаные в этом модуле, не будут влиять на систему, пока вы не выключите "
 "этотрежим."
 
-#: standard input:45
+#: standard input:32
 msgid ""
 "ATTANTION: Firewall is setting up manually. Settings done by\n"
 "        this module will not take effect until you turn manual firewalling "
@@ -60,16 +60,16 @@ msgstr ""
 "сделаные в этом модуле, не будут влиять на систему, пока вы не выключите "
 "этотрежим."
 
-#: standard input:25
+#: standard input:3
 msgid "Access from internal networks"
 msgstr "Доступ из внутренних сетей"
 
-#: standard input:23 input:32 input:44 ui/net-dnat/index.scm:59
-#: ui/net-bl/index.scm:36
+#: standard input:8 input:31 input:53 ui/net-bl/index.scm:36
+#: ui/net-dnat/index.scm:59
 msgid "Add"
 msgstr "Добавить"
 
-#: standard input:43 ui/net-bl/index.scm:34
+#: standard input:7 ui/net-bl/index.scm:34
 msgid "Add host or network IP-address:"
 msgstr "Добавить IP адрес сети или хоста:"
 
@@ -77,11 +77,11 @@ msgstr "Добавить IP адрес сети или хоста:"
 msgid "Add new IP:"
 msgstr "Добавить IP-адрес:"
 
-#: standard input:21
+#: standard input:29
 msgid "Add new client:"
 msgstr "Добавить клиента:"
 
-#: standard input:30 ui/net-dnat/index.scm:37
+#: standard input:51 ui/net-dnat/index.scm:37
 msgid "Add new rule:"
 msgstr "Добавить новое правило:"
 
@@ -89,7 +89,7 @@ msgstr "Добавить новое правило:"
 msgid "Additional allowed connections:"
 msgstr "Дополнительно разрешенные соединения:"
 
-#: standard input:50 ui/net-iptables/index.scm:37
+#: standard input:37 ui/net-iptables/index.scm:37
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Разрешить входящие соединения на внешних интерфейсах:"
 
@@ -97,27 +97,27 @@ msgstr "Разрешить входящие соединения на внешн
 msgid "Allowed connections for all authorized clients:"
 msgstr "Разрешенные соединения для всех разрешенных клиентов:"
 
-#: standard input:19 input:56 input:66 ui/net-iptables/index.scm:61
+#: standard input:27 input:43 input:66 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:6
+#: standard input:14
 msgid "Authorized clients:"
 msgstr "Разрешенные клиенты:"
 
-#: standard input:28 ui/net-dnat/index.scm:31
+#: standard input:49 ui/net-dnat/index.scm:31
 msgid "Available rules:"
 msgstr "Доступные правила:"
 
-#: standard input:21
+#: standard input:5
 msgid "Blacklist"
 msgstr "Черный список"
 
-#: standard input:41 ui/net-bl/index.scm:26
+#: standard input:5 ui/net-bl/index.scm:26
 msgid "Blacklist:"
 msgstr "Черный список:"
 
-#: standard input:17
+#: standard input:19
 msgid "CUPS printing system"
 msgstr "Система печати CUPS"
 
@@ -129,15 +129,15 @@ msgstr "Невозможно добавить несколько значени�
 msgid "Can't remove multiple values from list"
 msgstr "Невозможно удалить несколько значений из списка"
 
-#: standard input:5
+#: standard input:13
 msgid "Configure internal interfaces..."
 msgstr "Настроить внутренние интерфейсы..."
 
-#: standard input:7
+#: standard input:20
 msgid "DHCP"
 msgstr ""
 
-#: standard input:13
+#: standard input:10
 msgid "DNS"
 msgstr ""
 
@@ -145,12 +145,12 @@ msgstr ""
 msgid "Default"
 msgstr "По умолчанию"
 
-#: standard input:20 input:29 input:42 ui/net-dnat/index.scm:35
-#: ui/net-bl/index.scm:30
+#: standard input:6 input:28 input:50 ui/net-bl/index.scm:30
+#: ui/net-dnat/index.scm:35
 msgid "Delete"
 msgstr "Удалить"
 
-#: standard input:40 ui/net-bl/index.scm:23
+#: standard input:4 ui/net-bl/index.scm:23
 msgid "Enable blacklist filtering"
 msgstr "Использовать черный список"
 
@@ -158,11 +158,11 @@ msgstr "Использовать черный список"
 msgid "Enable manual mode"
 msgstr "Включить режим ручной настойки"
 
-#: standard input:27 ui/net-dnat/index.scm:28
+#: standard input:48 ui/net-dnat/index.scm:28
 msgid "Enable port forwarding"
 msgstr "Включить перенаправление портов"
 
-#: standard input:4
+#: standard input:12
 msgid "Enable restrictions on all internal interfaces"
 msgstr "Включить ограничение доступа на всех внутренних интерфейсах:"
 
@@ -235,27 +235,27 @@ msgstr "Ошибка: неизвестный протокол"
 msgid "Error: unknown service"
 msgstr "Ошибка: неизвестная служба"
 
-#: standard input:15 input:52 ui/net-iptables/index.scm:48
+#: standard input:23 input:39 ui/net-iptables/index.scm:48
 msgid "Extra TCP ports:"
 msgstr "Дополнительные порты TCP:"
 
-#: standard input:17 input:54 ui/net-iptables/index.scm:53
+#: standard input:25 input:41 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr "Дополнительные порты UDP:"
 
-#: standard input:11
+#: standard input:12
 msgid "File server (Samba)"
 msgstr "Файловый сервер (Samba)"
 
-#: standard input:5
+#: standard input:22
 msgid "File transfer (FTP)"
 msgstr "Передача файлов (FTP)"
 
-#: standard input:24
+#: standard input:4
 msgid "Firewall - manual mode"
 msgstr "Брандмауэр - ручная настройка"
 
-#: standard input:3 input:26 input:39 input:47
+#: standard input:3 input:11 input:34 input:47
 msgid "Firewall manual mode module..."
 msgstr "Модуль ручной настройки брандмауэра..."
 
@@ -263,11 +263,11 @@ msgstr "Модуль ручной настройки брандмауэра..."
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr "%s пакеты, идущие на %s:%s, перенаправлять на %s:%s"
 
-#: standard input:18
+#: standard input:17
 msgid "HTTP/HTTPS"
 msgstr ""
 
-#: standard input:7 input:22
+#: standard input:15 input:30
 msgid "IP address:"
 msgstr "IP-адрес:"
 
@@ -295,75 +295,75 @@ msgstr ""
 "\", \"Черный список\", \"Перенаправление портов\"и \"Доступ из внутренних "
 "сетей\") не будут влиять на систему."
 
-#: standard input:12
+#: standard input:20
 msgid "Incoming rate (kb/s):"
 msgstr "Входящий трафик (кбайт/c):"
 
-#: standard input:12
+#: standard input:24
 msgid "LDAP"
 msgstr "LDAP"
 
-#: standard input:8
+#: standard input:16
 msgid "MAC address restriction:"
 msgstr "Привязка к MAC-адресу:"
 
-#: standard input:9
+#: standard input:17
 msgid "MAC address:"
 msgstr "MAC-адрес:"
 
-#: standard input:19
+#: standard input:15
 msgid "Mail server (IMAP)"
 msgstr "Почтовый сервер (IMAP)"
 
-#: standard input:8
+#: standard input:7
 msgid "Mail server (POP3)"
 msgstr "Почтовый сервер (POP3)"
 
-#: standard input:3
+#: standard input:6
 msgid "Mail server (SMTP)"
 msgstr "Почтовый сервер (SMTP)"
 
-#: standard input:23
+#: standard input:2
 msgid "Network firewall"
 msgstr "Брандмауэр"
 
-#: standard input:20
+#: standard input:25
 msgid "Network management (SNMP)"
 msgstr "Управление сетью (SNMP)"
 
-#: standard input:10
+#: standard input:11
 msgid "OpenVPN"
 msgstr "OpenVPN"
 
-#: standard input:13
+#: standard input:21
 msgid "Outcoming rate (kb/s):"
 msgstr "Исходящий трафик (кбайт/c)"
 
-#: standard input:22
+#: standard input:1
 msgid "Port forwarding"
 msgstr "Перенаправление портов"
 
-#: standard input:2
+#: standard input:14
 msgid "Proxy server"
 msgstr "Прокси-сервер"
 
-#: standard input:15
+#: standard input:13
 msgid "Remote access (SSH)"
 msgstr "Удалённый доступ (SSH)"
 
-#: standard input:14
+#: standard input:16
 msgid "Remote access (telnet)"
 msgstr "Удалённый доступ (telnet)"
 
-#: standard input:57 input:67 ui/net-iptables/index.scm:64
+#: standard input:44 input:67 ui/net-iptables/index.scm:64
 msgid "Reset"
 msgstr "Вернуть"
 
-#: standard input:10
+#: standard input:18
 msgid "Resolve"
 msgstr "Определить"
 
-#: standard input:16
+#: standard input:8
 msgid "SIP/H.323"
 msgstr ""
 
@@ -371,11 +371,11 @@ msgstr ""
 msgid "STUN"
 msgstr ""
 
-#: standard input:49 ui/net-iptables/index.scm:36
+#: standard input:36 ui/net-iptables/index.scm:36
 msgid "Select external interfaces:"
 msgstr "Выберете внешние интерфейсы:"
 
-#: standard input:48 ui/net-iptables/index.scm:30
+#: standard input:35 ui/net-iptables/index.scm:30
 msgid "Select forwarding mode:"
 msgstr "Выберите режим работы:"
 
@@ -383,23 +383,23 @@ msgstr "Выберите режим работы:"
 msgid "Select table:"
 msgstr "Выберите таблицу:"
 
-#: standard input:6
+#: standard input:18
 msgid "Service packets (ICMP)"
 msgstr "Служебные пакеты (ICMP)"
 
-#: standard input:14 input:51 ui/net-iptables/index.scm:44
+#: standard input:22 input:38 ui/net-iptables/index.scm:44
 msgid "Services:"
 msgstr "Службы:"
 
-#: standard input:4
+#: standard input:21
 msgid "System management center (www)"
 msgstr "Центр управления системой (www)"
 
-#: standard input:11
+#: standard input:19
 msgid "Traffic rate restrictions:"
 msgstr "Ограничение скорости доступа:"
 
-#: standard input:1
+#: standard input:23
 msgid "Zeroconf"
 msgstr "Zeroconf"
 
@@ -411,11 +411,11 @@ msgstr ""
 msgid "bad table"
 msgstr "недопустимая таблица"
 
-#: standard input:33 ui/net-dnat/index.scm:49
+#: standard input:54 ui/net-dnat/index.scm:49
 msgid "destination IP address:"
 msgstr "IP адрес:"
 
-#: standard input:35 ui/net-dnat/index.scm:54
+#: standard input:56 ui/net-dnat/index.scm:54
 msgid "forward to IP address:"
 msgstr "перенаправлять на IP адрес:"
 
@@ -427,7 +427,7 @@ msgstr "шлюз"
 msgid "gateway (NAT)"
 msgstr "шлюз (NAT)"
 
-#: standard input:34 input:36 ui/net-dnat/index.scm:51
+#: standard input:55 input:57 ui/net-dnat/index.scm:51
 #: ui/net-dnat/index.scm:56
 msgid "port:"
 msgstr "порт:"
@@ -436,7 +436,7 @@ msgstr "порт:"
 msgid "possible values:"
 msgstr "допустимые значения:"
 
-#: standard input:31 ui/net-dnat/index.scm:43
+#: standard input:52 ui/net-dnat/index.scm:43
 msgid "protocol:"
 msgstr "протокол:"
 

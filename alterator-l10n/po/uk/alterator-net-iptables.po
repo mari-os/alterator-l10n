@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: 2009-08-23 01:21+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -35,35 +35,35 @@ msgstr "(можливі значення: gateway чи router)"
 msgid "(possible values: on or off)"
 msgstr "(дозволені значення: on чи off)"
 
-#: standard input:16 input:18 input:53 input:55 ui/net-iptables/index.scm:50
+#: standard input:24 input:26 input:40 input:42 ui/net-iptables/index.scm:50
 #: ui/net-iptables/index.scm:55
 msgid "(separated by commas or spaces)"
 msgstr "(розділені комами чи пробілами)"
 
-#: standard input:1 input:24 input:37
+#: standard input:1 input:9 input:45
 msgid ""
 "ATTANTION: Firewall is setting up manually. Settings done by\n"
 "          this module will not take effect until you turn manual firewalling "
 "off."
 msgstr ""
 
-#: standard input:45
+#: standard input:32
 msgid ""
 "ATTANTION: Firewall is setting up manually. Settings done by\n"
 "        this module will not take effect until you turn manual firewalling "
 "off."
 msgstr ""
 
-#: standard input:25
+#: standard input:3
 msgid "Access from internal networks"
 msgstr ""
 
-#: standard input:23 input:32 input:44 ui/net-dnat/index.scm:59
-#: ui/net-bl/index.scm:36
+#: standard input:8 input:31 input:53 ui/net-bl/index.scm:36
+#: ui/net-dnat/index.scm:59
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:43 ui/net-bl/index.scm:34
+#: standard input:7 ui/net-bl/index.scm:34
 #, fuzzy
 msgid "Add host or network IP-address:"
 msgstr "IP адреса отримувача:"
@@ -73,11 +73,11 @@ msgstr "IP адреса отримувача:"
 msgid "Add new IP:"
 msgstr "Додати нове правило:"
 
-#: standard input:21
+#: standard input:29
 msgid "Add new client:"
 msgstr "Додати клієнта:"
 
-#: standard input:30 ui/net-dnat/index.scm:37
+#: standard input:51 ui/net-dnat/index.scm:37
 msgid "Add new rule:"
 msgstr "Додати нове правило:"
 
@@ -86,7 +86,7 @@ msgstr "Додати нове правило:"
 msgid "Additional allowed connections:"
 msgstr "Додаткові програми:"
 
-#: standard input:50 ui/net-iptables/index.scm:37
+#: standard input:37 ui/net-iptables/index.scm:37
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Дозволити вхідні з’єднання на зовнішніх інтерфейсах:"
 
@@ -94,30 +94,30 @@ msgstr "Дозволити вхідні з’єднання на зовнішн�
 msgid "Allowed connections for all authorized clients:"
 msgstr ""
 
-#: standard input:19 input:56 input:66 ui/net-iptables/index.scm:61
+#: standard input:27 input:43 input:66 ui/net-iptables/index.scm:61
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:6
+#: standard input:14
 #, fuzzy
 msgid "Authorized clients:"
 msgstr "Дозволені клієнти (MAC - IP):"
 
-#: standard input:28 ui/net-dnat/index.scm:31
+#: standard input:49 ui/net-dnat/index.scm:31
 msgid "Available rules:"
 msgstr "Доступні правила:"
 
-#: standard input:21
+#: standard input:5
 #, fuzzy
 msgid "Blacklist"
 msgstr "Повернутися до списку"
 
-#: standard input:41 ui/net-bl/index.scm:26
+#: standard input:5 ui/net-bl/index.scm:26
 #, fuzzy
 msgid "Blacklist:"
 msgstr "Повернутися до списку"
 
-#: standard input:17
+#: standard input:19
 msgid "CUPS printing system"
 msgstr "Система друку CUPS"
 
@@ -129,17 +129,17 @@ msgstr "Неможливо додати декілька значень до с�
 msgid "Can't remove multiple values from list"
 msgstr "Неможливо вилучити декілька значень з списку"
 
-#: standard input:5
+#: standard input:13
 #, fuzzy
 msgid "Configure internal interfaces..."
 msgstr "Переналаштувати мережеві інтерфейси..."
 
-#: standard input:7
+#: standard input:20
 #, fuzzy
 msgid "DHCP"
 msgstr "Використувати DHCP"
 
-#: standard input:13
+#: standard input:10
 msgid "DNS"
 msgstr ""
 
@@ -148,12 +148,12 @@ msgstr ""
 msgid "Default"
 msgstr "Вилучити"
 
-#: standard input:20 input:29 input:42 ui/net-dnat/index.scm:35
-#: ui/net-bl/index.scm:30
+#: standard input:6 input:28 input:50 ui/net-bl/index.scm:30
+#: ui/net-dnat/index.scm:35
 msgid "Delete"
 msgstr "Вилучити"
 
-#: standard input:40 ui/net-bl/index.scm:23
+#: standard input:4 ui/net-bl/index.scm:23
 msgid "Enable blacklist filtering"
 msgstr ""
 
@@ -161,12 +161,12 @@ msgstr ""
 msgid "Enable manual mode"
 msgstr ""
 
-#: standard input:27 ui/net-dnat/index.scm:28
+#: standard input:48 ui/net-dnat/index.scm:28
 #, fuzzy
 msgid "Enable port forwarding"
 msgstr "Переспрямовування портів"
 
-#: standard input:4
+#: standard input:12
 msgid "Enable restrictions on all internal interfaces"
 msgstr "Увімкнути обмеження доступу на всіх внутрішніх інтерфейсах"
 
@@ -243,27 +243,27 @@ msgstr "Помилка: невідомий протокол"
 msgid "Error: unknown service"
 msgstr "Помилка: невідома служба"
 
-#: standard input:15 input:52 ui/net-iptables/index.scm:48
+#: standard input:23 input:39 ui/net-iptables/index.scm:48
 msgid "Extra TCP ports:"
 msgstr "Додаткові порти TCP:"
 
-#: standard input:17 input:54 ui/net-iptables/index.scm:53
+#: standard input:25 input:41 ui/net-iptables/index.scm:53
 msgid "Extra UDP ports:"
 msgstr "Додаткові порти UDP:"
 
-#: standard input:11
+#: standard input:12
 msgid "File server (Samba)"
 msgstr "Файловий сервер (Samba)"
 
-#: standard input:5
+#: standard input:22
 msgid "File transfer (FTP)"
 msgstr "Передавання файлів (FTP)"
 
-#: standard input:24
+#: standard input:4
 msgid "Firewall - manual mode"
 msgstr ""
 
-#: standard input:3 input:26 input:39 input:47
+#: standard input:3 input:11 input:34 input:47
 msgid "Firewall manual mode module..."
 msgstr ""
 
@@ -271,12 +271,12 @@ msgstr ""
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr "%s пакети, що йдуть на %s:%s, переспрямовувати на %s:%s"
 
-#: standard input:18
+#: standard input:17
 #, fuzzy
 msgid "HTTP/HTTPS"
 msgstr "Web-сервер (HTTP/HTTPS)"
 
-#: standard input:7 input:22
+#: standard input:15 input:30
 msgid "IP address:"
 msgstr "IP адреса:"
 
@@ -298,76 +298,76 @@ msgid ""
 "      take effect."
 msgstr ""
 
-#: standard input:12
+#: standard input:20
 msgid "Incoming rate (kb/s):"
 msgstr ""
 
-#: standard input:12
+#: standard input:24
 msgid "LDAP"
 msgstr "LDAP"
 
-#: standard input:8
+#: standard input:16
 #, fuzzy
 msgid "MAC address restriction:"
 msgstr "MAC адреса:"
 
-#: standard input:9
+#: standard input:17
 msgid "MAC address:"
 msgstr "MAC адреса:"
 
-#: standard input:19
+#: standard input:15
 msgid "Mail server (IMAP)"
 msgstr "Поштовий сервер (IMAP)"
 
-#: standard input:8
+#: standard input:7
 msgid "Mail server (POP3)"
 msgstr "Поштовий сервер (POP3)"
 
-#: standard input:3
+#: standard input:6
 msgid "Mail server (SMTP)"
 msgstr "Поштовий сервер (SMTP)"
 
-#: standard input:23
+#: standard input:2
 msgid "Network firewall"
 msgstr "Брандмауер мережі"
 
-#: standard input:20
+#: standard input:25
 msgid "Network management (SNMP)"
 msgstr "Керування мережею (SNMP)"
 
-#: standard input:10
+#: standard input:11
 msgid "OpenVPN"
 msgstr "OpenVPN"
 
-#: standard input:13
+#: standard input:21
 msgid "Outcoming rate (kb/s):"
 msgstr ""
 
-#: standard input:22
+#: standard input:1
 msgid "Port forwarding"
 msgstr "Переспрямовування портів"
 
-#: standard input:2
+#: standard input:14
 msgid "Proxy server"
 msgstr "Proxy сервер"
 
-#: standard input:15
+#: standard input:13
 msgid "Remote access (SSH)"
 msgstr "Віддалений доступ (SSH)"
 
-#: standard input:14
+#: standard input:16
 msgid "Remote access (telnet)"
 msgstr "Віддалений доступ (telnet)"
 
-#: standard input:57 input:67 ui/net-iptables/index.scm:64
+#: standard input:44 input:67 ui/net-iptables/index.scm:64
 msgid "Reset"
 msgstr "Скинути"
 
-#: standard input:10
+#: standard input:18
 msgid "Resolve"
 msgstr "Визначити"
 
-#: standard input:16
+#: standard input:8
 msgid "SIP/H.323"
 msgstr ""
 
@@ -375,11 +375,11 @@ msgstr ""
 msgid "STUN"
 msgstr ""
 
-#: standard input:49 ui/net-iptables/index.scm:36
+#: standard input:36 ui/net-iptables/index.scm:36
 msgid "Select external interfaces:"
 msgstr "Оберіть зовнішні інтерфейси:"
 
-#: standard input:48 ui/net-iptables/index.scm:30
+#: standard input:35 ui/net-iptables/index.scm:30
 msgid "Select forwarding mode:"
 msgstr "Оберіть режим роботи:"
 
@@ -388,24 +388,24 @@ msgstr "Оберіть режим роботи:"
 msgid "Select table:"
 msgstr "Обрати дію:"
 
-#: standard input:6
+#: standard input:18
 msgid "Service packets (ICMP)"
 msgstr "Службові пакети (ICMP)"
 
-#: standard input:14 input:51 ui/net-iptables/index.scm:44
+#: standard input:22 input:38 ui/net-iptables/index.scm:44
 msgid "Services:"
 msgstr "Служби:"
 
-#: standard input:4
+#: standard input:21
 msgid "System management center (www)"
 msgstr "Центр налаштування системи (www)"
 
-#: standard input:11
+#: standard input:19
 #, fuzzy
 msgid "Traffic rate restrictions:"
 msgstr "Обмеження системи"
 
-#: standard input:1
+#: standard input:23
 msgid "Zeroconf"
 msgstr "Zeroconf"
 
@@ -417,11 +417,11 @@ msgstr ""
 msgid "bad table"
 msgstr ""
 
-#: standard input:33 ui/net-dnat/index.scm:49
+#: standard input:54 ui/net-dnat/index.scm:49
 msgid "destination IP address:"
 msgstr "IP адреса отримувача:"
 
-#: standard input:35 ui/net-dnat/index.scm:54
+#: standard input:56 ui/net-dnat/index.scm:54
 msgid "forward to IP address:"
 msgstr "переспрямовувати на IP адрес:"
 
@@ -433,7 +433,7 @@ msgstr "шлюз"
 msgid "gateway (NAT)"
 msgstr "шлюз (NAT)"
 
-#: standard input:34 input:36 ui/net-dnat/index.scm:51
+#: standard input:55 input:57 ui/net-dnat/index.scm:51
 #: ui/net-dnat/index.scm:56
 msgid "port:"
 msgstr "порт:"
@@ -442,7 +442,7 @@ msgstr "порт:"
 msgid "possible values:"
 msgstr "Допустимі значения:"
 
-#: standard input:31 ui/net-dnat/index.scm:43
+#: standard input:52 ui/net-dnat/index.scm:43
 msgid "protocol:"
 msgstr "протокол:"
 

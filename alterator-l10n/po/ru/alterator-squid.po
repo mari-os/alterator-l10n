@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: 2009-10-21 13:05+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ui/squid/networks/ajax.scm:14 ui/squid/domains/ajax.scm:14
-#: ui/squid/safe-ports/ajax.scm:14
+#: ui/squid/safe-ports/ajax.scm:14 ui/squid/domains/ajax.scm:14
+#: ui/squid/networks/ajax.scm:14
 msgid "&lt;new&gt;"
 msgstr "&lt;новая&gt;"
 
-#: standard input:5
+#: standard input:53
 msgid "(IP address/network bits)"
 msgstr "(IP-адрес/биты подсети)"
 
-#: standard input:28 input:40
+#: standard input:18 input:44
 msgid "(Space separated list of domain suffixes, each starting with a dot)"
 msgstr ""
 "(Список доменных суффиксов разделённых пробелами; каждый суффикс начинается "
 "с точки)"
 
-#: standard input:17 input:49 input:51
+#: standard input:7 input:24 input:26
 msgid "(port number)"
 msgstr "(номер порта)"
 
@@ -41,19 +41,19 @@ msgstr "(номер порта)"
 msgid "All users"
 msgstr "Все пользователи"
 
-#: standard input:25
+#: standard input:15
 msgid "Allow access"
 msgstr "Разрешить доступ"
 
-#: standard input:18
+#: standard input:8
 msgid "Allowed networks..."
 msgstr "Разрешённые сети..."
 
-#: standard input:19
+#: standard input:9
 msgid "Allowed protocols..."
 msgstr "Разрешённые протоколы..."
 
-#: standard input:7 input:20 input:42 input:55
+#: standard input:10 input:30 input:46 input:55
 msgid "Apply"
 msgstr "Применить"
 
@@ -65,35 +65,35 @@ msgstr "Авторизованные пользователи"
 msgid "Authenticated users"
 msgstr "Авторизованные пользователи"
 
-#: standard input:10 input:58
+#: standard input:33 input:58
 msgid "Back"
 msgstr "Назад"
 
-#: standard input:6 input:41 input:54
+#: standard input:29 input:45 input:54
 msgid "Comment:"
 msgstr "Комментарий:"
 
-#: standard input:52
+#: standard input:27
 msgid "Connection method:"
 msgstr "Способ соединения:"
 
-#: standard input:9 input:44 input:57
+#: standard input:32 input:48 input:57
 msgid "Delete"
 msgstr "Удалить"
 
-#: standard input:26
+#: standard input:16
 msgid "Deny access"
 msgstr "Запретить доступ"
 
-#: standard input:21
+#: standard input:11
 msgid "Domain access policy"
 msgstr "Доступ к доменам"
 
-#: standard input:30 input:37
+#: standard input:34 input:41
 msgid "Domain list"
 msgstr "Список доменов:"
 
-#: standard input:31
+#: standard input:35
 msgid ""
 "Domains defined below can be used in the group-domain access policy "
 "configured at the upper section \"User group access policy\"."
@@ -101,19 +101,19 @@ msgstr ""
 "Домены, определённые ниже, используются в политике доступа группы, выбранной "
 "выше."
 
-#: standard input:13
+#: standard input:3
 msgid "Enable proxy-server service"
 msgstr "Включить сервис прокси-сервера"
 
-#: standard input:53
+#: standard input:28
 msgid "Enable transparent redirection"
 msgstr "Включить прозрачное перенаправление"
 
-#: standard input:35 input:45
+#: standard input:20 input:39
 msgid "External ports"
 msgstr "Разрешённые протоколы"
 
-#: standard input:22
+#: standard input:12
 msgid ""
 "For each of the user group listed below the access to a number of domians on "
 "the external network can exclusively be granted or rewoked."
@@ -121,29 +121,29 @@ msgstr ""
 "Для каждой из выбранной группы может быть задана политика разрешения или "
 "запрета на доступ к указанным в поле внизу доменам."
 
-#: standard input:48
+#: standard input:23
 msgid "From port:"
 msgstr "C порта:"
 
-#: standard input:12
+#: standard input:2
 msgid ""
 "General proxy-server parameters management and service runtime status "
 "control."
 msgstr "Основные параметры управления прокси-сервером"
 
-#: standard input:24
+#: standard input:14
 msgid "Group access policy:"
 msgstr "Политика доступа группы:"
 
-#: standard input:23
+#: standard input:13
 msgid "Group:"
 msgstr "Группа:"
 
-#: standard input:4
+#: standard input:52
 msgid "IP-network:"
 msgstr "Сеть IP:"
 
-#: standard input:1 input:34
+#: standard input:38 input:49
 msgid "Internal networks"
 msgstr "Разрешённые сети"
 
@@ -155,19 +155,19 @@ msgstr "Kerberos"
 msgid "Kerberos+PAM"
 msgstr "Kerberos+PAM"
 
-#: standard input:33
+#: standard input:37
 msgid "Main section"
 msgstr "Основные параметры"
 
-#: standard input:11
+#: standard input:1
 msgid "Module main section"
 msgstr "Основные параметры"
 
-#: standard input:32
+#: standard input:36
 msgid "Navigation:"
 msgstr "Разделы:"
 
-#: standard input:3 input:38 input:47
+#: standard input:22 input:42 input:51
 msgid "New"
 msgstr "Создать"
 
@@ -191,7 +191,7 @@ msgstr "Сквозной"
 msgid "Proxy"
 msgstr "Прокси"
 
-#: standard input:16
+#: standard input:6
 msgid "Proxy port:"
 msgstr "Порт прокси-сервера:"
 
@@ -199,7 +199,7 @@ msgstr "Порт прокси-сервера:"
 msgid "Proxy server"
 msgstr "Прокси-сервер"
 
-#: standard input:46
+#: standard input:21
 msgid ""
 "Requests for the services (ports) listed below are forwarded to the external "
 "network. All other requests are blocked."
@@ -207,7 +207,7 @@ msgstr ""
 "Запросы из указанных сетей будут обработаны. Запросы из других сетей будут "
 "проигнорированы."
 
-#: standard input:2
+#: standard input:50
 msgid ""
 "Requests originated from the networks listed below are forwarded to the "
 "external network. All other requests are blocked."
@@ -215,27 +215,27 @@ msgstr ""
 "Запросы из указанных сетей будут обработаны. Запросы из других сетей будут "
 "проигнорированы."
 
-#: standard input:8 input:43 input:56
+#: standard input:31 input:47 input:56
 msgid "Reset"
 msgstr "Вернуть"
 
-#: standard input:29
+#: standard input:19
 msgid "Save"
 msgstr "Сохранить"
 
-#: standard input:15
+#: standard input:5
 msgid "Select authentication mode:"
 msgstr "Выберите способ аутентификации:"
 
-#: standard input:14
+#: standard input:4
 msgid "Select proxying mode:"
 msgstr "Выберите режим проксирования:"
 
-#: standard input:27 input:39
+#: standard input:17 input:43
 msgid "Suffix list:"
 msgstr "Список суффиксов доменов:"
 
-#: standard input:50
+#: standard input:25
 msgid "To port:"
 msgstr "По порт:"
 
@@ -255,7 +255,7 @@ msgstr "Невозможно получить статус службы прок
 msgid "Unable to turn proxy server service %s"
 msgstr "Невозможно переключить службу прокси-сервера в состояние %s"
 
-#: standard input:36
+#: standard input:40
 msgid "User group access policy"
 msgstr "Политика доступа группы"
 

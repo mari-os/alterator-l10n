@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: 2009-09-14 19:22-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,39 +19,39 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:9 ui/net-eth/index.scm:125
+#: standard input:8 ui/net-eth/index.scm:112
 msgid "(multiple values should be space separated)"
 msgstr "(valores múltiplos devem ser separados espaço)"
 
-#: standard input:11 ui/net-eth/index.scm:136
+#: standard input:10 ui/net-eth/index.scm:137
 msgid "Advanced..."
 msgstr "Avançado..."
 
-#: standard input:12 ui/net-eth/index.scm:146
+#: standard input:11 ui/net-eth/index.scm:147
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:17 ui/net-eth/advanced/index.scm:50
+#: standard input:17 ui/net-eth/advanced/index.scm:59
 msgid "Cancel"
 msgstr "Cancelar"
 
 #.
-#: standard input:1 ui/net-eth/index.scm:83
+#: standard input:1 ui/net-eth/index.scm:86
 msgid "Computer name:"
 msgstr "Nome do computador:"
 
 #.
-#: standard input:3 ui/net-eth/index.scm:100
+#: standard input:3 ui/net-eth/index.scm:103
 msgid "Configuration:"
 msgstr "Configurações:"
 
 #.
-#: standard input:7 ui/net-eth/index.scm:116
+#: standard input:6 ui/net-eth/index.scm:120
 msgid "DNS servers:"
 msgstr "Servidores DNS:"
 
 #.
-#: standard input:6 ui/net-eth/index.scm:111
+#: standard input:4 ui/net-eth/index.scm:107
 msgid "Default gateway:"
 msgstr "Gateway PAdrão"
 
@@ -59,82 +59,87 @@ msgstr "Gateway PAdrão"
 msgid "Ethernet interfaces"
 msgstr " Interfaces Ethernet"
 
-#: backend3/net-eth:133
+#: backend3/net-eth:206
 #, fuzzy
 msgid "Host name is too long"
 msgstr "Nome do Host"
 
 #.
-#: standard input:4 ui/net-eth/index.scm:103
-msgid "IP address:"
+#: standard input:5 ui/net-eth/index.scm:115
+#, fuzzy
+msgid "IP addresses:"
 msgstr "Endereço IP:"
 
 #.
-#: standard input:14 ui/net-eth/advanced/index.scm:36
+#: standard input:13 ui/net-eth/advanced/index.scm:43
 msgid "Interface:"
 msgstr "Interface:"
 
-#: standard input:2 ui/net-eth/index.scm:90
+#: standard input:2 ui/net-eth/index.scm:93
 msgid "Interfaces"
 msgstr "Interfaces"
 
-#: backend3/net-eth:200
+#: backend3/net-eth:286
 msgid "Manually"
 msgstr "Manualmente"
 
-#.
-#: standard input:5 ui/net-eth/index.scm:107
-msgid "Netmask:"
-msgstr "Mascara de Rede:"
-
-#: backend3/net-eth:208
+#: backend3/net-eth:294
 msgid "Network adaptor:"
 msgstr "Adaptador de Rede:"
 
 #.
-#: standard input:15 ui/net-eth/advanced/index.scm:40
+#: standard input:14 ui/net-eth/advanced/index.scm:47
 msgid "Network subsystem:"
 msgstr "Sub-sistema da rede:"
 
-#: standard input:16 ui/net-eth/advanced/index.scm:49
+#: standard input:16 ui/net-eth/advanced/index.scm:58
 msgid "OK"
 msgstr "OK"
 
-#: standard input:13 ui/net-eth/index.scm:147
+#: standard input:12 ui/net-eth/index.scm:148
 msgid "Reset"
 msgstr "Resetar"
 
 #.
-#: standard input:8 ui/net-eth/index.scm:120
+#: standard input:7 ui/net-eth/index.scm:124
 msgid "Search domains:"
 msgstr "Procurar Domínios:"
 
-#: backend3/net-eth:198
+#: backend3/net-eth:284
 msgid "Use DHCP"
 msgstr "Usar DHCP:"
 
-#: backend3/net-eth:199
+#: backend3/net-eth:285
 msgid "Use Zeroconf"
 msgstr "Usar ZeroConfig"
 
-#: standard input:10 ui/net-eth/index.scm:132
+#.
+#: standard input:15 ui/net-eth/advanced/index.scm:50
+#, fuzzy
+msgid "Use interface as bridge"
+msgstr "Escolha interface língua:"
+
+#: standard input:9 ui/net-eth/index.scm:133
 msgid "Wireless settings..."
 msgstr "Configurações de Rede Sem Fio"
 
-#: backend3/net-eth:193
+#: backend3/net-eth:279
 msgid "not under control"
 msgstr "que não estão sob controle"
 
-#: backend3/net-eth:214
+#: backend3/net-eth:300
 msgid "plugged"
 msgstr "plugado"
 
-#: backend3/net-eth:217
+#: backend3/net-eth:303
 msgid "unplugged"
 msgstr "desplugado"
 
 #~ msgid "Hardware binding:"
 #~ msgstr "Hadware vinculado:"
+
+#~ msgid "Netmask:"
+#~ msgstr "Mascara de Rede:"
 
 #~ msgid "by MAC address"
 #~ msgstr "por endereço MAC"

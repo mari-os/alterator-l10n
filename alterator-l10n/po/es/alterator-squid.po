@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: 2009-03-27 20:53-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,21 +19,21 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: ui/squid/networks/ajax.scm:14 ui/squid/domains/ajax.scm:14
-#: ui/squid/safe-ports/ajax.scm:14
+#: ui/squid/safe-ports/ajax.scm:14 ui/squid/domains/ajax.scm:14
+#: ui/squid/networks/ajax.scm:14
 msgid "&lt;new&gt;"
 msgstr "&lt;nuevo&gt;"
 
-#: standard input:5
+#: standard input:53
 #, fuzzy
 msgid "(IP address/network bits)"
 msgstr "Dirección IP"
 
-#: standard input:28 input:40
+#: standard input:18 input:44
 msgid "(Space separated list of domain suffixes, each starting with a dot)"
 msgstr ""
 
-#: standard input:17 input:49 input:51
+#: standard input:7 input:24 input:26
 #, fuzzy
 msgid "(port number)"
 msgstr "deve ser un número"
@@ -44,22 +44,22 @@ msgstr "deve ser un número"
 msgid "All users"
 msgstr "Adiccionar Usuário:"
 
-#: standard input:25
+#: standard input:15
 #, fuzzy
 msgid "Allow access"
 msgstr "Accesso de Escrita"
 
-#: standard input:18
+#: standard input:8
 #, fuzzy
 msgid "Allowed networks..."
 msgstr "Redes permitidas:"
 
-#: standard input:19
+#: standard input:9
 #, fuzzy
 msgid "Allowed protocols..."
 msgstr "Protocolos Suportados"
 
-#: standard input:7 input:20 input:42 input:55
+#: standard input:10 input:30 input:46 input:55
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -73,50 +73,50 @@ msgstr "Atutenticación fracasó"
 msgid "Authenticated users"
 msgstr "Atutenticación fracasó"
 
-#: standard input:10 input:58
+#: standard input:33 input:58
 msgid "Back"
 msgstr ""
 
-#: standard input:6 input:41 input:54
+#: standard input:29 input:45 input:54
 msgid "Comment:"
 msgstr "Comentários:"
 
-#: standard input:52
+#: standard input:27
 #, fuzzy
 msgid "Connection method:"
 msgstr "Conección establecida"
 
-#: standard input:9 input:44 input:57
+#: standard input:32 input:48 input:57
 msgid "Delete"
 msgstr "Borrar"
 
-#: standard input:26
+#: standard input:16
 #, fuzzy
 msgid "Deny access"
 msgstr "Accesso de Escrita"
 
-#: standard input:21
+#: standard input:11
 #, fuzzy
 msgid "Domain access policy"
 msgstr "Accesso de Escrita"
 
-#: standard input:30 input:37
+#: standard input:34 input:41
 #, fuzzy
 msgid "Domain list"
 msgstr "Accesso de Escrita"
 
-#: standard input:31
+#: standard input:35
 msgid ""
 "Domains defined below can be used in the group-domain access policy "
 "configured at the upper section \"User group access policy\"."
 msgstr ""
 
-#: standard input:13
+#: standard input:3
 #, fuzzy
 msgid "Enable proxy-server service"
 msgstr "Posibilitar servicio"
 
-#: standard input:53
+#: standard input:28
 #, fuzzy
 msgid "Enable transparent redirection"
 msgstr ""
@@ -125,43 +125,43 @@ msgstr ""
 "#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
 "Borrar Conección"
 
-#: standard input:35 input:45
+#: standard input:20 input:39
 #, fuzzy
 msgid "External ports"
 msgstr "Portas TCP extra"
 
-#: standard input:22
+#: standard input:12
 msgid ""
 "For each of the user group listed below the access to a number of domians on "
 "the external network can exclusively be granted or rewoked."
 msgstr ""
 
-#: standard input:48
+#: standard input:23
 #, fuzzy
 msgid "From port:"
 msgstr "porta:"
 
-#: standard input:12
+#: standard input:2
 msgid ""
 "General proxy-server parameters management and service runtime status "
 "control."
 msgstr ""
 
-#: standard input:24
+#: standard input:14
 #, fuzzy
 msgid "Group access policy:"
 msgstr "Nuevo grupo:"
 
-#: standard input:23
+#: standard input:13
 msgid "Group:"
 msgstr "Grupo:"
 
-#: standard input:4
+#: standard input:52
 #, fuzzy
 msgid "IP-network:"
 msgstr "Rede"
 
-#: standard input:1 input:34
+#: standard input:38 input:49
 #, fuzzy
 msgid "Internal networks"
 msgstr "Otra rede"
@@ -174,22 +174,22 @@ msgstr ""
 msgid "Kerberos+PAM"
 msgstr ""
 
-#: standard input:33
+#: standard input:37
 #, fuzzy
 msgid "Main section"
 msgstr "Ajustes"
 
-#: standard input:11
+#: standard input:1
 #, fuzzy
 msgid "Module main section"
 msgstr "Ajustes"
 
-#: standard input:32
+#: standard input:36
 #, fuzzy
 msgid "Navigation:"
 msgstr "Empresa"
 
-#: standard input:3 input:38 input:47
+#: standard input:22 input:42 input:51
 #, fuzzy
 msgid "New"
 msgstr "Rede"
@@ -215,7 +215,7 @@ msgstr ""
 msgid "Proxy"
 msgstr ""
 
-#: standard input:16
+#: standard input:6
 #, fuzzy
 msgid "Proxy port:"
 msgstr "Porta:"
@@ -224,41 +224,41 @@ msgstr "Porta:"
 msgid "Proxy server"
 msgstr "Servidor Proxy"
 
-#: standard input:46
+#: standard input:21
 msgid ""
 "Requests for the services (ports) listed below are forwarded to the external "
 "network. All other requests are blocked."
 msgstr ""
 
-#: standard input:2
+#: standard input:50
 msgid ""
 "Requests originated from the networks listed below are forwarded to the "
 "external network. All other requests are blocked."
 msgstr ""
 
-#: standard input:8 input:43 input:56
+#: standard input:31 input:47 input:56
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:29
+#: standard input:19
 msgid "Save"
 msgstr "Salvar"
 
-#: standard input:15
+#: standard input:5
 #, fuzzy
 msgid "Select authentication mode:"
 msgstr "Seleccionar modo adelante:"
 
-#: standard input:14
+#: standard input:4
 #, fuzzy
 msgid "Select proxying mode:"
 msgstr "Seleccionar modo adelante:"
 
-#: standard input:27 input:39
+#: standard input:17 input:43
 msgid "Suffix list:"
 msgstr ""
 
-#: standard input:50
+#: standard input:25
 #, fuzzy
 msgid "To port:"
 msgstr "porta:"
@@ -283,7 +283,7 @@ msgstr "Posibilitar servicio"
 msgid "Unable to turn proxy server service %s"
 msgstr "Posibilitar servicio"
 
-#: standard input:36
+#: standard input:40
 #, fuzzy
 msgid "User group access policy"
 msgstr "Nuevo grupo:"

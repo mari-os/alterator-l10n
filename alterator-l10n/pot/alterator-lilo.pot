@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:11+0400\n"
+"POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: standard input:1
-msgid "Bootloader setup"
+msgid "Bootloader"
 msgstr ""
 
 #: standard input:2
-msgid "Bootloader"
+msgid "Bootloader setup"
 msgstr ""
 
 #: ui/lilo/index.scm:97 ui/lilo/expert/index.scm:131
@@ -40,14 +40,35 @@ msgstr ""
 msgid "Interface timeout:"
 msgstr ""
 
-#: ui/lilo/index.scm:126 ui/lilo/expert/index.scm:206
-#: ui/lilo/edit-source/index.scm:57
+#: ui/lilo/index.scm:126 ui/lilo/edit-source/index.scm:57
+#: ui/lilo/expert/index.scm:206
 msgid "Apply"
 msgstr ""
 
-#: ui/lilo/index.scm:127 ui/lilo/expert/index.scm:122
-#: ui/lilo/edit-source/index.scm:41
+#: ui/lilo/index.scm:127 ui/lilo/edit-source/index.scm:41
+#: ui/lilo/expert/index.scm:122
 msgid "Expert mode"
+msgstr ""
+
+#: ui/lilo/edit-source/index.scm:38 ui/lilo/expert/index.scm:119
+msgid "Don't install bootloader"
+msgstr ""
+
+#: ui/lilo/edit-source/index.scm:40 ui/lilo/expert/index.scm:121
+msgid "Simple mode"
+msgstr ""
+
+#: ui/lilo/edit-source/index.scm:42 ui/lilo/expert/index.scm:123
+msgid "Edit lilo.conf"
+msgstr ""
+
+#: ui/lilo/edit-source/index.scm:49
+msgid "Lilo options:"
+msgstr ""
+
+#: ui/lilo/edit-source/index.scm:58 ui/lilo/expert/index.scm:187
+#: ui/lilo/expert/index.scm:207
+msgid "Reset"
 msgstr ""
 
 #: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
@@ -56,18 +77,6 @@ msgstr ""
 
 #: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
 msgid "Other loader"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:119 ui/lilo/edit-source/index.scm:38
-msgid "Don't install bootloader"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:121 ui/lilo/edit-source/index.scm:40
-msgid "Simple mode"
-msgstr ""
-
-#: ui/lilo/expert/index.scm:123 ui/lilo/edit-source/index.scm:42
-msgid "Edit lilo.conf"
 msgstr ""
 
 #: ui/lilo/expert/index.scm:127
@@ -134,11 +143,6 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: ui/lilo/expert/index.scm:187 ui/lilo/expert/index.scm:207
-#: ui/lilo/edit-source/index.scm:58
-msgid "Reset"
-msgstr ""
-
 #: ui/lilo/expert/index.scm:189
 msgid "Delete"
 msgstr ""
@@ -149,10 +153,6 @@ msgstr ""
 
 #: ui/lilo/expert/index.scm:195
 msgid "Add other loader"
-msgstr ""
-
-#: ui/lilo/edit-source/index.scm:49
-msgid "Lilo options:"
 msgstr ""
 
 #: helpers/lilo-conf.sh:29 helpers/lilo-conf.sh:145

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgid "Install sources"
 msgstr ""
 
 #: standard input:2
-msgid "Multimedia (full)"
+msgid "Graphics (full)"
 msgstr ""
 
 #: standard input:3
-msgid "Communications (full)"
+msgid "Desktop (full)"
 msgstr ""
 
 #: standard input:4
@@ -33,7 +33,7 @@ msgid "Office Suite"
 msgstr ""
 
 #: standard input:5
-msgid "Graphics"
+msgid "Edutainment"
 msgstr ""
 
 #: standard input:6
@@ -41,79 +41,131 @@ msgid "Desktop"
 msgstr ""
 
 #: standard input:7
-msgid "Emulators"
-msgstr ""
-
-#: standard input:8
-msgid "Multimedia"
-msgstr ""
-
-#: standard input:9
-msgid "Communications"
-msgstr ""
-
-#: standard input:10
-msgid "Graphics (full)"
-msgstr ""
-
-#: standard input:11
 msgid "Office Suite (full)"
 msgstr ""
 
-#: standard input:12
-msgid "Games"
+#: standard input:8
+msgid "Communications (full)"
 msgstr ""
 
-#: standard input:13
+#: standard input:9
 msgid "Documentation"
 msgstr ""
 
+#: standard input:10
+msgid "Multimedia"
+msgstr ""
+
+#: standard input:11
+msgid "Emulators"
+msgstr ""
+
+#: standard input:12
+msgid "Communications"
+msgstr ""
+
+#: standard input:13
+msgid "Games"
+msgstr ""
+
 #: standard input:14
-msgid "Desktop (full)"
+msgid "Graphics"
 msgstr ""
 
 #: standard input:15
-msgid "Edutainment"
+msgid "Multimedia (full)"
 msgstr ""
 
-#: standard input:1 ui/pkg/sources/mirrors/index.scm:52
-msgid "Repository:"
-msgstr ""
-
-#: standard input:2 ui/pkg/sources/mirrors/index.scm:56
-msgid "New source:"
-msgstr ""
-
-#: standard input:3 ui/pkg/sources/mirrors/index.scm:58
-msgid "Add"
-msgstr ""
-
-#: standard input:4 ui/pkg/sources/mirrors/index.scm:60
-msgid "Available sources:"
-msgstr ""
-
-#: standard input:5 ui/pkg/sources/mirrors/index.scm:62
-msgid "Delete"
-msgstr ""
-
-#: standard input:6 ui/pkg/sources/mirrors/index.scm:66
-msgid "Return"
-msgstr ""
-
-#: standard input:7 ui/pkg/sources/index.scm:8
+#: standard input:1 ui/pkg/sources/index.scm:8
 msgid "Repositories:"
 msgstr ""
 
-#: standard input:8 ui/pkg/sources/index.scm:13
+#: standard input:2 ui/pkg/sources/index.scm:13
 msgid "Source URI:"
 msgstr ""
 
-#: standard input:9 ui/pkg/sources/index.scm:15
+#: standard input:3 ui/pkg/sources/index.scm:15
 msgid "Change"
 msgstr ""
 
-#: standard input:10 ui/pkg/sources/index.scm:20
+#: standard input:4 ui/pkg/sources/index.scm:20
 msgid "Advanced..."
+msgstr ""
+
+#: standard input:5 ui/pkg/sources/mirrors/index.scm:52
+msgid "Repository:"
+msgstr ""
+
+#: standard input:6 ui/pkg/sources/mirrors/index.scm:56
+msgid "New source:"
+msgstr ""
+
+#: standard input:7 ui/pkg/sources/mirrors/index.scm:58
+msgid "Add"
+msgstr ""
+
+#: standard input:8 ui/pkg/sources/mirrors/index.scm:60
+msgid "Available sources:"
+msgstr ""
+
+#: standard input:9 ui/pkg/sources/mirrors/index.scm:62
+msgid "Delete"
+msgstr ""
+
+#: standard input:10 ui/pkg/sources/mirrors/index.scm:66
+msgid "Return"
+msgstr ""
+
+#: ui/pkg/cdrom/index.scm:7
+msgid "Please insert CDROM labeled as"
+msgstr ""
+
+#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
+msgid "Unknown"
+msgstr ""
+
+#: ui/pkg/cdrom/index.scm:9
+msgid "Into drive"
+msgstr ""
+
+#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+msgid "Press 'Next' button to continue"
+msgstr ""
+
+#: ui/pkg/error/index.scm:4
+msgid "Critical error during install"
+msgstr ""
+
+#: ui/pkg/install/index.scm:34
+msgid "Building packages list"
+msgstr ""
+
+#: ui/pkg/install/index.scm:36
+msgid "Installing base system"
+msgstr ""
+
+#: ui/pkg/install/index.scm:38
+msgid "Installing software"
+msgstr ""
+
+#: ui/pkg/install/index.scm:39 ui/pkg/install/index.scm:42
+msgid "Loading package information..."
+msgstr ""
+
+#: ui/pkg/install/index.scm:41
+msgid "Installing additional software"
+msgstr ""
+
+#: ui/pkg/install/index.scm:75
+msgid "Acquiring packages..."
+msgstr ""
+
+#: ui/pkg/install/index.scm:81
+msgid "Installing packages..."
+msgstr ""
+
+#: ui/pkg/install/index.scm:100 ui/pkg/groups/index.scm:148
+msgid "Preparing..."
 msgstr ""
 
 #: ui/pkg/groups/index.scm:69
@@ -151,58 +203,6 @@ msgstr ""
 
 #: ui/pkg/groups/index.scm:133
 msgid "Additional applications:"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:148 ui/pkg/install/index.scm:100
-msgid "Preparing..."
-msgstr ""
-
-#: ui/pkg/cdrom/index.scm:7
-msgid "Please insert CDROM labeled as"
-msgstr ""
-
-#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
-msgid "Unknown"
-msgstr ""
-
-#: ui/pkg/cdrom/index.scm:9
-msgid "Into drive"
-msgstr ""
-
-#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
-msgid "Press 'Next' button to continue"
-msgstr ""
-
-#: ui/pkg/install/index.scm:34
-msgid "Building packages list"
-msgstr ""
-
-#: ui/pkg/install/index.scm:36
-msgid "Installing base system"
-msgstr ""
-
-#: ui/pkg/install/index.scm:38
-msgid "Installing software"
-msgstr ""
-
-#: ui/pkg/install/index.scm:39 ui/pkg/install/index.scm:42
-msgid "Loading package information..."
-msgstr ""
-
-#: ui/pkg/install/index.scm:41
-msgid "Installing additional software"
-msgstr ""
-
-#: ui/pkg/install/index.scm:75
-msgid "Acquiring packages..."
-msgstr ""
-
-#: ui/pkg/install/index.scm:81
-msgid "Installing packages..."
-msgstr ""
-
-#: ui/pkg/error/index.scm:4
-msgid "Critical error during install"
 msgstr ""
 
 #: backend3/pkg-sources:91
