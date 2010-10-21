@@ -1,8 +1,8 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt8
+Release: alt9
 
-Packager: Dmitriy Kruglikov <dkr@altlinux.org>
+Packager: Andrey Cherepanov <cas@altlinux.org>
 
 BuildArch:	noarch
 
@@ -102,6 +102,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Oct 22 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt9
+- update translations
+
 * Mon Jul 05 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt8
 - fix conflict with some translated alterator modules (closes: #23719)
 
