@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt11
+Release: alt12
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Sun Oct 24 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt12
+- update time zone translations (based on tzdata-2010l-alt1)
+- add script for time zone update
+
 * Sun Oct 24 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt11
 - add help for alterator-grub
 
