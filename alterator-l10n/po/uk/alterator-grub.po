@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:38+0400\n"
+"POT-Creation-Date: 2010-10-24 17:54+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -15,6 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
+
+#: standard input:1
+msgid "Grub"
+msgstr ""
 
 #: standard input:2
 msgid "Bootloader setup"
@@ -24,10 +28,6 @@ msgstr "Налаштування завантажувача"
 msgid "Device:"
 msgstr "Пристрій:"
 
-#: standard input:1
-msgid "Grub"
-msgstr ""
-
 #: standard input:2 ui/grub/index.scm:33
 #, fuzzy
 msgid "Install"
@@ -36,3 +36,38 @@ msgstr "Джерела для встановлення ПЗ"
 #: standard input:3 ui/grub/index.scm:37
 msgid "Reset"
 msgstr "Скинути"
+
+#: backend3/grub:15
+#, fuzzy
+msgid "Skip bootloader install"
+msgstr "Налаштування завантажувача"
+
+#: backend3/grub:32 backend3/grub:34
+#, fuzzy
+msgid "Can't create tempfile "
+msgstr "Неможливо створити тимчасовий файл"
+
+#: backend3/grub:39
+msgid "No device for install given!"
+msgstr ""
+
+#: backend3/grub:55 backend3/grub:59
+#, fuzzy
+msgid "Can't install grub on "
+msgstr "Не встановлювати завантажувач"
+
+#: backend3/grub:55
+msgid " even using blocklists :"
+msgstr ""
+
+#: backend3/grub-disk:24
+msgid "RAID"
+msgstr ""
+
+#: backend3/grub-disk:46
+msgid "Hard drive"
+msgstr "Жорсткий диск"
+
+#: backend3/grub-disk:51
+msgid "Linux partition"
+msgstr "Розділ Linux"

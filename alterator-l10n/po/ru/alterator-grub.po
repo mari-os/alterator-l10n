@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:38+0400\n"
-"PO-Revision-Date: 2010-10-21 23:41+0400\n"
+"POT-Creation-Date: 2010-10-24 17:54+0400\n"
+"PO-Revision-Date: 2010-10-24 17:55+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#: standard input:1
+msgid "Grub"
+msgstr "Grub"
+
 #: standard input:2
 msgid "Bootloader setup"
 msgstr "Настройка загрузчика"
@@ -25,10 +29,6 @@ msgstr "Настройка загрузчика"
 msgid "Device:"
 msgstr "Устройство:"
 
-#: standard input:1
-msgid "Grub"
-msgstr "Grub"
-
 #: standard input:2 ui/grub/index.scm:33
 msgid "Install"
 msgstr "Установить"
@@ -36,4 +36,36 @@ msgstr "Установить"
 #: standard input:3 ui/grub/index.scm:37
 msgid "Reset"
 msgstr "Вернуть"
+
+#: backend3/grub:15
+msgid "Skip bootloader install"
+msgstr "Не устанавливать загрузчик"
+
+#: backend3/grub:32 backend3/grub:34
+msgid "Can't create tempfile "
+msgstr "Невозможно создать временный файл"
+
+#: backend3/grub:39
+msgid "No device for install given!"
+msgstr "Не указано устройство для установки загрузчика!"
+
+#: backend3/grub:55 backend3/grub:59
+msgid "Can't install grub on "
+msgstr "Невозможно установить загрузчик на "
+
+#: backend3/grub:55
+msgid " even using blocklists :"
+msgstr " даже используя списки :"
+
+#: backend3/grub-disk:24
+msgid "RAID"
+msgstr "RAID"
+
+#: backend3/grub-disk:46
+msgid "Hard drive"
+msgstr "Жёсткий диск"
+
+#: backend3/grub-disk:51
+msgid "Linux partition"
+msgstr "Раздел Linux"
 

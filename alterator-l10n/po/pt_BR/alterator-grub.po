@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:38+0400\n"
+"POT-Creation-Date: 2010-10-24 17:54+0400\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -19,6 +19,10 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
+#: standard input:1
+msgid "Grub"
+msgstr ""
+
 #: standard input:2
 msgid "Bootloader setup"
 msgstr "Bootloader setup"
@@ -26,10 +30,6 @@ msgstr "Bootloader setup"
 #: standard input:1 ui/grub/index.scm:24
 msgid "Device:"
 msgstr "Dispositivo:"
-
-#: standard input:1
-msgid "Grub"
-msgstr ""
 
 #: standard input:2 ui/grub/index.scm:33
 #, fuzzy
@@ -39,3 +39,38 @@ msgstr "Instalação"
 #: standard input:3 ui/grub/index.scm:37
 msgid "Reset"
 msgstr "Resetar"
+
+#: backend3/grub:15
+#, fuzzy
+msgid "Skip bootloader install"
+msgstr "Bootloader setup"
+
+#: backend3/grub:32 backend3/grub:34
+#, fuzzy
+msgid "Can't create tempfile "
+msgstr "Não é possível criar arquivo temporário"
+
+#: backend3/grub:39
+msgid "No device for install given!"
+msgstr ""
+
+#: backend3/grub:55 backend3/grub:59
+#, fuzzy
+msgid "Can't install grub on "
+msgstr "Não instalar o rodador de boot"
+
+#: backend3/grub:55
+msgid " even using blocklists :"
+msgstr ""
+
+#: backend3/grub-disk:24
+msgid "RAID"
+msgstr ""
+
+#: backend3/grub-disk:46
+msgid "Hard drive"
+msgstr "HD"
+
+#: backend3/grub-disk:51
+msgid "Linux partition"
+msgstr "Partições Linux"
