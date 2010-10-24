@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Generate pot file with timezone information from /usr/share/zoneinfo/zone.tab
+# Copyright (C) 2010 Andrey Cherepanov <cas@altlinux.org>
+
+zonetab_file=/usr/share/zoneinfo/zone.tab
+pot_file=tzone.pot
+
+export LC_ALL=C
+
+grep "^[A-Z]" "$zonetab_file" |
+while read code coordinates zone comments; do
+	#echo "\$(_ \"$zone\")"
+	echo "$zone"
+done | xgettext -L shell -a - -o "$pot_file"
