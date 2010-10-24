@@ -42,7 +42,7 @@ for l in $LANGLIST; do
     [ -f "$mod_po" ] && mv "$mod_po" "$po" || touch "$po"
   fi
 
-  msgmerge --update --sort-output --backup=off \
+  msgmerge --update --backup=off \
            --compendium="compendium/$l.po" "$po" "$pot" &>/dev/null ||\
     fatal "Can't do msgmerge for $l language"
 done
