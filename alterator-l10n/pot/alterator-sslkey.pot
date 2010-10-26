@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2010-10-26 15:39+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -81,7 +82,7 @@ msgstr ""
 msgid "(Re)create key and sign request"
 msgstr ""
 
-#: standard input:15 input:24 ui/sslkey/generate/index.scm:187
+#: standard input:15 input:25 ui/sslkey/generate/index.scm:187
 #: ui/sslkey/index.scm:40
 msgid "Confirm"
 msgstr ""
@@ -103,18 +104,22 @@ msgid "Upload"
 msgstr ""
 
 #: standard input:20
+msgid "Certificate successfully uploaded"
+msgstr ""
+
+#: standard input:21
 msgid "SSL keys:"
 msgstr ""
 
-#: standard input:21 ui/sslkey/index.scm:34
+#: standard input:22 ui/sslkey/index.scm:34
 msgid "New..."
 msgstr ""
 
-#: standard input:22 ui/sslkey/index.scm:35
+#: standard input:23 ui/sslkey/index.scm:35
 msgid "Change..."
 msgstr ""
 
-#: standard input:23 ui/sslkey/index.scm:39
+#: standard input:24 ui/sslkey/index.scm:39
 msgid "Delete key, certificate and sign request"
 msgstr ""
 
@@ -165,38 +170,38 @@ msgstr ""
 msgid "only digits, punctuation and latin letters allowed"
 msgstr ""
 
-#: backend3/sslkey:36
+#: backend3/sslkey:58
 msgid "expire"
 msgstr ""
 
-#: backend3/sslkey:38
+#: backend3/sslkey:60
 msgid "OK certificate"
 msgstr ""
 
-#: backend3/sslkey:41
+#: backend3/sslkey:63
 msgid "Invalid certificate"
 msgstr ""
 
-#: backend3/sslkey:44
+#: backend3/sslkey:66
 msgid "No certificate"
 msgstr ""
 
-#: backend3/sslkey:203
+#: backend3/sslkey:225
 msgid "Unable to determine file name"
 msgstr ""
 
-#: backend3/sslkey:232
+#: backend3/sslkey:254
 msgid "Invalid certificate file"
 msgstr ""
 
-#: backend3/sslkey:238
+#: backend3/sslkey:260
 msgid "Sign request does not exist"
 msgstr ""
 
-#: backend3/sslkey:240
+#: backend3/sslkey:262
 msgid "Target directory does not exist"
 msgstr ""
 
-#: backend3/sslkey:243
+#: backend3/sslkey:265
 msgid "Export sign request failed"
 msgstr ""
