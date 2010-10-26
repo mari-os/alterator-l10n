@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt12
+Release: alt13
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,11 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Oct 26 2010 Mikhail Efremov <sem@altlinux.org> 2.9-alt13
+- update Russian translation for alterator-sslkey.
+- update Russian translation for alterator-openvpn-server.
+- update Russian translation for alterator-net-openvpn.
+
 * Sun Oct 24 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt12
 - update time zone translations (based on tzdata-2010l-alt1)
 - add script for time zone update
