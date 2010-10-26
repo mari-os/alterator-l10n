@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2010-10-26 15:05+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,138 +21,146 @@ msgstr ""
 msgid "OpenVPN-connections"
 msgstr ""
 
-#: standard input:1 ui/net-openvpn/index.scm:105
+#: standard input:1 ui/net-openvpn/index.scm:106
 msgid "New connection:"
 msgstr ""
 
-#: standard input:2 ui/net-openvpn/index.scm:109
+#: standard input:2 ui/net-openvpn/index.scm:110
 msgid "Network tunnel (TUN)"
 msgstr ""
 
-#: standard input:3 ui/net-openvpn/index.scm:111
+#: standard input:3 ui/net-openvpn/index.scm:112
 msgid "Virtual Ethernet device (TAP)"
 msgstr ""
 
-#: standard input:4 ui/net-openvpn/index.scm:113
+#: standard input:4 ui/net-openvpn/index.scm:114
 msgid "Create connection"
 msgstr ""
 
-#: standard input:5 ui/net-openvpn/index.scm:128
+#: standard input:5 ui/net-openvpn/index.scm:129
 msgid "Status:"
 msgstr ""
 
 #.
-#: standard input:6 ui/net-openvpn/index.scm:134
+#: standard input:6 ui/net-openvpn/index.scm:135
 msgid "Server:"
 msgstr ""
 
 #.
-#: standard input:7 ui/net-openvpn/index.scm:138
+#: standard input:7 ui/net-openvpn/index.scm:139
 msgid "Port:"
 msgstr ""
 
 #.
-#: standard input:8 ui/net-openvpn/index.scm:142
+#: standard input:8 ui/net-openvpn/index.scm:143
 msgid "Key:"
 msgstr ""
 
-#: standard input:9 ui/net-openvpn/index.scm:149
+#: standard input:9 ui/net-openvpn/index.scm:150
 msgid "Keys managament..."
 msgstr ""
 
 #.
-#: standard input:10 ui/net-openvpn/index.scm:152
+#: standard input:10 ui/net-openvpn/index.scm:153
 msgid "Start at boot"
 msgstr ""
 
-#: standard input:11 ui/net-openvpn/index.scm:156
+#: standard input:11 ui/net-openvpn/index.scm:157
 msgid "Default route via VPN"
 msgstr ""
 
-#: standard input:12 ui/net-openvpn/index.scm:160
+#: standard input:12 ui/net-openvpn/index.scm:161
 msgid "LZO compression"
 msgstr ""
 
-#: standard input:13 ui/net-openvpn/index.scm:166
+#: standard input:13 ui/net-openvpn/index.scm:165
+msgid "Use a TCP connection"
+msgstr ""
+
+#: standard input:14 ui/net-openvpn/index.scm:171
 msgid "Apply"
 msgstr ""
 
-#: standard input:14 ui/net-openvpn/index.scm:167
+#: standard input:15 ui/net-openvpn/index.scm:172
 msgid "Reset"
 msgstr ""
 
-#: standard input:15 ui/net-openvpn/index.scm:169
+#: standard input:16 ui/net-openvpn/index.scm:174
 msgid "Delete connection"
 msgstr ""
 
-#: standard input:16
+#: standard input:17
 msgid "Upload CA certificate:"
 msgstr ""
 
-#: standard input:17
+#: standard input:18
 msgid "Upload"
 msgstr ""
 
-#: standard input:18
+#: standard input:19
 msgid "CA certificate successfully uploaded"
 msgstr ""
 
-#: ui/net-openvpn/index.scm:175
+#: ui/net-openvpn/index.scm:180
 msgid "Import CA certificate:"
 msgstr ""
 
-#: ui/net-openvpn/index.scm:176
+#: ui/net-openvpn/index.scm:181
 msgid "Import CA certificate"
 msgstr ""
 
-#: ui/net-openvpn/index.scm:180
+#: ui/net-openvpn/index.scm:185
 msgid "Import"
 msgstr ""
 
-#: backend3/net-openvpn:60
+#: backend3/net-openvpn:66
 msgid "don't change"
 msgstr ""
 
-#: backend3/net-openvpn:61
+#: backend3/net-openvpn:67
 msgid "start"
 msgstr ""
 
-#: backend3/net-openvpn:62
+#: backend3/net-openvpn:68
 msgid "stop"
 msgstr ""
 
-#: backend3/net-openvpn:112
+#: backend3/net-openvpn:118
 msgid "Invalid config value 'dev':"
 msgstr ""
 
-#: backend3/net-openvpn:118
+#: backend3/net-openvpn:124
 msgid "enabled"
 msgstr ""
 
-#: backend3/net-openvpn:120
+#: backend3/net-openvpn:126
 msgid "disabled"
 msgstr ""
 
-#: backend3/net-openvpn:254 backend3/net-openvpn:258
+#: backend3/net-openvpn:268 backend3/net-openvpn:272
 msgid "Unable to read"
 msgstr ""
 
-#: backend3/net-openvpn:265
+#: backend3/net-openvpn:279
 msgid "Self signed certificate"
 msgstr ""
 
-#: backend3/net-openvpn:270
+#: backend3/net-openvpn:284
 msgid "Wrong client certificate or CA certificate"
 msgstr ""
 
-#: backend3/net-openvpn:299
+#: backend3/net-openvpn:313
 msgid "openvpn start failed"
 msgstr ""
 
-#: backend3/net-openvpn:353
+#: backend3/net-openvpn:367
 msgid "File does not exist"
 msgstr ""
 
-#: backend3/net-openvpn:355
+#: backend3/net-openvpn:369
+msgid "Invalid certificate"
+msgstr ""
+
+#: backend3/net-openvpn:371
 msgid "Import CA failed"
 msgstr ""
