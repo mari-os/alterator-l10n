@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt13
+Release: alt14
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Oct 29 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt14
+- complete translation of LDAP and some other modules
+
 * Tue Oct 26 2010 Mikhail Efremov <sem@altlinux.org> 2.9-alt13
 - update Russian translation for alterator-sslkey.
 - update Russian translation for alterator-openvpn-server.

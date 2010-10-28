@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2010-10-27 22:38+0400\n"
 "PO-Revision-Date: 2010-10-21 23:47+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -14,92 +14,97 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: standard input:8 ui/net-eth/index.scm:112
-msgid "(multiple values should be space separated)"
-msgstr "(несколько значений записываются через пробел)"
-
-#: standard input:10 ui/net-eth/index.scm:137
-msgid "Advanced..."
-msgstr "Дополнительно..."
-
-#: standard input:11 ui/net-eth/index.scm:147
-msgid "Apply"
-msgstr "Применить"
-
-#: standard input:17 ui/net-eth/advanced/index.scm:59
-msgid "Cancel"
-msgstr "Отмена"
-
-#.
-#: standard input:1 ui/net-eth/index.scm:86
-msgid "Computer name:"
-msgstr "Имя компьютера:"
-
-#.
-#: standard input:3 ui/net-eth/index.scm:103
-msgid "Configuration:"
-msgstr "Конфигурация:"
-
-#.
-#: standard input:6 ui/net-eth/index.scm:120
-msgid "DNS servers:"
-msgstr "DNS-серверы:"
-
-#.
-#: standard input:4 ui/net-eth/index.scm:107
-msgid "Default gateway:"
-msgstr "Шлюз по умолчанию:"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Ethernet interfaces"
 msgstr "Ethernet-интерфейсы"
 
-#: backend3/net-eth:206
-msgid "Host name is too long"
-msgstr "Имя компьютера слишком длинное"
+#.
+#: standard input:1 ui/net-eth/advanced/index.scm:43
+msgid "Interface:"
+msgstr "Интерфейс:"
 
 #.
-#: standard input:5 ui/net-eth/index.scm:115
+#: standard input:2 ui/net-eth/advanced/index.scm:47
+msgid "Network subsystem:"
+msgstr "Сетевая подсистема:"
+
+#.
+#: standard input:3 ui/net-eth/advanced/index.scm:50
+msgid "Use interface as bridge"
+msgstr "Создать бридж на базе этого интерфейса"
+
+#: standard input:4 ui/net-eth/advanced/index.scm:58
+msgid "OK"
+msgstr "OK"
+
+#: standard input:5 ui/net-eth/advanced/index.scm:59
+msgid "Cancel"
+msgstr "Отмена"
+
+#.
+#: standard input:6 ui/net-eth/index.scm:86
+msgid "Computer name:"
+msgstr "Имя компьютера:"
+
+#: standard input:7 ui/net-eth/index.scm:93
+msgid "Interfaces"
+msgstr "Интерфейсы"
+
+#.
+#: standard input:8 ui/net-eth/index.scm:103
+msgid "Configuration:"
+msgstr "Конфигурация:"
+
+#.
+#: standard input:9 ui/net-eth/index.scm:107
+msgid "Default gateway:"
+msgstr "Шлюз по умолчанию:"
+
+#.
+#: standard input:10 ui/net-eth/index.scm:115
 msgid "IP addresses:"
 msgstr "IP-адреса:"
 
 #.
-#: standard input:13 ui/net-eth/advanced/index.scm:43
-msgid "Interface:"
-msgstr "Интерфейс:"
-
-#: standard input:2 ui/net-eth/index.scm:93
-msgid "Interfaces"
-msgstr "Интерфейсы"
-
-#: backend3/net-eth:286
-msgid "Manually"
-msgstr "Вручную"
-
-#: backend3/net-eth:294
-msgid "Network adaptor:"
-msgstr "Сетевая карта:"
+#: standard input:11 ui/net-eth/index.scm:120
+msgid "DNS servers:"
+msgstr "DNS-серверы:"
 
 #.
-#: standard input:14 ui/net-eth/advanced/index.scm:47
-msgid "Network subsystem:"
-msgstr "Сетевая подсистема:"
+#: standard input:12 ui/net-eth/index.scm:124
+msgid "Search domains:"
+msgstr "Домены поиска:"
 
-#: standard input:16 ui/net-eth/advanced/index.scm:58
-msgid "OK"
-msgstr "OK"
+#: standard input:13 ui/net-eth/index.scm:112
+msgid "(multiple values should be space separated)"
+msgstr "(несколько значений записываются через пробел)"
 
-#: standard input:12 ui/net-eth/index.scm:148
+#: standard input:14 ui/net-eth/index.scm:133
+msgid "Wireless settings..."
+msgstr "Настройка беспроводной связи..."
+
+#: standard input:15 ui/net-eth/index.scm:137
+msgid "Advanced..."
+msgstr "Дополнительно..."
+
+#: standard input:16 ui/net-eth/index.scm:147
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:17 ui/net-eth/index.scm:148
 msgid "Reset"
 msgstr "Вернуть"
 
-#.
-#: standard input:7 ui/net-eth/index.scm:124
-msgid "Search domains:"
-msgstr "Домены поиска:"
+#: backend3/net-eth:206
+msgid "Host name is too long"
+msgstr "Имя компьютера слишком длинное"
+
+#: backend3/net-eth:279
+msgid "not under control"
+msgstr "не контролируется"
 
 #: backend3/net-eth:284
 msgid "Use DHCP"
@@ -109,18 +114,13 @@ msgstr "Использовать DHCP"
 msgid "Use Zeroconf"
 msgstr "Использовать Zeroconf"
 
-#.
-#: standard input:15 ui/net-eth/advanced/index.scm:50
-msgid "Use interface as bridge"
-msgstr "Создать бридж на базе этого интерфейса"
+#: backend3/net-eth:286
+msgid "Manually"
+msgstr "Вручную"
 
-#: standard input:9 ui/net-eth/index.scm:133
-msgid "Wireless settings..."
-msgstr "Настройка беспроводной связи..."
-
-#: backend3/net-eth:279
-msgid "not under control"
-msgstr "не контролируется"
+#: backend3/net-eth:294
+msgid "Network adaptor:"
+msgstr "Сетевая карта:"
 
 #: backend3/net-eth:300
 msgid "plugged"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2010-10-27 22:38+0400\n"
 "PO-Revision-Date: 2009-08-22 02:20+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -18,90 +18,96 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:8 ui/net-eth/index.scm:112
-msgid "(multiple values should be space separated)"
-msgstr "(декілька значень мають бути розділені пробілами)"
-
-#: standard input:10 ui/net-eth/index.scm:137
-msgid "Advanced..."
-msgstr "Додатково..."
-
-#: standard input:11 ui/net-eth/index.scm:147
-msgid "Apply"
-msgstr "Застосувати"
-
-#: standard input:17 ui/net-eth/advanced/index.scm:59
-msgid "Cancel"
-msgstr "Скасувати"
-
-#.
-#: standard input:1 ui/net-eth/index.scm:86
-msgid "Computer name:"
-msgstr "Ім'я комп'ютера:"
-
-#.
-#: standard input:3 ui/net-eth/index.scm:103
-msgid "Configuration:"
-msgstr "Налаштування:"
-
-#.
-#: standard input:6 ui/net-eth/index.scm:120
-msgid "DNS servers:"
-msgstr "Сервери DNS:"
-
-#.
-#: standard input:4 ui/net-eth/index.scm:107
-msgid "Default gateway:"
-msgstr "Типовий шлюз:"
-
 #: standard input:1
 msgid "Ethernet interfaces"
 msgstr "Мережеві інтерфейси"
 
-#: backend3/net-eth:206
-msgid "Host name is too long"
-msgstr ""
+#.
+#: standard input:1 ui/net-eth/advanced/index.scm:43
+msgid "Interface:"
+msgstr "Інтерфейс:"
 
 #.
-#: standard input:5 ui/net-eth/index.scm:115
+#: standard input:2 ui/net-eth/advanced/index.scm:47
+msgid "Network subsystem:"
+msgstr "Мережева підсистема:"
+
+#.
+#: standard input:3 ui/net-eth/advanced/index.scm:50
+#, fuzzy
+msgid "Use interface as bridge"
+msgstr "Оберіть мову інтерфейса:"
+
+#: standard input:4 ui/net-eth/advanced/index.scm:58
+msgid "OK"
+msgstr "Гаразд"
+
+#: standard input:5 ui/net-eth/advanced/index.scm:59
+msgid "Cancel"
+msgstr "Скасувати"
+
+#.
+#: standard input:6 ui/net-eth/index.scm:86
+msgid "Computer name:"
+msgstr "Ім'я комп'ютера:"
+
+#: standard input:7 ui/net-eth/index.scm:93
+msgid "Interfaces"
+msgstr "Інтерфейси"
+
+#.
+#: standard input:8 ui/net-eth/index.scm:103
+msgid "Configuration:"
+msgstr "Налаштування:"
+
+#.
+#: standard input:9 ui/net-eth/index.scm:107
+msgid "Default gateway:"
+msgstr "Типовий шлюз:"
+
+#.
+#: standard input:10 ui/net-eth/index.scm:115
 #, fuzzy
 msgid "IP addresses:"
 msgstr "IP адреса:"
 
 #.
-#: standard input:13 ui/net-eth/advanced/index.scm:43
-msgid "Interface:"
-msgstr "Інтерфейс:"
-
-#: standard input:2 ui/net-eth/index.scm:93
-msgid "Interfaces"
-msgstr "Інтерфейси"
-
-#: backend3/net-eth:286
-msgid "Manually"
-msgstr "Вручну"
-
-#: backend3/net-eth:294
-msgid "Network adaptor:"
-msgstr "Мережева карта:"
+#: standard input:11 ui/net-eth/index.scm:120
+msgid "DNS servers:"
+msgstr "Сервери DNS:"
 
 #.
-#: standard input:14 ui/net-eth/advanced/index.scm:47
-msgid "Network subsystem:"
-msgstr "Мережева підсистема:"
+#: standard input:12 ui/net-eth/index.scm:124
+msgid "Search domains:"
+msgstr "Пошукові домени:"
 
-#: standard input:16 ui/net-eth/advanced/index.scm:58
-msgid "OK"
-msgstr "Гаразд"
+#: standard input:13 ui/net-eth/index.scm:112
+msgid "(multiple values should be space separated)"
+msgstr "(декілька значень мають бути розділені пробілами)"
 
-#: standard input:12 ui/net-eth/index.scm:148
+#: standard input:14 ui/net-eth/index.scm:133
+msgid "Wireless settings..."
+msgstr "Налаштування бездротового зв'язку..."
+
+#: standard input:15 ui/net-eth/index.scm:137
+msgid "Advanced..."
+msgstr "Додатково..."
+
+#: standard input:16 ui/net-eth/index.scm:147
+msgid "Apply"
+msgstr "Застосувати"
+
+#: standard input:17 ui/net-eth/index.scm:148
 msgid "Reset"
 msgstr "Скинути"
 
-#.
-#: standard input:7 ui/net-eth/index.scm:124
-msgid "Search domains:"
-msgstr "Пошукові домени:"
+#: backend3/net-eth:206
+msgid "Host name is too long"
+msgstr ""
+
+#: backend3/net-eth:279
+msgid "not under control"
+msgstr "не контролюється"
 
 #: backend3/net-eth:284
 msgid "Use DHCP"
@@ -111,19 +117,13 @@ msgstr "Використувати DHCP"
 msgid "Use Zeroconf"
 msgstr "Використовувати Zeroconf"
 
-#.
-#: standard input:15 ui/net-eth/advanced/index.scm:50
-#, fuzzy
-msgid "Use interface as bridge"
-msgstr "Оберіть мову інтерфейса:"
+#: backend3/net-eth:286
+msgid "Manually"
+msgstr "Вручну"
 
-#: standard input:9 ui/net-eth/index.scm:133
-msgid "Wireless settings..."
-msgstr "Налаштування бездротового зв'язку..."
-
-#: backend3/net-eth:279
-msgid "not under control"
-msgstr "не контролюється"
+#: backend3/net-eth:294
+msgid "Network adaptor:"
+msgstr "Мережева карта:"
 
 #: backend3/net-eth:300
 msgid "plugged"
