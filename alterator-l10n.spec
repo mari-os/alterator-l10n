@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt14
+Release: alt15
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Nov 02 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt15
+- add ext4 support in alterator-vm
+
 * Fri Oct 29 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt14
 - complete translation of LDAP and some other modules
 
