@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt15
+Release: alt16
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Nov 03 2010 Anton V. Boyarshinov <boyarsh@altlinux.ru> 2.9-alt16
+- revert translation for net-eth
+
 * Tue Nov 02 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt15
 - add ext4 support in alterator-vm
 
