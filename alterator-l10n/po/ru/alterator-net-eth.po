@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-27 22:38+0400\n"
+"POT-Creation-Date: 2010-11-06 17:20+0300\n"
 "PO-Revision-Date: 2010-10-21 23:47+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -22,119 +22,119 @@ msgid "Ethernet interfaces"
 msgstr "Ethernet-интерфейсы"
 
 #.
-#: standard input:1 ui/net-eth/advanced/index.scm:43
-msgid "Interface:"
-msgstr "Интерфейс:"
-
-#.
-#: standard input:2 ui/net-eth/advanced/index.scm:47
-msgid "Network subsystem:"
-msgstr "Сетевая подсистема:"
-
-#.
-#: standard input:3 ui/net-eth/advanced/index.scm:50
-msgid "Use interface as bridge"
-msgstr "Создать бридж на базе этого интерфейса"
-
-#: standard input:4 ui/net-eth/advanced/index.scm:58
-msgid "OK"
-msgstr "OK"
-
-#: standard input:5 ui/net-eth/advanced/index.scm:59
-msgid "Cancel"
-msgstr "Отмена"
-
-#.
-#: standard input:6 ui/net-eth/index.scm:86
+#: standard input:1 ui/net-eth/index.scm:83
 msgid "Computer name:"
 msgstr "Имя компьютера:"
 
-#: standard input:7 ui/net-eth/index.scm:93
+#: standard input:2 ui/net-eth/index.scm:90
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
 #.
-#: standard input:8 ui/net-eth/index.scm:103
+#: standard input:3 ui/net-eth/index.scm:100
 msgid "Configuration:"
 msgstr "Конфигурация:"
 
 #.
-#: standard input:9 ui/net-eth/index.scm:107
-msgid "Default gateway:"
-msgstr "Шлюз по умолчанию:"
-
-#.
-#: standard input:10 ui/net-eth/index.scm:115
+#: standard input:4 ui/net-eth/index.scm:103
 msgid "IP address:"
 msgstr "IP-адрес:"
 
 #.
-#: standard input:11 ui/net-eth/index.scm:120
+#: standard input:5 ui/net-eth/index.scm:107
+msgid "Netmask:"
+msgstr "Маска сети:"
+
+#.
+#: standard input:6 ui/net-eth/index.scm:111
+msgid "Default gateway:"
+msgstr "Шлюз по умолчанию:"
+
+#.
+#: standard input:7 ui/net-eth/index.scm:116
 msgid "DNS servers:"
 msgstr "DNS-серверы:"
 
 #.
-#: standard input:12 ui/net-eth/index.scm:124
+#: standard input:8 ui/net-eth/index.scm:120
 msgid "Search domains:"
 msgstr "Домены поиска:"
 
-#: standard input:13 ui/net-eth/index.scm:112
+#: standard input:9 ui/net-eth/index.scm:125
 msgid "(multiple values should be space separated)"
 msgstr "(несколько значений записываются через пробел)"
 
-#: standard input:14 ui/net-eth/index.scm:133
+#: standard input:10 ui/net-eth/index.scm:132
 msgid "Wireless settings..."
 msgstr "Настройка беспроводной связи..."
 
-#: standard input:15 ui/net-eth/index.scm:137
+#: standard input:11 ui/net-eth/index.scm:136
 msgid "Advanced..."
 msgstr "Дополнительно..."
 
-#: standard input:16 ui/net-eth/index.scm:147
+#: standard input:12 ui/net-eth/index.scm:146
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:17 ui/net-eth/index.scm:148
+#: standard input:13 ui/net-eth/index.scm:147
 msgid "Reset"
 msgstr "Вернуть"
 
-#: backend3/net-eth:206
+#.
+#: standard input:14 ui/net-eth/advanced/index.scm:36
+msgid "Interface:"
+msgstr "Интерфейс:"
+
+#.
+#: standard input:15 ui/net-eth/advanced/index.scm:40
+msgid "Network subsystem:"
+msgstr "Сетевая подсистема:"
+
+#: standard input:16 ui/net-eth/advanced/index.scm:49
+msgid "OK"
+msgstr "OK"
+
+#: standard input:17 ui/net-eth/advanced/index.scm:50
+msgid "Cancel"
+msgstr "Отмена"
+
+#: backend3/net-eth:133
 msgid "Host name is too long"
 msgstr "Имя компьютера слишком длинное"
 
-#: backend3/net-eth:279
+#: backend3/net-eth:193
 msgid "not under control"
 msgstr "не контролируется"
 
-#: backend3/net-eth:284
+#: backend3/net-eth:198
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
-#: backend3/net-eth:285
+#: backend3/net-eth:199
 msgid "Use Zeroconf"
 msgstr "Использовать Zeroconf"
 
-#: backend3/net-eth:286
+#: backend3/net-eth:200
 msgid "Manually"
 msgstr "Вручную"
 
-#: backend3/net-eth:294
+#: backend3/net-eth:208
 msgid "Network adaptor:"
 msgstr "Сетевая карта:"
 
-#: backend3/net-eth:300
+#: backend3/net-eth:214
 msgid "plugged"
 msgstr "провод подсоединён"
 
-#: backend3/net-eth:303
+#: backend3/net-eth:217
 msgid "unplugged"
 msgstr "провод отсоединён"
 
+#~ msgid "Use interface as bridge"
+#~ msgstr "Создать бридж на базе этого интерфейса"
+
 #~ msgid "Hardware binding:"
 #~ msgstr "Привязка:"
-
-#~ msgid "Netmask:"
-#~ msgstr "Маска сети:"
 
 #~ msgid "by MAC address"
 #~ msgstr "по  аппаратному адресу (MAC)"

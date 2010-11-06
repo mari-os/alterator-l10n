@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt16
+Release: alt17
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Sat Nov 13 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt17
+- update altarator-net-eth translation
+- fix alterator-ldap-users translation
+
 * Wed Nov 03 2010 Anton V. Boyarshinov <boyarsh@altlinux.ru> 2.9-alt16
 - revert translation for net-eth
 

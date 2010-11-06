@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-27 22:38+0400\n"
+"POT-Creation-Date: 2010-11-06 17:20+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -24,122 +24,125 @@ msgid "Ethernet interfaces"
 msgstr "Interfaz de IP"
 
 #.
-#: standard input:1 ui/net-eth/advanced/index.scm:43
-msgid "Interface:"
-msgstr "Interfaz:"
-
-#.
-#: standard input:2 ui/net-eth/advanced/index.scm:47
-msgid "Network subsystem:"
-msgstr "Configuraciones de Rede"
-
-#.
-#: standard input:3 ui/net-eth/advanced/index.scm:50
-#, fuzzy
-msgid "Use interface as bridge"
-msgstr "Seleccione sua Lenguage"
-
-#: standard input:4 ui/net-eth/advanced/index.scm:58
-msgid "OK"
-msgstr "OK"
-
-#: standard input:5 ui/net-eth/advanced/index.scm:59
-msgid "Cancel"
-msgstr "Cancelar"
-
-#.
-#: standard input:6 ui/net-eth/index.scm:86
+#: standard input:1 ui/net-eth/index.scm:83
 msgid "Computer name:"
 msgstr "Nombre de la computadora:"
 
-#: standard input:7 ui/net-eth/index.scm:93
+#: standard input:2 ui/net-eth/index.scm:90
 msgid "Interfaces"
 msgstr "Interfaz de IP"
 
 #.
-#: standard input:8 ui/net-eth/index.scm:103
+#: standard input:3 ui/net-eth/index.scm:100
 msgid "Configuration:"
 msgstr "Información"
 
 #.
-#: standard input:9 ui/net-eth/index.scm:107
+#: standard input:4 ui/net-eth/index.scm:103
+msgid "IP address:"
+msgstr "Dirección IP:"
+
+#.
+#: standard input:5 ui/net-eth/index.scm:107
+msgid "Netmask:"
+msgstr "Máscara de Rede:"
+
+#.
+#: standard input:6 ui/net-eth/index.scm:111
 msgid "Default gateway:"
 msgstr "Gateway Predeterminado:"
 
 #.
-#: standard input:10 ui/net-eth/index.scm:115
-#, fuzzy
-msgid "IP addresses:"
-msgstr "Dirección IP:"
-
-#.
-#: standard input:11 ui/net-eth/index.scm:120
+#: standard input:7 ui/net-eth/index.scm:116
 msgid "DNS servers:"
 msgstr "Servidores DNS:"
 
 #.
-#: standard input:12 ui/net-eth/index.scm:124
+#: standard input:8 ui/net-eth/index.scm:120
 msgid "Search domains:"
 msgstr "Procurar Dominios:"
 
-#: standard input:13 ui/net-eth/index.scm:112
+#: standard input:9 ui/net-eth/index.scm:125
 msgid "(multiple values should be space separated)"
 msgstr "multiplos valores com espacios vacíos"
 
-#: standard input:14 ui/net-eth/index.scm:133
+#: standard input:10 ui/net-eth/index.scm:132
 msgid "Wireless settings..."
 msgstr "Configuración de Rede Wireless"
 
-#: standard input:15 ui/net-eth/index.scm:137
+#: standard input:11 ui/net-eth/index.scm:136
 msgid "Advanced..."
 msgstr "Avanzado..."
 
-#: standard input:16 ui/net-eth/index.scm:147
+#: standard input:12 ui/net-eth/index.scm:146
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:17 ui/net-eth/index.scm:148
+#: standard input:13 ui/net-eth/index.scm:147
 msgid "Reset"
 msgstr "Resetar"
 
-#: backend3/net-eth:206
+#.
+#: standard input:14 ui/net-eth/advanced/index.scm:36
+msgid "Interface:"
+msgstr "Interfaz:"
+
+#.
+#: standard input:15 ui/net-eth/advanced/index.scm:40
+msgid "Network subsystem:"
+msgstr "Configuraciones de Rede"
+
+#: standard input:16 ui/net-eth/advanced/index.scm:49
+msgid "OK"
+msgstr "OK"
+
+#: standard input:17 ui/net-eth/advanced/index.scm:50
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: backend3/net-eth:133
 msgid "Host name is too long"
 msgstr ""
 
-#: backend3/net-eth:279
+#: backend3/net-eth:193
 msgid "not under control"
 msgstr ""
 
-#: backend3/net-eth:284
+#: backend3/net-eth:198
 msgid "Use DHCP"
 msgstr "Usar DHCP:"
 
-#: backend3/net-eth:285
+#: backend3/net-eth:199
 msgid "Use Zeroconf"
 msgstr "Usar ZeroConfig"
 
-#: backend3/net-eth:286
+#: backend3/net-eth:200
 msgid "Manually"
 msgstr "Manualmente"
 
-#: backend3/net-eth:294
+#: backend3/net-eth:208
 #, fuzzy
 msgid "Network adaptor:"
 msgstr "Nombre de la Rede:"
 
-#: backend3/net-eth:300
+#: backend3/net-eth:214
 msgid "plugged"
 msgstr "conectado"
 
-#: backend3/net-eth:303
+#: backend3/net-eth:217
 msgid "unplugged"
 msgstr "desconectado"
 
+#, fuzzy
+#~ msgid "Use interface as bridge"
+#~ msgstr "Seleccione sua Lenguage"
+
+#, fuzzy
+#~ msgid "IP addresses:"
+#~ msgstr "Dirección IP:"
+
 #~ msgid "Hardware binding:"
 #~ msgstr "Hadware vinculado:"
-
-#~ msgid "Netmask:"
-#~ msgstr "Máscara de Rede:"
 
 #~ msgid "by MAC address"
 #~ msgstr "por dirección MAC"
