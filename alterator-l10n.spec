@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt17
+Release: alt18
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Nov 25 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt18
+- Revert LDAP modules translations to Dmitriy Kruglikov version
+
 * Sat Nov 13 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt17
 - update altarator-net-eth translation
 - fix alterator-ldap-users translation

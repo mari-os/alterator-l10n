@@ -3,21 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sergey Lebedev <lsv@altlinux.ru>, 2009.
-# Andrey Cherepanov <skull@kde.ru>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: alterator-ldap-users\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-04-28 20:11+0400\n"
-"PO-Revision-Date: 2010-10-28 13:16+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"PO-Revision-Date: 2009-05-21 16:53+0400\n"
+"Last-Translator: Sergey Lebedev <lsv@altlinux.ru>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: standard input:41
 msgid "(enter passphrase)"
@@ -25,7 +22,7 @@ msgstr "(введите фразу)"
 
 #: standard input:75
 msgid "(re)Read file"
-msgstr "Прочитать из файла"
+msgstr ""
 
 #: standard input:42
 msgid "(repeat passphrase)"
@@ -33,7 +30,7 @@ msgstr "(повторите фразу)"
 
 #: standard input:10 input:70
 msgid "/etc/passwd file on this server"
-msgstr "Содержимое файла /etc/passwd на этом сервере"
+msgstr ""
 
 #: standard input:32
 msgid "Account"
@@ -44,26 +41,29 @@ msgid "Add"
 msgstr "Добавить"
 
 #: standard input:52
+#, fuzzy
 msgid "Available"
-msgstr "Доступные"
+msgstr "Доступные правила:"
 
 #: standard input:5
 msgid "Bind"
-msgstr "Привязка"
+msgstr ""
 
 #: standard input:49
 msgid "Cansel"
-msgstr "Отмена"
+msgstr ""
 
 #: standard input:23
 msgid "Create"
 msgstr "Создать"
 
 #: standard input:9
+#, fuzzy
 msgid "Current auth state"
-msgstr "Текущий метод аутентификации"
+msgstr "Текущее состояние службы"
 
 #: standard input:46
+#, fuzzy
 msgid "Del"
 msgstr "Удалить"
 
@@ -73,23 +73,25 @@ msgstr "Удалить пользователя"
 
 #: standard input:64
 msgid "Do not forget save data..."
-msgstr "Не забудьте сохранить данные..."
+msgstr ""
 
 #: standard input:59
 msgid "E-mail"
 msgstr "Электронная почта"
 
 #: standard input:86
+#, fuzzy
 msgid "Export selected"
-msgstr "Экспорт выделенных"
+msgstr "Для выделенных:"
 
 #: standard input:73
 msgid "Filter UID. From"
-msgstr "Показывать UID с"
+msgstr ""
 
 #: standard input:26
+#, fuzzy
 msgid "Filter:"
-msgstr "Показывать"
+msgstr "Должность:"
 
 #: standard input:35
 msgid "First name:"
@@ -97,11 +99,11 @@ msgstr "Имя:"
 
 #: standard input:80
 msgid "GID"
-msgstr "GID"
+msgstr ""
 
 #: standard input:81
 msgid "Gecos"
-msgstr "Gecos"
+msgstr ""
 
 #: standard input:43
 msgid "Generate"
@@ -112,20 +114,23 @@ msgid "Generate automatically"
 msgstr "Создать автоматически"
 
 #: standard input:50
+#, fuzzy
 msgid "Group Membership"
-msgstr "Группы"
+msgstr "Состав"
 
 #: standard input:82
+#, fuzzy
 msgid "Home dir"
-msgstr "Домашний каталог"
+msgstr "Домашний каталог:"
 
 #: standard input:37
 msgid "Home directory:"
 msgstr "Домашний каталог:"
 
 #: standard input:11
+#, fuzzy
 msgid "LDAP base on this server"
-msgstr "База LDAP на этом компьютере"
+msgstr "LDAP-сервер:"
 
 #: standard input:34
 msgid "Last name:"
@@ -137,19 +142,21 @@ msgstr "Пользователи"
 
 #: standard input:78
 msgid "Login"
-msgstr "Имя"
+msgstr "Войти"
 
 #: standard input:51
 msgid "Member of"
-msgstr "Входит в группы"
+msgstr ""
 
 #: standard input:68
+#, fuzzy
 msgid "Migration tool"
-msgstr "Миграция"
+msgstr "Годен до"
 
 #: standard input:25
+#, fuzzy
 msgid "Migration tools"
-msgstr "Средства миграции"
+msgstr "Годен до"
 
 #: standard input:58
 msgid "Mobile phone:"
@@ -168,24 +175,27 @@ msgid "New email:"
 msgstr "Новый email:"
 
 #: standard input:55
+#, fuzzy
 msgid "Organisation Unit:"
-msgstr "Подразделение:"
+msgstr "Подразделение (OU):"
 
 #: standard input:54
 msgid "Organization:"
 msgstr "Организация:"
 
 #: standard input:12
+#, fuzzy
 msgid "Other LDAP server"
-msgstr "Другой сервер LDAP:"
+msgstr "LDAP-сервер:"
 
 #: standard input:72
 msgid "Other server (LDAP, AD or 389ds) "
-msgstr "Другой сервер (LDAP, AD или 389ds) "
+msgstr ""
 
 #: standard input:84
+#, fuzzy
 msgid "Password {hash}"
-msgstr "Хэш пароля"
+msgstr "Пароль:"
 
 #: standard input:39
 msgid "Password:"
@@ -201,7 +211,7 @@ msgstr "Отчество:"
 
 #: standard input:28
 msgid "Peoples"
-msgstr "Обычные пользователи"
+msgstr ""
 
 #: standard input:57
 msgid "Phone:"
@@ -209,71 +219,81 @@ msgstr "Телефон:"
 
 #: standard input:44
 msgid "Photo"
-msgstr "Фото"
+msgstr ""
 
 #: standard input:13
+#, fuzzy
 msgid "Remote host:"
-msgstr "Сетевой узел:"
+msgstr "Адрес веб-сайта:"
 
 #: standard input:60
 msgid "Remove"
 msgstr "Удалить"
 
 #: standard input:16 input:87
+#, fuzzy
 msgid "Return to list"
-msgstr "Вернуться в список"
+msgstr "Вернуться к просмотру"
 
 #: standard input:63
 msgid "Samba"
-msgstr "Samba"
+msgstr ""
 
 #: standard input:66
 msgid "Save settings"
 msgstr "Сохранить параметры"
 
 #: standard input:31
+#, fuzzy
 msgid "Select"
-msgstr "Выбор"
+msgstr "Выберите операцию:"
 
 #: standard input:85
 msgid "Select a baseDN, which will be taken accounts"
-msgstr "Выбор базового DN для получения учётных записей"
+msgstr ""
 
 #: standard input:69
+#, fuzzy
 msgid "Select migration source"
-msgstr "Выберите источник для миграции"
+msgstr "Выберите операцию:"
 
 #: standard input:47
+#, fuzzy
 msgid "Select new user photo:"
-msgstr "Новое фото пользователя:"
+msgstr "Удалить пользователя"
 
 #: standard input:7
+#, fuzzy
 msgid "Select other"
-msgstr "Выбрать другой"
+msgstr "Выберите профиль"
 
 #: standard input:8
+#, fuzzy
 msgid "Select userlist source"
-msgstr "Выбор источника учётных записей"
+msgstr "Выберите диски для использования"
 
 #: standard input:45
 msgid "Set"
 msgstr "Установить"
 
 #: standard input:83
+#, fuzzy
 msgid "Shell"
-msgstr "Интерпретатор команд"
+msgstr "Интерпретатор команд:"
 
 #: standard input:38
 msgid "Shell:"
 msgstr "Интерпретатор команд:"
 
 #: standard input:24
+#, fuzzy
 msgid "Source selector"
-msgstr "Выбор источника"
+msgstr "Порт отправителя"
 
 #: standard input:27
+#, fuzzy
 msgid "System only"
-msgstr "Только системные пользователи"
+msgstr "Системные журналы"
 
 #: standard input:56
 msgid "Title:"
@@ -281,39 +301,44 @@ msgstr "Должность:"
 
 #: standard input:79
 msgid "UID"
-msgstr "UID"
+msgstr ""
 
 #: standard input:29
 msgid "UID From:"
-msgstr "UID c:"
+msgstr ""
 
 #: standard input:48 input:77
+#, fuzzy
 msgid "Upload"
-msgstr "Загрузить"
+msgstr "Загрузить ключ"
 
 #: standard input:76
+#, fuzzy
 msgid "Upload file:"
-msgstr "Загрузить файл:"
+msgstr "Загрузить ключ"
 
 #: standard input:71
 msgid "Uploaded file. (Formated such as /etc/passwd )"
-msgstr "Загруженный файл (формат как в /etc/passwd)."
+msgstr ""
 
 #: standard input:15
+#, fuzzy
 msgid "Use selected source"
-msgstr "Использовать выбранный источник"
+msgstr "Выберите страну:"
 
 #: standard input:20
+#, fuzzy
 msgid "Used base:"
-msgstr "Базовый DN:"
+msgstr "Новый базовый DN:"
 
 #: standard input:17
+#, fuzzy
 msgid "Used local:"
-msgstr "Локальный"
+msgstr "Не использовать домен"
 
 #: standard input:65
 msgid "User settings successfully updated"
-msgstr "Данные пользователя успешно обновлены"
+msgstr "Настройки пользователя успешно обновлены"
 
 #: standard input:53
 msgid "Work"
@@ -321,39 +346,42 @@ msgstr "Работа"
 
 #: standard input:1
 msgid "You must enter bind data for base"
-msgstr "Необходимо указать данные для связывания"
+msgstr ""
 
 #: standard input:2 input:21
+#, fuzzy
 msgid "on host"
-msgstr "на узле"
+msgstr "неизвестный хост"
 
 #: standard input:19
 msgid "on localhost"
-msgstr "на локальном компьютере"
+msgstr ""
 
 #: type/ldap-account-name.scm:12
 msgid "only small latin letters, digits and '_' allowed"
-msgstr "допустимы только маленькие латинские символы, цифры и символ «_»"
+msgstr "допустимы только маленькие латинские символы, цифры и '_'"
 
 #: standard input:6
+#, fuzzy
 msgid "or"
-msgstr "или"
+msgstr "для"
 
 #: standard input:14
 msgid "remote base:"
-msgstr "Базовый DN:"
+msgstr ""
 
 #: standard input:3
+#, fuzzy
 msgid "root dn:"
-msgstr "Корневой DN:"
+msgstr "Корневое устройство:"
 
 #: standard input:4
 msgid "root pw:"
-msgstr "Корневой пароль:"
+msgstr ""
 
 #: standard input:18
 msgid "tcb"
-msgstr "tcb"
+msgstr ""
 
 #: standard input:30 input:74
 msgid "to"

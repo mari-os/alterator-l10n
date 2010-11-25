@@ -1,21 +1,22 @@
 # alterator-auth Russian translation.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2010.
+# Andrey Cherepanov <skull@kde.ru>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-04-28 20:11+0400\n"
-"PO-Revision-Date: 2010-10-27 16:50+0400\n"
+"PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:13 ui/auth/index.scm:43
 msgid "Apply"
@@ -26,8 +27,9 @@ msgid "Authentication"
 msgstr "Аутентификация"
 
 #: standard input:1
+#, fuzzy
 msgid "Available authentication methods"
-msgstr "Метод аутентификации"
+msgstr "Выберите способ аутентфикации:"
 
 #: standard input:9
 msgid "Base DN:"
@@ -46,40 +48,44 @@ msgid "Domain not set"
 msgstr "нет"
 
 #: standard input:4
+#, fuzzy
 msgid "Kerberos domain"
-msgstr "Kerberos"
+msgstr "Удалить домен"
 
 #: standard input:3
+#, fuzzy
 msgid "LDAP base"
-msgstr "Сервер каталогов LDAP"
+msgstr "LDAP-сервер:"
 
 #: standard input:7
 msgid "LDAP server:"
-msgstr "Сервер LDAP:"
+msgstr "LDAP-сервер:"
 
 #: standard input:2
 msgid "Local files"
-msgstr "Локальные файлы паролей"
+msgstr "Локальные файлы"
 
 #: standard input:5
 msgid "Multi"
-msgstr "Перебор источников (multi)"
+msgstr ""
 
 #: standard input:6
 msgid "Pkcs11"
-msgstr "Ключи pkcs11"
+msgstr ""
 
 #: standard input:10
+#, fuzzy
 msgid "Select"
-msgstr "Выбор из списка"
+msgstr "Выберите операцию:"
 
 #: standard input:8
+#, fuzzy
 msgid "TLS/SSL"
-msgstr "Шифрование TLS/SSL"
+msgstr "Включить TLS/SSL"
 
 #: backend3/auth:61
 msgid "local"
-msgstr "локальная"
+msgstr "Не использовать домен"
 
 #~ msgid "Auth type:"
 #~ msgstr "Тип аутентификации:"

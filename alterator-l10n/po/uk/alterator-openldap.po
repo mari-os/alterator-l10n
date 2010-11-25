@@ -7,241 +7,225 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2010-08-18 13:38+0300\n"
 "PO-Revision-Date: 2009-08-23 01:51+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Language: uk_UA\n"
+"X-Source-Language: C\n"
 
-#: backend3/openldap:293
+#: backend3/openldap:292
 msgid " used for system autentification."
-msgstr ""
+msgstr "використовується для системної аутентифікації."
 
-#: standard input:43 input:54
-#, fuzzy
+#: input:43
 msgid "(Separated by commas or spaces. Without ou=)"
-msgstr "(розділені комами чи пробілами)"
+msgstr "(розділені комами чи пробілами. Без ou=)"
 
-#: standard input:4
-#, fuzzy
+#: input:4
 msgid "Accept only local connections"
 msgstr "Приймати лише локальні з’єднання"
 
-#: standard input:17 input:55
+#: input:17
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:12
+#: input:54
+msgid "Add selected"
+msgstr "Додати обрані"
+
+#: input:12
 msgid "Addition of the conflicting schemes or"
-msgstr ""
+msgstr "Додання конфліктуючих схем або"
 
-#: standard input:53
-#, fuzzy
+#: input:53
 msgid "Available Containers:"
-msgstr "Доступні з’єднання:"
+msgstr "Доступні контейнери:"
 
-#: standard input:21 backend3/openldap:260 backend3/openldap:293
-#: backend3/openldap:308
+#: backend3/openldap:259
+msgid "Base"
+msgstr "База"
+
+#: input:21 backend3/openldap:307
 msgid "Base DN"
 msgstr "Базовий DN"
 
-#: standard input:32
+#: input:32
 msgid "Base DN:"
 msgstr "Базовий DN:"
 
-#: standard input:20
-#, fuzzy
+#: input:20
 msgid "Bases management"
-msgstr "Керування ВС"
+msgstr "Керування базами"
 
-#: standard input:50
-#, fuzzy
+#: input:50
 msgid "Bind"
-msgstr "Базовий DN:"
+msgstr "З`еднати"
 
-#: standard input:33
-#, fuzzy
+#: input:33
 msgid "Bind DN:"
-msgstr "Базовий DN:"
+msgstr "DN зв'язку:"
 
-#: standard input:34
+#: input:34
 msgid "Bind PW:"
-msgstr ""
+msgstr "Пароль зв'язку:"
 
-#: standard input:11 input:22
-#, fuzzy
+#: input:11 input:22
 msgid "Config File"
-msgstr "Налаштувати"
+msgstr "Файл конфігурації"
 
-#: standard input:52
-#, fuzzy
+#: input:52
 msgid "Containers in base:"
-msgstr "Продовжити"
+msgstr "Контейнери в базі:"
 
-#: standard input:26
+#: input:26
 msgid "Create"
 msgstr "Створити"
 
-#: standard input:42
+#: input:42
 msgid "Create containers:"
-msgstr ""
+msgstr "Створити контейнери:"
 
-#: standard input:44
-#, fuzzy
+#: input:44
 msgid "Create new base"
-msgstr "Створені резервні копії:"
+msgstr "Створити нову базу"
 
-#: standard input:3
-#, fuzzy
+#: input:3
 msgid "Current state"
-msgstr "Поточна дата:"
+msgstr "Поточний стан сервісу"
 
 #: backend3/openldap:133
 msgid "Delete"
 msgstr "Вилучити"
 
-#: standard input:24
-#, fuzzy
+#: input:24
 msgid "Delete selected bases"
-msgstr "Вилучити обране"
+msgstr "Вилучити обрані бази"
 
-#: standard input:1
+#: input:1
 msgid "Directory service LDAP"
 msgstr "Служба каталогів LDAP"
 
-#: standard input:5
+#: input:5
 msgid "Enable LDAPS (TLS)"
 msgstr "Слухати порт LDAPS (захищений TLS)"
 
-#: standard input:2
-#, fuzzy
+#: input:2
 msgid "Enable SLAPD server"
-msgstr "Увімкнути службу DHCP"
+msgstr "Увімкнути службу SLAPD"
 
 #: backend3/openldap:53
-#, fuzzy
 msgid "Encoded password"
-msgstr "Пароля немає"
+msgstr "Кодований пароль"
 
-#: standard input:36
+#: input:36
 msgid "Encript rootPW"
-msgstr ""
+msgstr "Кодувати rootPW"
 
-#: standard input:39
+#: input:38
 msgid "Encripted passwor NOT accessible for other modules."
-msgstr ""
+msgstr "Кодований пароль недоступний для інших модулів."
 
-#: standard input:27
+#: input:27
 msgid "Expert mode"
 msgstr "Режим експерта"
 
-#: standard input:37
+#: input:37
 msgid "For SAMBA PDC"
-msgstr ""
+msgstr "Для SAMBA PDC"
 
-#: standard input:18
-#, fuzzy
+#: input:18
 msgid "Include selected"
-msgstr "Вилучити обране"
+msgstr "Вімкнути обране"
 
-#: standard input:6
+#: input:6
 msgid "LDAP on local and LDAPS (TLS) on all interfaces"
-msgstr ""
+msgstr "LDAP на локальном та LDAPS (TLS)на всіх інтерфейсах"
 
-#: standard input:28
-#, fuzzy
+#: input:28
 msgid "Load from LDIF file"
-msgstr "Звантажити файл:"
+msgstr "Звантажити з LDIF файлу"
 
-#: standard input:1
-#, fuzzy
+#: input:1
 msgid "Main server option"
 msgstr "Основні налаштування"
 
-#: standard input:8
-#, fuzzy
+#: input:8
 msgid "Manage schema"
-msgstr "Керовані вузли"
+msgstr "Керування схемами"
 
-#: standard input:46
-#, fuzzy
+#: input:46
 msgid "Managed base:"
-msgstr "Керовані вузли"
+msgstr "Керування базою:"
 
-#: standard input:35
-#, fuzzy
+#: input:35
 msgid "New"
-msgstr "Мережа"
+msgstr "Новий"
 
-#: standard input:25
+#: input:25
 msgid "New base DN:"
 msgstr "Новий базовий DN:"
 
-#: standard input:30
-#, fuzzy
+#: input:30
 msgid "New base:"
-msgstr "Новий базовий DN:"
+msgstr "Нова база:"
 
-#: standard input:15
-#, fuzzy
+#: input:15
 msgid "New schema name:"
-msgstr "Обліковий запис:"
+msgstr "Ім'я нової схеми:"
 
 #. echo "$(set|grep -a "in_")" >&2
 #: backend3/openldap:571 backend3/openldap:577
 msgid "Not all data present."
-msgstr ""
+msgstr "Не всі відомості надані."
 
-#: standard input:47
+#: input:47
 msgid "Please enter correct bind data for this base"
-msgstr ""
+msgstr "Будь ласка, введіть коректні відомості для зв'язку з ціею базою"
 
-#: standard input:38
+#: input:41
 msgid "Please, remember this password!!!"
-msgstr ""
+msgstr "Будь ласка, запам'ятайте цей пароль!!!"
 
-#: standard input:29
+#: input:29
 msgid "Prepare base from LDIF file"
-msgstr ""
+msgstr "Підготувати базу з файлу LDIF"
 
 #: backend3/openldap:131
 msgid "Publish"
 msgstr "Опублікувати"
 
-#: standard input:19 input:45 input:57
-#, fuzzy
+#: input:19 input:45 input:56
 msgid "Return to list"
 msgstr "Повернутися до списку"
 
-#: standard input:56
-#, fuzzy
+#: input:55
 msgid "Save LDIF file"
-msgstr "Звантажити файл:"
+msgstr "Звантажити файл LDIF"
 
-#: standard input:7
-#, fuzzy
+#: input:7
 msgid "Save options"
 msgstr "Зберегти налаштування"
 
-#: standard input:10
+#: input:10
 msgid "Schema"
-msgstr ""
+msgstr "Схема"
 
-#: standard input:9
-#, fuzzy
+#: input:9
 msgid "Schema management"
-msgstr "Керування ВС"
+msgstr "Керування схемами"
 
-#: standard input:51
+#: input:51
 msgid "Select action:"
 msgstr "Обрати дію:"
 
-#: standard input:23
+#: input:23
 msgid "Status"
 msgstr "Стан"
 
@@ -250,57 +234,52 @@ msgid "Unpublish"
 msgstr "Приховати"
 
 #: backend3/openldap:55
-#, fuzzy
 msgid "Unsafe password"
-msgstr "Змінити пароль:"
+msgstr "Ненадійний пароль"
 
 #: backend3/openldap:64
-#, fuzzy
 msgid "Used for autentification,"
-msgstr "Автентифікація"
+msgstr "Використовується для аутентифікації,"
 
-#: standard input:14
+#: input:14
 msgid "You have been warned..."
-msgstr ""
+msgstr "Вас попереджено ..."
 
-#: standard input:40
+#: input:39
 msgid "You will be asked for a password every time "
-msgstr ""
+msgstr "Вам буде запропоновано ввести пароль кожен раз"
 
-#: standard input:31
+#: input:31
 msgid "Your FQDN:"
-msgstr ""
+msgstr "Ваш FQDN:"
 
-#: backend3/openldap:260 backend3/openldap:308
+#: backend3/openldap:259 backend3/openldap:307
 msgid "already exists in the system"
-msgstr ""
+msgstr "вже існує в системі"
 
-#: standard input:13
+#: input:13
 msgid "disabling some schemes may cause your databases inoperable!"
-msgstr ""
+msgstr "відключення деяких схем може призвести до виходу баз даних з ладу!"
 
-#: standard input:16
+#: input:16
 msgid "from file:"
-msgstr ""
+msgstr "з файлу:"
 
-#: standard input:41
+#: input:40
 msgid "of using modules, e.g. \"Users\" and \"Groups\"."
-msgstr ""
+msgstr "при використанні модулів, таких як \"Користувачі\" і \"Групи\"."
 
-#: standard input:48
-#, fuzzy
+#: input:48
 msgid "root dn:"
-msgstr "Кореневий пристрій:"
+msgstr "Кореневий dn:"
 
-#: standard input:49
-#, fuzzy
+#: input:49
 msgid "root password:"
-msgstr "Пароля немає"
+msgstr "Пароль кореневого dn:"
 
 #~ msgid "Apply"
 #~ msgstr "Застосувати"
 
-#, fuzzy
 #~ msgid "Create selected"
 #~ msgstr "Вилучити обране"
 
@@ -310,7 +289,6 @@ msgstr "Пароля немає"
 #~ msgid "Enable LDAP port"
 #~ msgstr "Слухати порт LDAP"
 
-#, fuzzy
 #~ msgid "New schema file:"
 #~ msgstr "Новий email:"
 
