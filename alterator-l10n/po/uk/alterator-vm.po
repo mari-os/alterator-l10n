@@ -1,15 +1,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
 # Michael Shigorin <mike@osdn.org.ua>, 2007.
 # Wad Mashckoff <adiel@nospam.kiev.ua>, 2007.
-#
+# Roman Savochenko <rom_as@fromru.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
-"Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
+"Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,44 +19,43 @@ msgstr ""
 
 #: ui/vm/table.scm:187
 msgid "   Name   "
-msgstr ""
+msgstr "   Ім'я   "
 
 #: ui/vm/ortodox.scm:40
 msgid " free"
-msgstr ""
+msgstr " вільно"
 
 #: ui/vm/ortodox.scm:40
 msgid " of "
-msgstr ""
+msgstr " з "
 
 #: ui/vm/dummystr.scm:84
 msgid " reboot, then continue installation."
-msgstr ""
+msgstr " здійсніть перевантаження а потім продовжіть встановлення."
 
-#. expand seg
 #: ui/vm/dummystr.scm:61
-#, fuzzy
 msgid "Additional Size"
-msgstr "Додаткова інформація"
+msgstr "Додатковий розмір"
 
 #: ui/vm/blonde.scm:91
 msgid ""
 "All data from all your disks (including removable ones) will be lost! "
 "Continue?"
 msgstr ""
+"Всі ващі дані на всіх дисках (в тому ж разі зовнішні) будуть втрачені! "
+"Продовжити?"
 
-#. ---------------------------------------------------------------
 #: ui/vm/lucky.scm:67
 msgid "All data from all your disks will be lost!"
-msgstr ""
+msgstr "Всі ващі дані на всіх дисках будуть втрачені!"
 
 #: ui/vm/ortodox.scm:70
 msgid "All data from all your disks will be lost! Continue?"
-msgstr ""
+msgstr "Всі ващі дані на всіх дисках будуть втрачені! Продовжити?"
 
 #: ui/vm/table.scm:135
 msgid "All data on following partitions will be lost:"
-msgstr ""
+msgstr "Всі дані на наступних розділах буде втрачено:"
 
 #: ui/vm/table.scm:258
 msgid "Apply"
@@ -63,261 +63,237 @@ msgstr "Застосувати"
 
 #: ui/vm/table.scm:130
 msgid "Apply requested changes?"
-msgstr ""
+msgstr "Застосувати запитані зміни?"
 
 #: ui/vm/choice.scm:35 ui/vm/popup.scm:112
 msgid "Cancel"
 msgstr "Скасувати"
 
-#. jfs
 #: ui/vm/dummystr.scm:25
 msgid "Case Insensitive"
-msgstr ""
+msgstr "Нечутливість до регістру"
 
 #: ui/vm/table.scm:226
-#, fuzzy
 msgid "Check Filesystem"
-msgstr "Файлова система:"
+msgstr "Перевірити файлову систему"
 
-#. ext2/3
 #: ui/vm/dummystr.scm:16
 msgid "Check For Bad Blocks"
-msgstr ""
+msgstr "Перевірити на збійні блоки"
 
-#. swap
 #: ui/vm/dummystr.scm:30
 msgid "Check for bad blocks"
-msgstr ""
+msgstr "Перевірити на збійні блоки"
 
 #: ui/vm/dummystr.scm:87
 msgid "Check order"
-msgstr ""
+msgstr "Послідовність перевірки"
 
-#. raid0
 #: ui/vm/dummystr.scm:51
 msgid "Chunk Size:"
-msgstr ""
+msgstr "Розмір блоку:"
 
 #: ui/vm/dummystr.scm:59
 msgid "Chunk size"
-msgstr ""
+msgstr "Розмір блоку"
 
 #: ui/vm/ortodox.scm:92
 msgid "Clear all before applying profile"
-msgstr ""
+msgstr "Очистити все перед прийняттям профілю"
 
-#. ntfs
 #: ui/vm/dummystr.scm:34
 msgid "Cluster size"
-msgstr ""
+msgstr "Розмір кластеру"
 
 #: ui/vm/dummystr.scm:36
 msgid "Compression"
-msgstr ""
+msgstr "Стиснення"
 
 #: ui/vm/table.scm:86
 msgid "Congrats! You've found a secret level!"
-msgstr ""
+msgstr "Вітаємо! Ви знайшли таємний рівень!"
 
 #: ui/vm/table.scm:138
-#, fuzzy
 msgid "Continue?"
-msgstr "Продовжити"
+msgstr "Продовжити?"
 
 #: ui/vm/dummystr.scm:19
 msgid "Create Ext3 Journal"
-msgstr ""
+msgstr "Створит Ext3 журнал"
 
 #: ui/vm/table.scm:209 ui/vm/table.scm:211
-#, fuzzy
 msgid "Create Partition"
-msgstr "розділ"
+msgstr "Створити розділ"
 
 #: ui/vm/table.scm:196
-#, fuzzy
 msgid "Create RAID"
-msgstr "Створити"
+msgstr "Створити RAID"
 
 #: ui/vm/table.scm:204 ui/vm/table.scm:216
-#, fuzzy
 msgid "Create Volume"
-msgstr "Створити"
+msgstr "Створити том"
 
 #: ui/vm/table.scm:199
 msgid "Create Volume Group"
-msgstr ""
+msgstr "Створити групу томів"
 
 #: ui/vm/dummystr.scm:76
-#, fuzzy
 msgid "Custom"
-msgstr "Інша адреса"
+msgstr "Вручну"
 
 #: ui/vm/blonde.scm:85
-#, fuzzy
 msgid "Custom install"
-msgstr "Встановлення системи"
+msgstr "Встановити вручну"
 
-#. raid1
 #: ui/vm/dummystr.scm:54
 msgid "Degraded array"
-msgstr ""
+msgstr "Деградований масив"
 
 #: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
 #: ui/vm/table.scm:214 ui/vm/table.scm:219
 msgid "Destroy"
-msgstr ""
+msgstr "Вилучити"
 
 #: ui/vm/table.scm:210
 msgid "Destroy Partition Table"
-msgstr ""
+msgstr "Вилучити таблицю розділів"
 
 #: ui/vm/blonde.scm:84
 msgid "Destroy all partitions, then autopartition"
-msgstr ""
+msgstr "Вилучити всі розділи та створити нові автоматично"
 
 #: ui/vm/dummystr.scm:86
 msgid "Dump Frequency"
-msgstr ""
+msgstr "Частота дампу"
 
 #: ui/vm/table.scm:224
 msgid "Edit Mountpoint"
-msgstr ""
+msgstr "Редагувати точку монтування"
 
 #: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
 #: ui/vm/table.scm:217
 msgid "Expand"
-msgstr ""
+msgstr "Збільшити"
 
-#. fsims
 #: ui/vm/dummystr.scm:7
 msgid "Ext2/3 File System Interface Module"
-msgstr ""
+msgstr "Файлова система Ext2/3"
 
 #: ui/vm/dummystr.scm:40
 msgid "Extent-size for the new LVM2 container."
-msgstr ""
+msgstr "Розмір екстенту"
 
 #. xfs
 #: ui/vm/dummystr.scm:21
 msgid "External Journal Volume"
-msgstr ""
+msgstr "Том для зовнішнього журналу"
 
-#. expand lv
 #: ui/vm/dummystr.scm:65
 msgid "Extra size for the LVM2 region."
-msgstr ""
+msgstr "Додатковий розмір"
 
 #: ui/vm/dummystr.scm:12
 msgid "FAT16 File System Interface Module"
-msgstr ""
+msgstr "Файлова система FAT16"
 
 #: ui/vm/dummystr.scm:13
 msgid "FAT32 File System Interface Module"
-msgstr ""
+msgstr "Файлова система FAT32"
 
 #: ui/vm/blonde.scm:46 ui/vm/table.scm:189
-#, fuzzy
 msgid "Filesystem"
-msgstr "Файлова система:"
+msgstr "Файлова система"
 
 #: ui/vm/dummystr.scm:23
 msgid "Force"
-msgstr ""
+msgstr "Форсувати"
 
 #: ui/vm/dummystr.scm:72
 msgid "Format before using"
-msgstr ""
+msgstr "Відформатувати перед використанням"
 
 #: standard input:1
-#, fuzzy
 msgid "Harddisks"
 msgstr "Жорсткий диск"
 
 #: ui/vm/dummystr.scm:26
 msgid "Inline Log Size"
-msgstr ""
+msgstr "Розмір області журналювання"
 
 #. guile-evms
 #: ui/vm/dummystr.scm:80
-#, fuzzy
 msgid "Invalid mountpoint"
-msgstr "Невірний диск"
+msgstr "Невірна точка монтування"
 
 #: ui/vm/dummystr.scm:81
 msgid "Invalid mountpoint for SWAPFS"
-msgstr ""
+msgstr "Невірна точка монтування для SWAPFS"
 
 #: ui/vm/dummystr.scm:82
 msgid "Invalid mountpoint: not a SWAPFS"
-msgstr ""
+msgstr "Невірна точка монтування: не SWAPFS"
 
 #: ui/vm/dummystr.scm:83
 msgid "Invalid mountpoint: should start with /mnt"
-msgstr ""
+msgstr "Невірна точка монтування: має починатися з /mnt"
 
 #: ui/vm/dummystr.scm:9
 msgid "JFS File System Interface Module"
-msgstr ""
+msgstr "Файлова система JFS"
 
 #: ui/vm/ortodox.scm:98
 msgid "Let me make my changes after profile applying"
-msgstr ""
+msgstr "Запропонувати зробити мої зміни після застосування профілю"
 
 #: ui/vm/dummystr.scm:22
 msgid "Log Size"
-msgstr ""
+msgstr "Розмір протоколу"
 
 #: ui/vm/dummystr.scm:49
 msgid "MD RAID 4/5 Region Manager"
-msgstr ""
+msgstr "MD-пристрій рівнів RAID4/5"
 
 #. raidx
 #: ui/vm/dummystr.scm:47
 msgid "MD RAID0 Region Manager"
-msgstr ""
+msgstr "MD-пристрій рівнів RAID0"
 
 #: ui/vm/dummystr.scm:48
 msgid "MD Raid 1 Region Manager"
-msgstr ""
+msgstr "MD-пристрій рівнів RAID1"
 
 #: ui/vm/dummystr.scm:35
 msgid "MFT zone multiplier"
-msgstr ""
+msgstr "Множник зони MFT"
 
 #: ui/vm/table.scm:222 ui/vm/table.scm:225
-#, fuzzy
 msgid "Make Filesystem"
-msgstr "Файлова система:"
+msgstr "Створити файлову систему"
 
 #: ui/vm/table.scm:227
-#, fuzzy
 msgid "Mount Filesystem"
-msgstr "Файлова система:"
+msgstr "Монтувати файлову систему"
 
 #. assign
 #: ui/vm/dummystr.scm:71
-#, fuzzy
 msgid "Mount Options"
-msgstr "Параметри Lilo:"
+msgstr "Опції монтування"
 
 #: ui/vm/table.scm:193
-#, fuzzy
 msgid "Mount options"
-msgstr "Параметри Lilo:"
+msgstr "Опції монтування"
 
 #: ui/vm/table.scm:192
-#, fuzzy
 msgid "Mounted on"
-msgstr "Дата видачі:"
+msgstr "Змонтовано у"
 
 #: ui/vm/table.scm:191 ui/vm/dummystr.scm:85
-#, fuzzy
 msgid "Mountpoint"
-msgstr "Облік"
+msgstr "Точка монтування"
 
 #: ui/vm/dummystr.scm:14
 msgid "NTFS File System Interface Module"
-msgstr ""
+msgstr "Файлова система NTFS"
 
 #: ui/vm/blonde.scm:45
 msgid "Name"
@@ -326,105 +302,101 @@ msgstr "Ім'я"
 #. lvm2 vg
 #: ui/vm/dummystr.scm:39
 msgid "Name for the new LVM2 container."
-msgstr ""
+msgstr "Ім'я для нового LVM2 контейнеру."
 
 #. lvm2 lv
 #: ui/vm/dummystr.scm:42
 msgid "Name for the new LVM2 region."
-msgstr ""
+msgstr "Ім'я для нового LVM2 регіону."
 
 #: ui/vm/popup.scm:100
 msgid "Next operation"
-msgstr ""
+msgstr "Наступна операція"
 
 #. misc
 #: ui/vm/dummystr.scm:78
 msgid ""
 "Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
 msgstr ""
+"Зауважте, зміна розміру розділа Vista може привести до неможливості завантаження з "
+"цього розділу. Продовжити?"
 
 #: ui/vm/dummystr.scm:44
 msgid "Number of stripes for the new LVM2 region."
-msgstr ""
+msgstr "Кількість розгалужень (stripes) для нового LVM2 регіону."
 
 #: ui/vm/dummystr.scm:66
 msgid "Number of stripes for the new portion of the region."
-msgstr ""
+msgstr "Кількість розгалужень (stripes) для нової області регіону."
 
 #: ui/vm/choice.scm:34 ui/vm/popup.scm:109
 msgid "OK"
 msgstr ""
 
 #: ui/vm/popup.scm:92
-#, fuzzy
 msgid "Objects"
-msgstr "Предмет"
+msgstr "Об'єкти"
 
 #: ui/vm/dummystr.scm:45
 msgid "Objects (PVs) to place the new LVM2 region on."
-msgstr ""
+msgstr "Розташувати на наступних пристроях."
 
 #: ui/vm/dummystr.scm:67
 msgid "Objects (PVs) to use for the new portion of the region."
-msgstr ""
+msgstr "Розташувати нову область на наступних пристроях."
 
 #: ui/vm/dummystr.scm:3
 msgid "Offset"
-msgstr ""
+msgstr "Зміщення"
 
 #: ui/vm/dummystr.scm:89
 msgid "Operation not permitted"
-msgstr ""
+msgstr "Операція неможлива"
 
 #: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
-#, fuzzy
 msgid "Options"
-msgstr "Параметри Lilo:"
+msgstr "Параметри"
 
 #: ui/vm/dummystr.scm:5
-#, fuzzy
 msgid "Partition Type"
-msgstr "розділ"
+msgstr "Тип розділу"
 
 #: ui/vm/table.scm:122
 msgid "Please assign \"/\" mount point"
-msgstr ""
+msgstr "Будь ласка, призначте будь якому тому точку монтування \"/\""
 
 #: ui/vm/functions.scm:3
-#, fuzzy
 msgid "Please wait..."
-msgstr "Будь-ласка, увійдіть"
+msgstr "Будь-ласка, зачекайте..."
 
 #: ui/vm/dummystr.scm:4
-#, fuzzy
 msgid "Primary Partition"
-msgstr "Розділ Linux"
+msgstr "Основний розділ"
 
 #: ui/vm/dummystr.scm:37
 msgid "Quick mkfs"
-msgstr ""
+msgstr "Швидке створення"
 
 #: ui/vm/dummystr.scm:58
 msgid "RAID level"
-msgstr ""
+msgstr "Рівень RAID"
 
 #. raid5
 #: ui/vm/dummystr.scm:57
 msgid "RAID5 Algorithm"
-msgstr ""
+msgstr "RAID5 алгоритм"
 
 #: ui/vm/dummystr.scm:17
 msgid "Read/Write Check For Bad Blocks"
-msgstr ""
+msgstr "Перевірка на збійні блоки (Читання/Запис)"
 
 #: ui/vm/dummystr.scm:10
 msgid "ReiserFS File System Interface Module"
-msgstr ""
+msgstr "Файлова система ReiserFS"
 
 #: ui/vm/table.scm:223 ui/vm/table.scm:229
-#, fuzzy
 msgid "Remove Filesystem"
-msgstr "Файлова система:"
+msgstr "Видалити файлову систему"
 
 #: ui/vm/table.scm:253
 msgid "Reset"
@@ -436,136 +408,127 @@ msgstr "Обрати"
 
 #: ui/vm/ortodox.scm:78
 msgid "Select disks for use"
-msgstr ""
+msgstr "Оберіть диск для використання"
 
 #: ui/vm/blonde.scm:101
-#, fuzzy
 msgid "Select installation method"
-msgstr "Встановлення системи"
+msgstr "Оберіть метод для встановлення"
 
 #: ui/vm/ortodox.scm:83
-#, fuzzy
 msgid "Select profile"
-msgstr "Обрати"
+msgstr "Оберіть профіль"
 
 #. profiles
 #: ui/vm/dummystr.scm:74
-#, fuzzy
 msgid "Setup for server"
-msgstr "Налаштувати поштову службу"
+msgstr "Встановлення серверу"
 
 #: ui/vm/dummystr.scm:75
-#, fuzzy
 msgid "Setup for workstation"
-msgstr "Налаштувати мережеві з'єднання"
+msgstr "Встановлення робочої станції"
 
 #: ui/vm/popup.scm:103
 msgid "Show extra options"
-msgstr ""
+msgstr "Відобразити додаткові налаштування"
 
 #: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
 #: ui/vm/table.scm:218
 msgid "Shrink"
-msgstr ""
+msgstr "Зменшити"
 
 #. shrink seg
 #: ui/vm/dummystr.scm:63
 msgid "Shrink by Size"
-msgstr ""
+msgstr "Зменшити на"
 
 #.
 #: ui/vm/dummystr.scm:2
 msgid "Size"
-msgstr ""
+msgstr "Розмір"
 
 #: ui/vm/table.scm:188
 msgid "Size [ free ]"
-msgstr ""
+msgstr "Розмір [ вільно ]"
 
 #: ui/vm/blonde.scm:47
 msgid "Size [free]"
-msgstr ""
+msgstr "Розмір [вільно]"
 
 #: ui/vm/dummystr.scm:43
 msgid "Size for the new LVM2 region."
-msgstr ""
+msgstr "Розмір тому"
 
 #. shrink lv
 #: ui/vm/dummystr.scm:69
 msgid "Size to remove from the LVM2 region."
-msgstr ""
+msgstr "Зменшити том на"
 
 #: ui/vm/dummystr.scm:55
 msgid "Spare Disk"
-msgstr ""
+msgstr "Резервний диск"
 
 #: ui/vm/dummystr.scm:11
 msgid "Swap File System Interface Module"
-msgstr ""
+msgstr "Файлова система підкачування (swap)"
 
 #: ui/vm/table.scm:228
-#, fuzzy
 msgid "Umount Filesystem"
-msgstr "Файлова система:"
+msgstr "Размонтувати файлову систему"
 
 #: ui/vm/ortodox.scm:129
 msgid "Unable to apply selected profile, not enough disk space"
-msgstr ""
+msgstr "Неможливо застосувати профіль, недостатньо місця на диску"
 
 #: ui/vm/blonde.scm:138
 msgid "Unable to autopartition, not enough disk space"
-msgstr ""
+msgstr "Неможливо створити всі разділи, недостатньо місця на диску"
 
 #: ui/vm/lucky.scm:60
 msgid "Unable to partition, not enough disk space"
-msgstr ""
+msgstr "Неможливо створити розділ, недостатньо місця на диску"
 
 #: ui/vm/blonde.scm:83
-#, fuzzy
 msgid "Use unpartitioned disk space"
-msgstr "Використаний дисковий простір:"
+msgstr "Використати порожне місце"
 
 #: ui/vm/dummystr.scm:52
 msgid "Version 1 Super Block"
-msgstr ""
+msgstr "Суперблок версії 1"
 
 #. reiserfs FIXME
 #: ui/vm/dummystr.scm:28
 msgid "Version of mkreiserfs"
-msgstr ""
+msgstr "Версія mkreiserfs"
 
 #: ui/vm/dummystr.scm:18
 msgid "Volume Label"
-msgstr ""
+msgstr "Мітка тому"
 
 #. fat16/32
 #: ui/vm/dummystr.scm:32
 msgid "Volume label"
-msgstr ""
+msgstr "Мітка тому"
 
 #: standard input:2
-#, fuzzy
 msgid "Volume management"
-msgstr "Керування ВС"
+msgstr "Керування томами"
 
 #: ui/vm/blonde.scm:97
 msgid "Volumes"
-msgstr ""
+msgstr "Томи"
 
 #: ui/vm/dummystr.scm:8
 msgid "XFS File System Interface Module"
-msgstr ""
+msgstr "Файлова система XFS"
 
 #: ui/vm/lucky.scm:68
-#, fuzzy
 msgid "Yes, i'm warned"
-msgstr "Так, я погоджуюся з умовами"
+msgstr "Так, я згоден"
 
 #: ui/vm/ortodox.scm:52
 msgid "free space required:"
-msgstr ""
+msgstr "потрібно вільного простору:"
 
 #: ui/vm/dummystr.scm:88
-#, fuzzy
 msgid "inaccesible or not a directory"
-msgstr "Відновити файл або теку:"
+msgstr "немає доступу або не тека"

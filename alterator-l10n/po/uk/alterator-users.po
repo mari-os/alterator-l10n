@@ -1,15 +1,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
 # Michael Shigorin <mike@osdn.org.ua>, 2007.
 # Wad Mashckoff <adiel@nospam.kiev.ua>, 2007.
-#
+# Roman Savochenko <rom_as@fromru.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
-"Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
+"Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,10 +29,9 @@ msgstr "(повторіть пароль)"
 msgid "Apply"
 msgstr "Застосувати"
 
-#.
 #: standard input:3 ui/users/add/index.scm:68 ui/users/index.scm:22
 msgid "Comment:"
-msgstr ""
+msgstr "Коментар:"
 
 #: standard input:2 ui/users/index.scm:13
 msgid "Create"
@@ -42,49 +42,41 @@ msgid "Delete user"
 msgstr "Вилучити користувача"
 
 #: ui/users/ajax.scm:51
-#, fuzzy
 msgid "Do you really want to delete user "
-msgstr "Ви дійсно хочете вилучити клієнта"
+msgstr "Ви дійсно хочете вилучити користувача "
 
 #: standard input:11 ui/users/add/index.scm:87 ui/users/index.scm:48
 msgid "Generate"
 msgstr "Генерувати"
 
 #: standard input:8 ui/users/add/index.scm:80 ui/users/index.scm:41
-#, fuzzy
 msgid "Generate automatically"
-msgstr "встановлюється автоматично"
+msgstr "Генерувати автоматично"
 
-#.
 #: standard input:4 ui/users/index.scm:25
 msgid "Home directory:"
 msgstr "Домашня тека:"
 
 #: standard input:1
-#, fuzzy
 msgid "Local user accounts"
-msgstr "Облікові записи користувачів LDAP"
+msgstr "Локальні облікові записи користувачів"
 
 #: standard input:6 ui/users/index.scm:32
-#, fuzzy
 msgid "Member of administrators group"
-msgstr "Системний адміністратор"
+msgstr "Член групи адміністраторів"
 
 #: ui/users/add/index.scm:63
-#, fuzzy
 msgid "Name:"
-msgstr "Ім'я"
+msgstr "Ім'я:"
 
 #: standard input:1 ui/users/index.scm:11
-#, fuzzy
 msgid "New account:"
-msgstr "Обліковий запис:"
+msgstr "Новий обліковий запис:"
 
 #: ui/users/add/index.scm:58
 msgid "New user account"
 msgstr "Новий обліковий запис користувача"
 
-#.
 #: standard input:7 ui/users/add/index.scm:77 ui/users/index.scm:38
 msgid "Password:"
 msgstr "Пароль:"
@@ -93,99 +85,82 @@ msgstr "Пароль:"
 msgid "Passwords mismatch"
 msgstr "Паролі не співпадають"
 
-#.
 #: standard input:5 ui/users/index.scm:28
 msgid "Shell:"
 msgstr "Оболонка:"
 
 #: ui/users/add/index.scm:18
-#, fuzzy
 msgid "You should define a password"
-msgstr "Ви маєте вказати межі адрес"
+msgstr "Ви маєте вказати пароль"
 
 #: ui/users/add/index.scm:15
-#, fuzzy
 msgid "You should define a system user"
-msgstr "Ви маєте вказати межі адрес"
+msgstr "Ви маєте вказати системного користувача"
 
-#. '
 #: backend3/users:72
 msgid "can't create mail spool"
-msgstr ""
+msgstr "неможливо створити поштову чергу"
 
-#. '
 #: backend3/users:71
 msgid "can't create or remove home directory"
-msgstr ""
+msgstr "неможливо створити або вилучити домашню теку"
 
 #: backend3/users:122
-#, fuzzy
 msgid "can't remove user's primary group"
-msgstr "Не можу вилучити користувача"
+msgstr "неможливо вилучити головну групу користувача"
 
 #: backend3/users:70 backend3/users:124
-#, fuzzy
 msgid "can't update group file"
-msgstr "Не можу вилучити групу"
+msgstr "неможливо оновити файл групи"
 
 #: backend3/users:63
-#, fuzzy
 msgid "can't update password file"
-msgstr "Змінити пароль:"
+msgstr "неможливо оновити файл паролю"
 
 #: backend3/users:81
-#, fuzzy
 msgid "cannot change password"
-msgstr "Змінити пароль:"
+msgstr "неможливо змінити пароль"
 
 #: backend3/users:120
 msgid "gid not unique"
-msgstr ""
+msgstr "gid не унікальний"
 
-#. '
 #: backend3/users:123
 msgid "group name not unique"
-msgstr ""
+msgstr "ім'я групи не унікальне"
 
 #: backend3/users:65
-#, fuzzy
 msgid "invalid argument to option"
-msgstr "Додаткові параметри відновлення"
+msgstr "невірний параметр до аргументу"
 
-#. '
 #: backend3/users:64 backend3/users:118
-#, fuzzy
 msgid "invalid command syntax"
-msgstr "невірне двійкове значення"
+msgstr "невірний синтаксис команди"
 
 #: backend3/users:119
-#, fuzzy
 msgid "invalid group name"
-msgstr "невірне ім'я ресурсу"
+msgstr "невірне ім'я групи"
 
 #: backend3/users:121
 msgid "specified group doesn't exist"
-msgstr ""
+msgstr "вказаної групи не існує"
 
 #: backend3/users:67
 msgid "specified user doesn't exist"
-msgstr ""
+msgstr "вказаного користувача не існує"
 
 #: backend3/users:66
-#, fuzzy
 msgid "uid already in use"
-msgstr "ВС уже створено"
+msgstr "uid вже існує"
 
 #: backend3/users:141
-#, fuzzy
 msgid "unable to add user %s to group %s"
-msgstr "неможливо встановити час"
+msgstr "неможливо додати користувача %s до групи %s"
 
-#. '
 #: backend3/users:68
 msgid "user currently logged in"
-msgstr ""
+msgstr "користувач на разі в системі"
 
 #: backend3/users:69
 msgid "username already in use"
-msgstr ""
+msgstr "ім'я користувача вже використано"

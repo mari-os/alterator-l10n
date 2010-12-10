@@ -1,15 +1,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
 # Michael Shigorin <mike@osdn.org.ua>, 2007.
 # Wad Mashckoff <adiel@nospam.kiev.ua>, 2007.
-#
+# Roman Savochenko <rom_as@fromru.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-04-28 20:12+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
-"Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
+"Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,13 +18,12 @@ msgstr ""
 "X-Generator: KBabel 1.10.1\n"
 
 #: standard input:14
-#, fuzzy
 msgid "(Re)create key and sign request"
-msgstr "Неможливо підписати запит"
+msgstr "(Пере)створити ключ та запит на підпис"
 
 #: standard input:3
 msgid "(hostname for server or something else for client)"
-msgstr ""
+msgstr "(ім'я комп'ютера для сервера або що-небуть інше для кліента)"
 
 #: standard input:9
 msgid "(organization name, written in latin letters)"
@@ -43,7 +43,7 @@ msgstr "(код країни, два символи)"
 
 #: standard input:13
 msgid "(your e-mail address)"
-msgstr ""
+msgstr "(ваша електрона пошта)"
 
 #: ui/sslkey/generate/index.scm:213
 msgid "Apply"
@@ -73,12 +73,11 @@ msgstr "Країна (С):"
 
 #: standard input:23 ui/sslkey/index.scm:39
 msgid "Delete key, certificate and sign request"
-msgstr ""
+msgstr "Видалити ключ, сертифікат та запит на підпис"
 
 #: ui/sslkey/generate/index.scm:193
-#, fuzzy
 msgid "Destination directory:"
-msgstr "Відновити файл або теку:"
+msgstr "Тека призначення:"
 
 #: standard input:17
 msgid "Download sign request"
@@ -86,41 +85,35 @@ msgstr "Звантажити запит на підпис"
 
 #.
 #: standard input:12 ui/sslkey/generate/index.scm:183
-#, fuzzy
 msgid "E-mail address:"
-msgstr "IP адреса:"
+msgstr "Адреса електроної пошти:"
 
 #.
 #: ui/sslkey/generate/index.scm:191 ui/sslkey/generate/index.scm:194
-#, fuzzy
 msgid "Export sign request"
-msgstr "Звантажити запит на підпис"
+msgstr "Експортувати запит на підпис"
 
 #: backend3/sslkey:243
 msgid "Export sign request failed"
-msgstr ""
+msgstr "Помилка експорту запиту на підпис"
 
 #.
 #: ui/sslkey/generate/index.scm:186
-#, fuzzy
 msgid "Generate key and sign request"
-msgstr "Неможливо підписати запит"
+msgstr "Генерувати ключ та запит на підпис"
 
 #: ui/sslkey/generate/index.scm:203
-#, fuzzy
 msgid "Import user certificate"
-msgstr "Локальні сертификати"
+msgstr "Імпорт сертифікату користувача"
 
 #.
 #: ui/sslkey/generate/index.scm:202
-#, fuzzy
 msgid "Import user certificate:"
-msgstr "Звантажити сертификат:"
+msgstr "Імпорт сертифікату користувача:"
 
 #: backend3/sslkey:41
-#, fuzzy
 msgid "Invalid certificate"
-msgstr "Невірний файл сертифікату"
+msgstr "Невірний сертифікат"
 
 #: backend3/sslkey:232
 msgid "Invalid certificate file"
@@ -129,25 +122,23 @@ msgstr "Невірний файл сертифікату"
 #.
 #: standard input:6 ui/sslkey/generate/index.scm:174
 msgid "Location (L):"
-msgstr "Розміщення (L):"
+msgstr "Розташування (L):"
 
 #: standard input:21 ui/sslkey/index.scm:34
 msgid "New..."
-msgstr ""
+msgstr "Новий..."
 
 #: backend3/sslkey:44
-#, fuzzy
 msgid "No certificate"
-msgstr "сертифікати"
+msgstr "Не сертифікат"
 
 #: ui/sslkey/generate/index.scm:212
 msgid "OK"
 msgstr ""
 
 #: backend3/sslkey:38
-#, fuzzy
 msgid "OK certificate"
-msgstr "сертифікати"
+msgstr "OK сертифікат"
 
 #.
 #: standard input:8 ui/sslkey/generate/index.scm:177
@@ -160,41 +151,36 @@ msgid "Organizational Unit (OU):"
 msgstr "Підрозділ організації (OU):"
 
 #: standard input:1
-#, fuzzy
 msgid "SSL keys management"
-msgstr "Керування користувачами"
+msgstr "Керування SSL ключами"
 
 #: standard input:20
 msgid "SSL keys:"
-msgstr ""
+msgstr "SSL ключи:"
 
 #: standard input:1
-#, fuzzy
 msgid "SSL settings"
-msgstr "Налаштування TLS"
+msgstr "Налаштування SSL"
 
 #: ui/sslkey/generate/index.scm:167
-#, fuzzy
 msgid "SSL settings:"
-msgstr "Налаштування TLS"
+msgstr "Налаштування SSL:"
 
 #: standard input:16
 msgid "Sign"
-msgstr ""
+msgstr "Підпис"
 
 #: backend3/sslkey:238
 msgid "Sign request does not exist"
-msgstr ""
+msgstr "Не існує запиту на підпис"
 
 #: backend3/sslkey:240
-#, fuzzy
 msgid "Target directory does not exist"
-msgstr "Потрібний каталог:"
+msgstr "Не існує цільової теки"
 
 #: backend3/sslkey:203
-#, fuzzy
 msgid "Unable to determine file name"
-msgstr "Неможливо створити тимчасовий файл"
+msgstr "Неможливо визначити ім'я файлу"
 
 #: standard input:19
 msgid "Upload"
@@ -206,7 +192,7 @@ msgstr "Завантажити сертифікат, підписаний CA:"
 
 #: backend3/sslkey:36
 msgid "expire"
-msgstr ""
+msgstr "закінчився"
 
 #: type/ssl-cert-country-code.scm:11
 msgid "invalid ISO-3166-alpha-2 country code"

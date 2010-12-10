@@ -1,15 +1,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
 # Michael Shigorin <mike@osdn.org.ua>, 2007.
 # Wad Mashckoff <adiel@nospam.kiev.ua>, 2007.
-#
+# Roman Savochenko <rom_as@fromru.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
-"Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
+"Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,16 +19,18 @@ msgstr ""
 
 #: standard input:59
 msgid "/etc/net is network configuration software"
-msgstr ""
+msgstr "Служба налаштування мережі Etcnet"
 
 #: standard input:51
 msgid "Alterator specific httpd"
-msgstr ""
+msgstr "Сервер HTTP, який обслуговує систему керування Alterator"
 
 #: standard input:10
 msgid ""
 "Apache is a World Wide Web server.  It is used to serve HTML files and CGI."
 msgstr ""
+"Apache — сервер мережі WWW. Його призначено для обслуговування файлів HTML та "
+"запитів CGI."
 
 #: standard input:4 ui/services/index.scm:16
 msgid "Apply"
@@ -35,86 +38,86 @@ msgstr "Застосувати"
 
 #: standard input:3
 msgid "Automates a packet filtering firewall with iptables"
-msgstr ""
+msgstr "Брандмауер з потужною системою фільтрації мережевих пакетів"
 
 #: ui/services/index.scm:11
-#, fuzzy
 msgid "Change state:"
-msgstr "Змінити дату..."
+msgstr "Змінити стан:"
 
 #: standard input:27
 msgid "Connects to PPPoE provider"
-msgstr ""
+msgstr "Служба підключення до провайдеру PPPoE"
 
 #: standard input:2
-#, fuzzy
 msgid "Current state"
-msgstr "Поточна дата:"
+msgstr "Поточний стан"
 
 #: standard input:16
 msgid "Dovecot Imap Server"
-msgstr ""
+msgstr "Сервер Imap від Dovecot"
 
 #: standard input:24
 msgid "Framebuffer post initialization."
-msgstr ""
+msgstr "Ініціалізація фреймбуферу"
 
 #: standard input:39
 msgid "It comes by night and sucks the vital essence from your computers"
-msgstr ""
+msgstr "Служба резервного копіювання"
 
 #: standard input:12 input:36
 msgid "It comes by night and sucks the vital essence from your computers..."
-msgstr ""
+msgstr "Служба резервного копіювання..."
 
 #: standard input:34
 msgid "KVM accelerator kernel modules."
-msgstr ""
+msgstr "Служба апаратної підтримки віртуальних машин KVM."
 
 #: standard input:67
 msgid ""
 "Kerberos 5 is a trusted third-party authentication system. This script "
 "starts and stops the Kerberos 5 administrative server, which should only be "
 "run on the master server for a realm"
-msgstr ""
+msgstr "Керуючий сервер Kerberos"
 
 #: standard input:43
 msgid ""
 "Kerberos 5 is a trusted third-party authentication system. This script "
 "starts and stops the server that Kerberos IV and 5 clients need to connect "
 "to in order to obtain credentials"
-msgstr ""
+msgstr "Служба розповсюдження тикетів Kerberos"
 
 #: standard input:47
 msgid ""
 "Kerberos 5 is a trusted third-party authentication system. This script "
 "starts and stops the service that allows this KDC to receive updates from "
 "your master KDC"
-msgstr ""
+msgstr "Служба отримання оновлень з керуючого серверу Kerberos"
 
 #: standard input:4 input:48
 msgid ""
 "LDAP stands for Lightweight Directory Access Protocol, used for implementing "
 "the industry standard directory services."
-msgstr ""
+msgstr "Сервер служби каталогів LDAP."
 
 #: standard input:30
 msgid "Layer 2 Bridge"
-msgstr ""
+msgstr "Служба організації віртуального мережевого мосту"
 
 #: standard input:28
 msgid "Listen and dispatch ACPI events from the kernel"
-msgstr ""
+msgstr "Керування повідомленнями ACPI"
 
 #: standard input:66
 msgid "Mounts and unmounts all NFS, SMB, CIFS and NCP mount points."
-msgstr ""
+msgstr "Служба підключення мережевих ресурсів NFS, SMB, CIFS та NCP."
 
 #: standard input:19
 msgid ""
 "NFS is a popular protocol for file sharing across TCP/IP networks. This "
 "service provides NFS file locking functionality."
 msgstr ""
+"NFS — популярний протокол спільного доступу до файлів у мережі TCP/IP. Служба "
+"надає можливості серверу блокувань NFS."
 
 #: standard input:76
 msgid ""
@@ -122,19 +125,24 @@ msgid ""
 "service provides NFS server functionality, which is configured via the /etc/"
 "exports and /etc/sysconfig/nfs files."
 msgstr ""
+"NFS — популярний протокол спільного доступу до файлів у мережі TCP/IP. Служба "
+"надає можливості серверу NFS, налаштованого через файли /etc/exports "
+"т /etc/sysconfig/nfs."
 
 #: standard input:69
 msgid "NFS-related daemon that manages RPCSEC GSS contexts"
-msgstr ""
+msgstr "Служба управління контекстами RPCSEC GSS для NFS"
 
 #: standard input:52
 msgid ""
 "NFSv4-related daemon that maps usernames to UID/GID numbers and vice versa"
 msgstr ""
+"Служба для NFSv4, яка пов'язує імена користувачів з ідентифікаторами "
+"користувачів та груп."
 
 #: standard input:17
 msgid "OpenSSH server daemon"
-msgstr ""
+msgstr "Сервер OpenSSH"
 
 #: standard input:14
 msgid ""
@@ -143,11 +151,11 @@ msgid ""
 "telecommuting, WiFi security, secure branch office linking, and enterprise-"
 "scale remote access solutions with load balancing, failover, and fine-"
 "grained access-controls"
-msgstr ""
+msgstr "Сервер VPN (Virtual Private Network)"
 
 #: standard input:15
 msgid "OpenVZ startup script"
-msgstr ""
+msgstr "Служба підтримки віртуальних машин OpenVZ"
 
 #: standard input:33
 msgid ""
@@ -155,49 +163,50 @@ msgid ""
 "used sendmail program. Postfix Mail Transport Agent attempts to be fast, "
 "easy to administer, and hopefully secure, while at the same time being "
 "sendmail compatible enough to not upset your users."
-msgstr ""
+msgstr "Postfix — альтернатива програми sendmail для надсилання електроної пошти від "
+"Wietse Venema."
 
 #: standard input:21
 msgid "Prepare X11 drivers"
-msgstr ""
+msgstr "Служба автоматичного визначення драйверу графічної системи"
 
 #: standard input:77
 msgid ""
 "Retries udev events which could not be processed earlier during startup."
-msgstr ""
+msgstr "Служба повторення подій udev, які не оброблено раніш при завантажені."
 
 #: standard input:9
 msgid "Rotate the list of KDCs listed in /etc/krb5.conf"
-msgstr ""
+msgstr "Ротація списку контекстів KDC у /etc/krb5.conf"
 
 #: standard input:79
 msgid "Run cron jobs that were left out due to downtime"
-msgstr ""
+msgstr "Запуск завдань для cron, які не було виконано у зв'язку з виключенням компьютеру"
 
 #: standard input:74
 msgid ""
 "Saves and restores system entropy pool for higher quality random number "
 "generation."
-msgstr ""
+msgstr "Служба генератору псевдовипадкових чисел."
 
 #: standard input:68
 msgid ""
 "Self Monitoring and Reporting Technology (S.M.A.R.T.) Daemon monitors the "
 "reliability of ATA and SCSI hard drives"
-msgstr ""
+msgstr "Служба відслідковування стану жорстких дисків S.M.A.R.T."
 
 #: standard input:1 ui/services/index.scm:4
-#, fuzzy
 msgid "Services"
-msgstr "Служби:"
+msgstr "Служби"
 
 #: standard input:53
 msgid "Set sysfs variables from /etc/sysfs.conf"
-msgstr ""
+msgstr "Служба встановлення параметрів для файлової системи sysfs з файлу /etc/sysfs."
+"conf"
 
 #: standard input:31
 msgid "Software RAID monitoring and management"
-msgstr ""
+msgstr "Служба моніторингу та управління програмними RAID"
 
 #: standard input:64
 msgid ""
@@ -206,60 +215,57 @@ msgid ""
 "gopher protocols) on a system closer to the requesting site than to the "
 "source. Web browsers can then use the local Squid cache as a proxy HTTP "
 "server, reducing access time as well as bandwidth consumption."
-msgstr ""
+msgstr "Squid — кешуючий проксі-сервер."
 
 #: standard input:3 ui/services/index.scm:15
-#, fuzzy
 msgid "Start on boot"
 msgstr "Запускати по завантаженню"
 
 #: standard input:62
-#, fuzzy
 msgid "Starts and stops PPTP connection."
-msgstr "З'єднання PPPTP"
+msgstr "Служба підключень PPTP."
 
 #: standard input:5
 msgid "Starts and stops dmeventd monitoring for lvm2"
-msgstr ""
+msgstr "Служба підтримки LVM2"
 
 #: standard input:78
 msgid ""
 "Starts and stops the Samba Winbindd daemon used to provide seamless NT "
 "domain integration."
-msgstr ""
+msgstr "Служба інтеграції з доменами NT."
 
 #: standard input:13
 msgid ""
 "Starts and stops the Samba smbd and nmbd daemons used to provide SMB network "
 "services."
-msgstr ""
+msgstr "Служба спільного доступу до файлів за протоколом SMB."
 
 #: standard input:29
 msgid ""
 "Syslog is the facility by which many daemons use to log messages to various "
 "system log files. It is a good idea to always run syslog."
-msgstr ""
+msgstr "Служба журналювання повідомлень для системних служб."
 
 #: standard input:25 input:54
-#, fuzzy
 msgid "System configurator"
-msgstr "Пароль адміністратора"
+msgstr "Системний конфігуратор"
 
 #: standard input:1
-#, fuzzy
 msgid "System services"
-msgstr "Системний користувач"
+msgstr "Системні сервіси"
 
 #: standard input:75
 msgid "System startup script for console splash screens"
-msgstr ""
+msgstr "Екран заставки для консолі"
 
 #: standard input:44
 msgid ""
 "The Common UNIX Printing System (CUPS), an advanced printer spooling system "
 "which allows setting of printer options and automatic availability of a "
 "printer configured on one server in the whole network."
-msgstr ""
+msgstr "Загальна система друку UNIX (CUPS) — система друку з підтримкою черг для "
+"декількох принтерів, доступних у мережі."
 
 #: standard input:50
 msgid ""
@@ -270,24 +276,29 @@ msgid ""
 "they are attached.  BOOTP provides similar functionality, with certain "
 "restrictions."
 msgstr ""
+"Сервер DHCP від Internet Software Consortium реалізує протоколи динамічного "
+"налаштування вузлів (DHCP) та завантаження Інтернет (BOOTP). DHCP дозволяє вузлам "
+"мережі TCP/IP запитати та призначити IP-адресу, а також отримати інформацію про "
+"мережі, до якої підключено комп'ютер. BOOTP пропонує такі ж можливості, "
+"що й DHCP, але з деякими обмеженнями."
 
 #: standard input:6
 msgid "The UPS drivers"
-msgstr ""
+msgstr "Підтримка драйверів джерел безперебійного живлення"
 
 #: standard input:71
-#, fuzzy
 msgid "The UPS information server"
-msgstr "Сервер для встановлень по мережі"
+msgstr "Сервер інформації від джерел безперебійного живлення"
 
 #: standard input:37
 msgid "The UPS monitor and shutdown controller"
-msgstr ""
+msgstr "Служба моніторингу джерел безперебійного живлення та управління "
+"вимкненням комп'ютеру"
 
 #: standard input:80
 msgid ""
 "The arpwatch daemon attempts to keep track of ethernet/ip address pairings"
-msgstr ""
+msgstr "Служба відслідковування призначення IP-адрес"
 
 #: standard input:58
 msgid ""
@@ -295,25 +306,28 @@ msgid ""
 "NFS and NIS. The portmap server must be running on machines which act as "
 "servers for protocols which make use of the RPC mechanism."
 msgstr ""
+"Служба portmapper керує підключенням RPC, які використовуються такими "
+"протоколами як NFS та NIS. Сервер portmap має бути запущено на серверах, "
+"які використовують протоколи з підтримкою механізму RPC."
 
 #: standard input:81
 msgid ""
 "The start/stop script for MySQL - very fast and reliable SQL database engine."
-msgstr ""
+msgstr "Сервер баз даних MySQL."
 
 #: standard input:7
 msgid ""
 "This is a daemon for collecting and maintaing information about hardware "
 "from several sources."
-msgstr ""
+msgstr "Служба збору та управління інформацією про обладнання."
 
 #: standard input:22
 msgid "This is a daemon for managing guest instances"
-msgstr ""
+msgstr "Служба управління інтерфейсами до запущених віртуальних машин OpenVZ"
 
 #: standard input:35
 msgid "This is a daemon which broadcasts notifications of system events"
-msgstr ""
+msgstr "Служба широкомовних повідомлень про системні події"
 
 #: standard input:61 input:73
 msgid ""
@@ -321,27 +335,29 @@ msgid ""
 "and cache the results for the next query.  You should start this daemon if "
 "you use slow naming services like NIS, NIS+, LDAP, or hesiod."
 msgstr ""
+"Служба кешування інформації про паролі та групи для NIS, NIS+, LDAP та "
+"hesiod."
 
 #: standard input:45
 msgid ""
 "This is a daemon which runs on client machines to perform Zeroconf service "
 "discovery on a network. avahi-daemon must be running on systems that use "
 "Avahi for service discovery. Avahi-daemon should not be running otherwise"
-msgstr ""
+msgstr "Служба виявлення наявних служб Zeroconf у мережі"
 
 #: standard input:32
 msgid "This package loads console powersaver configuration."
-msgstr ""
+msgstr "Управління енергосбереженням для консолі"
 
 #: standard input:65
 msgid ""
 "This package loads the selected keyboard map as set in /etc/sysconfig/"
 "keyboard. This can be selected using the kbdconfig utility."
-msgstr ""
+msgstr "Переключення розкладки клавіатури для консолі."
 
 #: standard input:38
 msgid "This script starts your DNS caching server"
-msgstr ""
+msgstr "Кешуючий сервер DNS"
 
 #: standard input:60
 msgid ""
@@ -350,30 +366,33 @@ msgid ""
 "up the raw device to block device mapping by editing the file /etc/sysconfig/"
 "rawdevices."
 msgstr ""
+"Служба призначення нерозміченого дискового простору блочним пристроям "
+"(таким як розділи жорсткого диску. Вона використовується такими програмами як "
+"Oracle. Ви можете налаштувати призначення у файлі /etc/sysconfig/rawdevices."
 
 #: standard input:26
 msgid "This starts the Linux Auditing System Daemon"
-msgstr ""
+msgstr "Служба системи аудіту Linux"
 
 #: standard input:46
 msgid "This startup script launches the graphical display manager"
-msgstr ""
+msgstr "Запуск графічного екрану входу до системи"
 
 #: standard input:57
 msgid "Tunes Ethernet cards if needed."
-msgstr ""
+msgstr "Налагодження параметрів мережевих карт Ethernet"
 
 #: standard input:70
 msgid "Updates Window Manager Sessions."
-msgstr ""
+msgstr "Оновлення переліку сеансів віконних менеджерів."
 
 #: standard input:72
 msgid "Userspace logging daemon for netfilter"
-msgstr ""
+msgstr "Служба журналювання подій мережевого фільтру"
 
 #: standard input:42
 msgid "alterator specific httpd"
-msgstr ""
+msgstr "Служба попереднього налаштування Alterator"
 
 #: standard input:20
 msgid ""
@@ -381,60 +400,66 @@ msgid ""
 "periodic scheduled times. vixie cron adds a number of features to the basic "
 "UNIX cron, including better security and more powerful configuration options."
 msgstr ""
+"cron — стандартна програма UNIX, яка запускає вказані користувачем "
+"програми за розкладом. vixie cron містить більше можливостей "
+"порівняно з базовою програмою cron для UNIX, включаючи покращену "
+"безпеку та більшу гнучкість."
 
 #: backend3/services:118
-#, fuzzy
 msgid "do not change"
 msgstr "не змінювати"
 
 #: standard input:41
 msgid "ifplugd watches network interface to (re)configure it"
-msgstr ""
+msgstr "Служба ifplugd слідкує за мережевими пристроями при потребі "
+"змінити їх налаштування."
 
 #: standard input:40
 msgid "klogd is kernel message trapping daemon."
-msgstr ""
+msgstr "Служба відслідковування повідомлень ядра."
 
 #: standard input:2
 msgid "manage user-space device nodes in /dev"
-msgstr ""
+msgstr "Управління пристроями у /dev"
 
 #: standard input:56
 msgid "multi-line description of the service."
-msgstr ""
+msgstr "Підтримка багаторядкового опису системних служб."
 
 #: standard input:11
 msgid ""
 "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
 "names to IP addresses."
 msgstr ""
+"named (BIND) — сервер доменних імен (DNS), які використовуються для "
+"перетворення імен вузлів у IP-адреси."
 
 #: standard input:8
 msgid "ntpd is a time synchronization daemon"
-msgstr ""
+msgstr "Сервер синхронізації часу"
 
 #: standard input:55
 msgid "publish alterator web interface on console and alt-notes"
-msgstr ""
+msgstr "Служба відображення адрес доступу до Alterator"
 
 #: backend3/services:121
 msgid "restart"
 msgstr "перезапуск"
 
 #: backend3/services:56 backend3/services:119
-#, fuzzy
 msgid "running"
-msgstr "Запущено"
+msgstr "виконання"
 
 #: standard input:18
 msgid "sensors is used for monitoring motherboard sensor values."
-msgstr ""
+msgstr "Служба моніторингу температурних давачів."
 
 #: standard input:23
 msgid ""
 "spamd is a daemon process which uses SpamAssassin to check email messages "
 "for SPAM. It is normally called by spamc from a MDA (or MTA)."
 msgstr ""
+"Служба перевірки повідомлень електроної пошти на спам за допомогою SpamAssassin."
 
 #: backend3/services:119
 msgid "start"
@@ -446,14 +471,12 @@ msgstr "зупинити"
 
 #: backend3/services:54 backend3/services:55 backend3/services:120
 #: backend3/services:121
-#, fuzzy
 msgid "stopped"
-msgstr "зупинити"
+msgstr "зупинено"
 
 #: backend3/services:50 backend3/services:57
-#, fuzzy
 msgid "unknown"
-msgstr "Невідомо"
+msgstr "невідомо"
 
 #: standard input:63
 msgid ""
@@ -462,7 +485,7 @@ msgid ""
 "with a WPA Authenticator and EAP authentication with Authentication Server. "
 "In addition, it controls the roaming and IEEE 802.11 authentication/"
 "association of the wlan driver."
-msgstr ""
+msgstr "Управління ключами WPA для бездротових пристроїв."
 
 #: standard input:49
 msgid ""
@@ -471,3 +494,6 @@ msgid ""
 "available based on time, and can place limits on the number of servers that "
 "can be started, among other things. "
 msgstr ""
+"xinetd — розширена заміна inetd. Служба надає механізм контролю "
+"доступа, журналювання, підтримки періодичної доступності та лімітів для "
+"мережевих служб."

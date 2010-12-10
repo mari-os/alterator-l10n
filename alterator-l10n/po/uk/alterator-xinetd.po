@@ -1,15 +1,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
 # Michael Shigorin <mike@osdn.org.ua>, 2007.
 # Wad Mashckoff <adiel@nospam.kiev.ua>, 2007.
-#
+# Roman Savochenko <rom_as@fromru.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-21 22:39+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
-"Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
+"Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,75 +19,71 @@ msgstr ""
 
 #: standard input:3
 msgid "A chargen server. This is the tcp version."
-msgstr ""
+msgstr "Сервер chargen (TCP)."
 
 #: standard input:14
 msgid "A chargen server. This is the udp version."
-msgstr ""
+msgstr "Сервер chargen (UDP)."
 
 #: standard input:5
 msgid "A daytime server. This is the tcp version."
-msgstr ""
+msgstr "Сервер daytime (TCP)"
 
 #: standard input:11
 msgid "A daytime server. This is the udp version."
-msgstr ""
+msgstr "Сервер daytime (UDP)."
 
 #: standard input:13
 msgid "A discard server. This is the tcp version."
-msgstr ""
+msgstr "Сервер discard (TCP)."
 
 #: standard input:2
 msgid "A discard server. This is the udp version."
-msgstr ""
+msgstr "Сервер discard (UDP)."
 
 #: standard input:6
 msgid "An RFC 868 time server. This is the tcp version."
-msgstr ""
+msgstr "Сервер синхронізації часу за RFC 868 (TCP)."
 
 #: standard input:12
 msgid "An RFC 868 time server. This is the udp version."
-msgstr ""
+msgstr "Сервер синхронізації часу за RFC 868 (UDP)."
 
 #: standard input:9
 msgid "An echo server. This is the tcp version."
-msgstr ""
+msgstr "Сервер echo (TCP)."
 
 #: standard input:4
 msgid "An echo server. This is the udp version."
-msgstr ""
+msgstr "Сервер echo (TCP)."
 
 #: standard input:13 ui/xinetd/index.scm:59
 msgid "Apply"
 msgstr "Застосувати"
 
 #: backend3/xinetd:246 backend3/xinetd:314
-#, fuzzy
 msgid "Can't open file"
-msgstr "Не можу вилучити користувача"
+msgstr "Не можу відкрити файл"
 
 #: backend3/xinetd:247 backend3/xinetd:315
 msgid "Can't open temporary file"
-msgstr ""
+msgstr "Не можу відкрити тимчасовий файл""
 
 #: backend3/xinetd:107 backend3/xinetd:108
 msgid "Common settings"
 msgstr "Загальні налаштування"
 
 #: standard input:3 ui/xinetd/index.scm:28
-#, fuzzy
 msgid "Enable service"
-msgstr "Увімкнути службу DHCP"
+msgstr "Увімкнути службу"
 
 #: standard input:5 ui/xinetd/index.scm:33
-#, fuzzy
 msgid "Group:"
-msgstr "Група"
+msgstr "Група:"
 
 #: standard input:9 ui/xinetd/index.scm:45
-#, fuzzy
 msgid "Instances:"
-msgstr "Джерела для встановлення ПЗ"
+msgstr "Кількість процесів:"
 
 #: standard input:12 ui/xinetd/index.scm:54
 msgid "Interface:"
@@ -94,12 +91,11 @@ msgstr "Інтерфейс:"
 
 #: standard input:11 ui/xinetd/index.scm:51
 msgid "Only from:"
-msgstr ""
+msgstr "Тільки з:"
 
 #: standard input:10 ui/xinetd/index.scm:48
-#, fuzzy
 msgid "Per source:"
-msgstr "Нове джерело:"
+msgstr "На кожного клієнта:"
 
 #: standard input:14 ui/xinetd/index.scm:60
 msgid "Reset"
@@ -107,61 +103,57 @@ msgstr "Скинути"
 
 #: standard input:8 ui/xinetd/index.scm:42
 msgid "Rlimit as:"
-msgstr ""
+msgstr "Обмеження адресного простору:"
 
 #: standard input:7 ui/xinetd/index.scm:39
-#, fuzzy
 msgid "Server args:"
-msgstr "Ім’я сервера:"
+msgstr "Аргументи серверу:"
 
 #: standard input:6 ui/xinetd/index.scm:36
 msgid "Server:"
 msgstr "Сервер:"
 
 #: standard input:1 ui/xinetd/index.scm:18
-#, fuzzy
 msgid "Services"
-msgstr "Служби:"
+msgstr "Сервіси"
 
 #: standard input:7
 msgid ""
 "The cups-lpd mini daemon enable cups accepting jobs from a remote LPD client"
-msgstr ""
+msgstr "Друк через CUPS завдань від віддалених LPD-кліентів"
 
 #: standard input:8
 msgid "The git server offers access to git repositories."
-msgstr ""
+msgstr "Доступ до репозиторію GIT"
 
 #: standard input:10
-#, fuzzy
 msgid "The vsftpd FTP server."
-msgstr "Перезапустити HTTP сервер"
+msgstr "FTP-сервер"
 
 #: ui/xinetd/index.scm:112
 msgid ""
 "There are unsaved changes in the service settings. Do you want to apply "
 "these changes?"
 msgstr ""
+"У налаштуваннях сервісу виникли зміни. Чи хочете ви зберегти ці налаштування?"
 
 #: backend3/xinetd:111
 msgid "These settings will be applied to services with undefined fields"
 msgstr ""
+"Ці налаштування будуть застосовані до служб для яких відповідні поля не визначені"
 
 #: backend3/xinetd:441
-#, fuzzy
 msgid "Unknown service"
-msgstr "Помилка: невідома служба"
+msgstr "Невідома служба"
 
 #: standard input:4 ui/xinetd/index.scm:30
 msgid "User:"
 msgstr "Користувач:"
 
 #: standard input:1
-#, fuzzy
 msgid "Xinetd server"
-msgstr "Додати сервер"
+msgstr "Xinetd сервер"
 
 #: standard input:2 ui/xinetd/index.scm:89
-#, fuzzy
 msgid "internal service"
-msgstr "Налаштувати поштову службу"
+msgstr "вбудований сервіс"

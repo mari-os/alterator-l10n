@@ -1,15 +1,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
 # Michael Shigorin <mike@osdn.org.ua>, 2007.
 # Wad Mashckoff <adiel@nospam.kiev.ua>, 2007.
-#
+# Roman Savochenko <rom_as@fromru.com>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-04-28 20:11+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
-"Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
+"Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,16 +19,15 @@ msgstr ""
 
 #: backend3/hotstandby:684
 msgid "Administrative interface has no IP address"
-msgstr ""
+msgstr "Мережевий інтерфейс управління не має IP адреси"
 
 #: backend3/hotstandby:591
 msgid "Administrative interface is not specified"
-msgstr ""
+msgstr "Мережевий інтерфейс управління не визначено"
 
 #: standard input:11
-#, fuzzy
 msgid "Administrative interface:"
-msgstr "DN адміністратора:"
+msgstr "Мережевий інтерфейс управління:"
 
 #: standard input:16
 msgid "Apply"
@@ -35,47 +35,43 @@ msgstr "Застосувати"
 
 #: standard input:4
 msgid "Auto rollback to main"
-msgstr ""
+msgstr "Автоматичне переключення на головний вузол"
 
 #: backend3/hotstandby:696
 msgid "Death detection time greater then initial deadtime"
-msgstr ""
+msgstr "Інтервал визначення ненаявності більш початкового інтервалу"
 
 #: standard input:1
 msgid "Disabled"
-msgstr ""
+msgstr "Виключено"
 
 #: standard input:19
-#, fuzzy
 msgid "Download"
-msgstr "Звантажити файл:"
+msgstr "Звантажити"
 
 #: standard input:18
-#, fuzzy
 msgid "Download configuration:"
-msgstr "Звантажити конфігурацію клієнта"
+msgstr "Звантажити конфігурацію:"
 
 #: standard input:6
 msgid "Failure (death) detection time, s:"
-msgstr ""
+msgstr "Проміжок визначення ненаявності, с:"
 
 #: backend3/hotstandby:594
-#, fuzzy
 msgid "Hostname of another node is not specified"
-msgstr "Інший пристрій завантаження не вказаний."
+msgstr "Ім'я комп'ютера іншого вузла не вказано"
 
 #: standard input:14
-#, fuzzy
 msgid "Hostname:"
-msgstr "Ім'я вузла"
+msgstr "Ім'я вузла:"
 
 #: standard input:1
 msgid "Hot standby"
-msgstr ""
+msgstr "Гаряче резервування"
 
 #: backend3/hotstandby:597
 msgid "IP address of another node is not specified"
-msgstr ""
+msgstr "IP-адреси іншого вузла не встановлено"
 
 #: standard input:15
 msgid "IP address:"
@@ -83,15 +79,15 @@ msgstr "IP адреса:"
 
 #: standard input:7
 msgid "Initial deadtime detection interval, s:"
-msgstr ""
+msgstr "Початковий проміжок визначення ненаявності, с:"
 
 #: standard input:5
 msgid "Interval between heartbeat packets, s:"
-msgstr ""
+msgstr "Період надсилання пакетів, с:"
 
 #: standard input:2 input:12
 msgid "Main node"
-msgstr ""
+msgstr "Основний вузол"
 
 #: standard input:10
 msgid "Netmask:"
@@ -99,68 +95,60 @@ msgstr "Маска мережі:"
 
 #: standard input:3 input:13
 msgid "Reserve node"
-msgstr ""
+msgstr "Резервний вузол"
 
 #: backend3/hotstandby:585
-#, fuzzy
 msgid "Service IP address is not specified"
-msgstr "Не вказаний образ ядра"
+msgstr "IP-адреса ресурсу не вказано"
 
 #: standard input:9
-#, fuzzy
 msgid "Service IP address:"
-msgstr "Початкова IP адреса:"
+msgstr "IP-адреса ресурсу:"
 
 #: backend3/hotstandby:582
-#, fuzzy
 msgid "Service interface is not specified"
-msgstr "Не вказаний образ ядра"
+msgstr "Мережевий інтерфейс ресурсу не визначено"
 
 #: standard input:8
-#, fuzzy
 msgid "Service interface:"
-msgstr "Інтерфейс сервера резервного копіювання:"
+msgstr "Мережевий інтерфейс ресурсу:"
 
 #: backend3/hotstandby:588
-#, fuzzy
 msgid "Service netmask is not specified"
-msgstr "Не вказаний образ ядра"
+msgstr "Мережеву маску ресурсу не визначено"
 
 #: backend3/hotstandby:378
 msgid "Suitable csync2.cfg not found!"
-msgstr ""
+msgstr "Придатного файлу csync2.cfg не знайдено!"
 
 #: backend3/hotstandby:464
 msgid "Suitable heartbeat config not found!"
-msgstr ""
+msgstr "Придатного конфігураційного файлу для heartbeat не знайдено!"
 
 #: backend3/hotstandby:500
 msgid "Suitable heartbeat key not found!"
-msgstr ""
+msgstr "Придатного ключа для heartbeat не знайдено!"
 
 #: backend3/hotstandby:524
 msgid "Suitable heartbeat resources not found!"
-msgstr ""
+msgstr "Придатного ресурсу для heartbeat не знайдено!"
 
 #: backend3/hotstandby:687
-#, fuzzy
 msgid "Unable to determine hostname"
-msgstr "Неможливо встановити часову зону"
+msgstr "Неможливо визначити ім'я комп'ютеру"
 
 #: standard input:20
 msgid "Upload"
 msgstr "Завантажити"
 
 #: standard input:17
-#, fuzzy
 msgid "Upload configuration:"
-msgstr "Налаштування:"
+msgstr "Завантажити конфігурацію:"
 
 #: backend3/hotstandby:449
-#, fuzzy
 msgid "csync2 key not found!"
-msgstr "Файл ліцензійної угоди не знайдено"
+msgstr "Ключ для csync2 не знайдено!"
 
 #: type/ahs-digit.scm:8
 msgid "must be digit"
-msgstr ""
+msgstr "має бути цифра"
