@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt18
+Release: alt19
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -79,7 +79,7 @@ make check
 
 %lang(en) %config(noreplace) %_sysconfdir/alterator/l10n/*-en_*
 %lang(ru) %config(noreplace) %_sysconfdir/alterator/l10n/*-ru_*
-#%lang(uk) %config(noreplace) %_sysconfdir/alterator/l10n/*-uk_*
+%lang(uk) %config(noreplace) %_sysconfdir/alterator/l10n/*-uk_*
 %lang(pt_BR) %config(noreplace) %_sysconfdir/alterator/l10n/*-pt_BR
 %lang(es) %config(noreplace) %_sysconfdir/alterator/l10n/*-es_*
 
@@ -91,9 +91,9 @@ make check
 %lang(ru) %_datadir/alterator/help/ru_RU/*.html
 %lang(ru) %_datadir/locale/ru/LC_MESSAGES/*.mo
 
-#%lang(uk) %dir %_datadir/alterator/help/uk_UA/
-#%lang(uk) %_datadir/alterator/help/uk_UA/*.html
-#%lang(uk) %_datadir/locale/uk/LC_MESSAGES/*.mo
+%lang(uk) %dir %_datadir/alterator/help/uk_UA/
+%lang(uk) %_datadir/alterator/help/uk_UA/*.html
+%lang(uk) %_datadir/locale/uk/LC_MESSAGES/*.mo
 
 %lang(pt_BR) %dir %_datadir/alterator/help/pt_BR/
 %lang(pt_BR) %_datadir/alterator/help/pt_BR/*.html
@@ -102,6 +102,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Dec 10 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt19
+- Update Ukrainian translations (thanks Roman Savochenko)
+
 * Thu Nov 25 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt18
 - Revert LDAP modules translations to Dmitriy Kruglikov version
 
