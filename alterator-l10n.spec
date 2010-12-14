@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt19.1
+Release: alt20
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,8 +102,7 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
-* Tue Dec 14 2010 Aleksey Avdeev <solo@altlinux.ru> 2.9-alt19.1
-- Test build
+* Tue Dec 14 2010 Aleksey Avdeev <solo@altlinux.ru> 2.9-alt20
 - added translation alterator-zabbix-agent
 
 * Fri Dec 10 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt19
