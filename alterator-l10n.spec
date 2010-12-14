@@ -104,6 +104,7 @@ make check
 %changelog
 * Tue Dec 14 2010 Aleksey Avdeev <solo@altlinux.ru> 2.9-alt19.1
 - Test build
+- added translation alterator-zabbix-agent
 
 * Fri Dec 10 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt19
 - Update Ukrainian translations (thanks Roman Savochenko)
