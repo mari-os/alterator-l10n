@@ -91,8 +91,8 @@ make check
 %lang(ru) %_datadir/alterator/help/ru_RU/*.html
 %lang(ru) %_datadir/locale/ru/LC_MESSAGES/*.mo
 
-#%lang(uk) %dir %_datadir/alterator/help/uk_UA/
-#%lang(uk) %_datadir/alterator/help/uk_UA/*.html
+%lang(uk) %dir %_datadir/alterator/help/uk_UA/
+%lang(uk) %_datadir/alterator/help/uk_UA/*.html
 %lang(uk) %_datadir/locale/uk/LC_MESSAGES/*.mo
 
 %lang(pt_BR) %dir %_datadir/alterator/help/pt_BR/
