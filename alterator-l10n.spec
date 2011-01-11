@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt21
+Release: alt22
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Jan 11 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt22
+- Update Ukrainian translations and fix Russian help (thanks Roman Savochenko)
+
 * Mon Dec 27 2010 Andrey Cherepanov <cas@altlinux.org> 2.9-alt21
 - Update Ukrainian translations (thanks Roman Savochenko)
 
