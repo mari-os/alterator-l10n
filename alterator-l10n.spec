@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt23
+Release: alt24
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Feb 18 2011 Alexandra Panyukova <mex3@altlinux.ru> 2.9-alt24
+- alterator-bacula translation updated
+
 * Wed Jan 26 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt23
 - Update alterator-mkbootflash Russian translations
 
