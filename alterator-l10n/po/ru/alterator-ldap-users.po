@@ -3,19 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sergey Lebedev <lsv@altlinux.ru>, 2009.
+# Andrey Cherepanov <skull@kde.ru>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: alterator-ldap-users\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-01 15:53+0400\n"
-"PO-Revision-Date: 2009-05-21 16:53+0400\n"
-"Last-Translator: Sergey Lebedev <lsv@altlinux.ru>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2011-04-01 17:00+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Ldap user accounts"
@@ -23,88 +26,75 @@ msgstr "Пользователи"
 
 #: standard input:1
 msgid "You must enter bind data for base"
-msgstr ""
+msgstr "Вы должны указать привязку для базы"
 
 #: standard input:2 input:18
-#, fuzzy
 msgid "on host"
-msgstr "неизвестный хост"
+msgstr "на сервере"
 
 #: standard input:3
-#, fuzzy
 msgid "root dn:"
-msgstr "Корневое устройство:"
+msgstr "Корневой DN:"
 
 #: standard input:4
 msgid "root pw:"
-msgstr ""
+msgstr "Корневой пароль:"
 
 #: standard input:5
 msgid "Bind"
-msgstr ""
+msgstr "Привязка"
 
 #: standard input:6
-#, fuzzy
 msgid "or"
-msgstr "для"
+msgstr "или"
 
 #: standard input:7
-#, fuzzy
 msgid "Select other"
-msgstr "Выберите профиль"
+msgstr "Другой"
 
 #: standard input:8
-#, fuzzy
 msgid "Select userlist source"
-msgstr "Выберите диски для использования"
+msgstr "Источник списка пользователей"
 
 #: standard input:9
-#, fuzzy
 msgid "Current auth state"
-msgstr "Текущее состояние службы"
+msgstr "Текущий способ аутентификации"
 
 #: standard input:10
 msgid "/etc/passwd file on this server"
-msgstr ""
+msgstr "Файл /etc/passwd на этом сервере"
 
 #: standard input:11
-#, fuzzy
 msgid "LDAP base on this server"
-msgstr "LDAP-сервер:"
+msgstr "База LDAP на этом сервере"
 
 #: standard input:12
-#, fuzzy
 msgid "Other LDAP server"
-msgstr "LDAP-сервер:"
+msgstr "Другой сервер LDAP"
 
 #: standard input:13
-#, fuzzy
 msgid "Remote host:"
-msgstr "Адрес веб-сайта:"
+msgstr "Адрес сервера:"
 
 #: standard input:14
 msgid "remote base:"
-msgstr ""
+msgstr "База на внешнем сервере:"
 
 #: standard input:15
-#, fuzzy
 msgid "Use selected source"
-msgstr "Выберите страну:"
+msgstr "Применить"
 
 #: standard input:16
-#, fuzzy
 msgid "Return to list"
-msgstr "Вернуться к просмотру"
+msgstr "Вернуться к списку пользователей"
 
 #: standard input:17
-#, fuzzy
 msgid "Used base:"
-msgstr "Новый базовый DN:"
+msgstr "Текущая база:"
 
 #: standard input:19
-#, fuzzy
 msgid "Source selector"
-msgstr "Порт отправителя"
+msgstr "Выбор источника"
 
 #: standard input:20
 msgid "New account:"
@@ -115,40 +105,36 @@ msgid "Create"
 msgstr "Создать"
 
 #: standard input:22
-#, fuzzy
 msgid "Filter:"
-msgstr "Должность:"
+msgstr "Фильтр пользователей:"
 
 #: standard input:23
-#, fuzzy
 msgid "System only"
-msgstr "Системные журналы"
+msgstr "системные"
 
 #: standard input:24
 msgid "Peoples"
-msgstr ""
+msgstr "обычные"
 
 #: standard input:25
 msgid "UID From:"
-msgstr ""
+msgstr "UID с:"
 
 #: standard input:26
 msgid "to"
 msgstr "по"
 
 #: standard input:27
-#, fuzzy
 msgid "Select"
-msgstr "Выберите операцию:"
+msgstr "Выбрать"
 
 #: standard input:28
 msgid "Do not forget save data..."
-msgstr ""
+msgstr "Не забудьте сохранить данные..."
 
 #: standard input:29
-#, fuzzy
 msgid "User settings updated"
-msgstr "Настройки пользователя успешно обновлены"
+msgstr "Данные о пользователе успешно обновлены"
 
 #: standard input:30
 msgid "Account"
@@ -200,44 +186,39 @@ msgstr "Сгенерировать"
 
 #: standard input:42
 msgid "Photo"
-msgstr ""
+msgstr "Фотография"
 
 #: standard input:43 input:62
 msgid "Add"
 msgstr "Добавить"
 
 #: standard input:44
-#, fuzzy
 msgid "Del"
 msgstr "Удалить"
 
 #: standard input:45
-#, fuzzy
 msgid "Select new user photo:"
-msgstr "Удалить пользователя"
+msgstr "Новая фотография:"
 
 #: standard input:46
-#, fuzzy
 msgid "Upload"
-msgstr "Загрузить ключ"
+msgstr "Установить"
 
 #: standard input:47
 msgid "Cansel"
-msgstr ""
+msgstr "Отменить"
 
 #: standard input:48
-#, fuzzy
 msgid "Group membership"
-msgstr "Состав"
+msgstr "Группы"
 
 #: standard input:49
 msgid "Member of"
-msgstr ""
+msgstr "Входит в группы"
 
 #: standard input:50
-#, fuzzy
 msgid "Available groups"
-msgstr "Доступные правила:"
+msgstr "Доступные группы"
 
 #: standard input:51
 msgid "Work"
@@ -248,9 +229,8 @@ msgid "Organization:"
 msgstr "Организация:"
 
 #: standard input:53
-#, fuzzy
 msgid "Organisation Unit:"
-msgstr "Подразделение (OU):"
+msgstr "Подразделение:"
 
 #: standard input:54
 msgid "Title:"
@@ -266,7 +246,7 @@ msgstr "Мобильный телефон:"
 
 #: standard input:57
 msgid "Department:"
-msgstr ""
+msgstr "Отдел:"
 
 #: standard input:58
 msgid "Address:"
@@ -293,7 +273,6 @@ msgid "Delete user"
 msgstr "Удалить пользователя"
 
 #: type/ldap-account-name.scm:12
-#, fuzzy
 msgid "only small latin letters, digits dot and '_' allowed"
 msgstr "допустимы только маленькие латинские символы, цифры и '_'"
 
