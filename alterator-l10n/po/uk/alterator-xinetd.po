@@ -8,58 +8,138 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:54+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:3
-msgid "A chargen server. This is the tcp version."
-msgstr "Сервер chargen (TCP)."
-
-#: standard input:14
-msgid "A chargen server. This is the udp version."
-msgstr "Сервер chargen (UDP)."
-
-#: standard input:5
-msgid "A daytime server. This is the tcp version."
-msgstr "Сервер daytime (TCP)"
-
-#: standard input:11
-msgid "A daytime server. This is the udp version."
-msgstr "Сервер daytime (UDP)."
-
-#: standard input:13
-msgid "A discard server. This is the tcp version."
-msgstr "Сервер discard (TCP)."
-
-#: standard input:2
+#: standard input:1
 msgid "A discard server. This is the udp version."
 msgstr "Сервер discard (UDP)."
 
-#: standard input:6
-msgid "An RFC 868 time server. This is the tcp version."
-msgstr "Сервер синхронізації часу за RFC 868 (TCP)."
+#: standard input:2
+msgid "A chargen server. This is the tcp version."
+msgstr "Сервер chargen (TCP)."
 
-#: standard input:12
-msgid "An RFC 868 time server. This is the udp version."
-msgstr "Сервер синхронізації часу за RFC 868 (UDP)."
-
-#: standard input:9
-msgid "An echo server. This is the tcp version."
+#: standard input:3
+msgid "An echo server. This is the udp version."
 msgstr "Сервер echo (TCP)."
 
 #: standard input:4
-msgid "An echo server. This is the udp version."
+msgid "The vsftpd FTP server."
+msgstr "FTP-сервер"
+
+#: standard input:5
+msgid "A chargen server. This is the udp version."
+msgstr "Сервер chargen (UDP)."
+
+#: standard input:6
+msgid "A daytime server. This is the udp version."
+msgstr "Сервер daytime (UDP)."
+
+#: standard input:7
+msgid "An RFC 868 time server. This is the udp version."
+msgstr "Сервер синхронізації часу за RFC 868 (UDP)."
+
+#: standard input:8
+msgid "An RFC 868 time server. This is the tcp version."
+msgstr "Сервер синхронізації часу за RFC 868 (TCP)."
+
+#: standard input:9
+msgid "The git server offers access to git repositories."
+msgstr "Доступ до репозиторію GIT"
+
+#: standard input:10
+msgid "A discard server. This is the tcp version."
+msgstr "Сервер discard (TCP)."
+
+#: standard input:11
+msgid "A daytime server. This is the tcp version."
+msgstr "Сервер daytime (TCP)"
+
+#: standard input:12
+msgid ""
+"The cups-lpd mini daemon enable cups accepting jobs from a remote LPD client"
+msgstr "Друк через CUPS завдань від віддалених LPD-кліентів"
+
+#: standard input:13
+msgid "An echo server. This is the tcp version."
 msgstr "Сервер echo (TCP)."
+
+#: standard input:14
+msgid "Xinetd server"
+msgstr "Xinetd сервер"
+
+#: standard input:1 ui/xinetd/index.scm:18
+msgid "Services"
+msgstr "Сервіси"
+
+#: standard input:2 ui/xinetd/index.scm:89
+msgid "internal service"
+msgstr "вбудований сервіс"
+
+#: standard input:3 ui/xinetd/index.scm:28
+msgid "Enable service"
+msgstr "Увімкнути службу"
+
+#: standard input:4 ui/xinetd/index.scm:30
+msgid "User:"
+msgstr "Користувач:"
+
+#: standard input:5 ui/xinetd/index.scm:33
+msgid "Group:"
+msgstr "Група:"
+
+#: standard input:6 ui/xinetd/index.scm:36
+msgid "Server:"
+msgstr "Сервер:"
+
+#: standard input:7 ui/xinetd/index.scm:39
+msgid "Server args:"
+msgstr "Аргументи серверу:"
+
+#: standard input:8 ui/xinetd/index.scm:42
+msgid "Rlimit as:"
+msgstr "Обмеження адресного простору:"
+
+#: standard input:9 ui/xinetd/index.scm:45
+msgid "Instances:"
+msgstr "Кількість процесів:"
+
+#: standard input:10 ui/xinetd/index.scm:48
+msgid "Per source:"
+msgstr "На кожного клієнта:"
+
+#: standard input:11 ui/xinetd/index.scm:51
+msgid "Only from:"
+msgstr "Тільки з:"
+
+#: standard input:12 ui/xinetd/index.scm:54
+msgid "Interface:"
+msgstr "Інтерфейс:"
 
 #: standard input:13 ui/xinetd/index.scm:59
 msgid "Apply"
 msgstr "Застосувати"
+
+#: standard input:14 ui/xinetd/index.scm:60
+msgid "Reset"
+msgstr "Скинути"
+
+#: backend3/xinetd:107 backend3/xinetd:108
+msgid "Common settings"
+msgstr "Загальні налаштування"
+
+#: backend3/xinetd:111
+msgid "These settings will be applied to services with undefined fields"
+msgstr ""
+"Ці налаштування будуть застосовані до служб для яких відповідні поля не "
+"визначені"
 
 #: backend3/xinetd:246 backend3/xinetd:314
 msgid "Can't open file"
@@ -69,66 +149,9 @@ msgstr "Не можу відкрити файл"
 msgid "Can't open temporary file"
 msgstr "Не можу відкрити тимчасовий файл"
 
-#: backend3/xinetd:107 backend3/xinetd:108
-msgid "Common settings"
-msgstr "Загальні налаштування"
-
-#: standard input:3 ui/xinetd/index.scm:28
-msgid "Enable service"
-msgstr "Увімкнути службу"
-
-#: standard input:5 ui/xinetd/index.scm:33
-msgid "Group:"
-msgstr "Група:"
-
-#: standard input:9 ui/xinetd/index.scm:45
-msgid "Instances:"
-msgstr "Кількість процесів:"
-
-#: standard input:12 ui/xinetd/index.scm:54
-msgid "Interface:"
-msgstr "Інтерфейс:"
-
-#: standard input:11 ui/xinetd/index.scm:51
-msgid "Only from:"
-msgstr "Тільки з:"
-
-#: standard input:10 ui/xinetd/index.scm:48
-msgid "Per source:"
-msgstr "На кожного клієнта:"
-
-#: standard input:14 ui/xinetd/index.scm:60
-msgid "Reset"
-msgstr "Скинути"
-
-#: standard input:8 ui/xinetd/index.scm:42
-msgid "Rlimit as:"
-msgstr "Обмеження адресного простору:"
-
-#: standard input:7 ui/xinetd/index.scm:39
-msgid "Server args:"
-msgstr "Аргументи серверу:"
-
-#: standard input:6 ui/xinetd/index.scm:36
-msgid "Server:"
-msgstr "Сервер:"
-
-#: standard input:1 ui/xinetd/index.scm:18
-msgid "Services"
-msgstr "Сервіси"
-
-#: standard input:7
-msgid ""
-"The cups-lpd mini daemon enable cups accepting jobs from a remote LPD client"
-msgstr "Друк через CUPS завдань від віддалених LPD-кліентів"
-
-#: standard input:8
-msgid "The git server offers access to git repositories."
-msgstr "Доступ до репозиторію GIT"
-
-#: standard input:10
-msgid "The vsftpd FTP server."
-msgstr "FTP-сервер"
+#: backend3/xinetd:441
+msgid "Unknown service"
+msgstr "Невідома служба"
 
 #: ui/xinetd/index.scm:112
 msgid ""
@@ -136,24 +159,3 @@ msgid ""
 "these changes?"
 msgstr ""
 "У налаштуваннях сервісу виникли зміни. Чи хочете ви зберегти ці налаштування?"
-
-#: backend3/xinetd:111
-msgid "These settings will be applied to services with undefined fields"
-msgstr ""
-"Ці налаштування будуть застосовані до служб для яких відповідні поля не визначені"
-
-#: backend3/xinetd:441
-msgid "Unknown service"
-msgstr "Невідома служба"
-
-#: standard input:4 ui/xinetd/index.scm:30
-msgid "User:"
-msgstr "Користувач:"
-
-#: standard input:1
-msgid "Xinetd server"
-msgstr "Xinetd сервер"
-
-#: standard input:2 ui/xinetd/index.scm:89
-msgid "internal service"
-msgstr "вбудований сервіс"

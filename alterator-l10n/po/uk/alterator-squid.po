@@ -8,259 +8,261 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: ui/squid/safe-ports/ajax.scm:14 ui/squid/domains/ajax.scm:14
-#: ui/squid/networks/ajax.scm:14
-msgid "&lt;new&gt;"
-msgstr "&lt;нова&gt;"
-
-#: standard input:53
-msgid "(IP address/network bits)"
-msgstr "(IP-адреса/біти мережі)"
-
-#: standard input:18 input:44
-msgid "(Space separated list of domain suffixes, each starting with a dot)"
-msgstr ""
-"(Перелік доменних суфіксів відокремлених простором; кожний суфікс починається "
-"з крапки)"
-
-#: standard input:7 input:24 input:26
-msgid "(port number)"
-msgstr "(номер порту)"
-
-#: interfaces/guile/backend/squid.scm:83
-#: interfaces/guile/backend/squid.scm:272
-msgid "All users"
-msgstr "Всі користувачі"
-
-#: standard input:15
-msgid "Allow access"
-msgstr "Дозволити доступ"
-
-#: standard input:8
-msgid "Allowed networks..."
-msgstr "Дозволені мережі..."
-
-#: standard input:9
-msgid "Allowed protocols..."
-msgstr "Дозволені протоколи..."
-
-#: standard input:10 input:30 input:46 input:55
-msgid "Apply"
-msgstr "Застосувати"
-
-#: interfaces/guile/backend/squid.scm:274
-msgid "Athenticated users"
-msgstr "Автентифіковані користувачі"
-
-#: interfaces/guile/backend/squid.scm:85
-msgid "Authenticated users"
-msgstr "Автентифіковані користувачі"
-
-#: standard input:33 input:58
-msgid "Back"
-msgstr "Назад"
-
-#: standard input:29 input:45 input:54
-msgid "Comment:"
-msgstr "Коментар:"
-
-#: standard input:27
-msgid "Connection method:"
-msgstr "Метод з'єднання:"
-
-#: standard input:32 input:48 input:57
-msgid "Delete"
-msgstr "Вилучити"
-
-#: standard input:16
-msgid "Deny access"
-msgstr "Заборонити доступ"
-
-#: standard input:11
-msgid "Domain access policy"
-msgstr "Політика доступу до доменам"
-
-#: standard input:34 input:41
-msgid "Domain list"
-msgstr "Перелік домену"
-
-#: standard input:35
-msgid ""
-"Domains defined below can be used in the group-domain access policy "
-"configured at the upper section \"User group access policy\"."
-msgstr ""
-"Домени, які визначено нижче, використовуються у політиці доступу групи, яку вибрано "
-"вище."
-
-#: standard input:3
-msgid "Enable proxy-server service"
-msgstr "Включити сервіс проксі-серверу"
-
-#: standard input:28
-msgid "Enable transparent redirection"
-msgstr "Включити прозоре переспрямування"
-
-#: standard input:20 input:39
-msgid "External ports"
-msgstr "Зовнішні порти"
-
-#: standard input:12
-msgid ""
-"For each of the user group listed below the access to a number of domians on "
-"the external network can exclusively be granted or rewoked."
-msgstr ""
-"Для кожної з обраних груп може бути задано політику дозволу або "
-"заборони на доступ до вказаних знизу доменам."
-
-#: standard input:23
-msgid "From port:"
-msgstr "З порту:"
-
-#: standard input:2
-msgid ""
-"General proxy-server parameters management and service runtime status "
-"control."
-msgstr "Основні параметри управління проксі-сервером"
-
-#: standard input:14
-msgid "Group access policy:"
-msgstr "Політика доступу групи:"
-
-#: standard input:13
-msgid "Group:"
-msgstr "Група:"
-
-#: standard input:52
-msgid "IP-network:"
-msgstr "IP-мережа:"
-
-#: standard input:38 input:49
-msgid "Internal networks"
-msgstr "Внутрішні мережі"
-
-#: interfaces/guile/backend/squid.scm:186
-msgid "Kerberos"
-msgstr ""
-
-#: interfaces/guile/backend/squid.scm:188
-msgid "Kerberos+PAM"
-msgstr ""
-
-#: standard input:37
-msgid "Main section"
-msgstr "Основна секція"
-
-#: standard input:1
-msgid "Module main section"
-msgstr "Основна секція модуля"
-
-#: standard input:36
-msgid "Navigation:"
-msgstr "Навігація:"
-
-#: standard input:22 input:42 input:51
-msgid "New"
-msgstr "Нова"
-
-#: interfaces/guile/backend/squid.scm:185
-msgid "No authentication"
-msgstr "Без автентифікація"
-
-#: interfaces/guile/backend/squid.scm:183
-msgid "Normal"
-msgstr "Звичайний"
-
-#: interfaces/guile/backend/squid.scm:187
-msgid "PAM"
-msgstr ""
-
-#: interfaces/guile/backend/squid.scm:191
-msgid "Passthrough"
-msgstr "Наскрізний"
-
-#: interfaces/guile/backend/squid.scm:190
-msgid "Proxy"
-msgstr "Проксі"
-
-#: standard input:6
-msgid "Proxy port:"
-msgstr "Порт проксі:"
-
 #: standard input:1
 msgid "Proxy server"
 msgstr "Сервер проксі"
 
-#: standard input:21
-msgid ""
-"Requests for the services (ports) listed below are forwarded to the external "
-"network. All other requests are blocked."
-msgstr ""
-"Запити від відзначених портів сервесів буде оброблено. Інщі запити буде проігноровано."
+#: standard input:1 input:34
+msgid "Internal networks"
+msgstr "Внутрішні мережі"
 
-#: standard input:50
+#: standard input:2
 msgid ""
 "Requests originated from the networks listed below are forwarded to the "
 "external network. All other requests are blocked."
 msgstr ""
 "Запити від відзначених мереж буде оброблено. Інщі запити буде проігноровано."
 
-#: standard input:31 input:47 input:56
+#: standard input:3 input:38 input:47
+msgid "New"
+msgstr "Нова"
+
+#: standard input:4
+msgid "IP-network:"
+msgstr "IP-мережа:"
+
+#: standard input:5
+msgid "(IP address/network bits)"
+msgstr "(IP-адреса/біти мережі)"
+
+#: standard input:6 input:41 input:54
+msgid "Comment:"
+msgstr "Коментар:"
+
+#: standard input:7 input:20 input:42 input:55
+msgid "Apply"
+msgstr "Застосувати"
+
+#: standard input:8 input:43 input:56
 msgid "Reset"
 msgstr "Скинути"
 
-#: standard input:19
-msgid "Save"
-msgstr "Зберегти"
+#: standard input:9 input:44 input:57
+msgid "Delete"
+msgstr "Вилучити"
 
-#: standard input:5
-msgid "Select authentication mode:"
-msgstr "Обрати режим аутентифікації:"
+#: standard input:10 input:58
+msgid "Back"
+msgstr "Назад"
 
-#: standard input:4
+#: standard input:11
+msgid "Module main section"
+msgstr "Основна секція модуля"
+
+#: standard input:12
+msgid ""
+"General proxy-server parameters management and service runtime status "
+"control."
+msgstr "Основні параметри управління проксі-сервером"
+
+#: standard input:13
+msgid "Enable proxy-server service"
+msgstr "Включити сервіс проксі-серверу"
+
+#: standard input:14
 msgid "Select proxying mode:"
 msgstr "Обрати режим проксування:"
 
-#: standard input:17 input:43
+#: standard input:15
+msgid "Select authentication mode:"
+msgstr "Обрати режим аутентифікації:"
+
+#: standard input:16
+msgid "Proxy port:"
+msgstr "Порт проксі:"
+
+#: standard input:17 input:49 input:51
+msgid "(port number)"
+msgstr "(номер порту)"
+
+#: standard input:18
+msgid "Allowed networks..."
+msgstr "Дозволені мережі..."
+
+#: standard input:19
+msgid "Allowed protocols..."
+msgstr "Дозволені протоколи..."
+
+#: standard input:21
+msgid "Domain access policy"
+msgstr "Політика доступу до доменам"
+
+#: standard input:22
+msgid ""
+"For each of the user group listed below the access to a number of domians on "
+"the external network can exclusively be granted or rewoked."
+msgstr ""
+"Для кожної з обраних груп може бути задано політику дозволу або заборони на "
+"доступ до вказаних знизу доменам."
+
+#: standard input:23
+msgid "Group:"
+msgstr "Група:"
+
+#: standard input:24
+msgid "Group access policy:"
+msgstr "Політика доступу групи:"
+
+#: standard input:25
+msgid "Allow access"
+msgstr "Дозволити доступ"
+
+#: standard input:26
+msgid "Deny access"
+msgstr "Заборонити доступ"
+
+#: standard input:27 input:39
 msgid "Suffix list:"
 msgstr "Перелік суфексів:"
 
-#: standard input:25
+#: standard input:28 input:40
+msgid "(Space separated list of domain suffixes, each starting with a dot)"
+msgstr ""
+"(Перелік доменних суфіксів відокремлених простором; кожний суфікс "
+"починається з крапки)"
+
+#: standard input:29
+msgid "Save"
+msgstr "Зберегти"
+
+#: standard input:30 input:37
+msgid "Domain list"
+msgstr "Перелік домену"
+
+#: standard input:31
+msgid ""
+"Domains defined below can be used in the group-domain access policy "
+"configured at the upper section \"User group access policy\"."
+msgstr ""
+"Домени, які визначено нижче, використовуються у політиці доступу групи, яку "
+"вибрано вище."
+
+#: standard input:32
+msgid "Navigation:"
+msgstr "Навігація:"
+
+#: standard input:33
+msgid "Main section"
+msgstr "Основна секція"
+
+#: standard input:35 input:45
+msgid "External ports"
+msgstr "Зовнішні порти"
+
+#: standard input:36
+msgid "User group access policy"
+msgstr "Політика доступу групи"
+
+#: standard input:46
+msgid ""
+"Requests for the services (ports) listed below are forwarded to the external "
+"network. All other requests are blocked."
+msgstr ""
+"Запити від відзначених портів сервесів буде оброблено. Інщі запити буде "
+"проігноровано."
+
+#: standard input:48
+msgid "From port:"
+msgstr "З порту:"
+
+#: standard input:50
 msgid "To port:"
 msgstr "До порту:"
+
+#: standard input:52
+msgid "Connection method:"
+msgstr "Метод з'єднання:"
+
+#: standard input:53
+msgid "Enable transparent redirection"
+msgstr "Включити прозоре переспрямування"
+
+#: interfaces/guile/backend/squid.scm:83
+#: interfaces/guile/backend/squid.scm:272
+msgid "All users"
+msgstr "Всі користувачі"
+
+#: interfaces/guile/backend/squid.scm:85
+msgid "Authenticated users"
+msgstr "Автентифіковані користувачі"
 
 #: interfaces/guile/backend/squid.scm:182
 msgid "Transparent"
 msgstr "Прозоро"
 
-#: backend3/squid-commit:67
-msgid "Unable to reload the proxy server service"
-msgstr "Неможливо перезапустити службу проксі-серверу"
+#: interfaces/guile/backend/squid.scm:183
+msgid "Normal"
+msgstr "Звичайний"
 
-#: backend3/squid-commit:82
-msgid "Unable to set proxy server service startup status"
-msgstr "Неможливо отримати статус служби проксі-серверу"
+#: interfaces/guile/backend/squid.scm:185
+msgid "No authentication"
+msgstr "Без автентифікація"
 
-#: backend3/squid-commit:76
-msgid "Unable to turn proxy server service %s"
-msgstr "Неможливо переключити службу проксі-серверу у стан %s"
+#: interfaces/guile/backend/squid.scm:186
+msgid "Kerberos"
+msgstr ""
 
-#: standard input:40
-msgid "User group access policy"
-msgstr "Політика доступу групи"
+#: interfaces/guile/backend/squid.scm:187
+msgid "PAM"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:188
+msgid "Kerberos+PAM"
+msgstr ""
+
+#: interfaces/guile/backend/squid.scm:190
+msgid "Proxy"
+msgstr "Проксі"
+
+#: interfaces/guile/backend/squid.scm:191
+msgid "Passthrough"
+msgstr "Наскрізний"
+
+#: interfaces/guile/backend/squid.scm:274
+msgid "Athenticated users"
+msgstr "Автентифіковані користувачі"
+
+#: interfaces/guile/type/domain-suffix-list.scm:14
+msgid "a space separated list of domain suffixes each starting with a dot"
+msgstr "поділений простіром перелік суфіксів доменів, які починаються з точки"
 
 #: interfaces/guile/type/domain-suffix.scm:14
 msgid "a domain suffix starting with a dot"
 msgstr "доменний суфікс, починається з точки"
 
-#: interfaces/guile/type/domain-suffix-list.scm:14
-msgid "a space separated list of domain suffixes each starting with a dot"
-msgstr "поділений простіром перелік суфіксів доменів, які починаються з точки"
+#: ui/squid/networks/ajax.scm:14 ui/squid/domains/ajax.scm:14
+#: ui/squid/safe-ports/ajax.scm:14
+msgid "&lt;new&gt;"
+msgstr "&lt;нова&gt;"
+
+#: backend3/squid-commit:67
+msgid "Unable to reload the proxy server service"
+msgstr "Неможливо перезапустити службу проксі-серверу"
+
+#: backend3/squid-commit:76
+msgid "Unable to turn proxy server service %s"
+msgstr "Неможливо переключити службу проксі-серверу у стан %s"
+
+#: backend3/squid-commit:82
+msgid "Unable to set proxy server service startup status"
+msgstr "Неможливо отримати статус служби проксі-серверу"

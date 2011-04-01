@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-09-14 19:20-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,9 +20,17 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: ui/livecd/finish/index.scm:7
-msgid "All work is succesfully done."
-msgstr "Todo o trabalho é feito com sucesso."
+#: standard input:1
+msgid "System installation"
+msgstr "Instalação do sistema"
+
+#: standard input:2
+msgid "Greeting"
+msgstr "Postais"
+
+#: standard input:3
+msgid "Finish installation"
+msgstr "Instalação concluida"
 
 #: ui/livecd/start/index.scm:7
 msgid "Attention:"
@@ -43,49 +52,41 @@ msgstr ""
 msgid "Fatal error"
 msgstr "Erro Fatal"
 
-#: standard input:1
-msgid "Finish installation"
-msgstr "Instalação concluida"
-
-#: ui/livecd/install/index.scm:38
-msgid "Finishing..."
-msgstr "Finalizando..."
-
-#: standard input:3
-msgid "Greeting"
-msgstr "Postais"
-
-#: ui/livecd/install/index.scm:39
-msgid "Installation is done"
-msgstr "Instalação é completa"
-
 #: ui/livecd/install/index.scm:36
 msgid "Installing system..."
 msgstr "Instalação de sistema ..."
-
-#: ui/livecd/finish/index.scm:9
-msgid "New system is available at /mnt/destination mount point."
-msgstr "Novo sistema está disponível em /mnt/destino ponto de montagem."
 
 #: ui/livecd/install/index.scm:37
 msgid "Preparing..."
 msgstr "Preparado..."
 
-#: standard input:2
-msgid "System installation"
-msgstr "Instalação do sistema"
+#: ui/livecd/install/index.scm:38
+msgid "Finishing..."
+msgstr "Finalizando..."
 
-#: backend3/livecd-start:32
-msgid "Unable to create directory for new system"
-msgstr "Não é possível criar o diretório para o novo sistema"
+#: ui/livecd/install/index.scm:39
+msgid "Installation is done"
+msgstr "Instalação é completa"
+
+#: ui/livecd/finish/index.scm:7
+msgid "All work is succesfully done."
+msgstr "Todo o trabalho é feito com sucesso."
+
+#: ui/livecd/finish/index.scm:9
+msgid "New system is available at /mnt/destination mount point."
+msgstr "Novo sistema está disponível em /mnt/destino ponto de montagem."
+
+#: backend3/livecd-start:20
+msgid "Unable to unmount %s\\n"
+msgstr "Não foi possível desmontar %s\\n"
 
 #: backend3/livecd-start:27
 msgid "Unable to turn off swap partitions"
 msgstr "Não é possível desligar as partições de swap"
 
-#: backend3/livecd-start:20
-msgid "Unable to unmount %s\\n"
-msgstr "Não foi possível desmontar %s\\n"
+#: backend3/livecd-start:32
+msgid "Unable to create directory for new system"
+msgstr "Não é possível criar o diretório para o novo sistema"
 
 #~ msgid "Date/Time"
 #~ msgstr "Data/Hora"

@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-03-27 18:26-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,120 +20,200 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: ui/pkg/install/index.scm:75
-msgid "Acquiring packages..."
-msgstr "Adquisición de paquete..."
+#: standard input:1
+msgid "Install sources"
+msgstr "Instalación de paquetes..."
 
-#: standard input:7 ui/pkg/sources/mirrors/index.scm:58
-msgid "Add"
-msgstr "Adiccionar"
+#: standard input:2
+msgid "Multimedia (full)"
+msgstr ""
 
-#: ui/pkg/groups/index.scm:133
-#, fuzzy
-msgid "Additional applications:"
-msgstr "Parámetros adicionais"
-
-#: standard input:4 ui/pkg/sources/index.scm:20
-msgid "Advanced..."
-msgstr "Avanzado..."
-
-#: standard input:8 ui/pkg/sources/mirrors/index.scm:60
-msgid "Available sources:"
-msgstr "Ver código fuente"
-
-#: ui/pkg/install/index.scm:34
-msgid "Building packages list"
-msgstr "La adquisición de paquetes..."
-
-#: standard input:3 ui/pkg/sources/index.scm:15
-msgid "Change"
-msgstr "Alteración"
-
-#: standard input:12
-#, fuzzy
-msgid "Communications"
-msgstr "Información"
-
-#: standard input:8
+#: standard input:3
 msgid "Communications (full)"
 msgstr ""
 
-#: ui/pkg/error/index.scm:4
-msgid "Critical error during install"
-msgstr "Erro Crítico durante la instalación"
+#: standard input:4
+msgid "Office Suite"
+msgstr ""
 
-#: standard input:9 ui/pkg/sources/mirrors/index.scm:62
-msgid "Delete"
-msgstr "Borrar"
+#: standard input:5
+#, fuzzy
+msgid "Graphics"
+msgstr "gráficos"
 
 #: standard input:6
 msgid "Desktop"
 msgstr ""
 
-#: standard input:3
-msgid "Desktop (full)"
+#: standard input:7
+msgid "Emulators"
+msgstr ""
+
+#: standard input:8
+msgid "Multimedia"
 msgstr ""
 
 #: standard input:9
 #, fuzzy
-msgid "Documentation"
-msgstr "Autenticación (SASL)"
+msgid "Communications"
+msgstr "Información"
 
-#: standard input:5
-msgid "Edutainment"
-msgstr ""
-
-#: standard input:11
-msgid "Emulators"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:89
-msgid "GB"
-msgstr ""
-
-#: standard input:13
-msgid "Games"
-msgstr ""
-
-#: standard input:14
-#, fuzzy
-msgid "Graphics"
-msgstr "gráficos"
-
-#: standard input:2
+#: standard input:10
 #, fuzzy
 msgid "Graphics (full)"
 msgstr "gráficos"
 
-#: ui/pkg/groups/index.scm:69
+#: standard input:11
+msgid "Office Suite (full)"
+msgstr ""
+
+#: standard input:12
+msgid "Games"
+msgstr ""
+
+#: standard input:13
+#, fuzzy
+msgid "Documentation"
+msgstr "Autenticación (SASL)"
+
+#: standard input:14
+msgid "Desktop (full)"
+msgstr ""
+
+#: standard input:15
+msgid "Edutainment"
+msgstr ""
+
+#: standard input:1 ui/pkg/sources/mirrors/index.scm:52
+msgid "Repository:"
+msgstr "Repositorio:"
+
+#: standard input:2 ui/pkg/sources/mirrors/index.scm:56
+msgid "New source:"
+msgstr "Nueva fuente"
+
+#: standard input:3 ui/pkg/sources/mirrors/index.scm:58
+msgid "Add"
+msgstr "Adiccionar"
+
+#: standard input:4 ui/pkg/sources/mirrors/index.scm:60
+msgid "Available sources:"
+msgstr "Ver código fuente"
+
+#: standard input:5 ui/pkg/sources/mirrors/index.scm:62
+msgid "Delete"
+msgstr "Borrar"
+
+#: standard input:6 ui/pkg/sources/mirrors/index.scm:66
+msgid "Return"
+msgstr ""
+
+#: standard input:7 ui/pkg/sources/index.scm:8
+msgid "Repositories:"
+msgstr "Repositórios:"
+
+#: standard input:8 ui/pkg/sources/index.scm:13
+msgid "Source URI:"
+msgstr "Fuente del URI:"
+
+#: standard input:9 ui/pkg/sources/index.scm:15
+msgid "Change"
+msgstr "Alteración"
+
+#: standard input:10 ui/pkg/sources/index.scm:20
+msgid "Advanced..."
+msgstr "Avanzado..."
+
+#: ui/pkg/groups/index.scm:129
 #, lisp-format
 msgid "Has conflict with ~S"
 msgstr "Hay conflicto con ~S"
 
-#: standard input:1
-msgid "Install sources"
-msgstr "Instalación de paquetes..."
+#: ui/pkg/groups/index.scm:158
+msgid " kB"
+msgstr ""
 
-#: ui/pkg/install/index.scm:41
+#: ui/pkg/groups/index.scm:159
+msgid " MB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:160
+msgid " GB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:161
+msgid " TB"
+msgstr ""
+
+#: ui/pkg/groups/index.scm:165
+msgid "Required disk space"
+msgstr "Requiere de espacio en disco"
+
+#: ui/pkg/groups/index.scm:171
+msgid "calculating..."
+msgstr "calculando..."
+
+#: ui/pkg/groups/index.scm:176
+msgid "unable to calculate"
+msgstr "No fue posible calcular"
+
+#: ui/pkg/groups/index.scm:204
 #, fuzzy
-msgid "Installing additional software"
-msgstr "Instalación de paquetes"
+msgid "Additional applications:"
+msgstr "Parámetros adicionais"
+
+#: ui/pkg/groups/index.scm:218 ui/pkg/install/index.scm:100
+msgid "Preparing..."
+msgstr "Preparando..."
+
+#: ui/pkg/cdrom/index.scm:7
+msgid "Please insert CDROM labeled as"
+msgstr "Por favor, introduzca la etiqueta de CD-ROM"
+
+#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: ui/pkg/cdrom/index.scm:9
+msgid "Into drive"
+msgstr "Driver:"
+
+#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+msgid "Press 'Next' button to continue"
+msgstr "Haga clic en el botón \"Siguiente\" para continuar"
+
+#: ui/pkg/install/index.scm:34
+msgid "Building packages list"
+msgstr "La adquisición de paquetes..."
 
 #: ui/pkg/install/index.scm:36
 msgid "Installing base system"
-msgstr "Instalación de paquetes..."
-
-#: ui/pkg/install/index.scm:81
-msgid "Installing packages..."
 msgstr "Instalación de paquetes..."
 
 #: ui/pkg/install/index.scm:38
 msgid "Installing software"
 msgstr "Instalación de paquetes"
 
-#: ui/pkg/cdrom/index.scm:9
-msgid "Into drive"
-msgstr "Driver:"
+#: ui/pkg/install/index.scm:39 ui/pkg/install/index.scm:42
+msgid "Loading package information..."
+msgstr ""
+
+#: ui/pkg/install/index.scm:41
+#, fuzzy
+msgid "Installing additional software"
+msgstr "Instalación de paquetes"
+
+#: ui/pkg/install/index.scm:75
+msgid "Acquiring packages..."
+msgstr "Adquisición de paquete..."
+
+#: ui/pkg/install/index.scm:81
+msgid "Installing packages..."
+msgstr "Instalación de paquetes..."
+
+#: ui/pkg/error/index.scm:4
+msgid "Critical error during install"
+msgstr "Erro Crítico durante la instalación"
 
 #: backend3/pkg-sources:91
 #, fuzzy
@@ -140,93 +221,13 @@ msgid ""
 "Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
 msgstr "No válido o no suportado el protocolo. Debe ser http, ftp o archivo"
 
-#: ui/pkg/install/index.scm:39 ui/pkg/install/index.scm:42
-msgid "Loading package information..."
-msgstr ""
-
-#: ui/pkg/groups/index.scm:88
-msgid "MB"
-msgstr ""
-
-#: standard input:10
-msgid "Multimedia"
-msgstr ""
-
-#: standard input:15
-msgid "Multimedia (full)"
-msgstr ""
-
-#: standard input:6 ui/pkg/sources/mirrors/index.scm:56
-msgid "New source:"
-msgstr "Nueva fuente"
-
-#: standard input:4
-msgid "Office Suite"
-msgstr ""
-
-#: standard input:7
-msgid "Office Suite (full)"
-msgstr ""
-
-#: ui/pkg/cdrom/index.scm:7
-msgid "Please insert CDROM labeled as"
-msgstr "Por favor, introduzca la etiqueta de CD-ROM"
-
-#: ui/pkg/install/index.scm:100 ui/pkg/groups/index.scm:148
-msgid "Preparing..."
-msgstr "Preparando..."
-
-#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
-msgid "Press 'Next' button to continue"
-msgstr "Haga clic en el botón \"Siguiente\" para continuar"
-
-#: standard input:1 ui/pkg/sources/index.scm:8
-msgid "Repositories:"
-msgstr "Repositórios:"
-
-#: standard input:5 ui/pkg/sources/mirrors/index.scm:52
-msgid "Repository:"
-msgstr "Repositorio:"
-
-#: ui/pkg/groups/index.scm:94
-msgid "Required disk space"
-msgstr "Requiere de espacio en disco"
-
-#: standard input:10 ui/pkg/sources/mirrors/index.scm:66
-msgid "Return"
-msgstr ""
-
 #: backend3/pkg-sources:94
 msgid "Same source already exists"
 msgstr "Ya existe la fuente"
 
-#: standard input:2 ui/pkg/sources/index.scm:13
-msgid "Source URI:"
-msgstr "Fuente del URI:"
-
-#: ui/pkg/groups/index.scm:90
-msgid "TB"
-msgstr ""
-
-#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
-msgid "Unknown"
-msgstr "Desconocido"
-
-#: ui/pkg/groups/index.scm:100
-msgid "calculating..."
-msgstr "calculando..."
-
 #: backend3/pkg-sources:187 backend3/pkg-sources:210
 msgid "inactive"
 msgstr "inactivo"
-
-#: ui/pkg/groups/index.scm:87
-msgid "kB"
-msgstr ""
-
-#: ui/pkg/groups/index.scm:105
-msgid "unable to calculate"
-msgstr "No fue posible calcular"
 
 #~ msgid "Additional disks"
 #~ msgstr "Paquetes adicionales"

@@ -8,49 +8,87 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-08-22 02:17+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: standard input:4 ui/net-domain/index.scm:21
-msgid "Apply"
-msgstr "Застосувати"
-
-#: standard input:2 ui/net-domain/index.scm:14
-msgid "Attention:"
-msgstr "Увага:"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Domain"
 msgstr "Домен"
 
-#: standard input:3 ui/net-domain/index.scm:15
-msgid "Domain change may reset data of some network services"
-msgstr "Зміна домена може призвести до втрати даних деяких мережевих служб"
-
-#: backend3/net-domain:21
-msgid "Domain name is too long"
-msgstr "Ім'я домену дуже довге"
-
 #: standard input:1 ui/net-domain/index.scm:7
 msgid "Domain:"
 msgstr "Домен:"
 
-#: backend3/net-domain:94
-msgid "Please define domain name"
-msgstr "Будь-ласка визначте ім'я домену"
+#: standard input:2
+#, fuzzy
+msgid "Serve kerberos domain:"
+msgstr "Пошуковий домен:"
 
-#: standard input:5 ui/net-domain/index.scm:23
+#: standard input:3 ui/net-domain/index.scm:14
+msgid "Attention:"
+msgstr "Увага:"
+
+#: standard input:4 ui/net-domain/index.scm:15
+msgid "Domain change may reset data of some network services"
+msgstr "Зміна домена може призвести до втрати даних деяких мережевих служб"
+
+#: standard input:5
+#, fuzzy
+msgid "Current status:"
+msgstr "Поточна дата:"
+
+#: standard input:6
+#, fuzzy
+msgid "Resolver:"
+msgstr "Визначити"
+
+#: standard input:7
+#, fuzzy
+msgid "Access:"
+msgstr "Успішно"
+
+#: standard input:8
+msgid "DHCPD:"
+msgstr ""
+
+#: standard input:9
+#, fuzzy
+msgid "LDAP:"
+msgstr "LDAP"
+
+#: standard input:10
+msgid "KDC:"
+msgstr ""
+
+#: standard input:11
+msgid "Samba:"
+msgstr ""
+
+#: standard input:12 ui/net-domain/index.scm:21
+msgid "Apply"
+msgstr "Застосувати"
+
+#: standard input:13 ui/net-domain/index.scm:23
 msgid "Reset"
 msgstr "Скинути"
 
-#: backend3/net-domain:97
+#: backend3/net-domain:143
+msgid "Domain name is too long"
+msgstr "Ім'я домену дуже довге"
+
+#: backend3/net-domain:223
+msgid "Please define domain name"
+msgstr "Будь-ласка визначте ім'я домену"
+
+#: backend3/net-domain:226
 msgid "This domain name is registered for internal purposes"
 msgstr "Вказане ім'я домену зарезервонано для внутрішніх потреб"

@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-28 17:25+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-09-14 20:20-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,33 +20,138 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:14
-msgid "(Re)create key and sign request"
-msgstr "(Re)criar pedido de chaves e assinar"
+#: standard input:1
+msgid "SSL keys management"
+msgstr "SSL gestão de chaves"
+
+#: standard input:1
+msgid "SSL settings"
+msgstr "Configurações SSL"
+
+#: standard input:2 ui/sslkey/generate/index.scm:168
+msgid "Common Name (CN):"
+msgstr "Nome Comum (CN):"
 
 #: standard input:3
 msgid "(hostname for server or something else for client)"
 msgstr "(hostname para o servidor ou alguma outra coisa para o cliente)"
 
-#: standard input:9
-msgid "(organization name, written in latin letters)"
-msgstr "(Nome da Empresa)"
-
-#: standard input:11
-msgid "(organizational unit name, written in latin letters)"
-msgstr "(Unidade da Empresa)"
-
-#: standard input:7
-msgid "(state or city, written in latin letters)"
-msgstr "(Estado ou cidade)"
+#.
+#: standard input:4 ui/sslkey/generate/index.scm:171
+msgid "Country (C):"
+msgstr "País:"
 
 #: standard input:5
 msgid "(two letter country code)"
 msgstr "(Duas Letras do País)"
 
+#.
+#: standard input:6 ui/sslkey/generate/index.scm:174
+msgid "Location (L):"
+msgstr "Localização:"
+
+#: standard input:7
+msgid "(state or city, written in latin letters)"
+msgstr "(Estado ou cidade)"
+
+#.
+#: standard input:8 ui/sslkey/generate/index.scm:177
+msgid "Organization (O):"
+msgstr "Organização:"
+
+#: standard input:9
+msgid "(organization name, written in latin letters)"
+msgstr "(Nome da Empresa)"
+
+#.
+#: standard input:10 ui/sslkey/generate/index.scm:180
+msgid "Organizational Unit (OU):"
+msgstr "Unidade:"
+
+#: standard input:11
+msgid "(organizational unit name, written in latin letters)"
+msgstr "(Unidade da Empresa)"
+
+#.
+#: standard input:12 ui/sslkey/generate/index.scm:183
+msgid "E-mail address:"
+msgstr "E-mail:"
+
 #: standard input:13
 msgid "(your e-mail address)"
 msgstr "(seu endereço de e-mail)"
+
+#: standard input:14
+msgid "(Re)create key and sign request"
+msgstr "(Re)criar pedido de chaves e assinar"
+
+#: standard input:15 input:24 ui/sslkey/generate/index.scm:187
+#: ui/sslkey/index.scm:40
+msgid "Confirm"
+msgstr "Confirme"
+
+#: standard input:16
+msgid "Sign"
+msgstr "Entrar"
+
+#: standard input:17
+msgid "Download sign request"
+msgstr "Download do Requerido"
+
+#: standard input:18
+msgid "Upload certificate signed by CA:"
+msgstr "Atualizado Certificado assinado por:"
+
+#: standard input:19
+msgid "Upload"
+msgstr "Enviar"
+
+#: standard input:20
+msgid "SSL keys:"
+msgstr "Chaves SSL:"
+
+#: standard input:21 ui/sslkey/index.scm:34
+msgid "New..."
+msgstr "Novo..."
+
+#: standard input:22 ui/sslkey/index.scm:35
+msgid "Change..."
+msgstr "Alterar..."
+
+#: standard input:23 ui/sslkey/index.scm:39
+msgid "Delete key, certificate and sign request"
+msgstr "chave de deletar, certificado e assinar"
+
+#: ui/sslkey/generate/index.scm:167
+msgid "SSL settings:"
+msgstr "Configurações de SSL:"
+
+#.
+#: ui/sslkey/generate/index.scm:186
+msgid "Generate key and sign request"
+msgstr "Gerar chave solicitação e assinar"
+
+#.
+#: ui/sslkey/generate/index.scm:191 ui/sslkey/generate/index.scm:194
+msgid "Export sign request"
+msgstr "Exportar pedido assinar"
+
+#: ui/sslkey/generate/index.scm:193
+msgid "Destination directory:"
+msgstr "Diretório de destino:"
+
+#.
+#: ui/sslkey/generate/index.scm:202
+msgid "Import user certificate:"
+msgstr "Importação do Certificado de usuário:"
+
+#: ui/sslkey/generate/index.scm:203
+msgid "Import user certificate"
+msgstr "Importação do Certificado de usuário"
+
+#: ui/sslkey/generate/index.scm:212
+msgid "OK"
+msgstr "OK"
 
 #: ui/sslkey/generate/index.scm:213
 msgid "Apply"
@@ -55,125 +161,40 @@ msgstr "Aplicar"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: standard input:22 ui/sslkey/index.scm:35
-msgid "Change..."
-msgstr "Alterar..."
+#: type/ssl-cert-country-code.scm:11
+msgid "invalid ISO-3166-alpha-2 country code"
+msgstr "Inválido ISO-3166-alpha-2 codigo do país"
 
-#: standard input:2 ui/sslkey/generate/index.scm:168
-msgid "Common Name (CN):"
-msgstr "Nome Comum (CN):"
+#: type/ssl-cert-field.scm:11
+msgid "only digits, punctuation and latin letters allowed"
+msgstr "apenas dígitos, pontuação e letras latino permitiu"
 
-#: standard input:15 input:24 ui/sslkey/generate/index.scm:187
-#: ui/sslkey/index.scm:40
-msgid "Confirm"
-msgstr "Confirme"
-
-#.
-#: standard input:4 ui/sslkey/generate/index.scm:171
-msgid "Country (C):"
-msgstr "País:"
-
-#: standard input:23 ui/sslkey/index.scm:39
-msgid "Delete key, certificate and sign request"
-msgstr "chave de deletar, certificado e assinar"
-
-#: ui/sslkey/generate/index.scm:193
-msgid "Destination directory:"
-msgstr "Diretório de destino:"
-
-#: standard input:17
-msgid "Download sign request"
-msgstr "Download do Requerido"
-
-#.
-#: standard input:12 ui/sslkey/generate/index.scm:183
-msgid "E-mail address:"
-msgstr "E-mail:"
-
-#.
-#: ui/sslkey/generate/index.scm:191 ui/sslkey/generate/index.scm:194
-msgid "Export sign request"
-msgstr "Exportar pedido assinar"
-
-#: backend3/sslkey:243
-msgid "Export sign request failed"
-msgstr "Exportação pedido sinal falhou"
-
-#.
-#: ui/sslkey/generate/index.scm:186
-msgid "Generate key and sign request"
-msgstr "Gerar chave solicitação e assinar"
-
-#: ui/sslkey/generate/index.scm:203
-msgid "Import user certificate"
-msgstr "Importação do Certificado de usuário"
-
-#.
-#: ui/sslkey/generate/index.scm:202
-msgid "Import user certificate:"
-msgstr "Importação do Certificado de usuário:"
-
-#: backend3/sslkey:41
-#, fuzzy
-msgid "Invalid certificate"
-msgstr "Certificado Inválido"
-
-#: backend3/sslkey:232
-msgid "Invalid certificate file"
-msgstr "Certificado Inválido"
-
-#.
-#: standard input:6 ui/sslkey/generate/index.scm:174
-msgid "Location (L):"
-msgstr "Localização:"
-
-#: standard input:21 ui/sslkey/index.scm:34
-msgid "New..."
-msgstr "Novo..."
-
-#: backend3/sslkey:44
-#, fuzzy
-msgid "No certificate"
-msgstr "certificados"
-
-#: ui/sslkey/generate/index.scm:212
-msgid "OK"
-msgstr "OK"
+#: backend3/sslkey:36
+msgid "expire"
+msgstr ""
 
 #: backend3/sslkey:38
 #, fuzzy
 msgid "OK certificate"
 msgstr "certificados"
 
-#.
-#: standard input:8 ui/sslkey/generate/index.scm:177
-msgid "Organization (O):"
-msgstr "Organização:"
+#: backend3/sslkey:41
+#, fuzzy
+msgid "Invalid certificate"
+msgstr "Certificado Inválido"
 
-#.
-#: standard input:10 ui/sslkey/generate/index.scm:180
-msgid "Organizational Unit (OU):"
-msgstr "Unidade:"
+#: backend3/sslkey:44
+#, fuzzy
+msgid "No certificate"
+msgstr "certificados"
 
-#: standard input:1
-msgid "SSL keys management"
-msgstr "SSL gestão de chaves"
+#: backend3/sslkey:203
+msgid "Unable to determine file name"
+msgstr "Incapaz de determinar o nome do arquivo"
 
-#: standard input:20
-msgid "SSL keys:"
-msgstr "Chaves SSL:"
-
-#: standard input:1
-msgid "SSL settings"
-msgstr "Configurações SSL"
-
-#: ui/sslkey/generate/index.scm:167
-msgid "SSL settings:"
-msgstr "Configurações de SSL:"
-
-#: standard input:16
-msgid "Sign"
-msgstr "Entrar"
+#: backend3/sslkey:232
+msgid "Invalid certificate file"
+msgstr "Certificado Inválido"
 
 #: backend3/sslkey:238
 msgid "Sign request does not exist"
@@ -183,26 +204,6 @@ msgstr "Cadastro do pedido não existe"
 msgid "Target directory does not exist"
 msgstr "Diretório de destino não existe"
 
-#: backend3/sslkey:203
-msgid "Unable to determine file name"
-msgstr "Incapaz de determinar o nome do arquivo"
-
-#: standard input:19
-msgid "Upload"
-msgstr "Enviar"
-
-#: standard input:18
-msgid "Upload certificate signed by CA:"
-msgstr "Atualizado Certificado assinado por:"
-
-#: backend3/sslkey:36
-msgid "expire"
-msgstr ""
-
-#: type/ssl-cert-country-code.scm:11
-msgid "invalid ISO-3166-alpha-2 country code"
-msgstr "Inválido ISO-3166-alpha-2 codigo do país"
-
-#: type/ssl-cert-field.scm:11
-msgid "only digits, punctuation and latin letters allowed"
-msgstr "apenas dígitos, pontuação e letras latino permitiu"
+#: backend3/sslkey:243
+msgid "Export sign request failed"
+msgstr "Exportação pedido sinal falhou"

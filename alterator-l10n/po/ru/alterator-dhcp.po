@@ -7,48 +7,156 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:38+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:11
+#: standard input:1
+msgid "DHCP server"
+msgstr "DHCP-сервер"
+
+#: standard input:1
+msgid ""
+"You must have statically configured ethernet interface to setup dhcp server."
+msgstr ""
+"Вы должны иметь хотя бы один статически сконфигурированный Ethernet-"
+"интерфейс, чтобы настраивать DHCP-сервер."
+
+#: standard input:2
+msgid "Reconfigure ethernet interfaces..."
+msgstr "Перенастроить Ethernet-интерфейсы..."
+
+#: standard input:3
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: standard input:4
+msgid "Enable DHCP server"
+msgstr "Включить службу DHCP"
+
+#: standard input:5
+msgid "Interface:"
+msgstr "Интерфейс:"
+
+#: standard input:6
 msgid "(maximum possible address range)"
 msgstr "(максимально допустимый диапазон адресов)"
 
-#: backend3/dhcp:184
-msgid "1 day"
-msgstr "1 день"
+#: standard input:7
+msgid "Starting IP address:"
+msgstr "Начальный IP адрес:"
+
+#: standard input:8
+msgid "Ending IP address:"
+msgstr "Конечный IP адрес:"
+
+#: standard input:9
+msgid "Address  expiration time:"
+msgstr "Срок действия адреса:"
+
+#: standard input:10
+msgid "Information provided for clients"
+msgstr "Информация, предоставляемая клиентам"
+
+#: standard input:11
+msgid "DNS server:"
+msgstr "DNS-сервер:"
+
+#: standard input:12
+msgid "Search domain:"
+msgstr "Домен поиска:"
+
+#: standard input:13
+msgid "Default gateway:"
+msgstr "Шлюз по умолчанию:"
+
+#: standard input:14 input:35
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:15 input:36
+msgid "Reset"
+msgstr "Вернуть"
+
+#: standard input:16
+msgid "Static addresses"
+msgstr "Статические адреса"
+
+#: standard input:17 input:29
+msgid "IP address"
+msgstr "IP-адрес"
+
+#: standard input:18 input:28
+msgid "MAC address"
+msgstr "MAC-адрес"
+
+#: standard input:19 input:27
+msgid "Computer name"
+msgstr "Имя компьютера"
+
+#: standard input:20
+msgid "Remove selected"
+msgstr "Удалить выделенные"
+
+#: standard input:21
+msgid "New static address:"
+msgstr "Новый статический адрес:"
+
+#: standard input:22 input:33
+msgid "IP address:"
+msgstr "IP-адрес:"
+
+#: standard input:23 input:32
+msgid "MAC address:"
+msgstr "MAC-адрес:"
+
+#: standard input:24 input:34
+msgid "Computer name:"
+msgstr "Имя компьютера:"
+
+#: standard input:25
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:26
+msgid "Current dynamically allocated addresses"
+msgstr "Текущие динамически выделенные адреса"
+
+#: standard input:30
+msgid "Expiration time"
+msgstr "Годен до"
+
+#: standard input:31
+msgid "Fix address for selected hosts"
+msgstr "Зафиксировать адрес для выбранных компьютеров"
+
+#: type/dhcp-mac-address.scm:12
+msgid "invalid MAC address"
+msgstr "недопустимый MAC-адрес"
+
+#: backend3/dhcp:86
+msgid "You should define network interface"
+msgstr "Вы должны назначить интерфейс"
+
+#: backend3/dhcp:89
+msgid "You should define address range"
+msgstr "Вы должны назначит диапазон адресов"
 
 #: backend3/dhcp:179
 msgid "1 hour"
 msgstr "1 час"
 
-#: backend3/dhcp:187
-msgid "1 month"
-msgstr "1 месяц"
-
-#: backend3/dhcp:185
-msgid "1 week"
-msgstr "1 неделя"
-
-#: backend3/dhcp:183
-msgid "12 hours"
-msgstr "12 часов"
-
 #: backend3/dhcp:180
 msgid "2 hours"
 msgstr "2 часа"
-
-#: backend3/dhcp:186
-msgid "2 weeks"
-msgstr "2 недели"
 
 #: backend3/dhcp:181
 msgid "4 hours"
@@ -58,141 +166,34 @@ msgstr "4 часа"
 msgid "8 hours"
 msgstr "8 часов"
 
-#: standard input:30
-msgid "Add"
-msgstr "Добавить"
+#: backend3/dhcp:183
+msgid "12 hours"
+msgstr "12 часов"
 
-#: standard input:14
-msgid "Address  expiration time:"
-msgstr "Срок действия адреса:"
+#: backend3/dhcp:184
+msgid "1 day"
+msgstr "1 день"
 
-#: standard input:4 input:19
-msgid "Apply"
-msgstr "Применить"
+#: backend3/dhcp:185
+msgid "1 week"
+msgstr "1 неделя"
 
-#: standard input:24 input:32
-msgid "Computer name"
-msgstr "Имя компьютера"
+#: backend3/dhcp:186
+msgid "2 weeks"
+msgstr "2 недели"
 
-#: standard input:3 input:29
-msgid "Computer name:"
-msgstr "Имя компьютера:"
+#: backend3/dhcp:187
+msgid "1 month"
+msgstr "1 месяц"
 
-#: standard input:31
-msgid "Current dynamically allocated addresses"
-msgstr "Текущие динамически выделенные адреса"
-
-#: standard input:1
-msgid "DHCP server"
-msgstr "DHCP-сервер"
-
-#: standard input:16
-msgid "DNS server:"
-msgstr "DNS-сервер:"
-
-#: standard input:18
-msgid "Default gateway:"
-msgstr "Шлюз по умолчанию:"
-
-#: standard input:9
-msgid "Enable DHCP server"
-msgstr "Включить службу DHCP"
-
-#: standard input:13
-msgid "Ending IP address:"
-msgstr "Конечный IP адрес:"
-
-#: standard input:35
-msgid "Expiration time"
-msgstr "Годен до"
-
-#: standard input:36
-msgid "Fix address for selected hosts"
-msgstr "Зафиксировать адрес для выбранных компьютеров"
-
-#: standard input:8
-msgid "General settings"
-msgstr "Общие настройки"
-
-#: standard input:22 input:34
-msgid "IP address"
-msgstr "IP-адрес"
-
-#: standard input:2 input:27
-msgid "IP address:"
-msgstr "IP-адрес:"
-
-#: standard input:15
-msgid "Information provided for clients"
-msgstr "Информация, предоставляемая клиентам"
-
-#: standard input:10
-msgid "Interface:"
-msgstr "Интерфейс:"
-
-#: backend3/dhcp:240
+#: backend3/dhcp:241
 msgid "Invalid address range"
 msgstr "Неверный диапазон адресов"
 
-#: standard input:23 input:33
-msgid "MAC address"
-msgstr "MAC-адрес"
-
-#: standard input:1 input:28
-msgid "MAC address:"
-msgstr "MAC-адрес:"
-
-#: standard input:26
-msgid "New static address:"
-msgstr "Новый статический адрес:"
-
-#: standard input:7
-msgid "Reconfigure ethernet interfaces..."
-msgstr "Перенастроить Ethernet-интерфейсы..."
-
-#: standard input:25
-msgid "Remove selected"
-msgstr "Удалить выделенные"
-
-#: standard input:5 input:20
-msgid "Reset"
-msgstr "Вернуть"
-
-#: backend3/dhcp:275
+#: backend3/dhcp:276
 msgid "Same entry already exists"
 msgstr "Подобный элемент уже существует"
 
-#: standard input:17
-msgid "Search domain:"
-msgstr "Домен поиска:"
-
-#: standard input:12
-msgid "Starting IP address:"
-msgstr "Начальный IP адрес:"
-
-#: standard input:21
-msgid "Static addresses"
-msgstr "Статические адреса"
-
-#: backend3/dhcp:278 backend3/dhcp:292
+#: backend3/dhcp:279 backend3/dhcp:293
 msgid "This computer name is registered for internal purposes"
 msgstr "Подобное имя компьютера зарезервированно"
-
-#: standard input:6
-msgid ""
-"You must have statically configured ethernet interface to setup dhcp server."
-msgstr ""
-"Вы должны иметь хотя бы один статически сконфигурированный Ethernet-"
-"интерфейс, чтобы настраивать DHCP-сервер."
-
-#: backend3/dhcp:89
-msgid "You should define address range"
-msgstr "Вы должны назначит диапазон адресов"
-
-#: backend3/dhcp:86
-msgid "You should define network interface"
-msgstr "Вы должны назначить интерфейс"
-
-#: type/dhcp-mac-address.scm:12
-msgid "invalid MAC address"
-msgstr "недопустимый MAC-адрес"

@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:54+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,195 +20,96 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: ui/vm/table.scm:187
-msgid "   Name   "
+#: standard input:1
+#, fuzzy
+msgid "Volume management"
+msgstr "Administração de Usuário"
+
+#: standard input:2
+#, fuzzy
+msgid "Harddisks"
+msgstr "HD"
+
+#: ui/vm/ortodox.scm:40
+msgid " of "
 msgstr ""
 
 #: ui/vm/ortodox.scm:40
 msgid " free"
 msgstr ""
 
-#: ui/vm/ortodox.scm:40
-msgid " of "
-msgstr ""
-
-#: ui/vm/dummystr.scm:84
-msgid " reboot, then continue installation."
-msgstr ""
-
-#. expand seg
-#: ui/vm/dummystr.scm:61
-#, fuzzy
-msgid "Additional Size"
-msgstr "Paquetes adicionales"
-
-#: ui/vm/blonde.scm:91
-msgid ""
-"All data from all your disks (including removable ones) will be lost! "
-"Continue?"
-msgstr ""
-
-#. ---------------------------------------------------------------
-#: ui/vm/lucky.scm:67
-msgid "All data from all your disks will be lost!"
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
 msgstr ""
 
 #: ui/vm/ortodox.scm:70
 msgid "All data from all your disks will be lost! Continue?"
 msgstr ""
 
-#: ui/vm/table.scm:135
-msgid "All data on following partitions will be lost:"
+#: ui/vm/ortodox.scm:78
+msgid "Select disks for use"
 msgstr ""
 
-#: ui/vm/table.scm:258
-msgid "Apply"
-msgstr "Aplicar"
-
-#: ui/vm/table.scm:130
-msgid "Apply requested changes?"
-msgstr ""
-
-#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
-msgid "Cancel"
-msgstr "Cancelar"
-
-#. jfs
-#: ui/vm/dummystr.scm:25
-msgid "Case Insensitive"
-msgstr ""
-
-#: ui/vm/table.scm:226
-msgid "Check Filesystem"
-msgstr ""
-
-#. ext2/3
-#: ui/vm/dummystr.scm:16
-msgid "Check For Bad Blocks"
-msgstr ""
-
-#. swap
-#: ui/vm/dummystr.scm:30
-msgid "Check for bad blocks"
-msgstr ""
-
-#: ui/vm/dummystr.scm:87
+#: ui/vm/ortodox.scm:83
 #, fuzzy
-msgid "Check order"
-msgstr "Comprobar IP"
+msgid "Select profile"
+msgstr "Seleccionar modo adelante:"
 
-#. raid0
-#: ui/vm/dummystr.scm:51
-msgid "Chunk Size:"
-msgstr ""
-
-#: ui/vm/dummystr.scm:59
-msgid "Chunk size"
-msgstr ""
+#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
+#, fuzzy
+msgid "Options"
+msgstr "Acción"
 
 #: ui/vm/ortodox.scm:92
 msgid "Clear all before applying profile"
 msgstr ""
 
-#. ntfs
-#: ui/vm/dummystr.scm:34
-msgid "Cluster size"
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
 msgstr ""
 
-#: ui/vm/dummystr.scm:36
-msgid "Compression"
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
 msgstr ""
 
-#: ui/vm/table.scm:86
-msgid "Congrats! You've found a secret level!"
+#.
+#: ui/vm/dummystr.scm:2
+msgid "Size"
 msgstr ""
 
-#: ui/vm/table.scm:138
+#: ui/vm/dummystr.scm:3
+msgid "Offset"
+msgstr ""
+
+#: ui/vm/dummystr.scm:4
 #, fuzzy
-msgid "Continue?"
-msgstr "Rede Configurada"
+msgid "Primary Partition"
+msgstr "Partición Linux"
 
-#: ui/vm/dummystr.scm:19
-msgid "Create Ext3 Journal"
-msgstr ""
-
-#: ui/vm/table.scm:209 ui/vm/table.scm:211
+#: ui/vm/dummystr.scm:5
 #, fuzzy
-msgid "Create Partition"
+msgid "Partition Type"
 msgstr "particíon"
-
-#: ui/vm/table.scm:196
-#, fuzzy
-msgid "Create RAID"
-msgstr "Crear"
-
-#: ui/vm/table.scm:204 ui/vm/table.scm:216
-#, fuzzy
-msgid "Create Volume"
-msgstr "Crear"
-
-#: ui/vm/table.scm:199
-msgid "Create Volume Group"
-msgstr ""
-
-#: ui/vm/dummystr.scm:76
-msgid "Custom"
-msgstr ""
-
-#: ui/vm/blonde.scm:85
-msgid "Custom install"
-msgstr ""
-
-#. raid1
-#: ui/vm/dummystr.scm:54
-msgid "Degraded array"
-msgstr ""
-
-#: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
-#: ui/vm/table.scm:214 ui/vm/table.scm:219
-msgid "Destroy"
-msgstr ""
-
-#: ui/vm/table.scm:210
-msgid "Destroy Partition Table"
-msgstr ""
-
-#: ui/vm/blonde.scm:84
-msgid "Destroy all partitions, then autopartition"
-msgstr ""
-
-#: ui/vm/dummystr.scm:86
-#, fuzzy
-msgid "Dump Frequency"
-msgstr "Frecuencia (Mhz)"
-
-#: ui/vm/table.scm:224
-#, fuzzy
-msgid "Edit Mountpoint"
-msgstr "Punto de montaje"
-
-#: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
-#: ui/vm/table.scm:217
-msgid "Expand"
-msgstr ""
 
 #. fsims
 #: ui/vm/dummystr.scm:7
 msgid "Ext2/3 File System Interface Module"
 msgstr ""
 
-#: ui/vm/dummystr.scm:40
-msgid "Extent-size for the new LVM2 container."
+#: ui/vm/dummystr.scm:8
+msgid "XFS File System Interface Module"
 msgstr ""
 
-#. xfs
-#: ui/vm/dummystr.scm:21
-msgid "External Journal Volume"
+#: ui/vm/dummystr.scm:9
+msgid "JFS File System Interface Module"
 msgstr ""
 
-#. expand lv
-#: ui/vm/dummystr.scm:65
-msgid "Extra size for the LVM2 region."
+#: ui/vm/dummystr.scm:10
+msgid "ReiserFS File System Interface Module"
+msgstr ""
+
+#: ui/vm/dummystr.scm:11
+msgid "Swap File System Interface Module"
 msgstr ""
 
 #: ui/vm/dummystr.scm:12
@@ -218,26 +120,209 @@ msgstr ""
 msgid "FAT32 File System Interface Module"
 msgstr ""
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:189
-#, fuzzy
-msgid "Filesystem"
-msgstr "Sistema"
+#: ui/vm/dummystr.scm:14
+msgid "NTFS File System Interface Module"
+msgstr ""
+
+#. ext2/3
+#: ui/vm/dummystr.scm:16
+msgid "Check For Bad Blocks"
+msgstr ""
+
+#: ui/vm/dummystr.scm:17
+msgid "Read/Write Check For Bad Blocks"
+msgstr ""
+
+#: ui/vm/dummystr.scm:18
+msgid "Volume Label"
+msgstr ""
+
+#: ui/vm/dummystr.scm:19
+msgid "Create Ext3 Journal"
+msgstr ""
+
+#. xfs
+#: ui/vm/dummystr.scm:21
+msgid "External Journal Volume"
+msgstr ""
+
+#: ui/vm/dummystr.scm:22
+msgid "Log Size"
+msgstr ""
 
 #: ui/vm/dummystr.scm:23
 msgid "Force"
 msgstr ""
 
+#. jfs
+#: ui/vm/dummystr.scm:25
+msgid "Case Insensitive"
+msgstr ""
+
+#: ui/vm/dummystr.scm:26
+msgid "Inline Log Size"
+msgstr ""
+
+#. reiserfs FIXME
+#: ui/vm/dummystr.scm:28
+msgid "Version of mkreiserfs"
+msgstr ""
+
+#. swap
+#: ui/vm/dummystr.scm:30
+msgid "Check for bad blocks"
+msgstr ""
+
+#. fat16/32
+#: ui/vm/dummystr.scm:32
+msgid "Volume label"
+msgstr ""
+
+#. ntfs
+#: ui/vm/dummystr.scm:34
+msgid "Cluster size"
+msgstr ""
+
+#: ui/vm/dummystr.scm:35
+msgid "MFT zone multiplier"
+msgstr ""
+
+#: ui/vm/dummystr.scm:36
+msgid "Compression"
+msgstr ""
+
+#: ui/vm/dummystr.scm:37
+msgid "Quick mkfs"
+msgstr ""
+
+#. lvm2 vg
+#: ui/vm/dummystr.scm:39
+msgid "Name for the new LVM2 container."
+msgstr ""
+
+#: ui/vm/dummystr.scm:40
+msgid "Extent-size for the new LVM2 container."
+msgstr ""
+
+#. lvm2 lv
+#: ui/vm/dummystr.scm:42
+msgid "Name for the new LVM2 region."
+msgstr ""
+
+#: ui/vm/dummystr.scm:43
+msgid "Size for the new LVM2 region."
+msgstr ""
+
+#: ui/vm/dummystr.scm:44
+msgid "Number of stripes for the new LVM2 region."
+msgstr ""
+
+#: ui/vm/dummystr.scm:45
+msgid "Objects (PVs) to place the new LVM2 region on."
+msgstr ""
+
+#. raidx
+#: ui/vm/dummystr.scm:47
+msgid "MD RAID0 Region Manager"
+msgstr ""
+
+#: ui/vm/dummystr.scm:48
+msgid "MD Raid 1 Region Manager"
+msgstr ""
+
+#: ui/vm/dummystr.scm:49
+msgid "MD RAID 4/5 Region Manager"
+msgstr ""
+
+#. raid0
+#: ui/vm/dummystr.scm:51
+msgid "Chunk Size:"
+msgstr ""
+
+#: ui/vm/dummystr.scm:52
+msgid "Version 1 Super Block"
+msgstr ""
+
+#. raid1
+#: ui/vm/dummystr.scm:54
+msgid "Degraded array"
+msgstr ""
+
+#: ui/vm/dummystr.scm:55
+msgid "Spare Disk"
+msgstr ""
+
+#. raid5
+#: ui/vm/dummystr.scm:57
+msgid "RAID5 Algorithm"
+msgstr ""
+
+#: ui/vm/dummystr.scm:58
+msgid "RAID level"
+msgstr ""
+
+#: ui/vm/dummystr.scm:59
+msgid "Chunk size"
+msgstr ""
+
+#. expand seg
+#: ui/vm/dummystr.scm:61
+#, fuzzy
+msgid "Additional Size"
+msgstr "Paquetes adicionales"
+
+#. shrink seg
+#: ui/vm/dummystr.scm:63
+msgid "Shrink by Size"
+msgstr ""
+
+#. expand lv
+#: ui/vm/dummystr.scm:65
+msgid "Extra size for the LVM2 region."
+msgstr ""
+
+#: ui/vm/dummystr.scm:66
+msgid "Number of stripes for the new portion of the region."
+msgstr ""
+
+#: ui/vm/dummystr.scm:67
+msgid "Objects (PVs) to use for the new portion of the region."
+msgstr ""
+
+#. shrink lv
+#: ui/vm/dummystr.scm:69
+msgid "Size to remove from the LVM2 region."
+msgstr ""
+
+#. assign
+#: ui/vm/dummystr.scm:71
+#, fuzzy
+msgid "Mount Options"
+msgstr "Punto de montaje"
+
 #: ui/vm/dummystr.scm:72
 msgid "Format before using"
 msgstr ""
 
-#: standard input:1
+#. profiles
+#: ui/vm/dummystr.scm:74
 #, fuzzy
-msgid "Harddisks"
-msgstr "HD"
+msgid "Setup for server"
+msgstr "Configurar Servicio de Email"
 
-#: ui/vm/dummystr.scm:26
-msgid "Inline Log Size"
+#: ui/vm/dummystr.scm:75
+#, fuzzy
+msgid "Setup for workstation"
+msgstr "Configuración de conecciones en Rede"
+
+#: ui/vm/dummystr.scm:76
+msgid "Custom"
+msgstr ""
+
+#. misc
+#: ui/vm/dummystr.scm:78
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
 msgstr ""
 
 #. guile-evms
@@ -258,66 +343,32 @@ msgstr ""
 msgid "Invalid mountpoint: should start with /mnt"
 msgstr ""
 
-#: ui/vm/dummystr.scm:9
-msgid "JFS File System Interface Module"
+#: ui/vm/dummystr.scm:84
+msgid " reboot, then continue installation."
 msgstr ""
 
-#: ui/vm/ortodox.scm:98
-msgid "Let me make my changes after profile applying"
-msgstr ""
-
-#: ui/vm/dummystr.scm:22
-msgid "Log Size"
-msgstr ""
-
-#: ui/vm/dummystr.scm:49
-msgid "MD RAID 4/5 Region Manager"
-msgstr ""
-
-#. raidx
-#: ui/vm/dummystr.scm:47
-msgid "MD RAID0 Region Manager"
-msgstr ""
-
-#: ui/vm/dummystr.scm:48
-msgid "MD Raid 1 Region Manager"
-msgstr ""
-
-#: ui/vm/dummystr.scm:35
-msgid "MFT zone multiplier"
-msgstr ""
-
-#: ui/vm/table.scm:222 ui/vm/table.scm:225
-msgid "Make Filesystem"
-msgstr ""
-
-#: ui/vm/table.scm:227
-msgid "Mount Filesystem"
-msgstr ""
-
-#. assign
-#: ui/vm/dummystr.scm:71
-#, fuzzy
-msgid "Mount Options"
-msgstr "Punto de montaje"
-
-#: ui/vm/table.scm:193
-#, fuzzy
-msgid "Mount options"
-msgstr "Punto de montaje"
-
-#: ui/vm/table.scm:192
-#, fuzzy
-msgid "Mounted on"
-msgstr "Punto de montaje"
-
-#: ui/vm/table.scm:191 ui/vm/dummystr.scm:85
+#: ui/vm/dummystr.scm:85 ui/vm/table.scm:191
 #, fuzzy
 msgid "Mountpoint"
 msgstr "Punto de montaje"
 
-#: ui/vm/dummystr.scm:14
-msgid "NTFS File System Interface Module"
+#: ui/vm/dummystr.scm:86
+#, fuzzy
+msgid "Dump Frequency"
+msgstr "Frecuencia (Mhz)"
+
+#: ui/vm/dummystr.scm:87
+#, fuzzy
+msgid "Check order"
+msgstr "Comprobar IP"
+
+#: ui/vm/dummystr.scm:88
+#, fuzzy
+msgid "inaccesible or not a directory"
+msgstr "Directorio Inicial:"
+
+#: ui/vm/dummystr.scm:89
+msgid "Operation not permitted"
 msgstr ""
 
 #: ui/vm/blonde.scm:45
@@ -325,107 +376,163 @@ msgstr ""
 msgid "Name"
 msgstr "Nombre:"
 
-#. lvm2 vg
-#: ui/vm/dummystr.scm:39
-msgid "Name for the new LVM2 container."
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:189
+#, fuzzy
+msgid "Filesystem"
+msgstr "Sistema"
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
 msgstr ""
 
-#. lvm2 lv
-#: ui/vm/dummystr.scm:42
-msgid "Name for the new LVM2 region."
+#: ui/vm/blonde.scm:83
+#, fuzzy
+msgid "Use unpartitioned disk space"
+msgstr "Requiere de espacio en disco"
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
 msgstr ""
 
-#: ui/vm/popup.scm:100
-msgid "Next operation"
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
 msgstr ""
 
-#. misc
-#: ui/vm/dummystr.scm:78
+#: ui/vm/blonde.scm:91
 msgid ""
-"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
 msgstr ""
 
-#: ui/vm/dummystr.scm:44
-msgid "Number of stripes for the new LVM2 region."
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
 msgstr ""
 
-#: ui/vm/dummystr.scm:66
-msgid "Number of stripes for the new portion of the region."
-msgstr ""
-
-#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
-msgid "OK"
-msgstr "OK"
-
-#: ui/vm/popup.scm:92
-msgid "Objects"
-msgstr ""
-
-#: ui/vm/dummystr.scm:45
-msgid "Objects (PVs) to place the new LVM2 region on."
-msgstr ""
-
-#: ui/vm/dummystr.scm:67
-msgid "Objects (PVs) to use for the new portion of the region."
-msgstr ""
-
-#: ui/vm/dummystr.scm:3
-msgid "Offset"
-msgstr ""
-
-#: ui/vm/dummystr.scm:89
-msgid "Operation not permitted"
-msgstr ""
-
-#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
+#: ui/vm/blonde.scm:101
 #, fuzzy
-msgid "Options"
-msgstr "Acción"
+msgid "Select installation method"
+msgstr "Seleccionar modo adelante:"
 
-#: ui/vm/dummystr.scm:5
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
+msgstr ""
+
+#: ui/vm/lucky.scm:60
+msgid "Unable to partition, not enough disk space"
+msgstr ""
+
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+msgid "All data from all your disks will be lost!"
+msgstr ""
+
+#: ui/vm/lucky.scm:68
 #, fuzzy
-msgid "Partition Type"
-msgstr "particíon"
+msgid "Yes, i'm warned"
+msgstr "Sim, Estoy de acuerdo"
+
+#: ui/vm/table.scm:86
+msgid "Congrats! You've found a secret level!"
+msgstr ""
 
 #: ui/vm/table.scm:122
 msgid "Please assign \"/\" mount point"
 msgstr ""
 
-#: ui/vm/functions.scm:3
+#: ui/vm/table.scm:130
+msgid "Apply requested changes?"
+msgstr ""
+
+#: ui/vm/table.scm:135
+msgid "All data on following partitions will be lost:"
+msgstr ""
+
+#: ui/vm/table.scm:138
 #, fuzzy
-msgid "Please wait..."
-msgstr "Por Favor Inicie la sesión"
+msgid "Continue?"
+msgstr "Rede Configurada"
 
-#: ui/vm/dummystr.scm:4
+#: ui/vm/table.scm:187
+msgid "   Name   "
+msgstr ""
+
+#: ui/vm/table.scm:188
+msgid "Size [ free ]"
+msgstr ""
+
+#: ui/vm/table.scm:192
 #, fuzzy
-msgid "Primary Partition"
-msgstr "Partición Linux"
+msgid "Mounted on"
+msgstr "Punto de montaje"
 
-#: ui/vm/dummystr.scm:37
-msgid "Quick mkfs"
+#: ui/vm/table.scm:193
+#, fuzzy
+msgid "Mount options"
+msgstr "Punto de montaje"
+
+#: ui/vm/table.scm:196
+#, fuzzy
+msgid "Create RAID"
+msgstr "Crear"
+
+#: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
+#: ui/vm/table.scm:214 ui/vm/table.scm:219
+msgid "Destroy"
 msgstr ""
 
-#: ui/vm/dummystr.scm:58
-msgid "RAID level"
+#: ui/vm/table.scm:199
+msgid "Create Volume Group"
 msgstr ""
 
-#. raid5
-#: ui/vm/dummystr.scm:57
-msgid "RAID5 Algorithm"
+#: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
+#: ui/vm/table.scm:217
+msgid "Expand"
 msgstr ""
 
-#: ui/vm/dummystr.scm:17
-msgid "Read/Write Check For Bad Blocks"
+#: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
+#: ui/vm/table.scm:218
+msgid "Shrink"
 msgstr ""
 
-#: ui/vm/dummystr.scm:10
-msgid "ReiserFS File System Interface Module"
+#: ui/vm/table.scm:204 ui/vm/table.scm:216
+#, fuzzy
+msgid "Create Volume"
+msgstr "Crear"
+
+#: ui/vm/table.scm:209 ui/vm/table.scm:211
+#, fuzzy
+msgid "Create Partition"
+msgstr "particíon"
+
+#: ui/vm/table.scm:210
+msgid "Destroy Partition Table"
+msgstr ""
+
+#: ui/vm/table.scm:222 ui/vm/table.scm:225
+msgid "Make Filesystem"
 msgstr ""
 
 #: ui/vm/table.scm:223 ui/vm/table.scm:229
 #, fuzzy
 msgid "Remove Filesystem"
 msgstr "Remover seleccionado"
+
+#: ui/vm/table.scm:224
+#, fuzzy
+msgid "Edit Mountpoint"
+msgstr "Punto de montaje"
+
+#: ui/vm/table.scm:226
+msgid "Check Filesystem"
+msgstr ""
+
+#: ui/vm/table.scm:227
+msgid "Mount Filesystem"
+msgstr ""
+
+#: ui/vm/table.scm:228
+msgid "Umount Filesystem"
+msgstr ""
 
 #: ui/vm/table.scm:253
 #, fuzzy
@@ -484,142 +591,36 @@ msgstr ""
 "#-#-#-#-#  alterator-xkb.po (Alterator)  #-#-#-#-#\n"
 "Resetar"
 
-#: ui/vm/choice.scm:28
-msgid "Select"
-msgstr "Seleccionar"
+#: ui/vm/table.scm:258
+msgid "Apply"
+msgstr "Aplicar"
 
-#: ui/vm/ortodox.scm:78
-msgid "Select disks for use"
+#: ui/vm/popup.scm:92
+msgid "Objects"
 msgstr ""
 
-#: ui/vm/blonde.scm:101
-#, fuzzy
-msgid "Select installation method"
-msgstr "Seleccionar modo adelante:"
-
-#: ui/vm/ortodox.scm:83
-#, fuzzy
-msgid "Select profile"
-msgstr "Seleccionar modo adelante:"
-
-#. profiles
-#: ui/vm/dummystr.scm:74
-#, fuzzy
-msgid "Setup for server"
-msgstr "Configurar Servicio de Email"
-
-#: ui/vm/dummystr.scm:75
-#, fuzzy
-msgid "Setup for workstation"
-msgstr "Configuración de conecciones en Rede"
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr ""
 
 #: ui/vm/popup.scm:103
 #, fuzzy
 msgid "Show extra options"
 msgstr "Opciones generales"
 
-#: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
-#: ui/vm/table.scm:218
-msgid "Shrink"
-msgstr ""
+#: ui/vm/popup.scm:109 ui/vm/choice.scm:34
+msgid "OK"
+msgstr "OK"
 
-#. shrink seg
-#: ui/vm/dummystr.scm:63
-msgid "Shrink by Size"
-msgstr ""
+#: ui/vm/popup.scm:112 ui/vm/choice.scm:35
+msgid "Cancel"
+msgstr "Cancelar"
 
-#.
-#: ui/vm/dummystr.scm:2
-msgid "Size"
-msgstr ""
-
-#: ui/vm/table.scm:188
-msgid "Size [ free ]"
-msgstr ""
-
-#: ui/vm/blonde.scm:47
-msgid "Size [free]"
-msgstr ""
-
-#: ui/vm/dummystr.scm:43
-msgid "Size for the new LVM2 region."
-msgstr ""
-
-#. shrink lv
-#: ui/vm/dummystr.scm:69
-msgid "Size to remove from the LVM2 region."
-msgstr ""
-
-#: ui/vm/dummystr.scm:55
-msgid "Spare Disk"
-msgstr ""
-
-#: ui/vm/dummystr.scm:11
-msgid "Swap File System Interface Module"
-msgstr ""
-
-#: ui/vm/table.scm:228
-msgid "Umount Filesystem"
-msgstr ""
-
-#: ui/vm/ortodox.scm:129
-msgid "Unable to apply selected profile, not enough disk space"
-msgstr ""
-
-#: ui/vm/blonde.scm:138
-msgid "Unable to autopartition, not enough disk space"
-msgstr ""
-
-#: ui/vm/lucky.scm:60
-msgid "Unable to partition, not enough disk space"
-msgstr ""
-
-#: ui/vm/blonde.scm:83
+#: ui/vm/functions.scm:3
 #, fuzzy
-msgid "Use unpartitioned disk space"
-msgstr "Requiere de espacio en disco"
+msgid "Please wait..."
+msgstr "Por Favor Inicie la sesión"
 
-#: ui/vm/dummystr.scm:52
-msgid "Version 1 Super Block"
-msgstr ""
-
-#. reiserfs FIXME
-#: ui/vm/dummystr.scm:28
-msgid "Version of mkreiserfs"
-msgstr ""
-
-#: ui/vm/dummystr.scm:18
-msgid "Volume Label"
-msgstr ""
-
-#. fat16/32
-#: ui/vm/dummystr.scm:32
-msgid "Volume label"
-msgstr ""
-
-#: standard input:2
-#, fuzzy
-msgid "Volume management"
-msgstr "Administração de Usuário"
-
-#: ui/vm/blonde.scm:97
-msgid "Volumes"
-msgstr ""
-
-#: ui/vm/dummystr.scm:8
-msgid "XFS File System Interface Module"
-msgstr ""
-
-#: ui/vm/lucky.scm:68
-#, fuzzy
-msgid "Yes, i'm warned"
-msgstr "Sim, Estoy de acuerdo"
-
-#: ui/vm/ortodox.scm:52
-msgid "free space required:"
-msgstr ""
-
-#: ui/vm/dummystr.scm:88
-#, fuzzy
-msgid "inaccesible or not a directory"
-msgstr "Directorio Inicial:"
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Seleccionar"

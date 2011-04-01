@@ -5,205 +5,103 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-vm 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:54+0400\n"
 "PO-Revision-Date: 2010-11-02 00:36+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ui/vm/table.scm:187
-msgid "   Name   "
-msgstr "   Имя   "
+#: standard input:1
+msgid "Volume management"
+msgstr "Управление дисками"
 
-#: ui/vm/ortodox.scm:40
-msgid " free"
-msgstr " свободно"
+#: standard input:2
+msgid "Harddisks"
+msgstr "Жёсткие диски"
 
 #: ui/vm/ortodox.scm:40
 msgid " of "
 msgstr " из "
 
-#: ui/vm/dummystr.scm:84
-msgid " reboot, then continue installation."
-msgstr ""
-"Невозможно перечитать таблицу разделов.\n"
-"Перегрузитесь и начните инсталляцию заново"
+#: ui/vm/ortodox.scm:40
+msgid " free"
+msgstr " свободно"
 
-#. expand seg
-#: ui/vm/dummystr.scm:61
-msgid "Additional Size"
-msgstr "Дополнительный размер"
-
-#: ui/vm/blonde.scm:91
-msgid ""
-"All data from all your disks (including removable ones) will be lost! "
-"Continue?"
-msgstr ""
-"Все ваши данные на всех дисках (в том числе внешних) будут утеряны! "
-"Продолжить?"
-
-#. ---------------------------------------------------------------
-#: ui/vm/lucky.scm:67
-msgid "All data from all your disks will be lost!"
-msgstr "Все ваши данные на всех дисках будут утеряны!"
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
+msgstr "требуется "
 
 #: ui/vm/ortodox.scm:70
 msgid "All data from all your disks will be lost! Continue?"
 msgstr "Все ваши данные на всех дисках будут утеряны! Продолжить?"
 
-#: ui/vm/table.scm:135
-msgid "All data on following partitions will be lost:"
-msgstr "Все данные на следующих разделах будут утеряны:"
+#: ui/vm/ortodox.scm:78
+msgid "Select disks for use"
+msgstr "Выберите диски для использования"
 
-#: ui/vm/table.scm:258
-msgid "Apply"
-msgstr "Применить"
+#: ui/vm/ortodox.scm:83
+msgid "Select profile"
+msgstr "Выберите профиль"
 
-#: ui/vm/table.scm:130
-msgid "Apply requested changes?"
-msgstr "Произвести запрошенные изменения?"
-
-#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
-msgid "Cancel"
-msgstr "Отмена"
-
-#. jfs
-#: ui/vm/dummystr.scm:25
-msgid "Case Insensitive"
-msgstr "Нечуствительность к регистру"
-
-#: ui/vm/table.scm:226
-msgid "Check Filesystem"
-msgstr "Проверить файловую систему"
-
-#. ext2/3
-#: ui/vm/dummystr.scm:16
-msgid "Check For Bad Blocks"
-msgstr "Проверка сбойных участков (только чтение)"
-
-#. swap
-#: ui/vm/dummystr.scm:30
-msgid "Check for bad blocks"
-msgstr "Проверка сбойных участков"
-
-#: ui/vm/dummystr.scm:87
-msgid "Check order"
-msgstr "порядок проверки"
-
-#. raid0
-#: ui/vm/dummystr.scm:51
-msgid "Chunk Size:"
-msgstr "Размер чанка"
-
-#: ui/vm/dummystr.scm:59
-msgid "Chunk size"
-msgstr "Размер чанка"
+#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
+msgid "Options"
+msgstr "Параметры"
 
 #: ui/vm/ortodox.scm:92
 msgid "Clear all before applying profile"
 msgstr "Очистить все диски перед применением профиля"
 
-#. ntfs
-#: ui/vm/dummystr.scm:34
-msgid "Cluster size"
-msgstr "Размер кластера"
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
+msgstr "Предложить сделать мои изменения после применения профиля"
 
-#: ui/vm/dummystr.scm:36
-msgid "Compression"
-msgstr "Сжатие"
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
+msgstr "Невозможно применить профиль, недостаточно места на диске"
 
-#: ui/vm/table.scm:86
-msgid "Congrats! You've found a secret level!"
-msgstr "Поздравляю! Вы обнаружили секретный уровень!"
+#.
+#: ui/vm/dummystr.scm:2
+msgid "Size"
+msgstr "Размер"
 
-#: ui/vm/table.scm:138
-msgid "Continue?"
-msgstr "Продолжить?"
+#: ui/vm/dummystr.scm:3
+msgid "Offset"
+msgstr "Смещение"
 
-#: ui/vm/dummystr.scm:19
-msgid "Create Ext3 Journal"
-msgstr "Создать журнал Ext3"
+#: ui/vm/dummystr.scm:4
+msgid "Primary Partition"
+msgstr "Основной раздел"
 
-#: ui/vm/table.scm:209 ui/vm/table.scm:211
-msgid "Create Partition"
-msgstr "Создать раздел"
-
-#: ui/vm/table.scm:196
-msgid "Create RAID"
-msgstr "Создать RAID"
-
-#: ui/vm/table.scm:204 ui/vm/table.scm:216
-msgid "Create Volume"
-msgstr "Создать том"
-
-#: ui/vm/table.scm:199
-msgid "Create Volume Group"
-msgstr "Создать группу томов"
-
-# Настройка вручную
-#: ui/vm/dummystr.scm:76
-msgid "Custom"
-msgstr "Вручную"
-
-# Настройка вручную
-#: ui/vm/blonde.scm:85
-msgid "Custom install"
-msgstr "Подготовить разделы вручную"
-
-#. raid1
-#: ui/vm/dummystr.scm:54
-msgid "Degraded array"
-msgstr "Деградированный массив"
-
-#: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
-#: ui/vm/table.scm:214 ui/vm/table.scm:219
-msgid "Destroy"
-msgstr "Удалить"
-
-#: ui/vm/table.scm:210
-msgid "Destroy Partition Table"
-msgstr "Удалить таблицу разделов"
-
-#: ui/vm/blonde.scm:84
-msgid "Destroy all partitions, then autopartition"
-msgstr "Удалить все разделы и создать разделы автоматически"
-
-#: ui/vm/dummystr.scm:86
-msgid "Dump Frequency"
-msgstr "частота дампа"
-
-#: ui/vm/table.scm:224
-msgid "Edit Mountpoint"
-msgstr "Изменить точку монтирования"
-
-#: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
-#: ui/vm/table.scm:217
-msgid "Expand"
-msgstr "Увеличить"
+#: ui/vm/dummystr.scm:5
+msgid "Partition Type"
+msgstr "Тип раздела"
 
 #. fsims
 #: ui/vm/dummystr.scm:7
-msgid "Ext2/3/4 File System Interface Module"
-msgstr "Файловая система Ext2/3/4"
+msgid "Ext2/3 File System Interface Module"
+msgstr "Файловая система Ext2/3"
 
-#: ui/vm/dummystr.scm:40
-msgid "Extent-size for the new LVM2 container."
-msgstr "Размер экстента"
+#: ui/vm/dummystr.scm:8
+msgid "XFS File System Interface Module"
+msgstr "Файловая система XFS"
 
-#. xfs
-#: ui/vm/dummystr.scm:21
-msgid "External Journal Volume"
-msgstr "Том для внешнего журнала"
+#: ui/vm/dummystr.scm:9
+msgid "JFS File System Interface Module"
+msgstr "Файловая система JFS"
 
-#. expand lv
-#: ui/vm/dummystr.scm:65
-msgid "Extra size for the LVM2 region."
-msgstr "Дополнительный размер"
+#: ui/vm/dummystr.scm:10
+msgid "ReiserFS File System Interface Module"
+msgstr "Файловая система ReiserFS"
+
+#: ui/vm/dummystr.scm:11
+msgid "Swap File System Interface Module"
+msgstr "Файловая система подкачки (swap)"
 
 #: ui/vm/dummystr.scm:12
 msgid "FAT16 File System Interface Module"
@@ -213,25 +111,209 @@ msgstr "Файловая система FAT16"
 msgid "FAT32 File System Interface Module"
 msgstr "Файловая система FAT32"
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:189
-msgid "Filesystem"
-msgstr "Файловая система"
+#: ui/vm/dummystr.scm:14
+msgid "NTFS File System Interface Module"
+msgstr "Файловая система NTFS"
+
+#. ext2/3
+#: ui/vm/dummystr.scm:16
+msgid "Check For Bad Blocks"
+msgstr "Проверка сбойных участков (только чтение)"
+
+#: ui/vm/dummystr.scm:17
+msgid "Read/Write Check For Bad Blocks"
+msgstr "Проверка сбойных участков (чтение/запись)"
+
+#: ui/vm/dummystr.scm:18
+msgid "Volume Label"
+msgstr "Метка тома"
+
+#: ui/vm/dummystr.scm:19
+msgid "Create Ext3 Journal"
+msgstr "Создать журнал Ext3"
+
+#. xfs
+#: ui/vm/dummystr.scm:21
+msgid "External Journal Volume"
+msgstr "Том для внешнего журнала"
+
+#: ui/vm/dummystr.scm:22
+msgid "Log Size"
+msgstr "Размер области журналирования"
 
 #: ui/vm/dummystr.scm:23
 msgid "Force"
 msgstr "Форсировать"
 
-#: ui/vm/dummystr.scm:72
-msgid "Format before using"
-msgstr "Отформатировать"
-
-#: standard input:1
-msgid "Harddisks"
-msgstr "Жёсткие диски"
+#. jfs
+#: ui/vm/dummystr.scm:25
+msgid "Case Insensitive"
+msgstr "Нечуствительность к регистру"
 
 #: ui/vm/dummystr.scm:26
 msgid "Inline Log Size"
 msgstr "Размер области журналирования"
+
+#. reiserfs FIXME
+#: ui/vm/dummystr.scm:28
+msgid "Version of mkreiserfs"
+msgstr "Версия mkreiserfs"
+
+#. swap
+#: ui/vm/dummystr.scm:30
+msgid "Check for bad blocks"
+msgstr "Проверка сбойных участков"
+
+#. fat16/32
+#: ui/vm/dummystr.scm:32
+msgid "Volume label"
+msgstr "Метка тома"
+
+#. ntfs
+#: ui/vm/dummystr.scm:34
+msgid "Cluster size"
+msgstr "Размер кластера"
+
+#: ui/vm/dummystr.scm:35
+msgid "MFT zone multiplier"
+msgstr "Множитель зоны MFT"
+
+#: ui/vm/dummystr.scm:36
+msgid "Compression"
+msgstr "Сжатие"
+
+#: ui/vm/dummystr.scm:37
+msgid "Quick mkfs"
+msgstr "Быстрое создание"
+
+#. lvm2 vg
+#: ui/vm/dummystr.scm:39
+msgid "Name for the new LVM2 container."
+msgstr "Имя группы томов"
+
+#: ui/vm/dummystr.scm:40
+msgid "Extent-size for the new LVM2 container."
+msgstr "Размер экстента"
+
+#. lvm2 lv
+#: ui/vm/dummystr.scm:42
+msgid "Name for the new LVM2 region."
+msgstr "Имя тома"
+
+#: ui/vm/dummystr.scm:43
+msgid "Size for the new LVM2 region."
+msgstr "Размер тома"
+
+#: ui/vm/dummystr.scm:44
+msgid "Number of stripes for the new LVM2 region."
+msgstr "Число расслоений (stripes)"
+
+#: ui/vm/dummystr.scm:45
+msgid "Objects (PVs) to place the new LVM2 region on."
+msgstr "Разместить на следующих устройствах"
+
+#. raidx
+#: ui/vm/dummystr.scm:47
+msgid "MD RAID0 Region Manager"
+msgstr "MD-устройство уровня RAID0"
+
+#: ui/vm/dummystr.scm:48
+msgid "MD Raid 1 Region Manager"
+msgstr "MD-устройство уровня RAID1"
+
+#: ui/vm/dummystr.scm:49
+msgid "MD RAID 4/5 Region Manager"
+msgstr "MD-устройство уровней RAID4/5"
+
+#. raid0
+#: ui/vm/dummystr.scm:51
+msgid "Chunk Size:"
+msgstr "Размер чанка"
+
+#: ui/vm/dummystr.scm:52
+msgid "Version 1 Super Block"
+msgstr "Суперблок версии 1"
+
+#. raid1
+#: ui/vm/dummystr.scm:54
+msgid "Degraded array"
+msgstr "Деградированный массив"
+
+#: ui/vm/dummystr.scm:55
+msgid "Spare Disk"
+msgstr "Резервный диск"
+
+#. raid5
+#: ui/vm/dummystr.scm:57
+msgid "RAID5 Algorithm"
+msgstr "Алгоритм RAID5"
+
+#: ui/vm/dummystr.scm:58
+msgid "RAID level"
+msgstr "Уровень RAID"
+
+#: ui/vm/dummystr.scm:59
+msgid "Chunk size"
+msgstr "Размер чанка"
+
+#. expand seg
+#: ui/vm/dummystr.scm:61
+msgid "Additional Size"
+msgstr "Дополнительный размер"
+
+#. shrink seg
+#: ui/vm/dummystr.scm:63
+msgid "Shrink by Size"
+msgstr "Уменьшить на"
+
+#. expand lv
+#: ui/vm/dummystr.scm:65
+msgid "Extra size for the LVM2 region."
+msgstr "Дополнительный размер"
+
+#: ui/vm/dummystr.scm:66
+msgid "Number of stripes for the new portion of the region."
+msgstr "Число расслоений (stripes) для новой области"
+
+#: ui/vm/dummystr.scm:67
+msgid "Objects (PVs) to use for the new portion of the region."
+msgstr "Разместить новую область на следующих устройствах"
+
+#. shrink lv
+#: ui/vm/dummystr.scm:69
+msgid "Size to remove from the LVM2 region."
+msgstr "Уменьшить том на"
+
+#. assign
+#: ui/vm/dummystr.scm:71
+msgid "Mount Options"
+msgstr "Опции монтирования"
+
+#: ui/vm/dummystr.scm:72
+msgid "Format before using"
+msgstr "Отформатировать"
+
+#. profiles
+#: ui/vm/dummystr.scm:74
+msgid "Setup for server"
+msgstr "Установка сервера"
+
+#: ui/vm/dummystr.scm:75
+msgid "Setup for workstation"
+msgstr "Установка рабочей станции"
+
+# Настройка вручную
+#: ui/vm/dummystr.scm:76
+msgid "Custom"
+msgstr "Вручную"
+
+#. misc
+#: ui/vm/dummystr.scm:78
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+msgstr ""
+"Изменение размеров раздела Vista может привести к невозможности загрузки с "
+"этого раздела. Продолжить?"
 
 #. guile-evms
 #: ui/vm/dummystr.scm:80
@@ -250,247 +332,72 @@ msgstr "Неверная точка монтирования: не SWAPFS"
 msgid "Invalid mountpoint: should start with /mnt"
 msgstr "Неверная точка монтирования: должна начинаться с /mnt"
 
-#: ui/vm/dummystr.scm:9
-msgid "JFS File System Interface Module"
-msgstr "Файловая система JFS"
+#: ui/vm/dummystr.scm:84
+msgid " reboot, then continue installation."
+msgstr ""
+"Невозможно перечитать таблицу разделов.\n"
+"Перегрузитесь и начните инсталляцию заново"
 
-#: ui/vm/ortodox.scm:98
-msgid "Let me make my changes after profile applying"
-msgstr "Предложить сделать мои изменения после применения профиля"
-
-#: ui/vm/dummystr.scm:22
-msgid "Log Size"
-msgstr "Размер области журналирования"
-
-#: ui/vm/dummystr.scm:49
-msgid "MD RAID 4/5 Region Manager"
-msgstr "MD-устройство уровней RAID4/5"
-
-#. raidx
-#: ui/vm/dummystr.scm:47
-msgid "MD RAID0 Region Manager"
-msgstr "MD-устройство уровня RAID0"
-
-#: ui/vm/dummystr.scm:48
-msgid "MD Raid 1 Region Manager"
-msgstr "MD-устройство уровня RAID1"
-
-#: ui/vm/dummystr.scm:35
-msgid "MFT zone multiplier"
-msgstr "Множитель зоны MFT"
-
-#: ui/vm/table.scm:222 ui/vm/table.scm:225
-msgid "Make Filesystem"
-msgstr "Создать файловую систему"
-
-#: ui/vm/table.scm:227
-msgid "Mount Filesystem"
-msgstr "Монтировать файловую систему"
-
-#. assign
-#: ui/vm/dummystr.scm:71
-msgid "Mount Options"
-msgstr "Опции монтирования"
-
-#: ui/vm/table.scm:193
-msgid "Mount options"
-msgstr "Опции монтирования"
-
-#: ui/vm/table.scm:192
-msgid "Mounted on"
-msgstr "Примонтировано в"
-
-#: ui/vm/table.scm:191 ui/vm/dummystr.scm:85
+#: ui/vm/dummystr.scm:85 ui/vm/table.scm:191
 msgid "Mountpoint"
 msgstr "Точка монтирования"
 
-#: ui/vm/dummystr.scm:14
-msgid "NTFS File System Interface Module"
-msgstr "Файловая система NTFS"
+#: ui/vm/dummystr.scm:86
+msgid "Dump Frequency"
+msgstr "частота дампа"
 
-#: ui/vm/blonde.scm:45
-msgid "Name"
-msgstr "Имя устройства"
+#: ui/vm/dummystr.scm:87
+msgid "Check order"
+msgstr "порядок проверки"
 
-#. lvm2 vg
-#: ui/vm/dummystr.scm:39
-msgid "Name for the new LVM2 container."
-msgstr "Имя группы томов"
-
-#. lvm2 lv
-#: ui/vm/dummystr.scm:42
-msgid "Name for the new LVM2 region."
-msgstr "Имя тома"
-
-#: ui/vm/popup.scm:100
-msgid "Next operation"
-msgstr "Следующая операция"
-
-#. misc
-#: ui/vm/dummystr.scm:78
-msgid ""
-"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
-msgstr ""
-"Изменение размеров раздела Vista может привести к невозможности загрузки с "
-"этого раздела. Продолжить?"
-
-#: ui/vm/dummystr.scm:44
-msgid "Number of stripes for the new LVM2 region."
-msgstr "Число расслоений (stripes)"
-
-#: ui/vm/dummystr.scm:66
-msgid "Number of stripes for the new portion of the region."
-msgstr "Число расслоений (stripes) для новой области"
-
-#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
-msgid "OK"
-msgstr "OK"
-
-#: ui/vm/popup.scm:92
-msgid "Objects"
-msgstr "Объекты"
-
-#: ui/vm/dummystr.scm:45
-msgid "Objects (PVs) to place the new LVM2 region on."
-msgstr "Разместить на следующих устройствах"
-
-#: ui/vm/dummystr.scm:67
-msgid "Objects (PVs) to use for the new portion of the region."
-msgstr "Разместить новую область на следующих устройствах"
-
-#: ui/vm/dummystr.scm:3
-msgid "Offset"
-msgstr "Смещение"
+#: ui/vm/dummystr.scm:88
+msgid "inaccesible or not a directory"
+msgstr "недоступна или не директория"
 
 #: ui/vm/dummystr.scm:89
 msgid "Operation not permitted"
 msgstr "Операция невозможна"
 
-#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
-msgid "Options"
-msgstr "Параметры"
+#: ui/vm/blonde.scm:45
+msgid "Name"
+msgstr "Имя устройства"
 
-#: ui/vm/dummystr.scm:5
-msgid "Partition Type"
-msgstr "Тип раздела"
-
-#: ui/vm/table.scm:122
-msgid "Please assign \"/\" mount point"
-msgstr "Пожалуйста, назначьте какому-либо тому точку монтирования \"/\""
-
-#: ui/vm/functions.scm:3
-msgid "Please wait..."
-msgstr "Пожалуйста, подождите..."
-
-#: ui/vm/dummystr.scm:4
-msgid "Primary Partition"
-msgstr "Основной раздел"
-
-#: ui/vm/dummystr.scm:37
-msgid "Quick mkfs"
-msgstr "Быстрое создание"
-
-#: ui/vm/dummystr.scm:58
-msgid "RAID level"
-msgstr "Уровень RAID"
-
-#. raid5
-#: ui/vm/dummystr.scm:57
-msgid "RAID5 Algorithm"
-msgstr "Алгоритм RAID5"
-
-#: ui/vm/dummystr.scm:17
-msgid "Read/Write Check For Bad Blocks"
-msgstr "Проверка сбойных участков (чтение/запись)"
-
-#: ui/vm/dummystr.scm:10
-msgid "ReiserFS File System Interface Module"
-msgstr "Файловая система ReiserFS"
-
-#: ui/vm/table.scm:223 ui/vm/table.scm:229
-msgid "Remove Filesystem"
-msgstr "Удалить файловую систему"
-
-#: ui/vm/table.scm:253
-msgid "Reset"
-msgstr "Вернуть"
-
-#: ui/vm/choice.scm:28
-msgid "Select"
-msgstr "Выберите"
-
-#: ui/vm/ortodox.scm:78
-msgid "Select disks for use"
-msgstr "Выберите диски для использования"
-
-#: ui/vm/blonde.scm:101
-msgid "Select installation method"
-msgstr "Выберите метод установки"
-
-#: ui/vm/ortodox.scm:83
-msgid "Select profile"
-msgstr "Выберите профиль"
-
-#. profiles
-#: ui/vm/dummystr.scm:74
-msgid "Setup for server"
-msgstr "Установка сервера"
-
-#: ui/vm/dummystr.scm:75
-msgid "Setup for workstation"
-msgstr "Установка рабочей станции"
-
-#: ui/vm/popup.scm:103
-msgid "Show extra options"
-msgstr "Показывать дополнительные настройки"
-
-#: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
-#: ui/vm/table.scm:218
-msgid "Shrink"
-msgstr "Уменьшить"
-
-#. shrink seg
-#: ui/vm/dummystr.scm:63
-msgid "Shrink by Size"
-msgstr "Уменьшить на"
-
-#.
-#: ui/vm/dummystr.scm:2
-msgid "Size"
-msgstr "Размер"
-
-#: ui/vm/table.scm:188
-msgid "Size [ free ]"
-msgstr "Размер [свободно]"
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:189
+msgid "Filesystem"
+msgstr "Файловая система"
 
 #: ui/vm/blonde.scm:47
 msgid "Size [free]"
 msgstr "Размер [свободно]"
 
-#: ui/vm/dummystr.scm:43
-msgid "Size for the new LVM2 region."
-msgstr "Размер тома"
+#: ui/vm/blonde.scm:83
+msgid "Use unpartitioned disk space"
+msgstr "Использовать неразмеченное пространство"
 
-#. shrink lv
-#: ui/vm/dummystr.scm:69
-msgid "Size to remove from the LVM2 region."
-msgstr "Уменьшить том на"
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr "Удалить все разделы и создать разделы автоматически"
 
-#: ui/vm/dummystr.scm:55
-msgid "Spare Disk"
-msgstr "Резервный диск"
+# Настройка вручную
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr "Подготовить разделы вручную"
 
-#: ui/vm/dummystr.scm:11
-msgid "Swap File System Interface Module"
-msgstr "Файловая система подкачки (swap)"
+#: ui/vm/blonde.scm:91
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr ""
+"Все ваши данные на всех дисках (в том числе внешних) будут утеряны! "
+"Продолжить?"
 
-#: ui/vm/table.scm:228
-msgid "Umount Filesystem"
-msgstr "Размонтировать файловую систему"
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr "Разделы"
 
-#: ui/vm/ortodox.scm:129
-msgid "Unable to apply selected profile, not enough disk space"
-msgstr "Невозможно применить профиль, недостаточно места на диске"
+#: ui/vm/blonde.scm:101
+msgid "Select installation method"
+msgstr "Выберите метод установки"
 
 #: ui/vm/blonde.scm:138
 msgid "Unable to autopartition, not enough disk space"
@@ -500,49 +407,145 @@ msgstr "Невозможно создать все разделы, недост�
 msgid "Unable to partition, not enough disk space"
 msgstr "Невозможно создать все разделы, недостаточно места на диске"
 
-#: ui/vm/blonde.scm:83
-msgid "Use unpartitioned disk space"
-msgstr "Использовать неразмеченное пространство"
-
-#: ui/vm/dummystr.scm:52
-msgid "Version 1 Super Block"
-msgstr "Суперблок версии 1"
-
-#. reiserfs FIXME
-#: ui/vm/dummystr.scm:28
-msgid "Version of mkreiserfs"
-msgstr "Версия mkreiserfs"
-
-#: ui/vm/dummystr.scm:18
-msgid "Volume Label"
-msgstr "Метка тома"
-
-#. fat16/32
-#: ui/vm/dummystr.scm:32
-msgid "Volume label"
-msgstr "Метка тома"
-
-#: standard input:2
-msgid "Volume management"
-msgstr "Управление дисками"
-
-#: ui/vm/blonde.scm:97
-msgid "Volumes"
-msgstr "Разделы"
-
-#: ui/vm/dummystr.scm:8
-msgid "XFS File System Interface Module"
-msgstr "Файловая система XFS"
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+msgid "All data from all your disks will be lost!"
+msgstr "Все ваши данные на всех дисках будут утеряны!"
 
 #: ui/vm/lucky.scm:68
 msgid "Yes, i'm warned"
 msgstr "Да, я согласен."
 
-#: ui/vm/ortodox.scm:52
-msgid "free space required:"
-msgstr "требуется "
+#: ui/vm/table.scm:86
+msgid "Congrats! You've found a secret level!"
+msgstr "Поздравляю! Вы обнаружили секретный уровень!"
 
-#: ui/vm/dummystr.scm:88
-msgid "inaccesible or not a directory"
-msgstr "недоступна или не директория"
+#: ui/vm/table.scm:122
+msgid "Please assign \"/\" mount point"
+msgstr "Пожалуйста, назначьте какому-либо тому точку монтирования \"/\""
 
+#: ui/vm/table.scm:130
+msgid "Apply requested changes?"
+msgstr "Произвести запрошенные изменения?"
+
+#: ui/vm/table.scm:135
+msgid "All data on following partitions will be lost:"
+msgstr "Все данные на следующих разделах будут утеряны:"
+
+#: ui/vm/table.scm:138
+msgid "Continue?"
+msgstr "Продолжить?"
+
+#: ui/vm/table.scm:187
+msgid "   Name   "
+msgstr "   Имя   "
+
+#: ui/vm/table.scm:188
+msgid "Size [ free ]"
+msgstr "Размер [свободно]"
+
+#: ui/vm/table.scm:192
+msgid "Mounted on"
+msgstr "Примонтировано в"
+
+#: ui/vm/table.scm:193
+msgid "Mount options"
+msgstr "Опции монтирования"
+
+#: ui/vm/table.scm:196
+msgid "Create RAID"
+msgstr "Создать RAID"
+
+#: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
+#: ui/vm/table.scm:214 ui/vm/table.scm:219
+msgid "Destroy"
+msgstr "Удалить"
+
+#: ui/vm/table.scm:199
+msgid "Create Volume Group"
+msgstr "Создать группу томов"
+
+#: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
+#: ui/vm/table.scm:217
+msgid "Expand"
+msgstr "Увеличить"
+
+#: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
+#: ui/vm/table.scm:218
+msgid "Shrink"
+msgstr "Уменьшить"
+
+#: ui/vm/table.scm:204 ui/vm/table.scm:216
+msgid "Create Volume"
+msgstr "Создать том"
+
+#: ui/vm/table.scm:209 ui/vm/table.scm:211
+msgid "Create Partition"
+msgstr "Создать раздел"
+
+#: ui/vm/table.scm:210
+msgid "Destroy Partition Table"
+msgstr "Удалить таблицу разделов"
+
+#: ui/vm/table.scm:222 ui/vm/table.scm:225
+msgid "Make Filesystem"
+msgstr "Создать файловую систему"
+
+#: ui/vm/table.scm:223 ui/vm/table.scm:229
+msgid "Remove Filesystem"
+msgstr "Удалить файловую систему"
+
+#: ui/vm/table.scm:224
+msgid "Edit Mountpoint"
+msgstr "Изменить точку монтирования"
+
+#: ui/vm/table.scm:226
+msgid "Check Filesystem"
+msgstr "Проверить файловую систему"
+
+#: ui/vm/table.scm:227
+msgid "Mount Filesystem"
+msgstr "Монтировать файловую систему"
+
+#: ui/vm/table.scm:228
+msgid "Umount Filesystem"
+msgstr "Размонтировать файловую систему"
+
+#: ui/vm/table.scm:253
+msgid "Reset"
+msgstr "Вернуть"
+
+#: ui/vm/table.scm:258
+msgid "Apply"
+msgstr "Применить"
+
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr "Объекты"
+
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr "Следующая операция"
+
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
+msgstr "Показывать дополнительные настройки"
+
+#: ui/vm/popup.scm:109 ui/vm/choice.scm:34
+msgid "OK"
+msgstr "OK"
+
+#: ui/vm/popup.scm:112 ui/vm/choice.scm:35
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Выберите"
+
+#~ msgid "Ext2/3/4 File System Interface Module"
+#~ msgstr "Файловая система Ext2/3/4"

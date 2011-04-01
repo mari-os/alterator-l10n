@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:54+0400\n"
 "PO-Revision-Date: 2009-03-28 10:48-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,26 +20,61 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:9 ui/users/add/index.scm:83 ui/users/index.scm:44
-msgid "(enter passphrase)"
-msgstr "(entre com a senha)"
+#: standard input:1
+msgid "Local user accounts"
+msgstr "Contas de Úsuarios Locais"
 
-#: standard input:10 ui/users/add/index.scm:85 ui/users/index.scm:46
-msgid "(repeat passphrase)"
-msgstr "(repetir a senha)"
-
-#: standard input:12 ui/users/index.scm:57
-msgid "Apply"
-msgstr "Aplicar"
-
-#.
-#: standard input:3 ui/users/add/index.scm:68 ui/users/index.scm:22
-msgid "Comment:"
-msgstr "Comentários:"
+#: standard input:1 ui/users/index.scm:11
+msgid "New account:"
+msgstr "Nova Conta:"
 
 #: standard input:2 ui/users/index.scm:13
 msgid "Create"
 msgstr "Criar"
+
+#.
+#: standard input:3 ui/users/index.scm:22 ui/users/add/index.scm:68
+msgid "Comment:"
+msgstr "Comentários:"
+
+#.
+#: standard input:4 ui/users/index.scm:25
+msgid "Home directory:"
+msgstr "Diretório Home:"
+
+#.
+#: standard input:5 ui/users/index.scm:28
+msgid "Shell:"
+msgstr "Shell:"
+
+#: standard input:6 ui/users/index.scm:32
+msgid "Member of administrators group"
+msgstr "Membro do grupo de administradores"
+
+#.
+#: standard input:7 ui/users/index.scm:38 ui/users/add/index.scm:77
+msgid "Password:"
+msgstr "Senha:"
+
+#: standard input:8 ui/users/index.scm:41 ui/users/add/index.scm:80
+msgid "Generate automatically"
+msgstr "Gerar automáticamente"
+
+#: standard input:9 ui/users/index.scm:44 ui/users/add/index.scm:83
+msgid "(enter passphrase)"
+msgstr "(entre com a senha)"
+
+#: standard input:10 ui/users/index.scm:46 ui/users/add/index.scm:85
+msgid "(repeat passphrase)"
+msgstr "(repetir a senha)"
+
+#: standard input:11 ui/users/index.scm:48 ui/users/add/index.scm:87
+msgid "Generate"
+msgstr "Gerar"
+
+#: standard input:12 ui/users/index.scm:57
+msgid "Apply"
+msgstr "Aplicar"
 
 #: standard input:13 ui/users/index.scm:59
 msgid "Delete user"
@@ -48,124 +84,42 @@ msgstr "Deletar usuário"
 msgid "Do you really want to delete user "
 msgstr "Você realmente deseja apagar o usuário"
 
-#: standard input:11 ui/users/add/index.scm:87 ui/users/index.scm:48
-msgid "Generate"
-msgstr "Gerar"
-
-#: standard input:8 ui/users/add/index.scm:80 ui/users/index.scm:41
-msgid "Generate automatically"
-msgstr "Gerar automáticamente"
-
-#.
-#: standard input:4 ui/users/index.scm:25
-msgid "Home directory:"
-msgstr "Diretório Home:"
-
-#: standard input:1
-msgid "Local user accounts"
-msgstr "Contas de Úsuarios Locais"
-
-#: standard input:6 ui/users/index.scm:32
-msgid "Member of administrators group"
-msgstr "Membro do grupo de administradores"
-
-#: ui/users/add/index.scm:63
-msgid "Name:"
-msgstr "Nome:"
-
-#: standard input:1 ui/users/index.scm:11
-msgid "New account:"
-msgstr "Nova Conta:"
-
-#: ui/users/add/index.scm:58
-msgid "New user account"
-msgstr "Nova Conta de Usuário"
-
-#.
-#: standard input:7 ui/users/add/index.scm:77 ui/users/index.scm:38
-msgid "Password:"
-msgstr "Senha:"
-
-#: backend3/users:103
-msgid "Passwords mismatch"
-msgstr "Senhas não conferem"
-
-#.
-#: standard input:5 ui/users/index.scm:28
-msgid "Shell:"
-msgstr "Shell:"
+#: ui/users/add/index.scm:15
+msgid "You should define a system user"
+msgstr "Você deve definir um usuário para o sistema"
 
 #: ui/users/add/index.scm:18
 msgid "You should define a password"
 msgstr "Você necessita definir uma senha"
 
-#: ui/users/add/index.scm:15
-msgid "You should define a system user"
-msgstr "Você deve definir um usuário para o sistema"
+#: ui/users/add/index.scm:58
+msgid "New user account"
+msgstr "Nova Conta de Usuário"
 
-#. '
-#: backend3/users:72
-msgid "can't create mail spool"
-msgstr "Não foi possível criar o \"Mail Spool\""
-
-#. '
-#: backend3/users:71
-msgid "can't create or remove home directory"
-msgstr "Não foi possivel criar ou remover o Diretório \"Home\""
-
-#: backend3/users:122
-msgid "can't remove user's primary group"
-msgstr "Não foi possível Remover o Usuário Primario do Group"
-
-#: backend3/users:70 backend3/users:124
-msgid "can't update group file"
-msgstr "Não foi possível atualizar o arquivo de grupo "
+#: ui/users/add/index.scm:63
+msgid "Name:"
+msgstr "Nome:"
 
 #: backend3/users:63
 msgid "can't update password file"
 msgstr "Não foi possivel atualizar o arquivo de senha"
-
-#: backend3/users:81
-msgid "cannot change password"
-msgstr "Não foi possível alterar a senha"
-
-#: backend3/users:120
-msgid "gid not unique"
-msgstr "GID não é único"
-
-#. '
-#: backend3/users:123
-msgid "group name not unique"
-msgstr "nome do grupo não é único"
-
-#: backend3/users:65
-msgid "invalid argument to option"
-msgstr "Argumento da Opção Inválidos"
 
 #. '
 #: backend3/users:64 backend3/users:118
 msgid "invalid command syntax"
 msgstr "Sintexe do Comando Inválido"
 
-#: backend3/users:119
-msgid "invalid group name"
-msgstr "Nome do Grupo Inválido"
-
-#: backend3/users:121
-msgid "specified group doesn't exist"
-msgstr "grupo especificado não existe"
-
-#: backend3/users:67
-msgid "specified user doesn't exist"
-msgstr "usuário especificado não existe"
+#: backend3/users:65
+msgid "invalid argument to option"
+msgstr "Argumento da Opção Inválidos"
 
 #: backend3/users:66
 msgid "uid already in use"
 msgstr "UID já em uso"
 
-#: backend3/users:141
-msgid "unable to add user %s to group %s"
-msgstr "Não foi possível adicionar o usuário %s no grupo %s"
+#: backend3/users:67
+msgid "specified user doesn't exist"
+msgstr "usuário especificado não existe"
 
 #. '
 #: backend3/users:68
@@ -175,6 +129,53 @@ msgstr "usuário logado"
 #: backend3/users:69
 msgid "username already in use"
 msgstr "Nome de usuário já em uso"
+
+#: backend3/users:70 backend3/users:124
+msgid "can't update group file"
+msgstr "Não foi possível atualizar o arquivo de grupo "
+
+#. '
+#: backend3/users:71
+msgid "can't create or remove home directory"
+msgstr "Não foi possivel criar ou remover o Diretório \"Home\""
+
+#. '
+#: backend3/users:72
+msgid "can't create mail spool"
+msgstr "Não foi possível criar o \"Mail Spool\""
+
+#: backend3/users:81
+msgid "cannot change password"
+msgstr "Não foi possível alterar a senha"
+
+#: backend3/users:103
+msgid "Passwords mismatch"
+msgstr "Senhas não conferem"
+
+#: backend3/users:119
+msgid "invalid group name"
+msgstr "Nome do Grupo Inválido"
+
+#: backend3/users:120
+msgid "gid not unique"
+msgstr "GID não é único"
+
+#: backend3/users:121
+msgid "specified group doesn't exist"
+msgstr "grupo especificado não existe"
+
+#: backend3/users:122
+msgid "can't remove user's primary group"
+msgstr "Não foi possível Remover o Usuário Primario do Group"
+
+#. '
+#: backend3/users:123
+msgid "group name not unique"
+msgstr "nome do grupo não é único"
+
+#: backend3/users:141
+msgid "unable to add user %s to group %s"
+msgstr "Não foi possível adicionar o usuário %s no grupo %s"
 
 #~ msgid "Select"
 #~ msgstr "Selecionar"

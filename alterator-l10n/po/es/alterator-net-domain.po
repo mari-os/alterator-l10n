@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,39 +20,67 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:4 ui/net-domain/index.scm:21
-msgid "Apply"
-msgstr "Aplicar"
-
-#: standard input:2 ui/net-domain/index.scm:14
-#, fuzzy
-msgid "Attention:"
-msgstr "Acción"
-
 #: standard input:1
 #, fuzzy
 msgid "Domain"
 msgstr "Procurar Dominios:"
-
-#: standard input:3 ui/net-domain/index.scm:15
-msgid "Domain change may reset data of some network services"
-msgstr ""
-
-#: backend3/net-domain:21
-msgid "Domain name is too long"
-msgstr ""
 
 #: standard input:1 ui/net-domain/index.scm:7
 #, fuzzy
 msgid "Domain:"
 msgstr "Procurar Dominios:"
 
-#: backend3/net-domain:94
-#, fuzzy
-msgid "Please define domain name"
-msgstr "Procurar Dominios:"
+#: standard input:2
+msgid "Serve kerberos domain:"
+msgstr ""
 
-#: standard input:5 ui/net-domain/index.scm:23
+#: standard input:3 ui/net-domain/index.scm:14
+#, fuzzy
+msgid "Attention:"
+msgstr "Acción"
+
+#: standard input:4 ui/net-domain/index.scm:15
+msgid "Domain change may reset data of some network services"
+msgstr ""
+
+#: standard input:5
+#, fuzzy
+msgid "Current status:"
+msgstr "Estado actual:"
+
+#: standard input:6
+#, fuzzy
+msgid "Resolver:"
+msgstr "Resetar"
+
+#: standard input:7
+#, fuzzy
+msgid "Access:"
+msgstr "Acesso Convidado"
+
+#: standard input:8
+#, fuzzy
+msgid "DHCPD:"
+msgstr "Usar DHCP:"
+
+#: standard input:9
+#, fuzzy
+msgid "LDAP:"
+msgstr "LDAP"
+
+#: standard input:10
+msgid "KDC:"
+msgstr ""
+
+#: standard input:11
+msgid "Samba:"
+msgstr ""
+
+#: standard input:12 ui/net-domain/index.scm:21
+msgid "Apply"
+msgstr "Aplicar"
+
+#: standard input:13 ui/net-domain/index.scm:23
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -108,6 +137,15 @@ msgstr ""
 "#-#-#-#-#  alterator-xkb.po (Alterator)  #-#-#-#-#\n"
 "Resetar"
 
-#: backend3/net-domain:97
+#: backend3/net-domain:143
+msgid "Domain name is too long"
+msgstr ""
+
+#: backend3/net-domain:223
+#, fuzzy
+msgid "Please define domain name"
+msgstr "Procurar Dominios:"
+
+#: backend3/net-domain:226
 msgid "This domain name is registered for internal purposes"
 msgstr ""

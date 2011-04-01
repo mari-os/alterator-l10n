@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:38+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-03-28 10:54-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,37 +20,142 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:11
+#: standard input:1
+msgid "DHCP server"
+msgstr "Servidor DHCP"
+
+#: standard input:1
+msgid ""
+"You must have statically configured ethernet interface to setup dhcp server."
+msgstr "Você deve configurar uma conexão DHCP"
+
+#: standard input:2
+msgid "Reconfigure ethernet interfaces..."
+msgstr "Reconfigurar Interface de Rede"
+
+#: standard input:3
+msgid "General settings"
+msgstr "Configurações gerais"
+
+#: standard input:4
+msgid "Enable DHCP server"
+msgstr "Habilitar o servidor DHCP"
+
+#: standard input:5
+msgid "Interface:"
+msgstr "Interface:"
+
+#: standard input:6
 msgid "(maximum possible address range)"
 msgstr "(Intervalo Máximo possivel de Endereço)"
 
-#: backend3/dhcp:184
-msgid "1 day"
-msgstr "1 dia"
+#: standard input:7
+msgid "Starting IP address:"
+msgstr "Endereço IP Inicial"
+
+#: standard input:8
+msgid "Ending IP address:"
+msgstr "ùltimos IP:"
+
+#: standard input:9
+msgid "Address  expiration time:"
+msgstr "Tempo de Expiração do Endereço:"
+
+#: standard input:10
+msgid "Information provided for clients"
+msgstr "Informações fornecidas para clientes"
+
+#: standard input:11
+msgid "DNS server:"
+msgstr "Servidor DNS:"
+
+#: standard input:12
+msgid "Search domain:"
+msgstr "Procura de Domínios:"
+
+#: standard input:13
+msgid "Default gateway:"
+msgstr "Gateway PAdrão"
+
+#: standard input:14 input:35
+msgid "Apply"
+msgstr "Aplicar"
+
+#: standard input:15 input:36
+msgid "Reset"
+msgstr "Resetar"
+
+#: standard input:16
+msgid "Static addresses"
+msgstr "Endereços Estaticos"
+
+#: standard input:17 input:29
+msgid "IP address"
+msgstr "Endereço IP"
+
+#: standard input:18 input:28
+msgid "MAC address"
+msgstr "Endereço MAC"
+
+#: standard input:19 input:27
+msgid "Computer name"
+msgstr "Nome do computador"
+
+#: standard input:20
+msgid "Remove selected"
+msgstr "Remover selecionado"
+
+#: standard input:21
+msgid "New static address:"
+msgstr "novo endereço estatico:"
+
+#: standard input:22 input:33
+msgid "IP address:"
+msgstr "Endereço IP:"
+
+#: standard input:23 input:32
+msgid "MAC address:"
+msgstr "Endereço MAC:"
+
+#: standard input:24 input:34
+msgid "Computer name:"
+msgstr "Nome do computador:"
+
+#: standard input:25
+msgid "Add"
+msgstr "Adicionar"
+
+#: standard input:26
+msgid "Current dynamically allocated addresses"
+msgstr "Endereços atribuídos dinamicamente"
+
+#: standard input:30
+msgid "Expiration time"
+msgstr "Tempo de expiração"
+
+#: standard input:31
+msgid "Fix address for selected hosts"
+msgstr "Corrigir endereço do Host Selecionado"
+
+#: type/dhcp-mac-address.scm:12
+msgid "invalid MAC address"
+msgstr "Endereço MAC Inválido"
+
+#: backend3/dhcp:86
+msgid "You should define network interface"
+msgstr "Você deve definir uma interface de rede"
+
+#: backend3/dhcp:89
+msgid "You should define address range"
+msgstr "Você deve definir um endereço de range"
 
 #: backend3/dhcp:179
 msgid "1 hour"
 msgstr "1 hora"
 
-#: backend3/dhcp:187
-msgid "1 month"
-msgstr "1 mês"
-
-#: backend3/dhcp:185
-msgid "1 week"
-msgstr "1 semana"
-
-#: backend3/dhcp:183
-msgid "12 hours"
-msgstr "12 horas"
-
 #: backend3/dhcp:180
 msgid "2 hours"
 msgstr "2 horas"
-
-#: backend3/dhcp:186
-msgid "2 weeks"
-msgstr "2 semanas"
 
 #: backend3/dhcp:181
 msgid "4 hours"
@@ -59,139 +165,34 @@ msgstr "4 horas"
 msgid "8 hours"
 msgstr "8 noras"
 
-#: standard input:30
-msgid "Add"
-msgstr "Adicionar"
+#: backend3/dhcp:183
+msgid "12 hours"
+msgstr "12 horas"
 
-#: standard input:14
-msgid "Address  expiration time:"
-msgstr "Tempo de Expiração do Endereço:"
+#: backend3/dhcp:184
+msgid "1 day"
+msgstr "1 dia"
 
-#: standard input:4 input:19
-msgid "Apply"
-msgstr "Aplicar"
+#: backend3/dhcp:185
+msgid "1 week"
+msgstr "1 semana"
 
-#: standard input:24 input:32
-msgid "Computer name"
-msgstr "Nome do computador"
+#: backend3/dhcp:186
+msgid "2 weeks"
+msgstr "2 semanas"
 
-#: standard input:3 input:29
-msgid "Computer name:"
-msgstr "Nome do computador:"
+#: backend3/dhcp:187
+msgid "1 month"
+msgstr "1 mês"
 
-#: standard input:31
-msgid "Current dynamically allocated addresses"
-msgstr "Endereços atribuídos dinamicamente"
-
-#: standard input:1
-msgid "DHCP server"
-msgstr "Servidor DHCP"
-
-#: standard input:16
-msgid "DNS server:"
-msgstr "Servidor DNS:"
-
-#: standard input:18
-msgid "Default gateway:"
-msgstr "Gateway PAdrão"
-
-#: standard input:9
-msgid "Enable DHCP server"
-msgstr "Habilitar o servidor DHCP"
-
-#: standard input:13
-msgid "Ending IP address:"
-msgstr "ùltimos IP:"
-
-#: standard input:35
-msgid "Expiration time"
-msgstr "Tempo de expiração"
-
-#: standard input:36
-msgid "Fix address for selected hosts"
-msgstr "Corrigir endereço do Host Selecionado"
-
-#: standard input:8
-msgid "General settings"
-msgstr "Configurações gerais"
-
-#: standard input:22 input:34
-msgid "IP address"
-msgstr "Endereço IP"
-
-#: standard input:2 input:27
-msgid "IP address:"
-msgstr "Endereço IP:"
-
-#: standard input:15
-msgid "Information provided for clients"
-msgstr "Informações fornecidas para clientes"
-
-#: standard input:10
-msgid "Interface:"
-msgstr "Interface:"
-
-#: backend3/dhcp:240
+#: backend3/dhcp:241
 msgid "Invalid address range"
 msgstr "Endereço de Gama Inválido"
 
-#: standard input:23 input:33
-msgid "MAC address"
-msgstr "Endereço MAC"
-
-#: standard input:1 input:28
-msgid "MAC address:"
-msgstr "Endereço MAC:"
-
-#: standard input:26
-msgid "New static address:"
-msgstr "novo endereço estatico:"
-
-#: standard input:7
-msgid "Reconfigure ethernet interfaces..."
-msgstr "Reconfigurar Interface de Rede"
-
-#: standard input:25
-msgid "Remove selected"
-msgstr "Remover selecionado"
-
-#: standard input:5 input:20
-msgid "Reset"
-msgstr "Resetar"
-
-#: backend3/dhcp:275
+#: backend3/dhcp:276
 msgid "Same entry already exists"
 msgstr "Mesma entrada já existe"
 
-#: standard input:17
-msgid "Search domain:"
-msgstr "Procura de Domínios:"
-
-#: standard input:12
-msgid "Starting IP address:"
-msgstr "Endereço IP Inicial"
-
-#: standard input:21
-msgid "Static addresses"
-msgstr "Endereços Estaticos"
-
-#: backend3/dhcp:278 backend3/dhcp:292
+#: backend3/dhcp:279 backend3/dhcp:293
 msgid "This computer name is registered for internal purposes"
 msgstr "Esse nome do computador está registado para efeitos internos"
-
-#: standard input:6
-msgid ""
-"You must have statically configured ethernet interface to setup dhcp server."
-msgstr "Você deve configurar uma conexão DHCP"
-
-#: backend3/dhcp:89
-msgid "You should define address range"
-msgstr "Você deve definir um endereço de range"
-
-#: backend3/dhcp:86
-msgid "You should define network interface"
-msgstr "Você deve definir uma interface de rede"
-
-#: type/dhcp-mac-address.scm:12
-msgid "invalid MAC address"
-msgstr "Endereço MAC Inválido"

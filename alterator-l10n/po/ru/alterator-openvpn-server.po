@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-26 15:10+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2010-10-22 00:32+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -60,7 +60,7 @@ msgstr "DNS-сервер клиента:"
 msgid "Client domain:"
 msgstr "Домен клиента:"
 
-#: standard input:10 input:33
+#: standard input:10 input:32
 msgid "Apply"
 msgstr "Применить"
 
@@ -109,113 +109,111 @@ msgid "LZO compression"
 msgstr "Сжатие LZO"
 
 #: standard input:27
-msgid "Use a TCP connection"
-msgstr "Использовать соединение TCP"
-
-#: standard input:28
 msgid "SSL certificate and key..."
 msgstr "Сертификат и ключ SSL..."
 
-#: standard input:29
+#: standard input:28
 msgid "Upload CA certificate:"
 msgstr "Положить сертификат УЦ:"
 
-#: standard input:30
+#: standard input:29
 msgid "Upload"
 msgstr "Положить"
 
-#: standard input:31
+#: standard input:30
 msgid "CA certificate successfully uploaded"
 msgstr "Сертификат УЦ успешно загружен"
 
-#: standard input:32
+#: standard input:31
 msgid "Clients networks..."
 msgstr "Сети клиентов..."
 
-#: standard input:34
+#: standard input:33
 msgid "Reset"
 msgstr "Вернуть"
 
-#: backend3/openvpn-server:328
+#: backend3/openvpn-server:313
 msgid "Routed (TUN)"
 msgstr "Маршрутизируемое (TUN)"
 
-#: backend3/openvpn-server:329
+#: backend3/openvpn-server:314
 msgid "Bridged (TAP)"
 msgstr "Посредством моста (TAP)"
 
-#: backend3/openvpn-server:443
+#: backend3/openvpn-server:428
 msgid "Invalid config value 'dev'"
 msgstr "Недопустимое значение параметра «dev»"
 
-#: backend3/openvpn-server:735
+#: backend3/openvpn-server:713
 msgid "VPN network conflicts with server network"
 msgstr "VPN сеть конфликтует с сетью сервера"
 
-#: backend3/openvpn-server:739 backend3/openvpn-server:954
+#: backend3/openvpn-server:717 backend3/openvpn-server:939
 msgid "VPN network conflicts with client network"
 msgstr "VPN сеть конфликтует с сетью клиента"
 
-#: backend3/openvpn-server:748
+#: backend3/openvpn-server:726
 msgid "VPN start address not in VPN network"
 msgstr "Начальный адрес VPN не принадлежит VPN-сети"
 
-#: backend3/openvpn-server:752
+#: backend3/openvpn-server:730
 msgid "VPN end address not in VPN network"
 msgstr "Конечный адрес VPN не принадлежит VPN-сети"
 
-#: backend3/openvpn-server:759
+#: backend3/openvpn-server:737
 msgid "VPN start address is greater than VPN end address"
 msgstr "Начальный адрес VPN больше, чем конечный"
 
-#: backend3/openvpn-server:764
+#: backend3/openvpn-server:742
 msgid "Gateway address in VPN addresses pool"
 msgstr "Адрес шлюза находится в VPN сети"
 
-#: backend3/openvpn-server:847
+#: backend3/openvpn-server:832
 msgid "Certificate not found!"
 msgstr "Сертификат не найден!"
 
-#: backend3/openvpn-server:849
+#: backend3/openvpn-server:834
 msgid "Key not found!"
 msgstr "Ключ не найден!"
 
-#: backend3/openvpn-server:851
+#: backend3/openvpn-server:836
 msgid "CA not found!"
 msgstr "Сертификат УЦ не найден!"
 
-#: backend3/openvpn-server:855
+#: backend3/openvpn-server:840
 msgid "openvpn server start failed"
 msgstr "Запуск openvpn сервера не удался"
 
-#: backend3/openvpn-server:926
+#: backend3/openvpn-server:911
 msgid "Server network conflicts with other server network"
 msgstr "Сеть сервера конфликтует с другой сетью сервера"
 
-#: backend3/openvpn-server:928
+#: backend3/openvpn-server:913
 msgid "Server network conflicts with VPN network"
 msgstr "Сеть сервера конфликтует с VPN сетью"
 
-#: backend3/openvpn-server:930 backend3/openvpn-server:952
+#: backend3/openvpn-server:915 backend3/openvpn-server:937
 msgid "Server network conflicts with client network"
 msgstr "Сеть сервера конфликтует с сетью клиента"
 
-#: backend3/openvpn-server:943
+#: backend3/openvpn-server:928
 msgid "Client nameserver not in client network(s)"
 msgstr "Адрес DNS-сервера клиента не принадлежит сетям клиента"
 
-#: backend3/openvpn-server:956
+#: backend3/openvpn-server:941
 msgid "Network conflicts with other client network"
 msgstr "Сеть конфликтует с другой сетью клиента"
 
-#: backend3/openvpn-server:971
+#: backend3/openvpn-server:956
 msgid "File does not exist"
 msgstr "Файл не существует"
 
-#: backend3/openvpn-server:973
-msgid "Invalid certificate"
-msgstr "Неверный сертификат"
-
-#: backend3/openvpn-server:975
+#: backend3/openvpn-server:958
 msgid "Upload CA failed"
 msgstr "Импорт сертификата УЦ не удался"
+
+#~ msgid "Use a TCP connection"
+#~ msgstr "Использовать соединение TCP"
+
+#~ msgid "Invalid certificate"
+#~ msgstr "Неверный сертификат"

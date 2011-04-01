@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-18 13:38+0300\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-05-12 14:07+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -16,266 +16,306 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: ru_RU\n"
 "X-Source-Language: C\n"
 
-#: backend3/openldap:292
-msgid " used for system autentification."
-msgstr "используется для системной аутентификации."
-
-#: input:43
-msgid "(Separated by commas or spaces. Without ou=)"
-msgstr "(разделенные запятыми или пробелами. Без ou=)"
-
-#: input:4
-msgid "Accept only local connections"
-msgstr "Принимать только локальные соединения"
-
-#: input:17
-msgid "Add"
-msgstr "Добавить"
-
-#: input:54
-msgid "Add selected"
-msgstr "Добавить выделенные"
-
-#: input:12
-msgid "Addition of the conflicting schemes or"
-msgstr "Добавление конфликтующих схем или"
-
-#: input:53
-msgid "Available Containers:"
-msgstr "Доступные контейнеры:"
-
-#: backend3/openldap:259
-msgid "Base"
-msgstr "База"
-
-#: input:21 backend3/openldap:307
-msgid "Base DN"
-msgstr "Базовый DN"
-
-#: input:32
-msgid "Base DN:"
-msgstr "Базовый DN:"
-
-#: input:20
-msgid "Bases management"
-msgstr "Управление базами"
-
-#: input:50
-msgid "Bind"
-msgstr "Связать"
-
-#: input:33
-msgid "Bind DN:"
-msgstr "DN связи:"
-
-#: input:34
-msgid "Bind PW:"
-msgstr "Пароль связи:"
-
-#: input:11 input:22
-msgid "Config File"
-msgstr "Файл конфигурации"
-
-#: input:52
-msgid "Containers in base:"
-msgstr "Контейнеры в базе:"
-
-#: input:26
-msgid "Create"
-msgstr "Создать"
-
-#: input:42
-msgid "Create containers:"
-msgstr "Создать контейнеры:"
-
-#: input:44
-msgid "Create new base"
-msgstr "Создать новую базу"
-
-#: input:3
-msgid "Current state"
-msgstr "Текущее состояние службы"
-
-#: backend3/openldap:133
-msgid "Delete"
-msgstr "Удалить"
-
-#: input:24
-msgid "Delete selected bases"
-msgstr "Удалить выделенные базы"
-
-#: input:1
+#: standard input:1
 msgid "Directory service LDAP"
 msgstr "Служба каталогов LDAP"
 
-#: input:5
-msgid "Enable LDAPS (TLS)"
-msgstr "Слушать порт LDAPS (защищённый TLS)"
-
-#: input:2
-msgid "Enable SLAPD server"
-msgstr "Включить службу SLAPD"
-
-#: backend3/openldap:53
-msgid "Encoded password"
-msgstr "Кодированный пароль"
-
-#: input:36
-msgid "Encript rootPW"
-msgstr "Кодировать rootPW"
-
-#: input:38
-msgid "Encripted passwor NOT accessible for other modules."
-msgstr "Кодированный пароль недоступен для других модулей."
-
-#: input:27
-msgid "Expert mode"
-msgstr "Режим эксперта"
-
-#: input:37
-msgid "For SAMBA PDC"
-msgstr "Для SAMBA PDC"
-
-#: input:18
-msgid "Include selected"
-msgstr "Включить выделенные"
-
-#: input:6
-msgid "LDAP on local and LDAPS (TLS) on all interfaces"
-msgstr "LDAP на локальном и LDAPS (TLS)на всех интерфейсах"
-
-#: input:28
-msgid "Load from LDIF file"
-msgstr "Загрузить из LDIF файла"
-
-#: input:1
-msgid "Main server option"
-msgstr "Основные параметры"
-
-#: input:8
-msgid "Manage schema"
-msgstr "Управление схемами"
-
-#: input:46
+#: standard input:1
 msgid "Managed base:"
 msgstr "Управляемая база:"
 
-#: input:35
-msgid "New"
-msgstr "Новый"
-
-#: input:25
-msgid "New base DN:"
-msgstr "Новый базовый DN:"
-
-#: input:30
-msgid "New base:"
-msgstr "Новая база:"
-
-#: input:15
-msgid "New schema name:"
-msgstr "Имя новой схемы:"
-
-#. echo "$(set|grep -a "in_")" >&2
-#: backend3/openldap:571 backend3/openldap:577
-msgid "Not all data present."
-msgstr "Не все данные представлены."
-
-#: input:47
+#: standard input:2
 msgid "Please enter correct bind data for this base"
 msgstr "Пожалуйста, введите корректные данные для связи с этой базой"
 
-#: input:41
-msgid "Please, remember this password!!!"
-msgstr "Пожалуйста, запомните этот пароль!!!"
-
-#: input:29
-msgid "Prepare base from LDIF file"
-msgstr "Подготовить базу из файла LDIF"
-
-#: backend3/openldap:131
-msgid "Publish"
-msgstr "Опубликовать"
-
-#: input:19 input:45 input:56
-msgid "Return to list"
-msgstr "Вернуться к списку"
-
-#: input:55
-msgid "Save LDIF file"
-msgstr "Сохранить файл LDIF"
-
-#: input:7
-msgid "Save options"
-msgstr "Сохранить параметры"
-
-#: input:10
-msgid "Schema"
-msgstr "Схема"
-
-#: input:9
-msgid "Schema management"
-msgstr "Управление схемами"
-
-#: input:51
-msgid "Select action:"
-msgstr "Выберите операцию:"
-
-#: input:23
-msgid "Status"
-msgstr "Состояние"
-
-#: backend3/openldap:132
-msgid "Unpublish"
-msgstr "Скрыть"
-
-#: backend3/openldap:55
-msgid "Unsafe password"
-msgstr "Небезопасный пароль"
-
-#: backend3/openldap:64
-msgid "Used for autentification,"
-msgstr "Используется для аутентификации,"
-
-#: input:14
-msgid "You have been warned..."
-msgstr "Вы предупреждены ..."
-
-#: input:39
-msgid "You will be asked for a password every time "
-msgstr "Вам будет предложено ввести пароль каждый раз"
-
-#: input:31
-msgid "Your FQDN:"
-msgstr "Ваш FQDN:"
-
-#: backend3/openldap:259 backend3/openldap:307
-msgid "already exists in the system"
-msgstr "уже существует в системе"
-
-#: input:13
-msgid "disabling some schemes may cause your databases inoperable!"
-msgstr "отключение некоторых схем может привести к выходу баз данных из строя!"
-
-#: input:16
-msgid "from file:"
-msgstr "из файла:"
-
-#: input:40
-msgid "of using modules, e.g. \"Users\" and \"Groups\"."
-msgstr "при использовании модулей, таких как \"Пользователи\" и \"Группы\"."
-
-#: input:48
+#: standard input:3
 msgid "root dn:"
 msgstr "Корневой dn:"
 
-#: input:49
+#: standard input:4
 msgid "root password:"
 msgstr "Пароль корневого dn:"
+
+#: standard input:5
+msgid "Bind"
+msgstr "Связать"
+
+#: standard input:6
+msgid "Select action:"
+msgstr "Выберите операцию:"
+
+#: standard input:7
+msgid "Containers in base:"
+msgstr "Контейнеры в базе:"
+
+#: standard input:8
+msgid "Available Containers:"
+msgstr "Доступные контейнеры:"
+
+#: standard input:9 input:62
+msgid "(Separated by commas or spaces. Without ou=)"
+msgstr "(разделенные запятыми или пробелами. Без ou=)"
+
+#: standard input:10 input:36
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:11
+msgid "Save LDIF file"
+msgstr "Сохранить файл LDIF"
+
+#: standard input:12 input:38 input:64
+msgid "Return to list"
+msgstr "Вернуться к списку"
+
+#: standard input:13
+msgid "RO mode. You can delete some bases and can't create new bases."
+msgstr ""
+
+#: standard input:14
+#, fuzzy
+msgid " You can manage schemas."
+msgstr "Управление схемами"
+
+#: standard input:15
+msgid "Samba scheme not included in /etc/slapd.conf"
+msgstr ""
+
+#: standard input:16
+msgid "Creation of new base can make your slapd service inaccessible !!!"
+msgstr ""
+
+#: standard input:17
+#, fuzzy
+msgid "Repair configuration?"
+msgstr "Настройка"
+
+#: standard input:18
+msgid "Yes. Include samba.schema"
+msgstr ""
+
+#: standard input:19
+msgid "No. Only show bases"
+msgstr ""
+
+#: standard input:20
+msgid "Main server option"
+msgstr "Основные параметры"
+
+#: standard input:21
+msgid "Enable SLAPD server"
+msgstr "Включить службу SLAPD"
+
+#: standard input:22
+msgid "Current state"
+msgstr "Текущее состояние службы"
+
+#: standard input:23
+msgid "Accept only local connections"
+msgstr "Принимать только локальные соединения"
+
+#: standard input:24
+msgid "Enable LDAPS (TLS)"
+msgstr "Слушать порт LDAPS (защищённый TLS)"
+
+#: standard input:25
+msgid "LDAP on local and LDAPS (TLS) on all interfaces"
+msgstr "LDAP на локальном и LDAPS (TLS)на всех интерфейсах"
+
+#: standard input:26
+msgid "Save options"
+msgstr "Сохранить параметры"
+
+#: standard input:27
+msgid "Manage schema"
+msgstr "Управление схемами"
+
+#: standard input:28
+msgid "Schema management"
+msgstr "Управление схемами"
+
+#: standard input:29
+msgid "Schema"
+msgstr "Схема"
+
+#: standard input:30 input:41
+msgid "Config File"
+msgstr "Файл конфигурации"
+
+#: standard input:31
+msgid "Addition of the conflicting schemes or"
+msgstr "Добавление конфликтующих схем или"
+
+#: standard input:32
+msgid "disabling some schemes may cause your databases inoperable!"
+msgstr "отключение некоторых схем может привести к выходу баз данных из строя!"
+
+#: standard input:33
+msgid "You have been warned..."
+msgstr "Вы предупреждены ..."
+
+#: standard input:34
+msgid "New schema name:"
+msgstr "Имя новой схемы:"
+
+#: standard input:35
+msgid "from file:"
+msgstr "из файла:"
+
+#: standard input:37
+msgid "Include selected"
+msgstr "Включить выделенные"
+
+#: standard input:39
+msgid "Bases management"
+msgstr "Управление базами"
+
+#: standard input:40 backend3/openldap:304 backend3/openldap:338
+#: backend3/openldap:353
+msgid "Base DN"
+msgstr "Базовый DN"
+
+#: standard input:42
+msgid "Status"
+msgstr "Состояние"
+
+#: standard input:43
+msgid "Delete selected bases"
+msgstr "Удалить выделенные базы"
+
+#: standard input:44
+msgid "New base DN:"
+msgstr "Новый базовый DN:"
+
+#: standard input:45
+msgid "Create"
+msgstr "Создать"
+
+#: standard input:46
+msgid "Expert mode"
+msgstr "Режим эксперта"
+
+#: standard input:47
+msgid "Load from LDIF file"
+msgstr "Загрузить из LDIF файла"
+
+#: standard input:48
+msgid "Prepare base from LDIF file"
+msgstr "Подготовить базу из файла LDIF"
+
+#: standard input:49
+msgid "New base:"
+msgstr "Новая база:"
+
+#: standard input:50
+msgid "Your FQDN:"
+msgstr "Ваш FQDN:"
+
+#: standard input:51
+msgid "Base DN:"
+msgstr "Базовый DN:"
+
+#: standard input:52
+msgid "Bind DN:"
+msgstr "DN связи:"
+
+#: standard input:53
+msgid "Bind PW:"
+msgstr "Пароль связи:"
+
+#: standard input:54
+msgid "New"
+msgstr "Новый"
+
+#: standard input:55
+msgid "Encript rootPW"
+msgstr "Кодировать rootPW"
+
+#: standard input:56
+msgid "For SAMBA PDC"
+msgstr "Для SAMBA PDC"
+
+#: standard input:57
+msgid "Please, remember this password!!!"
+msgstr "Пожалуйста, запомните этот пароль!!!"
+
+#: standard input:58
+msgid "Encripted passwor NOT accessible for other modules."
+msgstr "Кодированный пароль недоступен для других модулей."
+
+#: standard input:59
+msgid "You will be asked for a password every time "
+msgstr "Вам будет предложено ввести пароль каждый раз"
+
+#: standard input:60
+msgid "of using modules, e.g. \"Users\" and \"Groups\"."
+msgstr "при использовании модулей, таких как \"Пользователи\" и \"Группы\"."
+
+#: standard input:61
+msgid "Create containers:"
+msgstr "Создать контейнеры:"
+
+#: standard input:63
+msgid "Create new base"
+msgstr "Создать новую базу"
+
+#: backend3/openldap:42
+#, fuzzy
+msgid "Certificate expire"
+msgstr "Сертификат"
+
+#: backend3/openldap:44
+#, fuzzy
+msgid "Certificate not found"
+msgstr "Сертификат не найден!"
+
+#: backend3/openldap:79
+msgid "Encoded password"
+msgstr "Кодированный пароль"
+
+#: backend3/openldap:81
+msgid "Unsafe password"
+msgstr "Небезопасный пароль"
+
+#: backend3/openldap:90
+msgid "Used for autentification,"
+msgstr "Используется для аутентификации,"
+
+#: backend3/openldap:175
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: backend3/openldap:176
+msgid "Unpublish"
+msgstr "Скрыть"
+
+#: backend3/openldap:177
+msgid "Delete"
+msgstr "Удалить"
+
+#: backend3/openldap:304 backend3/openldap:353
+msgid "already exists in the system"
+msgstr "уже существует в системе"
+
+#: backend3/openldap:338
+msgid " used for system autentification."
+msgstr "используется для системной аутентификации."
+
+#. echo "$(set|grep -a "in_")" >&2
+#: backend3/openldap:622 backend3/openldap:628
+msgid "Not all data present."
+msgstr "Не все данные представлены."
+
+#~ msgid "Add selected"
+#~ msgstr "Добавить выделенные"
+
+#~ msgid "Base"
+#~ msgstr "База"
 
 #~ msgid "Apply"
 #~ msgstr "Применить"

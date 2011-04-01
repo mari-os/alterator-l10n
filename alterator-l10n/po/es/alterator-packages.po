@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,93 +20,60 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: ui/packages/index.scm:388
-msgid "Apply"
-msgstr "Aplicar"
-
-#: ui/packages/install.scm:19 ui/packages/install.scm:125
-#, fuzzy
-msgid "Applying changes..."
-msgstr "Adquisición de paquete..."
-
-#: ui/packages/index.scm:291
-#, fuzzy
-msgid "Available"
-msgstr "Ver código fuente"
-
-#: ui/packages/view-pending.scm:12
-msgid "Be Installed"
+#: standard input:1
+msgid "Packages"
 msgstr ""
 
-#: ui/packages/view-pending.scm:11
-msgid "Be Kept"
-msgstr ""
-
-#: ui/packages/view-pending.scm:13
+#: ui/packages/view-profile.scm:102
 #, fuzzy
-msgid "Be Removed"
-msgstr "Remover"
+msgid "Profiles"
+msgstr "Local de los archivos"
 
-#: ui/packages/view-pending.scm:14
-msgid "Be Upgraded"
+#: ui/packages/update.scm:6 ui/packages/update.scm:51
+msgid "Updating Indices..."
 msgstr ""
 
-#: ui/packages/index.scm:262
-msgid "Be freed on disk"
-msgstr ""
+#: ui/packages/update.scm:18 ui/packages/install.scm:31
+msgid "Preparing..."
+msgstr "Preparando..."
 
-#: ui/packages/index.scm:263 ui/packages/index.scm:319
+#: ui/packages/update.scm:22
 #, fuzzy
-msgid "Be used on disk"
-msgstr "Por favor insira un Disco"
-
-#: ui/packages/error.scm:29
-msgid "Close"
-msgstr ""
-
-#: ui/packages/install.scm:37
-#, fuzzy
-msgid "Download"
-msgstr "Conección falló"
+msgid "Updating..."
+msgstr "calculando..."
 
 #: ui/packages/error.scm:6 ui/packages/error.scm:8
 #, fuzzy
 msgid "Error during package installation"
 msgstr "Erro Crítico durante la instalación"
 
-#: ui/packages/view-groups.scm:57
-msgid "Groups"
-msgstr "Grupos"
-
-#: ui/packages/view-pending.scm:15
-msgid "Important"
-msgstr ""
-
-#: ui/packages/install.scm:37
+#: ui/packages/error.scm:17
 #, fuzzy
-msgid "Install"
-msgstr "Instalación completa"
+msgid "Unable to get"
+msgstr "No fue posible configurar el Reloj"
 
-#: ui/packages/index.scm:295
+#: ui/packages/error.scm:19
 #, fuzzy
-msgid "Installed"
-msgstr "Instalación de paquetes..."
+msgid "Unable to locate"
+msgstr "No fue posible configurar el Reloj"
+
+#: ui/packages/error.scm:21
+#, fuzzy
+msgid "Unable to download"
+msgstr "No fue posible configurar el Reloj"
+
+#: ui/packages/error.scm:23
+#, fuzzy
+msgid "Unable to install"
+msgstr "No fue posible configurar el Reloj"
 
 #: ui/packages/error.scm:25
 #, fuzzy
 msgid "Internal error"
 msgstr "Otra rede"
 
-#: ui/packages/index.scm:137
-msgid "Keywords:"
-msgstr ""
-
-#: ui/packages/index.scm:315
-msgid "Need to get"
-msgstr ""
-
-#: standard input:1
-msgid "Packages"
+#: ui/packages/error.scm:29
+msgid "Close"
 msgstr ""
 
 #: ui/packages/index.scm:17
@@ -113,34 +81,76 @@ msgstr ""
 msgid "Packages Installation"
 msgstr "Instalación completa"
 
-#: ui/packages/view-pending.scm:92
-msgid "Pending"
-msgstr ""
-
-#: ui/packages/install.scm:87
-#, fuzzy
-msgid "Please insert CDROM, labeled as "
-msgstr "Por favor, introduzca la etiqueta de CD-ROM"
-
 #: ui/packages/index.scm:26
 #, fuzzy
 msgid "Please wait..."
 msgstr "Por Favor Inicie la sesión"
 
-#: ui/packages/update.scm:18 ui/packages/install.scm:31
-msgid "Preparing..."
-msgstr "Preparando..."
-
-#: ui/packages/view-profile.scm:102
+#: ui/packages/index.scm:112
 #, fuzzy
-msgid "Profiles"
-msgstr "Local de los archivos"
+msgid "View:"
+msgstr "Ver"
 
-#: ui/packages/index.scm:382
-msgid "Redo"
+#: ui/packages/index.scm:137
+msgid "Keywords:"
 msgstr ""
 
-#: ui/packages/index.scm:370
+#: ui/packages/index.scm:233
+msgid "Show package description"
+msgstr ""
+
+#: ui/packages/index.scm:263
+msgid "Be freed on disk"
+msgstr ""
+
+#: ui/packages/index.scm:264 ui/packages/index.scm:320
+#, fuzzy
+msgid "Be used on disk"
+msgstr "Por favor insira un Disco"
+
+#: ui/packages/index.scm:281
+#, fuzzy
+msgid "Show statistics"
+msgstr "Estatísticas"
+
+#: ui/packages/index.scm:292
+#, fuzzy
+msgid "Available"
+msgstr "Ver código fuente"
+
+#: ui/packages/index.scm:296
+#, fuzzy
+msgid "Installed"
+msgstr "Instalación de paquetes..."
+
+#: ui/packages/index.scm:300
+#, fuzzy
+msgid "install"
+msgstr "Instalación completa"
+
+#: ui/packages/index.scm:304
+msgid "upgrade"
+msgstr ""
+
+#: ui/packages/index.scm:308
+msgid "keep"
+msgstr ""
+
+#: ui/packages/index.scm:312
+#, fuzzy
+msgid "remove"
+msgstr "Remover"
+
+#: ui/packages/index.scm:316
+msgid "Need to get"
+msgstr ""
+
+#: ui/packages/index.scm:366
+#, fuzzy
+msgid "Update"
+msgstr "Atualización de la ayuda"
+
+#: ui/packages/index.scm:371
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -197,77 +207,68 @@ msgstr ""
 "#-#-#-#-#  alterator-xkb.po (Alterator)  #-#-#-#-#\n"
 "Resetar"
 
+#: ui/packages/index.scm:377
+msgid "Undo"
+msgstr ""
+
+#: ui/packages/index.scm:383
+msgid "Redo"
+msgstr ""
+
+#: ui/packages/index.scm:389
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ui/packages/install.scm:19 ui/packages/install.scm:125
+#, fuzzy
+msgid "Applying changes..."
+msgstr "Adquisición de paquete..."
+
+#: ui/packages/install.scm:37
+#, fuzzy
+msgid "Install"
+msgstr "Instalación completa"
+
+#: ui/packages/install.scm:37
+#, fuzzy
+msgid "Download"
+msgstr "Conección falló"
+
+#: ui/packages/install.scm:87
+#, fuzzy
+msgid "Please insert CDROM, labeled as "
+msgstr "Por favor, introduzca la etiqueta de CD-ROM"
+
 #: ui/packages/view-search.scm:61
 #, fuzzy
 msgid "Search"
 msgstr "Marzo"
 
-#: ui/packages/index.scm:232
-msgid "Show package description"
+#: ui/packages/view-groups.scm:57
+msgid "Groups"
+msgstr "Grupos"
+
+#: ui/packages/view-pending.scm:11
+msgid "Be Kept"
 msgstr ""
 
-#: ui/packages/index.scm:280
-#, fuzzy
-msgid "Show statistics"
-msgstr "Estatísticas"
-
-#: ui/packages/error.scm:21
-#, fuzzy
-msgid "Unable to download"
-msgstr "No fue posible configurar el Reloj"
-
-#: ui/packages/error.scm:17
-#, fuzzy
-msgid "Unable to get"
-msgstr "No fue posible configurar el Reloj"
-
-#: ui/packages/error.scm:23
-#, fuzzy
-msgid "Unable to install"
-msgstr "No fue posible configurar el Reloj"
-
-#: ui/packages/error.scm:19
-#, fuzzy
-msgid "Unable to locate"
-msgstr "No fue posible configurar el Reloj"
-
-#: ui/packages/index.scm:376
-msgid "Undo"
+#: ui/packages/view-pending.scm:12
+msgid "Be Installed"
 msgstr ""
 
-#: ui/packages/index.scm:365
+#: ui/packages/view-pending.scm:13
 #, fuzzy
-msgid "Update"
-msgstr "Atualización de la ayuda"
-
-#: ui/packages/update.scm:6 ui/packages/update.scm:51
-msgid "Updating Indices..."
-msgstr ""
-
-#: ui/packages/update.scm:22
-#, fuzzy
-msgid "Updating..."
-msgstr "calculando..."
-
-#: ui/packages/index.scm:112
-#, fuzzy
-msgid "View:"
-msgstr "Ver"
-
-#: ui/packages/index.scm:299
-#, fuzzy
-msgid "install"
-msgstr "Instalación completa"
-
-#: ui/packages/index.scm:307
-msgid "keep"
-msgstr ""
-
-#: ui/packages/index.scm:311
-#, fuzzy
-msgid "remove"
+msgid "Be Removed"
 msgstr "Remover"
 
-#: ui/packages/index.scm:303
-msgid "upgrade"
+#: ui/packages/view-pending.scm:14
+msgid "Be Upgraded"
+msgstr ""
+
+#: ui/packages/view-pending.scm:15
+msgid "Important"
+msgstr ""
+
+#: ui/packages/view-pending.scm:92
+msgid "Pending"
 msgstr ""

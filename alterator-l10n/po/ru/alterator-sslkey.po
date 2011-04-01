@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-26 15:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-07-29 21:20+0400\n"
 "Last-Translator:  <sem@altlinux.org>\n"
 "Language-Team: Russian\n"
@@ -83,7 +83,7 @@ msgstr "(ваш адрес электронной почты)"
 msgid "(Re)create key and sign request"
 msgstr "(Пере)создать ключ и запрос на подпись"
 
-#: standard input:15 input:25 ui/sslkey/generate/index.scm:187
+#: standard input:15 input:24 ui/sslkey/generate/index.scm:187
 #: ui/sslkey/index.scm:40
 msgid "Confirm"
 msgstr "Подтвердить"
@@ -105,22 +105,18 @@ msgid "Upload"
 msgstr "Положить"
 
 #: standard input:20
-msgid "Certificate successfully uploaded"
-msgstr "Сертификат успешно загружен"
-
-#: standard input:21
 msgid "SSL keys:"
 msgstr "SSL ключи:"
 
-#: standard input:22 ui/sslkey/index.scm:34
+#: standard input:21 ui/sslkey/index.scm:34
 msgid "New..."
 msgstr "Новый..."
 
-#: standard input:23 ui/sslkey/index.scm:35
+#: standard input:22 ui/sslkey/index.scm:35
 msgid "Change..."
 msgstr "Изменить..."
 
-#: standard input:24 ui/sslkey/index.scm:39
+#: standard input:23 ui/sslkey/index.scm:39
 msgid "Delete key, certificate and sign request"
 msgstr "Удалить ключ, сертификат и запрос на подпись"
 
@@ -171,38 +167,41 @@ msgstr "недопустимый код страны (ISO-3166-alpha-2)"
 msgid "only digits, punctuation and latin letters allowed"
 msgstr "допустимы только цифры, знаки пунктуации и латинские символы"
 
-#: backend3/sslkey:58
+#: backend3/sslkey:36
 msgid "expire"
 msgstr "истекает"
 
-#: backend3/sslkey:60
+#: backend3/sslkey:38
 msgid "OK certificate"
 msgstr "OK сертификат"
 
-#: backend3/sslkey:63
+#: backend3/sslkey:41
 msgid "Invalid certificate"
 msgstr "Неверный сертификат"
 
-#: backend3/sslkey:66
+#: backend3/sslkey:44
 msgid "No certificate"
 msgstr "Нет сертификата"
 
-#: backend3/sslkey:225
+#: backend3/sslkey:203
 msgid "Unable to determine file name"
 msgstr "Невозможно определить имя файла"
 
-#: backend3/sslkey:254
+#: backend3/sslkey:232
 msgid "Invalid certificate file"
 msgstr "Неверный сертификат"
 
-#: backend3/sslkey:260
+#: backend3/sslkey:238
 msgid "Sign request does not exist"
 msgstr "Запрос на подпись не существует"
 
-#: backend3/sslkey:262
+#: backend3/sslkey:240
 msgid "Target directory does not exist"
 msgstr "Целевой каталог не существует"
 
-#: backend3/sslkey:265
+#: backend3/sslkey:243
 msgid "Export sign request failed"
 msgstr "Экспорт запроса на подпись не удался"
+
+#~ msgid "Certificate successfully uploaded"
+#~ msgstr "Сертификат успешно загружен"

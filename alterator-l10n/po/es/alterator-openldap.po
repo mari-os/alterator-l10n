@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,78 +20,271 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: backend3/openldap:293
-#, fuzzy
-msgid " used for system autentification."
-msgstr "IP Inválido"
+#: standard input:1
+msgid "Directory service LDAP"
+msgstr ""
 
-#: standard input:43 input:54
+#: standard input:1
 #, fuzzy
-msgid "(Separated by commas or spaces. Without ou=)"
-msgstr "(separados por comas o espacios)"
+msgid "Managed base:"
+msgstr "Procurar Dominios:"
+
+#: standard input:2
+msgid "Please enter correct bind data for this base"
+msgstr ""
+
+#: standard input:3
+#, fuzzy
+msgid "root dn:"
+msgstr "Interfaz ROOT"
 
 #: standard input:4
 #, fuzzy
-msgid "Accept only local connections"
-msgstr "Todas las conecciones"
+msgid "root password:"
+msgstr "Contraseña"
 
-#: standard input:17 input:55
-msgid "Add"
-msgstr "Adiccionar"
-
-#: standard input:12
-msgid "Addition of the conflicting schemes or"
-msgstr ""
-
-#: standard input:53
-#, fuzzy
-msgid "Available Containers:"
-msgstr "Layouts disponibles:"
-
-#: standard input:21 backend3/openldap:260 backend3/openldap:293
-#: backend3/openldap:308
-#, fuzzy
-msgid "Base DN"
-msgstr "Base DN:"
-
-#: standard input:32
-msgid "Base DN:"
-msgstr "Base DN:"
-
-#: standard input:20
-#, fuzzy
-msgid "Bases management"
-msgstr "Administração de Usuário"
-
-#: standard input:50
+#: standard input:5
 #, fuzzy
 msgid "Bind"
 msgstr "Base DN:"
 
-#: standard input:33
+#: standard input:6
 #, fuzzy
-msgid "Bind DN:"
-msgstr "Base DN:"
+msgid "Select action:"
+msgstr "Borrar conección"
 
-#: standard input:34
-msgid "Bind PW:"
-msgstr ""
-
-#: standard input:11 input:22
-#, fuzzy
-msgid "Config File"
-msgstr "Configurar"
-
-#: standard input:52
+#: standard input:7
 #, fuzzy
 msgid "Containers in base:"
 msgstr "Rede Configurada"
 
+#: standard input:8
+#, fuzzy
+msgid "Available Containers:"
+msgstr "Layouts disponibles:"
+
+#: standard input:9 input:62
+#, fuzzy
+msgid "(Separated by commas or spaces. Without ou=)"
+msgstr "(separados por comas o espacios)"
+
+#: standard input:10 input:36
+msgid "Add"
+msgstr "Adiccionar"
+
+#: standard input:11
+#, fuzzy
+msgid "Save LDIF file"
+msgstr "Conección falló"
+
+#: standard input:12 input:38 input:64
+#, fuzzy
+msgid "Return to list"
+msgstr "Volver para lista de cadena"
+
+#: standard input:13
+msgid "RO mode. You can delete some bases and can't create new bases."
+msgstr ""
+
+#: standard input:14
+#, fuzzy
+msgid " You can manage schemas."
+msgstr "Remover seleccionado"
+
+#: standard input:15
+msgid "Samba scheme not included in /etc/slapd.conf"
+msgstr ""
+
+#: standard input:16
+msgid "Creation of new base can make your slapd service inaccessible !!!"
+msgstr ""
+
+#: standard input:17
+#, fuzzy
+msgid "Repair configuration?"
+msgstr "Información"
+
+#: standard input:18
+msgid "Yes. Include samba.schema"
+msgstr ""
+
+#: standard input:19
+msgid "No. Only show bases"
+msgstr ""
+
+#: standard input:20
+#, fuzzy
+msgid "Main server option"
+msgstr "Ajustes"
+
+#: standard input:21
+#, fuzzy
+msgid "Enable SLAPD server"
+msgstr "Servicio posibilitado de FTP"
+
+#: standard input:22
+msgid "Current state"
+msgstr "Estado actual"
+
+#: standard input:23
+#, fuzzy
+msgid "Accept only local connections"
+msgstr "Todas las conecciones"
+
+#: standard input:24
+#, fuzzy
+msgid "Enable LDAPS (TLS)"
+msgstr "Posibilitar TLS/SSL"
+
+#: standard input:25
+msgid "LDAP on local and LDAPS (TLS) on all interfaces"
+msgstr ""
+
 #: standard input:26
+#, fuzzy
+msgid "Save options"
+msgstr "Ajustes"
+
+#: standard input:27
+#, fuzzy
+msgid "Manage schema"
+msgstr "Remover seleccionado"
+
+#: standard input:28
+#, fuzzy
+msgid "Schema management"
+msgstr "Administração de Usuário"
+
+#: standard input:29
+msgid "Schema"
+msgstr ""
+
+#: standard input:30 input:41
+#, fuzzy
+msgid "Config File"
+msgstr "Configurar"
+
+#: standard input:31
+msgid "Addition of the conflicting schemes or"
+msgstr ""
+
+#: standard input:32
+msgid "disabling some schemes may cause your databases inoperable!"
+msgstr ""
+
+#: standard input:33
+msgid "You have been warned..."
+msgstr ""
+
+#: standard input:34
+#, fuzzy
+msgid "New schema name:"
+msgstr "Nombre del Sistema:"
+
+#: standard input:35
+msgid "from file:"
+msgstr ""
+
+#: standard input:37
+#, fuzzy
+msgid "Include selected"
+msgstr "Remover seleccionado"
+
+#: standard input:39
+#, fuzzy
+msgid "Bases management"
+msgstr "Administração de Usuário"
+
+#: standard input:40 backend3/openldap:304 backend3/openldap:338
+#: backend3/openldap:353
+#, fuzzy
+msgid "Base DN"
+msgstr "Base DN:"
+
+#: standard input:42
+#, fuzzy
+msgid "Status"
+msgstr "Status:"
+
+#: standard input:43
+#, fuzzy
+msgid "Delete selected bases"
+msgstr "Remover seleccionado"
+
+#: standard input:44
+#, fuzzy
+msgid "New base DN:"
+msgstr "Base DN:"
+
+#: standard input:45
 msgid "Create"
 msgstr "Crear"
 
-#: standard input:42
+#: standard input:46
+msgid "Expert mode"
+msgstr "Modo Avanzado"
+
+#: standard input:47
+#, fuzzy
+msgid "Load from LDIF file"
+msgstr "Conección falló"
+
+#: standard input:48
+msgid "Prepare base from LDIF file"
+msgstr ""
+
+#: standard input:49
+#, fuzzy
+msgid "New base:"
+msgstr "Base DN:"
+
+#: standard input:50
+msgid "Your FQDN:"
+msgstr ""
+
+#: standard input:51
+msgid "Base DN:"
+msgstr "Base DN:"
+
+#: standard input:52
+#, fuzzy
+msgid "Bind DN:"
+msgstr "Base DN:"
+
+#: standard input:53
+msgid "Bind PW:"
+msgstr ""
+
+#: standard input:54
+#, fuzzy
+msgid "New"
+msgstr "Rede"
+
+#: standard input:55
+msgid "Encript rootPW"
+msgstr ""
+
+#: standard input:56
+msgid "For SAMBA PDC"
+msgstr ""
+
+#: standard input:57
+msgid "Please, remember this password!!!"
+msgstr ""
+
+#: standard input:58
+msgid "Encripted passwor NOT accessible for other modules."
+msgstr ""
+
+#: standard input:59
+msgid "You will be asked for a password every time "
+msgstr ""
+
+#: standard input:60
+msgid "of using modules, e.g. \"Users\" and \"Groups\"."
+msgstr ""
+
+#: standard input:61
 #, fuzzy
 msgid "Create containers:"
 msgstr ""
@@ -99,215 +293,62 @@ msgstr ""
 "#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
 "Borrar Conección"
 
-#: standard input:44
+#: standard input:63
 #, fuzzy
 msgid "Create new base"
 msgstr "Configurar la Fecha Actual:"
 
-#: standard input:3
-msgid "Current state"
-msgstr "Estado actual"
-
-#: backend3/openldap:133
-msgid "Delete"
-msgstr "Borrar"
-
-#: standard input:24
+#: backend3/openldap:42
 #, fuzzy
-msgid "Delete selected bases"
-msgstr "Remover seleccionado"
+msgid "Certificate expire"
+msgstr "Certificado"
 
-#: standard input:1
-msgid "Directory service LDAP"
-msgstr ""
-
-#: standard input:5
+#: backend3/openldap:44
 #, fuzzy
-msgid "Enable LDAPS (TLS)"
-msgstr "Posibilitar TLS/SSL"
+msgid "Certificate not found"
+msgstr "Archivo del Desktop no encontrado "
 
-#: standard input:2
-#, fuzzy
-msgid "Enable SLAPD server"
-msgstr "Servicio posibilitado de FTP"
-
-#: backend3/openldap:53
+#: backend3/openldap:79
 #, fuzzy
 msgid "Encoded password"
 msgstr "Contraseña"
 
-#: standard input:36
-msgid "Encript rootPW"
-msgstr ""
-
-#: standard input:39
-msgid "Encripted passwor NOT accessible for other modules."
-msgstr ""
-
-#: standard input:27
-msgid "Expert mode"
-msgstr "Modo Avanzado"
-
-#: standard input:37
-msgid "For SAMBA PDC"
-msgstr ""
-
-#: standard input:18
-#, fuzzy
-msgid "Include selected"
-msgstr "Remover seleccionado"
-
-#: standard input:6
-msgid "LDAP on local and LDAPS (TLS) on all interfaces"
-msgstr ""
-
-#: standard input:28
-#, fuzzy
-msgid "Load from LDIF file"
-msgstr "Conección falló"
-
-#: standard input:1
-#, fuzzy
-msgid "Main server option"
-msgstr "Ajustes"
-
-#: standard input:8
-#, fuzzy
-msgid "Manage schema"
-msgstr "Remover seleccionado"
-
-#: standard input:46
-#, fuzzy
-msgid "Managed base:"
-msgstr "Procurar Dominios:"
-
-#: standard input:35
-#, fuzzy
-msgid "New"
-msgstr "Rede"
-
-#: standard input:25
-#, fuzzy
-msgid "New base DN:"
-msgstr "Base DN:"
-
-#: standard input:30
-#, fuzzy
-msgid "New base:"
-msgstr "Base DN:"
-
-#: standard input:15
-#, fuzzy
-msgid "New schema name:"
-msgstr "Nombre del Sistema:"
-
-#. echo "$(set|grep -a "in_")" >&2
-#: backend3/openldap:571 backend3/openldap:577
-msgid "Not all data present."
-msgstr ""
-
-#: standard input:47
-msgid "Please enter correct bind data for this base"
-msgstr ""
-
-#: standard input:38
-msgid "Please, remember this password!!!"
-msgstr ""
-
-#: standard input:29
-msgid "Prepare base from LDIF file"
-msgstr ""
-
-#: backend3/openldap:131
-msgid "Publish"
-msgstr ""
-
-#: standard input:19 input:45 input:57
-#, fuzzy
-msgid "Return to list"
-msgstr "Volver para lista de cadena"
-
-#: standard input:56
-#, fuzzy
-msgid "Save LDIF file"
-msgstr "Conección falló"
-
-#: standard input:7
-#, fuzzy
-msgid "Save options"
-msgstr "Ajustes"
-
-#: standard input:10
-msgid "Schema"
-msgstr ""
-
-#: standard input:9
-#, fuzzy
-msgid "Schema management"
-msgstr "Administração de Usuário"
-
-#: standard input:51
-#, fuzzy
-msgid "Select action:"
-msgstr "Borrar conección"
-
-#: standard input:23
-#, fuzzy
-msgid "Status"
-msgstr "Status:"
-
-#: backend3/openldap:132
-msgid "Unpublish"
-msgstr ""
-
-#: backend3/openldap:55
+#: backend3/openldap:81
 #, fuzzy
 msgid "Unsafe password"
 msgstr "Cambiar contraseña:"
 
-#: backend3/openldap:64
+#: backend3/openldap:90
 #, fuzzy
 msgid "Used for autentification,"
 msgstr "IP Inválido"
 
-#: standard input:14
-msgid "You have been warned..."
+#: backend3/openldap:175
+msgid "Publish"
 msgstr ""
 
-#: standard input:40
-msgid "You will be asked for a password every time "
+#: backend3/openldap:176
+msgid "Unpublish"
 msgstr ""
 
-#: standard input:31
-msgid "Your FQDN:"
-msgstr ""
+#: backend3/openldap:177
+msgid "Delete"
+msgstr "Borrar"
 
-#: backend3/openldap:260 backend3/openldap:308
+#: backend3/openldap:304 backend3/openldap:353
 #, fuzzy
 msgid "already exists in the system"
 msgstr "Sección ya existe."
 
-#: standard input:13
-msgid "disabling some schemes may cause your databases inoperable!"
-msgstr ""
-
-#: standard input:16
-msgid "from file:"
-msgstr ""
-
-#: standard input:41
-msgid "of using modules, e.g. \"Users\" and \"Groups\"."
-msgstr ""
-
-#: standard input:48
+#: backend3/openldap:338
 #, fuzzy
-msgid "root dn:"
-msgstr "Interfaz ROOT"
+msgid " used for system autentification."
+msgstr "IP Inválido"
 
-#: standard input:49
-#, fuzzy
-msgid "root password:"
-msgstr "Contraseña"
+#. echo "$(set|grep -a "in_")" >&2
+#: backend3/openldap:622 backend3/openldap:628
+msgid "Not all data present."
+msgstr ""
 
 #~ msgid "Apply"
 #~ msgstr "Aplicar"

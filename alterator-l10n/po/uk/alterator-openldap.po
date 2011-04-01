@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-18 13:38+0300\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-08-23 01:51+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -16,266 +16,306 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Language: uk_UA\n"
 "X-Source-Language: C\n"
 
-#: backend3/openldap:292
-msgid " used for system autentification."
-msgstr "використовується для системної аутентифікації."
-
-#: input:43
-msgid "(Separated by commas or spaces. Without ou=)"
-msgstr "(розділені комами чи пробілами. Без ou=)"
-
-#: input:4
-msgid "Accept only local connections"
-msgstr "Приймати лише локальні з’єднання"
-
-#: input:17
-msgid "Add"
-msgstr "Додати"
-
-#: input:54
-msgid "Add selected"
-msgstr "Додати обрані"
-
-#: input:12
-msgid "Addition of the conflicting schemes or"
-msgstr "Додання конфліктуючих схем або"
-
-#: input:53
-msgid "Available Containers:"
-msgstr "Доступні контейнери:"
-
-#: backend3/openldap:259
-msgid "Base"
-msgstr "База"
-
-#: input:21 backend3/openldap:307
-msgid "Base DN"
-msgstr "Базовий DN"
-
-#: input:32
-msgid "Base DN:"
-msgstr "Базовий DN:"
-
-#: input:20
-msgid "Bases management"
-msgstr "Керування базами"
-
-#: input:50
-msgid "Bind"
-msgstr "З`еднати"
-
-#: input:33
-msgid "Bind DN:"
-msgstr "DN зв'язку:"
-
-#: input:34
-msgid "Bind PW:"
-msgstr "Пароль зв'язку:"
-
-#: input:11 input:22
-msgid "Config File"
-msgstr "Файл конфігурації"
-
-#: input:52
-msgid "Containers in base:"
-msgstr "Контейнери в базі:"
-
-#: input:26
-msgid "Create"
-msgstr "Створити"
-
-#: input:42
-msgid "Create containers:"
-msgstr "Створити контейнери:"
-
-#: input:44
-msgid "Create new base"
-msgstr "Створити нову базу"
-
-#: input:3
-msgid "Current state"
-msgstr "Поточний стан сервісу"
-
-#: backend3/openldap:133
-msgid "Delete"
-msgstr "Вилучити"
-
-#: input:24
-msgid "Delete selected bases"
-msgstr "Вилучити обрані бази"
-
-#: input:1
+#: standard input:1
 msgid "Directory service LDAP"
 msgstr "Служба каталогів LDAP"
 
-#: input:5
-msgid "Enable LDAPS (TLS)"
-msgstr "Слухати порт LDAPS (захищений TLS)"
-
-#: input:2
-msgid "Enable SLAPD server"
-msgstr "Увімкнути службу SLAPD"
-
-#: backend3/openldap:53
-msgid "Encoded password"
-msgstr "Кодований пароль"
-
-#: input:36
-msgid "Encript rootPW"
-msgstr "Кодувати rootPW"
-
-#: input:38
-msgid "Encripted passwor NOT accessible for other modules."
-msgstr "Кодований пароль недоступний для інших модулів."
-
-#: input:27
-msgid "Expert mode"
-msgstr "Режим експерта"
-
-#: input:37
-msgid "For SAMBA PDC"
-msgstr "Для SAMBA PDC"
-
-#: input:18
-msgid "Include selected"
-msgstr "Вімкнути обране"
-
-#: input:6
-msgid "LDAP on local and LDAPS (TLS) on all interfaces"
-msgstr "LDAP на локальном та LDAPS (TLS)на всіх інтерфейсах"
-
-#: input:28
-msgid "Load from LDIF file"
-msgstr "Звантажити з LDIF файлу"
-
-#: input:1
-msgid "Main server option"
-msgstr "Основні налаштування"
-
-#: input:8
-msgid "Manage schema"
-msgstr "Керування схемами"
-
-#: input:46
+#: standard input:1
 msgid "Managed base:"
 msgstr "Керування базою:"
 
-#: input:35
-msgid "New"
-msgstr "Новий"
-
-#: input:25
-msgid "New base DN:"
-msgstr "Новий базовий DN:"
-
-#: input:30
-msgid "New base:"
-msgstr "Нова база:"
-
-#: input:15
-msgid "New schema name:"
-msgstr "Ім'я нової схеми:"
-
-#. echo "$(set|grep -a "in_")" >&2
-#: backend3/openldap:571 backend3/openldap:577
-msgid "Not all data present."
-msgstr "Не всі відомості надані."
-
-#: input:47
+#: standard input:2
 msgid "Please enter correct bind data for this base"
 msgstr "Будь ласка, введіть коректні відомості для зв'язку з ціею базою"
 
-#: input:41
-msgid "Please, remember this password!!!"
-msgstr "Будь ласка, запам'ятайте цей пароль!!!"
-
-#: input:29
-msgid "Prepare base from LDIF file"
-msgstr "Підготувати базу з файлу LDIF"
-
-#: backend3/openldap:131
-msgid "Publish"
-msgstr "Опублікувати"
-
-#: input:19 input:45 input:56
-msgid "Return to list"
-msgstr "Повернутися до списку"
-
-#: input:55
-msgid "Save LDIF file"
-msgstr "Звантажити файл LDIF"
-
-#: input:7
-msgid "Save options"
-msgstr "Зберегти налаштування"
-
-#: input:10
-msgid "Schema"
-msgstr "Схема"
-
-#: input:9
-msgid "Schema management"
-msgstr "Керування схемами"
-
-#: input:51
-msgid "Select action:"
-msgstr "Обрати дію:"
-
-#: input:23
-msgid "Status"
-msgstr "Стан"
-
-#: backend3/openldap:132
-msgid "Unpublish"
-msgstr "Приховати"
-
-#: backend3/openldap:55
-msgid "Unsafe password"
-msgstr "Ненадійний пароль"
-
-#: backend3/openldap:64
-msgid "Used for autentification,"
-msgstr "Використовується для аутентифікації,"
-
-#: input:14
-msgid "You have been warned..."
-msgstr "Вас попереджено ..."
-
-#: input:39
-msgid "You will be asked for a password every time "
-msgstr "Вам буде запропоновано ввести пароль кожен раз"
-
-#: input:31
-msgid "Your FQDN:"
-msgstr "Ваш FQDN:"
-
-#: backend3/openldap:259 backend3/openldap:307
-msgid "already exists in the system"
-msgstr "вже існує в системі"
-
-#: input:13
-msgid "disabling some schemes may cause your databases inoperable!"
-msgstr "відключення деяких схем може призвести до виходу баз даних з ладу!"
-
-#: input:16
-msgid "from file:"
-msgstr "з файлу:"
-
-#: input:40
-msgid "of using modules, e.g. \"Users\" and \"Groups\"."
-msgstr "при використанні модулів, таких як \"Користувачі\" і \"Групи\"."
-
-#: input:48
+#: standard input:3
 msgid "root dn:"
 msgstr "Кореневий dn:"
 
-#: input:49
+#: standard input:4
 msgid "root password:"
 msgstr "Пароль кореневого dn:"
+
+#: standard input:5
+msgid "Bind"
+msgstr "З`еднати"
+
+#: standard input:6
+msgid "Select action:"
+msgstr "Обрати дію:"
+
+#: standard input:7
+msgid "Containers in base:"
+msgstr "Контейнери в базі:"
+
+#: standard input:8
+msgid "Available Containers:"
+msgstr "Доступні контейнери:"
+
+#: standard input:9 input:62
+msgid "(Separated by commas or spaces. Without ou=)"
+msgstr "(розділені комами чи пробілами. Без ou=)"
+
+#: standard input:10 input:36
+msgid "Add"
+msgstr "Додати"
+
+#: standard input:11
+msgid "Save LDIF file"
+msgstr "Звантажити файл LDIF"
+
+#: standard input:12 input:38 input:64
+msgid "Return to list"
+msgstr "Повернутися до списку"
+
+#: standard input:13
+msgid "RO mode. You can delete some bases and can't create new bases."
+msgstr ""
+
+#: standard input:14
+#, fuzzy
+msgid " You can manage schemas."
+msgstr "Керування схемами"
+
+#: standard input:15
+msgid "Samba scheme not included in /etc/slapd.conf"
+msgstr ""
+
+#: standard input:16
+msgid "Creation of new base can make your slapd service inaccessible !!!"
+msgstr ""
+
+#: standard input:17
+#, fuzzy
+msgid "Repair configuration?"
+msgstr "Налаштування:"
+
+#: standard input:18
+msgid "Yes. Include samba.schema"
+msgstr ""
+
+#: standard input:19
+msgid "No. Only show bases"
+msgstr ""
+
+#: standard input:20
+msgid "Main server option"
+msgstr "Основні налаштування"
+
+#: standard input:21
+msgid "Enable SLAPD server"
+msgstr "Увімкнути службу SLAPD"
+
+#: standard input:22
+msgid "Current state"
+msgstr "Поточний стан сервісу"
+
+#: standard input:23
+msgid "Accept only local connections"
+msgstr "Приймати лише локальні з’єднання"
+
+#: standard input:24
+msgid "Enable LDAPS (TLS)"
+msgstr "Слухати порт LDAPS (захищений TLS)"
+
+#: standard input:25
+msgid "LDAP on local and LDAPS (TLS) on all interfaces"
+msgstr "LDAP на локальном та LDAPS (TLS)на всіх інтерфейсах"
+
+#: standard input:26
+msgid "Save options"
+msgstr "Зберегти налаштування"
+
+#: standard input:27
+msgid "Manage schema"
+msgstr "Керування схемами"
+
+#: standard input:28
+msgid "Schema management"
+msgstr "Керування схемами"
+
+#: standard input:29
+msgid "Schema"
+msgstr "Схема"
+
+#: standard input:30 input:41
+msgid "Config File"
+msgstr "Файл конфігурації"
+
+#: standard input:31
+msgid "Addition of the conflicting schemes or"
+msgstr "Додання конфліктуючих схем або"
+
+#: standard input:32
+msgid "disabling some schemes may cause your databases inoperable!"
+msgstr "відключення деяких схем може призвести до виходу баз даних з ладу!"
+
+#: standard input:33
+msgid "You have been warned..."
+msgstr "Вас попереджено ..."
+
+#: standard input:34
+msgid "New schema name:"
+msgstr "Ім'я нової схеми:"
+
+#: standard input:35
+msgid "from file:"
+msgstr "з файлу:"
+
+#: standard input:37
+msgid "Include selected"
+msgstr "Вімкнути обране"
+
+#: standard input:39
+msgid "Bases management"
+msgstr "Керування базами"
+
+#: standard input:40 backend3/openldap:304 backend3/openldap:338
+#: backend3/openldap:353
+msgid "Base DN"
+msgstr "Базовий DN"
+
+#: standard input:42
+msgid "Status"
+msgstr "Стан"
+
+#: standard input:43
+msgid "Delete selected bases"
+msgstr "Вилучити обрані бази"
+
+#: standard input:44
+msgid "New base DN:"
+msgstr "Новий базовий DN:"
+
+#: standard input:45
+msgid "Create"
+msgstr "Створити"
+
+#: standard input:46
+msgid "Expert mode"
+msgstr "Режим експерта"
+
+#: standard input:47
+msgid "Load from LDIF file"
+msgstr "Звантажити з LDIF файлу"
+
+#: standard input:48
+msgid "Prepare base from LDIF file"
+msgstr "Підготувати базу з файлу LDIF"
+
+#: standard input:49
+msgid "New base:"
+msgstr "Нова база:"
+
+#: standard input:50
+msgid "Your FQDN:"
+msgstr "Ваш FQDN:"
+
+#: standard input:51
+msgid "Base DN:"
+msgstr "Базовий DN:"
+
+#: standard input:52
+msgid "Bind DN:"
+msgstr "DN зв'язку:"
+
+#: standard input:53
+msgid "Bind PW:"
+msgstr "Пароль зв'язку:"
+
+#: standard input:54
+msgid "New"
+msgstr "Новий"
+
+#: standard input:55
+msgid "Encript rootPW"
+msgstr "Кодувати rootPW"
+
+#: standard input:56
+msgid "For SAMBA PDC"
+msgstr "Для SAMBA PDC"
+
+#: standard input:57
+msgid "Please, remember this password!!!"
+msgstr "Будь ласка, запам'ятайте цей пароль!!!"
+
+#: standard input:58
+msgid "Encripted passwor NOT accessible for other modules."
+msgstr "Кодований пароль недоступний для інших модулів."
+
+#: standard input:59
+msgid "You will be asked for a password every time "
+msgstr "Вам буде запропоновано ввести пароль кожен раз"
+
+#: standard input:60
+msgid "of using modules, e.g. \"Users\" and \"Groups\"."
+msgstr "при використанні модулів, таких як \"Користувачі\" і \"Групи\"."
+
+#: standard input:61
+msgid "Create containers:"
+msgstr "Створити контейнери:"
+
+#: standard input:63
+msgid "Create new base"
+msgstr "Створити нову базу"
+
+#: backend3/openldap:42
+#, fuzzy
+msgid "Certificate expire"
+msgstr "Сертифікат"
+
+#: backend3/openldap:44
+#, fuzzy
+msgid "Certificate not found"
+msgstr "Пристрій не знайдено"
+
+#: backend3/openldap:79
+msgid "Encoded password"
+msgstr "Кодований пароль"
+
+#: backend3/openldap:81
+msgid "Unsafe password"
+msgstr "Ненадійний пароль"
+
+#: backend3/openldap:90
+msgid "Used for autentification,"
+msgstr "Використовується для аутентифікації,"
+
+#: backend3/openldap:175
+msgid "Publish"
+msgstr "Опублікувати"
+
+#: backend3/openldap:176
+msgid "Unpublish"
+msgstr "Приховати"
+
+#: backend3/openldap:177
+msgid "Delete"
+msgstr "Вилучити"
+
+#: backend3/openldap:304 backend3/openldap:353
+msgid "already exists in the system"
+msgstr "вже існує в системі"
+
+#: backend3/openldap:338
+msgid " used for system autentification."
+msgstr "використовується для системної аутентифікації."
+
+#. echo "$(set|grep -a "in_")" >&2
+#: backend3/openldap:622 backend3/openldap:628
+msgid "Not all data present."
+msgstr "Не всі відомості надані."
+
+#~ msgid "Add selected"
+#~ msgstr "Додати обрані"
+
+#~ msgid "Base"
+#~ msgstr "База"
 
 #~ msgid "Apply"
 #~ msgstr "Застосувати"

@@ -6,125 +6,210 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2010-10-22 00:35+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: ui/pkg/install/index.scm:75
-msgid "Acquiring packages..."
-msgstr "Получение пакетов..."
-
-#: standard input:7 ui/pkg/sources/mirrors/index.scm:58
-msgid "Add"
-msgstr "Добавить"
-
-#: ui/pkg/groups/index.scm:133
-msgid "Additional applications:"
-msgstr "Дополнительные приложения:"
-
-#: standard input:4 ui/pkg/sources/index.scm:20
-msgid "Advanced..."
-msgstr "Дополнительно..."
-
-#: standard input:8 ui/pkg/sources/mirrors/index.scm:60
-msgid "Available sources:"
-msgstr "Доступные источники:"
-
-#: ui/pkg/install/index.scm:34
-msgid "Building packages list"
-msgstr "Построение списка пакетов"
-
-#: standard input:3 ui/pkg/sources/index.scm:15
-msgid "Change"
-msgstr "Изменить"
-
-#: standard input:12
-msgid "Communications"
-msgstr "Коммуникации"
-
-#: standard input:8
-msgid "Communications (full)"
-msgstr "Коммуникации (полностью)"
-
-#: ui/pkg/error/index.scm:4
-msgid "Critical error during install"
-msgstr "Критическая ошибка установки"
-
-#: standard input:9 ui/pkg/sources/mirrors/index.scm:62
-msgid "Delete"
-msgstr "Удалить"
-
-#: standard input:6
-msgid "Desktop"
-msgstr "Рабочий стол"
-
-#: standard input:3
-msgid "Desktop (full)"
-msgstr "Рабочий стол (полностью)"
-
-#: standard input:9
-msgid "Documentation"
-msgstr "Документация"
-
-#: standard input:5
-msgid "Edutainment"
-msgstr "Образование"
-
-#: standard input:11
-msgid "Emulators"
-msgstr "Эмуляторы"
-
-#: ui/pkg/groups/index.scm:89
-msgid "GB"
-msgstr "ГБ"
-
-#: standard input:13
-msgid "Games"
-msgstr "Игры"
-
-#: standard input:14
-msgid "Graphics"
-msgstr "Работа с графикой"
-
-#: standard input:2
-msgid "Graphics (full)"
-msgstr "Работа с графикой (полностью)"
-
-#: ui/pkg/groups/index.scm:69
-#, lisp-format
-msgid "Has conflict with ~S"
-msgstr "Имеется конфликт с ~S"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Install sources"
 msgstr "Источники для установки ПО"
 
-#: ui/pkg/install/index.scm:41
-msgid "Installing additional software"
-msgstr "Установка дополнительного программного обеспечения"
+#: standard input:2
+msgid "Multimedia (full)"
+msgstr "Работа с мультимедиа (полностью)"
+
+#: standard input:3
+msgid "Communications (full)"
+msgstr "Коммуникации (полностью)"
+
+#: standard input:4
+msgid "Office Suite"
+msgstr "Офисные приложения"
+
+#: standard input:5
+msgid "Graphics"
+msgstr "Работа с графикой"
+
+#: standard input:6
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: standard input:7
+msgid "Emulators"
+msgstr "Эмуляторы"
+
+#: standard input:8
+msgid "Multimedia"
+msgstr "Работа с мультимедиа"
+
+#: standard input:9
+msgid "Communications"
+msgstr "Коммуникации"
+
+#: standard input:10
+msgid "Graphics (full)"
+msgstr "Работа с графикой (полностью)"
+
+#: standard input:11
+msgid "Office Suite (full)"
+msgstr "Офисные приложения (полностью)"
+
+#: standard input:12
+msgid "Games"
+msgstr "Игры"
+
+#: standard input:13
+msgid "Documentation"
+msgstr "Документация"
+
+#: standard input:14
+msgid "Desktop (full)"
+msgstr "Рабочий стол (полностью)"
+
+#: standard input:15
+msgid "Edutainment"
+msgstr "Образование"
+
+#: standard input:1 ui/pkg/sources/mirrors/index.scm:52
+msgid "Repository:"
+msgstr "Репозиторий:"
+
+#: standard input:2 ui/pkg/sources/mirrors/index.scm:56
+msgid "New source:"
+msgstr "Новый источник:"
+
+#: standard input:3 ui/pkg/sources/mirrors/index.scm:58
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:4 ui/pkg/sources/mirrors/index.scm:60
+msgid "Available sources:"
+msgstr "Доступные источники:"
+
+#: standard input:5 ui/pkg/sources/mirrors/index.scm:62
+msgid "Delete"
+msgstr "Удалить"
+
+#: standard input:6 ui/pkg/sources/mirrors/index.scm:66
+msgid "Return"
+msgstr "Вернуться"
+
+#: standard input:7 ui/pkg/sources/index.scm:8
+msgid "Repositories:"
+msgstr "Репозитории:"
+
+#: standard input:8 ui/pkg/sources/index.scm:13
+msgid "Source URI:"
+msgstr "Адрес источника:"
+
+#: standard input:9 ui/pkg/sources/index.scm:15
+msgid "Change"
+msgstr "Изменить"
+
+#: standard input:10 ui/pkg/sources/index.scm:20
+msgid "Advanced..."
+msgstr "Дополнительно..."
+
+#: ui/pkg/groups/index.scm:129
+#, lisp-format
+msgid "Has conflict with ~S"
+msgstr "Имеется конфликт с ~S"
+
+#: ui/pkg/groups/index.scm:158
+#, fuzzy
+msgid " kB"
+msgstr "кБ"
+
+#: ui/pkg/groups/index.scm:159
+#, fuzzy
+msgid " MB"
+msgstr "МБ"
+
+#: ui/pkg/groups/index.scm:160
+#, fuzzy
+msgid " GB"
+msgstr "ГБ"
+
+#: ui/pkg/groups/index.scm:161
+#, fuzzy
+msgid " TB"
+msgstr "ТБ"
+
+#: ui/pkg/groups/index.scm:165
+msgid "Required disk space"
+msgstr "Требуемое место на диске"
+
+#: ui/pkg/groups/index.scm:171
+msgid "calculating..."
+msgstr "вычисление..."
+
+#: ui/pkg/groups/index.scm:176
+msgid "unable to calculate"
+msgstr "невозможно вычислить"
+
+#: ui/pkg/groups/index.scm:204
+msgid "Additional applications:"
+msgstr "Дополнительные приложения:"
+
+#: ui/pkg/groups/index.scm:218 ui/pkg/install/index.scm:100
+msgid "Preparing..."
+msgstr "Подготовка..."
+
+#: ui/pkg/cdrom/index.scm:7
+msgid "Please insert CDROM labeled as"
+msgstr "Пожалуйста, вставьте CD/DVD диск "
+
+#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: ui/pkg/cdrom/index.scm:9
+msgid "Into drive"
+msgstr "В привод"
+
+#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+msgid "Press 'Next' button to continue"
+msgstr "Нажмите кнопку 'Далее' для продолжения"
+
+#: ui/pkg/install/index.scm:34
+msgid "Building packages list"
+msgstr "Построение списка пакетов"
 
 #: ui/pkg/install/index.scm:36
 msgid "Installing base system"
 msgstr "Установка базовой системы"
 
-#: ui/pkg/install/index.scm:81
-msgid "Installing packages..."
-msgstr "Установка пакетов..."
-
 #: ui/pkg/install/index.scm:38
 msgid "Installing software"
 msgstr "Установка программного обеспечения"
 
-#: ui/pkg/cdrom/index.scm:9
-msgid "Into drive"
-msgstr "В привод"
+#: ui/pkg/install/index.scm:39 ui/pkg/install/index.scm:42
+msgid "Loading package information..."
+msgstr "Загрузка информации о пакетах..."
+
+#: ui/pkg/install/index.scm:41
+msgid "Installing additional software"
+msgstr "Установка дополнительного программного обеспечения"
+
+#: ui/pkg/install/index.scm:75
+msgid "Acquiring packages..."
+msgstr "Получение пакетов..."
+
+#: ui/pkg/install/index.scm:81
+msgid "Installing packages..."
+msgstr "Установка пакетов..."
+
+#: ui/pkg/error/index.scm:4
+msgid "Critical error during install"
+msgstr "Критическая ошибка установки"
 
 #: backend3/pkg-sources:91
 msgid ""
@@ -133,91 +218,10 @@ msgstr ""
 "Неверный или неподдерживаемый протокол. Должно быть http://, ftp://, "
 "rsync:// или file:"
 
-#: ui/pkg/install/index.scm:39 ui/pkg/install/index.scm:42
-msgid "Loading package information..."
-msgstr "Загрузка информации о пакетах..."
-
-#: ui/pkg/groups/index.scm:88
-msgid "MB"
-msgstr "МБ"
-
-#: standard input:10
-msgid "Multimedia"
-msgstr "Работа с мультимедиа"
-
-#: standard input:15
-msgid "Multimedia (full)"
-msgstr "Работа с мультимедиа (полностью)"
-
-#: standard input:6 ui/pkg/sources/mirrors/index.scm:56
-msgid "New source:"
-msgstr "Новый источник:"
-
-#: standard input:4
-msgid "Office Suite"
-msgstr "Офисные приложения"
-
-#: standard input:7
-msgid "Office Suite (full)"
-msgstr "Офисные приложения (полностью)"
-
-#: ui/pkg/cdrom/index.scm:7
-msgid "Please insert CDROM labeled as"
-msgstr "Пожалуйста, вставьте CD/DVD диск "
-
-#: ui/pkg/install/index.scm:100 ui/pkg/groups/index.scm:148
-msgid "Preparing..."
-msgstr "Подготовка..."
-
-#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
-msgid "Press 'Next' button to continue"
-msgstr "Нажмите кнопку 'Далее' для продолжения"
-
-#: standard input:1 ui/pkg/sources/index.scm:8
-msgid "Repositories:"
-msgstr "Репозитории:"
-
-#: standard input:5 ui/pkg/sources/mirrors/index.scm:52
-msgid "Repository:"
-msgstr "Репозиторий:"
-
-#: ui/pkg/groups/index.scm:94
-msgid "Required disk space"
-msgstr "Требуемое место на диске"
-
-#: standard input:10 ui/pkg/sources/mirrors/index.scm:66
-msgid "Return"
-msgstr "Вернуться"
-
 #: backend3/pkg-sources:94
 msgid "Same source already exists"
 msgstr "Подобный источник уже существует"
 
-#: standard input:2 ui/pkg/sources/index.scm:13
-msgid "Source URI:"
-msgstr "Адрес источника:"
-
-#: ui/pkg/groups/index.scm:90
-msgid "TB"
-msgstr "ТБ"
-
-#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
-msgid "Unknown"
-msgstr "Неизвестно"
-
-#: ui/pkg/groups/index.scm:100
-msgid "calculating..."
-msgstr "вычисление..."
-
 #: backend3/pkg-sources:187 backend3/pkg-sources:210
 msgid "inactive"
 msgstr "неактивно"
-
-#: ui/pkg/groups/index.scm:87
-msgid "kB"
-msgstr "кБ"
-
-#: ui/pkg/groups/index.scm:105
-msgid "unable to calculate"
-msgstr "невозможно вычислить"
-

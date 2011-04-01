@@ -8,18 +8,352 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-08-23 01:21+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "#-#-#-#-#  alterator-net-iptables.po (ru)  #-#-#-#-#\n"
 "#-#-#-#-#  alterator-net-iptables.po (ru)  #-#-#-#-#\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Zeroconf"
+msgstr "Zeroconf"
+
+#: standard input:2
+msgid "Proxy server"
+msgstr "Proxy сервер"
+
+#: standard input:3
+msgid "Mail server (SMTP)"
+msgstr "Поштовий сервер (SMTP)"
+
+#: standard input:4
+msgid "System management center (www)"
+msgstr "Центр налаштування системи (www)"
+
+#: standard input:5
+msgid "File transfer (FTP)"
+msgstr "Передавання файлів (FTP)"
+
+#: standard input:6
+msgid "Service packets (ICMP)"
+msgstr "Службові пакети (ICMP)"
+
+#: standard input:7
+msgid "DHCP"
+msgstr ""
+
+#: standard input:8
+msgid "Mail server (POP3)"
+msgstr "Поштовий сервер (POP3)"
+
+#: standard input:9
+msgid "STUN"
+msgstr ""
+
+#: standard input:10
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+#: standard input:11
+msgid "File server (Samba)"
+msgstr "Файловий сервер (Samba)"
+
+#: standard input:12
+msgid "LDAP"
+msgstr "LDAP"
+
+#: standard input:13
+msgid "DNS"
+msgstr ""
+
+#: standard input:14
+msgid "Remote access (telnet)"
+msgstr "Віддалений доступ (telnet)"
+
+#: standard input:15
+msgid "Remote access (SSH)"
+msgstr "Віддалений доступ (SSH)"
+
+#: standard input:16
+msgid "SIP/H.323"
+msgstr ""
+
+#: standard input:17
+msgid "CUPS printing system"
+msgstr "Система друку CUPS"
+
+#: standard input:18
+msgid "HTTP/HTTPS"
+msgstr ""
+
+#: standard input:19
+msgid "Mail server (IMAP)"
+msgstr "Поштовий сервер (IMAP)"
+
+#: standard input:20
+msgid "Network management (SNMP)"
+msgstr "Керування мережею (SNMP)"
+
+#: standard input:21
+msgid "Blacklist"
+msgstr "Чорний список"
+
+#: standard input:22
+msgid "Port forwarding"
+msgstr "Переспрямовування портів"
+
+#: standard input:23
+msgid "Network firewall"
+msgstr "Брандмауер мережі"
+
+#: standard input:24
+msgid "Firewall - manual mode"
+msgstr "Брандмауер - ручне налаштування"
+
+#: standard input:25
+msgid "Access from internal networks"
+msgstr "Доступ із внутрішніх мереж"
+
+#: standard input:1 input:24 input:37
+msgid ""
+"ATTANTION: Firewall is setting up manually. Settings done by\n"
+"          this module will not take effect until you turn manual firewalling "
+"off."
+msgstr ""
+"Увага: Брандмауер знаходиться у режимі ручного налаштування. Зміни "
+"налаштувань,які зроблено у цьому модулі, не будуть впливати на систему, доки "
+"ви не вимкнете цей режим."
+
+#: standard input:3 input:26 input:39 input:47
+msgid "Firewall manual mode module..."
+msgstr "Модуль ручного налаштування брандмауера..."
+
+#: standard input:4
+msgid "Enable restrictions on all internal interfaces"
+msgstr "Увімкнути обмеження доступу на всіх внутрішніх інтерфейсах"
+
+#: standard input:5
+msgid "Configure internal interfaces..."
+msgstr "Налаштувати внутрішні інтерфейси..."
+
+#: standard input:6
+msgid "Authorized clients:"
+msgstr "Авторизовані клієнти:"
+
+#: standard input:7 input:22
+msgid "IP address:"
+msgstr "IP адреса:"
+
+#: standard input:8
+msgid "MAC address restriction:"
+msgstr "Обмеження MAC адреси:"
+
+#: standard input:9
+msgid "MAC address:"
+msgstr "MAC адреса:"
+
+#: standard input:10
+msgid "Resolve"
+msgstr "Визначити"
+
+#: standard input:11
+msgid "Traffic rate restrictions:"
+msgstr "Обмеження швидкосі доступу:"
+
+#: standard input:12
+msgid "Incoming rate (kb/s):"
+msgstr "Вхідний трафік (кб/c):"
+
+#: standard input:13
+msgid "Outcoming rate (kb/s):"
+msgstr "Вихідний трафік (кб/c):"
+
+#: standard input:14 input:51 ui/net-iptables/index.scm:44
+msgid "Services:"
+msgstr "Служби:"
+
+#: standard input:15 input:52 ui/net-iptables/index.scm:48
+msgid "Extra TCP ports:"
+msgstr "Додаткові порти TCP:"
+
+#: standard input:16 input:18 input:53 input:55 ui/net-iptables/index.scm:50
+#: ui/net-iptables/index.scm:55
+msgid "(separated by commas or spaces)"
+msgstr "(розділені комами чи пробілами)"
+
+#: standard input:17 input:54 ui/net-iptables/index.scm:53
+msgid "Extra UDP ports:"
+msgstr "Додаткові порти UDP:"
+
+#: standard input:19 input:56 input:66 ui/net-iptables/index.scm:61
+msgid "Apply"
+msgstr "Застосувати"
+
+#: standard input:20 input:29 input:42 ui/net-dnat/index.scm:35
+#: ui/net-bl/index.scm:30
+msgid "Delete"
+msgstr "Вилучити"
+
+#: standard input:21
+msgid "Add new client:"
+msgstr "Додати клієнта:"
+
+#: standard input:23 input:32 input:44 ui/net-dnat/index.scm:59
+#: ui/net-bl/index.scm:36
+msgid "Add"
+msgstr "Додати"
+
+#: standard input:27 ui/net-dnat/index.scm:28
+msgid "Enable port forwarding"
+msgstr "Включити переспрямовування портів"
+
+#: standard input:28 ui/net-dnat/index.scm:31
+msgid "Available rules:"
+msgstr "Доступні правила:"
+
+#: standard input:30 ui/net-dnat/index.scm:37
+msgid "Add new rule:"
+msgstr "Додати нове правило:"
+
+#: standard input:31 ui/net-dnat/index.scm:43
+msgid "protocol:"
+msgstr "протокол:"
+
+#: standard input:33 ui/net-dnat/index.scm:49
+msgid "destination IP address:"
+msgstr "IP адреса отримувача:"
+
+#: standard input:34 input:36 ui/net-dnat/index.scm:51
+#: ui/net-dnat/index.scm:56
+msgid "port:"
+msgstr "порт:"
+
+#: standard input:35 ui/net-dnat/index.scm:54
+msgid "forward to IP address:"
+msgstr "переспрямовувати на IP адрес:"
+
+#: standard input:40 ui/net-bl/index.scm:23
+msgid "Enable blacklist filtering"
+msgstr "Використовувати чорний список"
+
+#: standard input:41 ui/net-bl/index.scm:26
+msgid "Blacklist:"
+msgstr "Чорний список:"
+
+#: standard input:43 ui/net-bl/index.scm:34
+msgid "Add host or network IP-address:"
+msgstr "Додати IP-адресу вузлу або мережі:"
+
+#: standard input:45
+msgid ""
+"ATTANTION: Firewall is setting up manually. Settings done by\n"
+"        this module will not take effect until you turn manual firewalling "
+"off."
+msgstr ""
+"Увага: Брандмауер знаходиться у режимі ручного налаштування. Зміни "
+"налаштувань,які зроблено у цьому модулі, не будуть впливати на систему, доки "
+"ви не вимкнете цей режим."
+
+#: standard input:48 ui/net-iptables/index.scm:30
+msgid "Select forwarding mode:"
+msgstr "Оберіть режим роботи:"
+
+#: standard input:49 ui/net-iptables/index.scm:36
+msgid "Select external interfaces:"
+msgstr "Оберіть зовнішні інтерфейси:"
+
+#: standard input:50 ui/net-iptables/index.scm:37
+msgid "Allow incoming connections on external interfaces:"
+msgstr "Дозволити вхідні з’єднання на зовнішніх інтерфейсах:"
+
+#: standard input:57 input:67 ui/net-iptables/index.scm:64
+msgid "Reset"
+msgstr "Скинути"
+
+#: standard input:58
+msgid "Enable manual mode"
+msgstr "Включити ручний режим"
+
+#: standard input:59
+msgid ""
+"In manual mode you can edit iptables files\n"
+"      by hands. All settings made by other iptables modules (\"Firewall\"\n"
+"      \"Blacklist\" \"Port forwarding\" \"Internal restrictions\") will not\n"
+"      take effect."
+msgstr ""
+"У ручному режимі ви можете вручну виправляти таблиці брандмауера. Всі "
+"налаштування, які зроблено у інших модулях, працюючих з брандмауером "
+"(\"Брандмауер\", \"Чорний список\", \"Переспрямовування портів\"и \"Доступ з "
+"внутрішніх мереж\") не будуть впливати на систему."
+
+#: standard input:63
+msgid ""
+"If you turn manual mode off all your settings\n"
+"      will be overwritten by alterator iptables modules."
+msgstr ""
+"При вимкнені ручного режиму буде відновлено налаштування інших модулів, які "
+"працюють з брандмауером."
+
+#: standard input:65
+msgid "Select table:"
+msgstr "Оберіть таблицю:"
+
+#: ui/net-tc/ajax.scm:19
+msgid "Additional allowed connections:"
+msgstr "Додатково дозволені підключення:"
+
+#: ui/net-tc/ajax.scm:20
+msgid "Allowed connections for all authorized clients:"
+msgstr "Дозволені підключення для всіх авторизованих клієнтів:"
+
+#: ui/net-bl/index.scm:32
+msgid "Add new IP:"
+msgstr "Додати новий IP:"
+
+#: ui/net-iptables/index.scm:31 backend3/net-iptables:23
+msgid "router"
+msgstr "роутер"
+
+#: ui/net-iptables/index.scm:32
+msgid "gateway"
+msgstr "шлюз"
+
+#: bin/alterator-net-iptables:13 bin/iptables_helper:13
+msgid "alterator-net-iptables"
+msgstr ""
+
+#: bin/alterator-net-iptables:212 bin/iptables_helper:212
+msgid "Error: bad commit mode"
+msgstr "Помилка: невірний режим - commit"
+
+#: bin/alterator-net-iptables:212 bin/alterator-net-iptables:215
+#: bin/iptables_helper:212 bin/iptables_helper:215
+msgid "(possible values: on or off)"
+msgstr "(дозволені значення: on чи off)"
+
+#: bin/alterator-net-iptables:215 bin/iptables_helper:215
+msgid "Error: bad log mode"
+msgstr "Помилка: невірний режим - log"
+
+#: bin/alterator-net-iptables:218 bin/iptables_helper:218
+msgid "Error: bad mode"
+msgstr "Помилка: невірний режим"
+
+#: bin/alterator-net-iptables:218 bin/iptables_helper:218
+msgid "(possible values: gateway or router)"
+msgstr "(можливі значення: gateway чи router)"
+
+#: bin/alterator-net-iptables:222 bin/iptables_helper:222
+msgid "Error: bad TCP port"
+msgstr "Помилка: невірний порт TCP"
 
 #: bin/alterator-net-iptables:222 bin/alterator-net-iptables:227
 #: bin/alterator-net-iptables:463 bin/iptables_helper:222
@@ -27,145 +361,9 @@ msgstr ""
 msgid "(must be a number)"
 msgstr "(має бути число)"
 
-#: bin/alterator-net-iptables:218 bin/iptables_helper:218
-msgid "(possible values: gateway or router)"
-msgstr "(можливі значення: gateway чи router)"
-
-#: bin/alterator-net-iptables:212 bin/alterator-net-iptables:215
-#: bin/iptables_helper:212 bin/iptables_helper:215
-msgid "(possible values: on or off)"
-msgstr "(дозволені значення: on чи off)"
-
-#: standard input:24 input:26 input:40 input:42 ui/net-iptables/index.scm:50
-#: ui/net-iptables/index.scm:55
-msgid "(separated by commas or spaces)"
-msgstr "(розділені комами чи пробілами)"
-
-#: standard input:1 input:9 input:45
-msgid ""
-"ATTANTION: Firewall is setting up manually. Settings done by\n"
-"          this module will not take effect until you turn manual firewalling "
-"off."
-msgstr ""
-"Увага: Брандмауер знаходиться у режимі ручного налаштування. Зміни налаштувань,"
-"які зроблено у цьому модулі, не будуть впливати на систему, доки ви не вимкнете "
-"цей режим."
-
-#: standard input:32
-msgid ""
-"ATTANTION: Firewall is setting up manually. Settings done by\n"
-"        this module will not take effect until you turn manual firewalling "
-"off."
-msgstr ""
-"Увага: Брандмауер знаходиться у режимі ручного налаштування. Зміни налаштувань,"
-"які зроблено у цьому модулі, не будуть впливати на систему, доки ви не вимкнете "
-"цей режим."
-
-#: standard input:3
-msgid "Access from internal networks"
-msgstr "Доступ із внутрішніх мереж"
-
-#: standard input:8 input:31 input:53 ui/net-bl/index.scm:36
-#: ui/net-dnat/index.scm:59
-msgid "Add"
-msgstr "Додати"
-
-#: standard input:7 ui/net-bl/index.scm:34
-msgid "Add host or network IP-address:"
-msgstr "Додати IP-адресу вузлу або мережі:"
-
-#: ui/net-bl/index.scm:32
-msgid "Add new IP:"
-msgstr "Додати новий IP:"
-
-#: standard input:29
-msgid "Add new client:"
-msgstr "Додати клієнта:"
-
-#: standard input:51 ui/net-dnat/index.scm:37
-msgid "Add new rule:"
-msgstr "Додати нове правило:"
-
-#: ui/net-tc/ajax.scm:19
-msgid "Additional allowed connections:"
-msgstr "Додатково дозволені підключення:"
-
-#: standard input:37 ui/net-iptables/index.scm:37
-msgid "Allow incoming connections on external interfaces:"
-msgstr "Дозволити вхідні з’єднання на зовнішніх інтерфейсах:"
-
-#: ui/net-tc/ajax.scm:20
-msgid "Allowed connections for all authorized clients:"
-msgstr "Дозволені підключення для всіх авторизованих клієнтів:"
-
-#: standard input:27 input:43 input:66 ui/net-iptables/index.scm:61
-msgid "Apply"
-msgstr "Застосувати"
-
-#: standard input:14
-msgid "Authorized clients:"
-msgstr "Авторизовані клієнти:"
-
-#: standard input:49 ui/net-dnat/index.scm:31
-msgid "Available rules:"
-msgstr "Доступні правила:"
-
-#: standard input:5
-msgid "Blacklist"
-msgstr "Чорний список"
-
-#: standard input:5 ui/net-bl/index.scm:26
-msgid "Blacklist:"
-msgstr "Чорний список:"
-
-#: standard input:19
-msgid "CUPS printing system"
-msgstr "Система друку CUPS"
-
-#: bin/alterator-net-iptables:423 bin/iptables_helper:423
-msgid "Can't add multiple values to list"
-msgstr "Неможливо додати декілька значень до списку"
-
-#: bin/alterator-net-iptables:431 bin/iptables_helper:431
-msgid "Can't remove multiple values from list"
-msgstr "Неможливо вилучити декілька значень з списку"
-
-#: standard input:13
-msgid "Configure internal interfaces..."
-msgstr "Налаштувати внутрішні інтерфейси..."
-
-#: standard input:20
-msgid "DHCP"
-msgstr ""
-
-#: standard input:10
-msgid "DNS"
-msgstr ""
-
-#: backend3/net-tc:23
-msgid "Default"
-msgstr "По замовченню"
-
-#: standard input:6 input:28 input:50 ui/net-bl/index.scm:30
-#: ui/net-dnat/index.scm:35
-msgid "Delete"
-msgstr "Вилучити"
-
-#: standard input:4 ui/net-bl/index.scm:23
-msgid "Enable blacklist filtering"
-msgstr "Використовувати чорний список"
-
-#: standard input:58
-msgid "Enable manual mode"
-msgstr "Включити ручний режим"
-
-#: standard input:48 ui/net-dnat/index.scm:28
-msgid "Enable port forwarding"
-msgstr "Включити переспрямовування портів"
-
-#: standard input:12
-msgid "Enable restrictions on all internal interfaces"
-msgstr "Увімкнути обмеження доступу на всіх внутрішніх інтерфейсах"
+#: bin/alterator-net-iptables:227 bin/iptables_helper:227
+msgid "Error: bad UTP port"
+msgstr "Помилка: неаврний порт UDP"
 
 #: bin/alterator-net-iptables:391 bin/alterator-net-iptables:393
 #: bin/alterator-net-tc:18 bin/alterator-net-tc:20 bin/iptables_helper:391
@@ -177,41 +375,25 @@ msgstr "Помилка при завантаженні правил брандм
 msgid "Error while running /usr/lib/alterator/hooks/net-iptables.d/*"
 msgstr "Помилка запуску сценаріїв з /usr/lib/alterator/hooks/net-iptables.d/"
 
-#: bin/alterator-net-iptables:836 bin/iptables_helper:836
-msgid "Error: Bad rule"
-msgstr "Помилка: недозволене правило"
+#: bin/alterator-net-iptables:423 bin/iptables_helper:423
+msgid "Can't add multiple values to list"
+msgstr "Неможливо додати декілька значень до списку"
 
-#: bin/alterator-net-iptables:842 bin/iptables_helper:842
-msgid "Error: MAC-address is not allowed in default rule"
-msgstr "Помилка: MAC-адресу не дозволено у правилі по замовченню"
+#: bin/alterator-net-iptables:431 bin/iptables_helper:431
+msgid "Can't remove multiple values from list"
+msgstr "Неможливо вилучити декілька значень з списку"
+
+#: bin/alterator-net-iptables:448 bin/iptables_helper:448
+msgid "Error: unknown protocol"
+msgstr "Помилка: невідомий протокол"
+
+#: bin/alterator-net-iptables:448 bin/iptables_helper:448
+msgid "possible values:"
+msgstr "Допустимі значения:"
 
 #: bin/alterator-net-iptables:453 bin/iptables_helper:453
 msgid "Error: bad IP-address"
 msgstr "Помилка: невірна IP-адреса"
-
-#: bin/alterator-net-iptables:477 bin/iptables_helper:477
-msgid "Error: bad MAC-address"
-msgstr "Помилка: невірна MAC-адреса"
-
-#: bin/alterator-net-iptables:222 bin/iptables_helper:222
-msgid "Error: bad TCP port"
-msgstr "Помилка: невірний порт TCP"
-
-#: bin/alterator-net-iptables:227 bin/iptables_helper:227
-msgid "Error: bad UTP port"
-msgstr "Помилка: неаврний порт UDP"
-
-#: bin/alterator-net-iptables:212 bin/iptables_helper:212
-msgid "Error: bad commit mode"
-msgstr "Помилка: невірний режим - commit"
-
-#: bin/alterator-net-iptables:215 bin/iptables_helper:215
-msgid "Error: bad log mode"
-msgstr "Помилка: невірний режим - log"
-
-#: bin/alterator-net-iptables:218 bin/iptables_helper:218
-msgid "Error: bad mode"
-msgstr "Помилка: невірний режим"
 
 #: bin/alterator-net-iptables:458 bin/iptables_helper:458
 msgid "Error: bad network or host IP-address"
@@ -226,219 +408,38 @@ msgstr "Помилка: невірний порт"
 msgid "Error: bad port or port range"
 msgstr "Помилка: невірний порт або межа портів"
 
-#: bin/alterator-net-iptables:448 bin/iptables_helper:448
-msgid "Error: unknown protocol"
-msgstr "Помилка: невідомий протокол"
+#: bin/alterator-net-iptables:477 bin/iptables_helper:477
+msgid "Error: bad MAC-address"
+msgstr "Помилка: невірна MAC-адреса"
+
+#: bin/alterator-net-iptables:836 bin/iptables_helper:836
+msgid "Error: Bad rule"
+msgstr "Помилка: недозволене правило"
+
+#: bin/alterator-net-iptables:842 bin/iptables_helper:842
+msgid "Error: MAC-address is not allowed in default rule"
+msgstr "Помилка: MAC-адресу не дозволено у правилі по замовченню"
 
 #: bin/alterator-net-iptables:855 bin/iptables_helper:855
 msgid "Error: unknown service"
 msgstr "Помилка: невідома служба"
 
-#: standard input:23 input:39 ui/net-iptables/index.scm:48
-msgid "Extra TCP ports:"
-msgstr "Додаткові порти TCP:"
-
-#: standard input:25 input:41 ui/net-iptables/index.scm:53
-msgid "Extra UDP ports:"
-msgstr "Додаткові порти UDP:"
-
-#: standard input:12
-msgid "File server (Samba)"
-msgstr "Файловий сервер (Samba)"
-
-#: standard input:22
-msgid "File transfer (FTP)"
-msgstr "Передавання файлів (FTP)"
-
-#: standard input:4
-msgid "Firewall - manual mode"
-msgstr "Брандмауер - ручне налаштування"
-
-#: standard input:3 input:11 input:34 input:47
-msgid "Firewall manual mode module..."
-msgstr "Модуль ручного налаштування брандмауера..."
-
 #: backend3/net-dnat:29
 msgid "Forward %s packets for %s:%s to %s:%s"
 msgstr "%s пакети, що йдуть на %s:%s, переспрямовувати на %s:%s"
-
-#: standard input:17
-msgid "HTTP/HTTPS"
-msgstr ""
-
-#: standard input:15 input:30
-msgid "IP address:"
-msgstr "IP адреса:"
-
-#: backend3/net-tc:98
-msgid "IP-address is not specified"
-msgstr "IP-адресу не встановлено"
-
-#: standard input:63
-msgid ""
-"If you turn manual mode off all your settings\n"
-"      will be overwritten by alterator iptables modules."
-msgstr ""
-"При вимкнені ручного режиму буде відновлено налаштування інших модулів, "
-"які працюють з брандмауером."
-
-#: standard input:59
-msgid ""
-"In manual mode you can edit iptables files\n"
-"      by hands. All settings made by other iptables modules (\"Firewall\"\n"
-"      \"Blacklist\" \"Port forwarding\" \"Internal restrictions\") will not\n"
-"      take effect."
-msgstr ""
-"У ручному режимі ви можете вручну виправляти таблиці брандмауера. Всі "
-"налаштування, які зроблено у інших модулях, працюючих з брандмауером (\"Брандмауер"
-"\", \"Чорний список\", \"Переспрямовування портів\"и \"Доступ з внутрішніх "
-"мереж\") не будуть впливати на систему."
-
-#: standard input:20
-msgid "Incoming rate (kb/s):"
-msgstr "Вхідний трафік (кб/c):"
-
-#: standard input:24
-msgid "LDAP"
-msgstr "LDAP"
-
-#: standard input:16
-msgid "MAC address restriction:"
-msgstr "Обмеження MAC адреси:"
-
-#: standard input:17
-msgid "MAC address:"
-msgstr "MAC адреса:"
-
-#: standard input:15
-msgid "Mail server (IMAP)"
-msgstr "Поштовий сервер (IMAP)"
-
-#: standard input:7
-msgid "Mail server (POP3)"
-msgstr "Поштовий сервер (POP3)"
-
-#: standard input:6
-msgid "Mail server (SMTP)"
-msgstr "Поштовий сервер (SMTP)"
-
-#: standard input:2
-msgid "Network firewall"
-msgstr "Брандмауер мережі"
-
-#: standard input:25
-msgid "Network management (SNMP)"
-msgstr "Керування мережею (SNMP)"
-
-#: standard input:11
-msgid "OpenVPN"
-msgstr "OpenVPN"
-
-#: standard input:21
-msgid "Outcoming rate (kb/s):"
-msgstr "Вихідний трафік (кб/c):"
-
-#: standard input:1
-msgid "Port forwarding"
-msgstr "Переспрямовування портів"
-
-#: standard input:14
-msgid "Proxy server"
-msgstr "Proxy сервер"
-
-#: standard input:13
-msgid "Remote access (SSH)"
-msgstr "Віддалений доступ (SSH)"
-
-#: standard input:16
-msgid "Remote access (telnet)"
-msgstr "Віддалений доступ (telnet)"
-
-#: standard input:44 input:67 ui/net-iptables/index.scm:64
-msgid "Reset"
-msgstr "Скинути"
-
-#: standard input:18
-msgid "Resolve"
-msgstr "Визначити"
-
-#: standard input:8
-msgid "SIP/H.323"
-msgstr ""
-
-#: standard input:9
-msgid "STUN"
-msgstr ""
-
-#: standard input:36 ui/net-iptables/index.scm:36
-msgid "Select external interfaces:"
-msgstr "Оберіть зовнішні інтерфейси:"
-
-#: standard input:35 ui/net-iptables/index.scm:30
-msgid "Select forwarding mode:"
-msgstr "Оберіть режим роботи:"
-
-#: standard input:65
-msgid "Select table:"
-msgstr "Оберіть таблицю:"
-
-#: standard input:18
-msgid "Service packets (ICMP)"
-msgstr "Службові пакети (ICMP)"
-
-#: standard input:22 input:38 ui/net-iptables/index.scm:44
-msgid "Services:"
-msgstr "Служби:"
-
-#: standard input:21
-msgid "System management center (www)"
-msgstr "Центр налаштування системи (www)"
-
-#: standard input:19
-msgid "Traffic rate restrictions:"
-msgstr "Обмеження швидкосі доступу:"
-
-#: standard input:23
-msgid "Zeroconf"
-msgstr "Zeroconf"
-
-#: bin/alterator-net-iptables:13 bin/iptables_helper:13
-msgid "alterator-net-iptables"
-msgstr ""
-
-#: backend3/net-iptables-manual:53 backend3/net-iptables-manual:57
-msgid "bad table"
-msgstr "недозволена таблиця"
-
-#: standard input:54 ui/net-dnat/index.scm:49
-msgid "destination IP address:"
-msgstr "IP адреса отримувача:"
-
-#: standard input:56 ui/net-dnat/index.scm:54
-msgid "forward to IP address:"
-msgstr "переспрямовувати на IP адрес:"
-
-#: ui/net-iptables/index.scm:32
-msgid "gateway"
-msgstr "шлюз"
 
 #: backend3/net-iptables:24
 msgid "gateway (NAT)"
 msgstr "шлюз (NAT)"
 
-#: standard input:55 input:57 ui/net-dnat/index.scm:51
-#: ui/net-dnat/index.scm:56
-msgid "port:"
-msgstr "порт:"
+#: backend3/net-iptables-manual:53 backend3/net-iptables-manual:57
+msgid "bad table"
+msgstr "недозволена таблиця"
 
-#: bin/alterator-net-iptables:448 bin/iptables_helper:448
-msgid "possible values:"
-msgstr "Допустимі значения:"
+#: backend3/net-tc:23
+msgid "Default"
+msgstr "По замовченню"
 
-#: standard input:52 ui/net-dnat/index.scm:43
-msgid "protocol:"
-msgstr "протокол:"
-
-#: ui/net-iptables/index.scm:31 backend3/net-iptables:23
-msgid "router"
-msgstr "роутер"
+#: backend3/net-tc:98
+msgid "IP-address is not specified"
+msgstr "IP-адресу не встановлено"

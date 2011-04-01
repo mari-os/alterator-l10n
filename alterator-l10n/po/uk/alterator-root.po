@@ -8,16 +8,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-08-23 02:25+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "System administrator"
+msgstr "Системний адміністратор"
+
+#: standard input:1
+msgid "Password for system administrator:"
+msgstr "Пароль системного адміністратора:"
+
+#: standard input:2 ui/root/index.scm:47
+msgid "Generate automatically"
+msgstr "Генерувати автоматично"
 
 #: standard input:3 ui/root/index.scm:50
 msgid "(enter passphrase)"
@@ -27,67 +40,55 @@ msgstr "(введіть пароль)"
 msgid "(repeat passphrase)"
 msgstr "(повторіть пароль)"
 
-#: standard input:11
-msgid "Add"
-msgstr "Додати"
+#: standard input:5 ui/root/index.scm:54
+msgid "Generate"
+msgstr "Генерувати"
 
 #: standard input:6
 msgid "Administrator's password successfully updated"
 msgstr "Пароль адміністратора успішно оновлено"
 
-#: ui/root/index.scm:63
-msgid "Apply"
-msgstr "Застосувати"
+#: standard input:7
+msgid "Change password"
+msgstr "Змінити пароль"
 
 #: standard input:8
 msgid "Authorized ssh keys:"
 msgstr "Дозволені ключі ssh:"
 
-#: standard input:7
-msgid "Change password"
-msgstr "Змінити пароль"
-
 #: standard input:9
 msgid "Delete key"
 msgstr "Вилучити ключ"
-
-#: standard input:5 ui/root/index.scm:54
-msgid "Generate"
-msgstr "Генерувати"
-
-#: standard input:2 ui/root/index.scm:47
-msgid "Generate automatically"
-msgstr "Генерувати автоматично"
-
-#: backend3/root:98
-msgid "Invalid ssh key"
-msgstr "Невірний формат ключа"
 
 # ahttpd-acl
 #: standard input:10
 msgid "New key:"
 msgstr "Новий ключ:"
 
-#: standard input:1
-msgid "Password for system administrator:"
-msgstr "Пароль системного адміністратора:"
-
-#: backend3/root:155
-msgid "Passwords mismatch"
-msgstr "Паролі не співпадають"
-
-#: backend3/root:106
-msgid "Same ssh key already exists"
-msgstr "Такий ключ уже існує"
+#: standard input:11
+msgid "Add"
+msgstr "Додати"
 
 #: ui/root/index.scm:41
 msgid "Setup password for system administrator:"
 msgstr "Встановити пароль системного адміністратора:"
 
-#: standard input:1
-msgid "System administrator"
-msgstr "Системний адміністратор"
+#: ui/root/index.scm:63
+msgid "Apply"
+msgstr "Застосувати"
+
+#: backend3/root:98
+msgid "Invalid ssh key"
+msgstr "Невірний формат ключа"
+
+#: backend3/root:106
+msgid "Same ssh key already exists"
+msgstr "Такий ключ уже існує"
 
 #: backend3/root:149 backend3/root:153
 msgid "You should define a password for system administrator"
 msgstr "Ви маєте вказати пароль системного адміністратора"
+
+#: backend3/root:155
+msgid "Passwords mismatch"
+msgstr "Паролі не співпадають"

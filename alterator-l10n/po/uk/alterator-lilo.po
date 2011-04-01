@@ -7,36 +7,144 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-08-22 01:40+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: backend3/lilo:165
-msgid "1 minute"
-msgstr "1 хвилина"
+#: standard input:1
+msgid "Bootloader setup"
+msgstr "Налаштування завантажувача"
 
-#: backend3/lilo:161
-msgid "1 second"
-msgstr "1 секунда"
+#: standard input:2
+msgid "Bootloader"
+msgstr "Завантажувач"
 
-#: backend3/lilo:163
-msgid "10 seconds"
-msgstr "10 секунд"
+#: ui/lilo/index.scm:97 ui/lilo/expert/index.scm:131
+msgid "Install boot loader on:"
+msgstr "Встановити завантажувач на:"
 
-#: backend3/lilo:164
-msgid "20 seconds"
-msgstr "20 секунд"
+#: ui/lilo/index.scm:102
+msgid "Load other OS:"
+msgstr "Завантажити інші ОС:"
 
-#: backend3/lilo:162
-msgid "5 seconds"
-msgstr "5 секунд"
+#: ui/lilo/index.scm:111
+msgid "Load by default:"
+msgstr "Завантажувати типово:"
+
+#: ui/lilo/index.scm:114 ui/lilo/expert/index.scm:142
+msgid "Interface timeout:"
+msgstr "Час очікування:"
+
+#: ui/lilo/index.scm:126 ui/lilo/expert/index.scm:206
+#: ui/lilo/edit-source/index.scm:57
+msgid "Apply"
+msgstr "Застосувати"
+
+#: ui/lilo/index.scm:127 ui/lilo/expert/index.scm:122
+#: ui/lilo/edit-source/index.scm:41
+msgid "Expert mode"
+msgstr "Режим експерта"
+
+#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
+msgid "Linux kernel"
+msgstr "Ядро linux"
+
+#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
+msgid "Other loader"
+msgstr "Інший завантажувач"
+
+#: ui/lilo/expert/index.scm:119 ui/lilo/edit-source/index.scm:38
+msgid "Don't install bootloader"
+msgstr "Не встановлювати завантажувач"
+
+#: ui/lilo/expert/index.scm:121 ui/lilo/edit-source/index.scm:40
+msgid "Simple mode"
+msgstr "Простий режим"
+
+#: ui/lilo/expert/index.scm:123 ui/lilo/edit-source/index.scm:42
+msgid "Edit lilo.conf"
+msgstr "Змінити lilo.conf"
+
+#: ui/lilo/expert/index.scm:127
+msgid "Common settings"
+msgstr "Загальні налаштування"
+
+#: ui/lilo/expert/index.scm:134
+msgid "Raid-extra-boot:"
+msgstr "Параметри завантаження RAID:"
+
+#: ui/lilo/expert/index.scm:139
+msgid "Interface type:"
+msgstr "Тип інтерфейсу:"
+
+#: ui/lilo/expert/index.scm:145
+msgid "Common kernel parameters:"
+msgstr "Загальні параметри ядра:"
+
+#: ui/lilo/expert/index.scm:150
+msgid "Default boot variant:"
+msgstr "Типовий варіант завантаження:"
+
+#: ui/lilo/expert/index.scm:157
+msgid "Boot variants"
+msgstr "Варіанти завантаження"
+
+#: ui/lilo/expert/index.scm:163
+msgid "Label:"
+msgstr "Підпис:"
+
+#: ui/lilo/expert/index.scm:165
+msgid "Kernel image:"
+msgstr "Образ ядра:"
+
+#: ui/lilo/expert/index.scm:167
+msgid "Initrd:"
+msgstr "Файлова система initrd:"
+
+#: ui/lilo/expert/index.scm:169
+msgid "Root device:"
+msgstr "Кореневий пристрій:"
+
+#: ui/lilo/expert/index.scm:171
+msgid "Additional parameters:"
+msgstr "Додаткові параметри ядра:"
+
+#: ui/lilo/expert/index.scm:174
+msgid "Device:"
+msgstr "Пристрій:"
+
+#: ui/lilo/expert/index.scm:176
+msgid "Alias:"
+msgstr "Псевдонім:"
+
+#: ui/lilo/expert/index.scm:178
+msgid "Table:"
+msgstr "Таблиця:"
+
+#: ui/lilo/expert/index.scm:181
+msgid "Master boot"
+msgstr "Головний завнтажувач"
+
+#: ui/lilo/expert/index.scm:186
+msgid "Save"
+msgstr "Зберегти"
+
+#: ui/lilo/expert/index.scm:187 ui/lilo/expert/index.scm:207
+#: ui/lilo/edit-source/index.scm:58
+msgid "Reset"
+msgstr "Скинути"
+
+#: ui/lilo/expert/index.scm:189
+msgid "Delete"
+msgstr "Вилучити"
 
 #: ui/lilo/expert/index.scm:194
 msgid "Add Linux kernel"
@@ -46,139 +154,13 @@ msgstr "Додати ядро Linux"
 msgid "Add other loader"
 msgstr "Додати інший завантажувач"
 
-#: ui/lilo/expert/index.scm:171
-msgid "Additional parameters:"
-msgstr "Додаткові параметри ядра:"
-
-#: ui/lilo/expert/index.scm:176
-msgid "Alias:"
-msgstr "Псевдонім:"
-
-#: ui/lilo/index.scm:126 ui/lilo/edit-source/index.scm:57
-#: ui/lilo/expert/index.scm:206
-msgid "Apply"
-msgstr "Застосувати"
-
-#: ui/lilo/expert/index.scm:157
-msgid "Boot variants"
-msgstr "Варіанти завантаження"
-
-#: standard input:1
-msgid "Bootloader"
-msgstr "Завантажувач"
-
-#: standard input:2
-msgid "Bootloader setup"
-msgstr "Налаштування завантажувача"
-
-#: ui/lilo/expert/index.scm:145
-msgid "Common kernel parameters:"
-msgstr "Загальні параметри ядра:"
-
-#: ui/lilo/expert/index.scm:127
-msgid "Common settings"
-msgstr "Загальні налаштування"
-
-#: helpers/lilo-conf.sh:146
-msgid "Could not find kernel image"
-msgstr "Не знайдено образ ядра"
-
-#: ui/lilo/expert/index.scm:150
-msgid "Default boot variant:"
-msgstr "Типовий варіант завантаження:"
-
-#: ui/lilo/expert/index.scm:189
-msgid "Delete"
-msgstr "Вилучити"
-
-#: ui/lilo/expert/index.scm:174
-msgid "Device:"
-msgstr "Пристрій:"
-
-#: ui/lilo/edit-source/index.scm:38 ui/lilo/expert/index.scm:119
-msgid "Don't install bootloader"
-msgstr "Не встановлювати завантажувач"
-
-#: ui/lilo/edit-source/index.scm:42 ui/lilo/expert/index.scm:123
-msgid "Edit lilo.conf"
-msgstr "Змінити lilo.conf"
-
-#: ui/lilo/index.scm:127 ui/lilo/edit-source/index.scm:41
-#: ui/lilo/expert/index.scm:122
-msgid "Expert mode"
-msgstr "Режим експерта"
-
-#: backend3/lilo:110
-msgid "Gb"
-msgstr "Гб"
-
-#: backend3/lilo:113
-msgid "Hard drive"
-msgstr "Жорсткий диск"
-
-#: helpers/lilo-conf.sh:141
-msgid "Inconsistent Raid version information on"
-msgstr "Неповна інформація про версію RAID на пристрої"
-
-#: ui/lilo/expert/index.scm:167
-msgid "Initrd:"
-msgstr "Файлова система initrd:"
-
-#: ui/lilo/index.scm:97 ui/lilo/expert/index.scm:131
-msgid "Install boot loader on:"
-msgstr "Встановити завантажувач на:"
-
-#: ui/lilo/index.scm:114 ui/lilo/expert/index.scm:142
-msgid "Interface timeout:"
-msgstr "Час очікування:"
-
-#: ui/lilo/expert/index.scm:139
-msgid "Interface type:"
-msgstr "Тип інтерфейсу:"
-
-#: helpers/lilo-parser.sh:348
-msgid "Kernel image is unspecified."
-msgstr "Не вказаний образ ядра"
-
-#: ui/lilo/expert/index.scm:165
-msgid "Kernel image:"
-msgstr "Образ ядра:"
-
-#: helpers/lilo-parser.sh:338
-msgid "Label is empty."
-msgstr "Підпис порожній."
-
-#: ui/lilo/expert/index.scm:163
-msgid "Label:"
-msgstr "Підпис:"
-
 #: ui/lilo/edit-source/index.scm:49
 msgid "Lilo options:"
 msgstr "Параметри Lilo:"
 
-#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
-msgid "Linux kernel"
-msgstr "Ядро linux"
-
-#: backend3/lilo:114
-msgid "Linux partition"
-msgstr "Розділ Linux"
-
-#: ui/lilo/index.scm:111
-msgid "Load by default:"
-msgstr "Завантажувати типово:"
-
-#: ui/lilo/index.scm:102
-msgid "Load other OS:"
-msgstr "Завантажити інші ОС:"
-
-#: ui/lilo/expert/index.scm:181
-msgid "Master boot"
-msgstr "Головний завнтажувач"
-
-#: backend3/lilo:109
-msgid "Mb"
-msgstr "Мб"
+#: helpers/lilo-conf.sh:29 helpers/lilo-conf.sh:145
+msgid "device not found"
+msgstr "Пристрій не знайдено"
 
 #: helpers/lilo-conf.sh:98
 msgid "No boot device"
@@ -189,82 +171,9 @@ msgid "Not a RAID install, 'raid-extra-boot=' not allowed"
 msgstr ""
 "Параметр raid-extra-boot використовується лише при встановленні на RAID"
 
-#: helpers/lilo-conf.sh:142
-msgid "Only RAID1 devices are supported as boot devices"
-msgstr "Тільки RAID1 пристрій може бути використаний як завантажувальний"
-
-#: ui/lilo/expert/index.scm:27 ui/lilo/expert/index.scm:35
-msgid "Other loader"
-msgstr "Інший завантажувач"
-
-#: helpers/lilo-parser.sh:343
-msgid "Other loader device is unspecified."
-msgstr "Інший пристрій завантаження не вказаний."
-
-#: helpers/lilo-conf.sh:143
-msgid "RAID install requires LBA32 or LINEAR; LBA32 assumed."
-msgstr "Для встановлення на RAID потрібен LBA32 чи LINEAR; Задіяно LBA32."
-
 #: helpers/lilo-conf.sh:133
 msgid "RAID1 install implied by 'boot=/'"
 msgstr "RAID1 встановлення припускається через ’boot=/’"
-
-#: helpers/lilo-conf.sh:138
-msgid "Raid major versions > 0 are not supported"
-msgstr "Версії RAID > 0 не підтримуються"
-
-#: helpers/lilo-conf.sh:139
-msgid "Raid versions < 0.90 are not supported"
-msgstr "Версії RAID < 0.90 не підтримуються"
-
-#: ui/lilo/expert/index.scm:134
-msgid "Raid-extra-boot:"
-msgstr "Параметри завантаження RAID:"
-
-#: ui/lilo/edit-source/index.scm:58 ui/lilo/expert/index.scm:187
-#: ui/lilo/expert/index.scm:207
-msgid "Reset"
-msgstr "Скинути"
-
-#: helpers/lilo-parser.sh:353
-msgid "Root device is unspecified."
-msgstr "Не вказано кореневого пристрою."
-
-#: ui/lilo/expert/index.scm:169
-msgid "Root device:"
-msgstr "Кореневий пристрій:"
-
-#: ui/lilo/expert/index.scm:186
-msgid "Save"
-msgstr "Зберегти"
-
-#: helpers/lilo-parser.sh:323
-msgid "Section already exists."
-msgstr "Варіант завантаження з таким іменем вже існує."
-
-#: ui/lilo/edit-source/index.scm:40 ui/lilo/expert/index.scm:121
-msgid "Simple mode"
-msgstr "Простий режим"
-
-#: ui/lilo/expert/index.scm:178
-msgid "Table:"
-msgstr "Таблиця:"
-
-#: backend3/lilo:111
-msgid "Tb"
-msgstr "Тб"
-
-#: backend3/lilo:270
-msgid "Unable to create temp config file"
-msgstr "Неможливо створити тимчасовий конфігураційний файл"
-
-#: helpers/lilo-conf.sh:140
-msgid "Unable to get RAID info on"
-msgstr "Неможливо отримати інформацію про RAID на пристрої"
-
-#: helpers/lilo-conf.sh:137
-msgid "Unable to get RAID version on"
-msgstr "Неможливо визначити версію RAID"
 
 #: helpers/lilo-conf.sh:134
 msgid "Unable to open"
@@ -274,29 +183,101 @@ msgstr "Неможливо відкрити"
 msgid "Unable to stat"
 msgstr "Неможливо знайти"
 
-#: backend3/lilo:276
-msgid "Unable to write new lilo.conf"
-msgstr "Неможливо записати lilo.conf"
+#: helpers/lilo-conf.sh:136
+msgid "is not a block device"
+msgstr "не є блочним пристроєм"
 
-#: helpers/lilo-parser.sh:279
-msgid "Unknown section"
-msgstr "Невідомий варіант завантаження"
+#: helpers/lilo-conf.sh:137
+msgid "Unable to get RAID version on"
+msgstr "Неможливо визначити версію RAID"
 
-#: backend3/lilo:155
-msgid "auto"
-msgstr "авто"
+#: helpers/lilo-conf.sh:138
+msgid "Raid major versions > 0 are not supported"
+msgstr "Версії RAID > 0 не підтримуються"
 
-#: backend3/lilo:107
-msgid "b"
-msgstr "б"
+#: helpers/lilo-conf.sh:139
+msgid "Raid versions < 0.90 are not supported"
+msgstr "Версії RAID < 0.90 не підтримуються"
+
+#: helpers/lilo-conf.sh:140
+msgid "Unable to get RAID info on"
+msgstr "Неможливо отримати інформацію про RAID на пристрої"
+
+#: helpers/lilo-conf.sh:141
+msgid "Inconsistent Raid version information on"
+msgstr "Неповна інформація про версію RAID на пристрої"
+
+#: helpers/lilo-conf.sh:142
+msgid "Only RAID1 devices are supported as boot devices"
+msgstr "Тільки RAID1 пристрій може бути використаний як завантажувальний"
+
+#: helpers/lilo-conf.sh:143
+msgid "RAID install requires LBA32 or LINEAR; LBA32 assumed."
+msgstr "Для встановлення на RAID потрібен LBA32 чи LINEAR; Задіяно LBA32."
 
 #: helpers/lilo-conf.sh:144
 msgid "boot device not found"
 msgstr "Пристрій не знайдено"
 
-#: helpers/lilo-conf.sh:29 helpers/lilo-conf.sh:145
-msgid "device not found"
-msgstr "Пристрій не знайдено"
+#: helpers/lilo-conf.sh:146
+msgid "Could not find kernel image"
+msgstr "Не знайдено образ ядра"
+
+#: helpers/lilo-other-system.sh:65
+msgid "partition"
+msgstr "розділ"
+
+#: helpers/lilo-parser.sh:279
+msgid "Unknown section"
+msgstr "Невідомий варіант завантаження"
+
+#: helpers/lilo-parser.sh:323
+msgid "Section already exists."
+msgstr "Варіант завантаження з таким іменем вже існує."
+
+#: helpers/lilo-parser.sh:338
+msgid "Label is empty."
+msgstr "Підпис порожній."
+
+#: helpers/lilo-parser.sh:343
+msgid "Other loader device is unspecified."
+msgstr "Інший пристрій завантаження не вказаний."
+
+#: helpers/lilo-parser.sh:348
+msgid "Kernel image is unspecified."
+msgstr "Не вказаний образ ядра"
+
+#: helpers/lilo-parser.sh:353
+msgid "Root device is unspecified."
+msgstr "Не вказано кореневого пристрою."
+
+#: backend3/lilo:107
+msgid "b"
+msgstr "б"
+
+#: backend3/lilo:108
+msgid "kb"
+msgstr "кб"
+
+#: backend3/lilo:109
+msgid "Mb"
+msgstr "Мб"
+
+#: backend3/lilo:110
+msgid "Gb"
+msgstr "Гб"
+
+#: backend3/lilo:111
+msgid "Tb"
+msgstr "Тб"
+
+#: backend3/lilo:113
+msgid "Hard drive"
+msgstr "Жорсткий диск"
+
+#: backend3/lilo:114
+msgid "Linux partition"
+msgstr "Розділ Linux"
 
 #: backend3/lilo:144
 msgid "failsafe"
@@ -306,17 +287,17 @@ msgstr "з безпечними параметрами"
 msgid "graphics"
 msgstr "графічний"
 
-#: backend3/lilo:166
-msgid "infinite"
-msgstr "безмежно"
+#: backend3/lilo:150
+msgid "text"
+msgstr "текстовий"
 
-#: helpers/lilo-conf.sh:136
-msgid "is not a block device"
-msgstr "не є блочним пристроєм"
+#: backend3/lilo:154
+msgid "none"
+msgstr "немає"
 
-#: backend3/lilo:108
-msgid "kb"
-msgstr "кб"
+#: backend3/lilo:155
+msgid "auto"
+msgstr "авто"
 
 #: backend3/lilo:156
 msgid "mbr"
@@ -330,14 +311,34 @@ msgstr "тільки MBR"
 msgid "no wait"
 msgstr "не чекати"
 
-#: backend3/lilo:154
-msgid "none"
-msgstr "немає"
+#: backend3/lilo:161
+msgid "1 second"
+msgstr "1 секунда"
 
-#: helpers/lilo-other-system.sh:65
-msgid "partition"
-msgstr "розділ"
+#: backend3/lilo:162
+msgid "5 seconds"
+msgstr "5 секунд"
 
-#: backend3/lilo:150
-msgid "text"
-msgstr "текстовий"
+#: backend3/lilo:163
+msgid "10 seconds"
+msgstr "10 секунд"
+
+#: backend3/lilo:164
+msgid "20 seconds"
+msgstr "20 секунд"
+
+#: backend3/lilo:165
+msgid "1 minute"
+msgstr "1 хвилина"
+
+#: backend3/lilo:166
+msgid "infinite"
+msgstr "безмежно"
+
+#: backend3/lilo:270
+msgid "Unable to create temp config file"
+msgstr "Неможливо створити тимчасовий конфігураційний файл"
+
+#: backend3/lilo:276
+msgid "Unable to write new lilo.conf"
+msgstr "Неможливо записати lilo.conf"

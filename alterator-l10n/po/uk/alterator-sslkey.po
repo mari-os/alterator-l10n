@@ -8,42 +8,148 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: standard input:14
-msgid "(Re)create key and sign request"
-msgstr "(Пере)створити ключ та запит на підпис"
+#: standard input:1
+msgid "SSL keys management"
+msgstr "Керування SSL ключами"
+
+#: standard input:1
+msgid "SSL settings"
+msgstr "Налаштування SSL"
+
+#: standard input:2 ui/sslkey/generate/index.scm:168
+msgid "Common Name (CN):"
+msgstr "Загальне ім’я (CN):"
 
 #: standard input:3
 msgid "(hostname for server or something else for client)"
 msgstr "(ім'я комп'ютера для сервера або що-небуть інше для кліента)"
 
-#: standard input:9
-msgid "(organization name, written in latin letters)"
-msgstr "(назва організації, латинськими літерами)"
-
-#: standard input:11
-msgid "(organizational unit name, written in latin letters)"
-msgstr "(назва підрозділу організації, латинськими літерами)"
-
-#: standard input:7
-msgid "(state or city, written in latin letters)"
-msgstr "(регіон або місто, латинськими літерами)"
+#.
+#: standard input:4 ui/sslkey/generate/index.scm:171
+msgid "Country (C):"
+msgstr "Країна (С):"
 
 #: standard input:5
 msgid "(two letter country code)"
 msgstr "(код країни, два символи)"
 
+#.
+#: standard input:6 ui/sslkey/generate/index.scm:174
+msgid "Location (L):"
+msgstr "Розташування (L):"
+
+#: standard input:7
+msgid "(state or city, written in latin letters)"
+msgstr "(регіон або місто, латинськими літерами)"
+
+#.
+#: standard input:8 ui/sslkey/generate/index.scm:177
+msgid "Organization (O):"
+msgstr "Організація (О):"
+
+#: standard input:9
+msgid "(organization name, written in latin letters)"
+msgstr "(назва організації, латинськими літерами)"
+
+#.
+#: standard input:10 ui/sslkey/generate/index.scm:180
+msgid "Organizational Unit (OU):"
+msgstr "Підрозділ організації (OU):"
+
+#: standard input:11
+msgid "(organizational unit name, written in latin letters)"
+msgstr "(назва підрозділу організації, латинськими літерами)"
+
+#.
+#: standard input:12 ui/sslkey/generate/index.scm:183
+msgid "E-mail address:"
+msgstr "Адреса електроної пошти:"
+
 #: standard input:13
 msgid "(your e-mail address)"
 msgstr "(ваша електрона пошта)"
+
+#: standard input:14
+msgid "(Re)create key and sign request"
+msgstr "(Пере)створити ключ та запит на підпис"
+
+#: standard input:15 input:24 ui/sslkey/generate/index.scm:187
+#: ui/sslkey/index.scm:40
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#: standard input:16
+msgid "Sign"
+msgstr "Підпис"
+
+#: standard input:17
+msgid "Download sign request"
+msgstr "Звантажити запит на підпис"
+
+#: standard input:18
+msgid "Upload certificate signed by CA:"
+msgstr "Завантажити сертифікат, підписаний CA:"
+
+#: standard input:19
+msgid "Upload"
+msgstr "Завантажити"
+
+#: standard input:20
+msgid "SSL keys:"
+msgstr "SSL ключи:"
+
+#: standard input:21 ui/sslkey/index.scm:34
+msgid "New..."
+msgstr "Новий..."
+
+#: standard input:22 ui/sslkey/index.scm:35
+msgid "Change..."
+msgstr "Змінити..."
+
+#: standard input:23 ui/sslkey/index.scm:39
+msgid "Delete key, certificate and sign request"
+msgstr "Видалити ключ, сертифікат та запит на підпис"
+
+#: ui/sslkey/generate/index.scm:167
+msgid "SSL settings:"
+msgstr "Налаштування SSL:"
+
+#.
+#: ui/sslkey/generate/index.scm:186
+msgid "Generate key and sign request"
+msgstr "Генерувати ключ та запит на підпис"
+
+#.
+#: ui/sslkey/generate/index.scm:191 ui/sslkey/generate/index.scm:194
+msgid "Export sign request"
+msgstr "Експортувати запит на підпис"
+
+#: ui/sslkey/generate/index.scm:193
+msgid "Destination directory:"
+msgstr "Тека призначення:"
+
+#.
+#: ui/sslkey/generate/index.scm:202
+msgid "Import user certificate:"
+msgstr "Імпорт сертифікату користувача:"
+
+#: ui/sslkey/generate/index.scm:203
+msgid "Import user certificate"
+msgstr "Імпорт сертифікату користувача"
+
+#: ui/sslkey/generate/index.scm:212
+msgid "OK"
+msgstr ""
 
 #: ui/sslkey/generate/index.scm:213
 msgid "Apply"
@@ -53,122 +159,37 @@ msgstr "Застосувати"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: standard input:22 ui/sslkey/index.scm:35
-msgid "Change..."
-msgstr "Змінити..."
+#: type/ssl-cert-country-code.scm:11
+msgid "invalid ISO-3166-alpha-2 country code"
+msgstr "невірний код країни ISO-3166-alpha-2"
 
-#: standard input:2 ui/sslkey/generate/index.scm:168
-msgid "Common Name (CN):"
-msgstr "Загальне ім’я (CN):"
+#: type/ssl-cert-field.scm:11
+msgid "only digits, punctuation and latin letters allowed"
+msgstr "дозволені лише цифри, знаки пунктуації та латинські літери"
 
-#: standard input:15 input:24 ui/sslkey/generate/index.scm:187
-#: ui/sslkey/index.scm:40
-msgid "Confirm"
-msgstr "Підтвердити"
-
-#.
-#: standard input:4 ui/sslkey/generate/index.scm:171
-msgid "Country (C):"
-msgstr "Країна (С):"
-
-#: standard input:23 ui/sslkey/index.scm:39
-msgid "Delete key, certificate and sign request"
-msgstr "Видалити ключ, сертифікат та запит на підпис"
-
-#: ui/sslkey/generate/index.scm:193
-msgid "Destination directory:"
-msgstr "Тека призначення:"
-
-#: standard input:17
-msgid "Download sign request"
-msgstr "Звантажити запит на підпис"
-
-#.
-#: standard input:12 ui/sslkey/generate/index.scm:183
-msgid "E-mail address:"
-msgstr "Адреса електроної пошти:"
-
-#.
-#: ui/sslkey/generate/index.scm:191 ui/sslkey/generate/index.scm:194
-msgid "Export sign request"
-msgstr "Експортувати запит на підпис"
-
-#: backend3/sslkey:243
-msgid "Export sign request failed"
-msgstr "Помилка експорту запиту на підпис"
-
-#.
-#: ui/sslkey/generate/index.scm:186
-msgid "Generate key and sign request"
-msgstr "Генерувати ключ та запит на підпис"
-
-#: ui/sslkey/generate/index.scm:203
-msgid "Import user certificate"
-msgstr "Імпорт сертифікату користувача"
-
-#.
-#: ui/sslkey/generate/index.scm:202
-msgid "Import user certificate:"
-msgstr "Імпорт сертифікату користувача:"
-
-#: backend3/sslkey:41
-msgid "Invalid certificate"
-msgstr "Невірний сертифікат"
-
-#: backend3/sslkey:232
-msgid "Invalid certificate file"
-msgstr "Невірний файл сертифікату"
-
-#.
-#: standard input:6 ui/sslkey/generate/index.scm:174
-msgid "Location (L):"
-msgstr "Розташування (L):"
-
-#: standard input:21 ui/sslkey/index.scm:34
-msgid "New..."
-msgstr "Новий..."
-
-#: backend3/sslkey:44
-msgid "No certificate"
-msgstr "Не сертифікат"
-
-#: ui/sslkey/generate/index.scm:212
-msgid "OK"
-msgstr ""
+#: backend3/sslkey:36
+msgid "expire"
+msgstr "закінчився"
 
 #: backend3/sslkey:38
 msgid "OK certificate"
 msgstr "OK сертифікат"
 
-#.
-#: standard input:8 ui/sslkey/generate/index.scm:177
-msgid "Organization (O):"
-msgstr "Організація (О):"
+#: backend3/sslkey:41
+msgid "Invalid certificate"
+msgstr "Невірний сертифікат"
 
-#.
-#: standard input:10 ui/sslkey/generate/index.scm:180
-msgid "Organizational Unit (OU):"
-msgstr "Підрозділ організації (OU):"
+#: backend3/sslkey:44
+msgid "No certificate"
+msgstr "Не сертифікат"
 
-#: standard input:1
-msgid "SSL keys management"
-msgstr "Керування SSL ключами"
+#: backend3/sslkey:203
+msgid "Unable to determine file name"
+msgstr "Неможливо визначити ім'я файлу"
 
-#: standard input:20
-msgid "SSL keys:"
-msgstr "SSL ключи:"
-
-#: standard input:1
-msgid "SSL settings"
-msgstr "Налаштування SSL"
-
-#: ui/sslkey/generate/index.scm:167
-msgid "SSL settings:"
-msgstr "Налаштування SSL:"
-
-#: standard input:16
-msgid "Sign"
-msgstr "Підпис"
+#: backend3/sslkey:232
+msgid "Invalid certificate file"
+msgstr "Невірний файл сертифікату"
 
 #: backend3/sslkey:238
 msgid "Sign request does not exist"
@@ -178,26 +199,6 @@ msgstr "Не існує запиту на підпис"
 msgid "Target directory does not exist"
 msgstr "Не існує цільової теки"
 
-#: backend3/sslkey:203
-msgid "Unable to determine file name"
-msgstr "Неможливо визначити ім'я файлу"
-
-#: standard input:19
-msgid "Upload"
-msgstr "Завантажити"
-
-#: standard input:18
-msgid "Upload certificate signed by CA:"
-msgstr "Завантажити сертифікат, підписаний CA:"
-
-#: backend3/sslkey:36
-msgid "expire"
-msgstr "закінчився"
-
-#: type/ssl-cert-country-code.scm:11
-msgid "invalid ISO-3166-alpha-2 country code"
-msgstr "невірний код країни ISO-3166-alpha-2"
-
-#: type/ssl-cert-field.scm:11
-msgid "only digits, punctuation and latin letters allowed"
-msgstr "дозволені лише цифри, знаки пунктуації та латинські літери"
+#: backend3/sslkey:243
+msgid "Export sign request failed"
+msgstr "Помилка експорту запиту на підпис"

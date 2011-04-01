@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,43 +20,35 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
+#: standard input:1
+#, fuzzy
+msgid "Proxy settings"
+msgstr "Ajustes"
+
+#: standard input:1 ui/sysconfig/proxy/index.scm:7
+#, fuzzy
+msgid "Proxy server:"
+msgstr "Servidor Proxy"
+
+#: standard input:2 ui/sysconfig/proxy/index.scm:9
+msgid "Port:"
+msgstr "Porta:"
+
 #: standard input:3 ui/sysconfig/proxy/index.scm:14
 msgid "Account:"
 msgstr "Cuenta:"
 
-#: backend3/sysconfig-base:32
-#, fuzzy
-msgid "Alt key"
-msgstr "Borrar llave"
-
-#: backend3/sysconfig-base:28
-msgid "Alt+Shift key"
-msgstr ""
+#: standard input:4 ui/sysconfig/proxy/index.scm:17
+msgid "Password:"
+msgstr "Contraseña:"
 
 #: standard input:5 ui/sysconfig/proxy/index.scm:26
 msgid "Apply"
 msgstr "Aplicar"
 
-#: backend3/sysconfig-base:29
-msgid "CapsLock key"
-msgstr ""
-
-#: backend3/sysconfig-base:31
-msgid "Control key"
-msgstr ""
-
-#: backend3/sysconfig-base:30
-msgid "Control+Shift keys"
-msgstr ""
-
-#: backend3/sysconfig-base:33
-msgid "Control+Shift keys (UK,RU,EN)"
-msgstr ""
-
-#: backend3/sysconfig-base:34
-#, fuzzy
-msgid "Default"
-msgstr "predeterminado"
+#: standard input:6 ui/sysconfig/proxy/index.scm:27
+msgid "Reset"
+msgstr "Resetar"
 
 #: ui/sysconfig/base/index.scm:26
 msgid "Help"
@@ -65,38 +58,46 @@ msgstr "Ayuda"
 msgid "Next"
 msgstr "Siguiente"
 
-#: standard input:4 ui/sysconfig/proxy/index.scm:17
-msgid "Password:"
-msgstr "Contraseña:"
+#: ui/sysconfig/base/index.scm:31
+#, fuzzy
+msgid "Select your language:"
+msgstr "Selecione su Lenguage"
 
 #: ui/sysconfig/base/index.scm:32
 #, fuzzy
 msgid "Please select keyboard switch type:"
 msgstr "Seleccione su país:"
 
-#: standard input:2 ui/sysconfig/proxy/index.scm:9
-msgid "Port:"
-msgstr "Porta:"
+#: backend3/sysconfig-base:29
+msgid "Alt+Shift key"
+msgstr ""
 
-#: standard input:1 ui/sysconfig/proxy/index.scm:7
+#: backend3/sysconfig-base:30
+msgid "CapsLock key"
+msgstr ""
+
+#: backend3/sysconfig-base:31
+msgid "Control+Shift keys"
+msgstr ""
+
+#: backend3/sysconfig-base:32
+msgid "Control key"
+msgstr ""
+
+#: backend3/sysconfig-base:33
 #, fuzzy
-msgid "Proxy server:"
-msgstr "Servidor Proxy"
+msgid "Alt key"
+msgstr "Borrar llave"
 
-#: standard input:1
-#, fuzzy
-msgid "Proxy settings"
-msgstr "Ajustes"
-
-#: standard input:6 ui/sysconfig/proxy/index.scm:27
-msgid "Reset"
-msgstr "Resetar"
-
-#: ui/sysconfig/base/index.scm:31
-#, fuzzy
-msgid "Select your language:"
-msgstr "Selecione su Lenguage"
+#: backend3/sysconfig-base:34
+msgid "Control+Shift keys (UK,RU,EN)"
+msgstr ""
 
 #: backend3/sysconfig-base:35
+#, fuzzy
+msgid "Default"
+msgstr "predeterminado"
+
+#: backend3/sysconfig-base:36
 msgid "Without dead keys"
 msgstr ""

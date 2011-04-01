@@ -7,52 +7,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Proxy settings"
+msgstr "Настройки proxy"
+
+#: standard input:1 ui/sysconfig/proxy/index.scm:7
+msgid "Proxy server:"
+msgstr "Прокси-сервер:"
+
+#: standard input:2 ui/sysconfig/proxy/index.scm:9
+msgid "Port:"
+msgstr "Порт:"
 
 #: standard input:3 ui/sysconfig/proxy/index.scm:14
 msgid "Account:"
 msgstr "Учётная запись:"
 
-#: backend3/sysconfig-base:32
-msgid "Alt key"
-msgstr "Клавиша Alt"
-
-#: backend3/sysconfig-base:28
-msgid "Alt+Shift key"
-msgstr "Клавиши Alt и Shift одновременно"
+#: standard input:4 ui/sysconfig/proxy/index.scm:17
+msgid "Password:"
+msgstr "Пароль:"
 
 #: standard input:5 ui/sysconfig/proxy/index.scm:26
 msgid "Apply"
 msgstr "Применить"
 
-#: backend3/sysconfig-base:29
-msgid "CapsLock key"
-msgstr "Клавиша CapsLock"
-
-#: backend3/sysconfig-base:31
-msgid "Control key"
-msgstr "Клавиша Control"
-
-#: backend3/sysconfig-base:30
-msgid "Control+Shift keys"
-msgstr "Клавиши Control и Shift одновременно"
-
-#: backend3/sysconfig-base:33
-msgid "Control+Shift keys (UK,RU,EN)"
-msgstr "Клавиши Control и Shift одновременно (UK, RU, EN)"
-
-#: backend3/sysconfig-base:34
-msgid "Default"
-msgstr "По умолчанию"
+#: standard input:6 ui/sysconfig/proxy/index.scm:27
+msgid "Reset"
+msgstr "Вернуть"
 
 #: ui/sysconfig/base/index.scm:26
 msgid "Help"
@@ -62,34 +55,42 @@ msgstr "Справка"
 msgid "Next"
 msgstr "Далее"
 
-#: standard input:4 ui/sysconfig/proxy/index.scm:17
-msgid "Password:"
-msgstr "Пароль:"
+#: ui/sysconfig/base/index.scm:31
+msgid "Select your language:"
+msgstr "Выберите язык:"
 
 #: ui/sysconfig/base/index.scm:32
 msgid "Please select keyboard switch type:"
 msgstr "Выберите вариант переключения раскладки клавиатуры:"
 
-#: standard input:2 ui/sysconfig/proxy/index.scm:9
-msgid "Port:"
-msgstr "Порт:"
+#: backend3/sysconfig-base:29
+msgid "Alt+Shift key"
+msgstr "Клавиши Alt и Shift одновременно"
 
-#: standard input:1 ui/sysconfig/proxy/index.scm:7
-msgid "Proxy server:"
-msgstr "Прокси-сервер:"
+#: backend3/sysconfig-base:30
+msgid "CapsLock key"
+msgstr "Клавиша CapsLock"
 
-#: standard input:1
-msgid "Proxy settings"
-msgstr "Настройки proxy"
+#: backend3/sysconfig-base:31
+msgid "Control+Shift keys"
+msgstr "Клавиши Control и Shift одновременно"
 
-#: standard input:6 ui/sysconfig/proxy/index.scm:27
-msgid "Reset"
-msgstr "Вернуть"
+#: backend3/sysconfig-base:32
+msgid "Control key"
+msgstr "Клавиша Control"
 
-#: ui/sysconfig/base/index.scm:31
-msgid "Select your language:"
-msgstr "Выберите язык:"
+#: backend3/sysconfig-base:33
+msgid "Alt key"
+msgstr "Клавиша Alt"
+
+#: backend3/sysconfig-base:34
+msgid "Control+Shift keys (UK,RU,EN)"
+msgstr "Клавиши Control и Shift одновременно (UK, RU, EN)"
 
 #: backend3/sysconfig-base:35
+msgid "Default"
+msgstr "По умолчанию"
+
+#: backend3/sysconfig-base:36
 msgid "Without dead keys"
 msgstr "Без 'мёртвых' клавиш"

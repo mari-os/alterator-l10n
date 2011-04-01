@@ -6,18 +6,143 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-packages 0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2010-10-22 00:35+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ui/packages/index.scm:388
+#: standard input:1
+msgid "Packages"
+msgstr "Пакеты"
+
+#: ui/packages/view-profile.scm:102
+msgid "Profiles"
+msgstr "Профили"
+
+#: ui/packages/update.scm:6 ui/packages/update.scm:51
+msgid "Updating Indices..."
+msgstr "Обновление индексов ..."
+
+#: ui/packages/update.scm:18 ui/packages/install.scm:31
+msgid "Preparing..."
+msgstr "Подготовка..."
+
+#: ui/packages/update.scm:22
+msgid "Updating..."
+msgstr "Обновление индексов ..."
+
+#: ui/packages/error.scm:6 ui/packages/error.scm:8
+msgid "Error during package installation"
+msgstr "Ошибка установки пакета"
+
+#: ui/packages/error.scm:17
+msgid "Unable to get"
+msgstr "Невозможно получить"
+
+#: ui/packages/error.scm:19
+msgid "Unable to locate"
+msgstr "Невозможно получить"
+
+#: ui/packages/error.scm:21
+msgid "Unable to download"
+msgstr "Невозможно получить"
+
+#: ui/packages/error.scm:23
+msgid "Unable to install"
+msgstr "Невозможно установить"
+
+#: ui/packages/error.scm:25
+msgid "Internal error"
+msgstr "Внутренняя ошибка"
+
+#: ui/packages/error.scm:29
+msgid "Close"
+msgstr "Закрыть"
+
+#: ui/packages/index.scm:17
+msgid "Packages Installation"
+msgstr "Установка программ"
+
+#: ui/packages/index.scm:26
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: ui/packages/index.scm:112
+msgid "View:"
+msgstr "Режим просмотра:"
+
+#: ui/packages/index.scm:137
+msgid "Keywords:"
+msgstr "Ключевые слова:"
+
+#: ui/packages/index.scm:233
+msgid "Show package description"
+msgstr "Показать описание пакета"
+
+#: ui/packages/index.scm:263
+msgid "Be freed on disk"
+msgstr "Будет освобождено"
+
+#: ui/packages/index.scm:264 ui/packages/index.scm:320
+msgid "Be used on disk"
+msgstr "Будет занято"
+
+#: ui/packages/index.scm:281
+msgid "Show statistics"
+msgstr "Показать статистику"
+
+#: ui/packages/index.scm:292
+msgid "Available"
+msgstr "Доступно"
+
+#: ui/packages/index.scm:296
+msgid "Installed"
+msgstr "Установлено"
+
+#: ui/packages/index.scm:300
+msgid "install"
+msgstr "Будет установлено"
+
+#: ui/packages/index.scm:304
+msgid "upgrade"
+msgstr "Будет обновлено"
+
+#: ui/packages/index.scm:308
+msgid "keep"
+msgstr "Будет сохранено"
+
+#: ui/packages/index.scm:312
+msgid "remove"
+msgstr "Будет удалено"
+
+#: ui/packages/index.scm:316
+msgid "Need to get"
+msgstr "Нужно получить"
+
+#: ui/packages/index.scm:366
+msgid "Update"
+msgstr "Обновить"
+
+#: ui/packages/index.scm:371
+msgid "Reset"
+msgstr "Сбросить"
+
+#: ui/packages/index.scm:377
+msgid "Undo"
+msgstr "Отменить"
+
+#: ui/packages/index.scm:383
+msgid "Redo"
+msgstr "Повторить"
+
+#: ui/packages/index.scm:389
 msgid "Apply"
 msgstr "Применить"
 
@@ -25,17 +150,33 @@ msgstr "Применить"
 msgid "Applying changes..."
 msgstr "Производятся изменения..."
 
-#: ui/packages/index.scm:291
-msgid "Available"
-msgstr "Доступно"
+#: ui/packages/install.scm:37
+msgid "Install"
+msgstr "Установка"
 
-#: ui/packages/view-pending.scm:12
-msgid "Be Installed"
-msgstr "Будет установлено"
+#: ui/packages/install.scm:37
+msgid "Download"
+msgstr "Загрузка"
+
+#: ui/packages/install.scm:87
+msgid "Please insert CDROM, labeled as "
+msgstr "Пожалуйста, вставьте CD диск, помеченный как "
+
+#: ui/packages/view-search.scm:61
+msgid "Search"
+msgstr "Поиск"
+
+#: ui/packages/view-groups.scm:57
+msgid "Groups"
+msgstr "Группы"
 
 #: ui/packages/view-pending.scm:11
 msgid "Be Kept"
 msgstr "Будет сохранено"
+
+#: ui/packages/view-pending.scm:12
+msgid "Be Installed"
+msgstr "Будет установлено"
 
 #: ui/packages/view-pending.scm:13
 msgid "Be Removed"
@@ -45,153 +186,13 @@ msgstr "Будет удалено"
 msgid "Be Upgraded"
 msgstr "Будет обновлено"
 
-#: ui/packages/index.scm:262
-msgid "Be freed on disk"
-msgstr "Будет освобождено"
-
-#: ui/packages/index.scm:263 ui/packages/index.scm:319
-msgid "Be used on disk"
-msgstr "Будет занято"
-
-#: ui/packages/error.scm:29
-msgid "Close"
-msgstr "Закрыть"
-
-#: ui/packages/install.scm:37
-msgid "Download"
-msgstr "Загрузка"
-
-#: ui/packages/error.scm:6 ui/packages/error.scm:8
-msgid "Error during package installation"
-msgstr "Ошибка установки пакета"
-
-#: ui/packages/view-groups.scm:57
-msgid "Groups"
-msgstr "Группы"
-
 #: ui/packages/view-pending.scm:15
 msgid "Important"
 msgstr "Необходимые"
 
-#: ui/packages/install.scm:37
-msgid "Install"
-msgstr "Установка"
-
-#: ui/packages/index.scm:295
-msgid "Installed"
-msgstr "Установлено"
-
-#: ui/packages/error.scm:25
-msgid "Internal error"
-msgstr "Внутренняя ошибка"
-
-#: ui/packages/index.scm:137
-msgid "Keywords:"
-msgstr "Ключевые слова:"
-
-#: ui/packages/index.scm:315
-msgid "Need to get"
-msgstr "Нужно получить"
-
-#: standard input:1
-msgid "Packages"
-msgstr "Пакеты"
-
-#: ui/packages/index.scm:17
-msgid "Packages Installation"
-msgstr "Установка программ"
-
 #: ui/packages/view-pending.scm:92
 msgid "Pending"
 msgstr "Изменения"
-
-#: ui/packages/install.scm:87
-msgid "Please insert CDROM, labeled as "
-msgstr "Пожалуйста, вставьте CD диск, помеченный как "
-
-#: ui/packages/index.scm:26
-msgid "Please wait..."
-msgstr "Пожалуйста, подождите..."
-
-#: ui/packages/update.scm:18 ui/packages/install.scm:31
-msgid "Preparing..."
-msgstr "Подготовка..."
-
-#: ui/packages/view-profile.scm:102
-msgid "Profiles"
-msgstr "Профили"
-
-#: ui/packages/index.scm:382
-msgid "Redo"
-msgstr "Повторить"
-
-#: ui/packages/index.scm:370
-msgid "Reset"
-msgstr "Сбросить"
-
-#: ui/packages/view-search.scm:61
-msgid "Search"
-msgstr "Поиск"
-
-#: ui/packages/index.scm:232
-msgid "Show package description"
-msgstr "Показать описание пакета"
-
-#: ui/packages/index.scm:280
-msgid "Show statistics"
-msgstr "Показать статистику"
-
-#: ui/packages/error.scm:21
-msgid "Unable to download"
-msgstr "Невозможно получить"
-
-#: ui/packages/error.scm:17
-msgid "Unable to get"
-msgstr "Невозможно получить"
-
-#: ui/packages/error.scm:23
-msgid "Unable to install"
-msgstr "Невозможно установить"
-
-#: ui/packages/error.scm:19
-msgid "Unable to locate"
-msgstr "Невозможно получить"
-
-#: ui/packages/index.scm:376
-msgid "Undo"
-msgstr "Отменить"
-
-#: ui/packages/index.scm:365
-msgid "Update"
-msgstr "Обновить"
-
-#: ui/packages/update.scm:6 ui/packages/update.scm:51
-msgid "Updating Indices..."
-msgstr "Обновление индексов ..."
-
-#: ui/packages/update.scm:22
-msgid "Updating..."
-msgstr "Обновление индексов ..."
-
-#: ui/packages/index.scm:112
-msgid "View:"
-msgstr "Режим просмотра:"
-
-#: ui/packages/index.scm:299
-msgid "install"
-msgstr "Будет установлено"
-
-#: ui/packages/index.scm:307
-msgid "keep"
-msgstr "Будет сохранено"
-
-#: ui/packages/index.scm:311
-msgid "remove"
-msgstr "Будет удалено"
-
-#: ui/packages/index.scm:303
-msgid "upgrade"
-msgstr "Будет обновлено"
 
 #~ msgid "<New entry>"
 #~ msgstr "<Новый источник>"

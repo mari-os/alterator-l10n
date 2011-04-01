@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2009-09-14 19:22-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,91 +20,115 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:17
-msgid "(IP or name of client)"
-msgstr ""
+#: standard input:1
+msgid "Network installation server"
+msgstr "Servidor de Instalação via rede"
+
+#: standard input:1
+msgid "OK"
+msgstr "OK"
+
+#: standard input:2
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: standard input:3
+msgid "Current image:"
+msgstr "Imagem atual:"
+
+#: standard input:4
+msgid "from"
+msgstr "de"
+
+#: standard input:5
+msgid "Available images:"
+msgstr "Imagens disponíveis:"
+
+#: standard input:6
+msgid "Select"
+msgstr "Selecionar"
+
+#: standard input:7
+msgid "Delete"
+msgstr "Deletar"
+
+#: standard input:8
+msgid "New image:"
+msgstr "Nova imagem:"
 
 #: standard input:9
+msgid "Get from CD/DVD"
+msgstr "Obter de CD/DVD"
+
+#: standard input:10
+msgid "Download file:"
+msgstr "Download do arquivo:"
+
+#: standard input:11
 msgid "(local path or internet URL)"
 msgstr "(caminho local ou internet URL)"
 
-#: standard input:15
-#, fuzzy
-msgid "(password)"
-msgstr "Sem senha"
+#: standard input:12
+msgid "Add"
+msgstr "Adicionar"
 
-#: standard input:11
+#: standard input:13
 #, fuzzy
 msgid "Activate VNC install"
 msgstr "Pacotes para instalação"
 
-#: standard input:10
-msgid "Add"
-msgstr "Adicionar"
+#: standard input:14
+msgid "VNC only"
+msgstr ""
+
+#: standard input:15
+#, fuzzy
+msgid "Connection direction:"
+msgstr "Método de conexão:"
+
+#: standard input:16
+#, fuzzy
+msgid "Connect from client"
+msgstr "Rede conectada"
+
+#: standard input:17
+#, fuzzy
+msgid "(password)"
+msgstr "Sem senha"
 
 #: standard input:18
+#, fuzzy
+msgid "Connect to client"
+msgstr "Rede conectada"
+
+#: standard input:19
+msgid "(IP or name of client)"
+msgstr ""
+
+#: standard input:20
 msgid "Apply"
 msgstr "Aplicar"
+
+#: ui/netinst/wait/ajax.scm:15
+msgid "Downloading image..."
+msgstr "Obtendo a imagem..."
+
+#: ui/netinst/wait/ajax.scm:23
+msgid "Download failed"
+msgstr "Download falhou"
 
 #: ui/netinst/ajax.scm:30
 #, fuzzy
 msgid "Are you really want to remove image?"
 msgstr "Se você realmente quer destruir domínio"
 
-#: standard input:3
-msgid "Available images:"
-msgstr "Imagens disponíveis:"
+#: ui/netinst/ajax.scm:30
+msgid "Question"
+msgstr "Questão"
 
-#: standard input:20
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: standard input:14
-#, fuzzy
-msgid "Connect from client"
-msgstr "Rede conectada"
-
-#: standard input:16
-#, fuzzy
-msgid "Connect to client"
-msgstr "Rede conectada"
-
-#: standard input:13
-#, fuzzy
-msgid "Connection direction:"
-msgstr "Método de conexão:"
-
-#: standard input:1
-msgid "Current image:"
-msgstr "Imagem atual:"
-
-#: standard input:5
-msgid "Delete"
-msgstr "Deletar"
-
-#: ui/netinst/wait/ajax.scm:23
-msgid "Download failed"
-msgstr "Download falhou"
-
-#: standard input:8
-msgid "Download file:"
-msgstr "Download do arquivo:"
-
-#: ui/netinst/wait/ajax.scm:15
-msgid "Downloading image..."
-msgstr "Obtendo a imagem..."
-
-#: standard input:7
-msgid "Get from CD/DVD"
-msgstr "Obter de CD/DVD"
-
-#: standard input:1
-msgid "Network installation server"
-msgstr "Servidor de Instalação via rede"
-
-#: standard input:6
-msgid "New image:"
-msgstr "Nova imagem:"
+#: ui/netinst/ajax.scm:30
+msgid "Yes"
+msgstr "Sim"
 
 #: ui/netinst/ajax.scm:30
 msgid "No"
@@ -112,30 +137,6 @@ msgstr "Não"
 #: backend3/netinst:20
 msgid "No image"
 msgstr "Nenhuma imagem"
-
-#: standard input:19
-msgid "OK"
-msgstr "OK"
-
-#: ui/netinst/ajax.scm:30
-msgid "Question"
-msgstr "Questão"
-
-#: standard input:4
-msgid "Select"
-msgstr "Selecionar"
-
-#: standard input:12
-msgid "VNC only"
-msgstr ""
-
-#: ui/netinst/ajax.scm:30
-msgid "Yes"
-msgstr "Sim"
-
-#: standard input:2
-msgid "from"
-msgstr "de"
 
 #~ msgid "Download complete"
 #~ msgstr "Download completo"

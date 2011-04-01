@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-02-19 00:13+0300\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,365 +17,370 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: standard input:1 input:21 input:30 input:68 input:82 input:91
-msgid "You must specify storage address before using bacula."
+#: standard input:1
+msgid "Bacula director name:"
 msgstr ""
 
-#: standard input:2 input:22 input:31 input:69 input:83 input:92
-msgid "Specify storage address..."
+#: standard input:2 input:84 ui/bacula/local-backup/disk/index.scm:34
+msgid "Attention:"
 msgstr ""
 
 #: standard input:3
-msgid "New client:"
+msgid "Don't forget to update configuration on all clients after name change"
 msgstr ""
 
 #: standard input:4
-msgid "Create"
+msgid "Bacula director's name successfully updated"
 msgstr ""
 
 #: standard input:5
-msgid "Account:"
+msgid "Change name"
 msgstr ""
 
 #: standard input:6
-msgid "Address:"
+msgid "New client:"
 msgstr ""
 
 #: standard input:7
-msgid "Port:"
+msgid "Create"
 msgstr ""
 
 #: standard input:8
-msgid "Password:"
+msgid "Account:"
 msgstr ""
 
 #: standard input:9
-msgid "Download config for client"
+msgid "Address:"
 msgstr ""
 
 #: standard input:10
+msgid "Port:"
+msgstr ""
+
+#: standard input:11
+msgid "Password:"
+msgstr ""
+
+#: standard input:12
+msgid "Download config for client"
+msgstr ""
+
+#: standard input:13
 msgid "Backup:"
 msgstr ""
 
-#: standard input:11 input:15 input:99
+#: standard input:14 input:18 input:77
 #: ui/bacula/local-backup/advanced/index.scm:31
 msgid "Delete"
 msgstr ""
 
-#: standard input:12 input:16 input:100
+#: standard input:15 input:19 input:78
 #: ui/bacula/local-backup/advanced/index.scm:36
 msgid "New path:"
 msgstr ""
 
-#: standard input:13 input:17 input:101
+#: standard input:16 input:20 input:79
 #: ui/bacula/local-backup/advanced/index.scm:38
 msgid "Add"
 msgstr ""
 
-#: standard input:14 input:98 ui/bacula/local-backup/advanced/index.scm:28
+#: standard input:17 input:76 ui/bacula/local-backup/advanced/index.scm:28
 msgid "Do not backup:"
 msgstr ""
 
-#: standard input:18
+#: standard input:21
 msgid "Client settings successfully updated"
 msgstr ""
 
-#: standard input:19 input:76 ui/bacula/local-backup/index.scm:30
+#: standard input:22 input:65 ui/bacula/local-backup/index.scm:30
 msgid "Save settings"
 msgstr ""
 
-#: standard input:20
+#: standard input:23
 msgid "Delete client"
 msgstr ""
 
-#: standard input:23 input:39
+#: standard input:24 input:38
 msgid "No registered clients found"
 msgstr ""
 
-#: standard input:24
+#: standard input:25
 msgid "Schedule:"
 msgstr ""
 
-#: standard input:25 input:46
+#: standard input:26 input:45
 msgid "Clients:"
 msgstr ""
 
-#: standard input:26
+#: standard input:27
 msgid "Do not backup client's data"
 msgstr ""
 
-#: standard input:27 input:71
+#: standard input:28 input:60
 msgid "Backup start time:"
 msgstr ""
 
-#: standard input:28
+#: standard input:29
 msgid "Backup client's data every day at:"
 msgstr ""
 
-#: standard input:29
+#: standard input:30
 msgid "Update schedule"
 msgstr ""
 
-#: standard input:32
+#: standard input:31
 msgid "Director service"
 msgstr ""
 
-#: standard input:33 input:37
+#: standard input:32 input:36
 msgid "Current job status:"
 msgstr ""
 
-#: standard input:34 input:38
+#: standard input:33 input:37
 msgid "Last job status:"
 msgstr ""
 
-#: standard input:35
+#: standard input:34
 msgid "Storage service"
 msgstr ""
 
-#: standard input:36
+#: standard input:35
 msgid "Disk usage:"
 msgstr ""
 
-#: standard input:40
+#: standard input:39
 msgid "Client backups"
 msgstr ""
 
-#: standard input:41
+#: standard input:40
 msgid "Client"
 msgstr ""
 
-#: standard input:42
+#: standard input:41
 msgid "First backup"
 msgstr ""
 
-#: standard input:43
+#: standard input:42
 msgid "Last backup"
 msgstr ""
 
-#: standard input:44
+#: standard input:43
 msgid "Last status"
 msgstr ""
 
-#: standard input:45
+#: standard input:44
 msgid "Backup size"
 msgstr ""
 
-#: standard input:47
+#: standard input:46
 msgid "Archive settings:"
 msgstr ""
 
-#: standard input:48 input:86 ui/bacula/local-backup/disk/index.scm:27
+#: standard input:47 input:83 ui/bacula/local-backup/disk/index.scm:27
 msgid "Store backups for:"
 msgstr ""
 
-#: standard input:49
+#: standard input:48
 msgid "Update"
 msgstr ""
 
-#: standard input:50
+#: standard input:49
 msgid "Archive actions:"
 msgstr ""
 
-#: standard input:51 input:96 ui/bacula/local-backup/advanced/index.scm:22
+#: standard input:50 input:74 ui/bacula/local-backup/advanced/index.scm:22
 msgid "Run backup now"
 msgstr ""
 
-#: standard input:52
+#: standard input:51
 msgid "Remove all client's backups"
 msgstr ""
 
-#: standard input:53
+#: standard input:52
 msgid "Restore date:"
 msgstr ""
 
-#: standard input:54 input:79 ui/bacula/local-backup/index.scm:44
+#: standard input:53 input:68 ui/bacula/local-backup/index.scm:44
 msgid "Restore file or directory:"
 msgstr ""
 
-#: standard input:55
+#: standard input:54
 msgid "for date:"
 msgstr ""
 
-#: standard input:56
+#: standard input:55
 msgid "Advanced restore options"
 msgstr ""
 
-#: standard input:57
+#: standard input:56
 msgid "Target client:"
 msgstr ""
 
-#: standard input:58
+#: standard input:57
 msgid "Target directory:"
 msgstr ""
 
-#: standard input:59
+#: standard input:58
 msgid "OK"
 msgstr ""
 
-#: standard input:60
-msgid "Bacula director name:"
-msgstr ""
-
-#: standard input:61 input:64 input:87
-#: ui/bacula/local-backup/disk/index.scm:34
-msgid "Attention:"
-msgstr ""
-
-#: standard input:62
-msgid "Don't forget to update configuration on all clients after name change"
-msgstr ""
-
-#: standard input:63
-msgid "Storage adress:"
-msgstr ""
-
-#: standard input:65
-msgid "Storage adress (IP or hostname) should be visible for clients"
-msgstr ""
-
-#: standard input:66
-msgid "Bacula director's name successfully updated"
-msgstr ""
-
-#: standard input:67
-msgid "Change name"
-msgstr ""
-
-#: standard input:70 ui/bacula/local-backup/index.scm:9
+#: standard input:59 ui/bacula/local-backup/index.scm:9
 msgid "Don't backup system"
 msgstr ""
 
-#: standard input:72 ui/bacula/local-backup/index.scm:13
+#: standard input:61 ui/bacula/local-backup/index.scm:13
 msgid "Backup system every day at:"
 msgstr ""
 
-#: standard input:73 ui/bacula/local-backup/index.scm:19
+#: standard input:62 ui/bacula/local-backup/index.scm:19
 msgid "Backup disk:"
 msgstr ""
 
-#: standard input:74 ui/bacula/local-backup/index.scm:21
+#: standard input:63 ui/bacula/local-backup/index.scm:21
 msgid "Oldest backup:"
 msgstr ""
 
-#: standard input:75 ui/bacula/local-backup/index.scm:23
+#: standard input:64 ui/bacula/local-backup/index.scm:23
 msgid "Latest backup:"
 msgstr ""
 
-#: standard input:77 ui/bacula/local-backup/index.scm:32
+#: standard input:66 ui/bacula/local-backup/index.scm:32
 msgid "Change disk..."
 msgstr ""
 
-#: standard input:78 ui/bacula/local-backup/index.scm:34
+#: standard input:67 ui/bacula/local-backup/index.scm:34
 msgid "Advanced..."
 msgstr ""
 
-#: standard input:80 ui/bacula/local-backup/index.scm:47
+#: standard input:69 ui/bacula/local-backup/index.scm:47
 msgid "Date:"
 msgstr ""
 
-#: standard input:81 ui/bacula/local-backup/index.scm:52
+#: standard input:70 ui/bacula/local-backup/index.scm:52
 msgid "Restore"
 msgstr ""
 
-#: standard input:84 ui/bacula/local-backup/disk/index.scm:14
-msgid "Use system disk"
-msgstr ""
-
-#: standard input:85 ui/bacula/local-backup/disk/index.scm:20
-msgid "Use additional disk:"
-msgstr ""
-
-#: standard input:88 ui/bacula/local-backup/disk/index.scm:35
-msgid "All existing backups on the new disk will be removed."
-msgstr ""
-
-#: standard input:89 ui/bacula/local-backup/disk/index.scm:40
-msgid "Cancel"
-msgstr ""
-
-#: standard input:90 ui/bacula/local-backup/disk/index.scm:42
-msgid "Change disk"
-msgstr ""
-
-#: standard input:93 ui/bacula/local-backup/advanced/index.scm:12
+#: standard input:71 ui/bacula/local-backup/advanced/index.scm:12
 msgid "Created backups:"
 msgstr ""
 
-#: standard input:94 ui/bacula/local-backup/advanced/index.scm:17
+#: standard input:72 ui/bacula/local-backup/advanced/index.scm:17
 msgid "Creation date"
 msgstr ""
 
-#: standard input:95 ui/bacula/local-backup/advanced/index.scm:17
+#: standard input:73 ui/bacula/local-backup/advanced/index.scm:17
 msgid "Creation result"
 msgstr ""
 
-#: standard input:97 ui/bacula/local-backup/advanced/index.scm:24
+#: standard input:75 ui/bacula/local-backup/advanced/index.scm:24
 msgid "Cancel active jobs"
 msgstr ""
 
-#: standard input:102 ui/bacula/local-backup/advanced/index.scm:41
+#: standard input:80 ui/bacula/local-backup/advanced/index.scm:41
 msgid "Return"
 msgstr ""
 
-#: type/bacula-password.scm:12
-msgid "password contains illegal characters"
+#: standard input:81 ui/bacula/local-backup/disk/index.scm:14
+msgid "Use system disk"
 msgstr ""
 
-#: ui/bacula/client-backup/client/ajax.scm:89
+#: standard input:82 ui/bacula/local-backup/disk/index.scm:20
+msgid "Use additional disk:"
+msgstr ""
+
+#: standard input:85 ui/bacula/local-backup/disk/index.scm:35
+msgid "All existing backups on the new disk will be removed."
+msgstr ""
+
+#: standard input:86 ui/bacula/local-backup/disk/index.scm:40
+msgid "Cancel"
+msgstr ""
+
+#: standard input:87 ui/bacula/local-backup/disk/index.scm:42
+msgid "Change disk"
+msgstr ""
+
+#: ui/bacula/client-backup/client/ajax.scm:87
 msgid "Do you really want to delete client"
 msgstr ""
 
-#: ui/bacula/client-backup/client/ajax.scm:93
+#: ui/bacula/client-backup/client/ajax.scm:91
 msgid "Question"
 msgstr ""
 
-#: ui/bacula/client-backup/client/ajax.scm:94
+#: ui/bacula/client-backup/client/ajax.scm:92
 msgid "Yes"
 msgstr ""
 
-#: ui/bacula/client-backup/client/ajax.scm:95
+#: ui/bacula/client-backup/client/ajax.scm:93
 msgid "No"
 msgstr ""
 
-#: ui/bacula/client-backup/archive/ajax.scm:27
-#: ui/bacula/local-backup/ajax.scm:41
+#: ui/bacula/client-backup/archive/ajax.scm:25
+#: ui/bacula/local-backup/ajax.scm:30
 msgid "Restore completed"
 msgstr ""
 
-#: ui/bacula/client-backup/archive/ajax.scm:30
-#: ui/bacula/local-backup/ajax.scm:44
+#: ui/bacula/client-backup/archive/ajax.scm:28
+#: ui/bacula/local-backup/ajax.scm:33
 msgid "Restore failed, see logs for details"
 msgstr ""
 
-#: ui/bacula/client-backup/archive/ajax.scm:32
-#: ui/bacula/local-backup/ajax.scm:46
+#: ui/bacula/client-backup/archive/ajax.scm:30
+#: ui/bacula/local-backup/ajax.scm:35
 msgid "Starting restore..."
 msgstr ""
 
-#: ui/bacula/client-backup/archive/ajax.scm:35
-#: ui/bacula/local-backup/ajax.scm:49
+#: ui/bacula/client-backup/archive/ajax.scm:33
+#: ui/bacula/local-backup/ajax.scm:38
 msgid "Restoring file"
 msgstr ""
 
-#: ui/bacula/client-backup/archive/ajax.scm:48
+#: ui/bacula/client-backup/archive/ajax.scm:46
 msgid "Do you really want clear all backups for client"
 msgstr ""
 
-#: ui/bacula/restore/finish/index.scm:5
-msgid "Congratulations!"
+#: ui/bacula/restore/select/index.scm:6
+msgid ""
+"Target disk is prepared for operation system. You can install a new system "
+"or restore one from existing backup."
 msgstr ""
 
-#: ui/bacula/restore/finish/index.scm:6
-msgid "System was successfully restored from backup"
+#: ui/bacula/restore/select/index.scm:8
+msgid "Install a new system"
+msgstr ""
+
+#: ui/bacula/restore/select/index.scm:9
+msgid "Restore system from backup"
+msgstr ""
+
+#: ui/bacula/restore/search/index.scm:10
+msgid "Continue"
+msgstr ""
+
+#: ui/bacula/restore/search/index.scm:27
+#: ui/bacula/restore/restore/index.scm:36
+msgid "Fatal error"
+msgstr ""
+
+#: ui/bacula/restore/search/index.scm:34
+msgid "Unable to find backup disk. Please insert one and try again..."
+msgstr ""
+
+#: ui/bacula/restore/search/index.scm:49
+msgid "Searching for backups..."
+msgstr ""
+
+#: ui/bacula/restore/search/index.scm:50
+msgid "Preparing..."
+msgstr ""
+
+#: ui/bacula/restore/search/index.scm:51
+msgid "Restoring backup database..."
 msgstr ""
 
 #: ui/bacula/restore/restore/index.scm:21
 msgid "Select backup date:"
-msgstr ""
-
-#: ui/bacula/restore/restore/index.scm:36
-#: ui/bacula/restore/search/index.scm:27
-msgid "Fatal error"
 msgstr ""
 
 #: ui/bacula/restore/restore/index.scm:44
@@ -398,38 +403,16 @@ msgstr ""
 msgid "Restoring is done"
 msgstr ""
 
-#: ui/bacula/restore/search/index.scm:10
-msgid "Continue"
+#: ui/bacula/restore/finish/index.scm:5
+msgid "Congratulations!"
 msgstr ""
 
-#: ui/bacula/restore/search/index.scm:34
-msgid "Unable to find backup disk. Please insert one and try again..."
+#: ui/bacula/restore/finish/index.scm:6
+msgid "System was successfully restored from backup"
 msgstr ""
 
-#: ui/bacula/restore/search/index.scm:49
-msgid "Searching for backups..."
-msgstr ""
-
-#: ui/bacula/restore/search/index.scm:50
-msgid "Preparing..."
-msgstr ""
-
-#: ui/bacula/restore/search/index.scm:51
-msgid "Restoring backup database..."
-msgstr ""
-
-#: ui/bacula/restore/select/index.scm:6
-msgid ""
-"Target disk is prepared for operation system. You can install a new system "
-"or restore one from existing backup."
-msgstr ""
-
-#: ui/bacula/restore/select/index.scm:8
-msgid "Install a new system"
-msgstr ""
-
-#: ui/bacula/restore/select/index.scm:9
-msgid "Restore system from backup"
+#: type/bacula-password.scm:12
+msgid "password contains illegal characters"
 msgstr ""
 
 #: bin/bacula-alterator-sh-functions:11
@@ -490,10 +473,6 @@ msgstr ""
 
 #: backend3/bacula-client-backup:242 backend3/bacula-local-backup:258
 msgid "Unable to restore"
-msgstr ""
-
-#: backend3/bacula-director:38
-msgid "You should define valid storage address!"
 msgstr ""
 
 #: backend3/bacula-local-backup:114

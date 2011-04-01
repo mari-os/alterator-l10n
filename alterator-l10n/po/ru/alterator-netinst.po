@@ -6,96 +6,121 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
 "PO-Revision-Date: 2010-10-21 23:44+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: standard input:17
-msgid "(IP or name of client)"
-msgstr "(IP адрес или имя компьютера)"
-
-#: standard input:9
-msgid "(local path or internet URL)"
-msgstr "(локальный путь или URL)"
-
-#: standard input:15
-msgid "(password)"
-msgstr "(пароль)"
-
-#: standard input:11
-msgid "Activate VNC install"
-msgstr "Включить установку по VNC"
-
-#: standard input:10
-msgid "Add"
-msgstr "Добавить"
-
-#: standard input:18
-msgid "Apply"
-msgstr "Применить"
-
-#: ui/netinst/ajax.scm:30
-msgid "Are you really want to remove image?"
-msgstr "Вы действительно желаете удалить образ?"
-
-#: standard input:3
-msgid "Available images:"
-msgstr "Доступные образы дисков:"
-
-#: standard input:20
-msgid "Cancel"
-msgstr "Отмена"
-
-#: standard input:14
-msgid "Connect from client"
-msgstr "Подключение со стороны VNC клиента"
-
-#: standard input:16
-msgid "Connect to client"
-msgstr "Подключение со стороны VNC сервера"
-
-#: standard input:13
-msgid "Connection direction:"
-msgstr "Направление соединения:"
-
-#: standard input:1
-msgid "Current image:"
-msgstr "Текущий образ:"
-
-#: standard input:5
-msgid "Delete"
-msgstr "Удалить"
-
-#: ui/netinst/wait/ajax.scm:23
-msgid "Download failed"
-msgstr "Загрузка не удалась"
-
-#: standard input:8
-msgid "Download file:"
-msgstr "Загрузить файл:"
-
-#: ui/netinst/wait/ajax.scm:15
-msgid "Downloading image..."
-msgstr "Загрузка образа..."
-
-#: standard input:7
-msgid "Get from CD/DVD"
-msgstr "Загрузить с CD/DVD"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Network installation server"
 msgstr "Сервер сетевых установок"
 
+#: standard input:1
+msgid "OK"
+msgstr "OK"
+
+#: standard input:2
+msgid "Cancel"
+msgstr "Отмена"
+
+#: standard input:3
+msgid "Current image:"
+msgstr "Текущий образ:"
+
+#: standard input:4
+msgid "from"
+msgstr "из"
+
+#: standard input:5
+msgid "Available images:"
+msgstr "Доступные образы дисков:"
+
 #: standard input:6
+msgid "Select"
+msgstr "Выбрать"
+
+#: standard input:7
+msgid "Delete"
+msgstr "Удалить"
+
+#: standard input:8
 msgid "New image:"
 msgstr "Новый образ:"
+
+#: standard input:9
+msgid "Get from CD/DVD"
+msgstr "Загрузить с CD/DVD"
+
+#: standard input:10
+msgid "Download file:"
+msgstr "Загрузить файл:"
+
+#: standard input:11
+msgid "(local path or internet URL)"
+msgstr "(локальный путь или URL)"
+
+#: standard input:12
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:13
+msgid "Activate VNC install"
+msgstr "Включить установку по VNC"
+
+#: standard input:14
+msgid "VNC only"
+msgstr "Только по VNC"
+
+#: standard input:15
+msgid "Connection direction:"
+msgstr "Направление соединения:"
+
+#: standard input:16
+msgid "Connect from client"
+msgstr "Подключение со стороны VNC клиента"
+
+#: standard input:17
+msgid "(password)"
+msgstr "(пароль)"
+
+#: standard input:18
+msgid "Connect to client"
+msgstr "Подключение со стороны VNC сервера"
+
+#: standard input:19
+msgid "(IP or name of client)"
+msgstr "(IP адрес или имя компьютера)"
+
+#: standard input:20
+msgid "Apply"
+msgstr "Применить"
+
+#: ui/netinst/wait/ajax.scm:15
+msgid "Downloading image..."
+msgstr "Загрузка образа..."
+
+#: ui/netinst/wait/ajax.scm:23
+msgid "Download failed"
+msgstr "Загрузка не удалась"
+
+#: ui/netinst/ajax.scm:30
+msgid "Are you really want to remove image?"
+msgstr "Вы действительно желаете удалить образ?"
+
+#: ui/netinst/ajax.scm:30
+msgid "Question"
+msgstr "Вопрос"
+
+#: ui/netinst/ajax.scm:30
+msgid "Yes"
+msgstr "Да"
 
 #: ui/netinst/ajax.scm:30
 msgid "No"
@@ -104,28 +129,3 @@ msgstr "Нет"
 #: backend3/netinst:20
 msgid "No image"
 msgstr "Нет образа"
-
-#: standard input:19
-msgid "OK"
-msgstr "OK"
-
-#: ui/netinst/ajax.scm:30
-msgid "Question"
-msgstr "Вопрос"
-
-#: standard input:4
-msgid "Select"
-msgstr "Выбрать"
-
-#: standard input:12
-msgid "VNC only"
-msgstr "Только по VNC"
-
-#: ui/netinst/ajax.scm:30
-msgid "Yes"
-msgstr "Да"
-
-#: standard input:2
-msgid "from"
-msgstr "из"
-
