@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt24
+Release: alt25
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -102,6 +102,12 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Apr 01 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt25
+- Mass update of all Alterator module localization
+- Add localization for alterator-bacula-client, alterator-net-routing 
+  and alterator-printers
+- Update Russian translations
+
 * Fri Feb 18 2011 Alexandra Panyukova <mex3@altlinux.ru> 2.9-alt24
 - alterator-bacula translation updated
 
