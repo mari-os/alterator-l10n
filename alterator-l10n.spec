@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt26
+Release: alt27
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -54,6 +54,7 @@ Conflicts: alterator-openvpn-server       < 0.8.0-alt1
 Conflicts: alterator-sslkey               < 0.2.0-alt1
 Conflicts: alterator-snort                < 0.2.0-alt1
 Conflicts: alterator-hotstandby           < 0.3.3-alt1
+Conflicts: alterator-printers	          < 6.0-alt8
 
 %description
 translations for all alterator modules
@@ -102,6 +103,11 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Apr 07 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt27
+- Add alterator-net-shares localization
+- Fix alterator-printers conflict
+- Restore missing strings from alterator-grub backend
+
 * Mon Apr 04 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt26
 - Small fixes in alterator-openldap Russian translation
 
