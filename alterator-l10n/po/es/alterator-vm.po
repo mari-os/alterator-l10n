@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:54+0400\n"
+"POT-Creation-Date: 2011-05-18 18:23+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -93,7 +93,7 @@ msgstr "particíon"
 
 #. fsims
 #: ui/vm/dummystr.scm:7
-msgid "Ext2/3 File System Interface Module"
+msgid "Ext2/3/4 File System Interface Module"
 msgstr ""
 
 #: ui/vm/dummystr.scm:8
@@ -138,236 +138,240 @@ msgid "Volume Label"
 msgstr ""
 
 #: ui/vm/dummystr.scm:19
+msgid "Use Ext4 extents"
+msgstr ""
+
+#: ui/vm/dummystr.scm:20
 msgid "Create Ext3 Journal"
 msgstr ""
 
 #. xfs
-#: ui/vm/dummystr.scm:21
+#: ui/vm/dummystr.scm:22
 msgid "External Journal Volume"
 msgstr ""
 
-#: ui/vm/dummystr.scm:22
+#: ui/vm/dummystr.scm:23
 msgid "Log Size"
 msgstr ""
 
-#: ui/vm/dummystr.scm:23
+#: ui/vm/dummystr.scm:24
 msgid "Force"
 msgstr ""
 
 #. jfs
-#: ui/vm/dummystr.scm:25
+#: ui/vm/dummystr.scm:26
 msgid "Case Insensitive"
 msgstr ""
 
-#: ui/vm/dummystr.scm:26
+#: ui/vm/dummystr.scm:27
 msgid "Inline Log Size"
 msgstr ""
 
 #. reiserfs FIXME
-#: ui/vm/dummystr.scm:28
+#: ui/vm/dummystr.scm:29
 msgid "Version of mkreiserfs"
 msgstr ""
 
 #. swap
-#: ui/vm/dummystr.scm:30
+#: ui/vm/dummystr.scm:31
 msgid "Check for bad blocks"
 msgstr ""
 
 #. fat16/32
-#: ui/vm/dummystr.scm:32
+#: ui/vm/dummystr.scm:33
 msgid "Volume label"
 msgstr ""
 
 #. ntfs
-#: ui/vm/dummystr.scm:34
+#: ui/vm/dummystr.scm:35
 msgid "Cluster size"
 msgstr ""
 
-#: ui/vm/dummystr.scm:35
+#: ui/vm/dummystr.scm:36
 msgid "MFT zone multiplier"
 msgstr ""
 
-#: ui/vm/dummystr.scm:36
+#: ui/vm/dummystr.scm:37
 msgid "Compression"
 msgstr ""
 
-#: ui/vm/dummystr.scm:37
+#: ui/vm/dummystr.scm:38
 msgid "Quick mkfs"
 msgstr ""
 
 #. lvm2 vg
-#: ui/vm/dummystr.scm:39
+#: ui/vm/dummystr.scm:40
 msgid "Name for the new LVM2 container."
 msgstr ""
 
-#: ui/vm/dummystr.scm:40
+#: ui/vm/dummystr.scm:41
 msgid "Extent-size for the new LVM2 container."
 msgstr ""
 
 #. lvm2 lv
-#: ui/vm/dummystr.scm:42
+#: ui/vm/dummystr.scm:43
 msgid "Name for the new LVM2 region."
 msgstr ""
 
-#: ui/vm/dummystr.scm:43
+#: ui/vm/dummystr.scm:44
 msgid "Size for the new LVM2 region."
 msgstr ""
 
-#: ui/vm/dummystr.scm:44
+#: ui/vm/dummystr.scm:45
 msgid "Number of stripes for the new LVM2 region."
 msgstr ""
 
-#: ui/vm/dummystr.scm:45
+#: ui/vm/dummystr.scm:46
 msgid "Objects (PVs) to place the new LVM2 region on."
 msgstr ""
 
 #. raidx
-#: ui/vm/dummystr.scm:47
+#: ui/vm/dummystr.scm:48
 msgid "MD RAID0 Region Manager"
 msgstr ""
 
-#: ui/vm/dummystr.scm:48
+#: ui/vm/dummystr.scm:49
 msgid "MD Raid 1 Region Manager"
 msgstr ""
 
-#: ui/vm/dummystr.scm:49
+#: ui/vm/dummystr.scm:50
 msgid "MD RAID 4/5 Region Manager"
 msgstr ""
 
 #. raid0
-#: ui/vm/dummystr.scm:51
+#: ui/vm/dummystr.scm:52
 msgid "Chunk Size:"
 msgstr ""
 
-#: ui/vm/dummystr.scm:52
+#: ui/vm/dummystr.scm:53
 msgid "Version 1 Super Block"
 msgstr ""
 
 #. raid1
-#: ui/vm/dummystr.scm:54
+#: ui/vm/dummystr.scm:55
 msgid "Degraded array"
 msgstr ""
 
-#: ui/vm/dummystr.scm:55
+#: ui/vm/dummystr.scm:56
 msgid "Spare Disk"
 msgstr ""
 
 #. raid5
-#: ui/vm/dummystr.scm:57
+#: ui/vm/dummystr.scm:58
 msgid "RAID5 Algorithm"
 msgstr ""
 
-#: ui/vm/dummystr.scm:58
+#: ui/vm/dummystr.scm:59
 msgid "RAID level"
 msgstr ""
 
-#: ui/vm/dummystr.scm:59
+#: ui/vm/dummystr.scm:60
 msgid "Chunk size"
 msgstr ""
 
 #. expand seg
-#: ui/vm/dummystr.scm:61
+#: ui/vm/dummystr.scm:62
 #, fuzzy
 msgid "Additional Size"
 msgstr "Paquetes adicionales"
 
 #. shrink seg
-#: ui/vm/dummystr.scm:63
+#: ui/vm/dummystr.scm:64
 msgid "Shrink by Size"
 msgstr ""
 
 #. expand lv
-#: ui/vm/dummystr.scm:65
+#: ui/vm/dummystr.scm:66
 msgid "Extra size for the LVM2 region."
 msgstr ""
 
-#: ui/vm/dummystr.scm:66
+#: ui/vm/dummystr.scm:67
 msgid "Number of stripes for the new portion of the region."
 msgstr ""
 
-#: ui/vm/dummystr.scm:67
+#: ui/vm/dummystr.scm:68
 msgid "Objects (PVs) to use for the new portion of the region."
 msgstr ""
 
 #. shrink lv
-#: ui/vm/dummystr.scm:69
+#: ui/vm/dummystr.scm:70
 msgid "Size to remove from the LVM2 region."
 msgstr ""
 
 #. assign
-#: ui/vm/dummystr.scm:71
+#: ui/vm/dummystr.scm:72
 #, fuzzy
 msgid "Mount Options"
 msgstr "Punto de montaje"
 
-#: ui/vm/dummystr.scm:72
+#: ui/vm/dummystr.scm:73
 msgid "Format before using"
 msgstr ""
 
 #. profiles
-#: ui/vm/dummystr.scm:74
+#: ui/vm/dummystr.scm:75
 #, fuzzy
 msgid "Setup for server"
 msgstr "Configurar Servicio de Email"
 
-#: ui/vm/dummystr.scm:75
+#: ui/vm/dummystr.scm:76
 #, fuzzy
 msgid "Setup for workstation"
 msgstr "Configuración de conecciones en Rede"
 
-#: ui/vm/dummystr.scm:76
+#: ui/vm/dummystr.scm:77
 msgid "Custom"
 msgstr ""
 
 #. misc
-#: ui/vm/dummystr.scm:78
+#: ui/vm/dummystr.scm:79
 msgid ""
 "Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
 msgstr ""
 
 #. guile-evms
-#: ui/vm/dummystr.scm:80
+#: ui/vm/dummystr.scm:81
 #, fuzzy
 msgid "Invalid mountpoint"
 msgstr "Punto de montaje"
 
-#: ui/vm/dummystr.scm:81
+#: ui/vm/dummystr.scm:82
 msgid "Invalid mountpoint for SWAPFS"
 msgstr ""
 
-#: ui/vm/dummystr.scm:82
+#: ui/vm/dummystr.scm:83
 msgid "Invalid mountpoint: not a SWAPFS"
 msgstr ""
 
-#: ui/vm/dummystr.scm:83
+#: ui/vm/dummystr.scm:84
 msgid "Invalid mountpoint: should start with /mnt"
 msgstr ""
 
-#: ui/vm/dummystr.scm:84
+#: ui/vm/dummystr.scm:85
 msgid " reboot, then continue installation."
 msgstr ""
 
-#: ui/vm/dummystr.scm:85 ui/vm/table.scm:191
+#: ui/vm/dummystr.scm:86 ui/vm/table.scm:191
 #, fuzzy
 msgid "Mountpoint"
 msgstr "Punto de montaje"
 
-#: ui/vm/dummystr.scm:86
+#: ui/vm/dummystr.scm:87
 #, fuzzy
 msgid "Dump Frequency"
 msgstr "Frecuencia (Mhz)"
 
-#: ui/vm/dummystr.scm:87
+#: ui/vm/dummystr.scm:88
 #, fuzzy
 msgid "Check order"
 msgstr "Comprobar IP"
 
-#: ui/vm/dummystr.scm:88
+#: ui/vm/dummystr.scm:89
 #, fuzzy
 msgid "inaccesible or not a directory"
 msgstr "Directorio Inicial:"
 
-#: ui/vm/dummystr.scm:89
+#: ui/vm/dummystr.scm:90
 msgid "Operation not permitted"
 msgstr ""
 

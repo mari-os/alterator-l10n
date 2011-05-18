@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt27
+Release: alt28
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -103,6 +103,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed May 18 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt28
+- Fix untranslatable strings in alterator-vm (closes #23351)
+
 * Thu Apr 07 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt27
 - Add alterator-net-shares localization
 - Fix alterator-printers conflict
