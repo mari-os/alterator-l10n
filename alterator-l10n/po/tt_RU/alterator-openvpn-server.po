@@ -1,0 +1,219 @@
+# Russian translations for PACKAGE package
+# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+#  <sem@altlinux.org>, 2009.
+# Andrey Cherepanov <skull@kde.ru>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"PO-Revision-Date: 2010-10-22 00:32+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: standard input:1
+msgid "OpenVPN-server"
+msgstr "OpenVPN-сервер"
+
+#: standard input:1
+msgid "Clients"
+msgstr "Клиенты"
+
+#: standard input:2
+msgid "Clients networks"
+msgstr "Сети клиентов"
+
+#: standard input:3 input:15
+msgid "Remove"
+msgstr "Удалить"
+
+#: standard input:4
+msgid "Client name:"
+msgstr "Имя клиента:"
+
+#: standard input:5 input:16
+msgid "New network:"
+msgstr "Новая сеть:"
+
+#: standard input:6 input:17 input:22
+msgid "Network mask:"
+msgstr "Маска сети:"
+
+#: standard input:7 input:18
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:8
+msgid "Client DNS-server:"
+msgstr "DNS-сервер клиента:"
+
+#: standard input:9
+msgid "Client domain:"
+msgstr "Домен клиента:"
+
+#: standard input:10 input:32
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:11
+msgid "Back"
+msgstr "Назад"
+
+#: standard input:12
+msgid "Enable OpenVPN server"
+msgstr "Включить службу OpenVPN"
+
+#: standard input:13
+msgid "Type:"
+msgstr "Тип:"
+
+#: standard input:14
+msgid "Server networks"
+msgstr "Сети сервера:"
+
+#: standard input:19
+msgid "Bridge:"
+msgstr "Мост:"
+
+#: standard input:20
+msgid "VPN network:"
+msgstr "VPN сеть:"
+
+#: standard input:21
+msgid "Gateway address:"
+msgstr "Адрес шлюза:"
+
+#: standard input:23
+msgid "VPN addresses start:"
+msgstr "Начальный адрес VPN сети:"
+
+#: standard input:24
+msgid "VPN addresses end:"
+msgstr "Конечный адрес VPN сети:"
+
+#: standard input:25
+msgid "Port:"
+msgstr "Порт:"
+
+#: standard input:26
+msgid "LZO compression"
+msgstr "Сжатие LZO"
+
+#: standard input:27
+msgid "SSL certificate and key..."
+msgstr "Сертификат и ключ SSL..."
+
+#: standard input:28
+msgid "Upload CA certificate:"
+msgstr "Положить сертификат УЦ:"
+
+#: standard input:29
+msgid "Upload"
+msgstr "Положить"
+
+#: standard input:30
+msgid "CA certificate successfully uploaded"
+msgstr "Сертификат УЦ успешно загружен"
+
+#: standard input:31
+msgid "Clients networks..."
+msgstr "Сети клиентов..."
+
+#: standard input:33
+msgid "Reset"
+msgstr "Вернуть"
+
+#: backend3/openvpn-server:313
+msgid "Routed (TUN)"
+msgstr "Маршрутизируемое (TUN)"
+
+#: backend3/openvpn-server:314
+msgid "Bridged (TAP)"
+msgstr "Посредством моста (TAP)"
+
+#: backend3/openvpn-server:428
+msgid "Invalid config value 'dev'"
+msgstr "Недопустимое значение параметра «dev»"
+
+#: backend3/openvpn-server:713
+msgid "VPN network conflicts with server network"
+msgstr "VPN сеть конфликтует с сетью сервера"
+
+#: backend3/openvpn-server:717 backend3/openvpn-server:939
+msgid "VPN network conflicts with client network"
+msgstr "VPN сеть конфликтует с сетью клиента"
+
+#: backend3/openvpn-server:726
+msgid "VPN start address not in VPN network"
+msgstr "Начальный адрес VPN не принадлежит VPN-сети"
+
+#: backend3/openvpn-server:730
+msgid "VPN end address not in VPN network"
+msgstr "Конечный адрес VPN не принадлежит VPN-сети"
+
+#: backend3/openvpn-server:737
+msgid "VPN start address is greater than VPN end address"
+msgstr "Начальный адрес VPN больше, чем конечный"
+
+#: backend3/openvpn-server:742
+msgid "Gateway address in VPN addresses pool"
+msgstr "Адрес шлюза находится в VPN сети"
+
+#: backend3/openvpn-server:832
+msgid "Certificate not found!"
+msgstr "Сертификат не найден!"
+
+#: backend3/openvpn-server:834
+msgid "Key not found!"
+msgstr "Ключ не найден!"
+
+#: backend3/openvpn-server:836
+msgid "CA not found!"
+msgstr "Сертификат УЦ не найден!"
+
+#: backend3/openvpn-server:840
+msgid "openvpn server start failed"
+msgstr "Запуск openvpn сервера не удался"
+
+#: backend3/openvpn-server:911
+msgid "Server network conflicts with other server network"
+msgstr "Сеть сервера конфликтует с другой сетью сервера"
+
+#: backend3/openvpn-server:913
+msgid "Server network conflicts with VPN network"
+msgstr "Сеть сервера конфликтует с VPN сетью"
+
+#: backend3/openvpn-server:915 backend3/openvpn-server:937
+msgid "Server network conflicts with client network"
+msgstr "Сеть сервера конфликтует с сетью клиента"
+
+#: backend3/openvpn-server:928
+msgid "Client nameserver not in client network(s)"
+msgstr "Адрес DNS-сервера клиента не принадлежит сетям клиента"
+
+#: backend3/openvpn-server:941
+msgid "Network conflicts with other client network"
+msgstr "Сеть конфликтует с другой сетью клиента"
+
+#: backend3/openvpn-server:956
+msgid "File does not exist"
+msgstr "Файл не существует"
+
+#: backend3/openvpn-server:958
+msgid "Upload CA failed"
+msgstr "Импорт сертификата УЦ не удался"
+
+#~ msgid "Use a TCP connection"
+#~ msgstr "Использовать соединение TCP"
+
+#~ msgid "Invalid certificate"
+#~ msgstr "Неверный сертификат"

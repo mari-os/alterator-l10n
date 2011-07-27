@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt28
+Release: alt29
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -80,6 +80,7 @@ make check
 
 %lang(en) %config(noreplace) %_sysconfdir/alterator/l10n/*-en_*
 %lang(ru) %config(noreplace) %_sysconfdir/alterator/l10n/*-ru_*
+%lang(tt_RU) %config(noreplace) %_sysconfdir/alterator/l10n/*-tt_RU
 %lang(uk) %config(noreplace) %_sysconfdir/alterator/l10n/*-uk_*
 %lang(pt_BR) %config(noreplace) %_sysconfdir/alterator/l10n/*-pt_BR
 %lang(es) %config(noreplace) %_sysconfdir/alterator/l10n/*-es_*
@@ -91,6 +92,10 @@ make check
 %lang(ru) %dir %_datadir/alterator/help/ru_RU/
 %lang(ru) %_datadir/alterator/help/ru_RU/*.html
 %lang(ru) %_datadir/locale/ru/LC_MESSAGES/*.mo
+
+%lang(tt_RU) %dir %_datadir/alterator/help/tt_RU/
+%lang(tt_RU) %_datadir/alterator/help/tt_RU/*.html
+%lang(tt_RU) %_datadir/locale/tt_RU/LC_MESSAGES/*.mo
 
 %lang(uk) %dir %_datadir/alterator/help/uk_UA/
 %lang(uk) %_datadir/alterator/help/uk_UA/*.html

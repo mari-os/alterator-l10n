@@ -1,0 +1,335 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"PO-Revision-Date: 2011-04-04 14:48+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <devel@lists.altlinux.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Language: ru_RU\n"
+"X-Source-Language: C\n"
+
+#: standard input:1
+msgid "Directory service LDAP"
+msgstr "Служба каталогов LDAP"
+
+#: standard input:1
+msgid "Managed base:"
+msgstr "Управляемая база:"
+
+#: standard input:2
+msgid "Please enter correct bind data for this base"
+msgstr "Введите корректные данные для привязки к этой базе"
+
+#: standard input:3
+msgid "root dn:"
+msgstr "Корневой dn:"
+
+#: standard input:4
+msgid "root password:"
+msgstr "Пароль корневого dn:"
+
+#: standard input:5
+msgid "Bind"
+msgstr "Привязка"
+
+#: standard input:6
+msgid "Select action:"
+msgstr "Выберите операцию:"
+
+#: standard input:7
+msgid "Containers in base:"
+msgstr "Контейнеры в базе:"
+
+#: standard input:8
+msgid "Available Containers:"
+msgstr "Доступные контейнеры:"
+
+#: standard input:9 input:62
+msgid "(Separated by commas or spaces. Without ou=)"
+msgstr "(разделенные запятыми или пробелами. Без ou=)"
+
+#: standard input:10 input:36
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:11
+msgid "Save LDIF file"
+msgstr "Сохранить файл LDIF"
+
+#: standard input:12 input:38 input:64
+msgid "Return to list"
+msgstr "Вернуться к списку"
+
+#: standard input:13
+msgid "RO mode. You can delete some bases and can't create new bases."
+msgstr ""
+"Только для чтения. Вы можете удалять базы, но не можете создавать новые."
+
+#: standard input:14
+msgid " You can manage schemas."
+msgstr " Вы можете управлять схемами."
+
+#: standard input:15
+msgid "Samba scheme not included in /etc/slapd.conf"
+msgstr "Схема Samba не включена в /etc/slapd.conf"
+
+#: standard input:16
+msgid "Creation of new base can make your slapd service inaccessible !!!"
+msgstr "Создание новых баз может сделать службу slapd недоступной !!!"
+
+#: standard input:17
+msgid "Repair configuration?"
+msgstr "Починить конфигурацию?"
+
+#: standard input:18
+msgid "Yes. Include samba.schema"
+msgstr "Да, включить samba.schema"
+
+#: standard input:19
+msgid "No. Only show bases"
+msgstr "Нет, только показать базы"
+
+#: standard input:20
+msgid "Main server option"
+msgstr "Основные параметры"
+
+#: standard input:21
+msgid "Enable SLAPD server"
+msgstr "Включить службу SLAPD"
+
+#: standard input:22
+msgid "Current state"
+msgstr "Текущее состояние службы"
+
+#: standard input:23
+msgid "Accept only local connections"
+msgstr "Принимать только локальные соединения"
+
+#: standard input:24
+msgid "Enable LDAPS (TLS)"
+msgstr "Слушать порт LDAPS (защищённый TLS)"
+
+#: standard input:25
+msgid "LDAP on local and LDAPS (TLS) on all interfaces"
+msgstr "LDAP на локальном и LDAPS (TLS) на всех интерфейсах"
+
+#: standard input:26
+msgid "Save options"
+msgstr "Сохранить параметры"
+
+#: standard input:27
+msgid "Manage schema"
+msgstr "Управление схемами"
+
+#: standard input:28
+msgid "Schema management"
+msgstr "Управление схемами"
+
+#: standard input:29
+msgid "Schema"
+msgstr "Схема"
+
+#: standard input:30 input:41
+msgid "Config File"
+msgstr "Файл конфигурации"
+
+#: standard input:31
+msgid "Addition of the conflicting schemes or"
+msgstr "Добавление конфликтующих схем или"
+
+#: standard input:32
+msgid "disabling some schemes may cause your databases inoperable!"
+msgstr "отключение некоторых схем может привести к выходу баз данных из строя!"
+
+#: standard input:33
+msgid "You have been warned..."
+msgstr "Вы предупреждены ..."
+
+#: standard input:34
+msgid "New schema name:"
+msgstr "Имя новой схемы:"
+
+#: standard input:35
+msgid "from file:"
+msgstr "из файла:"
+
+#: standard input:37
+msgid "Include selected"
+msgstr "Включить выделенные"
+
+#: standard input:39
+msgid "Bases management"
+msgstr "Управление базами"
+
+#: standard input:40 backend3/openldap:304 backend3/openldap:338
+#: backend3/openldap:353
+msgid "Base DN"
+msgstr "Базовый DN"
+
+#: standard input:42
+msgid "Status"
+msgstr "Состояние"
+
+#: standard input:43
+msgid "Delete selected bases"
+msgstr "Удалить выделенные базы"
+
+#: standard input:44
+msgid "New base DN:"
+msgstr "Новый базовый DN:"
+
+#: standard input:45
+msgid "Create"
+msgstr "Создать"
+
+#: standard input:46
+msgid "Expert mode"
+msgstr "Режим эксперта"
+
+#: standard input:47
+msgid "Load from LDIF file"
+msgstr "Загрузить из LDIF файла"
+
+#: standard input:48
+msgid "Prepare base from LDIF file"
+msgstr "Подготовить базу из файла LDIF"
+
+#: standard input:49
+msgid "New base:"
+msgstr "Новая база:"
+
+#: standard input:50
+msgid "Your FQDN:"
+msgstr "Ваш FQDN:"
+
+#: standard input:51
+msgid "Base DN:"
+msgstr "Базовый DN:"
+
+#: standard input:52
+msgid "Bind DN:"
+msgstr "DN привязки:"
+
+#: standard input:53
+msgid "Bind PW:"
+msgstr "Пароль привязки:"
+
+#: standard input:54
+msgid "New"
+msgstr "Новый"
+
+#: standard input:55
+msgid "Encript rootPW"
+msgstr "Кодировать rootPW"
+
+#: standard input:56
+msgid "For SAMBA PDC"
+msgstr "Для SAMBA PDC"
+
+#: standard input:57
+msgid "Please, remember this password!!!"
+msgstr "Пожалуйста, запомните этот пароль!!!"
+
+#: standard input:58
+msgid "Encripted passwor NOT accessible for other modules."
+msgstr "Кодированный пароль недоступен для других модулей."
+
+#: standard input:59
+msgid "You will be asked for a password every time "
+msgstr "Вам будет предложено ввести пароль каждый раз"
+
+#: standard input:60
+msgid "of using modules, e.g. \"Users\" and \"Groups\"."
+msgstr "при использовании модулей, таких как \"Пользователи\" и \"Группы\"."
+
+#: standard input:61
+msgid "Create containers:"
+msgstr "Создать контейнеры:"
+
+#: standard input:63
+msgid "Create new base"
+msgstr "Создать новую базу"
+
+#: backend3/openldap:42
+msgid "Certificate expire"
+msgstr "Срок действия сертификата истекает"
+
+#: backend3/openldap:44
+msgid "Certificate not found"
+msgstr "Сертификат не найден"
+
+#: backend3/openldap:79
+msgid "Encoded password"
+msgstr "Кодированный пароль"
+
+#: backend3/openldap:81
+msgid "Unsafe password"
+msgstr "Небезопасный пароль"
+
+#: backend3/openldap:90
+msgid "Used for autentification,"
+msgstr "Используется для аутентификации,"
+
+#: backend3/openldap:175
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: backend3/openldap:176
+msgid "Unpublish"
+msgstr "Скрыть"
+
+#: backend3/openldap:177
+msgid "Delete"
+msgstr "Удалить"
+
+#: backend3/openldap:304 backend3/openldap:353
+msgid "already exists in the system"
+msgstr "уже существует в системе"
+
+#: backend3/openldap:338
+msgid " used for system autentification."
+msgstr "используется для системной аутентификации."
+
+#. echo "$(set|grep -a "in_")" >&2
+#: backend3/openldap:622 backend3/openldap:628
+msgid "Not all data present."
+msgstr "Не все данные представлены."
+
+#~ msgid "Add selected"
+#~ msgstr "Добавить выделенные"
+
+#~ msgid "Base"
+#~ msgstr "База"
+
+#~ msgid "Apply"
+#~ msgstr "Применить"
+
+#~ msgid "Create selected"
+#~ msgstr "Удалить выделенные"
+
+#~ msgid "Directory server configuration (OpenLDAP)"
+#~ msgstr "Конфигурация службы каталогов (Open LDAP)"
+
+#~ msgid "Enable LDAP port"
+#~ msgstr "Слушать порт LDAP"
+
+#~ msgid "Reset"
+#~ msgstr "Вернуть"
+
+#~ msgid "Source"
+#~ msgstr "Источник"
+
+#~ msgid "Start, stop or restart service..."
+#~ msgstr "Запустить, остановить или перезапустить службу..."
