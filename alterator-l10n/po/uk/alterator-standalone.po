@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2011-08-19 23:29+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -17,14 +17,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 
-#: ui/standalone/index.scm:13
-msgid "Desktop file not found"
-msgstr "Desktop-файл не знайдено"
-
-#: ui/standalone/index.scm:14
-msgid "Press F1 for help"
-msgstr "Натисніть F1 для допомоги"
-
 #: standard input:1 ui/acc/index.scm:12
 msgid "System management center"
 msgstr "Центр налаштування системи"
+
+#: ui/standalone/index.scm:16
+#, fuzzy, lisp-format
+msgid "Module '~A' not found"
+msgstr "Файл не знайдено"
+
+#: ui/standalone/index.scm:22
+msgid "Exit"
+msgstr ""
+
+#: ui/standalone/index.scm:26
+msgid "Press F1 for help"
+msgstr "Натисніть F1 для допомоги"
+
+#~ msgid "Desktop file not found"
+#~ msgstr "Desktop-файл не знайдено"

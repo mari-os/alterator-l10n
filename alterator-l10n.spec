@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt28
+Release: alt29
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -103,6 +103,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Aug 19 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt29
+- Update translation for modified alterator-standalone
+
 * Wed May 18 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt28
 - Fix untranslatable strings in alterator-vm (closes #23351)
 
