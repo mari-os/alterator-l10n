@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-vm 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-18 18:23+0400\n"
-"PO-Revision-Date: 2011-05-18 18:26+0400\n"
+"POT-Creation-Date: 2011-08-23 16:25+0400\n"
+"PO-Revision-Date: 2011-08-23 16:29+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
@@ -104,215 +104,227 @@ msgid "Swap File System Interface Module"
 msgstr "Файловая система подкачки (swap)"
 
 #: ui/vm/dummystr.scm:12
-msgid "FAT16 File System Interface Module"
-msgstr "Файловая система FAT16"
-
-#: ui/vm/dummystr.scm:13
 msgid "FAT32 File System Interface Module"
 msgstr "Файловая система FAT32"
+
+#: ui/vm/dummystr.scm:13
+msgid "FAT16 File System Interface Module"
+msgstr "Файловая система FAT16"
 
 #: ui/vm/dummystr.scm:14
 msgid "NTFS File System Interface Module"
 msgstr "Файловая система NTFS"
 
-#. ext2/3
+#: ui/vm/dummystr.scm:15
+msgid "OpenGFS File System Interface Module"
+msgstr "Файловая система OpenGFS"
+
 #: ui/vm/dummystr.scm:16
+msgid "OCFS2 File System Interface Module"
+msgstr "Файловая система OCFS2"
+
+#: ui/vm/dummystr.scm:17
+msgid "BtrFS File System Interface Module"
+msgstr "Файловая система BtrFS"
+
+#. ext2/3
+#: ui/vm/dummystr.scm:20
 msgid "Check For Bad Blocks"
 msgstr "Проверка сбойных участков (только чтение)"
 
-#: ui/vm/dummystr.scm:17
+#: ui/vm/dummystr.scm:21
 msgid "Read/Write Check For Bad Blocks"
 msgstr "Проверка сбойных участков (чтение/запись)"
 
-#: ui/vm/dummystr.scm:18
+#: ui/vm/dummystr.scm:22
 msgid "Volume Label"
 msgstr "Метка тома"
 
-#: ui/vm/dummystr.scm:19
+#: ui/vm/dummystr.scm:23
 msgid "Use Ext4 extents"
 msgstr "Включить расширения Ext4"
 
-#: ui/vm/dummystr.scm:20
+#: ui/vm/dummystr.scm:24
 msgid "Create Ext3 Journal"
 msgstr "Создать журнал Ext3"
 
 #. xfs
-#: ui/vm/dummystr.scm:22
+#: ui/vm/dummystr.scm:26
 msgid "External Journal Volume"
 msgstr "Том для внешнего журнала"
 
-#: ui/vm/dummystr.scm:23
+#: ui/vm/dummystr.scm:27
 msgid "Log Size"
 msgstr "Размер области журналирования"
 
-#: ui/vm/dummystr.scm:24
+#: ui/vm/dummystr.scm:28
 msgid "Force"
 msgstr "Форсировать"
 
 #. jfs
-#: ui/vm/dummystr.scm:26
+#: ui/vm/dummystr.scm:30
 msgid "Case Insensitive"
 msgstr "Нечуствительность к регистру"
 
-#: ui/vm/dummystr.scm:27
+#: ui/vm/dummystr.scm:31
 msgid "Inline Log Size"
 msgstr "Размер области журналирования"
 
 #. reiserfs FIXME
-#: ui/vm/dummystr.scm:29
+#: ui/vm/dummystr.scm:33
 msgid "Version of mkreiserfs"
 msgstr "Версия mkreiserfs"
 
 #. swap
-#: ui/vm/dummystr.scm:31
+#: ui/vm/dummystr.scm:35
 msgid "Check for bad blocks"
 msgstr "Проверка сбойных участков"
 
 #. fat16/32
-#: ui/vm/dummystr.scm:33
+#: ui/vm/dummystr.scm:37
 msgid "Volume label"
 msgstr "Метка тома"
 
 #. ntfs
-#: ui/vm/dummystr.scm:35
+#: ui/vm/dummystr.scm:39
 msgid "Cluster size"
 msgstr "Размер кластера"
 
-#: ui/vm/dummystr.scm:36
+#: ui/vm/dummystr.scm:40
 msgid "MFT zone multiplier"
 msgstr "Множитель зоны MFT"
 
-#: ui/vm/dummystr.scm:37
+#: ui/vm/dummystr.scm:41
 msgid "Compression"
 msgstr "Сжатие"
 
-#: ui/vm/dummystr.scm:38
+#: ui/vm/dummystr.scm:42
 msgid "Quick mkfs"
 msgstr "Быстрое создание"
 
 #. lvm2 vg
-#: ui/vm/dummystr.scm:40
+#: ui/vm/dummystr.scm:44
 msgid "Name for the new LVM2 container."
 msgstr "Имя группы томов"
 
-#: ui/vm/dummystr.scm:41
+#: ui/vm/dummystr.scm:45
 msgid "Extent-size for the new LVM2 container."
 msgstr "Размер экстента"
 
 #. lvm2 lv
-#: ui/vm/dummystr.scm:43
+#: ui/vm/dummystr.scm:47
 msgid "Name for the new LVM2 region."
 msgstr "Имя тома"
 
-#: ui/vm/dummystr.scm:44
+#: ui/vm/dummystr.scm:48
 msgid "Size for the new LVM2 region."
 msgstr "Размер тома"
 
-#: ui/vm/dummystr.scm:45
+#: ui/vm/dummystr.scm:49
 msgid "Number of stripes for the new LVM2 region."
 msgstr "Число расслоений (stripes)"
 
-#: ui/vm/dummystr.scm:46
+#: ui/vm/dummystr.scm:50
 msgid "Objects (PVs) to place the new LVM2 region on."
 msgstr "Разместить на следующих устройствах"
 
 #. raidx
-#: ui/vm/dummystr.scm:48
+#: ui/vm/dummystr.scm:52
 msgid "MD RAID0 Region Manager"
 msgstr "MD-устройство уровня RAID0"
 
-#: ui/vm/dummystr.scm:49
+#: ui/vm/dummystr.scm:53
 msgid "MD Raid 1 Region Manager"
 msgstr "MD-устройство уровня RAID1"
 
-#: ui/vm/dummystr.scm:50
+#: ui/vm/dummystr.scm:54
 msgid "MD RAID 4/5 Region Manager"
 msgstr "MD-устройство уровней RAID4/5"
 
 #. raid0
-#: ui/vm/dummystr.scm:52
+#: ui/vm/dummystr.scm:56
 msgid "Chunk Size:"
 msgstr "Размер чанка"
 
-#: ui/vm/dummystr.scm:53
+#: ui/vm/dummystr.scm:57
 msgid "Version 1 Super Block"
 msgstr "Суперблок версии 1"
 
 #. raid1
-#: ui/vm/dummystr.scm:55
+#: ui/vm/dummystr.scm:59
 msgid "Degraded array"
 msgstr "Деградированный массив"
 
-#: ui/vm/dummystr.scm:56
+#: ui/vm/dummystr.scm:60
 msgid "Spare Disk"
 msgstr "Резервный диск"
 
 #. raid5
-#: ui/vm/dummystr.scm:58
+#: ui/vm/dummystr.scm:62
 msgid "RAID5 Algorithm"
 msgstr "Алгоритм RAID5"
 
-#: ui/vm/dummystr.scm:59
+#: ui/vm/dummystr.scm:63
 msgid "RAID level"
 msgstr "Уровень RAID"
 
-#: ui/vm/dummystr.scm:60
+#: ui/vm/dummystr.scm:64
 msgid "Chunk size"
 msgstr "Размер чанка"
 
 #. expand seg
-#: ui/vm/dummystr.scm:62
+#: ui/vm/dummystr.scm:66
 msgid "Additional Size"
 msgstr "Дополнительный размер"
 
 #. shrink seg
-#: ui/vm/dummystr.scm:64
+#: ui/vm/dummystr.scm:68
 msgid "Shrink by Size"
 msgstr "Уменьшить на"
 
 #. expand lv
-#: ui/vm/dummystr.scm:66
+#: ui/vm/dummystr.scm:70
 msgid "Extra size for the LVM2 region."
 msgstr "Дополнительный размер"
 
-#: ui/vm/dummystr.scm:67
+#: ui/vm/dummystr.scm:71
 msgid "Number of stripes for the new portion of the region."
 msgstr "Число расслоений (stripes) для новой области"
 
-#: ui/vm/dummystr.scm:68
+#: ui/vm/dummystr.scm:72
 msgid "Objects (PVs) to use for the new portion of the region."
 msgstr "Разместить новую область на следующих устройствах"
 
 #. shrink lv
-#: ui/vm/dummystr.scm:70
+#: ui/vm/dummystr.scm:74
 msgid "Size to remove from the LVM2 region."
 msgstr "Уменьшить том на"
 
 #. assign
-#: ui/vm/dummystr.scm:72
+#: ui/vm/dummystr.scm:76
 msgid "Mount Options"
 msgstr "Опции монтирования"
 
-#: ui/vm/dummystr.scm:73
+#: ui/vm/dummystr.scm:77
 msgid "Format before using"
 msgstr "Отформатировать"
 
 #. profiles
-#: ui/vm/dummystr.scm:75
+#: ui/vm/dummystr.scm:79
 msgid "Setup for server"
 msgstr "Установка сервера"
 
-#: ui/vm/dummystr.scm:76
+#: ui/vm/dummystr.scm:80
 msgid "Setup for workstation"
 msgstr "Установка рабочей станции"
 
 # Настройка вручную
-#: ui/vm/dummystr.scm:77
+#: ui/vm/dummystr.scm:81
 msgid "Custom"
 msgstr "Вручную"
 
 #. misc
-#: ui/vm/dummystr.scm:79
+#: ui/vm/dummystr.scm:83
 msgid ""
 "Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
 msgstr ""
@@ -320,45 +332,45 @@ msgstr ""
 "этого раздела. Продолжить?"
 
 #. guile-evms
-#: ui/vm/dummystr.scm:81
+#: ui/vm/dummystr.scm:85
 msgid "Invalid mountpoint"
 msgstr "Неверная точка монтирования"
 
-#: ui/vm/dummystr.scm:82
+#: ui/vm/dummystr.scm:86
 msgid "Invalid mountpoint for SWAPFS"
 msgstr "Неверная точка монтирования для SWAPFS"
 
-#: ui/vm/dummystr.scm:83
+#: ui/vm/dummystr.scm:87
 msgid "Invalid mountpoint: not a SWAPFS"
 msgstr "Неверная точка монтирования: не SWAPFS"
 
-#: ui/vm/dummystr.scm:84
+#: ui/vm/dummystr.scm:88
 msgid "Invalid mountpoint: should start with /mnt"
 msgstr "Неверная точка монтирования: должна начинаться с /mnt"
 
-#: ui/vm/dummystr.scm:85
+#: ui/vm/dummystr.scm:89
 msgid " reboot, then continue installation."
 msgstr ""
 "Невозможно перечитать таблицу разделов.\n"
 "Перегрузитесь и начните инсталляцию заново"
 
-#: ui/vm/dummystr.scm:86 ui/vm/table.scm:191
+#: ui/vm/dummystr.scm:90 ui/vm/table.scm:191
 msgid "Mountpoint"
 msgstr "Точка монтирования"
 
-#: ui/vm/dummystr.scm:87
+#: ui/vm/dummystr.scm:91
 msgid "Dump Frequency"
 msgstr "частота дампа"
 
-#: ui/vm/dummystr.scm:88
+#: ui/vm/dummystr.scm:92
 msgid "Check order"
 msgstr "порядок проверки"
 
-#: ui/vm/dummystr.scm:89
+#: ui/vm/dummystr.scm:93
 msgid "inaccesible or not a directory"
 msgstr "недоступна или не директория"
 
-#: ui/vm/dummystr.scm:90
+#: ui/vm/dummystr.scm:94
 msgid "Operation not permitted"
 msgstr "Операция невозможна"
 

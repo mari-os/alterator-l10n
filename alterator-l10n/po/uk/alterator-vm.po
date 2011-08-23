@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-18 18:23+0400\n"
+"POT-Creation-Date: 2011-08-23 16:25+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -106,214 +106,229 @@ msgid "Swap File System Interface Module"
 msgstr "Файлова система підкачування (swap)"
 
 #: ui/vm/dummystr.scm:12
-msgid "FAT16 File System Interface Module"
-msgstr "Файлова система FAT16"
-
-#: ui/vm/dummystr.scm:13
 msgid "FAT32 File System Interface Module"
 msgstr "Файлова система FAT32"
+
+#: ui/vm/dummystr.scm:13
+msgid "FAT16 File System Interface Module"
+msgstr "Файлова система FAT16"
 
 #: ui/vm/dummystr.scm:14
 msgid "NTFS File System Interface Module"
 msgstr "Файлова система NTFS"
 
-#. ext2/3
+#: ui/vm/dummystr.scm:15
+#, fuzzy
+msgid "OpenGFS File System Interface Module"
+msgstr "Файлова система XFS"
+
 #: ui/vm/dummystr.scm:16
+#, fuzzy
+msgid "OCFS2 File System Interface Module"
+msgstr "Файлова система XFS"
+
+#: ui/vm/dummystr.scm:17
+#, fuzzy
+msgid "BtrFS File System Interface Module"
+msgstr "Файлова система XFS"
+
+#. ext2/3
+#: ui/vm/dummystr.scm:20
 msgid "Check For Bad Blocks"
 msgstr "Перевірити на збійні блоки"
 
-#: ui/vm/dummystr.scm:17
+#: ui/vm/dummystr.scm:21
 msgid "Read/Write Check For Bad Blocks"
 msgstr "Перевірка на збійні блоки (Читання/Запис)"
 
-#: ui/vm/dummystr.scm:18
+#: ui/vm/dummystr.scm:22
 msgid "Volume Label"
 msgstr "Мітка тому"
 
-#: ui/vm/dummystr.scm:19
+#: ui/vm/dummystr.scm:23
 msgid "Use Ext4 extents"
 msgstr ""
 
-#: ui/vm/dummystr.scm:20
+#: ui/vm/dummystr.scm:24
 msgid "Create Ext3 Journal"
 msgstr "Створит Ext3 журнал"
 
 #. xfs
-#: ui/vm/dummystr.scm:22
+#: ui/vm/dummystr.scm:26
 msgid "External Journal Volume"
 msgstr "Том для зовнішнього журналу"
 
-#: ui/vm/dummystr.scm:23
+#: ui/vm/dummystr.scm:27
 msgid "Log Size"
 msgstr "Розмір протоколу"
 
-#: ui/vm/dummystr.scm:24
+#: ui/vm/dummystr.scm:28
 msgid "Force"
 msgstr "Форсувати"
 
 #. jfs
-#: ui/vm/dummystr.scm:26
+#: ui/vm/dummystr.scm:30
 msgid "Case Insensitive"
 msgstr "Нечутливість до регістру"
 
-#: ui/vm/dummystr.scm:27
+#: ui/vm/dummystr.scm:31
 msgid "Inline Log Size"
 msgstr "Розмір області журналювання"
 
 #. reiserfs FIXME
-#: ui/vm/dummystr.scm:29
+#: ui/vm/dummystr.scm:33
 msgid "Version of mkreiserfs"
 msgstr "Версія mkreiserfs"
 
 #. swap
-#: ui/vm/dummystr.scm:31
+#: ui/vm/dummystr.scm:35
 msgid "Check for bad blocks"
 msgstr "Перевірити на збійні блоки"
 
 #. fat16/32
-#: ui/vm/dummystr.scm:33
+#: ui/vm/dummystr.scm:37
 msgid "Volume label"
 msgstr "Мітка тому"
 
 #. ntfs
-#: ui/vm/dummystr.scm:35
+#: ui/vm/dummystr.scm:39
 msgid "Cluster size"
 msgstr "Розмір кластеру"
 
-#: ui/vm/dummystr.scm:36
+#: ui/vm/dummystr.scm:40
 msgid "MFT zone multiplier"
 msgstr "Множник зони MFT"
 
-#: ui/vm/dummystr.scm:37
+#: ui/vm/dummystr.scm:41
 msgid "Compression"
 msgstr "Стиснення"
 
-#: ui/vm/dummystr.scm:38
+#: ui/vm/dummystr.scm:42
 msgid "Quick mkfs"
 msgstr "Швидке створення"
 
 #. lvm2 vg
-#: ui/vm/dummystr.scm:40
+#: ui/vm/dummystr.scm:44
 msgid "Name for the new LVM2 container."
 msgstr "Ім'я для нового LVM2 контейнеру."
 
-#: ui/vm/dummystr.scm:41
+#: ui/vm/dummystr.scm:45
 msgid "Extent-size for the new LVM2 container."
 msgstr "Розмір екстенту"
 
 #. lvm2 lv
-#: ui/vm/dummystr.scm:43
+#: ui/vm/dummystr.scm:47
 msgid "Name for the new LVM2 region."
 msgstr "Ім'я для нового LVM2 регіону."
 
-#: ui/vm/dummystr.scm:44
+#: ui/vm/dummystr.scm:48
 msgid "Size for the new LVM2 region."
 msgstr "Розмір тому"
 
-#: ui/vm/dummystr.scm:45
+#: ui/vm/dummystr.scm:49
 msgid "Number of stripes for the new LVM2 region."
 msgstr "Кількість розгалужень (stripes) для нового LVM2 регіону."
 
-#: ui/vm/dummystr.scm:46
+#: ui/vm/dummystr.scm:50
 msgid "Objects (PVs) to place the new LVM2 region on."
 msgstr "Розташувати на наступних пристроях."
 
 #. raidx
-#: ui/vm/dummystr.scm:48
+#: ui/vm/dummystr.scm:52
 msgid "MD RAID0 Region Manager"
 msgstr "MD-пристрій рівнів RAID0"
 
-#: ui/vm/dummystr.scm:49
+#: ui/vm/dummystr.scm:53
 msgid "MD Raid 1 Region Manager"
 msgstr "MD-пристрій рівнів RAID1"
 
-#: ui/vm/dummystr.scm:50
+#: ui/vm/dummystr.scm:54
 msgid "MD RAID 4/5 Region Manager"
 msgstr "MD-пристрій рівнів RAID4/5"
 
 #. raid0
-#: ui/vm/dummystr.scm:52
+#: ui/vm/dummystr.scm:56
 msgid "Chunk Size:"
 msgstr "Розмір блоку:"
 
-#: ui/vm/dummystr.scm:53
+#: ui/vm/dummystr.scm:57
 msgid "Version 1 Super Block"
 msgstr "Суперблок версії 1"
 
 #. raid1
-#: ui/vm/dummystr.scm:55
+#: ui/vm/dummystr.scm:59
 msgid "Degraded array"
 msgstr "Деградований масив"
 
-#: ui/vm/dummystr.scm:56
+#: ui/vm/dummystr.scm:60
 msgid "Spare Disk"
 msgstr "Резервний диск"
 
 #. raid5
-#: ui/vm/dummystr.scm:58
+#: ui/vm/dummystr.scm:62
 msgid "RAID5 Algorithm"
 msgstr "RAID5 алгоритм"
 
-#: ui/vm/dummystr.scm:59
+#: ui/vm/dummystr.scm:63
 msgid "RAID level"
 msgstr "Рівень RAID"
 
-#: ui/vm/dummystr.scm:60
+#: ui/vm/dummystr.scm:64
 msgid "Chunk size"
 msgstr "Розмір блоку"
 
 #. expand seg
-#: ui/vm/dummystr.scm:62
+#: ui/vm/dummystr.scm:66
 msgid "Additional Size"
 msgstr "Додатковий розмір"
 
 #. shrink seg
-#: ui/vm/dummystr.scm:64
+#: ui/vm/dummystr.scm:68
 msgid "Shrink by Size"
 msgstr "Зменшити на"
 
 #. expand lv
-#: ui/vm/dummystr.scm:66
+#: ui/vm/dummystr.scm:70
 msgid "Extra size for the LVM2 region."
 msgstr "Додатковий розмір"
 
-#: ui/vm/dummystr.scm:67
+#: ui/vm/dummystr.scm:71
 msgid "Number of stripes for the new portion of the region."
 msgstr "Кількість розгалужень (stripes) для нової області регіону."
 
-#: ui/vm/dummystr.scm:68
+#: ui/vm/dummystr.scm:72
 msgid "Objects (PVs) to use for the new portion of the region."
 msgstr "Розташувати нову область на наступних пристроях."
 
 #. shrink lv
-#: ui/vm/dummystr.scm:70
+#: ui/vm/dummystr.scm:74
 msgid "Size to remove from the LVM2 region."
 msgstr "Зменшити том на"
 
 #. assign
-#: ui/vm/dummystr.scm:72
+#: ui/vm/dummystr.scm:76
 msgid "Mount Options"
 msgstr "Опції монтування"
 
-#: ui/vm/dummystr.scm:73
+#: ui/vm/dummystr.scm:77
 msgid "Format before using"
 msgstr "Відформатувати перед використанням"
 
 #. profiles
-#: ui/vm/dummystr.scm:75
+#: ui/vm/dummystr.scm:79
 msgid "Setup for server"
 msgstr "Встановлення серверу"
 
-#: ui/vm/dummystr.scm:76
+#: ui/vm/dummystr.scm:80
 msgid "Setup for workstation"
 msgstr "Встановлення робочої станції"
 
-#: ui/vm/dummystr.scm:77
+#: ui/vm/dummystr.scm:81
 msgid "Custom"
 msgstr "Вручну"
 
 #. misc
-#: ui/vm/dummystr.scm:79
+#: ui/vm/dummystr.scm:83
 msgid ""
 "Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
 msgstr ""
@@ -321,43 +336,43 @@ msgstr ""
 "завантаження з цього розділу. Продовжити?"
 
 #. guile-evms
-#: ui/vm/dummystr.scm:81
+#: ui/vm/dummystr.scm:85
 msgid "Invalid mountpoint"
 msgstr "Невірна точка монтування"
 
-#: ui/vm/dummystr.scm:82
+#: ui/vm/dummystr.scm:86
 msgid "Invalid mountpoint for SWAPFS"
 msgstr "Невірна точка монтування для SWAPFS"
 
-#: ui/vm/dummystr.scm:83
+#: ui/vm/dummystr.scm:87
 msgid "Invalid mountpoint: not a SWAPFS"
 msgstr "Невірна точка монтування: не SWAPFS"
 
-#: ui/vm/dummystr.scm:84
+#: ui/vm/dummystr.scm:88
 msgid "Invalid mountpoint: should start with /mnt"
 msgstr "Невірна точка монтування: має починатися з /mnt"
 
-#: ui/vm/dummystr.scm:85
+#: ui/vm/dummystr.scm:89
 msgid " reboot, then continue installation."
 msgstr " здійсніть перевантаження а потім продовжіть встановлення."
 
-#: ui/vm/dummystr.scm:86 ui/vm/table.scm:191
+#: ui/vm/dummystr.scm:90 ui/vm/table.scm:191
 msgid "Mountpoint"
 msgstr "Точка монтування"
 
-#: ui/vm/dummystr.scm:87
+#: ui/vm/dummystr.scm:91
 msgid "Dump Frequency"
 msgstr "Частота дампу"
 
-#: ui/vm/dummystr.scm:88
+#: ui/vm/dummystr.scm:92
 msgid "Check order"
 msgstr "Послідовність перевірки"
 
-#: ui/vm/dummystr.scm:89
+#: ui/vm/dummystr.scm:93
 msgid "inaccesible or not a directory"
 msgstr "немає доступу або не тека"
 
-#: ui/vm/dummystr.scm:90
+#: ui/vm/dummystr.scm:94
 msgid "Operation not permitted"
 msgstr "Операція неможлива"
 
