@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt30
+Release: alt31
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -103,6 +103,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Aug 23 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt31
+- Finish Russian translatiuon for new alterator-x11
+
 * Tue Aug 23 2011 Andrey Cherepanov <cas@altlinux.org> 2.9-alt30
 - Russian translation of newly supported file system names
 
