@@ -7,6 +7,9 @@ check:
 	    msgfmt $$i -o /dev/null || exit 1; \
 	done
 
+tidy:
+	find . -name "*.html" -type f | xargs tidy --gnu-emacs yes -q -e -utf8
+
 install-tzone-po:
 	cd tzone-po ; \
 	for i in *.po; do \
@@ -44,3 +47,4 @@ install-help:
 install-l10n:
 	install -dpm755 $(sysconfdir)/alterator
 	cp -a l10n $(sysconfdir)/alterator
+
