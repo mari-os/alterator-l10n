@@ -1,49 +1,45 @@
-# Russian translations for PACKAGE package
-# Английские переводы для пакета PACKAGE.
-# Copyright (C) 2009 THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-#  <sem@altlinux.org>, 2009.
-# Andrey Cherepanov <skull@kde.ru>, 2010.
+# Ainur Shakirov <ainur.shakirov.tt@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-10-26 15:05+0400\n"
-"PO-Revision-Date: 2010-10-22 00:18+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
-"Language: ru\n"
+"PO-Revision-Date: 2011-08-18 17:22+0400\n"
+"Last-Translator: Ainur Shakirov <ainur.shakirov.tt@gmail.com>\n"
+"Language-Team: Tatar <>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: standard input:1
 msgid "OpenVPN-connections"
-msgstr "OpenVPN-соединения"
+msgstr "OpenVPN тоташулары"
 
 #: standard input:1 ui/net-openvpn/index.scm:106
 msgid "New connection:"
-msgstr "Новое соединение:"
+msgstr "Яңа тоташу:"
 
 #: standard input:2 ui/net-openvpn/index.scm:110
 msgid "Network tunnel (TUN)"
-msgstr "Сетевой тунель (TUN)"
+msgstr "Челтәр туннеле (TUN)"
 
 #: standard input:3 ui/net-openvpn/index.scm:112
 msgid "Virtual Ethernet device (TAP)"
-msgstr "Виртуальное Ethernet устройство (TAP)"
+msgstr "Виртуаль Ethernet җайланма (TAP)"
 
 #: standard input:4 ui/net-openvpn/index.scm:114
 msgid "Create connection"
-msgstr "Создать соединение"
+msgstr "Яңа тоташу"
 
 #: standard input:5 ui/net-openvpn/index.scm:129
 msgid "Status:"
-msgstr "Состояние:"
+msgstr "Хәл:"
 
 #.
 #: standard input:6 ui/net-openvpn/index.scm:135
@@ -58,114 +54,114 @@ msgstr "Порт:"
 #.
 #: standard input:8 ui/net-openvpn/index.scm:143
 msgid "Key:"
-msgstr "Ключ:"
+msgstr "Ачкыч:"
 
 #: standard input:9 ui/net-openvpn/index.scm:150
 msgid "Keys managament..."
-msgstr "Управление ключами..."
+msgstr "Ачкычлар белән идарә итү"
 
 #.
 #: standard input:10 ui/net-openvpn/index.scm:153
 msgid "Start at boot"
-msgstr "Запускать при загрузке"
+msgstr "Йөкләгәндә җибәрү"
 
 #: standard input:11 ui/net-openvpn/index.scm:157
 msgid "Default route via VPN"
-msgstr "Маршрут по умолчанию через VPN"
+msgstr ""
 
 #: standard input:12 ui/net-openvpn/index.scm:161
 msgid "LZO compression"
-msgstr "Сжатие LZO"
+msgstr "LZO кысылуы"
 
 #: standard input:13 ui/net-openvpn/index.scm:165
 msgid "Use a TCP connection"
-msgstr "Использовать соединение TCP"
+msgstr "TCP тоташуын куллану"
 
 #: standard input:14 ui/net-openvpn/index.scm:171
 msgid "Apply"
-msgstr "Применить"
+msgstr "Куллану"
 
 #: standard input:15 ui/net-openvpn/index.scm:172
 msgid "Reset"
-msgstr "Вернуть"
+msgstr "Кайтару"
 
 #: standard input:16 ui/net-openvpn/index.scm:174
 msgid "Delete connection"
-msgstr "Удалить соединение"
+msgstr "Тоташуны бетерү"
 
 #: standard input:17
 msgid "Upload CA certificate:"
-msgstr "Положить сертификат УЦ:"
+msgstr "CA таныклыкларын йөкләү"
 
 #: standard input:18
 msgid "Upload"
-msgstr "Положить"
+msgstr "Йөкләү"
 
 #: standard input:19
 msgid "CA certificate successfully uploaded"
-msgstr "Сертификат УЦ успешно загружен"
+msgstr "CA таныклыклары уңышлы йөкләнде"
 
 #: ui/net-openvpn/index.scm:180
 msgid "Import CA certificate:"
-msgstr "Импортировать сертификат УЦ:"
+msgstr "CA таныклыгын кушу:"
 
 #: ui/net-openvpn/index.scm:181
 msgid "Import CA certificate"
-msgstr "Импортировать сертификат УЦ:"
+msgstr "CA таныклыгын кушу"
 
 #: ui/net-openvpn/index.scm:185
 msgid "Import"
-msgstr "Импортировать"
+msgstr "Импорт"
 
 #: backend3/net-openvpn:66
 msgid "don't change"
-msgstr "не менять"
+msgstr "үзгәртелмәде"
 
 #: backend3/net-openvpn:67
 msgid "start"
-msgstr "запустить"
+msgstr "җибәрү"
 
 #: backend3/net-openvpn:68
 msgid "stop"
-msgstr "остановить"
+msgstr "туктату"
 
 #: backend3/net-openvpn:118
 msgid "Invalid config value 'dev':"
-msgstr "Недопустимое значение параметра «dev»:"
+msgstr ""
 
 #: backend3/net-openvpn:124
 msgid "enabled"
-msgstr "включено"
+msgstr "эшләтелде"
 
 #: backend3/net-openvpn:126
 msgid "disabled"
-msgstr "выключено"
+msgstr "туктатылды"
 
 #: backend3/net-openvpn:268 backend3/net-openvpn:272
 msgid "Unable to read"
-msgstr "Невозможно открыть"
+msgstr "Укып булмый"
 
 #: backend3/net-openvpn:279
 msgid "Self signed certificate"
-msgstr "Самоподписанный сертификат"
+msgstr ""
 
 #: backend3/net-openvpn:284
 msgid "Wrong client certificate or CA certificate"
-msgstr "Недопустимый сертификат клиента или удостоверяющего центра"
+msgstr ""
 
 #: backend3/net-openvpn:313
 msgid "openvpn start failed"
-msgstr "Не удалось запустить службу openvpn"
+msgstr "openvpn җибәрелмәде"
 
 #: backend3/net-openvpn:367
 msgid "File does not exist"
-msgstr "Файл не существует"
+msgstr "Файл табылмады"
 
 #: backend3/net-openvpn:369
 msgid "Invalid certificate"
-msgstr "Неверный сертификат"
+msgstr "Хаталы таныклык"
 
 #: backend3/net-openvpn:371
 msgid "Import CA failed"
-msgstr "Импорт сертификата УЦ не удался"
+msgstr "CA таныклыгын кушып булмады"
 

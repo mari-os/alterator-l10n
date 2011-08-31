@@ -1,112 +1,109 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008.
+# Ainur Shakirov <ainur.shakirov.tt@gmail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: ru\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
-"PO-Revision-Date: 2008-09-01 18:01+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"PO-Revision-Date: 2011-08-07 21:54+0400\n"
+"Last-Translator: Ainur Shakirov <ainur.shakirov.tt@gmail.com>\n"
+"Language-Team: Tatar <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#.
-#: standard input:4 ui/net-pptp/index.scm:25
-msgid "Account:"
-msgstr "Учётная запись:"
-
-#: standard input:12 ui/net-pptp/index.scm:54
-msgid "Apply"
-msgstr "Применить"
-
-#: standard input:7 ui/net-pptp/index.scm:35
-msgid "Default route via VPN"
-msgstr "Маршрут по умолчанию через VPN"
-
-#: standard input:14 ui/net-pptp/index.scm:57
-msgid "Delete connection"
-msgstr "Удалить соединение"
-
-#: standard input:9 ui/net-pptp/index.scm:41
-msgid "MPPE encryption"
-msgstr "Шифрование MPPE"
-
-#: standard input:1 ui/net-pptp/index.scm:8
-msgid "New connection..."
-msgstr "Создать соединение..."
+"Language: tt\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: standard input:1
 msgid "PPTP connections"
-msgstr "PPTP-соединения"
+msgstr "PPTP тоташулар"
+
+#: standard input:1 ui/net-pptp/index.scm:8
+msgid "New connection..."
+msgstr "Яңа тоташу..."
 
 #.
-#: standard input:5 ui/net-pptp/index.scm:28
-msgid "Password:"
-msgstr "Пароль:"
-
-#: standard input:10 ui/net-pptp/index.scm:44
-msgid "Redial on hangup"
-msgstr "Перезвонить при обрыве"
-
-#: standard input:13 ui/net-pptp/index.scm:55
-msgid "Reset"
-msgstr "Вернуть"
-
-#: standard input:8 ui/net-pptp/index.scm:38
-msgid "Save route to VPN gateway"
-msgstr "Сохранить маршрут к VPN-серверу"
+#: standard input:2 ui/net-pptp/index.scm:17
+msgid "Status:"
+msgstr "Хәл:"
 
 #.
 #: standard input:3 ui/net-pptp/index.scm:22
 msgid "Server:"
 msgstr "Сервер:"
 
-#: standard input:11 ui/net-pptp/index.scm:47
-msgid "Start at boot"
-msgstr "Запускать при загрузке"
+#.
+#: standard input:4 ui/net-pptp/index.scm:25
+msgid "Account:"
+msgstr "Керү исеме:"
 
 #.
-#: standard input:2 ui/net-pptp/index.scm:17
-msgid "Status:"
-msgstr "Состояние:"
+#: standard input:5 ui/net-pptp/index.scm:28
+msgid "Password:"
+msgstr "Серсүз:"
 
 #.
 #: standard input:6 ui/net-pptp/index.scm:31
 msgid "Walk through interface:"
-msgstr "Опорный интерфейс:"
+msgstr "Таяныч интерфейс:"
 
-#: backend3/net-pptp:80
-msgid "connection down"
-msgstr "нет соединения"
+#: standard input:7 ui/net-pptp/index.scm:35
+msgid "Default route via VPN"
+msgstr "Үрнәк юл VPN аша"
+
+#: standard input:8 ui/net-pptp/index.scm:38
+msgid "Save route to VPN gateway"
+msgstr "VPN серверына юлны саклау"
+
+#: standard input:9 ui/net-pptp/index.scm:41
+msgid "MPPE encryption"
+msgstr "MPPE шифрлау"
+
+#: standard input:10 ui/net-pptp/index.scm:44
+msgid "Redial on hangup"
+msgstr "Өзелгәндә кире тоташу"
+
+#: standard input:11 ui/net-pptp/index.scm:47
+msgid "Start at boot"
+msgstr "Йөкләгәндә җибәрү"
+
+#: standard input:12 ui/net-pptp/index.scm:54
+msgid "Apply"
+msgstr "Куллану"
+
+#: standard input:13 ui/net-pptp/index.scm:55
+msgid "Reset"
+msgstr "Кайтару"
+
+#: standard input:14 ui/net-pptp/index.scm:57
+msgid "Delete connection"
+msgstr "Тоташуны бетерү"
 
 #: backend3/net-pptp:80
 msgid "connection established"
-msgstr "соединение установлено"
+msgstr "тоташты"
+
+#: backend3/net-pptp:80
+msgid "connection down"
+msgstr "тоташмады"
 
 #: backend3/net-pptp:199
 msgid "don't change"
-msgstr "не менять"
-
-#: backend3/net-pptp:202
-msgid "restart"
-msgstr "перезапустить"
+msgstr "үзгәртелмәгән"
 
 #. '
 #: backend3/net-pptp:200
 msgid "start"
-msgstr "запустить"
+msgstr "башлау"
 
 #: backend3/net-pptp:201
 msgid "stop"
-msgstr "остановить"
+msgstr "туктату"
 
-#~ msgid "Select"
-#~ msgstr "Выбрать"
+#: backend3/net-pptp:202
+msgid "restart"
+msgstr "кире җибәрү"
+
