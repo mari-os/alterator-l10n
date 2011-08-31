@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt32
+Release: alt33
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -108,6 +108,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Wed Aug 31 2011 Radik Usupov <radik@altlinux.org> 2.9-alt33
+- Added tt_RU translation (thanks snejok@!)
+
 * Thu Aug 25 2011 Fr. Br. George <george@altlinux.ru> 2.9-alt32
 - Add 'make tidy' target for HTML files check
 - Add VNC an LiveCD descriptio into netinst
