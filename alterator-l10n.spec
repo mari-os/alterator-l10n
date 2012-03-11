@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt33
+Release: alt34
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -108,6 +108,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Sun Mar 11 2012 Andrey Cherepanov <cas@altlinux.org> 2.9-alt34
+- Complete translation of changed alterator-net-wifi
+
 * Wed Aug 31 2011 Radik Usupov <radik@altlinux.org> 2.9-alt33
 - Added tt_RU translation (thanks snejok@!)
 

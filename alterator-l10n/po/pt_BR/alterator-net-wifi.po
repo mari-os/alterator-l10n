@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:12+0400\n"
+"POT-Creation-Date: 2012-03-11 11:08+0400\n"
 "PO-Revision-Date: 2009-01-29 13:09-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,97 +20,118 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:10 ui/net-wifi/index.scm:124
-msgid "Apply"
-msgstr "Aplicar"
+#: standard input:1
+msgid "Wifi interfaces"
+msgstr "Interfaces Wifi"
 
-#: standard input:7 ui/net-wifi/index.scm:113
-msgid "Auth type:"
-msgstr "Tipo de Autentificação:"
-
-#: standard input:8 ui/net-wifi/index.scm:116
-msgid "Change password:"
-msgstr "Mudar a Senha:"
-
-#: standard input:16 ui/net-wifi/index.scm:135
-msgid "Configure"
-msgstr "Configurar"
-
-#: standard input:13 ui/net-wifi/index.scm:129
-msgid "Configure new network"
-msgstr "Configurar a Rede"
-
-#: standard input:4 ui/net-wifi/index.scm:97
-msgid "Configured networks"
-msgstr "Rede Configurada"
-
-#: backend3/net-wifi:227
-msgid "Current network"
-msgstr "Rede Atual"
-
-#: standard input:12 ui/net-wifi/index.scm:126
-msgid "Delete"
-msgstr "Deletar"
-
-#: standard input:5 ui/net-wifi/index.scm:108
-msgid "Enable"
-msgstr "Habilitado"
-
-#: standard input:9 ui/net-wifi/index.scm:119
-msgid "Encryption:"
-msgstr "Encriptação:"
-
-#: standard input:1 ui/net-wifi/index.scm:88
+#: ui/net-wifi/index.scm:91
 msgid "Interface:"
 msgstr "Interface:"
 
-#: standard input:6 ui/net-wifi/index.scm:110
+#: ui/net-wifi/index.scm:94
+msgid "Status:"
+msgstr "Status:"
+
+#: ui/net-wifi/index.scm:98
+msgid "Reconfigure interface"
+msgstr "Reconfigurar Interface"
+
+#: ui/net-wifi/index.scm:100
+msgid "Configured networks"
+msgstr "Rede Configurada"
+
+#: ui/net-wifi/index.scm:111
+msgid "Enable"
+msgstr "Habilitado"
+
+#: ui/net-wifi/index.scm:113
 msgid "Network name:"
 msgstr "Nome da Rede:"
 
-#: standard input:14 ui/net-wifi/index.scm:132
+#: ui/net-wifi/index.scm:116
+msgid "Auth type:"
+msgstr "Tipo de Autentificação:"
+
+#: ui/net-wifi/index.scm:119
+msgid "Change password:"
+msgstr "Mudar a Senha:"
+
+#: ui/net-wifi/index.scm:122
+msgid "Encryption:"
+msgstr "Encriptação:"
+
+#: ui/net-wifi/index.scm:127
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ui/net-wifi/index.scm:128
+msgid "Reset"
+msgstr "Resetar"
+
+#: ui/net-wifi/index.scm:129
+msgid "Delete"
+msgstr "Deletar"
+
+#: ui/net-wifi/index.scm:132
+msgid "Configure new network"
+msgstr "Configurar a Rede"
+
+#: ui/net-wifi/index.scm:136
+msgid "Name"
+msgstr "Nome"
+
+#: ui/net-wifi/index.scm:136
+msgid "signal"
+msgstr ""
+
+#: ui/net-wifi/index.scm:136
+#, fuzzy
+msgid "authentication"
+msgstr "Autentificação"
+
+#: ui/net-wifi/index.scm:137
 msgid "Networks found:"
 msgstr "Redes encontradas:"
+
+#: ui/net-wifi/index.scm:139
+msgid "Rescan"
+msgstr "Procurar novamente"
+
+#: ui/net-wifi/index.scm:140
+msgid "Configure"
+msgstr "Configurar"
+
+#: ui/net-wifi/index.scm:142
+msgid "OK"
+msgstr "OK"
+
+#: backend3/net-wifi:39
+#, fuzzy
+msgid "connection is not configured"
+msgstr "Conexão falhou"
+
+#: backend3/net-wifi:67
+#, fuzzy
+msgid "connected to network %s(%s)\\n"
+msgstr "Rede conectada"
+
+#: backend3/net-wifi:70
+msgid "scanning for available networks..."
+msgstr ""
+
+#: backend3/net-wifi:73
+#, fuzzy
+msgid "connecting to network..."
+msgstr "Rede conectada"
+
+#: backend3/net-wifi:76
+#, fuzzy
+msgid "disconnected"
+msgstr "Conexão falhou"
 
 #: backend3/net-wifi:174
 msgid "No password"
 msgstr "Sem senha"
-
-#: backend3/net-wifi:340
-msgid "Not a wireless interface"
-msgstr "Nenhuma Interface de Rede Sem Fio"
-
-#: ui/net-wifi/index.scm:137
-msgid "OK"
-msgstr "OK"
-
-#: backend3/net-wifi:366
-msgid "Other network"
-msgstr "Outra rede"
-
-#: backend3/net-wifi:387
-msgid "Password is too short"
-msgstr "Senha é muito curta"
-
-#: standard input:2 ui/net-wifi/index.scm:95
-msgid "Reconfigure interface"
-msgstr "Reconfigurar Interface"
-
-#: standard input:15 ui/net-wifi/index.scm:134
-msgid "Rescan"
-msgstr "Procurar novamente"
-
-#: standard input:11 ui/net-wifi/index.scm:125
-msgid "Reset"
-msgstr "Resetar"
-
-#: standard input:3 ui/net-wifi/index.scm:91
-msgid "Status:"
-msgstr "Status:"
-
-#: backend3/net-wifi:404
-msgid "Unable to create network"
-msgstr "Não foi possível criar a rede"
 
 #: backend3/net-wifi:175
 msgid "WEP Password"
@@ -123,33 +145,25 @@ msgstr "Meu WPA (WPA-PSK)"
 msgid "WPA2 Personal (WPA-PSK)"
 msgstr "Meu WPA2 (WPA-PSK)"
 
-#: standard input:1
-msgid "Wifi interfaces"
-msgstr "Interfaces Wifi"
+#: backend3/net-wifi:227
+msgid "Current network"
+msgstr "Rede Atual"
 
-#: backend3/net-wifi:67
-#, fuzzy
-msgid "connected to network %s(%s)\\n"
-msgstr "Rede conectada"
+#: backend3/net-wifi:340
+msgid "Not a wireless interface"
+msgstr "Nenhuma Interface de Rede Sem Fio"
 
-#: backend3/net-wifi:73
-#, fuzzy
-msgid "connecting to network..."
-msgstr "Rede conectada"
+#: backend3/net-wifi:366
+msgid "Other network"
+msgstr "Outra rede"
 
-#: backend3/net-wifi:39
-#, fuzzy
-msgid "connection is not configured"
-msgstr "Conexão falhou"
+#: backend3/net-wifi:387
+msgid "Password is too short"
+msgstr "Senha é muito curta"
 
-#: backend3/net-wifi:76
-#, fuzzy
-msgid "disconnected"
-msgstr "Conexão falhou"
-
-#: backend3/net-wifi:70
-msgid "scanning for available networks..."
-msgstr ""
+#: backend3/net-wifi:404
+msgid "Unable to create network"
+msgstr "Não foi possível criar a rede"
 
 #~ msgid "IP address"
 #~ msgstr "Endereço IP"
