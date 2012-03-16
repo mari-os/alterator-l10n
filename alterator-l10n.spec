@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt34
+Release: alt35
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -108,6 +108,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Mar 16 2012 Paul Wolneykien <manowar@altlinux.ru> 2.9-alt35
+- Fix/improve the alterator-squidmill translation.
+
 * Sun Mar 11 2012 Andrey Cherepanov <cas@altlinux.org> 2.9-alt34
 - Complete translation of changed alterator-net-wifi
 
