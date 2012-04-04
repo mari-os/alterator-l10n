@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-22 17:12+0400\n"
+"POT-Creation-Date: 2012-04-04 15:00+0400\n"
 "PO-Revision-Date: 2009-09-14 18:33-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,155 +20,182 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:19
-msgid "Accounting"
-msgstr "Contabilidade"
-
-#: standard input:17
-msgid "Date/Time"
-msgstr "Data/Hora"
-
 #: standard input:1
+msgid "Web interface"
+msgstr "Interface Web"
+
+#: standard input:2
+msgid "Setup embedded web server"
+msgstr "Configurações de Servidor Web Embutido"
+
+#: standard input:3
 msgid "Graphical interface"
 msgstr "Interface Gráfica"
 
-#: standard input:21
-msgid "Mail"
-msgstr "Email"
+#: standard input:4
+msgid "Setup input/output devices"
+msgstr "Configuraç]ões de Entrada/Saída de Dispositivo"
 
-#: standard input:23
-msgid "Network"
-msgstr "Rede"
-
-#: standard input:8
-msgid "Operating system information and setup"
-msgstr "Informações e Configurações do Sistema operacional"
-
-#: standard input:15
+#: standard input:5
 msgid "Other"
 msgstr "Outro"
 
-#: standard input:16
+#: standard input:6
 msgid "Other system settings"
 msgstr "Outras configurações do sistema"
 
-#: standard input:13
-msgid "Programs"
-msgstr "Programas"
+#: standard input:7
+msgid "Mail"
+msgstr "Email"
+
+#: standard input:8
+msgid "Setup e-mail service"
+msgstr "Configurar Serviço de Email"
 
 #: standard input:9
 msgid "Servers"
 msgstr "Servidores"
 
-#: standard input:22
-msgid "Setup e-mail service"
-msgstr "Configurar Serviço de Email"
-
-#: standard input:6
-msgid "Setup embedded web server"
-msgstr "Configurações de Servidor Web Embutido"
-
-#: standard input:2
-msgid "Setup input/output devices"
-msgstr "Configuraç]ões de Entrada/Saída de Dispositivo"
-
-#: standard input:24
-msgid "Setup network connections"
-msgstr "Configuração de Conexões de Rede"
-
-#: standard input:14
-msgid "Setup, remove and update programs"
-msgstr "Configurar, remover ou Atualizar programas"
-
-#: standard input:11
-msgid "Statistics"
-msgstr "Estatísticas"
-
-#: standard input:7
-msgid "System"
-msgstr "Sistema"
-
-#: standard input:20
-msgid "System accounting"
-msgstr "Sistema de Contabilidade"
-
-#: standard input:18
-msgid "System clock setup"
-msgstr "Configuração do sistema de hora"
-
-#: standard input:12
-msgid "System statistics"
-msgstr "Sistema de estatísticas"
-
-#: standard input:4
-msgid "System users management"
-msgstr "Administração de Usuário"
-
-#: standard input:3
-msgid "Users"
-msgstr "Usuários"
-
 #: standard input:10
 msgid "Various network services"
 msgstr "Diversos serviços de rede"
 
-#: standard input:5
-msgid "Web interface"
-msgstr "Interface Web"
+#: standard input:11
+msgid "Programs"
+msgstr "Programas"
 
-#: type/date.scm:11
-msgid "date should be in YYYY-MM-DD format"
-msgstr "o formato da Data deve ser YYYY-MM-DD"
+#: standard input:12
+msgid "Setup, remove and update programs"
+msgstr "Configurar, remover ou Atualizar programas"
 
-#: type/ipv4-address.scm:16
-msgid "invalid IP address"
-msgstr "Endereço IP Inválido"
+#: standard input:13
+msgid "Network"
+msgstr "Rede"
 
-#: type/ipv4-address-list.scm:14
-msgid "invalid IP address list"
+#: standard input:14
+msgid "Setup network connections"
+msgstr "Configuração de Conexões de Rede"
+
+#: standard input:15 input:16
+#, fuzzy
+msgid "Firewall"
+msgstr "Habilitar Firewall"
+
+#: standard input:17
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: standard input:18
+msgid "System statistics"
+msgstr "Sistema de estatísticas"
+
+#: standard input:19
+msgid "Users"
+msgstr "Usuários"
+
+#: standard input:20
+msgid "System users management"
+msgstr "Administração de Usuário"
+
+#: standard input:21
+msgid "Accounting"
+msgstr "Contabilidade"
+
+#: standard input:22
+msgid "System accounting"
+msgstr "Sistema de Contabilidade"
+
+#: standard input:23
+msgid "Date/Time"
+msgstr "Data/Hora"
+
+#: standard input:24
+msgid "System clock setup"
+msgstr "Configuração do sistema de hora"
+
+#: standard input:25
+msgid "System"
+msgstr "Sistema"
+
+#: standard input:26
+msgid "Operating system information and setup"
+msgstr "Informações e Configurações do Sistema operacional"
+
+#: type/system-account-name.scm:12
+#, fuzzy
+msgid ""
+"only small latin letters, digits, '-' and '_' allowed, starting with a small "
+"latin letter."
+msgstr "apenas digitos em letras permitido '_'"
+
+#: type/ipv4-addrwmask-list.scm:14 test/api/type/ipv4-addrwmask-list.scm:14
+#, fuzzy
+msgid "invalid IP with MASK list"
 msgstr "Endereço IP da Lista Inválidos"
 
-#: type/ipv4-network.scm:13
-msgid "invalid IP network specification"
-msgstr "IP Inválido"
-
-#: type/iso-3166-alpha-2.scm:258
-msgid "invalid ISO-3166-alpha-2 country code"
-msgstr "Inválido ISO-3166-alpha-2 codigo do país"
-
-#: type/tcp-port.scm:12
-msgid "invalid TCP port"
-msgstr "Porta TCP Inválida"
-
-#: type/boolean.scm:8
-msgid "invalid boolean value"
-msgstr "Valor do Boolen inválido"
-
-#: type/e-mail.scm:12
-msgid "invalid e-mail address"
-msgstr "Endereço de email inválido"
-
-#: type/hostname-list.scm:14
+#: type/hostname-list.scm:14 test/api/type/hostname-list.scm:14
 msgid "invalid hostname list"
 msgstr "Inválida Lista de Hostnames"
 
-#: type/telephone-number.scm:12
+#: type/tcp-port.scm:12 test/api/type/tcp-port.scm:12
+msgid "invalid TCP port"
+msgstr "Porta TCP Inválida"
+
+#: type/e-mail.scm:12 test/api/type/e-mail.scm:12
+msgid "invalid e-mail address"
+msgstr "Endereço de email inválido"
+
+#: type/date.scm:11 test/api/type/date.scm:11
+msgid "date should be in YYYY-MM-DD format"
+msgstr "o formato da Data deve ser YYYY-MM-DD"
+
+#: type/system-computer-name.scm:12 test/api/type/system-computer-name.scm:12
+msgid "only latin letters, digits, '-', and '_' allowed"
+msgstr "apenas digitos em letras permitido '-' '.', e '_'"
+
+#: type/ipv4-addrwmask.scm:13 test/api/type/ipv4-addrwmask.scm:13
+#, fuzzy
+msgid "invalid IP with MASK specification"
+msgstr "IP Inválido"
+
+#: type/ipv4-address-list.scm:14 test/api/type/ipv4-address-list.scm:14
+msgid "invalid IP address list"
+msgstr "Endereço IP da Lista Inválidos"
+
+#: type/iso-3166-alpha-2.scm:258 test/api/type/iso-3166-alpha-2.scm:258
+msgid "invalid ISO-3166-alpha-2 country code"
+msgstr "Inválido ISO-3166-alpha-2 codigo do país"
+
+#: type/telephone-number.scm:12 test/api/type/telephone-number.scm:12
 #, fuzzy
 msgid "invalid telephone number"
 msgstr "Nome do Recurso Inválido"
 
-#: type/hostname.scm:14
+#: type/ipv4-address.scm:16 test/api/type/ipv4-address.scm:16
+msgid "invalid IP address"
+msgstr "Endereço IP Inválido"
+
+#: type/boolean.scm:8 test/api/type/boolean.scm:8
+msgid "invalid boolean value"
+msgstr "Valor do Boolen inválido"
+
+#: type/ipv4-network.scm:13 test/api/type/ipv4-network.scm:13
+msgid "invalid IP network specification"
+msgstr "IP Inválido"
+
+#: type/hostname.scm:14 test/api/type/hostname.scm:14
 msgid "only latin letters, digits, '-', '.', and '_' allowed"
 msgstr "apenas digitos em letras permitido '-' '.', e '_'"
 
-#: type/system-computer-name.scm:12
-msgid "only latin letters, digits, '-', and '_' allowed"
-msgstr "apenas digitos em letras permitido '-' '.', e '_'"
+#: type/ipv4-network-list.scm:14 test/api/type/ipv4-network-list.scm:14
+#, fuzzy
+msgid "invalid IP network list"
+msgstr "IP Inválido"
 
-#: type/system-account-name.scm:12
-msgid "only small latin letters, digits and '_' allowed"
-msgstr "apenas digitos em letras permitido '_'"
-
-#: type/time.scm:10
+#: type/time.scm:10 test/api/type/time.scm:10
 msgid "time should be in HH:MM:SS format"
 msgstr "A Hora deve ser no formato HH:MM:SS"
+
+#: test/api/type/system-account-name.scm:12
+msgid "only small latin letters, digits and '_' allowed"
+msgstr "apenas digitos em letras permitido '_'"

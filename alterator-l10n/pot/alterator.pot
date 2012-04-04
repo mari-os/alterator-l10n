@@ -8,44 +8,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-22 17:12+0400\n"
+"POT-Creation-Date: 2012-04-04 15:00+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: standard input:1
-msgid "Graphical interface"
-msgstr ""
-
-#: standard input:2
-msgid "Setup input/output devices"
-msgstr ""
-
-#: standard input:3
-msgid "Users"
-msgstr ""
-
-#: standard input:4
-msgid "System users management"
-msgstr ""
-
-#: standard input:5
 msgid "Web interface"
 msgstr ""
 
-#: standard input:6
+#: standard input:2
 msgid "Setup embedded web server"
 msgstr ""
 
+#: standard input:3
+msgid "Graphical interface"
+msgstr ""
+
+#: standard input:4
+msgid "Setup input/output devices"
+msgstr ""
+
+#: standard input:5
+msgid "Other"
+msgstr ""
+
+#: standard input:6
+msgid "Other system settings"
+msgstr ""
+
 #: standard input:7
-msgid "System"
+msgid "Mail"
 msgstr ""
 
 #: standard input:8
-msgid "Operating system information and setup"
+msgid "Setup e-mail service"
 msgstr ""
 
 #: standard input:9
@@ -57,113 +58,135 @@ msgid "Various network services"
 msgstr ""
 
 #: standard input:11
-msgid "Statistics"
-msgstr ""
-
-#: standard input:12
-msgid "System statistics"
-msgstr ""
-
-#: standard input:13
 msgid "Programs"
 msgstr ""
 
-#: standard input:14
+#: standard input:12
 msgid "Setup, remove and update programs"
 msgstr ""
 
-#: standard input:15
-msgid "Other"
-msgstr ""
-
-#: standard input:16
-msgid "Other system settings"
-msgstr ""
-
-#: standard input:17
-msgid "Date/Time"
-msgstr ""
-
-#: standard input:18
-msgid "System clock setup"
-msgstr ""
-
-#: standard input:19
-msgid "Accounting"
-msgstr ""
-
-#: standard input:20
-msgid "System accounting"
-msgstr ""
-
-#: standard input:21
-msgid "Mail"
-msgstr ""
-
-#: standard input:22
-msgid "Setup e-mail service"
-msgstr ""
-
-#: standard input:23
+#: standard input:13
 msgid "Network"
 msgstr ""
 
-#: standard input:24
+#: standard input:14
 msgid "Setup network connections"
 msgstr ""
 
-#: type/e-mail.scm:12
-msgid "invalid e-mail address"
+#: standard input:15 input:16
+msgid "Firewall"
 msgstr ""
 
-#: type/hostname.scm:14
-msgid "only latin letters, digits, '-', '.', and '_' allowed"
+#: standard input:17
+msgid "Statistics"
 msgstr ""
 
-#: type/tcp-port.scm:12
-msgid "invalid TCP port"
+#: standard input:18
+msgid "System statistics"
 msgstr ""
 
-#: type/ipv4-address.scm:16
-msgid "invalid IP address"
+#: standard input:19
+msgid "Users"
 msgstr ""
 
-#: type/ipv4-address-list.scm:14
-msgid "invalid IP address list"
+#: standard input:20
+msgid "System users management"
+msgstr ""
+
+#: standard input:21
+msgid "Accounting"
+msgstr ""
+
+#: standard input:22
+msgid "System accounting"
+msgstr ""
+
+#: standard input:23
+msgid "Date/Time"
+msgstr ""
+
+#: standard input:24
+msgid "System clock setup"
+msgstr ""
+
+#: standard input:25
+msgid "System"
+msgstr ""
+
+#: standard input:26
+msgid "Operating system information and setup"
 msgstr ""
 
 #: type/system-account-name.scm:12
-msgid "only small latin letters, digits and '_' allowed"
+msgid ""
+"only small latin letters, digits, '-' and '_' allowed, starting with a small "
+"latin letter."
 msgstr ""
 
-#: type/time.scm:10
-msgid "time should be in HH:MM:SS format"
+#: type/ipv4-addrwmask-list.scm:14 test/api/type/ipv4-addrwmask-list.scm:14
+msgid "invalid IP with MASK list"
 msgstr ""
 
-#: type/system-computer-name.scm:12
-msgid "only latin letters, digits, '-', and '_' allowed"
+#: type/hostname-list.scm:14 test/api/type/hostname-list.scm:14
+msgid "invalid hostname list"
 msgstr ""
 
-#: type/date.scm:11
+#: type/tcp-port.scm:12 test/api/type/tcp-port.scm:12
+msgid "invalid TCP port"
+msgstr ""
+
+#: type/e-mail.scm:12 test/api/type/e-mail.scm:12
+msgid "invalid e-mail address"
+msgstr ""
+
+#: type/date.scm:11 test/api/type/date.scm:11
 msgid "date should be in YYYY-MM-DD format"
 msgstr ""
 
-#: type/ipv4-network.scm:13
-msgid "invalid IP network specification"
+#: type/system-computer-name.scm:12 test/api/type/system-computer-name.scm:12
+msgid "only latin letters, digits, '-', and '_' allowed"
 msgstr ""
 
-#: type/iso-3166-alpha-2.scm:258
+#: type/ipv4-addrwmask.scm:13 test/api/type/ipv4-addrwmask.scm:13
+msgid "invalid IP with MASK specification"
+msgstr ""
+
+#: type/ipv4-address-list.scm:14 test/api/type/ipv4-address-list.scm:14
+msgid "invalid IP address list"
+msgstr ""
+
+#: type/iso-3166-alpha-2.scm:258 test/api/type/iso-3166-alpha-2.scm:258
 msgid "invalid ISO-3166-alpha-2 country code"
 msgstr ""
 
-#: type/boolean.scm:8
-msgid "invalid boolean value"
-msgstr ""
-
-#: type/telephone-number.scm:12
+#: type/telephone-number.scm:12 test/api/type/telephone-number.scm:12
 msgid "invalid telephone number"
 msgstr ""
 
-#: type/hostname-list.scm:14
-msgid "invalid hostname list"
+#: type/ipv4-address.scm:16 test/api/type/ipv4-address.scm:16
+msgid "invalid IP address"
+msgstr ""
+
+#: type/boolean.scm:8 test/api/type/boolean.scm:8
+msgid "invalid boolean value"
+msgstr ""
+
+#: type/ipv4-network.scm:13 test/api/type/ipv4-network.scm:13
+msgid "invalid IP network specification"
+msgstr ""
+
+#: type/hostname.scm:14 test/api/type/hostname.scm:14
+msgid "only latin letters, digits, '-', '.', and '_' allowed"
+msgstr ""
+
+#: type/ipv4-network-list.scm:14 test/api/type/ipv4-network-list.scm:14
+msgid "invalid IP network list"
+msgstr ""
+
+#: type/time.scm:10 test/api/type/time.scm:10
+msgid "time should be in HH:MM:SS format"
+msgstr ""
+
+#: test/api/type/system-account-name.scm:12
+msgid "only small latin letters, digits and '_' allowed"
 msgstr ""

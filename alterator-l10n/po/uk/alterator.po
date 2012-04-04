@@ -8,165 +8,192 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-22 17:12+0400\n"
+"POT-Creation-Date: 2012-04-04 15:00+0400\n"
 "PO-Revision-Date: 2009-08-23 02:10+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: standard input:19
-msgid "Accounting"
-msgstr "Облік"
-
-#: standard input:17
-msgid "Date/Time"
-msgstr "Дата/Час"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
+msgid "Web interface"
+msgstr "Веб-інтерфейс"
+
+#: standard input:2
+msgid "Setup embedded web server"
+msgstr "Налаштувати вбудований веб-сервер"
+
+#: standard input:3
 msgid "Graphical interface"
 msgstr "Графічний інтерфейс"
 
-#: standard input:21
-msgid "Mail"
-msgstr "Пошта"
+#: standard input:4
+msgid "Setup input/output devices"
+msgstr "Налаштувати пристрої уведення/виведення"
 
-#: standard input:23
-msgid "Network"
-msgstr "Мережа"
-
-#: standard input:8
-msgid "Operating system information and setup"
-msgstr "Інформація про операційну систему та встановлення"
-
-#: standard input:15
+#: standard input:5
 msgid "Other"
 msgstr "Інше"
 
-#: standard input:16
+#: standard input:6
 msgid "Other system settings"
 msgstr "Інші налаштування системи"
 
-#: standard input:13
-msgid "Programs"
-msgstr "Програми"
+#: standard input:7
+msgid "Mail"
+msgstr "Пошта"
+
+#: standard input:8
+msgid "Setup e-mail service"
+msgstr "Налаштувати поштову службу"
 
 #: standard input:9
 msgid "Servers"
 msgstr "Сервери"
 
-#: standard input:22
-msgid "Setup e-mail service"
-msgstr "Налаштувати поштову службу"
-
-#: standard input:6
-msgid "Setup embedded web server"
-msgstr "Налаштувати вбудований веб-сервер"
-
-#: standard input:2
-msgid "Setup input/output devices"
-msgstr "Налаштувати пристрої уведення/виведення"
-
-#: standard input:24
-msgid "Setup network connections"
-msgstr "Налаштувати мережеві з'єднання"
-
-#: standard input:14
-msgid "Setup, remove and update programs"
-msgstr "Встановлення, вилучення та оновлення програм"
-
-#: standard input:11
-msgid "Statistics"
-msgstr "Статистика"
-
-#: standard input:7
-msgid "System"
-msgstr "Система"
-
-#: standard input:20
-msgid "System accounting"
-msgstr "Системний облік"
-
-#: standard input:18
-msgid "System clock setup"
-msgstr "Встановлення системного годинника"
-
-#: standard input:12
-msgid "System statistics"
-msgstr "Статистика системи"
-
-#: standard input:4
-msgid "System users management"
-msgstr "Керування користувачами"
-
-#: standard input:3
-msgid "Users"
-msgstr "Користувачі"
-
 #: standard input:10
 msgid "Various network services"
 msgstr "Різноманітні мережеві служби"
 
-#: standard input:5
-msgid "Web interface"
-msgstr "Веб-інтерфейс"
+#: standard input:11
+msgid "Programs"
+msgstr "Програми"
 
-#: type/date.scm:11
-msgid "date should be in YYYY-MM-DD format"
-msgstr "дата має бути в форматі РРРР-ММ-ДД"
+#: standard input:12
+msgid "Setup, remove and update programs"
+msgstr "Встановлення, вилучення та оновлення програм"
 
-#: type/ipv4-address.scm:16
-msgid "invalid IP address"
-msgstr "невірна IP адреса"
+#: standard input:13
+msgid "Network"
+msgstr "Мережа"
 
-#: type/ipv4-address-list.scm:14
-msgid "invalid IP address list"
+#: standard input:14
+msgid "Setup network connections"
+msgstr "Налаштувати мережеві з'єднання"
+
+#: standard input:15 input:16
+msgid "Firewall"
+msgstr ""
+
+#: standard input:17
+msgid "Statistics"
+msgstr "Статистика"
+
+#: standard input:18
+msgid "System statistics"
+msgstr "Статистика системи"
+
+#: standard input:19
+msgid "Users"
+msgstr "Користувачі"
+
+#: standard input:20
+msgid "System users management"
+msgstr "Керування користувачами"
+
+#: standard input:21
+msgid "Accounting"
+msgstr "Облік"
+
+#: standard input:22
+msgid "System accounting"
+msgstr "Системний облік"
+
+#: standard input:23
+msgid "Date/Time"
+msgstr "Дата/Час"
+
+#: standard input:24
+msgid "System clock setup"
+msgstr "Встановлення системного годинника"
+
+#: standard input:25
+msgid "System"
+msgstr "Система"
+
+#: standard input:26
+msgid "Operating system information and setup"
+msgstr "Інформація про операційну систему та встановлення"
+
+#: type/system-account-name.scm:12
+#, fuzzy
+msgid ""
+"only small latin letters, digits, '-' and '_' allowed, starting with a small "
+"latin letter."
+msgstr "дозволені лише цифри, малі латинські літери та '_'"
+
+#: type/ipv4-addrwmask-list.scm:14 test/api/type/ipv4-addrwmask-list.scm:14
+#, fuzzy
+msgid "invalid IP with MASK list"
 msgstr "невірний список IP адрес"
 
-#: type/ipv4-network.scm:13
-msgid "invalid IP network specification"
-msgstr "Невірно вказана IP мережа"
-
-#: type/iso-3166-alpha-2.scm:258
-msgid "invalid ISO-3166-alpha-2 country code"
-msgstr "невірний код країни ISO-3166-alpha-2"
-
-#: type/tcp-port.scm:12
-msgid "invalid TCP port"
-msgstr "невірний порт TCP"
-
-#: type/boolean.scm:8
-msgid "invalid boolean value"
-msgstr "невірне двійкове значення"
-
-#: type/e-mail.scm:12
-msgid "invalid e-mail address"
-msgstr "Невірна e-mail адреса"
-
-#: type/hostname-list.scm:14
+#: type/hostname-list.scm:14 test/api/type/hostname-list.scm:14
 msgid "invalid hostname list"
 msgstr "невірний список імен вузлів"
 
-#: type/telephone-number.scm:12
-msgid "invalid telephone number"
-msgstr "невірний телефонний номер"
+#: type/tcp-port.scm:12 test/api/type/tcp-port.scm:12
+msgid "invalid TCP port"
+msgstr "невірний порт TCP"
 
-#: type/hostname.scm:14
-msgid "only latin letters, digits, '-', '.', and '_' allowed"
-msgstr "дозволені лише латинські літери, цифри та символи ’-’, ’.’, і ’_’"
+#: type/e-mail.scm:12 test/api/type/e-mail.scm:12
+msgid "invalid e-mail address"
+msgstr "Невірна e-mail адреса"
 
-#: type/system-computer-name.scm:12
+#: type/date.scm:11 test/api/type/date.scm:11
+msgid "date should be in YYYY-MM-DD format"
+msgstr "дата має бути в форматі РРРР-ММ-ДД"
+
+#: type/system-computer-name.scm:12 test/api/type/system-computer-name.scm:12
 msgid "only latin letters, digits, '-', and '_' allowed"
 msgstr "дозволені лише латинські літери, цифри та символи ’-’ і ’_’"
 
-#: type/system-account-name.scm:12
-msgid "only small latin letters, digits and '_' allowed"
-msgstr "дозволені лише цифри, малі латинські літери та '_'"
+#: type/ipv4-addrwmask.scm:13 test/api/type/ipv4-addrwmask.scm:13
+#, fuzzy
+msgid "invalid IP with MASK specification"
+msgstr "Невірно вказана IP мережа"
 
-#: type/time.scm:10
+#: type/ipv4-address-list.scm:14 test/api/type/ipv4-address-list.scm:14
+msgid "invalid IP address list"
+msgstr "невірний список IP адрес"
+
+#: type/iso-3166-alpha-2.scm:258 test/api/type/iso-3166-alpha-2.scm:258
+msgid "invalid ISO-3166-alpha-2 country code"
+msgstr "невірний код країни ISO-3166-alpha-2"
+
+#: type/telephone-number.scm:12 test/api/type/telephone-number.scm:12
+msgid "invalid telephone number"
+msgstr "невірний телефонний номер"
+
+#: type/ipv4-address.scm:16 test/api/type/ipv4-address.scm:16
+msgid "invalid IP address"
+msgstr "невірна IP адреса"
+
+#: type/boolean.scm:8 test/api/type/boolean.scm:8
+msgid "invalid boolean value"
+msgstr "невірне двійкове значення"
+
+#: type/ipv4-network.scm:13 test/api/type/ipv4-network.scm:13
+msgid "invalid IP network specification"
+msgstr "Невірно вказана IP мережа"
+
+#: type/hostname.scm:14 test/api/type/hostname.scm:14
+msgid "only latin letters, digits, '-', '.', and '_' allowed"
+msgstr "дозволені лише латинські літери, цифри та символи ’-’, ’.’, і ’_’"
+
+#: type/ipv4-network-list.scm:14 test/api/type/ipv4-network-list.scm:14
+#, fuzzy
+msgid "invalid IP network list"
+msgstr "Невірно вказана IP мережа"
+
+#: type/time.scm:10 test/api/type/time.scm:10
 msgid "time should be in HH:MM:SS format"
 msgstr "час має бути в форматі ГГ:ХХ:СС"
+
+#: test/api/type/system-account-name.scm:12
+msgid "only small latin letters, digits and '_' allowed"
+msgstr "дозволені лише цифри, малі латинські літери та '_'"
