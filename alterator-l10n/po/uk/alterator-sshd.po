@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-02 10:58+0300\n"
+"POT-Creation-Date: 2012-04-19 15:59+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -18,145 +18,166 @@ msgstr ""
 "X-Generator: KBabel 1.10.1\n"
 "X-Language: uk_UA\n"
 
-#: backend3/sshd:135
-msgid "-= Select one =-"
-msgstr "-= Обреріть користувача =-"
+#: standard input:1
+#, fuzzy
+msgid "SSHD service"
+msgstr "Служба SSHd"
 
-#: input:9
-msgid "Accessing:"
-msgstr "Доступ:"
+#: standard input:1
+msgid "SSHd service enabled:"
+msgstr "Сервіс SSHd вімкнено:"
 
-#: input:28
-msgid "Add new key for"
-msgstr "Додати новий ключ для"
-
-#: input:5
-msgid "Address family:"
-msgstr "Сімейство адрес:"
-
-#: input:13
-msgid "Allow Groups"
-msgstr "Дозволити групи"
-
-#: input:12
-msgid "Allow Users"
-msgstr "Дозволити користувачів"
-
-#: backend3/sshd:324
-msgid "Any"
-msgstr "Будь який"
-
-#: input:20
-msgid "Apply settings"
-msgstr "Прийняти налаштування"
-
-#: input:14
-msgid "Authentification for group wheel"
-msgstr "Автентифікацію для групи wheel"
-
-#: input:21
-msgid "Cancel settings"
-msgstr "Відмінити налаштування"
-
-#: input:26
-msgid "Comment"
-msgstr "Коментар"
-
-#: input:2
+#: standard input:2
 msgid "Current status: "
 msgstr "Поточний стан:"
 
-#: input:27
-msgid "Delete selected"
-msgstr "Вилучити обране"
+#: standard input:3
+msgid "Reload service"
+msgstr "Перезавантажити сервіс"
 
-#: input:23
+#: standard input:4
+msgid "Networking:"
+msgstr "Мережа:"
+
+#: standard input:5
+msgid "Address family:"
+msgstr "Сімейство адрес:"
+
+#: standard input:6
+msgid "Listen only on IP V6 Address:"
+msgstr "Слухати тільки на IP V6 адресах:"
+
+#: standard input:7
+msgid "Listen only on IP V4 Address:"
+msgstr "Слухати тільки на IP V4 адресах:"
+
+#: standard input:8
+msgid "Port:"
+msgstr "Порт:"
+
+#: standard input:9
+msgid "Accessing:"
+msgstr "Доступ:"
+
+#: standard input:10
+msgid "Password Authentication"
+msgstr "Автентифікація за паролем"
+
+#: standard input:11
+msgid "Permit Root Login"
+msgstr "Дозволити логін Root"
+
+#: standard input:12
+msgid "Allow Users"
+msgstr "Дозволити користувачів"
+
+#: standard input:13
+msgid "Allow Groups"
+msgstr "Дозволити групи"
+
+#: standard input:14
+msgid "Authentification for group wheel"
+msgstr "Автентифікацію для групи wheel"
+
+#: standard input:15
+msgid "Other:"
+msgstr "Інше:"
+
+#: standard input:16
+msgid "SFTP Subsystem"
+msgstr "SFTP підсистема"
+
+#: standard input:17
+msgid "Use banner"
+msgstr "Використання банера"
+
+#: standard input:18
+msgid "Settings"
+msgstr "Налаштування"
+
+#: standard input:19
+msgid "Manage keys"
+msgstr "Керування ключами"
+
+#: standard input:20
+msgid "Apply settings"
+msgstr "Прийняти налаштування"
+
+#: standard input:21
+msgid "Cancel settings"
+msgstr "Відмінити налаштування"
+
+#: standard input:22
+msgid "Key files"
+msgstr "Файли ключів"
+
+#: standard input:23
 msgid "Existing keys"
 msgstr "Існуючі ключі"
 
-#: input:24
+#: standard input:24
 msgid "Fingerprint"
 msgstr "Відбиток ключа"
+
+#: standard input:25
+msgid "Type"
+msgstr "Тип"
+
+#: standard input:26
+msgid "Comment"
+msgstr "Коментар"
+
+#: standard input:27
+msgid "Delete selected"
+msgstr "Вилучити обране"
+
+#: standard input:28
+msgid "Add new key for"
+msgstr "Додати новий ключ для"
+
+#: standard input:29
+msgid "from file"
+msgstr "із файлу"
+
+#: standard input:30
+msgid "Upload"
+msgstr "Завантажити ключ"
+
+#: standard input:31
+msgid "Return"
+msgstr "Повернутися"
 
 #: backend3/sshd:117
 msgid "Invalid ssh key"
 msgstr "Невірний формат ssh ключа"
 
-#: input:22
-msgid "Key files"
-msgstr "Файли ключів"
+#: backend3/sshd:125
+msgid "Same ssh key already exists"
+msgstr "Такий ключ ssh уже існує"
 
-#: input:7
-msgid "Listen only on IP V4 Address:"
-msgstr "Слухати тільки на IP V4 адресах:"
+#: backend3/sshd:135
+msgid "-= Select one =-"
+msgstr "-= Обреріть користувача =-"
 
-#: input:6
-msgid "Listen only on IP V6 Address:"
-msgstr "Слухати тільки на IP V6 адресах:"
+#: backend3/sshd:136
+msgid "root (System Administrator)"
+msgstr "root (Адміністратор системи)"
 
-#: input:19
-msgid "Manage keys"
-msgstr "Керування ключами"
-
-#: input:4
-msgid "Networking:"
-msgstr "Мережа:"
+#: backend3/sshd:319 backend3/sshd:329
+msgid "Yes"
+msgstr "Так"
 
 #: backend3/sshd:320 backend3/sshd:330
 msgid "No"
 msgstr "Ні"
 
-#: input:15
-msgid "Other:"
-msgstr "Інше:"
+#: backend3/sshd:321
+msgid "Without password (key only)"
+msgstr "Без пароля (тільки за ключем)"
 
-#: input:10
-msgid "Password Authentication"
-msgstr "Автентифікація за паролем"
-
-#: input:11
-msgid "Permit Root Login"
-msgstr "Дозволити логін Root"
-
-#: input:8
-msgid "Port:"
-msgstr "Порт:"
-
-#: input:3
-msgid "Reload service"
-msgstr "Перезавантажити сервіс"
-
-#: input:31
-msgid "Return"
-msgstr "Повернутися"
-
-#: input:16
-msgid "SFTP Subsystem"
-msgstr "SFTP підсистема"
-
-#: input:1
-msgid "SSHd service"
-msgstr "Служба SSHd"
-
-#: input:1
-msgid "SSHd service enabled:"
-msgstr "Сервіс SSHd вімкнено:"
-
-#: backend3/sshd:125
-msgid "Same ssh key already exists"
-msgstr "Такий ключ ssh уже існує"
-
-#: input:18
-msgid "Settings"
-msgstr "Налаштування"
-
-#: input:25
-msgid "Type"
-msgstr "Тип"
-
-#: input:30
-msgid "Upload"
-msgstr "Завантажити ключ"
+#: backend3/sshd:324
+msgid "Any"
+msgstr "Будь який"
 
 #: backend3/sshd:325
 msgid "Use IPv4 only"
@@ -165,23 +186,3 @@ msgstr "Використовувати тільки IPv4"
 #: backend3/sshd:326
 msgid "Use IPv6 only"
 msgstr "Використовувати тільки IPv6"
-
-#: input:17
-msgid "Use banner"
-msgstr "Використання банера"
-
-#: backend3/sshd:321
-msgid "Without password (key only)"
-msgstr "Без пароля (тільки за ключем)"
-
-#: backend3/sshd:319 backend3/sshd:329
-msgid "Yes"
-msgstr "Так"
-
-#: input:29
-msgid "from file"
-msgstr "із файлу"
-
-#: backend3/sshd:136
-msgid "root (System Administrator)"
-msgstr "root (Адміністратор системи)"

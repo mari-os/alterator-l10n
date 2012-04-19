@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-23 16:25+0400\n"
+"POT-Creation-Date: 2012-04-19 15:59+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -349,7 +349,7 @@ msgstr ""
 msgid " reboot, then continue installation."
 msgstr ""
 
-#: ui/vm/dummystr.scm:90 ui/vm/table.scm:191
+#: ui/vm/dummystr.scm:90 ui/vm/table.scm:197
 msgid "Mountpoint"
 msgstr ""
 
@@ -373,7 +373,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:189
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
 msgid "Filesystem"
 msgstr ""
 
@@ -428,102 +428,108 @@ msgstr ""
 msgid "Congrats! You've found a secret level!"
 msgstr ""
 
-#: ui/vm/table.scm:122
+#: ui/vm/table.scm:123
 msgid "Please assign \"/\" mount point"
 msgstr ""
 
-#: ui/vm/table.scm:130
+#: ui/vm/table.scm:127
+msgid ""
+"To install GRUB on disk with GPT, need create 1MiB (minimum size) 'bios "
+"boot' partition. Continue?"
+msgstr ""
+
+#: ui/vm/table.scm:136
 msgid "Apply requested changes?"
 msgstr ""
 
-#: ui/vm/table.scm:135
+#: ui/vm/table.scm:141
 msgid "All data on following partitions will be lost:"
 msgstr ""
 
-#: ui/vm/table.scm:138
+#: ui/vm/table.scm:144
 msgid "Continue?"
 msgstr ""
 
-#: ui/vm/table.scm:187
+#: ui/vm/table.scm:193
 msgid "   Name   "
 msgstr ""
 
-#: ui/vm/table.scm:188
+#: ui/vm/table.scm:194
 msgid "Size [ free ]"
 msgstr ""
 
-#: ui/vm/table.scm:192
+#: ui/vm/table.scm:198
 msgid "Mounted on"
 msgstr ""
 
-#: ui/vm/table.scm:193
+#: ui/vm/table.scm:199
 msgid "Mount options"
 msgstr ""
 
-#: ui/vm/table.scm:196
+#: ui/vm/table.scm:202
 msgid "Create RAID"
 msgstr ""
 
-#: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
-#: ui/vm/table.scm:214 ui/vm/table.scm:219
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:213
+#: ui/vm/table.scm:220 ui/vm/table.scm:225
 msgid "Destroy"
 msgstr ""
 
-#: ui/vm/table.scm:199
+#: ui/vm/table.scm:205
 msgid "Create Volume Group"
 msgstr ""
 
-#: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
-#: ui/vm/table.scm:217
+#: ui/vm/table.scm:206 ui/vm/table.scm:211 ui/vm/table.scm:218
+#: ui/vm/table.scm:223
 msgid "Expand"
 msgstr ""
 
-#: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
-#: ui/vm/table.scm:218
+#: ui/vm/table.scm:207 ui/vm/table.scm:212 ui/vm/table.scm:219
+#: ui/vm/table.scm:224
 msgid "Shrink"
 msgstr ""
 
-#: ui/vm/table.scm:204 ui/vm/table.scm:216
+#: ui/vm/table.scm:210 ui/vm/table.scm:222
 msgid "Create Volume"
 msgstr ""
 
-#: ui/vm/table.scm:209 ui/vm/table.scm:211
+#: ui/vm/table.scm:215 ui/vm/table.scm:217
 msgid "Create Partition"
 msgstr ""
 
-#: ui/vm/table.scm:210
+#: ui/vm/table.scm:216
 msgid "Destroy Partition Table"
 msgstr ""
 
-#: ui/vm/table.scm:222 ui/vm/table.scm:225
+#: ui/vm/table.scm:228 ui/vm/table.scm:231
 msgid "Make Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:223 ui/vm/table.scm:229
+#: ui/vm/table.scm:229 ui/vm/table.scm:235
 msgid "Remove Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:224
+#: ui/vm/table.scm:230
 msgid "Edit Mountpoint"
 msgstr ""
 
-#: ui/vm/table.scm:226
+#: ui/vm/table.scm:232
 msgid "Check Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:227
+#: ui/vm/table.scm:233
 msgid "Mount Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:228
+#: ui/vm/table.scm:234
 msgid "Umount Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:253
+#: ui/vm/table.scm:259
 msgid "Reset"
 msgstr ""
 
-#: ui/vm/table.scm:258
+#: ui/vm/table.scm:264
 msgid "Apply"
 msgstr ""
 

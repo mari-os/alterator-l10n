@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-18 18:23+0400\n"
+"POT-Creation-Date: 2012-04-19 15:59+0400\n"
 "PO-Revision-Date: 2011-08-07 22:26+0400\n"
 "Last-Translator: Ainur Shakirov <ainur.shakirov.tt@gmail.com>\n"
 "Language-Team: Tatar <>\n"
@@ -104,214 +104,229 @@ msgid "Swap File System Interface Module"
 msgstr "Swap файл системасы"
 
 #: ui/vm/dummystr.scm:12
-msgid "FAT16 File System Interface Module"
-msgstr "FAT16 файл системасы"
-
-#: ui/vm/dummystr.scm:13
 msgid "FAT32 File System Interface Module"
 msgstr "FAT32 файл системасы"
+
+#: ui/vm/dummystr.scm:13
+msgid "FAT16 File System Interface Module"
+msgstr "FAT16 файл системасы"
 
 #: ui/vm/dummystr.scm:14
 msgid "NTFS File System Interface Module"
 msgstr "NTFS файл системасы"
 
-#. ext2/3
+#: ui/vm/dummystr.scm:15
+#, fuzzy
+msgid "OpenGFS File System Interface Module"
+msgstr "XFS файл системасы"
+
 #: ui/vm/dummystr.scm:16
+#, fuzzy
+msgid "OCFS2 File System Interface Module"
+msgstr "XFS файл системасы"
+
+#: ui/vm/dummystr.scm:17
+#, fuzzy
+msgid "BtrFS File System Interface Module"
+msgstr "XFS файл системасы"
+
+#. ext2/3
+#: ui/vm/dummystr.scm:20
 msgid "Check For Bad Blocks"
 msgstr "Начар чыгырларга тикшерү (уку гына)"
 
-#: ui/vm/dummystr.scm:17
+#: ui/vm/dummystr.scm:21
 msgid "Read/Write Check For Bad Blocks"
 msgstr "Начар чыгырларга тикшерү (уку/язу)"
 
-#: ui/vm/dummystr.scm:18
+#: ui/vm/dummystr.scm:22
 msgid "Volume Label"
 msgstr "Бүлек билгесе"
 
-#: ui/vm/dummystr.scm:19
+#: ui/vm/dummystr.scm:23
 msgid "Use Ext4 extents"
 msgstr "Ext4 өстәлмәләрен куллану"
 
-#: ui/vm/dummystr.scm:20
+#: ui/vm/dummystr.scm:24
 msgid "Create Ext3 Journal"
 msgstr "Ext3 журналын төзү"
 
 #. xfs
-#: ui/vm/dummystr.scm:22
+#: ui/vm/dummystr.scm:26
 msgid "External Journal Volume"
 msgstr "Тышкы журнал өчен бүлек"
 
-#: ui/vm/dummystr.scm:23
+#: ui/vm/dummystr.scm:27
 msgid "Log Size"
 msgstr "Журнал зурлыгы"
 
-#: ui/vm/dummystr.scm:24
+#: ui/vm/dummystr.scm:28
 msgid "Force"
 msgstr "Көчләтү"
 
 #. jfs
-#: ui/vm/dummystr.scm:26
+#: ui/vm/dummystr.scm:30
 msgid "Case Insensitive"
 msgstr "Регистрны исәпкә алмау"
 
-#: ui/vm/dummystr.scm:27
+#: ui/vm/dummystr.scm:31
 msgid "Inline Log Size"
 msgstr "Журнал зурлыгының өлкәсе"
 
 #. reiserfs FIXME
-#: ui/vm/dummystr.scm:29
+#: ui/vm/dummystr.scm:33
 msgid "Version of mkreiserfs"
 msgstr "mkreiserfs юрамасы"
 
 #. swap
-#: ui/vm/dummystr.scm:31
+#: ui/vm/dummystr.scm:35
 msgid "Check for bad blocks"
 msgstr "Начар чыгырларга тикшерү"
 
 #. fat16/32
-#: ui/vm/dummystr.scm:33
+#: ui/vm/dummystr.scm:37
 msgid "Volume label"
 msgstr "Бүлек билгесе"
 
 #. ntfs
-#: ui/vm/dummystr.scm:35
+#: ui/vm/dummystr.scm:39
 msgid "Cluster size"
 msgstr "Кластер зурлыгы"
 
-#: ui/vm/dummystr.scm:36
+#: ui/vm/dummystr.scm:40
 msgid "MFT zone multiplier"
 msgstr "MFT өлкесенең тапкырлаучысы"
 
-#: ui/vm/dummystr.scm:37
+#: ui/vm/dummystr.scm:41
 msgid "Compression"
 msgstr "Кысу"
 
-#: ui/vm/dummystr.scm:38
+#: ui/vm/dummystr.scm:42
 msgid "Quick mkfs"
 msgstr "Тиз төзү"
 
 #. lvm2 vg
-#: ui/vm/dummystr.scm:40
+#: ui/vm/dummystr.scm:44
 msgid "Name for the new LVM2 container."
 msgstr "Бүлек төркеменең исеме"
 
-#: ui/vm/dummystr.scm:41
+#: ui/vm/dummystr.scm:45
 msgid "Extent-size for the new LVM2 container."
 msgstr "Бүлек төркеменең зурлыгы"
 
 #. lvm2 lv
-#: ui/vm/dummystr.scm:43
+#: ui/vm/dummystr.scm:47
 msgid "Name for the new LVM2 region."
 msgstr "Бүлек исеме"
 
-#: ui/vm/dummystr.scm:44
+#: ui/vm/dummystr.scm:48
 msgid "Size for the new LVM2 region."
 msgstr "Бүлек зурлыгы"
 
-#: ui/vm/dummystr.scm:45
+#: ui/vm/dummystr.scm:49
 msgid "Number of stripes for the new LVM2 region."
 msgstr "Катлау саны (stripes)"
 
-#: ui/vm/dummystr.scm:46
+#: ui/vm/dummystr.scm:50
 msgid "Objects (PVs) to place the new LVM2 region on."
 msgstr "Бу җайланмаларга урнаштыру"
 
 #. raidx
-#: ui/vm/dummystr.scm:48
+#: ui/vm/dummystr.scm:52
 msgid "MD RAID0 Region Manager"
 msgstr "RAID-0 дәрәҗәдәге MD җайланмасы"
 
-#: ui/vm/dummystr.scm:49
+#: ui/vm/dummystr.scm:53
 msgid "MD Raid 1 Region Manager"
 msgstr "RAID-1 дәрәҗәдәге MD җайланмасы"
 
-#: ui/vm/dummystr.scm:50
+#: ui/vm/dummystr.scm:54
 msgid "MD RAID 4/5 Region Manager"
 msgstr "RAID-4/5 дәрәҗәдәге MD җайланмасы"
 
 #. raid0
-#: ui/vm/dummystr.scm:52
+#: ui/vm/dummystr.scm:56
 msgid "Chunk Size:"
 msgstr "Чанк зурлыгы:"
 
-#: ui/vm/dummystr.scm:53
+#: ui/vm/dummystr.scm:57
 msgid "Version 1 Super Block"
 msgstr "1 юрамалы суперблок"
 
 #. raid1
-#: ui/vm/dummystr.scm:55
+#: ui/vm/dummystr.scm:59
 msgid "Degraded array"
 msgstr "Начарланган массив"
 
-#: ui/vm/dummystr.scm:56
+#: ui/vm/dummystr.scm:60
 msgid "Spare Disk"
 msgstr "Запас диск"
 
 #. raid5
-#: ui/vm/dummystr.scm:58
+#: ui/vm/dummystr.scm:62
 msgid "RAID5 Algorithm"
 msgstr "RAID5 алгоритмы"
 
-#: ui/vm/dummystr.scm:59
+#: ui/vm/dummystr.scm:63
 msgid "RAID level"
 msgstr "RAID дәрәҗәсе"
 
-#: ui/vm/dummystr.scm:60
+#: ui/vm/dummystr.scm:64
 msgid "Chunk size"
 msgstr "Чанк зурлыгы"
 
 #. expand seg
-#: ui/vm/dummystr.scm:62
+#: ui/vm/dummystr.scm:66
 msgid "Additional Size"
 msgstr "Өстәмә зурлык"
 
 #. shrink seg
-#: ui/vm/dummystr.scm:64
+#: ui/vm/dummystr.scm:68
 msgid "Shrink by Size"
 msgstr "Кечерәйтү:"
 
 #. expand lv
-#: ui/vm/dummystr.scm:66
+#: ui/vm/dummystr.scm:70
 msgid "Extra size for the LVM2 region."
 msgstr "Өстәмә зурлык"
 
-#: ui/vm/dummystr.scm:67
+#: ui/vm/dummystr.scm:71
 msgid "Number of stripes for the new portion of the region."
 msgstr "Яңа өлкә өчен катлау саны."
 
-#: ui/vm/dummystr.scm:68
+#: ui/vm/dummystr.scm:72
 msgid "Objects (PVs) to use for the new portion of the region."
 msgstr "Яңа өлкәне бу җайланмаларга урнаштыру."
 
 #. shrink lv
-#: ui/vm/dummystr.scm:70
+#: ui/vm/dummystr.scm:74
 msgid "Size to remove from the LVM2 region."
 msgstr "Бүлекне кечерәйтү."
 
 #. assign
-#: ui/vm/dummystr.scm:72
+#: ui/vm/dummystr.scm:76
 msgid "Mount Options"
 msgstr "Кору көйләүләре"
 
-#: ui/vm/dummystr.scm:73
+#: ui/vm/dummystr.scm:77
 msgid "Format before using"
 msgstr "Форматлау"
 
 #. profiles
-#: ui/vm/dummystr.scm:75
+#: ui/vm/dummystr.scm:79
 msgid "Setup for server"
 msgstr "Сервер көйләве"
 
-#: ui/vm/dummystr.scm:76
+#: ui/vm/dummystr.scm:80
 msgid "Setup for workstation"
 msgstr "Эш станциясе көйләве"
 
-#: ui/vm/dummystr.scm:77
+#: ui/vm/dummystr.scm:81
 msgid "Custom"
 msgstr "Өстәмә"
 
 #. misc
-#: ui/vm/dummystr.scm:79
+#: ui/vm/dummystr.scm:83
 msgid ""
 "Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
 msgstr ""
@@ -319,43 +334,43 @@ msgstr ""
 "итергәме?"
 
 #. guile-evms
-#: ui/vm/dummystr.scm:81
+#: ui/vm/dummystr.scm:85
 msgid "Invalid mountpoint"
 msgstr "Хаталы кору ноктасы"
 
-#: ui/vm/dummystr.scm:82
+#: ui/vm/dummystr.scm:86
 msgid "Invalid mountpoint for SWAPFS"
 msgstr "SWAPFS өчен хаталы кору ноктасы"
 
-#: ui/vm/dummystr.scm:83
+#: ui/vm/dummystr.scm:87
 msgid "Invalid mountpoint: not a SWAPFS"
 msgstr "Хаталы кору ноктасы: SWAPFS түгел"
 
-#: ui/vm/dummystr.scm:84
+#: ui/vm/dummystr.scm:88
 msgid "Invalid mountpoint: should start with /mnt"
 msgstr "Хаталы кору ноктасы: /mnt юлыннан башланырга тиеш"
 
-#: ui/vm/dummystr.scm:85
+#: ui/vm/dummystr.scm:89
 msgid " reboot, then continue installation."
 msgstr ""
 
-#: ui/vm/dummystr.scm:86 ui/vm/table.scm:191
+#: ui/vm/dummystr.scm:90 ui/vm/table.scm:197
 msgid "Mountpoint"
 msgstr "Кору ноктасы"
 
-#: ui/vm/dummystr.scm:87
+#: ui/vm/dummystr.scm:91
 msgid "Dump Frequency"
 msgstr "Дамп ешлыгы"
 
-#: ui/vm/dummystr.scm:88
+#: ui/vm/dummystr.scm:92
 msgid "Check order"
 msgstr "Тикшерү төре"
 
-#: ui/vm/dummystr.scm:89
+#: ui/vm/dummystr.scm:93
 msgid "inaccesible or not a directory"
 msgstr "булмый яки каталог түгел"
 
-#: ui/vm/dummystr.scm:90
+#: ui/vm/dummystr.scm:94
 msgid "Operation not permitted"
 msgstr "Операция рөхсәт ителми"
 
@@ -363,7 +378,7 @@ msgstr "Операция рөхсәт ителми"
 msgid "Name"
 msgstr "Җайланма исеме"
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:189
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
 msgid "Filesystem"
 msgstr "Файл системасы"
 
@@ -419,102 +434,108 @@ msgstr "Әйе, мин риза."
 msgid "Congrats! You've found a secret level!"
 msgstr "Ура! Син яңа качырылган урын таптың!"
 
-#: ui/vm/table.scm:122
+#: ui/vm/table.scm:123
 msgid "Please assign \"/\" mount point"
 msgstr ""
 
-#: ui/vm/table.scm:130
+#: ui/vm/table.scm:127
+msgid ""
+"To install GRUB on disk with GPT, need create 1MiB (minimum size) 'bios "
+"boot' partition. Continue?"
+msgstr ""
+
+#: ui/vm/table.scm:136
 msgid "Apply requested changes?"
 msgstr "Үзгәртүләрне кулланырганы?"
 
-#: ui/vm/table.scm:135
+#: ui/vm/table.scm:141
 msgid "All data on following partitions will be lost:"
 msgstr "Бу бүлекләрдә барлык мәгълуматлар югалачак:"
 
-#: ui/vm/table.scm:138
+#: ui/vm/table.scm:144
 msgid "Continue?"
 msgstr "Дәвам итергәме?"
 
-#: ui/vm/table.scm:187
+#: ui/vm/table.scm:193
 msgid "   Name   "
 msgstr "  Исем  "
 
-#: ui/vm/table.scm:188
+#: ui/vm/table.scm:194
 msgid "Size [ free ]"
 msgstr "Зурлык [буш]"
 
-#: ui/vm/table.scm:192
+#: ui/vm/table.scm:198
 msgid "Mounted on"
 msgstr "Корылган:"
 
-#: ui/vm/table.scm:193
+#: ui/vm/table.scm:199
 msgid "Mount options"
 msgstr "Кору көйләүләре"
 
-#: ui/vm/table.scm:196
+#: ui/vm/table.scm:202
 msgid "Create RAID"
 msgstr "RAID төзү"
 
-#: ui/vm/table.scm:197 ui/vm/table.scm:202 ui/vm/table.scm:207
-#: ui/vm/table.scm:214 ui/vm/table.scm:219
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:213
+#: ui/vm/table.scm:220 ui/vm/table.scm:225
 msgid "Destroy"
 msgstr "Юк итү"
 
-#: ui/vm/table.scm:199
+#: ui/vm/table.scm:205
 msgid "Create Volume Group"
 msgstr "Бүлек төркемен төзү"
 
-#: ui/vm/table.scm:200 ui/vm/table.scm:205 ui/vm/table.scm:212
-#: ui/vm/table.scm:217
+#: ui/vm/table.scm:206 ui/vm/table.scm:211 ui/vm/table.scm:218
+#: ui/vm/table.scm:223
 msgid "Expand"
 msgstr "Зурайту"
 
-#: ui/vm/table.scm:201 ui/vm/table.scm:206 ui/vm/table.scm:213
-#: ui/vm/table.scm:218
+#: ui/vm/table.scm:207 ui/vm/table.scm:212 ui/vm/table.scm:219
+#: ui/vm/table.scm:224
 msgid "Shrink"
 msgstr "Кечерәйтү"
 
-#: ui/vm/table.scm:204 ui/vm/table.scm:216
+#: ui/vm/table.scm:210 ui/vm/table.scm:222
 msgid "Create Volume"
 msgstr "Бүлек төзү"
 
-#: ui/vm/table.scm:209 ui/vm/table.scm:211
+#: ui/vm/table.scm:215 ui/vm/table.scm:217
 msgid "Create Partition"
 msgstr "Бүлек төзү"
 
-#: ui/vm/table.scm:210
+#: ui/vm/table.scm:216
 msgid "Destroy Partition Table"
 msgstr "Бүлекләр җәдвалын бетерү"
 
-#: ui/vm/table.scm:222 ui/vm/table.scm:225
+#: ui/vm/table.scm:228 ui/vm/table.scm:231
 msgid "Make Filesystem"
 msgstr "Файл системасын төзү"
 
-#: ui/vm/table.scm:223 ui/vm/table.scm:229
+#: ui/vm/table.scm:229 ui/vm/table.scm:235
 msgid "Remove Filesystem"
 msgstr "Файл системасын бетерү"
 
-#: ui/vm/table.scm:224
+#: ui/vm/table.scm:230
 msgid "Edit Mountpoint"
 msgstr "Кору ноктасын үзгәртү"
 
-#: ui/vm/table.scm:226
+#: ui/vm/table.scm:232
 msgid "Check Filesystem"
 msgstr "Файл системасын тикшерү"
 
-#: ui/vm/table.scm:227
+#: ui/vm/table.scm:233
 msgid "Mount Filesystem"
 msgstr "Файл системасын кору"
 
-#: ui/vm/table.scm:228
+#: ui/vm/table.scm:234
 msgid "Umount Filesystem"
 msgstr "Файл системасын корудан чыгару"
 
-#: ui/vm/table.scm:253
+#: ui/vm/table.scm:259
 msgid "Reset"
 msgstr "Кайтару"
 
-#: ui/vm/table.scm:258
+#: ui/vm/table.scm:264
 msgid "Apply"
 msgstr "Куллану"
 
@@ -545,5 +566,3 @@ msgstr "Бераз көтегез..."
 #: ui/vm/choice.scm:28
 msgid "Select"
 msgstr "Сайлау"
-
-

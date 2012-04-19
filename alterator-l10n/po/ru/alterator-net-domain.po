@@ -1,22 +1,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2010, 2011.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
-"PO-Revision-Date: 2011-04-01 17:07+0400\n"
+"POT-Creation-Date: 2012-04-19 15:58+0400\n"
+"PO-Revision-Date: 2012-04-19 16:39+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Domain"
@@ -35,44 +35,44 @@ msgid "Attention:"
 msgstr "Внимание:"
 
 #: standard input:4 ui/net-domain/index.scm:15
-msgid "Domain change may reset data of some network services"
-msgstr "Смена домена может привести к потере данных некоторых сетевых служб"
+msgid "Domain change needs reboot for normal operation"
+msgstr "Изменение домена заработает только после перезагрузки компьютера"
 
-#: standard input:5
-msgid "Current status:"
-msgstr "Текущее состояние:"
-
-#: standard input:6
-msgid "Resolver:"
-msgstr "DNS:"
-
-#: standard input:7
-msgid "Access:"
-msgstr "Доступность:"
-
-#: standard input:8
-msgid "DHCPD:"
-msgstr "DHCPD:"
-
-#: standard input:9
-msgid "LDAP:"
-msgstr "LDAP:"
-
-#: standard input:10
-msgid "KDC:"
-msgstr "KDC:"
-
-#: standard input:11
-msgid "Samba:"
-msgstr "Samba:"
-
-#: standard input:12 ui/net-domain/index.scm:21
+#: standard input:5 ui/net-domain/index.scm:21
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:13 ui/net-domain/index.scm:23
+#: standard input:6 ui/net-domain/index.scm:23
 msgid "Reset"
 msgstr "Вернуть"
+
+#: standard input:7
+msgid "Current status:"
+msgstr "Текущее состояние:"
+
+#: standard input:8
+msgid "Resolver:"
+msgstr "DNS:"
+
+#: standard input:9
+msgid "Access:"
+msgstr "Доступность:"
+
+#: standard input:10
+msgid "DHCPD:"
+msgstr "DHCPD:"
+
+#: standard input:11
+msgid "LDAP:"
+msgstr "LDAP:"
+
+#: standard input:12
+msgid "KDC:"
+msgstr "KDC:"
+
+#: standard input:13
+msgid "Samba:"
+msgstr "Samba:"
 
 #: backend3/net-domain:143
 msgid "Domain name is too long"
@@ -86,3 +86,5 @@ msgstr "Укажите имя домена"
 msgid "This domain name is registered for internal purposes"
 msgstr "Указанное имя домена зарезервировано для системы"
 
+#~ msgid "Domain change may reset data of some network services"
+#~ msgstr "Смена домена может привести к потере данных некоторых сетевых служб"

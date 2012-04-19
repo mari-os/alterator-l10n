@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2012-04-19 15:58+0400\n"
 "PO-Revision-Date: 2009-08-22 02:17+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -38,48 +38,48 @@ msgid "Attention:"
 msgstr "Увага:"
 
 #: standard input:4 ui/net-domain/index.scm:15
-msgid "Domain change may reset data of some network services"
-msgstr "Зміна домена може призвести до втрати даних деяких мережевих служб"
+msgid "Domain change needs reboot for normal operation"
+msgstr ""
 
-#: standard input:5
+#: standard input:5 ui/net-domain/index.scm:21
+msgid "Apply"
+msgstr "Застосувати"
+
+#: standard input:6 ui/net-domain/index.scm:23
+msgid "Reset"
+msgstr "Скинути"
+
+#: standard input:7
 #, fuzzy
 msgid "Current status:"
 msgstr "Поточна дата:"
 
-#: standard input:6
+#: standard input:8
 #, fuzzy
 msgid "Resolver:"
 msgstr "Визначити"
 
-#: standard input:7
+#: standard input:9
 #, fuzzy
 msgid "Access:"
 msgstr "Успішно"
 
-#: standard input:8
+#: standard input:10
 msgid "DHCPD:"
 msgstr ""
 
-#: standard input:9
+#: standard input:11
 #, fuzzy
 msgid "LDAP:"
 msgstr "LDAP"
 
-#: standard input:10
+#: standard input:12
 msgid "KDC:"
 msgstr ""
 
-#: standard input:11
+#: standard input:13
 msgid "Samba:"
 msgstr ""
-
-#: standard input:12 ui/net-domain/index.scm:21
-msgid "Apply"
-msgstr "Застосувати"
-
-#: standard input:13 ui/net-domain/index.scm:23
-msgid "Reset"
-msgstr "Скинути"
 
 #: backend3/net-domain:143
 msgid "Domain name is too long"
@@ -92,3 +92,6 @@ msgstr "Будь-ласка визначте ім'я домену"
 #: backend3/net-domain:226
 msgid "This domain name is registered for internal purposes"
 msgstr "Вказане ім'я домену зарезервонано для внутрішніх потреб"
+
+#~ msgid "Domain change may reset data of some network services"
+#~ msgstr "Зміна домена може призвести до втрати даних деяких мережевих служб"

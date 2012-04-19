@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:38+0400\n"
+"POT-Creation-Date: 2012-04-19 16:25+0400\n"
 "PO-Revision-Date: 2011-08-23 20:58+0400\n"
 "Last-Translator: Ainur Shakirov <ainur.shakirov.tt@gmail.com>\n"
 "Language-Team: Tatar <>\n"
+"Language: tt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tt\n"
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
@@ -69,7 +69,16 @@ msgstr "Хәзерге домен:"
 msgid "Domain list:"
 msgstr "Домен исемлеге:"
 
-#: standard input:13 ui/auth/index.scm:43
+#: standard input:13 ui/auth/index.scm:40
+#, fuzzy
+msgid "Attention: "
+msgstr "Тиңләштерү"
+
+#: standard input:14 ui/auth/index.scm:41
+msgid "Domain change needs reboot for normal operation"
+msgstr ""
+
+#: standard input:15 ui/auth/index.scm:47
 msgid "Apply"
 msgstr "Куллану"
 
@@ -77,8 +86,11 @@ msgstr "Куллану"
 msgid "local"
 msgstr "локаль"
 
-#: backend3/auth:161
+#: backend3/auth:98
+#, fuzzy
+msgid "Kerberos domain do not used"
+msgstr "Kerberos домены"
+
+#: backend3/auth:162
 msgid "Domain not set"
 msgstr "Домен күрсәтелмәгән"
-
-

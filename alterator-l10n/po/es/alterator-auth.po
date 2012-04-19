@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:11+0400\n"
+"POT-Creation-Date: 2012-04-19 16:25+0400\n"
 "PO-Revision-Date: 2009-03-19 15:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,10 +19,6 @@ msgstr ""
 "X-Poedit-Country: BRAZIL\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
-
-#: standard input:13 ui/auth/index.scm:43
-msgid "Apply"
-msgstr "Aplicar"
 
 #: standard input:1
 msgid "Authentication"
@@ -32,9 +29,44 @@ msgstr ""
 msgid "Available authentication methods"
 msgstr "Seleccionar modo adelante:"
 
+#: standard input:2
+msgid "Local files"
+msgstr "Local de los archivos"
+
+#: standard input:3
+#, fuzzy
+msgid "LDAP base"
+msgstr "Servidor LDAP:"
+
+#: standard input:4
+#, fuzzy
+msgid "Kerberos domain"
+msgstr "Borrar conección"
+
+#: standard input:5
+msgid "Multi"
+msgstr ""
+
+#: standard input:6
+msgid "Pkcs11"
+msgstr ""
+
+#: standard input:7
+msgid "LDAP server:"
+msgstr "Servidor LDAP:"
+
+#: standard input:8
+#, fuzzy
+msgid "TLS/SSL"
+msgstr "Posibilitar TLS/SSL"
+
 #: standard input:9
 msgid "Base DN:"
 msgstr "Base DN:"
+
+#: standard input:10
+msgid "Select"
+msgstr "Seleccionar"
 
 #: standard input:11 ui/auth/index.scm:27
 #, fuzzy
@@ -46,47 +78,29 @@ msgstr "Configurar la Fecha Actual:"
 msgid "Domain list:"
 msgstr "Accesso de Escrita"
 
-#: backend3/auth:161
-msgid "Domain not set"
+#: standard input:13 ui/auth/index.scm:40
+msgid "Attention: "
 msgstr ""
 
-#: standard input:4
-#, fuzzy
-msgid "Kerberos domain"
-msgstr "Borrar conección"
-
-#: standard input:3
-#, fuzzy
-msgid "LDAP base"
-msgstr "Servidor LDAP:"
-
-#: standard input:7
-msgid "LDAP server:"
-msgstr "Servidor LDAP:"
-
-#: standard input:2
-msgid "Local files"
-msgstr "Local de los archivos"
-
-#: standard input:5
-msgid "Multi"
+#: standard input:14 ui/auth/index.scm:41
+msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:6
-msgid "Pkcs11"
-msgstr ""
-
-#: standard input:10
-msgid "Select"
-msgstr "Seleccionar"
-
-#: standard input:8
-#, fuzzy
-msgid "TLS/SSL"
-msgstr "Posibilitar TLS/SSL"
+#: standard input:15 ui/auth/index.scm:47
+msgid "Apply"
+msgstr "Aplicar"
 
 #: backend3/auth:61
 msgid "local"
+msgstr ""
+
+#: backend3/auth:98
+#, fuzzy
+msgid "Kerberos domain do not used"
+msgstr "Borrar conección"
+
+#: backend3/auth:162
+msgid "Domain not set"
 msgstr ""
 
 #~ msgid "Auth type:"
