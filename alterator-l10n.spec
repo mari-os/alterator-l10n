@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt37
+Release: alt38
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -108,6 +108,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu May 10 2012 Andrey Cherepanov <cas@altlinux.org> 2.9-alt38
+- Add localization for alterator-rd and alterator-tc-*
+
 * Thu Apr 19 2012 Andrey Cherepanov <cas@altlinux.org> 2.9-alt37
 - Complete alterator-auth localization (ALT #22180)
 - Add warning for domain change
