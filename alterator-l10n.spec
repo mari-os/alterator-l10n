@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt40
+Release: alt40.1
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -108,6 +108,12 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Aug 13 2012 Paul Wolneykien <manowar@altlinux.ru> 2.9-alt40.1
+- Add Russian translations for the mastercontrol module.
+- Add Russian translations for the etcgit module.
+- Add Russian translation for "Configuration profile:" caption
+  in the alterator-ahttpd module (versioncontrol).
+
 * Tue Jun 05 2012 Andrey Cherepanov <cas@altlinux.org> 2.9-alt40
 - Update Russian translation for alterator-rd
 
