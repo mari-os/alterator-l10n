@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-13 17:41+0400\n"
+"PO-Revision-Date: 2008-09-01 18:01+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Configuration profiles"
+msgstr "Профили конфигурации"
+
+#: standard input:1
+msgid "The session is closed now."
+msgstr "Сеанс завершён."
+
+#: standard input:2 input:13
+msgid "Back"
+msgstr "Назад"
+
+#: standard input:3
+msgid "Modification history"
+msgstr "История изменений"
+
+#: standard input:4
+msgid "URL:"
+msgstr ""
+
+#: standard input:5 input:17
+msgid "Profile:"
+msgstr "Профиль:"
+
+#: standard input:6 input:11
+msgid "prev"
+msgstr "пред."
+
+#: standard input:7 input:12
+msgid "next"
+msgstr "след."
+
+#: standard input:8
+msgid "Date/Time"
+msgstr "Дата/время"
+
+#: standard input:9
+msgid "Comment"
+msgstr "Комментарий"
+
+#: standard input:10
+msgid "Hashcode"
+msgstr "Хеш-код"
+
+#: standard input:14
+msgid "Сurrent modifications for file:"
+msgstr "Изменения в файле:"
+
+#: standard input:15
+msgid "Configuration repository:"
+msgstr "Сброс конфигурации"
+
+#: standard input:16
+msgid "Fetch"
+msgstr "Загрузить"
+
+#: standard input:18
+msgid "View log…"
+msgstr "Просмотр журнала…"
+
+#: standard input:19
+msgid "Reset to"
+msgstr "Сбросить на"
+
+#: standard input:20
+msgid "Update profile"
+msgstr "Обновить профиль"
+
+#: standard input:21
+msgid "New profile…"
+msgstr "Новый профиль…"
+
+#: standard input:22
+msgid "Modified files"
+msgstr "Файлы с изменениями"
+
+#: standard input:23
+msgid "new"
+msgstr "новый"
+
+#: standard input:24
+msgid "modified"
+msgstr "изменён"
+
+#: standard input:25
+msgid "deleted"
+msgstr "удалён"
+
+#: standard input:26
+msgid "Filename"
+msgstr "Имя файла"
+
+#: standard input:27
+msgid "Status"
+msgstr "Состояние"
+
+#: standard input:28
+msgid "Please, briefly describe the done modifications:"
+msgstr "Пожалуйста, кратко охарактеризуйте сделанные изменения"
+
+#: standard input:29
+msgid "Update current profile"
+msgstr "Обновить текущий профиль"
+
+#: standard input:30
+msgid "Create new profile, derived from current:"
+msgstr "Создать новый профиль на основе текущего"
+
+#: ui/etcgit/ajax.scm:64
+msgid ""
+"The System management center service will be restarted. The current session "
+"will be closed now."
+msgstr ""
+"Центр управления системой будет перезапущен. Текущий сеанс будет завершён"
+
+#: ui/etcgit/ajax.scm:79
+#, lisp-format
+msgid ""
+"Are you sure you want to reset the state of the configuration files to that "
+"of the <code><b>~a</b></code> profile?<br /><br /><b>The following services "
+"will be restarted:</b><br /><br /><code>~a</code>"
+msgstr ""
+"Вы уверены, что хотите вернуть все конфигурационные файлы в состояние, "
+"зафиксированное в профиле <code><b>~a</b></code>?<br /><br /><b>Будет "
+"произведён перезапуск следующих системных служб:</b><br /><br />"
+"<code>~a</code>"
+
+#: ui/etcgit/ajax.scm:82
+#, lisp-format
+msgid ""
+"Are you sure you want to reset the state of the configuration files to that "
+"of the <code><b>~a</b></code> profile?"
+msgstr ""
+"Вы уверены, что хотите вернуть все конфигурационные файлы в состояние, "
+"зафиксированное в профиле <code><b>~a</b></code>?"
+
+#: ui/etcgit/ajax.scm:84
+msgid "Configuration reset"
+msgstr "Сброс конфигурации"
+
+#: ui/etcgit/ajax.scm:94
+msgid "Commit changes"
+msgstr "Зафиксировать изменения"
+
+#: ui/etcgit/ajax.scm:94
+msgid "OK"
+msgstr "OK"
+
+#: ui/etcgit/ajax.scm:94
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ui/etcgit/ajax.scm:102
+msgid "Please, specify a comment for the commit"
+msgstr "Пожалуйста, введите комментарий для контрольной точки"
+
+#: ui/etcgit/ajax.scm:104
+msgid "Profile name should not be empty"
+msgstr "Имя профиля не должно быть пустым"
