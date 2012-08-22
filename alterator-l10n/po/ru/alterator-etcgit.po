@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-13 17:41+0400\n"
+"POT-Creation-Date: 2012-08-22 12:23+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -23,118 +23,211 @@ msgstr ""
 msgid "Configuration profiles"
 msgstr "Профили конфигурации"
 
-#: standard input:1
-msgid "The session is closed now."
-msgstr "Сеанс завершён."
-
-#: standard input:2 input:13
+#: standard input:1 input:17 input:27
 msgid "Back"
 msgstr "Назад"
 
+#: standard input:2
+msgid "Repository management"
+msgstr "Управление репозиторием"
+
 #: standard input:3
-msgid "Modification history"
-msgstr "История изменений"
+msgid "Remote repository URL:"
+msgstr "Адрес исходного репозитория (URL):"
 
 #: standard input:4
-msgid "URL:"
-msgstr ""
-
-#: standard input:5 input:17
-msgid "Profile:"
-msgstr "Профиль:"
-
-#: standard input:6 input:11
-msgid "prev"
-msgstr "пред."
-
-#: standard input:7 input:12
-msgid "next"
-msgstr "след."
-
-#: standard input:8
-msgid "Date/Time"
-msgstr "Дата/время"
-
-#: standard input:9
-msgid "Comment"
-msgstr "Комментарий"
-
-#: standard input:10
-msgid "Hashcode"
-msgstr "Хеш-код"
-
-#: standard input:14
-msgid "Сurrent modifications for file:"
-msgstr "Изменения в файле:"
-
-#: standard input:15
-msgid "Configuration repository:"
-msgstr "Репозиторий:"
-
-#: standard input:16
 msgid "Fetch"
 msgstr "Загрузить"
 
+#: standard input:5
+msgid "Publish repository"
+msgstr "Опубликовать репозиторий"
+
+#: standard input:6
+msgid "Public URL:"
+msgstr "Публичный адрес (URL):"
+
+#: standard input:7
+msgid "Profiles"
+msgstr "Профили"
+
+#: standard input:8
+msgid "Name"
+msgstr "Имя"
+
+#: standard input:9
+msgid "Remote/local status"
+msgstr "Статус исходный/локальный"
+
+#: standard input:10
+msgid "Publication status"
+msgstr "Статус публикации"
+
+#: standard input:11
+msgid "Update selected profiles"
+msgstr "Обновить выбранные профили"
+
+#: standard input:12
+msgid "Update all profiles"
+msgstr "Обновить все профили"
+
+#: standard input:13
+msgid "(Fetch new and outdated profiles from the remote repository)"
+msgstr "(Загрузить новые и обновить устаревшие копии профилей)"
+
+#: standard input:14
+msgid "Delete selected profiles"
+msgstr "Удалить выделенные профили"
+
+#: standard input:15
+msgid "(Delete the local copies of the profiles)"
+msgstr "(Удалить локальные копии профилей)"
+
+#: standard input:16
+msgid "The session is closed now."
+msgstr "Сеанс завершён."
+
 #: standard input:18
+msgid "Modification history"
+msgstr "История изменений"
+
+#: standard input:19 input:29 input:30
+msgid "Profile:"
+msgstr "Профиль:"
+
+#: standard input:20 input:25
+msgid "prev"
+msgstr "пред."
+
+#: standard input:21 input:26
+msgid "next"
+msgstr "след."
+
+#: standard input:22
+msgid "Date/Time"
+msgstr "Дата/время"
+
+#: standard input:23
+msgid "Comment"
+msgstr "Комментарий"
+
+#: standard input:24
+msgid "Hashcode"
+msgstr "Хеш-код"
+
+#: standard input:28
+msgid "Сurrent modifications for file:"
+msgstr "Изменения в файле:"
+
+#: standard input:31
 msgid "View log…"
 msgstr "Просмотр журнала…"
 
-#: standard input:19
+#: standard input:32
 msgid "Reset to"
 msgstr "Сбросить на"
 
-#: standard input:20
+#: standard input:33
 msgid "Update profile"
 msgstr "Обновить профиль"
 
-#: standard input:21
+#: standard input:34
 msgid "New profile…"
 msgstr "Новый профиль…"
 
-#: standard input:22
+#: standard input:35
+msgid "Manage repository…"
+msgstr "Управление репозиторием…"
+
+#: standard input:36
 msgid "Modified files"
 msgstr "Файлы с изменениями"
 
-#: standard input:23
+#: standard input:37
 msgid "new"
 msgstr "новый"
 
-#: standard input:24
+#: standard input:38
 msgid "modified"
 msgstr "изменён"
 
-#: standard input:25
+#: standard input:39
 msgid "deleted"
 msgstr "удалён"
 
-#: standard input:26
+#: standard input:40
 msgid "Filename"
 msgstr "Имя файла"
 
-#: standard input:27
+#: standard input:41
 msgid "Status"
-msgstr "Состояние"
+msgstr "Статус"
 
-#: standard input:28
+#: standard input:42
 msgid "Please, briefly describe the done modifications:"
 msgstr "Пожалуйста, кратко охарактеризуйте сделанные изменения"
 
-#: standard input:29
-msgid "Update current profile"
-msgstr "Обновить текущий профиль"
+#: standard input:43
+msgid "Update selected profile"
+msgstr "Обновить выбранные профили"
 
-#: standard input:30
+#: standard input:44
 msgid "Create new profile, derived from current:"
 msgstr "Создать новый профиль на основе текущего"
 
-#: ui/etcgit/ajax.scm:64
+#: ui/etcgit/repo/ajax.scm:34
+msgid "remote only"
+msgstr "только исходный"
+
+#: ui/etcgit/repo/ajax.scm:35
+msgid "local only"
+msgstr "только локальный"
+
+#: ui/etcgit/repo/ajax.scm:36
+msgid "remote outdated"
+msgstr "локальный новее"
+
+#: ui/etcgit/repo/ajax.scm:37
+msgid "local outdated"
+msgstr "исходный новее"
+
+#: ui/etcgit/repo/ajax.scm:38
+msgid "equal"
+msgstr "равны"
+
+#: ui/etcgit/repo/ajax.scm:39 ui/etcgit/repo/ajax.scm:44
+#: ui/etcgit/repo/ajax.scm:45
+msgid "derived"
+msgstr "расхождение"
+
+#: ui/etcgit/repo/ajax.scm:40
+msgid "unknown"
+msgstr "неизвестно"
+
+#: ui/etcgit/repo/ajax.scm:42
+msgid "published"
+msgstr "опубликован"
+
+#: ui/etcgit/repo/ajax.scm:43
+msgid "outdated"
+msgstr "не обновлён"
+
+#: ui/etcgit/repo/ajax.scm:46
+msgid "public only"
+msgstr "только публикация"
+
+#: ui/etcgit/repo/ajax.scm:47 ui/etcgit/repo/ajax.scm:48
+msgid "unpublished"
+msgstr "не опубликован"
+
+#: ui/etcgit/ajax.scm:78
 msgid ""
 "The System management center service will be restarted. The current session "
 "will be closed now."
 msgstr ""
 "Центр управления системой будет перезапущен. Текущий сеанс будет завершён"
 
-#: ui/etcgit/ajax.scm:79
+#: ui/etcgit/ajax.scm:93
 #, lisp-format
 msgid ""
 "Are you sure you want to reset the state of the configuration files to that "
@@ -143,10 +236,10 @@ msgid ""
 msgstr ""
 "Вы уверены, что хотите вернуть все конфигурационные файлы в состояние, "
 "зафиксированное в профиле <code><b>~a</b></code>?<br /><br /><b>Будет "
-"произведён перезапуск следующих системных служб:</b><br /><br />"
-"<code>~a</code>"
+"произведён перезапуск следующих системных служб:</b><br /><br /><code>~a</"
+"code>"
 
-#: ui/etcgit/ajax.scm:82
+#: ui/etcgit/ajax.scm:96
 #, lisp-format
 msgid ""
 "Are you sure you want to reset the state of the configuration files to that "
@@ -155,26 +248,29 @@ msgstr ""
 "Вы уверены, что хотите вернуть все конфигурационные файлы в состояние, "
 "зафиксированное в профиле <code><b>~a</b></code>?"
 
-#: ui/etcgit/ajax.scm:84
+#: ui/etcgit/ajax.scm:98
 msgid "Configuration reset"
 msgstr "Сброс конфигурации"
 
-#: ui/etcgit/ajax.scm:94
+#: ui/etcgit/ajax.scm:108
 msgid "Commit changes"
 msgstr "Зафиксировать изменения"
 
-#: ui/etcgit/ajax.scm:94
+#: ui/etcgit/ajax.scm:108
 msgid "OK"
 msgstr "OK"
 
-#: ui/etcgit/ajax.scm:94
+#: ui/etcgit/ajax.scm:108
 msgid "Cancel"
 msgstr "Отмена"
 
-#: ui/etcgit/ajax.scm:102
+#: ui/etcgit/ajax.scm:116
 msgid "Please, specify a comment for the commit"
 msgstr "Пожалуйста, введите комментарий для контрольной точки"
 
-#: ui/etcgit/ajax.scm:104
+#: ui/etcgit/ajax.scm:118
 msgid "Profile name should not be empty"
 msgstr "Имя профиля не должно быть пустым"
+
+#~ msgid "Configuration repository:"
+#~ msgstr "Репозиторий:"

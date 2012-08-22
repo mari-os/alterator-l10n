@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-13 17:56+0400\n"
+"POT-Creation-Date: 2012-08-22 12:23+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,117 +21,210 @@ msgstr ""
 msgid "Configuration profiles"
 msgstr ""
 
-#: standard input:1
-msgid "The session is closed now."
-msgstr ""
-
-#: standard input:2 input:13
+#: standard input:1 input:17 input:27
 msgid "Back"
 msgstr ""
 
+#: standard input:2
+msgid "Repository management"
+msgstr ""
+
 #: standard input:3
-msgid "Modification history"
+msgid "Remote repository URL:"
 msgstr ""
 
 #: standard input:4
-msgid "URL:"
-msgstr ""
-
-#: standard input:5 input:17
-msgid "Profile:"
-msgstr ""
-
-#: standard input:6 input:11
-msgid "prev"
-msgstr ""
-
-#: standard input:7 input:12
-msgid "next"
-msgstr ""
-
-#: standard input:8
-msgid "Date/Time"
-msgstr ""
-
-#: standard input:9
-msgid "Comment"
-msgstr ""
-
-#: standard input:10
-msgid "Hashcode"
-msgstr ""
-
-#: standard input:14
-msgid "Сurrent modifications for file:"
-msgstr ""
-
-#: standard input:15
-msgid "Configuration repository:"
-msgstr ""
-
-#: standard input:16
 msgid "Fetch"
 msgstr ""
 
+#: standard input:5
+msgid "Publish repository"
+msgstr ""
+
+#: standard input:6
+msgid "Public URL:"
+msgstr ""
+
+#: standard input:7
+msgid "Profiles"
+msgstr ""
+
+#: standard input:8
+msgid "Name"
+msgstr ""
+
+#: standard input:9
+msgid "Remote/local status"
+msgstr ""
+
+#: standard input:10
+msgid "Publication status"
+msgstr ""
+
+#: standard input:11
+msgid "Update selected profiles"
+msgstr ""
+
+#: standard input:12
+msgid "Update all profiles"
+msgstr ""
+
+#: standard input:13
+msgid "(Fetch new and outdated profiles from the remote repository)"
+msgstr ""
+
+#: standard input:14
+msgid "Delete selected profiles"
+msgstr ""
+
+#: standard input:15
+msgid "(Delete the local copies of the profiles)"
+msgstr ""
+
+#: standard input:16
+msgid "The session is closed now."
+msgstr ""
+
 #: standard input:18
-msgid "View log…"
+msgid "Modification history"
 msgstr ""
 
-#: standard input:19
-msgid "Reset to"
+#: standard input:19 input:29 input:30
+msgid "Profile:"
 msgstr ""
 
-#: standard input:20
-msgid "Update profile"
+#: standard input:20 input:25
+msgid "prev"
 msgstr ""
 
-#: standard input:21
-msgid "New profile…"
+#: standard input:21 input:26
+msgid "next"
 msgstr ""
 
 #: standard input:22
-msgid "Modified files"
+msgid "Date/Time"
 msgstr ""
 
 #: standard input:23
-msgid "new"
+msgid "Comment"
 msgstr ""
 
 #: standard input:24
-msgid "modified"
-msgstr ""
-
-#: standard input:25
-msgid "deleted"
-msgstr ""
-
-#: standard input:26
-msgid "Filename"
-msgstr ""
-
-#: standard input:27
-msgid "Status"
+msgid "Hashcode"
 msgstr ""
 
 #: standard input:28
+msgid "Сurrent modifications for file:"
+msgstr ""
+
+#: standard input:31
+msgid "View log…"
+msgstr ""
+
+#: standard input:32
+msgid "Reset to"
+msgstr ""
+
+#: standard input:33
+msgid "Update profile"
+msgstr ""
+
+#: standard input:34
+msgid "New profile…"
+msgstr ""
+
+#: standard input:35
+msgid "Manage repository…"
+msgstr ""
+
+#: standard input:36
+msgid "Modified files"
+msgstr ""
+
+#: standard input:37
+msgid "new"
+msgstr ""
+
+#: standard input:38
+msgid "modified"
+msgstr ""
+
+#: standard input:39
+msgid "deleted"
+msgstr ""
+
+#: standard input:40
+msgid "Filename"
+msgstr ""
+
+#: standard input:41
+msgid "Status"
+msgstr ""
+
+#: standard input:42
 msgid "Please, briefly describe the done modifications:"
 msgstr ""
 
-#: standard input:29
-msgid "Update current profile"
+#: standard input:43
+msgid "Update selected profile"
 msgstr ""
 
-#: standard input:30
+#: standard input:44
 msgid "Create new profile, derived from current:"
 msgstr ""
 
-#: ui/etcgit/ajax.scm:64
+#: ui/etcgit/repo/ajax.scm:34
+msgid "remote only"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:35
+msgid "local only"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:36
+msgid "remote outdated"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:37
+msgid "local outdated"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:38
+msgid "equal"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:39 ui/etcgit/repo/ajax.scm:44
+#: ui/etcgit/repo/ajax.scm:45
+msgid "derived"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:40
+msgid "unknown"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:42
+msgid "published"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:43
+msgid "outdated"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:46
+msgid "public only"
+msgstr ""
+
+#: ui/etcgit/repo/ajax.scm:47 ui/etcgit/repo/ajax.scm:48
+msgid "unpublished"
+msgstr ""
+
+#: ui/etcgit/ajax.scm:78
 msgid ""
 "The System management center service will be restarted. The current session "
 "will be closed now."
 msgstr ""
 
-#: ui/etcgit/ajax.scm:79
+#: ui/etcgit/ajax.scm:93
 #, lisp-format
 msgid ""
 "Are you sure you want to reset the state of the configuration files to that "
@@ -139,33 +232,33 @@ msgid ""
 "will be restarted:</b><br /><br /><code>~a</code>"
 msgstr ""
 
-#: ui/etcgit/ajax.scm:82
+#: ui/etcgit/ajax.scm:96
 #, lisp-format
 msgid ""
 "Are you sure you want to reset the state of the configuration files to that "
 "of the <code><b>~a</b></code> profile?"
 msgstr ""
 
-#: ui/etcgit/ajax.scm:84
+#: ui/etcgit/ajax.scm:98
 msgid "Configuration reset"
 msgstr ""
 
-#: ui/etcgit/ajax.scm:94
+#: ui/etcgit/ajax.scm:108
 msgid "Commit changes"
 msgstr ""
 
-#: ui/etcgit/ajax.scm:94
+#: ui/etcgit/ajax.scm:108
 msgid "OK"
 msgstr ""
 
-#: ui/etcgit/ajax.scm:94
+#: ui/etcgit/ajax.scm:108
 msgid "Cancel"
 msgstr ""
 
-#: ui/etcgit/ajax.scm:102
+#: ui/etcgit/ajax.scm:116
 msgid "Please, specify a comment for the commit"
 msgstr ""
 
-#: ui/etcgit/ajax.scm:104
+#: ui/etcgit/ajax.scm:118
 msgid "Profile name should not be empty"
 msgstr ""
