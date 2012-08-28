@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-13 19:06+0400\n"
+"POT-Creation-Date: 2012-08-28 16:49+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Configuration dispatcher"
 msgstr "Диспетчер конфигурации"
 
-#: standard input:1 input:48
+#: standard input:1 input:43 input:68
 msgid "Back"
 msgstr "Назад"
 
@@ -31,7 +31,7 @@ msgstr "Назад"
 msgid "Host parameters"
 msgstr "Параметры узла"
 
-#: standard input:3 input:11 input:50
+#: standard input:3 input:11 input:70
 msgid "Source:"
 msgstr "Источник:"
 
@@ -55,7 +55,7 @@ msgstr "Имя узла в DNS:"
 msgid "Parameter values"
 msgstr "Значения параметров"
 
-#: standard input:9 input:52
+#: standard input:9 input:72
 msgid "Parameter"
 msgstr "Параметр"
 
@@ -83,7 +83,7 @@ msgstr "Статус узла:"
 msgid "any"
 msgstr "любой"
 
-#: standard input:17 ui/mastercontrol/ajax.scm:81
+#: standard input:17 ui/mastercontrol/ajax.scm:86
 msgid "not monitored"
 msgstr "не наблюдается"
 
@@ -91,7 +91,7 @@ msgstr "не наблюдается"
 msgid "no profile set"
 msgstr "профиль не задан"
 
-#: standard input:19
+#: standard input:19 ui/mastercontrol/ajax.scm:92
 msgid "configuration changed"
 msgstr "конфигурация изменена"
 
@@ -144,141 +144,318 @@ msgid "Profiles panel"
 msgstr "Панель управления профилями"
 
 #: standard input:32
-msgid "Manage repositories…"
-msgstr "Управление репозиториями:"
-
-#: standard input:33
 msgid "Update all of the found hosts"
 msgstr "Обновить все найденные узлы"
 
-#: standard input:34
+#: standard input:33
 msgid "Update hosts marked on this page only"
 msgstr "Обновить только узлы, помеченные на данной странице"
 
-#: standard input:35
+#: standard input:34
 msgid "Dispatch profiles…"
 msgstr "Разослать профили…"
 
-#: standard input:36 input:42
+#: standard input:35 input:41
 msgid "prev"
 msgstr "пред."
 
-#: standard input:37 input:43
+#: standard input:36 input:42
 msgid "next"
 msgstr "след."
 
-#: standard input:38
+#: standard input:37
 msgid "Hostname"
 msgstr "Имя компьютера"
 
-#: standard input:39
+#: standard input:38
 msgid "IP address"
 msgstr "IP-адрес"
 
-#: standard input:40
-msgid "Profile"
-msgstr "Профиль"
+#: standard input:39
+msgid "Profile name, last comment, hash-code"
+msgstr "Имя профиля, последний комментарий, хеш-код"
 
-#: standard input:41
-msgid "Status"
-msgstr "Статус"
+#: standard input:40
+msgid "Status, hash-code"
+msgstr "Статус, хеш-код"
 
 #: standard input:44
-msgid "(integer number)"
-msgstr "(целое число)"
+msgid "Dispatch profiles"
+msgstr "Разослать профили…"
 
 #: standard input:45
-msgid "(floating point number)"
-msgstr "(число с плавающей точкой)"
+msgid "Origin repository URL:"
+msgstr "URL исходного репозитория:"
 
 #: standard input:46
-msgid "(textual value)"
-msgstr "текстовая строка"
+msgid "Fetch"
+msgstr "Загрузить"
 
 #: standard input:47
-msgid "(textual value, % — any characters)"
-msgstr "(текстовая строка, % — любые знаки)"
+msgid "Profile:"
+msgstr "Профиль:"
+
+#: standard input:48
+msgid "SSH private key:"
+msgstr "Секретный ключ SSH:"
 
 #: standard input:49
-msgid "Advanced search"
-msgstr "Расширенный поиск"
+msgid "Upload new key…"
+msgstr "Загрузить новый ключ…"
+
+#: standard input:50
+msgid "Delete key"
+msgstr "Удалить ключ"
 
 #: standard input:51
-msgid "Filter parameters"
-msgstr "Параметры фильтра"
+msgid "Overview"
+msgstr "Обзор"
+
+#: standard input:52
+msgid "Total number of hosts to update:"
+msgstr "Всего узлов для обновления:"
 
 #: standard input:53
-msgid "Min. value"
-msgstr "Мин. значение"
+msgid "successful updates:"
+msgstr "успешных обновлений:"
 
 #: standard input:54
-msgid "Avg. value"
-msgstr "Сред. значение"
+msgid "failed updates:"
+msgstr "неудачных обновлений:"
 
 #: standard input:55
-msgid "Max. value"
-msgstr "Макс. значение"
+msgid "unknown:"
+msgstr "не известно:"
 
 #: standard input:56
-msgid "Selector"
-msgstr "Селектор"
+msgid "Dispatch"
+msgstr "Разослать"
 
 #: standard input:57
-msgid "Selector value"
-msgstr "Значение селектора"
+msgid "Progress:"
+msgstr "Прогресс:"
 
-#: standard input:58
-msgid "skip"
-msgstr "пропустить"
-
-#: standard input:59
-msgid "equals"
-msgstr "равно"
-
-#: standard input:60
-msgid "less than"
-msgstr "меньше чем"
-
-#: standard input:61
-msgid "greater than"
-msgstr "больше чем"
-
-#: standard input:62
-msgid "range"
-msgstr "интервал"
-
-#: standard input:63
-msgid "not equals"
-msgstr "не равно"
-
-#: standard input:64
-msgid "pattern"
-msgstr "шаблон"
-
-#: standard input:65
-msgid "Set filter"
-msgstr "Установить фильтр"
-
-#: ui/mastercontrol/ajax.scm:34
-msgid "empty"
-msgstr "пусто"
-
-#: ui/mastercontrol/ajax.scm:64
-msgid "not set"
-msgstr "не установлен"
-
-#: ui/mastercontrol/ajax.scm:83
-msgid "no data"
-msgstr "нет данных"
-
-#: ui/mastercontrol/ajax.scm:85
+#: standard input:58 ui/mastercontrol/ajax.scm:91
+#: ui/mastercontrol/dispatch/ajax.scm:112
+#: ui/mastercontrol/dispatch/ajax.scm:176
 msgid "OK"
 msgstr "OK"
 
-#: ui/mastercontrol/ajax.scm:86
-msgid "configuration modified"
-msgstr "конфигурация изменена"
+#: standard input:59 ui/mastercontrol/dispatch/ajax.scm:104
+#: ui/mastercontrol/dispatch/ajax.scm:112
+#: ui/mastercontrol/dispatch/ajax.scm:176
+msgid "Cancel"
+msgstr "Отмена"
 
-#: backend3/mastercontrol:112
+#: standard input:60
+msgid "Refresh"
+msgstr "Обновить"
+
+#: standard input:61
+msgid "Select the private SSH key file to upload:"
+msgstr "Выберите файл с секретным ключом SSH для загрузки:"
+
+#: standard input:62
+msgid "Please, enter the passphrase for the private SSH key:"
+msgstr ""
+"Пожалуйста, введите парольную фразу для доступа к секретному ключу SSH:"
+
+#: standard input:63
+msgid ""
+"The passphrase is needed for the current operation only and will not be "
+"stored on disk"
+msgstr ""
+"Парольная фраза необходима лишь для выполнения текущей операции и не будет "
+"сохранена на диске"
+
+#: standard input:64
+msgid "(integer number)"
+msgstr "(целое число)"
+
+#: standard input:65
+msgid "(floating point number)"
+msgstr "(число с плавающей точкой)"
+
+#: standard input:66
+msgid "(textual value)"
+msgstr "(текстовая строка)"
+
+#: standard input:67
+msgid "(textual value, % — any characters)"
+msgstr "(текстовая строка, % — любые знаки)"
+
+#: standard input:69
+msgid "Advanced search"
+msgstr "Расширенный поиск"
+
+#: standard input:71
+msgid "Filter parameters"
+msgstr "Параметры фильтра"
+
+#: standard input:73
+msgid "Min. value"
+msgstr "Мин. значение"
+
+#: standard input:74
+msgid "Avg. value"
+msgstr "Сред. значение"
+
+#: standard input:75
+msgid "Max. value"
+msgstr "Макс. значение"
+
+#: standard input:76
+msgid "Selector"
+msgstr "Селектор"
+
+#: standard input:77
+msgid "Selector value"
+msgstr "Значение селектора"
+
+#: standard input:78
+msgid "skip"
+msgstr "пропустить"
+
+#: standard input:79
+msgid "equals"
+msgstr "равно"
+
+#: standard input:80
+msgid "less than"
+msgstr "меньше чем"
+
+#: standard input:81
+msgid "greater than"
+msgstr "больше чем"
+
+#: standard input:82
+msgid "range"
+msgstr "интервал"
+
+#: standard input:83
+msgid "not equals"
+msgstr "не равно"
+
+#: standard input:84
+msgid "pattern"
+msgstr "шаблон"
+
+#: standard input:85
+msgid "Set filter"
+msgstr "Установить фильтр"
+
+#: ui/mastercontrol/ajax.scm:32
+msgid "empty"
+msgstr "пусто"
+
+#: ui/mastercontrol/ajax.scm:72 ui/mastercontrol/ajax.scm:88
+msgid "no data"
+msgstr "нет данных"
+
+#: ui/mastercontrol/ajax.scm:73
+msgid "profile is not set"
+msgstr "профиль не задан"
+
+#: ui/mastercontrol/dispatch/ajax.scm:17
+#, lisp-format
+msgid "~a of ~a"
+msgstr "~a из ~a"
+
+#: ui/mastercontrol/dispatch/ajax.scm:59
+msgid "Successfully fetched the profile list"
+msgstr "Успешно получен список профилей"
+
+#: ui/mastercontrol/dispatch/ajax.scm:60
+msgid "No profiles are published at the given URL"
+msgstr "По заданному адресу не опубликовано ни одного профиля"
+
+#: ui/mastercontrol/dispatch/ajax.scm:104
+msgid "SSH key upload"
+msgstr "Загрузка ключа SSH"
+
+#: ui/mastercontrol/dispatch/ajax.scm:104
+msgid "Upload"
+msgstr "Загрузить"
+
+#: ui/mastercontrol/dispatch/ajax.scm:112
+#: ui/mastercontrol/dispatch/ajax.scm:176
+msgid "SSH private key password"
+msgstr "Пароль от секретного ключа SSH"
+
+#: ui/mastercontrol/dispatch/ajax.scm:120
+msgid "Are you sure to delete the selected private key?"
+msgstr "Вы уверены, что хотите удалить выбранный ключ?"
+
+#: ui/mastercontrol/dispatch/ajax.scm:121
+msgid "Delete SSH key"
+msgstr "Удалить ключ SSH"
+
+#: ui/mastercontrol/dispatch/ajax.scm:157
+msgid ""
+"Dispatch finished. Use the \"Refresh\" button to update the statistics above"
+msgstr ""
+"Рассылка завершена. Используйте кнопку \"Обновить\" для обновления статистики"
+
+#: ui/mastercontrol/dispatch/ajax.scm:159
+msgid "Dispatch finished. Some updates failed"
+msgstr "Рассылка завершена. Часть обновлений не удалась"
+
+#: ui/mastercontrol/dispatch/ajax.scm:161
+msgid "Dispatch successful"
+msgstr "Рассылка успешно завершена"
+
+#: ui/mastercontrol/dispatch/ajax.scm:163
+msgid "Dispatch failed"
+msgstr "Рассылка не удалась"
+
+#: backend3/mastercontrol:93
+msgid "Unable to calculate the public key fingerprint"
+msgstr "Не удалось вычислить отпечаток публичного ключа"
+
+#: backend3/mastercontrol:96
+msgid "Unable to calculate the public key"
+msgstr "Не удалось вычислить публичный ключ"
+
+#: backend3/mastercontrol:139
+msgid "Unable to stop the current dispatch process"
+msgstr "Не удалось остановить текущую рассылку"
+
+#: backend3/mastercontrol:144
+msgid "Repository URL is not specified"
+msgstr "Адрес исходного репозитория не задан"
+
+#: backend3/mastercontrol:148
+msgid "Profile name or hash is not specified"
+msgstr "Имя или хеш-код профиля не задан"
+
+#: backend3/mastercontrol:381
+msgid "Should not delete a user's personal key"
+msgstr "Не стоит удалать личный ключ пользователя"
+
+#: backend3/mastercontrol:387
+msgid "The file is not an SSH private key"
+msgstr "Файл не является секретным ключом SSH"
+
+#: backend3/mastercontrol:464
 msgid "All"
 msgstr "Все"
+
+#: backend3/mastercontrol:488
+msgid "Unable to list branches for the given URL"
+msgstr "Не удалось прочитать ветви по указанному адресу"
+
+#, fuzzy
+#~ msgid "Should not delete a users"
+#~ msgstr "Не стоит удалать личный ключ пользователя"
+
+#~ msgid "Manage repositories…"
+#~ msgstr "Управление репозиториями:"
+
+#~ msgid "Status"
+#~ msgstr "Статус"
+
+#~ msgid "not set"
+#~ msgstr "не установлен"
+
+#~ msgid "configuration modified"
+#~ msgstr "конфигурация изменена"
