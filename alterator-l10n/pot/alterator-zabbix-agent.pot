@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-14 05:01+0300\n"
+"POT-Creation-Date: 2012-08-29 14:31+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,30 +26,46 @@ msgid "Enable monitoring agent service: "
 msgstr ""
 
 #: standard input:2
-msgid "Monitoring server address: "
+msgid "Listen on: "
 msgstr ""
 
 #: standard input:3
-msgid "(IP address)"
+msgid "(IP address list)"
 msgstr ""
 
 #: standard input:4
-msgid "Use system host name"
+msgid "Monitoring server address: "
 msgstr ""
 
 #: standard input:5
-msgid "Use custom host name"
+msgid "(IP address)"
 msgstr ""
 
 #: standard input:6
-msgid "Custom host name: "
+msgid "Host name: "
 msgstr ""
 
 #: standard input:7
-msgid "Apply"
+msgid "System"
 msgstr ""
 
 #: standard input:8
+msgid "Custom"
+msgstr ""
+
+#: standard input:9
+msgid "Custom host name: "
+msgstr ""
+
+#: standard input:10
+msgid "Allow remote shell commands: "
+msgstr ""
+
+#: standard input:11
+msgid "Apply"
+msgstr ""
+
+#: standard input:12
 msgid "Reset"
 msgstr ""
 
@@ -64,6 +81,6 @@ msgstr ""
 msgid "Unable to reload zabbix_agentd service"
 msgstr ""
 
-#: backend3/zabbix-agent:85
+#: backend3/zabbix-agent:95
 msgid "Hostname should not be empty"
 msgstr ""
