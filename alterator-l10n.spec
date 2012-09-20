@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt40.1
+Release: alt40.2
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -108,6 +108,9 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Fri Sep 21 2012 Paul Wolneykien <manowar@altlinux.ru> 2.9-alt40.2
+- Fix translations for the zabbix-agent module.
+
 * Mon Aug 13 2012 Paul Wolneykien <manowar@altlinux.ru> 2.9-alt40.1
 - Add Russian translations for the mastercontrol module.
 - Add Russian translations for the etcgit module.
