@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-24 14:20+0400\n"
+"POT-Creation-Date: 2012-10-25 16:45+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,70 +20,184 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:3
-#, fuzzy
-msgid "Account"
-msgstr "Cuenta:"
-
-#: standard input:8 input:12
-msgid "Add"
-msgstr "Adiccionar"
-
-#: standard input:2
-msgid "Create"
-msgstr "Crear"
-
-#: standard input:15
-#, fuzzy
-msgid "Delete group"
-msgstr "No es posible adiccionar excluir el grupo"
-
-#: standard input:9
-#, fuzzy
-msgid "E-mail"
-msgstr "Host Email"
-
-#: standard input:13
-#, fuzzy
-msgid "Group settings successfully updated"
-msgstr "Administrador del Sistema"
-
 #: standard input:1
 #, fuzzy
 msgid "Ldap group accounts"
 msgstr "Cuentas de usuários locales"
 
-#: standard input:5
+#: standard input:1
+msgid "Please enter correct bind data for this base"
+msgstr ""
+
+#: standard input:2
 #, fuzzy
-msgid "Members:"
-msgstr "Deciembre"
+msgid "root dn:"
+msgstr "Interfaz ROOT"
+
+#: standard input:3
+#, fuzzy
+msgid "root password:"
+msgstr "Contraseña"
 
 #: standard input:4
-msgid "Name:"
-msgstr "Nombre:"
+msgid "Bind"
+msgstr ""
+
+#: standard input:5
+#, fuzzy
+msgid "or"
+msgstr "para"
+
+#: standard input:6
+#, fuzzy
+msgid "Select other"
+msgstr "Seleccionar modo adelante:"
+
+#: standard input:7
+msgid "Select grouplist source"
+msgstr ""
+
+#: standard input:8
+#, fuzzy
+msgid "Current auth state"
+msgstr "Estado actual"
+
+#: standard input:9
+msgid "TCB on this server"
+msgstr ""
+
+#: standard input:10
+#, fuzzy
+msgid "LDAP base on this server"
+msgstr "Servidor LDAP:"
 
 #: standard input:11
+#, fuzzy
+msgid "Other LDAP server"
+msgstr "Servidor LDAP:"
+
+#: standard input:12
+#, fuzzy
+msgid "Remote host:"
+msgstr "Dirección del Host:"
+
+#: standard input:13
+msgid "remote base:"
+msgstr ""
+
+#: standard input:14
+#, fuzzy
+msgid "Use selected source"
+msgstr "Seleccione su país:"
+
+#: standard input:15
+#, fuzzy
+msgid "Return to list"
+msgstr "Volver para lista de cadena"
+
+#: standard input:16
+msgid "Used local:"
+msgstr ""
+
+#: standard input:17
+msgid "tcb"
+msgstr ""
+
+#: standard input:18
+msgid "on localhost"
+msgstr ""
+
+#: standard input:19
+#, fuzzy
+msgid "Used base:"
+msgstr "Base DN:"
+
+#: standard input:20
+#, fuzzy
+msgid "on host"
+msgstr "desconocido"
+
+#: standard input:21
+#, fuzzy
+msgid "Source selector"
+msgstr "Porta de la fuente"
+
+#: standard input:22
+msgid "New group:"
+msgstr "Nuevo grupo:"
+
+#: standard input:23
+msgid "Create"
+msgstr "Crear"
+
+#: standard input:24
+#, fuzzy
+msgid "Account"
+msgstr "Cuenta:"
+
+#: standard input:25
+#, fuzzy
+msgid "Group name:"
+msgstr "Grupo:"
+
+#: standard input:26
+#, fuzzy
+msgid "Users in group:"
+msgstr "Nuevo grupo:"
+
+#: standard input:27
+#, fuzzy
+msgid "Users out of group:"
+msgstr "Nuevo grupo:"
+
+#: standard input:28
+#, fuzzy
+msgid "E-mail"
+msgstr "Host Email"
+
+#: standard input:29
+msgid "Remove"
+msgstr "Remover"
+
+#: standard input:30
 #, fuzzy
 msgid "New email:"
 msgstr "Nuevo alias:"
 
-#: standard input:1
-msgid "New group:"
-msgstr "Nuevo grupo:"
+#: standard input:31
+msgid "Add"
+msgstr "Adiccionar"
 
-#: standard input:7
+#: standard input:32
 #, fuzzy
-msgid "New member:"
-msgstr "Nuevo Usuario"
+msgid "Group settings successfully updated"
+msgstr "Administrador del Sistema"
 
-#: standard input:6 input:10
-msgid "Remove"
-msgstr "Remover"
-
-#: standard input:14
+#: standard input:33
 #, fuzzy
 msgid "Save settings"
 msgstr "Ajustes"
+
+#: standard input:34
+#, fuzzy
+msgid "Delete group"
+msgstr "No es posible adiccionar excluir el grupo"
+
+#: type/ldap-group-name.scm:12
+#, fuzzy
+msgid "only latin letters, digits, dot, space and '_' allowed"
+msgstr "apenas dígitos con letras permitido '_'"
+
+#, fuzzy
+#~ msgid "Members:"
+#~ msgstr "Deciembre"
+
+#~ msgid "Name:"
+#~ msgstr "Nombre:"
+
+#, fuzzy
+#~ msgid "New member:"
+#~ msgstr "Nuevo Usuario"
 
 #~ msgid "Apply"
 #~ msgstr "Aplicar"
