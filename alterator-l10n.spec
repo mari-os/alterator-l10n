@@ -108,6 +108,10 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Sun Oct 28 2012 Paul Wolneykien <manowar@altlinux.ru> 2.9-alt44
+- Merge-in translations for etcgit, mastercontrol and zabbix-agent
+  modules.
+
 * Thu Oct 25 2012 Andrey Cherepanov <cas@altlinux.org> 2.9-alt43
 - Complete Russian translation of alterator-ldap-groups
 
