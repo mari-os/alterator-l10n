@@ -9,70 +9,184 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-ldap-groups\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-24 14:20+0400\n"
+"POT-Creation-Date: 2012-10-25 16:45+0400\n"
 "PO-Revision-Date: 2009-08-22 01:05+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: standard input:3
-msgid "Account"
-msgstr "Обліковий запис"
-
-#: standard input:8 input:12
-msgid "Add"
-msgstr "Додати"
-
-#: standard input:2
-msgid "Create"
-msgstr "Створити"
-
-#: standard input:15
-msgid "Delete group"
-msgstr "Вилучити групу"
-
-#: standard input:9
-msgid "E-mail"
-msgstr "Электрона пошта"
-
-#: standard input:13
-msgid "Group settings successfully updated"
-msgstr "Налаштування груп успішно оновлено"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Ldap group accounts"
 msgstr "Групи LDAP"
 
-#: standard input:5
-msgid "Members:"
-msgstr "Склад:"
+#: standard input:1
+msgid "Please enter correct bind data for this base"
+msgstr ""
+
+#: standard input:2
+#, fuzzy
+msgid "root dn:"
+msgstr "Кореневий пристрій:"
+
+#: standard input:3
+#, fuzzy
+msgid "root password:"
+msgstr "Пароля немає"
 
 #: standard input:4
-msgid "Name:"
-msgstr "Ім'я:"
+msgid "Bind"
+msgstr ""
+
+#: standard input:5
+#, fuzzy
+msgid "or"
+msgstr "для"
+
+#: standard input:6
+#, fuzzy
+msgid "Select other"
+msgstr "Обрати"
+
+#: standard input:7
+msgid "Select grouplist source"
+msgstr ""
+
+#: standard input:8
+#, fuzzy
+msgid "Current auth state"
+msgstr "Поточна дата:"
+
+#: standard input:9
+msgid "TCB on this server"
+msgstr ""
+
+#: standard input:10
+#, fuzzy
+msgid "LDAP base on this server"
+msgstr "Сервер LDAP:"
 
 #: standard input:11
-msgid "New email:"
-msgstr "Новий email:"
+#, fuzzy
+msgid "Other LDAP server"
+msgstr "Сервер LDAP:"
 
-#: standard input:1
+#: standard input:12
+#, fuzzy
+msgid "Remote host:"
+msgstr "Адреса веб-сайта:"
+
+#: standard input:13
+msgid "remote base:"
+msgstr ""
+
+#: standard input:14
+#, fuzzy
+msgid "Use selected source"
+msgstr "Будь-ласка, оберіть країну:"
+
+#: standard input:15
+#, fuzzy
+msgid "Return to list"
+msgstr "Повернутися до списку"
+
+#: standard input:16
+msgid "Used local:"
+msgstr ""
+
+#: standard input:17
+msgid "tcb"
+msgstr ""
+
+#: standard input:18
+msgid "on localhost"
+msgstr ""
+
+#: standard input:19
+#, fuzzy
+msgid "Used base:"
+msgstr "Новий базовий DN:"
+
+#: standard input:20
+#, fuzzy
+msgid "on host"
+msgstr "Адреса веб-сайта"
+
+#: standard input:21
+#, fuzzy
+msgid "Source selector"
+msgstr "Вилучити обране"
+
+#: standard input:22
 msgid "New group:"
 msgstr "Нова група:"
 
-# ahttpd-acl
-#: standard input:7
-msgid "New member:"
-msgstr "Новий користувач:"
+#: standard input:23
+msgid "Create"
+msgstr "Створити"
 
-#: standard input:6 input:10
+#: standard input:24
+msgid "Account"
+msgstr "Обліковий запис"
+
+#: standard input:25
+#, fuzzy
+msgid "Group name:"
+msgstr "Назва групи:"
+
+#: standard input:26
+#, fuzzy
+msgid "Users in group:"
+msgstr "Нова група:"
+
+#: standard input:27
+msgid "Users out of group:"
+msgstr ""
+
+#: standard input:28
+msgid "E-mail"
+msgstr "Электрона пошта"
+
+#: standard input:29
 msgid "Remove"
 msgstr "Вилучити"
 
-#: standard input:14
+#: standard input:30
+msgid "New email:"
+msgstr "Новий email:"
+
+#: standard input:31
+msgid "Add"
+msgstr "Додати"
+
+#: standard input:32
+msgid "Group settings successfully updated"
+msgstr "Налаштування груп успішно оновлено"
+
+#: standard input:33
 msgid "Save settings"
 msgstr "Зберегти налаштування"
+
+#: standard input:34
+msgid "Delete group"
+msgstr "Вилучити групу"
+
+#: type/ldap-group-name.scm:12
+#, fuzzy
+msgid "only latin letters, digits, dot, space and '_' allowed"
+msgstr "дозволені лише латинські літери, цифри та символи ’-’ і ’_’"
+
+#~ msgid "Members:"
+#~ msgstr "Склад:"
+
+#~ msgid "Name:"
+#~ msgstr "Ім'я:"
+
+# ahttpd-acl
+#~ msgid "New member:"
+#~ msgstr "Новий користувач:"

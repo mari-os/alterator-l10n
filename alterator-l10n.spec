@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9
-Release: alt40.2
+Release: alt44
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -108,6 +108,15 @@ make check
 %lang(es) %_datadir/locale/es/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Oct 25 2012 Andrey Cherepanov <cas@altlinux.org> 2.9-alt43
+- Complete Russian translation of alterator-ldap-groups
+
+* Thu Oct 25 2012 Andrey Cherepanov <cas@altlinux.org> 2.9-alt42
+- Fix typo in 2.9-alt41
+
+* Fri Oct 05 2012 Andrey Cherepanov <cas@altlinux.org> 2.9-alt41
+- Update alterator-rd translatation
+
 * Fri Sep 21 2012 Paul Wolneykien <manowar@altlinux.ru> 2.9-alt40.2
 - Fix translations for the zabbix-agent module.
 
