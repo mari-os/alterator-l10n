@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-19 15:58+0400\n"
+"POT-Creation-Date: 2012-10-29 16:59+0400\n"
 "PO-Revision-Date: 2009-09-14 19:22-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -29,68 +29,101 @@ msgid "Domain:"
 msgstr "Domínio:"
 
 #: standard input:2
+msgid "Note:"
+msgstr "Nota:"
+
+#: standard input:3
+msgid "domain name should follows"
+msgstr ""
+
+#: standard input:4
+msgid "Domain name should contains one or more labels separated by dots."
+msgstr ""
+
+#: standard input:5
+msgid ""
+"Labels must start with a latin letter (in upper and lower case), end with a "
+"letter or digit, and have as interior characters only letters, digits, and "
+"hyphen."
+msgstr ""
+
+#: standard input:6
+msgid "Labels must be 63 characters or less."
+msgstr ""
+
+#: standard input:7
+msgid ""
+"Domain should not has labels named 'localhost', 'localdomain' and 'local'. "
+"They are reserved for internal purposes."
+msgstr ""
+
+#: standard input:8
+msgid "Examples: domain, school-33, department.company"
+msgstr ""
+
+#: standard input:9
 #, fuzzy
 msgid "Serve kerberos domain:"
 msgstr "Procura de Domínios:"
 
-#: standard input:3 ui/net-domain/index.scm:14
+#: standard input:10 ui/net-domain/index.scm:14
 msgid "Attention:"
 msgstr "Atenção:"
 
-#: standard input:4 ui/net-domain/index.scm:15
+#: standard input:11 ui/net-domain/index.scm:15
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:5 ui/net-domain/index.scm:21
+#: standard input:12 ui/net-domain/index.scm:21
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:6 ui/net-domain/index.scm:23
+#: standard input:13 ui/net-domain/index.scm:23
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:7
+#: standard input:14
 #, fuzzy
 msgid "Current status:"
 msgstr "Atual Estado:"
 
-#: standard input:8
+#: standard input:15
 #, fuzzy
 msgid "Resolver:"
 msgstr "Resetar"
 
-#: standard input:9
+#: standard input:16
 #, fuzzy
 msgid "Access:"
 msgstr "Sucesso"
 
-#: standard input:10
+#: standard input:17
 msgid "DHCPD:"
 msgstr ""
 
-#: standard input:11
+#: standard input:18
 #, fuzzy
 msgid "LDAP:"
 msgstr "LDAP"
 
-#: standard input:12
+#: standard input:19
 msgid "KDC:"
 msgstr ""
 
-#: standard input:13
+#: standard input:20
 msgid "Samba:"
 msgstr ""
 
 #: backend3/net-domain:143
-msgid "Domain name is too long"
+msgid "Domain name is not valid according RFC 1035"
 msgstr ""
 
-#: backend3/net-domain:223
+#: backend3/net-domain:219
 #, fuzzy
 msgid "Please define domain name"
 msgstr "Por favor definir backup start time"
 
-#: backend3/net-domain:226
+#: backend3/net-domain:222
 #, fuzzy
 msgid "This domain name is registered for internal purposes"
 msgstr "Esse nome do computador está registado para efeitos internos"
