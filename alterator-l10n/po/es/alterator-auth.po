@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-19 16:25+0400\n"
+"POT-Creation-Date: 2012-11-01 12:52+0400\n"
 "PO-Revision-Date: 2009-03-19 15:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -68,38 +68,47 @@ msgstr "Base DN:"
 msgid "Select"
 msgstr "Seleccionar"
 
-#: standard input:11 ui/auth/index.scm:27
+#: standard input:11 ui/auth/index.scm:38
 #, fuzzy
 msgid "Current domain:"
 msgstr "Configurar la Fecha Actual:"
 
-#: standard input:12 ui/auth/index.scm:32
+#: standard input:12 ui/auth/index.scm:43
 #, fuzzy
 msgid "Domain list:"
 msgstr "Accesso de Escrita"
 
-#: standard input:13 ui/auth/index.scm:40
+#: standard input:13 ui/auth/index.scm:58
 msgid "Attention: "
 msgstr ""
 
-#: standard input:14 ui/auth/index.scm:41
+#: standard input:14 ui/auth/index.scm:59
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:15 ui/auth/index.scm:47
+#: standard input:15 ui/auth/index.scm:65
 msgid "Apply"
 msgstr "Aplicar"
 
-#: backend3/auth:61
+#: ui/auth/index.scm:48
+#, fuzzy
+msgid "Warning: "
+msgstr "Aviso:"
+
+#: ui/auth/index.scm:49
+msgid "Search for domains is impossible because avahi-daemon is not started"
+msgstr ""
+
+#: backend3/auth:67
 msgid "local"
 msgstr ""
 
-#: backend3/auth:98
+#: backend3/auth:106
 #, fuzzy
 msgid "Kerberos domain do not used"
 msgstr "Borrar conección"
 
-#: backend3/auth:162
+#: backend3/auth:174
 msgid "Domain not set"
 msgstr ""
 
