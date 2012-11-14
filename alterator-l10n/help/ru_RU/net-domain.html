@@ -7,7 +7,7 @@
   <body>
     <h2>Домен</h2>
 
-    <p><em>Домен</em> - группа компьютеров одной сети, имеющая единый центр и
+    <p><em>Домен</em> — группа компьютеров одной сети, имеющая единый центр и
     использующая единые базы данных для различных сетевых служб. В этом модуле 
 	настрaивается домен LDAP/Kerberos, который позволит:
     </p>
@@ -60,6 +60,11 @@
 	сетевые домашние каталоги. Подробнее об этой технологии можно почитать в разделе 
 	<a href="http://www.altlinux.org/Centaurus:_Бездисковый_клиент">Centaurus: Бездисковый клиент</a>.
 
+	<p>Для входа в домен компьютеров под управлением Windows 7/8 запустите regedit, найдите раздел параметров LanManWorkstation и добавьте два параметра (DWORD 32бита):</p>
+
+	<pre>[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManWorkstation\Parameters]
+"DNSNameResolutionRequired"=dword:00000000
+"DomainCompatibilityMode"=dword:00000001</pre>
 
 	<h3>Полезные ссылки</h3>
 	<ul>
