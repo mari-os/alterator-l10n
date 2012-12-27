@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2012-12-27 23:16+0400\n"
 "PO-Revision-Date: 2009-09-14 19:24-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -22,269 +22,274 @@ msgstr ""
 
 #: standard input:1
 #, fuzzy
-msgid "Zeroconf"
-msgstr "Usar ZeroConfig"
-
-#: standard input:2
-msgid "Proxy server"
-msgstr "Servidor Proxy"
-
-#: standard input:3
-msgid "Mail server (SMTP)"
-msgstr "Servidor de Email (SMTP)"
-
-#: standard input:4
-#, fuzzy
-msgid "System management center (www)"
-msgstr "Centro de Configuração do sistema"
-
-#: standard input:5
-msgid "File transfer (FTP)"
-msgstr "Transferencia de arquivo (FTP)"
-
-#: standard input:6
-msgid "Service packets (ICMP)"
-msgstr "Pacote de Serviços (ICMP)"
-
-#: standard input:7
-#, fuzzy
-msgid "DHCP"
-msgstr "Usar DHCP:"
-
-#: standard input:8
-msgid "Mail server (POP3)"
-msgstr "Servidor de Email (POP3)"
-
-#: standard input:9
-msgid "STUN"
-msgstr "STUN"
-
-#: standard input:10
-msgid "OpenVPN"
-msgstr "OpenVPN"
-
-#: standard input:11
-msgid "File server (Samba)"
-msgstr "Servidor de Arquivo (Samba)"
-
-#: standard input:12
-msgid "LDAP"
-msgstr "LDAP"
-
-#: standard input:13
-msgid "DNS"
-msgstr "DNS"
-
-#: standard input:14
-msgid "Remote access (telnet)"
-msgstr "Acesso remoto (telnet)"
-
-#: standard input:15
-msgid "Remote access (SSH)"
-msgstr "Acesso remoto (SSH)"
-
-#: standard input:16
-msgid "SIP/H.323"
-msgstr "SIP/H.323"
-
-#: standard input:17
-#, fuzzy
 msgid "CUPS printing system"
 msgstr "Atualizar sistema"
 
-#: standard input:18
+#: standard input:2
+msgid "Remote access (SSH)"
+msgstr "Acesso remoto (SSH)"
+
+#: standard input:3
 #, fuzzy
-msgid "HTTP/HTTPS"
-msgstr "Servidor web (HTTP/HTTPS)"
+msgid "Zeroconf"
+msgstr "Usar ZeroConfig"
 
-#: standard input:19
-msgid "Mail server (IMAP)"
-msgstr "Servidor de Email (IMAP)"
+#: standard input:4
+#, fuzzy
+msgid "VPN"
+msgstr "OpenVPN"
 
-#: standard input:20
+#: standard input:5
+msgid "STUN"
+msgstr "STUN"
+
+#: standard input:6
+msgid "File server (Samba)"
+msgstr "Servidor de Arquivo (Samba)"
+
+#: standard input:7
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+#: standard input:8
+msgid "File transfer (FTP)"
+msgstr "Transferencia de arquivo (FTP)"
+
+#: standard input:9
+msgid "Service packets (ICMP)"
+msgstr "Pacote de Serviços (ICMP)"
+
+#: standard input:10
 #, fuzzy
 msgid "Network management (SNMP)"
 msgstr "Menegement de Rede (SNMP)"
 
+#: standard input:11
+#, fuzzy
+msgid "HTTP/HTTPS"
+msgstr "Servidor web (HTTP/HTTPS)"
+
+#: standard input:12
+msgid "Mail server (IMAP)"
+msgstr "Servidor de Email (IMAP)"
+
+#: standard input:13
+msgid "Remote access (telnet)"
+msgstr "Acesso remoto (telnet)"
+
+#: standard input:14
+msgid "Proxy server"
+msgstr "Servidor Proxy"
+
+#: standard input:15
+msgid "Mail server (SMTP)"
+msgstr "Servidor de Email (SMTP)"
+
+#: standard input:16
+msgid "Mail server (POP3)"
+msgstr "Servidor de Email (POP3)"
+
+#: standard input:17
+#, fuzzy
+msgid "DHCP"
+msgstr "Usar DHCP:"
+
+#: standard input:18
+#, fuzzy
+msgid "System management center (www)"
+msgstr "Centro de Configuração do sistema"
+
+#: standard input:19
+msgid "SIP/H.323"
+msgstr "SIP/H.323"
+
+#: standard input:20
+msgid "LDAP"
+msgstr "LDAP"
+
 #: standard input:21
-msgid "Blacklist"
-msgstr "Blacklist"
+msgid "DNS"
+msgstr "DNS"
 
 #: standard input:22
-msgid "Port forwarding"
-msgstr "Redirecionamento de porta"
-
-#: standard input:23
-msgid "Network firewall"
-msgstr "Configurações de Firewall"
-
-#: standard input:24
 msgid "Firewall - manual mode"
 msgstr ""
 
-#: standard input:25
+#: standard input:23
 #, fuzzy
 msgid "Access from internal networks"
 msgstr "Outra rede"
 
-#: standard input:1 input:24 input:37
-msgid ""
-"ATTANTION: Firewall is setting up manually. Settings done by\n"
-"          this module will not take effect until you turn manual firewalling "
-"off."
-msgstr ""
-
-#: standard input:3 input:26 input:39 input:47
-msgid "Firewall manual mode module..."
-msgstr ""
-
-#: standard input:4
-#, fuzzy
-msgid "Enable restrictions on all internal interfaces"
-msgstr "Selecionar interface externa:"
-
-#: standard input:5
-#, fuzzy
-msgid "Configure internal interfaces..."
-msgstr "Reconfigurar Interface de Rede"
-
-#: standard input:6
-#, fuzzy
-msgid "Authorized clients:"
-msgstr "Chaves SSH autorizadas:"
-
-#: standard input:7 input:22
-msgid "IP address:"
-msgstr "Endereço IP:"
-
-#: standard input:8
-#, fuzzy
-msgid "MAC address restriction:"
-msgstr "Endereço MAC:"
-
-#: standard input:9
-msgid "MAC address:"
-msgstr "Endereço MAC:"
-
-#: standard input:10
-#, fuzzy
-msgid "Resolve"
-msgstr "Resetar"
-
-#: standard input:11
-#, fuzzy
-msgid "Traffic rate restrictions:"
-msgstr "Restrições do sistema"
-
-#: standard input:12
-msgid "Incoming rate (kb/s):"
-msgstr "Taxa de entrada (kb/s):"
-
-#: standard input:13
-msgid "Outcoming rate (kb/s):"
-msgstr "Taxa Outcoming (kb/s):"
-
-#: standard input:14 input:51 ui/net-iptables/index.scm:44
-msgid "Services:"
-msgstr "Serviços:"
-
-#: standard input:15 input:52 ui/net-iptables/index.scm:48
-msgid "Extra TCP ports:"
-msgstr "Portas TCP extras:"
-
-#: standard input:16 input:18 input:53 input:55 ui/net-iptables/index.scm:50
-#: ui/net-iptables/index.scm:55
-msgid "(separated by commas or spaces)"
-msgstr "(separados por vírgulas ou espaços)"
-
-#: standard input:17 input:54 ui/net-iptables/index.scm:53
-msgid "Extra UDP ports:"
-msgstr "Portas UDP extras:"
-
-#: standard input:19 input:56 input:66 ui/net-iptables/index.scm:61
-msgid "Apply"
-msgstr "Aplicar"
-
-#: standard input:20 input:29 input:42 ui/net-dnat/index.scm:35
-#: ui/net-bl/index.scm:30
-msgid "Delete"
-msgstr "Deletar"
-
-#: standard input:21
-#, fuzzy
-msgid "Add new client:"
-msgstr "Adicionar Cliente"
-
-#: standard input:23 input:32 input:44 ui/net-dnat/index.scm:59
-#: ui/net-bl/index.scm:36
-msgid "Add"
-msgstr "Adicionar"
-
-#: standard input:27 ui/net-dnat/index.scm:28
-#, fuzzy
-msgid "Enable port forwarding"
+#: standard input:24
+msgid "Port forwarding"
 msgstr "Redirecionamento de porta"
 
-#: standard input:28 ui/net-dnat/index.scm:31
-msgid "Available rules:"
-msgstr "Regras disponíveis:"
+#: standard input:25
+msgid "Network firewall"
+msgstr "Configurações de Firewall"
 
-#: standard input:30 ui/net-dnat/index.scm:37
-msgid "Add new rule:"
-msgstr "Adicionar nova regra:"
+#: standard input:26
+msgid "Blacklist"
+msgstr "Blacklist"
 
-#: standard input:31 ui/net-dnat/index.scm:43
-msgid "protocol:"
-msgstr "protocolo:"
-
-#: standard input:33 ui/net-dnat/index.scm:49
-msgid "destination IP address:"
-msgstr "endereço do IP de destino:"
-
-#: standard input:34 input:36 ui/net-dnat/index.scm:51
-#: ui/net-dnat/index.scm:56
-msgid "port:"
-msgstr "porta:"
-
-#: standard input:35 ui/net-dnat/index.scm:54
-msgid "forward to IP address:"
-msgstr "redirecionamento para o endereço IP:"
-
-#: standard input:40 ui/net-bl/index.scm:23
-msgid "Enable blacklist filtering"
-msgstr "Ativar filtragem de lista negra"
-
-#: standard input:41 ui/net-bl/index.scm:26
-msgid "Blacklist:"
-msgstr "Blacklist:"
-
-#: standard input:43 ui/net-bl/index.scm:34
-#, fuzzy
-msgid "Add host or network IP-address:"
-msgstr "endereço do IP de destino:"
-
-#: standard input:45
+#: standard input:1
 msgid ""
 "ATTANTION: Firewall is setting up manually. Settings done by\n"
 "        this module will not take effect until you turn manual firewalling "
 "off."
 msgstr ""
 
-#: standard input:48 ui/net-iptables/index.scm:30
+#: standard input:3 input:16 input:39 input:52
+msgid "Firewall manual mode module..."
+msgstr ""
+
+#: standard input:4 ui/net-iptables/index.scm:30
 msgid "Select forwarding mode:"
 msgstr "Selecione o modo de redirecionamento:"
 
-#: standard input:49 ui/net-iptables/index.scm:36
+#: standard input:5 ui/net-iptables/index.scm:36
 msgid "Select external interfaces:"
 msgstr "Selecionar interface externa:"
 
-#: standard input:50 ui/net-iptables/index.scm:37
+#: standard input:6 ui/net-iptables/index.scm:37
 msgid "Allow incoming connections on external interfaces:"
 msgstr "Permitir conexões de entrada na interface externa:"
 
-#: standard input:57 input:67 ui/net-iptables/index.scm:64
+#: standard input:7 input:27 ui/net-iptables/index.scm:44
+msgid "Services:"
+msgstr "Serviços:"
+
+#: standard input:8 input:28 ui/net-iptables/index.scm:48
+msgid "Extra TCP ports:"
+msgstr "Portas TCP extras:"
+
+#: standard input:9 input:11 input:29 input:31 ui/net-iptables/index.scm:50
+#: ui/net-iptables/index.scm:55
+msgid "(separated by commas or spaces)"
+msgstr "(separados por vírgulas ou espaços)"
+
+#: standard input:10 input:30 ui/net-iptables/index.scm:53
+msgid "Extra UDP ports:"
+msgstr "Portas UDP extras:"
+
+#: standard input:12 input:32 input:66 ui/net-iptables/index.scm:61
+msgid "Apply"
+msgstr "Aplicar"
+
+#: standard input:13 input:67 ui/net-iptables/index.scm:64
 msgid "Reset"
 msgstr "Resetar"
+
+#: standard input:14 input:37 input:50
+msgid ""
+"ATTANTION: Firewall is setting up manually. Settings done by\n"
+"          this module will not take effect until you turn manual firewalling "
+"off."
+msgstr ""
+
+#: standard input:17
+#, fuzzy
+msgid "Enable restrictions on all internal interfaces"
+msgstr "Selecionar interface externa:"
+
+#: standard input:18
+#, fuzzy
+msgid "Configure internal interfaces..."
+msgstr "Reconfigurar Interface de Rede"
+
+#: standard input:19
+#, fuzzy
+msgid "Authorized clients:"
+msgstr "Chaves SSH autorizadas:"
+
+#: standard input:20 input:35
+msgid "IP address:"
+msgstr "Endereço IP:"
+
+#: standard input:21
+#, fuzzy
+msgid "MAC address restriction:"
+msgstr "Endereço MAC:"
+
+#: standard input:22
+msgid "MAC address:"
+msgstr "Endereço MAC:"
+
+#: standard input:23
+#, fuzzy
+msgid "Resolve"
+msgstr "Resetar"
+
+#: standard input:24
+#, fuzzy
+msgid "Traffic rate restrictions:"
+msgstr "Restrições do sistema"
+
+#: standard input:25
+msgid "Incoming rate (kb/s):"
+msgstr "Taxa de entrada (kb/s):"
+
+#: standard input:26
+msgid "Outcoming rate (kb/s):"
+msgstr "Taxa Outcoming (kb/s):"
+
+#: standard input:33 input:42 input:55 ui/net-dnat/index.scm:35
+#: ui/net-bl/index.scm:30
+msgid "Delete"
+msgstr "Deletar"
+
+#: standard input:34
+#, fuzzy
+msgid "Add new client:"
+msgstr "Adicionar Cliente"
+
+#: standard input:36 input:45 input:57 ui/net-dnat/index.scm:59
+#: ui/net-bl/index.scm:36
+msgid "Add"
+msgstr "Adicionar"
+
+#: standard input:40 ui/net-dnat/index.scm:28
+#, fuzzy
+msgid "Enable port forwarding"
+msgstr "Redirecionamento de porta"
+
+#: standard input:41 ui/net-dnat/index.scm:31
+msgid "Available rules:"
+msgstr "Regras disponíveis:"
+
+#: standard input:43 ui/net-dnat/index.scm:37
+msgid "Add new rule:"
+msgstr "Adicionar nova regra:"
+
+#: standard input:44 ui/net-dnat/index.scm:43
+msgid "protocol:"
+msgstr "protocolo:"
+
+#: standard input:46 ui/net-dnat/index.scm:49
+msgid "destination IP address:"
+msgstr "endereço do IP de destino:"
+
+#: standard input:47 input:49 ui/net-dnat/index.scm:51
+#: ui/net-dnat/index.scm:56
+msgid "port:"
+msgstr "porta:"
+
+#: standard input:48 ui/net-dnat/index.scm:54
+msgid "forward to IP address:"
+msgstr "redirecionamento para o endereço IP:"
+
+#: standard input:53 ui/net-bl/index.scm:23
+msgid "Enable blacklist filtering"
+msgstr "Ativar filtragem de lista negra"
+
+#: standard input:54 ui/net-bl/index.scm:26
+msgid "Blacklist:"
+msgstr "Blacklist:"
+
+#: standard input:56 ui/net-bl/index.scm:34
+#, fuzzy
+msgid "Add host or network IP-address:"
+msgstr "endereço do IP de destino:"
 
 #: standard input:58
 #, fuzzy
@@ -310,6 +315,14 @@ msgstr ""
 msgid "Select table:"
 msgstr "Escolha a acção:"
 
+#: ui/net-iptables/index.scm:31 backend3/net-iptables:23
+msgid "router"
+msgstr "rotiador"
+
+#: ui/net-iptables/index.scm:32
+msgid "gateway"
+msgstr "Gateway"
+
 #: ui/net-tc/ajax.scm:19
 #, fuzzy
 msgid "Additional allowed connections:"
@@ -323,14 +336,6 @@ msgstr ""
 #, fuzzy
 msgid "Add new IP:"
 msgstr "Adicionar nova regra:"
-
-#: ui/net-iptables/index.scm:31 backend3/net-iptables:23
-msgid "router"
-msgstr "rotiador"
-
-#: ui/net-iptables/index.scm:32
-msgid "gateway"
-msgstr "Gateway"
 
 #: bin/alterator-net-iptables:13 bin/iptables_helper:13
 msgid "alterator-net-iptables"

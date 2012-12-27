@@ -1,165 +1,191 @@
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2012 ALT Linux Team
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2010, 2011.
+# Andrey Cherepanov <cas@altlinux.ru>, 2008, 2010-2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
-"PO-Revision-Date: 2011-04-01 17:09+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"POT-Creation-Date: 2012-12-28 00:41+0400\n"
+"PO-Revision-Date: 2012-12-28 00:52+0400\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Ethernet interfaces"
 msgstr "Ethernet-интерфейсы"
 
 #.
-#: standard input:1 ui/net-eth/index.scm:131
+#: standard input:1 ui/net-eth/advanced/index.scm:48
+msgid "Interface:"
+msgstr "Интерфейс:"
+
+#.
+#: standard input:2 ui/net-eth/advanced/index.scm:52
+msgid "Network subsystem:"
+msgstr "Сетевая подсистема:"
+
+#.
+#: standard input:3 ui/net-eth/advanced/index.scm:55
+msgid "Use interface as bridge"
+msgstr "Использовать интерфейс как мост"
+
+#: standard input:4 ui/net-eth/advanced/index.scm:63
+msgid "OK"
+msgstr "OK"
+
+#: standard input:5 ui/net-eth/advanced/index.scm:64
+msgid "Cancel"
+msgstr "Отмена"
+
+#.
+#: standard input:6 ui/net-eth/index.scm:148
 msgid "Computer name:"
 msgstr "Имя компьютера:"
 
-#: standard input:2 ui/net-eth/index.scm:138
+#: standard input:7 ui/net-eth/index.scm:155
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
+#: standard input:8 ui/net-eth/index.scm:166
+msgid "Select IP version:"
+msgstr "Версия протокола IP:"
+
+#: standard input:9 ui/net-eth/index.scm:168
+msgid "Enable"
+msgstr "Включить"
+
 #.
-#: standard input:3 ui/net-eth/index.scm:148
+#: standard input:10 ui/net-eth/index.scm:170
 msgid "Configuration:"
 msgstr "Конфигурация:"
 
 #.
 #. (spacer)(separator)
 #.
-#: standard input:4 ui/net-eth/index.scm:155
+#: standard input:11 ui/net-eth/index.scm:177
 msgid "IP addresses:"
 msgstr "IP-адреса:"
 
-#: standard input:5 ui/net-eth/index.scm:158
+#: standard input:12 ui/net-eth/index.scm:180
 msgid "Delete"
 msgstr "Удалить"
 
-#: standard input:6 ui/net-eth/index.scm:108
-msgid "invalid IP with MASK list"
-msgstr "недопустимый список IP-адресов с маской подсети"
-
-#: standard input:7 ui/net-eth/index.scm:162
+#: standard input:13 ui/net-eth/index.scm:184
 msgid "IP:"
 msgstr "IP:"
 
-#: standard input:8 ui/net-eth/index.scm:165
+#: standard input:14 ui/net-eth/index.scm:187
 msgid "Add"
 msgstr "Добавить"
-
-#: standard input:9 ui/net-eth/index.scm:99
-msgid "invalid IP address"
-msgstr "недопустимый IP адрес"
-
-#: standard input:10 ui/net-eth/index.scm:167
-msgid "(multiple values should be one per row)"
-msgstr "(несколько значений указываются в отдельных строках)"
 
 #.
 #. (spacer)(separator)
 #.
-#: standard input:11 ui/net-eth/index.scm:173
+#: standard input:15 ui/net-eth/index.scm:194
 msgid "Default gateway:"
 msgstr "Шлюз по умолчанию:"
 
 #.
-#: standard input:12 ui/net-eth/index.scm:177
+#: standard input:16 ui/net-eth/index.scm:198
 msgid "DNS servers:"
 msgstr "DNS-серверы:"
 
 #.
-#: standard input:13 ui/net-eth/index.scm:181
+#: standard input:17 ui/net-eth/index.scm:202
 msgid "Search domains:"
 msgstr "Домены поиска:"
 
 #.
-#: standard input:14 ui/net-eth/index.scm:185
+#: standard input:18 ui/net-eth/index.scm:206
 msgid "(multiple values should be space separated)"
 msgstr "(несколько значений записываются через пробел)"
 
 #.
-#: standard input:15 ui/net-eth/index.scm:188
+#: standard input:19 ui/net-eth/index.scm:209
 msgid "Wireless settings..."
 msgstr "Настройка беспроводной связи..."
 
-#: standard input:16 ui/net-eth/index.scm:189
+#: standard input:20 ui/net-eth/index.scm:210
 msgid "Advanced..."
 msgstr "Дополнительно..."
 
-#: standard input:17 ui/net-eth/index.scm:199
+#: standard input:21 ui/net-eth/index.scm:220
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:18 ui/net-eth/index.scm:200
+#: standard input:22 ui/net-eth/index.scm:221
 msgid "Reset"
 msgstr "Вернуть"
 
-#.
-#: standard input:19 ui/net-eth/advanced/index.scm:48
-msgid "Interface:"
-msgstr "Интерфейс:"
-
-#.
-#: standard input:20 ui/net-eth/advanced/index.scm:52
-msgid "Network subsystem:"
-msgstr "Сетевая подсистема:"
-
-#.
-#: standard input:21 ui/net-eth/advanced/index.scm:55
-msgid "Use interface as bridge"
-msgstr "Использовать интерфейс как мост"
-
-#: standard input:22 ui/net-eth/advanced/index.scm:63
-msgid "OK"
-msgstr "OK"
-
-#: standard input:23 ui/net-eth/advanced/index.scm:64
-msgid "Cancel"
-msgstr "Отмена"
-
-#: backend3/net-eth:205
+#: backend3/net-eth:233
 msgid "Host name is too long"
 msgstr "Имя компьютера слишком длинное"
 
-#: backend3/net-eth:281
+#: backend3/net-eth:293
+msgid "IPv4"
+msgstr "IPv4"
+
+#: backend3/net-eth:294
+msgid "IPv6"
+msgstr "IPv6"
+
+#: backend3/net-eth:332
 msgid "not under control"
 msgstr "не контролируется"
 
-#: backend3/net-eth:286
+#: backend3/net-eth:338
+msgid "Use RA only"
+msgstr "Только RA"
+
+#: backend3/net-eth:339
 msgid "Use DHCP"
 msgstr "Использовать DHCP"
 
-#: backend3/net-eth:287
+#: backend3/net-eth:340
 msgid "Use Zeroconf"
 msgstr "Использовать Zeroconf"
 
-#: backend3/net-eth:288
+#: backend3/net-eth:341
 msgid "Manually"
 msgstr "Вручную"
 
-#: backend3/net-eth:296
+#: backend3/net-eth:349
 msgid "Network adaptor:"
 msgstr "Сетевая карта:"
 
-#: backend3/net-eth:303
+#: backend3/net-eth:356
 msgid "plugged"
 msgstr "провод подсоединён"
 
-#: backend3/net-eth:306
+#: backend3/net-eth:359
 msgid "unplugged"
 msgstr "провод отсоединён"
+
+#: backend3/net-eth:576
+msgid "IPv4 and IPv6 configurations are incompatible:"
+msgstr "Конфигурации IPv4 и IPv6 несовместимы между собой:"
+
+#: backend3/net-eth:656
+msgid "Invalid DNS list"
+msgstr "Неверный список серверов DNS"
+
+#: backend3/net-eth:697
+msgid "Invalid IP address:"
+msgstr "Недопустимый IP-адрес:"
+
+#~ msgid "invalid IP with MASK list"
+#~ msgstr "недопустимый список IP-адресов с маской подсети"
+
+#~ msgid "(multiple values should be one per row)"
+#~ msgstr "(несколько значений указываются в отдельных строках)"
 
 #~ msgid "Netmask:"
 #~ msgstr "Маска сети:"

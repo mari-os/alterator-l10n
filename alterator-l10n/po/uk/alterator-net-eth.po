@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2012-12-28 00:41+0400\n"
 "PO-Revision-Date: 2009-08-22 02:20+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -25,146 +25,176 @@ msgid "Ethernet interfaces"
 msgstr "Мережеві інтерфейси"
 
 #.
-#: standard input:1 ui/net-eth/index.scm:131
+#: standard input:1 ui/net-eth/advanced/index.scm:48
+msgid "Interface:"
+msgstr "Інтерфейс:"
+
+#.
+#: standard input:2 ui/net-eth/advanced/index.scm:52
+msgid "Network subsystem:"
+msgstr "Мережева підсистема:"
+
+#.
+#: standard input:3 ui/net-eth/advanced/index.scm:55
+msgid "Use interface as bridge"
+msgstr "Використати інтерфейс як міст"
+
+#: standard input:4 ui/net-eth/advanced/index.scm:63
+msgid "OK"
+msgstr "Гаразд"
+
+#: standard input:5 ui/net-eth/advanced/index.scm:64
+msgid "Cancel"
+msgstr "Скасувати"
+
+#.
+#: standard input:6 ui/net-eth/index.scm:148
 msgid "Computer name:"
 msgstr "Ім'я комп'ютера:"
 
-#: standard input:2 ui/net-eth/index.scm:138
+#: standard input:7 ui/net-eth/index.scm:155
 msgid "Interfaces"
 msgstr "Інтерфейси"
 
+#: standard input:8 ui/net-eth/index.scm:166
+#, fuzzy
+msgid "Select IP version:"
+msgstr "Обрати дію:"
+
+#: standard input:9 ui/net-eth/index.scm:168
+msgid "Enable"
+msgstr "Увімкнути"
+
 #.
-#: standard input:3 ui/net-eth/index.scm:148
+#: standard input:10 ui/net-eth/index.scm:170
 msgid "Configuration:"
 msgstr "Налаштування:"
 
 #.
 #. (spacer)(separator)
 #.
-#: standard input:4 ui/net-eth/index.scm:155
+#: standard input:11 ui/net-eth/index.scm:177
 #, fuzzy
 msgid "IP addresses:"
 msgstr "IP адреса:"
 
-#: standard input:5 ui/net-eth/index.scm:158
+#: standard input:12 ui/net-eth/index.scm:180
 msgid "Delete"
 msgstr "Вилучити"
 
-#: standard input:6 ui/net-eth/index.scm:108
-#, fuzzy
-msgid "invalid IP with MASK list"
-msgstr "невірний список IP адрес"
-
-#: standard input:7 ui/net-eth/index.scm:162
+#: standard input:13 ui/net-eth/index.scm:184
 msgid "IP:"
 msgstr ""
 
-#: standard input:8 ui/net-eth/index.scm:165
+#: standard input:14 ui/net-eth/index.scm:187
 msgid "Add"
 msgstr "Додати"
-
-#: standard input:9 ui/net-eth/index.scm:99
-msgid "invalid IP address"
-msgstr "невірна IP адреса"
-
-#: standard input:10 ui/net-eth/index.scm:167
-#, fuzzy
-msgid "(multiple values should be one per row)"
-msgstr "(декілька значень мають бути розділені пробілами)"
 
 #.
 #. (spacer)(separator)
 #.
-#: standard input:11 ui/net-eth/index.scm:173
+#: standard input:15 ui/net-eth/index.scm:194
 msgid "Default gateway:"
 msgstr "Типовий шлюз:"
 
 #.
-#: standard input:12 ui/net-eth/index.scm:177
+#: standard input:16 ui/net-eth/index.scm:198
 msgid "DNS servers:"
 msgstr "Сервери DNS:"
 
 #.
-#: standard input:13 ui/net-eth/index.scm:181
+#: standard input:17 ui/net-eth/index.scm:202
 msgid "Search domains:"
 msgstr "Пошукові домени:"
 
 #.
-#: standard input:14 ui/net-eth/index.scm:185
+#: standard input:18 ui/net-eth/index.scm:206
 msgid "(multiple values should be space separated)"
 msgstr "(декілька значень мають бути розділені пробілами)"
 
 #.
-#: standard input:15 ui/net-eth/index.scm:188
+#: standard input:19 ui/net-eth/index.scm:209
 msgid "Wireless settings..."
 msgstr "Налаштування бездротового зв'язку..."
 
-#: standard input:16 ui/net-eth/index.scm:189
+#: standard input:20 ui/net-eth/index.scm:210
 msgid "Advanced..."
 msgstr "Додатково..."
 
-#: standard input:17 ui/net-eth/index.scm:199
+#: standard input:21 ui/net-eth/index.scm:220
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:18 ui/net-eth/index.scm:200
+#: standard input:22 ui/net-eth/index.scm:221
 msgid "Reset"
 msgstr "Скинути"
 
-#.
-#: standard input:19 ui/net-eth/advanced/index.scm:48
-msgid "Interface:"
-msgstr "Інтерфейс:"
-
-#.
-#: standard input:20 ui/net-eth/advanced/index.scm:52
-msgid "Network subsystem:"
-msgstr "Мережева підсистема:"
-
-#.
-#: standard input:21 ui/net-eth/advanced/index.scm:55
-msgid "Use interface as bridge"
-msgstr "Використати інтерфейс як міст"
-
-#: standard input:22 ui/net-eth/advanced/index.scm:63
-msgid "OK"
-msgstr "Гаразд"
-
-#: standard input:23 ui/net-eth/advanced/index.scm:64
-msgid "Cancel"
-msgstr "Скасувати"
-
-#: backend3/net-eth:205
+#: backend3/net-eth:233
 msgid "Host name is too long"
 msgstr "Ім'я вузлу дуже довге"
 
-#: backend3/net-eth:281
+#: backend3/net-eth:293
+msgid "IPv4"
+msgstr ""
+
+#: backend3/net-eth:294
+msgid "IPv6"
+msgstr ""
+
+#: backend3/net-eth:332
 msgid "not under control"
 msgstr "не контролюється"
 
-#: backend3/net-eth:286
+#: backend3/net-eth:338
+#, fuzzy
+msgid "Use RA only"
+msgstr "Тільки для читання"
+
+#: backend3/net-eth:339
 msgid "Use DHCP"
 msgstr "Використувати DHCP"
 
-#: backend3/net-eth:287
+#: backend3/net-eth:340
 msgid "Use Zeroconf"
 msgstr "Використовувати Zeroconf"
 
-#: backend3/net-eth:288
+#: backend3/net-eth:341
 msgid "Manually"
 msgstr "Вручну"
 
-#: backend3/net-eth:296
+#: backend3/net-eth:349
 msgid "Network adaptor:"
 msgstr "Мережева карта:"
 
-#: backend3/net-eth:303
+#: backend3/net-eth:356
 msgid "plugged"
 msgstr "підключено"
 
-#: backend3/net-eth:306
+#: backend3/net-eth:359
 msgid "unplugged"
 msgstr "не під'єднано"
+
+#: backend3/net-eth:576
+msgid "IPv4 and IPv6 configurations are incompatible:"
+msgstr ""
+
+#: backend3/net-eth:656
+#, fuzzy
+msgid "Invalid DNS list"
+msgstr "Невірний диск"
+
+#: backend3/net-eth:697
+#, fuzzy
+msgid "Invalid IP address:"
+msgstr "невірна IP адреса"
+
+#, fuzzy
+#~ msgid "invalid IP with MASK list"
+#~ msgstr "невірний список IP адрес"
+
+#, fuzzy
+#~ msgid "(multiple values should be one per row)"
+#~ msgstr "(декілька значень мають бути розділені пробілами)"
 
 #~ msgid "Netmask:"
 #~ msgstr "Маска мережі:"

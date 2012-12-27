@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2012-12-28 00:41+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,140 +22,160 @@ msgid "Ethernet interfaces"
 msgstr ""
 
 #.
-#: standard input:1 ui/net-eth/index.scm:131
-msgid "Computer name:"
-msgstr ""
-
-#: standard input:2 ui/net-eth/index.scm:138
-msgid "Interfaces"
+#: standard input:1 ui/net-eth/advanced/index.scm:48
+msgid "Interface:"
 msgstr ""
 
 #.
-#: standard input:3 ui/net-eth/index.scm:148
+#: standard input:2 ui/net-eth/advanced/index.scm:52
+msgid "Network subsystem:"
+msgstr ""
+
+#.
+#: standard input:3 ui/net-eth/advanced/index.scm:55
+msgid "Use interface as bridge"
+msgstr ""
+
+#: standard input:4 ui/net-eth/advanced/index.scm:63
+msgid "OK"
+msgstr ""
+
+#: standard input:5 ui/net-eth/advanced/index.scm:64
+msgid "Cancel"
+msgstr ""
+
+#.
+#: standard input:6 ui/net-eth/index.scm:148
+msgid "Computer name:"
+msgstr ""
+
+#: standard input:7 ui/net-eth/index.scm:155
+msgid "Interfaces"
+msgstr ""
+
+#: standard input:8 ui/net-eth/index.scm:166
+msgid "Select IP version:"
+msgstr ""
+
+#: standard input:9 ui/net-eth/index.scm:168
+msgid "Enable"
+msgstr ""
+
+#.
+#: standard input:10 ui/net-eth/index.scm:170
 msgid "Configuration:"
 msgstr ""
 
 #.
 #. (spacer)(separator)
 #.
-#: standard input:4 ui/net-eth/index.scm:155
+#: standard input:11 ui/net-eth/index.scm:177
 msgid "IP addresses:"
 msgstr ""
 
-#: standard input:5 ui/net-eth/index.scm:158
+#: standard input:12 ui/net-eth/index.scm:180
 msgid "Delete"
 msgstr ""
 
-#: standard input:6 ui/net-eth/index.scm:108
-msgid "invalid IP with MASK list"
-msgstr ""
-
-#: standard input:7 ui/net-eth/index.scm:162
+#: standard input:13 ui/net-eth/index.scm:184
 msgid "IP:"
 msgstr ""
 
-#: standard input:8 ui/net-eth/index.scm:165
+#: standard input:14 ui/net-eth/index.scm:187
 msgid "Add"
-msgstr ""
-
-#: standard input:9 ui/net-eth/index.scm:99
-msgid "invalid IP address"
-msgstr ""
-
-#: standard input:10 ui/net-eth/index.scm:167
-msgid "(multiple values should be one per row)"
 msgstr ""
 
 #.
 #. (spacer)(separator)
 #.
-#: standard input:11 ui/net-eth/index.scm:173
+#: standard input:15 ui/net-eth/index.scm:194
 msgid "Default gateway:"
 msgstr ""
 
 #.
-#: standard input:12 ui/net-eth/index.scm:177
+#: standard input:16 ui/net-eth/index.scm:198
 msgid "DNS servers:"
 msgstr ""
 
 #.
-#: standard input:13 ui/net-eth/index.scm:181
+#: standard input:17 ui/net-eth/index.scm:202
 msgid "Search domains:"
 msgstr ""
 
 #.
-#: standard input:14 ui/net-eth/index.scm:185
+#: standard input:18 ui/net-eth/index.scm:206
 msgid "(multiple values should be space separated)"
 msgstr ""
 
 #.
-#: standard input:15 ui/net-eth/index.scm:188
+#: standard input:19 ui/net-eth/index.scm:209
 msgid "Wireless settings..."
 msgstr ""
 
-#: standard input:16 ui/net-eth/index.scm:189
+#: standard input:20 ui/net-eth/index.scm:210
 msgid "Advanced..."
 msgstr ""
 
-#: standard input:17 ui/net-eth/index.scm:199
+#: standard input:21 ui/net-eth/index.scm:220
 msgid "Apply"
 msgstr ""
 
-#: standard input:18 ui/net-eth/index.scm:200
+#: standard input:22 ui/net-eth/index.scm:221
 msgid "Reset"
 msgstr ""
 
-#.
-#: standard input:19 ui/net-eth/advanced/index.scm:48
-msgid "Interface:"
-msgstr ""
-
-#.
-#: standard input:20 ui/net-eth/advanced/index.scm:52
-msgid "Network subsystem:"
-msgstr ""
-
-#.
-#: standard input:21 ui/net-eth/advanced/index.scm:55
-msgid "Use interface as bridge"
-msgstr ""
-
-#: standard input:22 ui/net-eth/advanced/index.scm:63
-msgid "OK"
-msgstr ""
-
-#: standard input:23 ui/net-eth/advanced/index.scm:64
-msgid "Cancel"
-msgstr ""
-
-#: backend3/net-eth:205
+#: backend3/net-eth:233
 msgid "Host name is too long"
 msgstr ""
 
-#: backend3/net-eth:281
+#: backend3/net-eth:293
+msgid "IPv4"
+msgstr ""
+
+#: backend3/net-eth:294
+msgid "IPv6"
+msgstr ""
+
+#: backend3/net-eth:332
 msgid "not under control"
 msgstr ""
 
-#: backend3/net-eth:286
+#: backend3/net-eth:338
+msgid "Use RA only"
+msgstr ""
+
+#: backend3/net-eth:339
 msgid "Use DHCP"
 msgstr ""
 
-#: backend3/net-eth:287
+#: backend3/net-eth:340
 msgid "Use Zeroconf"
 msgstr ""
 
-#: backend3/net-eth:288
+#: backend3/net-eth:341
 msgid "Manually"
 msgstr ""
 
-#: backend3/net-eth:296
+#: backend3/net-eth:349
 msgid "Network adaptor:"
 msgstr ""
 
-#: backend3/net-eth:303
+#: backend3/net-eth:356
 msgid "plugged"
 msgstr ""
 
-#: backend3/net-eth:306
+#: backend3/net-eth:359
 msgid "unplugged"
+msgstr ""
+
+#: backend3/net-eth:576
+msgid "IPv4 and IPv6 configurations are incompatible:"
+msgstr ""
+
+#: backend3/net-eth:656
+msgid "Invalid DNS list"
+msgstr ""
+
+#: backend3/net-eth:697
+msgid "Invalid IP address:"
 msgstr ""
