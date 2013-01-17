@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2012.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-05 12:52+0400\n"
-"PO-Revision-Date: 2012-10-25 13:05+0400\n"
+"POT-Creation-Date: 2013-01-17 13:59+0400\n"
+"PO-Revision-Date: 2013-01-17 14:06+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -70,28 +70,28 @@ msgstr "Доступные профили URL:"
 msgid "Create new URL profile"
 msgstr "Создать новый профиль URL"
 
-#: standard input:3 input:15 input:41 input:83 input:100 input:134 input:161
-#: input:182
+#: standard input:3 input:15 input:41 input:83 input:100 input:142 input:169
+#: input:190
 msgid "Name:"
 msgstr "Название:"
 
-#: standard input:4 input:17 input:43 input:85 input:102 input:135 input:162
-#: input:184
+#: standard input:4 input:17 input:43 input:85 input:102 input:143 input:170
+#: input:192
 msgid "Create"
 msgstr "Создать"
 
-#: standard input:5 input:18 input:44 input:86 input:103 input:136 input:163
-#: input:185
+#: standard input:5 input:18 input:44 input:86 input:103 input:144 input:171
+#: input:193
 msgid "Cancel"
 msgstr "Отменить"
 
 #: standard input:6 input:12 input:19 input:30 input:45 input:80 input:87
-#: input:97 input:104 input:131 input:137 input:158 input:164 input:179
-#: input:186 input:205
+#: input:97 input:104 input:131 input:145 input:166 input:172 input:187
+#: input:194 input:213
 msgid "Delete"
 msgstr "Удалить"
 
-#: standard input:7 input:20 input:88 input:105 input:138 input:165 input:187
+#: standard input:7 input:20 input:88 input:105 input:146 input:173 input:195
 msgid "Profile"
 msgstr "Профиль"
 
@@ -99,18 +99,18 @@ msgstr "Профиль"
 msgid "URL:"
 msgstr "URL:"
 
-#: standard input:9 input:27 input:77 input:94 input:128 input:155 input:176
-#: input:202
+#: standard input:9 input:27 input:77 input:94 input:128 input:163 input:184
+#: input:210
 msgid "Reset"
 msgstr "Вернуть"
 
-#: standard input:10 input:28 input:78 input:95 input:129 input:156 input:177
-#: input:203
+#: standard input:10 input:28 input:78 input:95 input:129 input:164 input:185
+#: input:211
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
-#: standard input:11 input:29 input:79 input:96 input:130 input:157 input:178
-#: input:204
+#: standard input:11 input:29 input:79 input:96 input:130 input:165 input:186
+#: input:212
 msgid "New"
 msgstr "Создать"
 
@@ -122,23 +122,23 @@ msgstr "Доступные профили SSH:"
 msgid "Create new SSH profile"
 msgstr "Создать новый профиль SSH"
 
-#: standard input:16 input:42 input:84 input:101 input:183
+#: standard input:16 input:42 input:84 input:101 input:191
 msgid "invalid IP address"
 msgstr "недопустимый IP-адрес"
 
-#: standard input:21 input:47 input:90 input:106 input:139 input:166 input:188
+#: standard input:21 input:47 input:90 input:106 input:147 input:174 input:196
 msgid "Server:"
 msgstr "Сервер:"
 
-#: standard input:22 input:167
+#: standard input:22 input:175
 msgid "Port:"
 msgstr "Порт:"
 
-#: standard input:23 input:48 input:107 input:141 input:168
+#: standard input:23 input:48 input:107 input:149 input:176
 msgid "User name:"
 msgstr "Имя пользователя:"
 
-#: standard input:24 input:49 input:108 input:142 input:169 input:190
+#: standard input:24 input:49 input:108 input:150 input:177 input:198
 msgid "Password:"
 msgstr "Пароль:"
 
@@ -214,7 +214,7 @@ msgstr "Интерпретатор команд:"
 msgid "Geometry:"
 msgstr "Разрешение:"
 
-#: standard input:55 input:92 input:114 input:147
+#: standard input:55 input:92 input:114 input:155
 msgid "Color depth:"
 msgstr "Глубина цвета:"
 
@@ -335,142 +335,190 @@ msgid "Audio input redirection:"
 msgstr "Перенаправление ввода звукового устройства:"
 
 #: standard input:132
+msgid "Manage Citrix Receiver CAs certificates:"
+msgstr "Управление сертификатами УЦ Citrix Receiver:"
+
+#: standard input:133
+msgid "CA certificate file"
+msgstr "Файл сертификата УЦ"
+
+#: standard input:134
+msgid "Info"
+msgstr "Сведения"
+
+#: standard input:135
+msgid "Delete selected certs"
+msgstr "Удалить выбранные сертификаты"
+
+#: standard input:136
+msgid "Upload new CA certificate (DER or PEM type):"
+msgstr "Сертификат УЦ в формате DER или PEM:"
+
+#: standard input:137
+msgid "Upload"
+msgstr "Загрузить"
+
+#: standard input:138
+msgid "CA certificate successfully uploaded"
+msgstr "Сертификат УЦ успешно загружен"
+
+#: standard input:139
+msgid "Done"
+msgstr "Готово"
+
+#: standard input:140
 msgid "Avail Citrix profiles:"
 msgstr "Доступные профили Citrix:"
 
-#: standard input:133
+#: standard input:141
 msgid "Create new Citrix profile"
 msgstr "Создать новый профиль Citrix"
 
-#: standard input:140
+#: standard input:148
 msgid "XML Service Port:"
 msgstr "Порт службы XML:"
 
-#: standard input:143
+#: standard input:151
 msgid "Domain:"
 msgstr "Домен:"
 
-#: standard input:144
+#: standard input:152
 msgid "Type of ICA connection:"
 msgstr "Тип подключения ICA:"
 
-#: standard input:145
+#: standard input:153
 msgid "Published application:"
 msgstr "Опубликованные приложения:"
 
-#: standard input:146 input:171
+#: standard input:154 input:179
 msgid "Display geometry:"
 msgstr "Разрешение экрана:"
 
-#: standard input:148
+#: standard input:156
 msgid "Encryption level:"
 msgstr "Уровень шифрования:"
 
-#: standard input:149
+#: standard input:157
 msgid "Disable audio mapping:"
 msgstr "Отключить проброс звука:"
 
-#: standard input:150
+#: standard input:158
 msgid "Enable compression:"
 msgstr "Включить сжатие:"
 
-#: standard input:151
+#: standard input:159
 msgid "Enable bitmap caching:"
 msgstr "Включить кэширование изображений:"
 
-#: standard input:152
+#: standard input:160
 msgid "Disable printer mapping:"
 msgstr "Отключить проброс принтеров:"
 
-#: standard input:153
+#: standard input:161
 msgid "Disable drive mapping:"
 msgstr "Отключить проброс дисков:"
 
-#: standard input:154
+#: standard input:162
 msgid "Prevent closure with active sessions:"
 msgstr "Предотвратить закрытие активных сеансов:"
 
-#: standard input:159
+#: standard input:167
 msgid "Avail NX profiles:"
 msgstr "Доступные профили NX:"
 
-#: standard input:160
+#: standard input:168
 msgid "Create new NX profile"
 msgstr "Создать новый профиль NX"
 
-#: standard input:170
+#: standard input:178
 msgid "Connection speed:"
 msgstr "Скорость соединения:"
 
-#: standard input:172
+#: standard input:180
 msgid "Desktop:"
 msgstr "Рабочий стол:"
 
-#: standard input:173
+#: standard input:181
 msgid "Session type:"
 msgstr "Тип сеанса:"
 
-#: standard input:174
+#: standard input:182
 msgid "Disable encryption:"
 msgstr "Отключить шифрование:"
 
-#: standard input:175
+#: standard input:183
 msgid "Disable ZLIB compression:"
 msgstr "Отключить сжатие ZLIB:"
 
-#: standard input:180
+#: standard input:188
 msgid "Avail TigerVNC profiles:"
 msgstr "Доступные профили TigerVNC:"
 
-#: standard input:181
+#: standard input:189
 msgid "Create new VNC profile"
 msgstr "Создать новый профиль VNC"
 
-#: standard input:189
+#: standard input:197
 msgid "Display number:"
 msgstr "Номер дисплея:"
 
-#: standard input:191
+#: standard input:199
 msgid "Desktop size:"
 msgstr "Разрешение:"
 
-#: standard input:192
+#: standard input:200
 msgid "Color level:"
 msgstr "Глубина цвета:"
 
-#: standard input:193
+#: standard input:201
 msgid "JPEG quality level:"
 msgstr "Уровень сжатия JPEG"
 
-#: standard input:194
+#: standard input:202
 msgid "Compression level:"
 msgstr "Сжатие:"
 
-#: standard input:195
+#: standard input:203
 msgid "Shared:"
 msgstr "Общий:"
 
-#: standard input:196
+#: standard input:204
 msgid "View only:"
 msgstr "Только просмотр:"
 
-#: standard input:197
+#: standard input:205
 msgid "Full screen:"
 msgstr "На весь экран:"
 
-#: standard input:198
+#: standard input:206
 msgid "Send clipboard to server:"
 msgstr "Отправлять содержимое буфера обмена на сервер:"
 
-#: standard input:199
+#: standard input:207
 msgid "Accept clipboard from server:"
 msgstr "Принимать содержимое буфера обмена с сервера:"
 
-#: standard input:200
+#: standard input:208
 msgid "Send selection as clipboard:"
 msgstr "Отправлять выделение мышью как содержимое буфера обмена:"
 
-#: standard input:201
+#: standard input:209
 msgid "Render cursor locally:"
 msgstr "Локальная отрисовка курсора:"
+
+#: ui/rd_citrix/cacerts/ajax.scm:59
+msgid "No info available for certificate"
+msgstr "не удалось получить сведения о сертификате"
+
+#: backend3/rd_citrix:142
+msgid "File does not exist"
+msgstr "Файл не существует"
+
+#: backend3/rd_citrix:158
+msgid "Invalid certificate"
+msgstr "Неверный сертификат"
+
+#: backend3/rd_citrix:164
+msgid "Upload CA failed"
+msgstr "Не удалось загрузить сертификат УЦ"
 
