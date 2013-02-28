@@ -1,12 +1,12 @@
 # Copyright (C) 2010 Free Software Foundation, Inc.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2010, 2011, 2012.
+# Andrey Cherepanov <skull@kde.ru>, 2010-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: alterator-vm 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-19 15:59+0400\n"
-"PO-Revision-Date: 2012-04-19 16:47+0400\n"
+"POT-Creation-Date: 2013-02-28 19:09+0400\n"
+"PO-Revision-Date: 2013-02-28 19:11+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
@@ -24,6 +24,80 @@ msgstr "Управление дисками"
 #: standard input:2
 msgid "Harddisks"
 msgstr "Жёсткие диски"
+
+#: ui/vm/lucky.scm:60
+msgid "Unable to partition, not enough disk space"
+msgstr "Невозможно создать все разделы, недостаточно места на диске"
+
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+msgid "All data from all your disks will be lost!"
+msgstr "Все ваши данные на всех дисках будут утеряны!"
+
+#: ui/vm/lucky.scm:68
+msgid "Yes, i'm warned"
+msgstr "Да, я согласен."
+
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Выберите"
+
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
+msgid "OK"
+msgstr "OK"
+
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ui/vm/blonde.scm:45
+msgid "Name"
+msgstr "Имя устройства"
+
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
+msgid "Filesystem"
+msgstr "Файловая система"
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
+msgstr "Размер [свободно]"
+
+#: ui/vm/blonde.scm:83
+msgid "Use unpartitioned disk space"
+msgstr "Использовать неразмеченное пространство"
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr "Удалить все разделы и создать разделы автоматически"
+
+# Настройка вручную
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr "Подготовить разделы вручную"
+
+#: ui/vm/blonde.scm:91
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr ""
+"Все ваши данные на всех дисках (в том числе внешних) будут утеряны! "
+"Продолжить?"
+
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr "Разделы"
+
+#: ui/vm/blonde.scm:101
+msgid "Select installation method"
+msgstr "Выберите метод установки"
+
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
+msgstr "Невозможно создать все разделы, недостаточно места на диске"
+
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
 
 #: ui/vm/ortodox.scm:40
 msgid " of "
@@ -374,63 +448,17 @@ msgstr "недоступна или не директория"
 msgid "Operation not permitted"
 msgstr "Операция невозможна"
 
-#: ui/vm/blonde.scm:45
-msgid "Name"
-msgstr "Имя устройства"
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr "Объекты"
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
-msgid "Filesystem"
-msgstr "Файловая система"
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr "Следующая операция"
 
-#: ui/vm/blonde.scm:47
-msgid "Size [free]"
-msgstr "Размер [свободно]"
-
-#: ui/vm/blonde.scm:83
-msgid "Use unpartitioned disk space"
-msgstr "Использовать неразмеченное пространство"
-
-#: ui/vm/blonde.scm:84
-msgid "Destroy all partitions, then autopartition"
-msgstr "Удалить все разделы и создать разделы автоматически"
-
-# Настройка вручную
-#: ui/vm/blonde.scm:85
-msgid "Custom install"
-msgstr "Подготовить разделы вручную"
-
-#: ui/vm/blonde.scm:91
-msgid ""
-"All data from all your disks (including removable ones) will be lost! "
-"Continue?"
-msgstr ""
-"Все ваши данные на всех дисках (в том числе внешних) будут утеряны! "
-"Продолжить?"
-
-#: ui/vm/blonde.scm:97
-msgid "Volumes"
-msgstr "Разделы"
-
-#: ui/vm/blonde.scm:101
-msgid "Select installation method"
-msgstr "Выберите метод установки"
-
-#: ui/vm/blonde.scm:138
-msgid "Unable to autopartition, not enough disk space"
-msgstr "Невозможно создать все разделы, недостаточно места на диске"
-
-#: ui/vm/lucky.scm:60
-msgid "Unable to partition, not enough disk space"
-msgstr "Невозможно создать все разделы, недостаточно места на диске"
-
-#. ---------------------------------------------------------------
-#: ui/vm/lucky.scm:67
-msgid "All data from all your disks will be lost!"
-msgstr "Все ваши данные на всех дисках будут утеряны!"
-
-#: ui/vm/lucky.scm:68
-msgid "Yes, i'm warned"
-msgstr "Да, я согласен."
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
+msgstr "Показывать дополнительные настройки"
 
 #: ui/vm/table.scm:86
 msgid "Congrats! You've found a secret level!"
@@ -480,8 +508,8 @@ msgstr "Опции монтирования"
 msgid "Create RAID"
 msgstr "Создать RAID"
 
-#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:213
-#: ui/vm/table.scm:220 ui/vm/table.scm:225
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:214
+#: ui/vm/table.scm:222 ui/vm/table.scm:227 ui/vm/table.scm:230
 msgid "Destroy"
 msgstr "Удалить"
 
@@ -489,87 +517,67 @@ msgstr "Удалить"
 msgid "Create Volume Group"
 msgstr "Создать группу томов"
 
-#: ui/vm/table.scm:206 ui/vm/table.scm:211 ui/vm/table.scm:218
-#: ui/vm/table.scm:223
+#: ui/vm/table.scm:206 ui/vm/table.scm:212 ui/vm/table.scm:220
+#: ui/vm/table.scm:225
 msgid "Expand"
 msgstr "Увеличить"
 
-#: ui/vm/table.scm:207 ui/vm/table.scm:212 ui/vm/table.scm:219
-#: ui/vm/table.scm:224
+#: ui/vm/table.scm:207 ui/vm/table.scm:213 ui/vm/table.scm:221
+#: ui/vm/table.scm:226
 msgid "Shrink"
 msgstr "Уменьшить"
 
-#: ui/vm/table.scm:210 ui/vm/table.scm:222
+#: ui/vm/table.scm:210 ui/vm/table.scm:224
 msgid "Create Volume"
 msgstr "Создать том"
 
-#: ui/vm/table.scm:215 ui/vm/table.scm:217
+#: ui/vm/table.scm:211 ui/vm/table.scm:229
+msgid "Create Encrypted Volume"
+msgstr "Создать шифруемый том"
+
+#: ui/vm/table.scm:216 ui/vm/table.scm:218
 msgid "Create Partition"
 msgstr "Создать раздел"
 
-#: ui/vm/table.scm:216
+#: ui/vm/table.scm:217
 msgid "Destroy Partition Table"
 msgstr "Удалить таблицу разделов"
 
-#: ui/vm/table.scm:228 ui/vm/table.scm:231
+#: ui/vm/table.scm:219
+msgid "Create Encrypted Partition"
+msgstr "Создать шифруемый раздел"
+
+#: ui/vm/table.scm:233 ui/vm/table.scm:236
 msgid "Make Filesystem"
 msgstr "Создать файловую систему"
 
-#: ui/vm/table.scm:229 ui/vm/table.scm:235
+#: ui/vm/table.scm:234 ui/vm/table.scm:240
 msgid "Remove Filesystem"
 msgstr "Удалить файловую систему"
 
-#: ui/vm/table.scm:230
+#: ui/vm/table.scm:235
 msgid "Edit Mountpoint"
 msgstr "Изменить точку монтирования"
 
-#: ui/vm/table.scm:232
+#: ui/vm/table.scm:237
 msgid "Check Filesystem"
 msgstr "Проверить файловую систему"
 
-#: ui/vm/table.scm:233
+#: ui/vm/table.scm:238
 msgid "Mount Filesystem"
 msgstr "Монтировать файловую систему"
 
-#: ui/vm/table.scm:234
+#: ui/vm/table.scm:239
 msgid "Umount Filesystem"
 msgstr "Отмонтировать файловую систему"
 
-#: ui/vm/table.scm:259
+#: ui/vm/table.scm:264
 msgid "Reset"
 msgstr "Вернуть"
 
-#: ui/vm/table.scm:264
+#: ui/vm/table.scm:269
 msgid "Apply"
 msgstr "Применить"
-
-#: ui/vm/popup.scm:92
-msgid "Objects"
-msgstr "Объекты"
-
-#: ui/vm/popup.scm:100
-msgid "Next operation"
-msgstr "Следующая операция"
-
-#: ui/vm/popup.scm:103
-msgid "Show extra options"
-msgstr "Показывать дополнительные настройки"
-
-#: ui/vm/popup.scm:109 ui/vm/choice.scm:34
-msgid "OK"
-msgstr "OK"
-
-#: ui/vm/popup.scm:112 ui/vm/choice.scm:35
-msgid "Cancel"
-msgstr "Отмена"
-
-#: ui/vm/functions.scm:3
-msgid "Please wait..."
-msgstr "Пожалуйста, подождите..."
-
-#: ui/vm/choice.scm:28
-msgid "Select"
-msgstr "Выберите"
 
 #~ msgid "Ext2/3 File System Interface Module"
 #~ msgstr "Файловая система Ext2/3"

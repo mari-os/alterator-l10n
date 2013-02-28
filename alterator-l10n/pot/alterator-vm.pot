@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-19 15:59+0400\n"
+"POT-Creation-Date: 2013-02-28 19:09+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,6 +23,77 @@ msgstr ""
 
 #: standard input:2
 msgid "Harddisks"
+msgstr ""
+
+#: ui/vm/lucky.scm:60
+msgid "Unable to partition, not enough disk space"
+msgstr ""
+
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+msgid "All data from all your disks will be lost!"
+msgstr ""
+
+#: ui/vm/lucky.scm:68
+msgid "Yes, i'm warned"
+msgstr ""
+
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr ""
+
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
+msgid "OK"
+msgstr ""
+
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
+msgid "Cancel"
+msgstr ""
+
+#: ui/vm/blonde.scm:45
+msgid "Name"
+msgstr ""
+
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
+msgid "Filesystem"
+msgstr ""
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
+msgstr ""
+
+#: ui/vm/blonde.scm:83
+msgid "Use unpartitioned disk space"
+msgstr ""
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr ""
+
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr ""
+
+#: ui/vm/blonde.scm:91
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr ""
+
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr ""
+
+#: ui/vm/blonde.scm:101
+msgid "Select installation method"
+msgstr ""
+
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
+msgstr ""
+
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
 msgstr ""
 
 #: ui/vm/ortodox.scm:40
@@ -369,59 +440,16 @@ msgstr ""
 msgid "Operation not permitted"
 msgstr ""
 
-#: ui/vm/blonde.scm:45
-msgid "Name"
+#: ui/vm/popup.scm:92
+msgid "Objects"
 msgstr ""
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
-msgid "Filesystem"
+#: ui/vm/popup.scm:100
+msgid "Next operation"
 msgstr ""
 
-#: ui/vm/blonde.scm:47
-msgid "Size [free]"
-msgstr ""
-
-#: ui/vm/blonde.scm:83
-msgid "Use unpartitioned disk space"
-msgstr ""
-
-#: ui/vm/blonde.scm:84
-msgid "Destroy all partitions, then autopartition"
-msgstr ""
-
-#: ui/vm/blonde.scm:85
-msgid "Custom install"
-msgstr ""
-
-#: ui/vm/blonde.scm:91
-msgid ""
-"All data from all your disks (including removable ones) will be lost! "
-"Continue?"
-msgstr ""
-
-#: ui/vm/blonde.scm:97
-msgid "Volumes"
-msgstr ""
-
-#: ui/vm/blonde.scm:101
-msgid "Select installation method"
-msgstr ""
-
-#: ui/vm/blonde.scm:138
-msgid "Unable to autopartition, not enough disk space"
-msgstr ""
-
-#: ui/vm/lucky.scm:60
-msgid "Unable to partition, not enough disk space"
-msgstr ""
-
-#. ---------------------------------------------------------------
-#: ui/vm/lucky.scm:67
-msgid "All data from all your disks will be lost!"
-msgstr ""
-
-#: ui/vm/lucky.scm:68
-msgid "Yes, i'm warned"
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
 msgstr ""
 
 #: ui/vm/table.scm:86
@@ -470,8 +498,8 @@ msgstr ""
 msgid "Create RAID"
 msgstr ""
 
-#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:213
-#: ui/vm/table.scm:220 ui/vm/table.scm:225
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:214
+#: ui/vm/table.scm:222 ui/vm/table.scm:227 ui/vm/table.scm:230
 msgid "Destroy"
 msgstr ""
 
@@ -479,84 +507,64 @@ msgstr ""
 msgid "Create Volume Group"
 msgstr ""
 
-#: ui/vm/table.scm:206 ui/vm/table.scm:211 ui/vm/table.scm:218
-#: ui/vm/table.scm:223
+#: ui/vm/table.scm:206 ui/vm/table.scm:212 ui/vm/table.scm:220
+#: ui/vm/table.scm:225
 msgid "Expand"
 msgstr ""
 
-#: ui/vm/table.scm:207 ui/vm/table.scm:212 ui/vm/table.scm:219
-#: ui/vm/table.scm:224
+#: ui/vm/table.scm:207 ui/vm/table.scm:213 ui/vm/table.scm:221
+#: ui/vm/table.scm:226
 msgid "Shrink"
 msgstr ""
 
-#: ui/vm/table.scm:210 ui/vm/table.scm:222
+#: ui/vm/table.scm:210 ui/vm/table.scm:224
 msgid "Create Volume"
 msgstr ""
 
-#: ui/vm/table.scm:215 ui/vm/table.scm:217
+#: ui/vm/table.scm:211 ui/vm/table.scm:229
+msgid "Create Encrypted Volume"
+msgstr ""
+
+#: ui/vm/table.scm:216 ui/vm/table.scm:218
 msgid "Create Partition"
 msgstr ""
 
-#: ui/vm/table.scm:216
+#: ui/vm/table.scm:217
 msgid "Destroy Partition Table"
 msgstr ""
 
-#: ui/vm/table.scm:228 ui/vm/table.scm:231
+#: ui/vm/table.scm:219
+msgid "Create Encrypted Partition"
+msgstr ""
+
+#: ui/vm/table.scm:233 ui/vm/table.scm:236
 msgid "Make Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:229 ui/vm/table.scm:235
+#: ui/vm/table.scm:234 ui/vm/table.scm:240
 msgid "Remove Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:230
+#: ui/vm/table.scm:235
 msgid "Edit Mountpoint"
 msgstr ""
 
-#: ui/vm/table.scm:232
+#: ui/vm/table.scm:237
 msgid "Check Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:233
+#: ui/vm/table.scm:238
 msgid "Mount Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:234
+#: ui/vm/table.scm:239
 msgid "Umount Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:259
+#: ui/vm/table.scm:264
 msgid "Reset"
 msgstr ""
 
-#: ui/vm/table.scm:264
+#: ui/vm/table.scm:269
 msgid "Apply"
-msgstr ""
-
-#: ui/vm/popup.scm:92
-msgid "Objects"
-msgstr ""
-
-#: ui/vm/popup.scm:100
-msgid "Next operation"
-msgstr ""
-
-#: ui/vm/popup.scm:103
-msgid "Show extra options"
-msgstr ""
-
-#: ui/vm/popup.scm:109 ui/vm/choice.scm:34
-msgid "OK"
-msgstr ""
-
-#: ui/vm/popup.scm:112 ui/vm/choice.scm:35
-msgid "Cancel"
-msgstr ""
-
-#: ui/vm/functions.scm:3
-msgid "Please wait..."
-msgstr ""
-
-#: ui/vm/choice.scm:28
-msgid "Select"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-19 15:59+0400\n"
+"POT-Creation-Date: 2013-02-28 19:09+0400\n"
 "PO-Revision-Date: 2009-09-14 20:28-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -27,6 +27,79 @@ msgstr " Volume de gestão"
 #: standard input:2
 msgid "Harddisks"
 msgstr "HD"
+
+#: ui/vm/lucky.scm:60
+msgid "Unable to partition, not enough disk space"
+msgstr "Incapaz de partição, não o suficiente espaço em disco"
+
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+msgid "All data from all your disks will be lost!"
+msgstr "Todos os dados de todos os seus discos serão perdidos!"
+
+#: ui/vm/lucky.scm:68
+msgid "Yes, i'm warned"
+msgstr "Sim, eu avisei"
+
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Selecionar"
+
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
+msgid "OK"
+msgstr "OK"
+
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ui/vm/blonde.scm:45
+msgid "Name"
+msgstr "Nome"
+
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
+msgid "Filesystem"
+msgstr "Sistema de arquivos"
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
+msgstr "Tamanho [livre]"
+
+#: ui/vm/blonde.scm:83
+msgid "Use unpartitioned disk space"
+msgstr "Usar espaço não particionado no disco"
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr "Destrua todas as partições, e criar automaticamente as partições"
+
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr "Instalação customizada"
+
+#: ui/vm/blonde.scm:91
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr ""
+"Todos os dados de todos os seus discos (inclusive os móveis) serão perdidos! "
+"Continue?"
+
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr "Volumes"
+
+#: ui/vm/blonde.scm:101
+msgid "Select installation method"
+msgstr "Selecionar do método de instalação"
+
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
+msgstr "Impossível automático, não é suficiente espaço em disco"
+
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
+msgstr "Porfavor aguarde..."
 
 #: ui/vm/ortodox.scm:40
 msgid " of "
@@ -379,62 +452,17 @@ msgstr "inaccesible ou não um diretório"
 msgid "Operation not permitted"
 msgstr "Operação não permitida"
 
-#: ui/vm/blonde.scm:45
-msgid "Name"
-msgstr "Nome"
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr "Objetos"
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
-msgid "Filesystem"
-msgstr "Sistema de arquivos"
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr "Próxima operação"
 
-#: ui/vm/blonde.scm:47
-msgid "Size [free]"
-msgstr "Tamanho [livre]"
-
-#: ui/vm/blonde.scm:83
-msgid "Use unpartitioned disk space"
-msgstr "Usar espaço não particionado no disco"
-
-#: ui/vm/blonde.scm:84
-msgid "Destroy all partitions, then autopartition"
-msgstr "Destrua todas as partições, e criar automaticamente as partições"
-
-#: ui/vm/blonde.scm:85
-msgid "Custom install"
-msgstr "Instalação customizada"
-
-#: ui/vm/blonde.scm:91
-msgid ""
-"All data from all your disks (including removable ones) will be lost! "
-"Continue?"
-msgstr ""
-"Todos os dados de todos os seus discos (inclusive os móveis) serão perdidos! "
-"Continue?"
-
-#: ui/vm/blonde.scm:97
-msgid "Volumes"
-msgstr "Volumes"
-
-#: ui/vm/blonde.scm:101
-msgid "Select installation method"
-msgstr "Selecionar do método de instalação"
-
-#: ui/vm/blonde.scm:138
-msgid "Unable to autopartition, not enough disk space"
-msgstr "Impossível automático, não é suficiente espaço em disco"
-
-#: ui/vm/lucky.scm:60
-msgid "Unable to partition, not enough disk space"
-msgstr "Incapaz de partição, não o suficiente espaço em disco"
-
-#. ---------------------------------------------------------------
-#: ui/vm/lucky.scm:67
-msgid "All data from all your disks will be lost!"
-msgstr "Todos os dados de todos os seus discos serão perdidos!"
-
-#: ui/vm/lucky.scm:68
-msgid "Yes, i'm warned"
-msgstr "Sim, eu avisei"
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
+msgstr "Mostrar opções extras"
 
 #: ui/vm/table.scm:86
 msgid "Congrats! You've found a secret level!"
@@ -482,8 +510,8 @@ msgstr "Opções de Montagem"
 msgid "Create RAID"
 msgstr "Criar RAID"
 
-#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:213
-#: ui/vm/table.scm:220 ui/vm/table.scm:225
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:214
+#: ui/vm/table.scm:222 ui/vm/table.scm:227 ui/vm/table.scm:230
 msgid "Destroy"
 msgstr "Destruir"
 
@@ -491,84 +519,66 @@ msgstr "Destruir"
 msgid "Create Volume Group"
 msgstr "Criar grupo de volumes"
 
-#: ui/vm/table.scm:206 ui/vm/table.scm:211 ui/vm/table.scm:218
-#: ui/vm/table.scm:223
+#: ui/vm/table.scm:206 ui/vm/table.scm:212 ui/vm/table.scm:220
+#: ui/vm/table.scm:225
 msgid "Expand"
 msgstr "Expandir"
 
-#: ui/vm/table.scm:207 ui/vm/table.scm:212 ui/vm/table.scm:219
-#: ui/vm/table.scm:224
+#: ui/vm/table.scm:207 ui/vm/table.scm:213 ui/vm/table.scm:221
+#: ui/vm/table.scm:226
 msgid "Shrink"
 msgstr "Encolha"
 
-#: ui/vm/table.scm:210 ui/vm/table.scm:222
+#: ui/vm/table.scm:210 ui/vm/table.scm:224
 msgid "Create Volume"
 msgstr "Criar Volume"
 
-#: ui/vm/table.scm:215 ui/vm/table.scm:217
+#: ui/vm/table.scm:211 ui/vm/table.scm:229
+#, fuzzy
+msgid "Create Encrypted Volume"
+msgstr "Criar Volume"
+
+#: ui/vm/table.scm:216 ui/vm/table.scm:218
 msgid "Create Partition"
 msgstr "Criar Partição"
 
-#: ui/vm/table.scm:216
+#: ui/vm/table.scm:217
 msgid "Destroy Partition Table"
 msgstr "Destruir Tabela de Partições"
 
-#: ui/vm/table.scm:228 ui/vm/table.scm:231
+#: ui/vm/table.scm:219
+#, fuzzy
+msgid "Create Encrypted Partition"
+msgstr "Criar Partição"
+
+#: ui/vm/table.scm:233 ui/vm/table.scm:236
 msgid "Make Filesystem"
 msgstr "Criar sistema de arquivos"
 
-#: ui/vm/table.scm:229 ui/vm/table.scm:235
+#: ui/vm/table.scm:234 ui/vm/table.scm:240
 msgid "Remove Filesystem"
 msgstr "Remover Sistema de arquivos"
 
-#: ui/vm/table.scm:230
+#: ui/vm/table.scm:235
 msgid "Edit Mountpoint"
 msgstr "Editar Ponto de montagem"
 
-#: ui/vm/table.scm:232
+#: ui/vm/table.scm:237
 msgid "Check Filesystem"
 msgstr "Checar sistema de arquivos"
 
-#: ui/vm/table.scm:233
+#: ui/vm/table.scm:238
 msgid "Mount Filesystem"
 msgstr "Montar sistema de arquivos"
 
-#: ui/vm/table.scm:234
+#: ui/vm/table.scm:239
 msgid "Umount Filesystem"
 msgstr "Demonstrar sistema de arquivos"
 
-#: ui/vm/table.scm:259
+#: ui/vm/table.scm:264
 msgid "Reset"
 msgstr "Resetar"
 
-#: ui/vm/table.scm:264
+#: ui/vm/table.scm:269
 msgid "Apply"
 msgstr "Aplicar"
-
-#: ui/vm/popup.scm:92
-msgid "Objects"
-msgstr "Objetos"
-
-#: ui/vm/popup.scm:100
-msgid "Next operation"
-msgstr "Próxima operação"
-
-#: ui/vm/popup.scm:103
-msgid "Show extra options"
-msgstr "Mostrar opções extras"
-
-#: ui/vm/popup.scm:109 ui/vm/choice.scm:34
-msgid "OK"
-msgstr "OK"
-
-#: ui/vm/popup.scm:112 ui/vm/choice.scm:35
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: ui/vm/functions.scm:3
-msgid "Please wait..."
-msgstr "Porfavor aguarde..."
-
-#: ui/vm/choice.scm:28
-msgid "Select"
-msgstr "Selecionar"
