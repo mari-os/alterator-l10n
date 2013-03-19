@@ -1,0 +1,578 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: alterator-l10n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 19:09+0400\n"
+"PO-Revision-Date: 2013-03-19 20:35+0600\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: standard input:1
+msgid "Volume management"
+msgstr "Бөлімдерді басқару"
+
+#: standard input:2
+msgid "Harddisks"
+msgstr "Қатты дисктер"
+
+#: ui/vm/lucky.scm:60
+msgid "Unable to partition, not enough disk space"
+msgstr "Бөлімдеу мүмкін емес, дискідегі орын жеткіліксіз"
+
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+msgid "All data from all your disks will be lost!"
+msgstr "Барлық дисктеріңіздегі барлық мәліметтеріңіз жойылады!"
+
+#: ui/vm/lucky.scm:68
+msgid "Yes, i'm warned"
+msgstr "Иә, мені ескертті"
+
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Таңдау"
+
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
+msgid "OK"
+msgstr "ОК"
+
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
+msgid "Cancel"
+msgstr "Бас тарту"
+
+#: ui/vm/blonde.scm:45
+msgid "Name"
+msgstr "Аты"
+
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
+msgid "Filesystem"
+msgstr "Файлдық жүйе"
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
+msgstr "Өлшемі [бос]"
+
+#: ui/vm/blonde.scm:83
+msgid "Use unpartitioned disk space"
+msgstr "Бөлінбеген диск орнын қолдану"
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr "Барлық бөлімдерді жойып, қайта автобөлімдеу"
+
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr "Таңдауыңызша орнату"
+
+#: ui/vm/blonde.scm:91
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr ""
+"Барлық дисктеріңіздегі (ауыстырмалы дисктерді қоса) барлық мәліметтеріңіз "
+"жойылады! Жалғастыру керек пе?"
+
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr "Бөлімдер"
+
+#: ui/vm/blonde.scm:101
+msgid "Select installation method"
+msgstr "Орнату тәсілін таңдаңыз"
+
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
+msgstr "Автобөлімдеу мүмкін емес, дискідегі орын жеткіліксіз"
+
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
+msgstr "Күте тұрыңыз..."
+
+#: ui/vm/ortodox.scm:40
+msgid " of "
+msgstr " барлығы"
+
+#: ui/vm/ortodox.scm:40
+msgid " free"
+msgstr " бос"
+
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
+msgstr "керек бос орын:"
+
+#: ui/vm/ortodox.scm:70
+msgid "All data from all your disks will be lost! Continue?"
+msgstr ""
+"Барлық дисктеріңіздегі барлық мәліметтеріңіз жойылады! Жалғастыру керек пе?"
+
+#: ui/vm/ortodox.scm:78
+msgid "Select disks for use"
+msgstr "Қолдану үшін дисктерді таңдаңыз"
+
+#: ui/vm/ortodox.scm:83
+msgid "Select profile"
+msgstr "Профильді таңдаңыз"
+
+#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
+msgid "Options"
+msgstr "Опциялар"
+
+#: ui/vm/ortodox.scm:92
+msgid "Clear all before applying profile"
+msgstr "Профильді іске асыру алдында барлығын тазарту"
+
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
+msgstr "Профильді іске асырғаннан кейін өзгерістерді енгізуді қалаймын"
+
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
+msgstr "Таңдалған профильді іске асыру мүмкін емес, дискідегі орын жеткіліксіз"
+
+#: ui/vm/dummystr.scm:2
+msgid "Size"
+msgstr "Өлшемі"
+
+#: ui/vm/dummystr.scm:3
+msgid "Offset"
+msgstr "Шегіну"
+
+#: ui/vm/dummystr.scm:4
+msgid "Primary Partition"
+msgstr "Біріншілік бөлім"
+
+#: ui/vm/dummystr.scm:5
+msgid "Partition Type"
+msgstr "Бөлім түрі"
+
+#. fsims
+#: ui/vm/dummystr.scm:7
+msgid "Ext2/3/4 File System Interface Module"
+msgstr "Ext2/3/4 файлдық жүйесі"
+
+#: ui/vm/dummystr.scm:8
+msgid "XFS File System Interface Module"
+msgstr "XFS файлдық жүйесі"
+
+#: ui/vm/dummystr.scm:9
+msgid "JFS File System Interface Module"
+msgstr "JFS файлдық жүйесі"
+
+#: ui/vm/dummystr.scm:10
+msgid "ReiserFS File System Interface Module"
+msgstr "ReiserFS файлдық жүйесі"
+
+#: ui/vm/dummystr.scm:11
+msgid "Swap File System Interface Module"
+msgstr "Swap бөлімі"
+
+#: ui/vm/dummystr.scm:12
+msgid "FAT32 File System Interface Module"
+msgstr "FAT32 файлдық жүйесі"
+
+#: ui/vm/dummystr.scm:13
+msgid "FAT16 File System Interface Module"
+msgstr "FAT16 файлдық жүйесі"
+
+#: ui/vm/dummystr.scm:14
+msgid "NTFS File System Interface Module"
+msgstr "NTFS файлдық жүйесі"
+
+#: ui/vm/dummystr.scm:15
+msgid "OpenGFS File System Interface Module"
+msgstr "OpenGFS файлдық жүйесі"
+
+#: ui/vm/dummystr.scm:16
+msgid "OCFS2 File System Interface Module"
+msgstr "OCFS2 файлдық жүйесі"
+
+#: ui/vm/dummystr.scm:17
+msgid "BtrFS File System Interface Module"
+msgstr "BtrFS файлдық жүйесі"
+
+#. ext2/3
+#: ui/vm/dummystr.scm:20
+msgid "Check For Bad Blocks"
+msgstr "Жаман блоктарға тексеру"
+
+#: ui/vm/dummystr.scm:21
+msgid "Read/Write Check For Bad Blocks"
+msgstr "Жаман блоктарға оқу/жазу сынауы"
+
+#: ui/vm/dummystr.scm:22
+msgid "Volume Label"
+msgstr "Бөлім белгісі"
+
+#: ui/vm/dummystr.scm:23
+msgid "Use Ext4 extents"
+msgstr "Ext4 кеңейтулерін қолдану"
+
+#: ui/vm/dummystr.scm:24
+msgid "Create Ext3 Journal"
+msgstr "Ext3 журналын жасау"
+
+#. xfs
+#: ui/vm/dummystr.scm:26
+msgid "External Journal Volume"
+msgstr "Сыртқы журнал үшін том"
+
+#: ui/vm/dummystr.scm:27
+msgid "Log Size"
+msgstr "Лог өлшемі"
+
+#: ui/vm/dummystr.scm:28
+msgid "Force"
+msgstr "Мәжбүрлету"
+
+#. jfs
+#: ui/vm/dummystr.scm:30
+msgid "Case Insensitive"
+msgstr "Регистрге тәуелсіз"
+
+#: ui/vm/dummystr.scm:31
+msgid "Inline Log Size"
+msgstr "Журналдау аймағының өлшемі"
+
+#. reiserfs FIXME
+#: ui/vm/dummystr.scm:33
+msgid "Version of mkreiserfs"
+msgstr "mkreiserfs нұсқасы"
+
+#. swap
+#: ui/vm/dummystr.scm:35
+msgid "Check for bad blocks"
+msgstr "Жаман блоктарға тексеру"
+
+#. fat16/32
+#: ui/vm/dummystr.scm:37
+msgid "Volume label"
+msgstr "Бөлім белгісі"
+
+#. ntfs
+#: ui/vm/dummystr.scm:39
+msgid "Cluster size"
+msgstr "Кластер өлшемі"
+
+#: ui/vm/dummystr.scm:40
+msgid "MFT zone multiplier"
+msgstr "MFT зонасының көбейткіші"
+
+#: ui/vm/dummystr.scm:41
+msgid "Compression"
+msgstr "Сығу"
+
+#: ui/vm/dummystr.scm:42
+msgid "Quick mkfs"
+msgstr "Жылдам mkfs"
+
+#. lvm2 vg
+#: ui/vm/dummystr.scm:44
+msgid "Name for the new LVM2 container."
+msgstr "LVM2 томдар тобының атауы."
+
+#: ui/vm/dummystr.scm:45
+msgid "Extent-size for the new LVM2 container."
+msgstr "Жаңа LVM2 томдар тобының экстент өлшемі."
+
+#. lvm2 lv
+#: ui/vm/dummystr.scm:47
+msgid "Name for the new LVM2 region."
+msgstr "Жаңа LVM2 том атауы."
+
+#: ui/vm/dummystr.scm:48
+msgid "Size for the new LVM2 region."
+msgstr "Жаңа LVM2 том өлшемі."
+
+#: ui/vm/dummystr.scm:49
+msgid "Number of stripes for the new LVM2 region."
+msgstr "Жаңа LVM2 томы үшін қатпарланулар (stripes) саны."
+
+#: ui/vm/dummystr.scm:50
+msgid "Objects (PVs) to place the new LVM2 region on."
+msgstr "Қай құрылғыларда орналастыру"
+
+#. raidx
+#: ui/vm/dummystr.scm:52
+msgid "MD RAID0 Region Manager"
+msgstr "RAID0 деңгейіндегі MD құрылғысы"
+
+#: ui/vm/dummystr.scm:53
+msgid "MD Raid 1 Region Manager"
+msgstr "RAID1 деңгейіндегі MD құрылғысы"
+
+#: ui/vm/dummystr.scm:54
+msgid "MD RAID 4/5 Region Manager"
+msgstr "RAID4/5 деңгейлеріндегі MD құрылғысы"
+
+#. raid0
+#: ui/vm/dummystr.scm:56
+msgid "Chunk Size:"
+msgstr "Чанк өлшемі:"
+
+#: ui/vm/dummystr.scm:57
+msgid "Version 1 Super Block"
+msgstr "1 нұсқалы супер блогы"
+
+#. raid1
+#: ui/vm/dummystr.scm:59
+msgid "Degraded array"
+msgstr "Құлдыраған массив"
+
+#: ui/vm/dummystr.scm:60
+msgid "Spare Disk"
+msgstr "Резервті диск"
+
+#. raid5
+#: ui/vm/dummystr.scm:62
+msgid "RAID5 Algorithm"
+msgstr "RAID5 алгоритмі"
+
+#: ui/vm/dummystr.scm:63
+msgid "RAID level"
+msgstr "RAID деңгейі"
+
+#: ui/vm/dummystr.scm:64
+msgid "Chunk size"
+msgstr "Чанк өлшемі"
+
+#. expand seg
+#: ui/vm/dummystr.scm:66
+msgid "Additional Size"
+msgstr "Қосымша өлшемі"
+
+#. shrink seg
+#: ui/vm/dummystr.scm:68
+msgid "Shrink by Size"
+msgstr "Кішірейту шамасы"
+
+#. expand lv
+#: ui/vm/dummystr.scm:70
+msgid "Extra size for the LVM2 region."
+msgstr "Жаңа өлшемі."
+
+#: ui/vm/dummystr.scm:71
+msgid "Number of stripes for the new portion of the region."
+msgstr "Жаңа аймақ үшін қатпарланулар (stripes) саны."
+
+#: ui/vm/dummystr.scm:72
+msgid "Objects (PVs) to use for the new portion of the region."
+msgstr "Жаңа аймақты қай құрылғыларда орналастыру"
+
+#. shrink lv
+#: ui/vm/dummystr.scm:74
+msgid "Size to remove from the LVM2 region."
+msgstr "LVM2 томын кішірейту шамасы."
+
+#. assign
+#: ui/vm/dummystr.scm:76
+msgid "Mount Options"
+msgstr "Тіркеу опциялары"
+
+#: ui/vm/dummystr.scm:77
+msgid "Format before using"
+msgstr "Қолдану алдында пішімдеу"
+
+#. profiles
+#: ui/vm/dummystr.scm:79
+msgid "Setup for server"
+msgstr "Сервер үшін орнату"
+
+#: ui/vm/dummystr.scm:80
+msgid "Setup for workstation"
+msgstr "Жұмыс станциясы үшін орнату"
+
+#: ui/vm/dummystr.scm:81
+msgid "Custom"
+msgstr "Таңдауыңызша"
+
+#. misc
+#: ui/vm/dummystr.scm:83
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+msgstr ""
+"Ескертеміз, Vista бөлімдерінің өлшемін өзгерту оның жүктеле алмауына әкеп "
+"соғуы мүмкін. Жалғастырамыз ба?"
+
+#. guile-evms
+#: ui/vm/dummystr.scm:85
+msgid "Invalid mountpoint"
+msgstr "Тіркеу нүктесі қате"
+
+#: ui/vm/dummystr.scm:86
+msgid "Invalid mountpoint for SWAPFS"
+msgstr "SWAPFS үшін тіркеу нүктесі қате"
+
+#: ui/vm/dummystr.scm:87
+msgid "Invalid mountpoint: not a SWAPFS"
+msgstr "Тіркеу нүктесі қате: SWAPFS емес"
+
+#: ui/vm/dummystr.scm:88
+msgid "Invalid mountpoint: should start with /mnt"
+msgstr "Тіркеу нүктесі қате: /mnt басталуы тиіс"
+
+#: ui/vm/dummystr.scm:89
+msgid " reboot, then continue installation."
+msgstr " компьютерді қайта іске қосыңыз, одан кейін орнатуды жалғастырыңыз."
+
+#: ui/vm/dummystr.scm:90 ui/vm/table.scm:197
+msgid "Mountpoint"
+msgstr "Тіркеу нүктесі"
+
+#: ui/vm/dummystr.scm:91
+msgid "Dump Frequency"
+msgstr "Дамп жиілігі"
+
+#: ui/vm/dummystr.scm:92
+msgid "Check order"
+msgstr "Тексеру кезегі"
+
+#: ui/vm/dummystr.scm:93
+msgid "inaccesible or not a directory"
+msgstr "қолжетерсіз, не бума емес"
+
+#: ui/vm/dummystr.scm:94
+msgid "Operation not permitted"
+msgstr "Әрекетке рұқсат жоқ"
+
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr "Объекттер"
+
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr "Келесі әрекет"
+
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
+msgstr "Қосымша опцияларды көрсету"
+
+#: ui/vm/table.scm:86
+msgid "Congrats! You've found a secret level!"
+msgstr "Құттықтаймыз! Құпия деңгейге жеттіңіз!"
+
+#: ui/vm/table.scm:123
+msgid "Please assign \"/\" mount point"
+msgstr "\"/\" тіркеу нүктесін тағайындаңыз"
+
+#: ui/vm/table.scm:127
+msgid ""
+"To install GRUB on disk with GPT, need create 1MiB (minimum size) 'bios "
+"boot' partition. Continue?"
+msgstr ""
+"GRUB жүктеушісін GPT бар дискіне орнату үшін, өлшемі 1МиБ (минимум) болатын "
+"'bios boot' бөлімін жасау керек. Жалғастырамыз ба?"
+
+#: ui/vm/table.scm:136
+msgid "Apply requested changes?"
+msgstr "Сұралған өзгерістерді іске асыру керек пе?"
+
+#: ui/vm/table.scm:141
+msgid "All data on following partitions will be lost:"
+msgstr "Келесі бөлімдерден барлық мәлімет жойылады:"
+
+#: ui/vm/table.scm:144
+msgid "Continue?"
+msgstr "Жалғастыру керек пе?"
+
+#: ui/vm/table.scm:193
+msgid "   Name   "
+msgstr "   Аты"
+
+#: ui/vm/table.scm:194
+msgid "Size [ free ]"
+msgstr "Өлшемі [бос]"
+
+#: ui/vm/table.scm:198
+msgid "Mounted on"
+msgstr "Тіркелген жері"
+
+#: ui/vm/table.scm:199
+msgid "Mount options"
+msgstr "Тіркеу опциялары"
+
+#: ui/vm/table.scm:202
+msgid "Create RAID"
+msgstr "RAID жасау"
+
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:214
+#: ui/vm/table.scm:222 ui/vm/table.scm:227 ui/vm/table.scm:230
+msgid "Destroy"
+msgstr "Жою"
+
+#: ui/vm/table.scm:205
+msgid "Create Volume Group"
+msgstr "Томдар тобын жасау"
+
+#: ui/vm/table.scm:206 ui/vm/table.scm:212 ui/vm/table.scm:220
+#: ui/vm/table.scm:225
+msgid "Expand"
+msgstr "Кеңейту"
+
+#: ui/vm/table.scm:207 ui/vm/table.scm:213 ui/vm/table.scm:221
+#: ui/vm/table.scm:226
+msgid "Shrink"
+msgstr "Кішірейту"
+
+#: ui/vm/table.scm:210 ui/vm/table.scm:224
+msgid "Create Volume"
+msgstr "Томды жасау"
+
+#: ui/vm/table.scm:211 ui/vm/table.scm:229
+msgid "Create Encrypted Volume"
+msgstr "Шифрленген томды жасау"
+
+#: ui/vm/table.scm:216 ui/vm/table.scm:218
+msgid "Create Partition"
+msgstr "Бөлімді жасау"
+
+#: ui/vm/table.scm:217
+msgid "Destroy Partition Table"
+msgstr "Бөлімдер кестесін жою"
+
+#: ui/vm/table.scm:219
+msgid "Create Encrypted Partition"
+msgstr "Шифрленген бөлімді жасау"
+
+#: ui/vm/table.scm:233 ui/vm/table.scm:236
+msgid "Make Filesystem"
+msgstr "Файлдық жүйені жасау"
+
+#: ui/vm/table.scm:234 ui/vm/table.scm:240
+msgid "Remove Filesystem"
+msgstr "Файлдық жүйені өшіру"
+
+#: ui/vm/table.scm:235
+msgid "Edit Mountpoint"
+msgstr "Тіркеу нүктесін түзету"
+
+#: ui/vm/table.scm:237
+msgid "Check Filesystem"
+msgstr "Файлдық жүйені тексеру"
+
+#: ui/vm/table.scm:238
+msgid "Mount Filesystem"
+msgstr "Файлдық жүйені тіркеу"
+
+#: ui/vm/table.scm:239
+msgid "Umount Filesystem"
+msgstr "Файлдық жүйені тіркеуден босату"
+
+#: ui/vm/table.scm:264
+msgid "Reset"
+msgstr "Тастау"
+
+#: ui/vm/table.scm:269
+msgid "Apply"
+msgstr "Іске асыру"

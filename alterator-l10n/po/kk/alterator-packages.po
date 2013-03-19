@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: alterator-l10n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"PO-Revision-Date: 2013-03-17 13:04+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: standard input:1
+msgid "Packages"
+msgstr "Дестелер"
+
+#: ui/packages/view-profile.scm:102
+msgid "Profiles"
+msgstr "Профильдер"
+
+#: ui/packages/update.scm:6 ui/packages/update.scm:51
+msgid "Updating Indices..."
+msgstr "Индекстерді жаңарту..."
+
+#: ui/packages/update.scm:18 ui/packages/install.scm:31
+msgid "Preparing..."
+msgstr "Дайындау..."
+
+#: ui/packages/update.scm:22
+msgid "Updating..."
+msgstr "Жаңарту..."
+
+#: ui/packages/error.scm:6 ui/packages/error.scm:8
+msgid "Error during package installation"
+msgstr "Дестелерді орнату кезінде қате орын алды"
+
+#: ui/packages/error.scm:17
+msgid "Unable to get"
+msgstr "Алу мүмкін емес"
+
+#: ui/packages/error.scm:19
+msgid "Unable to locate"
+msgstr "Табу мүмкін емес"
+
+#: ui/packages/error.scm:21
+msgid "Unable to download"
+msgstr "Жүктеп алу мүмкін емес"
+
+#: ui/packages/error.scm:23
+msgid "Unable to install"
+msgstr "Орнату мүмкін емес"
+
+#: ui/packages/error.scm:25
+msgid "Internal error"
+msgstr "Ішкі қате"
+
+#: ui/packages/error.scm:29
+msgid "Close"
+msgstr "Жабу"
+
+#: ui/packages/index.scm:17
+msgid "Packages Installation"
+msgstr "Дестелерді орнату"
+
+#: ui/packages/index.scm:26
+msgid "Please wait..."
+msgstr "Күте тұрыңыз..."
+
+#: ui/packages/index.scm:112
+msgid "View:"
+msgstr "Қарау:"
+
+#: ui/packages/index.scm:137
+msgid "Keywords:"
+msgstr "Кілт сөздер:"
+
+#: ui/packages/index.scm:233
+msgid "Show package description"
+msgstr "Десте сипаттамасын көрсету"
+
+#: ui/packages/index.scm:263
+msgid "Be freed on disk"
+msgstr "Диск орны босатылады"
+
+#: ui/packages/index.scm:264 ui/packages/index.scm:320
+msgid "Be used on disk"
+msgstr "Диск орны қолданылады"
+
+#: ui/packages/index.scm:281
+msgid "Show statistics"
+msgstr "Статистиканы көрсету"
+
+#: ui/packages/index.scm:292
+msgid "Available"
+msgstr "Қолжетерлік"
+
+#: ui/packages/index.scm:296
+msgid "Installed"
+msgstr "Орнатылған"
+
+#: ui/packages/index.scm:300
+msgid "install"
+msgstr "орнату"
+
+#: ui/packages/index.scm:304
+msgid "upgrade"
+msgstr "жаңарту"
+
+#: ui/packages/index.scm:308
+msgid "keep"
+msgstr "ұстау"
+
+#: ui/packages/index.scm:312
+msgid "remove"
+msgstr "өшіру"
+
+#: ui/packages/index.scm:316
+msgid "Need to get"
+msgstr "Алу керек"
+
+#: ui/packages/index.scm:366
+msgid "Update"
+msgstr "Жаңарту"
+
+#: ui/packages/index.scm:371
+msgid "Reset"
+msgstr "Тастау"
+
+#: ui/packages/index.scm:377
+msgid "Undo"
+msgstr "Болдырмау"
+
+#: ui/packages/index.scm:383
+msgid "Redo"
+msgstr "Қайталау"
+
+#: ui/packages/index.scm:389
+msgid "Apply"
+msgstr "Іске асыру"
+
+#: ui/packages/install.scm:19 ui/packages/install.scm:125
+msgid "Applying changes..."
+msgstr "Өзгерістерді іске асыру..."
+
+#: ui/packages/install.scm:37
+msgid "Install"
+msgstr "Орнату"
+
+#: ui/packages/install.scm:37
+msgid "Download"
+msgstr "Жүктеп алу"
+
+#: ui/packages/install.scm:87
+msgid "Please insert CDROM, labeled as "
+msgstr "Келесідей белгіленген CDROM салыңыз:"
+
+#: ui/packages/view-search.scm:61
+msgid "Search"
+msgstr "Іздеу"
+
+#: ui/packages/view-groups.scm:57
+msgid "Groups"
+msgstr "Топтар"
+
+#: ui/packages/view-pending.scm:11
+msgid "Be Kept"
+msgstr "Ұсталады"
+
+#: ui/packages/view-pending.scm:12
+msgid "Be Installed"
+msgstr "Орнатылады"
+
+#: ui/packages/view-pending.scm:13
+msgid "Be Removed"
+msgstr "Өшіріледі"
+
+#: ui/packages/view-pending.scm:14
+msgid "Be Upgraded"
+msgstr "Жаңартылады"
+
+#: ui/packages/view-pending.scm:15
+msgid "Important"
+msgstr "Маңызды"
+
+#: ui/packages/view-pending.scm:92
+msgid "Pending"
+msgstr "Кезекте"
