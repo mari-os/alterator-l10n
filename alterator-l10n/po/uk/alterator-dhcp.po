@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2013-03-21 19:14+0400\n"
 "PO-Revision-Date: 2009-08-21 16:19+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -23,118 +23,123 @@ msgstr ""
 msgid "DHCP server"
 msgstr "Сервер DHCP"
 
-#: standard input:1
+#: standard input:1 input:10
+#, fuzzy
+msgid "Select IP version:"
+msgstr "Обрати дію:"
+
+#: standard input:2 input:30
+msgid "MAC address:"
+msgstr "MAC адреса:"
+
+#: standard input:3 input:29
+msgid "IP address:"
+msgstr "IP адреса:"
+
+#: standard input:4 input:31
+msgid "Computer name:"
+msgstr "Ім'я комп'ютера:"
+
+#: standard input:5 input:21
+msgid "Apply"
+msgstr "Застосувати"
+
+#: standard input:6 input:22
+msgid "Reset"
+msgstr "Скинути"
+
+#: standard input:7
 msgid ""
 "You must have statically configured ethernet interface to setup dhcp server."
 msgstr ""
 "Ви маєте налаштувати статичний мережевий інтерфейс для створення DHCP "
 "сервера."
 
-#: standard input:2
+#: standard input:8
 msgid "Reconfigure ethernet interfaces..."
 msgstr "Переналаштувати мережеві інтерфейси..."
 
-#: standard input:3
+#: standard input:9
 msgid "General settings"
 msgstr "Загальні налаштування"
 
-#: standard input:4
+#: standard input:11
 msgid "Enable DHCP server"
 msgstr "Увімкнути службу DHCP"
 
-#: standard input:5
+#: standard input:12
 msgid "Interface:"
 msgstr "Інтерфейс:"
 
-#: standard input:6
+#: standard input:13
 msgid "(maximum possible address range)"
 msgstr "(максимально можливий діапазон адреси)"
 
-#: standard input:7
+#: standard input:14
 msgid "Starting IP address:"
 msgstr "Початкова IP адреса:"
 
-#: standard input:8
+#: standard input:15
 msgid "Ending IP address:"
 msgstr "Кінцева IP адреса:"
 
-#: standard input:9
+#: standard input:16
 msgid "Address  expiration time:"
 msgstr "Строк дії адреси"
 
-#: standard input:10
+#: standard input:17
 msgid "Information provided for clients"
 msgstr "Інформація, отримана від клієнтів"
 
-#: standard input:11
+#: standard input:18
 msgid "DNS server:"
 msgstr "Сервер DNS:"
 
-#: standard input:12
+#: standard input:19
 msgid "Search domain:"
 msgstr "Пошуковий домен:"
 
-#: standard input:13
+#: standard input:20
 msgid "Default gateway:"
 msgstr "Типовий шлюз:"
 
-#: standard input:14 input:35
-msgid "Apply"
-msgstr "Застосувати"
-
-#: standard input:15 input:36
-msgid "Reset"
-msgstr "Скинути"
-
-#: standard input:16
+#: standard input:23
 msgid "Static addresses"
 msgstr "Статичні адреси"
 
-#: standard input:17 input:29
+#: standard input:24 input:36
 msgid "IP address"
 msgstr "IP адреса"
 
-#: standard input:18 input:28
+#: standard input:25 input:35
 msgid "MAC address"
 msgstr "MAC адреса"
 
-#: standard input:19 input:27
+#: standard input:26 input:34
 msgid "Computer name"
 msgstr "Ім'я комп'ютера"
 
-#: standard input:20
+#: standard input:27
 msgid "Remove selected"
 msgstr "Вилучити обране"
 
-#: standard input:21
+#: standard input:28
 msgid "New static address:"
 msgstr "Нова статична адреса:"
 
-#: standard input:22 input:33
-msgid "IP address:"
-msgstr "IP адреса:"
-
-#: standard input:23 input:32
-msgid "MAC address:"
-msgstr "MAC адреса:"
-
-#: standard input:24 input:34
-msgid "Computer name:"
-msgstr "Ім'я комп'ютера:"
-
-#: standard input:25
+#: standard input:32
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:26
+#: standard input:33
 msgid "Current dynamically allocated addresses"
 msgstr "Поточні динамічно призначені адреси"
 
-#: standard input:30
+#: standard input:37
 msgid "Expiration time"
 msgstr "Кінцевий час"
 
-#: standard input:31
+#: standard input:38
 msgid "Fix address for selected hosts"
 msgstr "Фіксувати адресу для обраних вузлів"
 
@@ -142,58 +147,70 @@ msgstr "Фіксувати адресу для обраних вузлів"
 msgid "invalid MAC address"
 msgstr "невірна MAC адреса"
 
-#: backend3/dhcp:86
+#: backend3/dhcp:115
 msgid "You should define network interface"
 msgstr "Ви маєте вказати мережевий інтерфейс"
 
-#: backend3/dhcp:89
+#: backend3/dhcp:118
 msgid "You should define address range"
 msgstr "Ви маєте вказати межі адрес"
 
-#: backend3/dhcp:179
+#: backend3/dhcp:197
+msgid "IPv4"
+msgstr ""
+
+#: backend3/dhcp:198
+msgid "IPv6"
+msgstr ""
+
+#: backend3/dhcp:241
 msgid "1 hour"
 msgstr "1 година"
 
-#: backend3/dhcp:180
+#: backend3/dhcp:242
 msgid "2 hours"
 msgstr "2 години"
 
-#: backend3/dhcp:181
+#: backend3/dhcp:243
 msgid "4 hours"
 msgstr "4 години"
 
-#: backend3/dhcp:182
+#: backend3/dhcp:244
 msgid "8 hours"
 msgstr "8 годин"
 
-#: backend3/dhcp:183
+#: backend3/dhcp:245
 msgid "12 hours"
 msgstr "12 годин"
 
-#: backend3/dhcp:184
+#: backend3/dhcp:246
 msgid "1 day"
 msgstr "1 день"
 
-#: backend3/dhcp:185
+#: backend3/dhcp:247
 msgid "1 week"
 msgstr "1 тиждень"
 
-#: backend3/dhcp:186
+#: backend3/dhcp:248
 msgid "2 weeks"
 msgstr "2 тижні"
 
-#: backend3/dhcp:187
+#: backend3/dhcp:249
 msgid "1 month"
 msgstr "1 місяць"
 
-#: backend3/dhcp:241
+#: backend3/dhcp:295
+msgid "Radvd is not installed! DHCPv6 can't work properly"
+msgstr ""
+
+#: backend3/dhcp:304
 msgid "Invalid address range"
 msgstr "Невірний діапазон адрес"
 
-#: backend3/dhcp:276
+#: backend3/dhcp:337
 msgid "Same entry already exists"
 msgstr "Такий запис уже існує"
 
-#: backend3/dhcp:279 backend3/dhcp:293
+#: backend3/dhcp:340 backend3/dhcp:354
 msgid "This computer name is registered for internal purposes"
 msgstr "Таке ім’я комп’ютера зарезервонане для внутрішніх потреб"
