@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2013-03-22 11:40+0400\n"
 "PO-Revision-Date: 2009-03-27 18:26-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -25,63 +25,63 @@ msgid "Install sources"
 msgstr "Instalación de paquetes..."
 
 #: standard input:2
-msgid "Multimedia (full)"
-msgstr ""
-
-#: standard input:3
-msgid "Communications (full)"
-msgstr ""
-
-#: standard input:4
-msgid "Office Suite"
-msgstr ""
-
-#: standard input:5
 #, fuzzy
 msgid "Graphics"
 msgstr "gráficos"
 
-#: standard input:6
+#: standard input:3
+msgid "Multimedia (full)"
+msgstr ""
+
+#: standard input:4
 msgid "Desktop"
 msgstr ""
 
-#: standard input:7
-msgid "Emulators"
-msgstr ""
-
-#: standard input:8
-msgid "Multimedia"
-msgstr ""
-
-#: standard input:9
-#, fuzzy
-msgid "Communications"
-msgstr "Información"
-
-#: standard input:10
-#, fuzzy
-msgid "Graphics (full)"
-msgstr "gráficos"
-
-#: standard input:11
-msgid "Office Suite (full)"
-msgstr ""
-
-#: standard input:12
-msgid "Games"
-msgstr ""
-
-#: standard input:13
+#: standard input:5
 #, fuzzy
 msgid "Documentation"
 msgstr "Autenticación (SASL)"
 
-#: standard input:14
+#: standard input:6
+#, fuzzy
+msgid "Graphics (full)"
+msgstr "gráficos"
+
+#: standard input:7
+msgid "Office Suite"
+msgstr ""
+
+#: standard input:8
+msgid "Communications (full)"
+msgstr ""
+
+#: standard input:9
+msgid "Multimedia"
+msgstr ""
+
+#: standard input:10
+msgid "Office Suite (full)"
+msgstr ""
+
+#: standard input:11
 msgid "Desktop (full)"
 msgstr ""
 
-#: standard input:15
+#: standard input:12
 msgid "Edutainment"
+msgstr ""
+
+#: standard input:13
+msgid "Games"
+msgstr ""
+
+#: standard input:14
+#, fuzzy
+msgid "Communications"
+msgstr "Información"
+
+#: standard input:15
+msgid "Emulators"
 msgstr ""
 
 #: standard input:1 ui/pkg/sources/mirrors/index.scm:52
@@ -124,63 +124,47 @@ msgstr "Alteración"
 msgid "Advanced..."
 msgstr "Avanzado..."
 
-#: ui/pkg/groups/index.scm:129
+#: ui/pkg/groups/index.scm:150
 #, lisp-format
 msgid "Has conflict with ~S"
 msgstr "Hay conflicto con ~S"
 
-#: ui/pkg/groups/index.scm:158
+#: ui/pkg/groups/index.scm:179
 msgid " kB"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:159
+#: ui/pkg/groups/index.scm:180
 msgid " MB"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:160
+#: ui/pkg/groups/index.scm:181
 msgid " GB"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:161
+#: ui/pkg/groups/index.scm:182
 msgid " TB"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:165
+#: ui/pkg/groups/index.scm:186
 msgid "Required disk space"
 msgstr "Requiere de espacio en disco"
 
-#: ui/pkg/groups/index.scm:171
+#: ui/pkg/groups/index.scm:192
 msgid "calculating..."
 msgstr "calculando..."
 
-#: ui/pkg/groups/index.scm:176
-msgid "unable to calculate"
-msgstr "No fue posible calcular"
+#: ui/pkg/groups/index.scm:199
+msgid "unable to install in selected configuration"
+msgstr ""
 
-#: ui/pkg/groups/index.scm:204
+#: ui/pkg/groups/index.scm:230
 #, fuzzy
 msgid "Additional applications:"
 msgstr "Parámetros adicionais"
 
-#: ui/pkg/groups/index.scm:218 ui/pkg/install/index.scm:100
+#: ui/pkg/groups/index.scm:244 ui/pkg/install/index.scm:107
 msgid "Preparing..."
 msgstr "Preparando..."
-
-#: ui/pkg/cdrom/index.scm:7
-msgid "Please insert CDROM labeled as"
-msgstr "Por favor, introduzca la etiqueta de CD-ROM"
-
-#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
-msgid "Unknown"
-msgstr "Desconocido"
-
-#: ui/pkg/cdrom/index.scm:9
-msgid "Into drive"
-msgstr "Driver:"
-
-#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
-msgid "Press 'Next' button to continue"
-msgstr "Haga clic en el botón \"Siguiente\" para continuar"
 
 #: ui/pkg/install/index.scm:34
 msgid "Building packages list"
@@ -211,23 +195,42 @@ msgstr "Adquisición de paquete..."
 msgid "Installing packages..."
 msgstr "Instalación de paquetes..."
 
+#: ui/pkg/cdrom/index.scm:7
+msgid "Please insert CDROM labeled as"
+msgstr "Por favor, introduzca la etiqueta de CD-ROM"
+
+#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: ui/pkg/cdrom/index.scm:9
+msgid "Into drive"
+msgstr "Driver:"
+
+#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+msgid "Press 'Next' button to continue"
+msgstr "Haga clic en el botón \"Siguiente\" para continuar"
+
 #: ui/pkg/error/index.scm:4
 msgid "Critical error during install"
 msgstr "Erro Crítico durante la instalación"
 
-#: backend3/pkg-sources:91
+#: backend3/pkg-sources:94
 #, fuzzy
 msgid ""
 "Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
 msgstr "No válido o no suportado el protocolo. Debe ser http, ftp o archivo"
 
-#: backend3/pkg-sources:94
+#: backend3/pkg-sources:97
 msgid "Same source already exists"
 msgstr "Ya existe la fuente"
 
-#: backend3/pkg-sources:187 backend3/pkg-sources:210
+#: backend3/pkg-sources:190 backend3/pkg-sources:213
 msgid "inactive"
 msgstr "inactivo"
+
+#~ msgid "unable to calculate"
+#~ msgstr "No fue posible calcular"
 
 #~ msgid "Additional disks"
 #~ msgstr "Paquetes adicionales"

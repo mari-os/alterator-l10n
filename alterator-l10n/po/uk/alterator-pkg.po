@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2013-03-22 11:40+0400\n"
 "PO-Revision-Date: 2009-08-23 02:02+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -25,60 +25,60 @@ msgid "Install sources"
 msgstr "Джерела для встановлення ПЗ"
 
 #: standard input:2
-msgid "Multimedia (full)"
-msgstr "Мультимедіа (повністю)"
-
-#: standard input:3
-msgid "Communications (full)"
-msgstr "Комунікації (повністю)"
-
-#: standard input:4
-msgid "Office Suite"
-msgstr "Офісний набір"
-
-#: standard input:5
 msgid "Graphics"
 msgstr "Графіка"
 
-#: standard input:6
+#: standard input:3
+msgid "Multimedia (full)"
+msgstr "Мультимедіа (повністю)"
+
+#: standard input:4
 msgid "Desktop"
 msgstr "Стільниця"
 
-#: standard input:7
-msgid "Emulators"
-msgstr "Емулятори"
-
-#: standard input:8
-msgid "Multimedia"
-msgstr "Мультимедіа"
-
-#: standard input:9
-msgid "Communications"
-msgstr "Комунікації"
-
-#: standard input:10
-msgid "Graphics (full)"
-msgstr "Графіка (повністю)"
-
-#: standard input:11
-msgid "Office Suite (full)"
-msgstr "Офісний набір (повністю)"
-
-#: standard input:12
-msgid "Games"
-msgstr "Ігри"
-
-#: standard input:13
+#: standard input:5
 msgid "Documentation"
 msgstr "Документація"
 
-#: standard input:14
+#: standard input:6
+msgid "Graphics (full)"
+msgstr "Графіка (повністю)"
+
+#: standard input:7
+msgid "Office Suite"
+msgstr "Офісний набір"
+
+#: standard input:8
+msgid "Communications (full)"
+msgstr "Комунікації (повністю)"
+
+#: standard input:9
+msgid "Multimedia"
+msgstr "Мультимедіа"
+
+#: standard input:10
+msgid "Office Suite (full)"
+msgstr "Офісний набір (повністю)"
+
+#: standard input:11
 msgid "Desktop (full)"
 msgstr "Стільниця (повністю)"
 
-#: standard input:15
+#: standard input:12
 msgid "Edutainment"
 msgstr "Освіта"
+
+#: standard input:13
+msgid "Games"
+msgstr "Ігри"
+
+#: standard input:14
+msgid "Communications"
+msgstr "Комунікації"
+
+#: standard input:15
+msgid "Emulators"
+msgstr "Емулятори"
 
 #: standard input:1 ui/pkg/sources/mirrors/index.scm:52
 msgid "Repository:"
@@ -120,66 +120,50 @@ msgstr "Змінити"
 msgid "Advanced..."
 msgstr "Додатково..."
 
-#: ui/pkg/groups/index.scm:129
+#: ui/pkg/groups/index.scm:150
 #, lisp-format
 msgid "Has conflict with ~S"
 msgstr "Знайдено конфлікт з ~S"
 
-#: ui/pkg/groups/index.scm:158
+#: ui/pkg/groups/index.scm:179
 #, fuzzy
 msgid " kB"
 msgstr "кБ"
 
-#: ui/pkg/groups/index.scm:159
+#: ui/pkg/groups/index.scm:180
 #, fuzzy
 msgid " MB"
 msgstr "МБ"
 
-#: ui/pkg/groups/index.scm:160
+#: ui/pkg/groups/index.scm:181
 #, fuzzy
 msgid " GB"
 msgstr "ГБ"
 
-#: ui/pkg/groups/index.scm:161
+#: ui/pkg/groups/index.scm:182
 #, fuzzy
 msgid " TB"
 msgstr "ТБ"
 
-#: ui/pkg/groups/index.scm:165
+#: ui/pkg/groups/index.scm:186
 msgid "Required disk space"
 msgstr "Потрібний дисковий простір"
 
-#: ui/pkg/groups/index.scm:171
+#: ui/pkg/groups/index.scm:192
 msgid "calculating..."
 msgstr "підрахунок..."
 
-#: ui/pkg/groups/index.scm:176
-msgid "unable to calculate"
-msgstr "неможливо підрахувати"
+#: ui/pkg/groups/index.scm:199
+msgid "unable to install in selected configuration"
+msgstr ""
 
-#: ui/pkg/groups/index.scm:204
+#: ui/pkg/groups/index.scm:230
 msgid "Additional applications:"
 msgstr "Додаткові програми:"
 
-#: ui/pkg/groups/index.scm:218 ui/pkg/install/index.scm:100
+#: ui/pkg/groups/index.scm:244 ui/pkg/install/index.scm:107
 msgid "Preparing..."
 msgstr "Підготовка..."
-
-#: ui/pkg/cdrom/index.scm:7
-msgid "Please insert CDROM labeled as"
-msgstr "Будь-ласка, вставте компакт-диск, помічений як"
-
-#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
-msgid "Unknown"
-msgstr "Невідомо"
-
-#: ui/pkg/cdrom/index.scm:9
-msgid "Into drive"
-msgstr "В пристрій"
-
-#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
-msgid "Press 'Next' button to continue"
-msgstr "Натисніть кнопку 'Далі' для продовження"
 
 #: ui/pkg/install/index.scm:34
 msgid "Building packages list"
@@ -209,21 +193,40 @@ msgstr "Отримання пакунків..."
 msgid "Installing packages..."
 msgstr "Встановлення пакунків..."
 
+#: ui/pkg/cdrom/index.scm:7
+msgid "Please insert CDROM labeled as"
+msgstr "Будь-ласка, вставте компакт-диск, помічений як"
+
+#: ui/pkg/cdrom/index.scm:8 ui/pkg/cdrom/index.scm:10 ui/pkg/error/index.scm:5
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: ui/pkg/cdrom/index.scm:9
+msgid "Into drive"
+msgstr "В пристрій"
+
+#: ui/pkg/cdrom/index.scm:11 ui/pkg/error/index.scm:6
+msgid "Press 'Next' button to continue"
+msgstr "Натисніть кнопку 'Далі' для продовження"
+
 #: ui/pkg/error/index.scm:4
 msgid "Critical error during install"
 msgstr "Критична помилка під час інсталяції"
 
-#: backend3/pkg-sources:91
+#: backend3/pkg-sources:94
 msgid ""
 "Invalid or unsupported protocol. Should be http://, ftp://, rsync:// or file:"
 msgstr ""
 "Протокол не вірний, або такий, що не підтримується. Має бути http://, ftp:// "
 "або file:"
 
-#: backend3/pkg-sources:94
+#: backend3/pkg-sources:97
 msgid "Same source already exists"
 msgstr "Таке джерело вже існує"
 
-#: backend3/pkg-sources:187 backend3/pkg-sources:210
+#: backend3/pkg-sources:190 backend3/pkg-sources:213
 msgid "inactive"
 msgstr "неактивно"
+
+#~ msgid "unable to calculate"
+#~ msgstr "неможливо підрахувати"
