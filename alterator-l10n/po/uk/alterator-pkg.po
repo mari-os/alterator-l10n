@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-22 11:40+0400\n"
+"POT-Creation-Date: 2013-04-02 15:00+0400\n"
 "PO-Revision-Date: 2009-08-23 02:02+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -120,48 +120,51 @@ msgstr "Змінити"
 msgid "Advanced..."
 msgstr "Додатково..."
 
-#: ui/pkg/groups/index.scm:150
-#, lisp-format
-msgid "Has conflict with ~S"
-msgstr "Знайдено конфлікт з ~S"
+#: ui/pkg/groups/index.scm:145
+msgid "There are conflicts detected:"
+msgstr ""
 
-#: ui/pkg/groups/index.scm:179
+#: ui/pkg/groups/index.scm:152
+msgid " and "
+msgstr ""
+
+#: ui/pkg/groups/index.scm:198
 #, fuzzy
 msgid " kB"
 msgstr "кБ"
 
-#: ui/pkg/groups/index.scm:180
+#: ui/pkg/groups/index.scm:199
 #, fuzzy
 msgid " MB"
 msgstr "МБ"
 
-#: ui/pkg/groups/index.scm:181
+#: ui/pkg/groups/index.scm:200
 #, fuzzy
 msgid " GB"
 msgstr "ГБ"
 
-#: ui/pkg/groups/index.scm:182
+#: ui/pkg/groups/index.scm:201
 #, fuzzy
 msgid " TB"
 msgstr "ТБ"
 
-#: ui/pkg/groups/index.scm:186
+#: ui/pkg/groups/index.scm:205
 msgid "Required disk space"
 msgstr "Потрібний дисковий простір"
 
-#: ui/pkg/groups/index.scm:192
+#: ui/pkg/groups/index.scm:211
 msgid "calculating..."
 msgstr "підрахунок..."
 
-#: ui/pkg/groups/index.scm:199
+#: ui/pkg/groups/index.scm:218
 msgid "unable to install in selected configuration"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:230
+#: ui/pkg/groups/index.scm:249
 msgid "Additional applications:"
 msgstr "Додаткові програми:"
 
-#: ui/pkg/groups/index.scm:244 ui/pkg/install/index.scm:107
+#: ui/pkg/groups/index.scm:263 ui/pkg/install/index.scm:107
 msgid "Preparing..."
 msgstr "Підготовка..."
 
@@ -227,6 +230,9 @@ msgstr "Таке джерело вже існує"
 #: backend3/pkg-sources:190 backend3/pkg-sources:213
 msgid "inactive"
 msgstr "неактивно"
+
+#~ msgid "Has conflict with ~S"
+#~ msgstr "Знайдено конфлікт з ~S"
 
 #~ msgid "unable to calculate"
 #~ msgstr "неможливо підрахувати"

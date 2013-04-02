@@ -1,14 +1,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2010, 2011, 2013.
+# Andrey Cherepanov <cas@altlinux.ru>, 2008, 2010, 2011, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-22 11:40+0400\n"
-"PO-Revision-Date: 2013-03-22 11:41+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"POT-Creation-Date: 2013-04-02 15:00+0400\n"
+"PO-Revision-Date: 2013-04-02 15:01+0400\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -118,44 +118,47 @@ msgstr "Изменить"
 msgid "Advanced..."
 msgstr "Дополнительно..."
 
-#: ui/pkg/groups/index.scm:150
-#, lisp-format
-msgid "Has conflict with ~S"
-msgstr "Имеется конфликт с ~S"
+#: ui/pkg/groups/index.scm:145
+msgid "There are conflicts detected:"
+msgstr "Обнаружены конфликты"
 
-#: ui/pkg/groups/index.scm:179
+#: ui/pkg/groups/index.scm:152
+msgid " and "
+msgstr " и "
+
+#: ui/pkg/groups/index.scm:198
 msgid " kB"
 msgstr " кБ"
 
-#: ui/pkg/groups/index.scm:180
+#: ui/pkg/groups/index.scm:199
 msgid " MB"
 msgstr " МБ"
 
-#: ui/pkg/groups/index.scm:181
+#: ui/pkg/groups/index.scm:200
 msgid " GB"
 msgstr " ГБ"
 
-#: ui/pkg/groups/index.scm:182
+#: ui/pkg/groups/index.scm:201
 msgid " TB"
 msgstr " ТБ"
 
-#: ui/pkg/groups/index.scm:186
+#: ui/pkg/groups/index.scm:205
 msgid "Required disk space"
 msgstr "Требуемое место на диске"
 
-#: ui/pkg/groups/index.scm:192
+#: ui/pkg/groups/index.scm:211
 msgid "calculating..."
 msgstr "вычисление..."
 
-#: ui/pkg/groups/index.scm:199
+#: ui/pkg/groups/index.scm:218
 msgid "unable to install in selected configuration"
 msgstr "невозможно установить в выбранной конфигурации"
 
-#: ui/pkg/groups/index.scm:230
+#: ui/pkg/groups/index.scm:249
 msgid "Additional applications:"
 msgstr "Дополнительные приложения:"
 
-#: ui/pkg/groups/index.scm:244 ui/pkg/install/index.scm:107
+#: ui/pkg/groups/index.scm:263 ui/pkg/install/index.scm:107
 msgid "Preparing..."
 msgstr "Подготовка..."
 
@@ -221,6 +224,9 @@ msgstr "Подобный источник уже существует"
 #: backend3/pkg-sources:190 backend3/pkg-sources:213
 msgid "inactive"
 msgstr "неактивно"
+
+#~ msgid "Has conflict with ~S"
+#~ msgstr "Имеется конфликт с ~S"
 
 #~ msgid "unable to calculate"
 #~ msgstr "невозможно вычислить"
