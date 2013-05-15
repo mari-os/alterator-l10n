@@ -60,7 +60,40 @@
     Use the <em>Groups</em> section to view and edit that
     policies. For each group of users a number of restricted
     (or allowed) domains can be defined. For the user group membership
-    management system-wide module "Users/Groups" can be used.</p>
+    management system-wide module "Users/Groups" can be used. Access policies for
+    special groups "All users" and "Authenticated users" are processed in a
+    some different way than the individual policies for user groups.</p>
+
+    <p>Allowing policy for "All users" is a white-list of domains with the
+    highest priority: the access to the domains is granted to all users with no
+    exceptions. It is useful when you do not care to deny access to some public
+    sites such as search engines. However, when the domain list is empty, the
+    access is granted to absolutely all sites. Could be useful to disable
+    ACLs on the proxy server for a while.</p>
+
+    <p>Allowing policy for "Authenticated users" is a white-list of domains with the
+    second-to-top priority level: the access to the domains is granted to all
+    authenticated users with no more exceptions. It is useful when you want to grant
+    some more privileges to the logged-in users comparing to the anonymous ones.
+    However, when the domain list is empty, the access is granted to absolutely all
+    sites, if the user is logged-in. Useful when you want to restrict the Internet
+    access only for anonymous users.</p>
+
+    <p>Individual policies for user groups are point-like: allowing access to some
+    domains doesn't mean that it is denied for other domains. Same thing for the denying
+    policy. These policies have the mid-level priority and are useful to define
+    exceptions.</p>
+
+    <p>Denying policy for "Authenticated users" is a black-list of domains with the
+    second-to-bottom priority level: the access to the listed domains is denied for
+    a logged-in user if there is no individual policy that grants the access. Furthmore,
+    the access is granted to all non-listed sites. The policy is useful when there are
+    only few restrictions for logged-in users and more restrictions for anonymous ones.</p>
+
+    <p>Denying policy for "All users" is a black-list of domains with the lowest priority:
+    the access to the listed domains is denied for a user if any other policy doesn't grant
+    the access and all non-listed sites are permitted. The policy is useful when there are
+    only few restrictions for Internet access at all.</p>
 
     <h3>View proxy-server statistic reports</h3>
     <p>Information on every request forwarded to the outer network is
