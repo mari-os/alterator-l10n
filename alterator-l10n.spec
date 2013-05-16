@@ -110,7 +110,7 @@ make check
 %lang(kk) %_datadir/locale/kk/LC_MESSAGES/*.mo
 
 %changelog
-* Wed May 15 2013 Paul Wolneykien <manowar@altlinux.org> 2.9-alt61
+* Thu May 16 2013 Paul Wolneykien <manowar@altlinux.org> 2.9-alt61
 - Update the English alterator-squid manual.
 - Update the Russian alterator-squid manual.
 
