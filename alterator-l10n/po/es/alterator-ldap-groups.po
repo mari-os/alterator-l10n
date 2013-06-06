@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-25 16:45+0400\n"
+"POT-Creation-Date: 2013-06-06 22:31+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -170,15 +170,29 @@ msgstr "Adiccionar"
 
 #: standard input:32
 #, fuzzy
+msgid "Group mapping"
+msgstr "Drop mail"
+
+#: standard input:33
+#, fuzzy
+msgid "Map to system group:"
+msgstr "Saltar Grupos de Sistemas"
+
+#: standard input:34
+msgid "Map to Samba group:"
+msgstr ""
+
+#: standard input:35
+#, fuzzy
 msgid "Group settings successfully updated"
 msgstr "Administrador del Sistema"
 
-#: standard input:33
+#: standard input:36
 #, fuzzy
 msgid "Save settings"
 msgstr "Ajustes"
 
-#: standard input:34
+#: standard input:37
 #, fuzzy
 msgid "Delete group"
 msgstr "No es posible adiccionar excluir el grupo"
@@ -187,6 +201,12 @@ msgstr "No es posible adiccionar excluir el grupo"
 #, fuzzy
 msgid "only latin letters, digits, dot, space and '_' allowed"
 msgstr "apenas dígitos con letras permitido '_'"
+
+#. Add first item
+#: backend3/ldap-groups:313
+#, fuzzy
+msgid "Select system group:"
+msgstr "Saltar Grupos de Sistemas"
 
 #, fuzzy
 #~ msgid "Members:"
@@ -205,10 +225,6 @@ msgstr "apenas dígitos con letras permitido '_'"
 #, fuzzy
 #~ msgid "E-mail:"
 #~ msgstr "Host Email"
-
-#, fuzzy
-#~ msgid "Group's email:"
-#~ msgstr "Drop mail"
 
 #~ msgid "Save"
 #~ msgstr "Salvar"

@@ -1,24 +1,24 @@
-# translation of alterator-ldap-groups.po to
+# translation of alterator-ldap-groups.po into Russian
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sergey Lebedev <lsv@altlinux.ru>, 2009.
-# Andrey Cherepanov <skull@kde.ru>, 2012.
+# Andrey Cherepanov <cas@altlinux.org>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: alterator-ldap-groups\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-25 16:45+0400\n"
-"PO-Revision-Date: 2012-10-25 17:04+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"POT-Creation-Date: 2013-06-06 22:31+0400\n"
+"PO-Revision-Date: 2013-06-06 22:44+0400\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.org>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Ldap group accounts"
@@ -149,20 +149,37 @@ msgid "Add"
 msgstr "Добавить"
 
 #: standard input:32
+msgid "Group mapping"
+msgstr "Привязка групп"
+
+#: standard input:33
+msgid "Map to system group:"
+msgstr "Привязка к системной группе:"
+
+#: standard input:34
+msgid "Map to Samba group:"
+msgstr "Привязка к группе Samba:"
+
+#: standard input:35
 msgid "Group settings successfully updated"
 msgstr "Параметры группы успешно обновлены"
 
-#: standard input:33
+#: standard input:36
 msgid "Save settings"
 msgstr "Сохранить параметры"
 
-#: standard input:34
+#: standard input:37
 msgid "Delete group"
 msgstr "Удалить группу"
 
 #: type/ldap-group-name.scm:12
 msgid "only latin letters, digits, dot, space and '_' allowed"
 msgstr "допустимы только латинские символы, цифры, пробел и символ '_'"
+
+#. Add first item
+#: backend3/ldap-groups:313
+msgid "Select system group:"
+msgstr "Выберите системную группу:"
 
 #~ msgid "Members:"
 #~ msgstr "Состав:"

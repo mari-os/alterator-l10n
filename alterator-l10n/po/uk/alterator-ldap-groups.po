@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-ldap-groups\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-25 16:45+0400\n"
+"POT-Creation-Date: 2013-06-06 22:31+0400\n"
 "PO-Revision-Date: 2009-08-22 01:05+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -165,14 +165,28 @@ msgid "Add"
 msgstr "Додати"
 
 #: standard input:32
+#, fuzzy
+msgid "Group mapping"
+msgstr "Email групи:"
+
+#: standard input:33
+#, fuzzy
+msgid "Map to system group:"
+msgstr "Пропустити системні групи"
+
+#: standard input:34
+msgid "Map to Samba group:"
+msgstr ""
+
+#: standard input:35
 msgid "Group settings successfully updated"
 msgstr "Налаштування груп успішно оновлено"
 
-#: standard input:33
+#: standard input:36
 msgid "Save settings"
 msgstr "Зберегти налаштування"
 
-#: standard input:34
+#: standard input:37
 msgid "Delete group"
 msgstr "Вилучити групу"
 
@@ -180,6 +194,12 @@ msgstr "Вилучити групу"
 #, fuzzy
 msgid "only latin letters, digits, dot, space and '_' allowed"
 msgstr "дозволені лише латинські літери, цифри та символи ’-’ і ’_’"
+
+#. Add first item
+#: backend3/ldap-groups:313
+#, fuzzy
+msgid "Select system group:"
+msgstr "Пропустити системні групи"
 
 #~ msgid "Members:"
 #~ msgstr "Склад:"
