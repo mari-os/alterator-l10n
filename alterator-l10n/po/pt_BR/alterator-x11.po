@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-23 17:25+0400\n"
+"POT-Creation-Date: 2013-06-14 17:49+0400\n"
 "PO-Revision-Date: 2009-01-29 13:20-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -24,66 +24,29 @@ msgstr ""
 msgid "Display"
 msgstr "Vídeo"
 
-#: standard input:1 ui/x11/driver/index.scm:10
-msgid "Drivers:"
-msgstr "Drivers"
-
-#: standard input:2 input:5 input:14 ui/x11/index.scm:83
-msgid "Apply"
-msgstr "Aplicar"
-
-#: standard input:3 input:6 input:15
-msgid "Reset"
-msgstr "Resetar"
-
-#: standard input:4 ui/x11/monitor/index.scm:9
+#: standard input:1 ui/x11/monitor/index.scm:9
 msgid "Monitor vendors:"
 msgstr "Marca do Monitor:"
 
-#: standard input:7 ui/x11/index.scm:32
-msgid "Detected hardware"
-msgstr "Hadware Detectado"
+#: standard input:2 input:5 ui/x11/index.scm:127
+msgid "Apply"
+msgstr "Aplicar"
 
-#: standard input:8 ui/x11/index.scm:38
-msgid "Video card:"
-msgstr "Placa de Vídeo:"
+#: standard input:3 input:6
+msgid "Reset"
+msgstr "Resetar"
 
-#: standard input:9 ui/x11/index.scm:49
-msgid "Current settings"
-msgstr "Configurações Atuais"
+#: standard input:4 ui/x11/driver/index.scm:10
+msgid "Drivers:"
+msgstr "Drivers"
 
-#: standard input:10 ui/x11/index.scm:55
-msgid "Driver:"
-msgstr "Driver:"
-
-#: standard input:11 ui/x11/index.scm:59
-msgid "Other driver..."
-msgstr "Outro driver..."
-
-#: standard input:12 ui/x11/index.scm:64
-msgid "Color depth:"
-msgstr "Cor do Depth:"
-
-#: standard input:13 ui/x11/index.scm:70
-msgid "Resolution:"
-msgstr "Resolução"
-
-#: ui/x11/driver/index.scm:25 ui/x11/monitor/index.scm:22
+#: ui/x11/monitor/index.scm:22 ui/x11/driver/index.scm:25
 msgid "OK"
 msgstr "OK"
 
-#: ui/x11/driver/index.scm:31 ui/x11/monitor/index.scm:28
+#: ui/x11/monitor/index.scm:28 ui/x11/driver/index.scm:31
 msgid "Cancel"
 msgstr "Cancelar"
-
-#: ui/x11/index.scm:17
-#, fuzzy
-msgid "Changes will take effect after reboot"
-msgstr "Todas as alterações terão efeito após o reinício do servidor HTTP."
-
-#: ui/x11/index.scm:86
-msgid "Quit"
-msgstr "Sair"
 
 #. messages from C tools
 #: ui/x11/c-messages.scm:2
@@ -106,39 +69,94 @@ msgstr "Clique no Botão \"Sim\" se você está olhando a Foto Correta!"
 msgid "Resume"
 msgstr "Resumir"
 
-#: backend3/x11:132 backend3/x11:160 backend3/x11:185
+#: ui/x11/index.scm:31
+#, fuzzy
+msgid "Changes will take effect after reboot"
+msgstr "Todas as alterações terão efeito após o reinício do servidor HTTP."
+
+#: ui/x11/index.scm:46
+msgid "Detected hardware"
+msgstr "Hadware Detectado"
+
+#: ui/x11/index.scm:52
+msgid "Video card:"
+msgstr "Placa de Vídeo:"
+
+#: ui/x11/index.scm:63
+msgid "Current settings"
+msgstr "Configurações Atuais"
+
+#: ui/x11/index.scm:69
+msgid "Driver:"
+msgstr "Driver:"
+
+#: ui/x11/index.scm:73
+msgid "Other driver..."
+msgstr "Outro driver..."
+
+#: ui/x11/index.scm:78
+msgid "Color depth:"
+msgstr "Cor do Depth:"
+
+#: ui/x11/index.scm:84
+msgid "Resolution:"
+msgstr "Resolução"
+
+#: ui/x11/index.scm:89
+msgid "Don't use automatic refresh rate"
+msgstr ""
+
+#: ui/x11/index.scm:94
+#, fuzzy
+msgid "Display size:"
+msgstr "Vídeo"
+
+#: ui/x11/index.scm:102 ui/x11/index.scm:114
+msgid "mm"
+msgstr ""
+
+#: ui/x11/index.scm:111
+#, fuzzy
+msgid "Current size:"
+msgstr "Hora Atual:"
+
+#: ui/x11/index.scm:130
+msgid "Quit"
+msgstr "Sair"
+
+#: backend3/x11:165 backend3/x11:193 backend3/x11:218
 msgid "automatically"
 msgstr "automaticamente"
 
-#: backend3/x11:141
+#: backend3/x11:174
 msgid "recommended"
 msgstr "recomendado"
 
-#: backend3/x11:168
+#: backend3/x11:201
 msgid "256 colors (8 bit)"
 msgstr "256 cores (8bit)"
 
-#: backend3/x11:169
+#: backend3/x11:202
 msgid "32 thousand colors (15 bits)"
 msgstr "32 milhões de cores (15bits)"
 
-#: backend3/x11:170
+#: backend3/x11:203
 msgid "65 thousand colors (16 bits)"
 msgstr "65 Milhões de Cores (16 bits)"
 
-#: backend3/x11:171
+#: backend3/x11:204
 msgid "16 million colors (24 bits)"
 msgstr "16 milhões de cores (24bits)"
 
-#: backend3/x11:172
+#: backend3/x11:205
 msgid "4 billion colors (32 bits)"
 msgstr "4 bilhões de cores (32bits)"
 
-#: backend3/x11:173
+#: backend3/x11:206
 msgid "bits"
 msgstr "bits"
 
-#: backend3/x11:405
+#: backend3/x11:487
 msgid "no workcopy was found"
 msgstr "nenhuma copia de trabalho foi encontrada"
 

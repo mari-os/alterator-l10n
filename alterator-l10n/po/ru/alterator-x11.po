@@ -2,85 +2,50 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Andrey Cherepanov <skull@kde.ru>, 2008, 2011.
+# Sergey V Turchin <zerg@altlinux.org>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-23 17:25+0400\n"
-"PO-Revision-Date: 2011-08-23 17:26+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"POT-Creation-Date: 2013-06-14 17:49+0400\n"
+"PO-Revision-Date: 2013-06-14 17:51+0400\n"
+"Last-Translator: Sergey V Turchin <zerg@altlinux.org>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Display"
 msgstr "Дисплей"
 
-#: standard input:1 ui/x11/driver/index.scm:10
-msgid "Drivers:"
-msgstr "Драйверы:"
-
-#: standard input:2 input:5 input:14 ui/x11/index.scm:83
-msgid "Apply"
-msgstr "Применить"
-
-#: standard input:3 input:6 input:15
-msgid "Reset"
-msgstr "Вернуть"
-
-#: standard input:4 ui/x11/monitor/index.scm:9
+#: standard input:1 ui/x11/monitor/index.scm:9
 msgid "Monitor vendors:"
 msgstr "Производители мониторов:"
 
-#: standard input:7 ui/x11/index.scm:32
-msgid "Detected hardware"
-msgstr "Обнаруженное оборудование"
+#: standard input:2 input:5 ui/x11/index.scm:127
+msgid "Apply"
+msgstr "Применить"
 
-#: standard input:8 ui/x11/index.scm:38
-msgid "Video card:"
-msgstr "Видеокарта:"
+#: standard input:3 input:6
+msgid "Reset"
+msgstr "Вернуть"
 
-#: standard input:9 ui/x11/index.scm:49
-msgid "Current settings"
-msgstr "Текущие настройки"
+#: standard input:4 ui/x11/driver/index.scm:10
+msgid "Drivers:"
+msgstr "Драйверы:"
 
-#: standard input:10 ui/x11/index.scm:55
-msgid "Driver:"
-msgstr "Драйвер:"
-
-#: standard input:11 ui/x11/index.scm:59
-msgid "Other driver..."
-msgstr "Другой драйвер..."
-
-#: standard input:12 ui/x11/index.scm:64
-msgid "Color depth:"
-msgstr "Глубина цвета:"
-
-#: standard input:13 ui/x11/index.scm:70
-msgid "Resolution:"
-msgstr "Разрешение:"
-
-#: ui/x11/driver/index.scm:25 ui/x11/monitor/index.scm:22
+#: ui/x11/monitor/index.scm:22 ui/x11/driver/index.scm:25
 msgid "OK"
 msgstr "OK"
 
-#: ui/x11/driver/index.scm:31 ui/x11/monitor/index.scm:28
+#: ui/x11/monitor/index.scm:28 ui/x11/driver/index.scm:31
 msgid "Cancel"
 msgstr "Отмена"
-
-#: ui/x11/index.scm:17
-msgid "Changes will take effect after reboot"
-msgstr "Все ваши изменения вступят в силу после перезагрузки компьютера"
-
-#: ui/x11/index.scm:86
-msgid "Quit"
-msgstr "Выход"
 
 #. messages from C tools
 #: ui/x11/c-messages.scm:2
@@ -103,39 +68,91 @@ msgstr "Нажмите 'Да' если изображение правильно
 msgid "Resume"
 msgstr "Пуск"
 
-#: backend3/x11:132 backend3/x11:160 backend3/x11:185
+#: ui/x11/index.scm:31
+msgid "Changes will take effect after reboot"
+msgstr "Все ваши изменения вступят в силу после перезагрузки компьютера"
+
+#: ui/x11/index.scm:46
+msgid "Detected hardware"
+msgstr "Обнаруженное оборудование"
+
+#: ui/x11/index.scm:52
+msgid "Video card:"
+msgstr "Видеокарта:"
+
+#: ui/x11/index.scm:63
+msgid "Current settings"
+msgstr "Текущие настройки"
+
+#: ui/x11/index.scm:69
+msgid "Driver:"
+msgstr "Драйвер:"
+
+#: ui/x11/index.scm:73
+msgid "Other driver..."
+msgstr "Другой драйвер..."
+
+#: ui/x11/index.scm:78
+msgid "Color depth:"
+msgstr "Глубина цвета:"
+
+#: ui/x11/index.scm:84
+msgid "Resolution:"
+msgstr "Разрешение:"
+
+#: ui/x11/index.scm:89
+msgid "Don't use automatic refresh rate"
+msgstr "Без автоматической частоты развертки"
+
+#: ui/x11/index.scm:94
+msgid "Display size:"
+msgstr "Размер экрана:"
+
+#: ui/x11/index.scm:102 ui/x11/index.scm:114
+msgid "mm"
+msgstr "мм"
+
+#: ui/x11/index.scm:111
+msgid "Current size:"
+msgstr "Текущий размер:"
+
+#: ui/x11/index.scm:130
+msgid "Quit"
+msgstr "Выход"
+
+#: backend3/x11:165 backend3/x11:193 backend3/x11:218
 msgid "automatically"
 msgstr "автоматически"
 
-#: backend3/x11:141
+#: backend3/x11:174
 msgid "recommended"
 msgstr "рекомендовано"
 
-#: backend3/x11:168
+#: backend3/x11:201
 msgid "256 colors (8 bit)"
 msgstr "256 цветов (8 бит)"
 
-#: backend3/x11:169
+#: backend3/x11:202
 msgid "32 thousand colors (15 bits)"
 msgstr "32 тысячи цветов (15 бит)"
 
-#: backend3/x11:170
+#: backend3/x11:203
 msgid "65 thousand colors (16 bits)"
 msgstr "65 тысяч цветов (16 бит)"
 
-#: backend3/x11:171
+#: backend3/x11:204
 msgid "16 million colors (24 bits)"
 msgstr "16 миллионов цветов (24 бита)"
 
-#: backend3/x11:172
+#: backend3/x11:205
 msgid "4 billion colors (32 bits)"
 msgstr "4 миллиарда цветов (32 бита)"
 
-#: backend3/x11:173
+#: backend3/x11:206
 msgid "bits"
 msgstr "бит"
 
-#: backend3/x11:405
+#: backend3/x11:487
 msgid "no workcopy was found"
 msgstr "не найдено рабочей копии конфигурационного файла"
 
