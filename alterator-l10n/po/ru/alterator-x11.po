@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-14 17:49+0400\n"
-"PO-Revision-Date: 2013-06-14 17:51+0400\n"
+"POT-Creation-Date: 2013-06-17 16:44+0400\n"
+"PO-Revision-Date: 2013-06-17 16:54+0400\n"
 "Last-Translator: Sergey V Turchin <zerg@altlinux.org>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
@@ -27,7 +27,7 @@ msgstr "Дисплей"
 msgid "Monitor vendors:"
 msgstr "Производители мониторов:"
 
-#: standard input:2 input:5 ui/x11/index.scm:127
+#: standard input:2 input:5 ui/x11/index.scm:119
 msgid "Apply"
 msgstr "Применить"
 
@@ -105,18 +105,22 @@ msgid "Don't use automatic refresh rate"
 msgstr "Без автоматической частоты развертки"
 
 #: ui/x11/index.scm:94
-msgid "Display size:"
-msgstr "Размер экрана:"
+msgid "Set display size:"
+msgstr "Установить размер экрана:"
 
-#: ui/x11/index.scm:102 ui/x11/index.scm:114
+#: ui/x11/index.scm:102
 msgid "mm"
 msgstr "мм"
 
-#: ui/x11/index.scm:111
-msgid "Current size:"
-msgstr "Текущий размер:"
+#: ui/x11/index.scm:106
+msgid "(detected"
+msgstr "(обнаружено"
 
-#: ui/x11/index.scm:130
+#: ui/x11/index.scm:106
+msgid "mm)"
+msgstr "мм)"
+
+#: ui/x11/index.scm:122
 msgid "Quit"
 msgstr "Выход"
 
@@ -155,6 +159,9 @@ msgstr "бит"
 #: backend3/x11:487
 msgid "no workcopy was found"
 msgstr "не найдено рабочей копии конфигурационного файла"
+
+#~ msgid "Current size:"
+#~ msgstr "Текущий размер:"
 
 #~ msgid "Automatically detected"
 #~ msgstr "Автоматически определённый"

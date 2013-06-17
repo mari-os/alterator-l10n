@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-14 17:49+0400\n"
+"POT-Creation-Date: 2013-06-17 16:44+0400\n"
 "PO-Revision-Date: 2010-12-27 18:01+0200\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -24,7 +24,7 @@ msgstr "Дисплей"
 msgid "Monitor vendors:"
 msgstr "Виробники моніторів:"
 
-#: standard input:2 input:5 ui/x11/index.scm:127
+#: standard input:2 input:5 ui/x11/index.scm:119
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -104,19 +104,23 @@ msgstr ""
 
 #: ui/x11/index.scm:94
 #, fuzzy
-msgid "Display size:"
+msgid "Set display size:"
 msgstr "Дисплей"
 
-#: ui/x11/index.scm:102 ui/x11/index.scm:114
+#: ui/x11/index.scm:102
 msgid "mm"
 msgstr ""
 
-#: ui/x11/index.scm:111
+#: ui/x11/index.scm:106
 #, fuzzy
-msgid "Current size:"
-msgstr "Поточний час:"
+msgid "(detected"
+msgstr "Автовизначення адреси"
 
-#: ui/x11/index.scm:130
+#: ui/x11/index.scm:106
+msgid "mm)"
+msgstr ""
+
+#: ui/x11/index.scm:122
 msgid "Quit"
 msgstr "Вихід"
 
@@ -155,6 +159,10 @@ msgstr "біт"
 #: backend3/x11:487
 msgid "no workcopy was found"
 msgstr "не знайдено робочої копії конфігураційного файлу"
+
+#, fuzzy
+#~ msgid "Current size:"
+#~ msgstr "Поточний час:"
 
 #~ msgid "Automatically detected"
 #~ msgstr "Автоматично визначений"
