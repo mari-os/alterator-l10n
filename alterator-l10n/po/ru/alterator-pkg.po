@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-29 00:57+0400\n"
-"PO-Revision-Date: 2013-04-02 15:01+0400\n"
+"POT-Creation-Date: 2013-08-12 15:39+0400\n"
+"PO-Revision-Date: 2013-08-12 15:40+0400\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
@@ -118,39 +118,39 @@ msgstr "Изменить"
 msgid "Advanced..."
 msgstr "Дополнительно..."
 
-#: ui/pkg/groups/index.scm:171
+#: ui/pkg/groups/index.scm:168
 msgid "There are conflicts detected:"
 msgstr "Обнаружены конфликты"
 
-#: ui/pkg/groups/index.scm:178
+#: ui/pkg/groups/index.scm:175
 msgid " and "
 msgstr " и "
 
-#: ui/pkg/groups/index.scm:224
+#: ui/pkg/groups/index.scm:221
 msgid " kB"
 msgstr " кБ"
 
-#: ui/pkg/groups/index.scm:225
+#: ui/pkg/groups/index.scm:222
 msgid " MB"
 msgstr " МБ"
 
-#: ui/pkg/groups/index.scm:226
+#: ui/pkg/groups/index.scm:223
 msgid " GB"
 msgstr " ГБ"
 
-#: ui/pkg/groups/index.scm:227
+#: ui/pkg/groups/index.scm:224
 msgid " TB"
 msgstr " ТБ"
 
-#: ui/pkg/groups/index.scm:231
+#: ui/pkg/groups/index.scm:228
 msgid "Required disk space"
 msgstr "Требуемое место на диске"
 
-#: ui/pkg/groups/index.scm:237
+#: ui/pkg/groups/index.scm:234
 msgid "calculating..."
 msgstr "вычисление..."
 
-#: ui/pkg/groups/index.scm:244
+#: ui/pkg/groups/index.scm:241
 msgid "unable to install in selected configuration"
 msgstr "невозможно установить в выбранной конфигурации"
 
@@ -162,9 +162,17 @@ msgstr "Дополнительные приложения:"
 msgid "Profile:"
 msgstr "Профиль:"
 
-#: ui/pkg/groups/index.scm:300 ui/pkg/install/index.scm:107
+#: ui/pkg/groups/index.scm:307
+msgid "Selected group contains:"
+msgstr "Выбранная группа содержит:"
+
+#: ui/pkg/groups/index.scm:313
 msgid "Preparing..."
 msgstr "Подготовка..."
+
+#: ui/pkg/groups/index.scm:318
+msgid "Show group details"
+msgstr "Показывать состав группы"
 
 #: ui/pkg/install/index.scm:34
 msgid "Building packages list"
@@ -185,14 +193,6 @@ msgstr "Загрузка информации о пакетах..."
 #: ui/pkg/install/index.scm:41
 msgid "Installing additional software"
 msgstr "Установка дополнительного программного обеспечения"
-
-#: ui/pkg/install/index.scm:75
-msgid "Acquiring packages..."
-msgstr "Получение пакетов..."
-
-#: ui/pkg/install/index.scm:81
-msgid "Installing packages..."
-msgstr "Установка пакетов..."
 
 #: ui/pkg/cdrom/index.scm:7
 msgid "Please insert CDROM labeled as"
@@ -228,6 +228,12 @@ msgstr "Подобный источник уже существует"
 #: backend3/pkg-sources:190 backend3/pkg-sources:213
 msgid "inactive"
 msgstr "неактивно"
+
+#~ msgid "Acquiring packages..."
+#~ msgstr "Получение пакетов..."
+
+#~ msgid "Installing packages..."
+#~ msgstr "Установка пакетов..."
 
 #~ msgid "Has conflict with ~S"
 #~ msgstr "Имеется конфликт с ~S"

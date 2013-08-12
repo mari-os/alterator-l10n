@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-29 00:57+0400\n"
+"POT-Creation-Date: 2013-08-12 15:39+0400\n"
 "PO-Revision-Date: 2009-08-23 02:02+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -120,43 +120,43 @@ msgstr "Змінити"
 msgid "Advanced..."
 msgstr "Додатково..."
 
-#: ui/pkg/groups/index.scm:171
+#: ui/pkg/groups/index.scm:168
 msgid "There are conflicts detected:"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:178
+#: ui/pkg/groups/index.scm:175
 msgid " and "
 msgstr ""
 
-#: ui/pkg/groups/index.scm:224
+#: ui/pkg/groups/index.scm:221
 #, fuzzy
 msgid " kB"
 msgstr "кБ"
 
-#: ui/pkg/groups/index.scm:225
+#: ui/pkg/groups/index.scm:222
 #, fuzzy
 msgid " MB"
 msgstr "МБ"
 
-#: ui/pkg/groups/index.scm:226
+#: ui/pkg/groups/index.scm:223
 #, fuzzy
 msgid " GB"
 msgstr "ГБ"
 
-#: ui/pkg/groups/index.scm:227
+#: ui/pkg/groups/index.scm:224
 #, fuzzy
 msgid " TB"
 msgstr "ТБ"
 
-#: ui/pkg/groups/index.scm:231
+#: ui/pkg/groups/index.scm:228
 msgid "Required disk space"
 msgstr "Потрібний дисковий простір"
 
-#: ui/pkg/groups/index.scm:237
+#: ui/pkg/groups/index.scm:234
 msgid "calculating..."
 msgstr "підрахунок..."
 
-#: ui/pkg/groups/index.scm:244
+#: ui/pkg/groups/index.scm:241
 msgid "unable to install in selected configuration"
 msgstr ""
 
@@ -168,9 +168,18 @@ msgstr "Додаткові програми:"
 msgid "Profile:"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:300 ui/pkg/install/index.scm:107
+#: ui/pkg/groups/index.scm:307
+#, fuzzy
+msgid "Selected group contains:"
+msgstr "Обрати дію:"
+
+#: ui/pkg/groups/index.scm:313
 msgid "Preparing..."
 msgstr "Підготовка..."
+
+#: ui/pkg/groups/index.scm:318
+msgid "Show group details"
+msgstr ""
 
 #: ui/pkg/install/index.scm:34
 msgid "Building packages list"
@@ -191,14 +200,6 @@ msgstr "Завантажується інформація про пакунки.
 #: ui/pkg/install/index.scm:41
 msgid "Installing additional software"
 msgstr "Встановлення додаткового ПЗ"
-
-#: ui/pkg/install/index.scm:75
-msgid "Acquiring packages..."
-msgstr "Отримання пакунків..."
-
-#: ui/pkg/install/index.scm:81
-msgid "Installing packages..."
-msgstr "Встановлення пакунків..."
 
 #: ui/pkg/cdrom/index.scm:7
 msgid "Please insert CDROM labeled as"
@@ -234,6 +235,12 @@ msgstr "Таке джерело вже існує"
 #: backend3/pkg-sources:190 backend3/pkg-sources:213
 msgid "inactive"
 msgstr "неактивно"
+
+#~ msgid "Acquiring packages..."
+#~ msgstr "Отримання пакунків..."
+
+#~ msgid "Installing packages..."
+#~ msgstr "Встановлення пакунків..."
 
 #~ msgid "Has conflict with ~S"
 #~ msgstr "Знайдено конфлікт з ~S"

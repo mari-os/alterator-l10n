@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-29 00:57+0400\n"
+"POT-Creation-Date: 2013-08-12 15:39+0400\n"
 "PO-Revision-Date: 2009-09-14 19:46-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -120,43 +120,43 @@ msgstr "Alteração"
 msgid "Advanced..."
 msgstr "Avançado..."
 
-#: ui/pkg/groups/index.scm:171
+#: ui/pkg/groups/index.scm:168
 msgid "There are conflicts detected:"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:178
+#: ui/pkg/groups/index.scm:175
 msgid " and "
 msgstr ""
 
-#: ui/pkg/groups/index.scm:224
+#: ui/pkg/groups/index.scm:221
 #, fuzzy
 msgid " kB"
 msgstr "kB"
 
-#: ui/pkg/groups/index.scm:225
+#: ui/pkg/groups/index.scm:222
 #, fuzzy
 msgid " MB"
 msgstr "MB"
 
-#: ui/pkg/groups/index.scm:226
+#: ui/pkg/groups/index.scm:223
 #, fuzzy
 msgid " GB"
 msgstr "GB"
 
-#: ui/pkg/groups/index.scm:227
+#: ui/pkg/groups/index.scm:224
 #, fuzzy
 msgid " TB"
 msgstr "TB"
 
-#: ui/pkg/groups/index.scm:231
+#: ui/pkg/groups/index.scm:228
 msgid "Required disk space"
 msgstr "Espaço em Disco Requirido"
 
-#: ui/pkg/groups/index.scm:237
+#: ui/pkg/groups/index.scm:234
 msgid "calculating..."
 msgstr "calculando..."
 
-#: ui/pkg/groups/index.scm:244
+#: ui/pkg/groups/index.scm:241
 msgid "unable to install in selected configuration"
 msgstr ""
 
@@ -168,9 +168,19 @@ msgstr "Aplicações adicionais:"
 msgid "Profile:"
 msgstr ""
 
-#: ui/pkg/groups/index.scm:300 ui/pkg/install/index.scm:107
+#: ui/pkg/groups/index.scm:307
+#, fuzzy
+msgid "Selected group contains:"
+msgstr "Selecione os grupos que você deseja instalar:"
+
+#: ui/pkg/groups/index.scm:313
 msgid "Preparing..."
 msgstr "Preparado..."
+
+#: ui/pkg/groups/index.scm:318
+#, fuzzy
+msgid "Show group details"
+msgstr "Mostrar opções extras"
 
 #: ui/pkg/install/index.scm:34
 msgid "Building packages list"
@@ -191,14 +201,6 @@ msgstr "Rodando informações de pacotes..."
 #: ui/pkg/install/index.scm:41
 msgid "Installing additional software"
 msgstr "Instalando aplicativos adicionais..."
-
-#: ui/pkg/install/index.scm:75
-msgid "Acquiring packages..."
-msgstr "Obtendo os pacotes..."
-
-#: ui/pkg/install/index.scm:81
-msgid "Installing packages..."
-msgstr "Instalando pacotes..."
 
 #: ui/pkg/cdrom/index.scm:7
 msgid "Please insert CDROM labeled as"
@@ -232,6 +234,12 @@ msgstr "A fonte já existe"
 #: backend3/pkg-sources:190 backend3/pkg-sources:213
 msgid "inactive"
 msgstr "inativo"
+
+#~ msgid "Acquiring packages..."
+#~ msgstr "Obtendo os pacotes..."
+
+#~ msgid "Installing packages..."
+#~ msgstr "Instalando pacotes..."
 
 #~ msgid "Has conflict with ~S"
 #~ msgstr "Tem conflito com ~S"
