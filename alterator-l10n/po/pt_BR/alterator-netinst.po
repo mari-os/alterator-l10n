@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2013-10-09 16:27+0400\n"
 "PO-Revision-Date: 2009-09-14 19:22-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -25,89 +25,94 @@ msgid "Network installation server"
 msgstr "Servidor de Instalação via rede"
 
 #: standard input:1
-msgid "OK"
-msgstr "OK"
-
-#: standard input:2
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: standard input:3
 msgid "Current image:"
 msgstr "Imagem atual:"
 
-#: standard input:4
+#: standard input:2
 msgid "from"
 msgstr "de"
 
-#: standard input:5
+#: standard input:3
 msgid "Available images:"
 msgstr "Imagens disponíveis:"
 
-#: standard input:6
+#: standard input:4
 msgid "Select"
 msgstr "Selecionar"
 
-#: standard input:7
+#: standard input:5
 msgid "Delete"
 msgstr "Deletar"
 
-#: standard input:8
+#: standard input:6
 msgid "New image:"
 msgstr "Nova imagem:"
 
-#: standard input:9
+#: standard input:7
 msgid "Get from CD/DVD"
 msgstr "Obter de CD/DVD"
 
-#: standard input:10
+#: standard input:8
 msgid "Download file:"
 msgstr "Download do arquivo:"
 
-#: standard input:11
+#: standard input:9
 msgid "(local path or internet URL)"
 msgstr "(caminho local ou internet URL)"
 
-#: standard input:12
+#: standard input:10
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:13
+#: standard input:11
+#, fuzzy
+msgid "Boot variant:"
+msgstr "Variantes de Boot"
+
+#: standard input:12
 #, fuzzy
 msgid "Activate VNC install"
 msgstr "Pacotes para instalação"
 
-#: standard input:14
+#: standard input:13
 msgid "VNC only"
 msgstr ""
 
-#: standard input:15
+#: standard input:14
 #, fuzzy
 msgid "Connection direction:"
 msgstr "Método de conexão:"
 
-#: standard input:16
+#: standard input:15
 #, fuzzy
 msgid "Connect from client"
 msgstr "Rede conectada"
 
-#: standard input:17
+#: standard input:16
 #, fuzzy
 msgid "(password)"
 msgstr "Sem senha"
 
-#: standard input:18
+#: standard input:17
 #, fuzzy
 msgid "Connect to client"
 msgstr "Rede conectada"
 
-#: standard input:19
+#: standard input:18
 msgid "(IP or name of client)"
 msgstr ""
 
-#: standard input:20
+#: standard input:19
 msgid "Apply"
 msgstr "Aplicar"
+
+#: standard input:20
+msgid "OK"
+msgstr "OK"
+
+#: standard input:21
+msgid "Cancel"
+msgstr "Cancelar"
 
 #: ui/netinst/wait/ajax.scm:15
 msgid "Downloading image..."
@@ -117,24 +122,50 @@ msgstr "Obtendo a imagem..."
 msgid "Download failed"
 msgstr "Download falhou"
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 #, fuzzy
 msgid "Are you really want to remove image?"
 msgstr "Se você realmente quer destruir domínio"
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "Question"
 msgstr "Questão"
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "Yes"
 msgstr "Sim"
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "No"
 msgstr "Não"
 
-#: backend3/netinst:20
+#: backend3/netinst:9
+#, fuzzy
+msgid "linux"
+msgstr "Linux"
+
+#: backend3/netinst:10
+msgid "live"
+msgstr ""
+
+#: backend3/netinst:11
+msgid "rescue"
+msgstr ""
+
+#: backend3/netinst:12
+msgid "memtest"
+msgstr ""
+
+#: backend3/netinst:13
+msgid "failsafe"
+msgstr "FailSafe"
+
+#: backend3/netinst:14
+#, fuzzy
+msgid "harddisk"
+msgstr "HD"
+
+#: backend3/netinst:37
 msgid "No image"
 msgstr "Nenhuma imagem"
 

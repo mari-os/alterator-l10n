@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2013-10-09 16:27+0400\n"
 "PO-Revision-Date: 2009-08-22 02:25+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -25,84 +25,89 @@ msgid "Network installation server"
 msgstr "Сервер для встановлень по мережі"
 
 #: standard input:1
-msgid "OK"
-msgstr "Гаразд"
-
-#: standard input:2
-msgid "Cancel"
-msgstr "Скасувати"
-
-#: standard input:3
 msgid "Current image:"
 msgstr "Поточний образ:"
 
-#: standard input:4
+#: standard input:2
 msgid "from"
 msgstr "із"
 
-#: standard input:5
+#: standard input:3
 msgid "Available images:"
 msgstr "Доступні образи дисків:"
 
-#: standard input:6
+#: standard input:4
 msgid "Select"
 msgstr "Обрати"
 
-#: standard input:7
+#: standard input:5
 msgid "Delete"
 msgstr "Вилучити"
 
-#: standard input:8
+#: standard input:6
 msgid "New image:"
 msgstr "Новий образ:"
 
-#: standard input:9
+#: standard input:7
 msgid "Get from CD/DVD"
 msgstr "Отримати з CD/DVD"
 
-#: standard input:10
+#: standard input:8
 msgid "Download file:"
 msgstr "Звантажити файл:"
 
-#: standard input:11
+#: standard input:9
 msgid "(local path or internet URL)"
 msgstr "(локальний шлях чи URL)"
 
-#: standard input:12
+#: standard input:10
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:13
+#: standard input:11
+#, fuzzy
+msgid "Boot variant:"
+msgstr "Варіанти завантаження"
+
+#: standard input:12
 msgid "Activate VNC install"
 msgstr "Активувати встановлення через VNC"
 
-#: standard input:14
+#: standard input:13
 msgid "VNC only"
 msgstr "Тілки VNC"
 
-#: standard input:15
+#: standard input:14
 msgid "Connection direction:"
 msgstr "Напрямок підключення:"
 
-#: standard input:16
+#: standard input:15
 msgid "Connect from client"
 msgstr "Підключення з боку клієнта"
 
-#: standard input:17
+#: standard input:16
 msgid "(password)"
 msgstr "(пароль)"
 
-#: standard input:18
+#: standard input:17
 msgid "Connect to client"
 msgstr "Підключення до клієнта"
 
-#: standard input:19
+#: standard input:18
 msgid "(IP or name of client)"
 msgstr "(IP або ім'я клієнту)"
 
-#: standard input:20
+#: standard input:19
 msgid "Apply"
 msgstr "Застосувати"
+
+#: standard input:20
+msgid "OK"
+msgstr "Гаразд"
+
+#: standard input:21
+msgid "Cancel"
+msgstr "Скасувати"
 
 #: ui/netinst/wait/ajax.scm:15
 msgid "Downloading image..."
@@ -112,22 +117,48 @@ msgstr "Звантаження штампу..."
 msgid "Download failed"
 msgstr "Звантаження провалене"
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "Are you really want to remove image?"
 msgstr "Ви дійсно хочете вилучити зображення?"
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "Question"
 msgstr "Запитання"
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "Yes"
 msgstr "Так"
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "No"
 msgstr "Ні"
 
-#: backend3/netinst:20
+#: backend3/netinst:9
+#, fuzzy
+msgid "linux"
+msgstr "Linux"
+
+#: backend3/netinst:10
+msgid "live"
+msgstr ""
+
+#: backend3/netinst:11
+msgid "rescue"
+msgstr ""
+
+#: backend3/netinst:12
+msgid "memtest"
+msgstr ""
+
+#: backend3/netinst:13
+msgid "failsafe"
+msgstr "з безпечними параметрами"
+
+#: backend3/netinst:14
+#, fuzzy
+msgid "harddisk"
+msgstr "Сменить диск"
+
+#: backend3/netinst:37
 msgid "No image"
 msgstr "Немає образу"

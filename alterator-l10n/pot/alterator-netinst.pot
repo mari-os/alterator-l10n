@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2013-10-09 16:27+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,83 +22,87 @@ msgid "Network installation server"
 msgstr ""
 
 #: standard input:1
-msgid "OK"
-msgstr ""
-
-#: standard input:2
-msgid "Cancel"
-msgstr ""
-
-#: standard input:3
 msgid "Current image:"
 msgstr ""
 
-#: standard input:4
+#: standard input:2
 msgid "from"
 msgstr ""
 
-#: standard input:5
+#: standard input:3
 msgid "Available images:"
 msgstr ""
 
-#: standard input:6
+#: standard input:4
 msgid "Select"
 msgstr ""
 
-#: standard input:7
+#: standard input:5
 msgid "Delete"
 msgstr ""
 
-#: standard input:8
+#: standard input:6
 msgid "New image:"
 msgstr ""
 
-#: standard input:9
+#: standard input:7
 msgid "Get from CD/DVD"
 msgstr ""
 
-#: standard input:10
+#: standard input:8
 msgid "Download file:"
 msgstr ""
 
-#: standard input:11
+#: standard input:9
 msgid "(local path or internet URL)"
 msgstr ""
 
-#: standard input:12
+#: standard input:10
 msgid "Add"
 msgstr ""
 
-#: standard input:13
+#: standard input:11
+msgid "Boot variant:"
+msgstr ""
+
+#: standard input:12
 msgid "Activate VNC install"
 msgstr ""
 
-#: standard input:14
+#: standard input:13
 msgid "VNC only"
 msgstr ""
 
-#: standard input:15
+#: standard input:14
 msgid "Connection direction:"
 msgstr ""
 
-#: standard input:16
+#: standard input:15
 msgid "Connect from client"
 msgstr ""
 
-#: standard input:17
+#: standard input:16
 msgid "(password)"
 msgstr ""
 
-#: standard input:18
+#: standard input:17
 msgid "Connect to client"
 msgstr ""
 
-#: standard input:19
+#: standard input:18
 msgid "(IP or name of client)"
 msgstr ""
 
-#: standard input:20
+#: standard input:19
 msgid "Apply"
+msgstr ""
+
+#: standard input:20
+msgid "OK"
+msgstr ""
+
+#: standard input:21
+msgid "Cancel"
 msgstr ""
 
 #: ui/netinst/wait/ajax.scm:15
@@ -109,22 +113,46 @@ msgstr ""
 msgid "Download failed"
 msgstr ""
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "Are you really want to remove image?"
 msgstr ""
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "Question"
 msgstr ""
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "Yes"
 msgstr ""
 
-#: ui/netinst/ajax.scm:30
+#: ui/netinst/ajax.scm:34
 msgid "No"
 msgstr ""
 
-#: backend3/netinst:20
+#: backend3/netinst:9
+msgid "linux"
+msgstr ""
+
+#: backend3/netinst:10
+msgid "live"
+msgstr ""
+
+#: backend3/netinst:11
+msgid "rescue"
+msgstr ""
+
+#: backend3/netinst:12
+msgid "memtest"
+msgstr ""
+
+#: backend3/netinst:13
+msgid "failsafe"
+msgstr ""
+
+#: backend3/netinst:14
+msgid "harddisk"
+msgstr ""
+
+#: backend3/netinst:37
 msgid "No image"
 msgstr ""
