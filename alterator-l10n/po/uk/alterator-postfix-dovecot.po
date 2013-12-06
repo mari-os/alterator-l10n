@@ -7,136 +7,133 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-20 09:21+0300\n"
+"POT-Creation-Date: 2013-12-06 13:04+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
 "X-Language: uk_UA\n"
 
-#: input:7
-msgid "(Accept mail for these domains)"
-msgstr "(Приймати пошту для наступних доменів)"
-
-#: input:19
-msgid "(Filtered recipients)"
-msgstr "Фільтрувати отримувачів"
-
-#: input:11
-msgid "(Maximum message size in megabytes)"
-msgstr "Максимальній розмір повідомлень у мегабайтах"
-
-#: input:9
-msgid "(Root mail goes to this mailbox)"
-msgstr "(Пошла для root складаеться в цю скриньку)"
-
-#: input:5
-msgid "(Send all outgoing mail to specified server)"
-msgstr "(Пересилати вихідну пошту на вказаний сервер)"
-
-#: input:12
-msgid "Allow authentification"
-msgstr "Дозволити аутентифікацію"
-
-#: input:28
-msgid "Apply"
-msgstr "Застосувати"
-
-#: backend3/postfix-dovecot:94
-msgid "Authentication server (dovecot) is not installed"
-msgstr "Сервер аутентифікації (dovecot) не встановлено"
-
-#: input:22
-msgid "ClamAV antivirus daemon"
-msgstr "Демон атнівіруса ClamAV"
-
-#: input:6
-msgid "Domain list:"
-msgstr "Список доменів:"
-
-#: input:21
-msgid "Dr.Web antivirus daemon"
-msgstr "Демон антивіруса Dr.Web"
-
-#: input:26
-msgid "Enable POP3/IMAP server"
-msgstr "Увімкнути службу POP3/IMAP"
-
-#: input:2
-msgid "Enable SMTP server"
-msgstr "Увімкнути службу SMTP"
-
-#: input:18
-msgid "Filter recipients"
-msgstr "Фільтрувати отримувачів"
-
-#: input:16
-msgid "Filter senders"
-msgstr "Фільтрувати відправників"
-
-#: input:15
-msgid "Filter spam"
-msgstr "Фільтрувати спам"
-
-#: input:24
-msgid "First ClamAV, second Dr.Web"
-msgstr "Спершу ClamAV, потім Dr.Web"
-
-#: input:23
-msgid "First Dr.Web, second ClamAV"
-msgstr "Спершу Dr.Web, потім ClamAV"
-
-#: input:17
-msgid "Local networks:"
-msgstr "Локальні мережі:"
-
-#: backend3/postfix-dovecot:500
-msgid "MX"
-msgstr "Сервер"
-
-#: input:1
+#: standard input:1
 msgid "Mail server"
 msgstr "Поштовий сервер"
 
-#: input:10
-msgid "Maximum message size (MB):"
-msgstr "Максимальний розмір повідомлення (Мб):"
+#: standard input:1
+msgid "You must create domain to setup mail server."
+msgstr ""
 
-#: input:3
-msgid "Operational mode:"
-msgstr "Режим роботи:"
-
-#: input:25
-msgid "POP3/IMAP Server"
-msgstr "Сервер POP3/IMAP"
-
-#: input:13 input:27
-msgid "Plain text authentification only over secure connection"
-msgstr "Приймати незашифровані паролі тільки через безпечні з’єднання"
-
-#: backend3/postfix-dovecot:499
-msgid "Relay"
-msgstr "Посередник"
-
-#: input:8
-msgid "Root mail alias:"
-msgstr "Псевдонім адміністратора:"
-
-#: input:1
+#: standard input:2
 msgid "SMTP Server"
 msgstr "Сервер SMTP"
 
-#: input:14
-msgid "Security"
-msgstr "Безпека"
+#: standard input:3
+msgid "Enable SMTP server"
+msgstr "Увімкнути службу SMTP"
 
-#: input:4
+#: standard input:4
+msgid "Operational mode:"
+msgstr "Режим роботи:"
+
+#: standard input:5
 msgid "Upstream SMTP host:"
 msgstr "Приймаючий сервер SMTP:"
 
-#: input:20
-msgid "Use antivirus"
-msgstr "Перевіряти антівірусом"
+#: standard input:6
+msgid "Domain list:"
+msgstr "Список доменів:"
+
+#: standard input:7
+msgid "(Send all outgoing mail to specified server)"
+msgstr "(Пересилати вихідну пошту на вказаний сервер)"
+
+#: standard input:8
+msgid "(Accept mail for these domains)"
+msgstr "(Приймати пошту для наступних доменів)"
+
+#: standard input:9
+msgid "Root mail alias:"
+msgstr "Псевдонім адміністратора:"
+
+#: standard input:10
+msgid "(Root mail goes to this mailbox)"
+msgstr "(Пошла для root складаеться в цю скриньку)"
+
+#: standard input:11
+msgid "Maximum message size (MB):"
+msgstr "Максимальний розмір повідомлення (Мб):"
+
+#: standard input:12
+msgid "(Maximum message size in megabytes)"
+msgstr "Максимальній розмір повідомлень у мегабайтах"
+
+#: standard input:13
+msgid "Security"
+msgstr "Безпека"
+
+#: standard input:14
+msgid "Filter spam"
+msgstr "Фільтрувати спам"
+
+#: standard input:15
+msgid "Filter senders"
+msgstr "Фільтрувати відправників"
+
+#: standard input:16
+msgid "Local networks:"
+msgstr "Локальні мережі:"
+
+#: standard input:17
+msgid "Filter recipients"
+msgstr "Фільтрувати отримувачів"
+
+#: standard input:18
+msgid "(Filtered recipients)"
+msgstr "Фільтрувати отримувачів"
+
+#: standard input:19
+msgid "POP3/IMAP Server"
+msgstr "Сервер POP3/IMAP"
+
+#: standard input:20
+msgid "Enable POP3/IMAP server"
+msgstr "Увімкнути службу POP3/IMAP"
+
+#: standard input:21
+msgid "Apply"
+msgstr "Застосувати"
+
+#: backend3/postfix-dovecot:83
+msgid "Relay"
+msgstr "Посередник"
+
+#: backend3/postfix-dovecot:84
+msgid "MX"
+msgstr "Сервер"
+
+#~ msgid "Allow authentification"
+#~ msgstr "Дозволити аутентифікацію"
+
+#~ msgid "Authentication server (dovecot) is not installed"
+#~ msgstr "Сервер аутентифікації (dovecot) не встановлено"
+
+#~ msgid "ClamAV antivirus daemon"
+#~ msgstr "Демон атнівіруса ClamAV"
+
+#~ msgid "Dr.Web antivirus daemon"
+#~ msgstr "Демон антивіруса Dr.Web"
+
+#~ msgid "First ClamAV, second Dr.Web"
+#~ msgstr "Спершу ClamAV, потім Dr.Web"
+
+#~ msgid "First Dr.Web, second ClamAV"
+#~ msgstr "Спершу Dr.Web, потім ClamAV"
+
+#~ msgid "Plain text authentification only over secure connection"
+#~ msgstr "Приймати незашифровані паролі тільки через безпечні з’єднання"
+
+#~ msgid "Use antivirus"
+#~ msgstr "Перевіряти антівірусом"

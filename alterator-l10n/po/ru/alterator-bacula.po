@@ -1,362 +1,411 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
-"PO-Revision-Date: 2008-09-01 18:01+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"POT-Creation-Date: 2013-12-06 13:04+0400\n"
+"PO-Revision-Date: 2013-12-06 13:16+0400\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:1
-msgid "Bacula director name:"
-msgstr "Имя bacula director:"
+#: standard input:1 input:13 input:27 input:36 input:56 input:86
+msgid "You must specify storage address before using bacula."
+msgstr "Необходимо указать внешний адрес Storage перед использованием Bacula."
 
-#: standard input:2 input:84 ui/bacula/local-backup/disk/index.scm:34
-msgid "Attention:"
-msgstr "Внимание:"
+#: standard input:2 input:14 input:28 input:37 input:57 input:87
+msgid "Specify storage address..."
+msgstr "Указать внешний адрес Storage..."
 
-#: standard input:3
-msgid "Don't forget to update configuration on all clients after name change"
-msgstr "Не забудьте обновить настройки на всех клиентах после смены имени"
+#: standard input:3 ui/bacula/local-backup/advanced/index.scm:12
+msgid "Created backups:"
+msgstr "Созданные резервные копии:"
 
-#: standard input:4
-msgid "Bacula director's name successfully updated"
-msgstr "Имя bacula director было успешно обновлёно"
+#: standard input:4 ui/bacula/local-backup/advanced/index.scm:17
+msgid "Creation date"
+msgstr "Дата создания"
 
-#: standard input:5
-msgid "Change name"
-msgstr "Сменить имя"
+#: standard input:5 ui/bacula/local-backup/advanced/index.scm:17
+msgid "Creation result"
+msgstr "Результат"
 
-#: standard input:6
-msgid "New client:"
-msgstr "Новый клиент:"
+#: standard input:6 input:77 ui/bacula/local-backup/advanced/index.scm:22
+msgid "Run backup now"
+msgstr "Запустить создание резервной копии"
 
-#: standard input:7
-msgid "Create"
-msgstr "Создать"
+#: standard input:7 ui/bacula/local-backup/advanced/index.scm:24
+msgid "Cancel active jobs"
+msgstr "Отменить активные задания"
 
-#: standard input:8
-msgid "Account:"
-msgstr "Учётная запись:"
+#: standard input:8 input:49 ui/bacula/local-backup/advanced/index.scm:28
+msgid "Do not backup:"
+msgstr "Не делать резервных копий для:"
 
-#: standard input:9
-msgid "Address:"
-msgstr "Адрес:"
-
-#: standard input:10
-msgid "Port:"
-msgstr "Порт:"
-
-#: standard input:11
-msgid "Password:"
-msgstr "Пароль:"
-
-#: standard input:12
-msgid "Download config for client"
-msgstr "Конфигурационный файл клиента"
-
-#: standard input:13
-msgid "Backup:"
-msgstr "Делать резервные копии для:"
-
-#: standard input:14 input:18 input:77
+#: standard input:9 input:46 input:50
 #: ui/bacula/local-backup/advanced/index.scm:31
 msgid "Delete"
 msgstr "Удалить"
 
-#: standard input:15 input:19 input:78
+#: standard input:10 input:47 input:51
 #: ui/bacula/local-backup/advanced/index.scm:36
 msgid "New path:"
 msgstr "Новый путь:"
 
-#: standard input:16 input:20 input:79
+#: standard input:11 input:48 input:52
 #: ui/bacula/local-backup/advanced/index.scm:38
 msgid "Add"
 msgstr "Добавить"
 
-#: standard input:17 input:76 ui/bacula/local-backup/advanced/index.scm:28
-msgid "Do not backup:"
-msgstr "Не делать резервных копий для:"
-
-#: standard input:21
-msgid "Client settings successfully updated"
-msgstr "Настройки клиента успешно обновлены"
-
-#: standard input:22 input:65 ui/bacula/local-backup/index.scm:30
-msgid "Save settings"
-msgstr "Сохранить параметры"
-
-#: standard input:23
-msgid "Delete client"
-msgstr "Удалить клиента"
-
-#: standard input:24 input:38
-msgid "No registered clients found"
-msgstr "Зарегистрированных клиентов не обнаружено"
-
-#: standard input:25
-msgid "Schedule:"
-msgstr "Расписание:"
-
-#: standard input:26 input:45
-msgid "Clients:"
-msgstr "Клиенты:"
-
-#: standard input:27
-msgid "Do not backup client's data"
-msgstr "Не делать резервных копий данных клиента"
-
-#: standard input:28 input:60
-msgid "Backup start time:"
-msgstr "Время начала резервного копирования:"
-
-#: standard input:29
-msgid "Backup client's data every day at:"
-msgstr "Делать резервные копии данных клиента каждый день в:"
-
-#: standard input:30
-msgid "Update schedule"
-msgstr "Обновить расписание"
-
-#: standard input:31
-msgid "Director service"
-msgstr "Служба Bacula Director"
-
-#: standard input:32 input:36
-msgid "Current job status:"
-msgstr "Состояние текущего задания:"
-
-#: standard input:33 input:37
-msgid "Last job status:"
-msgstr "Результат последнего задания:"
-
-#: standard input:34
-msgid "Storage service"
-msgstr "Служба Bacula Storage"
-
-#: standard input:35
-msgid "Disk usage:"
-msgstr "Использование диска:"
-
-#: standard input:39
-msgid "Client backups"
-msgstr "Резервные копии клиентов"
-
-#: standard input:40
-msgid "Client"
-msgstr "Клиент"
-
-#: standard input:41
-msgid "First backup"
-msgstr "Первая резервная копия"
-
-#: standard input:42
-msgid "Last backup"
-msgstr "Последняя резервная копия"
-
-#: standard input:43
-msgid "Last status"
-msgstr "Последний статус"
-
-#: standard input:44
-msgid "Backup size"
-msgstr "Размер архива"
-
-#: standard input:46
-msgid "Archive settings:"
-msgstr "Параметры архива:"
-
-#: standard input:47 input:83 ui/bacula/local-backup/disk/index.scm:27
-msgid "Store backups for:"
-msgstr "Хранить резервные копии за период:"
-
-#: standard input:48
-msgid "Update"
-msgstr "Обновить"
-
-#: standard input:49
-msgid "Archive actions:"
-msgstr "Действия над архивом:"
-
-#: standard input:50 input:74 ui/bacula/local-backup/advanced/index.scm:22
-msgid "Run backup now"
-msgstr "Запустить создание резервной копии"
-
-#: standard input:51
-msgid "Remove all client's backups"
-msgstr "Удалить все резервные копии данных клиента"
-
-#: standard input:52
-msgid "Restore date:"
-msgstr "Дата восстановления:"
-
-#: standard input:53 input:68 ui/bacula/local-backup/index.scm:44
-msgid "Restore file or directory:"
-msgstr "Восстановить файл или каталог:"
-
-#: standard input:54
-msgid "for date:"
-msgstr "на дату:"
-
-#: standard input:55
-msgid "Advanced restore options"
-msgstr "Расширенные параметры восстановления"
-
-#: standard input:56
-msgid "Target client:"
-msgstr "Целевой клиент:"
-
-#: standard input:57
-msgid "Target directory:"
-msgstr "Целевой каталог:"
-
-#: standard input:58
-msgid "OK"
-msgstr "OK"
-
-#: standard input:59 ui/bacula/local-backup/index.scm:9
-msgid "Don't backup system"
-msgstr "Не делать резервных копий системы"
-
-#: standard input:61 ui/bacula/local-backup/index.scm:13
-msgid "Backup system every day at:"
-msgstr "Делать резервные копии системы каждый день в:"
-
-#: standard input:62 ui/bacula/local-backup/index.scm:19
-msgid "Backup disk:"
-msgstr "Диск c резервной копией:"
-
-#: standard input:63 ui/bacula/local-backup/index.scm:21
-msgid "Oldest backup:"
-msgstr "Первая резервная копия:"
-
-#: standard input:64 ui/bacula/local-backup/index.scm:23
-msgid "Latest backup:"
-msgstr "Последняя резервная копия:"
-
-#: standard input:66 ui/bacula/local-backup/index.scm:32
-msgid "Change disk..."
-msgstr "Сменить диск..."
-
-#: standard input:67 ui/bacula/local-backup/index.scm:34
-msgid "Advanced..."
-msgstr "Дополнительно..."
-
-#: standard input:69 ui/bacula/local-backup/index.scm:47
-msgid "Date:"
-msgstr "Дата:"
-
-#: standard input:70 ui/bacula/local-backup/index.scm:52
-msgid "Restore"
-msgstr "Восстановить"
-
-#: standard input:71 ui/bacula/local-backup/advanced/index.scm:12
-msgid "Created backups:"
-msgstr "Созданные резервные копии:"
-
-#: standard input:72 ui/bacula/local-backup/advanced/index.scm:17
-msgid "Creation date"
-msgstr "Дата создания"
-
-#: standard input:73 ui/bacula/local-backup/advanced/index.scm:17
-msgid "Creation result"
-msgstr "Результат"
-
-#: standard input:75 ui/bacula/local-backup/advanced/index.scm:24
-msgid "Cancel active jobs"
-msgstr "Отменить активные задания"
-
-#: standard input:80 ui/bacula/local-backup/advanced/index.scm:41
+#: standard input:12 ui/bacula/local-backup/advanced/index.scm:41
 msgid "Return"
 msgstr "Вернуться"
 
-#: standard input:81 ui/bacula/local-backup/disk/index.scm:14
+#: standard input:15 ui/bacula/local-backup/index.scm:9
+msgid "Don't backup system"
+msgstr "Не делать резервных копий системы"
+
+#: standard input:16 input:92
+msgid "Backup start time:"
+msgstr "Время начала резервного копирования:"
+
+#: standard input:17 ui/bacula/local-backup/index.scm:13
+msgid "Backup system every day at:"
+msgstr "Делать резервные копии системы каждый день в:"
+
+#: standard input:18 ui/bacula/local-backup/index.scm:19
+msgid "Backup disk:"
+msgstr "Диск c резервной копией:"
+
+#: standard input:19 ui/bacula/local-backup/index.scm:21
+msgid "Oldest backup:"
+msgstr "Первая резервная копия:"
+
+#: standard input:20 ui/bacula/local-backup/index.scm:23
+msgid "Latest backup:"
+msgstr "Последняя резервная копия:"
+
+#: standard input:21 input:54 ui/bacula/local-backup/index.scm:30
+msgid "Save settings"
+msgstr "Сохранить параметры"
+
+#: standard input:22 ui/bacula/local-backup/index.scm:32
+msgid "Change disk..."
+msgstr "Сменить диск..."
+
+#: standard input:23 ui/bacula/local-backup/index.scm:34
+msgid "Advanced..."
+msgstr "Дополнительно..."
+
+#: standard input:24 input:80 ui/bacula/local-backup/index.scm:44
+msgid "Restore file or directory:"
+msgstr "Восстановить файл или каталог:"
+
+#: standard input:25 ui/bacula/local-backup/index.scm:47
+msgid "Date:"
+msgstr "Дата:"
+
+#: standard input:26 ui/bacula/local-backup/index.scm:52
+msgid "Restore"
+msgstr "Восстановить"
+
+#: standard input:29 ui/bacula/local-backup/disk/index.scm:14
 msgid "Use system disk"
 msgstr "Использовать системный диск"
 
-#: standard input:82 ui/bacula/local-backup/disk/index.scm:20
+#: standard input:30 ui/bacula/local-backup/disk/index.scm:20
 msgid "Use additional disk:"
 msgstr "Использовать дополнительный диск:"
 
-#: standard input:85 ui/bacula/local-backup/disk/index.scm:35
+#: standard input:31 input:74 ui/bacula/local-backup/disk/index.scm:27
+msgid "Store backups for:"
+msgstr "Хранить резервные копии за период:"
+
+#: standard input:32 input:110 ui/bacula/local-backup/disk/index.scm:34
+msgid "Attention:"
+msgstr "Внимание:"
+
+#: standard input:33 ui/bacula/local-backup/disk/index.scm:35
 msgid "All existing backups on the new disk will be removed."
 msgstr "Все существующие резервные копии на новом диске будут удалены."
 
-#: standard input:86 ui/bacula/local-backup/disk/index.scm:40
+#: standard input:34 ui/bacula/local-backup/disk/index.scm:40
 msgid "Cancel"
 msgstr "Отмена"
 
-#: standard input:87 ui/bacula/local-backup/disk/index.scm:42
+#: standard input:35 ui/bacula/local-backup/disk/index.scm:42
 msgid "Change disk"
 msgstr "Сменить диск"
 
-#: ui/bacula/client-backup/client/ajax.scm:87
-msgid "Do you really want to delete client"
-msgstr "Вы действительно желаете удалить клиента"
+#: standard input:38
+msgid "New client:"
+msgstr "Новый клиент:"
 
-#: ui/bacula/client-backup/client/ajax.scm:91
-msgid "Question"
-msgstr "Вопрос"
+#: standard input:39
+msgid "Create"
+msgstr "Создать"
 
-#: ui/bacula/client-backup/client/ajax.scm:92
-msgid "Yes"
-msgstr "Да"
+#: standard input:40
+msgid "Account:"
+msgstr "Учётная запись:"
 
-#: ui/bacula/client-backup/client/ajax.scm:93
-msgid "No"
-msgstr "Нет"
+#: standard input:41
+msgid "Address:"
+msgstr "Адрес:"
 
-#: ui/bacula/client-backup/archive/ajax.scm:25
-#: ui/bacula/local-backup/ajax.scm:30
+#: standard input:42
+msgid "Port:"
+msgstr "Порт:"
+
+#: standard input:43
+msgid "Password:"
+msgstr "Пароль:"
+
+#: standard input:44
+msgid "Download config for client"
+msgstr "Конфигурационный файл клиента"
+
+#: standard input:45
+msgid "Backup:"
+msgstr "Делать резервные копии для:"
+
+#: standard input:53
+msgid "Client settings successfully updated"
+msgstr "Настройки клиента успешно обновлены"
+
+#: standard input:55
+msgid "Delete client"
+msgstr "Удалить клиента"
+
+#: standard input:58
+msgid "Director service"
+msgstr "Служба Bacula Director"
+
+#: standard input:59 input:63
+msgid "Current job status:"
+msgstr "Состояние текущего задания:"
+
+#: standard input:60 input:64
+msgid "Last job status:"
+msgstr "Результат последнего задания:"
+
+#: standard input:61
+msgid "Storage service"
+msgstr "Служба Bacula Storage"
+
+#: standard input:62
+msgid "Disk usage:"
+msgstr "Использование диска:"
+
+#: standard input:65 input:88
+msgid "No registered clients found"
+msgstr "Зарегистрированных клиентов не обнаружено"
+
+#: standard input:66
+msgid "Client backups"
+msgstr "Резервные копии клиентов"
+
+#: standard input:67
+msgid "Client"
+msgstr "Клиент"
+
+#: standard input:68
+msgid "First backup"
+msgstr "Первая резервная копия"
+
+#: standard input:69
+msgid "Last backup"
+msgstr "Последняя резервная копия"
+
+#: standard input:70
+msgid "Last status"
+msgstr "Последний статус"
+
+#: standard input:71
+msgid "Backup size"
+msgstr "Размер архива"
+
+#: standard input:72 input:90
+msgid "Clients:"
+msgstr "Клиенты:"
+
+#: standard input:73
+msgid "Archive settings:"
+msgstr "Параметры архива:"
+
+#: standard input:75
+msgid "Update"
+msgstr "Обновить"
+
+#: standard input:76
+msgid "Archive actions:"
+msgstr "Действия над архивом:"
+
+#: standard input:78
+msgid "Remove all client's backups"
+msgstr "Удалить все резервные копии данных клиента"
+
+#: standard input:79
+msgid "Restore date:"
+msgstr "Дата восстановления:"
+
+#: standard input:81
+msgid "for date:"
+msgstr "на дату:"
+
+#: standard input:82
+msgid "Advanced restore options"
+msgstr "Расширенные параметры восстановления"
+
+#: standard input:83
+msgid "Target client:"
+msgstr "Целевой клиент:"
+
+#: standard input:84
+msgid "Target directory:"
+msgstr "Целевой каталог:"
+
+#: standard input:85
+msgid "OK"
+msgstr "OK"
+
+#: standard input:89
+msgid "Schedule:"
+msgstr "Расписание:"
+
+#: standard input:91
+msgid "Do not backup client's data"
+msgstr "Не делать резервных копий данных клиента"
+
+#: standard input:93
+msgid "Backup client's data every day at:"
+msgstr "Делать резервные копии данных клиента каждый день в:"
+
+#: standard input:94
+msgid "Update schedule"
+msgstr "Обновить расписание"
+
+#: standard input:95
+msgid "Director settings"
+msgstr "Параметры Director"
+
+#: standard input:96
+msgid "Enable Director server"
+msgstr "Включить службу Director"
+
+#: standard input:97
+msgid "*Bacula director name:"
+msgstr "*Имя Director:"
+
+#: standard input:98
+msgid "*Bacula director password:"
+msgstr "*Пароль Director:"
+
+#: standard input:99
+msgid "Bacula base actions:"
+msgstr "Базовая настройка:"
+
+#: standard input:100
+msgid "mysql login:"
+msgstr "Учётная запись MySQL:"
+
+#: standard input:101
+msgid "mysql password:"
+msgstr "Пароль MySQL:"
+
+#: standard input:102
+msgid "Create Bacula base backups (use only at first start Director server)"
+msgstr "Создать базу данных для Bacula"
+
+#: standard input:103
+msgid "Update Bacula base backups (use after upgrade Bacula)"
+msgstr "Обновить базу данных для Bacula"
+
+#: standard input:104
+msgid "Remove Bacula base backups"
+msgstr "Удалить базу данных для Bacula"
+
+#: standard input:105
+msgid "Storage settings"
+msgstr "Параметры Storage"
+
+#: standard input:106
+msgid "Enable Storage server"
+msgstr "Включить службу Storage"
+
+#: standard input:107
+msgid "*Storage address:"
+msgstr "*Адрес сервера Storage:"
+
+#: standard input:108
+msgid "(Hostname or IP address should be visible for clients)"
+msgstr ""
+"(внешний адрес Storage в виде IP-адреса или имени узла должен быть виден "
+"клиентам)"
+
+#: standard input:109
+msgid "*Storage password:"
+msgstr "*Пароль Storage:"
+
+#: standard input:111
+msgid "Don't forget to update configuration on all clients after changes"
+msgstr "Не забудьте обновить конфигурацию на всех клиентах после смены имени"
+
+#: standard input:112
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:113
+msgid "Changes successfully updated"
+msgstr "Изменения успешно сохранены"
+
+#: ui/bacula/local-backup/ajax.scm:41
+#: ui/bacula/client-backup/archive/ajax.scm:27
 msgid "Restore completed"
 msgstr "Восстановление завершено"
 
-#: ui/bacula/client-backup/archive/ajax.scm:28
-#: ui/bacula/local-backup/ajax.scm:33
+#: ui/bacula/local-backup/ajax.scm:44
+#: ui/bacula/client-backup/archive/ajax.scm:30
 msgid "Restore failed, see logs for details"
 msgstr "Восстановление не удалось, более подробная информация в журнале"
 
-#: ui/bacula/client-backup/archive/ajax.scm:30
-#: ui/bacula/local-backup/ajax.scm:35
+#: ui/bacula/local-backup/ajax.scm:46
+#: ui/bacula/client-backup/archive/ajax.scm:32
 msgid "Starting restore..."
 msgstr "Запуск восстановления..."
 
-#: ui/bacula/client-backup/archive/ajax.scm:33
-#: ui/bacula/local-backup/ajax.scm:38
+#: ui/bacula/local-backup/ajax.scm:49
+#: ui/bacula/client-backup/archive/ajax.scm:35
 msgid "Restoring file"
 msgstr "Восстановление файла"
 
-#: ui/bacula/client-backup/archive/ajax.scm:46
+#: ui/bacula/client-backup/client/ajax.scm:89
+msgid "Do you really want to delete client"
+msgstr "Вы действительно желаете удалить клиента"
+
+#: ui/bacula/client-backup/client/ajax.scm:93
+msgid "Question"
+msgstr "Вопрос"
+
+#: ui/bacula/client-backup/client/ajax.scm:94
+msgid "Yes"
+msgstr "Да"
+
+#: ui/bacula/client-backup/client/ajax.scm:95
+msgid "No"
+msgstr "Нет"
+
+#: ui/bacula/client-backup/archive/ajax.scm:48
 msgid "Do you really want clear all backups for client"
 msgstr "Вы действительно хотите удалить резервные копии клиента"
-
-#: ui/bacula/restore/select/index.scm:6
-msgid ""
-"Target disk is prepared for operation system. You can install a new system "
-"or restore one from existing backup."
-msgstr ""
-"Диск подготовлен для размещения операционной системы. Вы можете установить "
-"новую систему или восстановить систему из имеющейся резервной копии."
-
-#: ui/bacula/restore/select/index.scm:8
-msgid "Install a new system"
-msgstr "Установка новой системы"
-
-#: ui/bacula/restore/select/index.scm:9
-msgid "Restore system from backup"
-msgstr "Восстановление системы из резервной копии"
 
 #: ui/bacula/restore/search/index.scm:10
 msgid "Continue"
@@ -385,6 +434,14 @@ msgstr "Подготовка..."
 msgid "Restoring backup database..."
 msgstr "Восстановление базы данных по резервным копиям..."
 
+#: ui/bacula/restore/finish/index.scm:5
+msgid "Congratulations!"
+msgstr "Поздравляем!"
+
+#: ui/bacula/restore/finish/index.scm:6
+msgid "System was successfully restored from backup"
+msgstr "Система была успешно восстановлена из резервной копии"
+
 #: ui/bacula/restore/restore/index.scm:21
 msgid "Select backup date:"
 msgstr "Выберите дату резервной копии:"
@@ -409,13 +466,21 @@ msgstr "Восстановление системы..."
 msgid "Restoring is done"
 msgstr "Восстановление завершено"
 
-#: ui/bacula/restore/finish/index.scm:5
-msgid "Congratulations!"
-msgstr "Поздравляем!"
+#: ui/bacula/restore/select/index.scm:6
+msgid ""
+"Target disk is prepared for operation system. You can install a new system "
+"or restore one from existing backup."
+msgstr ""
+"Диск подготовлен для размещения операционной системы. Вы можете установить "
+"новую систему или восстановить систему из имеющейся резервной копии."
 
-#: ui/bacula/restore/finish/index.scm:6
-msgid "System was successfully restored from backup"
-msgstr "Система была успешно восстановлена из резервной копии"
+#: ui/bacula/restore/select/index.scm:8
+msgid "Install a new system"
+msgstr "Установка новой системы"
+
+#: ui/bacula/restore/select/index.scm:9
+msgid "Restore system from backup"
+msgstr "Восстановление системы из резервной копии"
 
 #: type/bacula-password.scm:12
 msgid "password contains illegal characters"
@@ -481,6 +546,10 @@ msgstr "Подобный клиент уже существует"
 msgid "Unable to restore"
 msgstr "Ошибка восстановления"
 
+#: backend3/bacula-director:77
+msgid "You should define valid storage address!"
+msgstr "Вы должны указать правильный внешний адрес Storage!"
+
 #: backend3/bacula-local-backup:114
 msgid "System disk"
 msgstr "Системный диск"
@@ -505,19 +574,8 @@ msgstr "Ошибка монтирования диска"
 msgid "Waiting..."
 msgstr "Ожидание..."
 
-#~ msgid "You must specify storage address before using bacula."
-#~ msgstr ""
-#~ "Необходимо указать внешний адрес хранилища перед использованием bacula."
+#~ msgid "Bacula director's name successfully updated"
+#~ msgstr "Имя bacula director было успешно обновлёно"
 
-#~ msgid "Specify storage address..."
-#~ msgstr "Указать внешний адрес хранилища..."
-
-#~ msgid "Storage adress:"
-#~ msgstr "Внешний адрес хранилища:"
-
-#~ msgid "Storage adress (IP or hostname) should be visible for clients"
-#~ msgstr ""
-#~ "Внешний адрес хранилища (IP или hostname) должен быть виден клиентам"
-
-#~ msgid "You should define valid storage address!"
-#~ msgstr "Вы должны указать валидный внешний адрес хранилища!"
+#~ msgid "Change name"
+#~ msgstr "Сменить имя"

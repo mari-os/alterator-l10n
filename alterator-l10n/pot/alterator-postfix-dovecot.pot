@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 22:39+0400\n"
+"POT-Creation-Date: 2013-12-06 13:04+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,23 +22,23 @@ msgid "Mail server"
 msgstr ""
 
 #: standard input:1
-msgid "SMTP Server"
+msgid "You must create domain to setup mail server."
 msgstr ""
 
 #: standard input:2
-msgid "Enable SMTP server"
+msgid "SMTP Server"
 msgstr ""
 
 #: standard input:3
-msgid "Operational mode:"
+msgid "Enable SMTP server"
 msgstr ""
 
 #: standard input:4
-msgid "Upstream SMTP host:"
+msgid "Operational mode:"
 msgstr ""
 
 #: standard input:5
-msgid "(Send all outgoing mail to specified server)"
+msgid "Upstream SMTP host:"
 msgstr ""
 
 #: standard input:6
@@ -45,77 +46,69 @@ msgid "Domain list:"
 msgstr ""
 
 #: standard input:7
-msgid "(Accept mail for these domains)"
+msgid "(Send all outgoing mail to specified server)"
 msgstr ""
 
 #: standard input:8
-msgid "Root mail alias:"
+msgid "(Accept mail for these domains)"
 msgstr ""
 
 #: standard input:9
-msgid "(Root mail goes to this mailbox)"
+msgid "Root mail alias:"
 msgstr ""
 
 #: standard input:10
-msgid "Maximum message size (MB):"
+msgid "(Root mail goes to this mailbox)"
 msgstr ""
 
 #: standard input:11
-msgid "(Maximum message size in megabytes)"
+msgid "Maximum message size (MB):"
 msgstr ""
 
 #: standard input:12
-msgid "Allow authentification"
+msgid "(Maximum message size in megabytes)"
 msgstr ""
 
-#: standard input:13 input:22
-msgid "Plain text authentification only over secure connection"
-msgstr ""
-
-#: standard input:14
+#: standard input:13
 msgid "Security"
 msgstr ""
 
-#: standard input:15
+#: standard input:14
 msgid "Filter spam"
 msgstr ""
 
-#: standard input:16
+#: standard input:15
 msgid "Filter senders"
 msgstr ""
 
-#: standard input:17
+#: standard input:16
 msgid "Local networks:"
 msgstr ""
 
-#: standard input:18
+#: standard input:17
 msgid "Filter recipients"
 msgstr ""
 
-#: standard input:19
+#: standard input:18
 msgid "(Filtered recipients)"
 msgstr ""
 
-#: standard input:20
+#: standard input:19
 msgid "POP3/IMAP Server"
 msgstr ""
 
-#: standard input:21
+#: standard input:20
 msgid "Enable POP3/IMAP server"
 msgstr ""
 
-#: standard input:23
+#: standard input:21
 msgid "Apply"
 msgstr ""
 
-#: backend3/postfix-dovecot:90
-msgid "Authentication server (dovecot) is not installed"
-msgstr ""
-
-#: backend3/postfix-dovecot:335
+#: backend3/postfix-dovecot:83
 msgid "Relay"
 msgstr ""
 
-#: backend3/postfix-dovecot:336
+#: backend3/postfix-dovecot:84
 msgid "MX"
 msgstr ""
