@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2013-12-06 15:11+0400\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -27,28 +27,52 @@ msgstr "Cliente"
 
 #: standard input:1
 #, fuzzy
-msgid "Director Name:"
+msgid "Client settings"
+msgstr "Configurações Atuais"
+
+#: standard input:2
+#, fuzzy
+msgid "Enable Client"
+msgstr "Cliente"
+
+#: standard input:3
+#, fuzzy
+msgid "Client password:"
+msgstr "Mudar a Senha:"
+
+#: standard input:4
+#, fuzzy
+msgid "Bacula director name:"
 msgstr "Nome da Rede:"
 
-#: standard input:2 ui/bacula-client/index.scm:36
-msgid "Password:"
-msgstr "Senha:"
-
-#: standard input:3 ui/bacula-client/index.scm:45
+#: standard input:5 ui/bacula-client/index.scm:45
 msgid "Apply"
 msgstr "Aplicar"
+
+#: standard input:6
+#, fuzzy
+msgid "Changes successfully updated"
+msgstr "Configurações do servidor atualizada com sucesso"
 
 #: ui/bacula-client/index.scm:33
 #, fuzzy
 msgid "Director name:"
 msgstr "Nome da Rede:"
 
-#: backend3/bacula-client:25
+#: ui/bacula-client/index.scm:36
+msgid "Password:"
+msgstr "Senha:"
+
+#: backend3/bacula-client:149
 #, fuzzy
 msgid "Empty director name"
 msgstr "Nome do computador"
 
-#: backend3/bacula-client:31
+#: backend3/bacula-client:155
 #, fuzzy
 msgid "Empty password"
 msgstr "Atualizar senha"
+
+#, fuzzy
+#~ msgid "Director Name:"
+#~ msgstr "Nome da Rede:"

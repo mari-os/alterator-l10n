@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2013-12-06 15:11+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -25,28 +25,52 @@ msgstr "Клієнт"
 
 #: standard input:1
 #, fuzzy
-msgid "Director Name:"
+msgid "Client settings"
+msgstr "Основні налаштування"
+
+#: standard input:2
+#, fuzzy
+msgid "Enable Client"
+msgstr "Клієнт"
+
+#: standard input:3
+#, fuzzy
+msgid "Client password:"
+msgstr "Змінити пароль:"
+
+#: standard input:4
+#, fuzzy
+msgid "Bacula director name:"
 msgstr "Ім'я мережі"
 
-#: standard input:2 ui/bacula-client/index.scm:36
-msgid "Password:"
-msgstr "Пароль:"
-
-#: standard input:3 ui/bacula-client/index.scm:45
+#: standard input:5 ui/bacula-client/index.scm:45
 msgid "Apply"
 msgstr "Застосувати"
+
+#: standard input:6
+#, fuzzy
+msgid "Changes successfully updated"
+msgstr "Налаштування сервера успішно оновлено"
 
 #: ui/bacula-client/index.scm:33
 #, fuzzy
 msgid "Director name:"
 msgstr "Ім'я мережі"
 
-#: backend3/bacula-client:25
+#: ui/bacula-client/index.scm:36
+msgid "Password:"
+msgstr "Пароль:"
+
+#: backend3/bacula-client:149
 #, fuzzy
 msgid "Empty director name"
 msgstr "Ім'я комп'ютера"
 
-#: backend3/bacula-client:31
+#: backend3/bacula-client:155
 #, fuzzy
 msgid "Empty password"
 msgstr "Змінити пароль:"
+
+#, fuzzy
+#~ msgid "Director Name:"
+#~ msgstr "Ім'я мережі"
