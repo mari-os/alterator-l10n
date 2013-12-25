@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-06 13:04+0400\n"
-"PO-Revision-Date: 2013-12-06 13:16+0400\n"
+"POT-Creation-Date: 2013-12-24 18:08+0400\n"
+"PO-Revision-Date: 2013-12-24 18:10+0400\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -129,7 +129,7 @@ msgstr "Использовать дополнительный диск:"
 msgid "Store backups for:"
 msgstr "Хранить резервные копии за период:"
 
-#: standard input:32 input:110 ui/bacula/local-backup/disk/index.scm:34
+#: standard input:32 input:104 ui/bacula/local-backup/disk/index.scm:34
 msgid "Attention:"
 msgstr "Внимание:"
 
@@ -302,68 +302,44 @@ msgid "Enable Director server"
 msgstr "Включить службу Director"
 
 #: standard input:97
-msgid "*Bacula director name:"
-msgstr "*Имя Director:"
+msgid "Bacula director name:"
+msgstr "Имя Director:"
 
 #: standard input:98
-msgid "*Bacula director password:"
-msgstr "*Пароль Director:"
+msgid "Bacula director password:"
+msgstr "Пароль Director:"
 
 #: standard input:99
-msgid "Bacula base actions:"
-msgstr "Базовая настройка:"
-
-#: standard input:100
-msgid "mysql login:"
-msgstr "Учётная запись MySQL:"
-
-#: standard input:101
-msgid "mysql password:"
-msgstr "Пароль MySQL:"
-
-#: standard input:102
-msgid "Create Bacula base backups (use only at first start Director server)"
-msgstr "Создать базу данных для Bacula"
-
-#: standard input:103
-msgid "Update Bacula base backups (use after upgrade Bacula)"
-msgstr "Обновить базу данных для Bacula"
-
-#: standard input:104
-msgid "Remove Bacula base backups"
-msgstr "Удалить базу данных для Bacula"
-
-#: standard input:105
 msgid "Storage settings"
 msgstr "Параметры Storage"
 
-#: standard input:106
+#: standard input:100
 msgid "Enable Storage server"
 msgstr "Включить службу Storage"
 
-#: standard input:107
-msgid "*Storage address:"
-msgstr "*Адрес сервера Storage:"
+#: standard input:101
+msgid "Storage address:"
+msgstr "Адрес сервера Storage:"
 
-#: standard input:108
+#: standard input:102
 msgid "(Hostname or IP address should be visible for clients)"
 msgstr ""
 "(внешний адрес Storage в виде IP-адреса или имени узла должен быть виден "
 "клиентам)"
 
-#: standard input:109
-msgid "*Storage password:"
-msgstr "*Пароль Storage:"
+#: standard input:103
+msgid "Storage password:"
+msgstr "Пароль Storage:"
 
-#: standard input:111
+#: standard input:105
 msgid "Don't forget to update configuration on all clients after changes"
 msgstr "Не забудьте обновить конфигурацию на всех клиентах после смены имени"
 
-#: standard input:112
+#: standard input:106
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:113
+#: standard input:107
 msgid "Changes successfully updated"
 msgstr "Изменения успешно сохранены"
 
@@ -546,7 +522,15 @@ msgstr "Подобный клиент уже существует"
 msgid "Unable to restore"
 msgstr "Ошибка восстановления"
 
-#: backend3/bacula-director:77
+#: backend3/bacula-director:69
+msgid "Password director not specified!"
+msgstr "Не указан пароль для Director!"
+
+#: backend3/bacula-director:76
+msgid "Password storage not specified!"
+msgstr "Не указан пароль для Storage!"
+
+#: backend3/bacula-director:89
 msgid "You should define valid storage address!"
 msgstr "Вы должны указать правильный внешний адрес Storage!"
 
@@ -573,6 +557,24 @@ msgstr "Ошибка монтирования диска"
 #: backend3/bacula-restore:188
 msgid "Waiting..."
 msgstr "Ожидание..."
+
+#~ msgid "Bacula base actions:"
+#~ msgstr "Базовая настройка:"
+
+#~ msgid "mysql login:"
+#~ msgstr "Учётная запись MySQL:"
+
+#~ msgid "mysql password:"
+#~ msgstr "Пароль MySQL:"
+
+#~ msgid "Create Bacula base backups (use only at first start Director server)"
+#~ msgstr "Создать базу данных для Bacula"
+
+#~ msgid "Update Bacula base backups (use after upgrade Bacula)"
+#~ msgstr "Обновить базу данных для Bacula"
+
+#~ msgid "Remove Bacula base backups"
+#~ msgstr "Удалить базу данных для Bacula"
 
 #~ msgid "Bacula director's name successfully updated"
 #~ msgstr "Имя bacula director было успешно обновлёно"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-06 13:04+0400\n"
+"POT-Creation-Date: 2013-12-24 18:08+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -139,7 +139,7 @@ msgstr "Paquetes adicionales"
 msgid "Store backups for:"
 msgstr ""
 
-#: standard input:32 input:110 ui/bacula/local-backup/disk/index.scm:34
+#: standard input:32 input:104 ui/bacula/local-backup/disk/index.scm:34
 #, fuzzy
 msgid "Attention:"
 msgstr "Acción"
@@ -352,73 +352,47 @@ msgstr "Servicio el Sistema"
 
 #: standard input:97
 #, fuzzy
-msgid "*Bacula director name:"
+msgid "Bacula director name:"
 msgstr "Nome de la carpeta"
 
 #: standard input:98
 #, fuzzy
-msgid "*Bacula director password:"
+msgid "Bacula director password:"
 msgstr "Nome de la carpeta"
 
 #: standard input:99
 #, fuzzy
-msgid "Bacula base actions:"
-msgstr "Nome de la carpeta"
-
-#: standard input:100
-msgid "mysql login:"
-msgstr ""
-
-#: standard input:101
-#, fuzzy
-msgid "mysql password:"
-msgstr "Contraseña"
-
-#: standard input:102
-msgid "Create Bacula base backups (use only at first start Director server)"
-msgstr ""
-
-#: standard input:103
-msgid "Update Bacula base backups (use after upgrade Bacula)"
-msgstr ""
-
-#: standard input:104
-msgid "Remove Bacula base backups"
-msgstr ""
-
-#: standard input:105
-#, fuzzy
 msgid "Storage settings"
 msgstr "Ajustes"
 
-#: standard input:106
+#: standard input:100
 #, fuzzy
 msgid "Enable Storage server"
 msgstr "Servicio el Sistema"
 
-#: standard input:107
+#: standard input:101
 #, fuzzy
-msgid "*Storage address:"
+msgid "Storage address:"
 msgstr "Fuente de la dirección"
 
-#: standard input:108
+#: standard input:102
 msgid "(Hostname or IP address should be visible for clients)"
 msgstr ""
 
-#: standard input:109
+#: standard input:103
 #, fuzzy
-msgid "*Storage password:"
+msgid "Storage password:"
 msgstr "Cambiar contraseña:"
 
-#: standard input:111
+#: standard input:105
 msgid "Don't forget to update configuration on all clients after changes"
 msgstr ""
 
-#: standard input:112
+#: standard input:106
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:113
+#: standard input:107
 #, fuzzy
 msgid "Changes successfully updated"
 msgstr "Administrador del Sistema"
@@ -615,7 +589,15 @@ msgstr "Misma entrada ya existe"
 msgid "Unable to restore"
 msgstr "No és posible crear rede"
 
-#: backend3/bacula-director:77
+#: backend3/bacula-director:69
+msgid "Password director not specified!"
+msgstr ""
+
+#: backend3/bacula-director:76
+msgid "Password storage not specified!"
+msgstr ""
+
+#: backend3/bacula-director:89
 #, fuzzy
 msgid "You should define valid storage address!"
 msgstr "Usted deveria definir una contraseña"
@@ -648,6 +630,14 @@ msgstr "No fue posible configurar el Reloj"
 #, fuzzy
 msgid "Waiting..."
 msgstr "calculando..."
+
+#, fuzzy
+#~ msgid "Bacula base actions:"
+#~ msgstr "Nome de la carpeta"
+
+#, fuzzy
+#~ msgid "mysql password:"
+#~ msgstr "Contraseña"
 
 #, fuzzy
 #~ msgid "Bacula director's name successfully updated"
