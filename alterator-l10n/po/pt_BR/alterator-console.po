@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-24 18:08+0400\n"
+"POT-Creation-Date: 2014-02-24 13:33+0400\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -26,15 +26,27 @@ msgstr ""
 
 #: standard input:1
 #, fuzzy
+msgid "Attention!"
+msgstr "Atenção"
+
+#: standard input:2
+msgid ""
+"Do not run interactive commands (such as `top` or `mc`) in this preudo-"
+"console module. It can hangs up `alteratord` service and makes Alterator "
+"broken."
+msgstr ""
+
+#: standard input:3
+#, fuzzy
 msgid "Working directory:"
 msgstr "Directório de destino:"
 
-#: standard input:2
+#: standard input:4
 #, fuzzy
 msgid "Command:"
 msgstr "Comentários:"
 
-#: standard input:3
+#: standard input:5
 #, fuzzy
 msgid "Run"
 msgstr "Retornar"

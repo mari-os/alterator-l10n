@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-24 18:08+0400\n"
+"POT-Creation-Date: 2014-02-24 13:33+0400\n"
 "PO-Revision-Date: 2013-12-24 18:11+0400\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -23,14 +23,27 @@ msgid "Console"
 msgstr "Консоль"
 
 #: standard input:1
+msgid "Attention!"
+msgstr "Внимание!"
+
+#: standard input:2
+msgid ""
+"Do not run interactive commands (such as `top` or `mc`) in this preudo-"
+"console module. It can hangs up `alteratord` service and makes Alterator "
+"broken."
+msgstr ""
+"Не запускайте интерактивных команд (например, 'top' или 'mc') в этой "
+"псевдо-консоли. Это может привести к зависанию службы alteratord и "
+"неработоспособности Alterator."
+
+#: standard input:3
 msgid "Working directory:"
 msgstr "Рабочий каталог:"
 
-#: standard input:2
+#: standard input:4
 msgid "Command:"
 msgstr "Команда:"
 
-#: standard input:3
+#: standard input:5
 msgid "Run"
 msgstr "Выполнить"
-
