@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2014-09-18 17:39+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -66,7 +66,7 @@ msgstr "Servidor DNS:"
 msgid "Client domain:"
 msgstr "Borrar conección"
 
-#: standard input:10 input:32
+#: standard input:10 input:33
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -121,28 +121,33 @@ msgid "LZO compression"
 msgstr ""
 
 #: standard input:27
+#, fuzzy
+msgid "Use a TCP connection"
+msgstr "PPTP conecciones"
+
+#: standard input:28
 msgid "SSL certificate and key..."
 msgstr ""
 
-#: standard input:28
+#: standard input:29
 #, fuzzy
 msgid "Upload CA certificate:"
 msgstr "Cargar Certificado asinado por:"
 
-#: standard input:29
+#: standard input:30
 msgid "Upload"
 msgstr "Cargar"
 
-#: standard input:30
+#: standard input:31
 msgid "CA certificate successfully uploaded"
 msgstr ""
 
-#: standard input:31
+#: standard input:32
 #, fuzzy
 msgid "Clients networks..."
 msgstr "Rede Actual"
 
-#: standard input:33
+#: standard input:34
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -199,91 +204,95 @@ msgstr ""
 "#-#-#-#-#  alterator-xkb.po (Alterator)  #-#-#-#-#\n"
 "Resetar"
 
-#: backend3/openvpn-server:313
+#: backend3/openvpn-server:287
 msgid "Routed (TUN)"
 msgstr ""
 
-#: backend3/openvpn-server:314
+#: backend3/openvpn-server:288
 msgid "Bridged (TAP)"
 msgstr ""
 
-#: backend3/openvpn-server:428
-#, fuzzy
-msgid "Invalid config value 'dev'"
-msgstr "Valor del Boolen inválido"
-
-#: backend3/openvpn-server:713
+#: backend3/openvpn-server:688
 msgid "VPN network conflicts with server network"
 msgstr ""
 
-#: backend3/openvpn-server:717 backend3/openvpn-server:939
+#: backend3/openvpn-server:692 backend3/openvpn-server:925
 msgid "VPN network conflicts with client network"
 msgstr ""
 
-#: backend3/openvpn-server:726
+#: backend3/openvpn-server:701
 msgid "VPN start address not in VPN network"
 msgstr ""
 
-#: backend3/openvpn-server:730
+#: backend3/openvpn-server:705
 msgid "VPN end address not in VPN network"
 msgstr ""
 
-#: backend3/openvpn-server:737
+#: backend3/openvpn-server:712
 msgid "VPN start address is greater than VPN end address"
 msgstr ""
 
-#: backend3/openvpn-server:742
+#: backend3/openvpn-server:717
 msgid "Gateway address in VPN addresses pool"
 msgstr ""
 
-#: backend3/openvpn-server:832
+#: backend3/openvpn-server:818
 #, fuzzy
 msgid "Certificate not found!"
 msgstr "Archivo del Desktop no encontrado "
 
-#: backend3/openvpn-server:834
+#: backend3/openvpn-server:820
 #, fuzzy
 msgid "Key not found!"
 msgstr "Archivo no encontrado"
 
-#: backend3/openvpn-server:836
+#: backend3/openvpn-server:822
 #, fuzzy
 msgid "CA not found!"
 msgstr "Archivo no encontrado"
 
-#: backend3/openvpn-server:840
+#: backend3/openvpn-server:826
 msgid "openvpn server start failed"
 msgstr ""
 
-#: backend3/openvpn-server:911
+#: backend3/openvpn-server:897
 msgid "Server network conflicts with other server network"
 msgstr ""
 
-#: backend3/openvpn-server:913
+#: backend3/openvpn-server:899
 msgid "Server network conflicts with VPN network"
 msgstr ""
 
-#: backend3/openvpn-server:915 backend3/openvpn-server:937
+#: backend3/openvpn-server:901 backend3/openvpn-server:923
 msgid "Server network conflicts with client network"
 msgstr ""
 
-#: backend3/openvpn-server:928
+#: backend3/openvpn-server:914
 msgid "Client nameserver not in client network(s)"
 msgstr ""
 
-#: backend3/openvpn-server:941
+#: backend3/openvpn-server:927
 msgid "Network conflicts with other client network"
 msgstr ""
 
-#: backend3/openvpn-server:956
+#: backend3/openvpn-server:942
 #, fuzzy
 msgid "File does not exist"
 msgstr "usuário espeficado no existe"
 
-#: backend3/openvpn-server:958
+#: backend3/openvpn-server:944
+#, fuzzy
+msgid "Invalid certificate"
+msgstr "Certificado Inválido"
+
+#: backend3/openvpn-server:946
 #, fuzzy
 msgid "Upload CA failed"
 msgstr "Conección falló"
+
+#, fuzzy
+#~ msgid "Invalid config value 'dev'"
+#~ msgstr "Valor del Boolen inválido"
 
 #, fuzzy
 #~ msgid "Client network mask:"

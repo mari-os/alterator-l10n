@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2014-09-18 17:39+0400\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -24,212 +24,420 @@ msgstr ""
 msgid "Intrusion Detection System"
 msgstr ""
 
-#: standard input:1 input:23
+#: standard input:1 input:20 input:32 input:54 input:73 input:97 input:118
 msgid "Statistics"
 msgstr "Estatísticas"
 
-#: standard input:2 input:24 input:26
+#: standard input:2 input:21 input:33 input:55 input:60 input:74 input:98
+#: input:119
 #, fuzzy
 msgid "Rules"
 msgstr "Regras"
 
-#: standard input:3
+#: standard input:3 input:22 input:34 input:56 input:75 input:99 input:120
 #, fuzzy
-msgid "Enable snort"
-msgstr "Ativar porta LDAP"
+msgid "Notifications"
+msgstr "Comunicações"
 
-#: standard input:4 input:33 input:43
-msgid "Apply"
-msgstr "Aplicar"
-
-#: standard input:5
-msgid "Period from:"
-msgstr "Período de:"
-
-#: standard input:6
-msgid "to"
-msgstr "para"
-
-#: standard input:7
-msgid "Update"
-msgstr "Atualizar"
-
-#: standard input:8
+#: standard input:4 input:23 input:35 input:57 input:76 input:100 input:121
 #, fuzzy
-msgid "Events"
-msgstr "Clientes"
+msgid "Ban system"
+msgstr "Atualizar sistema"
 
-#: standard input:9 input:16 input:25
+#: standard input:5 input:24 input:36 input:58 input:77 input:101 input:122
+msgid "BASE"
+msgstr ""
+
+#: standard input:6 input:25 input:37 input:59 input:78 input:102 input:123
+msgid "Configuration"
+msgstr "Configuração"
+
+#: standard input:7 input:26
+msgid "Setup"
+msgstr ""
+
+#: standard input:8 input:27
+msgid "List of banned IP"
+msgstr ""
+
+#: standard input:9
 #, fuzzy
-msgid "Description"
-msgstr "Descrição:"
+msgid "Rule name:"
+msgstr "Nome do cliente:"
 
-#: standard input:10 input:17
-msgid "Interface"
-msgstr "Interface"
+#: standard input:10 input:39
+msgid "Add"
+msgstr "Adicionar"
 
-#: standard input:11 input:20
+#: standard input:11
 #, fuzzy
-msgid "Count"
-msgstr "País:"
+msgid "Enabled"
+msgstr "Habilitado"
 
-#: standard input:12 input:22
+#: standard input:12
 #, fuzzy
-msgid "Last event"
-msgstr "Último pedido"
+msgid "Duration ban:"
+msgstr "Criar data"
 
 #: standard input:13
 #, fuzzy
-msgid "Show details"
-msgstr "Mostrar opções extras"
+msgid "Time interval:"
+msgstr "Fuso horário:"
 
 #: standard input:14
 #, fuzzy
-msgid "(for selected events)"
-msgstr "Para Seleção:"
+msgid "Count retry:"
+msgstr "País:"
 
-#: standard input:15
-msgid "Details"
+#: standard input:15 input:41
+msgid "Member of"
 msgstr ""
 
-#: standard input:18
+#: standard input:16 input:42
 #, fuzzy
-msgid "Source IP"
-msgstr "Fonte do URI:"
+msgid "Available classes"
+msgstr "Regras disponíveis:"
+
+#: standard input:17 input:51 input:53 input:71 input:116 input:125
+msgid "Apply"
+msgstr "Aplicar"
+
+#: standard input:18 input:43 input:117
+msgid "Delete"
+msgstr "Deletar"
 
 #: standard input:19
 #, fuzzy
-msgid "Destination IP"
-msgstr "Porta destino"
-
-#: standard input:21
-#, fuzzy
-msgid "First event"
-msgstr "Primeira Página"
-
-#: standard input:27
-msgid "Up"
-msgstr "Cima"
+msgid "Reload fail2ban"
+msgstr "Download falhou"
 
 #: standard input:28
-msgid "Down"
-msgstr "Abaixo"
+msgid "IP address"
+msgstr "Endereço IP"
 
 #: standard input:29
-msgid "Remove"
-msgstr "Remover"
+msgid "Hostname"
+msgstr "hostname:"
 
 #: standard input:30
+#, fuzzy
+msgid "Rule name"
+msgstr "Nome do cliente:"
+
+#: standard input:31
+msgid "Unban"
+msgstr ""
+
+#: standard input:38
+#, fuzzy
+msgid "Add email:"
+msgstr "Novo Email:"
+
+#: standard input:40
+#, fuzzy
+msgid "Send test mail"
+msgstr "Teste Falhou [ X11 ]"
+
+#: standard input:44
+#, fuzzy
+msgid "Every 15 minute"
+msgstr "1 minuto"
+
+#: standard input:45
+#, fuzzy
+msgid "Every 30 minute"
+msgstr "1 minuto"
+
+#: standard input:46
+#, fuzzy
+msgid "Every hour"
+msgstr "Todos os dias"
+
+#: standard input:47 input:70
+msgid "Time:"
+msgstr "Hora:"
+
+#: standard input:48 input:67
+msgid "Every day"
+msgstr "Todos os dias"
+
+#: standard input:49 input:68
+msgid "Every week at:"
+msgstr "Todas as semanas em:"
+
+#: standard input:50 input:69
+msgid "Every month at day:"
+msgstr "Todos os meses no dia:"
+
+#: standard input:52
+msgid "Sender:"
+msgstr ""
+
+#: standard input:61
 #, fuzzy
 msgid "Unused rules"
 msgstr "Adicionar Regra"
 
-#: standard input:31
-msgid "Rule"
-msgstr "Regras"
+#: standard input:62
+msgid "Reload snort"
+msgstr ""
 
-#: standard input:32
-#, fuzzy
-msgid "Add selected"
-msgstr "Para Seleção:"
-
-#: standard input:34
-msgid "Reset"
-msgstr "Resetar"
-
-#: standard input:35
+#: standard input:63
 #, fuzzy
 msgid "Download rules"
 msgstr "Download do arquivo:"
 
-#: standard input:36
+#: standard input:64
 msgid "Oink code:"
 msgstr ""
 
-#: standard input:37
+#: standard input:65
 #, fuzzy
 msgid "Custom URL:"
 msgstr "Customizado"
 
-#: standard input:38
+#: standard input:66
 #, fuzzy
 msgid "Auto update"
 msgstr "Atualização do sistema"
 
-#: standard input:39
-msgid "Every day"
-msgstr "Todos os dias"
-
-#: standard input:40
-msgid "Every week at:"
-msgstr "Todas as semanas em:"
-
-#: standard input:41
-msgid "Every month at day:"
-msgstr "Todos os meses no dia:"
-
-#: standard input:42
-msgid "Time:"
-msgstr "Hora:"
-
-#: standard input:44
+#: standard input:72
 #, fuzzy
 msgid "Download now"
 msgstr "Download interrompido"
 
-#: backend3/snort:32
+#: standard input:79
+msgid "Period from:"
+msgstr "Período de:"
+
+#: standard input:80
+msgid "to"
+msgstr "para"
+
+#: standard input:81
+msgid "Update"
+msgstr "Atualizar"
+
+#: standard input:82
+#, fuzzy
+msgid "Events"
+msgstr "Clientes"
+
+#: standard input:83 input:90
+#, fuzzy
+msgid "Description"
+msgstr "Descrição:"
+
+#: standard input:84 input:91
+msgid "Interface"
+msgstr "Interface"
+
+#: standard input:85 input:94
+#, fuzzy
+msgid "Count"
+msgstr "País:"
+
+#: standard input:86 input:96
+#, fuzzy
+msgid "Last event"
+msgstr "Último pedido"
+
+#: standard input:87
+#, fuzzy
+msgid "Show details"
+msgstr "Mostrar opções extras"
+
+#: standard input:88
+#, fuzzy
+msgid "(for selected events)"
+msgstr "Para Seleção:"
+
+#: standard input:89
+msgid "Details"
+msgstr ""
+
+#: standard input:92
+#, fuzzy
+msgid "Source IP"
+msgstr "Fonte do URI:"
+
+#: standard input:93
+#, fuzzy
+msgid "Destination IP"
+msgstr "Porta destino"
+
+#: standard input:95
+#, fuzzy
+msgid "First event"
+msgstr "Primeira Página"
+
+#: standard input:103
+msgid "Go to BASE interface (new window)"
+msgstr ""
+
+#: standard input:104
+#, fuzzy
+msgid "Login:"
+msgstr "Login"
+
+#: standard input:105 input:109
+#, fuzzy
+msgid "Full name:"
+msgstr "Nome da Pasta:"
+
+#: standard input:106 input:111
+msgid "Password:"
+msgstr "Senha:"
+
+#: standard input:107 input:110
+msgid "Role:"
+msgstr ""
+
+#: standard input:108
+#, fuzzy
+msgid "Add user"
+msgstr "Adicionar Usuário:"
+
+#: standard input:112
+msgid "Generate automatically"
+msgstr "Gerar automáticamente"
+
+#: standard input:113
+msgid "(enter passphrase)"
+msgstr "(entre com a senha)"
+
+#: standard input:114
+msgid "(repeat passphrase)"
+msgstr "(repetir a senha)"
+
+#: standard input:115
+msgid "Generate"
+msgstr "Gerar"
+
+#: standard input:124
+#, fuzzy
+msgid "Enable snort"
+msgstr "Ativar porta LDAP"
+
+#: standard input:126
+#, fuzzy
+msgid "Listen on:"
+msgstr "Endereços Disponíveis"
+
+#: standard input:127
+#, fuzzy
+msgid "Any interfaces"
+msgstr "Interfaces Wifi"
+
+#: standard input:128
+#, fuzzy
+msgid "Specific interfaces:"
+msgstr "Interfaces Wifi"
+
+#: standard input:129
+msgid "Interfaces"
+msgstr "Interfaces"
+
+#: standard input:130
+#, fuzzy
+msgid "Unused interfaces"
+msgstr "Interface Web"
+
+#: ui/snort/notifications/ajax.scm:22
+#, fuzzy
+msgid "Do you really want to delete email?"
+msgstr "Você realmente deseja apagar"
+
+#: backend3/snort:42
 msgid "monday"
 msgstr "segunda-feira"
 
-#: backend3/snort:33
+#: backend3/snort:43
 msgid "tuesday"
 msgstr "terça-feira"
 
-#: backend3/snort:34
+#: backend3/snort:44
 msgid "wednesday"
 msgstr "quarta-feira"
 
-#: backend3/snort:35
+#: backend3/snort:45
 msgid "thursday"
 msgstr "quinta-feira"
 
-#: backend3/snort:36
+#: backend3/snort:46
 msgid "friday"
 msgstr "sexta-feira"
 
-#: backend3/snort:37
+#: backend3/snort:47
 msgid "saturday"
 msgstr "sábado"
 
-#: backend3/snort:38
+#: backend3/snort:48
 msgid "sunday"
 msgstr "domingo"
 
-#: backend3/snort:317
+#: backend3/snort:344 backend3/snort:621
 msgid "Day of week should be selected"
 msgstr "Dia da semana, devem ser selecionados"
 
-#: backend3/snort:322
+#: backend3/snort:349 backend3/snort:627
 msgid "Day of month should be defined"
 msgstr "Dia do mês deve ser definida"
 
-#: backend3/snort:333
+#: backend3/snort:360 backend3/snort:639
 msgid "Unable to create temp file"
 msgstr "Não é possível criar arquivo temporário"
 
-#: backend3/snort:358
+#: backend3/snort:385
 msgid "URL not specified"
 msgstr ""
 
-#: backend3/snort:363
+#: backend3/snort:392
 #, fuzzy
 msgid "Download rules failed"
 msgstr "Download falhou"
 
-#: backend3/snort:422
+#: backend3/snort:399
+msgid "Create sid-msg failed"
+msgstr ""
+
+#: backend3/snort:908
+#, fuzzy
+msgid "Enter login"
+msgstr "Porfavor login"
+
+#: backend3/snort:913
+#, fuzzy
+msgid "Enter password"
+msgstr "Atualizar senha"
+
+#: backend3/snort:969
+msgid "Passwords mismatch"
+msgstr "Senhas não conferem"
+
+#: backend3/snort:1166
 msgid "Oinkcode not specified!"
 msgstr ""
 
-#: backend3/snort:430
+#: backend3/snort:1174
 msgid "URL not specified!"
 msgstr ""
+
+#~ msgid "Up"
+#~ msgstr "Cima"
+
+#~ msgid "Down"
+#~ msgstr "Abaixo"
+
+#~ msgid "Remove"
+#~ msgstr "Remover"
+
+#~ msgid "Rule"
+#~ msgstr "Regras"
+
+#, fuzzy
+#~ msgid "Add selected"
+#~ msgstr "Para Seleção:"
+
+#~ msgid "Reset"
+#~ msgstr "Resetar"

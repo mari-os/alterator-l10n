@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2014-09-18 17:39+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,194 +21,359 @@ msgstr ""
 msgid "Intrusion Detection System"
 msgstr ""
 
-#: standard input:1 input:23
+#: standard input:1 input:20 input:32 input:54 input:73 input:97 input:118
 msgid "Statistics"
 msgstr ""
 
-#: standard input:2 input:24 input:26
+#: standard input:2 input:21 input:33 input:55 input:60 input:74 input:98
+#: input:119
 msgid "Rules"
 msgstr ""
 
-#: standard input:3
-msgid "Enable snort"
+#: standard input:3 input:22 input:34 input:56 input:75 input:99 input:120
+msgid "Notifications"
 msgstr ""
 
-#: standard input:4 input:33 input:43
-msgid "Apply"
+#: standard input:4 input:23 input:35 input:57 input:76 input:100 input:121
+msgid "Ban system"
 msgstr ""
 
-#: standard input:5
-msgid "Period from:"
+#: standard input:5 input:24 input:36 input:58 input:77 input:101 input:122
+msgid "BASE"
 msgstr ""
 
-#: standard input:6
-msgid "to"
+#: standard input:6 input:25 input:37 input:59 input:78 input:102 input:123
+msgid "Configuration"
 msgstr ""
 
-#: standard input:7
-msgid "Update"
+#: standard input:7 input:26
+msgid "Setup"
 msgstr ""
 
-#: standard input:8
-msgid "Events"
+#: standard input:8 input:27
+msgid "List of banned IP"
 msgstr ""
 
-#: standard input:9 input:16 input:25
-msgid "Description"
+#: standard input:9
+msgid "Rule name:"
 msgstr ""
 
-#: standard input:10 input:17
-msgid "Interface"
+#: standard input:10 input:39
+msgid "Add"
 msgstr ""
 
-#: standard input:11 input:20
-msgid "Count"
+#: standard input:11
+msgid "Enabled"
 msgstr ""
 
-#: standard input:12 input:22
-msgid "Last event"
+#: standard input:12
+msgid "Duration ban:"
 msgstr ""
 
 #: standard input:13
-msgid "Show details"
+msgid "Time interval:"
 msgstr ""
 
 #: standard input:14
-msgid "(for selected events)"
+msgid "Count retry:"
 msgstr ""
 
-#: standard input:15
-msgid "Details"
+#: standard input:15 input:41
+msgid "Member of"
 msgstr ""
 
-#: standard input:18
-msgid "Source IP"
+#: standard input:16 input:42
+msgid "Available classes"
+msgstr ""
+
+#: standard input:17 input:51 input:53 input:71 input:116 input:125
+msgid "Apply"
+msgstr ""
+
+#: standard input:18 input:43 input:117
+msgid "Delete"
 msgstr ""
 
 #: standard input:19
-msgid "Destination IP"
-msgstr ""
-
-#: standard input:21
-msgid "First event"
-msgstr ""
-
-#: standard input:27
-msgid "Up"
+msgid "Reload fail2ban"
 msgstr ""
 
 #: standard input:28
-msgid "Down"
+msgid "IP address"
 msgstr ""
 
 #: standard input:29
-msgid "Remove"
+msgid "Hostname"
 msgstr ""
 
 #: standard input:30
-msgid "Unused rules"
+msgid "Rule name"
 msgstr ""
 
 #: standard input:31
-msgid "Rule"
-msgstr ""
-
-#: standard input:32
-msgid "Add selected"
-msgstr ""
-
-#: standard input:34
-msgid "Reset"
-msgstr ""
-
-#: standard input:35
-msgid "Download rules"
-msgstr ""
-
-#: standard input:36
-msgid "Oink code:"
-msgstr ""
-
-#: standard input:37
-msgid "Custom URL:"
+msgid "Unban"
 msgstr ""
 
 #: standard input:38
-msgid "Auto update"
-msgstr ""
-
-#: standard input:39
-msgid "Every day"
+msgid "Add email:"
 msgstr ""
 
 #: standard input:40
-msgid "Every week at:"
-msgstr ""
-
-#: standard input:41
-msgid "Every month at day:"
-msgstr ""
-
-#: standard input:42
-msgid "Time:"
+msgid "Send test mail"
 msgstr ""
 
 #: standard input:44
+msgid "Every 15 minute"
+msgstr ""
+
+#: standard input:45
+msgid "Every 30 minute"
+msgstr ""
+
+#: standard input:46
+msgid "Every hour"
+msgstr ""
+
+#: standard input:47 input:70
+msgid "Time:"
+msgstr ""
+
+#: standard input:48 input:67
+msgid "Every day"
+msgstr ""
+
+#: standard input:49 input:68
+msgid "Every week at:"
+msgstr ""
+
+#: standard input:50 input:69
+msgid "Every month at day:"
+msgstr ""
+
+#: standard input:52
+msgid "Sender:"
+msgstr ""
+
+#: standard input:61
+msgid "Unused rules"
+msgstr ""
+
+#: standard input:62
+msgid "Reload snort"
+msgstr ""
+
+#: standard input:63
+msgid "Download rules"
+msgstr ""
+
+#: standard input:64
+msgid "Oink code:"
+msgstr ""
+
+#: standard input:65
+msgid "Custom URL:"
+msgstr ""
+
+#: standard input:66
+msgid "Auto update"
+msgstr ""
+
+#: standard input:72
 msgid "Download now"
 msgstr ""
 
-#: backend3/snort:32
+#: standard input:79
+msgid "Period from:"
+msgstr ""
+
+#: standard input:80
+msgid "to"
+msgstr ""
+
+#: standard input:81
+msgid "Update"
+msgstr ""
+
+#: standard input:82
+msgid "Events"
+msgstr ""
+
+#: standard input:83 input:90
+msgid "Description"
+msgstr ""
+
+#: standard input:84 input:91
+msgid "Interface"
+msgstr ""
+
+#: standard input:85 input:94
+msgid "Count"
+msgstr ""
+
+#: standard input:86 input:96
+msgid "Last event"
+msgstr ""
+
+#: standard input:87
+msgid "Show details"
+msgstr ""
+
+#: standard input:88
+msgid "(for selected events)"
+msgstr ""
+
+#: standard input:89
+msgid "Details"
+msgstr ""
+
+#: standard input:92
+msgid "Source IP"
+msgstr ""
+
+#: standard input:93
+msgid "Destination IP"
+msgstr ""
+
+#: standard input:95
+msgid "First event"
+msgstr ""
+
+#: standard input:103
+msgid "Go to BASE interface (new window)"
+msgstr ""
+
+#: standard input:104
+msgid "Login:"
+msgstr ""
+
+#: standard input:105 input:109
+msgid "Full name:"
+msgstr ""
+
+#: standard input:106 input:111
+msgid "Password:"
+msgstr ""
+
+#: standard input:107 input:110
+msgid "Role:"
+msgstr ""
+
+#: standard input:108
+msgid "Add user"
+msgstr ""
+
+#: standard input:112
+msgid "Generate automatically"
+msgstr ""
+
+#: standard input:113
+msgid "(enter passphrase)"
+msgstr ""
+
+#: standard input:114
+msgid "(repeat passphrase)"
+msgstr ""
+
+#: standard input:115
+msgid "Generate"
+msgstr ""
+
+#: standard input:124
+msgid "Enable snort"
+msgstr ""
+
+#: standard input:126
+msgid "Listen on:"
+msgstr ""
+
+#: standard input:127
+msgid "Any interfaces"
+msgstr ""
+
+#: standard input:128
+msgid "Specific interfaces:"
+msgstr ""
+
+#: standard input:129
+msgid "Interfaces"
+msgstr ""
+
+#: standard input:130
+msgid "Unused interfaces"
+msgstr ""
+
+#: ui/snort/notifications/ajax.scm:22
+msgid "Do you really want to delete email?"
+msgstr ""
+
+#: backend3/snort:42
 msgid "monday"
 msgstr ""
 
-#: backend3/snort:33
+#: backend3/snort:43
 msgid "tuesday"
 msgstr ""
 
-#: backend3/snort:34
+#: backend3/snort:44
 msgid "wednesday"
 msgstr ""
 
-#: backend3/snort:35
+#: backend3/snort:45
 msgid "thursday"
 msgstr ""
 
-#: backend3/snort:36
+#: backend3/snort:46
 msgid "friday"
 msgstr ""
 
-#: backend3/snort:37
+#: backend3/snort:47
 msgid "saturday"
 msgstr ""
 
-#: backend3/snort:38
+#: backend3/snort:48
 msgid "sunday"
 msgstr ""
 
-#: backend3/snort:317
+#: backend3/snort:344 backend3/snort:621
 msgid "Day of week should be selected"
 msgstr ""
 
-#: backend3/snort:322
+#: backend3/snort:349 backend3/snort:627
 msgid "Day of month should be defined"
 msgstr ""
 
-#: backend3/snort:333
+#: backend3/snort:360 backend3/snort:639
 msgid "Unable to create temp file"
 msgstr ""
 
-#: backend3/snort:358
+#: backend3/snort:385
 msgid "URL not specified"
 msgstr ""
 
-#: backend3/snort:363
+#: backend3/snort:392
 msgid "Download rules failed"
 msgstr ""
 
-#: backend3/snort:422
+#: backend3/snort:399
+msgid "Create sid-msg failed"
+msgstr ""
+
+#: backend3/snort:908
+msgid "Enter login"
+msgstr ""
+
+#: backend3/snort:913
+msgid "Enter password"
+msgstr ""
+
+#: backend3/snort:969
+msgid "Passwords mismatch"
+msgstr ""
+
+#: backend3/snort:1166
 msgid "Oinkcode not specified!"
 msgstr ""
 
-#: backend3/snort:430
+#: backend3/snort:1174
 msgid "URL not specified!"
 msgstr ""

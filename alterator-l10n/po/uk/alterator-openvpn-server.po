@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2014-09-18 17:39+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -58,7 +58,7 @@ msgstr "DNS-сервер клієнту:"
 msgid "Client domain:"
 msgstr "Домен клієнту:"
 
-#: standard input:10 input:32
+#: standard input:10 input:33
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -107,105 +107,114 @@ msgid "LZO compression"
 msgstr "Компресія LZO"
 
 #: standard input:27
+#, fuzzy
+msgid "Use a TCP connection"
+msgstr "З'єднання PPPTP"
+
+#: standard input:28
 msgid "SSL certificate and key..."
 msgstr "SSL сертифікат та ключ..."
 
-#: standard input:28
+#: standard input:29
 msgid "Upload CA certificate:"
 msgstr "Завантажити CA сертифікат:"
 
-#: standard input:29
+#: standard input:30
 msgid "Upload"
 msgstr "Завантажити"
 
-#: standard input:30
+#: standard input:31
 msgid "CA certificate successfully uploaded"
 msgstr "Сертифікат CA вдало завантажено"
 
-#: standard input:31
+#: standard input:32
 msgid "Clients networks..."
 msgstr "Клієнтські мережі..."
 
-#: standard input:33
+#: standard input:34
 msgid "Reset"
 msgstr "Скинути"
 
-#: backend3/openvpn-server:313
+#: backend3/openvpn-server:287
 msgid "Routed (TUN)"
 msgstr "Маршрутизоване (TUN)"
 
-#: backend3/openvpn-server:314
+#: backend3/openvpn-server:288
 msgid "Bridged (TAP)"
 msgstr "За посередництвом мосту (TAP)"
 
-#: backend3/openvpn-server:428
-msgid "Invalid config value 'dev'"
-msgstr "Недозволене значення параметру 'dev'"
-
-#: backend3/openvpn-server:713
+#: backend3/openvpn-server:688
 msgid "VPN network conflicts with server network"
 msgstr "VPN мережа конфліктує з мережею серверу"
 
-#: backend3/openvpn-server:717 backend3/openvpn-server:939
+#: backend3/openvpn-server:692 backend3/openvpn-server:925
 msgid "VPN network conflicts with client network"
 msgstr "VPN мережа конфліктує з мережею клієнта"
 
-#: backend3/openvpn-server:726
+#: backend3/openvpn-server:701
 msgid "VPN start address not in VPN network"
 msgstr "Початок VPN адрес не у VPN мережі"
 
-#: backend3/openvpn-server:730
+#: backend3/openvpn-server:705
 msgid "VPN end address not in VPN network"
 msgstr "Кінець VPN адрес не у VPN мережі"
 
-#: backend3/openvpn-server:737
+#: backend3/openvpn-server:712
 msgid "VPN start address is greater than VPN end address"
 msgstr "Початок VPN адрес більше за кінець VPN адрес"
 
-#: backend3/openvpn-server:742
+#: backend3/openvpn-server:717
 msgid "Gateway address in VPN addresses pool"
 msgstr "Адреса шлюзу знаходиться у VPN мережі"
 
-#: backend3/openvpn-server:832
+#: backend3/openvpn-server:818
 msgid "Certificate not found!"
 msgstr "Сертифікат не знайдено!"
 
-#: backend3/openvpn-server:834
+#: backend3/openvpn-server:820
 msgid "Key not found!"
 msgstr "Ключ не знайдено!"
 
-#: backend3/openvpn-server:836
+#: backend3/openvpn-server:822
 msgid "CA not found!"
 msgstr "CA не знайдено!"
 
-#: backend3/openvpn-server:840
+#: backend3/openvpn-server:826
 msgid "openvpn server start failed"
 msgstr "помилка запуску openvpn серверу"
 
-#: backend3/openvpn-server:911
+#: backend3/openvpn-server:897
 msgid "Server network conflicts with other server network"
 msgstr "Мережа серверу конфліктує з іншою мережею серверу"
 
-#: backend3/openvpn-server:913
+#: backend3/openvpn-server:899
 msgid "Server network conflicts with VPN network"
 msgstr "Мережа серверу конфліктує з іншою VPN мережею"
 
-#: backend3/openvpn-server:915 backend3/openvpn-server:937
+#: backend3/openvpn-server:901 backend3/openvpn-server:923
 msgid "Server network conflicts with client network"
 msgstr "Мережа серверу конфліктує з іншою мережею клієнту"
 
-#: backend3/openvpn-server:928
+#: backend3/openvpn-server:914
 msgid "Client nameserver not in client network(s)"
 msgstr "DNS клієнту не належить мережі(ам)"
 
-#: backend3/openvpn-server:941
+#: backend3/openvpn-server:927
 msgid "Network conflicts with other client network"
 msgstr "Мережа конфліктує з іншою мережею клієнту"
 
-#: backend3/openvpn-server:956
+#: backend3/openvpn-server:942
 msgid "File does not exist"
 msgstr "Файл не існує"
 
-#: backend3/openvpn-server:958
+#: backend3/openvpn-server:944
+#, fuzzy
+msgid "Invalid certificate"
+msgstr "Невірний файл сертифікату"
+
+#: backend3/openvpn-server:946
 msgid "Upload CA failed"
 msgstr "Завантаження CA невдале"
+
+#~ msgid "Invalid config value 'dev'"
+#~ msgstr "Недозволене значення параметру 'dev'"
