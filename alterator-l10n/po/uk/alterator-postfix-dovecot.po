@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-06 13:04+0400\n"
+"POT-Creation-Date: 2014-10-14 13:35+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Wad Mashckoff <adiel@nospam.kiev.ua>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -35,82 +35,112 @@ msgid "Enable SMTP server"
 msgstr "Увімкнути службу SMTP"
 
 #: standard input:4
+msgid "Info: configure clients to use STARTTLS"
+msgstr ""
+
+#: standard input:5
+msgid "Configuration"
+msgstr "Налаштування:"
+
+#: standard input:6
 msgid "Operational mode:"
 msgstr "Режим роботи:"
 
-#: standard input:5
+#: standard input:7
 msgid "Upstream SMTP host:"
 msgstr "Приймаючий сервер SMTP:"
 
-#: standard input:6
+#: standard input:8
 msgid "Domain list:"
 msgstr "Список доменів:"
 
-#: standard input:7
+#: standard input:9
 msgid "(Send all outgoing mail to specified server)"
 msgstr "(Пересилати вихідну пошту на вказаний сервер)"
 
-#: standard input:8
+#: standard input:10
 msgid "(Accept mail for these domains)"
 msgstr "(Приймати пошту для наступних доменів)"
 
-#: standard input:9
+#: standard input:11
 msgid "Root mail alias:"
 msgstr "Псевдонім адміністратора:"
 
-#: standard input:10
+#: standard input:12
 msgid "(Root mail goes to this mailbox)"
 msgstr "(Пошла для root складаеться в цю скриньку)"
 
-#: standard input:11
+#: standard input:13
 msgid "Maximum message size (MB):"
 msgstr "Максимальний розмір повідомлення (Мб):"
 
-#: standard input:12
+#: standard input:14
 msgid "(Maximum message size in megabytes)"
 msgstr "Максимальній розмір повідомлень у мегабайтах"
 
-#: standard input:13
+#: standard input:15
 msgid "Security"
 msgstr "Безпека"
 
-#: standard input:14
+#: standard input:16
 msgid "Filter spam"
 msgstr "Фільтрувати спам"
 
-#: standard input:15
+#: standard input:17
 msgid "Filter senders"
 msgstr "Фільтрувати відправників"
 
-#: standard input:16
+#: standard input:18
 msgid "Local networks:"
 msgstr "Локальні мережі:"
 
-#: standard input:17
+#: standard input:19
 msgid "Filter recipients"
 msgstr "Фільтрувати отримувачів"
 
-#: standard input:18
+#: standard input:20
 msgid "(Filtered recipients)"
 msgstr "Фільтрувати отримувачів"
 
-#: standard input:19
+#: standard input:21
+msgid "Use antivirus"
+msgstr "Перевіряти антівірусом"
+
+#: standard input:22
+msgid "ClamAV"
+msgstr ""
+
+#: standard input:23
 msgid "POP3/IMAP Server"
 msgstr "Сервер POP3/IMAP"
 
-#: standard input:20
+#: standard input:24
 msgid "Enable POP3/IMAP server"
 msgstr "Увімкнути службу POP3/IMAP"
 
-#: standard input:21
+#: standard input:25
+#, fuzzy
+msgid "Provide SASL/SMTP authentication"
+msgstr "Автентифікація"
+
+#: standard input:26
 msgid "Apply"
 msgstr "Застосувати"
 
-#: backend3/postfix-dovecot:83
+#: standard input:27
+#, fuzzy
+msgid "Show debug"
+msgstr "Показати довідку"
+
+#: backend3/postfix-dovecot:343
+msgid "Clamav software is absent"
+msgstr ""
+
+#: backend3/postfix-dovecot:598
 msgid "Relay"
 msgstr "Посередник"
 
-#: backend3/postfix-dovecot:84
+#: backend3/postfix-dovecot:599
 msgid "MX"
 msgstr "Сервер"
 
@@ -134,6 +164,3 @@ msgstr "Сервер"
 
 #~ msgid "Plain text authentification only over secure connection"
 #~ msgstr "Приймати незашифровані паролі тільки через безпечні з’єднання"
-
-#~ msgid "Use antivirus"
-#~ msgstr "Перевіряти антівірусом"

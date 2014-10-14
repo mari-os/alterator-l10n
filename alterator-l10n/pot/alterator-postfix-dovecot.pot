@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-06 13:04+0400\n"
+"POT-Creation-Date: 2014-10-14 13:35+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,81 +34,109 @@ msgid "Enable SMTP server"
 msgstr ""
 
 #: standard input:4
-msgid "Operational mode:"
+msgid "Info: configure clients to use STARTTLS"
 msgstr ""
 
 #: standard input:5
-msgid "Upstream SMTP host:"
+msgid "Configuration"
 msgstr ""
 
 #: standard input:6
-msgid "Domain list:"
+msgid "Operational mode:"
 msgstr ""
 
 #: standard input:7
-msgid "(Send all outgoing mail to specified server)"
+msgid "Upstream SMTP host:"
 msgstr ""
 
 #: standard input:8
-msgid "(Accept mail for these domains)"
+msgid "Domain list:"
 msgstr ""
 
 #: standard input:9
-msgid "Root mail alias:"
+msgid "(Send all outgoing mail to specified server)"
 msgstr ""
 
 #: standard input:10
-msgid "(Root mail goes to this mailbox)"
+msgid "(Accept mail for these domains)"
 msgstr ""
 
 #: standard input:11
-msgid "Maximum message size (MB):"
+msgid "Root mail alias:"
 msgstr ""
 
 #: standard input:12
-msgid "(Maximum message size in megabytes)"
+msgid "(Root mail goes to this mailbox)"
 msgstr ""
 
 #: standard input:13
-msgid "Security"
+msgid "Maximum message size (MB):"
 msgstr ""
 
 #: standard input:14
-msgid "Filter spam"
+msgid "(Maximum message size in megabytes)"
 msgstr ""
 
 #: standard input:15
-msgid "Filter senders"
+msgid "Security"
 msgstr ""
 
 #: standard input:16
-msgid "Local networks:"
+msgid "Filter spam"
 msgstr ""
 
 #: standard input:17
-msgid "Filter recipients"
+msgid "Filter senders"
 msgstr ""
 
 #: standard input:18
-msgid "(Filtered recipients)"
+msgid "Local networks:"
 msgstr ""
 
 #: standard input:19
-msgid "POP3/IMAP Server"
+msgid "Filter recipients"
 msgstr ""
 
 #: standard input:20
-msgid "Enable POP3/IMAP server"
+msgid "(Filtered recipients)"
 msgstr ""
 
 #: standard input:21
+msgid "Use antivirus"
+msgstr ""
+
+#: standard input:22
+msgid "ClamAV"
+msgstr ""
+
+#: standard input:23
+msgid "POP3/IMAP Server"
+msgstr ""
+
+#: standard input:24
+msgid "Enable POP3/IMAP server"
+msgstr ""
+
+#: standard input:25
+msgid "Provide SASL/SMTP authentication"
+msgstr ""
+
+#: standard input:26
 msgid "Apply"
 msgstr ""
 
-#: backend3/postfix-dovecot:83
+#: standard input:27
+msgid "Show debug"
+msgstr ""
+
+#: backend3/postfix-dovecot:343
+msgid "Clamav software is absent"
+msgstr ""
+
+#: backend3/postfix-dovecot:598
 msgid "Relay"
 msgstr ""
 
-#: backend3/postfix-dovecot:84
+#: backend3/postfix-dovecot:599
 msgid "MX"
 msgstr ""

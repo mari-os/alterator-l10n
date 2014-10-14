@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-06 13:04+0400\n"
+"POT-Creation-Date: 2014-10-14 13:35+0400\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -40,92 +40,130 @@ msgid "Enable SMTP server"
 msgstr "Habilitar o servidor DHCP"
 
 #: standard input:4
+msgid "Info: configure clients to use STARTTLS"
+msgstr ""
+
+#: standard input:5
+msgid "Configuration"
+msgstr "Configuração"
+
+#: standard input:6
 #, fuzzy
 msgid "Operational mode:"
 msgstr "Tempo de expiração"
 
-#: standard input:5
+#: standard input:7
 msgid "Upstream SMTP host:"
 msgstr ""
 
-#: standard input:6
+#: standard input:8
 msgid "Domain list:"
 msgstr "Lista de domínio:"
 
-#: standard input:7
+#: standard input:9
 msgid "(Send all outgoing mail to specified server)"
 msgstr ""
 
-#: standard input:8
-msgid "(Accept mail for these domains)"
-msgstr ""
-
-#: standard input:9
-#, fuzzy
-msgid "Root mail alias:"
-msgstr "Apelido de Email"
-
 #: standard input:10
-msgid "(Root mail goes to this mailbox)"
+msgid "(Accept mail for these domains)"
 msgstr ""
 
 #: standard input:11
 #, fuzzy
-msgid "Maximum message size (MB):"
-msgstr "Cota de Tamanho (Mb):"
+msgid "Root mail alias:"
+msgstr "Apelido de Email"
 
 #: standard input:12
-msgid "(Maximum message size in megabytes)"
+msgid "(Root mail goes to this mailbox)"
 msgstr ""
 
 #: standard input:13
+#, fuzzy
+msgid "Maximum message size (MB):"
+msgstr "Cota de Tamanho (Mb):"
+
+#: standard input:14
+msgid "(Maximum message size in megabytes)"
+msgstr ""
+
+#: standard input:15
 msgid "Security"
 msgstr ""
 
-#: standard input:14
+#: standard input:16
 #, fuzzy
 msgid "Filter spam"
 msgstr "FIltro de tabela"
 
-#: standard input:15
+#: standard input:17
 #, fuzzy
 msgid "Filter senders"
 msgstr "Filtros de Destinátarios"
 
-#: standard input:16
+#: standard input:18
 #, fuzzy
 msgid "Local networks:"
 msgstr "As redes internas"
 
-#: standard input:17
+#: standard input:19
 #, fuzzy
 msgid "Filter recipients"
 msgstr "Filtros de Receptores"
 
-#: standard input:18
+#: standard input:20
 #, fuzzy
 msgid "(Filtered recipients)"
 msgstr "Filtros de Receptores"
 
-#: standard input:19
+#: standard input:21
+msgid "Use antivirus"
+msgstr ""
+
+#: standard input:22
+msgid "ClamAV"
+msgstr ""
+
+#: standard input:23
 #, fuzzy
 msgid "POP3/IMAP Server"
 msgstr "Servidor POP3/IMAP"
 
-#: standard input:20
+#: standard input:24
 #, fuzzy
 msgid "Enable POP3/IMAP server"
 msgstr "Servidor POP3/IMAP"
 
-#: standard input:21
+#: standard input:25
+#, fuzzy
+msgid "Provide SASL/SMTP authentication"
+msgstr "Sem autenticação"
+
+#: standard input:26
 msgid "Apply"
 msgstr "Aplicar"
 
-#: backend3/postfix-dovecot:83
+#: standard input:27
+#, fuzzy
+msgid "Show debug"
+msgstr ""
+"#-#-#-#-#  alterator-ahttpd.po (Alterator)  #-#-#-#-#\n"
+"Ver ajuda\n"
+"#-#-#-#-#  alterator-backup-server.po (Alterator)  #-#-#-#-#\n"
+"Exibir ajuda\n"
+"#-#-#-#-#  alterator-chainmail.po (Alterator)  #-#-#-#-#\n"
+"Exibir ajuda\n"
+"#-#-#-#-#  alterator-firsttime.po (Alterator)  #-#-#-#-#\n"
+"Exibir ajuda"
+
+#: backend3/postfix-dovecot:343
+msgid "Clamav software is absent"
+msgstr ""
+
+#: backend3/postfix-dovecot:598
 msgid "Relay"
 msgstr ""
 
-#: backend3/postfix-dovecot:84
+#: backend3/postfix-dovecot:599
 msgid "MX"
 msgstr ""
 

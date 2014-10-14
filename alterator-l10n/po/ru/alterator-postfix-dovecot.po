@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2013.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-06 13:04+0400\n"
-"PO-Revision-Date: 2013-12-06 13:06+0400\n"
+"POT-Creation-Date: 2014-10-14 13:35+0400\n"
+"PO-Revision-Date: 2014-10-14 13:39+0400\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -36,82 +36,110 @@ msgid "Enable SMTP server"
 msgstr "Включить службу SMTP"
 
 #: standard input:4
+msgid "Info: configure clients to use STARTTLS"
+msgstr "Программы-клиенты должны использовать STARTTLS"
+
+#: standard input:5
+msgid "Configuration"
+msgstr "Настройка"
+
+#: standard input:6
 msgid "Operational mode:"
 msgstr "Режим работы:"
 
-#: standard input:5
+#: standard input:7
 msgid "Upstream SMTP host:"
 msgstr "Принимающий сервер SMTP:"
 
-#: standard input:6
+#: standard input:8
 msgid "Domain list:"
 msgstr "Список доменов:"
 
-#: standard input:7
+#: standard input:9
 msgid "(Send all outgoing mail to specified server)"
 msgstr "(Пересылать исходящую почту на указанный сервер)"
 
-#: standard input:8
+#: standard input:10
 msgid "(Accept mail for these domains)"
 msgstr "(Принимать почту для этих доменов)"
 
-#: standard input:9
+#: standard input:11
 msgid "Root mail alias:"
 msgstr "Псевдоним администратора:"
 
-#: standard input:10
+#: standard input:12
 msgid "(Root mail goes to this mailbox)"
 msgstr "(Почта администратора кладётся в этот ящик)"
 
-#: standard input:11
+#: standard input:13
 msgid "Maximum message size (MB):"
 msgstr "Максимальный размер сообщения (Мб):"
 
-#: standard input:12
+#: standard input:14
 msgid "(Maximum message size in megabytes)"
 msgstr "(Максимальный размер сообщения в мегабайтах)"
 
-#: standard input:13
+#: standard input:15
 msgid "Security"
 msgstr "Безопасность"
 
-#: standard input:14
+#: standard input:16
 msgid "Filter spam"
 msgstr "Помечать спам"
 
-#: standard input:15
+#: standard input:17
 msgid "Filter senders"
 msgstr "Фильтровать отправителей"
 
-#: standard input:16
+#: standard input:18
 msgid "Local networks:"
 msgstr "Внутренние сети:"
 
-#: standard input:17
+#: standard input:19
 msgid "Filter recipients"
 msgstr "Фильтровать получателей"
 
-#: standard input:18
+#: standard input:20
 msgid "(Filtered recipients)"
 msgstr "(Отфильтрованные получатели)"
 
-#: standard input:19
+#: standard input:21
+msgid "Use antivirus"
+msgstr "Проверять антивирусом"
+
+#: standard input:22
+msgid "ClamAV"
+msgstr "ClamAV"
+
+#: standard input:23
 msgid "POP3/IMAP Server"
 msgstr "Сервер POP3/IMAP"
 
-#: standard input:20
+#: standard input:24
 msgid "Enable POP3/IMAP server"
 msgstr "Включить службу POP3/IMAP"
 
-#: standard input:21
+#: standard input:25
+msgid "Provide SASL/SMTP authentication"
+msgstr "Аутентификация SMTP через SASL"
+
+#: standard input:26
 msgid "Apply"
 msgstr "Применить"
 
-#: backend3/postfix-dovecot:83
+#: standard input:27
+msgid "Show debug"
+msgstr "Показать отладочную информацию"
+
+#: backend3/postfix-dovecot:343
+msgid "Clamav software is absent"
+msgstr "Антивирус ClamAV не установлен"
+
+#: backend3/postfix-dovecot:598
 msgid "Relay"
 msgstr "Посредник"
 
-#: backend3/postfix-dovecot:84
+#: backend3/postfix-dovecot:599
 msgid "MX"
 msgstr "Сервер"
 
@@ -135,6 +163,3 @@ msgstr "Сервер"
 
 #~ msgid "Plain text authentification only over secure connection"
 #~ msgstr "Принимать незашифрованные пароли только через безопасные соединения"
-
-#~ msgid "Use antivirus"
-#~ msgstr "Проверять антивирусом"
