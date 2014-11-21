@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 20:11+0400\n"
+"POT-Creation-Date: 2014-11-21 11:57+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,109 +20,125 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:11
-msgid "(enter passphrase)"
-msgstr "(entre com la contraseña)"
-
-#: standard input:12
-msgid "(repeat passphrase)"
-msgstr "(repetir la contraseña)"
-
-#: standard input:18
-#, fuzzy
-msgid "Administrator's password:"
-msgstr "Administrador del Sistema"
-
-#: standard input:15
-msgid "Apply"
-msgstr "Aplicar"
-
-#: standard input:6
-msgid ""
-"Before you begin to work with system you will have to made some initial "
-"actions."
-msgstr ""
-
-#: standard input:14
-msgid "Choose external interfaces for correct setup of system firewall:"
-msgstr ""
-
-#: standard input:7
-#, fuzzy
-msgid "Choose interface language:"
-msgstr "Seleccione sua Lenguage"
-
-#: standard input:8
-#, fuzzy
-msgid "Define domain:"
-msgstr "Procurar Dominios:"
-
-#: standard input:13
-msgid "Generate"
-msgstr "Generar"
-
-#: standard input:10
-msgid "Generate automatically"
-msgstr "Generar automaticamente"
-
-#: standard input:3
-msgid "Help"
-msgstr "Ayuda"
-
 #: standard input:1
-msgid "Initial system setup"
-msgstr ""
-
-#: standard input:19
-msgid "Interface language:"
-msgstr "Seleccione sua Lenguage"
-
-#: standard input:20
-msgid "Login"
-msgstr "Sesión"
-
-#: standard input:4
-msgid "Logout"
-msgstr ""
-
-#: ui/chainmail/firsttime/ajax.scm:31
 #, fuzzy
-msgid "Please define domain name"
+msgid "Domain"
 msgstr "Procurar Dominios:"
 
-#: standard input:17
-msgid "Please login"
-msgstr "Por Favor Inicie la sesión"
-
-#: ui/chainmail/firsttime/ajax.scm:29
-#, fuzzy
-msgid "Please select server role"
-msgstr "Seleccione la Zona Horaria:"
-
-#: standard input:9
-msgid "Setup password for system administrator:"
-msgstr "Configuración del sistema administrador:"
-
-#: standard input:5
-msgid "System management center"
-msgstr "Centro de gestión del Sistema"
-
-#: standard input:1 input:16
+#: standard input:1 input:6
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
 "a Javascript enabled browser."
 msgstr ""
 
-#: hooks/net-eth-precommit.d/office-server:21
-#, fuzzy
-msgid "You must define as minimum one statically configured Ethernet interface"
-msgstr ""
-"Usted debe tener configurado interfaz ethernet para configurar servidor dhcp."
+#: standard input:2
+msgid "Please login"
+msgstr "Por Favor Inicie la sesión"
 
-#: hooks/net-eth-precommit.d/office-server:7
-msgid "alterator-office-server"
+#: standard input:3
+#, fuzzy
+msgid "Administrator's password:"
+msgstr "Administrador del Sistema"
+
+#: standard input:4
+msgid "Interface language:"
+msgstr "Seleccione sua Lenguage"
+
+#: standard input:5
+msgid "Login"
+msgstr "Sesión"
+
+#: standard input:8
+msgid "Help"
+msgstr "Ayuda"
+
+#: standard input:9
+msgid "Logout"
 msgstr ""
+
+#: standard input:10
+msgid "System management center"
+msgstr "Centro de gestión del Sistema"
+
+#: ui/chainmail/domain/index.scm:9
+#, fuzzy
+msgid "Domain:"
+msgstr "Procurar Dominios:"
+
+#: ui/chainmail/domain/index.scm:13
+msgid "Domain name should follows RFC 1035"
+msgstr ""
+
+#: ui/chainmail/domain/index.scm:15
+msgid "Domain name should contains one or more labels separated by dots."
+msgstr ""
+
+#: ui/chainmail/domain/index.scm:17
+msgid ""
+"Labels must start with a latin letter (in upper and lower case), end with a "
+"letter or digit, and have as interior characters only letters, digits, and "
+"hyphen."
+msgstr ""
+
+#: ui/chainmail/domain/index.scm:19
+msgid "Labels must be 63 characters or less."
+msgstr ""
+
+#: ui/chainmail/domain/index.scm:21
+msgid ""
+"Domain should not has labels named 'localhost', 'localdomain' and 'local'. "
+"They are reserved for internal purposes."
+msgstr ""
+
+#: ui/chainmail/domain/index.scm:23
+msgid "Examples: domain, school-33, department.company"
+msgstr ""
+
+#: ui/chainmail/domain/index.scm:27
+msgid "Select external interfaces:"
+msgstr "Seleccionar interfazes externas:"
+
+#~ msgid "(enter passphrase)"
+#~ msgstr "(entre com la contraseña)"
+
+#~ msgid "(repeat passphrase)"
+#~ msgstr "(repetir la contraseña)"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#, fuzzy
+#~ msgid "Choose interface language:"
+#~ msgstr "Seleccione sua Lenguage"
+
+#, fuzzy
+#~ msgid "Define domain:"
+#~ msgstr "Procurar Dominios:"
+
+#~ msgid "Generate"
+#~ msgstr "Generar"
+
+#~ msgid "Generate automatically"
+#~ msgstr "Generar automaticamente"
+
+#, fuzzy
+#~ msgid "Please define domain name"
+#~ msgstr "Procurar Dominios:"
+
+#, fuzzy
+#~ msgid "Please select server role"
+#~ msgstr "Seleccione la Zona Horaria:"
+
+#~ msgid "Setup password for system administrator:"
+#~ msgstr "Configuración del sistema administrador:"
+
+#, fuzzy
+#~ msgid ""
+#~ "You must define as minimum one statically configured Ethernet interface"
+#~ msgstr ""
+#~ "Usted debe tener configurado interfaz ethernet para configurar servidor "
+#~ "dhcp."
 
 #~ msgid "Hide help"
 #~ msgstr "Ayuda Oculta"

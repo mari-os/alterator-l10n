@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-28 00:41+0400\n"
+"POT-Creation-Date: 2014-11-21 11:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,159 +23,243 @@ msgstr ""
 
 #.
 #: standard input:1 ui/net-eth/advanced/index.scm:48
+#: ui/net-eth/vlan/index.scm:166
 msgid "Interface:"
 msgstr ""
 
 #.
 #: standard input:2 ui/net-eth/advanced/index.scm:52
+#: ui/net-eth/vlan/index.scm:170
 msgid "Network subsystem:"
 msgstr ""
 
 #.
 #: standard input:3 ui/net-eth/advanced/index.scm:55
+#: ui/net-eth/vlan/index.scm:173
 msgid "Use interface as bridge"
 msgstr ""
 
 #: standard input:4 ui/net-eth/advanced/index.scm:63
+#: ui/net-eth/vlan/index.scm:182
 msgid "OK"
 msgstr ""
 
 #: standard input:5 ui/net-eth/advanced/index.scm:64
+#: ui/net-eth/vlan/index.scm:183
 msgid "Cancel"
 msgstr ""
 
 #.
-#: standard input:6 ui/net-eth/index.scm:148
+#: standard input:6 ui/net-eth/index.scm:182
 msgid "Computer name:"
 msgstr ""
 
-#: standard input:7 ui/net-eth/index.scm:155
+#: standard input:7 ui/net-eth/index.scm:189
 msgid "Interfaces"
 msgstr ""
 
-#: standard input:8 ui/net-eth/index.scm:166
+#.
+#: standard input:8 ui/net-eth/index.scm:199
+msgid "VLAN"
+msgstr ""
+
+#: standard input:9
+msgid "Host: "
+msgstr ""
+
+#: standard input:10
+msgid "VID: "
+msgstr ""
+
+#: standard input:11 ui/net-eth/index.scm:210
 msgid "Select IP version:"
 msgstr ""
 
-#: standard input:9 ui/net-eth/index.scm:168
+#: standard input:12 ui/net-eth/index.scm:212
 msgid "Enable"
 msgstr ""
 
 #.
-#: standard input:10 ui/net-eth/index.scm:170
+#: standard input:13 ui/net-eth/index.scm:214
 msgid "Configuration:"
 msgstr ""
 
 #.
 #. (spacer)(separator)
 #.
-#: standard input:11 ui/net-eth/index.scm:177
+#: standard input:14 ui/net-eth/index.scm:221
 msgid "IP addresses:"
 msgstr ""
 
-#: standard input:12 ui/net-eth/index.scm:180
+#: standard input:15 input:30 ui/net-eth/index.scm:224
 msgid "Delete"
 msgstr ""
 
-#: standard input:13 ui/net-eth/index.scm:184
+#: standard input:16 ui/net-eth/index.scm:228
 msgid "IP:"
 msgstr ""
 
-#: standard input:14 ui/net-eth/index.scm:187
+#: standard input:17 ui/net-eth/index.scm:231 ui/net-eth/vlan/index.scm:194
 msgid "Add"
 msgstr ""
 
 #.
 #. (spacer)(separator)
 #.
-#: standard input:15 ui/net-eth/index.scm:194
+#: standard input:18 ui/net-eth/index.scm:238
 msgid "Default gateway:"
 msgstr ""
 
 #.
-#: standard input:16 ui/net-eth/index.scm:198
+#: standard input:19 ui/net-eth/index.scm:242
 msgid "DNS servers:"
 msgstr ""
 
 #.
-#: standard input:17 ui/net-eth/index.scm:202
+#: standard input:20 ui/net-eth/index.scm:246
 msgid "Search domains:"
 msgstr ""
 
 #.
-#: standard input:18 ui/net-eth/index.scm:206
+#: standard input:21 ui/net-eth/index.scm:250
 msgid "(multiple values should be space separated)"
 msgstr ""
 
 #.
-#: standard input:19 ui/net-eth/index.scm:209
+#: standard input:22 ui/net-eth/index.scm:253
 msgid "Wireless settings..."
 msgstr ""
 
-#: standard input:20 ui/net-eth/index.scm:210
+#: standard input:23 ui/net-eth/index.scm:254
 msgid "Advanced..."
 msgstr ""
 
-#: standard input:21 ui/net-eth/index.scm:220
+#: standard input:24
+msgid "VLAN Configuration..."
+msgstr ""
+
+#: standard input:25 input:33 ui/net-eth/index.scm:264
 msgid "Apply"
 msgstr ""
 
-#: standard input:22 ui/net-eth/index.scm:221
+#: standard input:26 input:34 ui/net-eth/index.scm:265
 msgid "Reset"
 msgstr ""
 
-#: backend3/net-eth:233
+#: standard input:27
+msgid "VLAN Configuration for Interface "
+msgstr ""
+
+#: standard input:28
+msgid "Back"
+msgstr ""
+
+#: standard input:29
+msgid "New"
+msgstr ""
+
+#: standard input:31
+msgid "VLAN Name:"
+msgstr ""
+
+#: standard input:32 ui/net-eth/vlan/index.scm:192
+#: ui/net-eth/vlan/index.scm:219
+msgid "VID (1-4095):"
+msgstr ""
+
+#: ui/net-eth/index.scm:203
+msgid "Host:"
+msgstr ""
+
+#: ui/net-eth/index.scm:205
+msgid "VID:"
+msgstr ""
+
+#: ui/net-eth/vlan/index.scm:175
+msgid "- remove infants to change"
+msgstr ""
+
+#: ui/net-eth/vlan/index.scm:188
+msgid "Add new child VLAN interface"
+msgstr ""
+
+#: ui/net-eth/vlan/index.scm:190
+msgid "Name for new interface:"
+msgstr ""
+
+#: ui/net-eth/vlan/index.scm:201
+msgid "List of infant VLAN interfaces"
+msgstr ""
+
+#: ui/net-eth/vlan/index.scm:205
+msgid "Infant interface name -- VLAN ID"
+msgstr ""
+
+#. form-update-enum
+#: ui/net-eth/vlan/index.scm:209
+msgid "Remove selected vlans"
+msgstr ""
+
+#: ui/net-eth/vlan/index.scm:217
+msgid "Rename to:"
+msgstr ""
+
+#: ui/net-eth/vlan/index.scm:221
+msgid "Save"
+msgstr ""
+
+#: backend3/net-eth:287
 msgid "Host name is too long"
 msgstr ""
 
-#: backend3/net-eth:293
+#: backend3/net-eth:347
 msgid "IPv4"
 msgstr ""
 
-#: backend3/net-eth:294
+#: backend3/net-eth:349
 msgid "IPv6"
 msgstr ""
 
-#: backend3/net-eth:332
+#: backend3/net-eth:415
 msgid "not under control"
 msgstr ""
 
-#: backend3/net-eth:338
+#: backend3/net-eth:421
 msgid "Use RA only"
 msgstr ""
 
-#: backend3/net-eth:339
+#: backend3/net-eth:422
 msgid "Use DHCP"
 msgstr ""
 
-#: backend3/net-eth:340
+#: backend3/net-eth:423
 msgid "Use Zeroconf"
 msgstr ""
 
-#: backend3/net-eth:341
+#: backend3/net-eth:424
 msgid "Manually"
 msgstr ""
 
-#: backend3/net-eth:349
+#: backend3/net-eth:432
 msgid "Network adaptor:"
 msgstr ""
 
-#: backend3/net-eth:356
+#: backend3/net-eth:439
 msgid "plugged"
 msgstr ""
 
-#: backend3/net-eth:359
+#: backend3/net-eth:442
 msgid "unplugged"
 msgstr ""
 
-#: backend3/net-eth:576
+#: backend3/net-eth:672
 msgid "IPv4 and IPv6 configurations are incompatible:"
 msgstr ""
 
-#: backend3/net-eth:656
+#: backend3/net-eth:754
 msgid "Invalid DNS list"
 msgstr ""
 
-#: backend3/net-eth:697
+#: backend3/net-eth:795
 msgid "Invalid IP address:"
 msgstr ""
