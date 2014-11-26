@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-24 17:16+0400\n"
-"PO-Revision-Date: 2014-07-24 18:20+0400\n"
+"POT-Creation-Date: 2014-11-26 15:18+0300\n"
+"PO-Revision-Date: 2014-11-26 15:25+0300\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -39,38 +39,52 @@ msgid "Go to Zabbix configuration (new window)"
 msgstr "Настройка Zabbix в новом окне"
 
 #: standard input:5
+msgid "(default Web GUI configuaration username: `admin', password: `zabbix')"
+msgstr ""
+"(настройка через веб-интерфейс: пользователь 'admin', пароль по умолчанию "
+"'zabbix')"
+
+#: standard input:6
+msgid "Current status"
+msgstr "Текущее состояние"
+
+#: standard input:7
 msgid "Server"
 msgstr "Сервер"
 
-#: standard input:6
+#: standard input:8
 msgid "Active"
 msgstr "Активность"
 
-#: standard input:7
+#: standard input:9
 msgid "Info"
 msgstr "Сведения"
 
-#: standard input:8
+#: standard input:10
 msgid "Zabbix"
 msgstr "Zabbix"
 
-#: standard input:9
+#: standard input:11
 msgid "Web"
 msgstr "Web"
 
-#: standard input:10
+#: standard input:12
 msgid "Database"
 msgstr "База данных"
 
-#: standard input:11
+#: standard input:13
+msgid "Zabbix service configuration"
+msgstr "Параметры службы Zabbix"
+
+#: standard input:14
 msgid "Zabbix server options"
 msgstr "Параметры сервера Zabbix"
 
-#: standard input:12
+#: standard input:15
 msgid "Value (leave empty for default)"
 msgstr "Значение (оставьте пустым для значения по умолчанию)."
 
-#: standard input:13
+#: standard input:16
 msgid ""
 "List of comma delimited IP addresses that the trapper should listen on. "
 "Default: 0.0.0.0"
@@ -78,33 +92,49 @@ msgstr ""
 "Список IP-адресов, разделённых запятыми, которые прослушиваются трапперами. "
 "По умолчанию: 0.0.0.0."
 
-#: standard input:14
+#: standard input:17
 msgid "Listen port for trapper (1024-32767). Default: 10051"
 msgstr "Номер порта траппера (1024-32767). По умолчанию 10051."
 
-#: standard input:15
+#: standard input:18
 msgid "Number of pre-forked instances of trappers (0-1000). Default: 5"
 msgstr ""
 "Количество одновременно запускаемых трапперов (0-1000). По умолчанию: 5."
 
-#: standard input:16
+#: standard input:19
 msgid "Number of pre-forked instances of pollers (0-1000). Default: 5"
 msgstr ""
 "Количество одновременно запускаемых пуллеров (0-1000). По умолчанию: 5."
 
-#: standard input:17
+#: standard input:20
 msgid "SNMP trapper process is started. Default: off"
 msgstr "Запускать процесс траппера SNMP. По умолчанию не запускать."
 
-#: standard input:18
+#: standard input:21
 msgid "Update settings"
 msgstr "Обновить параметры"
 
-#: standard input:19
+#: standard input:22
+msgid "Setup new `admin' password"
+msgstr "Пароль администратора"
+
+#: standard input:23
+msgid "Update Web GUI `admin' with new password:"
+msgstr "Установить пароль для пользователя 'admin' для веб-интерфейса:"
+
+#: standard input:24
+msgid "Current root password (required to modify MySQL):"
+msgstr "Пароль пользователя root (требуется для изменения базы данных MySQL):"
+
+#: standard input:25
+msgid "Set new password"
+msgstr "Установить новый пароль"
+
+#: standard input:26
 msgid "Initial setup"
 msgstr "Первоначальная настройка"
 
-#: standard input:20
+#: standard input:27
 msgid ""
 "\n"
 "              It is necessary to accomplish basic initialization.\n"
@@ -117,31 +147,31 @@ msgstr ""
 "Zabbix.\n"
 "            "
 
-#: standard input:24
+#: standard input:31
 msgid "Warning:"
 msgstr "Предупреждение:"
 
-#: standard input:25
+#: standard input:32
 msgid "in case of existance DB it will be dropped."
 msgstr "Существующая база будет перезаписана."
 
-#: standard input:26
+#: standard input:33
 msgid "Root password (required to modify MySQL):"
-msgstr "Пароль администратора базы данных MySQL:"
+msgstr "Пароль суперпользователя (требуется для изменения базы данных MySQL):"
 
-#: standard input:27
+#: standard input:34
 msgid "Proceed basic initialization"
 msgstr "Применение первоначальной настройки"
 
-#: standard input:28
+#: standard input:35
 msgid "Show debug"
 msgstr "Отладочная информация"
 
-#: ui/zabbix-server/ajax.scm:128
+#: ui/zabbix-server/ajax.scm:143
 msgid "Serial ports control activated"
 msgstr "Включено управление последовательными портами"
 
-#: ui/zabbix-server/ajax.scm:128
+#: ui/zabbix-server/ajax.scm:143
 msgid "Serial ports control deactivated"
 msgstr "Отключено управление последовательными портами"
 

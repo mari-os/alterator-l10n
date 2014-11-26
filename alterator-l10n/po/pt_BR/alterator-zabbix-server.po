@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-24 17:16+0400\n"
+"POT-Creation-Date: 2014-11-26 15:18+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -42,72 +42,104 @@ msgid "Go to Zabbix configuration (new window)"
 msgstr ""
 
 #: standard input:5
+msgid "(default Web GUI configuaration username: `admin', password: `zabbix')"
+msgstr ""
+
+#: standard input:6
+#, fuzzy
+msgid "Current status"
+msgstr "Atual Estado"
+
+#: standard input:7
 msgid "Server"
 msgstr "Servidor"
 
-#: standard input:6
+#: standard input:8
 #, fuzzy
 msgid "Active"
 msgstr "inativo"
 
-#: standard input:7
+#: standard input:9
 msgid "Info"
 msgstr ""
 
-#: standard input:8
-msgid "Zabbix"
-msgstr ""
-
-#: standard input:9
-#, fuzzy
-msgid "Web"
-msgstr "Nós"
-
 #: standard input:10
-msgid "Database"
+msgid "Zabbix"
 msgstr ""
 
 #: standard input:11
 #, fuzzy
-msgid "Zabbix server options"
-msgstr "Opções gerais"
+msgid "Web"
+msgstr "Nós"
 
 #: standard input:12
-msgid "Value (leave empty for default)"
+msgid "Database"
 msgstr ""
 
 #: standard input:13
+#, fuzzy
+msgid "Zabbix service configuration"
+msgstr "Opções gerais"
+
+#: standard input:14
+#, fuzzy
+msgid "Zabbix server options"
+msgstr "Opções gerais"
+
+#: standard input:15
+msgid "Value (leave empty for default)"
+msgstr ""
+
+#: standard input:16
 msgid ""
 "List of comma delimited IP addresses that the trapper should listen on. "
 "Default: 0.0.0.0"
 msgstr ""
 
-#: standard input:14
+#: standard input:17
 msgid "Listen port for trapper (1024-32767). Default: 10051"
 msgstr ""
 
-#: standard input:15
+#: standard input:18
 msgid "Number of pre-forked instances of trappers (0-1000). Default: 5"
 msgstr ""
 
-#: standard input:16
+#: standard input:19
 msgid "Number of pre-forked instances of pollers (0-1000). Default: 5"
 msgstr ""
 
-#: standard input:17
+#: standard input:20
 msgid "SNMP trapper process is started. Default: off"
 msgstr ""
 
-#: standard input:18
+#: standard input:21
 msgid "Update settings"
 msgstr "Definições de actualização"
 
-#: standard input:19
+#: standard input:22
+#, fuzzy
+msgid "Setup new `admin' password"
+msgstr "Senha do Administrador de Sistemas"
+
+#: standard input:23
+msgid "Update Web GUI `admin' with new password:"
+msgstr ""
+
+#: standard input:24
+msgid "Current root password (required to modify MySQL):"
+msgstr ""
+
+#: standard input:25
+#, fuzzy
+msgid "Set new password"
+msgstr "Atualizar senha"
+
+#: standard input:26
 #, fuzzy
 msgid "Initial setup"
 msgstr "configuração do sistema Initial"
 
-#: standard input:20
+#: standard input:27
 msgid ""
 "\n"
 "              It is necessary to accomplish basic initialization.\n"
@@ -115,24 +147,24 @@ msgid ""
 "            "
 msgstr ""
 
-#: standard input:24
+#: standard input:31
 msgid "Warning:"
 msgstr "Cuidado:"
 
-#: standard input:25
+#: standard input:32
 msgid "in case of existance DB it will be dropped."
 msgstr ""
 
-#: standard input:26
+#: standard input:33
 msgid "Root password (required to modify MySQL):"
 msgstr ""
 
-#: standard input:27
+#: standard input:34
 #, fuzzy
 msgid "Proceed basic initialization"
 msgstr "Framebuffer inicialização post."
 
-#: standard input:28
+#: standard input:35
 #, fuzzy
 msgid "Show debug"
 msgstr ""
@@ -145,11 +177,11 @@ msgstr ""
 "#-#-#-#-#  alterator-firsttime.po (Alterator)  #-#-#-#-#\n"
 "Exibir ajuda"
 
-#: ui/zabbix-server/ajax.scm:128
+#: ui/zabbix-server/ajax.scm:143
 msgid "Serial ports control activated"
 msgstr ""
 
-#: ui/zabbix-server/ajax.scm:128
+#: ui/zabbix-server/ajax.scm:143
 msgid "Serial ports control deactivated"
 msgstr ""
 
