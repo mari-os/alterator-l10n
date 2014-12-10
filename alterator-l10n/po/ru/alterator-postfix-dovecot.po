@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-14 13:35+0400\n"
-"PO-Revision-Date: 2014-10-14 13:39+0400\n"
+"POT-Creation-Date: 2014-12-10 14:45+0300\n"
+"PO-Revision-Date: 2014-12-10 14:49+0300\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -108,40 +108,67 @@ msgid "Use antivirus"
 msgstr "Проверять антивирусом"
 
 #: standard input:22
-msgid "ClamAV"
-msgstr "ClamAV"
+msgid "ClamAV (ClamAV service must be active)"
+msgstr "ClamAV (служба ClamAV должна быть запущена)"
 
 #: standard input:23
+msgid "Dr.Web"
+msgstr "Dr.Web"
+
+#: standard input:24
+msgid "First Dr.Web, second ClamAV"
+msgstr "Сначала Dr.Web, потом ClamAV"
+
+#: standard input:25
+msgid "First ClamAV, second Dr.Web"
+msgstr "Сначала ClamAV, потом Dr.Web"
+
+#: standard input:26
 msgid "POP3/IMAP Server"
 msgstr "Сервер POP3/IMAP"
 
-#: standard input:24
+#: standard input:27
 msgid "Enable POP3/IMAP server"
 msgstr "Включить службу POP3/IMAP"
 
-#: standard input:25
+#: standard input:28
 msgid "Provide SASL/SMTP authentication"
 msgstr "Аутентификация SMTP через SASL"
 
-#: standard input:26
+#: standard input:29
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:27
+#: standard input:30
 msgid "Show debug"
 msgstr "Показать отладочную информацию"
 
-#: backend3/postfix-dovecot:343
+#: backend3/postfix-dovecot:342
 msgid "Clamav software is absent"
 msgstr "Антивирус ClamAV не установлен"
 
-#: backend3/postfix-dovecot:598
+#: backend3/postfix-dovecot:355
+msgid "Clamav software has wrong configuration"
+msgstr "Антивирус ClamAV неверно настроен"
+
+#: backend3/postfix-dovecot:393
+msgid "DrWeb software is absent"
+msgstr "Антивирус Dr.Web не установлен"
+
+#: backend3/postfix-dovecot:407
+msgid "DrWeb software has wrong configuration"
+msgstr "Антивирус Dr.Web неверно настроен"
+
+#: backend3/postfix-dovecot:751
 msgid "Relay"
 msgstr "Посредник"
 
-#: backend3/postfix-dovecot:599
+#: backend3/postfix-dovecot:752
 msgid "MX"
 msgstr "Сервер"
+
+#~ msgid "ClamAV"
+#~ msgstr "ClamAV"
 
 #~ msgid "Allow authentification"
 #~ msgstr "Разрешить аутентификацию"
@@ -154,12 +181,6 @@ msgstr "Сервер"
 
 #~ msgid "Dr.Web antivirus daemon"
 #~ msgstr "Демон антивируса Dr.Web"
-
-#~ msgid "First ClamAV, second Dr.Web"
-#~ msgstr "Сперва ClamAV, потом Dr.Web"
-
-#~ msgid "First Dr.Web, second ClamAV"
-#~ msgstr "Сперва Dr.Web, потом ClamAV"
 
 #~ msgid "Plain text authentification only over secure connection"
 #~ msgstr "Принимать незашифрованные пароли только через безопасные соединения"
