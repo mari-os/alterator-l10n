@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-18 17:39+0400\n"
-"PO-Revision-Date: 2014-09-18 18:11+0400\n"
+"POT-Creation-Date: 2014-12-17 16:17+0300\n"
+"PO-Revision-Date: 2014-12-17 16:19+0300\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -22,28 +22,28 @@ msgstr ""
 msgid "Intrusion Detection System"
 msgstr "Система обнаружения вторжений"
 
-#: standard input:1 input:20 input:32 input:54 input:73 input:97 input:118
+#: standard input:1 input:20 input:32 input:54 input:73 input:99 input:120
 msgid "Statistics"
 msgstr "Статистика"
 
-#: standard input:2 input:21 input:33 input:55 input:60 input:74 input:98
-#: input:119
+#: standard input:2 input:21 input:33 input:55 input:60 input:74 input:100
+#: input:121
 msgid "Rules"
 msgstr "Правила"
 
-#: standard input:3 input:22 input:34 input:56 input:75 input:99 input:120
+#: standard input:3 input:22 input:34 input:56 input:75 input:101 input:122
 msgid "Notifications"
 msgstr "Уведомления"
 
-#: standard input:4 input:23 input:35 input:57 input:76 input:100 input:121
+#: standard input:4 input:23 input:35 input:57 input:76 input:102 input:123
 msgid "Ban system"
 msgstr "Запреты"
 
-#: standard input:5 input:24 input:36 input:58 input:77 input:101 input:122
+#: standard input:5 input:24 input:36 input:58 input:77 input:103 input:124
 msgid "BASE"
 msgstr "BASE"
 
-#: standard input:6 input:25 input:37 input:59 input:78 input:102 input:123
+#: standard input:6 input:25 input:37 input:59 input:78 input:104 input:125
 msgid "Configuration"
 msgstr "Настройка"
 
@@ -87,11 +87,11 @@ msgstr "Входит в классы"
 msgid "Available classes"
 msgstr "Доступные классы"
 
-#: standard input:17 input:51 input:53 input:71 input:116 input:125
+#: standard input:17 input:51 input:53 input:71 input:118 input:127
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:18 input:43 input:117
+#: standard input:18 input:43 input:119
 msgid "Delete"
 msgstr "Удалить"
 
@@ -240,143 +240,167 @@ msgstr "IP адрес получателя"
 msgid "First event"
 msgstr "Первое событие"
 
-#: standard input:103
+#: standard input:97
+msgid "Reset all registered events, completely clean up database:"
+msgstr "Удалить все зарегистрированные события:"
+
+#: standard input:98
+msgid "reset"
+msgstr "Очистить всё"
+
+#: standard input:105
 msgid "Go to BASE interface (new window)"
 msgstr "Открыть центр управления BASE в новом окне"
 
-#: standard input:104
+#: standard input:106
 msgid "Login:"
 msgstr "Имя пользователя:"
 
-#: standard input:105 input:109
+#: standard input:107 input:111
 msgid "Full name:"
 msgstr "Полное имя:"
 
-#: standard input:106 input:111
+#: standard input:108 input:113
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:107 input:110
+#: standard input:109 input:112
 msgid "Role:"
 msgstr "Роль:"
 
-#: standard input:108
+#: standard input:110
 msgid "Add user"
 msgstr "Добавить пользователя"
 
-#: standard input:112
+#: standard input:114
 msgid "Generate automatically"
 msgstr "Создать автоматически"
 
-#: standard input:113
+#: standard input:115
 msgid "(enter passphrase)"
 msgstr "(введите фразу)"
 
-#: standard input:114
+#: standard input:116
 msgid "(repeat passphrase)"
 msgstr "(повторите фразу)"
 
-#: standard input:115
+#: standard input:117
 msgid "Generate"
 msgstr "Сгенерировать"
 
-#: standard input:124
+#: standard input:126
 msgid "Enable snort"
 msgstr "Включить службу snort"
 
-#: standard input:126
+#: standard input:128
 msgid "Listen on:"
 msgstr "Контролирует:"
 
-#: standard input:127
+#: standard input:129
 msgid "Any interfaces"
 msgstr "Все интерфейсы"
 
-#: standard input:128
+#: standard input:130
 msgid "Specific interfaces:"
 msgstr "Указанные интерфейсы:"
 
-#: standard input:129
+#: standard input:131
 msgid "Interfaces"
 msgstr "Интерфейсы"
 
-#: standard input:130
+#: standard input:132
 msgid "Unused interfaces"
 msgstr "Неиспользуемые интерфейсы"
+
+#: ui/snort/ajax.scm:39
+msgid "Are you really want cleanup all data?"
+msgstr "Вы действительно хотите удалить все зарегистрированные события?"
+
+#: ui/snort/ajax.scm:39
+msgid "Question"
+msgstr "Вопрос"
+
+#: ui/snort/ajax.scm:39
+msgid "Yes"
+msgstr "Да"
+
+#: ui/snort/ajax.scm:39
+msgid "No"
+msgstr "Нет"
 
 #: ui/snort/notifications/ajax.scm:22
 msgid "Do you really want to delete email?"
 msgstr "Удалить адрес e-mail?"
 
-#: backend3/snort:42
+#: backend3/snort:48
 msgid "monday"
 msgstr "понедельник"
 
-#: backend3/snort:43
+#: backend3/snort:49
 msgid "tuesday"
 msgstr "вторник"
 
-#: backend3/snort:44
+#: backend3/snort:50
 msgid "wednesday"
 msgstr "среда"
 
-#: backend3/snort:45
+#: backend3/snort:51
 msgid "thursday"
 msgstr "четверг"
 
-#: backend3/snort:46
+#: backend3/snort:52
 msgid "friday"
 msgstr "пятница"
 
-#: backend3/snort:47
+#: backend3/snort:53
 msgid "saturday"
 msgstr "суббота"
 
-#: backend3/snort:48
+#: backend3/snort:54
 msgid "sunday"
 msgstr "воскресение"
 
-#: backend3/snort:344 backend3/snort:621
+#: backend3/snort:360 backend3/snort:637
 msgid "Day of week should be selected"
 msgstr "Должен быть выбран день недели"
 
-#: backend3/snort:349 backend3/snort:627
+#: backend3/snort:365 backend3/snort:643
 msgid "Day of month should be defined"
 msgstr "Должно быть определено число месяца"
 
-#: backend3/snort:360 backend3/snort:639
+#: backend3/snort:376 backend3/snort:655
 msgid "Unable to create temp file"
 msgstr "Невозможно создать временный файл"
 
-#: backend3/snort:385
+#: backend3/snort:401
 msgid "URL not specified"
 msgstr "URL не указан"
 
-#: backend3/snort:392
+#: backend3/snort:408
 msgid "Download rules failed"
 msgstr "Загрузка правил не удалась"
 
-#: backend3/snort:399
+#: backend3/snort:415
 msgid "Create sid-msg failed"
 msgstr "Ошибка создания sid-msg"
 
-#: backend3/snort:908
+#: backend3/snort:924
 msgid "Enter login"
 msgstr "Укажите имя пользователя"
 
-#: backend3/snort:913
+#: backend3/snort:929
 msgid "Enter password"
 msgstr "Укажите пароль"
 
-#: backend3/snort:969
+#: backend3/snort:985
 msgid "Passwords mismatch"
 msgstr "Введённые пароли не совпадают"
 
-#: backend3/snort:1166
+#: backend3/snort:1205
 msgid "Oinkcode not specified!"
 msgstr "Oink-код не указан!"
 
-#: backend3/snort:1174
+#: backend3/snort:1213
 msgid "URL not specified!"
 msgstr "URL не указан!"
 
@@ -394,6 +418,3 @@ msgstr "URL не указан!"
 
 #~ msgid "Add selected"
 #~ msgstr "Добавить выделенные"
-
-#~ msgid "Reset"
-#~ msgstr "Вернуть"

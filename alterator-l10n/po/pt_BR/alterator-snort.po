@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-18 17:39+0400\n"
+"POT-Creation-Date: 2014-12-17 16:17+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -24,31 +24,31 @@ msgstr ""
 msgid "Intrusion Detection System"
 msgstr ""
 
-#: standard input:1 input:20 input:32 input:54 input:73 input:97 input:118
+#: standard input:1 input:20 input:32 input:54 input:73 input:99 input:120
 msgid "Statistics"
 msgstr "Estatísticas"
 
-#: standard input:2 input:21 input:33 input:55 input:60 input:74 input:98
-#: input:119
+#: standard input:2 input:21 input:33 input:55 input:60 input:74 input:100
+#: input:121
 #, fuzzy
 msgid "Rules"
 msgstr "Regras"
 
-#: standard input:3 input:22 input:34 input:56 input:75 input:99 input:120
+#: standard input:3 input:22 input:34 input:56 input:75 input:101 input:122
 #, fuzzy
 msgid "Notifications"
 msgstr "Comunicações"
 
-#: standard input:4 input:23 input:35 input:57 input:76 input:100 input:121
+#: standard input:4 input:23 input:35 input:57 input:76 input:102 input:123
 #, fuzzy
 msgid "Ban system"
 msgstr "Atualizar sistema"
 
-#: standard input:5 input:24 input:36 input:58 input:77 input:101 input:122
+#: standard input:5 input:24 input:36 input:58 input:77 input:103 input:124
 msgid "BASE"
 msgstr ""
 
-#: standard input:6 input:25 input:37 input:59 input:78 input:102 input:123
+#: standard input:6 input:25 input:37 input:59 input:78 input:104 input:125
 msgid "Configuration"
 msgstr "Configuração"
 
@@ -98,11 +98,11 @@ msgstr ""
 msgid "Available classes"
 msgstr "Regras disponíveis:"
 
-#: standard input:17 input:51 input:53 input:71 input:116 input:125
+#: standard input:17 input:51 input:53 input:71 input:118 input:127
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:18 input:43 input:117
+#: standard input:18 input:43 input:119
 msgid "Delete"
 msgstr "Deletar"
 
@@ -271,155 +271,181 @@ msgstr "Porta destino"
 msgid "First event"
 msgstr "Primeira Página"
 
-#: standard input:103
+#: standard input:97
+msgid "Reset all registered events, completely clean up database:"
+msgstr ""
+
+#: standard input:98
+#, fuzzy
+msgid "reset"
+msgstr "Resetar"
+
+#: standard input:105
 msgid "Go to BASE interface (new window)"
 msgstr ""
 
-#: standard input:104
+#: standard input:106
 #, fuzzy
 msgid "Login:"
 msgstr "Login"
 
-#: standard input:105 input:109
+#: standard input:107 input:111
 #, fuzzy
 msgid "Full name:"
 msgstr "Nome da Pasta:"
 
-#: standard input:106 input:111
+#: standard input:108 input:113
 msgid "Password:"
 msgstr "Senha:"
 
-#: standard input:107 input:110
+#: standard input:109 input:112
 msgid "Role:"
 msgstr ""
 
-#: standard input:108
+#: standard input:110
 #, fuzzy
 msgid "Add user"
 msgstr "Adicionar Usuário:"
 
-#: standard input:112
+#: standard input:114
 msgid "Generate automatically"
 msgstr "Gerar automáticamente"
 
-#: standard input:113
+#: standard input:115
 msgid "(enter passphrase)"
 msgstr "(entre com a senha)"
 
-#: standard input:114
+#: standard input:116
 msgid "(repeat passphrase)"
 msgstr "(repetir a senha)"
 
-#: standard input:115
+#: standard input:117
 msgid "Generate"
 msgstr "Gerar"
 
-#: standard input:124
+#: standard input:126
 #, fuzzy
 msgid "Enable snort"
 msgstr "Ativar porta LDAP"
 
-#: standard input:126
+#: standard input:128
 #, fuzzy
 msgid "Listen on:"
 msgstr "Endereços Disponíveis"
 
-#: standard input:127
+#: standard input:129
 #, fuzzy
 msgid "Any interfaces"
 msgstr "Interfaces Wifi"
 
-#: standard input:128
+#: standard input:130
 #, fuzzy
 msgid "Specific interfaces:"
 msgstr "Interfaces Wifi"
 
-#: standard input:129
+#: standard input:131
 msgid "Interfaces"
 msgstr "Interfaces"
 
-#: standard input:130
+#: standard input:132
 #, fuzzy
 msgid "Unused interfaces"
 msgstr "Interface Web"
+
+#: ui/snort/ajax.scm:39
+#, fuzzy
+msgid "Are you really want cleanup all data?"
+msgstr "Você realmente quer apagar todos os backups para o cliente"
+
+#: ui/snort/ajax.scm:39
+msgid "Question"
+msgstr "Questão"
+
+#: ui/snort/ajax.scm:39
+msgid "Yes"
+msgstr "Sim"
+
+#: ui/snort/ajax.scm:39
+msgid "No"
+msgstr "Não"
 
 #: ui/snort/notifications/ajax.scm:22
 #, fuzzy
 msgid "Do you really want to delete email?"
 msgstr "Você realmente deseja apagar"
 
-#: backend3/snort:42
+#: backend3/snort:48
 msgid "monday"
 msgstr "segunda-feira"
 
-#: backend3/snort:43
+#: backend3/snort:49
 msgid "tuesday"
 msgstr "terça-feira"
 
-#: backend3/snort:44
+#: backend3/snort:50
 msgid "wednesday"
 msgstr "quarta-feira"
 
-#: backend3/snort:45
+#: backend3/snort:51
 msgid "thursday"
 msgstr "quinta-feira"
 
-#: backend3/snort:46
+#: backend3/snort:52
 msgid "friday"
 msgstr "sexta-feira"
 
-#: backend3/snort:47
+#: backend3/snort:53
 msgid "saturday"
 msgstr "sábado"
 
-#: backend3/snort:48
+#: backend3/snort:54
 msgid "sunday"
 msgstr "domingo"
 
-#: backend3/snort:344 backend3/snort:621
+#: backend3/snort:360 backend3/snort:637
 msgid "Day of week should be selected"
 msgstr "Dia da semana, devem ser selecionados"
 
-#: backend3/snort:349 backend3/snort:627
+#: backend3/snort:365 backend3/snort:643
 msgid "Day of month should be defined"
 msgstr "Dia do mês deve ser definida"
 
-#: backend3/snort:360 backend3/snort:639
+#: backend3/snort:376 backend3/snort:655
 msgid "Unable to create temp file"
 msgstr "Não é possível criar arquivo temporário"
 
-#: backend3/snort:385
+#: backend3/snort:401
 msgid "URL not specified"
 msgstr ""
 
-#: backend3/snort:392
+#: backend3/snort:408
 #, fuzzy
 msgid "Download rules failed"
 msgstr "Download falhou"
 
-#: backend3/snort:399
+#: backend3/snort:415
 msgid "Create sid-msg failed"
 msgstr ""
 
-#: backend3/snort:908
+#: backend3/snort:924
 #, fuzzy
 msgid "Enter login"
 msgstr "Porfavor login"
 
-#: backend3/snort:913
+#: backend3/snort:929
 #, fuzzy
 msgid "Enter password"
 msgstr "Atualizar senha"
 
-#: backend3/snort:969
+#: backend3/snort:985
 msgid "Passwords mismatch"
 msgstr "Senhas não conferem"
 
-#: backend3/snort:1166
+#: backend3/snort:1205
 msgid "Oinkcode not specified!"
 msgstr ""
 
-#: backend3/snort:1174
+#: backend3/snort:1213
 msgid "URL not specified!"
 msgstr ""
 
@@ -438,6 +464,3 @@ msgstr ""
 #, fuzzy
 #~ msgid "Add selected"
 #~ msgstr "Para Seleção:"
-
-#~ msgid "Reset"
-#~ msgstr "Resetar"
