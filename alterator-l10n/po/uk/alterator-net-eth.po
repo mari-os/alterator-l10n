@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 16:16+0300\n"
+"POT-Creation-Date: 2015-01-13 17:59+0300\n"
 "PO-Revision-Date: 2009-08-22 02:20+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -25,25 +25,25 @@ msgid "Ethernet interfaces"
 msgstr "Мережеві інтерфейси"
 
 #.
-#: standard input:1 ui/net-eth/advanced/index.scm:48
+#: standard input:1 ui/net-eth/advanced/index.scm:50
 msgid "Interface:"
 msgstr "Інтерфейс:"
 
 #.
-#: standard input:2 ui/net-eth/advanced/index.scm:52
+#: standard input:2 ui/net-eth/advanced/index.scm:54
 msgid "Network subsystem:"
 msgstr "Мережева підсистема:"
 
 #.
-#: standard input:3 ui/net-eth/advanced/index.scm:55
+#: standard input:3 ui/net-eth/advanced/index.scm:57
 msgid "Use interface as bridge"
 msgstr "Використати інтерфейс як міст"
 
-#: standard input:4 ui/net-eth/advanced/index.scm:63
+#: standard input:4 ui/net-eth/advanced/index.scm:65
 msgid "OK"
 msgstr "Гаразд"
 
-#: standard input:5 ui/net-eth/advanced/index.scm:64
+#: standard input:5 ui/net-eth/advanced/index.scm:66
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -92,7 +92,7 @@ msgstr "Налаштування:"
 msgid "IP addresses:"
 msgstr "IP адреса:"
 
-#: standard input:15 input:30 ui/net-eth/index.scm:232
+#: standard input:15 input:33 ui/net-eth/index.scm:232
 msgid "Delete"
 msgstr "Вилучити"
 
@@ -126,49 +126,64 @@ msgstr "Пошукові домени:"
 msgid "(multiple values should be space separated)"
 msgstr "(декілька значень мають бути розділені пробілами)"
 
-#.
-#: standard input:22 ui/net-eth/index.scm:261
-msgid "Wireless settings..."
-msgstr "Налаштування бездротового зв'язку..."
-
-#: standard input:23 ui/net-eth/index.scm:263
+#: standard input:22 ui/net-eth/index.scm:263
 msgid "Advanced..."
 msgstr "Додатково..."
 
-#: standard input:24
+#.
+#: standard input:23 ui/net-eth/index.scm:261
+msgid "Wireless settings..."
+msgstr "Налаштування бездротового зв'язку..."
+
+#: standard input:24 ui/net-eth/index.scm:264
 #, fuzzy
 msgid "VLAN Configuration..."
 msgstr "Налаштування:"
 
-#: standard input:25 input:33 ui/net-eth/index.scm:274
+#: standard input:25
+#, fuzzy
+msgid "Create bond..."
+msgstr "Створити"
+
+#: standard input:26
+#, fuzzy
+msgid "Delete bond..."
+msgstr "Вилучити групу"
+
+#: standard input:27
+#, fuzzy
+msgid "Configure bond..."
+msgstr "Налаштувати"
+
+#: standard input:28 input:36 ui/net-eth/index.scm:274
 #: ui/net-eth/vlan/index.scm:140
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:26 input:34 ui/net-eth/index.scm:275
+#: standard input:29 input:37 ui/net-eth/index.scm:275
 #: ui/net-eth/vlan/index.scm:141
 msgid "Reset"
 msgstr "Скинути"
 
-#: standard input:27 ui/net-eth/vlan/index.scm:122
+#: standard input:30 ui/net-eth/vlan/index.scm:122
 msgid "VLAN Configuration for Interface "
 msgstr ""
 
-#: standard input:28 ui/net-eth/vlan/index.scm:125
+#: standard input:31 ui/net-eth/vlan/index.scm:125
 #, fuzzy
 msgid "Back"
 msgstr "Резервне копіювання"
 
-#: standard input:29 ui/net-eth/vlan/index.scm:145
+#: standard input:32 ui/net-eth/vlan/index.scm:145
 msgid "Add VLAN"
 msgstr ""
 
-#: standard input:31 ui/net-eth/vlan/index.scm:134
+#: standard input:34 ui/net-eth/vlan/index.scm:134
 #, fuzzy
 msgid "VLAN Name:"
 msgstr "Прізвище:"
 
-#: standard input:32 ui/net-eth/vlan/index.scm:136
+#: standard input:35 ui/net-eth/vlan/index.scm:136
 msgid "VID (1-4095):"
 msgstr ""
 
@@ -181,69 +196,70 @@ msgstr "Вузол"
 msgid "VID:"
 msgstr ""
 
-#: ui/net-eth/index.scm:264
-msgid "Vlan..."
-msgstr ""
-
 #: ui/net-eth/vlan/index.scm:146
 msgid "Remove"
 msgstr "Вилучити"
 
-#: backend3/net-eth:304
+#: backend3/net-eth:331
 msgid "Host name is too long"
 msgstr "Ім'я вузлу дуже довге"
 
-#: backend3/net-eth:364
+#: backend3/net-eth:391
 msgid "IPv4"
 msgstr ""
 
-#: backend3/net-eth:366
+#: backend3/net-eth:393
 msgid "IPv6"
 msgstr ""
 
-#: backend3/net-eth:432
+#: backend3/net-eth:487
 msgid "not under control"
 msgstr "не контролюється"
 
-#: backend3/net-eth:438
+#: backend3/net-eth:493
 #, fuzzy
 msgid "Use RA only"
 msgstr "Тільки для читання"
 
-#: backend3/net-eth:439
+#: backend3/net-eth:494
 msgid "Use DHCP"
 msgstr "Використувати DHCP"
 
-#: backend3/net-eth:440
+#: backend3/net-eth:495
 msgid "Use Zeroconf"
 msgstr "Використовувати Zeroconf"
 
-#: backend3/net-eth:441
+#: backend3/net-eth:496
 msgid "Manually"
 msgstr "Вручну"
 
-#: backend3/net-eth:449
+#: backend3/net-eth:504
 msgid "Network adaptor:"
 msgstr "Мережева карта:"
 
-#: backend3/net-eth:456
+#: backend3/net-eth:511
 msgid "plugged"
 msgstr "підключено"
 
-#: backend3/net-eth:459
+#: backend3/net-eth:514
 msgid "unplugged"
 msgstr "не під'єднано"
 
-#: backend3/net-eth:689
+#: backend3/net-eth:744
 msgid "IPv4 and IPv6 configurations are incompatible:"
 msgstr ""
 
-#: backend3/net-eth:771
+#: backend3/net-eth:824
+#, fuzzy
+msgid "Invalid default gateway"
+msgstr "Типовий шлюз:"
+
+#: backend3/net-eth:837
 #, fuzzy
 msgid "Invalid DNS list"
 msgstr "Невірний диск"
 
-#: backend3/net-eth:812
+#: backend3/net-eth:878
 #, fuzzy
 msgid "Invalid IP address:"
 msgstr "невірна IP адреса"

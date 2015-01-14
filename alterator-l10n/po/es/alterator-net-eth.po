@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 16:16+0300\n"
+"POT-Creation-Date: 2015-01-13 17:59+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -25,26 +25,26 @@ msgid "Ethernet interfaces"
 msgstr "Interfaz de IP"
 
 #.
-#: standard input:1 ui/net-eth/advanced/index.scm:48
+#: standard input:1 ui/net-eth/advanced/index.scm:50
 msgid "Interface:"
 msgstr "Interfaz:"
 
 #.
-#: standard input:2 ui/net-eth/advanced/index.scm:52
+#: standard input:2 ui/net-eth/advanced/index.scm:54
 msgid "Network subsystem:"
 msgstr "Configuraciones de Rede"
 
 #.
-#: standard input:3 ui/net-eth/advanced/index.scm:55
+#: standard input:3 ui/net-eth/advanced/index.scm:57
 #, fuzzy
 msgid "Use interface as bridge"
 msgstr "Seleccione sua Lenguage"
 
-#: standard input:4 ui/net-eth/advanced/index.scm:63
+#: standard input:4 ui/net-eth/advanced/index.scm:65
 msgid "OK"
 msgstr "OK"
 
-#: standard input:5 ui/net-eth/advanced/index.scm:64
+#: standard input:5 ui/net-eth/advanced/index.scm:66
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -93,7 +93,7 @@ msgstr "Información"
 msgid "IP addresses:"
 msgstr "Dirección IP:"
 
-#: standard input:15 input:30 ui/net-eth/index.scm:232
+#: standard input:15 input:33 ui/net-eth/index.scm:232
 msgid "Delete"
 msgstr "Borrar"
 
@@ -127,49 +127,64 @@ msgstr "Procurar Dominios:"
 msgid "(multiple values should be space separated)"
 msgstr "multiplos valores com espacios vacíos"
 
-#.
-#: standard input:22 ui/net-eth/index.scm:261
-msgid "Wireless settings..."
-msgstr "Configuración de Rede Wireless"
-
-#: standard input:23 ui/net-eth/index.scm:263
+#: standard input:22 ui/net-eth/index.scm:263
 msgid "Advanced..."
 msgstr "Avanzado..."
 
-#: standard input:24
+#.
+#: standard input:23 ui/net-eth/index.scm:261
+msgid "Wireless settings..."
+msgstr "Configuración de Rede Wireless"
+
+#: standard input:24 ui/net-eth/index.scm:264
 #, fuzzy
 msgid "VLAN Configuration..."
 msgstr "Información"
 
-#: standard input:25 input:33 ui/net-eth/index.scm:274
+#: standard input:25
+#, fuzzy
+msgid "Create bond..."
+msgstr "particíon"
+
+#: standard input:26
+#, fuzzy
+msgid "Delete bond..."
+msgstr "Borrar conección"
+
+#: standard input:27
+#, fuzzy
+msgid "Configure bond..."
+msgstr "Configurar"
+
+#: standard input:28 input:36 ui/net-eth/index.scm:274
 #: ui/net-eth/vlan/index.scm:140
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:26 input:34 ui/net-eth/index.scm:275
+#: standard input:29 input:37 ui/net-eth/index.scm:275
 #: ui/net-eth/vlan/index.scm:141
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:27 ui/net-eth/vlan/index.scm:122
+#: standard input:30 ui/net-eth/vlan/index.scm:122
 #, fuzzy
 msgid "VLAN Configuration for Interface "
 msgstr "Reconfigurar Interface de la Rede"
 
-#: standard input:28 ui/net-eth/vlan/index.scm:125
+#: standard input:31 ui/net-eth/vlan/index.scm:125
 msgid "Back"
 msgstr ""
 
-#: standard input:29 ui/net-eth/vlan/index.scm:145
+#: standard input:32 ui/net-eth/vlan/index.scm:145
 msgid "Add VLAN"
 msgstr ""
 
-#: standard input:31 ui/net-eth/vlan/index.scm:134
+#: standard input:34 ui/net-eth/vlan/index.scm:134
 #, fuzzy
 msgid "VLAN Name:"
 msgstr "Nombre:"
 
-#: standard input:32 ui/net-eth/vlan/index.scm:136
+#: standard input:35 ui/net-eth/vlan/index.scm:136
 msgid "VID (1-4095):"
 msgstr ""
 
@@ -182,70 +197,71 @@ msgstr "hostname:"
 msgid "VID:"
 msgstr ""
 
-#: ui/net-eth/index.scm:264
-msgid "Vlan..."
-msgstr ""
-
 #: ui/net-eth/vlan/index.scm:146
 msgid "Remove"
 msgstr "Remover"
 
-#: backend3/net-eth:304
+#: backend3/net-eth:331
 msgid "Host name is too long"
 msgstr ""
 
-#: backend3/net-eth:364
+#: backend3/net-eth:391
 msgid "IPv4"
 msgstr ""
 
-#: backend3/net-eth:366
+#: backend3/net-eth:393
 msgid "IPv6"
 msgstr ""
 
-#: backend3/net-eth:432
+#: backend3/net-eth:487
 msgid "not under control"
 msgstr ""
 
-#: backend3/net-eth:438
+#: backend3/net-eth:493
 #, fuzzy
 msgid "Use RA only"
 msgstr "Sólo lectura"
 
-#: backend3/net-eth:439
+#: backend3/net-eth:494
 msgid "Use DHCP"
 msgstr "Usar DHCP:"
 
-#: backend3/net-eth:440
+#: backend3/net-eth:495
 msgid "Use Zeroconf"
 msgstr "Usar ZeroConfig"
 
-#: backend3/net-eth:441
+#: backend3/net-eth:496
 msgid "Manually"
 msgstr "Manualmente"
 
-#: backend3/net-eth:449
+#: backend3/net-eth:504
 #, fuzzy
 msgid "Network adaptor:"
 msgstr "Nombre de la Rede:"
 
-#: backend3/net-eth:456
+#: backend3/net-eth:511
 msgid "plugged"
 msgstr "conectado"
 
-#: backend3/net-eth:459
+#: backend3/net-eth:514
 msgid "unplugged"
 msgstr "desconectado"
 
-#: backend3/net-eth:689
+#: backend3/net-eth:744
 msgid "IPv4 and IPv6 configurations are incompatible:"
 msgstr ""
 
-#: backend3/net-eth:771
+#: backend3/net-eth:824
+#, fuzzy
+msgid "Invalid default gateway"
+msgstr "Gateway Predeterminado:"
+
+#: backend3/net-eth:837
 #, fuzzy
 msgid "Invalid DNS list"
 msgstr "Disco Inválido"
 
-#: backend3/net-eth:812
+#: backend3/net-eth:878
 #, fuzzy
 msgid "Invalid IP address:"
 msgstr "Dirección IP Inválido"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-18 17:39+0400\n"
+"POT-Creation-Date: 2015-01-13 17:59+0300\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -77,7 +77,7 @@ msgstr ""
 msgid "Show:"
 msgstr "Exibir"
 
-#: standard input:13 input:23 input:27 input:31
+#: standard input:13 input:31 input:39 input:47
 msgid "Delete"
 msgstr "Deletar"
 
@@ -86,61 +86,156 @@ msgstr "Deletar"
 msgid "Enable shapercontrol"
 msgstr "Habilitar serviço"
 
-#: standard input:17 input:33
+#: standard input:17 input:49
 msgid "Apply"
 msgstr "Aplicar"
 
 #: standard input:18
-msgid "Interface connected to the upstream:"
+msgid "Any adjustments below is a reason to auto stop service."
 msgstr ""
 
 #: standard input:19
+msgid ""
+"In case of NAT existence speed limit has sense only for incoming traffic. "
+"Outgoing speed limit for clients is uncontrolled. External interface should "
+"be marked as 'disable'."
+msgstr ""
+
+#: standard input:20
+msgid ""
+"In case service is active all traffic flow is forbidden. Only clients have "
+"corresponding entrance in DataBase can communicate."
+msgstr ""
+
+#: standard input:21
+msgid ""
+"In case of NAT existence, traffic shaper sees all outgoing traffic as from "
+"IP == external interface."
+msgstr ""
+
+#: standard input:22
+msgid "Interface connected to the upstream:"
+msgstr ""
+
+#: standard input:23
+msgid "(control outgoing speed limit for local clients)"
+msgstr ""
+
+#: standard input:24
 #, fuzzy
 msgid "Interface connected to your network:"
 msgstr "Rede conectada"
 
-#: standard input:20
+#: standard input:25
+msgid "(control incoming speed limit for local clients)"
+msgstr ""
+
+#: standard input:26
 #, fuzzy
 msgid "Network list for classid calculation"
 msgstr "Servidor de Instalação via rede"
 
-#: standard input:21 input:25 input:29
+#: standard input:27 input:33 input:41
 #, fuzzy
 msgid "Add network:"
 msgstr "Adicionar Rede"
 
-#: standard input:22 input:26 input:30
+#: standard input:28 input:34 input:42
 msgid "Add"
 msgstr "Adicionar"
 
-#: standard input:24
-msgid "Internal networks, whose traffic is transmitted without shaping"
+#: standard input:29
+msgid "Format is: X.X.X.X/YY"
 msgstr ""
 
-#: standard input:28
-msgid "External networks, whose traffic is transmitted without shaping"
+#: standard input:30
+msgid ""
+"This list should contain all networks whose clients are exposed to speed "
+"limit control."
 msgstr ""
 
 #: standard input:32
+msgid "Internal networks, whose traffic is transmitted without shaping"
+msgstr ""
+
+#: standard input:35 input:43
+msgid "Format is: X.X.X.X/YY or X.X.X.X"
+msgstr ""
+
+#: standard input:36
+msgid ""
+"Each entry below has corresponding rule for external interface. Specified "
+"clients from local networks do not have limit on outgoing traffic."
+msgstr ""
+
+#: standard input:37
+msgid ""
+"Useless in case external interface is set to 'disable'. Outgoing traffic is "
+"not exposed to speed limit."
+msgstr ""
+
+#: standard input:38
+#, fuzzy
+msgid "Warning: In case "
+msgstr "Cuidado:"
+
+#: standard input:40
+msgid "External networks, whose traffic is transmitted without shaping"
+msgstr ""
+
+#: standard input:44
+msgid ""
+"Each entry below has an corresponding rule for internal iface. Traffic from "
+"specified networks is not exposed to speed limit."
+msgstr ""
+
+#: standard input:45
+msgid ""
+"Warning: Traffic from this server is also question to speed limit. Add here "
+"IP address of internal interface to turn off speed limit for traffic from "
+"this server to local clients."
+msgstr ""
+
+#: standard input:46
+msgid ""
+"Warning: If you don't specify here IP address of local interface, then local "
+"clients that are absent in database, will be unable to communicate with this "
+"server at all."
+msgstr ""
+
+#: standard input:48
 msgid "Ratio between bandwidth rates in rules and in the database:"
 msgstr ""
 
-#: backend3/shapercontrol:307
+#: backend3/shapercontrol:100
+msgid "Disable (Recommended for NAT)"
+msgstr ""
+
+#: backend3/shapercontrol:104 backend3/shapercontrol:138
+msgid "Not defined (bad configuration)"
+msgstr ""
+
+#: backend3/shapercontrol:109 backend3/shapercontrol:143
+#, fuzzy
+msgid "(absent in system)"
+msgstr "Criar sistema de arquivos"
+
+#: backend3/shapercontrol:368
 msgid "10 lines"
 msgstr "10 linhas"
 
-#: backend3/shapercontrol:308
+#: backend3/shapercontrol:369
 msgid "20 lines"
 msgstr "20 linhas"
 
-#: backend3/shapercontrol:309
+#: backend3/shapercontrol:370
 msgid "50 lines"
 msgstr "50 linhas"
 
-#: backend3/shapercontrol:310
+#: backend3/shapercontrol:371
 msgid "100 lines"
 msgstr "100 linhas"
 
-#: backend3/shapercontrol:421
+#: backend3/shapercontrol:482
 msgid "Lines %s-%s of %s"
 msgstr "Linhas %s-%s of %s"
