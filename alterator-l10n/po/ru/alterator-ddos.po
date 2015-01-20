@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2014.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-24 17:16+0400\n"
-"PO-Revision-Date: 2014-07-24 17:28+0400\n"
+"POT-Creation-Date: 2015-01-20 16:53+0300\n"
+"PO-Revision-Date: 2015-01-20 16:55+0300\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -26,19 +26,39 @@ msgstr "(D)DoS Deflate — предотвращение атак DDOS"
 msgid "Enable ddos-deflate"
 msgstr "Включить службу ddos-deflate"
 
-#: standard input:2 input:6
+#: standard input:2 input:10
 msgid "Apply"
 msgstr "Применить"
 
 #: standard input:3
+msgid "Whitelist IP addresses:"
+msgstr "Разрешенные IP адреса:"
+
+#: standard input:4
+msgid "Delete"
+msgstr "Удалить"
+
+#: standard input:5
+msgid "IP:"
+msgstr "IP:"
+
+#: standard input:6
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:7
 msgid "How many connections define a bad IP:"
 msgstr "Порог количества подключений для блокирования IP-адреса:"
 
-#: standard input:4
+#: standard input:8
 msgid "Number of seconds the banned ip should remain in blacklist:"
 msgstr "Период нахождения блокируемого IP-адреса в черном списке (в секундах):"
 
-#: standard input:5
+#: standard input:9
 msgid "An email is sent to the following address when an IP is banned:"
 msgstr "Уведомить о блокировании IP-адреса по электронной почте:"
+
+#: backend3/ddos:90
+msgid "Invalid IP address:"
+msgstr "Недопустимый IP адрес:"
 

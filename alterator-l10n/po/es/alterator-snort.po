@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-22 17:07+0300\n"
+"POT-Creation-Date: 2015-01-20 16:53+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -40,8 +40,9 @@ msgid "Rules"
 msgstr "Norma"
 
 #: standard input:5
-msgid "BASE"
-msgstr ""
+#, fuzzy
+msgid "Advanced statistics"
+msgstr "Sistema de estatísticas"
 
 #: standard input:6
 #, fuzzy
@@ -57,16 +58,16 @@ msgstr ""
 msgid "Setup Intrusion Detection System"
 msgstr "Configuración de conecciones en Rede"
 
-#: standard input:1 input:24 input:44 input:61 input:83 input:102
+#: standard input:1 input:24 input:44 input:61 input:83 input:100
 msgid "Snort on:"
 msgstr ""
 
 #: standard input:2 input:4 input:25 input:27 input:45 input:47 input:62
-#: input:64 input:84 input:86 input:103 input:105
+#: input:64 input:84 input:86 input:101 input:103
 msgid "Off:"
 msgstr ""
 
-#: standard input:3 input:26 input:46 input:63 input:85 input:104
+#: standard input:3 input:26 input:46 input:63 input:85 input:102
 msgid "Barnyard on:"
 msgstr ""
 
@@ -116,11 +117,11 @@ msgstr ""
 msgid "Available classes"
 msgstr "Ver código fuente"
 
-#: standard input:15 input:41 input:43 input:59 input:100 input:107
+#: standard input:15 input:41 input:43 input:59 input:98 input:105
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:16 input:33 input:101
+#: standard input:16 input:33 input:99
 msgid "Delete"
 msgstr "Borrar"
 
@@ -292,7 +293,7 @@ msgid "First event"
 msgstr "Primer Página"
 
 #: standard input:87
-msgid "Go to BASE interface (new window)"
+msgid "Go to advanced statistics interface (new window)"
 msgstr ""
 
 #: standard input:88
@@ -300,12 +301,12 @@ msgstr ""
 msgid "Login:"
 msgstr "Sesión"
 
-#: standard input:89 input:93
+#: standard input:89 input:92
 #, fuzzy
 msgid "Full name:"
 msgstr "Nome de la carpeta"
 
-#: standard input:90 input:95
+#: standard input:90 input:93
 #, fuzzy
 msgid "Password:"
 msgstr ""
@@ -320,56 +321,52 @@ msgstr ""
 "#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
 "Contraseña:"
 
-#: standard input:91 input:94
-msgid "Role:"
-msgstr ""
-
-#: standard input:92
+#: standard input:91
 #, fuzzy
 msgid "Add user"
 msgstr "Adiccionar Usuário:"
 
-#: standard input:96
+#: standard input:94
 msgid "Generate automatically"
 msgstr "Generar automaticamente"
 
-#: standard input:97
+#: standard input:95
 msgid "(enter passphrase)"
 msgstr "(entre com la contraseña)"
 
-#: standard input:98
+#: standard input:96
 msgid "(repeat passphrase)"
 msgstr "(repetir la contraseña)"
 
-#: standard input:99
+#: standard input:97
 msgid "Generate"
 msgstr "Generar"
 
-#: standard input:106
+#: standard input:104
 #, fuzzy
 msgid "Enable snort"
 msgstr "Portas UDP extras"
 
-#: standard input:108
+#: standard input:106
 #, fuzzy
 msgid "Listen on:"
 msgstr "Escuchar la dirección:"
 
-#: standard input:109
+#: standard input:107
 #, fuzzy
 msgid "Any interfaces"
 msgstr "Interfaz Wifi"
 
-#: standard input:110
+#: standard input:108
 #, fuzzy
 msgid "Specific interfaces:"
 msgstr "Interfaz Wifi"
 
-#: standard input:111
+#: standard input:109
 msgid "Interfaces"
 msgstr "Interfaz de IP"
 
-#: standard input:112
+#: standard input:110
 #, fuzzy
 msgid "Unused interfaces"
 msgstr "Interfaz Web"
@@ -379,89 +376,89 @@ msgstr "Interfaz Web"
 msgid "Do you really want to delete email?"
 msgstr "Usted realmente desea borrar"
 
-#: backend3/snort:48
+#: backend3/snort:49
 msgid "monday"
 msgstr ""
 
-#: backend3/snort:49
+#: backend3/snort:50
 msgid "tuesday"
 msgstr ""
 
-#: backend3/snort:50
+#: backend3/snort:51
 msgid "wednesday"
 msgstr ""
 
-#: backend3/snort:51
+#: backend3/snort:52
 msgid "thursday"
 msgstr ""
 
-#: backend3/snort:52
+#: backend3/snort:53
 msgid "friday"
 msgstr ""
 
-#: backend3/snort:53
+#: backend3/snort:54
 msgid "saturday"
 msgstr ""
 
-#: backend3/snort:54
+#: backend3/snort:55
 msgid "sunday"
 msgstr ""
 
-#: backend3/snort:252
+#: backend3/snort:253
 msgid ""
 "Cannot start Snort service. Go to 'System log' module to find the reason."
 msgstr ""
 
-#: backend3/snort:377 backend3/snort:665
+#: backend3/snort:378 backend3/snort:666
 msgid "Day of week should be selected"
 msgstr ""
 
-#: backend3/snort:382 backend3/snort:671
+#: backend3/snort:383 backend3/snort:672
 #, fuzzy
 msgid "Day of month should be defined"
 msgstr "Usted deve definir un usuário para el sistema"
 
-#: backend3/snort:393 backend3/snort:683
+#: backend3/snort:394 backend3/snort:684
 #, fuzzy
 msgid "Unable to create temp file"
 msgstr "No és posible crear rede"
 
-#: backend3/snort:418
+#: backend3/snort:419
 msgid "URL not specified"
 msgstr ""
 
-#: backend3/snort:425
+#: backend3/snort:426
 #, fuzzy
 msgid "Download rules failed"
 msgstr "Conección falló"
 
-#: backend3/snort:432
+#: backend3/snort:433
 msgid "Create sid-msg failed"
 msgstr ""
 
-#: backend3/snort:952
+#: backend3/snort:941
 #, fuzzy
 msgid "Enter login"
 msgstr "Por Favor Inicie la sesión"
 
-#: backend3/snort:957
+#: backend3/snort:946
 #, fuzzy
 msgid "Enter password"
 msgstr "Cambiar contraseña:"
 
-#: backend3/snort:1013
+#: backend3/snort:998
 msgid "Passwords mismatch"
 msgstr "Contraseña"
 
-#: backend3/snort:1159
+#: backend3/snort:1144
 msgid "N/A"
 msgstr ""
 
-#: backend3/snort:1296
+#: backend3/snort:1281
 msgid "Oinkcode not specified!"
 msgstr ""
 
-#: backend3/snort:1304
+#: backend3/snort:1289
 msgid "URL not specified!"
 msgstr ""
 

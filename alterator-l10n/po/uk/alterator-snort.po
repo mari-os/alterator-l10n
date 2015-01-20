@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-22 17:07+0300\n"
+"POT-Creation-Date: 2015-01-20 16:53+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>, 2010.\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -36,8 +36,9 @@ msgid "Rules"
 msgstr "Правила"
 
 #: standard input:5
-msgid "BASE"
-msgstr ""
+#, fuzzy
+msgid "Advanced statistics"
+msgstr "Статистика системи"
 
 #: standard input:6
 #, fuzzy
@@ -53,16 +54,16 @@ msgstr "Система виявлення вторгнень"
 msgid "Setup Intrusion Detection System"
 msgstr "Система виявлення вторгнень"
 
-#: standard input:1 input:24 input:44 input:61 input:83 input:102
+#: standard input:1 input:24 input:44 input:61 input:83 input:100
 msgid "Snort on:"
 msgstr ""
 
 #: standard input:2 input:4 input:25 input:27 input:45 input:47 input:62
-#: input:64 input:84 input:86 input:103 input:105
+#: input:64 input:84 input:86 input:101 input:103
 msgid "Off:"
 msgstr ""
 
-#: standard input:3 input:26 input:46 input:63 input:85 input:104
+#: standard input:3 input:26 input:46 input:63 input:85 input:102
 msgid "Barnyard on:"
 msgstr ""
 
@@ -112,11 +113,11 @@ msgstr ""
 msgid "Available classes"
 msgstr "Доступні правила:"
 
-#: standard input:15 input:41 input:43 input:59 input:100 input:107
+#: standard input:15 input:41 input:43 input:59 input:98 input:105
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:16 input:33 input:101
+#: standard input:16 input:33 input:99
 msgid "Delete"
 msgstr "Вилучити"
 
@@ -271,7 +272,7 @@ msgid "First event"
 msgstr "Перша подія"
 
 #: standard input:87
-msgid "Go to BASE interface (new window)"
+msgid "Go to advanced statistics interface (new window)"
 msgstr ""
 
 #: standard input:88
@@ -279,65 +280,61 @@ msgstr ""
 msgid "Login:"
 msgstr "Увійти"
 
-#: standard input:89 input:93
+#: standard input:89 input:92
 #, fuzzy
 msgid "Full name:"
 msgstr "Назва теки"
 
-#: standard input:90 input:95
+#: standard input:90 input:93
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:91 input:94
-msgid "Role:"
-msgstr ""
-
-#: standard input:92
+#: standard input:91
 #, fuzzy
 msgid "Add user"
 msgstr "Додати відправника"
 
-#: standard input:96
+#: standard input:94
 #, fuzzy
 msgid "Generate automatically"
 msgstr "встановлюється автоматично"
 
-#: standard input:97
+#: standard input:95
 msgid "(enter passphrase)"
 msgstr "(уведіть пароль)"
 
-#: standard input:98
+#: standard input:96
 msgid "(repeat passphrase)"
 msgstr "(повторіть пароль)"
 
-#: standard input:99
+#: standard input:97
 msgid "Generate"
 msgstr "Генерувати"
 
-#: standard input:106
+#: standard input:104
 msgid "Enable snort"
 msgstr "Включити snort"
 
-#: standard input:108
+#: standard input:106
 #, fuzzy
 msgid "Listen on:"
 msgstr "Слухати адресу:"
 
-#: standard input:109
+#: standard input:107
 #, fuzzy
 msgid "Any interfaces"
 msgstr "Wi-Fi інтерфейси"
 
-#: standard input:110
+#: standard input:108
 #, fuzzy
 msgid "Specific interfaces:"
 msgstr "Wi-Fi інтерфейси"
 
-#: standard input:111
+#: standard input:109
 msgid "Interfaces"
 msgstr "Інтерфейси"
 
-#: standard input:112
+#: standard input:110
 #, fuzzy
 msgid "Unused interfaces"
 msgstr "Веб-інтерфейс"
@@ -347,86 +344,86 @@ msgstr "Веб-інтерфейс"
 msgid "Do you really want to delete email?"
 msgstr "Ви дійсно хочете вилучити клієнта"
 
-#: backend3/snort:48
+#: backend3/snort:49
 msgid "monday"
 msgstr "понеділок"
 
-#: backend3/snort:49
+#: backend3/snort:50
 msgid "tuesday"
 msgstr "вівторок"
 
-#: backend3/snort:50
+#: backend3/snort:51
 msgid "wednesday"
 msgstr "середа"
 
-#: backend3/snort:51
+#: backend3/snort:52
 msgid "thursday"
 msgstr "четвер"
 
-#: backend3/snort:52
+#: backend3/snort:53
 msgid "friday"
 msgstr "п'ятниця"
 
-#: backend3/snort:53
+#: backend3/snort:54
 msgid "saturday"
 msgstr "субота"
 
-#: backend3/snort:54
+#: backend3/snort:55
 msgid "sunday"
 msgstr "неділя"
 
-#: backend3/snort:252
+#: backend3/snort:253
 msgid ""
 "Cannot start Snort service. Go to 'System log' module to find the reason."
 msgstr ""
 
-#: backend3/snort:377 backend3/snort:665
+#: backend3/snort:378 backend3/snort:666
 msgid "Day of week should be selected"
 msgstr "Має бути вказаний день тижня"
 
-#: backend3/snort:382 backend3/snort:671
+#: backend3/snort:383 backend3/snort:672
 msgid "Day of month should be defined"
 msgstr "Має бути вказаний день місяця"
 
-#: backend3/snort:393 backend3/snort:683
+#: backend3/snort:394 backend3/snort:684
 msgid "Unable to create temp file"
 msgstr "Неможливо створити тимчасовий файл"
 
-#: backend3/snort:418
+#: backend3/snort:419
 msgid "URL not specified"
 msgstr "URL не встановлено"
 
-#: backend3/snort:425
+#: backend3/snort:426
 msgid "Download rules failed"
 msgstr "Помилка звантаження правил"
 
-#: backend3/snort:432
+#: backend3/snort:433
 msgid "Create sid-msg failed"
 msgstr ""
 
-#: backend3/snort:952
+#: backend3/snort:941
 #, fuzzy
 msgid "Enter login"
 msgstr "Будь-ласка, увійдіть"
 
-#: backend3/snort:957
+#: backend3/snort:946
 #, fuzzy
 msgid "Enter password"
 msgstr "Змінити пароль:"
 
-#: backend3/snort:1013
+#: backend3/snort:998
 msgid "Passwords mismatch"
 msgstr "Паролі не співпадають"
 
-#: backend3/snort:1159
+#: backend3/snort:1144
 msgid "N/A"
 msgstr ""
 
-#: backend3/snort:1296
+#: backend3/snort:1281
 msgid "Oinkcode not specified!"
 msgstr "Oink-код не встановлено!"
 
-#: backend3/snort:1304
+#: backend3/snort:1289
 msgid "URL not specified!"
 msgstr "URL не встановлено!"
 

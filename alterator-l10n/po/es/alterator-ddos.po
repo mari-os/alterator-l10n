@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-24 17:16+0400\n"
+"POT-Creation-Date: 2015-01-20 16:53+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -29,18 +29,40 @@ msgstr ""
 msgid "Enable ddos-deflate"
 msgstr "Posibilitar servicio"
 
-#: standard input:2 input:6
+#: standard input:2 input:10
 msgid "Apply"
 msgstr "Aplicar"
 
 #: standard input:3
+#, fuzzy
+msgid "Whitelist IP addresses:"
+msgstr "Dirección IP Inválido"
+
+#: standard input:4
+msgid "Delete"
+msgstr "Borrar"
+
+#: standard input:5
+msgid "IP:"
+msgstr ""
+
+#: standard input:6
+msgid "Add"
+msgstr "Adiccionar"
+
+#: standard input:7
 msgid "How many connections define a bad IP:"
 msgstr ""
 
-#: standard input:4
+#: standard input:8
 msgid "Number of seconds the banned ip should remain in blacklist:"
 msgstr ""
 
-#: standard input:5
+#: standard input:9
 msgid "An email is sent to the following address when an IP is banned:"
 msgstr ""
+
+#: backend3/ddos:90
+#, fuzzy
+msgid "Invalid IP address:"
+msgstr "Dirección IP Inválido"
