@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-20 16:53+0300\n"
+"POT-Creation-Date: 2015-01-20 18:45+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -22,31 +22,31 @@ msgstr ""
 
 #: standard input:1
 #, fuzzy
-msgid "Ban system"
-msgstr "Sistema"
+msgid "Advanced statistics"
+msgstr "Sistema de estatísticas"
 
-#: standard input:2
+#: standard input:2 input:42
 #, fuzzy
-msgid "Configuration"
-msgstr "Información"
+msgid "Rules"
+msgstr "Norma"
 
 #: standard input:3
 msgid "Statistics"
 msgstr "Estatísticas"
 
-#: standard input:4 input:48
+#: standard input:4
 #, fuzzy
-msgid "Rules"
-msgstr "Norma"
+msgid "Notifications"
+msgstr "Información"
 
 #: standard input:5
 #, fuzzy
-msgid "Advanced statistics"
-msgstr "Sistema de estatísticas"
+msgid "Ban system"
+msgstr "Sistema"
 
 #: standard input:6
 #, fuzzy
-msgid "Notifications"
+msgid "Configuration"
 msgstr "Información"
 
 #: standard input:7
@@ -58,255 +58,102 @@ msgstr ""
 msgid "Setup Intrusion Detection System"
 msgstr "Configuración de conecciones en Rede"
 
-#: standard input:1 input:24 input:44 input:61 input:83 input:100
+#: standard input:1 input:21 input:38 input:55 input:77 input:100
 msgid "Snort on:"
 msgstr ""
 
-#: standard input:2 input:4 input:25 input:27 input:45 input:47 input:62
-#: input:64 input:84 input:86 input:101 input:103
+#: standard input:2 input:4 input:22 input:24 input:39 input:41 input:56
+#: input:58 input:78 input:80 input:101 input:103
 msgid "Off:"
 msgstr ""
 
-#: standard input:3 input:26 input:46 input:63 input:85 input:102
+#: standard input:3 input:23 input:40 input:57 input:79 input:102
 msgid "Barnyard on:"
 msgstr ""
 
-#: standard input:5 input:18
-msgid "Setup"
-msgstr ""
-
-#: standard input:6 input:19
-msgid "List of banned IP"
-msgstr ""
-
-#: standard input:7
-#, fuzzy
-msgid "Rule name:"
-msgstr "Nome de la carpeta"
-
-#: standard input:8 input:29
-msgid "Add"
-msgstr "Adiccionar"
-
-#: standard input:9
-#, fuzzy
-msgid "Enabled"
-msgstr "Permitido"
-
-#: standard input:10
-#, fuzzy
-msgid "Duration ban:"
-msgstr "Configurar la Fecha Actual:"
-
-#: standard input:11
-#, fuzzy
-msgid "Time interval:"
-msgstr "Zona Horaria"
-
-#: standard input:12
-#, fuzzy
-msgid "Count retry:"
-msgstr "País:"
-
-#: standard input:13 input:31
-msgid "Member of"
-msgstr ""
-
-#: standard input:14 input:32
-#, fuzzy
-msgid "Available classes"
-msgstr "Ver código fuente"
-
-#: standard input:15 input:41 input:43 input:59 input:98 input:105
-msgid "Apply"
-msgstr "Aplicar"
-
-#: standard input:16 input:33 input:99
-msgid "Delete"
-msgstr "Borrar"
-
-#: standard input:17
-#, fuzzy
-msgid "Reload fail2ban"
-msgstr "Conección falló"
-
-#: standard input:20
-msgid "IP address"
-msgstr "Dirección IP"
-
-#: standard input:21
-msgid "Hostname"
-msgstr "hostname:"
-
-#: standard input:22
-#, fuzzy
-msgid "Rule name"
-msgstr "Nome de la carpeta"
-
-#: standard input:23
-msgid "Unban"
-msgstr ""
-
-#: standard input:28
+#: standard input:5
 #, fuzzy
 msgid "Add email:"
 msgstr "Nuevo alias:"
 
-#: standard input:30
+#: standard input:6 input:84
+msgid "Add"
+msgstr "Adiccionar"
+
+#: standard input:7
 #, fuzzy
 msgid "Send test mail"
 msgstr "No prueba [ X11 ]"
 
-#: standard input:34
+#: standard input:8 input:89
+msgid "Member of"
+msgstr ""
+
+#: standard input:9 input:90
+#, fuzzy
+msgid "Available classes"
+msgstr "Ver código fuente"
+
+#: standard input:10 input:37 input:92
+msgid "Delete"
+msgstr "Borrar"
+
+#: standard input:11
 #, fuzzy
 msgid "Every 15 minute"
 msgstr "1 minuto"
 
-#: standard input:35
+#: standard input:12
 #, fuzzy
 msgid "Every 30 minute"
 msgstr "1 minuto"
 
-#: standard input:36
+#: standard input:13
 #, fuzzy
 msgid "Every hour"
 msgstr "Tiempo de Expiracción"
 
-#: standard input:37 input:58
+#: standard input:14 input:52
 #, fuzzy
 msgid "Time:"
 msgstr "Zona Horaria"
 
-#: standard input:38 input:55
+#: standard input:15 input:49
 #, fuzzy
 msgid "Every day"
 msgstr "Tiempo de Expiracción"
 
-#: standard input:39 input:56
+#: standard input:16 input:50
 msgid "Every week at:"
 msgstr ""
 
-#: standard input:40 input:57
+#: standard input:17 input:51
 msgid "Every month at day:"
 msgstr ""
 
-#: standard input:42
+#: standard input:18 input:20 input:36 input:53 input:91 input:105
+msgid "Apply"
+msgstr "Aplicar"
+
+#: standard input:19
 msgid "Sender:"
 msgstr ""
 
-#: standard input:49
-#, fuzzy
-msgid "Unused rules"
-msgstr "Adiccionar norma"
-
-#: standard input:50
-msgid "Reload snort"
-msgstr ""
-
-#: standard input:51
-#, fuzzy
-msgid "Download rules"
-msgstr "Conección falló"
-
-#: standard input:52
-msgid "Oink code:"
-msgstr ""
-
-#: standard input:53
-msgid "Custom URL:"
-msgstr ""
-
-#: standard input:54
-#, fuzzy
-msgid "Auto update"
-msgstr "Auto-detectar"
-
-#: standard input:60
-#, fuzzy
-msgid "Download now"
-msgstr "Download completo"
-
-#: standard input:65
-#, fuzzy
-msgid "Period from:"
-msgstr "Período:"
-
-#: standard input:66
-msgid "to"
-msgstr "para"
-
-#: standard input:67
-#, fuzzy
-msgid "Update"
-msgstr "Atualización de la ayuda"
-
-#: standard input:68
-msgid "Events"
-msgstr ""
-
-#: standard input:69 input:76
-#, fuzzy
-msgid "Description"
-msgstr "Descripción:"
-
-#: standard input:70 input:77
-msgid "Interface"
-msgstr "Interfaces del IP"
-
-#: standard input:71 input:80
-#, fuzzy
-msgid "Count"
-msgstr "País:"
-
-#: standard input:72 input:82
-#, fuzzy
-msgid "Last event"
-msgstr "Download de el Requerido"
-
-#: standard input:73
-#, fuzzy
-msgid "Show details"
-msgstr "Opciones generales"
-
-#: standard input:74
-#, fuzzy
-msgid "(for selected events)"
-msgstr "Por selecionado:"
-
-#: standard input:75
-msgid "Details"
-msgstr ""
-
-#: standard input:78
-#, fuzzy
-msgid "Source IP"
-msgstr "Fuente del URI:"
-
-#: standard input:79
-#, fuzzy
-msgid "Destination IP"
-msgstr "Destino"
-
-#: standard input:81
-#, fuzzy
-msgid "First event"
-msgstr "Primer Página"
-
-#: standard input:87
+#: standard input:25
 msgid "Go to advanced statistics interface (new window)"
 msgstr ""
 
-#: standard input:88
+#: standard input:26
 #, fuzzy
 msgid "Login:"
 msgstr "Sesión"
 
-#: standard input:89 input:92
+#: standard input:27 input:30
 #, fuzzy
 msgid "Full name:"
 msgstr "Nome de la carpeta"
 
-#: standard input:90 input:93
+#: standard input:28 input:31
 #, fuzzy
 msgid "Password:"
 msgstr ""
@@ -321,26 +168,179 @@ msgstr ""
 "#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
 "Contraseña:"
 
-#: standard input:91
+#: standard input:29
 #, fuzzy
 msgid "Add user"
 msgstr "Adiccionar Usuário:"
 
-#: standard input:94
+#: standard input:32
 msgid "Generate automatically"
 msgstr "Generar automaticamente"
 
-#: standard input:95
+#: standard input:33
 msgid "(enter passphrase)"
 msgstr "(entre com la contraseña)"
 
-#: standard input:96
+#: standard input:34
 msgid "(repeat passphrase)"
 msgstr "(repetir la contraseña)"
 
-#: standard input:97
+#: standard input:35
 msgid "Generate"
 msgstr "Generar"
+
+#: standard input:43
+#, fuzzy
+msgid "Unused rules"
+msgstr "Adiccionar norma"
+
+#: standard input:44
+msgid "Reload snort"
+msgstr ""
+
+#: standard input:45
+#, fuzzy
+msgid "Download rules"
+msgstr "Conección falló"
+
+#: standard input:46
+msgid "Oink code:"
+msgstr ""
+
+#: standard input:47
+msgid "Custom URL:"
+msgstr ""
+
+#: standard input:48
+#, fuzzy
+msgid "Auto update"
+msgstr "Auto-detectar"
+
+#: standard input:54
+#, fuzzy
+msgid "Download now"
+msgstr "Download completo"
+
+#: standard input:59
+#, fuzzy
+msgid "Period from:"
+msgstr "Período:"
+
+#: standard input:60
+msgid "to"
+msgstr "para"
+
+#: standard input:61
+#, fuzzy
+msgid "Update"
+msgstr "Atualización de la ayuda"
+
+#: standard input:62
+msgid "Events"
+msgstr ""
+
+#: standard input:63 input:70
+#, fuzzy
+msgid "Description"
+msgstr "Descripción:"
+
+#: standard input:64 input:71
+msgid "Interface"
+msgstr "Interfaces del IP"
+
+#: standard input:65 input:74
+#, fuzzy
+msgid "Count"
+msgstr "País:"
+
+#: standard input:66 input:76
+#, fuzzy
+msgid "Last event"
+msgstr "Download de el Requerido"
+
+#: standard input:67
+#, fuzzy
+msgid "Show details"
+msgstr "Opciones generales"
+
+#: standard input:68
+#, fuzzy
+msgid "(for selected events)"
+msgstr "Por selecionado:"
+
+#: standard input:69
+msgid "Details"
+msgstr ""
+
+#: standard input:72
+#, fuzzy
+msgid "Source IP"
+msgstr "Fuente del URI:"
+
+#: standard input:73
+#, fuzzy
+msgid "Destination IP"
+msgstr "Destino"
+
+#: standard input:75
+#, fuzzy
+msgid "First event"
+msgstr "Primer Página"
+
+#: standard input:81 input:94
+msgid "Setup"
+msgstr ""
+
+#: standard input:82 input:95
+msgid "List of banned IP"
+msgstr ""
+
+#: standard input:83
+#, fuzzy
+msgid "Rule name:"
+msgstr "Nome de la carpeta"
+
+#: standard input:85
+#, fuzzy
+msgid "Enabled"
+msgstr "Permitido"
+
+#: standard input:86
+#, fuzzy
+msgid "Duration ban:"
+msgstr "Configurar la Fecha Actual:"
+
+#: standard input:87
+#, fuzzy
+msgid "Time interval:"
+msgstr "Zona Horaria"
+
+#: standard input:88
+#, fuzzy
+msgid "Count retry:"
+msgstr "País:"
+
+#: standard input:93
+#, fuzzy
+msgid "Reload"
+msgstr "Cargar"
+
+#: standard input:96
+msgid "IP address"
+msgstr "Dirección IP"
+
+#: standard input:97
+msgid "Hostname"
+msgstr "hostname:"
+
+#: standard input:98
+#, fuzzy
+msgid "Rule name"
+msgstr "Nome de la carpeta"
+
+#: standard input:99
+msgid "Unban"
+msgstr ""
 
 #: standard input:104
 #, fuzzy
@@ -461,6 +461,10 @@ msgstr ""
 #: backend3/snort:1289
 msgid "URL not specified!"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Reload fail2ban"
+#~ msgstr "Conección falló"
 
 #, fuzzy
 #~ msgid "reset"
