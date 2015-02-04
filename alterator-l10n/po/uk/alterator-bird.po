@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-18 17:39+0400\n"
+"POT-Creation-Date: 2015-02-04 16:21+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -31,33 +31,47 @@ msgstr ""
 msgid "Specify storage address..."
 msgstr "Змінити IP-адресу..."
 
-#: standard input:3 input:5
-msgid "Save"
-msgstr "Зберегти"
+#: standard input:3
+msgid "Auto start routing service at boot"
+msgstr ""
 
 #: standard input:4
-msgid "Main config"
-msgstr ""
-
-#: standard input:6
-msgid "Reset modifications"
-msgstr ""
-
-#: standard input:7
-#, fuzzy
-msgid "Download config to local computer"
-msgstr "Звантажити конфігурацію клієнта"
-
-#: standard input:8
-msgid "Upload"
-msgstr "Завантажити"
-
-#: standard input:9
 #, fuzzy
 msgid "Current status is"
 msgstr "Поточна дата:"
 
+#: standard input:5
+#, fuzzy
+msgid "Start service"
+msgstr "Налаштувати поштову службу"
+
+#: standard input:6
+#, fuzzy
+msgid "Stop service"
+msgstr "Налаштувати поштову службу"
+
+#: standard input:7
+msgid "Main config"
+msgstr ""
+
+#: standard input:8
+msgid "Save"
+msgstr "Зберегти"
+
+#: standard input:9
+msgid "Reset modifications"
+msgstr ""
+
 #: standard input:10
+#, fuzzy
+msgid "Download config to local computer"
+msgstr "Звантажити конфігурацію клієнта"
+
+#: standard input:11
+msgid "Upload"
+msgstr "Завантажити"
+
+#: standard input:12
 #, fuzzy
 msgid "Show debug"
 msgstr "Показати довідку"
@@ -70,22 +84,14 @@ msgstr "Ні"
 msgid "Yes"
 msgstr "Так"
 
-#: backend3/bird:63
-msgid "Use Bird routing daemon"
-msgstr ""
-
-#: backend3/bird:66
-msgid "Do not use Bird routing daemon"
-msgstr ""
-
-#: backend3/bird:75
+#: backend3/bird:61
 msgid "OFF"
 msgstr ""
 
-#: backend3/bird:80
+#: backend3/bird:78
 msgid "ON"
 msgstr ""
 
-#: backend3/bird:177
+#: backend3/bird:187
 msgid "Can't install new config"
 msgstr ""

@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2014.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-18 17:39+0400\n"
-"PO-Revision-Date: 2014-09-18 18:12+0400\n"
+"POT-Creation-Date: 2015-02-04 16:21+0300\n"
+"PO-Revision-Date: 2015-02-04 16:28+0300\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -30,31 +30,43 @@ msgstr "Неизвестная ошибка!"
 msgid "Specify storage address..."
 msgstr "Адрес хранилища..."
 
-#: standard input:3 input:5
-msgid "Save"
-msgstr "Сохранить"
+#: standard input:3
+msgid "Auto start routing service at boot"
+msgstr "Автоматически запускать службу при запуске системы"
 
 #: standard input:4
-msgid "Main config"
-msgstr "Основная конфигурация"
-
-#: standard input:6
-msgid "Reset modifications"
-msgstr "Отменить изменения"
-
-#: standard input:7
-msgid "Download config to local computer"
-msgstr "Загрузить файл конфигурации"
-
-#: standard input:8
-msgid "Upload"
-msgstr "Разместить"
-
-#: standard input:9
 msgid "Current status is"
 msgstr "Текущее состояние службы"
 
+#: standard input:5
+msgid "Start service"
+msgstr "Запустить службу"
+
+#: standard input:6
+msgid "Stop service"
+msgstr "Остановить службу"
+
+#: standard input:7
+msgid "Main config"
+msgstr "Основная конфигурация"
+
+#: standard input:8
+msgid "Save"
+msgstr "Сохранить"
+
+#: standard input:9
+msgid "Reset modifications"
+msgstr "Отменить изменения"
+
 #: standard input:10
+msgid "Download config to local computer"
+msgstr "Загрузить файл конфигурации"
+
+#: standard input:11
+msgid "Upload"
+msgstr "Разместить"
+
+#: standard input:12
 msgid "Show debug"
 msgstr "Показывать отладочную информацию"
 
@@ -66,24 +78,20 @@ msgstr "Нет"
 msgid "Yes"
 msgstr "Да"
 
-#: backend3/bird:63
-msgid "Use Bird routing daemon"
-msgstr "Использовать службу маршрутизации Bird"
-
-#: backend3/bird:66
-msgid "Do not use Bird routing daemon"
-msgstr "Не использовать службу маршрутизации Bird"
-
-#: backend3/bird:75
+#: backend3/bird:61
 msgid "OFF"
 msgstr "ВЫКЛ"
 
-#: backend3/bird:80
+#: backend3/bird:78
 msgid "ON"
 msgstr "ВКЛ"
 
-#: backend3/bird:177
+#: backend3/bird:187
 msgid "Can't install new config"
 msgstr "Невозможно установить новую конфигурацию"
 
+#~ msgid "Use Bird routing daemon"
+#~ msgstr "Использовать службу маршрутизации Bird"
 
+#~ msgid "Do not use Bird routing daemon"
+#~ msgstr "Не использовать службу маршрутизации Bird"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-13 17:59+0300\n"
+"POT-Creation-Date: 2015-02-04 16:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgstr ""
 msgid "ISP traffic shaper"
 msgstr ""
 
-#: standard input:1 input:14
+#: standard input:1 input:15
 msgid "Database"
 msgstr ""
 
-#: standard input:2 input:15
+#: standard input:2 input:16
 msgid "Configuration"
 msgstr ""
 
@@ -46,182 +46,186 @@ msgid "Rate:"
 msgstr ""
 
 #: standard input:7
-msgid "Add/Modify"
+msgid "kibit"
 msgstr ""
 
 #: standard input:8
-msgid "IP/Rate:"
+msgid "Add/Modify"
 msgstr ""
 
 #: standard input:9
-msgid "Search"
+msgid "IP/Rate:"
 msgstr ""
 
 #: standard input:10
-msgid "IP address"
+msgid "Search"
 msgstr ""
 
 #: standard input:11
-msgid "Rate"
+msgid "IP address"
 msgstr ""
 
 #: standard input:12
+msgid "Rate"
+msgstr ""
+
+#: standard input:13
 msgid "Show:"
 msgstr ""
 
-#: standard input:13 input:31 input:39 input:47
+#: standard input:14 input:32 input:40 input:48
 msgid "Delete"
 msgstr ""
 
-#: standard input:16
+#: standard input:17
 msgid "Enable shapercontrol"
 msgstr ""
 
-#: standard input:17 input:49
+#: standard input:18 input:50
 msgid "Apply"
 msgstr ""
 
-#: standard input:18
+#: standard input:19
 msgid "Any adjustments below is a reason to auto stop service."
 msgstr ""
 
-#: standard input:19
+#: standard input:20
 msgid ""
 "In case of NAT existence speed limit has sense only for incoming traffic. "
 "Outgoing speed limit for clients is uncontrolled. External interface should "
 "be marked as 'disable'."
 msgstr ""
 
-#: standard input:20
+#: standard input:21
 msgid ""
 "In case service is active all traffic flow is forbidden. Only clients have "
 "corresponding entrance in DataBase can communicate."
 msgstr ""
 
-#: standard input:21
+#: standard input:22
 msgid ""
 "In case of NAT existence, traffic shaper sees all outgoing traffic as from "
 "IP == external interface."
 msgstr ""
 
-#: standard input:22
+#: standard input:23
 msgid "Interface connected to the upstream:"
 msgstr ""
 
-#: standard input:23
+#: standard input:24
 msgid "(control outgoing speed limit for local clients)"
 msgstr ""
 
-#: standard input:24
+#: standard input:25
 msgid "Interface connected to your network:"
 msgstr ""
 
-#: standard input:25
+#: standard input:26
 msgid "(control incoming speed limit for local clients)"
 msgstr ""
 
-#: standard input:26
+#: standard input:27
 msgid "Network list for classid calculation"
 msgstr ""
 
-#: standard input:27 input:33 input:41
+#: standard input:28 input:34 input:42
 msgid "Add network:"
 msgstr ""
 
-#: standard input:28 input:34 input:42
+#: standard input:29 input:35 input:43
 msgid "Add"
 msgstr ""
 
-#: standard input:29
+#: standard input:30
 msgid "Format is: X.X.X.X/YY"
 msgstr ""
 
-#: standard input:30
+#: standard input:31
 msgid ""
 "This list should contain all networks whose clients are exposed to speed "
 "limit control."
 msgstr ""
 
-#: standard input:32
+#: standard input:33
 msgid "Internal networks, whose traffic is transmitted without shaping"
 msgstr ""
 
-#: standard input:35 input:43
+#: standard input:36 input:44
 msgid "Format is: X.X.X.X/YY or X.X.X.X"
 msgstr ""
 
-#: standard input:36
+#: standard input:37
 msgid ""
 "Each entry below has corresponding rule for external interface. Specified "
 "clients from local networks do not have limit on outgoing traffic."
 msgstr ""
 
-#: standard input:37
+#: standard input:38
 msgid ""
 "Useless in case external interface is set to 'disable'. Outgoing traffic is "
 "not exposed to speed limit."
 msgstr ""
 
-#: standard input:38
+#: standard input:39
 msgid "Warning: In case "
 msgstr ""
 
-#: standard input:40
+#: standard input:41
 msgid "External networks, whose traffic is transmitted without shaping"
 msgstr ""
 
-#: standard input:44
+#: standard input:45
 msgid ""
 "Each entry below has an corresponding rule for internal iface. Traffic from "
 "specified networks is not exposed to speed limit."
 msgstr ""
 
-#: standard input:45
+#: standard input:46
 msgid ""
 "Warning: Traffic from this server is also question to speed limit. Add here "
 "IP address of internal interface to turn off speed limit for traffic from "
 "this server to local clients."
 msgstr ""
 
-#: standard input:46
+#: standard input:47
 msgid ""
 "Warning: If you don't specify here IP address of local interface, then local "
 "clients that are absent in database, will be unable to communicate with this "
 "server at all."
 msgstr ""
 
-#: standard input:48
+#: standard input:49
 msgid "Ratio between bandwidth rates in rules and in the database:"
 msgstr ""
 
-#: backend3/shapercontrol:100
+#: backend3/shapercontrol:98
 msgid "Disable (Recommended for NAT)"
 msgstr ""
 
-#: backend3/shapercontrol:104 backend3/shapercontrol:138
+#: backend3/shapercontrol:102 backend3/shapercontrol:136
 msgid "Not defined (bad configuration)"
 msgstr ""
 
-#: backend3/shapercontrol:109 backend3/shapercontrol:143
+#: backend3/shapercontrol:107 backend3/shapercontrol:141
 msgid "(absent in system)"
 msgstr ""
 
-#: backend3/shapercontrol:368
+#: backend3/shapercontrol:376
 msgid "10 lines"
 msgstr ""
 
-#: backend3/shapercontrol:369
+#: backend3/shapercontrol:377
 msgid "20 lines"
 msgstr ""
 
-#: backend3/shapercontrol:370
+#: backend3/shapercontrol:378
 msgid "50 lines"
 msgstr ""
 
-#: backend3/shapercontrol:371
+#: backend3/shapercontrol:379
 msgid "100 lines"
 msgstr ""
 
-#: backend3/shapercontrol:482
+#: backend3/shapercontrol:490
 msgid "Lines %s-%s of %s"
 msgstr ""
