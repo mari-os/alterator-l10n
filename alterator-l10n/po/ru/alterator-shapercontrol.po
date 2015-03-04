@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-04 16:40+0300\n"
+"POT-Creation-Date: 2015-03-04 13:39+0300\n"
 "PO-Revision-Date: 2015-02-04 16:42+0300\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -97,7 +97,7 @@ msgid ""
 "be marked as 'disable'."
 msgstr ""
 "В случае NAT ограничение скорости имеет смысл только для входящего трафика."
-"Скорость исходящего трафика для клиентов не контролируется.Внешний интерфейс "
+"Скорость исходящего трафика для клиентов не контролируется. Внешний интерфейс "
 "следует пометить как 'disable'."
 
 #: standard input:21
@@ -181,8 +181,12 @@ msgstr ""
 "Исходящий трафик не подлежит ограничению скорости."
 
 #: standard input:39
-msgid "Warning: In case "
-msgstr "Предупреждение: в случае "
+msgid ""
+"Warning: In case 'external interface' parameter is set to real interface, "
+"here must be listed IP addresses of external interface. IPs of this server. "
+msgstr ""
+"Внимание: Если внешний интерфейс задан, то здесь должны быть перечислены "
+"IP адреса внешнего интерфейса."
 
 #: standard input:41
 msgid "External networks, whose traffic is transmitted without shaping"
@@ -203,7 +207,7 @@ msgid ""
 "this server to local clients."
 msgstr ""
 "Внимание: трафик с этого сервера также подлежит ограничению скорости."
-"Добавьте здесь IP-адрес внутреннего интерфейса, чтобы отключитьограничение "
+"Добавьте здесь IP-адрес внутреннего интерфейса, чтобы отключить ограничение "
 "скорости с этого сервера к локальным клиентам."
 
 #: standard input:47
@@ -212,21 +216,21 @@ msgid ""
 "clients that are absent in database, will be unable to communicate with this "
 "server at all."
 msgstr ""
-"Внимание: если здесь не указан IP-адрес локального интерфейса,то локальные "
-"клиенты, которые отсутствуют в базе данных,не смогут взаимодействовать с "
+"Внимание: если здесь не указан IP-адрес локального интерфейса, то локальные "
+"клиенты, которые отсутствуют в базе данных, не смогут взаимодействовать с "
 "этим сервером вообще."
 
 #: standard input:49
 msgid "Ratio between bandwidth rates in rules and in the database:"
 msgstr "Коэффициент отношения скоростей в правилах и в базе данных:"
 
-#: backend3/shapercontrol:98
-msgid "Disable (Recommended for NAT)"
-msgstr "Отключено (рекомендуется для NAT)"
-
-#: backend3/shapercontrol:102 backend3/shapercontrol:136
+#: backend3/shapercontrol:100 backend3/shapercontrol:136
 msgid "Not defined (bad configuration)"
 msgstr "Не определен (неверная настройка)"
+
+#: backend3/shapercontrol:103
+msgid "Disable (Recommended for NAT)"
+msgstr "Отключено (рекомендуется для NAT)"
 
 #: backend3/shapercontrol:107 backend3/shapercontrol:141
 msgid "(absent in system)"
@@ -252,3 +256,5 @@ msgstr "100 строк"
 msgid "Lines %s-%s of %s"
 msgstr "Строки %s-%s из %s"
 
+#~ msgid "Warning: In case "
+#~ msgstr "Предупреждение: в случае "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-04 16:40+0300\n"
+"POT-Creation-Date: 2015-03-04 13:39+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -176,9 +176,10 @@ msgid ""
 msgstr ""
 
 #: standard input:39
-#, fuzzy
-msgid "Warning: In case "
-msgstr "Попередження:"
+msgid ""
+"Warning: In case 'external interface' parameter is set to real interface, "
+"here must be listed IP addresses of external interface. IPs of this server. "
+msgstr ""
 
 #: standard input:41
 msgid "External networks, whose traffic is transmitted without shaping"
@@ -208,12 +209,12 @@ msgstr ""
 msgid "Ratio between bandwidth rates in rules and in the database:"
 msgstr ""
 
-#: backend3/shapercontrol:98
-msgid "Disable (Recommended for NAT)"
+#: backend3/shapercontrol:100 backend3/shapercontrol:136
+msgid "Not defined (bad configuration)"
 msgstr ""
 
-#: backend3/shapercontrol:102 backend3/shapercontrol:136
-msgid "Not defined (bad configuration)"
+#: backend3/shapercontrol:103
+msgid "Disable (Recommended for NAT)"
 msgstr ""
 
 #: backend3/shapercontrol:107 backend3/shapercontrol:141
@@ -239,3 +240,7 @@ msgstr "100 рядків"
 #: backend3/shapercontrol:490
 msgid "Lines %s-%s of %s"
 msgstr "Рядки %s-%s з %s"
+
+#, fuzzy
+#~ msgid "Warning: In case "
+#~ msgstr "Попередження:"
