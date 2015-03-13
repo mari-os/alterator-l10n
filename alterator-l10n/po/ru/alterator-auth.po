@@ -2,20 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2011, 2012, 2013.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2011, 2012, 2013, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-19 11:55+0400\n"
-"PO-Revision-Date: 2013-03-22 11:44+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"POT-Creation-Date: 2015-03-13 15:58+0300\n"
+"PO-Revision-Date: 2015-03-13 16:00+0300\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -25,7 +25,7 @@ msgstr "Аутентификация"
 
 #: standard input:1
 msgid "Available authentication methods"
-msgstr "Выберите способ аутентфикации"
+msgstr "Выберите способ аутентификации"
 
 #: standard input:2
 msgid "Local files"
@@ -63,49 +63,129 @@ msgstr "Базовый DN:"
 msgid "Select"
 msgstr "Показать список"
 
-#: standard input:11 ui/auth/index.scm:34
+#: standard input:11 ui/auth/index.scm:74
 msgid "Current domain:"
 msgstr "Используется домен:"
 
-#: standard input:12 ui/auth/index.scm:39
+#: standard input:12 ui/auth/index.scm:89
 msgid "Domain list:"
 msgstr "Выберите домен:"
 
-#: standard input:13 ui/auth/index.scm:54
+#: standard input:13 ui/auth/index.scm:126
 msgid "Attention: "
 msgstr "Внимание! "
 
-#: standard input:14 ui/auth/index.scm:55
+#: standard input:14 ui/auth/index.scm:127
 msgid "Domain change needs reboot for normal operation"
 msgstr "Изменение домена заработает только после перезагрузки компьютера"
 
-#: standard input:15 ui/auth/index.scm:61
+#: standard input:15 ui/auth/index.scm:133
 msgid "Apply"
 msgstr "Применить"
 
-#: ui/auth/index.scm:44
+#: ui/auth/index.scm:14
+msgid "Please, fill field "
+msgstr "Не заполнено поле "
+
+#: ui/auth/index.scm:20
+msgid "Domain"
+msgstr "Домен"
+
+#: ui/auth/index.scm:21
+msgid "Netbios name"
+msgstr "Имя Netbios"
+
+#: ui/auth/index.scm:22
+msgid "Administrator name"
+msgstr "Имя администратора"
+
+#: ui/auth/index.scm:23
+msgid "Administrator password"
+msgstr "Пароль администратора"
+
+#. Local database
+#: ui/auth/index.scm:78
+msgid "Local database"
+msgstr "Локальная база пользователей"
+
+#. ALT domain
+#: ui/auth/index.scm:81
+msgid "ALT Linux domain"
+msgstr "Домен ALT Linux "
+
+#: ui/auth/index.scm:87 ui/auth/index.scm:102
 msgid "Warning: "
 msgstr "Внимание: "
 
-#: ui/auth/index.scm:45
+#: ui/auth/index.scm:87
 msgid "Search for domains is impossible because avahi-daemon is not started"
 msgstr "Поиск доменa невозможен, так как служба avahi-daemon не запущена"
 
-#: ui/auth/index.scm:48
+#: ui/auth/index.scm:93
 msgid "Use cached credentials for out of domain login"
 msgstr "Кэшировать аутентификацию при недоступности сервера домена"
 
-#: backend3/auth:69 backend3/auth~:69
+#. Active Directory
+#: ui/auth/index.scm:96
+msgid "Active Directory domain"
+msgstr "Домен Active Directory"
+
+#: ui/auth/index.scm:102
+msgid ""
+"Unable to find winbind service. Please, install package samba-winbind and "
+"try again."
+msgstr ""
+"Не удалось обнаружить службу winbind. Установите пакет samba-winbind и "
+"попробуйте снова."
+
+#: ui/auth/index.scm:104
+msgid "Domain:"
+msgstr "Домен:"
+
+#: ui/auth/index.scm:107
+msgid "Workgroup:"
+msgstr "Рабочая группа:"
+
+#: ui/auth/index.scm:110
+msgid "Netbios name:"
+msgstr "Имя Netbios:"
+
+#. Active Directory administrator authentication
+#: ui/auth/index.scm:114
+msgid "Administrator name:"
+msgstr "Имя администратора:"
+
+#: ui/auth/index.scm:117
+msgid "Administrator password:"
+msgstr "Пароль администратора:"
+
+#: backend3/auth:73
 msgid "local"
 msgstr "Не использовать домен"
 
-#: backend3/auth:108 backend3/auth~:108
-msgid "Kerberos domain do not used"
+#: backend3/auth:112
+msgid "Kerberos domain is not used"
 msgstr "используется локальная база пользователей"
 
-#: backend3/auth:183 backend3/auth~:183
+#: backend3/auth:208
 msgid "Domain not set"
 msgstr "Домен не установлен"
+
+#: backend3/auth:217
+msgid "Cannot contact KDC for realm"
+msgstr "Невозможно найти KDC указанного домена"
+
+#: backend3/auth:218
+msgid "Unknown administrator name"
+msgstr "Неизвестное имя администратора"
+
+#: backend3/auth:219
+msgid "Wrong password"
+msgstr "Неправильный пароль"
+
+#: backend3/auth:220
+msgid "Unable to access to Active Directory domain:"
+msgstr "Невозможно подключиться к домену Active Directory: "
 
 #~ msgid "Auth type:"
 #~ msgstr "Тип аутентификации:"

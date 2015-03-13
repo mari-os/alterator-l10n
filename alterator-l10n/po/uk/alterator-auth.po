@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-19 11:55+0400\n"
+"POT-Creation-Date: 2015-03-13 15:58+0300\n"
 "PO-Revision-Date: 2009-08-21 14:04+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -64,52 +64,142 @@ msgstr "Базовий DN:"
 msgid "Select"
 msgstr "Обрати"
 
-#: standard input:11 ui/auth/index.scm:34
+#: standard input:11 ui/auth/index.scm:74
 msgid "Current domain:"
 msgstr "Поточний домен:"
 
-#: standard input:12 ui/auth/index.scm:39
+#: standard input:12 ui/auth/index.scm:89
 msgid "Domain list:"
 msgstr "Перелік доменів:"
 
-#: standard input:13 ui/auth/index.scm:54
+#: standard input:13 ui/auth/index.scm:126
 #, fuzzy
 msgid "Attention: "
 msgstr "Автентифікація"
 
-#: standard input:14 ui/auth/index.scm:55
+#: standard input:14 ui/auth/index.scm:127
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:15 ui/auth/index.scm:61
+#: standard input:15 ui/auth/index.scm:133
 msgid "Apply"
 msgstr "Застосувати"
 
-#: ui/auth/index.scm:44
+#: ui/auth/index.scm:14
+msgid "Please, fill field "
+msgstr ""
+
+#: ui/auth/index.scm:20
+msgid "Domain"
+msgstr "Домен"
+
+#: ui/auth/index.scm:21
+#, fuzzy
+msgid "Netbios name"
+msgstr "Ім'я мережі"
+
+#: ui/auth/index.scm:22
+#, fuzzy
+msgid "Administrator name"
+msgstr "DN адміністратора:"
+
+#: ui/auth/index.scm:23
+#, fuzzy
+msgid "Administrator password"
+msgstr "Пароль адміністратора"
+
+#. Local database
+#: ui/auth/index.scm:78
+msgid "Local database"
+msgstr ""
+
+#. ALT domain
+#: ui/auth/index.scm:81
+#, fuzzy
+msgid "ALT Linux domain"
+msgstr "Призначте домен:"
+
+#: ui/auth/index.scm:87 ui/auth/index.scm:102
 #, fuzzy
 msgid "Warning: "
 msgstr "Попередження:"
 
-#: ui/auth/index.scm:45
+#: ui/auth/index.scm:87
 msgid "Search for domains is impossible because avahi-daemon is not started"
 msgstr ""
 
-#: ui/auth/index.scm:48
+#: ui/auth/index.scm:93
 msgid "Use cached credentials for out of domain login"
 msgstr ""
 
-#: backend3/auth:69 backend3/auth~:69
+#. Active Directory
+#: ui/auth/index.scm:96
+msgid "Active Directory domain"
+msgstr ""
+
+#: ui/auth/index.scm:102
+#, fuzzy
+msgid ""
+"Unable to find winbind service. Please, install package samba-winbind and "
+"try again."
+msgstr ""
+"Диск з резервною копією не знайдено. Будь-ласка, вставте його і спробуйте "
+"знову..."
+
+#: ui/auth/index.scm:104
+msgid "Domain:"
+msgstr "Домен:"
+
+#: ui/auth/index.scm:107
+msgid "Workgroup:"
+msgstr "Робоча група:"
+
+#: ui/auth/index.scm:110
+#, fuzzy
+msgid "Netbios name:"
+msgstr "Ім'я мережі"
+
+#. Active Directory administrator authentication
+#: ui/auth/index.scm:114
+#, fuzzy
+msgid "Administrator name:"
+msgstr "DN адміністратора:"
+
+#: ui/auth/index.scm:117
+msgid "Administrator password:"
+msgstr "Пароль адміністратора"
+
+#: backend3/auth:73
 msgid "local"
 msgstr ""
 
-#: backend3/auth:108 backend3/auth~:108
+#: backend3/auth:112
 #, fuzzy
-msgid "Kerberos domain do not used"
+msgid "Kerberos domain is not used"
 msgstr "Домен Kerberos"
 
-#: backend3/auth:183 backend3/auth~:183
+#: backend3/auth:208
 msgid "Domain not set"
 msgstr "Домен не встановлено"
+
+#: backend3/auth:217
+msgid "Cannot contact KDC for realm"
+msgstr ""
+
+#: backend3/auth:218
+#, fuzzy
+msgid "Unknown administrator name"
+msgstr "DN адміністратора:"
+
+#: backend3/auth:219
+#, fuzzy
+msgid "Wrong password"
+msgstr "Пароля немає"
+
+#: backend3/auth:220
+#, fuzzy
+msgid "Unable to access to Active Directory domain:"
+msgstr "Неможливо створити теку під нову систему"
 
 #~ msgid "Auth type:"
 #~ msgstr "Тип автентифікації:"
