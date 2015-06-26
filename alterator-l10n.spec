@@ -1,5 +1,5 @@
 Name: alterator-l10n
-Version: 2.9.20
+Version: 2.9.21
 Release: alt1
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
@@ -110,6 +110,9 @@ make check
 %lang(kk) %_datadir/locale/kk/LC_MESSAGES/*.mo
 
 %changelog
+* Mon Jul 13 2015 Andrey Cherepanov <cas@altlinux.org> 2.9.21-alt1
+- Add Russian translation and help for alterator-mass-management
+
 * Fri Mar 13 2015 Andrey Cherepanov <cas@altlinux.org> 2.9.20-alt1
 - Update Russian translation for alterator-auth
 
