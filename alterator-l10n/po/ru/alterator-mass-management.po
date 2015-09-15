@@ -1,14 +1,14 @@
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2015 Andrey Cherepanov <cas@altlinux.org>
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <cas@altlinux.ru>, 2015.
+# Andrey Cherepanov <cas@altlinux.org>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-16 13:27+0300\n"
-"PO-Revision-Date: 2015-07-16 13:38+0300\n"
-"Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
+"POT-Creation-Date: 2015-09-15 13:27+0300\n"
+"PO-Revision-Date: 2015-09-15 13:35+0300\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.org>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgstr ""
 msgid "Configuration Management"
 msgstr "Управление конфигурацией"
 
-#: standard input:1 input:11 input:37 input:56
+#: standard input:1 input:11 input:28 input:48 input:102
 msgid "Tasks"
 msgstr "Задания"
 
-#: standard input:2 input:12 input:38 input:47 input:57
+#: standard input:2 input:12 input:29 input:39 input:49 input:103
 msgid "Profile"
 msgstr "Профили"
 
-#: standard input:3 input:13 input:39 input:58
+#: standard input:3 input:13 input:30 input:50 input:104
 msgid "Host groups"
 msgstr "Группы хостов"
 
@@ -58,267 +58,249 @@ msgstr "Состояние"
 msgid "Action"
 msgstr "Действие"
 
-#: standard input:10 input:49
+#: standard input:10 input:41
 msgid "Result"
 msgstr "Результат"
 
-#: standard input:14
+#: standard input:14 input:31 input:51 input:105
+msgid "Mode"
+msgstr "Режим"
+
+#: standard input:15
+msgid "Host group management only available in Master mode."
+msgstr "Управление группами хостов возможно только в режиме «Мастер»."
+
+#: standard input:16
+msgid "Change mode..."
+msgstr "Сменить режим..."
+
+#: standard input:17
 msgid "New host group:"
 msgstr "Добавить группу:"
 
-#: standard input:15 input:60
+#: standard input:18
+msgid "Indirect access to hosts"
+msgstr "Непрямой доступ к хостам"
+
+#: standard input:19 input:53
 msgid "Create"
 msgstr "Создать"
 
-#: standard input:16
+#: standard input:20
 msgid "Delete group"
 msgstr "Удалить группу"
 
-#: standard input:17 input:67 input:103
+#: standard input:21 input:60 input:86
 msgid "Delete"
 msgstr "Удалить"
 
-#: standard input:18
+#: standard input:22
 msgid "IP or Hostname:"
 msgstr "Имя компьютера или IP-адрес:"
 
-#: standard input:19
+#: standard input:23
 msgid "Add host"
 msgstr "Добавить хост"
 
-#: standard input:20
-msgid "Import hosts list"
-msgstr "Импорт списка хостов"
-
-#: standard input:21
-msgid "Export hosts list"
-msgstr "Экспорт списка хостов"
-
-#: standard input:22
-msgid "Host role"
-msgstr "Роль хоста"
-
-#: standard input:23
-msgid "Master"
-msgstr "Мастер"
-
 #: standard input:24
-msgid "Key for managed hosts"
-msgstr "Ключ для управляемых хостов"
+msgid "Host public key:"
+msgstr "Публичный ключ хоста:"
 
 #: standard input:25
-msgid "Download server public key for host management"
-msgstr "Забрать публичную часть ключа для управления хостами"
+msgid "Add key"
+msgstr "Добавить ключ"
 
 #: standard input:26
-msgid "(upload this file to managed hosts in Users -> System administrator)"
-msgstr ""
-"(загрузите этот файл на управляемые хосты в разделе Пользователи -> "
-"Администратор системы)"
+msgid "Import list"
+msgstr "Импорт списка"
 
 #: standard input:27
-msgid "Export rules for hosts in pull mode"
-msgstr "Публиковать задания для хостов, работающих в режиме запроса"
-
-#: standard input:28
-msgid "Managed host with direct access"
-msgstr "Управляемый хост с прямым доступом"
-
-#: standard input:29
-msgid "Managed host with indirect access (pull mode)"
-msgstr "Управляемый хост с непрямым доступом (режим запроса)"
-
-#: standard input:30
-msgid "Master server:"
-msgstr "Управляющий сервер:"
-
-#: standard input:31
-msgid "(DNS name or IP address available for this host)"
-msgstr "(имя или адрес сервера, доступный для этого хоста)"
+msgid "Export list"
+msgstr "Экспорт списка"
 
 #: standard input:32
-msgid "Group name:"
-msgstr "Название группы:"
-
-#: standard input:33
-msgid "(group on master server)"
-msgstr "(название группы на управляющем сервере)"
-
-#: standard input:34
-msgid "Check for changes:"
-msgstr "Интервал проверки обновлений:"
-
-#: standard input:35
-msgid "min"
-msgstr "мин"
-
-#: standard input:36 input:97
-msgid "Apply"
-msgstr "Применить"
-
-#: standard input:40
 msgid "Task number:"
 msgstr "Номер задания:"
 
-#: standard input:41
+#: standard input:33
 msgid "Select group:"
 msgstr "Группа:"
 
-#: standard input:42
+#: standard input:34
 msgid "Select profile:"
 msgstr "Профиль:"
 
-#: standard input:43
+#: standard input:35
 msgid "Start new task"
 msgstr "Запустить новое задание"
 
-#: standard input:44
+#: standard input:36
 msgid "New task"
 msgstr "Новое задание"
 
-#: standard input:45
+#: standard input:37
 msgid "Task no."
 msgstr "Номер задания"
 
-#: standard input:46
+#: standard input:38
 msgid "Date"
 msgstr "Дата"
 
-#: standard input:48
+#: standard input:40
 msgid "Group"
 msgstr "Группа"
 
-#: standard input:50
+#: standard input:42
 msgid "Try"
 msgstr "Попытка"
 
-#: standard input:51
+#: standard input:43
 msgid "Failed"
 msgstr "Произошли ошибки"
 
-#: standard input:52
+#: standard input:44
 msgid "Unreachable"
 msgstr "Недоступно"
 
-#: standard input:53
+#: standard input:45
 msgid "Skipped"
 msgstr "Пропущено"
 
-#: standard input:54
+#: standard input:46
 msgid "Success"
 msgstr "Успешно"
 
-#: standard input:55
+#: standard input:47
 msgid "Restart task"
 msgstr "Перезапустить задание"
 
-#: standard input:59
+#: standard input:52
 msgid "New profile:"
 msgstr "Новый профиль:"
 
-#: standard input:61
+#: standard input:54
 msgid "Time syncronization"
 msgstr "Синхронизация времени"
 
-#: standard input:62
+#: standard input:55
 msgid "Change time syncronization parameters"
 msgstr "Изменить параметры синхронизации времени"
 
-#: standard input:63
+#: standard input:56
 msgid "Enable automatic time syncronization time with NTP server"
 msgstr "Включить автоматическую синхронизацию времени с сервером NTP"
 
-#: standard input:64
+#: standard input:57
 msgid "NTP server name:"
 msgstr "NTP-сервер:"
 
-#: standard input:65
+#: standard input:58
 msgid "Routes"
 msgstr "Маршрутизация"
 
-#: standard input:66
+#: standard input:59
 msgid "Change network routes"
 msgstr "Изменение сетевых маршрутов"
 
-#: standard input:68 input:76
+#: standard input:61 input:69
 msgid "Interface:"
 msgstr "Интерфейс:"
 
-#: standard input:69 input:105
+#: standard input:62 input:88
 msgid "Add"
 msgstr "Добавить"
 
-#: standard input:70
+#: standard input:63
 msgid "Source:"
 msgstr "Источник:"
 
-#: standard input:71
+#: standard input:64
 msgid "Destination:"
 msgstr "Получатель:"
 
-#: standard input:72
+#: standard input:65
 msgid "Metric:"
 msgstr "Метрика:"
 
-#: standard input:73
+#: standard input:66
 msgid "DHCP Server"
 msgstr "Сервер DHCP"
 
-#: standard input:74
+#: standard input:67
 msgid "Change DHCP server parameters"
 msgstr "Изменить параметры сервера DHCP"
 
-#: standard input:75
+#: standard input:68
 msgid "Enable DHCP server"
 msgstr "Включить службу DHCP"
 
-#: standard input:77
+#: standard input:70
 msgid "Starting IP address:"
 msgstr "Начальный IP адрес:"
 
-#: standard input:78
+#: standard input:71
 msgid "Ending IP address:"
 msgstr "Конечный IP адрес:"
 
-#: standard input:79
+#: standard input:72
 msgid "Address  expiration time:"
 msgstr "Срок действия адреса:"
 
-#: standard input:80
+#: standard input:73
 msgid "Information provided for clients"
 msgstr "Информация, предоставляемая клиентам"
 
-#: standard input:81
+#: standard input:74
 msgid "DNS server:"
 msgstr "DNS-сервер:"
 
-#: standard input:82
+#: standard input:75
 msgid "Search domain:"
 msgstr "Домен поиска:"
 
-#: standard input:83 input:89
+#: standard input:76 input:89
 msgid "Default gateway:"
 msgstr "Шлюз по умолчанию:"
 
-#: standard input:84
+#: standard input:77
 msgid "Network interfaces"
 msgstr "Сетевые интерфейсы"
 
-#: standard input:85
+#: standard input:78
 msgid "Change network interface parameters"
 msgstr "Изменить параметры сетевых интерфейсов"
 
-#: standard input:86
+#: standard input:79
 msgid "Network Interface:"
 msgstr "Сетевой интерфейс:"
 
-#: standard input:87
+#: standard input:80
+msgid "Remove interface"
+msgstr "Удалить интерфейс"
+
+#: standard input:81
+msgid "Interface name:"
+msgstr "Имя интерфейса:"
+
+#: standard input:82
+msgid "Add new interface"
+msgstr "Добавить новый интерфейс"
+
+#: standard input:83
+msgid "Add interface"
+msgstr "Добавить интерфейс"
+
+#: standard input:84
 msgid "Configuration:"
 msgstr "Конфигурация:"
 
-#: standard input:88
+#: standard input:85
 msgid "IP addresses:"
 msgstr "IP-адреса:"
+
+#: standard input:87
+msgid "IP:"
+msgstr "IP:"
 
 #: standard input:90
 msgid "DNS servers:"
@@ -336,85 +318,187 @@ msgstr "Правила брандмауэра"
 msgid "Change firewall rules"
 msgstr "Изменить правила брандмауэра"
 
-#: standard input:94 input:101
-msgid "Select IP version:"
-msgstr "Версия протокола IP:"
+#: standard input:94
+msgid "Enable firewall"
+msgstr "Включить брандмауэр"
 
 #: standard input:95
-msgid "Enable manual mode"
-msgstr "Включить режим ручной настойки"
-
-#: standard input:96
 msgid "Select table:"
 msgstr "Выберите таблицу:"
 
+#: standard input:96
+msgid "Save"
+msgstr "Сохранить"
+
+#: standard input:97
+msgid "Clear"
+msgstr "Очистить"
+
 #: standard input:98
-msgid "Reset"
-msgstr "Вернуть"
+msgid "Import firewall rules"
+msgstr "Импорт правил брандмауэра"
 
 #: standard input:99
-msgid "Blacklist"
-msgstr "Черный список"
+msgid "Export firewall rules"
+msgstr "Экспорт правил брандмауэра"
 
 #: standard input:100
-msgid "Change blacklist rules"
-msgstr "Изменить черный список"
-
-#: standard input:102
-msgid "Enable blacklist filtering"
-msgstr "Использовать черный список"
-
-#: standard input:104
-msgid "Add host or network IP-address:"
-msgstr "Добавить IP-адрес или имя хоста:"
-
-#: standard input:106
 msgid "Save profile"
 msgstr "Сохранить профиль"
 
-#: standard input:107
+#: standard input:101
 msgid "Delete profile"
 msgstr "Удалить профиль"
 
-#: backend3/mass-management:194
+#: standard input:106
+msgid "Host mode"
+msgstr "Режим работы хоста"
+
+#: standard input:107
+msgid "Master"
+msgstr "Мастер"
+
+#: standard input:108
+msgid "Publish data for hosts in pull mode"
+msgstr "Публиковать задания для хостов, работающих в режиме запроса"
+
+#: standard input:109
+msgid "Managed host with direct access"
+msgstr "Управляемый хост с прямым доступом"
+
+#: standard input:110
+msgid "Managed host with indirect access (pull mode)"
+msgstr "Управляемый хост с непрямым доступом (режим запроса)"
+
+#: standard input:111
+msgid "Master server:"
+msgstr "Управляющий сервер:"
+
+#: standard input:112
+msgid "(DNS name or IP address available for this host)"
+msgstr "(имя или адрес сервера, доступный для этого хоста)"
+
+#: standard input:113
+msgid "Group name:"
+msgstr "Название группы:"
+
+#: standard input:114
+msgid "(group on master server)"
+msgstr "(название группы на управляющем сервере)"
+
+#: standard input:115
+msgid "Check for changes:"
+msgstr "Интервал проверки обновлений:"
+
+#: standard input:116
+msgid "min"
+msgstr "мин"
+
+#: standard input:117
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:118
+msgid "Download host public key"
+msgstr "Забрать публичную часть ключа хоста"
+
+#: backend3/mass-management:291 backend3/mass-management:354
+#: backend3/mass-management:370 backend3/mass-management:394
+#: backend3/mass-management:433 backend3/mass-management:454
 msgid "Invalid interface"
 msgstr "Неверное имя интерфейса"
 
-#: backend3/mass-management:282
+#: backend3/mass-management:549
 msgid "Couldn't determine task number"
 msgstr "Невозможно определить номер задания"
 
-#: backend3/mass-management:465
+#: backend3/mass-management:737
 msgid "DONE"
 msgstr "ЗАКОНЧЕНО"
 
-#: backend3/mass-management:468
+#: backend3/mass-management:740
 msgid "UNKNOWN"
 msgstr "НЕТ ДАННЫХ"
 
-#: backend3/mass-management:471
+#: backend3/mass-management:743
 msgid "NEW"
 msgstr "НОВОЕ"
 
-#: backend3/mass-management:474
+#: backend3/mass-management:746
 msgid "FAILED"
 msgstr "С ОШИБКАМИ"
 
-#: backend3/mass-management:566 backend3/mass-management:597
+#: backend3/mass-management:749
+msgid "AWAITING"
+msgstr "ОЖИДАНИЕ ОТВЕТА"
+
+#: backend3/mass-management:865 backend3/mass-management:909
 msgid "unknown"
 msgstr "неизвестно"
 
-#: backend3/mass-management:569
+#: backend3/mass-management:868
 msgid "unreachable"
 msgstr "недоступен"
 
-#: backend3/mass-management:571 backend3/mass-management:608
+#: backend3/mass-management:870 backend3/mass-management:920
 msgid "failed"
 msgstr "произошли ошибки"
 
-#: backend3/mass-management:580 backend3/mass-management:614
+#: backend3/mass-management:892 backend3/mass-management:926
 msgid "skipped"
 msgstr "пропущен"
+
+#: backend3/mass-management:1058
+msgid "(indirect access)"
+msgstr "(непрямой доступ)"
+
+#: backend3/mass-management:1100
+msgid ""
+"Bad name of new group. Name must contains latin letters, numbers, symbols _ "
+"and -."
+msgstr ""
+"Неверное имя группы. Допустимы только латинские буквы, цифры, символы '-' и "
+"'_'."
+
+#: backend3/mass-management:1106
+msgid "Group %s already exists"
+msgstr "Группа с именем «%s» уже существует"
+
+#: backend3/mass-management:1482 backend3/mass-management:1494
+msgid "Can't create task in current mode"
+msgstr "Невозможно создать задание в текущем режиме"
+
+#~ msgid "Key for managed hosts"
+#~ msgstr "Ключ для управляемых хостов"
+
+#~ msgid "Download server public key for host management"
+#~ msgstr "Забрать публичную часть ключа для управления хостами"
+
+#~ msgid "(upload this file to managed hosts in Users -> System administrator)"
+#~ msgstr ""
+#~ "(загрузите этот файл на управляемые хосты в разделе Пользователи -> "
+#~ "Администратор системы)"
+
+#~ msgid "Select IP version:"
+#~ msgstr "Версия протокола IP:"
+
+#~ msgid "Enable manual mode"
+#~ msgstr "Включить режим ручной настойки"
+
+#~ msgid "Reset"
+#~ msgstr "Вернуть"
+
+#~ msgid "Blacklist"
+#~ msgstr "Черный список"
+
+#~ msgid "Change blacklist rules"
+#~ msgstr "Изменить черный список"
+
+#~ msgid "Enable blacklist filtering"
+#~ msgstr "Использовать черный список"
+
+#~ msgid "Add host or network IP-address:"
+#~ msgstr "Добавить IP-адрес или имя хоста:"
 
 #~ msgid "Change"
 #~ msgstr "Изменить"

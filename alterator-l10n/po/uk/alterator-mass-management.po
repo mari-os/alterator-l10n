@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-16 13:27+0300\n"
+"POT-Creation-Date: 2015-09-15 13:27+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -23,15 +23,15 @@ msgstr ""
 msgid "Configuration Management"
 msgstr "Налаштування:"
 
-#: standard input:1 input:11 input:37 input:56
+#: standard input:1 input:11 input:28 input:48 input:102
 msgid "Tasks"
 msgstr ""
 
-#: standard input:2 input:12 input:38 input:47 input:57
+#: standard input:2 input:12 input:29 input:39 input:49 input:103
 msgid "Profile"
 msgstr ""
 
-#: standard input:3 input:13 input:39 input:58
+#: standard input:3 input:13 input:30 input:50 input:104
 #, fuzzy
 msgid "Host groups"
 msgstr "до групи"
@@ -61,291 +61,276 @@ msgstr "Стан"
 msgid "Action"
 msgstr ""
 
-#: standard input:10 input:49
+#: standard input:10 input:41
 msgid "Result"
 msgstr ""
 
-#: standard input:14
+#: standard input:14 input:31 input:51 input:105
+#, fuzzy
+msgid "Mode"
+msgstr "Режим:"
+
+#: standard input:15
+msgid "Host group management only available in Master mode."
+msgstr ""
+
+#: standard input:16
+#, fuzzy
+msgid "Change mode..."
+msgstr "Змінити дату..."
+
+#: standard input:17
 #, fuzzy
 msgid "New host group:"
 msgstr "Нова група:"
 
-#: standard input:15 input:60
+#: standard input:18
+msgid "Indirect access to hosts"
+msgstr ""
+
+#: standard input:19 input:53
 msgid "Create"
 msgstr "Створити"
 
-#: standard input:16
+#: standard input:20
 msgid "Delete group"
 msgstr "Вилучити групу"
 
-#: standard input:17 input:67 input:103
+#: standard input:21 input:60 input:86
 msgid "Delete"
 msgstr "Вилучити"
 
-#: standard input:18
+#: standard input:22
 #, fuzzy
 msgid "IP or Hostname:"
 msgstr "Ім'я вузла"
 
-#: standard input:19
+#: standard input:23
 #, fuzzy
 msgid "Add host"
 msgstr "Додати хост:"
 
-#: standard input:20
-msgid "Import hosts list"
-msgstr ""
-
-#: standard input:21
-msgid "Export hosts list"
-msgstr ""
-
-#: standard input:22
-#, fuzzy
-msgid "Host role"
-msgstr "до групи"
-
-#: standard input:23
-#, fuzzy
-msgid "Master"
-msgstr "головний"
-
 #: standard input:24
-#, fuzzy
-msgid "Key for managed hosts"
-msgstr "Керовані вузли"
+msgid "Host public key:"
+msgstr ""
 
 #: standard input:25
-msgid "Download server public key for host management"
+msgid "Add key"
 msgstr ""
 
 #: standard input:26
-msgid "(upload this file to managed hosts in Users -> System administrator)"
+msgid "Import list"
 msgstr ""
 
 #: standard input:27
-msgid "Export rules for hosts in pull mode"
-msgstr ""
-
-#: standard input:28
-msgid "Managed host with direct access"
-msgstr ""
-
-#: standard input:29
-msgid "Managed host with indirect access (pull mode)"
-msgstr ""
-
-#: standard input:30
 #, fuzzy
-msgid "Master server:"
-msgstr "Сервер поштової розсилки"
-
-#: standard input:31
-msgid "(DNS name or IP address available for this host)"
-msgstr ""
+msgid "Export list"
+msgstr "Змінити список..."
 
 #: standard input:32
-#, fuzzy
-msgid "Group name:"
-msgstr "Назва групи:"
-
-#: standard input:33
-msgid "(group on master server)"
-msgstr ""
-
-#: standard input:34
-msgid "Check for changes:"
-msgstr ""
-
-#: standard input:35
-#, fuzzy
-msgid "min"
-msgstr "Домен"
-
-#: standard input:36 input:97
-msgid "Apply"
-msgstr "Застосувати"
-
-#: standard input:40
 msgid "Task number:"
 msgstr ""
 
-#: standard input:41
+#: standard input:33
 #, fuzzy
 msgid "Select group:"
 msgstr "Вилучити групу"
 
-#: standard input:42
+#: standard input:34
 #, fuzzy
 msgid "Select profile:"
 msgstr "Обрати дію:"
 
-#: standard input:43
+#: standard input:35
 msgid "Start new task"
 msgstr ""
 
-#: standard input:44
+#: standard input:36
 #, fuzzy
 msgid "New task"
 msgstr "Новий псевдонім:"
 
-#: standard input:45
+#: standard input:37
 msgid "Task no."
 msgstr ""
 
-#: standard input:46
+#: standard input:38
 #, fuzzy
 msgid "Date"
 msgstr "Дата:"
 
-#: standard input:48
+#: standard input:40
 msgid "Group"
 msgstr "Група"
 
-#: standard input:50
+#: standard input:42
 msgid "Try"
 msgstr ""
 
-#: standard input:51
+#: standard input:43
 #, fuzzy
 msgid "Failed"
 msgstr "з безпечними параметрами"
 
-#: standard input:52
+#: standard input:44
 msgid "Unreachable"
 msgstr ""
 
-#: standard input:53
+#: standard input:45
 msgid "Skipped"
 msgstr ""
 
-#: standard input:54
+#: standard input:46
 msgid "Success"
 msgstr "Успішно"
 
-#: standard input:55
+#: standard input:47
 #, fuzzy
 msgid "Restart task"
 msgstr "запустити"
 
-#: standard input:59
+#: standard input:52
 #, fuzzy
 msgid "New profile:"
 msgstr "Нова тека:"
 
-#: standard input:61
+#: standard input:54
 msgid "Time syncronization"
 msgstr ""
 
-#: standard input:62
+#: standard input:55
 msgid "Change time syncronization parameters"
 msgstr ""
 
-#: standard input:63
+#: standard input:56
 msgid "Enable automatic time syncronization time with NTP server"
 msgstr ""
 
-#: standard input:64
+#: standard input:57
 #, fuzzy
 msgid "NTP server name:"
 msgstr "Сервер NTP:"
 
-#: standard input:65
+#: standard input:58
 #, fuzzy
 msgid "Routes"
 msgstr "роутер"
 
-#: standard input:66
+#: standard input:59
 #, fuzzy
 msgid "Change network routes"
 msgstr "Налаштовані мережі"
 
-#: standard input:68 input:76
+#: standard input:61 input:69
 msgid "Interface:"
 msgstr "Інтерфейс:"
 
-#: standard input:69 input:105
+#: standard input:62 input:88
 msgid "Add"
 msgstr "Додати"
 
-#: standard input:70
+#: standard input:63
 msgid "Source:"
 msgstr "Джерело:"
 
-#: standard input:71
+#: standard input:64
 #, fuzzy
 msgid "Destination:"
 msgstr "Пояснення:"
 
-#: standard input:72
+#: standard input:65
 msgid "Metric:"
 msgstr ""
 
-#: standard input:73
+#: standard input:66
 #, fuzzy
 msgid "DHCP Server"
 msgstr "Сервер DHCP"
 
-#: standard input:74
+#: standard input:67
 #, fuzzy
 msgid "Change DHCP server parameters"
 msgstr "Загальні параметри ядра:"
 
-#: standard input:75
+#: standard input:68
 msgid "Enable DHCP server"
 msgstr "Увімкнути службу DHCP"
 
-#: standard input:77
+#: standard input:70
 msgid "Starting IP address:"
 msgstr "Початкова IP адреса:"
 
-#: standard input:78
+#: standard input:71
 msgid "Ending IP address:"
 msgstr "Кінцева IP адреса:"
 
-#: standard input:79
+#: standard input:72
 msgid "Address  expiration time:"
 msgstr "Строк дії адреси"
 
-#: standard input:80
+#: standard input:73
 msgid "Information provided for clients"
 msgstr "Інформація, отримана від клієнтів"
 
-#: standard input:81
+#: standard input:74
 msgid "DNS server:"
 msgstr "Сервер DNS:"
 
-#: standard input:82
+#: standard input:75
 msgid "Search domain:"
 msgstr "Пошуковий домен:"
 
-#: standard input:83 input:89
+#: standard input:76 input:89
 msgid "Default gateway:"
 msgstr "Типовий шлюз:"
 
-#: standard input:84
+#: standard input:77
 #, fuzzy
 msgid "Network interfaces"
 msgstr "Веб-інтерфейс"
 
-#: standard input:85
+#: standard input:78
 #, fuzzy
 msgid "Change network interface parameters"
 msgstr "Ви маєте вказати мережевий інтерфейс"
 
-#: standard input:86
+#: standard input:79
 #, fuzzy
 msgid "Network Interface:"
 msgstr "Ім'я мережі"
 
-#: standard input:87
+#: standard input:80
+#, fuzzy
+msgid "Remove interface"
+msgstr "Веб-інтерфейс"
+
+#: standard input:81
+#, fuzzy
+msgid "Interface name:"
+msgstr "Мова інтерфейсу:"
+
+#: standard input:82
+#, fuzzy
+msgid "Add new interface"
+msgstr "Веб-інтерфейс"
+
+#: standard input:83
+#, fuzzy
+msgid "Add interface"
+msgstr "Веб-інтерфейс"
+
+#: standard input:84
 msgid "Configuration:"
 msgstr "Налаштування:"
 
-#: standard input:88
+#: standard input:85
 #, fuzzy
 msgid "IP addresses:"
 msgstr "IP адреса:"
+
+#: standard input:87
+msgid "IP:"
+msgstr ""
 
 #: standard input:90
 msgid "DNS servers:"
@@ -364,93 +349,188 @@ msgstr ""
 msgid "Change firewall rules"
 msgstr "Помилка при завантаженні правил брандмауера"
 
-#: standard input:94 input:101
+#: standard input:94
 #, fuzzy
-msgid "Select IP version:"
-msgstr "Обрати дію:"
+msgid "Enable firewall"
+msgstr "Брандмауер мережі"
 
 #: standard input:95
-msgid "Enable manual mode"
-msgstr ""
-
-#: standard input:96
 #, fuzzy
 msgid "Select table:"
 msgstr "Обрати дію:"
 
+#: standard input:96
+msgid "Save"
+msgstr "Зберегти"
+
+#: standard input:97
+msgid "Clear"
+msgstr ""
+
 #: standard input:98
-msgid "Reset"
-msgstr "Скинути"
+#, fuzzy
+msgid "Import firewall rules"
+msgstr "Помилка при завантаженні правил брандмауера"
 
 #: standard input:99
 #, fuzzy
-msgid "Blacklist"
-msgstr "Повернутися до списку"
+msgid "Export firewall rules"
+msgstr "Помилка при завантаженні правил брандмауера"
 
 #: standard input:100
-msgid "Change blacklist rules"
-msgstr ""
-
-#: standard input:102
-msgid "Enable blacklist filtering"
-msgstr ""
-
-#: standard input:104
-#, fuzzy
-msgid "Add host or network IP-address:"
-msgstr "IP адреса отримувача:"
-
-#: standard input:106
 msgid "Save profile"
 msgstr ""
 
-#: standard input:107
+#: standard input:101
 #, fuzzy
 msgid "Delete profile"
 msgstr "Вилучити групу"
 
-#: backend3/mass-management:194
+#: standard input:106
+#, fuzzy
+msgid "Host mode"
+msgstr "до групи"
+
+#: standard input:107
+#, fuzzy
+msgid "Master"
+msgstr "головний"
+
+#: standard input:108
+msgid "Publish data for hosts in pull mode"
+msgstr ""
+
+#: standard input:109
+msgid "Managed host with direct access"
+msgstr ""
+
+#: standard input:110
+msgid "Managed host with indirect access (pull mode)"
+msgstr ""
+
+#: standard input:111
+#, fuzzy
+msgid "Master server:"
+msgstr "Сервер поштової розсилки"
+
+#: standard input:112
+msgid "(DNS name or IP address available for this host)"
+msgstr ""
+
+#: standard input:113
+#, fuzzy
+msgid "Group name:"
+msgstr "Назва групи:"
+
+#: standard input:114
+msgid "(group on master server)"
+msgstr ""
+
+#: standard input:115
+msgid "Check for changes:"
+msgstr ""
+
+#: standard input:116
+#, fuzzy
+msgid "min"
+msgstr "Домен"
+
+#: standard input:117
+msgid "Apply"
+msgstr "Застосувати"
+
+#: standard input:118
+#, fuzzy
+msgid "Download host public key"
+msgstr "Звантаження зупинено"
+
+#: backend3/mass-management:291 backend3/mass-management:354
+#: backend3/mass-management:370 backend3/mass-management:394
+#: backend3/mass-management:433 backend3/mass-management:454
 #, fuzzy
 msgid "Invalid interface"
 msgstr "Wi-Fi інтерфейси"
 
-#: backend3/mass-management:282
+#: backend3/mass-management:549
 msgid "Couldn't determine task number"
 msgstr ""
 
-#: backend3/mass-management:465
+#: backend3/mass-management:737
 msgid "DONE"
 msgstr ""
 
-#: backend3/mass-management:468
+#: backend3/mass-management:740
 msgid "UNKNOWN"
 msgstr ""
 
-#: backend3/mass-management:471
+#: backend3/mass-management:743
 msgid "NEW"
 msgstr ""
 
-#: backend3/mass-management:474
+#: backend3/mass-management:746
 msgid "FAILED"
 msgstr ""
 
-#: backend3/mass-management:566 backend3/mass-management:597
+#: backend3/mass-management:749
+msgid "AWAITING"
+msgstr ""
+
+#: backend3/mass-management:865 backend3/mass-management:909
 #, fuzzy
 msgid "unknown"
 msgstr "Невідомо"
 
-#: backend3/mass-management:569
+#: backend3/mass-management:868
 msgid "unreachable"
 msgstr ""
 
-#: backend3/mass-management:571 backend3/mass-management:608
+#: backend3/mass-management:870 backend3/mass-management:920
 #, fuzzy
 msgid "failed"
 msgstr "з безпечними параметрами"
 
-#: backend3/mass-management:580 backend3/mass-management:614
+#: backend3/mass-management:892 backend3/mass-management:926
 msgid "skipped"
 msgstr ""
+
+#: backend3/mass-management:1058
+#, fuzzy
+msgid "(indirect access)"
+msgstr "Гостьовий доступ"
+
+#: backend3/mass-management:1100
+msgid ""
+"Bad name of new group. Name must contains latin letters, numbers, symbols _ "
+"and -."
+msgstr ""
+
+#: backend3/mass-management:1106
+#, fuzzy
+msgid "Group %s already exists"
+msgstr "Варіант завантаження з таким іменем вже існує."
+
+#: backend3/mass-management:1482 backend3/mass-management:1494
+msgid "Can't create task in current mode"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Key for managed hosts"
+#~ msgstr "Керовані вузли"
+
+#, fuzzy
+#~ msgid "Select IP version:"
+#~ msgstr "Обрати дію:"
+
+#~ msgid "Reset"
+#~ msgstr "Скинути"
+
+#, fuzzy
+#~ msgid "Blacklist"
+#~ msgstr "Повернутися до списку"
+
+#, fuzzy
+#~ msgid "Add host or network IP-address:"
+#~ msgstr "IP адреса отримувача:"
 
 #~ msgid "Change"
 #~ msgstr "Змінити"
