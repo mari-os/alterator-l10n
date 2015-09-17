@@ -55,6 +55,7 @@ Conflicts: alterator-sslkey               < 0.2.0-alt1
 Conflicts: alterator-snort                < 0.2.0-alt1
 Conflicts: alterator-hotstandby           < 0.3.3-alt1
 Conflicts: alterator-printers	          < 6.0-alt8
+Conflicts: alterator-drweb	          < 0.99.4-alt1
 
 %description
 translations for all alterator modules
