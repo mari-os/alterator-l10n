@@ -112,6 +112,7 @@ make check
 %changelog
 * Mon Jul 13 2015 Andrey Cherepanov <cas@altlinux.org> 2.9.21-alt1
 - Add Russian translation and help for alterator-mass-management
+- More ru_RU help (thanks azol@)
 
 * Fri Mar 13 2015 Andrey Cherepanov <cas@altlinux.org> 2.9.20-alt1
 - Update Russian translation for alterator-auth
