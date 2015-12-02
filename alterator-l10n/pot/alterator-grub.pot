@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2015-12-02 17:56+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,43 +25,66 @@ msgstr ""
 msgid "Grub"
 msgstr ""
 
-#: standard input:1 ui/grub/index.scm:24
+#: standard input:1 ui/grub/index.scm:32
 msgid "Device:"
 msgstr ""
 
-#: standard input:2 ui/grub/index.scm:33
+#: standard input:2 ui/grub/index.scm:62
 msgid "Install"
 msgstr ""
 
-#: standard input:3 ui/grub/index.scm:37
+#: standard input:3 ui/grub/index.scm:66
 msgid "Reset"
 msgstr ""
 
-#: backend3/grub:15
-msgid "Skip bootloader install"
+#: ui/grub/index.scm:37
+msgid "Boot options password"
 msgstr ""
 
-#: backend3/grub:32 backend3/grub:34
+#: ui/grub/index.scm:38
+msgid "Set/reset password"
+msgstr ""
+
+#: ui/grub/index.scm:45
+msgid "(enter passphrase)"
+msgstr ""
+
+#: ui/grub/index.scm:50
+msgid "(repeat passphrase)"
+msgstr ""
+
+#: backend3/grub:31 backend3/grub:33
 msgid "Can't create tempfile "
 msgstr ""
 
-#: backend3/grub:39
+#: backend3/grub:64
+msgid "Internal error"
+msgstr ""
+
+#: backend3/grub:70
+msgid "You should define a password for boot with options"
+msgstr ""
+
+#: backend3/grub:72
+msgid "Passwords mismatch"
+msgstr ""
+
+#: backend3/grub:108
+msgid "EFI"
+msgstr ""
+
+#: backend3/grub:111
+msgid "Skip bootloader install"
+msgstr ""
+
+#: backend3/grub:125
 msgid "No device for install given!"
 msgstr ""
 
-#: backend3/grub:55 backend3/grub:59
+#: backend3/grub:141 backend3/grub:145
 msgid "Can't install grub on "
 msgstr ""
 
-#: backend3/grub:55
+#: backend3/grub:141
 msgid " even using blocklists :"
-msgstr ""
-
-msgid "RAID"
-msgstr ""
-
-msgid "Hard drive"
-msgstr ""
-
-msgid "Linux partition"
 msgstr ""

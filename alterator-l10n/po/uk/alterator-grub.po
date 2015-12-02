@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2015-12-02 17:56+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -26,40 +26,76 @@ msgstr "Налаштування завантажувача"
 msgid "Grub"
 msgstr ""
 
-#: standard input:1 ui/grub/index.scm:24
+#: standard input:1 ui/grub/index.scm:32
 msgid "Device:"
 msgstr "Пристрій:"
 
-#: standard input:2 ui/grub/index.scm:33
+#: standard input:2 ui/grub/index.scm:62
 msgid "Install"
 msgstr "Встановити"
 
-#: standard input:3 ui/grub/index.scm:37
+#: standard input:3 ui/grub/index.scm:66
 msgid "Reset"
 msgstr "Скинути"
 
-#: backend3/grub:15
-msgid "Skip bootloader install"
-msgstr "Оминути встановлення завантажувача"
+#: ui/grub/index.scm:37
+#, fuzzy
+msgid "Boot options password"
+msgstr "Пароля немає"
 
-#: backend3/grub:32 backend3/grub:34
+#: ui/grub/index.scm:38
+#, fuzzy
+msgid "Set/reset password"
+msgstr "Змінити пароль:"
+
+#: ui/grub/index.scm:45
+msgid "(enter passphrase)"
+msgstr "(уведіть пароль)"
+
+#: ui/grub/index.scm:50
+msgid "(repeat passphrase)"
+msgstr "(повторіть пароль)"
+
+#: backend3/grub:31 backend3/grub:33
 msgid "Can't create tempfile "
 msgstr "Неможливо створити шаблон"
 
-#: backend3/grub:39
+#: backend3/grub:64
+#, fuzzy
+msgid "Internal error"
+msgstr "Критична помилка"
+
+#: backend3/grub:70
+#, fuzzy
+msgid "You should define a password for boot with options"
+msgstr "Ви маєте вказати пароль системного адміністратора"
+
+#: backend3/grub:72
+msgid "Passwords mismatch"
+msgstr "Паролі не співпадають"
+
+#: backend3/grub:108
+msgid "EFI"
+msgstr ""
+
+#: backend3/grub:111
+msgid "Skip bootloader install"
+msgstr "Оминути встановлення завантажувача"
+
+#: backend3/grub:125
 msgid "No device for install given!"
 msgstr "Не вказано пристрою для встановлення завантажувача!"
 
-#: backend3/grub:55 backend3/grub:59
+#: backend3/grub:141 backend3/grub:145
 msgid "Can't install grub on "
 msgstr "Неможливо встановити grub на "
 
-#: backend3/grub:55
+#: backend3/grub:141
 msgid " even using blocklists :"
 msgstr " навіть використовуючи чорні списки :"
 
-msgid "Hard drive"
-msgstr "Жорсткий диск"
+#~ msgid "Hard drive"
+#~ msgstr "Жорсткий диск"
 
-msgid "Linux partition"
-msgstr "Розділ Linux"
+#~ msgid "Linux partition"
+#~ msgstr "Розділ Linux"

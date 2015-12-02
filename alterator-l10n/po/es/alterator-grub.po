@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2015-12-02 17:56+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -29,16 +29,16 @@ msgstr "Rodador de Boot"
 msgid "Grub"
 msgstr ""
 
-#: standard input:1 ui/grub/index.scm:24
+#: standard input:1 ui/grub/index.scm:32
 msgid "Device:"
 msgstr "Dispositivo:"
 
-#: standard input:2 ui/grub/index.scm:33
+#: standard input:2 ui/grub/index.scm:62
 #, fuzzy
 msgid "Install"
 msgstr "Instalación completa"
 
-#: standard input:3 ui/grub/index.scm:37
+#: standard input:3 ui/grub/index.scm:66
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -95,31 +95,67 @@ msgstr ""
 "#-#-#-#-#  alterator-xkb.po (Alterator)  #-#-#-#-#\n"
 "Resetar"
 
-#: backend3/grub:15
+#: ui/grub/index.scm:37
 #, fuzzy
-msgid "Skip bootloader install"
-msgstr "Rodador de Boot"
+msgid "Boot options password"
+msgstr "Contraseña"
 
-#: backend3/grub:32 backend3/grub:34
+#: ui/grub/index.scm:38
+#, fuzzy
+msgid "Set/reset password"
+msgstr "Cambiar contraseña:"
+
+#: ui/grub/index.scm:45
+msgid "(enter passphrase)"
+msgstr "(entre com la contraseña)"
+
+#: ui/grub/index.scm:50
+msgid "(repeat passphrase)"
+msgstr "(repetir la contraseña)"
+
+#: backend3/grub:31 backend3/grub:33
 #, fuzzy
 msgid "Can't create tempfile "
 msgstr "No és posible crear rede"
 
-#: backend3/grub:39
+#: backend3/grub:64
+#, fuzzy
+msgid "Internal error"
+msgstr "Otra rede"
+
+#: backend3/grub:70
+#, fuzzy
+msgid "You should define a password for boot with options"
+msgstr "Usted deve definir una contraseña para el administrador del sistema"
+
+#: backend3/grub:72
+msgid "Passwords mismatch"
+msgstr "Contraseña"
+
+#: backend3/grub:108
+msgid "EFI"
+msgstr ""
+
+#: backend3/grub:111
+#, fuzzy
+msgid "Skip bootloader install"
+msgstr "Rodador de Boot"
+
+#: backend3/grub:125
 msgid "No device for install given!"
 msgstr ""
 
-#: backend3/grub:55 backend3/grub:59
+#: backend3/grub:141 backend3/grub:145
 #, fuzzy
 msgid "Can't install grub on "
 msgstr "No instalar gestor de boot"
 
-#: backend3/grub:55
+#: backend3/grub:141
 msgid " even using blocklists :"
 msgstr ""
 
-msgid "Hard drive"
-msgstr "HD"
+#~ msgid "Hard drive"
+#~ msgstr "HD"
 
-msgid "Linux partition"
-msgstr "Partición Linux"
+#~ msgid "Linux partition"
+#~ msgstr "Partición Linux"
