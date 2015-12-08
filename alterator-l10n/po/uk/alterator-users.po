@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:54+0400\n"
+"POT-Creation-Date: 2015-12-08 12:46+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -31,7 +31,7 @@ msgid "Create"
 msgstr "Створити"
 
 #.
-#: standard input:3 ui/users/index.scm:22 ui/users/add/index.scm:68
+#: standard input:3 ui/users/index.scm:22 ui/users/add/index.scm:71
 msgid "Comment:"
 msgstr "Коментар:"
 
@@ -50,31 +50,31 @@ msgid "Member of administrators group"
 msgstr "Член групи адміністраторів"
 
 #.
-#: standard input:7 ui/users/index.scm:38 ui/users/add/index.scm:77
+#: standard input:7 ui/users/index.scm:38 ui/users/add/index.scm:80
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:8 ui/users/index.scm:41 ui/users/add/index.scm:80
+#: standard input:8 ui/users/index.scm:41 ui/users/add/index.scm:83
 msgid "Generate automatically"
 msgstr "Генерувати автоматично"
 
-#: standard input:9 ui/users/index.scm:44 ui/users/add/index.scm:83
+#: standard input:9 ui/users/index.scm:44 ui/users/add/index.scm:86
 msgid "(enter passphrase)"
 msgstr "(уведіть пароль)"
 
-#: standard input:10 ui/users/index.scm:46 ui/users/add/index.scm:85
+#: standard input:10 ui/users/index.scm:46 ui/users/add/index.scm:88
 msgid "(repeat passphrase)"
 msgstr "(повторіть пароль)"
 
-#: standard input:11 ui/users/index.scm:48 ui/users/add/index.scm:87
+#: standard input:11 ui/users/index.scm:48 ui/users/add/index.scm:90
 msgid "Generate"
 msgstr "Генерувати"
 
-#: standard input:12 ui/users/index.scm:57
+#: standard input:12 ui/users/index.scm:58
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:13 ui/users/index.scm:59
+#: standard input:13 ui/users/index.scm:60
 msgid "Delete user"
 msgstr "Вилучити користувача"
 
@@ -82,95 +82,99 @@ msgstr "Вилучити користувача"
 msgid "Do you really want to delete user "
 msgstr "Ви дійсно хочете вилучити користувача "
 
-#: ui/users/add/index.scm:15
+#: ui/users/index.scm:50 ui/users/add/index.scm:92
+msgid "Do not ask at login"
+msgstr ""
+
+#: ui/users/add/index.scm:16
 msgid "You should define a system user"
 msgstr "Ви маєте вказати системного користувача"
 
-#: ui/users/add/index.scm:18
+#: ui/users/add/index.scm:19
 msgid "You should define a password"
 msgstr "Ви маєте вказати пароль"
 
-#: ui/users/add/index.scm:58
+#: ui/users/add/index.scm:61
 msgid "New user account"
 msgstr "Новий обліковий запис користувача"
 
-#: ui/users/add/index.scm:63
+#: ui/users/add/index.scm:66
 msgid "Name:"
 msgstr "Ім'я:"
 
-#: backend3/users:63
+#: backend3/users:64
 msgid "can't update password file"
 msgstr "неможливо оновити файл паролю"
 
 #. '
-#: backend3/users:64 backend3/users:118
+#: backend3/users:65 backend3/users:119
 msgid "invalid command syntax"
 msgstr "невірний синтаксис команди"
 
-#: backend3/users:65
+#: backend3/users:66
 msgid "invalid argument to option"
 msgstr "невірний параметр до аргументу"
 
-#: backend3/users:66
+#: backend3/users:67
 msgid "uid already in use"
 msgstr "uid вже існує"
 
-#: backend3/users:67
+#: backend3/users:68
 msgid "specified user doesn't exist"
 msgstr "вказаного користувача не існує"
 
 #. '
-#: backend3/users:68
+#: backend3/users:69
 msgid "user currently logged in"
 msgstr "користувач на разі в системі"
 
-#: backend3/users:69
+#: backend3/users:70
 msgid "username already in use"
 msgstr "ім'я користувача вже використано"
 
-#: backend3/users:70 backend3/users:124
+#: backend3/users:71 backend3/users:125
 msgid "can't update group file"
 msgstr "неможливо оновити файл групи"
 
 #. '
-#: backend3/users:71
+#: backend3/users:72
 msgid "can't create or remove home directory"
 msgstr "неможливо створити або вилучити домашню теку"
 
 #. '
-#: backend3/users:72
+#: backend3/users:73
 msgid "can't create mail spool"
 msgstr "неможливо створити поштову чергу"
 
-#: backend3/users:81
+#: backend3/users:82
 msgid "cannot change password"
 msgstr "неможливо змінити пароль"
 
-#: backend3/users:103
+#: backend3/users:104
 msgid "Passwords mismatch"
 msgstr "Паролі не співпадають"
 
-#: backend3/users:119
+#: backend3/users:120
 msgid "invalid group name"
 msgstr "невірне ім'я групи"
 
-#: backend3/users:120
+#: backend3/users:121
 msgid "gid not unique"
 msgstr "gid не унікальний"
 
-#: backend3/users:121
+#: backend3/users:122
 msgid "specified group doesn't exist"
 msgstr "вказаної групи не існує"
 
-#: backend3/users:122
+#: backend3/users:123
 msgid "can't remove user's primary group"
 msgstr "неможливо вилучити головну групу користувача"
 
 #. '
-#: backend3/users:123
+#: backend3/users:124
 msgid "group name not unique"
 msgstr "ім'я групи не унікальне"
 
-#: backend3/users:141
+#: backend3/users:142
 msgid "unable to add user %s to group %s"
 msgstr "неможливо додати користувача %s до групи %s"
