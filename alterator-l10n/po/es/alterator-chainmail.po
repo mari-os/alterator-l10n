@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-21 11:57+0300\n"
+"POT-Creation-Date: 2015-12-17 16:59+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -22,10 +22,15 @@ msgstr ""
 
 #: standard input:1
 #, fuzzy
+msgid "Install mode"
+msgstr "Instalación de paquetes..."
+
+#: standard input:2
+#, fuzzy
 msgid "Domain"
 msgstr "Procurar Dominios:"
 
-#: standard input:1 input:6
+#: standard input:1 input:7
 msgid ""
 "This page uses Javascript. Your browser either doesn't support Javascript or "
 "you have it turned off. To see this page as it is meant to appear please use "
@@ -37,29 +42,52 @@ msgid "Please login"
 msgstr "Por Favor Inicie la sesión"
 
 #: standard input:3
-#, fuzzy
-msgid "Administrator's password:"
-msgstr "Administrador del Sistema"
+msgid "Account name:"
+msgstr "Nombre de la Cuenta:"
 
 #: standard input:4
+#, fuzzy
+msgid "Password:"
+msgstr ""
+"#-#-#-#-#  alterator-ahttpd.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#\n"
+"Contraseña\n"
+"#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-sysconfig.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:"
+
+#: standard input:5
 msgid "Interface language:"
 msgstr "Seleccione sua Lenguage"
 
-#: standard input:5
+#: standard input:6
 msgid "Login"
 msgstr "Sesión"
 
 #: standard input:8
+#, fuzzy
+msgid "Configuration profile:"
+msgstr "Información"
+
+#: standard input:10
 msgid "Help"
 msgstr "Ayuda"
 
-#: standard input:9
+#: standard input:11
 msgid "Logout"
 msgstr ""
 
-#: standard input:10
+#: standard input:12
 msgid "System management center"
 msgstr "Centro de gestión del Sistema"
+
+#: standard input:13
+msgid "Module access settings..."
+msgstr "Módulo de acceso a las configuraciones"
 
 #: ui/chainmail/domain/index.scm:9
 #, fuzzy
@@ -98,6 +126,20 @@ msgstr ""
 #: ui/chainmail/domain/index.scm:27
 msgid "Select external interfaces:"
 msgstr "Seleccionar interfazes externas:"
+
+#: ui/chainmail/expert-mode/index.scm:10
+#, fuzzy
+msgid "Extended Network Firewall"
+msgstr "Configuraciones de Firewall"
+
+#: ui/chainmail/expert-mode/index.scm:12
+#, fuzzy
+msgid "Network Firewall"
+msgstr "Configuraciones de Firewall"
+
+#, fuzzy
+#~ msgid "Administrator's password:"
+#~ msgstr "Administrador del Sistema"
 
 #~ msgid "(enter passphrase)"
 #~ msgstr "(entre com la contraseña)"
