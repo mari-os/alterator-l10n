@@ -1,0 +1,105 @@
+# German translation
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Armin Schäfer <arminnessie@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-01 15:00+0400\n"
+"PO-Revision-Date: 2015-12-01 15:10+0400\n"
+"Last-Translator: Armin Schäfer <arminnessie@gmail.com>\n"
+"Language-Team: German Translation Team <german-translation-team@googlegroups.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Date/Time"
+msgstr "Datum/Zeit"
+
+#.
+#: standard input:1 ui/datetime/system/timezone/index.scm:49
+#: ui/datetime/installer/index.scm:58
+msgid "Please, select country:"
+msgstr "Bitte Land auswählen:"
+
+#.
+#: standard input:2 ui/datetime/system/timezone/index.scm:54
+#: ui/datetime/installer/index.scm:62
+msgid "Please, select time zone:"
+msgstr "Bitte Zeitzone auswählen:"
+
+#: standard input:3 input:12 ui/datetime/system/index.scm:54
+msgid "Apply"
+msgstr "Bestätigen"
+
+#: standard input:4 ui/datetime/system/index.scm:23
+#: ui/datetime/installer/edit/index.scm:23
+msgid "Get time from NTP server:"
+msgstr "Zeit vom NTP-Server nehmen:"
+
+#: standard input:5 ui/datetime/system/index.scm:24
+#: ui/datetime/installer/edit/index.scm:24
+msgid "NTP server:"
+msgstr "NTP-Server:"
+
+#: standard input:6 ui/datetime/system/index.scm:27
+#: ui/datetime/installer/edit/index.scm:27
+msgid "Work as NTP server"
+msgstr "Arbeite als NTP-Server"
+
+#: standard input:7 ui/datetime/system/index.scm:32
+#: ui/datetime/installer/edit/index.scm:32
+msgid "Current date:"
+msgstr "Aktuelles Datum:"
+
+#: standard input:8 ui/datetime/system/index.scm:33
+#: ui/datetime/installer/edit/index.scm:33 ui/datetime/installer/index.scm:69
+msgid "Current time:"
+msgstr "Aktuelle Zeit:"
+
+#: standard input:9 ui/datetime/system/index.scm:40
+#: ui/datetime/installer/index.scm:64
+msgid "Hardware time set to GMT"
+msgstr "Hardware Zeit zu GTM setzen"
+
+#: standard input:10 ui/datetime/system/index.scm:45
+msgid "Time zone:"
+msgstr "Zeitzone:"
+
+#: standard input:11 ui/datetime/system/index.scm:49
+#: ui/datetime/installer/index.scm:71
+msgid "Change..."
+msgstr "Ändern..."
+
+#: standard input:13
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: ui/datetime/system/timezone/index.scm:62
+#: ui/datetime/installer/edit/index.scm:42
+msgid "OK"
+msgstr "OK"
+
+#: ui/datetime/system/timezone/index.scm:63
+#: ui/datetime/installer/edit/index.scm:43
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: backend3/datetime-installer:18
+msgid "set automatically"
+msgstr "automatisch setzen"
+
+#: backend3/datetime-installer:102 backend3/datetime-system:111
+msgid "Unable to setup time zone"
+msgstr "Nicht in der Lage Zeitzone zu konfigurieren"
+
+#: backend3/datetime-installer:118 backend3/datetime-system:93
+msgid "unable to setup time"
+msgstr "Nicht in der Lage die Zeit zu konfigurieren"

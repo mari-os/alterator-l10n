@@ -1,0 +1,587 @@
+# German translation
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Armin Schäfer <arminnessie@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-01 15:00+0400\n"
+"PO-Revision-Date: 2015-12-01 15:10+0400\n"
+"Last-Translator: Armin Schäfer <arminnessie@gmail.com>\n"
+"Language-Team: German Translation Team <german-translation-team@googlegroups.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Volume management"
+msgstr "Volume Regelung"
+
+#: standard input:2
+msgid "Harddisks"
+msgstr "Festplatte"
+
+#: ui/vm/lucky.scm:60
+msgid "Unable to partition, not enough disk space"
+msgstr "Unfähig zu partitionieren, nicht genug Speicherplatz"
+
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+msgid "All data from all your disks will be lost!"
+msgstr "Alle Daten von deiner Festplatte werden verloren sein!"
+
+#: ui/vm/lucky.scm:68
+msgid "Yes, i'm warned"
+msgstr "Ja, ich bin gewarnt"
+
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Auswählen"
+
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
+msgid "OK"
+msgstr "OK"
+
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ui/vm/blonde.scm:45
+msgid "Name"
+msgstr "Name"
+
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
+msgid "Filesystem"
+msgstr "Dateisystem"
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
+msgstr "Größe [frei]"
+
+#: ui/vm/blonde.scm:83
+msgid "Use unpartitioned disk space"
+msgstr "Benutze unpartitionierten Speicherplatz"
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr "Zerstöre alle Partitionen, dann automatisch partitionieren"
+
+# Настройка вручную
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr "Benutzerdefinierte Installation"
+
+#: ui/vm/blonde.scm:91
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr ""
+"Alle (entfernbaren) Daten deiner Festplatte werden verloren gehen! "
+"Fortfahren?"
+
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr "Lautstärke"
+
+#: ui/vm/blonde.scm:101
+msgid "Select installation method"
+msgstr "Installationsmethode auswählen"
+
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
+msgstr ""
+"Automatische Partitionierung funktioniert nicht, nicht genug Platz auf der "
+"Festplatte"
+
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+#: ui/vm/ortodox.scm:40
+msgid " of "
+msgstr " von "
+
+#: ui/vm/ortodox.scm:40
+msgid " free"
+msgstr " frei"
+
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
+msgstr "freier, benötigter Platz:"
+
+#: ui/vm/ortodox.scm:70
+msgid "All data from all your disks will be lost! Continue?"
+msgstr "Alle Daten von all deinen Festplatten werden verloren gehen! Weiter?"
+
+#: ui/vm/ortodox.scm:78
+msgid "Select disks for use"
+msgstr "Zu benutzende Festplatte auswählen"
+
+#: ui/vm/ortodox.scm:83
+msgid "Select profile"
+msgstr "Profil auswählen"
+
+#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
+msgid "Options"
+msgstr "Optionen"
+
+#: ui/vm/ortodox.scm:92
+msgid "Clear all before applying profile"
+msgstr "Leere alles vor der Bestätigung des Profils"
+
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
+msgstr "Mass mich meine Änderungen nach der Bestätigung des Profils machen"
+
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
+msgstr ""
+"Nicht in der Lage ausgewähltes Profil anzunehmen, nicht genug "
+"Festplattenspeicher"
+
+#.
+#: ui/vm/dummystr.scm:2
+msgid "Size"
+msgstr "Größe"
+
+#: ui/vm/dummystr.scm:3
+msgid "Offset"
+msgstr "Versatz"
+
+#: ui/vm/dummystr.scm:4
+msgid "Primary Partition"
+msgstr "Hauptpartition"
+
+#: ui/vm/dummystr.scm:5
+msgid "Partition Type"
+msgstr "Partitionstyp"
+
+#. fsims
+#: ui/vm/dummystr.scm:7
+msgid "Ext2/3/4 File System Interface Module"
+msgstr "Ext2/3/4 Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:8
+msgid "XFS File System Interface Module"
+msgstr "XFS Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:9
+msgid "JFS File System Interface Module"
+msgstr "JFS Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:10
+msgid "ReiserFS File System Interface Module"
+msgstr "ReiserFS Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:11
+msgid "Swap File System Interface Module"
+msgstr "Swap Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:12
+msgid "FAT32 File System Interface Module"
+msgstr "FAT32 Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:13
+msgid "FAT16 File System Interface Module"
+msgstr "FAT16 Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:14
+msgid "NTFS File System Interface Module"
+msgstr "NTFS Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:15
+msgid "OpenGFS File System Interface Module"
+msgstr "OpenGFS Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:16
+msgid "OCFS2 File System Interface Module"
+msgstr "OCFS2 Dateisystem Schnittstellenmodul"
+
+#: ui/vm/dummystr.scm:17
+msgid "BtrFS File System Interface Module"
+msgstr "BtrFS Dateisystem Schnittstellenmodul"
+
+#. ext2/3
+#: ui/vm/dummystr.scm:20
+msgid "Check For Bad Blocks"
+msgstr "Überprüfe nach schlechten Blöcken"
+
+#: ui/vm/dummystr.scm:21
+msgid "Read/Write Check For Bad Blocks"
+msgstr "Schreiben/Lese-Überprüfung für schlechte Blöcke"
+
+#: ui/vm/dummystr.scm:22
+msgid "Volume Label"
+msgstr "Volume Beschriftung"
+
+#: ui/vm/dummystr.scm:23
+msgid "Use Ext4 extents"
+msgstr "Benutze Ext4-Erweiterungen"
+
+#: ui/vm/dummystr.scm:24
+msgid "Create Ext3 Journal"
+msgstr "Erstelle Ext3 Journal"
+
+#. xfs
+#: ui/vm/dummystr.scm:26
+msgid "External Journal Volume"
+msgstr "Externes Journal Volume"
+
+#: ui/vm/dummystr.scm:27
+msgid "Log Size"
+msgstr "Log Größe"
+
+#: ui/vm/dummystr.scm:28
+msgid "Force"
+msgstr "Kraft"
+
+#. jfs
+#: ui/vm/dummystr.scm:30
+msgid "Case Insensitive"
+msgstr "Groß- und Kleinschreibung"
+
+#: ui/vm/dummystr.scm:31
+msgid "Inline Log Size"
+msgstr "Log-Reihen Göße"
+
+#. reiserfs FIXME
+#: ui/vm/dummystr.scm:33
+msgid "Version of mkreiserfs"
+msgstr "Version von mkreiserfs"
+
+#. swap
+#: ui/vm/dummystr.scm:35
+msgid "Check for bad blocks"
+msgstr "Überprüfe nach schlechten Blöcken"
+
+#. fat16/32
+#: ui/vm/dummystr.scm:37
+msgid "Volume label"
+msgstr "Volume Beschriftung"
+
+#. ntfs
+#: ui/vm/dummystr.scm:39
+msgid "Cluster size"
+msgstr "Rechnerverbund Größe"
+
+#: ui/vm/dummystr.scm:40
+msgid "MFT zone multiplier"
+msgstr "MFT-Zone Multiplikator"
+
+#: ui/vm/dummystr.scm:41
+msgid "Compression"
+msgstr "Kompression"
+
+#: ui/vm/dummystr.scm:42
+msgid "Quick mkfs"
+msgstr "Schnelles mkfs"
+
+#. lvm2 vg
+#: ui/vm/dummystr.scm:44
+msgid "Name for the new LVM2 container."
+msgstr "Namen für den neuen LVM2 Behälter."
+
+#: ui/vm/dummystr.scm:45
+msgid "Extent-size for the new LVM2 container."
+msgstr "Erweiterungsgröße für den neuen LVM2 Behälter."
+
+#. lvm2 lv
+#: ui/vm/dummystr.scm:47
+msgid "Name for the new LVM2 region."
+msgstr "Name für die neue LVM2 Region"
+
+#: ui/vm/dummystr.scm:48
+msgid "Size for the new LVM2 region."
+msgstr "Größe für die neue LVM2 Region"
+
+#: ui/vm/dummystr.scm:49
+msgid "Number of stripes for the new LVM2 region."
+msgstr "Anzahl der Streifen für die neue LVM2 Region."
+
+#: ui/vm/dummystr.scm:50
+msgid "Objects (PVs) to place the new LVM2 region on."
+msgstr "Objekte (PVs) für die neue LVM2 Region-Platzierung"
+
+#. raidx
+#: ui/vm/dummystr.scm:52
+msgid "MD RAID0 Region Manager"
+msgstr "MD RAID0 Region Manager"
+
+#: ui/vm/dummystr.scm:53
+msgid "MD Raid 1 Region Manager"
+msgstr "MD Raid 1 Region Manager"
+
+#: ui/vm/dummystr.scm:54
+msgid "MD RAID 4/5 Region Manager"
+msgstr "MD RAID 4/5 Region Manager"
+
+#. raid0
+#: ui/vm/dummystr.scm:56
+msgid "Chunk Size:"
+msgstr "Chunk Größe:"
+
+#: ui/vm/dummystr.scm:57
+msgid "Version 1 Super Block"
+msgstr "Version 1 Super Block"
+
+#. raid1
+#: ui/vm/dummystr.scm:59
+msgid "Degraded array"
+msgstr "Abgebauter Array"
+
+#: ui/vm/dummystr.scm:60
+msgid "Spare Disk"
+msgstr "Datenträger schonen"
+
+#. raid5
+#: ui/vm/dummystr.scm:62
+msgid "RAID5 Algorithm"
+msgstr "RAID5 Algorithmus"
+
+#: ui/vm/dummystr.scm:63
+msgid "RAID level"
+msgstr "RAID-Level"
+
+#: ui/vm/dummystr.scm:64
+msgid "Chunk size"
+msgstr "Chunk Größe"
+
+#. expand seg
+#: ui/vm/dummystr.scm:66
+msgid "Additional Size"
+msgstr "Zusätzliche Größe"
+
+#. shrink seg
+#: ui/vm/dummystr.scm:68
+msgid "Shrink by Size"
+msgstr "Um Größe schrumpfen"
+
+#. expand lv
+#: ui/vm/dummystr.scm:70
+msgid "Extra size for the LVM2 region."
+msgstr "Extra Größe für die LVM2 Region"
+
+#: ui/vm/dummystr.scm:71
+msgid "Number of stripes for the new portion of the region."
+msgstr "Anzahl der Bänder für die neue Portion der Region"
+
+#: ui/vm/dummystr.scm:72
+msgid "Objects (PVs) to use for the new portion of the region."
+msgstr "Zu nutzende Objekte (PVs) für die neue Portion der Region"
+
+#. shrink lv
+#: ui/vm/dummystr.scm:74
+msgid "Size to remove from the LVM2 region."
+msgstr "Zu entfernende Größe auf der LVM2-Region"
+
+#. assign
+#: ui/vm/dummystr.scm:76
+msgid "Mount Options"
+msgstr "Einhängepunkt Optionen"
+
+#: ui/vm/dummystr.scm:77
+msgid "Format before using"
+msgstr "Formatiere vor Nutzung"
+
+#. profiles
+#: ui/vm/dummystr.scm:79
+msgid "Setup for server"
+msgstr "Konfiguration für Server"
+
+#: ui/vm/dummystr.scm:80
+msgid "Setup for workstation"
+msgstr "Konfiguration für Arbeitsplatz"
+
+# Настройка вручную
+#: ui/vm/dummystr.scm:81
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#. misc
+#: ui/vm/dummystr.scm:83
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+msgstr ""
+"Beachte, dass das erneute Festlegen der Größe der Vista Partition zu Vista "
+"boot-Problemen führen kann. Fortfahren?"
+
+#. guile-evms
+#: ui/vm/dummystr.scm:85
+msgid "Invalid mountpoint"
+msgstr "Ungültiger Einhängepunkt"
+
+#: ui/vm/dummystr.scm:86
+msgid "Invalid mountpoint for SWAPFS"
+msgstr "Ungültiger Einhängepunkt für SWAPFS"
+
+#: ui/vm/dummystr.scm:87
+msgid "Invalid mountpoint: not a SWAPFS"
+msgstr "Ungültiger Einhängepunkt: Kein SWAPFS"
+
+#: ui/vm/dummystr.scm:88
+msgid "Invalid mountpoint: should start with /mnt"
+msgstr "Ungültiger Einhängepunkt: Sollte mit /mnt starten"
+
+#: ui/vm/dummystr.scm:89
+msgid " reboot, then continue installation."
+msgstr " Neu booten, dann mit Installation fortfahren."
+
+#: ui/vm/dummystr.scm:90 ui/vm/table.scm:197
+msgid "Mountpoint"
+msgstr "Einhängepunkt"
+
+#: ui/vm/dummystr.scm:91
+msgid "Dump Frequency"
+msgstr "Frequenz verwerfen"
+
+#: ui/vm/dummystr.scm:92
+msgid "Check order"
+msgstr "Überprüfe Ordner"
+
+#: ui/vm/dummystr.scm:93
+msgid "inaccesible or not a directory"
+msgstr "Unzugänglich oder kein Ordner"
+
+#: ui/vm/dummystr.scm:94
+msgid "Operation not permitted"
+msgstr "Operation nicht erlaubt"
+
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr "Objekte"
+
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr "Nächste Operation"
+
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
+msgstr "Zeige Extra-Optionen"
+
+#: ui/vm/table.scm:86
+msgid "Congrats! You've found a secret level!"
+msgstr "Gratulation! Geheimes Level wurde gefunden!"
+
+#: ui/vm/table.scm:123
+msgid "Please assign \"/\" mount point"
+msgstr "Bitte \"/\" Eingehängepunkt zuordnen"
+
+#: ui/vm/table.scm:127
+msgid ""
+"To install GRUB on disk with GPT, need create 1MiB (minimum size) 'bios "
+"boot' partition. Continue?"
+msgstr ""
+"Um GRUB auf dem Datenträger mit GPT zu installieren, wird die Erstellung "
+"einer 1MiB (Mindestgröße) 'bios' boot-Partition benötigt. Fortfahren?"
+
+#: ui/vm/table.scm:136
+msgid "Apply requested changes?"
+msgstr "Änderungen übernehmen?"
+
+#: ui/vm/table.scm:141
+msgid "All data on following partitions will be lost:"
+msgstr "Alle Daten auf den folgenden Partitionen werden verloren gehen:"
+
+#: ui/vm/table.scm:144
+msgid "Continue?"
+msgstr "Fortfahren?"
+
+#: ui/vm/table.scm:193
+msgid "   Name   "
+msgstr "   Name   "
+
+#: ui/vm/table.scm:194
+msgid "Size [ free ]"
+msgstr "Größe [frei]"
+
+#: ui/vm/table.scm:198
+msgid "Mounted on"
+msgstr "Eingehängt auf"
+
+#: ui/vm/table.scm:199
+msgid "Mount options"
+msgstr "Einhänge-Optionen"
+
+#: ui/vm/table.scm:202
+msgid "Create RAID"
+msgstr "Erstelle RAID"
+
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:214
+#: ui/vm/table.scm:222 ui/vm/table.scm:227 ui/vm/table.scm:230
+msgid "Destroy"
+msgstr "Zerstöre"
+
+#: ui/vm/table.scm:205
+msgid "Create Volume Group"
+msgstr "Erstelle Gerätegruppe"
+
+#: ui/vm/table.scm:206 ui/vm/table.scm:212 ui/vm/table.scm:220
+#: ui/vm/table.scm:225
+msgid "Expand"
+msgstr "Erweitern"
+
+#: ui/vm/table.scm:207 ui/vm/table.scm:213 ui/vm/table.scm:221
+#: ui/vm/table.scm:226
+msgid "Shrink"
+msgstr "Schrumpen"
+
+#: ui/vm/table.scm:210 ui/vm/table.scm:224
+msgid "Create Volume"
+msgstr "Erstelle Volume"
+
+#: ui/vm/table.scm:211 ui/vm/table.scm:229
+msgid "Create Encrypted Volume"
+msgstr "Erstelle verschlüsseltes Volume"
+
+#: ui/vm/table.scm:216 ui/vm/table.scm:218
+msgid "Create Partition"
+msgstr "Erstelle Partition"
+
+#: ui/vm/table.scm:217
+msgid "Destroy Partition Table"
+msgstr "Zerstöre Partitionstabelle"
+
+#: ui/vm/table.scm:219
+msgid "Create Encrypted Partition"
+msgstr "Erstelle verschlüsselte Partition"
+
+#: ui/vm/table.scm:233 ui/vm/table.scm:236
+msgid "Make Filesystem"
+msgstr "Erstelle Dateisystem"
+
+#: ui/vm/table.scm:234 ui/vm/table.scm:240
+msgid "Remove Filesystem"
+msgstr "Entferne Dateisystem"
+
+#: ui/vm/table.scm:235
+msgid "Edit Mountpoint"
+msgstr "Editiere Einhängepunkt"
+
+#: ui/vm/table.scm:237
+msgid "Check Filesystem"
+msgstr "Überprüfe Dateisystem"
+
+#: ui/vm/table.scm:238
+msgid "Mount Filesystem"
+msgstr "Dateisystem einhängen"
+
+#: ui/vm/table.scm:239
+msgid "Umount Filesystem"
+msgstr "Dateisystem aushängen"
+
+#: ui/vm/table.scm:264
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: ui/vm/table.scm:269
+msgid "Apply"
+msgstr "Annehmen"
+
+#~ msgid "Ext2/3 File System Interface Module"
+#~ msgstr "Ext2/3 Dateisystem Schnittstellenmodul"

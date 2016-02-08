@@ -1,0 +1,452 @@
+# German translation
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Armin Schäfer <arminnessie@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-01 15:00+0400\n"
+"PO-Revision-Date: 2015-12-01 15:10+0400\n"
+"Last-Translator: Armin Schäfer <arminnessie@gmail.com>\n"
+"Language-Team: German Translation Team <german-translation-team@googlegroups.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Packages"
+msgstr "Pakete"
+
+#: ui/packages/view-profile.scm:102
+msgid "Profiles"
+msgstr "Profile"
+
+#: ui/packages/update.scm:6 ui/packages/update.scm:51
+msgid "Updating Indices..."
+msgstr "Aktualisiere Verzeichnisse..."
+
+#: ui/packages/update.scm:18 ui/packages/install.scm:31
+msgid "Preparing..."
+msgstr "Vorbereiten..."
+
+#: ui/packages/update.scm:22
+msgid "Updating..."
+msgstr "Aktualisiere..."
+
+#: ui/packages/error.scm:6 ui/packages/error.scm:8
+msgid "Error during package installation"
+msgstr "Fehler während der Paketinstallation"
+
+#: ui/packages/error.scm:17
+msgid "Unable to get"
+msgstr "Holen nicht möglich"
+
+#: ui/packages/error.scm:19
+msgid "Unable to locate"
+msgstr "Lokalisierung nicht möglich"
+
+#: ui/packages/error.scm:21
+msgid "Unable to download"
+msgstr "Runterladen nicht möglich"
+
+#: ui/packages/error.scm:23
+msgid "Unable to install"
+msgstr "Installation nicht möglich"
+
+#: ui/packages/error.scm:25
+msgid "Internal error"
+msgstr "Interner Fehler"
+
+#: ui/packages/error.scm:29
+msgid "Close"
+msgstr "Schließen"
+
+#: ui/packages/index.scm:17
+msgid "Packages Installation"
+msgstr "Pakete-Installation"
+
+#: ui/packages/index.scm:26
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+#: ui/packages/index.scm:112
+msgid "View:"
+msgstr "Sicht:"
+
+#: ui/packages/index.scm:137
+msgid "Keywords:"
+msgstr "Schlüsselwörter:"
+
+#: ui/packages/index.scm:233
+msgid "Show package description"
+msgstr "Zeige Paket-Beschreibung"
+
+#: ui/packages/index.scm:263
+msgid "Be freed on disk"
+msgstr "Auf der Festplatte freigegeben werden"
+
+#: ui/packages/index.scm:264 ui/packages/index.scm:320
+msgid "Be used on disk"
+msgstr "Auf der Festplatte verwendet werden"
+
+#: ui/packages/index.scm:281
+msgid "Show statistics"
+msgstr "Zeige Statistiken"
+
+#: ui/packages/index.scm:292
+msgid "Available"
+msgstr "Verfügbar"
+
+#: ui/packages/index.scm:296
+msgid "Installed"
+msgstr "Installiert"
+
+#: ui/packages/index.scm:300
+msgid "install"
+msgstr "installieren"
+
+#: ui/packages/index.scm:304
+msgid "upgrade"
+msgstr "aktualisieren"
+
+#: ui/packages/index.scm:308
+msgid "keep"
+msgstr "behalten"
+
+#: ui/packages/index.scm:312
+msgid "remove"
+msgstr "entfernen"
+
+#: ui/packages/index.scm:316
+msgid "Need to get"
+msgstr "Beschaffung erforderlich"
+
+#: ui/packages/index.scm:366
+msgid "Update"
+msgstr "Update"
+
+#: ui/packages/index.scm:371
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: ui/packages/index.scm:377
+msgid "Undo"
+msgstr "Rückgängig"
+
+#: ui/packages/index.scm:383
+msgid "Redo"
+msgstr "Wiederherstellen"
+
+#: ui/packages/index.scm:389
+msgid "Apply"
+msgstr "Bestätigen"
+
+#: ui/packages/install.scm:19 ui/packages/install.scm:125
+msgid "Applying changes..."
+msgstr "Änderungen bestätigen..."
+
+#: ui/packages/install.scm:37
+msgid "Install"
+msgstr "Installieren"
+
+#: ui/packages/install.scm:37
+msgid "Download"
+msgstr "Download"
+
+#: ui/packages/install.scm:87
+msgid "Please insert CDROM, labeled as "
+msgstr "Bitte CD einspielen, bezeichnet als "
+
+#: ui/packages/view-search.scm:61
+msgid "Search"
+msgstr "Suchen"
+
+#: ui/packages/view-groups.scm:57
+msgid "Groups"
+msgstr "Gruppen"
+
+#: ui/packages/view-pending.scm:11
+msgid "Be Kept"
+msgstr "Beibehalten"
+
+#: ui/packages/view-pending.scm:12
+msgid "Be Installed"
+msgstr "Installieren"
+
+#: ui/packages/view-pending.scm:13
+msgid "Be Removed"
+msgstr "Löschen"
+
+#: ui/packages/view-pending.scm:14
+msgid "Be Upgraded"
+msgstr "Aktualisieren"
+
+#: ui/packages/view-pending.scm:15
+msgid "Important"
+msgstr "Wichtig"
+
+#: ui/packages/view-pending.scm:92
+msgid "Pending"
+msgstr "In der Warteschleife"
+
+#~ msgid "<New entry>"
+#~ msgstr "<neuer Eintrag>"
+
+#~ msgid "<not signed>"
+#~ msgstr "<nicht signiert>"
+
+#  GROUPS
+#~ msgid "Accessibility"
+#~ msgstr "Zugänglichkeit"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Adventure"
+#~ msgstr "Erlebnis"
+
+#~ msgid "Antivirus"
+#~ msgstr "Antivirus"
+
+#~ msgid "Arcade"
+#~ msgstr "Arkade"
+
+#~ msgid "Archiving"
+#~ msgstr "Archivierung"
+
+#~ msgid "Astronomy"
+#~ msgstr "Astronomie"
+
+#~ msgid "Backup"
+#~ msgstr "Sicherung"
+
+#~ msgid "Base"
+#~ msgstr "Basis"
+
+#~ msgid "Biology"
+#~ msgstr "Biologie"
+
+#~ msgid "Boards"
+#~ msgstr "Bretter"
+
+#~ msgid "Books"
+#~ msgstr "Bücher"
+
+#~ msgid "Boot and Init"
+#~ msgstr "Boot und Initialisierung"
+
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Cards"
+#~ msgstr "Karten"
+
+#~ msgid "Cd burning"
+#~ msgstr "CD brennen"
+
+#~ msgid "Chemistry"
+#~ msgstr "Chemie"
+
+#~ msgid "Communications"
+#~ msgstr "Kommunikationen"
+
+#~ msgid "Compression"
+#~ msgstr "Kompression"
+
+#~ msgid "Computer books"
+#~ msgstr "Computer Bücher"
+
+#~ msgid "Computer science"
+#~ msgstr "Computerwissenschaft"
+
+#~ msgid "Configuration"
+#~ msgstr "Konfiguration"
+
+#~ msgid "Console"
+#~ msgstr "Konsole"
+
+#~ msgid "Contains"
+#~ msgstr "Beinhaltet"
+
+#~ msgid "Databases"
+#~ msgstr "Datenbasis"
+
+#~ msgid "Debuggers"
+#~ msgstr "Debugger"
+
+#~ msgid "Development"
+#~ msgstr "Entwicklung"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentation"
+
+#~ msgid "Editors"
+#~ msgstr "Bearbeiter"
+
+#~ msgid "Education"
+#~ msgstr "Bildung"
+
+#~ msgid "Educational"
+#~ msgstr "Lehrreich"
+
+#~ msgid "Emulators"
+#~ msgstr "Emulatoren"
+
+#~ msgid "File tools"
+#~ msgstr "Datei-Werkzeuge"
+
+#~ msgid "File transfer"
+#~ msgstr "Dateiübertragung"
+
+#~ msgid "Fonts"
+#~ msgstr "Schriftarten"
+
+#~ msgid "Functional"
+#~ msgstr "Funktionell"
+
+#~ msgid "GNOME and GTK+"
+#~ msgstr "GNOME und GTK+"
+
+#~ msgid "Games"
+#~ msgstr "Spiele"
+
+#~ msgid "Geosciences"
+#~ msgstr "Geowissenschaften"
+
+#~ msgid "Graphical desktop"
+#~ msgstr "Grafischer Desktop"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafiken"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgid "Identify"
+#~ msgstr "Identität"
+
+#~ msgid "Internationalization"
+#~ msgstr "Internationalisierung"
+
+#~ msgid "KDE and QT"
+#~ msgstr "KDE und QT"
+
+#~ msgid "Kernel"
+#~ msgstr "Kernel"
+
+#~ msgid "Kernel and hardware"
+#~ msgstr "Kernel und Hardware"
+
+#~ msgid "Libraries"
+#~ msgstr "Bibliotheken"
+
+#~ msgid "Literature"
+#~ msgstr "Literatur"
+
+#~ msgid "Mathematics"
+#~ msgstr "Mathematik"
+
+#~ msgid "Medicine"
+#~ msgstr "Medizin"
+
+#~ msgid "Monitoring"
+#~ msgstr "Überwachung"
+
+#~ msgid "Mountpoint:"
+#~ msgstr "Einhängepunkt:"
+
+#~ msgid "Networking"
+#~ msgstr "Networking"
+
+#~ msgid "Office"
+#~ msgstr "Büro"
+
+#~ msgid "Other"
+#~ msgstr "Anderes"
+
+#~ msgid "Packages Sources"
+#~ msgstr "Paketquellen"
+
+#~ msgid "Physics"
+#~ msgstr "Physik"
+
+#~ msgid "Printing"
+#~ msgstr "Drucken"
+
+#~ msgid "Properties"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Publishing"
+#~ msgstr "Herausgabe"
+
+#~ msgid "Puzzles"
+#~ msgstr "Puzzles"
+
+#~ msgid "Ready"
+#~ msgstr "Bereit"
+
+#~ msgid "Remote access"
+#~ msgstr "Remotezugriff"
+
+#~ msgid "Replace"
+#~ msgstr "Ersetzen"
+
+#~ msgid "Sciences"
+#~ msgstr "Wissenschaften"
+
+#~ msgid "Security"
+#~ msgstr "Sicherheit"
+
+#~ msgid "Servers"
+#~ msgstr "Server"
+
+#~ msgid "Shells"
+#~ msgstr "Kommandozeilen Shells"
+
+#~ msgid "Signed by"
+#~ msgstr "Unterzeichnet von"
+
+#~ msgid "Sound"
+#~ msgstr "Sound"
+
+#~ msgid "Sports"
+#~ msgstr "Sportart"
+
+#~ msgid "Strategy"
+#~ msgstr "Strategie"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Terminals"
+#~ msgstr "Terminals"
+
+#~ msgid "Text tools"
+#~ msgstr "Textwerkzeuge"
+
+#~ msgid "Toys"
+#~ msgstr "Spielzeuge"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "X11 bitmap"
+#~ msgstr "X11 Bitmap"
+
+#~ msgid "binary packages"
+#~ msgstr "Binärpakete"
+
+#~ msgid "essential"
+#~ msgstr "erforderlich"
+
+#~ msgid "labeled as"
+#~ msgstr "gekennzeichnet als"
+
+#~ msgid "source packages"
+#~ msgstr "Paket Quellcode"

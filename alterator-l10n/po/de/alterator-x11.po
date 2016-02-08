@@ -1,0 +1,200 @@
+# German translation
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Armin Schäfer <arminnessie@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-01 15:00+0400\n"
+"PO-Revision-Date: 2015-12-01 15:10+0400\n"
+"Last-Translator: Armin Schäfer <arminnessie@gmail.com>\n"
+"Language-Team: German Translation Team <german-translation-team@googlegroups.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Display"
+msgstr "Anzeige"
+
+#: standard input:1 ui/x11/monitor/index.scm:9
+msgid "Monitor vendors:"
+msgstr "Monitor Anbieter:"
+
+#: standard input:2 input:5 ui/x11/index.scm:119
+msgid "Apply"
+msgstr "Bestätigen"
+
+#: standard input:3 input:6
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: standard input:4 ui/x11/driver/index.scm:10
+msgid "Drivers:"
+msgstr "Treiber:"
+
+#: ui/x11/monitor/index.scm:22 ui/x11/driver/index.scm:25
+msgid "OK"
+msgstr "OK"
+
+#: ui/x11/monitor/index.scm:28 ui/x11/driver/index.scm:31
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. messages from C tools
+#: ui/x11/c-messages.scm:2
+msgid "Yes"
+msgstr "Ja"
+
+#: ui/x11/c-messages.scm:3
+msgid "No"
+msgstr "Nein"
+
+#: ui/x11/c-messages.scm:4
+msgid "Pause"
+msgstr "Pause"
+
+#: ui/x11/c-messages.scm:5
+msgid "Press 'Yes' if you see a correct picture!"
+msgstr "Drücke 'Ja' falls du ein korrektes Bild siehst!"
+
+#: ui/x11/c-messages.scm:6
+msgid "Resume"
+msgstr "Weiterführen"
+
+#: ui/x11/index.scm:31
+msgid "Changes will take effect after reboot"
+msgstr "Änderungen wirken nach Neustart"
+
+#: ui/x11/index.scm:46
+msgid "Detected hardware"
+msgstr "Erkannte Hardware"
+
+#: ui/x11/index.scm:52
+msgid "Video card:"
+msgstr "Grafikkarte:"
+
+#: ui/x11/index.scm:63
+msgid "Current settings"
+msgstr "Momentane Einstellungen"
+
+#: ui/x11/index.scm:69
+msgid "Driver:"
+msgstr "Treiber:"
+
+#: ui/x11/index.scm:73
+msgid "Other driver..."
+msgstr "Andere Treiber..."
+
+#: ui/x11/index.scm:78
+msgid "Color depth:"
+msgstr "Farbtiefe:"
+
+#: ui/x11/index.scm:84
+msgid "Resolution:"
+msgstr "Auflösung:"
+
+#: ui/x11/index.scm:89
+msgid "Don't use automatic refresh rate"
+msgstr "Verwende keine automatische Aktualisierungsrate"
+
+#: ui/x11/index.scm:94
+msgid "Set display size:"
+msgstr "Setze Displaygröße:"
+
+#: ui/x11/index.scm:102
+msgid "mm"
+msgstr "mm"
+
+#: ui/x11/index.scm:106
+msgid "(detected"
+msgstr "(erkanntes"
+
+#: ui/x11/index.scm:106
+msgid "mm)"
+msgstr "mm)"
+
+#: ui/x11/index.scm:122
+msgid "Quit"
+msgstr "Beenden"
+
+#: backend3/x11:165 backend3/x11:193 backend3/x11:218
+msgid "automatically"
+msgstr "automatisch"
+
+#: backend3/x11:174
+msgid "recommended"
+msgstr "empfohlen"
+
+#: backend3/x11:201
+msgid "256 colors (8 bit)"
+msgstr "256 Farben (8 Bit)"
+
+#: backend3/x11:202
+msgid "32 thousand colors (15 bits)"
+msgstr "32 tausend Farben (15 Bits)"
+
+#: backend3/x11:203
+msgid "65 thousand colors (16 bits)"
+msgstr "65 tausend Farben (16 Bits)"
+
+#: backend3/x11:204
+msgid "16 million colors (24 bits)"
+msgstr "16 Millionen Farben (24 Bits)"
+
+#: backend3/x11:205
+msgid "4 billion colors (32 bits)"
+msgstr "4 Milliarden Farben (32 Bits)"
+
+#: backend3/x11:206
+msgid "bits"
+msgstr "Bits"
+
+#: backend3/x11:487
+msgid "no workcopy was found"
+msgstr "keine Arbeitskopie wurde gefunden"
+
+#~ msgid "Current size:"
+#~ msgstr "Momentane Größe:"
+
+#~ msgid "Automatically detected"
+#~ msgstr "Automatisch erkennen"
+
+#~ msgid "Drivers"
+#~ msgstr "Treiber"
+
+#~ msgid "Monitor vendors"
+#~ msgstr "Monitor-Anbieter"
+
+#~ msgid "Monitor:"
+#~ msgstr "Monitor:"
+
+#~ msgid "Other vendor..."
+#~ msgstr "Anderer Anbieter..."
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Test current display settings"
+#~ msgstr "Teste momentane Display-Einstellungen"
+
+#~ msgid ""
+#~ "Test disabled, because nv and nvidia drivers can not work on your video "
+#~ "card simultaneously. Probably if one of them works fine now then the "
+#~ "other one would work fine too."
+#~ msgstr ""
+#~ "Test ausgestellt weil nv und NVIDIA Treiber nicht auf deiner Grafikkarte "
+#~ "gleichzeitig laufen können. Vielleicht würde eine gut funktionieren wenn die "
+#~ "andere funktioniert."
+
+#~ msgid "Test failed"
+#~ msgstr "Test fehlgeschlagen"
+
+#~ msgid "X11 test failed"
+#~ msgstr "X11 Test fehlgeschlagen"

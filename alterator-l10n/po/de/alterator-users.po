@@ -1,0 +1,180 @@
+# German translation
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Armin Schäfer <arminnessie@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-01 15:00+0400\n"
+"PO-Revision-Date: 2015-12-01 15:10+0400\n"
+"Last-Translator: Armin Schäfer <arminnessie@gmail.com>\n"
+"Language-Team: German Translation Team <german-translation-team@googlegroups.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Local user accounts"
+msgstr "Lokale Benutzeraccounts"
+
+#: standard input:1 ui/users/index.scm:11
+msgid "New account:"
+msgstr "Neuer Account:"
+
+#: standard input:2 ui/users/index.scm:13
+msgid "Create"
+msgstr "Erstelle"
+
+#.
+#: standard input:3 ui/users/index.scm:22 ui/users/add/index.scm:68
+msgid "Comment:"
+msgstr "Kommentar:"
+
+#.
+#: standard input:4 ui/users/index.scm:25
+msgid "Home directory:"
+msgstr "Home Ordner:"
+
+#.
+#: standard input:5 ui/users/index.scm:28
+msgid "Shell:"
+msgstr "Shell:"
+
+#: standard input:6 ui/users/index.scm:32
+msgid "Member of administrators group"
+msgstr "Mitglied einer Administratorengruppe"
+
+#.
+#: standard input:7 ui/users/index.scm:38 ui/users/add/index.scm:77
+msgid "Password:"
+msgstr "Passwort:"
+
+#: standard input:8 ui/users/index.scm:41 ui/users/add/index.scm:80
+msgid "Generate automatically"
+msgstr "Generiere automatisch"
+
+#: standard input:9 ui/users/index.scm:44 ui/users/add/index.scm:83
+msgid "(enter passphrase)"
+msgstr "(Passwort eingeben)"
+
+#: standard input:10 ui/users/index.scm:46 ui/users/add/index.scm:85
+msgid "(repeat passphrase)"
+msgstr "(wiederhole Passwort)"
+
+#: standard input:11 ui/users/index.scm:48 ui/users/add/index.scm:87
+msgid "Generate"
+msgstr "Generieren"
+
+#: standard input:12 ui/users/index.scm:57
+msgid "Apply"
+msgstr "Bestätigen"
+
+#: standard input:13 ui/users/index.scm:59
+msgid "Delete user"
+msgstr "Lösche Benutzer"
+
+#: ui/users/ajax.scm:51
+msgid "Do you really want to delete user "
+msgstr "Löschung bestätigen von Benutzer "
+
+#: ui/users/add/index.scm:15
+msgid "You should define a system user"
+msgstr "Es sollte ein Systembenutzer festlegt werden"
+
+#: ui/users/add/index.scm:18
+msgid "You should define a password"
+msgstr "Es sollte ein Passwort festgelegt werden"
+
+#: ui/users/add/index.scm:58
+msgid "New user account"
+msgstr "Neuer Benutzeraccount"
+
+#: ui/users/add/index.scm:63
+msgid "Name:"
+msgstr "Name:"
+
+#: backend3/users:63
+msgid "can't update password file"
+msgstr "kann nicht Passwortdatei aktualisieren"
+
+#. '
+#: backend3/users:64 backend3/users:118
+msgid "invalid command syntax"
+msgstr "ungültige Kommandogrammatik"
+
+#: backend3/users:65
+msgid "invalid argument to option"
+msgstr "ungültiges Argument zur Auswahl"
+
+#: backend3/users:66
+msgid "uid already in use"
+msgstr "uid bereits in Gebrauch"
+
+#: backend3/users:67
+msgid "specified user doesn't exist"
+msgstr "angegebener Benutzer nicht existent"
+
+#. '
+#: backend3/users:68
+msgid "user currently logged in"
+msgstr "Benutzer momentan eingeloggt"
+
+#: backend3/users:69
+msgid "username already in use"
+msgstr "Benutzername bereits in Nutzung"
+
+#: backend3/users:70 backend3/users:124
+msgid "can't update group file"
+msgstr "Kann nicht Gruppendatei updaten"
+
+#. '
+#: backend3/users:71
+msgid "can't create or remove home directory"
+msgstr "kann nicht Home Ordner erschaffen oder löschen"
+
+#. '
+#: backend3/users:72
+msgid "can't create mail spool"
+msgstr "kann nicht Mail Spooler erstellen"
+
+#: backend3/users:81
+msgid "cannot change password"
+msgstr "kann nicht Passwort ändern"
+
+#: backend3/users:103
+msgid "Passwords mismatch"
+msgstr "Passwort ungleich"
+
+#: backend3/users:119
+msgid "invalid group name"
+msgstr "ungültiger Gruppenname"
+
+#: backend3/users:120
+msgid "gid not unique"
+msgstr "gid nicht einmalig"
+
+#: backend3/users:121
+msgid "specified group doesn't exist"
+msgstr "angegebene Gruppe existiert nicht"
+
+#: backend3/users:122
+msgid "can't remove user's primary group"
+msgstr "kann nicht die Hauptgruppe vom Benutzer löschen"
+
+#. '
+#: backend3/users:123
+msgid "group name not unique"
+msgstr "Gruppenname nicht einzigartig"
+
+#: backend3/users:141
+msgid "unable to add user %s to group %s"
+msgstr "nicht in der Lage Benutzer %s zur Gruppe %s hinzuzufügen"
+
+#~ msgid "Select"
+#~ msgstr "Auswählen"

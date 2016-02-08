@@ -1,0 +1,204 @@
+# German translation
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Armin Schäfer <arminnessie@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-01 15:00+0400\n"
+"PO-Revision-Date: 2015-12-01 15:10+0400\n"
+"Last-Translator: Armin Schäfer <arminnessie@gmail.com>\n"
+"Language-Team: German Translation Team <german-translation-team@googlegroups.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Authentication"
+msgstr "Authentifikation"
+
+#: standard input:1
+msgid "Available authentication methods"
+msgstr "Mögliche Authentifikationsmöglichkeiten"
+
+#: standard input:2
+msgid "Local files"
+msgstr "Lokale Dateien"
+
+#: standard input:3
+msgid "LDAP base"
+msgstr "LDAP Basis"
+
+#: standard input:4
+msgid "Kerberos domain"
+msgstr "Kerberos Domäne"
+
+#: standard input:5
+msgid "Multi"
+msgstr "Multi"
+
+#: standard input:6
+msgid "Pkcs11"
+msgstr "Pkcs11"
+
+#: standard input:7
+msgid "LDAP server:"
+msgstr "LDAP Server:"
+
+#: standard input:8
+msgid "TLS/SSL"
+msgstr "TLS/SSL"
+
+#: standard input:9
+msgid "Base DN:"
+msgstr "Basis DN:"
+
+#: standard input:10
+msgid "Select"
+msgstr "Auswählen"
+
+#: standard input:11 ui/auth/index.scm:74
+msgid "Current domain:"
+msgstr "Aktuelle Domäne:"
+
+#: standard input:12 ui/auth/index.scm:89
+msgid "Domain list:"
+msgstr "Domänen Liste:"
+
+#: standard input:13 ui/auth/index.scm:126
+msgid "Attention: "
+msgstr "Achtung: "
+
+#: standard input:14 ui/auth/index.scm:127
+msgid "Domain change needs reboot for normal operation"
+msgstr "Domänenänderung braucht Reboot für eine normale Ausführung"
+
+#: standard input:15 ui/auth/index.scm:133
+msgid "Apply"
+msgstr "Bestätigen"
+
+#: ui/auth/index.scm:14
+msgid "Please, fill field "
+msgstr "Bitte das Feld ausfüllen "
+
+#: ui/auth/index.scm:20
+msgid "Domain"
+msgstr "Domäne"
+
+#: ui/auth/index.scm:21
+msgid "Netbios name"
+msgstr "Netbios Name"
+
+#: ui/auth/index.scm:22
+msgid "Administrator name"
+msgstr "Administrator Name"
+
+#: ui/auth/index.scm:23
+msgid "Administrator password"
+msgstr "Administrator Passwort"
+
+#. Local database
+#: ui/auth/index.scm:78
+msgid "Local database"
+msgstr "Lokale Datenbasis"
+
+#. ALT domain
+#: ui/auth/index.scm:81
+msgid "ALT Linux domain"
+msgstr "ALT Linux Domäne"
+
+#: ui/auth/index.scm:87 ui/auth/index.scm:102
+msgid "Warning: "
+msgstr "Warnung: "
+
+#: ui/auth/index.scm:87
+msgid "Search for domains is impossible because avahi-daemon is not started"
+msgstr "Suche nach Domänen ist unmöglich weil avahi-daemon nicht gestartet ist"
+
+#: ui/auth/index.scm:93
+msgid "Use cached credentials for out of domain login"
+msgstr "Benutze bespeicherte Angaben für außerhalb des Domän-Logins"
+
+#. Active Directory
+#: ui/auth/index.scm:96
+msgid "Active Directory domain"
+msgstr "Active Directory Domäne"
+
+#: ui/auth/index.scm:102
+msgid ""
+"Unable to find winbind service. Please, install package samba-winbind and "
+"try again."
+msgstr ""
+"Nicht in der Lage den winbind Service zu finden. Bitte das Paket "
+"samba-winbind installieren und es erneut versuchen."
+
+#: ui/auth/index.scm:104
+msgid "Domain:"
+msgstr "Domäne:"
+
+#: ui/auth/index.scm:107
+msgid "Workgroup:"
+msgstr "Arbeitsgruppe:"
+
+#: ui/auth/index.scm:110
+msgid "Netbios name:"
+msgstr "Netbios Name:"
+
+#. Active Directory administrator authentication
+#: ui/auth/index.scm:114
+msgid "Administrator name:"
+msgstr "Administrator Name:"
+
+#: ui/auth/index.scm:117
+msgid "Administrator password:"
+msgstr "Administrator Passwort:"
+
+#: backend3/auth:73
+msgid "local"
+msgstr "lokal"
+
+#: backend3/auth:112
+msgid "Kerberos domain is not used"
+msgstr "Kerberos Domäne wird nicht benutzt"
+
+#: backend3/auth:208
+msgid "Domain not set"
+msgstr "Domäne nicht besetzt"
+
+#: backend3/auth:217
+msgid "Cannot contact KDC for realm"
+msgstr "Kann nicht den KDC für Reak kontaktieren"
+
+#: backend3/auth:218
+msgid "Unknown administrator name"
+msgstr "Unbekannter Administratorenname"
+
+#: backend3/auth:219
+msgid "Wrong password"
+msgstr "Falsches Passwort"
+
+#: backend3/auth:220
+msgid "Unable to access to Active Directory domain:"
+msgstr "Nicht in der Lage auf die Active Directory Domäne zuzugreifen: "
+
+#~ msgid "Auth type:"
+#~ msgstr "Auth-Typ:"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "Port (optional):"
+#~ msgstr "Port (optional):"
+
+#~ msgid "Reset"
+#~ msgstr "Zurücksetzen"
+
+# Настройка вручную
+#~ msgid "custom"
+#~ msgstr "benutzerdefiniert"
