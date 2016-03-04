@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2015.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-08 12:46+0300\n"
-"PO-Revision-Date: 2015-12-08 12:47+0300\n"
+"POT-Creation-Date: 2016-03-04 18:30+0300\n"
+"PO-Revision-Date: 2016-03-04 18:31+0300\n"
 "Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -31,7 +31,7 @@ msgid "Create"
 msgstr "Создать"
 
 #.
-#: standard input:3 ui/users/index.scm:22 ui/users/add/index.scm:71
+#: standard input:3 ui/users/index.scm:22 ui/users/add/index.scm:73
 msgid "Comment:"
 msgstr "Комментарий:"
 
@@ -50,23 +50,23 @@ msgid "Member of administrators group"
 msgstr "Входит в группу администраторов"
 
 #.
-#: standard input:7 ui/users/index.scm:38 ui/users/add/index.scm:80
+#: standard input:7 ui/users/index.scm:38 ui/users/add/index.scm:82
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:8 ui/users/index.scm:41 ui/users/add/index.scm:83
+#: standard input:8 ui/users/index.scm:41 ui/users/add/index.scm:85
 msgid "Generate automatically"
 msgstr "Создать автоматически"
 
-#: standard input:9 ui/users/index.scm:44 ui/users/add/index.scm:86
+#: standard input:9 ui/users/index.scm:44 ui/users/add/index.scm:88
 msgid "(enter passphrase)"
 msgstr "(введите фразу)"
 
-#: standard input:10 ui/users/index.scm:46 ui/users/add/index.scm:88
+#: standard input:10 ui/users/index.scm:46 ui/users/add/index.scm:90
 msgid "(repeat passphrase)"
 msgstr "(повторите фразу)"
 
-#: standard input:11 ui/users/index.scm:48 ui/users/add/index.scm:90
+#: standard input:11 ui/users/index.scm:48 ui/users/add/index.scm:92
 msgid "Generate"
 msgstr "Сгенерировать"
 
@@ -82,9 +82,9 @@ msgstr "Удалить пользователя"
 msgid "Do you really want to delete user "
 msgstr "Вы действительно хотите удалить пользователя "
 
-#: ui/users/index.scm:50 ui/users/add/index.scm:92
-msgid "Do not ask at login"
-msgstr "Не спрашивать пароль при входе"
+#: ui/users/index.scm:50 ui/users/add/index.scm:94
+msgid "Autologin"
+msgstr "Автоматический вход в систему"
 
 #: ui/users/add/index.scm:16
 msgid "You should define a system user"
@@ -94,11 +94,11 @@ msgstr "Вы должны указать системного пользоват
 msgid "You should define a password"
 msgstr "Вы должны указать пароль"
 
-#: ui/users/add/index.scm:61
+#: ui/users/add/index.scm:63
 msgid "New user account"
 msgstr "Новая учётная запись пользователя"
 
-#: ui/users/add/index.scm:66
+#: ui/users/add/index.scm:68
 msgid "Name:"
 msgstr "Имя:"
 
@@ -178,6 +178,9 @@ msgstr "имя группы уже занято"
 #: backend3/users:142
 msgid "unable to add user %s to group %s"
 msgstr "невозможно добавить пользователя %s в группу %s"
+
+#~ msgid "Do not ask at login"
+#~ msgstr "Не спрашивать пароль при входе"
 
 #~ msgid "Select"
 #~ msgstr "Выбрать"
