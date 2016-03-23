@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 16:20+0300\n"
+"POT-Creation-Date: 2016-03-23 16:52+0300\n"
 "PO-Revision-Date: 2009-03-19 17:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,99 +20,166 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:7
-#: ui/groups/index.scm:89
-msgid "Apply"
-msgstr "Aplicar"
-
-#: backend3/groups:126
-msgid "Can't add group"
-msgstr "No es posible adiccionar un grupo"
-
-#: backend3/groups:120
-msgid "Can't add group with empty name"
-msgstr "No es posible adiccionar el grupo sin nombre"
-
-#: backend3/groups:193
-msgid "Can't add user"
-msgstr "No es posible adiccionar el usuário"
-
-#: backend3/groups:141
-msgid "Can't delete group"
-msgstr "No es posible adiccionar excluir el grupo"
-
-#: backend3/groups:136
-msgid "Can't delete group with empty name"
-msgstr "No es posible adiccionar un grupo sin nombre"
-
-#: backend3/groups:157
-msgid "Can't modify group with empty name"
-msgstr "No es posible adiccionar es grupo sin nombre"
-
-#: backend3/groups:205
-msgid "Can't remove user"
-msgstr "No fue posible remover el usuário"
+#: standard input:1
+#, fuzzy
+msgid "CD writer access"
+msgstr "Accesso de Escrita"
 
 #: standard input:2
-#: ui/groups/index.scm:67
-msgid "Create"
-msgstr "Crear"
+msgid "Floppy disk access"
+msgstr ""
 
-#: standard input:9
-#: ui/groups/index.scm:91
-msgid "Delete"
-msgstr "Borrar"
+#: standard input:3
+#, fuzzy
+msgid "System administrators"
+msgstr "Administrador del Sistema"
+
+#: standard input:4
+msgid "Access to audio devices"
+msgstr ""
 
 #: standard input:5
-#: ui/groups/index.scm:80
-msgid "Description:"
-msgstr "Descripción:"
+#, fuzzy
+msgid "CD-ROM access"
+msgstr "Accesso de Escrita"
 
-#: standard input:1
-msgid "Groups"
-msgstr "Grupos"
+#: standard input:6
+msgid "Access to scanners"
+msgstr ""
 
-#: standard input:1
-#: ui/groups/index.scm:65
+#: standard input:7
+#, fuzzy
+msgid "Local groups"
+msgstr "para el grupo"
+
+#: standard input:1 ui/groups/index.scm:95
 msgid "New group:"
 msgstr "Nuevo grupo:"
 
-#: standard input:8
-#: ui/groups/index.scm:90
-msgid "Reset"
-msgstr "Resetar"
+#: standard input:2 ui/groups/index.scm:97
+msgid "Create"
+msgstr "Crear"
 
 #: standard input:3
 msgid "Select"
 msgstr "Seleccionar"
 
-#: ui/groups/index.scm:100
-msgid "Skip empty groups"
-msgstr "Pular Grupos Vacíos"
-
-#: ui/groups/index.scm:98
-msgid "Skip primary groups"
-msgstr "Saltar Grupos Primarios"
-
-#: ui/groups/index.scm:96
-msgid "Skip system groups"
-msgstr "Saltar Grupos de Sistemas"
-
 #: standard input:4
-#: ui/groups/index.scm:78
 msgid "System name:"
 msgstr "Nombre del Sistema:"
 
+#: standard input:5 ui/groups/index.scm:112
+msgid "Description:"
+msgstr "Descripción:"
+
 #: standard input:6
-#: ui/groups/index.scm:83
 msgid "Users:"
 msgstr "Usuarios:"
 
-#: backend3/groups:205
-msgid "from group"
-msgstr "del grupo"
+#: standard input:7 ui/groups/index.scm:132
+msgid "Apply"
+msgstr "Aplicar"
+
+#: standard input:8
+msgid "Reset"
+msgstr "Resetar"
+
+#: standard input:9 ui/groups/index.scm:133
+msgid "Delete"
+msgstr "Borrar"
+
+#: ui/groups/index.scm:108
+msgid "Name:"
+msgstr "Nombre:"
+
+#: ui/groups/index.scm:110
+msgid "GID:"
+msgstr ""
+
+#: ui/groups/index.scm:115
+msgid "User membership"
+msgstr ""
+
+#: ui/groups/index.scm:117
+#, fuzzy
+msgid "Members:"
+msgstr "Deciembre"
+
+#: ui/groups/index.scm:119
+#, fuzzy
+msgid "Available users:"
+msgstr "Ver código fuente"
+
+#: ui/groups/index.scm:123
+msgid "<<"
+msgstr ""
+
+#: ui/groups/index.scm:124
+msgid ">>"
+msgstr ""
+
+#: ui/groups/index.scm:139
+#, fuzzy
+msgid "Show system groups"
+msgstr "Saltar Grupos de Sistemas"
+
+#: ui/groups/index.scm:141
+#, fuzzy
+msgid "Show user groups"
+msgstr "Nuevo grupo:"
+
+#: ui/groups/index.scm:149
+#, fuzzy
+msgid "Notes"
+msgstr "Porta:"
+
+#: ui/groups/index.scm:150
+msgid ""
+"Groups for system services (with prefix '_') are not shown. You can delete "
+"only user groups."
+msgstr ""
+
+#: backend3/groups:172
+msgid "Can't add group with empty name"
+msgstr "No es posible adiccionar el grupo sin nombre"
+
+#: backend3/groups:178
+msgid "Can't add group"
+msgstr "No es posible adiccionar un grupo"
+
+#: backend3/groups:188
+msgid "Can't delete group with empty name"
+msgstr "No es posible adiccionar un grupo sin nombre"
 
 #: backend3/groups:193
+msgid "Can't delete group"
+msgstr "No es posible adiccionar excluir el grupo"
+
+#: backend3/groups:210
+msgid "Can't modify group with empty name"
+msgstr "No es posible adiccionar es grupo sin nombre"
+
+#: backend3/groups:246
+msgid "Can't add user"
+msgstr "No es posible adiccionar el usuário"
+
+#: backend3/groups:246
 msgid "to group"
 msgstr "para el grupo"
 
+#: backend3/groups:258
+msgid "Can't remove user"
+msgstr "No fue posible remover el usuário"
+
+#: backend3/groups:258
+msgid "from group"
+msgstr "del grupo"
+
+#~ msgid "Groups"
+#~ msgstr "Grupos"
+
+#~ msgid "Skip empty groups"
+#~ msgstr "Pular Grupos Vacíos"
+
+#~ msgid "Skip primary groups"
+#~ msgstr "Saltar Grupos Primarios"

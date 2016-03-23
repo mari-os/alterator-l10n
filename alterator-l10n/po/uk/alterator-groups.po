@@ -7,102 +7,178 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 16:20+0300\n"
+"POT-Creation-Date: 2016-03-23 16:52+0300\n"
 "PO-Revision-Date: 2009-08-22 01:01+0300\n"
 "Last-Translator: Olexandr Yatsenko <piktor@bigmir.net>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: standard input:7 ui/groups/index.scm:89
-msgid "Apply"
-msgstr "Застосувати"
-
-#: backend3/groups:126
-msgid "Can't add group"
-msgstr "Не можу додати групу"
-
-#: backend3/groups:120
-msgid "Can't add group with empty name"
-msgstr "Не можу додати групу без імені"
-
-#: backend3/groups:193
-msgid "Can't add user"
-msgstr "Не можу додати користувача"
-
-#: backend3/groups:141
-msgid "Can't delete group"
-msgstr "Не можу вилучити групу"
-
-#: backend3/groups:136
-msgid "Can't delete group with empty name"
-msgstr "Не можу вилучити групу без імені"
-
-#: backend3/groups:157
-msgid "Can't modify group with empty name"
-msgstr "Не можу змінити групу без імені"
-
-#: backend3/groups:205
-msgid "Can't remove user"
-msgstr "Не можу вилучити користувача"
-
-#: standard input:2 ui/groups/index.scm:67
-msgid "Create"
-msgstr "Створити"
-
-#: standard input:9 ui/groups/index.scm:91
-msgid "Delete"
-msgstr "Вилучити"
-
-#: standard input:5 ui/groups/index.scm:80
-msgid "Description:"
-msgstr "Пояснення:"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
-msgid "Groups"
-msgstr "Групи"
+msgid "CD writer access"
+msgstr ""
 
-#: standard input:1 ui/groups/index.scm:65
+#: standard input:2
+msgid "Floppy disk access"
+msgstr ""
+
+#: standard input:3
+#, fuzzy
+msgid "System administrators"
+msgstr "Системний адміністратор"
+
+#: standard input:4
+msgid "Access to audio devices"
+msgstr ""
+
+#: standard input:5
+msgid "CD-ROM access"
+msgstr ""
+
+#: standard input:6
+msgid "Access to scanners"
+msgstr ""
+
+#: standard input:7
+#, fuzzy
+msgid "Local groups"
+msgstr "до групи"
+
+#: standard input:1 ui/groups/index.scm:95
 msgid "New group:"
 msgstr "Нова група:"
 
-#: standard input:8 ui/groups/index.scm:90
-msgid "Reset"
-msgstr "Скинути"
+#: standard input:2 ui/groups/index.scm:97
+msgid "Create"
+msgstr "Створити"
 
 #: standard input:3
 msgid "Select"
 msgstr "Обрати"
 
-#: ui/groups/index.scm:100
-msgid "Skip empty groups"
-msgstr "Пропустити порожні групи"
-
-#: ui/groups/index.scm:98
-msgid "Skip primary groups"
-msgstr "Пропустити первинні групи"
-
-#: ui/groups/index.scm:96
-msgid "Skip system groups"
-msgstr "Пропустити системні групи"
-
-#: standard input:4 ui/groups/index.scm:78
+#: standard input:4
 msgid "System name:"
 msgstr "Системне ім’я:"
 
-#: standard input:6 ui/groups/index.scm:83
+#: standard input:5 ui/groups/index.scm:112
+msgid "Description:"
+msgstr "Пояснення:"
+
+#: standard input:6
 msgid "Users:"
 msgstr "Користувачі:"
 
-#: backend3/groups:205
-msgid "from group"
-msgstr "з групи"
+#: standard input:7 ui/groups/index.scm:132
+msgid "Apply"
+msgstr "Застосувати"
+
+#: standard input:8
+msgid "Reset"
+msgstr "Скинути"
+
+#: standard input:9 ui/groups/index.scm:133
+msgid "Delete"
+msgstr "Вилучити"
+
+#: ui/groups/index.scm:108
+#, fuzzy
+msgid "Name:"
+msgstr "Ім'я"
+
+#: ui/groups/index.scm:110
+msgid "GID:"
+msgstr ""
+
+#: ui/groups/index.scm:115
+#, fuzzy
+msgid "User membership"
+msgstr "Склад групи"
+
+#: ui/groups/index.scm:117
+#, fuzzy
+msgid "Members:"
+msgstr "Грудень"
+
+#: ui/groups/index.scm:119
+#, fuzzy
+msgid "Available users:"
+msgstr "Доступні правила:"
+
+#: ui/groups/index.scm:123
+msgid "<<"
+msgstr ""
+
+#: ui/groups/index.scm:124
+msgid ">>"
+msgstr ""
+
+#: ui/groups/index.scm:139
+#, fuzzy
+msgid "Show system groups"
+msgstr "Пропустити системні групи"
+
+#: ui/groups/index.scm:141
+#, fuzzy
+msgid "Show user groups"
+msgstr "Пропустити системні групи"
+
+#: ui/groups/index.scm:149
+#, fuzzy
+msgid "Notes"
+msgstr "Помітка:"
+
+#: ui/groups/index.scm:150
+msgid ""
+"Groups for system services (with prefix '_') are not shown. You can delete "
+"only user groups."
+msgstr ""
+
+#: backend3/groups:172
+msgid "Can't add group with empty name"
+msgstr "Не можу додати групу без імені"
+
+#: backend3/groups:178
+msgid "Can't add group"
+msgstr "Не можу додати групу"
+
+#: backend3/groups:188
+msgid "Can't delete group with empty name"
+msgstr "Не можу вилучити групу без імені"
 
 #: backend3/groups:193
+msgid "Can't delete group"
+msgstr "Не можу вилучити групу"
+
+#: backend3/groups:210
+msgid "Can't modify group with empty name"
+msgstr "Не можу змінити групу без імені"
+
+#: backend3/groups:246
+msgid "Can't add user"
+msgstr "Не можу додати користувача"
+
+#: backend3/groups:246
 msgid "to group"
 msgstr "до групи"
 
+#: backend3/groups:258
+msgid "Can't remove user"
+msgstr "Не можу вилучити користувача"
+
+#: backend3/groups:258
+msgid "from group"
+msgstr "з групи"
+
+#~ msgid "Groups"
+#~ msgstr "Групи"
+
+#~ msgid "Skip empty groups"
+#~ msgstr "Пропустити порожні групи"
+
+#~ msgid "Skip primary groups"
+#~ msgstr "Пропустити первинні групи"
