@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-13 15:58+0300\n"
+"POT-Creation-Date: 2016-07-11 17:24+0300\n"
 "PO-Revision-Date: 2009-09-14 18:35-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -69,80 +69,93 @@ msgstr "Base DN:"
 msgid "Select"
 msgstr "Selecionar"
 
-#: standard input:11 ui/auth/index.scm:74
+#: standard input:11 ui/auth/index.scm:86
 msgid "Current domain:"
 msgstr "Domínio atual:"
 
-#: standard input:12 ui/auth/index.scm:89
+#: standard input:12 ui/auth/index.scm:101
 msgid "Domain list:"
 msgstr "Lista de domínio:"
 
-#: standard input:13 ui/auth/index.scm:126
+#: standard input:13 ui/auth/index.scm:138
 #, fuzzy
 msgid "Attention: "
 msgstr "Autentificação"
 
-#: standard input:14 ui/auth/index.scm:127
+#: standard input:14 ui/auth/index.scm:139
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:15 ui/auth/index.scm:133
+#: standard input:15 ui/auth/index.scm:145
 msgid "Apply"
 msgstr "Aplicar"
 
-#: ui/auth/index.scm:14
+#: ui/auth/index.scm:11
 msgid "Please, fill field "
 msgstr ""
 
-#: ui/auth/index.scm:20
+#: ui/auth/index.scm:16 backend3/auth:223
+msgid "Netbios name should not be more 15 chars"
+msgstr ""
+
+#: ui/auth/index.scm:22
 msgid "Domain"
 msgstr "Domínio"
 
-#: ui/auth/index.scm:21
+#: ui/auth/index.scm:23
 #, fuzzy
 msgid "Netbios name"
 msgstr "Nome da Rede:"
 
-#: ui/auth/index.scm:22
+#: ui/auth/index.scm:24
 #, fuzzy
 msgid "Administrator name"
 msgstr "Administrador DN:"
 
-#: ui/auth/index.scm:23
+#: ui/auth/index.scm:25
 #, fuzzy
 msgid "Administrator password"
 msgstr "Senha do administrador:"
 
+#: ui/auth/index.scm:39
+msgid "Welcome to the "
+msgstr ""
+
+#: ui/auth/index.scm:39
+#, fuzzy
+msgid " domain."
+msgstr "Adicionar domínio"
+
 #. Local database
-#: ui/auth/index.scm:78
+#: ui/auth/index.scm:90
 msgid "Local database"
 msgstr ""
 
 #. ALT domain
-#: ui/auth/index.scm:81
+#: ui/auth/index.scm:93
 #, fuzzy
 msgid "ALT Linux domain"
 msgstr "Adicionar domínio"
 
-#: ui/auth/index.scm:87 ui/auth/index.scm:102
+#: ui/auth/index.scm:99 ui/auth/index.scm:114
 #, fuzzy
 msgid "Warning: "
 msgstr "Cuidado:"
 
-#: ui/auth/index.scm:87
+#: ui/auth/index.scm:99
 msgid "Search for domains is impossible because avahi-daemon is not started"
 msgstr ""
 
-#: ui/auth/index.scm:93
+#: ui/auth/index.scm:105
 msgid "Use cached credentials for out of domain login"
 msgstr ""
 
 #. Active Directory
-#: ui/auth/index.scm:96
+#: ui/auth/index.scm:108
 msgid "Active Directory domain"
 msgstr ""
 
-#: ui/auth/index.scm:102
+#: ui/auth/index.scm:114
 #, fuzzy
 msgid ""
 "Unable to find winbind service. Please, install package samba-winbind and "
@@ -151,26 +164,26 @@ msgstr ""
 "Incapaz de encontrar disco de backup. Por favor insira um e tente "
 "novamente ..."
 
-#: ui/auth/index.scm:104
+#: ui/auth/index.scm:116
 msgid "Domain:"
 msgstr "Domínio:"
 
-#: ui/auth/index.scm:107
+#: ui/auth/index.scm:119
 msgid "Workgroup:"
 msgstr "Group de Trabalho:"
 
-#: ui/auth/index.scm:110
+#: ui/auth/index.scm:122
 #, fuzzy
 msgid "Netbios name:"
 msgstr "Nome da Rede:"
 
 #. Active Directory administrator authentication
-#: ui/auth/index.scm:114
+#: ui/auth/index.scm:126
 #, fuzzy
 msgid "Administrator name:"
 msgstr "Administrador DN:"
 
-#: ui/auth/index.scm:117
+#: ui/auth/index.scm:129
 msgid "Administrator password:"
 msgstr "Senha do administrador:"
 
@@ -183,25 +196,25 @@ msgstr "local"
 msgid "Kerberos domain is not used"
 msgstr "Kerberos"
 
-#: backend3/auth:208
+#: backend3/auth:214
 msgid "Domain not set"
 msgstr "Domínio não configurado"
 
-#: backend3/auth:217
+#: backend3/auth:224
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:218
+#: backend3/auth:225
 #, fuzzy
 msgid "Unknown administrator name"
 msgstr "Administrador DN:"
 
-#: backend3/auth:219
+#: backend3/auth:226
 #, fuzzy
 msgid "Wrong password"
 msgstr "Sem senha"
 
-#: backend3/auth:220
+#: backend3/auth:227
 #, fuzzy
 msgid "Unable to access to Active Directory domain:"
 msgstr "Não é possível destruir o domínio do sistema"
