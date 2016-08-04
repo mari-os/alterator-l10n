@@ -1,20 +1,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <cas@altlinux.ru>, 2008-2012.
+# Andrey Cherepanov <cas@altlinux.ru>, 2008-2012, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-29 16:59+0400\n"
-"PO-Revision-Date: 2012-10-29 17:07+0400\n"
-"Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
+"POT-Creation-Date: 2016-08-04 15:36+0300\n"
+"PO-Revision-Date: 2016-08-04 16:02+0300\n"
+"Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Domain"
 msgstr "Домен"
 
-#: standard input:1 ui/net-domain/index.scm:7
+#: standard input:1 input:29
 msgid "Domain:"
 msgstr "Имя домена:"
 
@@ -31,8 +31,8 @@ msgid "Note:"
 msgstr "Примечание:"
 
 #: standard input:3
-msgid "domain name should follows"
-msgstr "имя домена должно удовлетворять следующим правилам и соответствовать"
+msgid "host name with domain name should follows"
+msgstr "имя домена должно соответствовать"
 
 #: standard input:4
 msgid "Domain name should contains one or more labels separated by dots."
@@ -46,9 +46,9 @@ msgid ""
 "letter or digit, and have as interior characters only letters, digits, and "
 "hyphen."
 msgstr ""
-"Компоненты имени домена должны начинаться со строчной или прописной латинской "
-"буквы, заканчиваться на латинскую букву или цифру, содержать латинские буквы, "
-"цифры и символ «-»."
+"Компоненты имени домена должны начинаться со строчной или прописной "
+"латинской буквы, заканчиваться на латинскую букву или цифру, содержать "
+"латинские буквы, цифры и символ «-»."
 
 #: standard input:6
 msgid "Labels must be 63 characters or less."
@@ -67,65 +67,140 @@ msgid "Examples: domain, school-33, department.company"
 msgstr "Примеры: domain, school-33, department.company"
 
 #: standard input:9
-msgid "Serve kerberos domain:"
-msgstr "Обслуживать домен Kerberos"
+msgid "Domain type:"
+msgstr "Тип домена:"
 
-#: standard input:10 ui/net-domain/index.scm:14
+#: standard input:10 input:11
+msgid "ALT-domain"
+msgstr "ALT-домен"
+
+#: standard input:12
+msgid ""
+"(Domain based on OpenLDAP and MIT Kerberos. Recommended for ALT Linux "
+"workstation authentication.)"
+msgstr ""
+"(домен, основанный на OpenLDAP и MIT Kerberos. Рекомендуется для "
+"аутентификации рабочих станций под управлением ALT Linux)"
+
+#: standard input:13 input:25
+msgid "This feature is unavailable because package "
+msgstr "Этот тип невозможно использовать, поскольку не установлен пакет "
+
+#: standard input:14 input:26
+msgid " is not installed"
+msgstr "."
+
+#: standard input:15 input:27
+msgid "Current status:"
+msgstr "Текущее состояние:"
+
+#: standard input:16
+msgid "Resolver:"
+msgstr "DNS:"
+
+#: standard input:17
+msgid "Access:"
+msgstr "Доступность:"
+
+#: standard input:18
+msgid "DHCPD:"
+msgstr "Сервер DHCP:"
+
+#: standard input:19
+msgid "LDAP:"
+msgstr "LDAP:"
+
+#: standard input:20
+msgid "KDC:"
+msgstr "KDC:"
+
+#: standard input:21
+msgid "Samba:"
+msgstr "Samba:"
+
+#: standard input:22 input:23
+msgid "Active Directory"
+msgstr "Active Directory"
+
+#: standard input:24
+msgid ""
+"(Domain for Samba AD DC controller. Suitable both for Microsoft Windows and "
+"Linux workstation authentication.)"
+msgstr ""
+"(домен для контроллера домена Samba AD. Рекомендуется для аутентификации "
+"рабочих станций под управлением и Windows и Linux)"
+
+#: standard input:28
+msgid "Service:"
+msgstr "Служба:"
+
+#: standard input:30
+msgid "Realm:"
+msgstr "Realm:"
+
+#: standard input:31
+msgid "DC name:"
+msgstr "Имя DC:"
+
+#: standard input:32
+msgid "LDAP server:"
+msgstr "Сервер LDAP:"
+
+#: standard input:33
+msgid "KDC server:"
+msgstr "Сервер KDC:"
+
+#: standard input:34
+msgid "DNS only"
+msgstr "Только DNS"
+
+#: standard input:35
+msgid "(Serves only DNS requests)"
+msgstr "(обслуживание только запросов DNS)"
+
+#: standard input:36
 msgid "Attention:"
 msgstr "Внимание:"
 
-#: standard input:11 ui/net-domain/index.scm:15
+#: standard input:37
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 "изменение имени домена вступит в силу только после перезагрузки компьютера"
 
-#: standard input:12 ui/net-domain/index.scm:21
+#: standard input:38
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:13 ui/net-domain/index.scm:23
+#: standard input:39
 msgid "Reset"
 msgstr "Вернуть"
 
-#: standard input:14
-msgid "Current status:"
-msgstr "Текущее состояние:"
+#: ui/net-domain/ajax.scm:79
+msgid ""
+"Provision new domain will overwrite existing Active Directory domain. "
+"Continue?"
+msgstr ""
+"Создание нового домена Active Directory удалит данные существующего домена. "
+"Продолжить?"
 
-#: standard input:15
-msgid "Resolver:"
-msgstr "DNS:"
-
-#: standard input:16
-msgid "Access:"
-msgstr "Доступность:"
-
-#: standard input:17
-msgid "DHCPD:"
-msgstr "Сервер DHCP:"
-
-#: standard input:18
-msgid "LDAP:"
-msgstr "LDAP:"
-
-#: standard input:19
-msgid "KDC:"
-msgstr "KDC:"
-
-#: standard input:20
-msgid "Samba:"
-msgstr "Samba:"
-
-#: backend3/net-domain:143
+#: backend3/net-domain:146
 msgid "Domain name is not valid according RFC 1035"
 msgstr "Имя домена не соответствует RFC 1035"
 
-#: backend3/net-domain:219
+#: backend3/net-domain:277
+msgid "Error provision Active directory domain. Log in file"
+msgstr "Ошибка создания домена Active Directory. Подробности в файле"
+
+#: backend3/net-domain:350
 msgid "Please define domain name"
 msgstr "Укажите имя домена"
 
-#: backend3/net-domain:222
+#: backend3/net-domain:353
 msgid "This domain name is registered for internal purposes"
 msgstr "Указанное имя домена зарезервировано для системы"
+
+#~ msgid "Serve kerberos domain:"
+#~ msgstr "Обслуживать домен Kerberos"
 
 #~ msgid "Domain change may reset data of some network services"
 #~ msgstr "Смена домена может привести к потере данных некоторых сетевых служб"
