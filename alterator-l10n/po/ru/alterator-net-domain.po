@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-04 15:36+0300\n"
-"PO-Revision-Date: 2016-08-04 16:02+0300\n"
+"POT-Creation-Date: 2016-10-14 16:18+0300\n"
+"PO-Revision-Date: 2016-10-13 10:58+0300\n"
 "Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Domain"
 msgstr "Домен"
 
-#: standard input:1 input:29
+#: standard input:1 input:36
 msgid "Domain:"
 msgstr "Имя домена:"
 
@@ -90,7 +90,7 @@ msgstr "Этот тип невозможно использовать, поск�
 msgid " is not installed"
 msgstr "."
 
-#: standard input:15 input:27
+#: standard input:15 input:34
 msgid "Current status:"
 msgstr "Текущее состояние:"
 
@@ -130,74 +130,133 @@ msgstr ""
 "(домен для контроллера домена Samba AD. Рекомендуется для аутентификации "
 "рабочих станций под управлением и Windows и Linux)"
 
+#: standard input:27
+msgid "Additional options:"
+msgstr "Дополнительные параметры:"
+
 #: standard input:28
+msgid "DNS forwarders:"
+msgstr "DNS-серверы:"
+
+#: standard input:29
+msgid "(IP addresses of additional DNS servers)"
+msgstr "(адреса IP внешних серверов DNS)"
+
+#: standard input:30
+msgid "Administrator password:"
+msgstr "Пароль администратора:"
+
+#: standard input:31
+msgid "(password for Administrator user)"
+msgstr "(пароль администратора домена)"
+
+#: standard input:32
+msgid "Reply password:"
+msgstr "Повторите пароль:"
+
+#: standard input:33
+msgid "(repeat passphrase)"
+msgstr "(повторите фразу)"
+
+#: standard input:35
 msgid "Service:"
 msgstr "Служба:"
 
-#: standard input:30
+#: standard input:37
 msgid "Realm:"
 msgstr "Realm:"
 
-#: standard input:31
+#: standard input:38
 msgid "DC name:"
 msgstr "Имя DC:"
 
-#: standard input:32
+#: standard input:39
 msgid "LDAP server:"
 msgstr "Сервер LDAP:"
 
-#: standard input:33
+#: standard input:40
 msgid "KDC server:"
 msgstr "Сервер KDC:"
 
-#: standard input:34
+#: standard input:41
 msgid "DNS only"
 msgstr "Только DNS"
 
-#: standard input:35
+#: standard input:42
 msgid "(Serves only DNS requests)"
 msgstr "(обслуживание только запросов DNS)"
 
-#: standard input:36
+#: standard input:43
 msgid "Attention:"
 msgstr "Внимание:"
 
-#: standard input:37
+#: standard input:44
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 "изменение имени домена вступит в силу только после перезагрузки компьютера"
 
-#: standard input:38
+#: standard input:45
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:39
+#: standard input:46
 msgid "Reset"
 msgstr "Вернуть"
 
-#: ui/net-domain/ajax.scm:79
-msgid ""
-"Provision new domain will overwrite existing Active Directory domain. "
-"Continue?"
-msgstr ""
-"Создание нового домена Active Directory удалит данные существующего домена. "
-"Продолжить?"
-
-#: backend3/net-domain:146
+#: backend3/net-domain:147
 msgid "Domain name is not valid according RFC 1035"
 msgstr "Имя домена не соответствует RFC 1035"
 
-#: backend3/net-domain:277
+#: backend3/net-domain:294
 msgid "Error provision Active directory domain. Log in file"
 msgstr "Ошибка создания домена Active Directory. Подробности в файле"
 
-#: backend3/net-domain:350
+#: backend3/net-domain:332
+msgid "NOT OK (bind is running)"
+msgstr "НЕ ГОТОВА (запущена служба bind)"
+
+#: backend3/net-domain:343
+msgid "NOT OK (samba service is stopped)"
+msgstr "НЕ ГОТОВА (служба остановлена)"
+
+#: backend3/net-domain:380
 msgid "Please define domain name"
 msgstr "Укажите имя домена"
 
-#: backend3/net-domain:353
+#: backend3/net-domain:383
 msgid "This domain name is registered for internal purposes"
 msgstr "Указанное имя домена зарезервировано для системы"
+
+#: backend3/net-domain:426
+msgid "Passwords mismatch"
+msgstr "Введённые пароли не совпадают"
+
+#: backend3/net-domain:431
+msgid ""
+"the password is too short. It should be equal or longer than 7 characters!"
+msgstr ""
+"слишком короткий пароль. Пароль должен быть равен или более 7 символов!"
+
+#: backend3/net-domain:433
+msgid ""
+"the password does not meet the complexity criteria (must contain characters "
+"from three of the following five categories: latin letters in upper and "
+"lower cases, digits, nonalphanumeric and any other Unicode characters)!"
+msgstr ""
+"пароль не отвечает требованиям политики (должен содержать символы трёх "
+"категорий из пяти: латинские буквы в верхнем и нижнем регистре, цифры, "
+"специальные и прочие символы Unicode)!"
+
+#: backend3/net-domain:435
+msgid "Error set password for Administrator: "
+msgstr "Не удалось установить пароль администратора: "
+
+#~ msgid ""
+#~ "Provision new domain will overwrite existing Active Directory domain. "
+#~ "Continue?"
+#~ msgstr ""
+#~ "Создание нового домена Active Directory удалит данные существующего "
+#~ "домена. Продолжить?"
 
 #~ msgid "Serve kerberos domain:"
 #~ msgstr "Обслуживать домен Kerberos"

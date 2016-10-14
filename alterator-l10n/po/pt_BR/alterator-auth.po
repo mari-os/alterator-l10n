@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-11 17:24+0300\n"
+"POT-Creation-Date: 2016-10-14 16:18+0300\n"
 "PO-Revision-Date: 2009-09-14 18:35-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -94,7 +94,7 @@ msgstr "Aplicar"
 msgid "Please, fill field "
 msgstr ""
 
-#: ui/auth/index.scm:16 backend3/auth:223
+#: ui/auth/index.scm:16 backend3/auth:228
 msgid "Netbios name should not be more 15 chars"
 msgstr ""
 
@@ -196,25 +196,26 @@ msgstr "local"
 msgid "Kerberos domain is not used"
 msgstr "Kerberos"
 
-#: backend3/auth:214
-msgid "Domain not set"
+#: backend3/auth:217
+#, fuzzy
+msgid "Domain not set:"
 msgstr "Domínio não configurado"
 
-#: backend3/auth:224
+#: backend3/auth:229
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:225
+#: backend3/auth:230
 #, fuzzy
 msgid "Unknown administrator name"
 msgstr "Administrador DN:"
 
-#: backend3/auth:226
+#: backend3/auth:231
 #, fuzzy
 msgid "Wrong password"
 msgstr "Sem senha"
 
-#: backend3/auth:227
+#: backend3/auth:232
 #, fuzzy
 msgid "Unable to access to Active Directory domain:"
 msgstr "Não é possível destruir o domínio do sistema"

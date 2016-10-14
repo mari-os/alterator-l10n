@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-04 15:36+0300\n"
+"POT-Creation-Date: 2016-10-14 16:18+0300\n"
 "PO-Revision-Date: 2009-08-22 02:17+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Domain"
 msgstr "Домен"
 
-#: standard input:1 input:29
+#: standard input:1 input:36
 msgid "Domain:"
 msgstr "Домен:"
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid " is not installed"
 msgstr "ВС не створено"
 
-#: standard input:15 input:27
+#: standard input:15 input:34
 #, fuzzy
 msgid "Current status:"
 msgstr "Поточна дата:"
@@ -130,75 +130,130 @@ msgid ""
 "Linux workstation authentication.)"
 msgstr ""
 
+#: standard input:27
+#, fuzzy
+msgid "Additional options:"
+msgstr "Додаткові програми:"
+
 #: standard input:28
+#, fuzzy
+msgid "DNS forwarders:"
+msgstr "Сервери DNS:"
+
+#: standard input:29
+msgid "(IP addresses of additional DNS servers)"
+msgstr ""
+
+#: standard input:30
+msgid "Administrator password:"
+msgstr "Пароль адміністратора"
+
+#: standard input:31
+#, fuzzy
+msgid "(password for Administrator user)"
+msgstr "Пароль системного адміністратора:"
+
+#: standard input:32
+#, fuzzy
+msgid "Reply password:"
+msgstr "Змінити пароль:"
+
+#: standard input:33
+msgid "(repeat passphrase)"
+msgstr "(повторіть пароль)"
+
+#: standard input:35
 #, fuzzy
 msgid "Service:"
 msgstr "Служби:"
 
-#: standard input:30
+#: standard input:37
 msgid "Realm:"
 msgstr ""
 
-#: standard input:31
+#: standard input:38
 #, fuzzy
 msgid "DC name:"
 msgstr "Прізвище:"
 
-#: standard input:32
+#: standard input:39
 msgid "LDAP server:"
 msgstr "Сервер LDAP:"
 
-#: standard input:33
+#: standard input:40
 #, fuzzy
 msgid "KDC server:"
 msgstr "Сервер DNS:"
 
-#: standard input:34
+#: standard input:41
 msgid "DNS only"
 msgstr ""
 
-#: standard input:35
+#: standard input:42
 msgid "(Serves only DNS requests)"
 msgstr ""
 
-#: standard input:36
+#: standard input:43
 msgid "Attention:"
 msgstr "Увага:"
 
-#: standard input:37
+#: standard input:44
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:38
+#: standard input:45
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:39
+#: standard input:46
 msgid "Reset"
 msgstr "Скинути"
 
-#: ui/net-domain/ajax.scm:79
-msgid ""
-"Provision new domain will overwrite existing Active Directory domain. "
-"Continue?"
-msgstr ""
-
-#: backend3/net-domain:146
+#: backend3/net-domain:147
 #, fuzzy
 msgid "Domain name is not valid according RFC 1035"
 msgstr "Ім'я домену дуже довге"
 
-#: backend3/net-domain:277
+#: backend3/net-domain:294
 msgid "Error provision Active directory domain. Log in file"
 msgstr ""
 
-#: backend3/net-domain:350
+#: backend3/net-domain:332
+msgid "NOT OK (bind is running)"
+msgstr ""
+
+#: backend3/net-domain:343
+msgid "NOT OK (samba service is stopped)"
+msgstr ""
+
+#: backend3/net-domain:380
 msgid "Please define domain name"
 msgstr "Будь-ласка визначте ім'я домену"
 
-#: backend3/net-domain:353
+#: backend3/net-domain:383
 msgid "This domain name is registered for internal purposes"
 msgstr "Вказане ім'я домену зарезервонано для внутрішніх потреб"
+
+#: backend3/net-domain:426
+msgid "Passwords mismatch"
+msgstr "Паролі не співпадають"
+
+#: backend3/net-domain:431
+msgid ""
+"the password is too short. It should be equal or longer than 7 characters!"
+msgstr ""
+
+#: backend3/net-domain:433
+msgid ""
+"the password does not meet the complexity criteria (must contain characters "
+"from three of the following five categories: latin letters in upper and "
+"lower cases, digits, nonalphanumeric and any other Unicode characters)!"
+msgstr ""
+
+#: backend3/net-domain:435
+#, fuzzy
+msgid "Error set password for Administrator: "
+msgstr "Пароль системного адміністратора:"
 
 #, fuzzy
 #~ msgid "Serve kerberos domain:"
