@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-17 16:44+0400\n"
+"POT-Creation-Date: 2016-10-20 16:57+0300\n"
 "PO-Revision-Date: 2009-01-29 13:20-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -24,9 +24,9 @@ msgstr ""
 msgid "Display"
 msgstr "Vídeo"
 
-#: standard input:1 ui/x11/monitor/index.scm:9
-msgid "Monitor vendors:"
-msgstr "Marca do Monitor:"
+#: standard input:1 ui/x11/driver/index.scm:10
+msgid "Drivers:"
+msgstr "Drivers"
 
 #: standard input:2 input:5 ui/x11/index.scm:119
 msgid "Apply"
@@ -36,38 +36,17 @@ msgstr "Aplicar"
 msgid "Reset"
 msgstr "Resetar"
 
-#: standard input:4 ui/x11/driver/index.scm:10
-msgid "Drivers:"
-msgstr "Drivers"
+#: standard input:4 ui/x11/monitor/index.scm:9
+msgid "Monitor vendors:"
+msgstr "Marca do Monitor:"
 
-#: ui/x11/monitor/index.scm:22 ui/x11/driver/index.scm:25
+#: ui/x11/driver/index.scm:25 ui/x11/monitor/index.scm:22
 msgid "OK"
 msgstr "OK"
 
-#: ui/x11/monitor/index.scm:28 ui/x11/driver/index.scm:31
+#: ui/x11/driver/index.scm:31 ui/x11/monitor/index.scm:28
 msgid "Cancel"
 msgstr "Cancelar"
-
-#. messages from C tools
-#: ui/x11/c-messages.scm:2
-msgid "Yes"
-msgstr "Sim"
-
-#: ui/x11/c-messages.scm:3
-msgid "No"
-msgstr "Não"
-
-#: ui/x11/c-messages.scm:4
-msgid "Pause"
-msgstr "Pausar"
-
-#: ui/x11/c-messages.scm:5
-msgid "Press 'Yes' if you see a correct picture!"
-msgstr "Clique no Botão \"Sim\" se você está olhando a Foto Correta!"
-
-#: ui/x11/c-messages.scm:6
-msgid "Resume"
-msgstr "Resumir"
 
 #: ui/x11/index.scm:31
 #, fuzzy
@@ -108,7 +87,7 @@ msgstr ""
 
 #: ui/x11/index.scm:94
 #, fuzzy
-msgid "Set display size:"
+msgid "Specify display size:"
 msgstr "Vídeo"
 
 #: ui/x11/index.scm:102
@@ -128,39 +107,60 @@ msgstr ""
 msgid "Quit"
 msgstr "Sair"
 
-#: backend3/x11:165 backend3/x11:193 backend3/x11:218
+#. messages from C tools
+#: ui/x11/c-messages.scm:2
+msgid "Yes"
+msgstr "Sim"
+
+#: ui/x11/c-messages.scm:3
+msgid "No"
+msgstr "Não"
+
+#: ui/x11/c-messages.scm:4
+msgid "Pause"
+msgstr "Pausar"
+
+#: ui/x11/c-messages.scm:5
+msgid "Press 'Yes' if you see a correct picture!"
+msgstr "Clique no Botão \"Sim\" se você está olhando a Foto Correta!"
+
+#: ui/x11/c-messages.scm:6
+msgid "Resume"
+msgstr "Resumir"
+
+#: backend3/x11:166 backend3/x11:198 backend3/x11:223
 msgid "automatically"
 msgstr "automaticamente"
 
-#: backend3/x11:174
+#: backend3/x11:179
 msgid "recommended"
 msgstr "recomendado"
 
-#: backend3/x11:201
+#: backend3/x11:206
 msgid "256 colors (8 bit)"
 msgstr "256 cores (8bit)"
 
-#: backend3/x11:202
+#: backend3/x11:207
 msgid "32 thousand colors (15 bits)"
 msgstr "32 milhões de cores (15bits)"
 
-#: backend3/x11:203
+#: backend3/x11:208
 msgid "65 thousand colors (16 bits)"
 msgstr "65 Milhões de Cores (16 bits)"
 
-#: backend3/x11:204
+#: backend3/x11:209
 msgid "16 million colors (24 bits)"
 msgstr "16 milhões de cores (24bits)"
 
-#: backend3/x11:205
+#: backend3/x11:210
 msgid "4 billion colors (32 bits)"
 msgstr "4 bilhões de cores (32bits)"
 
-#: backend3/x11:206
+#: backend3/x11:211
 msgid "bits"
 msgstr "bits"
 
-#: backend3/x11:487
+#: backend3/x11:499
 msgid "no workcopy was found"
 msgstr "nenhuma copia de trabalho foi encontrada"
 
