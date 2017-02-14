@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2011, 2012, 2013, 2015, 2016.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2011, 2012, 2013, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-14 16:18+0300\n"
-"PO-Revision-Date: 2016-10-14 16:20+0300\n"
+"POT-Creation-Date: 2017-02-10 12:00+0300\n"
+"PO-Revision-Date: 2017-02-14 11:26+0300\n"
 "Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
@@ -144,11 +144,11 @@ msgstr "Домен Active Directory"
 
 #: ui/auth/index.scm:114
 msgid ""
-"Unable to find winbind service. Please, install package samba-winbind and "
-"try again."
+"Package task-auth-ad in not installed. Authentication in Active Directory is "
+"not available."
 msgstr ""
-"Не удалось обнаружить службу winbind. Установите пакет samba-winbind и "
-"попробуйте снова."
+"Не установлен пакет task-auth-ad. Аутентификация в Active Directory "
+"недоступна."
 
 #: ui/auth/index.scm:116
 msgid "Domain:"
@@ -198,6 +198,13 @@ msgstr "Неправильный пароль"
 #: backend3/auth:232
 msgid "Unable to access to Active Directory domain:"
 msgstr "Невозможно подключиться к домену Active Directory: "
+
+#~ msgid ""
+#~ "Unable to find winbind service. Please, install package samba-winbind and "
+#~ "try again."
+#~ msgstr ""
+#~ "Не удалось обнаружить службу winbind. Установите пакет samba-winbind и "
+#~ "попробуйте снова."
 
 #~ msgid "Auth type:"
 #~ msgstr "Тип аутентификации:"
