@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-10 12:00+0300\n"
+"POT-Creation-Date: 2017-02-28 17:57+0300\n"
 "PO-Revision-Date: 2009-03-19 15:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -68,37 +68,73 @@ msgstr "Base DN:"
 msgid "Select"
 msgstr "Seleccionar"
 
-#: standard input:11 ui/auth/index.scm:86
+#: standard input:11 ui/auth/index.scm:122
 #, fuzzy
 msgid "Current domain:"
 msgstr "Configurar la Fecha Actual:"
 
-#: standard input:12 ui/auth/index.scm:101
+#: standard input:12 ui/auth/index.scm:139
 #, fuzzy
 msgid "Domain list:"
 msgstr "Accesso de Escrita"
 
-#: standard input:13 ui/auth/index.scm:138
+#: standard input:13 ui/auth/index.scm:199
 msgid "Attention: "
 msgstr ""
 
-#: standard input:14 ui/auth/index.scm:139
+#: standard input:14 ui/auth/index.scm:200
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:15 ui/auth/index.scm:145
+#: standard input:15 ui/auth/index.scm:206
 msgid "Apply"
 msgstr "Aplicar"
+
+#: ui/auth/admin-password.scm:24
+msgid "Enter the name and password of an account"
+msgstr ""
+
+#: ui/auth/admin-password.scm:24
+msgid "with permission to join the domain."
+msgstr ""
+
+#: ui/auth/admin-password.scm:25
+#, fuzzy
+msgid "Username:"
+msgstr "Nome de la carpeta"
+
+#: ui/auth/admin-password.scm:27
+#, fuzzy
+msgid "Password:"
+msgstr ""
+"#-#-#-#-#  alterator-ahttpd.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#\n"
+"Contraseña\n"
+"#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-sysconfig.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:"
+
+#: ui/auth/admin-password.scm:30
+msgid "OK"
+msgstr "OK"
+
+#: ui/auth/admin-password.scm:31
+msgid "Cancel"
+msgstr "Cancelar"
 
 #: ui/auth/index.scm:11
 msgid "Please, fill field "
 msgstr ""
 
-#: ui/auth/index.scm:16 backend3/auth:228
+#: ui/auth/index.scm:16 backend3/auth:253
 msgid "Netbios name should not be more 15 chars"
 msgstr ""
 
-#: ui/auth/index.scm:22
+#: ui/auth/index.scm:22 ui/auth/index.scm:27
 #, fuzzy
 msgid "Domain"
 msgstr "Procurar Dominios:"
@@ -108,83 +144,80 @@ msgstr "Procurar Dominios:"
 msgid "Netbios name"
 msgstr "Nombre de la Rede:"
 
-#: ui/auth/index.scm:24
+#: ui/auth/index.scm:28
 #, fuzzy
-msgid "Administrator name"
-msgstr "Administrador DN:"
+msgid "Host name"
+msgstr "hostname:"
 
-#: ui/auth/index.scm:25
-#, fuzzy
-msgid "Administrator password"
-msgstr "Administrador del Sistema"
-
-#: ui/auth/index.scm:39
+#. Show welcome message for AD and FreeIPA
+#: ui/auth/index.scm:58
 msgid "Welcome to the "
 msgstr ""
 
-#: ui/auth/index.scm:39
+#: ui/auth/index.scm:58
 #, fuzzy
 msgid " domain."
 msgstr "Adiccionar Cliente"
 
 #. Local database
-#: ui/auth/index.scm:90
+#: ui/auth/index.scm:126
 msgid "Local database"
 msgstr ""
 
 #. ALT domain
-#: ui/auth/index.scm:93
+#: ui/auth/index.scm:130
 #, fuzzy
 msgid "ALT Linux domain"
 msgstr "Adiccionar Cliente"
 
-#: ui/auth/index.scm:99 ui/auth/index.scm:114
+#: ui/auth/index.scm:136 ui/auth/index.scm:158 ui/auth/index.scm:184
 #, fuzzy
 msgid "Warning: "
 msgstr "Aviso:"
 
-#: ui/auth/index.scm:99
+#: ui/auth/index.scm:136
 msgid "Search for domains is impossible because avahi-daemon is not started"
 msgstr ""
 
-#: ui/auth/index.scm:105
+#: ui/auth/index.scm:148
 msgid "Use cached credentials for out of domain login"
 msgstr ""
 
 #. Active Directory
-#: ui/auth/index.scm:108
+#: ui/auth/index.scm:152
 msgid "Active Directory domain"
 msgstr ""
 
-#: ui/auth/index.scm:114
+#: ui/auth/index.scm:158
 msgid ""
-"Package task-auth-ad in not installed. Authentication in Active Directory is "
-"not available."
+"Neither task-auth-ad nor task-auth-ad-sssd is installed. Authentication in "
+"Active Directory is not available."
 msgstr ""
 
-#: ui/auth/index.scm:116
+#: ui/auth/index.scm:161 ui/auth/index.scm:187
 #, fuzzy
 msgid "Domain:"
 msgstr "Procurar Dominios:"
 
-#: ui/auth/index.scm:119
+#: ui/auth/index.scm:166
 msgid "Workgroup:"
 msgstr "Grupo de trabajo"
 
-#: ui/auth/index.scm:122
-#, fuzzy
-msgid "Netbios name:"
-msgstr "Nombre de la Rede:"
+#: ui/auth/index.scm:171 ui/auth/index.scm:192
+msgid "Computer name:"
+msgstr "Nombre de la computadora:"
 
-#. Active Directory administrator authentication
-#: ui/auth/index.scm:126
+#. FreeIPA
+#: ui/auth/index.scm:178
 #, fuzzy
-msgid "Administrator name:"
-msgstr "Administrador DN:"
+msgid "FreeIPA domain"
+msgstr "Adiccionar Cliente"
 
-#: ui/auth/index.scm:129
-msgid "Administrator password:"
-msgstr "Administrador del Sistema"
+#: ui/auth/index.scm:184
+msgid ""
+"Package task-auth-freeipa is not installed. Authentication in FreeIPA is not "
+"available."
+msgstr ""
 
 #: backend3/auth:73
 msgid "local"
@@ -195,29 +228,59 @@ msgstr ""
 msgid "Kerberos domain is not used"
 msgstr "Borrar conección"
 
-#: backend3/auth:217
+#: backend3/auth:242
 #, fuzzy
-msgid "Domain not set:"
+msgid "Domain does not set:"
 msgstr "Accesso de Escrita"
 
-#: backend3/auth:229
+#: backend3/auth:254
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:230
+#: backend3/auth:255
 #, fuzzy
 msgid "Unknown administrator name"
 msgstr "Administrador DN:"
 
-#: backend3/auth:231
+#: backend3/auth:256
 #, fuzzy
 msgid "Wrong password"
 msgstr "Contraseña"
 
-#: backend3/auth:232
+#: backend3/auth:257
 #, fuzzy
-msgid "Unable to access to Active Directory domain:"
+msgid "Unable to join to Active Directory domain:"
 msgstr "No fue posible configurar el reloj"
+
+#: backend3/auth:261
+#, fuzzy
+msgid "Unable to find IPA Server to join"
+msgstr "No fue posible configurar el reloj"
+
+#: backend3/auth:262
+#, fuzzy
+msgid "Incorrect administrator password"
+msgstr "Administrador del Sistema"
+
+#: backend3/auth:263
+#, fuzzy
+msgid "Unable to join to FreeIPA domain:"
+msgstr "No fue posible configurar el reloj"
+
+#, fuzzy
+#~ msgid "Administrator name"
+#~ msgstr "Administrador DN:"
+
+#, fuzzy
+#~ msgid "Netbios name:"
+#~ msgstr "Nombre de la Rede:"
+
+#, fuzzy
+#~ msgid "Administrator name:"
+#~ msgstr "Administrador DN:"
+
+#~ msgid "Administrator password:"
+#~ msgstr "Administrador del Sistema"
 
 #~ msgid "Auth type:"
 #~ msgstr "Tipo de Autentificación:"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-10 12:00+0300\n"
-"PO-Revision-Date: 2017-02-14 11:26+0300\n"
+"POT-Creation-Date: 2017-02-28 17:57+0300\n"
+"PO-Revision-Date: 2017-02-28 17:58+0300\n"
 "Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
@@ -63,35 +63,59 @@ msgstr "Базовый DN:"
 msgid "Select"
 msgstr "Показать список"
 
-#: standard input:11 ui/auth/index.scm:86
+#: standard input:11 ui/auth/index.scm:122
 msgid "Current domain:"
 msgstr "Используется домен:"
 
-#: standard input:12 ui/auth/index.scm:101
+#: standard input:12 ui/auth/index.scm:139
 msgid "Domain list:"
 msgstr "Выберите домен:"
 
-#: standard input:13 ui/auth/index.scm:138
+#: standard input:13 ui/auth/index.scm:199
 msgid "Attention: "
 msgstr "Внимание! "
 
-#: standard input:14 ui/auth/index.scm:139
+#: standard input:14 ui/auth/index.scm:200
 msgid "Domain change needs reboot for normal operation"
 msgstr "Изменение домена заработает только после перезагрузки компьютера"
 
-#: standard input:15 ui/auth/index.scm:145
+#: standard input:15 ui/auth/index.scm:206
 msgid "Apply"
 msgstr "Применить"
+
+#: ui/auth/admin-password.scm:24
+msgid "Enter the name and password of an account"
+msgstr "Введите пароль для учётной записи"
+
+#: ui/auth/admin-password.scm:24
+msgid "with permission to join the domain."
+msgstr "с правами подключения к домену."
+
+#: ui/auth/admin-password.scm:25
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: ui/auth/admin-password.scm:27
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ui/auth/admin-password.scm:30
+msgid "OK"
+msgstr "OK"
+
+#: ui/auth/admin-password.scm:31
+msgid "Cancel"
+msgstr "Отмена"
 
 #: ui/auth/index.scm:11
 msgid "Please, fill field "
 msgstr "Не заполнено поле "
 
-#: ui/auth/index.scm:16 backend3/auth:228
+#: ui/auth/index.scm:16 backend3/auth:253
 msgid "Netbios name should not be more 15 chars"
 msgstr "Имя Netbios не должно быть более 15 символов"
 
-#: ui/auth/index.scm:22
+#: ui/auth/index.scm:22 ui/auth/index.scm:27
 msgid "Domain"
 msgstr "Домен"
 
@@ -99,77 +123,78 @@ msgstr "Домен"
 msgid "Netbios name"
 msgstr "Имя Netbios"
 
-#: ui/auth/index.scm:24
-msgid "Administrator name"
-msgstr "Имя администратора"
+#: ui/auth/index.scm:28
+msgid "Host name"
+msgstr "Имя компьютера"
 
-#: ui/auth/index.scm:25
-msgid "Administrator password"
-msgstr "Пароль администратора"
-
-#: ui/auth/index.scm:39
+#. Show welcome message for AD and FreeIPA
+#: ui/auth/index.scm:58
 msgid "Welcome to the "
 msgstr "Добро пожаловать в домен "
 
-#: ui/auth/index.scm:39
+#: ui/auth/index.scm:58
 msgid " domain."
 msgstr "."
 
 #. Local database
-#: ui/auth/index.scm:90
+#: ui/auth/index.scm:126
 msgid "Local database"
 msgstr "Локальная база пользователей"
 
 #. ALT domain
-#: ui/auth/index.scm:93
+#: ui/auth/index.scm:130
 msgid "ALT Linux domain"
 msgstr "Домен ALT Linux "
 
-#: ui/auth/index.scm:99 ui/auth/index.scm:114
+#: ui/auth/index.scm:136 ui/auth/index.scm:158 ui/auth/index.scm:184
 msgid "Warning: "
 msgstr "Внимание: "
 
-#: ui/auth/index.scm:99
+#: ui/auth/index.scm:136
 msgid "Search for domains is impossible because avahi-daemon is not started"
 msgstr "Поиск доменa невозможен, так как служба avahi-daemon не запущена"
 
-#: ui/auth/index.scm:105
+#: ui/auth/index.scm:148
 msgid "Use cached credentials for out of domain login"
 msgstr "Кэшировать аутентификацию при недоступности сервера домена"
 
 #. Active Directory
-#: ui/auth/index.scm:108
+#: ui/auth/index.scm:152
 msgid "Active Directory domain"
 msgstr "Домен Active Directory"
 
-#: ui/auth/index.scm:114
+#: ui/auth/index.scm:158
 msgid ""
-"Package task-auth-ad in not installed. Authentication in Active Directory is "
-"not available."
+"Neither task-auth-ad nor task-auth-ad-sssd is installed. Authentication in "
+"Active Directory is not available."
 msgstr ""
-"Не установлен пакет task-auth-ad. Аутентификация в Active Directory "
-"недоступна."
+"Не установлен пакет task-auth-ad или task-auth-ad-sssd. Аутентификация в "
+"Active Directory недоступна."
 
-#: ui/auth/index.scm:116
+#: ui/auth/index.scm:161 ui/auth/index.scm:187
 msgid "Domain:"
 msgstr "Домен:"
 
-#: ui/auth/index.scm:119
+#: ui/auth/index.scm:166
 msgid "Workgroup:"
 msgstr "Рабочая группа:"
 
-#: ui/auth/index.scm:122
-msgid "Netbios name:"
-msgstr "Имя Netbios:"
+#: ui/auth/index.scm:171 ui/auth/index.scm:192
+msgid "Computer name:"
+msgstr "Имя компьютера:"
 
-#. Active Directory administrator authentication
-#: ui/auth/index.scm:126
-msgid "Administrator name:"
-msgstr "Имя администратора:"
+#. FreeIPA
+#: ui/auth/index.scm:178
+msgid "FreeIPA domain"
+msgstr "Домен FreeIPA"
 
-#: ui/auth/index.scm:129
-msgid "Administrator password:"
-msgstr "Пароль администратора:"
+#: ui/auth/index.scm:184
+msgid ""
+"Package task-auth-freeipa is not installed. Authentication in FreeIPA is not "
+"available."
+msgstr ""
+"Не установлен пакет task-auth-freeipa. Аутентификация в домене FreeIPA "
+"недоступна."
 
 #: backend3/auth:73
 msgid "local"
@@ -179,25 +204,49 @@ msgstr "Не использовать домен"
 msgid "Kerberos domain is not used"
 msgstr "используется локальная база пользователей"
 
-#: backend3/auth:217
-msgid "Domain not set:"
-msgstr "Домен не установлен:"
+#: backend3/auth:242
+msgid "Domain does not set:"
+msgstr "Не удалось подключиться к домену:"
 
-#: backend3/auth:229
+#: backend3/auth:254
 msgid "Cannot contact KDC for realm"
 msgstr "Невозможно найти KDC указанного домена"
 
-#: backend3/auth:230
+#: backend3/auth:255
 msgid "Unknown administrator name"
 msgstr "Неизвестное имя администратора"
 
-#: backend3/auth:231
+#: backend3/auth:256
 msgid "Wrong password"
 msgstr "Неправильный пароль"
 
-#: backend3/auth:232
-msgid "Unable to access to Active Directory domain:"
+#: backend3/auth:257
+msgid "Unable to join to Active Directory domain:"
 msgstr "Невозможно подключиться к домену Active Directory: "
+
+#: backend3/auth:261
+msgid "Unable to find IPA Server to join"
+msgstr "Невозможно найти сервер FreeIPA"
+
+#: backend3/auth:262
+msgid "Incorrect administrator password"
+msgstr "Указан неверный пароль администратора"
+
+#: backend3/auth:263
+msgid "Unable to join to FreeIPA domain:"
+msgstr "Невозможно подключиться к домену FreeIPA:"
+
+#~ msgid "Administrator name"
+#~ msgstr "Имя администратора"
+
+#~ msgid "Netbios name:"
+#~ msgstr "Имя Netbios:"
+
+#~ msgid "Administrator name:"
+#~ msgstr "Имя администратора:"
+
+#~ msgid "Administrator password:"
+#~ msgstr "Пароль администратора:"
 
 #~ msgid ""
 #~ "Unable to find winbind service. Please, install package samba-winbind and "
