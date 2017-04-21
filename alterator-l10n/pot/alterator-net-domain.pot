@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-14 16:18+0300\n"
+"POT-Creation-Date: 2017-04-19 19:14+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid " is not installed"
 msgstr ""
 
-#: standard input:15 input:34
+#: standard input:15 input:34 input:51
 msgid "Current status:"
 msgstr ""
 
@@ -118,7 +118,7 @@ msgid ""
 "Linux workstation authentication.)"
 msgstr ""
 
-#: standard input:27
+#: standard input:27 input:46
 msgid "Additional options:"
 msgstr ""
 
@@ -130,15 +130,15 @@ msgstr ""
 msgid "(IP addresses of additional DNS servers)"
 msgstr ""
 
-#: standard input:30
+#: standard input:30 input:47
 msgid "Administrator password:"
 msgstr ""
 
-#: standard input:31
+#: standard input:31 input:48
 msgid "(password for Administrator user)"
 msgstr ""
 
-#: standard input:32
+#: standard input:32 input:49
 msgid "Reply password:"
 msgstr ""
 
@@ -158,78 +158,149 @@ msgstr ""
 msgid "DC name:"
 msgstr ""
 
-#: standard input:39
+#: standard input:39 input:53
 msgid "LDAP server:"
 msgstr ""
 
-#: standard input:40
+#: standard input:40 input:54
 msgid "KDC server:"
 msgstr ""
 
-#: standard input:41
-msgid "DNS only"
-msgstr ""
-
-#: standard input:42
-msgid "(Serves only DNS requests)"
+#: standard input:41 input:42
+msgid "FreeIPA"
 msgstr ""
 
 #: standard input:43
-msgid "Attention:"
+msgid ""
+"(FreeIPA domain controller. Suitable both for Microsoft Windows and Linux "
+"workstation authentication.)"
 msgstr ""
 
 #: standard input:44
-msgid "Domain change needs reboot for normal operation"
+msgid "This feature is unavailable because packages "
 msgstr ""
 
 #: standard input:45
+msgid " are not installed"
+msgstr ""
+
+#: standard input:50
+msgid "(repeat password)"
+msgstr ""
+
+#: standard input:52
+msgid "Name server:"
+msgstr ""
+
+#: standard input:55
+msgid "Cache server:"
+msgstr ""
+
+#: standard input:56
+msgid "PKI:"
+msgstr ""
+
+#: standard input:57
+msgid "Secrets Sharing (Custodia):"
+msgstr ""
+
+#: standard input:58
+msgid "One-time passwords:"
+msgstr ""
+
+#: standard input:59
+msgid "Web server:"
+msgstr ""
+
+#: standard input:61
+msgid "Cancel"
+msgstr ""
+
+#: standard input:62
+msgid "DNS only"
+msgstr ""
+
+#: standard input:63
+msgid "(Serves only DNS requests)"
+msgstr ""
+
+#: standard input:64
+msgid "Attention:"
+msgstr ""
+
+#: standard input:65
+msgid "Domain change needs reboot for normal operation"
+msgstr ""
+
+#: standard input:66
 msgid "Apply"
 msgstr ""
 
-#: standard input:46
+#: standard input:67
 msgid "Reset"
 msgstr ""
 
-#: backend3/net-domain:147
-msgid "Domain name is not valid according RFC 1035"
+#: ui/net-domain/ajax.scm:21
+msgid "UP"
 msgstr ""
 
-#: backend3/net-domain:294
-msgid "Error provision Active directory domain. Log in file"
+#: ui/net-domain/ajax.scm:22
+msgid "DOWN"
 msgstr ""
 
-#: backend3/net-domain:332
-msgid "NOT OK (bind is running)"
+#: ui/net-domain/ajax.scm:32
+msgid "Install"
 msgstr ""
 
-#: backend3/net-domain:343
-msgid "NOT OK (samba service is stopped)"
+#: ui/net-domain/ajax.scm:33
+msgid "Uninstall"
 msgstr ""
 
-#: backend3/net-domain:380
-msgid "Please define domain name"
-msgstr ""
-
-#: backend3/net-domain:383
-msgid "This domain name is registered for internal purposes"
-msgstr ""
-
-#: backend3/net-domain:426
+#: ui/net-domain/ajax.scm:104 ui/net-domain/ajax.scm:111
 msgid "Passwords mismatch"
 msgstr ""
 
-#: backend3/net-domain:431
-msgid ""
-"the password is too short. It should be equal or longer than 7 characters!"
+#: backend3/net-domain:147
+msgid "Domain name is not valid according to RFC 1035"
 msgstr ""
 
-#: backend3/net-domain:433
+#: backend3/net-domain:305
+msgid "Error provisioning the Active directory domain. Log is in"
+msgstr ""
+
+#: backend3/net-domain:481
+msgid "NOT OK (bind is running)"
+msgstr ""
+
+#: backend3/net-domain:547
+msgid "Please define a domain name"
+msgstr ""
+
+#: backend3/net-domain:550
+msgid "This name is registered for internal purposes"
+msgstr ""
+
+#: backend3/net-domain:610
 msgid ""
-"the password does not meet the complexity criteria (must contain characters "
+"The password is too short. It should be equal or longer than 7 characters!"
+msgstr ""
+
+#: backend3/net-domain:613
+msgid ""
+"The password does not meet the complexity criteria (must contain characters "
 "from three of the following five categories: latin letters in upper and "
 "lower cases, digits, nonalphanumeric and any other Unicode characters)!"
 msgstr ""
 
-#: backend3/net-domain:435
-msgid "Error set password for Administrator: "
+#: backend3/net-domain:615
+msgid "Error setting password for Administrator:"
+msgstr ""
+
+#: backend3/net-domain:627
+msgid "Password should not be empty"
+msgstr ""
+
+#. # FIXME: password in the command line
+#: backend3/net-domain:647
+msgid "Failed to start the IPA installer"
 msgstr ""

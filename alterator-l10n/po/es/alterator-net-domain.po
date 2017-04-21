@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-14 16:18+0300\n"
+"POT-Creation-Date: 2017-04-19 19:14+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -89,7 +89,7 @@ msgstr ""
 msgid " is not installed"
 msgstr "Por selecionado:"
 
-#: standard input:15 input:34
+#: standard input:15 input:34 input:51
 #, fuzzy
 msgid "Current status:"
 msgstr "Estado actual:"
@@ -133,7 +133,7 @@ msgid ""
 "Linux workstation authentication.)"
 msgstr ""
 
-#: standard input:27
+#: standard input:27 input:46
 #, fuzzy
 msgid "Additional options:"
 msgstr "Parámetros adicionais"
@@ -147,16 +147,16 @@ msgstr "Servidores DNS:"
 msgid "(IP addresses of additional DNS servers)"
 msgstr ""
 
-#: standard input:30
+#: standard input:30 input:47
 msgid "Administrator password:"
 msgstr "Administrador del Sistema"
 
-#: standard input:31
+#: standard input:31 input:48
 #, fuzzy
 msgid "(password for Administrator user)"
 msgstr "Contraseña para administrador del sistema:"
 
-#: standard input:32
+#: standard input:32 input:49
 #, fuzzy
 msgid "Reply password:"
 msgstr "Cambiar contraseña:"
@@ -179,37 +179,94 @@ msgstr ""
 msgid "DC name:"
 msgstr "Nome de la carpeta"
 
-#: standard input:39
+#: standard input:39 input:53
 msgid "LDAP server:"
 msgstr "Servidor LDAP:"
 
-#: standard input:40
+#: standard input:40 input:54
 #, fuzzy
 msgid "KDC server:"
 msgstr "Servidor DNS:"
 
-#: standard input:41
+#: standard input:41 input:42
+#, fuzzy
+msgid "FreeIPA"
+msgstr "Livre"
+
+#: standard input:43
+msgid ""
+"(FreeIPA domain controller. Suitable both for Microsoft Windows and Linux "
+"workstation authentication.)"
+msgstr ""
+
+#: standard input:44
+msgid "This feature is unavailable because packages "
+msgstr ""
+
+#: standard input:45
+#, fuzzy
+msgid " are not installed"
+msgstr "Por selecionado:"
+
+#: standard input:50
+#, fuzzy
+msgid "(repeat password)"
+msgstr "(repetir la contraseña)"
+
+#: standard input:52
+#, fuzzy
+msgid "Name server:"
+msgstr "Servidor DNS:"
+
+#: standard input:55
+#, fuzzy
+msgid "Cache server:"
+msgstr "Servidor DNS:"
+
+#: standard input:56
+msgid "PKI:"
+msgstr ""
+
+#: standard input:57
+msgid "Secrets Sharing (Custodia):"
+msgstr ""
+
+#: standard input:58
+#, fuzzy
+msgid "One-time passwords:"
+msgstr "Cambiar contraseña:"
+
+#: standard input:59
+#, fuzzy
+msgid "Web server:"
+msgstr "Servidor DNS:"
+
+#: standard input:61
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: standard input:62
 msgid "DNS only"
 msgstr ""
 
-#: standard input:42
+#: standard input:63
 msgid "(Serves only DNS requests)"
 msgstr ""
 
-#: standard input:43
+#: standard input:64
 #, fuzzy
 msgid "Attention:"
 msgstr "Acción"
 
-#: standard input:44
+#: standard input:65
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:45
+#: standard input:66
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:46
+#: standard input:67
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -266,48 +323,71 @@ msgstr ""
 "#-#-#-#-#  alterator-xkb.po (Alterator)  #-#-#-#-#\n"
 "Resetar"
 
-#: backend3/net-domain:147
-msgid "Domain name is not valid according RFC 1035"
+#: ui/net-domain/ajax.scm:21
+msgid "UP"
 msgstr ""
 
-#: backend3/net-domain:294
-msgid "Error provision Active directory domain. Log in file"
+#: ui/net-domain/ajax.scm:22
+msgid "DOWN"
 msgstr ""
 
-#: backend3/net-domain:332
-msgid "NOT OK (bind is running)"
-msgstr ""
-
-#: backend3/net-domain:343
-msgid "NOT OK (samba service is stopped)"
-msgstr ""
-
-#: backend3/net-domain:380
+#: ui/net-domain/ajax.scm:32
 #, fuzzy
-msgid "Please define domain name"
-msgstr "Procurar Dominios:"
+msgid "Install"
+msgstr "Instalación completa"
 
-#: backend3/net-domain:383
-msgid "This domain name is registered for internal purposes"
-msgstr ""
+#: ui/net-domain/ajax.scm:33
+#, fuzzy
+msgid "Uninstall"
+msgstr "Por selecionado:"
 
-#: backend3/net-domain:426
+#: ui/net-domain/ajax.scm:104 ui/net-domain/ajax.scm:111
 msgid "Passwords mismatch"
 msgstr "Contraseña"
 
-#: backend3/net-domain:431
-msgid ""
-"the password is too short. It should be equal or longer than 7 characters!"
+#: backend3/net-domain:147
+msgid "Domain name is not valid according to RFC 1035"
 msgstr ""
 
-#: backend3/net-domain:433
+#: backend3/net-domain:305
+msgid "Error provisioning the Active directory domain. Log is in"
+msgstr ""
+
+#: backend3/net-domain:481
+msgid "NOT OK (bind is running)"
+msgstr ""
+
+#: backend3/net-domain:547
+#, fuzzy
+msgid "Please define a domain name"
+msgstr "Procurar Dominios:"
+
+#: backend3/net-domain:550
+msgid "This name is registered for internal purposes"
+msgstr ""
+
+#: backend3/net-domain:610
 msgid ""
-"the password does not meet the complexity criteria (must contain characters "
+"The password is too short. It should be equal or longer than 7 characters!"
+msgstr ""
+
+#: backend3/net-domain:613
+msgid ""
+"The password does not meet the complexity criteria (must contain characters "
 "from three of the following five categories: latin letters in upper and "
 "lower cases, digits, nonalphanumeric and any other Unicode characters)!"
 msgstr ""
 
-#: backend3/net-domain:435
+#: backend3/net-domain:615
 #, fuzzy
-msgid "Error set password for Administrator: "
+msgid "Error setting password for Administrator:"
 msgstr "Configuración del sistema administrador:"
+
+#: backend3/net-domain:627
+msgid "Password should not be empty"
+msgstr ""
+
+#. # FIXME: password in the command line
+#: backend3/net-domain:647
+msgid "Failed to start the IPA installer"
+msgstr ""
