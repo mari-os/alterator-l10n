@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-29 16:02+0300\n"
+"POT-Creation-Date: 2018-06-01 17:15+0300\n"
 "PO-Revision-Date: 2009-08-21 14:04+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -64,24 +64,24 @@ msgstr "Базовий DN:"
 msgid "Select"
 msgstr "Обрати"
 
-#: standard input:11 ui/auth/index.scm:122
+#: standard input:11 ui/auth/index.scm:101
 msgid "Current domain:"
 msgstr "Поточний домен:"
 
-#: standard input:12 ui/auth/index.scm:139
+#: standard input:12
 msgid "Domain list:"
 msgstr "Перелік доменів:"
 
-#: standard input:13 ui/auth/index.scm:199
+#: standard input:13 ui/auth/index.scm:174
 #, fuzzy
 msgid "Attention: "
 msgstr "Автентифікація"
 
-#: standard input:14 ui/auth/index.scm:200
+#: standard input:14 ui/auth/index.scm:175
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:15 ui/auth/index.scm:206
+#: standard input:15 ui/auth/index.scm:181
 msgid "Apply"
 msgstr "Застосувати"
 
@@ -110,93 +110,88 @@ msgstr ""
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: ui/auth/index.scm:11
+#: ui/auth/index.scm:7
 msgid "Please, fill field "
 msgstr ""
 
-#: ui/auth/index.scm:16 backend3/auth:253
+#: ui/auth/index.scm:12 backend3/auth:250
 msgid "Netbios name should not be more 15 chars"
 msgstr ""
 
-#: ui/auth/index.scm:22 ui/auth/index.scm:27
+#: ui/auth/index.scm:18 ui/auth/index.scm:21 ui/auth/index.scm:26
 msgid "Domain"
 msgstr "Домен"
 
-#: ui/auth/index.scm:23
+#: ui/auth/index.scm:22
 #, fuzzy
 msgid "Netbios name"
 msgstr "Ім'я мережі"
 
-#: ui/auth/index.scm:28
+#: ui/auth/index.scm:27
 #, fuzzy
 msgid "Host name"
 msgstr "Ім'я вузла"
 
 #. Show welcome message for AD and FreeIPA
-#: ui/auth/index.scm:58
+#: ui/auth/index.scm:57
 msgid "Welcome to the "
 msgstr ""
 
-#: ui/auth/index.scm:58
+#: ui/auth/index.scm:57
 #, fuzzy
 msgid " domain."
 msgstr "Домен"
 
 #. Local database
-#: ui/auth/index.scm:126
+#: ui/auth/index.scm:105
 msgid "Local database"
 msgstr ""
 
 #. ALT domain
-#: ui/auth/index.scm:130
-#, fuzzy
-msgid "ALT Linux domain"
-msgstr "Призначте домен:"
-
-#: ui/auth/index.scm:136 ui/auth/index.scm:158 ui/auth/index.scm:184
-#, fuzzy
-msgid "Warning: "
-msgstr "Попередження:"
-
-#: ui/auth/index.scm:136
-msgid "Search for domains is impossible because avahi-daemon is not started"
+#: ui/auth/index.scm:109
+msgid "ALT Linux domain or Astra Linux Directory"
 msgstr ""
 
-#: ui/auth/index.scm:148
+#: ui/auth/index.scm:114 ui/auth/index.scm:136 ui/auth/index.scm:162
+msgid "Domain:"
+msgstr "Домен:"
+
+#: ui/auth/index.scm:123
 msgid "Use cached credentials for out of domain login"
 msgstr ""
 
 #. Active Directory
-#: ui/auth/index.scm:152
+#: ui/auth/index.scm:127
 msgid "Active Directory domain"
 msgstr ""
 
-#: ui/auth/index.scm:158
+#: ui/auth/index.scm:133 ui/auth/index.scm:159
+#, fuzzy
+msgid "Warning: "
+msgstr "Попередження:"
+
+#: ui/auth/index.scm:133
 msgid ""
 "Package task-auth-ad-sssd is not installed. Authentication with Active "
-"Directory is not available. Package task-auth-ad is not enough because it "
-"uses non-recommended winbind."
+"Directory is not available.<br />Package task-auth-ad is not enough because "
+"it uses non-recommended winbind."
 msgstr ""
 
-#: ui/auth/index.scm:161 ui/auth/index.scm:187
-msgid "Domain:"
-msgstr "Домен:"
-
-#: ui/auth/index.scm:166
+#: ui/auth/index.scm:141
 msgid "Workgroup:"
 msgstr "Робоча група:"
 
-#: ui/auth/index.scm:171 ui/auth/index.scm:192
+#: ui/auth/index.scm:146 ui/auth/index.scm:167
 msgid "Computer name:"
 msgstr "Ім'я комп'ютера:"
 
 #. FreeIPA
-#: ui/auth/index.scm:178
+#: ui/auth/index.scm:153
 #, fuzzy
 msgid "FreeIPA domain"
 msgstr "Призначте домен:"
 
-#: ui/auth/index.scm:184
+#: ui/auth/index.scm:159
 msgid ""
 "Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
 "not available."
@@ -211,44 +206,53 @@ msgstr ""
 msgid "Kerberos domain is not used"
 msgstr "Домен Kerberos"
 
-#: backend3/auth:242
+#: backend3/auth:239
 #, fuzzy
 msgid "Domain does not set:"
 msgstr "Домен не встановлено"
 
-#: backend3/auth:254
+#: backend3/auth:251 backend3/auth:259
+#, fuzzy
+msgid "Unable to find specified domain"
+msgstr "Неможливо створити теку під нову систему"
+
+#: backend3/auth:252
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:255
+#: backend3/auth:253
 #, fuzzy
 msgid "Unknown administrator name"
 msgstr "DN адміністратора:"
 
-#: backend3/auth:256
+#: backend3/auth:254
 #, fuzzy
 msgid "Wrong password"
 msgstr "Пароля немає"
 
-#: backend3/auth:257
+#: backend3/auth:255
 #, fuzzy
 msgid "Unable to join to Active Directory domain:"
 msgstr "Неможливо створити теку під нову систему"
 
-#: backend3/auth:261
+#: backend3/auth:260
 #, fuzzy
 msgid "Unable to find IPA Server to join"
 msgstr "Неможливо визначити версію RAID"
 
-#: backend3/auth:262
+#: backend3/auth:261
 #, fuzzy
 msgid "Incorrect administrator password"
 msgstr "Пароль адміністратора"
 
-#: backend3/auth:263
+#: backend3/auth:262
 #, fuzzy
 msgid "Unable to join to FreeIPA domain:"
 msgstr "Неможливо створити теку під нову систему"
+
+#, fuzzy
+#~ msgid "ALT Linux domain"
+#~ msgstr "Призначте домен:"
 
 #, fuzzy
 #~ msgid "Administrator name"
