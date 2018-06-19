@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9.41
-Release: alt1
+Release: alt0.M80P.1
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
 
@@ -114,6 +114,9 @@ make check
 %lang(de) %_datadir/locale/de/LC_MESSAGES/*.mo
 
 %changelog
+* Tue Jun 19 2018 Andrey Cherepanov <cas@altlinux.org> 2.9.41-alt0.M80P.1
+- Backport new version to p8 branch.
+
 * Fri Jun 01 2018 Andrey Cherepanov <cas@altlinux.org> 2.9.41-alt1
 - Update translations for alterator-auth 0.36.
 
