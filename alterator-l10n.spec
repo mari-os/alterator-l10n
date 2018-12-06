@@ -1,5 +1,5 @@
 Name: alterator-l10n
-Version: 2.9.42
+Version: 2.9.43
 Release: alt1
 
 Packager: Andrey Cherepanov <cas@altlinux.org>
@@ -114,6 +114,9 @@ make check
 %lang(de) %_datadir/locale/de/LC_MESSAGES/*.mo
 
 %changelog
+* Thu Dec 06 2018 Sergey V Turchin <zerg@altlinux.org> 2.9.43-alt1
+- update russian translation
+
 * Mon Jul 09 2018 Michael Shigorin <mike@altlinux.org> 2.9.42-alt1
 - Fix typos
 
