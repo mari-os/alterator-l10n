@@ -117,6 +117,9 @@ make check
 * Mon Jul 09 2018 Michael Shigorin <mike@altlinux.org> 2.9.42-alt1
 - Fix typos
 
+* Tue Jun 19 2018 Andrey Cherepanov <cas@altlinux.org> 2.9.41-alt0.M80P.1
+- Backport new version to p8 branch.
+
 * Fri Jun 01 2018 Andrey Cherepanov <cas@altlinux.org> 2.9.41-alt1
 - Update translations for alterator-auth 0.36.
 
