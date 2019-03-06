@@ -1,14 +1,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008, 2015, 2016.
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2015, 2016, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-04 18:30+0300\n"
-"PO-Revision-Date: 2016-03-04 18:31+0300\n"
-"Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
+"POT-Creation-Date: 2019-03-06 12:02+0300\n"
+"PO-Revision-Date: 2019-03-06 12:03+0300\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.org>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -70,11 +70,11 @@ msgstr "(повторите фразу)"
 msgid "Generate"
 msgstr "Сгенерировать"
 
-#: standard input:12 ui/users/index.scm:58
+#: standard input:12 ui/users/index.scm:65
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:13 ui/users/index.scm:60
+#: standard input:13 ui/users/index.scm:67
 msgid "Delete user"
 msgstr "Удалить пользователя"
 
@@ -85,6 +85,11 @@ msgstr "Вы действительно хотите удалить пользо
 #: ui/users/index.scm:50 ui/users/add/index.scm:94
 msgid "Autologin"
 msgstr "Автоматический вход в систему"
+
+#.
+#: ui/users/index.scm:56
+msgid "Kiosk profile:"
+msgstr "Режим киоска"
 
 #: ui/users/add/index.scm:16
 msgid "You should define a system user"
@@ -102,82 +107,86 @@ msgstr "Новая учётная запись пользователя"
 msgid "Name:"
 msgstr "Имя:"
 
-#: backend3/users:64
+#: backend3/users:66
 msgid "can't update password file"
 msgstr "невозможно обновить базу паролей"
 
 #. '
-#: backend3/users:65 backend3/users:119
+#: backend3/users:67 backend3/users:121
 msgid "invalid command syntax"
 msgstr "неверный синтаксис команды"
 
-#: backend3/users:66
+#: backend3/users:68
 msgid "invalid argument to option"
 msgstr "неверный параметр к аргументу"
 
-#: backend3/users:67
+#: backend3/users:69
 msgid "uid already in use"
 msgstr "uid уже используется"
 
-#: backend3/users:68
+#: backend3/users:70
 msgid "specified user doesn't exist"
 msgstr "пользователь не существует"
 
 #. '
-#: backend3/users:69
+#: backend3/users:71
 msgid "user currently logged in"
 msgstr "пользователь сейчас в системе"
 
-#: backend3/users:70
+#: backend3/users:72
 msgid "username already in use"
 msgstr "имя пользователя уже занято"
 
-#: backend3/users:71 backend3/users:125
+#: backend3/users:73 backend3/users:127
 msgid "can't update group file"
 msgstr "невозможно обновить базу групп"
 
 #. '
-#: backend3/users:72
+#: backend3/users:74
 msgid "can't create or remove home directory"
 msgstr "невозможно создать или удалить домашний каталог"
 
 #. '
-#: backend3/users:73
+#: backend3/users:75
 msgid "can't create mail spool"
 msgstr "невозможно создать почтовую очередь"
 
-#: backend3/users:82
+#: backend3/users:84
 msgid "cannot change password"
 msgstr "невозможно изменить пароль"
 
-#: backend3/users:104
+#: backend3/users:106
 msgid "Passwords mismatch"
 msgstr "Введённые пароли не совпадают"
 
-#: backend3/users:120
+#: backend3/users:122
 msgid "invalid group name"
 msgstr "неверное имя группы"
 
-#: backend3/users:121
+#: backend3/users:123
 msgid "gid not unique"
 msgstr "gid не уникален"
 
-#: backend3/users:122
+#: backend3/users:124
 msgid "specified group doesn't exist"
 msgstr "указанная группа не существует"
 
-#: backend3/users:123
+#: backend3/users:125
 msgid "can't remove user's primary group"
 msgstr "невозможно удалить первичную группу пользователя"
 
 #. '
-#: backend3/users:124
+#: backend3/users:126
 msgid "group name not unique"
 msgstr "имя группы уже занято"
 
-#: backend3/users:142
+#: backend3/users:144
 msgid "unable to add user %s to group %s"
 msgstr "невозможно добавить пользователя %s в группу %s"
+
+#: backend3/users:185
+msgid "Default desktop"
+msgstr "Обычный рабочий стол"
 
 #~ msgid "Do not ask at login"
 #~ msgstr "Не спрашивать пароль при входе"

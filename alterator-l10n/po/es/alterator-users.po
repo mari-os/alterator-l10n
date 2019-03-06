@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-04 18:30+0300\n"
+"POT-Creation-Date: 2019-03-06 12:02+0300\n"
 "PO-Revision-Date: 2009-03-27 22:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -72,11 +72,11 @@ msgstr "(repetir la contraseña)"
 msgid "Generate"
 msgstr "Generar"
 
-#: standard input:12 ui/users/index.scm:58
+#: standard input:12 ui/users/index.scm:65
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:13 ui/users/index.scm:60
+#: standard input:13 ui/users/index.scm:67
 msgid "Delete user"
 msgstr "Borrar usuário"
 
@@ -86,6 +86,11 @@ msgstr "Usted realmente desea borrar el usuário"
 
 #: ui/users/index.scm:50 ui/users/add/index.scm:94
 msgid "Autologin"
+msgstr ""
+
+#.
+#: ui/users/index.scm:56
+msgid "Kiosk profile:"
 msgstr ""
 
 #: ui/users/add/index.scm:16
@@ -104,82 +109,87 @@ msgstr "Nueva cuenta del usuário"
 msgid "Name:"
 msgstr "Nombre:"
 
-#: backend3/users:64
+#: backend3/users:66
 msgid "can't update password file"
 msgstr "No use su contraseña"
 
 #. '
-#: backend3/users:65 backend3/users:119
+#: backend3/users:67 backend3/users:121
 msgid "invalid command syntax"
 msgstr "Comando syntax inválido"
 
-#: backend3/users:66
+#: backend3/users:68
 msgid "invalid argument to option"
 msgstr "Argumento de opcione inválido"
 
-#: backend3/users:67
+#: backend3/users:69
 msgid "uid already in use"
 msgstr "UID ya está en uso"
 
-#: backend3/users:68
+#: backend3/users:70
 msgid "specified user doesn't exist"
 msgstr "usuário espeficado no existe"
 
 #. '
-#: backend3/users:69
+#: backend3/users:71
 msgid "user currently logged in"
 msgstr "Usuário actual logado"
 
-#: backend3/users:70
+#: backend3/users:72
 msgid "username already in use"
 msgstr "Nombre de usuário ya está en uso"
 
-#: backend3/users:71 backend3/users:125
+#: backend3/users:73 backend3/users:127
 msgid "can't update group file"
 msgstr "No puede actualizar archivos de grupo"
 
 #. '
-#: backend3/users:72
+#: backend3/users:74
 msgid "can't create or remove home directory"
 msgstr "No fue posible crear o remover directorio inicial"
 
 #. '
-#: backend3/users:73
+#: backend3/users:75
 msgid "can't create mail spool"
 msgstr "No puede crear spool de mail"
 
-#: backend3/users:82
+#: backend3/users:84
 msgid "cannot change password"
 msgstr "No puede cambiar contraseña"
 
-#: backend3/users:104
+#: backend3/users:106
 msgid "Passwords mismatch"
 msgstr "Contraseña"
 
-#: backend3/users:120
+#: backend3/users:122
 msgid "invalid group name"
 msgstr "Nombre del grupo inválido"
 
-#: backend3/users:121
+#: backend3/users:123
 msgid "gid not unique"
 msgstr "GID no és único"
 
-#: backend3/users:122
+#: backend3/users:124
 msgid "specified group doesn't exist"
 msgstr "grupo especificado não existe"
 
-#: backend3/users:123
+#: backend3/users:125
 msgid "can't remove user's primary group"
 msgstr "No puede remover grupo primário de usuários"
 
 #. '
-#: backend3/users:124
+#: backend3/users:126
 msgid "group name not unique"
 msgstr "nombre del grupo no és único"
 
-#: backend3/users:142
+#: backend3/users:144
 msgid "unable to add user %s to group %s"
 msgstr "No adiccionar usário %s para grupo %s"
+
+#: backend3/users:185
+#, fuzzy
+msgid "Default desktop"
+msgstr "Lista de Sitio Predeterminado"
 
 #~ msgid "Select"
 #~ msgstr "Seleccionar"
