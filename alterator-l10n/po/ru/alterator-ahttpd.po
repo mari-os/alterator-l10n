@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-13 16:17+0400\n"
-"PO-Revision-Date: 2008-09-01 18:01+0400\n"
+"PO-Revision-Date: 2019-04-12 13:43+0300\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -66,9 +66,13 @@ msgstr "Центр управления системой"
 msgid "Module access settings..."
 msgstr "Параметры доступа к модулю..."
 
-#: standard input:12
+#: interfaces/guile/login.scm:184
 msgid "Please login"
 msgstr "Пожалуйста, зарегистрируйтесь"
+
+#: interfaces/guile/login.scm:185
+msgid "Please, continue with login"
+msgstr "Пожалуйста, продолжите регистрацию"
 
 #: standard input:13
 msgid "Account name:"
@@ -338,6 +342,10 @@ msgstr "Неверный сертификат"
 #: backend3/login:25
 msgid "Authentication failed"
 msgstr "Аутентификация не прошла"
+
+#: interfaces/guile/login.scm:154
+msgid "Login denied for user ~a!"
+msgstr "Запрещено регистрироваться под именем ~a!"
 
 #~ msgid "Hide help"
 #~ msgstr "Скрыть справку"
