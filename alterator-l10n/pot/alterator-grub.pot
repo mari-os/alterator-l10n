@@ -25,15 +25,15 @@ msgstr ""
 msgid "Grub"
 msgstr ""
 
-#: standard input:1 ui/grub/index.scm:32
+#: standard input:1 ui/grub/index.scm:32 ui/grub/index.html:11
 msgid "Device:"
 msgstr ""
 
-#: standard input:2 ui/grub/index.scm:62
+#: standard input:2 ui/grub/index.scm:62 ui/grub/index.html:32
 msgid "Install"
 msgstr ""
 
-#: standard input:3 ui/grub/index.scm:66
+#: standard input:3 ui/grub/index.scm:66 ui/grub/index.html:33
 msgid "Reset"
 msgstr ""
 
@@ -41,50 +41,86 @@ msgstr ""
 msgid "Boot options password"
 msgstr ""
 
-#: ui/grub/index.scm:38
+#: ui/grub/index.scm:37 (alterator-grub >= 0.12)
+msgid "Boot options password (username: boot)"
+msgstr ""
+
+#: ui/grub/index.scm:38 ui/grub/index.html:16
 msgid "Set/reset password"
 msgstr ""
 
-#: ui/grub/index.scm:45
+#: ui/grub/index.scm:45 ui/grub/index.html:19
 msgid "(enter passphrase)"
 msgstr ""
 
-#: ui/grub/index.scm:50
+#: ui/grub/index.scm:50 ui/grub/index.html:23
 msgid "(repeat passphrase)"
 msgstr ""
 
-#: backend3/grub:31 backend3/grub:33
+#: backend3/grub:33
 msgid "Can't create tempfile "
 msgstr ""
 
-#: backend3/grub:64
-msgid "Internal error"
+#: backend3/grub:41
+msgid "Can't create grub menu"
 msgstr ""
 
-#: backend3/grub:70
-msgid "You should define a password for boot with options"
+#: backend3/grub:88
+msgid "Can't backup or/and clear NVRAM!"
 msgstr ""
 
-#: backend3/grub:72
-msgid "Passwords mismatch"
-msgstr ""
-
-#: backend3/grub:108
-msgid "EFI"
+#: backend3/grub:99
+msgid "Can't install grub into"
 msgstr ""
 
 #: backend3/grub:111
+msgid "Internal error"
+msgstr ""
+
+#: backend3/grub:117
+msgid "You should define a password for boot with options"
+msgstr ""
+
+#: backend3/grub:119
+msgid "Passwords mismatch"
+msgstr ""
+
+#: backend3/grub:108 (alterator-grub < 0.12-alt4)
+msgid "EFI"
+msgstr ""
+
+#: backend3/grub:155
+msgid "EFI (recommended)"
+msgstr ""
+
+#: backend3/grub:156
+msgid "EFI (clear NVRAM before)"
+msgstr ""
+
+#: backend3/grub:157
+msgid "EFI (disable write to NVRAM)"
+msgstr ""
+
+#: backend3/grub:160
 msgid "Skip bootloader install"
 msgstr ""
 
-#: backend3/grub:125
+#: backend3/grub:174
 msgid "No device for install given!"
 msgstr ""
 
-#: backend3/grub:141 backend3/grub:145
+#: backend3/grub:186
 msgid "Can't install grub on "
 msgstr ""
 
-#: backend3/grub:141
+#: backend3/grub:191
 msgid " even using blocklists :"
+msgstr ""
+
+#: bin/grub-disk:20
+msgid "Hard drive"
+msgstr ""
+
+#: bin/grub-disk:21
+msgid "Linux partition"
 msgstr ""

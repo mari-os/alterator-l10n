@@ -26,15 +26,15 @@ msgstr "Настройка загрузчика"
 msgid "Grub"
 msgstr "Grub"
 
-#: standard input:1 ui/grub/index.scm:32
+#: standard input:1 ui/grub/index.scm:32 ui/grub/index.html:11
 msgid "Device:"
 msgstr "Устройство:"
 
-#: standard input:2 ui/grub/index.scm:62
+#: standard input:2 ui/grub/index.scm:62 ui/grub/index.html:32
 msgid "Install"
 msgstr "Установить"
 
-#: standard input:3 ui/grub/index.scm:66
+#: standard input:3 ui/grub/index.scm:66 ui/grub/index.html:33
 msgid "Reset"
 msgstr "Сбросить"
 
@@ -46,59 +46,82 @@ msgstr "Пароль на загрузчик"
 msgid "Boot options password (username: boot)"
 msgstr "Пароль на загрузчик (имя пользователя: boot)"
 
-#: ui/grub/index.scm:38
+#: ui/grub/index.scm:38 ui/grub/index.html:16
 msgid "Set/reset password"
 msgstr "Установить или сбросить пароль"
 
-#: ui/grub/index.scm:45
+#: ui/grub/index.scm:45 ui/grub/index.html:19
 msgid "(enter passphrase)"
 msgstr "(введите фразу)"
 
-#: ui/grub/index.scm:50
+#: ui/grub/index.scm:50 ui/grub/index.html:23
 msgid "(repeat passphrase)"
 msgstr "(повторите фразу)"
 
-#: backend3/grub:31 backend3/grub:33
+#: backend3/grub:33
 msgid "Can't create tempfile "
-msgstr "Невозможно создать временный файл"
+msgstr "Невозможно создать временный файл "
 
-#: backend3/grub:64
+#: backend3/grub:41
+msgid "Can't create grub menu"
+msgstr "Невозможно создать меню загрузчика"
+
+#: backend3/grub:88
+msgid "Can't backup or/and clear NVRAM!"
+msgstr "Невозможно сохранить и/или очистить NVRAM!"
+
+#: backend3/grub:99
+msgid "Can't install grub into"
+msgstr "Невозможно установить загрузчик в"
+
+#: backend3/grub:111
 msgid "Internal error"
 msgstr "Внутренняя ошибка"
 
-#: backend3/grub:70
+#: backend3/grub:117
 msgid "You should define a password for boot with options"
 msgstr "Вы должны указать пароль на загрузчик"
 
-#: backend3/grub:72
+#: backend3/grub:119
 msgid "Passwords mismatch"
 msgstr "Введённые пароли не совпадают"
 
-#: backend3/grub:108
+#: backend3/grub:108 (alterator-grub < 0.12-alt4)
 msgid "EFI"
 msgstr "EFI"
 
-#: backend3/grub:111
+#: backend3/grub:155
+msgid "EFI (recommended)"
+msgstr "EFI (рекомендуемый)"
+
+#: backend3/grub:156
+msgid "EFI (clear NVRAM before)"
+msgstr "EFI (сначала очистить NVRAM)"
+
+#: backend3/grub:157
+msgid "EFI (disable write to NVRAM)"
+msgstr "EFI (запретить запись в NVRAM)"
+
+#: backend3/grub:160
 msgid "Skip bootloader install"
 msgstr "Не устанавливать загрузчик"
 
-#: backend3/grub:125
+#: backend3/grub:174
 msgid "No device for install given!"
 msgstr "Не указано устройство для установки загрузчика!"
 
-#: backend3/grub:141 backend3/grub:145
+#: backend3/grub:186
 msgid "Can't install grub on "
 msgstr "Невозможно установить загрузчик на "
 
-#: backend3/grub:141
+#: backend3/grub:191
 msgid " even using blocklists :"
 msgstr " даже используя списки :"
 
-msgid "RAID"
-msgstr "RAID"
-
+#: bin/grub-disk:20
 msgid "Hard drive"
 msgstr "Жёсткий диск"
 
+#: bin/grub-disk:21
 msgid "Linux partition"
 msgstr "Раздел Linux"
