@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2019-09-11 17:00+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -38,13 +38,23 @@ msgstr "Обліковий запис:"
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:5 ui/sysconfig/proxy/index.scm:26
+#: standard input:5 ui/sysconfig/proxy/index.scm:22
+#, fuzzy
+msgid "No Proxy for:"
+msgstr "Proxy сервер:"
+
+#: standard input:6 ui/sysconfig/proxy/index.scm:32
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:6 ui/sysconfig/proxy/index.scm:27
+#: standard input:7 ui/sysconfig/proxy/index.scm:33
 msgid "Reset"
 msgstr "Скинути"
+
+#: ui/sysconfig/proxy/index.scm:24
+#, fuzzy
+msgid "(multiple values should be comma separated)"
+msgstr "(декілька значень мають бути розділені пробілами)"
 
 #: ui/sysconfig/base/index.scm:26
 msgid "Help"
@@ -62,34 +72,34 @@ msgstr "Оберіть Вашу мову:"
 msgid "Please select keyboard switch type:"
 msgstr "Оберіть варіант переключення розкладки клавіатури:"
 
-#: backend3/sysconfig-base:29
+#: backend3/sysconfig-base:31
 msgid "Alt+Shift key"
 msgstr "Клавіша Alt+Shift"
 
-#: backend3/sysconfig-base:30
+#: backend3/sysconfig-base:32
 msgid "CapsLock key"
 msgstr "Клавіша CapsLock"
 
-#: backend3/sysconfig-base:31
+#: backend3/sysconfig-base:33
 msgid "Control+Shift keys"
 msgstr "Клавіша Control+Shift"
 
-#: backend3/sysconfig-base:32
+#: backend3/sysconfig-base:34
 msgid "Control key"
 msgstr "Клавіша Control"
 
-#: backend3/sysconfig-base:33
+#: backend3/sysconfig-base:35
 msgid "Alt key"
 msgstr "Клавіша Alt"
 
-#: backend3/sysconfig-base:34
+#: backend3/sysconfig-base:36
 msgid "Control+Shift keys (UK,RU,EN)"
 msgstr "Клавіша Control+Shift (UK,RU,EN)"
 
-#: backend3/sysconfig-base:35
+#: backend3/sysconfig-base:37
 msgid "Default"
 msgstr "Типово"
 
-#: backend3/sysconfig-base:36
+#: backend3/sysconfig-base:38
 msgid "Without dead keys"
 msgstr "Без 'мертвих' клавіш"

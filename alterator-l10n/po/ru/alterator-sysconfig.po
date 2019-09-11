@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2019-09-11 17:00+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -39,13 +39,21 @@ msgstr "Учётная запись:"
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:5 ui/sysconfig/proxy/index.scm:26
+#: standard input:5 ui/sysconfig/proxy/index.scm:22
+msgid "No Proxy for:"
+msgstr "Не использовать прокси для:"
+
+#: standard input:6 ui/sysconfig/proxy/index.scm:32
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:6 ui/sysconfig/proxy/index.scm:27
+#: standard input:7 ui/sysconfig/proxy/index.scm:33
 msgid "Reset"
 msgstr "Сбросить"
+
+#: ui/sysconfig/proxy/index.scm:24
+msgid "(multiple values should be comma separated)"
+msgstr "(несколько значений записываются через запятую)"
 
 #: ui/sysconfig/base/index.scm:26
 msgid "Help"
@@ -63,34 +71,34 @@ msgstr "Выберите язык:"
 msgid "Please select keyboard switch type:"
 msgstr "Выберите вариант переключения раскладки клавиатуры:"
 
-#: backend3/sysconfig-base:29
+#: backend3/sysconfig-base:31
 msgid "Alt+Shift key"
 msgstr "Клавиши Alt и Shift одновременно"
 
-#: backend3/sysconfig-base:30
+#: backend3/sysconfig-base:32
 msgid "CapsLock key"
 msgstr "Клавиша CapsLock"
 
-#: backend3/sysconfig-base:31
+#: backend3/sysconfig-base:33
 msgid "Control+Shift keys"
 msgstr "Клавиши Control и Shift одновременно"
 
-#: backend3/sysconfig-base:32
+#: backend3/sysconfig-base:34
 msgid "Control key"
 msgstr "Клавиша Control"
 
-#: backend3/sysconfig-base:33
+#: backend3/sysconfig-base:35
 msgid "Alt key"
 msgstr "Клавиша Alt"
 
-#: backend3/sysconfig-base:34
+#: backend3/sysconfig-base:36
 msgid "Control+Shift keys (UK,RU,EN)"
 msgstr "Клавиши Control и Shift одновременно (UK, RU, EN)"
 
-#: backend3/sysconfig-base:35
+#: backend3/sysconfig-base:37
 msgid "Default"
 msgstr "По умолчанию"
 
-#: backend3/sysconfig-base:36
+#: backend3/sysconfig-base:38
 msgid "Without dead keys"
 msgstr "Без 'мёртвых' клавиш"
