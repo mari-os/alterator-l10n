@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <h2>Доменные политики</h2>
+    <p>Модуль предназначен для настройки доменных политик для машин под управлением Линукса на основе назначенных Group Policy Object (GPO) Active Directory.</p>
+
+	<h3>Подготовка</h3>
+    <p>Перед началом использования модуля следует:</p>
+	<ol>
+		<li>Развернуть на этом же компьютере контроллер домена Active Directory с помощью <tt>alterator-net-domain</tt>.</li>
+		<li>С помощью Remote Server Administration Tools на системах под управлением Windows создать необходимое количество GPO и привязать их к объектам домена. По умолчанию доступно две политики: <strong>Default Domain Policy</strong> для всего домена и <strong>Заключительная стадия</strong>, которая выполняется после всех других политик.</li>
+		<li>Сделайте доступным для синхронизации шаблоны из пакета <tt>adp-templates</tt>. Для домена <tt>alt.domain</tt> это следующие команды:<br />
+<tt>mkdir /var/lib/samba/sysvol/alt.domain/templates<br />
+mount /usr/libexec/adp /var/lib/samba/sysvol/alt.domain/templates -o bind</tt></li>
+		<li>Создайте каталог для заключительной стадии. Для домена <tt>alt.domain</tt> это следующая команда:<br />
+<tt>mkdir -p /var/lib/samba/sysvol/alt.domain/Policies/postscript/{User,Machine}</tt></li>
+	</ol>
+
+	<h3>Настройка политик</h3>
+	<ol>
+		<li>Выберите в левом списке доступную политику, затем тип объектов, которые будут с ней работать: для пользователя или для машины.</li>
+		<li>Включите флажок у необходимого шаблона и в появившихся полях укажите необходимые параметры.</li>
+		<li>Проделайте то же самое для всех нужных шаблонов.</li>
+		<li>Нажмите на кнопку <i>Применить</i> для сохранения изменений.</li>
+	</ol>
+  </body>
+</html>
