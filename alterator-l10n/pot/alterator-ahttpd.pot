@@ -100,28 +100,60 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-#: standard input:21
+#: ui/ahttpd/power/index.html:11
 msgid "Continue work"
 msgstr ""
 
-#: standard input:22
+#: ui/ahttpd/power/index.html:14
 msgid "Turn off computer now"
 msgstr ""
 
-#: standard input:23
+#: ui/ahttpd/power/index.html:17
 msgid "Reboot computer now"
 msgstr ""
 
-#: standard input:24
+#: ui/ahttpd/power/index.html:20
+msgid "Suspend computer now"
+msgstr ""
+
+#: ui/ahttpd/power/index.html:23
+msgid "Hibernate computer now"
+msgstr ""
+
+#: ui/ahttpd/power/index.html:31
 msgid "Turn off computer every day at:"
 msgstr ""
 
-#: standard input:25
+#: ui/ahttpd/power/index.html:38
+msgid "Reboot the computer every day at:"
+msgstr ""
+
+#: ui/ahttpd/power/index.html:45
+msgid "Suspend the computer every day at:"
+msgstr ""
+
+#: ui/ahttpd/power/index.html:52
+msgid "Hibernate the computer every day at:"
+msgstr ""
+
+#: ui/ahttpd/power/index.html:62
+msgid "On system state transition send e-mail to:"
+msgstr ""
+
+#: ui/ahttpd/power/index.html:73
 msgid "System is going to reboot now..."
 msgstr ""
 
-#: standard input:26
+#: ui/ahttpd/power/index.html:77
 msgid "System is going to shutdown now..."
+msgstr ""
+
+#: ui/ahttpd/power/index.html:81
+msgid "System is going to suspend now..."
+msgstr ""
+
+#: ui/ahttpd/power/index.html:85
+msgid "System is going to hibernate now..."
 msgstr ""
 
 #: standard input:29
@@ -268,8 +300,7 @@ msgstr ""
 msgid "December"
 msgstr ""
 
-#: interfaces/guile/ajax.scm:333 ui/ahttpd/power/ajax.scm:24
-#: ui/ahttpd/power/ajax.scm:29
+#: interfaces/guile/ajax.scm:333 ui/ahttpd/power/ajax.scm:60
 msgid "Question"
 msgstr ""
 
@@ -293,20 +324,28 @@ msgstr ""
 msgid "only digits and latin letters allowed"
 msgstr ""
 
-#: ui/ahttpd/power/ajax.scm:24
-msgid "Are you really want to shutdown system?"
+#: ui/ahttpd/power/ajax.scm:78
+msgid "Do you really want to shutdown the system?"
 msgstr ""
 
-#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+#: ui/ahttpd/power/ajax.scm:82
+msgid "Do you really want to reboot the system?"
+msgstr ""
+
+#: ui/ahttpd/power/ajax.scm:86
+msgid "Do you really want to suspend the system?"
+msgstr ""
+
+#: ui/ahttpd/power/ajax.scm:90
+msgid "Do you really want to hibernate the system?"
+msgstr ""
+
+#: ui/ahttpd/power/ajax.scm:60
 msgid "Yes"
 msgstr ""
 
-#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+#: ui/ahttpd/power/ajax.scm:60
 msgid "No"
-msgstr ""
-
-#: ui/ahttpd/power/ajax.scm:29
-msgid "Are you really want to reboot system?"
 msgstr ""
 
 #: backend3/ahttpd-acl:108
