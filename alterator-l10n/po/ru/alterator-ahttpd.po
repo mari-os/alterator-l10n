@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-13 16:17+0400\n"
-"PO-Revision-Date: 2019-04-12 13:43+0300\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"PO-Revision-Date: 2019-12-10 18:20+0300\n"
+"Last-Translator: Paul Wolneykien <manowar@altlinux.org>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -106,29 +106,61 @@ msgstr "Применить"
 msgid "Reset"
 msgstr "Сбросить"
 
-#: standard input:21
+#: ui/ahttpd/power/index.html:11
 msgid "Continue work"
 msgstr "Продолжить работу"
 
-#: standard input:22
+#: ui/ahttpd/power/index.html:14
 msgid "Turn off computer now"
 msgstr "Выключить компьютер сейчас"
 
-#: standard input:23
+#: ui/ahttpd/power/index.html:17
 msgid "Reboot computer now"
 msgstr "Перезагрузить компьютер сейчас"
 
-#: standard input:24
+#: ui/ahttpd/power/index.html:20
+msgid "Suspend computer now"
+msgstr "Приостановить компьютер сейчас"
+
+#: ui/ahttpd/power/index.html:23
+msgid "Hibernate computer now"
+msgstr "Погрузить компьютер в сон сейчас"
+
+#: ui/ahttpd/power/index.html:31
 msgid "Turn off computer every day at:"
 msgstr "Выключать компьютер каждый день в:"
 
-#: standard input:25
+#: ui/ahttpd/power/index.html:38
+msgid "Reboot the computer every day at:"
+msgstr "Перезагружать компьютер каждый день в:"
+
+#: ui/ahttpd/power/index.html:45
+msgid "Suspend the computer every day at:"
+msgstr "Приостанавливать компьютер каждый день в:"
+
+#: ui/ahttpd/power/index.html:52
+msgid "Hibernate the computer every day at:"
+msgstr "Погружать компьютер в сон каждый день в:"
+
+#: ui/ahttpd/power/index.html:62
+msgid "On system state transition send e-mail to:"
+msgstr "При изменении состояния системы отправлять электронное письмо по адресу:"
+
+#: ui/ahttpd/power/index.html:73
 msgid "System is going to reboot now..."
 msgstr "Система перезагружается..."
 
-#: standard input:26
+#: ui/ahttpd/power/index.html:77
 msgid "System is going to shutdown now..."
 msgstr "Система выключается..."
+
+#: ui/ahttpd/power/index.html:81
+msgid "System is going to suspend now..."
+msgstr "Система приостанавливается..."
+
+#: ui/ahttpd/power/index.html:85
+msgid "System is going to hibernate now..."
+msgstr "Система засыпает..."
 
 # ahttpd-acl
 #: standard input:29
@@ -277,8 +309,7 @@ msgstr "Ноябрь"
 msgid "December"
 msgstr "Декабрь"
 
-#: interfaces/guile/ajax.scm:333 ui/ahttpd/power/ajax.scm:24
-#: ui/ahttpd/power/ajax.scm:29
+#: interfaces/guile/ajax.scm:333 ui/ahttpd/power/ajax.scm:60
 msgid "Question"
 msgstr "Вопрос"
 
@@ -302,21 +333,29 @@ msgstr "Внимание"
 msgid "only digits and latin letters allowed"
 msgstr "допустимы только латинские символы и цифры"
 
-#: ui/ahttpd/power/ajax.scm:24
-msgid "Are you really want to shutdown system?"
+#: ui/ahttpd/power/ajax.scm:78
+msgid "Do you really want to shutdown the system?"
 msgstr "Вы действительно желаете выключить систему?"
 
-#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+#: ui/ahttpd/power/ajax.scm:82
+msgid "Do you really want to reboot the system?"
+msgstr "Вы действительно желаете перезагрузить систему?"
+
+#: ui/ahttpd/power/ajax.scm:86
+msgid "Do you really want to suspend the system?"
+msgstr "Вы действительно желаете приостановить систему?"
+
+#: ui/ahttpd/power/ajax.scm:90
+msgid "Do you really want to hibernate the system?"
+msgstr "Вы действительно желаете погрузить систему в сон?"
+
+#: ui/ahttpd/power/ajax.scm:60
 msgid "Yes"
 msgstr "Да"
 
-#: ui/ahttpd/power/ajax.scm:24 ui/ahttpd/power/ajax.scm:29
+#: ui/ahttpd/power/ajax.scm:60
 msgid "No"
 msgstr "Нет"
-
-#: ui/ahttpd/power/ajax.scm:29
-msgid "Are you really want to reboot system?"
-msgstr "Вы действительно желаете перезагрузить систему?"
 
 # ahttpd-acl
 #: backend3/ahttpd-acl:108
