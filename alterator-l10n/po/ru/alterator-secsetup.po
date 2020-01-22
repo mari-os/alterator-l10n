@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 09:57+0300\n"
+"POT-Creation-Date: 2020-01-22 15:23+0300\n"
 "PO-Revision-Date: 2019-12-12 16:25+0300\n"
 "Last-Translator:  <underwit@altlinux.org>\n"
 "Language-Team: Russian\n"
@@ -81,7 +81,6 @@ msgid "disable SUID bit effect on child process privileges"
 msgstr "отключить влияние suid бита на привилегии порождаемого процесса"
 
 #: alterator-secsetup/ui/secsetup/index.scm:16
-#: alterator-secsetup/ui/secsetup/index.scm:24
 msgid "exceptions: "
 msgstr "исключения: "
 
@@ -97,7 +96,14 @@ msgid "interpreters: "
 msgstr "интерпретаторы: "
 
 #: alterator-secsetup/ui/secsetup/index.scm:23
-msgid "files on partitions mounted without noexec are read-only"
-msgstr ""
-"файлы на разделах, смонтированных без noexec становятся доступными только "
-"для чтения"
+msgid "disable links for open files"
+msgstr "отключить ссылки для открытых файлов"
+
+#: alterator-secsetup/ui/secsetup/index.scm:24
+msgid "directories: "
+msgstr "каталоги: "
+
+#~ msgid "files on partitions mounted without noexec are read-only"
+#~ msgstr ""
+#~ "файлы на разделах, смонтированных без noexec становятся доступными только "
+#~ "для чтения"
