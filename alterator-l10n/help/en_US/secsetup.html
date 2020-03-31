@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <h2>Security configuration</h2>
+
+    <h3>Macro blocking</h3>
+    <p>
+        Disables macro in programs like LibreOffice and VLC Player.
+    </p>
+    <h3>Alt Hardening module</h3>
+    <p>
+    AltHa is a Linux security module (add-on) that currently has three options for user space protection:
+    <ul>
+    <li>ignore SUID bits in binary files (exceptions may be specified);</li>
+    <li>disable launch of selected interpreters in interactive mode;</li>
+    <li>disable creation of links to open files in selected directories.</li>
+    </ul>
+    </p>
+
+    <strong>More information on the module: <a href="https://www.altlinux.org/AltHa">>>></a></strong>
+
+    <h4>Disable execution bits (SUID)</h4>
+    <p>When enabled, SUID bits in all binary files, except for explicitly specified ones, are ignored throughout the entire system.</p>
+    <p>Exceptions are presented as a colon-separated list of included SUID binary files.</p>
+    <h4>Interpreter blocking (script launch prevention)</h4>
+    <p>This option blocks unauthorized interpreter usage for code execution directly from the command line.</p>
+    <p>The "Interpreters" field should contain a colon-separated list of restricted interpreters.</p>
+    <h4>Disable links to open files</h4>
+    <p>This option disables creation of links to open files.</p>
+    <p>The "Directories" field should contain a colon-separated list of directories.</p>
+  </body>
+</html>
