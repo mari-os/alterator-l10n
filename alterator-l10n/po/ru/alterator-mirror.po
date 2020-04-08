@@ -2,195 +2,207 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <skull@kde.ru>, 2008.
+# Andrey Cherepanov <cas@altlinux.org>, 2008, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-04 14:00+0400\n"
-"PO-Revision-Date: 2008-09-01 18:01+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"POT-Creation-Date: 2020-04-08 07:10+0300\n"
+"PO-Revision-Date: 2020-04-08 07:16+0300\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.org>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: standard input:15 input:22
-msgid "Apply"
-msgstr "Применить"
-
-#: standard input:3
-msgid "Architectures"
-msgstr "Архитектуры"
-
-#: standard input:19
-msgid "Architectures:"
-msgstr "Архитектуры:"
-
-#: ui/mirror/repository/ajax.scm:51
-msgid "Are really want to clear local repository?"
-msgstr "Вы действительно желаете очистить локальный репозиторий?"
-
-#: backend3/mirror:371
-msgid "Can mirror only from sources with rsync procotol"
-msgstr "Зеркалировать можно только источники работающие по протоколу rsync"
-
-#: standard input:24
-msgid "Clear local mirror"
-msgstr "Очистить локальное зеркало"
-
-#: backend3/mirror:186
-msgid "Custom url"
-msgstr "Другой адрес"
-
-#: backend3/mirror:365
-msgid "Custom url should be defined"
-msgstr "Другой адрес должен быть явно указан"
-
-#: backend3/mirror:259
-msgid "Day of month should be defined"
-msgstr "Должно быть определено число месяца"
-
-#: standard input:13
-msgid "Day of month:"
-msgstr "Число месяца:"
-
-#: backend3/mirror:254
-msgid "Day of week should be selected"
-msgstr "Должен быть выбран день недели"
-
-#: backend3/mirror:60
-msgid "Gb"
-msgstr "Гб"
-
-#: backend3/mirror:368
-msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
-msgstr ""
-"Неверный или неподдерживаемый протокол. Должно быть http, ftp или rsync"
-
-#: backend3/mirror:59 backend3/mirror:144
-msgid "Kb"
-msgstr "Кб"
-
-#: standard input:4
-msgid "Local mirror"
-msgstr "Локальное зеркало"
-
-#: standard input:20
-msgid "Local mirror of repository"
-msgstr "Локальное зеркало репозитория"
-
-#: backend3/mirror:58
-msgid "Mb"
-msgstr "Мб"
-
-#: standard input:10
-msgid "Mirror every day"
-msgstr "Зеркалировать ежедневно"
-
-#: standard input:12
-msgid "Mirror every month at day:"
-msgstr "Зеркалировать ежемесячно в день:"
-
-#: standard input:11
-msgid "Mirror every week at:"
-msgstr "Зеркалировать еженедельно в:"
-
-#: ui/mirror/repository/ajax.scm:51
-msgid "No"
-msgstr "Нет"
-
-#: standard input:21
-msgid "Publish as a repository for automatic updates"
-msgstr "Опубликовать как репозиторий для автоматических обновлений"
-
-#: standard input:5
-msgid "Published"
-msgstr "Опубликовано"
-
-#: ui/mirror/repository/ajax.scm:51
-msgid "Question"
-msgstr "Вопрос"
-
-#: standard input:1
-msgid "Repository"
-msgstr "Репозиторий"
-
-#: standard input:17
-msgid "Repository:"
-msgstr "Репозиторий:"
-
-#: standard input:16 input:23
-msgid "Reset"
-msgstr "Сбросить"
-
-#: standard input:2
-msgid "Source"
-msgstr "Источник"
-
-#: standard input:18
-msgid "Source:"
-msgstr "Источник:"
-
-#: standard input:6
-msgid "Storage free space:"
-msgstr "Свободное место:"
-
-#: standard input:14
-msgid "Time:"
-msgstr "Время:"
-
-#: standard input:9
-msgid "Turn off mirroring"
-msgstr "Отключить зеркалирование"
-
-#: backend3/mirror:269
-msgid "Unable to create temp file"
-msgstr "Невозможно создать временный файл"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
 msgid "Updates server"
 msgstr "Сервер обновлений"
 
-#: standard input:7
+#: standard input:1
+msgid "Repository:"
+msgstr "Репозиторий:"
+
+#: standard input:2
+msgid "Source:"
+msgstr "Источник:"
+
+#: standard input:3
+msgid "Architectures:"
+msgstr "Архитектуры:"
+
+#: standard input:4
+msgid "Local mirror of repository"
+msgstr "Локальное зеркало репозитория"
+
+#: standard input:5
+msgid "Publish as a repository for automatic updates"
+msgstr "Опубликовать как репозиторий для автоматических обновлений"
+
+#: standard input:6
+msgid "Exclude files (each template in a separate lines)"
+msgstr "Исключить каталоги и файлы (каждый шаблон в отдельной строке)"
+
+#: standard input:7 input:24
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:8 input:25
+msgid "Reset"
+msgstr "Сбросить"
+
+#: standard input:9
+msgid "Clear local mirror"
+msgstr "Очистить локальное зеркало"
+
+#: standard input:10
+msgid "Repository"
+msgstr "Репозиторий"
+
+#: standard input:11
+msgid "Source"
+msgstr "Источник"
+
+#: standard input:12
+msgid "Architectures"
+msgstr "Архитектуры"
+
+#: standard input:13
+msgid "Local mirror"
+msgstr "Локальное зеркало"
+
+#: standard input:14
+msgid "Published"
+msgstr "Опубликовано"
+
+#: standard input:15
+msgid "Storage free space:"
+msgstr "Свободное место:"
+
+#: standard input:16
 msgid "Warning:"
 msgstr "Предупреждение:"
+
+#: standard input:17
+msgid "mirroring requires a lot of disk space."
+msgstr "зеркалирование потребует наличия большого количества места на диске."
+
+#: standard input:18
+msgid "Turn off mirroring"
+msgstr "Отключить зеркалирование"
+
+#: standard input:19
+msgid "Mirror every day"
+msgstr "Зеркалировать ежедневно"
+
+#: standard input:20
+msgid "Mirror every week at:"
+msgstr "Зеркалировать еженедельно в:"
+
+#: standard input:21
+msgid "Mirror every month at day:"
+msgstr "Зеркалировать ежемесячно в день:"
+
+#: standard input:22
+msgid "Day of month:"
+msgstr "Число месяца:"
+
+#: standard input:23
+msgid "Time:"
+msgstr "Время:"
+
+#: ui/mirror/repository/ajax.scm:51
+msgid "Are really want to clear local repository?"
+msgstr "Вы действительно желаете очистить локальный репозиторий?"
+
+#: ui/mirror/repository/ajax.scm:51
+msgid "Question"
+msgstr "Вопрос"
 
 #: ui/mirror/repository/ajax.scm:51
 msgid "Yes"
 msgstr "Да"
 
-#: backend3/mirror:294
-msgid "friday"
-msgstr "пятница"
+#: ui/mirror/repository/ajax.scm:51
+msgid "No"
+msgstr "Нет"
 
-#: standard input:8
-msgid "mirroring requires a lot of disk space."
-msgstr "зеркалирование потребует наличия большого количества места на диске."
+#: type/crontime.scm:10
+msgid "time should be in HH:MM format"
+msgstr "время должно быть в формате ЧЧ:ММ:CC"
 
-#: backend3/mirror:290
+#: backend3/mirror:59
+msgid "Mb"
+msgstr "Мб"
+
+#: backend3/mirror:60 backend3/mirror:146
+msgid "Kb"
+msgstr "Кб"
+
+#: backend3/mirror:61
+msgid "Gb"
+msgstr "Гб"
+
+#: backend3/mirror:62
+msgid "Tb"
+msgstr "Тб"
+
+#: backend3/mirror:188
+msgid "Custom url"
+msgstr "Другой адрес"
+
+#: backend3/mirror:265
+msgid "Day of week should be selected"
+msgstr "Должен быть выбран день недели"
+
+#: backend3/mirror:270
+msgid "Day of month should be defined"
+msgstr "Должно быть определено число месяца"
+
+#: backend3/mirror:279
+msgid "Unable to create temp file"
+msgstr "Невозможно создать временный файл"
+
+#: backend3/mirror:311
 msgid "monday"
 msgstr "понедельник"
 
-#: backend3/mirror:295
-msgid "saturday"
-msgstr "суббота"
-
-#: backend3/mirror:296
-msgid "sunday"
-msgstr "воскресение"
-
-#: backend3/mirror:293
-msgid "thursday"
-msgstr "четверг"
-
-#: backend3/mirror:291
+#: backend3/mirror:312
 msgid "tuesday"
 msgstr "вторник"
 
-#: backend3/mirror:292
+#: backend3/mirror:313
 msgid "wednesday"
 msgstr "среда"
+
+#: backend3/mirror:314
+msgid "thursday"
+msgstr "четверг"
+
+#: backend3/mirror:315
+msgid "friday"
+msgstr "пятница"
+
+#: backend3/mirror:316
+msgid "saturday"
+msgstr "суббота"
+
+#: backend3/mirror:317
+msgid "sunday"
+msgstr "воскресение"
+
+#: backend3/mirror:398
+msgid "Custom url should be defined"
+msgstr "Другой адрес должен быть явно указан"
+
+#: backend3/mirror:401
+msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
+msgstr ""
+"Неверный или неподдерживаемый протокол. Должно быть http, ftp или rsync"
+
+#: backend3/mirror:404
+msgid "Can mirror only from sources with rsync procotol"
+msgstr "Зеркалировать можно только источники работающие по протоколу rsync"

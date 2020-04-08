@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-04 14:00+0400\n"
+"POT-Creation-Date: 2020-04-08 07:10+0300\n"
 "PO-Revision-Date: 2009-03-20 17:19-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,186 +20,199 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:15 input:22
-msgid "Apply"
-msgstr "Aplicar"
+#: standard input:1
+#, fuzzy
+msgid "Updates server"
+msgstr "Adiccionar Servidor"
+
+#: standard input:1
+msgid "Repository:"
+msgstr "Repositorio:"
+
+#: standard input:2
+msgid "Source:"
+msgstr "Fuente:"
 
 #: standard input:3
-msgid "Architectures"
-msgstr "Architeturas"
-
-#: standard input:19
 msgid "Architectures:"
 msgstr "Architeturas:"
 
-#: ui/mirror/repository/ajax.scm:51
-msgid "Are really want to clear local repository?"
+#: standard input:4
+msgid "Local mirror of repository"
+msgstr "Sitio de Mirrors"
+
+#: standard input:5
+msgid "Publish as a repository for automatic updates"
 msgstr ""
 
-#: backend3/mirror:371
-msgid "Can mirror only from sources with rsync procotol"
+#: standard input:6
+msgid "Exclude files (each template in a separate lines)"
 msgstr ""
 
-#: standard input:24
+#: standard input:7 input:24
+msgid "Apply"
+msgstr "Aplicar"
+
+#: standard input:8 input:25
+msgid "Reset"
+msgstr "Resetar"
+
+#: standard input:9
 msgid "Clear local mirror"
 msgstr "Limpiar Direcciones de \"Mirror\""
 
-#: backend3/mirror:186
-msgid "Custom url"
-msgstr ""
+#: standard input:10
+msgid "Repository"
+msgstr "Repositório"
 
-#: backend3/mirror:365
-msgid "Custom url should be defined"
-msgstr "Usted deve definir un usuário para el sistema"
+#: standard input:11
+msgid "Source"
+msgstr "Fuente"
 
-#: backend3/mirror:259
-#, fuzzy
-msgid "Day of month should be defined"
-msgstr "Usted deve definir un usuário para el sistema"
+#: standard input:12
+msgid "Architectures"
+msgstr "Architeturas"
 
 #: standard input:13
+msgid "Local mirror"
+msgstr "Limpiar Direcciones de \"Mirror\""
+
+#: standard input:14
+msgid "Published"
+msgstr ""
+
+#: standard input:15
+msgid "Storage free space:"
+msgstr "Espacio de Disco de almacenamiento:"
+
+#: standard input:16
+msgid "Warning:"
+msgstr "Aviso:"
+
+#: standard input:17
+msgid "mirroring requires a lot of disk space."
+msgstr "Espejos requieren un buen espacio en disco"
+
+#: standard input:18
+#, fuzzy
+msgid "Turn off mirroring"
+msgstr "posibilitar espejamiento"
+
+#: standard input:19
+msgid "Mirror every day"
+msgstr ""
+
+#: standard input:20
+msgid "Mirror every week at:"
+msgstr ""
+
+#: standard input:21
+msgid "Mirror every month at day:"
+msgstr ""
+
+#: standard input:22
 #, fuzzy
 msgid "Day of month:"
 msgstr "1 mês"
 
-#: backend3/mirror:254
-msgid "Day of week should be selected"
-msgstr ""
-
-#: backend3/mirror:60
-msgid "Gb"
-msgstr "Gb"
-
-#: backend3/mirror:368
-msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
-msgstr "Inválido o protocolo no suportado. Deve ser http, ftp ou archivo"
-
-#: backend3/mirror:59 backend3/mirror:144
-msgid "Kb"
-msgstr "Kb"
-
-#: standard input:4
-msgid "Local mirror"
-msgstr "Limpiar Direcciones de \"Mirror\""
-
-#: standard input:20
-msgid "Local mirror of repository"
-msgstr "Sitio de Mirrors"
-
-#: backend3/mirror:58
-msgid "Mb"
-msgstr "Mb"
-
-#: standard input:10
-msgid "Mirror every day"
-msgstr ""
-
-#: standard input:12
-msgid "Mirror every month at day:"
-msgstr ""
-
-#: standard input:11
-msgid "Mirror every week at:"
-msgstr ""
+#: standard input:23
+#, fuzzy
+msgid "Time:"
+msgstr "Zona Horaria"
 
 #: ui/mirror/repository/ajax.scm:51
-msgid "No"
-msgstr "No"
-
-#: standard input:21
-msgid "Publish as a repository for automatic updates"
-msgstr ""
-
-#: standard input:5
-msgid "Published"
+msgid "Are really want to clear local repository?"
 msgstr ""
 
 #: ui/mirror/repository/ajax.scm:51
 msgid "Question"
 msgstr ""
 
-#: standard input:1
-msgid "Repository"
-msgstr "Repositório"
-
-#: standard input:17
-msgid "Repository:"
-msgstr "Repositorio:"
-
-#: standard input:16 input:23
-msgid "Reset"
-msgstr "Resetar"
-
-#: standard input:2
-msgid "Source"
-msgstr "Fuente"
-
-#: standard input:18
-msgid "Source:"
-msgstr "Fuente:"
-
-#: standard input:6
-msgid "Storage free space:"
-msgstr "Espacio de Disco de almacenamiento:"
-
-#: standard input:14
-#, fuzzy
-msgid "Time:"
-msgstr "Zona Horaria"
-
-#: standard input:9
-#, fuzzy
-msgid "Turn off mirroring"
-msgstr "posibilitar espejamiento"
-
-#: backend3/mirror:269
-#, fuzzy
-msgid "Unable to create temp file"
-msgstr "No és posible crear rede"
-
-#: standard input:1
-#, fuzzy
-msgid "Updates server"
-msgstr "Adiccionar Servidor"
-
-#: standard input:7
-msgid "Warning:"
-msgstr "Aviso:"
-
 #: ui/mirror/repository/ajax.scm:51
 msgid "Yes"
 msgstr "Sí"
 
-#: backend3/mirror:294
-msgid "friday"
+#: ui/mirror/repository/ajax.scm:51
+msgid "No"
+msgstr "No"
+
+#: type/crontime.scm:10
+#, fuzzy
+msgid "time should be in HH:MM format"
+msgstr "La Hora deve ser en el formato HH:MM:SS"
+
+#: backend3/mirror:59
+msgid "Mb"
+msgstr "Mb"
+
+#: backend3/mirror:60 backend3/mirror:146
+msgid "Kb"
+msgstr "Kb"
+
+#: backend3/mirror:61
+msgid "Gb"
+msgstr "Gb"
+
+#: backend3/mirror:62
+msgid "Tb"
+msgstr "Tb"
+
+#: backend3/mirror:188
+msgid "Custom url"
 msgstr ""
 
-#: standard input:8
-msgid "mirroring requires a lot of disk space."
-msgstr "Espejos requieren un buen espacio en disco"
+#: backend3/mirror:265
+msgid "Day of week should be selected"
+msgstr ""
 
-#: backend3/mirror:290
+#: backend3/mirror:270
+#, fuzzy
+msgid "Day of month should be defined"
+msgstr "Usted deve definir un usuário para el sistema"
+
+#: backend3/mirror:279
+#, fuzzy
+msgid "Unable to create temp file"
+msgstr "No és posible crear rede"
+
+#: backend3/mirror:311
 msgid "monday"
 msgstr ""
 
-#: backend3/mirror:295
-msgid "saturday"
-msgstr ""
-
-#: backend3/mirror:296
-msgid "sunday"
-msgstr ""
-
-#: backend3/mirror:293
-msgid "thursday"
-msgstr ""
-
-#: backend3/mirror:291
+#: backend3/mirror:312
 msgid "tuesday"
 msgstr ""
 
-#: backend3/mirror:292
+#: backend3/mirror:313
 msgid "wednesday"
+msgstr ""
+
+#: backend3/mirror:314
+msgid "thursday"
+msgstr ""
+
+#: backend3/mirror:315
+msgid "friday"
+msgstr ""
+
+#: backend3/mirror:316
+msgid "saturday"
+msgstr ""
+
+#: backend3/mirror:317
+msgid "sunday"
+msgstr ""
+
+#: backend3/mirror:398
+msgid "Custom url should be defined"
+msgstr "Usted deve definir un usuário para el sistema"
+
+#: backend3/mirror:401
+msgid "Invalid or unsupported protocol. Should be http,ftp or rsync"
+msgstr "Inválido o protocolo no suportado. Deve ser http, ftp ou archivo"
+
+#: backend3/mirror:404
+msgid "Can mirror only from sources with rsync procotol"
 msgstr ""
 
 #~ msgid "Access to storage via NFS (/var/lib/alterator/mirror)"
