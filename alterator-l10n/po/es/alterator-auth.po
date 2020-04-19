@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 17:15+0300\n"
+"POT-Creation-Date: 2020-04-20 00:45+0400\n"
 "PO-Revision-Date: 2009-03-19 15:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -68,7 +68,7 @@ msgstr "Base DN:"
 msgid "Select"
 msgstr "Seleccionar"
 
-#: standard input:11 ui/auth/index.scm:101
+#: standard input:11 ui/auth/index.scm:103
 #, fuzzy
 msgid "Current domain:"
 msgstr "Configurar la Fecha Actual:"
@@ -78,32 +78,32 @@ msgstr "Configurar la Fecha Actual:"
 msgid "Domain list:"
 msgstr "Accesso de Escrita"
 
-#: standard input:13 ui/auth/index.scm:174
+#: standard input:13 ui/auth/index.scm:176
 msgid "Attention: "
 msgstr ""
 
-#: standard input:14 ui/auth/index.scm:175
+#: standard input:14 ui/auth/index.scm:177
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:15 ui/auth/index.scm:181
+#: standard input:15 ui/auth/index.scm:183
 msgid "Apply"
 msgstr "Aplicar"
 
-#: ui/auth/admin-password.scm:24
+#: ui/auth/admin-password.scm:27
 msgid "Enter the name and password of an account"
 msgstr ""
 
-#: ui/auth/admin-password.scm:24
+#: ui/auth/admin-password.scm:27
 msgid "with permission to join the domain."
 msgstr ""
 
-#: ui/auth/admin-password.scm:25
+#: ui/auth/admin-password.scm:28
 #, fuzzy
 msgid "Username:"
 msgstr "Nome de la carpeta"
 
-#: ui/auth/admin-password.scm:27
+#: ui/auth/admin-password.scm:30
 #, fuzzy
 msgid "Password:"
 msgstr ""
@@ -118,11 +118,15 @@ msgstr ""
 "#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
 "Contraseña:"
 
-#: ui/auth/admin-password.scm:30
+#: ui/auth/admin-password.scm:34
+msgid "Enable Group Policy"
+msgstr "Habilitar políticas de grupo"
+
+#: ui/auth/admin-password.scm:38
 msgid "OK"
 msgstr "OK"
 
-#: ui/auth/admin-password.scm:31
+#: ui/auth/admin-password.scm:39
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -130,7 +134,7 @@ msgstr "Cancelar"
 msgid "Please, fill field "
 msgstr ""
 
-#: ui/auth/index.scm:12 backend3/auth:250
+#: ui/auth/index.scm:12 backend3/auth:276
 msgid "Netbios name should not be more 15 chars"
 msgstr ""
 
@@ -150,66 +154,66 @@ msgid "Host name"
 msgstr "hostname:"
 
 #. Show welcome message for AD and FreeIPA
-#: ui/auth/index.scm:57
+#: ui/auth/index.scm:58
 msgid "Welcome to the "
 msgstr ""
 
-#: ui/auth/index.scm:57
+#: ui/auth/index.scm:58
 #, fuzzy
 msgid " domain."
 msgstr "Adiccionar Cliente"
 
 #. Local database
-#: ui/auth/index.scm:105
+#: ui/auth/index.scm:107
 msgid "Local database"
 msgstr ""
 
 #. ALT domain
-#: ui/auth/index.scm:109
+#: ui/auth/index.scm:111
 msgid "ALT Linux domain or Astra Linux Directory"
 msgstr ""
 
-#: ui/auth/index.scm:114 ui/auth/index.scm:136 ui/auth/index.scm:162
+#: ui/auth/index.scm:116 ui/auth/index.scm:138 ui/auth/index.scm:164
 #, fuzzy
 msgid "Domain:"
 msgstr "Procurar Dominios:"
 
-#: ui/auth/index.scm:123
+#: ui/auth/index.scm:125
 msgid "Use cached credentials for out of domain login"
 msgstr ""
 
 #. Active Directory
-#: ui/auth/index.scm:127
+#: ui/auth/index.scm:129
 msgid "Active Directory domain"
 msgstr ""
 
-#: ui/auth/index.scm:133 ui/auth/index.scm:159
+#: ui/auth/index.scm:135 ui/auth/index.scm:161
 #, fuzzy
 msgid "Warning: "
 msgstr "Aviso:"
 
-#: ui/auth/index.scm:133
+#: ui/auth/index.scm:135
 msgid ""
 "Package task-auth-ad-sssd is not installed. Authentication with Active "
 "Directory is not available.<br />Package task-auth-ad is not enough because "
 "it uses non-recommended winbind."
 msgstr ""
 
-#: ui/auth/index.scm:141
+#: ui/auth/index.scm:143
 msgid "Workgroup:"
 msgstr "Grupo de trabajo"
 
-#: ui/auth/index.scm:146 ui/auth/index.scm:167
+#: ui/auth/index.scm:148 ui/auth/index.scm:169
 msgid "Computer name:"
 msgstr "Nombre de la computadora:"
 
 #. FreeIPA
-#: ui/auth/index.scm:153
+#: ui/auth/index.scm:155
 #, fuzzy
 msgid "FreeIPA domain"
 msgstr "Adiccionar Cliente"
 
-#: ui/auth/index.scm:159
+#: ui/auth/index.scm:161
 msgid ""
 "Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
 "not available."
@@ -224,46 +228,51 @@ msgstr ""
 msgid "Kerberos domain is not used"
 msgstr "Borrar conección"
 
-#: backend3/auth:239
-#, fuzzy
-msgid "Domain does not set:"
-msgstr "Accesso de Escrita"
-
-#: backend3/auth:251 backend3/auth:259
+#: backend3/auth:255 backend3/auth:277 backend3/auth:286
 #, fuzzy
 msgid "Unable to find specified domain"
 msgstr "No fue posible configurar el reloj"
 
-#: backend3/auth:252
+#: backend3/auth:264
+#, fuzzy
+msgid "Domain does not set:"
+msgstr "Accesso de Escrita"
+
+#: backend3/auth:278
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:253
+#: backend3/auth:279
 #, fuzzy
 msgid "Unknown administrator name"
 msgstr "Administrador DN:"
 
-#: backend3/auth:254
+#: backend3/auth:280
+#, fuzzy
+msgid "Preauthentication failed"
+msgstr "Atutenticación fracasó"
+
+#: backend3/auth:281
 #, fuzzy
 msgid "Wrong password"
 msgstr "Contraseña"
 
-#: backend3/auth:255
+#: backend3/auth:282
 #, fuzzy
 msgid "Unable to join to Active Directory domain:"
 msgstr "No fue posible configurar el reloj"
 
-#: backend3/auth:260
+#: backend3/auth:287
 #, fuzzy
 msgid "Unable to find IPA Server to join"
 msgstr "No fue posible configurar el reloj"
 
-#: backend3/auth:261
+#: backend3/auth:288
 #, fuzzy
 msgid "Incorrect administrator password"
 msgstr "Administrador del Sistema"
 
-#: backend3/auth:262
+#: backend3/auth:289
 #, fuzzy
 msgid "Unable to join to FreeIPA domain:"
 msgstr "No fue posible configurar el reloj"
