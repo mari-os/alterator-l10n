@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 22:27+0400\n"
+"POT-Creation-Date: 2020-08-03 22:13+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -23,6 +23,35 @@ msgstr ""
 msgid "Group Policy"
 msgstr "Список груп:"
 
+#: standard input:1 ui/gpupdate/index.scm:52
+msgid "Group Policy Management"
+msgstr ""
+
+#: standard input:2 ui/gpupdate/index.scm:55
+#, fuzzy
+msgid "Warning: "
+msgstr "Попередження:"
+
+#: standard input:3 ui/gpupdate/index.scm:56
+msgid "This module enables Group Policy users and computer"
+msgstr ""
+
+#: standard input:4 ui/gpupdate/index.scm:57
+msgid "management. Additional settings applies during boot process and"
+msgstr ""
+
+#: standard input:5 ui/gpupdate/index.scm:58
+msgid "user login after authentication in Active Directory."
+msgstr ""
+
+#: standard input:6 ui/gpupdate/index.scm:64
+msgid "Current group policy profile:"
+msgstr ""
+
+#: standard input:7 ui/gpupdate/index.scm:75
+msgid "Apply"
+msgstr "Застосувати"
+
 #: ui/gpupdate/index.scm:19
 msgid "Group Policy management<br />enabled for profile: "
 msgstr ""
@@ -31,44 +60,24 @@ msgstr ""
 msgid "Group Policy management disabled"
 msgstr ""
 
-#: ui/gpupdate/index.scm:46
-msgid "Active Directory Domain Controller"
-msgstr ""
-
-#: ui/gpupdate/index.scm:47
+#: backend3/gpupdate:18
 #, fuzzy
 msgid "Workstation"
 msgstr "Інформація"
 
-#: ui/gpupdate/index.scm:48
+#: backend3/gpupdate:19
 msgid "Server"
 msgstr "Сервер"
 
-#: ui/gpupdate/index.scm:65
-msgid "Group Policy Management"
+#: backend3/gpupdate:20
+msgid "Active Directory Domain Controller"
 msgstr ""
 
-#: ui/gpupdate/index.scm:68
-#, fuzzy
-msgid "Warning: "
-msgstr "Попередження:"
-
-#: ui/gpupdate/index.scm:68
-msgid ""
-"This module enables Group Policy users and computer\n"
-"<br />management. Additional settings applies during boot process and\n"
-"<br />user login after authentication in Active Directory."
+#: backend3/gpupdate:21
+msgid "User profile: "
 msgstr ""
 
-#: ui/gpupdate/index.scm:76
-msgid "Current group policy profile:"
-msgstr ""
-
-#: ui/gpupdate/index.scm:87
-msgid "Apply"
-msgstr "Застосувати"
-
-#: backend3/gpupdate:40
+#: backend3/gpupdate:58
 #, fuzzy
 msgid "Cannot enable group policy:"
 msgstr "Не можу вилучити групу"

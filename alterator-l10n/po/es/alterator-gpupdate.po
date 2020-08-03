@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 22:27+0400\n"
+"POT-Creation-Date: 2020-08-03 22:13+0400\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -24,6 +24,36 @@ msgstr ""
 msgid "Group Policy"
 msgstr ""
 
+#: standard input:1 ui/gpupdate/index.scm:52
+#, fuzzy
+msgid "Group Policy Management"
+msgstr "Administração de Usuário"
+
+#: standard input:2 ui/gpupdate/index.scm:55
+#, fuzzy
+msgid "Warning: "
+msgstr "Aviso:"
+
+#: standard input:3 ui/gpupdate/index.scm:56
+msgid "This module enables Group Policy users and computer"
+msgstr ""
+
+#: standard input:4 ui/gpupdate/index.scm:57
+msgid "management. Additional settings applies during boot process and"
+msgstr ""
+
+#: standard input:5 ui/gpupdate/index.scm:58
+msgid "user login after authentication in Active Directory."
+msgstr ""
+
+#: standard input:6 ui/gpupdate/index.scm:64
+msgid "Current group policy profile:"
+msgstr ""
+
+#: standard input:7 ui/gpupdate/index.scm:75
+msgid "Apply"
+msgstr "Aplicar"
+
 #: ui/gpupdate/index.scm:19
 #, fuzzy
 msgid "Group Policy management<br />enabled for profile: "
@@ -34,46 +64,26 @@ msgstr "Administração de Usuário"
 msgid "Group Policy management disabled"
 msgstr "Administração de Usuário"
 
-#: ui/gpupdate/index.scm:46
-msgid "Active Directory Domain Controller"
-msgstr ""
-
-#: ui/gpupdate/index.scm:47
+#: backend3/gpupdate:18
 #, fuzzy
 msgid "Workstation"
 msgstr "Configuración de conecciones en Rede"
 
-#: ui/gpupdate/index.scm:48
+#: backend3/gpupdate:19
 #, fuzzy
 msgid "Server"
 msgstr "Servidor:"
 
-#: ui/gpupdate/index.scm:65
-#, fuzzy
-msgid "Group Policy Management"
-msgstr "Administração de Usuário"
-
-#: ui/gpupdate/index.scm:68
-#, fuzzy
-msgid "Warning: "
-msgstr "Aviso:"
-
-#: ui/gpupdate/index.scm:68
-msgid ""
-"This module enables Group Policy users and computer\n"
-"<br />management. Additional settings applies during boot process and\n"
-"<br />user login after authentication in Active Directory."
+#: backend3/gpupdate:20
+msgid "Active Directory Domain Controller"
 msgstr ""
 
-#: ui/gpupdate/index.scm:76
-msgid "Current group policy profile:"
-msgstr ""
+#: backend3/gpupdate:21
+#, fuzzy
+msgid "User profile: "
+msgstr "Seleccionar modo adelante:"
 
-#: ui/gpupdate/index.scm:87
-msgid "Apply"
-msgstr "Aplicar"
-
-#: backend3/gpupdate:40
+#: backend3/gpupdate:58
 #, fuzzy
 msgid "Cannot enable group policy:"
 msgstr "No es posible adiccionar excluir el grupo"
