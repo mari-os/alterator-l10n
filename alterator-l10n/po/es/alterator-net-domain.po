@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-19 19:14+0300\n"
+"POT-Creation-Date: 2020-09-11 13:48+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Domain"
 msgstr "Procurar Dominios:"
 
-#: standard input:1 input:36
+#: standard input:1 input:37
 #, fuzzy
 msgid "Domain:"
 msgstr "Procurar Dominios:"
@@ -61,212 +61,218 @@ msgid ""
 msgstr ""
 
 #: standard input:8
-msgid "Examples: domain, school-33, department.company"
+msgid ""
+"Active Directory domain name should contains at least two labels separated "
+"by dot."
 msgstr ""
 
 #: standard input:9
+msgid "Examples: domain, school-33, department.company"
+msgstr ""
+
+#: standard input:10
 #, fuzzy
 msgid "Domain type:"
 msgstr "Accesso de Escrita"
 
-#: standard input:10 input:11
+#: standard input:11 input:12
 #, fuzzy
 msgid "ALT-domain"
 msgstr "Adiccionar Cliente"
 
-#: standard input:12
+#: standard input:13
 msgid ""
 "(Domain based on OpenLDAP and MIT Kerberos. Recommended for ALT Linux "
 "workstation authentication.)"
 msgstr ""
 
-#: standard input:13 input:25
+#: standard input:14 input:26
 msgid "This feature is unavailable because package "
 msgstr ""
 
-#: standard input:14 input:26
+#: standard input:15 input:27
 #, fuzzy
 msgid " is not installed"
 msgstr "Por selecionado:"
 
-#: standard input:15 input:34 input:51
+#: standard input:16 input:35 input:52
 #, fuzzy
 msgid "Current status:"
 msgstr "Estado actual:"
 
-#: standard input:16
+#: standard input:17
 #, fuzzy
 msgid "Resolver:"
 msgstr "Resetar"
 
-#: standard input:17
+#: standard input:18
 #, fuzzy
 msgid "Access:"
 msgstr "Acesso Convidado"
 
-#: standard input:18
+#: standard input:19
 #, fuzzy
 msgid "DHCPD:"
 msgstr "Usar DHCP:"
 
-#: standard input:19
+#: standard input:20
 #, fuzzy
 msgid "LDAP:"
 msgstr "LDAP"
 
-#: standard input:20
+#: standard input:21
 msgid "KDC:"
 msgstr ""
 
-#: standard input:21
+#: standard input:22
 msgid "Samba:"
 msgstr ""
 
-#: standard input:22 input:23
+#: standard input:23 input:24
 #, fuzzy
 msgid "Active Directory"
 msgstr "Directorio Inicial:"
 
-#: standard input:24
+#: standard input:25
 msgid ""
 "(Domain for Samba AD DC controller. Suitable both for Microsoft Windows and "
 "Linux workstation authentication.)"
 msgstr ""
 
-#: standard input:27 input:46
+#: standard input:28 input:47
 #, fuzzy
 msgid "Additional options:"
 msgstr "Parámetros adicionais"
 
-#: standard input:28
+#: standard input:29
 #, fuzzy
 msgid "DNS forwarders:"
 msgstr "Servidores DNS:"
 
-#: standard input:29
+#: standard input:30
 msgid "(IP addresses of additional DNS servers)"
 msgstr ""
 
-#: standard input:30 input:47
+#: standard input:31 input:48
 msgid "Administrator password:"
 msgstr "Administrador del Sistema"
 
-#: standard input:31 input:48
+#: standard input:32 input:49
 #, fuzzy
 msgid "(password for Administrator user)"
 msgstr "Contraseña para administrador del sistema:"
 
-#: standard input:32 input:49
+#: standard input:33 input:50
 #, fuzzy
 msgid "Reply password:"
 msgstr "Cambiar contraseña:"
 
-#: standard input:33
+#: standard input:34
 msgid "(repeat passphrase)"
 msgstr "(repetir la contraseña)"
 
-#: standard input:35
+#: standard input:36
 #, fuzzy
 msgid "Service:"
 msgstr "Servicios"
 
-#: standard input:37
+#: standard input:38
 msgid "Realm:"
 msgstr ""
 
-#: standard input:38
+#: standard input:39
 #, fuzzy
 msgid "DC name:"
 msgstr "Nome de la carpeta"
 
-#: standard input:39 input:53
+#: standard input:40 input:54
 msgid "LDAP server:"
 msgstr "Servidor LDAP:"
 
-#: standard input:40 input:54
+#: standard input:41 input:55
 #, fuzzy
 msgid "KDC server:"
 msgstr "Servidor DNS:"
 
-#: standard input:41 input:42
+#: standard input:42 input:43
 #, fuzzy
 msgid "FreeIPA"
 msgstr "Livre"
 
-#: standard input:43
+#: standard input:44
 msgid ""
 "(FreeIPA domain controller. Suitable both for Microsoft Windows and Linux "
 "workstation authentication.)"
 msgstr ""
 
-#: standard input:44
+#: standard input:45
 msgid "This feature is unavailable because packages "
 msgstr ""
 
-#: standard input:45
+#: standard input:46
 #, fuzzy
 msgid " are not installed"
 msgstr "Por selecionado:"
 
-#: standard input:50
+#: standard input:51
 #, fuzzy
 msgid "(repeat password)"
 msgstr "(repetir la contraseña)"
 
-#: standard input:52
+#: standard input:53
 #, fuzzy
 msgid "Name server:"
 msgstr "Servidor DNS:"
 
-#: standard input:55
+#: standard input:56
 #, fuzzy
 msgid "Cache server:"
 msgstr "Servidor DNS:"
 
-#: standard input:56
+#: standard input:57
 msgid "PKI:"
 msgstr ""
 
-#: standard input:57
+#: standard input:58
 msgid "Secrets Sharing (Custodia):"
 msgstr ""
 
-#: standard input:58
+#: standard input:59
 #, fuzzy
 msgid "One-time passwords:"
 msgstr "Cambiar contraseña:"
 
-#: standard input:59
+#: standard input:60
 #, fuzzy
 msgid "Web server:"
 msgstr "Servidor DNS:"
 
-#: standard input:61
+#: standard input:62
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: standard input:62
+#: standard input:63
 msgid "DNS only"
 msgstr ""
 
-#: standard input:63
+#: standard input:64
 msgid "(Serves only DNS requests)"
 msgstr ""
 
-#: standard input:64
+#: standard input:65
 #, fuzzy
 msgid "Attention:"
 msgstr "Acción"
 
-#: standard input:65
+#: standard input:66
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:66
+#: standard input:67
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:67
+#: standard input:68
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -323,71 +329,94 @@ msgstr ""
 "#-#-#-#-#  alterator-xkb.po (Alterator)  #-#-#-#-#\n"
 "Resetar"
 
-#: ui/net-domain/ajax.scm:21
+#: ui/net-domain/ajax.scm:23
 msgid "UP"
 msgstr ""
 
-#: ui/net-domain/ajax.scm:22
+#: ui/net-domain/ajax.scm:24
 msgid "DOWN"
 msgstr ""
 
-#: ui/net-domain/ajax.scm:32
+#: ui/net-domain/ajax.scm:34
 #, fuzzy
 msgid "Install"
 msgstr "Instalación completa"
 
-#: ui/net-domain/ajax.scm:33
+#: ui/net-domain/ajax.scm:35
 #, fuzzy
 msgid "Uninstall"
 msgstr "Por selecionado:"
 
-#: ui/net-domain/ajax.scm:104 ui/net-domain/ajax.scm:111
+#: ui/net-domain/ajax.scm:118 ui/net-domain/ajax.scm:125
 msgid "Passwords mismatch"
 msgstr "Contraseña"
 
-#: backend3/net-domain:147
+#: backend3/net-domain:182
 msgid "Domain name is not valid according to RFC 1035"
 msgstr ""
 
-#: backend3/net-domain:305
+#: backend3/net-domain:362
 msgid "Error provisioning the Active directory domain. Log is in"
 msgstr ""
 
-#: backend3/net-domain:481
+#: backend3/net-domain:623
 msgid "NOT OK (bind is running)"
 msgstr ""
 
-#: backend3/net-domain:547
+#: backend3/net-domain:699
 #, fuzzy
 msgid "Please define a domain name"
 msgstr "Procurar Dominios:"
 
-#: backend3/net-domain:550
+#: backend3/net-domain:702
 msgid "This name is registered for internal purposes"
 msgstr ""
 
-#: backend3/net-domain:610
+#: backend3/net-domain:723
+msgid "alterator-openldap package is not installed"
+msgstr ""
+
+#: backend3/net-domain:727
+#, fuzzy
+msgid "samba package is not installed"
+msgstr "Por selecionado:"
+
+#: backend3/net-domain:731
+#, fuzzy
+msgid "required schema file not found"
+msgstr "Archivo de licencia no encontrado"
+
+#: backend3/net-domain:786
 msgid ""
 "The password is too short. It should be equal or longer than 7 characters!"
 msgstr ""
 
-#: backend3/net-domain:613
+#: backend3/net-domain:789
 msgid ""
 "The password does not meet the complexity criteria (must contain characters "
 "from three of the following five categories: latin letters in upper and "
 "lower cases, digits, nonalphanumeric and any other Unicode characters)!"
 msgstr ""
 
-#: backend3/net-domain:615
+#: backend3/net-domain:791
 #, fuzzy
 msgid "Error setting password for Administrator:"
 msgstr "Configuración del sistema administrador:"
 
-#: backend3/net-domain:627
+#: backend3/net-domain:803
 msgid "Password should not be empty"
 msgstr ""
 
 #. # FIXME: password in the command line
-#: backend3/net-domain:647
+#: backend3/net-domain:821
 msgid "Failed to start the IPA installer"
 msgstr ""
+
+#: backend3/net-domain:824
+msgid "LDAP service is not running"
+msgstr ""
+
+#: backend3/net-domain:827
+#, fuzzy
+msgid "Password change failed"
+msgstr "Conección falló"

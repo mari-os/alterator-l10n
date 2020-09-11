@@ -1,20 +1,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <cas@altlinux.ru>, 2008-2012, 2016, 2017.
+# Andrey Cherepanov <cas@altlinux.ru>, 2008-2012, 2016, 2017, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-19 19:14+0300\n"
-"PO-Revision-Date: 2017-04-21 11:44+0300\n"
-"Last-Translator: Andrey Cherepanov <cas@altlinux.org>\n"
-"Language-Team: Russian <devel@lists.altlinux.org>\n"
+"POT-Creation-Date: 2020-09-11 13:48+0300\n"
+"PO-Revision-Date: 2020-09-11 13:58+0300\n"
+"Last-Translator: Андрей Черепанов <cas@altlinux.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 19.12.3\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Domain"
 msgstr "Домен"
 
-#: standard input:1 input:36
+#: standard input:1 input:37
 msgid "Domain:"
 msgstr "Имя домена:"
 
@@ -63,18 +63,27 @@ msgstr ""
 "«local», которые зарезервированы для служебных целей."
 
 #: standard input:8
+msgid ""
+"Active Directory domain name should contains at least two labels separated "
+"by dot."
+msgstr ""
+"Имя домена Active Directory должно состоять как минимум из двух компонентов,"
+" разделённых "
+"точками."
+
+#: standard input:9
 msgid "Examples: domain, school-33, department.company"
 msgstr "Примеры: domain, school-33, department.company"
 
-#: standard input:9
+#: standard input:10
 msgid "Domain type:"
 msgstr "Тип домена:"
 
-#: standard input:10 input:11
+#: standard input:11 input:12
 msgid "ALT-domain"
 msgstr "ALT-домен"
 
-#: standard input:12
+#: standard input:13
 msgid ""
 "(Domain based on OpenLDAP and MIT Kerberos. Recommended for ALT Linux "
 "workstation authentication.)"
@@ -82,47 +91,47 @@ msgstr ""
 "(домен, основанный на OpenLDAP и MIT Kerberos. Рекомендуется для "
 "аутентификации рабочих станций под управлением ALT Linux)"
 
-#: standard input:13 input:25
+#: standard input:14 input:26
 msgid "This feature is unavailable because package "
 msgstr "Этот тип невозможно использовать, поскольку не установлен пакет "
 
-#: standard input:14 input:26
+#: standard input:15 input:27
 msgid " is not installed"
 msgstr "."
 
-#: standard input:15 input:34 input:51
+#: standard input:16 input:35 input:52
 msgid "Current status:"
 msgstr "Текущее состояние:"
 
-#: standard input:16
+#: standard input:17
 msgid "Resolver:"
 msgstr "DNS:"
 
-#: standard input:17
+#: standard input:18
 msgid "Access:"
 msgstr "Доступность:"
 
-#: standard input:18
+#: standard input:19
 msgid "DHCPD:"
 msgstr "Сервер DHCP:"
 
-#: standard input:19
+#: standard input:20
 msgid "LDAP:"
 msgstr "LDAP:"
 
-#: standard input:20
+#: standard input:21
 msgid "KDC:"
 msgstr "KDC:"
 
-#: standard input:21
+#: standard input:22
 msgid "Samba:"
 msgstr "Samba:"
 
-#: standard input:22 input:23
+#: standard input:23 input:24
 msgid "Active Directory"
 msgstr "Active Directory"
 
-#: standard input:24
+#: standard input:25
 msgid ""
 "(Domain for Samba AD DC controller. Suitable both for Microsoft Windows and "
 "Linux workstation authentication.)"
@@ -130,59 +139,59 @@ msgstr ""
 "(домен для контроллера домена Samba AD. Рекомендуется для аутентификации "
 "рабочих станций под управлением и Windows и Linux)"
 
-#: standard input:27 input:46
+#: standard input:28 input:47
 msgid "Additional options:"
 msgstr "Дополнительные параметры:"
 
-#: standard input:28
+#: standard input:29
 msgid "DNS forwarders:"
 msgstr "DNS-серверы:"
 
-#: standard input:29
+#: standard input:30
 msgid "(IP addresses of additional DNS servers)"
 msgstr "(адреса IP внешних серверов DNS)"
 
-#: standard input:30 input:47
+#: standard input:31 input:48
 msgid "Administrator password:"
 msgstr "Пароль администратора:"
 
-#: standard input:31 input:48
+#: standard input:32 input:49
 msgid "(password for Administrator user)"
 msgstr "(пароль администратора домена)"
 
-#: standard input:32 input:49
+#: standard input:33 input:50
 msgid "Reply password:"
 msgstr "Повторите пароль:"
 
-#: standard input:33
+#: standard input:34
 msgid "(repeat passphrase)"
 msgstr "(повторите фразу)"
 
-#: standard input:35
+#: standard input:36
 msgid "Service:"
 msgstr "Служба:"
 
-#: standard input:37
+#: standard input:38
 msgid "Realm:"
 msgstr "Realm:"
 
-#: standard input:38
+#: standard input:39
 msgid "DC name:"
 msgstr "Имя DC:"
 
-#: standard input:39 input:53
+#: standard input:40 input:54
 msgid "LDAP server:"
 msgstr "Сервер LDAP:"
 
-#: standard input:40 input:54
+#: standard input:41 input:55
 msgid "KDC server:"
 msgstr "Сервер KDC:"
 
-#: standard input:41 input:42
+#: standard input:42 input:43
 msgid "FreeIPA"
 msgstr "FreeIPA"
 
-#: standard input:43
+#: standard input:44
 msgid ""
 "(FreeIPA domain controller. Suitable both for Microsoft Windows and Linux "
 "workstation authentication.)"
@@ -190,118 +199,130 @@ msgstr ""
 "(домен для контроллера домена FreeIPA. Рекомендуется для аутентификации "
 "рабочих станций под управлением Linux)"
 
-#: standard input:44
+#: standard input:45
 msgid "This feature is unavailable because packages "
 msgstr "Этот тип невозможно использовать, поскольку не установлен пакет "
 
-#: standard input:45
+#: standard input:46
 msgid " are not installed"
 msgstr "."
 
-#: standard input:50
+#: standard input:51
 msgid "(repeat password)"
 msgstr "(повторите пароль)"
 
-#: standard input:52
+#: standard input:53
 msgid "Name server:"
 msgstr "Сервер DNS:"
 
-#: standard input:55
+#: standard input:56
 msgid "Cache server:"
 msgstr "Кэширующий сервер:"
 
-#: standard input:56
+#: standard input:57
 msgid "PKI:"
 msgstr "PKI:"
 
-#: standard input:57
+#: standard input:58
 msgid "Secrets Sharing (Custodia):"
 msgstr "Хранилище паролей (Custodia):"
 
-#: standard input:58
+#: standard input:59
 msgid "One-time passwords:"
 msgstr "Одноразовые пароли:"
 
-#: standard input:59
+#: standard input:60
 msgid "Web server:"
 msgstr "Веб-сервер:"
 
-#: standard input:61
+#: standard input:62
 msgid "Cancel"
 msgstr "Отмена"
 
-#: standard input:62
+#: standard input:63
 msgid "DNS only"
 msgstr "Только DNS"
 
-#: standard input:63
+#: standard input:64
 msgid "(Serves only DNS requests)"
 msgstr "(обслуживание только запросов DNS)"
 
-#: standard input:64
+#: standard input:65
 msgid "Attention:"
 msgstr "Внимание:"
 
-#: standard input:65
+#: standard input:66
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 "изменение имени домена вступит в силу только после перезагрузки компьютера"
 
-#: standard input:66
+#: standard input:67
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:67
+#: standard input:68
 msgid "Reset"
 msgstr "Сбросить"
 
-#: ui/net-domain/ajax.scm:21
+#: ui/net-domain/ajax.scm:23
 msgid "UP"
 msgstr "Выше"
 
-#: ui/net-domain/ajax.scm:22
+#: ui/net-domain/ajax.scm:24
 msgid "DOWN"
 msgstr "Ниже"
 
-#: ui/net-domain/ajax.scm:32
+#: ui/net-domain/ajax.scm:34
 msgid "Install"
 msgstr "Установить"
 
-#: ui/net-domain/ajax.scm:33
+#: ui/net-domain/ajax.scm:35
 msgid "Uninstall"
 msgstr "Удалить"
 
-#: ui/net-domain/ajax.scm:104 ui/net-domain/ajax.scm:111
+#: ui/net-domain/ajax.scm:118 ui/net-domain/ajax.scm:125
 msgid "Passwords mismatch"
 msgstr "Введённые пароли не совпадают"
 
-#: backend3/net-domain:147
+#: backend3/net-domain:182
 msgid "Domain name is not valid according to RFC 1035"
 msgstr "Имя домена не соответствует RFC 1035"
 
-#: backend3/net-domain:305
+#: backend3/net-domain:362
 msgid "Error provisioning the Active directory domain. Log is in"
 msgstr "Ошибка создания домена Active Directory. Подробности в файле"
 
-#: backend3/net-domain:481
+#: backend3/net-domain:623
 msgid "NOT OK (bind is running)"
 msgstr "НЕ ГОТОВА (запущена служба bind)"
 
-#: backend3/net-domain:547
+#: backend3/net-domain:699
 msgid "Please define a domain name"
 msgstr "Укажите имя домена"
 
-#: backend3/net-domain:550
+#: backend3/net-domain:702
 msgid "This name is registered for internal purposes"
 msgstr "Данное имя зарезервировано для системы"
 
-#: backend3/net-domain:610
+#: backend3/net-domain:723
+msgid "alterator-openldap package is not installed"
+msgstr "Не установлен пакет alterator-openldap"
+
+#: backend3/net-domain:727
+msgid "samba package is not installed"
+msgstr "Не установлен пакет samba"
+
+#: backend3/net-domain:731
+msgid "required schema file not found"
+msgstr "Файл с необходимой схемой не найден"
+
+#: backend3/net-domain:786
 msgid ""
 "The password is too short. It should be equal or longer than 7 characters!"
 msgstr ""
 "слишком короткий пароль. Пароль должен быть равен или более 7 символов!"
 
-#: backend3/net-domain:613
+#: backend3/net-domain:789
 msgid ""
 "The password does not meet the complexity criteria (must contain characters "
 "from three of the following five categories: latin letters in upper and "
@@ -311,18 +332,26 @@ msgstr ""
 "категорий из пяти: латинские буквы в верхнем и нижнем регистре, цифры, "
 "специальные и прочие символы Unicode)!"
 
-#: backend3/net-domain:615
+#: backend3/net-domain:791
 msgid "Error setting password for Administrator:"
 msgstr "Не удалось установить пароль администратора: "
 
-#: backend3/net-domain:627
+#: backend3/net-domain:803
 msgid "Password should not be empty"
 msgstr "Пароль не может быть пустым"
 
 #. # FIXME: password in the command line
-#: backend3/net-domain:647
+#: backend3/net-domain:821
 msgid "Failed to start the IPA installer"
 msgstr "Ошибка запуска программы установки FreeIPA"
+
+#: backend3/net-domain:824
+msgid "LDAP service is not running"
+msgstr "Служба LDAP не запущена"
+
+#: backend3/net-domain:827
+msgid "Password change failed"
+msgstr "Ошибка смены пароля"
 
 #~ msgid "NOT OK (samba service is stopped)"
 #~ msgstr "НЕ ГОТОВА (служба остановлена)"
