@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-vm 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-28 19:09+0400\n"
+"POT-Creation-Date: 2020-09-22 10:34+0300\n"
 "PO-Revision-Date: 2013-02-28 19:11+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
@@ -111,15 +111,19 @@ msgstr " свободно"
 msgid "free space required:"
 msgstr "требуется "
 
-#: ui/vm/ortodox.scm:70
-msgid "All data from all your disks will be lost! Continue?"
-msgstr "Все ваши данные на всех дисках будут утеряны! Продолжить?"
+#: ui/vm/ortodox.scm:72
+msgid "All data from selected groups will be lost! Continue?"
+msgstr "Все ваши данные на выбранных группах будут утеряны! Продолжить?"
 
-#: ui/vm/ortodox.scm:78
-msgid "Select disks for use"
-msgstr "Выберите диски для использования"
+#: ui/vm/ortodox.scm:81
+msgid "Select disk groups for use"
+msgstr "Выберите группы дисков для использования"
 
-#: ui/vm/ortodox.scm:83
+#: ui/vm/ortodox.scm:85
+msgid "Available disks"
+msgstr "Доступные диски"
+
+#: ui/vm/ortodox.scm:89
 msgid "Select profile"
 msgstr "Выберите профиль"
 
@@ -127,9 +131,9 @@ msgstr "Выберите профиль"
 msgid "Options"
 msgstr "Параметры"
 
-#: ui/vm/ortodox.scm:92
-msgid "Clear all before applying profile"
-msgstr "Очистить все диски перед применением профиля"
+#: ui/vm/ortodox.scm:98
+msgid "Clear selected before applying profile"
+msgstr "Очистить выбранные диски перед применением профиля"
 
 #: ui/vm/ortodox.scm:98
 msgid "Let me make my changes after profile applying"
