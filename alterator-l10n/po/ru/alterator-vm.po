@@ -42,11 +42,11 @@ msgstr "Да, я согласен."
 msgid "Select"
 msgstr "Выберите"
 
-#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109 ui/vm/details.scm:97
 msgid "OK"
 msgstr "OK"
 
-#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112 ui/vm/details.scm:98
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -484,7 +484,23 @@ msgstr ""
 "Для установки загрузчика на диск с GPT, нужно создать специальный раздел для "
 "эмуляции BIOS размером минимум 1 МиБ. Продолжить?"
 
-#: ui/vm/table.scm:136
+#: ui/vm/details.scm:39
+msgid "as "
+msgstr "как "
+
+#: ui/vm/details.scm:43
+msgid "mounted at "
+msgstr "с точкой монтирования в "
+
+#: ui/vm/details.scm:43
+msgid "Partition"
+msgstr "Раздел"
+
+#: ui/vm/details.scm:89
+msgid "Pending operations:"
+msgstr "Запланированные операции:"
+
+#: ui/vm/details.scm:95
 msgid "Apply requested changes?"
 msgstr "Произвести запрошенные изменения?"
 
