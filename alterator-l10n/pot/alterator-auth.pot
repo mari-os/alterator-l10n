@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-20 00:45+0400\n"
+"POT-Creation-Date: 2020-11-13 12:51+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,66 +19,6 @@ msgstr ""
 
 #: standard input:1
 msgid "Authentication"
-msgstr ""
-
-#: standard input:1
-msgid "Available authentication methods"
-msgstr ""
-
-#: standard input:2
-msgid "Local files"
-msgstr ""
-
-#: standard input:3
-msgid "LDAP base"
-msgstr ""
-
-#: standard input:4
-msgid "Kerberos domain"
-msgstr ""
-
-#: standard input:5
-msgid "Multi"
-msgstr ""
-
-#: standard input:6
-msgid "Pkcs11"
-msgstr ""
-
-#: standard input:7
-msgid "LDAP server:"
-msgstr ""
-
-#: standard input:8
-msgid "TLS/SSL"
-msgstr ""
-
-#: standard input:9
-msgid "Base DN:"
-msgstr ""
-
-#: standard input:10
-msgid "Select"
-msgstr ""
-
-#: standard input:11 ui/auth/index.scm:103
-msgid "Current domain:"
-msgstr ""
-
-#: standard input:12
-msgid "Domain list:"
-msgstr ""
-
-#: standard input:13 ui/auth/index.scm:176
-msgid "Attention: "
-msgstr ""
-
-#: standard input:14 ui/auth/index.scm:177
-msgid "Domain change needs reboot for normal operation"
-msgstr ""
-
-#: standard input:15 ui/auth/index.scm:183
-msgid "Apply"
 msgstr ""
 
 #: ui/auth/admin-password.scm:27
@@ -113,7 +53,7 @@ msgstr ""
 msgid "Please, fill field "
 msgstr ""
 
-#: ui/auth/index.scm:12 backend3/auth:276
+#: ui/auth/index.scm:12 backend3/auth:285
 msgid "Netbios name should not be more 15 chars"
 msgstr ""
 
@@ -136,6 +76,10 @@ msgstr ""
 
 #: ui/auth/index.scm:58
 msgid " domain."
+msgstr ""
+
+#: ui/auth/index.scm:103
+msgid "Current domain:"
 msgstr ""
 
 #. Local database
@@ -191,6 +135,18 @@ msgid ""
 "not available."
 msgstr ""
 
+#: ui/auth/index.scm:176
+msgid "Attention: "
+msgstr ""
+
+#: ui/auth/index.scm:177
+msgid "Domain change needs reboot for normal operation"
+msgstr ""
+
+#: ui/auth/index.scm:183
+msgid "Apply"
+msgstr ""
+
 #: backend3/auth:73
 msgid "local"
 msgstr ""
@@ -199,42 +155,46 @@ msgstr ""
 msgid "Kerberos domain is not used"
 msgstr ""
 
-#: backend3/auth:255 backend3/auth:277 backend3/auth:286
+#: backend3/auth:264 backend3/auth:286 backend3/auth:296
 msgid "Unable to find specified domain"
 msgstr ""
 
-#: backend3/auth:264
+#: backend3/auth:273
 msgid "Domain does not set:"
 msgstr ""
 
-#: backend3/auth:278
+#: backend3/auth:287
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:279
+#: backend3/auth:288
 msgid "Unknown administrator name"
 msgstr ""
 
-#: backend3/auth:280
+#: backend3/auth:289
 msgid "Preauthentication failed"
 msgstr ""
 
-#: backend3/auth:281
+#: backend3/auth:290
 msgid "Wrong password"
 msgstr ""
 
-#: backend3/auth:282
+#: backend3/auth:291
+msgid "Perhaps the password has expired"
+msgstr ""
+
+#: backend3/auth:292
 msgid "Unable to join to Active Directory domain:"
 msgstr ""
 
-#: backend3/auth:287
+#: backend3/auth:297
 msgid "Unable to find IPA Server to join"
 msgstr ""
 
-#: backend3/auth:288
+#: backend3/auth:298
 msgid "Incorrect administrator password"
 msgstr ""
 
-#: backend3/auth:289
+#: backend3/auth:299
 msgid "Unable to join to FreeIPA domain:"
 msgstr ""

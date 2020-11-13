@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-20 00:45+0400\n"
+"POT-Creation-Date: 2020-11-13 12:51+0400\n"
 "PO-Revision-Date: 2009-03-19 15:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -23,72 +23,6 @@ msgstr ""
 #: standard input:1
 msgid "Authentication"
 msgstr ""
-
-#: standard input:1
-#, fuzzy
-msgid "Available authentication methods"
-msgstr "Seleccionar modo adelante:"
-
-#: standard input:2
-msgid "Local files"
-msgstr "Local de los archivos"
-
-#: standard input:3
-#, fuzzy
-msgid "LDAP base"
-msgstr "Servidor LDAP:"
-
-#: standard input:4
-#, fuzzy
-msgid "Kerberos domain"
-msgstr "Borrar conección"
-
-#: standard input:5
-msgid "Multi"
-msgstr ""
-
-#: standard input:6
-msgid "Pkcs11"
-msgstr ""
-
-#: standard input:7
-msgid "LDAP server:"
-msgstr "Servidor LDAP:"
-
-#: standard input:8
-#, fuzzy
-msgid "TLS/SSL"
-msgstr "Posibilitar TLS/SSL"
-
-#: standard input:9
-msgid "Base DN:"
-msgstr "Base DN:"
-
-#: standard input:10
-msgid "Select"
-msgstr "Seleccionar"
-
-#: standard input:11 ui/auth/index.scm:103
-#, fuzzy
-msgid "Current domain:"
-msgstr "Configurar la Fecha Actual:"
-
-#: standard input:12
-#, fuzzy
-msgid "Domain list:"
-msgstr "Accesso de Escrita"
-
-#: standard input:13 ui/auth/index.scm:176
-msgid "Attention: "
-msgstr ""
-
-#: standard input:14 ui/auth/index.scm:177
-msgid "Domain change needs reboot for normal operation"
-msgstr ""
-
-#: standard input:15 ui/auth/index.scm:183
-msgid "Apply"
-msgstr "Aplicar"
 
 #: ui/auth/admin-password.scm:27
 msgid "Enter the name and password of an account"
@@ -134,7 +68,7 @@ msgstr "Cancelar"
 msgid "Please, fill field "
 msgstr ""
 
-#: ui/auth/index.scm:12 backend3/auth:276
+#: ui/auth/index.scm:12 backend3/auth:285
 msgid "Netbios name should not be more 15 chars"
 msgstr ""
 
@@ -162,6 +96,11 @@ msgstr ""
 #, fuzzy
 msgid " domain."
 msgstr "Adiccionar Cliente"
+
+#: ui/auth/index.scm:103
+#, fuzzy
+msgid "Current domain:"
+msgstr "Configurar la Fecha Actual:"
 
 #. Local database
 #: ui/auth/index.scm:107
@@ -219,6 +158,18 @@ msgid ""
 "not available."
 msgstr ""
 
+#: ui/auth/index.scm:176
+msgid "Attention: "
+msgstr ""
+
+#: ui/auth/index.scm:177
+msgid "Domain change needs reboot for normal operation"
+msgstr ""
+
+#: ui/auth/index.scm:183
+msgid "Apply"
+msgstr "Aplicar"
+
 #: backend3/auth:73
 msgid "local"
 msgstr ""
@@ -228,54 +179,90 @@ msgstr ""
 msgid "Kerberos domain is not used"
 msgstr "Borrar conección"
 
-#: backend3/auth:255 backend3/auth:277 backend3/auth:286
+#: backend3/auth:264 backend3/auth:286 backend3/auth:296
 #, fuzzy
 msgid "Unable to find specified domain"
 msgstr "No fue posible configurar el reloj"
 
-#: backend3/auth:264
+#: backend3/auth:273
 #, fuzzy
 msgid "Domain does not set:"
 msgstr "Accesso de Escrita"
 
-#: backend3/auth:278
+#: backend3/auth:287
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:279
+#: backend3/auth:288
 #, fuzzy
 msgid "Unknown administrator name"
 msgstr "Administrador DN:"
 
-#: backend3/auth:280
+#: backend3/auth:289
 #, fuzzy
 msgid "Preauthentication failed"
 msgstr "Atutenticación fracasó"
 
-#: backend3/auth:281
+#: backend3/auth:290
 #, fuzzy
 msgid "Wrong password"
 msgstr "Contraseña"
 
-#: backend3/auth:282
+#: backend3/auth:291
+msgid "Perhaps the password has expired"
+msgstr "La contraseña puede haber caducado"
+
+#: backend3/auth:292
 #, fuzzy
 msgid "Unable to join to Active Directory domain:"
 msgstr "No fue posible configurar el reloj"
 
-#: backend3/auth:287
+#: backend3/auth:297
 #, fuzzy
 msgid "Unable to find IPA Server to join"
 msgstr "No fue posible configurar el reloj"
 
-#: backend3/auth:288
+#: backend3/auth:298
 #, fuzzy
 msgid "Incorrect administrator password"
 msgstr "Administrador del Sistema"
 
-#: backend3/auth:289
+#: backend3/auth:299
 #, fuzzy
 msgid "Unable to join to FreeIPA domain:"
 msgstr "No fue posible configurar el reloj"
+
+#, fuzzy
+#~ msgid "Available authentication methods"
+#~ msgstr "Seleccionar modo adelante:"
+
+#~ msgid "Local files"
+#~ msgstr "Local de los archivos"
+
+#, fuzzy
+#~ msgid "LDAP base"
+#~ msgstr "Servidor LDAP:"
+
+#, fuzzy
+#~ msgid "Kerberos domain"
+#~ msgstr "Borrar conección"
+
+#~ msgid "LDAP server:"
+#~ msgstr "Servidor LDAP:"
+
+#, fuzzy
+#~ msgid "TLS/SSL"
+#~ msgstr "Posibilitar TLS/SSL"
+
+#~ msgid "Base DN:"
+#~ msgstr "Base DN:"
+
+#~ msgid "Select"
+#~ msgstr "Seleccionar"
+
+#, fuzzy
+#~ msgid "Domain list:"
+#~ msgstr "Accesso de Escrita"
 
 #, fuzzy
 #~ msgid "ALT Linux domain"
