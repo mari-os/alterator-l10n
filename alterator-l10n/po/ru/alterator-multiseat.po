@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-01 17:35+0300\n"
+"POT-Creation-Date: 2021-04-12 17:18+0300\n"
 "PO-Revision-Date: 2021-03-29 10:05+0300\n"
 "Last-Translator:  <underwit@altlinux.org>\n"
 "Language-Team: Russian\n"
@@ -44,14 +44,14 @@ msgid ""
 "Seat names may consist only of a-z, A-Z, 0-9, \"-\" and \"_\" and must be "
 "prefixed with \"seat\"."
 msgstr ""
-"Имя рабочено места может содержать только символы a-z, A-Z, 0-9, \"-\" и \"_"
-"\" и должноначинаться с префикса \"seat\"."
+"Имя рабочего места может содержать только символы a-z, A-Z, 0-9, \"-\" и \"_\""
+" и должно начинаться с префикса \"seat\"."
 
 #: ui/multiseat/index.scm:28
 msgid "Clear all"
 msgstr "Очистить всё"
 
-#: ui/multiseat/index.scm:35 ui/multiseat/index.scm:104
+#: ui/multiseat/index.scm:35 ui/multiseat/index.scm:107
 msgid "Test activation"
 msgstr "Тестовая активация"
 
@@ -60,25 +60,42 @@ msgid "Activate"
 msgstr "Активировать"
 
 #: ui/multiseat/index.scm:37
-msgid "Flush"
-msgstr "Освободить все устройства"
+msgid "Deactivate"
+msgstr "Деактивировать"
 
 #: ui/multiseat/index.scm:38
 msgid "Autoconfiguration GPU"
 msgstr "Автоконфигурация GPU"
 
 #: ui/multiseat/index.scm:41
-msgid "Apply"
-msgstr "Применить"
+msgid "Save settings"
+msgstr "Сохранить настройки"
 
 #: ui/multiseat/index.scm:42
-msgid "Reset"
-msgstr "Сбросить"
+msgid "Restore settings"
+msgstr "Восстановить настройки"
 
-#: ui/multiseat/index.scm:105
+#: ui/multiseat/index.scm:108
 msgid ""
 "Check the mouse and keyboard in the main place, after 30 seconds the "
 "settings will be returned."
 msgstr ""
-"Проверьте мышь и клавиатуру на основном месте, через 30 секунд "
-"будет произведён возврат настроек."
+"Проверьте мышь и клавиатуру на основном месте, через 30 секунд будет "
+"произведён возврат настроек."
+
+#: ui/multiseat/index.scm:119
+msgid "Activation"
+msgstr "Активация"
+
+#: ui/multiseat/index.scm:120
+msgid "You must restart your computer for the settings to take effect."
+msgstr "Вы должны перезагрузить компьютер, чтобы настройки вступили в силу."
+
+#~ msgid "Flush"
+#~ msgstr "Освободить все устройства"
+
+#~ msgid "Apply"
+#~ msgstr "Применить"
+
+#~ msgid "Reset"
+#~ msgstr "Сбросить"
