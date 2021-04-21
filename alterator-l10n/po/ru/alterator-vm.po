@@ -480,13 +480,11 @@ msgstr "Поздравляю! Вы обнаружили секретный ур�
 msgid "Please assign \"/\" mount point"
 msgstr "Пожалуйста, назначьте какому-либо тому точку монтирования \"/\""
 
-#: ui/vm/table.scm:127
+#: ui/vm/table.scm:128
 msgid ""
-"To install GRUB on disk with GPT, need create 1MiB (minimum size) 'bios "
-"boot' partition. Continue?"
+"To install grub-efi, ESP partition (FAT32, minimum 256 MiB, mountpoint /boot/efi) is required"
 msgstr ""
-"Для установки загрузчика на диск с GPT, нужно создать специальный раздел для "
-"эмуляции BIOS размером минимум 1 МиБ. Продолжить?"
+"Для установки grub-efi требуется ESP-раздел (FAT32, 256 МиБ, точка монтирования /boot/efi)"
 
 #: ui/vm/details.scm:39
 msgid "as "

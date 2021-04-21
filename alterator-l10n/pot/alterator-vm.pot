@@ -464,10 +464,9 @@ msgstr ""
 msgid "Please assign \"/\" mount point"
 msgstr ""
 
-#: ui/vm/table.scm:127
+#: ui/vm/table.scm:128
 msgid ""
-"To install GRUB on disk with GPT, need create 1MiB (minimum size) 'bios "
-"boot' partition. Continue?"
+"To install grub-efi, ESP partition (FAT32, minimum 256 MiB, mountpoint /boot/efi) is required"
 msgstr ""
 
 #: ui/vm/details.scm:39
