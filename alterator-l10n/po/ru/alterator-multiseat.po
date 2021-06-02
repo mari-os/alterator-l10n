@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-13 16:11+0300\n"
+"POT-Creation-Date: 2021-05-31 12:11+0300\n"
 "PO-Revision-Date: 2021-03-29 10:05+0300\n"
 "Last-Translator:  <underwit@altlinux.org>\n"
 "Language-Team: Russian\n"
@@ -51,31 +51,35 @@ msgstr ""
 msgid "Clear all"
 msgstr "Очистить всё"
 
-#: ui/multiseat/index.scm:35 ui/multiseat/index.scm:107
+#: ui/multiseat/index.scm:29
+msgid "Reset"
+msgstr "Сброс"
+
+#: ui/multiseat/index.scm:36 ui/multiseat/index.scm:109
 msgid "Test activation"
 msgstr "Тестовая активация"
 
-#: ui/multiseat/index.scm:36
-msgid "Activate"
-msgstr "Активировать"
-
 #: ui/multiseat/index.scm:37
-msgid "Deactivate"
-msgstr "Деактивировать"
+msgid "Apply"
+msgstr "Применить"
 
 #: ui/multiseat/index.scm:38
+msgid "Cancel"
+msgstr "Отменить"
+
+#: ui/multiseat/index.scm:39
 msgid "Autoconfiguration GPU"
 msgstr "Автоконфигурация GPU"
 
-#: ui/multiseat/index.scm:41
+#: ui/multiseat/index.scm:42
 msgid "Save settings"
 msgstr "Сохранить настройки"
 
-#: ui/multiseat/index.scm:42
+#: ui/multiseat/index.scm:43
 msgid "Restore settings"
 msgstr "Восстановить настройки"
 
-#: ui/multiseat/index.scm:108
+#: ui/multiseat/index.scm:110
 msgid ""
 "Check the mouse and keyboard in the main place, after 30 seconds the "
 "settings will be returned."
@@ -83,9 +87,25 @@ msgstr ""
 "Проверьте мышь и клавиатуру на основном месте, через 30 секунд будет "
 "произведён возврат настроек."
 
-#: ui/multiseat/index.scm:115
-msgid "Activate the multiple desktops mode and restart the computer?"
-msgstr "Активировать режим нескольких рабочих столов и перезагрузить компьютер?"
+#: ui/multiseat/index.scm:117
+msgid ""
+"Activate the multiple desktops mode and restart the computer? Should any "
+"problems arise, run the following command in the terminal:<br> "
+"<strong>loginctl flush-devices</strong>"
+msgstr ""
+"Активировать режим нескольких рабочих столов и перезагрузить компьютер? В "
+"случае возникновения проблем, выполните в терминале команду:<br> "
+"<strong>loginctl flush-devices</strong>"
+
+#: backend3/multiseat:110
+msgid "[device not found]"
+msgstr "[устройство не обнаружено]"
+
+#~ msgid "Activate"
+#~ msgstr "Активировать"
+
+#~ msgid "Deactivate"
+#~ msgstr "Деактивировать"
 
 #~ msgid "Activation"
 #~ msgstr "Активация"
@@ -95,9 +115,3 @@ msgstr "Активировать режим нескольких рабочих 
 
 #~ msgid "Flush"
 #~ msgstr "Освободить все устройства"
-
-#~ msgid "Apply"
-#~ msgstr "Применить"
-
-#~ msgid "Reset"
-#~ msgstr "Сбросить"
