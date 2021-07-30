@@ -1,14 +1,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Andrey Cherepanov <cas@altlinux.ru>, 2008-2012, 2016, 2017, 2020.
+# Andrey Cherepanov <cas@altlinux.ru>, 2008-2012, 2016, 2017, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 13:48+0300\n"
-"PO-Revision-Date: 2020-09-11 13:58+0300\n"
-"Last-Translator: Андрей Черепанов <cas@altlinux.ru>\n"
+"POT-Creation-Date: 2021-07-30 12:32+0300\n"
+"PO-Revision-Date: 2021-07-30 12:37+0300\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.org>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -63,17 +63,14 @@ msgstr ""
 "«local», которые зарезервированы для служебных целей."
 
 #: standard input:8
-msgid ""
-"Active Directory domain name should contains at least two labels separated "
-"by dot."
+msgid "It is recommended to have at least two labels separated by dot."
 msgstr ""
-"Имя домена Active Directory должно состоять как минимум из двух компонентов,"
-" разделённых "
-"точками."
+"Рекомендуется указывать домен как минимум из двух компонентов, разделённых"
+" точками."
 
 #: standard input:9
-msgid "Examples: domain, school-33, department.company"
-msgstr "Примеры: domain, school-33, department.company"
+msgid "Examples: domain.loc, school-33.domain, department.company"
+msgstr "Примеры: domain.loc, school-33.domain, department.company"
 
 #: standard input:10
 msgid "Domain type:"
@@ -280,7 +277,13 @@ msgstr "Установить"
 msgid "Uninstall"
 msgstr "Удалить"
 
-#: ui/net-domain/ajax.scm:118 ui/net-domain/ajax.scm:125
+#: ui/net-domain/ajax.scm:117
+msgid "Domain name should have at least two labels separated by dot"
+msgstr ""
+"Имя домена должно состоять как минимум из двух компонентов, разделённых"
+" точками."
+
+#: ui/net-domain/ajax.scm:122 ui/net-domain/ajax.scm:129
 msgid "Passwords mismatch"
 msgstr "Введённые пароли не совпадают"
 

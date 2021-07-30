@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-11 13:48+0300\n"
+"POT-Creation-Date: 2021-07-30 12:32+0300\n"
 "PO-Revision-Date: 2009-08-22 02:17+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -59,13 +59,11 @@ msgid ""
 msgstr ""
 
 #: standard input:8
-msgid ""
-"Active Directory domain name should contains at least two labels separated "
-"by dot."
+msgid "It is recommended to have at least two labels separated by dot."
 msgstr ""
 
 #: standard input:9
-msgid "Examples: domain, school-33, department.company"
+msgid "Examples: domain.loc, school-33.domain, department.company"
 msgstr ""
 
 #: standard input:10
@@ -289,7 +287,11 @@ msgstr "Джерела для встановлення ПЗ"
 msgid "Uninstall"
 msgstr "ВС не створено"
 
-#: ui/net-domain/ajax.scm:118 ui/net-domain/ajax.scm:125
+#: ui/net-domain/ajax.scm:117
+msgid "Domain name should have at least two labels separated by dot"
+msgstr ""
+
+#: ui/net-domain/ajax.scm:122 ui/net-domain/ajax.scm:129
 msgid "Passwords mismatch"
 msgstr "Паролі не співпадають"
 
