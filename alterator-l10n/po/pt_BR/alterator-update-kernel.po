@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 15:26+0400\n"
+"POT-Creation-Date: 2021-08-05 11:15+0400\n"
 "PO-Revision-Date: 2008-12-02 22:29-0300\n"
 "Last-Translator: Fernando Martini <fmartini@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -20,10 +20,115 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: pt_BR\n"
 
-#: standard input:1 ui/update-kernel/update/index.scm:109
+#: standard input:1 input:21 ui/update-kernel/update/index.scm:116
 #, fuzzy
 msgid "Update kernel"
 msgstr "Atualizações de Ajuda"
+
+#: standard input:1 ui/update-kernel/index.scm:97
+msgid "Loaded kernel release:"
+msgstr ""
+
+#: standard input:2 ui/update-kernel/index.scm:100
+msgid "Loaded kernel flavour:"
+msgstr ""
+
+#: standard input:3 ui/update-kernel/index.scm:103
+#, fuzzy
+msgid "Loaded kernel version:"
+msgstr "Versão do Kernel:"
+
+#: standard input:4 ui/update-kernel/index.scm:121
+#, fuzzy
+msgid "Installed kernels:"
+msgstr "Instalar fontes"
+
+#: standard input:5 ui/update-kernel/index.scm:131
+msgid "Make the kernel bootable by default"
+msgstr ""
+
+#: standard input:6 input:12
+#, fuzzy
+msgid "Notes "
+msgstr "Nota:"
+
+#: standard input:7 ui/update-kernel/index.scm:136
+msgid ""
+"To make the kernel bootable by default, select the desired version in the "
+"list above"
+msgstr ""
+
+#: standard input:8 ui/update-kernel/index.scm:137
+msgid "and click the 'Make the kernel bootable by default' button."
+msgstr ""
+
+#: standard input:9 ui/update-kernel/index.scm:138
+msgid "Restart the computer to boot with the selected kernel."
+msgstr ""
+
+#: standard input:10 ui/update-kernel/index.scm:150
+#, fuzzy
+msgid "Remove kernel"
+msgstr "Remover selecionado"
+
+#: standard input:11 ui/update-kernel/index.scm:162
+#, fuzzy
+msgid "Update kernel..."
+msgstr "Atualizações de Ajuda"
+
+#: standard input:13 ui/update-kernel/index.scm:173
+msgid "To install modules or update the kernel, click 'Update kernel'"
+msgstr ""
+
+#: standard input:14 ui/update-kernel/index.scm:174
+#, fuzzy
+msgid "(You need the latest kernel to install modules)."
+msgstr "Você realmente deseja apagar"
+
+#: standard input:15 ui/update-kernel/index.scm:175
+msgid ""
+"This action will require updating the list of packages available in the "
+"repository,"
+msgstr ""
+
+#: standard input:16 ui/update-kernel/index.scm:176
+msgid ""
+"and may take some time (depending on the speed of the Internet connection)."
+msgstr ""
+
+#: standard input:17 ui/update-kernel/index.scm:110
+#, fuzzy
+msgid "Kernel bootable by default:"
+msgstr "Rodar pro padrão"
+
+#: standard input:18 ui/update-kernel/index.scm:159
+#, fuzzy
+msgid "Installed modules"
+msgstr "Instalar fontes"
+
+#: standard input:19 ui/update-kernel/index.scm:165
+#, fuzzy
+msgid "Remove module"
+msgstr "Remover selecionado"
+
+#: standard input:20 ui/update-kernel/update/index.scm:107
+#, fuzzy
+msgid "Available kernel:"
+msgstr "Regras disponíveis:"
+
+#: standard input:22 ui/update-kernel/update/index.scm:118
+#, fuzzy
+msgid "Install modules"
+msgstr "Instalar fontes"
+
+#: standard input:23
+msgid "back"
+msgstr ""
+
+#: standard input:24 ui/update-kernel/update/index.scm:125
+#, fuzzy
+msgid "Available modules"
+msgstr "Regras disponíveis:"
 
 #: ui/update-kernel/ajax.scm:60 ui/update-kernel/index.scm:46
 #, fuzzy
@@ -37,122 +142,30 @@ msgstr "Você realmente deseja apagar o usuário"
 
 #: ui/update-kernel/index.scm:14 ui/update-kernel/index.scm:42
 #: ui/update-kernel/index.scm:65 ui/update-kernel/update/index.scm:17
-#: ui/update-kernel/update/index.scm:60 ui/update-kernel/update/index.scm:78
+#: ui/update-kernel/update/index.scm:66 ui/update-kernel/update/index.scm:85
 msgid "Please wait..."
 msgstr "Porfavor aguarde..."
 
-#: ui/update-kernel/index.scm:97
-msgid "Loaded kernel release:"
-msgstr ""
-
-#: ui/update-kernel/index.scm:100
-msgid "Loaded kernel flavour:"
-msgstr ""
-
-#: ui/update-kernel/index.scm:103
-#, fuzzy
-msgid "Loaded kernel version:"
-msgstr "Versão do Kernel:"
-
-#: ui/update-kernel/index.scm:110
-#, fuzzy
-msgid "Kernel bootable by default:"
-msgstr "Rodar pro padrão"
-
-#: ui/update-kernel/index.scm:121
-#, fuzzy
-msgid "Installed kernels:"
-msgstr "Instalar fontes"
-
-#: ui/update-kernel/index.scm:130
-msgid "Make the kernel bootable by default"
-msgstr ""
-
-#: ui/update-kernel/index.scm:134 ui/update-kernel/index.scm:171
+#: ui/update-kernel/index.scm:135 ui/update-kernel/index.scm:172
 #, fuzzy
 msgid "Notes"
 msgstr "Nota:"
 
-#: ui/update-kernel/index.scm:135
-msgid ""
-"To make the kernel bootable by default, select the desired version in the "
-"list above"
+#: ui/update-kernel/update/ajax.scm:34 ui/update-kernel/update/index.scm:38
+msgid "Latest kernel is already installed on your system."
 msgstr ""
 
-#: ui/update-kernel/index.scm:136
-msgid "and click the 'Make the kernel bootable by default' button."
-msgstr ""
-
-#: ui/update-kernel/index.scm:137
-msgid "Restart the computer to boot with the selected kernel."
-msgstr ""
-
-#: ui/update-kernel/index.scm:149
-#, fuzzy
-msgid "Remove kernel"
-msgstr "Remover selecionado"
-
-#: ui/update-kernel/index.scm:158
-#, fuzzy
-msgid "Installed modules"
-msgstr "Instalar fontes"
-
-#: ui/update-kernel/index.scm:161
-#, fuzzy
-msgid "Update kernel..."
-msgstr "Atualizações de Ajuda"
-
-#: ui/update-kernel/index.scm:164
-#, fuzzy
-msgid "Remove module"
-msgstr "Remover selecionado"
-
-#: ui/update-kernel/index.scm:172
-msgid "To install modules or update the kernel, click 'Update kernel'"
-msgstr ""
-
-#: ui/update-kernel/index.scm:173
-#, fuzzy
-msgid "(You need the latest kernel to install modules)."
-msgstr "Você realmente deseja apagar"
-
-#: ui/update-kernel/index.scm:174
-msgid ""
-"This action will require updating the list of packages available in the "
-"repository,"
-msgstr ""
-
-#: ui/update-kernel/index.scm:175
-msgid ""
-"and may take some time (depending on the speed of the Internet connection)."
-msgstr ""
-
-#: ui/update-kernel/update/ajax.scm:57 ui/update-kernel/update/index.scm:63
+#: ui/update-kernel/update/ajax.scm:63 ui/update-kernel/update/index.scm:69
 #, fuzzy
 msgid "Do you really want to update kernel?"
 msgstr "Você realmente deseja apagar"
 
-#: ui/update-kernel/update/ajax.scm:73 ui/update-kernel/update/index.scm:81
+#: ui/update-kernel/update/ajax.scm:79 ui/update-kernel/update/index.scm:88
 #, fuzzy
 msgid "Do you really want to install modules?"
 msgstr "Você realmente deseja apagar"
 
-#: ui/update-kernel/update/index.scm:100
-#, fuzzy
-msgid "Available kernel:"
-msgstr "Regras disponíveis:"
-
-#: ui/update-kernel/update/index.scm:111
-#, fuzzy
-msgid "Install modules"
-msgstr "Instalar fontes"
-
-#: ui/update-kernel/update/index.scm:118
-#, fuzzy
-msgid "Available modules"
-msgstr "Regras disponíveis:"
-
-#: ui/update-kernel/update/index.scm:132
+#: ui/update-kernel/update/index.scm:139
 msgid "<<  back"
 msgstr ""
 
@@ -160,24 +173,28 @@ msgstr ""
 msgid "Failed to install kernel."
 msgstr ""
 
-#: backend3/update-kernel:71
+#: backend3/update-kernel:49
+msgid ""
+"Failed to install kernel. Perhaps 'noexec' mount option used for /tmp.\n"
+"\t\t\t\tPlease do not try to boot with this kernel."
+msgstr ""
+
+#: backend3/update-kernel:82
 #, fuzzy
 msgid "Kernel update completed."
 msgstr "Restauração concluída"
 
-#: backend3/update-kernel:125
+#: backend3/update-kernel:136
 msgid "Failed to install modules."
 msgstr ""
 
-#: backend3/update-kernel:128
+#: backend3/update-kernel:139
 #, fuzzy
 msgid "Modules installed."
 msgstr "Instalação customizada"
 
-#: backend3/update-kernel:299
-msgid "Failed to apt update. The list of available kernels is not up to date."
-msgstr ""
-
-#: backend3/update-kernel:340
-msgid "Latest kernel is already installed on your system."
+#: backend3/update-kernel:326
+msgid ""
+"Error when updating the list of packages available in the repository. The "
+"list of available packages may be out of date."
 msgstr ""
