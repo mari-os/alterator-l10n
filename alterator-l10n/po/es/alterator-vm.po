@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-28 19:09+0400\n"
+"POT-Creation-Date: 2021-09-21 21:12+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -30,6 +30,11 @@ msgstr "Administração de Usuário"
 msgid "Harddisks"
 msgstr "HD"
 
+#: ui/vm/functions.scm:3
+#, fuzzy
+msgid "Please wait..."
+msgstr "Por Favor Inicie la sesión"
+
 #: ui/vm/lucky.scm:60
 msgid "Unable to partition, not enough disk space"
 msgstr ""
@@ -44,24 +49,105 @@ msgstr ""
 msgid "Yes, i'm warned"
 msgstr "Sim, Estoy de acuerdo"
 
-#: ui/vm/choice.scm:28
-msgid "Select"
-msgstr "Seleccionar"
+#: ui/vm/details.scm:51
+#, fuzzy
+msgid "as "
+msgstr "Base DN:"
 
-#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
+#: ui/vm/details.scm:55
+#, fuzzy
+msgid "mounted at "
+msgstr "Punto de montaje"
+
+#: ui/vm/details.scm:65
+#, fuzzy
+msgid "Partition"
+msgstr "particíon"
+
+#: ui/vm/details.scm:101
+#, fuzzy
+msgid "Pending operations:"
+msgstr "Opciones Lilo:"
+
+#: ui/vm/details.scm:107
+msgid "Apply requested changes?"
+msgstr ""
+
+#: ui/vm/details.scm:109 ui/vm/popup.scm:121 ui/vm/choice.scm:34
 msgid "OK"
 msgstr "OK"
 
-#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
+#: ui/vm/details.scm:110 ui/vm/popup.scm:124 ui/vm/choice.scm:35
 msgid "Cancel"
 msgstr "Cancelar"
+
+#: ui/vm/popup.scm:104
+msgid "Objects"
+msgstr ""
+
+#: ui/vm/popup.scm:108 ui/vm/ortodox.scm:98
+#, fuzzy
+msgid "Options"
+msgstr "Acción"
+
+#: ui/vm/popup.scm:112
+msgid "Next operation"
+msgstr ""
+
+#: ui/vm/popup.scm:115
+#, fuzzy
+msgid "Show extra options"
+msgstr "Opciones generales"
+
+#: ui/vm/ortodox.scm:43
+msgid " of "
+msgstr ""
+
+#: ui/vm/ortodox.scm:43
+msgid " free"
+msgstr ""
+
+#: ui/vm/ortodox.scm:62
+msgid "free space required:"
+msgstr ""
+
+#: ui/vm/ortodox.scm:74
+msgid "All data from selected groups will be lost! Continue?"
+msgstr ""
+
+#: ui/vm/ortodox.scm:83
+msgid "Select disk groups for use"
+msgstr ""
+
+#: ui/vm/ortodox.scm:87
+#, fuzzy
+msgid "Available disks"
+msgstr "Layouts disponibles:"
+
+#: ui/vm/ortodox.scm:91
+#, fuzzy
+msgid "Select profile"
+msgstr "Seleccionar modo adelante:"
+
+#: ui/vm/ortodox.scm:101
+#, fuzzy
+msgid "Clear selected before applying profile"
+msgstr "Seleccione la Zona Horaria:"
+
+#: ui/vm/ortodox.scm:106
+msgid "Let me make my changes after profile applying"
+msgstr ""
+
+#: ui/vm/ortodox.scm:137
+msgid "Unable to apply selected profile, not enough disk space"
+msgstr ""
 
 #: ui/vm/blonde.scm:45
 #, fuzzy
 msgid "Name"
 msgstr "Nombre:"
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:216
 #, fuzzy
 msgid "Filesystem"
 msgstr "Sistema"
@@ -100,53 +186,6 @@ msgstr "Seleccionar modo adelante:"
 
 #: ui/vm/blonde.scm:138
 msgid "Unable to autopartition, not enough disk space"
-msgstr ""
-
-#: ui/vm/functions.scm:3
-#, fuzzy
-msgid "Please wait..."
-msgstr "Por Favor Inicie la sesión"
-
-#: ui/vm/ortodox.scm:40
-msgid " of "
-msgstr ""
-
-#: ui/vm/ortodox.scm:40
-msgid " free"
-msgstr ""
-
-#: ui/vm/ortodox.scm:52
-msgid "free space required:"
-msgstr ""
-
-#: ui/vm/ortodox.scm:70
-msgid "All data from all your disks will be lost! Continue?"
-msgstr ""
-
-#: ui/vm/ortodox.scm:78
-msgid "Select disks for use"
-msgstr ""
-
-#: ui/vm/ortodox.scm:83
-#, fuzzy
-msgid "Select profile"
-msgstr "Seleccionar modo adelante:"
-
-#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
-#, fuzzy
-msgid "Options"
-msgstr "Acción"
-
-#: ui/vm/ortodox.scm:92
-msgid "Clear all before applying profile"
-msgstr ""
-
-#: ui/vm/ortodox.scm:98
-msgid "Let me make my changes after profile applying"
-msgstr ""
-
-#: ui/vm/ortodox.scm:129
-msgid "Unable to apply selected profile, not enough disk space"
 msgstr ""
 
 #.
@@ -412,191 +451,180 @@ msgstr "Configuración de conecciones en Rede"
 msgid "Custom"
 msgstr ""
 
-#. misc
-#: ui/vm/dummystr.scm:83
-msgid ""
-"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
-msgstr ""
-
 #. guile-evms
-#: ui/vm/dummystr.scm:85
+#: ui/vm/dummystr.scm:83
 #, fuzzy
 msgid "Invalid mountpoint"
 msgstr "Punto de montaje"
 
-#: ui/vm/dummystr.scm:86
+#: ui/vm/dummystr.scm:84
 msgid "Invalid mountpoint for SWAPFS"
 msgstr ""
 
-#: ui/vm/dummystr.scm:87
+#: ui/vm/dummystr.scm:85
 msgid "Invalid mountpoint: not a SWAPFS"
 msgstr ""
 
-#: ui/vm/dummystr.scm:88
+#: ui/vm/dummystr.scm:86
 msgid "Invalid mountpoint: should start with /mnt"
 msgstr ""
 
-#: ui/vm/dummystr.scm:89
+#: ui/vm/dummystr.scm:87
 msgid " reboot, then continue installation."
 msgstr ""
 
-#: ui/vm/dummystr.scm:90 ui/vm/table.scm:197
+#: ui/vm/dummystr.scm:88 ui/vm/table.scm:218
 #, fuzzy
 msgid "Mountpoint"
 msgstr "Punto de montaje"
 
-#: ui/vm/dummystr.scm:91
+#: ui/vm/dummystr.scm:89
 #, fuzzy
 msgid "Dump Frequency"
 msgstr "Frecuencia (Mhz)"
 
-#: ui/vm/dummystr.scm:92
+#: ui/vm/dummystr.scm:90
 #, fuzzy
 msgid "Check order"
 msgstr "Comprobar IP"
 
-#: ui/vm/dummystr.scm:93
+#: ui/vm/dummystr.scm:91
 #, fuzzy
 msgid "inaccesible or not a directory"
 msgstr "Directorio Inicial:"
 
-#: ui/vm/dummystr.scm:94
+#: ui/vm/dummystr.scm:92
 msgid "Operation not permitted"
 msgstr ""
 
-#: ui/vm/popup.scm:92
-msgid "Objects"
+#: ui/vm/dummystr.scm:93
+msgid "Invalid mountpoint: should not be resided on LVM"
 msgstr ""
-
-#: ui/vm/popup.scm:100
-msgid "Next operation"
-msgstr ""
-
-#: ui/vm/popup.scm:103
-#, fuzzy
-msgid "Show extra options"
-msgstr "Opciones generales"
 
 #: ui/vm/table.scm:86
 msgid "Congrats! You've found a secret level!"
 msgstr ""
 
-#: ui/vm/table.scm:123
+#: ui/vm/table.scm:124
 msgid "Please assign \"/\" mount point"
 msgstr ""
 
-#: ui/vm/table.scm:127
+#: ui/vm/table.scm:129
 msgid ""
-"To install GRUB on disk with GPT, need create 1MiB (minimum size) 'bios "
-"boot' partition. Continue?"
+"To install grub-efi, ESP partition (FAT32, minimum 256 MiB, mountpoint /boot/"
+"efi) is required"
 msgstr ""
 
-#: ui/vm/table.scm:136
-msgid "Apply requested changes?"
+#: ui/vm/table.scm:147
+msgid "Multiple filesystems are assigned the same mountpoint ("
 msgstr ""
 
-#: ui/vm/table.scm:141
+#: ui/vm/table.scm:150
+msgid "Please fix this by changing duplicated mountpoints."
+msgstr ""
+
+#: ui/vm/table.scm:162
 msgid "All data on following partitions will be lost:"
 msgstr ""
 
-#: ui/vm/table.scm:144
+#: ui/vm/table.scm:165
 #, fuzzy
 msgid "Continue?"
 msgstr "Rede Configurada"
 
-#: ui/vm/table.scm:193
+#: ui/vm/table.scm:214
 msgid "   Name   "
 msgstr ""
 
-#: ui/vm/table.scm:194
+#: ui/vm/table.scm:215
 msgid "Size [ free ]"
-msgstr ""
-
-#: ui/vm/table.scm:198
-#, fuzzy
-msgid "Mounted on"
-msgstr "Punto de montaje"
-
-#: ui/vm/table.scm:199
-#, fuzzy
-msgid "Mount options"
-msgstr "Punto de montaje"
-
-#: ui/vm/table.scm:202
-#, fuzzy
-msgid "Create RAID"
-msgstr "Crear"
-
-#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:214
-#: ui/vm/table.scm:222 ui/vm/table.scm:227 ui/vm/table.scm:230
-msgid "Destroy"
-msgstr ""
-
-#: ui/vm/table.scm:205
-msgid "Create Volume Group"
-msgstr ""
-
-#: ui/vm/table.scm:206 ui/vm/table.scm:212 ui/vm/table.scm:220
-#: ui/vm/table.scm:225
-msgid "Expand"
-msgstr ""
-
-#: ui/vm/table.scm:207 ui/vm/table.scm:213 ui/vm/table.scm:221
-#: ui/vm/table.scm:226
-msgid "Shrink"
-msgstr ""
-
-#: ui/vm/table.scm:210 ui/vm/table.scm:224
-#, fuzzy
-msgid "Create Volume"
-msgstr "Crear"
-
-#: ui/vm/table.scm:211 ui/vm/table.scm:229
-#, fuzzy
-msgid "Create Encrypted Volume"
-msgstr "Crear"
-
-#: ui/vm/table.scm:216 ui/vm/table.scm:218
-#, fuzzy
-msgid "Create Partition"
-msgstr "particíon"
-
-#: ui/vm/table.scm:217
-msgid "Destroy Partition Table"
 msgstr ""
 
 #: ui/vm/table.scm:219
 #, fuzzy
+msgid "Mounted on"
+msgstr "Punto de montaje"
+
+#: ui/vm/table.scm:220
+#, fuzzy
+msgid "Mount options"
+msgstr "Punto de montaje"
+
+#: ui/vm/table.scm:223
+#, fuzzy
+msgid "Create RAID"
+msgstr "Crear"
+
+#: ui/vm/table.scm:224 ui/vm/table.scm:229 ui/vm/table.scm:235
+#: ui/vm/table.scm:243 ui/vm/table.scm:248 ui/vm/table.scm:251
+msgid "Destroy"
+msgstr ""
+
+#: ui/vm/table.scm:226
+msgid "Create Volume Group"
+msgstr ""
+
+#: ui/vm/table.scm:227 ui/vm/table.scm:233 ui/vm/table.scm:241
+#: ui/vm/table.scm:246
+msgid "Expand"
+msgstr ""
+
+#: ui/vm/table.scm:228 ui/vm/table.scm:234 ui/vm/table.scm:242
+#: ui/vm/table.scm:247
+msgid "Shrink"
+msgstr ""
+
+#: ui/vm/table.scm:231 ui/vm/table.scm:245
+#, fuzzy
+msgid "Create Volume"
+msgstr "Crear"
+
+#: ui/vm/table.scm:232 ui/vm/table.scm:250
+#, fuzzy
+msgid "Create Encrypted Volume"
+msgstr "Crear"
+
+#: ui/vm/table.scm:237 ui/vm/table.scm:239
+#, fuzzy
+msgid "Create Partition"
+msgstr "particíon"
+
+#: ui/vm/table.scm:238
+msgid "Destroy Partition Table"
+msgstr ""
+
+#: ui/vm/table.scm:240
+#, fuzzy
 msgid "Create Encrypted Partition"
 msgstr "particíon"
 
-#: ui/vm/table.scm:233 ui/vm/table.scm:236
+#: ui/vm/table.scm:254 ui/vm/table.scm:257
 msgid "Make Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:234 ui/vm/table.scm:240
+#: ui/vm/table.scm:255 ui/vm/table.scm:261
 #, fuzzy
 msgid "Remove Filesystem"
 msgstr "Remover seleccionado"
 
-#: ui/vm/table.scm:235
+#: ui/vm/table.scm:256
 #, fuzzy
 msgid "Edit Mountpoint"
 msgstr "Punto de montaje"
 
-#: ui/vm/table.scm:237
+#: ui/vm/table.scm:258
 msgid "Check Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:238
+#: ui/vm/table.scm:259
 msgid "Mount Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:239
+#: ui/vm/table.scm:260
 msgid "Umount Filesystem"
 msgstr ""
 
-#: ui/vm/table.scm:264
+#: ui/vm/table.scm:285
 #, fuzzy
 msgid "Reset"
 msgstr ""
@@ -653,6 +681,10 @@ msgstr ""
 "#-#-#-#-#  alterator-xkb.po (Alterator)  #-#-#-#-#\n"
 "Resetar"
 
-#: ui/vm/table.scm:269
+#: ui/vm/table.scm:290
 msgid "Apply"
 msgstr "Aplicar"
+
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Seleccionar"
