@@ -486,6 +486,14 @@ msgid ""
 msgstr ""
 "Для установки grub-efi требуется ESP-раздел (FAT32, 256 МиБ, точка монтирования /boot/efi)"
 
+#: ui/vm/table.scm:147
+msgid "Multiple filesystems are assigned the same mountpoint ("
+msgstr "Нескольким файловым системам задана одна и та же точка монтирования ("
+
+#: ui/vm/table.scm:150
+msgid "Please fix this by changing duplicated mountpoints."
+msgstr "Пожалуйста, исправьте повторяющиеся точки монтирования."
+
 #: ui/vm/details.scm:39
 msgid "as "
 msgstr "как "
