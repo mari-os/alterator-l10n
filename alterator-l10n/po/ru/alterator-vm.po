@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alterator-vm 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-21 21:12+0300\n"
+"POT-Creation-Date: 2020-09-22 10:34+0300\n"
 "PO-Revision-Date: 2013-02-28 19:11+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
@@ -25,10 +25,6 @@ msgstr "Управление дисками"
 msgid "Harddisks"
 msgstr "Жёсткие диски"
 
-#: ui/vm/functions.scm:3
-msgid "Please wait..."
-msgstr "Пожалуйста, подождите..."
-
 #: ui/vm/lucky.scm:60
 msgid "Unable to partition, not enough disk space"
 msgstr "Невозможно создать все разделы, недостаточно места на диске"
@@ -42,95 +38,23 @@ msgstr "Все ваши данные на всех дисках будут ут�
 msgid "Yes, i'm warned"
 msgstr "Да, я согласен."
 
-#: ui/vm/details.scm:51
-msgid "as "
-msgstr "как "
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Выберите"
 
-#: ui/vm/details.scm:55
-msgid "mounted at "
-msgstr "с точкой монтирования в "
-
-#: ui/vm/details.scm:65
-msgid "Partition"
-msgstr "Раздел"
-
-#: ui/vm/details.scm:101
-msgid "Pending operations:"
-msgstr "Запланированные операции:"
-
-#: ui/vm/details.scm:107
-msgid "Apply requested changes?"
-msgstr "Произвести запрошенные изменения?"
-
-#: ui/vm/details.scm:109 ui/vm/popup.scm:121 ui/vm/choice.scm:34
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109 ui/vm/details.scm:97
 msgid "OK"
 msgstr "OK"
 
-#: ui/vm/details.scm:110 ui/vm/popup.scm:124 ui/vm/choice.scm:35
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112 ui/vm/details.scm:98
 msgid "Cancel"
 msgstr "Отмена"
-
-#: ui/vm/popup.scm:104
-msgid "Objects"
-msgstr "Объекты"
-
-#: ui/vm/popup.scm:108 ui/vm/ortodox.scm:98
-msgid "Options"
-msgstr "Параметры"
-
-#: ui/vm/popup.scm:112
-msgid "Next operation"
-msgstr "Следующая операция"
-
-#: ui/vm/popup.scm:115
-msgid "Show extra options"
-msgstr "Показывать дополнительные настройки"
-
-#: ui/vm/ortodox.scm:43
-msgid " of "
-msgstr " из "
-
-#: ui/vm/ortodox.scm:43
-msgid " free"
-msgstr " свободно"
-
-#: ui/vm/ortodox.scm:62
-msgid "free space required:"
-msgstr "требуется "
-
-#: ui/vm/ortodox.scm:74
-msgid "All data from selected groups will be lost! Continue?"
-msgstr "Все ваши данные на выбранных группах будут утеряны! Продолжить?"
-
-#: ui/vm/ortodox.scm:83
-msgid "Select disk groups for use"
-msgstr "Выберите группы дисков для использования"
-
-#: ui/vm/ortodox.scm:87
-msgid "Available disks"
-msgstr "Доступные диски"
-
-#: ui/vm/ortodox.scm:91
-msgid "Select profile"
-msgstr "Выберите профиль"
-
-#: ui/vm/ortodox.scm:101
-msgid "Clear selected before applying profile"
-msgstr "Очистить выбранные диски перед применением профиля"
-
-#: ui/vm/ortodox.scm:106
-msgid "Let me make my changes after profile applying"
-msgstr "Предложить сделать мои изменения после применения профиля"
-
-#: ui/vm/ortodox.scm:137
-msgid "Unable to apply selected profile, not enough disk space"
-msgstr "Невозможно применить профиль, недостаточно места на диске"
 
 #: ui/vm/blonde.scm:45
 msgid "Name"
 msgstr "Имя устройства"
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:216
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
 msgid "Filesystem"
 msgstr "Файловая система"
 
@@ -170,6 +94,54 @@ msgstr "Выберите метод установки"
 #: ui/vm/blonde.scm:138
 msgid "Unable to autopartition, not enough disk space"
 msgstr "Невозможно создать все разделы, недостаточно места на диске"
+
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: ui/vm/ortodox.scm:40
+msgid " of "
+msgstr " из "
+
+#: ui/vm/ortodox.scm:40
+msgid " free"
+msgstr " свободно"
+
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
+msgstr "требуется "
+
+#: ui/vm/ortodox.scm:72
+msgid "All data from selected groups will be lost! Continue?"
+msgstr "Все ваши данные на выбранных группах будут утеряны! Продолжить?"
+
+#: ui/vm/ortodox.scm:81
+msgid "Select disk groups for use"
+msgstr "Выберите группы дисков для использования"
+
+#: ui/vm/ortodox.scm:85
+msgid "Available disks"
+msgstr "Доступные диски"
+
+#: ui/vm/ortodox.scm:89
+msgid "Select profile"
+msgstr "Выберите профиль"
+
+#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
+msgid "Options"
+msgstr "Параметры"
+
+#: ui/vm/ortodox.scm:98
+msgid "Clear selected before applying profile"
+msgstr "Очистить выбранные диски перед применением профиля"
+
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
+msgstr "Предложить сделать мои изменения после применения профиля"
+
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
+msgstr "Невозможно применить профиль, недостаточно места на диске"
 
 #.
 #: ui/vm/dummystr.scm:2
@@ -424,194 +396,214 @@ msgstr "Установка сервера"
 msgid "Setup for workstation"
 msgstr "Установка рабочей станции"
 
+#: ui/vm/dummystr.scm:80
+msgid "Setup for workstation (without LVM)"
+msgstr "Установка рабочей станции (без LVM)"
+
 # Настройка вручную
 #: ui/vm/dummystr.scm:81
 msgid "Custom"
 msgstr "Вручную"
 
-#. guile-evms
+#. misc
 #: ui/vm/dummystr.scm:83
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+msgstr ""
+"Изменение размеров раздела Vista может привести к невозможности загрузки с "
+"этого раздела. Продолжить?"
+
+#. guile-evms
+#: ui/vm/dummystr.scm:85
 msgid "Invalid mountpoint"
 msgstr "Неверная точка монтирования"
 
-#: ui/vm/dummystr.scm:84
+#: ui/vm/dummystr.scm:86
 msgid "Invalid mountpoint for SWAPFS"
 msgstr "Неверная точка монтирования для SWAPFS"
 
-#: ui/vm/dummystr.scm:85
+#: ui/vm/dummystr.scm:87
 msgid "Invalid mountpoint: not a SWAPFS"
 msgstr "Неверная точка монтирования: не SWAPFS"
 
-#: ui/vm/dummystr.scm:86
+#: ui/vm/dummystr.scm:88
 msgid "Invalid mountpoint: should start with /mnt"
 msgstr "Неверная точка монтирования: должна начинаться с /mnt"
 
-#: ui/vm/dummystr.scm:87
+#: ui/vm/dummystr.scm:89
 msgid " reboot, then continue installation."
 msgstr ""
 "Невозможно перечитать таблицу разделов.\n"
 "Перегрузитесь и начните инсталляцию заново"
 
-#: ui/vm/dummystr.scm:88 ui/vm/table.scm:218
+#: ui/vm/dummystr.scm:90 ui/vm/table.scm:197
 msgid "Mountpoint"
 msgstr "Точка монтирования"
 
-#: ui/vm/dummystr.scm:89
+#: ui/vm/dummystr.scm:91
 msgid "Dump Frequency"
 msgstr "частота дампа"
 
-#: ui/vm/dummystr.scm:90
+#: ui/vm/dummystr.scm:92
 msgid "Check order"
 msgstr "порядок проверки"
 
-#: ui/vm/dummystr.scm:91
+#: ui/vm/dummystr.scm:93
 msgid "inaccesible or not a directory"
 msgstr "недоступна или не директория"
 
-#: ui/vm/dummystr.scm:92
+#: ui/vm/dummystr.scm:94
 msgid "Operation not permitted"
 msgstr "Операция невозможна"
 
-#: ui/vm/dummystr.scm:93
+#: ui/vm/dummystr.scm:95
 msgid "Invalid mountpoint: should not be resided on LVM"
 msgstr "Неверная точка монтирования: не должна размещаться на LVM"
+
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr "Объекты"
+
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr "Следующая операция"
+
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
+msgstr "Показывать дополнительные настройки"
 
 #: ui/vm/table.scm:86
 msgid "Congrats! You've found a secret level!"
 msgstr "Поздравляю! Вы обнаружили секретный уровень!"
 
-#: ui/vm/table.scm:124
+#: ui/vm/table.scm:123
 msgid "Please assign \"/\" mount point"
 msgstr "Пожалуйста, назначьте какому-либо тому точку монтирования \"/\""
 
-#: ui/vm/table.scm:129
+#: ui/vm/table.scm:128
 msgid ""
-"To install grub-efi, ESP partition (FAT32, minimum 256 MiB, mountpoint /boot/"
-"efi) is required"
+"To install grub-efi, ESP partition (FAT32, minimum 256 MiB, mountpoint /boot/efi) is required"
 msgstr ""
-"Для установки grub-efi требуется ESP-раздел (FAT32, 256 МиБ, точка "
-"монтирования /boot/efi)"
+"Для установки grub-efi требуется ESP-раздел (FAT32, 256 МиБ, точка монтирования /boot/efi)"
 
-#: ui/vm/table.scm:147
-msgid "Multiple filesystems are assigned the same mountpoint ("
-msgstr "Нескольким файловым системам задана одна и та же точка монтирования ("
+#: ui/vm/details.scm:39
+msgid "as "
+msgstr "как "
 
-#: ui/vm/table.scm:150
-msgid "Please fix this by changing duplicated mountpoints."
-msgstr "Пожалуйста, исправьте повторяющиеся точки монтирования."
+#: ui/vm/details.scm:43
+msgid "mounted at "
+msgstr "с точкой монтирования в "
 
-#: ui/vm/table.scm:162
+#: ui/vm/details.scm:43
+msgid "Partition"
+msgstr "Раздел"
+
+#: ui/vm/details.scm:89
+msgid "Pending operations:"
+msgstr "Запланированные операции:"
+
+#: ui/vm/details.scm:95
+msgid "Apply requested changes?"
+msgstr "Произвести запрошенные изменения?"
+
+#: ui/vm/table.scm:141
 msgid "All data on following partitions will be lost:"
 msgstr "Все данные на следующих разделах будут утеряны:"
 
-#: ui/vm/table.scm:165
+#: ui/vm/table.scm:144
 msgid "Continue?"
 msgstr "Продолжить?"
 
-#: ui/vm/table.scm:214
+#: ui/vm/table.scm:193
 msgid "   Name   "
 msgstr "   Имя   "
 
-#: ui/vm/table.scm:215
+#: ui/vm/table.scm:194
 msgid "Size [ free ]"
 msgstr "Размер [свободно]"
 
-#: ui/vm/table.scm:219
+#: ui/vm/table.scm:198
 msgid "Mounted on"
 msgstr "Примонтировано в"
 
-#: ui/vm/table.scm:220
+#: ui/vm/table.scm:199
 msgid "Mount options"
 msgstr "Опции монтирования"
 
-#: ui/vm/table.scm:223
+#: ui/vm/table.scm:202
 msgid "Create RAID"
 msgstr "Создать RAID"
 
-#: ui/vm/table.scm:224 ui/vm/table.scm:229 ui/vm/table.scm:235
-#: ui/vm/table.scm:243 ui/vm/table.scm:248 ui/vm/table.scm:251
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:214
+#: ui/vm/table.scm:222 ui/vm/table.scm:227 ui/vm/table.scm:230
 msgid "Destroy"
 msgstr "Удалить"
 
-#: ui/vm/table.scm:226
+#: ui/vm/table.scm:205
 msgid "Create Volume Group"
 msgstr "Создать группу томов"
 
-#: ui/vm/table.scm:227 ui/vm/table.scm:233 ui/vm/table.scm:241
-#: ui/vm/table.scm:246
+#: ui/vm/table.scm:206 ui/vm/table.scm:212 ui/vm/table.scm:220
+#: ui/vm/table.scm:225
 msgid "Expand"
 msgstr "Увеличить"
 
-#: ui/vm/table.scm:228 ui/vm/table.scm:234 ui/vm/table.scm:242
-#: ui/vm/table.scm:247
+#: ui/vm/table.scm:207 ui/vm/table.scm:213 ui/vm/table.scm:221
+#: ui/vm/table.scm:226
 msgid "Shrink"
 msgstr "Уменьшить"
 
-#: ui/vm/table.scm:231 ui/vm/table.scm:245
+#: ui/vm/table.scm:210 ui/vm/table.scm:224
 msgid "Create Volume"
 msgstr "Создать том"
 
-#: ui/vm/table.scm:232 ui/vm/table.scm:250
+#: ui/vm/table.scm:211 ui/vm/table.scm:229
 msgid "Create Encrypted Volume"
 msgstr "Создать шифруемый том"
 
-#: ui/vm/table.scm:237 ui/vm/table.scm:239
+#: ui/vm/table.scm:216 ui/vm/table.scm:218
 msgid "Create Partition"
 msgstr "Создать раздел"
 
-#: ui/vm/table.scm:238
+#: ui/vm/table.scm:217
 msgid "Destroy Partition Table"
 msgstr "Удалить таблицу разделов"
 
-#: ui/vm/table.scm:240
+#: ui/vm/table.scm:219
 msgid "Create Encrypted Partition"
 msgstr "Создать шифруемый раздел"
 
-#: ui/vm/table.scm:254 ui/vm/table.scm:257
+#: ui/vm/table.scm:233 ui/vm/table.scm:236
 msgid "Make Filesystem"
 msgstr "Создать файловую систему"
 
-#: ui/vm/table.scm:255 ui/vm/table.scm:261
+#: ui/vm/table.scm:234 ui/vm/table.scm:240
 msgid "Remove Filesystem"
 msgstr "Удалить файловую систему"
 
-#: ui/vm/table.scm:256
+#: ui/vm/table.scm:235
 msgid "Edit Mountpoint"
 msgstr "Изменить точку монтирования"
 
-#: ui/vm/table.scm:258
+#: ui/vm/table.scm:237
 msgid "Check Filesystem"
 msgstr "Проверить файловую систему"
 
-#: ui/vm/table.scm:259
+#: ui/vm/table.scm:238
 msgid "Mount Filesystem"
 msgstr "Монтировать файловую систему"
 
-#: ui/vm/table.scm:260
+#: ui/vm/table.scm:239
 msgid "Umount Filesystem"
 msgstr "Отмонтировать файловую систему"
 
-#: ui/vm/table.scm:285
+#: ui/vm/table.scm:264
 msgid "Reset"
 msgstr "Сбросить"
 
-#: ui/vm/table.scm:290
+#: ui/vm/table.scm:269
 msgid "Apply"
 msgstr "Применить"
-
-#: ui/vm/choice.scm:28
-msgid "Select"
-msgstr "Выберите"
-
-#~ msgid "Setup for workstation (without LVM)"
-#~ msgstr "Установка рабочей станции (без LVM)"
-
-#~ msgid ""
-#~ "Note, that resizing Vista partition may lead to Vista boot failure. "
-#~ "Proceed?"
-#~ msgstr ""
-#~ "Изменение размеров раздела Vista может привести к невозможности загрузки "
-#~ "с этого раздела. Продолжить?"
 
 #~ msgid "Ext2/3 File System Interface Module"
 #~ msgstr "Файловая система Ext2/3"

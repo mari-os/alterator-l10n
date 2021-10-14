@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-21 21:12+0300\n"
+"POT-Creation-Date: 2013-02-28 19:09+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -26,10 +26,6 @@ msgstr "Керування томами"
 msgid "Harddisks"
 msgstr "Жорсткий диск"
 
-#: ui/vm/functions.scm:3
-msgid "Please wait..."
-msgstr "Будь-ласка, зачекайте..."
-
 #: ui/vm/lucky.scm:60
 msgid "Unable to partition, not enough disk space"
 msgstr "Неможливо створити розділ, недостатньо місця на диску"
@@ -43,103 +39,23 @@ msgstr "Всі ващі дані на всіх дисках будуть втр�
 msgid "Yes, i'm warned"
 msgstr "Так, я згоден"
 
-#: ui/vm/details.scm:51
-#, fuzzy
-msgid "as "
-msgstr "Базовий DN"
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Обрати"
 
-#: ui/vm/details.scm:55
-#, fuzzy
-msgid "mounted at "
-msgstr "Змонтовано у"
-
-#: ui/vm/details.scm:65
-#, fuzzy
-msgid "Partition"
-msgstr "розділ"
-
-#: ui/vm/details.scm:101
-#, fuzzy
-msgid "Pending operations:"
-msgstr "Наступна операція"
-
-#: ui/vm/details.scm:107
-msgid "Apply requested changes?"
-msgstr "Застосувати запитані зміни?"
-
-#: ui/vm/details.scm:109 ui/vm/popup.scm:121 ui/vm/choice.scm:34
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109
 msgid "OK"
 msgstr ""
 
-#: ui/vm/details.scm:110 ui/vm/popup.scm:124 ui/vm/choice.scm:35
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112
 msgid "Cancel"
 msgstr "Скасувати"
-
-#: ui/vm/popup.scm:104
-msgid "Objects"
-msgstr "Об'єкти"
-
-#: ui/vm/popup.scm:108 ui/vm/ortodox.scm:98
-msgid "Options"
-msgstr "Параметри"
-
-#: ui/vm/popup.scm:112
-msgid "Next operation"
-msgstr "Наступна операція"
-
-#: ui/vm/popup.scm:115
-msgid "Show extra options"
-msgstr "Відобразити додаткові налаштування"
-
-#: ui/vm/ortodox.scm:43
-msgid " of "
-msgstr " з "
-
-#: ui/vm/ortodox.scm:43
-msgid " free"
-msgstr " вільно"
-
-#: ui/vm/ortodox.scm:62
-msgid "free space required:"
-msgstr "потрібно вільного простору:"
-
-#: ui/vm/ortodox.scm:74
-#, fuzzy
-msgid "All data from selected groups will be lost! Continue?"
-msgstr "Всі ващі дані на всіх дисках будуть втрачені! Продовжити?"
-
-#: ui/vm/ortodox.scm:83
-#, fuzzy
-msgid "Select disk groups for use"
-msgstr "Оберіть диск для використання"
-
-#: ui/vm/ortodox.scm:87
-#, fuzzy
-msgid "Available disks"
-msgstr "Доступні з’єднання:"
-
-#: ui/vm/ortodox.scm:91
-msgid "Select profile"
-msgstr "Оберіть профіль"
-
-#: ui/vm/ortodox.scm:101
-#, fuzzy
-msgid "Clear selected before applying profile"
-msgstr "Очистити все перед прийняттям профілю"
-
-#: ui/vm/ortodox.scm:106
-msgid "Let me make my changes after profile applying"
-msgstr "Запропонувати зробити мої зміни після застосування профілю"
-
-#: ui/vm/ortodox.scm:137
-msgid "Unable to apply selected profile, not enough disk space"
-msgstr "Неможливо застосувати профіль, недостатньо місця на диску"
 
 #: ui/vm/blonde.scm:45
 msgid "Name"
 msgstr "Ім'я"
 
-#: ui/vm/blonde.scm:46 ui/vm/table.scm:216
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
 msgid "Filesystem"
 msgstr "Файлова система"
 
@@ -178,6 +94,50 @@ msgstr "Оберіть метод для встановлення"
 #: ui/vm/blonde.scm:138
 msgid "Unable to autopartition, not enough disk space"
 msgstr "Неможливо створити всі разділи, недостатньо місця на диску"
+
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
+msgstr "Будь-ласка, зачекайте..."
+
+#: ui/vm/ortodox.scm:40
+msgid " of "
+msgstr " з "
+
+#: ui/vm/ortodox.scm:40
+msgid " free"
+msgstr " вільно"
+
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
+msgstr "потрібно вільного простору:"
+
+#: ui/vm/ortodox.scm:70
+msgid "All data from all your disks will be lost! Continue?"
+msgstr "Всі ващі дані на всіх дисках будуть втрачені! Продовжити?"
+
+#: ui/vm/ortodox.scm:78
+msgid "Select disks for use"
+msgstr "Оберіть диск для використання"
+
+#: ui/vm/ortodox.scm:83
+msgid "Select profile"
+msgstr "Оберіть профіль"
+
+#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
+msgid "Options"
+msgstr "Параметри"
+
+#: ui/vm/ortodox.scm:92
+msgid "Clear all before applying profile"
+msgstr "Очистити все перед прийняттям профілю"
+
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
+msgstr "Запропонувати зробити мої зміни після застосування профілю"
+
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
+msgstr "Неможливо застосувати профіль, недостатньо місця на диску"
 
 #.
 #: ui/vm/dummystr.scm:2
@@ -440,182 +400,182 @@ msgstr "Встановлення робочої станції"
 msgid "Custom"
 msgstr "Вручну"
 
-#. guile-evms
+#. misc
 #: ui/vm/dummystr.scm:83
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+msgstr ""
+"Зауважте, зміна розміру розділа Vista може привести до неможливості "
+"завантаження з цього розділу. Продовжити?"
+
+#. guile-evms
+#: ui/vm/dummystr.scm:85
 msgid "Invalid mountpoint"
 msgstr "Невірна точка монтування"
 
-#: ui/vm/dummystr.scm:84
+#: ui/vm/dummystr.scm:86
 msgid "Invalid mountpoint for SWAPFS"
 msgstr "Невірна точка монтування для SWAPFS"
 
-#: ui/vm/dummystr.scm:85
+#: ui/vm/dummystr.scm:87
 msgid "Invalid mountpoint: not a SWAPFS"
 msgstr "Невірна точка монтування: не SWAPFS"
 
-#: ui/vm/dummystr.scm:86
+#: ui/vm/dummystr.scm:88
 msgid "Invalid mountpoint: should start with /mnt"
 msgstr "Невірна точка монтування: має починатися з /mnt"
 
-#: ui/vm/dummystr.scm:87
+#: ui/vm/dummystr.scm:89
 msgid " reboot, then continue installation."
 msgstr " здійсніть перевантаження а потім продовжіть встановлення."
 
-#: ui/vm/dummystr.scm:88 ui/vm/table.scm:218
+#: ui/vm/dummystr.scm:90 ui/vm/table.scm:197
 msgid "Mountpoint"
 msgstr "Точка монтування"
 
-#: ui/vm/dummystr.scm:89
+#: ui/vm/dummystr.scm:91
 msgid "Dump Frequency"
 msgstr "Частота дампу"
 
-#: ui/vm/dummystr.scm:90
+#: ui/vm/dummystr.scm:92
 msgid "Check order"
 msgstr "Послідовність перевірки"
 
-#: ui/vm/dummystr.scm:91
+#: ui/vm/dummystr.scm:93
 msgid "inaccesible or not a directory"
 msgstr "немає доступу або не тека"
 
-#: ui/vm/dummystr.scm:92
+#: ui/vm/dummystr.scm:94
 msgid "Operation not permitted"
 msgstr "Операція неможлива"
 
-#: ui/vm/dummystr.scm:93
-#, fuzzy
-msgid "Invalid mountpoint: should not be resided on LVM"
-msgstr "Невірна точка монтування: має починатися з /mnt"
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr "Об'єкти"
+
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr "Наступна операція"
+
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
+msgstr "Відобразити додаткові налаштування"
 
 #: ui/vm/table.scm:86
 msgid "Congrats! You've found a secret level!"
 msgstr "Вітаємо! Ви знайшли таємний рівень!"
 
-#: ui/vm/table.scm:124
+#: ui/vm/table.scm:123
 msgid "Please assign \"/\" mount point"
 msgstr "Будь ласка, призначте будь якому тому точку монтування \"/\""
 
-#: ui/vm/table.scm:129
+#: ui/vm/table.scm:127
 msgid ""
-"To install grub-efi, ESP partition (FAT32, minimum 256 MiB, mountpoint /boot/"
-"efi) is required"
+"To install GRUB on disk with GPT, need create 1MiB (minimum size) 'bios "
+"boot' partition. Continue?"
 msgstr ""
 
-#: ui/vm/table.scm:147
-msgid "Multiple filesystems are assigned the same mountpoint ("
-msgstr ""
+#: ui/vm/table.scm:136
+msgid "Apply requested changes?"
+msgstr "Застосувати запитані зміни?"
 
-#: ui/vm/table.scm:150
-msgid "Please fix this by changing duplicated mountpoints."
-msgstr ""
-
-#: ui/vm/table.scm:162
+#: ui/vm/table.scm:141
 msgid "All data on following partitions will be lost:"
 msgstr "Всі дані на наступних розділах буде втрачено:"
 
-#: ui/vm/table.scm:165
+#: ui/vm/table.scm:144
 msgid "Continue?"
 msgstr "Продовжити?"
 
-#: ui/vm/table.scm:214
+#: ui/vm/table.scm:193
 msgid "   Name   "
 msgstr "   Ім'я   "
 
-#: ui/vm/table.scm:215
+#: ui/vm/table.scm:194
 msgid "Size [ free ]"
 msgstr "Розмір [ вільно ]"
 
-#: ui/vm/table.scm:219
+#: ui/vm/table.scm:198
 msgid "Mounted on"
 msgstr "Змонтовано у"
 
-#: ui/vm/table.scm:220
+#: ui/vm/table.scm:199
 msgid "Mount options"
 msgstr "Опції монтування"
 
-#: ui/vm/table.scm:223
+#: ui/vm/table.scm:202
 msgid "Create RAID"
 msgstr "Створити RAID"
 
-#: ui/vm/table.scm:224 ui/vm/table.scm:229 ui/vm/table.scm:235
-#: ui/vm/table.scm:243 ui/vm/table.scm:248 ui/vm/table.scm:251
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:214
+#: ui/vm/table.scm:222 ui/vm/table.scm:227 ui/vm/table.scm:230
 msgid "Destroy"
 msgstr "Вилучити"
 
-#: ui/vm/table.scm:226
+#: ui/vm/table.scm:205
 msgid "Create Volume Group"
 msgstr "Створити групу томів"
 
-#: ui/vm/table.scm:227 ui/vm/table.scm:233 ui/vm/table.scm:241
-#: ui/vm/table.scm:246
+#: ui/vm/table.scm:206 ui/vm/table.scm:212 ui/vm/table.scm:220
+#: ui/vm/table.scm:225
 msgid "Expand"
 msgstr "Збільшити"
 
-#: ui/vm/table.scm:228 ui/vm/table.scm:234 ui/vm/table.scm:242
-#: ui/vm/table.scm:247
+#: ui/vm/table.scm:207 ui/vm/table.scm:213 ui/vm/table.scm:221
+#: ui/vm/table.scm:226
 msgid "Shrink"
 msgstr "Зменшити"
 
-#: ui/vm/table.scm:231 ui/vm/table.scm:245
+#: ui/vm/table.scm:210 ui/vm/table.scm:224
 msgid "Create Volume"
 msgstr "Створити том"
 
-#: ui/vm/table.scm:232 ui/vm/table.scm:250
+#: ui/vm/table.scm:211 ui/vm/table.scm:229
 #, fuzzy
 msgid "Create Encrypted Volume"
 msgstr "Створити том"
 
-#: ui/vm/table.scm:237 ui/vm/table.scm:239
+#: ui/vm/table.scm:216 ui/vm/table.scm:218
 msgid "Create Partition"
 msgstr "Створити розділ"
 
-#: ui/vm/table.scm:238
+#: ui/vm/table.scm:217
 msgid "Destroy Partition Table"
 msgstr "Вилучити таблицю розділів"
 
-#: ui/vm/table.scm:240
+#: ui/vm/table.scm:219
 #, fuzzy
 msgid "Create Encrypted Partition"
 msgstr "Створити розділ"
 
-#: ui/vm/table.scm:254 ui/vm/table.scm:257
+#: ui/vm/table.scm:233 ui/vm/table.scm:236
 msgid "Make Filesystem"
 msgstr "Створити файлову систему"
 
-#: ui/vm/table.scm:255 ui/vm/table.scm:261
+#: ui/vm/table.scm:234 ui/vm/table.scm:240
 msgid "Remove Filesystem"
 msgstr "Видалити файлову систему"
 
-#: ui/vm/table.scm:256
+#: ui/vm/table.scm:235
 msgid "Edit Mountpoint"
 msgstr "Редагувати точку монтування"
 
-#: ui/vm/table.scm:258
+#: ui/vm/table.scm:237
 msgid "Check Filesystem"
 msgstr "Перевірити файлову систему"
 
-#: ui/vm/table.scm:259
+#: ui/vm/table.scm:238
 msgid "Mount Filesystem"
 msgstr "Монтувати файлову систему"
 
-#: ui/vm/table.scm:260
+#: ui/vm/table.scm:239
 msgid "Umount Filesystem"
 msgstr "Размонтувати файлову систему"
 
-#: ui/vm/table.scm:285
+#: ui/vm/table.scm:264
 msgid "Reset"
 msgstr "Скинути"
 
-#: ui/vm/table.scm:290
+#: ui/vm/table.scm:269
 msgid "Apply"
 msgstr "Застосувати"
-
-#: ui/vm/choice.scm:28
-msgid "Select"
-msgstr "Обрати"
-
-#~ msgid ""
-#~ "Note, that resizing Vista partition may lead to Vista boot failure. "
-#~ "Proceed?"
-#~ msgstr ""
-#~ "Зауважте, зміна розміру розділа Vista може привести до неможливості "
-#~ "завантаження з цього розділу. Продовжити?"
