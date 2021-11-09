@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-28 17:35+0300\n"
+"POT-Creation-Date: 2021-10-28 11:51+0300\n"
 "PO-Revision-Date: 2021-03-29 10:05+0300\n"
 "Last-Translator:  <underwit@altlinux.org>\n"
 "Language-Team: Russian\n"
@@ -55,31 +55,35 @@ msgstr "Очистить всё"
 msgid "Reset"
 msgstr "Сброс"
 
-#: ui/multiseat/index.scm:36 ui/multiseat/index.scm:109
+#: ui/multiseat/index.scm:31
+msgid "setup HDMI audio output"
+msgstr "настроить аудиовыход HDMI"
+
+#: ui/multiseat/index.scm:37 ui/multiseat/index.scm:110
 msgid "Test activation"
 msgstr "Тестовая активация"
 
-#: ui/multiseat/index.scm:37
+#: ui/multiseat/index.scm:38
 msgid "Apply"
 msgstr "Применить"
 
-#: ui/multiseat/index.scm:38
+#: ui/multiseat/index.scm:39
 msgid "Cancel"
 msgstr "Отменить"
 
-#: ui/multiseat/index.scm:39
+#: ui/multiseat/index.scm:40
 msgid "Autoconfiguration GPU"
 msgstr "Автоконфигурация GPU"
 
-#: ui/multiseat/index.scm:42
+#: ui/multiseat/index.scm:43
 msgid "Save settings"
 msgstr "Сохранить настройки"
 
-#: ui/multiseat/index.scm:43
+#: ui/multiseat/index.scm:44
 msgid "Restore settings"
 msgstr "Восстановить настройки"
 
-#: ui/multiseat/index.scm:110
+#: ui/multiseat/index.scm:111
 msgid ""
 "Check the mouse and keyboard in the main place, after 30 seconds the "
 "settings will be returned."
@@ -87,17 +91,17 @@ msgstr ""
 "Проверьте мышь и клавиатуру на основном месте, через 30 секунд будет "
 "произведён возврат настроек."
 
-#: ui/multiseat/index.scm:117
+#: ui/multiseat/index.scm:118
 msgid ""
 "Apply changes and restart the computer? Should any problems arise, run the "
 "following command in the terminal:<br> <strong>loginctl flush-devices</"
 "strong>"
 msgstr ""
-"Применить изменения и перезагрузить компьютер? В "
-"случае возникновения проблем, выполните в терминале команду:<br> "
-"<strong>loginctl flush-devices</strong>"
+"Применить изменения и перезагрузить компьютер? В случае возникновения "
+"проблем, выполните в терминале команду:<br> <strong>loginctl flush-devices</"
+"strong>"
 
-#: backend3/multiseat:110
+#: backend3/multiseat:113
 msgid "[device not found]"
 msgstr "[устройство не обнаружено]"
 
