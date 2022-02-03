@@ -28,7 +28,7 @@ install-country-po:
 
 install-po:
 	for i in po/*; do \
-	    lang=$${i##po/}; \
+	    lang="$${i##po/}"; \
 	    echo "Installing $$lang language:"; \
 	    install -d $(PO_LOCALEDIR)/$$lang/LC_MESSAGES; \
 	    for j in $$i/*.po; do \
