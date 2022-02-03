@@ -3,7 +3,7 @@ PO_LOCALEDIR=$(datadir)/locale
 install: install-po install-tzone-po install-country-po install-help install-l10n
 
 check:
-	for i in $(wildcard po/*/*.po);do \
+	for i in $(wildcard po/*/*.po); do \
 	    msgfmt $$i -o /dev/null || exit 1; \
 	done
 
@@ -11,7 +11,7 @@ tidy:
 	find . -name "*.html" -type f | xargs tidy --gnu-emacs yes -q -e -utf8
 
 install-tzone-po:
-	cd tzone-po ; \
+	cd tzone-po; \
 	for i in *.po; do \
 	    install -d $(PO_LOCALEDIR)/$${i%%.po}/LC_MESSAGES; \
 	    msgfmt -o $(PO_LOCALEDIR)/$${i%%.po}/LC_MESSAGES/alterator-tzone-tz.mo $$i || exit 1;\
@@ -19,7 +19,7 @@ install-tzone-po:
 	cd -
 
 install-country-po:
-	cd country-po ; \
+	cd country-po; \
 	for i in *.po; do \
 	    install -d $(PO_LOCALEDIR)/$${i%%.po}/LC_MESSAGES; \
 	    msgfmt -o $(PO_LOCALEDIR)/$${i%%.po}/LC_MESSAGES/alterator-tzone-co.mo $$i || exit 1;\
@@ -37,7 +37,7 @@ install-po:
 		msgmerge --update --sort-output --backup=off \
 			--compendium="compendium/$$lang.po" "$$j" "$$j" &>/dev/null || exit 1; \
 		msgfmt -o "$(PO_LOCALEDIR)/$$lang/LC_MESSAGES/$$name.mo" "$$j" || exit 1; \
-	    done ; \
+	    done; \
 	done
 
 install-help:
