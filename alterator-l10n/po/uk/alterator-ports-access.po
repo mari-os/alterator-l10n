@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-27 23:17+0400\n"
-"PO-Revision-Date: 2007-09-27 18:26+0400\n"
-"Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
+"POT-Creation-Date: 2022-02-28 16:29+0000\n"
+"PO-Revision-Date: 2022-02-28 19:32+0300\n"
+"Last-Translator: Paul Wolneykien <manowar@altlinux.org>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -19,185 +19,201 @@ msgstr ""
 "X-Generator: KBabel 1.10.1\n"
 
 #: standard input:1
-#, fuzzy
 msgid "Ports access control"
-msgstr "не контролюється"
+msgstr "Контроль доступу до портів"
 
 #: standard input:1
 msgid "Serial ports access control"
-msgstr ""
+msgstr "Контроль послідовних портів"
 
 #: standard input:2
-#, fuzzy
 msgid "Port"
-msgstr "Порт:"
+msgstr "Порт"
 
 #: standard input:3
-#, fuzzy
 msgid "Enabled"
-msgstr "Увімкнути"
+msgstr "Включений"
 
-#: standard input:4
-#, fuzzy
+#: standard input:4 input:20
+msgid "Access mode"
+msgstr "Режим доступу"
+
+#: standard input:5
 msgid "Serial port settings"
-msgstr "Загальні налаштування"
+msgstr "Налаштування послідовного порту"
 
-#: standard input:5 input:20
+#: standard input:6 input:23
 msgid "Value"
-msgstr ""
+msgstr "Значення"
 
-#: standard input:6
+#: standard input:7
 msgid "Serial port:"
-msgstr ""
-
-#: standard input:8
-#, fuzzy
-msgid "Enabled:"
-msgstr "Увімкнути"
+msgstr "Послідовний порт"
 
 #: standard input:9
-#, fuzzy
-msgid "Save serial port settings"
-msgstr "Зберегти налаштування"
+msgid "Enabled:"
+msgstr "Включений:"
 
-#: standard input:10
-msgid "USB ports access control"
-msgstr ""
+#: standard input:10 input:28
+msgid "Device owner:"
+msgstr "Власник:"
 
-#: standard input:11
-msgid "Allow any human interface devices (keyboard, mouse, joystick):"
-msgstr ""
+#: standard input:11 input:29
+msgid "Device group:"
+msgstr "Група:"
 
-#: standard input:12
-#, fuzzy
-msgid "White list"
-msgstr "Змінити список..."
+#: standard input:12 input:30
+msgid "Access mode:"
+msgstr "Режим доступу:"
 
 #: standard input:13
-msgid "Rule N"
-msgstr ""
+msgid "Save serial port settings"
+msgstr "Зберегти налаштування послідовного порту"
 
-#: standard input:14 input:27
-msgid "Vendor"
-msgstr ""
+#: standard input:14
+msgid "USB ports access control"
+msgstr "Контроль USB-портів"
 
 #: standard input:15
-msgid "ProdID"
-msgstr ""
+msgid "White list"
+msgstr "Список дозволених пристроїв"
 
-#: standard input:16 input:29
+#: standard input:16 input:37
+msgid "Vendor ID"
+msgstr "ID виробника"
+
+#: standard input:17 input:38
+msgid "Product ID"
+msgstr "ID продукту"
+
+#: standard input:18 input:36
 msgid "Serial"
-msgstr ""
-
-#: standard input:17
-msgid "Rule info"
-msgstr ""
-
-#: standard input:18
-msgid "Delete selected entry from white list"
-msgstr ""
+msgstr "Серійний №"
 
 #: standard input:19
-msgid "Rule parts"
-msgstr ""
+msgid "Device info"
+msgstr "Інформація"
 
 #: standard input:21
-msgid "Vendor code:"
-msgstr ""
+msgid "Delete selected entry from the white list"
+msgstr "Видалити вибране правило"
 
 #: standard input:22
-msgid "Product ID:"
-msgstr ""
-
-#: standard input:23
-msgid "Serial number:"
-msgstr ""
+msgid "Rule part"
+msgstr "Частина правила"
 
 #: standard input:24
-msgid "Useful device info:"
-msgstr ""
+msgid "Vendor ID:"
+msgstr "ID виробника:"
 
 #: standard input:25
-msgid "Add new entry to white list"
-msgstr ""
+msgid "Product ID:"
+msgstr "ID продукту:"
 
 #: standard input:26
-msgid "Present USB devices in system"
-msgstr ""
+msgid "Serial number:"
+msgstr "Серійний номер:"
 
-#: standard input:28
-msgid "Product"
-msgstr ""
-
-#: standard input:30
-msgid "Vendor ID"
-msgstr ""
+#: standard input:27
+msgid "Useful device info:"
+msgstr "Корисна інформація про пристрій:"
 
 #: standard input:31
-msgid "Product ID"
-msgstr ""
+msgid "Save USB device settings"
+msgstr "Зберегти параметри USB пристрою"
 
 #: standard input:32
-msgid "Scan attached USB devices"
-msgstr ""
+msgid "Reset"
+msgstr "Скидання"
 
 #: standard input:33
-msgid "Add selected device to white list"
-msgstr ""
+msgid "Plugged-in USB devices"
+msgstr "Підключені USB-пристрої"
 
 #: standard input:34
-msgid "Status"
-msgstr "Стан"
+msgid "Vendor"
+msgstr "Виробник"
 
 #: standard input:35
-#, fuzzy
+msgid "Device"
+msgstr "Пристрій"
+
+#: standard input:39
+msgid "Scan plugged-in USB devices"
+msgstr "Сканувати підключені USB пристрої"
+
+#: standard input:40
+msgid "Add selected device to the white list"
+msgstr "Дозволити вибраний пристрій"
+
+#: standard input:41
+msgid "Status"
+msgstr "Статус"
+
+#: standard input:42
 msgid "Turn on serial control"
-msgstr "не контролюється"
+msgstr "Включити контроль послідовних портів"
 
-#: standard input:36
-#, fuzzy
+#: standard input:43
 msgid "Turn off serial control"
-msgstr "не контролюється"
+msgstr "Вимкнути контроль послідовних портів"
 
-#: standard input:37
-#, fuzzy
+#: standard input:44
 msgid "Turn on USB control"
-msgstr "не контролюється"
+msgstr "Включити контроль USB-портів"
 
-#: standard input:38
-#, fuzzy
+#: standard input:45
 msgid "Turn off USB control"
-msgstr "Вимкнути комп’ютер зараз"
+msgstr "Вимкнути контроль USB-портів"
 
-#: ui/portsctrl/ajax.scm:27
-msgid "please choose from the list above"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:100
-msgid "Serial ports control activated"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:100
-msgid "Serial ports control deactivated"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:101
-msgid "USB ports control activated"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:101
-msgid "USB ports control deactivated"
-msgstr ""
-
-#: backend3/portsctrl:27 backend3/portsctrl:51 backend3/portsctrl:67
-#: backend3/portsctrl:178 backend3/portsctrl:196
+#: ui/portsctrl/ajax.scm:11
 msgid "Yes"
 msgstr "Так"
 
-#: backend3/portsctrl:28 backend3/portsctrl:59 backend3/portsctrl:191
+#: ui/portsctrl/ajax.scm:12
 msgid "No"
 msgstr "Ні"
 
-#: backend3/portsctrl:135
-msgid "None"
-msgstr ""
+#: ui/portsctrl/ajax.scm:15
+msgid "Default"
+msgstr "Типовий"
+
+#: ui/portsctrl/ajax.scm:16
+msgid "User r/o"
+msgstr "Власник (читання)"
+
+#: ui/portsctrl/ajax.scm:17
+msgid "User + group r/o"
+msgstr "Власник + група (читання)"
+
+#: ui/portsctrl/ajax.scm:18
+msgid "User r/w"
+msgstr "Власник (читання та запис)"
+
+#: ui/portsctrl/ajax.scm:19
+msgid "User r/w, group r/o"
+msgstr "Власник (чт.+зп.), група (чт.)"
+
+#: ui/portsctrl/ajax.scm:20
+msgid "User + group r/w"
+msgstr "Власник + група (чт.+зп.)"
+
+#: ui/portsctrl/ajax.scm:39
+msgid "please choose from the list above"
+msgstr "будь ласка виберіть зі списку вище"
+
+#: ui/portsctrl/ajax.scm:120
+msgid "Serial port control activated"
+msgstr "Контроль послідовних портів активовано"
+
+#: ui/portsctrl/ajax.scm:120
+msgid "Serial port control deactivated"
+msgstr "Контроль послідовних портів вимкнено"
+
+#: ui/portsctrl/ajax.scm:121
+msgid "USB port control activated"
+msgstr "Контроль USB-портів активовано"
+
+#: ui/portsctrl/ajax.scm:121
+msgid "USB port control deactivated"
+msgstr "Контроль USB-портів вимкнено"
