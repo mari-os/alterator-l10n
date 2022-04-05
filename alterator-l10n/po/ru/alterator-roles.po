@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-08 18:25+0400\n"
+"POT-Creation-Date: 2022-04-05 17:57+0400\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -19,84 +19,84 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: standard input:1
-msgid "Role"
-msgstr "Роль"
-
-#: ui/role/roleadd/index.scm:16 ui/role/roleadd_sys/index.scm:16
-#: ui/role/roleadd_d/index.scm:27
-msgid "Role is empty."
-msgstr "Роль не указана."
-
-#: ui/role/roleadd/index.scm:18 ui/role/roleadd_sys/index.scm:18
-#: ui/role/roleadd_d/index.scm:29
-msgid "Privilege is empty."
-msgstr "Привилегия не указана."
-
-#: ui/role/roleadd/index.scm:42 ui/role/roleadd_d/index.scm:54
-msgid "Add a privilege:"
-msgstr "Добавить привилегию:"
-
-#: ui/role/roleadd/index.scm:44 ui/role/roleadd_sys/index.scm:44
-#: ui/role/roleadd_d/index.scm:59
-msgid "Role:"
-msgstr "Роль:"
-
-#: ui/role/roleadd/index.scm:47 ui/role/roleadd_sys/index.scm:47
-#: ui/role/roleadd_d/index.scm:62
-msgid "Privilege:"
-msgstr "Привилегия:"
-
-#: ui/role/roleadd/index.scm:55 ui/role/roleadd_sys/index.scm:55
-#: ui/role/roleadd_d/index.scm:70
-msgid "OK"
-msgstr "OK"
-
-#: ui/role/roleadd/index.scm:56 ui/role/roleadd_sys/index.scm:56
-#: ui/role/roleadd_d/index.scm:71
-msgid "Cancel"
-msgstr "Отмена"
-
-#: ui/role/roleadd_sys/index.scm:42
-msgid "Add a privilege to system role:"
-msgstr "Назначить привилегию системной роли:"
-
-#: ui/role/roleadd_d/index.scm:25
-msgid "File name is empty."
-msgstr "Имя файла не указано."
-
-#: ui/role/roleadd_d/index.scm:56
-msgid "File:"
-msgstr "Файл:"
-
-#: ui/role/index.scm:145
+#: standard input:1 ui/roles/index.scm:160
 msgid "Roles"
 msgstr "Роли"
 
-#: ui/role/index.scm:151
+#: ui/roles/roleadd/index.scm:16 ui/roles/roleadd_sys/index.scm:16
+#: ui/roles/roleadd_d/index.scm:27
+msgid "Role is empty."
+msgstr "Роль не указана."
+
+#: ui/roles/roleadd/index.scm:18 ui/roles/roleadd_sys/index.scm:18
+#: ui/roles/roleadd_d/index.scm:29
+msgid "Privilege is empty."
+msgstr "Привилегия не указана."
+
+#: ui/roles/roleadd/index.scm:42 ui/roles/roleadd_d/index.scm:54
+msgid "Add a privilege:"
+msgstr "Добавить привилегию:"
+
+#: ui/roles/roleadd/index.scm:44 ui/roles/roleadd_sys/index.scm:44
+#: ui/roles/roleadd_d/index.scm:59
+msgid "Role:"
+msgstr "Роль:"
+
+#: ui/roles/roleadd/index.scm:47 ui/roles/roleadd_sys/index.scm:47
+#: ui/roles/roleadd_d/index.scm:62
+msgid "Privilege:"
+msgstr "Привилегия:"
+
+#: ui/roles/roleadd/index.scm:55 ui/roles/roleadd_sys/index.scm:55
+#: ui/roles/roleadd_d/index.scm:70
+msgid "OK"
+msgstr "OK"
+
+#: ui/roles/roleadd/index.scm:56 ui/roles/roleadd_sys/index.scm:56
+#: ui/roles/roleadd_d/index.scm:71
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ui/roles/roleadd_sys/index.scm:42
+msgid "Add a privilege to system role:"
+msgstr "Назначить привилегию системной роли:"
+
+#: ui/roles/roleadd_d/index.scm:25
+msgid "File name is empty."
+msgstr "Имя файла не указано."
+
+#: ui/roles/roleadd_d/index.scm:56
+msgid "File:"
+msgstr "Файл:"
+
+#: ui/roles/index.scm:166
 msgid "Privileges from /etc/role"
 msgstr "Привилегии из /etc/role"
 
-#: ui/role/index.scm:152
+#: ui/roles/index.scm:167
 msgid "Privileges from /etc/role.d/*"
 msgstr "Привилегии из /etc/role.d/*"
 
-#: ui/role/index.scm:159 ui/role/index.scm:168 ui/role/index.scm:200
+#: ui/roles/index.scm:171
+msgid "Role is enabled"
+msgstr "Включить механизм ролей"
+
+#: ui/roles/index.scm:175 ui/roles/index.scm:184 ui/roles/index.scm:216
 msgid "Add a privilege..."
 msgstr "Добавить привилегию..."
 
-#: ui/role/index.scm:162 ui/role/index.scm:171 ui/role/index.scm:203
+#: ui/roles/index.scm:178 ui/roles/index.scm:187 ui/roles/index.scm:219
 msgid "Remove a privilege"
 msgstr "Удалить привилегию"
 
-#: ui/role/index.scm:183
+#: ui/roles/index.scm:199
 msgid "System roles"
 msgstr "Системные роли"
 
-#: ui/role/index.scm:190
+#: ui/roles/index.scm:206
 msgid "System role privileges"
 msgstr "Привилегии системной роли"
 
-#: ui/role/index.scm:192
+#: ui/roles/index.scm:208
 msgid "Other privileges"
 msgstr "Остальные привилегии"
