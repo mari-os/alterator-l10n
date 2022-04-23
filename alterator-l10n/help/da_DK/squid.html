@@ -1,0 +1,121 @@
+<!-- (C) 2009 Paul Wolneykien <manowar@altlinux.ru> -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <h2>Proxy-server</h2>
+
+    <h3>Proxy-server konfiguration</h3>
+
+    <p>Et lokalt netværk af computere kan tilsluttes
+    globalt netværk (internet) via en enkelt datatransmissionskanal
+    (<em>port</em>). En af fordelene ved den netværksløsning
+    er muligheden for at bruge caching på proxy-serveren til at cache indgående
+    filer. Populære sider ville blive cachelagret ved første besøg, gemt og
+    genbruges som svar på senere henvendelser. Det ville fremskynde anmodningen
+    behandle og reducere mængden af ​​indgående <em>trafik</em>.</p>
+
+    <p>Proxy-serveren lytter til de indkommende anmodninger fra det lokale
+    netværk og om nødvendigt overfører dem til det ydre netværk.
+    Serveren venter på den indgående forbindelse på den konfigurerede
+    <em>port</em>, der som standard har standardværdien 3128. 
+    Hvis du ikke ønsker at bruge den port, kan enhver anden værdi bruges.</p>
+    
+    <p>Kilde adressen for hver anmodning kontrolleres for internt netværk
+    medlemskab. For at videresende det lokale netværks-oprindelige
+    anmodninger om, at den tilsvarende netværksadressegruppe skal tilføjes
+    til listen over interne netværk (undernet adresse og adresse maske)
+    i sektionen <em>Netværk</em>.</p>
+    
+    <p>En anden begrænsning, hvorunder om anmodningen videresendes, er
+    området <em>destinationsport</em>. Hvis destinationsportnummeret
+    til anmodningen ikke er indeholdt i en af ​​de registrerede porte
+    vil adgangen til det ydre netværk nægtes. Listen over tilmeldte
+    portnumre (tjenester) kan administreres i <em>Porte</em>
+    afsnit.</p>
+
+    <p>Proxy-serveren kan fungere i to tilstande: <em>standard</em> og
+    <em>gennemsigtig</em>. Standardtilstand indebærer (manuel) omkonfiguration
+    af programmerne i det lokale netværk. Af den grund den anden tilstand
+    -- gennemsigtig -- blev meget populær. I transparent proxy-tilstand vil
+    alle lokale netværksrelaterede anmodninger blive sendt til de registrerede
+    tjenester (porte) på det globale netværk som opsnappes automatisk
+    ved porten. Lokale netværksprogrammer fortsætter med at fungere uden nogen
+    omkonfiguration, da der slet ikke er nogen proxy. Den største ulempe ved
+    den gennemsigtige tilstand er manglen på enhver brugeridentifikation
+    mekanisme -- alle anmodninger er anonyme.</p>
+
+    <p>Den største fordel ved standard proxy-tilstand, som kan
+    bruges efter omkonfiguration af programmerne i det lokale netværk er
+    en række brugergodkendelsesmekanismer. For at aktivere godkendelse,
+    vælg en af ​​<em>godkendelsesmetoderne</em> ud over "nej
+    Godkendelse".</p>
+
+    <p>Adgangspolitik for ydre netværk består af en godkendelsespolitik
+    (metode) og en række brugergruppebaserede domæne adgangspolitikker.
+    Brug sektionen <em>Grupper</em> til at se og redigere
+    politikker. For hver gruppe af brugere kan et antal begrænset
+    (eller tilladte) domæner defineres. For brugergruppens medlemskab kan
+    styringssystem-dækkende modul "Brugere/Grupper" anvendes. Adgangspolitikker for
+    særlige grupper "Alle brugere" og "Godkendte brugere" behandles på
+    en anden måde end de individuelle politikker for brugergrupper.</p>
+
+    <p>Individuelle politikker for brugergrupper er punktlignende: det giver adgang til
+    nogle domæner men betyder ikke, at det afvises for andre domæner. Samme ting
+    for den benægtende politik. Disse politikker er nyttige til at have den højeste prioritet
+    for at definere undtagelser.</p>
+
+    <p>Tilladelsespolitik for "Alle brugere" er en hvidliste over domæner med en niveau prioritet
+    højere end den analoge politik for "godkendte brugere". Adgangen
+    til domænerne er givet til alle brugere, hvis de individuelle politikker ikke afviser det.
+    Denne politik er nyttig, når du er ligeglad med at nægte adgang til nogle offentlige
+    websteder såsom søgemaskiner som standard. Men når domænelisten er tom,
+    som standard gives adgangen til absolut alle websteder.</p>
+
+    <p>Tilladelsespolitik for "godkendte brugere" er en hvidliste over domæner med en
+    prioritetsniveau lavere end det foregående. Adgangen til domænerne er givet
+    til alle godkendte brugere, hvis de individuelle politikker ikke afviser det. Nyttigt når
+    du ønsker at give nogle flere privilegier til de loggede brugere sammenlignet med
+    anonyme. Men når domænelisten er tom, er adgangen for sådanne brugere er det
+    givet til absolut alle websteder som standard. Det er nyttigt, når du vil
+    begrænse internetadgangen for det meste for anonyme brugere.</p>
+
+    <p>Afvisningspolitik for "godkendte brugere" er en sortliste over domæner med
+    højere end den analoge politik for "Alle brugere". Adgangen til de anførte domæner
+    afvises for en logget bruger, hvis hverken en individuel politik eller "Alle brugere"
+    politik giver det. Derudover gives adgangen til alle ikke-listede websteder.
+    Politikken er nyttig, når der kun er få begrænsninger for loggede brugere og
+    flere begrænsninger for anonyme.</p>
+
+    <p>Afvisningspolitik for "Alle brugere" er en sortliste over domæner med den laveste prioritet:
+    adgangen til de anførte domæner nægtes for en bruger, hvis en anden politik ikke giver
+    adgangen og alle ikke-listede websteder er tilladt. Politikken er nyttig, når der er
+    kun få begrænsninger for internetadgang overhovedet.</p>
+
+    <h3>Se proxy-server statistikrapporter</h3>
+    <p>Oplysninger om hver forespørgsel er videresendt til det ydre netværk som er
+    monteret i proxy-serverloggen. Statistiske data behandles
+    regelmæssigt for så at dukke op som medelser. Rapporterne omfatter bl.a.
+    oplysninger om størrelse af modtagne svar og tidsforbrug.
+    Rapporterne er tilgængelige på <em>Statistik/Proxy-serveren</em>
+    modul. Hvis statistikindsamling ikke er slået til er (<strong>Aktiver
+    statistisk dataindsamling</strong>) nye netværksbrugsdata er
+    ikke skrevet til den statistiske database.</p>
+
+    <p>Hovedformålet med modulet er statistikken over netværksbrug
+    visning. Hvis en af ​​godkendelsesmetoderne bruges til at kontrollere
+    netværksadgang genereres rapporterne  på per-bruger basis.
+    Ellers bruges den lokale netværksadresse som anmodnings-id.
+    </p>
+
+    <p>Den viste rapport opdateres ikke automatisk. For at opdatere det
+    brug knappen "<strong>Opdater</strong>". Hver opdatering udføres med
+    brug af valgindstillingerne, som kan ændres. Rapportere optegnelser
+    er sorteret efter faldende mængde af de modtagne data.
+    </p>
+
+  </body>
+</html>

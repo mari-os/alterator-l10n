@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <h2>DHCP server</h2>
+
+    <p>DHCP (Dynamic Host Configuration Protocol) - protokol brugt af klienten til at
+    få automatisk en IP-adresse fra reserveret adresseområde og også nogle nyttige
+    oplysninger om lokalt netværk (DNS-server, søgedomæne, standard gateway).</p>
+
+    <p>Typisk er den opnåede adresse gyldig i en begrænset periode og kan være
+     genbrugt senere til en anden klient.
+    </p>
+
+    <p>Nogle gange er det nyttigt at give samme IP adresse hver gang klienten opretter forbindelse til netværket.
+    I dette tilfælde kan serveren genkende klienten ved hjælp af hardwareadressen på netværksadapteren (MAC-adresse).
+    Du kan tilføje en sådan klient med en <em>Statisk adresse</em>.</p>
+
+    <h2>Dynamisk DNS</h2>
+
+    <p>DNS (Domain Name System) -  protokol for at etablere et forhold mellem menneskevenlige
+    symbolske navne og IP adresser.</p>
+
+    <p>I nogle distributioner kan du finde en DNS server i par med DHCP server.
+    Denne server fungerer automatisk uden yderligere konfiguration og understøtter DNS-zone med navn lig med
+    serverens domænenavn (se modulet "Domæne"). Denne server fungerer kun med
+    statisk (ikke DHCP eller Zeroconf) konfigurerede netværksgrænseflader.
+    </p>
+
+    <p>I dette tilfælde:
+    <ul>
+        <li>Dynamisk tildelt adresse vil automatisk registreres i DNS med navn svarende til klientcomputerens navn.</li>
+        <li>Tabel med statisk adresse vil automatisk blive knyttet til DNS (hvis computernavnet er angivet)</li>
+        <li>DNS server og dets domæne sendes automatisk til alle netværksklienter.</li>
+      </ul>
+    </p>
+    <p><strong>Opmærksomhed:</strong> DNS-serverens database vil blive nulstillet, hvis du ændrer domænenavn eller
+    ændre en statisk IP-adresse. Liste over statiske DHCP-adresser vil også blive fjernet i dette tilfælde.
+    </p>
+  </body>
+</html>

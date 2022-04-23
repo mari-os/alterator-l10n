@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <h2>Sikkerhedskonfiguration</h2>
+
+    <h3>Makroblokering</h3>
+    <p>
+        Deaktiverer makro i programmer som LibreOffice og VLC Player.
+    </p>
+    <h3>GOST R 34.11-2012 hashing med adgangskode</h3>
+    <p>
+        Denne mulighed aktiverer GOST R 34.11-2012 hash algoritmen for brugeradgangskoder.
+    </p>
+    <h3>Alt Hardening modul</h3>
+    <p>
+    AltHa er et Linux sikkerhedsmodul (tilføjelse), der i øjeblikket har tre muligheder for beskyttelse af brugerplads:
+    <ul>
+    <li>ignorer SUID bits i binære filer (undtagelser kan angives);</li>
+    <li>deaktiver start af udvalgte tolke i interaktiv tilstand;</li>
+    <li>deaktiver sletning af åbne filer i udvalgte mapper.</li>
+    </ul>
+    </p>
+
+    <strong>Mere information om modulet: <a href="https://www.altlinux.org/AltHa">>>></a></strong>
+
+    <h4>Deaktiver udførelsesbits (SUID)</h4>
+    <p>Når det er aktiveret, ignoreres SUID bits i alle binære filer, undtagen eksplicit specificerede, i hele systemet.</p>
+    <p>Undtagelser præsenteres som en kolonsepareret liste over inkluderede SUID binære filer.</p>
+    <h4>Tolkeblokering (forhindring af scriptstart)</h4>
+    <p>Denne indstilling blokerer for uautoriseret tolkbrug til kodeudførelse direkte fra kommandolinjen.</p>
+    <p>Feltet "Tolke" bør indeholde en kolon-separeret liste over begrænsede tolke.</p>
+    <h4>Deaktiver sletning af åbne filer</h4>
+    <p>Denne indstilling deaktiverer sletning af åbne filer.</p>
+    <p>Feltet "Directories" skal indeholde en kolon-separeret liste over mapper.</p>
+  </body>
+</html>

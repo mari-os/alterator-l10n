@@ -1,0 +1,45 @@
+<html>
+   <head>
+        <meta http-equiv="content-type" value="text/html;charset=utf-8"/>
+   </head>
+   <body>
+     <h2>Opsætning af dato og klokkeslæt</h2>
+	  <p>En <em>tidszone</em> er et område på jorden, der har ensartet standardtid,
+     normalt kaldet lokal tid.</p>
+
+     <p>Der er to hovedure i et Linux system:</p>
+
+     <p>Hardware uret: Dette er et ur, der kører uafhængigt af enhvert kontrol
+     program, der kører i CPU'en, selv når maskinen er slukket.</p>
+
+     <p>Systemtiden: Dette er den tid, der holdes af et ur inde i Linux kernen
+     og drevet af en timer-afbrydelse. Det har kun betydning, mens Linux kører på maskinen.</p>
+
+     <p>Hver gang Linux starter op, vil det synkronisere systemtid med hardwareur.</p>
+
+     <p>Slået til er "Hardwaretid indstillet til GMT" flaget og angiver, at hardwareuret
+     opbevares i koordineret universaltid, ellers holdes den i lokal tid.</p>
+
+     <p>Hvis du vil have understøttelse af automatisk sommertid (DST), skal "Hardwaretid være indstillet til GMT" flag. 
+     Men hvis du har Windows system installeret på din computer, så skal du slå dette flag fra.</p>
+
+     <p><em>Network Time Protocol (NTP)</em> er en protokol til synkronisering af urene
+     af computersystemer over pakkekoblede datanetværk med variabel latens.
+     Den mest populære NTP server er  <em>pool.ntp.org</em>. Du kan også besøge
+     <a href="http://www.pool.ntp.org/">http://www.pool.ntp.org/</a> for at se den fulde liste over tilgængelige servere.</p>
+
+     <h2>Vælg ur kilde</h2>
+
+     <p>
+     Formålet med urkilden er at give en tidslinje for systemet, der
+     fortæller dig, hvor du er i tiden. For eksempel at udstede kommandoen 'date' på
+     et Linux system vil så læse urkilden for at bestemme nøjagtigt
+     hvad er klokken.
+     </p>
+
+     <p>
+     I eksperttilstand kan du vælge en hvilken som helst urkilde fra listen over tilgængelige kilder på dit system.
+     </p>
+
+   </body>
+</html>

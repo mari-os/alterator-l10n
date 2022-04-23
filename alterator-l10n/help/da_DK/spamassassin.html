@@ -1,0 +1,60 @@
+<!-- (C) 2007 Grigory Batalov <bga@altlinux.org> -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+   <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   </head>
+   <body>
+     <h2>Anti-spam beskyttelse</h2>
+     <p>For at beskytte mod uopfordret e-mail (<em> spam </em>) kan det indbyggede e-mail klient
+       filter bruges. En endnu mere effektiv løsning er filteret
+       på en mailserver.
+       </p>
+     <p>Der er to måder at bruge filteret på
+     (&quot;Spamfilter tilstand&quot; felt): øjeblikkelig fjernelse af spam
+		og beskedmarkering med specielle overskrifter. Den seneste variant er
+		den mest foretrukne. På den ene side sparer dette maskinressourcer
+		(ved ikke at starte et lokalt filter), på den anden side kan hver bruger
+		selv bestemme, hvad der betragtes som spam, og hvordan det behandles.
+     </p>
+     <p>
+		Filteret analyserer et bogstav på mange kriterier og giver det en endelig score.
+     Jo højere det er, jo større sandsynlighed for, at mailen er spam.
+     &quot;Påkrævet score&quot; parameter definerer startværdi,
+		hvorfra mailen vil blive genkendt som spam og f.eks.
+		fjernet. Mail vurderingskriterier kan opstilles selvstændigt med
+		navnet på reglen og dens score.
+     </p>
+     <p>&quot;Score&quot; beregnes ud fra et eller fire tal.<br/><br/>
+     RULE_NAME 0.5<br/>
+     RULE_NAME 0.5 0.6 0.5 0.5<br/>
+     RULE_NAME (0.2) (0.3) (0.2) (0.2)<br/>
+     <br/>
+     Et tal betyder endelig regelscore.
+     Hvis der er angivet fire numre, vælges et af dem afhængigt af brug eller
+     ikke-brug af en statistisk (på Bayes-algoritmebasis) og netværksanalysatorer.
+     <br/>
+     <table border="1">
+        <colgroup width="50pt" span="4"/>
+	 <tbody>
+	    <tr align="center"><td colspan="2" rowspan="2">&nbsp;</td>
+		<td colspan="2">statistisk</td>
+	    </tr>
+	    <tr align="center"><td>ingen</td><td>brug</td></tr>
+	    <tr align="center">
+		<td rowspan="2" valign="middle">netværk</td><td>ingen</td>
+		<td align="center">1</td>
+		<td align="center">3</td>
+	    </tr>
+	    <tr align="center"><td>brug</td>
+		<td align="center">2</td>
+		<td align="center">4</td>
+	    </tr>
+	 </tbody>
+     </table><br/>
+     Hvis tallet er i parentes, vil det blive tilføjet til den allerede optalte regelscore.
+     </p>
+     <p><em>Afsenderes hvidliste</em> gør det muligt at estimere deres pålidelighed på lang sigt.
+     </p>
+   </body>
+</html>
