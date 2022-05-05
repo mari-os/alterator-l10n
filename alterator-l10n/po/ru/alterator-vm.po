@@ -486,6 +486,10 @@ msgid ""
 msgstr ""
 "Для установки grub-efi требуется ESP-раздел (FAT32, 256 МиБ, точка монтирования /boot/efi)"
 
+#: ui/vm/table.scm:132
+msgid "GRUB could not be installed; please create either partition table or plain volume"
+msgstr "Установка GRUB будет невозможна; Пожалуйста, создайте таблицу разделов или обычный том"
+
 #: ui/vm/table.scm:147
 msgid "Multiple filesystems are assigned the same mountpoint ("
 msgstr "Нескольким файловым системам задана одна и та же точка монтирования ("
