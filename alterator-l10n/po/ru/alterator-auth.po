@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-03 12:59+0400\n"
+"POT-Creation-Date: 2022-06-08 18:40+0400\n"
 "PO-Revision-Date: 2018-06-01 17:18+0300\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.org>\n"
 "Language-Team: Russian <devel@lists.altlinux.org>\n"
@@ -63,7 +63,7 @@ msgstr "Базовый DN:"
 msgid "Select"
 msgstr "Показать список"
 
-#: standard input:11 ui/auth/index.scm:106
+#: standard input:11 ui/auth/index.scm:117
 msgid "Current domain:"
 msgstr "Используется домен:"
 
@@ -71,15 +71,15 @@ msgstr "Используется домен:"
 msgid "Domain list:"
 msgstr "Выберите домен:"
 
-#: standard input:13 ui/auth/index.scm:184
+#: standard input:13 ui/auth/index.scm:195
 msgid "Attention: "
 msgstr "Внимание! "
 
-#: standard input:14 ui/auth/index.scm:185
+#: standard input:14 ui/auth/index.scm:196
 msgid "Domain change needs reboot for normal operation"
 msgstr "Изменение домена заработает только после перезагрузки компьютера"
 
-#: standard input:15 ui/auth/additional-settings.scm:134 ui/auth/index.scm:191
+#: standard input:15 ui/auth/index.scm:206
 msgid "Apply"
 msgstr "Применить"
 
@@ -97,7 +97,8 @@ msgstr "Игнорировать, если групповые политики �
 
 #: ui/auth/additional-settings.scm:98
 msgid "Access users when group policy templates are not readable"
-msgstr "Игнорировать политику для SSSD, если шаблоны групповых политик не читаются"
+msgstr ""
+"Игнорировать политику для SSSD, если шаблоны групповых политик не читаются"
 
 #: ui/auth/additional-settings.scm:101
 msgid "Cache credentials:"
@@ -105,7 +106,8 @@ msgstr "Кэшировать учётные данные:"
 
 #: ui/auth/additional-settings.scm:102
 msgid "SSSD users credentials cached in the local LDB cache"
-msgstr "Учетные данные пользователей SSSD кэшируются при недоступности сервера домена"
+msgstr ""
+"Учетные данные пользователей SSSD кэшируются при недоступности сервера домена"
 
 #: ui/auth/additional-settings.scm:105
 msgid "Privileges of SSSD running:"
@@ -122,7 +124,8 @@ msgstr "Интервал обновления записей DNS:"
 #: ui/auth/additional-settings.scm:110
 msgid ""
 "Set the value of refresh interval DNS records updated by SSSD in seconds"
-msgstr "Установить интервал обновления записей DNS, обновляемых SSSD в секундах"
+msgstr ""
+"Установить интервал обновления записей DNS, обновляемых SSSD в секундах"
 
 #: ui/auth/additional-settings.scm:116
 msgid "TTL value of client DNS record:"
@@ -130,7 +133,9 @@ msgstr "TTL для клиентской записи DNS:"
 
 #: ui/auth/additional-settings.scm:117
 msgid "Set the TTL value of client DNS record updated by SSSD in seconds"
-msgstr "Установить значение TTL (в секундах) для клиентской записи DNS обновляемой SSSD"
+msgstr ""
+"Установить значение TTL (в секундах) для клиентской записи DNS обновляемой "
+"SSSD"
 
 #: ui/auth/additional-settings.scm:123
 msgid "Update the IP address in the DNS server:"
@@ -147,6 +152,10 @@ msgstr "Обновлять PTR запись машины в DNS:"
 #: ui/auth/additional-settings.scm:128
 msgid "Automatically update DNS server with the PTR record using SSSD"
 msgstr "Автоматически обновлять PTR запись машины в DNS с помощью SSSD"
+
+#: ui/auth/additional-settings.scm:134 ui/auth/admin-password.scm:38
+msgid "OK"
+msgstr "OK"
 
 #: ui/auth/additional-settings.scm:135 ui/auth/admin-password.scm:39
 msgid "Cancel"
@@ -172,15 +181,11 @@ msgstr "Пароль:"
 msgid "Enable Group Policy"
 msgstr "Включить групповые политики"
 
-#: ui/auth/admin-password.scm:38
-msgid "OK"
-msgstr "OK"
-
 #: ui/auth/index.scm:7
 msgid "Please, fill field "
 msgstr "Не заполнено поле "
 
-#: ui/auth/index.scm:12 backend3/auth:510
+#: ui/auth/index.scm:12 backend3/auth:517
 msgid "Netbios name should not be more 15 chars"
 msgstr "Имя Netbios не должно быть более 15 символов"
 
@@ -196,43 +201,50 @@ msgstr "Имя Netbios"
 msgid "Host name"
 msgstr "Имя компьютера"
 
+#: ui/auth/index.scm:37
+msgid ""
+"Do you really want to restore configuration files to default (smb.conf, krb5."
+"conf, sssd.conf)?"
+msgstr "Вы действительно хотите восстановить файлы конфигурации по умолчанию"
+" (smb.conf, krb5.conf, sssd.conf)?"
+
 #. Show welcome message for AD and FreeIPA
-#: ui/auth/index.scm:58
+#: ui/auth/index.scm:69
 msgid "Welcome to the "
 msgstr "Добро пожаловать в домен "
 
-#: ui/auth/index.scm:58
+#: ui/auth/index.scm:69
 msgid " domain."
 msgstr "."
 
 #. Local database
-#: ui/auth/index.scm:110
+#: ui/auth/index.scm:121
 msgid "Local database"
 msgstr "Локальная база пользователей"
 
 #. ALT domain
-#: ui/auth/index.scm:114
+#: ui/auth/index.scm:125
 msgid "ALT Linux domain or Astra Linux Directory"
 msgstr "Домен ALT Linux или Astra Linux Directory"
 
-#: ui/auth/index.scm:119 ui/auth/index.scm:141 ui/auth/index.scm:167
+#: ui/auth/index.scm:130 ui/auth/index.scm:152 ui/auth/index.scm:178
 msgid "Domain:"
 msgstr "Домен:"
 
-#: ui/auth/index.scm:128
+#: ui/auth/index.scm:139
 msgid "Use cached credentials for out of domain login"
 msgstr "Кэшировать аутентификацию при недоступности сервера домена"
 
 #. Active Directory
-#: ui/auth/index.scm:132
+#: ui/auth/index.scm:143
 msgid "Active Directory domain"
 msgstr "Домен Active Directory"
 
-#: ui/auth/index.scm:138 ui/auth/index.scm:164
+#: ui/auth/index.scm:149 ui/auth/index.scm:175
 msgid "Warning: "
 msgstr "Внимание: "
 
-#: ui/auth/index.scm:138
+#: ui/auth/index.scm:149
 msgid ""
 "Package task-auth-ad-sssd is not installed. Authentication with Active "
 "Directory is not available.<br />Package task-auth-ad is not enough because "
@@ -242,20 +254,20 @@ msgstr ""
 "недоступна.<br /> Установки пакета task-auth-ad недостаточно потому что он "
 "использует не рекомендованную службу winbind."
 
-#: ui/auth/index.scm:146
+#: ui/auth/index.scm:157
 msgid "Workgroup:"
 msgstr "Рабочая группа:"
 
-#: ui/auth/index.scm:151 ui/auth/index.scm:172
+#: ui/auth/index.scm:162 ui/auth/index.scm:183
 msgid "Computer name:"
 msgstr "Имя компьютера:"
 
 #. FreeIPA
-#: ui/auth/index.scm:158
+#: ui/auth/index.scm:169
 msgid "FreeIPA domain"
 msgstr "Домен FreeIPA"
 
-#: ui/auth/index.scm:164
+#: ui/auth/index.scm:175
 msgid ""
 "Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
 "not available."
@@ -263,59 +275,64 @@ msgstr ""
 "Не установлен пакет task-auth-freeipa. Аутентификация в домене FreeIPA "
 "недоступна."
 
-#: ui/auth/index.scm:180
+#: ui/auth/index.scm:191
 msgid "SSSD settings..."
 msgstr "Настройки SSSD..."
+
+#: ui/auth/index.scm:199
+msgid "Restore default configuration files (smb.conf, krb5.conf, sssd.conf)."
+msgstr "Восстановить файлы конфигурации по умолчанию (smb.conf, krb5.conf, "
+"sssd.conf)."
 
 #: backend3/auth:73
 msgid "local"
 msgstr "Не использовать домен"
 
-#: backend3/auth:322
+#: backend3/auth:327
 msgid "Kerberos domain is not used"
 msgstr "используется локальная база пользователей"
 
-#: backend3/auth:489 backend3/auth:511 backend3/auth:521
+#: backend3/auth:496 backend3/auth:518 backend3/auth:528
 msgid "Unable to find specified domain"
 msgstr "Невозможно найти указанный домен"
 
-#: backend3/auth:498
+#: backend3/auth:505
 msgid "Domain does not set:"
 msgstr "Не удалось подключиться к домену:"
 
-#: backend3/auth:512
+#: backend3/auth:519
 msgid "Cannot contact KDC for realm"
 msgstr "Невозможно найти KDC указанного домена"
 
-#: backend3/auth:513
+#: backend3/auth:520
 msgid "Unknown administrator name"
 msgstr "Неизвестное имя администратора"
 
-#: backend3/auth:514
+#: backend3/auth:521
 msgid "Preauthentication failed"
 msgstr "Не удалось выполнить предварительную проверку подлинности"
 
-#: backend3/auth:515
+#: backend3/auth:522
 msgid "Wrong password"
 msgstr "Неправильный пароль"
 
-#: backend3/auth:516
+#: backend3/auth:523
 msgid "Perhaps the password has expired"
 msgstr "Возможно, срок действия пароля истёк"
 
-#: backend3/auth:517
+#: backend3/auth:524
 msgid "Unable to join to Active Directory domain:"
 msgstr "Невозможно подключиться к домену Active Directory: "
 
-#: backend3/auth:522
+#: backend3/auth:529
 msgid "Unable to find IPA Server to join"
 msgstr "Невозможно найти сервер FreeIPA"
 
-#: backend3/auth:523
+#: backend3/auth:530
 msgid "Incorrect administrator password"
 msgstr "Указан неверный пароль администратора"
 
-#: backend3/auth:524
+#: backend3/auth:531
 msgid "Unable to join to FreeIPA domain:"
 msgstr "Невозможно подключиться к домену FreeIPA:"
 

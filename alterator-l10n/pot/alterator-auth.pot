@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-03 12:59+0400\n"
+"POT-Creation-Date: 2022-06-08 18:40+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: standard input:11 ui/auth/index.scm:106
+#: standard input:11 ui/auth/index.scm:117
 msgid "Current domain:"
 msgstr ""
 
@@ -69,15 +69,15 @@ msgstr ""
 msgid "Domain list:"
 msgstr ""
 
-#: standard input:13 ui/auth/index.scm:184
+#: standard input:13 ui/auth/index.scm:195
 msgid "Attention: "
 msgstr ""
 
-#: standard input:14 ui/auth/index.scm:185
+#: standard input:14 ui/auth/index.scm:196
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:15 ui/auth/additional-settings.scm:134 ui/auth/index.scm:191
+#: standard input:15 ui/auth/index.scm:206
 msgid "Apply"
 msgstr ""
 
@@ -146,6 +146,10 @@ msgstr ""
 msgid "Automatically update DNS server with the PTR record using SSSD"
 msgstr ""
 
+#: ui/auth/additional-settings.scm:134 ui/auth/admin-password.scm:38
+msgid "OK"
+msgstr ""
+
 #: ui/auth/additional-settings.scm:135 ui/auth/admin-password.scm:39
 msgid "Cancel"
 msgstr ""
@@ -170,15 +174,11 @@ msgstr ""
 msgid "Enable Group Policy"
 msgstr ""
 
-#: ui/auth/admin-password.scm:38
-msgid "OK"
-msgstr ""
-
 #: ui/auth/index.scm:7
 msgid "Please, fill field "
 msgstr ""
 
-#: ui/auth/index.scm:12 backend3/auth:510
+#: ui/auth/index.scm:12 backend3/auth:517
 msgid "Netbios name should not be more 15 chars"
 msgstr ""
 
@@ -194,120 +194,130 @@ msgstr ""
 msgid "Host name"
 msgstr ""
 
+#: ui/auth/index.scm:37
+msgid ""
+"Do you really want to restore configuration files to default (smb.conf, krb5."
+"conf, sssd.conf)?"
+msgstr ""
+
 #. Show welcome message for AD and FreeIPA
-#: ui/auth/index.scm:58
+#: ui/auth/index.scm:69
 msgid "Welcome to the "
 msgstr ""
 
-#: ui/auth/index.scm:58
+#: ui/auth/index.scm:69
 msgid " domain."
 msgstr ""
 
 #. Local database
-#: ui/auth/index.scm:110
+#: ui/auth/index.scm:121
 msgid "Local database"
 msgstr ""
 
 #. ALT domain
-#: ui/auth/index.scm:114
+#: ui/auth/index.scm:125
 msgid "ALT Linux domain or Astra Linux Directory"
 msgstr ""
 
-#: ui/auth/index.scm:119 ui/auth/index.scm:141 ui/auth/index.scm:167
+#: ui/auth/index.scm:130 ui/auth/index.scm:152 ui/auth/index.scm:178
 msgid "Domain:"
 msgstr ""
 
-#: ui/auth/index.scm:128
+#: ui/auth/index.scm:139
 msgid "Use cached credentials for out of domain login"
 msgstr ""
 
 #. Active Directory
-#: ui/auth/index.scm:132
+#: ui/auth/index.scm:143
 msgid "Active Directory domain"
 msgstr ""
 
-#: ui/auth/index.scm:138 ui/auth/index.scm:164
+#: ui/auth/index.scm:149 ui/auth/index.scm:175
 msgid "Warning: "
 msgstr ""
 
-#: ui/auth/index.scm:138
+#: ui/auth/index.scm:149
 msgid ""
 "Package task-auth-ad-sssd is not installed. Authentication with Active "
 "Directory is not available.<br />Package task-auth-ad is not enough because "
 "it uses non-recommended winbind."
 msgstr ""
 
-#: ui/auth/index.scm:146
+#: ui/auth/index.scm:157
 msgid "Workgroup:"
 msgstr ""
 
-#: ui/auth/index.scm:151 ui/auth/index.scm:172
+#: ui/auth/index.scm:162 ui/auth/index.scm:183
 msgid "Computer name:"
 msgstr ""
 
 #. FreeIPA
-#: ui/auth/index.scm:158
+#: ui/auth/index.scm:169
 msgid "FreeIPA domain"
 msgstr ""
 
-#: ui/auth/index.scm:164
+#: ui/auth/index.scm:175
 msgid ""
 "Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
 "not available."
 msgstr ""
 
-#: ui/auth/index.scm:180
+#: ui/auth/index.scm:191
 msgid "SSSD settings..."
+msgstr ""
+
+#: ui/auth/index.scm:199
+msgid "Restore default configuration files (smb.conf, krb5.conf, sssd.conf)."
 msgstr ""
 
 #: backend3/auth:73
 msgid "local"
 msgstr ""
 
-#: backend3/auth:322
+#: backend3/auth:327
 msgid "Kerberos domain is not used"
 msgstr ""
 
-#: backend3/auth:489 backend3/auth:511 backend3/auth:521
+#: backend3/auth:496 backend3/auth:518 backend3/auth:528
 msgid "Unable to find specified domain"
 msgstr ""
 
-#: backend3/auth:498
+#: backend3/auth:505
 msgid "Domain does not set:"
 msgstr ""
 
-#: backend3/auth:512
+#: backend3/auth:519
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:513
+#: backend3/auth:520
 msgid "Unknown administrator name"
 msgstr ""
 
-#: backend3/auth:514
+#: backend3/auth:521
 msgid "Preauthentication failed"
 msgstr ""
 
-#: backend3/auth:515
+#: backend3/auth:522
 msgid "Wrong password"
 msgstr ""
 
-#: backend3/auth:516
+#: backend3/auth:523
 msgid "Perhaps the password has expired"
 msgstr ""
 
-#: backend3/auth:517
+#: backend3/auth:524
 msgid "Unable to join to Active Directory domain:"
 msgstr ""
 
-#: backend3/auth:522
+#: backend3/auth:529
 msgid "Unable to find IPA Server to join"
 msgstr ""
 
-#: backend3/auth:523
+#: backend3/auth:530
 msgid "Incorrect administrator password"
 msgstr ""
 
-#: backend3/auth:524
+#: backend3/auth:531
 msgid "Unable to join to FreeIPA domain:"
 msgstr ""
