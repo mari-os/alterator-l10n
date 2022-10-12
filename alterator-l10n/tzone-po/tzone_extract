@@ -12,4 +12,5 @@ grep "^[A-Z]" "$zonetab_file" |
 while read code coordinates zone comments; do
 	#echo "\$(_ \"$zone\")"
 	echo "$zone"
-done | xgettext -L shell -a - -o "$pot_file"
+	echo "${zone%%/*}"
+done | xgettext -j -L shell --no-location -a - -o "$pot_file"
