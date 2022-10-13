@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# Generate pot file with timezone information from /usr/share/zoneinfo/zone.tab
+# Generate pot file with timezone information from /usr/share/zoneinfo/zone1970.tab
 # Copyright (C) 2010 Andrey Cherepanov <cas@altlinux.org>
 
-zonetab_file=/usr/share/zoneinfo/zone.tab
+zonetab_file=/usr/share/zoneinfo/zone1970.tab
 pot_file=tzone.pot
 
 export LC_ALL=C
