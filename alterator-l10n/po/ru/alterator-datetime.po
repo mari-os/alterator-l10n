@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-22 12:38+0300\n"
+"POT-Creation-Date: 2022-10-14 19:16+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -26,8 +26,8 @@ msgstr "Дата и время"
 #.
 #: standard input:1 ui/datetime/system/timezone/index.scm:49
 #: ui/datetime/installer/index.scm:60
-msgid "Please, select country:"
-msgstr "Выберите страну:"
+msgid "Please, select region:"
+msgstr "Выберите регион:"
 
 #.
 #: standard input:2 ui/datetime/system/timezone/index.scm:54
@@ -35,32 +35,33 @@ msgstr "Выберите страну:"
 msgid "Please, select time zone:"
 msgstr "Выберите часовой пояс:"
 
-#: standard input:3 input:13 ui/datetime/system/index.scm:76
+#: standard input:3 input:13 ui/datetime/system/timezone/index.scm:62
+#: ui/datetime/system/index.scm:76
 msgid "Apply"
 msgstr "Применить"
 
 #: standard input:4 ui/datetime/system/index.scm:40
-#: ui/datetime/installer/edit/index.scm:20
+#: ui/datetime/installer/edit/index.scm:19
 msgid "Get time from NTP server:"
 msgstr "Получать точное время с NTP-сервера:"
 
 #: standard input:5 ui/datetime/system/index.scm:41
-#: ui/datetime/installer/edit/index.scm:21
+#: ui/datetime/installer/edit/index.scm:20
 msgid "NTP server:"
 msgstr "NTP-сервер:"
 
 #: standard input:6 ui/datetime/system/index.scm:44
-#: ui/datetime/installer/edit/index.scm:24
+#: ui/datetime/installer/edit/index.scm:25
 msgid "Work as NTP server"
 msgstr "Работать как NTP-сервер"
 
 #: standard input:7 ui/datetime/system/index.scm:49
-#: ui/datetime/installer/edit/index.scm:29
+#: ui/datetime/installer/edit/index.scm:31
 msgid "Current date:"
 msgstr "Текущая дата:"
 
 #: standard input:8 ui/datetime/system/index.scm:50
-#: ui/datetime/installer/index.scm:71 ui/datetime/installer/edit/index.scm:30
+#: ui/datetime/installer/edit/index.scm:32 ui/datetime/installer/index.scm:71
 msgid "Current time:"
 msgstr "Текущее время:"
 
@@ -86,29 +87,28 @@ msgstr "Выбрать источник сигналов времени: "
 msgid "Reset"
 msgstr "Сбросить"
 
-#: ui/datetime/system/timezone/index.scm:62
-#: ui/datetime/installer/edit/index.scm:39
-msgid "OK"
-msgstr "OK"
-
 #: ui/datetime/system/timezone/index.scm:63
-#: ui/datetime/installer/edit/index.scm:40
+#: ui/datetime/installer/edit/index.scm:43
 msgid "Cancel"
 msgstr "Отмена"
+
+#: ui/datetime/installer/edit/index.scm:42
+msgid "OK"
+msgstr "OK"
 
 #: type/timezone.scm:13
 #, lisp-format
 msgid "Wrong timezone: ~s. Timezone like Europe/Moscow, etc. is allowed"
 msgstr "Неверный часовой пояс: ~s. Укажите, например, Europe/Moscow."
 
-#: backend3/datetime-installer:54
 msgid "set automatically"
 msgstr "устанавливается автоматически"
 
-#: backend3/datetime-installer:157 backend3/datetime-system:132
 msgid "Unable to setup time zone"
 msgstr "Невозможно установить часовой пояс"
 
-#: backend3/datetime-installer:175 backend3/datetime-system:112
 msgid "unable to setup time"
 msgstr "невозможно установить время"
+
+#~ msgid "Please, select country:"
+#~ msgstr "Выберите страну:"
