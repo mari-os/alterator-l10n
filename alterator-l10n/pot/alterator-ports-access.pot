@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-27 23:20+0400\n"
+"POT-Creation-Date: 2022-02-28 16:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,159 +33,186 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: standard input:4
+#: standard input:4 input:20
+msgid "Access mode"
+msgstr ""
+
+#: standard input:5
 msgid "Serial port settings"
 msgstr ""
 
-#: standard input:5 input:20
+#: standard input:6 input:23
 msgid "Value"
 msgstr ""
 
-#: standard input:6
+#: standard input:7
 msgid "Serial port:"
 msgstr ""
 
-#: standard input:8
+#: standard input:9
 msgid "Enabled:"
 msgstr ""
 
-#: standard input:9
-msgid "Save serial port settings"
+#: standard input:10 input:28
+msgid "Device owner:"
 msgstr ""
 
-#: standard input:10
-msgid "USB ports access control"
+#: standard input:11 input:29
+msgid "Device group:"
 msgstr ""
 
-#: standard input:11
-msgid "Allow any human interface devices (keyboard, mouse, joystick):"
-msgstr ""
-
-#: standard input:12
-msgid "White list"
+#: standard input:12 input:30
+msgid "Access mode:"
 msgstr ""
 
 #: standard input:13
-msgid "Rule N"
+msgid "Save serial port settings"
 msgstr ""
 
-#: standard input:14 input:27
-msgid "Vendor"
+#: standard input:14
+msgid "USB ports access control"
 msgstr ""
 
 #: standard input:15
-msgid "ProdID"
+msgid "White list"
 msgstr ""
 
-#: standard input:16 input:29
-msgid "Serial"
-msgstr ""
-
-#: standard input:17
-msgid "Rule info"
-msgstr ""
-
-#: standard input:18
-msgid "Delete selected entry from white list"
-msgstr ""
-
-#: standard input:19
-msgid "Rule parts"
-msgstr ""
-
-#: standard input:21
-msgid "Vendor code:"
-msgstr ""
-
-#: standard input:22
-msgid "Product ID:"
-msgstr ""
-
-#: standard input:23
-msgid "Serial number:"
-msgstr ""
-
-#: standard input:24
-msgid "Useful device info:"
-msgstr ""
-
-#: standard input:25
-msgid "Add new entry to white list"
-msgstr ""
-
-#: standard input:26
-msgid "Present USB devices in system"
-msgstr ""
-
-#: standard input:28
-msgid "Product"
-msgstr ""
-
-#: standard input:30
+#: standard input:16 input:37
 msgid "Vendor ID"
 msgstr ""
 
-#: standard input:31
+#: standard input:17 input:38
 msgid "Product ID"
 msgstr ""
 
+#: standard input:18 input:36
+msgid "Serial"
+msgstr ""
+
+#: standard input:19
+msgid "Device info"
+msgstr ""
+
+#: standard input:21
+msgid "Delete selected entry from the white list"
+msgstr ""
+
+#: standard input:22
+msgid "Rule part"
+msgstr ""
+
+#: standard input:24
+msgid "Vendor ID:"
+msgstr ""
+
+#: standard input:25
+msgid "Product ID:"
+msgstr ""
+
+#: standard input:26
+msgid "Serial number:"
+msgstr ""
+
+#: standard input:27
+msgid "Useful device info:"
+msgstr ""
+
+#: standard input:31
+msgid "Save USB device settings"
+msgstr ""
+
 #: standard input:32
-msgid "Scan attached USB devices"
+msgid "Reset"
 msgstr ""
 
 #: standard input:33
-msgid "Add selected device to white list"
+msgid "Plugged-in USB devices"
 msgstr ""
 
 #: standard input:34
-msgid "Status"
+msgid "Vendor"
 msgstr ""
 
 #: standard input:35
+msgid "Device"
+msgstr ""
+
+#: standard input:39
+msgid "Scan plugged-in USB devices"
+msgstr ""
+
+#: standard input:40
+msgid "Add selected device to the white list"
+msgstr ""
+
+#: standard input:41
+msgid "Status"
+msgstr ""
+
+#: standard input:42
 msgid "Turn on serial control"
 msgstr ""
 
-#: standard input:36
+#: standard input:43
 msgid "Turn off serial control"
 msgstr ""
 
-#: standard input:37
+#: standard input:44
 msgid "Turn on USB control"
 msgstr ""
 
-#: standard input:38
+#: standard input:45
 msgid "Turn off USB control"
 msgstr ""
 
-#: ui/portsctrl/ajax.scm:27
-msgid "please choose from the list above"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:100
-msgid "Serial ports control activated"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:100
-msgid "Serial ports control deactivated"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:101
-msgid "USB ports control activated"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:101
-msgid "USB ports control deactivated"
-msgstr ""
-
-#: backend3/portsctrl:27 backend3/portsctrl:51 backend3/portsctrl:67
-#: backend3/portsctrl:178 backend3/portsctrl:196
+#: ui/portsctrl/ajax.scm:11
 msgid "Yes"
 msgstr ""
 
-#: backend3/portsctrl:28 backend3/portsctrl:59 backend3/portsctrl:191
+#: ui/portsctrl/ajax.scm:12
 msgid "No"
 msgstr ""
 
-#: backend3/portsctrl:135
-msgid "None"
+#: ui/portsctrl/ajax.scm:15
+msgid "Default"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:16
+msgid "User r/o"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:17
+msgid "User + group r/o"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:18
+msgid "User r/w"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:19
+msgid "User r/w, group r/o"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:20
+msgid "User + group r/w"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:39
+msgid "please choose from the list above"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:120
+msgid "Serial port control activated"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:120
+msgid "Serial port control deactivated"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:121
+msgid "USB port control activated"
+msgstr ""
+
+#: ui/portsctrl/ajax.scm:121
+msgid "USB port control deactivated"
 msgstr ""

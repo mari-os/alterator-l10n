@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-30 12:32+0300\n"
+"POT-Creation-Date: 2022-06-09 18:33+0400\n"
 "PO-Revision-Date: 2021-07-30 12:37+0300\n"
 "Last-Translator: Andrey Cherepanov <cas@altlinux.org>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -65,8 +65,8 @@ msgstr ""
 #: standard input:8
 msgid "It is recommended to have at least two labels separated by dot."
 msgstr ""
-"Рекомендуется указывать домен как минимум из двух компонентов, разделённых"
-" точками."
+"Рекомендуется указывать домен как минимум из двух компонентов, разделённых "
+"точками."
 
 #: standard input:9
 msgid "Examples: domain.loc, school-33.domain, department.company"
@@ -254,10 +254,14 @@ msgstr ""
 "изменение имени домена вступит в силу только после перезагрузки компьютера"
 
 #: standard input:67
+msgid "Restore default configuration file (krb5.conf)."
+msgstr "Восстановить файл конфигурации по умолчанию (krb5.conf)."
+
+#: standard input:68
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:68
+#: standard input:69
 msgid "Reset"
 msgstr "Сбросить"
 
@@ -277,13 +281,18 @@ msgstr "Установить"
 msgid "Uninstall"
 msgstr "Удалить"
 
-#: ui/net-domain/ajax.scm:117
+#: ui/net-domain/ajax.scm:108
+msgid ""
+"Are you sure you want to restore the default configuration file (krb5.conf)?"
+msgstr "Вы уверены, что хотите восстановить файл конфигурации по умолчанию (krb5.conf)?"
+
+#: ui/net-domain/ajax.scm:129
 msgid "Domain name should have at least two labels separated by dot"
 msgstr ""
-"Имя домена должно состоять как минимум из двух компонентов, разделённых"
-" точками."
+"Имя домена должно состоять как минимум из двух компонентов, разделённых "
+"точками."
 
-#: ui/net-domain/ajax.scm:122 ui/net-domain/ajax.scm:129
+#: ui/net-domain/ajax.scm:134 ui/net-domain/ajax.scm:141
 msgid "Passwords mismatch"
 msgstr "Введённые пароли не совпадают"
 
@@ -295,37 +304,37 @@ msgstr "Имя домена не соответствует RFC 1035"
 msgid "Error provisioning the Active directory domain. Log is in"
 msgstr "Ошибка создания домена Active Directory. Подробности в файле"
 
-#: backend3/net-domain:623
+#: backend3/net-domain:627
 msgid "NOT OK (bind is running)"
 msgstr "НЕ ГОТОВА (запущена служба bind)"
 
-#: backend3/net-domain:699
+#: backend3/net-domain:707
 msgid "Please define a domain name"
 msgstr "Укажите имя домена"
 
-#: backend3/net-domain:702
+#: backend3/net-domain:710
 msgid "This name is registered for internal purposes"
 msgstr "Данное имя зарезервировано для системы"
 
-#: backend3/net-domain:723
+#: backend3/net-domain:731
 msgid "alterator-openldap package is not installed"
 msgstr "Не установлен пакет alterator-openldap"
 
-#: backend3/net-domain:727
+#: backend3/net-domain:735
 msgid "samba package is not installed"
 msgstr "Не установлен пакет samba"
 
-#: backend3/net-domain:731
+#: backend3/net-domain:739
 msgid "required schema file not found"
 msgstr "Файл с необходимой схемой не найден"
 
-#: backend3/net-domain:786
+#: backend3/net-domain:794
 msgid ""
 "The password is too short. It should be equal or longer than 7 characters!"
 msgstr ""
 "слишком короткий пароль. Пароль должен быть равен или более 7 символов!"
 
-#: backend3/net-domain:789
+#: backend3/net-domain:797
 msgid ""
 "The password does not meet the complexity criteria (must contain characters "
 "from three of the following five categories: latin letters in upper and "
@@ -335,24 +344,24 @@ msgstr ""
 "категорий из пяти: латинские буквы в верхнем и нижнем регистре, цифры, "
 "специальные и прочие символы Unicode)!"
 
-#: backend3/net-domain:791
+#: backend3/net-domain:799
 msgid "Error setting password for Administrator:"
 msgstr "Не удалось установить пароль администратора: "
 
-#: backend3/net-domain:803
+#: backend3/net-domain:811
 msgid "Password should not be empty"
 msgstr "Пароль не может быть пустым"
 
 #. # FIXME: password in the command line
-#: backend3/net-domain:821
+#: backend3/net-domain:829
 msgid "Failed to start the IPA installer"
 msgstr "Ошибка запуска программы установки FreeIPA"
 
-#: backend3/net-domain:824
+#: backend3/net-domain:832
 msgid "LDAP service is not running"
 msgstr "Служба LDAP не запущена"
 
-#: backend3/net-domain:827
+#: backend3/net-domain:835
 msgid "Password change failed"
 msgstr "Ошибка смены пароля"
 

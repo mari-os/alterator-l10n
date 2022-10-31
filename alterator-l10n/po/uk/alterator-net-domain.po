@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-30 12:32+0300\n"
+"POT-Creation-Date: 2022-06-09 18:33+0400\n"
 "PO-Revision-Date: 2009-08-22 02:17+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -262,10 +262,14 @@ msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
 #: standard input:67
+msgid "Restore default configuration file (krb5.conf)."
+msgstr ""
+
+#: standard input:68
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:68
+#: standard input:69
 msgid "Reset"
 msgstr "Скинути"
 
@@ -287,11 +291,16 @@ msgstr "Джерела для встановлення ПЗ"
 msgid "Uninstall"
 msgstr "ВС не створено"
 
-#: ui/net-domain/ajax.scm:117
+#: ui/net-domain/ajax.scm:108
+msgid ""
+"Are you sure you want to restore the default configuration file (krb5.conf)?"
+msgstr ""
+
+#: ui/net-domain/ajax.scm:129
 msgid "Domain name should have at least two labels separated by dot"
 msgstr ""
 
-#: ui/net-domain/ajax.scm:122 ui/net-domain/ajax.scm:129
+#: ui/net-domain/ajax.scm:134 ui/net-domain/ajax.scm:141
 msgid "Passwords mismatch"
 msgstr "Паролі не співпадають"
 
@@ -304,65 +313,65 @@ msgstr "Ім'я домену дуже довге"
 msgid "Error provisioning the Active directory domain. Log is in"
 msgstr ""
 
-#: backend3/net-domain:623
+#: backend3/net-domain:627
 msgid "NOT OK (bind is running)"
 msgstr ""
 
-#: backend3/net-domain:699
+#: backend3/net-domain:707
 #, fuzzy
 msgid "Please define a domain name"
 msgstr "Будь-ласка визначте ім'я домену"
 
-#: backend3/net-domain:702
+#: backend3/net-domain:710
 #, fuzzy
 msgid "This name is registered for internal purposes"
 msgstr "Вказане ім'я домену зарезервонано для внутрішніх потреб"
 
-#: backend3/net-domain:723
+#: backend3/net-domain:731
 msgid "alterator-openldap package is not installed"
 msgstr ""
 
-#: backend3/net-domain:727
+#: backend3/net-domain:735
 #, fuzzy
 msgid "samba package is not installed"
 msgstr "ВС не створено"
 
-#: backend3/net-domain:731
+#: backend3/net-domain:739
 #, fuzzy
 msgid "required schema file not found"
 msgstr "Файл ліцензійної угоди не знайдено"
 
-#: backend3/net-domain:786
+#: backend3/net-domain:794
 msgid ""
 "The password is too short. It should be equal or longer than 7 characters!"
 msgstr ""
 
-#: backend3/net-domain:789
+#: backend3/net-domain:797
 msgid ""
 "The password does not meet the complexity criteria (must contain characters "
 "from three of the following five categories: latin letters in upper and "
 "lower cases, digits, nonalphanumeric and any other Unicode characters)!"
 msgstr ""
 
-#: backend3/net-domain:791
+#: backend3/net-domain:799
 #, fuzzy
 msgid "Error setting password for Administrator:"
 msgstr "Пароль системного адміністратора:"
 
-#: backend3/net-domain:803
+#: backend3/net-domain:811
 msgid "Password should not be empty"
 msgstr ""
 
 #. # FIXME: password in the command line
-#: backend3/net-domain:821
+#: backend3/net-domain:829
 msgid "Failed to start the IPA installer"
 msgstr ""
 
-#: backend3/net-domain:824
+#: backend3/net-domain:832
 msgid "LDAP service is not running"
 msgstr ""
 
-#: backend3/net-domain:827
+#: backend3/net-domain:835
 msgid "Password change failed"
 msgstr ""
 

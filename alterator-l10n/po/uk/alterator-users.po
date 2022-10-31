@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 12:02+0300\n"
+"POT-Creation-Date: 2021-08-10 12:03+0400\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -31,7 +31,7 @@ msgid "Create"
 msgstr "Створити"
 
 #.
-#: standard input:3 ui/users/index.scm:22 ui/users/add/index.scm:73
+#: standard input:3 ui/users/add/index.scm:73 ui/users/index.scm:22
 msgid "Comment:"
 msgstr "Коментар:"
 
@@ -45,51 +45,51 @@ msgstr "Домашня тека:"
 msgid "Shell:"
 msgstr "Оболонка:"
 
-#: standard input:6 ui/users/index.scm:32
+#: standard input:6 ui/users/index.scm:34
 msgid "Member of administrators group"
 msgstr "Член групи адміністраторів"
 
+#: standard input:7 ui/users/index.scm:40
+#, fuzzy
+msgid "System roles assigned"
+msgstr "Обмеження системи"
+
 #.
-#: standard input:7 ui/users/index.scm:38 ui/users/add/index.scm:82
+#: standard input:8 ui/users/add/index.scm:82 ui/users/index.scm:47
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:8 ui/users/index.scm:41 ui/users/add/index.scm:85
+#: standard input:9 ui/users/add/index.scm:85 ui/users/index.scm:50
 msgid "Generate automatically"
 msgstr "Генерувати автоматично"
 
-#: standard input:9 ui/users/index.scm:44 ui/users/add/index.scm:88
+#: standard input:10 ui/users/add/index.scm:88 ui/users/index.scm:53
 msgid "(enter passphrase)"
 msgstr "(уведіть пароль)"
 
-#: standard input:10 ui/users/index.scm:46 ui/users/add/index.scm:90
+#: standard input:11 ui/users/add/index.scm:90 ui/users/index.scm:55
 msgid "(repeat passphrase)"
 msgstr "(повторіть пароль)"
 
-#: standard input:11 ui/users/index.scm:48 ui/users/add/index.scm:92
+#: standard input:12 ui/users/add/index.scm:92 ui/users/index.scm:57
 msgid "Generate"
 msgstr "Генерувати"
 
-#: standard input:12 ui/users/index.scm:65
+#: standard input:13 ui/users/index.scm:78
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:13 ui/users/index.scm:67
+#: standard input:14 ui/users/index.scm:80
 msgid "Delete user"
 msgstr "Вилучити користувача"
 
-#: ui/users/ajax.scm:51
+#: standard input:15 ui/users/index.scm:41
+msgid "Groups the user belongs to"
+msgstr ""
+
+#: ui/users/ajax.scm:55
 msgid "Do you really want to delete user "
 msgstr "Ви дійсно хочете вилучити користувача "
-
-#: ui/users/index.scm:50 ui/users/add/index.scm:94
-msgid "Autologin"
-msgstr ""
-
-#.
-#: ui/users/index.scm:56
-msgid "Kiosk profile:"
-msgstr ""
 
 #: ui/users/add/index.scm:16
 msgid "You should define a system user"
@@ -106,6 +106,15 @@ msgstr "Новий обліковий запис користувача"
 #: ui/users/add/index.scm:68
 msgid "Name:"
 msgstr "Ім'я:"
+
+#: ui/users/add/index.scm:94 ui/users/index.scm:59
+msgid "Autologin"
+msgstr ""
+
+#.
+#: ui/users/index.scm:69
+msgid "Kiosk profile:"
+msgstr ""
 
 #: backend3/users:66
 msgid "can't update password file"
@@ -184,7 +193,7 @@ msgstr "ім'я групи не унікальне"
 msgid "unable to add user %s to group %s"
 msgstr "неможливо додати користувача %s до групи %s"
 
-#: backend3/users:185
+#: backend3/users:198
 #, fuzzy
 msgid "Default desktop"
 msgstr "Типова розсилка сайту:"

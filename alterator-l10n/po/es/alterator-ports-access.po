@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-27 23:17+0400\n"
-"PO-Revision-Date: 2009-03-20 17:37-0300\n"
-"Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
+"POT-Creation-Date: 2022-02-28 16:29+0000\n"
+"PO-Revision-Date: 2022-02-28 19:30+0300\n"
+"Last-Translator: Paul Wolneykien <manowar@altlinux.org>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -21,187 +21,201 @@ msgstr ""
 "X-Poedit-Basepath: pt_BR\n"
 
 #: standard input:1
-#, fuzzy
 msgid "Ports access control"
-msgstr "Punto de Acceso"
+msgstr "Control de acceso a puertos"
 
 #: standard input:1
 msgid "Serial ports access control"
-msgstr ""
+msgstr "Control de puertos serie"
 
 #: standard input:2
-#, fuzzy
 msgid "Port"
-msgstr "Porta:"
+msgstr "Puerto"
 
 #: standard input:3
-#, fuzzy
 msgid "Enabled"
-msgstr "Permitido"
+msgstr "Permitir"
 
-#: standard input:4
-#, fuzzy
+#: standard input:4 input:20
+msgid "Access mode"
+msgstr "Modo de acceso"
+
+#: standard input:5
 msgid "Serial port settings"
-msgstr "Configuraciones generales"
+msgstr "Configuración del puerto serie"
 
-#: standard input:5 input:20
+#: standard input:6 input:23
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
-#: standard input:6
-#, fuzzy
+#: standard input:7
 msgid "Serial port:"
-msgstr "porta:"
-
-#: standard input:8
-#, fuzzy
-msgid "Enabled:"
-msgstr "Permitido"
+msgstr "Puerto serie:"
 
 #: standard input:9
-#, fuzzy
-msgid "Save serial port settings"
-msgstr "Ajustes"
+msgid "Enabled:"
+msgstr "Permitir:"
 
-#: standard input:10
-msgid "USB ports access control"
-msgstr ""
+#: standard input:10 input:28
+msgid "Device owner:"
+msgstr "Propietario:"
 
-#: standard input:11
-msgid "Allow any human interface devices (keyboard, mouse, joystick):"
-msgstr ""
+#: standard input:11 input:29
+msgid "Device group:"
+msgstr "Grupo:"
 
-#: standard input:12
-#, fuzzy
-msgid "White list"
-msgstr "Editar Lista"
+#: standard input:12 input:30
+msgid "Access mode:"
+msgstr "Modo de acceso:"
 
 #: standard input:13
-#, fuzzy
-msgid "Rule N"
-msgstr "Norma"
+msgid "Save serial port settings"
+msgstr "Guardar la configuración del puerto serie"
 
-#: standard input:14 input:27
-msgid "Vendor"
-msgstr ""
+#: standard input:14
+msgid "USB ports access control"
+msgstr "Control de acceso a puertos USB"
 
 #: standard input:15
-msgid "ProdID"
-msgstr ""
+msgid "White list"
+msgstr "Lista blanca"
 
-#: standard input:16 input:29
+#: standard input:16 input:37
+msgid "Vendor ID"
+msgstr "ID de Proveedor"
+
+#: standard input:17 input:38
+msgid "Product ID"
+msgstr "ID de producto"
+
+#: standard input:18 input:36
 msgid "Serial"
-msgstr ""
-
-#: standard input:17
-#, fuzzy
-msgid "Rule info"
-msgstr "Norma de cadenas"
-
-#: standard input:18
-msgid "Delete selected entry from white list"
-msgstr ""
+msgstr "# de serie"
 
 #: standard input:19
-#, fuzzy
-msgid "Rule parts"
-msgstr "Norma de cadenas"
+msgid "Device info"
+msgstr "Información"
 
 #: standard input:21
-msgid "Vendor code:"
-msgstr ""
+msgid "Delete selected entry from the white list"
+msgstr "Eliminar la entrada seleccionada de la lista blanca"
 
 #: standard input:22
-msgid "Product ID:"
-msgstr ""
-
-#: standard input:23
-#, fuzzy
-msgid "Serial number:"
-msgstr "Nueva norma numérica"
+msgid "Rule part"
+msgstr "Parte de la regla"
 
 #: standard input:24
-msgid "Useful device info:"
-msgstr ""
+msgid "Vendor ID:"
+msgstr "ID de Proveedor:"
 
 #: standard input:25
-msgid "Add new entry to white list"
-msgstr ""
+msgid "Product ID:"
+msgstr "ID de producto:"
 
 #: standard input:26
-msgid "Present USB devices in system"
-msgstr ""
+msgid "Serial number:"
+msgstr "Número de serie:"
 
-#: standard input:28
-msgid "Product"
-msgstr ""
-
-#: standard input:30
-msgid "Vendor ID"
-msgstr ""
+#: standard input:27
+msgid "Useful device info:"
+msgstr "Información útil del dispositivo:"
 
 #: standard input:31
-msgid "Product ID"
-msgstr ""
+msgid "Save USB device settings"
+msgstr "Guardar la configuración del dispositivo USB"
 
 #: standard input:32
-msgid "Scan attached USB devices"
-msgstr ""
+msgid "Reset"
+msgstr "Resetar"
 
 #: standard input:33
-msgid "Add selected device to white list"
-msgstr ""
+msgid "Plugged-in USB devices"
+msgstr "Dispositivos USB conectados"
 
 #: standard input:34
-#, fuzzy
-msgid "Status"
-msgstr "Status:"
+msgid "Vendor"
+msgstr "Proveedor"
 
 #: standard input:35
+msgid "Device"
+msgstr "Dispositivo"
+
+#: standard input:39
+msgid "Scan plugged-in USB devices"
+msgstr "Escanear dispositivos USB conectados"
+
+#: standard input:40
+msgid "Add selected device to the white list"
+msgstr "Agregar el dispositivo seleccionado a la lista blanca"
+
+#: standard input:41
+msgid "Status"
+msgstr "Status"
+
+#: standard input:42
 msgid "Turn on serial control"
-msgstr ""
+msgstr "Activar el control en serie"
 
-#: standard input:36
+#: standard input:43
 msgid "Turn off serial control"
-msgstr ""
+msgstr "Desactivar el control en serie"
 
-#: standard input:37
+#: standard input:44
 msgid "Turn on USB control"
-msgstr ""
+msgstr "Activar el control USB"
 
-#: standard input:38
+#: standard input:45
 msgid "Turn off USB control"
-msgstr ""
+msgstr "Desactivar el control USB"
 
-#: ui/portsctrl/ajax.scm:27
-msgid "please choose from the list above"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:100
-msgid "Serial ports control activated"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:100
-msgid "Serial ports control deactivated"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:101
-msgid "USB ports control activated"
-msgstr ""
-
-#: ui/portsctrl/ajax.scm:101
-msgid "USB ports control deactivated"
-msgstr ""
-
-#: backend3/portsctrl:27 backend3/portsctrl:51 backend3/portsctrl:67
-#: backend3/portsctrl:178 backend3/portsctrl:196
+#: ui/portsctrl/ajax.scm:11
 msgid "Yes"
 msgstr "Sí"
 
-#: backend3/portsctrl:28 backend3/portsctrl:59 backend3/portsctrl:191
+#: ui/portsctrl/ajax.scm:12
 msgid "No"
 msgstr "No"
 
-#: backend3/portsctrl:135
-msgid "None"
-msgstr ""
+#: ui/portsctrl/ajax.scm:15
+msgid "Default"
+msgstr "Predeterminado"
+
+#: ui/portsctrl/ajax.scm:16
+msgid "User r/o"
+msgstr "Propietario (leer)"
+
+#: ui/portsctrl/ajax.scm:17
+msgid "User + group r/o"
+msgstr "Propietario + grupo (leer)"
+
+#: ui/portsctrl/ajax.scm:18
+msgid "User r/w"
+msgstr "Propietario (leer + escribir)"
+
+#: ui/portsctrl/ajax.scm:19
+msgid "User r/w, group r/o"
+msgstr "Propietario (le. + esc.), grupo (le.)"
+
+#: ui/portsctrl/ajax.scm:20
+msgid "User + group r/w"
+msgstr "Propietario + grupo (le. + esc.)"
+
+#: ui/portsctrl/ajax.scm:39
+msgid "please choose from the list above"
+msgstr "por favor, elija de la lista anterior"
+
+#: ui/portsctrl/ajax.scm:120
+msgid "Serial port control activated"
+msgstr "Control de puertos serie activado"
+
+#: ui/portsctrl/ajax.scm:120
+msgid "Serial port control deactivated"
+msgstr "Control de puertos serie desactivado"
+
+#: ui/portsctrl/ajax.scm:121
+msgid "USB port control activated"
+msgstr "Control de puertos USB activado"
+
+#: ui/portsctrl/ajax.scm:121
+msgid "USB port control deactivated"
+msgstr "Control de puertos USB desactivado"

@@ -1,0 +1,114 @@
+# Danish translations for PACKAGE package
+# Danske oversættelser for pakke PACKAGE.
+# Copyright (C) 2022 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Carl Andersen <carl1@bluemarlin.dk>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-22 12:38+0300\n"
+"PO-Revision-Date: 2022-02-03 14:57+0100\n"
+"Last-Translator: Carl Andersen <carl1@bluemarlin.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: standard input:1
+msgid "Date/Time"
+msgstr "Dato/Tid"
+
+#.
+#: standard input:1 ui/datetime/system/timezone/index.scm:49
+#: ui/datetime/installer/index.scm:60
+msgid "Please, select country:"
+msgstr "Vælg venligst land:"
+
+#.
+#: standard input:2 ui/datetime/system/timezone/index.scm:54
+#: ui/datetime/installer/index.scm:64
+msgid "Please, select time zone:"
+msgstr "Vælg venligst tidszone:"
+
+#: standard input:3 input:13 ui/datetime/system/index.scm:76
+msgid "Apply"
+msgstr "Anvend"
+
+#: standard input:4 ui/datetime/system/index.scm:40
+#: ui/datetime/installer/edit/index.scm:20
+msgid "Get time from NTP server:"
+msgstr "Få tid fra NTP server:"
+
+#: standard input:5 ui/datetime/system/index.scm:41
+#: ui/datetime/installer/edit/index.scm:21
+msgid "NTP server:"
+msgstr "NTP server:"
+
+#: standard input:6 ui/datetime/system/index.scm:44
+#: ui/datetime/installer/edit/index.scm:24
+msgid "Work as NTP server"
+msgstr "Fungerer som NTP server"
+
+#: standard input:7 ui/datetime/system/index.scm:49
+#: ui/datetime/installer/edit/index.scm:29
+msgid "Current date:"
+msgstr "Aktuel dato:"
+
+#: standard input:8 ui/datetime/system/index.scm:50
+#: ui/datetime/installer/index.scm:71 ui/datetime/installer/edit/index.scm:30
+msgid "Current time:"
+msgstr "Aktuel tid:"
+
+#: standard input:9 ui/datetime/system/index.scm:57
+#: ui/datetime/installer/index.scm:66
+msgid "Hardware time set to GMT"
+msgstr "Hardwaretid indstillet til GMT"
+
+#: standard input:10 ui/datetime/system/index.scm:62
+msgid "Time zone:"
+msgstr "Tidszone:"
+
+#: standard input:11 ui/datetime/system/index.scm:66
+#: ui/datetime/installer/index.scm:73
+msgid "Change..."
+msgstr "Ændre..."
+
+#: standard input:12 ui/datetime/system/index.scm:72
+msgid "Select clock source: "
+msgstr "Vælg ur kilde: "
+
+#: standard input:14
+msgid "Reset"
+msgstr "Nulstil"
+
+#: ui/datetime/system/timezone/index.scm:62
+#: ui/datetime/installer/edit/index.scm:39
+msgid "OK"
+msgstr "OK"
+
+#: ui/datetime/system/timezone/index.scm:63
+#: ui/datetime/installer/edit/index.scm:40
+msgid "Cancel"
+msgstr "Annuller"
+
+#: type/timezone.scm:13
+#, lisp-format
+msgid "Wrong timezone: ~s. Timezone like Europe/Moscow, etc. is allowed"
+msgstr "Forkert tidszone: ~s. Tidszone som Europa/Moskva osv. er tilladt"
+
+#: backend3/datetime-installer:54
+msgid "set automatically"
+msgstr "indstil automatisk"
+
+#: backend3/datetime-installer:157 backend3/datetime-system:132
+msgid "Unable to setup time zone"
+msgstr "Kan ikke indstille tidszone"
+
+#: backend3/datetime-installer:175 backend3/datetime-system:112
+msgid "unable to setup time"
+msgstr "ude af stand til at indstille tiden"

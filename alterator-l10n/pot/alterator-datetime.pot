@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"POT-Creation-Date: 2022-10-14 19:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,70 +23,66 @@ msgstr ""
 
 #.
 #: standard input:1 ui/datetime/system/timezone/index.scm:49
-#: ui/datetime/installer/index.scm:58
-msgid "Please, select country:"
+#: ui/datetime/installer/index.scm:60
+msgid "Please, select region:"
 msgstr ""
 
 #.
 #: standard input:2 ui/datetime/system/timezone/index.scm:54
-#: ui/datetime/installer/index.scm:62
+#: ui/datetime/installer/index.scm:64
 msgid "Please, select time zone:"
 msgstr ""
 
-#: standard input:3 input:12 ui/datetime/system/index.scm:54
+#: standard input:3 input:13 ui/datetime/system/timezone/index.scm:62
+#: ui/datetime/system/index.scm:76
 msgid "Apply"
 msgstr ""
 
-#: standard input:4 ui/datetime/system/index.scm:23
-#: ui/datetime/installer/edit/index.scm:23
+#: standard input:4 ui/datetime/system/index.scm:40
+#: ui/datetime/installer/edit/index.scm:19
 msgid "Get time from NTP server:"
 msgstr ""
 
-#: standard input:5 ui/datetime/system/index.scm:24
-#: ui/datetime/installer/edit/index.scm:24
+#: standard input:5 ui/datetime/system/index.scm:41
+#: ui/datetime/installer/edit/index.scm:20
 msgid "NTP server:"
 msgstr ""
 
-#: standard input:6 ui/datetime/system/index.scm:27
-#: ui/datetime/installer/edit/index.scm:27
+#: standard input:6 ui/datetime/system/index.scm:44
+#: ui/datetime/installer/edit/index.scm:25
 msgid "Work as NTP server"
 msgstr ""
 
-#: standard input:7 ui/datetime/system/index.scm:32
-#: ui/datetime/installer/edit/index.scm:32
+#: standard input:7 ui/datetime/system/index.scm:49
+#: ui/datetime/installer/edit/index.scm:31
 msgid "Current date:"
 msgstr ""
 
-#: standard input:8 ui/datetime/system/index.scm:33
-#: ui/datetime/installer/edit/index.scm:33 ui/datetime/installer/index.scm:69
+#: standard input:8 ui/datetime/system/index.scm:50
+#: ui/datetime/installer/edit/index.scm:32 ui/datetime/installer/index.scm:71
 msgid "Current time:"
 msgstr ""
 
-#: standard input:9 ui/datetime/system/index.scm:40
-#: ui/datetime/installer/index.scm:64
+#: standard input:9 ui/datetime/system/index.scm:57
+#: ui/datetime/installer/index.scm:66
 msgid "Hardware time set to GMT"
 msgstr ""
 
-#: standard input:10 ui/datetime/system/index.scm:45
+#: standard input:10 ui/datetime/system/index.scm:62
 msgid "Time zone:"
 msgstr ""
 
-#: standard input:11 ui/datetime/system/index.scm:49
-#: ui/datetime/installer/index.scm:71
+#: standard input:11 ui/datetime/system/index.scm:66
+#: ui/datetime/installer/index.scm:73
 msgid "Change..."
 msgstr ""
 
-#: ui/datetime/system/index.scm:72
+#: standard input:12 ui/datetime/system/index.scm:72
 msgid "Select clock source: "
 msgstr ""
 
-#: standard input:13
+#: standard input:14
 msgid "Reset"
-msgstr ""
-
-#: ui/datetime/system/timezone/index.scm:62
-#: ui/datetime/installer/edit/index.scm:42
-msgid "OK"
 msgstr ""
 
 #: ui/datetime/system/timezone/index.scm:63
@@ -94,14 +90,23 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: backend3/datetime-installer:18
+#: ui/datetime/installer/edit/index.scm:42
+msgid "OK"
+msgstr ""
+
+#: type/timezone.scm:13
+#, lisp-format
+msgid "Wrong timezone: ~s. Timezone like Europe/Moscow, etc. is allowed"
+msgstr ""
+
+#: backend3/datetime-installer:54
 msgid "set automatically"
 msgstr ""
 
-#: backend3/datetime-installer:102 backend3/datetime-system:111
+#: backend3/datetime-installer:157 backend3/datetime-system:132
 msgid "Unable to setup time zone"
 msgstr ""
 
-#: backend3/datetime-installer:118 backend3/datetime-system:93
+#: backend3/datetime-installer:175 backend3/datetime-system:112
 msgid "unable to setup time"
 msgstr ""

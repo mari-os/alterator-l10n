@@ -1,0 +1,325 @@
+# Danish translations for PACKAGE package
+# Danske oversættelser for pakke PACKAGE.
+# Copyright (C) 2022 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Carl Andersen <carl1@bluemarlin.dk>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-03 12:59+0400\n"
+"PO-Revision-Date: 2022-02-07 19:28+0100\n"
+"Last-Translator: Carl Andersen <carl1@bluemarlin.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: standard input:1
+msgid "Authentication"
+msgstr "Godkendelse"
+
+#: standard input:1
+msgid "Available authentication methods"
+msgstr "Tilgængelige godkendelsesmetoder"
+
+#: standard input:2
+msgid "Local files"
+msgstr "Lokale filer"
+
+#: standard input:3
+msgid "LDAP base"
+msgstr "LDAP base"
+
+#: standard input:4
+msgid "Kerberos domain"
+msgstr "Kerberos domæne"
+
+#: standard input:5
+msgid "Multi"
+msgstr "Multi"
+
+#: standard input:6
+msgid "Pkcs11"
+msgstr "Pkcs11"
+
+#: standard input:7
+msgid "LDAP server:"
+msgstr "LDAP server:"
+
+#: standard input:8
+msgid "TLS/SSL"
+msgstr "TLS/SSL"
+
+#: standard input:9
+msgid "Base DN:"
+msgstr "Base DN:"
+
+#: standard input:10
+msgid "Select"
+msgstr "Vælg"
+
+#: standard input:11 ui/auth/index.scm:106
+msgid "Current domain:"
+msgstr "Nuværende domæne:"
+
+#: standard input:12
+msgid "Domain list:"
+msgstr "Domæneliste:"
+
+#: standard input:13 ui/auth/index.scm:184
+msgid "Attention: "
+msgstr "Opmærksomhed: "
+
+#: standard input:14 ui/auth/index.scm:185
+msgid "Domain change needs reboot for normal operation"
+msgstr "Domæneændring kræver genstart for normal drift"
+
+#: standard input:15 ui/auth/additional-settings.scm:134 ui/auth/index.scm:191
+msgid "Apply"
+msgstr "Anvend"
+
+#: ui/auth/additional-settings.scm:93
+msgid "Group Policy enforcement rules:"
+msgstr "Håndhævelse af gruppepolitik:"
+
+#: ui/auth/additional-settings.scm:94
+msgid "SSSD GPO-based access control rules"
+msgstr "SSSD GPO-baserede adgangskontrol regler"
+
+#: ui/auth/additional-settings.scm:97
+msgid "Ignore if Group Policies are not read:"
+msgstr "Ignorer, hvis gruppepolitikker ikke læses:"
+
+#: ui/auth/additional-settings.scm:98
+msgid "Access users when group policy templates are not readable"
+msgstr "Få adgang til brugere, når gruppepolitik skabeloner ikke kan læses"
+
+#: ui/auth/additional-settings.scm:101
+msgid "Cache credentials:"
+msgstr "Cache legitimationsoplysninger:"
+
+#: ui/auth/additional-settings.scm:102
+msgid "SSSD users credentials cached in the local LDB cache"
+msgstr ""
+"SSSD brugeres legitimationsoplysninger cachelagret i den lokale LDB cache"
+
+#: ui/auth/additional-settings.scm:105
+msgid "Privileges of SSSD running:"
+msgstr "Privilegier for SSSD, der kører:"
+
+#: ui/auth/additional-settings.scm:106
+msgid "Set privileges to SSSD running"
+msgstr "Indstil privilegier til at køre SSSD"
+
+#: ui/auth/additional-settings.scm:109
+msgid "DNS records update interval:"
+msgstr "DNS records opdateringsinterval:"
+
+#: ui/auth/additional-settings.scm:110
+msgid ""
+"Set the value of refresh interval DNS records updated by SSSD in seconds"
+msgstr ""
+"Indstil værdien af ​​opdateringsinterval DNS records opdateret af SSSD i "
+"sekunder"
+
+#: ui/auth/additional-settings.scm:116
+msgid "TTL value of client DNS record:"
+msgstr "TTL værdi for klient DNS record:"
+
+#: ui/auth/additional-settings.scm:117
+msgid "Set the TTL value of client DNS record updated by SSSD in seconds"
+msgstr ""
+"Indstil TTL værdien for klientens DNS record opdateret af SSSD på sekunder"
+
+#: ui/auth/additional-settings.scm:123
+msgid "Update the IP address in the DNS server:"
+msgstr "Opdater IP adressen på DNS serveren:"
+
+#: ui/auth/additional-settings.scm:124
+msgid "Automatically update DNS server with the IP address using SSSD"
+msgstr "Opdater automatisk DNS serveren med IP adressen ved hjælp af SSSD"
+
+#: ui/auth/additional-settings.scm:127
+msgid "Update the PTR record in the DNS server:"
+msgstr "Opdater PTR record i DNS serveren:"
+
+#: ui/auth/additional-settings.scm:128
+msgid "Automatically update DNS server with the PTR record using SSSD"
+msgstr "Opdater automatisk DNS serveren med PTR record ved hjælp af SSSD"
+
+#: ui/auth/additional-settings.scm:135 ui/auth/admin-password.scm:39
+msgid "Cancel"
+msgstr "Annuller"
+
+#: ui/auth/admin-password.scm:27
+msgid "Enter the name and password of an account"
+msgstr "Indtast navnet og adgangskoden til en konto"
+
+#: ui/auth/admin-password.scm:27
+msgid "with permission to join the domain."
+msgstr "med tilladelse til at tilslutte sig domænet."
+
+#: ui/auth/admin-password.scm:28
+msgid "Username:"
+msgstr "Brugernavn:"
+
+#: ui/auth/admin-password.scm:30
+msgid "Password:"
+msgstr "Adgangskode:"
+
+#: ui/auth/admin-password.scm:34
+msgid "Enable Group Policy"
+msgstr "Aktiver gruppepolitik"
+
+#: ui/auth/admin-password.scm:38
+msgid "OK"
+msgstr "OK"
+
+#: ui/auth/index.scm:7
+msgid "Please, fill field "
+msgstr "Udfyld venligst feltet "
+
+#: ui/auth/index.scm:12 backend3/auth:510
+msgid "Netbios name should not be more 15 chars"
+msgstr "Netbios navn bør ikke være mere end 15 tegn"
+
+#: ui/auth/index.scm:18 ui/auth/index.scm:21 ui/auth/index.scm:26
+msgid "Domain"
+msgstr "Domæne"
+
+#: ui/auth/index.scm:22
+msgid "Netbios name"
+msgstr "Netbios navn"
+
+#: ui/auth/index.scm:27
+msgid "Host name"
+msgstr "Værtsnavn"
+
+#. Show welcome message for AD and FreeIPA
+#: ui/auth/index.scm:58
+msgid "Welcome to the "
+msgstr "Velkommen til "
+
+#: ui/auth/index.scm:58
+msgid " domain."
+msgstr " domæne."
+
+#. Local database
+#: ui/auth/index.scm:110
+msgid "Local database"
+msgstr "Lokal database"
+
+#. ALT domain
+#: ui/auth/index.scm:114
+msgid "ALT Linux domain or Astra Linux Directory"
+msgstr "ALT Linux domæne eller Astra Linux Directory"
+
+#: ui/auth/index.scm:119 ui/auth/index.scm:141 ui/auth/index.scm:167
+msgid "Domain:"
+msgstr "Domæne:"
+
+#: ui/auth/index.scm:128
+msgid "Use cached credentials for out of domain login"
+msgstr ""
+"Brug cachelagrede legitimationsoplysninger til log ind uden for domænet"
+
+#. Active Directory
+#: ui/auth/index.scm:132
+msgid "Active Directory domain"
+msgstr "Active Directory domæne"
+
+#: ui/auth/index.scm:138 ui/auth/index.scm:164
+msgid "Warning: "
+msgstr "Advarsel: "
+
+#: ui/auth/index.scm:138
+msgid ""
+"Package task-auth-ad-sssd is not installed. Authentication with Active "
+"Directory is not available.<br />Package task-auth-ad is not enough because "
+"it uses non-recommended winbind."
+msgstr ""
+"Pakken task-auth-ad-sssd er ikke installeret. Godkendelse med Active "
+"Directory er ikke tilgængelig.<br />Pakken task-auth-ad er ikke nok, fordi "
+"den bruger ikke-anbefalet winbind."
+
+#: ui/auth/index.scm:146
+msgid "Workgroup:"
+msgstr "Arbejdsgruppe:"
+
+#: ui/auth/index.scm:151 ui/auth/index.scm:172
+msgid "Computer name:"
+msgstr "Computer navn:"
+
+#. FreeIPA
+#: ui/auth/index.scm:158
+msgid "FreeIPA domain"
+msgstr "FreeIPA domæne"
+
+#: ui/auth/index.scm:164
+msgid ""
+"Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
+"not available."
+msgstr ""
+"Pakken task-auth-freeipa er ikke installeret. Godkendelse med FreeIPA er "
+"ikke tilgængelig."
+
+#: ui/auth/index.scm:180
+msgid "SSSD settings..."
+msgstr "SSSD indstillinger..."
+
+#: backend3/auth:73
+msgid "local"
+msgstr "lokal"
+
+#: backend3/auth:322
+msgid "Kerberos domain is not used"
+msgstr "Kerberos domænet bruges ikke"
+
+#: backend3/auth:489 backend3/auth:511 backend3/auth:521
+msgid "Unable to find specified domain"
+msgstr "Kan ikke finde det angivne domæne"
+
+#: backend3/auth:498
+msgid "Domain does not set:"
+msgstr "Domæne er ikke angivet:"
+
+#: backend3/auth:512
+msgid "Cannot contact KDC for realm"
+msgstr "Kan ikke kontakte KDC for realm"
+
+#: backend3/auth:513
+msgid "Unknown administrator name"
+msgstr "Ukendt administrator navn"
+
+#: backend3/auth:514
+msgid "Preauthentication failed"
+msgstr "Forgodkendelse mislykkedes"
+
+#: backend3/auth:515
+msgid "Wrong password"
+msgstr "Forkert kodeord"
+
+#: backend3/auth:516
+msgid "Perhaps the password has expired"
+msgstr "Måske er adgangskoden udløbet"
+
+#: backend3/auth:517
+msgid "Unable to join to Active Directory domain:"
+msgstr "Kan ikke tilsluttes Active Directory domænet:"
+
+#: backend3/auth:522
+msgid "Unable to find IPA Server to join"
+msgstr "Kan ikke finde IPA serveren at deltage i"
+
+#: backend3/auth:523
+msgid "Incorrect administrator password"
+msgstr "Forkert administratoradgangskode"
+
+#: backend3/auth:524
+msgid "Unable to join to FreeIPA domain:"
+msgstr "Kan ikke tilmelde dig FreeIPA domænet:"

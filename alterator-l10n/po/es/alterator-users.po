@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 12:02+0300\n"
+"POT-Creation-Date: 2021-08-10 12:03+0400\n"
 "PO-Revision-Date: 2009-03-27 22:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -33,7 +33,7 @@ msgid "Create"
 msgstr "Crear"
 
 #.
-#: standard input:3 ui/users/index.scm:22 ui/users/add/index.scm:73
+#: standard input:3 ui/users/add/index.scm:73 ui/users/index.scm:22
 msgid "Comment:"
 msgstr "Comentários:"
 
@@ -47,51 +47,51 @@ msgstr "Directorio Inicial:"
 msgid "Shell:"
 msgstr "Shell:"
 
-#: standard input:6 ui/users/index.scm:32
+#: standard input:6 ui/users/index.scm:34
 msgid "Member of administrators group"
 msgstr ""
 
+#: standard input:7 ui/users/index.scm:40
+#, fuzzy
+msgid "System roles assigned"
+msgstr "Restriciones de el Sistema"
+
 #.
-#: standard input:7 ui/users/index.scm:38 ui/users/add/index.scm:82
+#: standard input:8 ui/users/add/index.scm:82 ui/users/index.scm:47
 msgid "Password:"
 msgstr "Contraseña:"
 
-#: standard input:8 ui/users/index.scm:41 ui/users/add/index.scm:85
+#: standard input:9 ui/users/add/index.scm:85 ui/users/index.scm:50
 msgid "Generate automatically"
 msgstr "Generar automaticamente"
 
-#: standard input:9 ui/users/index.scm:44 ui/users/add/index.scm:88
+#: standard input:10 ui/users/add/index.scm:88 ui/users/index.scm:53
 msgid "(enter passphrase)"
 msgstr "(entre com la contraseña)"
 
-#: standard input:10 ui/users/index.scm:46 ui/users/add/index.scm:90
+#: standard input:11 ui/users/add/index.scm:90 ui/users/index.scm:55
 msgid "(repeat passphrase)"
 msgstr "(repetir la contraseña)"
 
-#: standard input:11 ui/users/index.scm:48 ui/users/add/index.scm:92
+#: standard input:12 ui/users/add/index.scm:92 ui/users/index.scm:57
 msgid "Generate"
 msgstr "Generar"
 
-#: standard input:12 ui/users/index.scm:65
+#: standard input:13 ui/users/index.scm:78
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:13 ui/users/index.scm:67
+#: standard input:14 ui/users/index.scm:80
 msgid "Delete user"
 msgstr "Borrar usuário"
 
-#: ui/users/ajax.scm:51
+#: standard input:15 ui/users/index.scm:41
+msgid "Groups the user belongs to"
+msgstr ""
+
+#: ui/users/ajax.scm:55
 msgid "Do you really want to delete user "
 msgstr "Usted realmente desea borrar el usuário"
-
-#: ui/users/index.scm:50 ui/users/add/index.scm:94
-msgid "Autologin"
-msgstr ""
-
-#.
-#: ui/users/index.scm:56
-msgid "Kiosk profile:"
-msgstr ""
 
 #: ui/users/add/index.scm:16
 msgid "You should define a system user"
@@ -108,6 +108,15 @@ msgstr "Nueva cuenta del usuário"
 #: ui/users/add/index.scm:68
 msgid "Name:"
 msgstr "Nombre:"
+
+#: ui/users/add/index.scm:94 ui/users/index.scm:59
+msgid "Autologin"
+msgstr ""
+
+#.
+#: ui/users/index.scm:69
+msgid "Kiosk profile:"
+msgstr ""
 
 #: backend3/users:66
 msgid "can't update password file"
@@ -186,7 +195,7 @@ msgstr "nombre del grupo no és único"
 msgid "unable to add user %s to group %s"
 msgstr "No adiccionar usário %s para grupo %s"
 
-#: backend3/users:185
+#: backend3/users:198
 #, fuzzy
 msgid "Default desktop"
 msgstr "Lista de Sitio Predeterminado"

@@ -1,0 +1,205 @@
+# Danish translations for PACKAGE package
+# Danske oversættelser for pakke PACKAGE.
+# Copyright (C) 2022 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Carl Andersen <carl1@bluemarlin.dk>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"PO-Revision-Date: 2022-02-07 10:36+0100\n"
+"Last-Translator: Carl Andersen <carl1@bluemarlin.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: standard input:1
+msgid "SSL keys management"
+msgstr "SSL nøglehåndtering"
+
+#: standard input:1
+msgid "SSL settings"
+msgstr "SSL indstillinger"
+
+#: standard input:2 ui/sslkey/generate/index.scm:168
+msgid "Common Name (CN):"
+msgstr "Almindeligt navn (AN):"
+
+#: standard input:3
+msgid "(hostname for server or something else for client)"
+msgstr "(værtsnavn for server eller noget andet for klient)"
+
+#.
+#: standard input:4 ui/sslkey/generate/index.scm:171
+msgid "Country (C):"
+msgstr "Land (C):"
+
+#: standard input:5
+msgid "(two letter country code)"
+msgstr "(to bogstaver landekode)"
+
+#.
+#: standard input:6 ui/sslkey/generate/index.scm:174
+msgid "Location (L):"
+msgstr "Område (L):"
+
+#: standard input:7
+msgid "(state or city, written in latin letters)"
+msgstr "(stat eller by, skrevet med latinske bogstaver)"
+
+#.
+#: standard input:8 ui/sslkey/generate/index.scm:177
+msgid "Organization (O):"
+msgstr "Organisation (O):"
+
+#: standard input:9
+msgid "(organization name, written in latin letters)"
+msgstr "(organisationens navn, skrevet med latinske bogstaver)"
+
+#.
+#: standard input:10 ui/sslkey/generate/index.scm:180
+msgid "Organizational Unit (OU):"
+msgstr "Organisationsenhed (OU):"
+
+#: standard input:11
+msgid "(organizational unit name, written in latin letters)"
+msgstr "(navn på organisationsenheden, skrevet med latinske bogstaver)"
+
+#.
+#: standard input:12 ui/sslkey/generate/index.scm:183
+msgid "E-mail address:"
+msgstr "Email adresse:"
+
+#: standard input:13
+msgid "(your e-mail address)"
+msgstr "(Din email adresse)"
+
+#: standard input:14
+msgid "(Re)create key and sign request"
+msgstr "(Gen)opret nøgle og underskriv anmodning"
+
+#: standard input:15 input:24 ui/sslkey/generate/index.scm:187
+#: ui/sslkey/index.scm:40
+msgid "Confirm"
+msgstr "Bekræft"
+
+#: standard input:16
+msgid "Sign"
+msgstr "Underskriv"
+
+#: standard input:17
+msgid "Download sign request"
+msgstr "Download underskriv anmodning"
+
+#: standard input:18
+msgid "Upload certificate signed by CA:"
+msgstr "Upload certifikat underskrevet af CA:"
+
+#: standard input:19
+msgid "Upload"
+msgstr "Upload"
+
+#: standard input:20
+msgid "SSL keys:"
+msgstr "SSL nøgler:"
+
+#: standard input:21 ui/sslkey/index.scm:34
+msgid "New..."
+msgstr "Ny..."
+
+#: standard input:22 ui/sslkey/index.scm:35
+msgid "Change..."
+msgstr "Lave om..."
+
+#: standard input:23 ui/sslkey/index.scm:39
+msgid "Delete key, certificate and sign request"
+msgstr "Slet nøgle, certifikat og underskriv anmodning"
+
+#: ui/sslkey/generate/index.scm:167
+msgid "SSL settings:"
+msgstr "SSL indstillinger:"
+
+#.
+#: ui/sslkey/generate/index.scm:186
+msgid "Generate key and sign request"
+msgstr "Generer nøgle og underskriv anmodning"
+
+#.
+#: ui/sslkey/generate/index.scm:191 ui/sslkey/generate/index.scm:194
+msgid "Export sign request"
+msgstr "Eksporter underskriv anmodning"
+
+#: ui/sslkey/generate/index.scm:193
+msgid "Destination directory:"
+msgstr "Destinations mappe:"
+
+#.
+#: ui/sslkey/generate/index.scm:202
+msgid "Import user certificate:"
+msgstr "Importer brugercertifikat:"
+
+#: ui/sslkey/generate/index.scm:203
+msgid "Import user certificate"
+msgstr "Importer brugercertifikat"
+
+#: ui/sslkey/generate/index.scm:212
+msgid "OK"
+msgstr "OK"
+
+#: ui/sslkey/generate/index.scm:213
+msgid "Apply"
+msgstr "Anvend"
+
+#: ui/sslkey/generate/index.scm:214
+msgid "Cancel"
+msgstr "Annuller"
+
+#: type/ssl-cert-country-code.scm:11
+msgid "invalid ISO-3166-alpha-2 country code"
+msgstr "ugyldig ISO-3166-alpha-2 landekode"
+
+#: type/ssl-cert-field.scm:11
+msgid "only digits, punctuation and latin letters allowed"
+msgstr "kun cifre, tegnsætning og latinske bogstaver tilladt"
+
+#: backend3/sslkey:36
+msgid "expire"
+msgstr "udløber"
+
+#: backend3/sslkey:38
+msgid "OK certificate"
+msgstr "OK certifikat"
+
+#: backend3/sslkey:41
+msgid "Invalid certificate"
+msgstr "Ugyldigt certifikat"
+
+#: backend3/sslkey:44
+msgid "No certificate"
+msgstr "Intet certifikat"
+
+#: backend3/sslkey:203
+msgid "Unable to determine file name"
+msgstr "Kan ikke bestemme filnavnet"
+
+#: backend3/sslkey:232
+msgid "Invalid certificate file"
+msgstr "Ugyldig certifikatfil"
+
+#: backend3/sslkey:238
+msgid "Sign request does not exist"
+msgstr "Underskriv anmodning findes ikke"
+
+#: backend3/sslkey:240
+msgid "Target directory does not exist"
+msgstr "Mål mappe eksisterer ikke"
+
+#: backend3/sslkey:243
+msgid "Export sign request failed"
+msgstr "Eksport underskriv anmodning mislykkedes"

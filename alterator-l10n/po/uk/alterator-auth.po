@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-13 12:51+0400\n"
+"POT-Creation-Date: 2022-06-08 18:40+0400\n"
 "PO-Revision-Date: 2009-08-21 14:04+0300\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
@@ -23,6 +23,141 @@ msgstr ""
 #: standard input:1
 msgid "Authentication"
 msgstr "Автентифікація"
+
+#: standard input:1
+msgid "Available authentication methods"
+msgstr "Дозволені методи аутентифікації"
+
+#: standard input:2
+msgid "Local files"
+msgstr "Локальні файли"
+
+#: standard input:3
+msgid "LDAP base"
+msgstr "База LDAP"
+
+#: standard input:4
+msgid "Kerberos domain"
+msgstr "Домен Kerberos"
+
+#: standard input:5
+msgid "Multi"
+msgstr "Мульти"
+
+#: standard input:6
+msgid "Pkcs11"
+msgstr ""
+
+#: standard input:7
+msgid "LDAP server:"
+msgstr "Сервер LDAP:"
+
+#: standard input:8
+#, fuzzy
+msgid "TLS/SSL"
+msgstr "Дозволити TLS/SSL"
+
+#: standard input:9
+msgid "Base DN:"
+msgstr "Базовий DN:"
+
+#: standard input:10
+msgid "Select"
+msgstr "Обрати"
+
+#: standard input:11 ui/auth/index.scm:117
+msgid "Current domain:"
+msgstr "Поточний домен:"
+
+#: standard input:12
+msgid "Domain list:"
+msgstr "Перелік доменів:"
+
+#: standard input:13 ui/auth/index.scm:195
+#, fuzzy
+msgid "Attention: "
+msgstr "Автентифікація"
+
+#: standard input:14 ui/auth/index.scm:196
+msgid "Domain change needs reboot for normal operation"
+msgstr ""
+
+#: standard input:15 ui/auth/index.scm:206
+msgid "Apply"
+msgstr "Застосувати"
+
+#: ui/auth/additional-settings.scm:93
+msgid "Group Policy enforcement rules:"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:94
+msgid "SSSD GPO-based access control rules"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:97
+msgid "Ignore if Group Policies are not read:"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:98
+msgid "Access users when group policy templates are not readable"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:101
+msgid "Cache credentials:"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:102
+msgid "SSSD users credentials cached in the local LDB cache"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:105
+msgid "Privileges of SSSD running:"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:106
+msgid "Set privileges to SSSD running"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:109
+msgid "DNS records update interval:"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:110
+msgid ""
+"Set the value of refresh interval DNS records updated by SSSD in seconds"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:116
+msgid "TTL value of client DNS record:"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:117
+msgid "Set the TTL value of client DNS record updated by SSSD in seconds"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:123
+msgid "Update the IP address in the DNS server:"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:124
+msgid "Automatically update DNS server with the IP address using SSSD"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:127
+msgid "Update the PTR record in the DNS server:"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:128
+msgid "Automatically update DNS server with the PTR record using SSSD"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:134 ui/auth/admin-password.scm:38
+msgid "OK"
+msgstr ""
+
+#: ui/auth/additional-settings.scm:135 ui/auth/admin-password.scm:39
+msgid "Cancel"
+msgstr "Скасувати"
 
 #: ui/auth/admin-password.scm:27
 msgid "Enter the name and password of an account"
@@ -45,19 +180,11 @@ msgstr "Пароль:"
 msgid "Enable Group Policy"
 msgstr ""
 
-#: ui/auth/admin-password.scm:38
-msgid "OK"
-msgstr ""
-
-#: ui/auth/admin-password.scm:39
-msgid "Cancel"
-msgstr "Скасувати"
-
 #: ui/auth/index.scm:7
 msgid "Please, fill field "
 msgstr ""
 
-#: ui/auth/index.scm:12 backend3/auth:285
+#: ui/auth/index.scm:12 backend3/auth:517
 msgid "Netbios name should not be more 15 chars"
 msgstr ""
 
@@ -75,176 +202,147 @@ msgstr "Ім'я мережі"
 msgid "Host name"
 msgstr "Ім'я вузла"
 
+#: ui/auth/index.scm:37
+msgid ""
+"Do you really want to restore configuration files to default (smb.conf, krb5."
+"conf, sssd.conf)?"
+msgstr ""
+
 #. Show welcome message for AD and FreeIPA
-#: ui/auth/index.scm:58
+#: ui/auth/index.scm:69
 msgid "Welcome to the "
 msgstr ""
 
-#: ui/auth/index.scm:58
+#: ui/auth/index.scm:69
 #, fuzzy
 msgid " domain."
 msgstr "Домен"
 
-#: ui/auth/index.scm:103
-msgid "Current domain:"
-msgstr "Поточний домен:"
-
 #. Local database
-#: ui/auth/index.scm:107
+#: ui/auth/index.scm:121
 msgid "Local database"
 msgstr ""
 
 #. ALT domain
-#: ui/auth/index.scm:111
+#: ui/auth/index.scm:125
 msgid "ALT Linux domain or Astra Linux Directory"
 msgstr ""
 
-#: ui/auth/index.scm:116 ui/auth/index.scm:138 ui/auth/index.scm:164
+#: ui/auth/index.scm:130 ui/auth/index.scm:152 ui/auth/index.scm:178
 msgid "Domain:"
 msgstr "Домен:"
 
-#: ui/auth/index.scm:125
+#: ui/auth/index.scm:139
 msgid "Use cached credentials for out of domain login"
 msgstr ""
 
 #. Active Directory
-#: ui/auth/index.scm:129
+#: ui/auth/index.scm:143
 msgid "Active Directory domain"
 msgstr ""
 
-#: ui/auth/index.scm:135 ui/auth/index.scm:161
+#: ui/auth/index.scm:149 ui/auth/index.scm:175
 #, fuzzy
 msgid "Warning: "
 msgstr "Попередження:"
 
-#: ui/auth/index.scm:135
+#: ui/auth/index.scm:149
 msgid ""
 "Package task-auth-ad-sssd is not installed. Authentication with Active "
 "Directory is not available.<br />Package task-auth-ad is not enough because "
 "it uses non-recommended winbind."
 msgstr ""
 
-#: ui/auth/index.scm:143
+#: ui/auth/index.scm:157
 msgid "Workgroup:"
 msgstr "Робоча група:"
 
-#: ui/auth/index.scm:148 ui/auth/index.scm:169
+#: ui/auth/index.scm:162 ui/auth/index.scm:183
 msgid "Computer name:"
 msgstr "Ім'я комп'ютера:"
 
 #. FreeIPA
-#: ui/auth/index.scm:155
+#: ui/auth/index.scm:169
 #, fuzzy
 msgid "FreeIPA domain"
 msgstr "Призначте домен:"
 
-#: ui/auth/index.scm:161
+#: ui/auth/index.scm:175
 msgid ""
 "Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
 "not available."
 msgstr ""
 
-#: ui/auth/index.scm:176
+#: ui/auth/index.scm:191
 #, fuzzy
-msgid "Attention: "
-msgstr "Автентифікація"
+msgid "SSSD settings..."
+msgstr "Збереження налаштувань ..."
 
-#: ui/auth/index.scm:177
-msgid "Domain change needs reboot for normal operation"
+#: ui/auth/index.scm:199
+msgid "Restore default configuration files (smb.conf, krb5.conf, sssd.conf)."
 msgstr ""
-
-#: ui/auth/index.scm:183
-msgid "Apply"
-msgstr "Застосувати"
 
 #: backend3/auth:73
 msgid "local"
 msgstr ""
 
-#: backend3/auth:112
+#: backend3/auth:327
 #, fuzzy
 msgid "Kerberos domain is not used"
 msgstr "Домен Kerberos"
 
-#: backend3/auth:264 backend3/auth:286 backend3/auth:296
+#: backend3/auth:496 backend3/auth:518 backend3/auth:528
 #, fuzzy
 msgid "Unable to find specified domain"
 msgstr "Неможливо створити теку під нову систему"
 
-#: backend3/auth:273
+#: backend3/auth:505
 #, fuzzy
 msgid "Domain does not set:"
 msgstr "Домен не встановлено"
 
-#: backend3/auth:287
+#: backend3/auth:519
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:288
+#: backend3/auth:520
 #, fuzzy
 msgid "Unknown administrator name"
 msgstr "DN адміністратора:"
 
-#: backend3/auth:289
+#: backend3/auth:521
 #, fuzzy
 msgid "Preauthentication failed"
 msgstr "Автентифікацію провалено"
 
-#: backend3/auth:290
+#: backend3/auth:522
 #, fuzzy
 msgid "Wrong password"
 msgstr "Пароля немає"
 
-#: backend3/auth:291
+#: backend3/auth:523
 msgid "Perhaps the password has expired"
 msgstr "Можливо, термін дії пароля минув"
 
-#: backend3/auth:292
+#: backend3/auth:524
 #, fuzzy
 msgid "Unable to join to Active Directory domain:"
 msgstr "Неможливо створити теку під нову систему"
 
-#: backend3/auth:297
+#: backend3/auth:529
 #, fuzzy
 msgid "Unable to find IPA Server to join"
 msgstr "Неможливо визначити версію RAID"
 
-#: backend3/auth:298
+#: backend3/auth:530
 #, fuzzy
 msgid "Incorrect administrator password"
 msgstr "Пароль адміністратора"
 
-#: backend3/auth:299
+#: backend3/auth:531
 #, fuzzy
 msgid "Unable to join to FreeIPA domain:"
 msgstr "Неможливо створити теку під нову систему"
-
-#~ msgid "Available authentication methods"
-#~ msgstr "Дозволені методи аутентифікації"
-
-#~ msgid "Local files"
-#~ msgstr "Локальні файли"
-
-#~ msgid "LDAP base"
-#~ msgstr "База LDAP"
-
-#~ msgid "Kerberos domain"
-#~ msgstr "Домен Kerberos"
-
-#~ msgid "Multi"
-#~ msgstr "Мульти"
-
-#~ msgid "LDAP server:"
-#~ msgstr "Сервер LDAP:"
-
-#~ msgid "Base DN:"
-#~ msgstr "Базовий DN:"
-
-#~ msgid "Select"
-#~ msgstr "Обрати"
-
-#~ msgid "Domain list:"
-#~ msgstr "Перелік доменів:"
 
 #, fuzzy
 #~ msgid "ALT Linux domain"

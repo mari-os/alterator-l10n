@@ -400,6 +400,10 @@ msgstr "Установка рабочей станции"
 msgid "Setup for workstation (without LVM)"
 msgstr "Установка рабочей станции (без LVM)"
 
+#: ui/vm/dummystr.scm:80
+msgid "Setup for workstation (Timeshift compatible)"
+msgstr "Установка рабочей станции (совместима с Timeshift)"
+
 # Настройка вручную
 #: ui/vm/dummystr.scm:81
 msgid "Custom"
@@ -460,6 +464,14 @@ msgstr "Операция невозможна"
 msgid "Invalid mountpoint: should not be resided on LVM"
 msgstr "Неверная точка монтирования: не должна размещаться на LVM"
 
+#: ui/vm/dummystr.scm:97
+msgid "Subvolume Path"
+msgstr "Путь к подтому"
+
+#: ui/vm/dummystr.scm:98
+msgid "Subvolume Mountpoint"
+msgstr "Точка монтирования"
+
 #: ui/vm/popup.scm:92
 msgid "Objects"
 msgstr "Объекты"
@@ -485,6 +497,10 @@ msgid ""
 "To install grub-efi, ESP partition (FAT32, minimum 256 MiB, mountpoint /boot/efi) is required"
 msgstr ""
 "Для установки grub-efi требуется ESP-раздел (FAT32, 256 МиБ, точка монтирования /boot/efi)"
+
+#: ui/vm/table.scm:132
+msgid "GRUB could not be installed; please create either partition table or plain volume"
+msgstr "Установка GRUB будет невозможна; Пожалуйста, создайте таблицу разделов или обычный том"
 
 #: ui/vm/table.scm:147
 msgid "Multiple filesystems are assigned the same mountpoint ("
@@ -593,23 +609,35 @@ msgstr "Удалить файловую систему"
 msgid "Edit Mountpoint"
 msgstr "Изменить точку монтирования"
 
+#: ui/vm/table.scm:236
+msgid "Create Subvolume"
+msgstr "Создать подтом"
+
 #: ui/vm/table.scm:237
+msgid "Destroy Subvolume"
+msgstr "Удалить подтом"
+
+#: ui/vm/table.scm:238
+msgid "Edit Subvolume Mountpoint"
+msgstr "Изменить точку монтирования"
+
+#: ui/vm/table.scm:239
 msgid "Check Filesystem"
 msgstr "Проверить файловую систему"
 
-#: ui/vm/table.scm:238
+#: ui/vm/table.scm:240
 msgid "Mount Filesystem"
 msgstr "Монтировать файловую систему"
 
-#: ui/vm/table.scm:239
+#: ui/vm/table.scm:241
 msgid "Umount Filesystem"
 msgstr "Отмонтировать файловую систему"
 
-#: ui/vm/table.scm:264
+#: ui/vm/table.scm:267
 msgid "Reset"
 msgstr "Сбросить"
 
-#: ui/vm/table.scm:269
+#: ui/vm/table.scm:272
 msgid "Apply"
 msgstr "Применить"
 

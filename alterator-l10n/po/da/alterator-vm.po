@@ -1,0 +1,606 @@
+# Danish translations for  package
+# Danske oversættelser for pakke .
+# Copyright (C) 2022 THE 'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  package.
+# Carl Andersen <carl1@bluemarlin.dk>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-31 09:37+0100\n"
+"PO-Revision-Date: 2022-02-01 14:06+0100\n"
+"Last-Translator: Carl Andersen <carl1@bluemarlin.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: standard input:1
+msgid "Volume management"
+msgstr "Volume håndtering"
+
+#: standard input:2
+msgid "Harddisks"
+msgstr "Harddiske"
+
+#: ui/vm/lucky.scm:60
+msgid "Unable to partition, not enough disk space"
+msgstr "Kan ikke partitionere, ikke nok diskplads"
+
+#. ---------------------------------------------------------------
+#: ui/vm/lucky.scm:67
+msgid "All data from all your disks will be lost!"
+msgstr "Alle data fra alle dine diske vil gå tabt!"
+
+#: ui/vm/lucky.scm:68
+msgid "Yes, i'm warned"
+msgstr "Ja, jeg er advaret"
+
+#: ui/vm/choice.scm:28
+msgid "Select"
+msgstr "Vælg"
+
+#: ui/vm/choice.scm:34 ui/vm/popup.scm:109 ui/vm/details.scm:97
+msgid "OK"
+msgstr "OK"
+
+#: ui/vm/choice.scm:35 ui/vm/popup.scm:112 ui/vm/details.scm:98
+msgid "Cancel"
+msgstr "Annuller"
+
+#: ui/vm/blonde.scm:45
+msgid "Name"
+msgstr "Navn"
+
+#: ui/vm/blonde.scm:46 ui/vm/table.scm:195
+msgid "Filesystem"
+msgstr "Filsystem"
+
+#: ui/vm/blonde.scm:47
+msgid "Size [free]"
+msgstr "Størrelse [ledig]"
+
+#: ui/vm/blonde.scm:83
+msgid "Use unpartitioned disk space"
+msgstr "Brug ikke-partitioneret diskplads"
+
+#: ui/vm/blonde.scm:84
+msgid "Destroy all partitions, then autopartition"
+msgstr "Slet alle partitioner, derefter automatisk partition"
+
+#: ui/vm/blonde.scm:85
+msgid "Custom install"
+msgstr "Brugerdefineret installation"
+
+#: ui/vm/blonde.scm:91
+msgid ""
+"All data from all your disks (including removable ones) will be lost! "
+"Continue?"
+msgstr ""
+"Alle data fra alle dine diske (inklusive flytbare) vil gå tabt! Vil du "
+"fortsætte?"
+
+#: ui/vm/blonde.scm:97
+msgid "Volumes"
+msgstr "Volumer"
+
+#: ui/vm/blonde.scm:101
+msgid "Select installation method"
+msgstr "Vælg installationsmetode"
+
+#: ui/vm/blonde.scm:138
+msgid "Unable to autopartition, not enough disk space"
+msgstr "Kan ikke udføre automatisk partitionering, ikke nok diskplads"
+
+#: ui/vm/functions.scm:3
+msgid "Please wait..."
+msgstr "Vent venligst..."
+
+#: ui/vm/ortodox.scm:40
+msgid " of "
+msgstr " af "
+
+#: ui/vm/ortodox.scm:40
+msgid " free"
+msgstr " ledig"
+
+#: ui/vm/ortodox.scm:52
+msgid "free space required:"
+msgstr "ledig plads påkrævet:"
+
+#: ui/vm/ortodox.scm:72
+msgid "All data from selected groups will be lost! Continue?"
+msgstr "Alle data fra udvalgte grupper vil gå tabt! Vil du fortsætte?"
+
+#: ui/vm/ortodox.scm:81
+msgid "Select disk groups for use"
+msgstr "Vælg diskgrupper du vil bruge"
+
+#: ui/vm/ortodox.scm:85
+msgid "Available disks"
+msgstr "Tilgængelige diske"
+
+#: ui/vm/ortodox.scm:89
+msgid "Select profile"
+msgstr "Vælg profil"
+
+#: ui/vm/ortodox.scm:89 ui/vm/popup.scm:96
+msgid "Options"
+msgstr "Muligheder"
+
+#: ui/vm/ortodox.scm:98
+msgid "Clear selected before applying profile"
+msgstr "Ryd valgte, før du anvender profil"
+
+#: ui/vm/ortodox.scm:98
+msgid "Let me make my changes after profile applying"
+msgstr "Lad mig foretage mine ændringer efter profil anvendelse"
+
+#: ui/vm/ortodox.scm:129
+msgid "Unable to apply selected profile, not enough disk space"
+msgstr "Kan ikke anvende den valgte profil, der er  ikke nok diskplads"
+
+#.
+#: ui/vm/dummystr.scm:2
+msgid "Size"
+msgstr "Størrelse"
+
+#: ui/vm/dummystr.scm:3
+msgid "Offset"
+msgstr "Forskydning"
+
+#: ui/vm/dummystr.scm:4
+msgid "Primary Partition"
+msgstr "Primær partition"
+
+#: ui/vm/dummystr.scm:5
+msgid "Partition Type"
+msgstr "Partitionstype"
+
+#. fsims
+#: ui/vm/dummystr.scm:7
+msgid "Ext2/3/4 File System Interface Module"
+msgstr "Ext2/3/4 filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:8
+msgid "XFS File System Interface Module"
+msgstr "XFS filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:9
+msgid "JFS File System Interface Module"
+msgstr "JFS filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:10
+msgid "ReiserFS File System Interface Module"
+msgstr "ReiserFS filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:11
+msgid "Swap File System Interface Module"
+msgstr "Swap filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:12
+msgid "FAT32 File System Interface Module"
+msgstr "FAT32 filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:13
+msgid "FAT16 File System Interface Module"
+msgstr "FAT16 filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:14
+msgid "NTFS File System Interface Module"
+msgstr "NTFS filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:15
+msgid "OpenGFS File System Interface Module"
+msgstr "OpenGFS filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:16
+msgid "OCFS2 File System Interface Module"
+msgstr "OCFS2 filsystem grænseflademodul"
+
+#: ui/vm/dummystr.scm:17
+msgid "BtrFS File System Interface Module"
+msgstr "BtrFS filsystem grænseflademodul"
+
+#. ext2/3
+#: ui/vm/dummystr.scm:20
+msgid "Check For Bad Blocks"
+msgstr "Tjek for dårlige blokke"
+
+#: ui/vm/dummystr.scm:21
+msgid "Read/Write Check For Bad Blocks"
+msgstr "Læs/skriv tjek for dårlige blokke"
+
+#: ui/vm/dummystr.scm:22
+msgid "Volume Label"
+msgstr "Volume Etiket"
+
+#: ui/vm/dummystr.scm:23
+msgid "Use Ext4 extents"
+msgstr "Brug Ext4 extents"
+
+#: ui/vm/dummystr.scm:24
+msgid "Create Ext3 Journal"
+msgstr "Opret Ext3 journaliserende"
+
+#. xfs
+#: ui/vm/dummystr.scm:26
+msgid "External Journal Volume"
+msgstr "Ekstern journaliserende Volume"
+
+#: ui/vm/dummystr.scm:27
+msgid "Log Size"
+msgstr "Log Størrelse"
+
+#: ui/vm/dummystr.scm:28
+msgid "Force"
+msgstr "Gennemtving"
+
+#. jfs
+#: ui/vm/dummystr.scm:30
+msgid "Case Insensitive"
+msgstr "Ufølsom mellem store og små bogstaver"
+
+#: ui/vm/dummystr.scm:31
+msgid "Inline Log Size"
+msgstr "Inline logstørrelse"
+
+#. reiserfs FIXME
+#: ui/vm/dummystr.scm:33
+msgid "Version of mkreiserfs"
+msgstr "Version af mkreiserfs"
+
+#. swap
+#: ui/vm/dummystr.scm:35
+msgid "Check for bad blocks"
+msgstr "Tjek for dårlige blokke"
+
+#. fat16/32
+#: ui/vm/dummystr.scm:37
+msgid "Volume label"
+msgstr "Volume Etiket"
+
+#. ntfs
+#: ui/vm/dummystr.scm:39
+msgid "Cluster size"
+msgstr "Klyngestørrelse"
+
+#: ui/vm/dummystr.scm:40
+msgid "MFT zone multiplier"
+msgstr "MFT zone multiplikator"
+
+#: ui/vm/dummystr.scm:41
+msgid "Compression"
+msgstr "Kompression"
+
+#: ui/vm/dummystr.scm:42
+msgid "Quick mkfs"
+msgstr "Hurtig mkfs"
+
+#. lvm2 vg
+#: ui/vm/dummystr.scm:44
+msgid "Name for the new LVM2 container."
+msgstr "Navn på den nye LVM2 container."
+
+#: ui/vm/dummystr.scm:45
+msgid "Extent-size for the new LVM2 container."
+msgstr "Omfangsstørrelse for den nye LVM2 container."
+
+#. lvm2 lv
+#: ui/vm/dummystr.scm:47
+msgid "Name for the new LVM2 region."
+msgstr "Navn på den nye LVM2 område."
+
+#: ui/vm/dummystr.scm:48
+msgid "Size for the new LVM2 region."
+msgstr "Størrelse til den nye LVM2 område."
+
+#: ui/vm/dummystr.scm:49
+msgid "Number of stripes for the new LVM2 region."
+msgstr "Antal stribes for det nye LVM2 område."
+
+#: ui/vm/dummystr.scm:50
+msgid "Objects (PVs) to place the new LVM2 region on."
+msgstr "Objekter (PV'er) at placere den nye LVM2 område på."
+
+#. raidx
+#: ui/vm/dummystr.scm:52
+msgid "MD RAID0 Region Manager"
+msgstr "MD RAID0 område håndteren"
+
+#: ui/vm/dummystr.scm:53
+msgid "MD Raid 1 Region Manager"
+msgstr "MD Raid 1 område håndteren"
+
+#: ui/vm/dummystr.scm:54
+msgid "MD RAID 4/5 Region Manager"
+msgstr "MD RAID 4/5 område håndteren"
+
+#. raid0
+#: ui/vm/dummystr.scm:56
+msgid "Chunk Size:"
+msgstr "Fragmentstørrelse:"
+
+#: ui/vm/dummystr.scm:57
+msgid "Version 1 Super Block"
+msgstr "Version 1 Super blok"
+
+#. raid1
+#: ui/vm/dummystr.scm:59
+msgid "Degraded array"
+msgstr "Forringet array"
+
+#: ui/vm/dummystr.scm:60
+msgid "Spare Disk"
+msgstr "Reserve Disk"
+
+#. raid5
+#: ui/vm/dummystr.scm:62
+msgid "RAID5 Algorithm"
+msgstr "RAID5 algoritme"
+
+#: ui/vm/dummystr.scm:63
+msgid "RAID level"
+msgstr "RAID niveau"
+
+#: ui/vm/dummystr.scm:64
+msgid "Chunk size"
+msgstr "Fragmentstørrelse"
+
+#. expand seg
+#: ui/vm/dummystr.scm:66
+msgid "Additional Size"
+msgstr "Ekstra størrelse"
+
+#. shrink seg
+#: ui/vm/dummystr.scm:68
+msgid "Shrink by Size"
+msgstr "Krymp efter størrelse"
+
+#. expand lv
+#: ui/vm/dummystr.scm:70
+msgid "Extra size for the LVM2 region."
+msgstr "Ekstra udvidelse til LVM2 område."
+
+#: ui/vm/dummystr.scm:71
+msgid "Number of stripes for the new portion of the region."
+msgstr "Antal stripes for den nye del af området."
+
+#: ui/vm/dummystr.scm:72
+msgid "Objects (PVs) to use for the new portion of the region."
+msgstr "Objekter (PV'er) til brug for den nye del af området."
+
+#. shrink lv
+#: ui/vm/dummystr.scm:74
+msgid "Size to remove from the LVM2 region."
+msgstr "Størrelse, der skal fjernes fra LVM2 området."
+
+#. assign
+#: ui/vm/dummystr.scm:76
+msgid "Mount Options"
+msgstr "Monteringsmuligheder"
+
+#: ui/vm/dummystr.scm:77
+msgid "Format before using"
+msgstr "Formater før brug"
+
+#. profiles
+#: ui/vm/dummystr.scm:79
+msgid "Setup for server"
+msgstr "Opsætning til server"
+
+#: ui/vm/dummystr.scm:80
+msgid "Setup for workstation"
+msgstr "Opsætning til arbejdsstation"
+
+#: ui/vm/dummystr.scm:81
+msgid "Custom"
+msgstr "Brugerdefineret"
+
+#. misc
+#: ui/vm/dummystr.scm:83
+msgid ""
+"Note, that resizing Vista partition may lead to Vista boot failure. Proceed?"
+msgstr ""
+"Bemærk, at ændring af størrelsen på Vista partitionen kan føre til Vista "
+"startfejl. Vil du fortsætte?"
+
+#. guile-evms
+#: ui/vm/dummystr.scm:85
+msgid "Invalid mountpoint"
+msgstr "Ugyldigt monteringspunkt"
+
+#: ui/vm/dummystr.scm:86
+msgid "Invalid mountpoint for SWAPFS"
+msgstr "Ugyldigt monteringspunkt for SWAPFS"
+
+#: ui/vm/dummystr.scm:87
+msgid "Invalid mountpoint: not a SWAPFS"
+msgstr "Ugyldigt monteringspunkt: er ikke et SWAPFS"
+
+#: ui/vm/dummystr.scm:88
+msgid "Invalid mountpoint: should start with /mnt"
+msgstr "Ugyldigt monteringspunkt: bør starte med /mnt"
+
+#: ui/vm/dummystr.scm:89
+msgid " reboot, then continue installation."
+msgstr " genstart, og fortsæt derefter installationen."
+
+#: ui/vm/dummystr.scm:90 ui/vm/table.scm:197
+msgid "Mountpoint"
+msgstr "Monteringspunkt"
+
+#: ui/vm/dummystr.scm:91
+msgid "Dump Frequency"
+msgstr "Dump frekvens"
+
+#: ui/vm/dummystr.scm:92
+msgid "Check order"
+msgstr "Tjek rækkefølgen"
+
+#: ui/vm/dummystr.scm:93
+msgid "inaccesible or not a directory"
+msgstr "utilgængelig eller ikke en mappe"
+
+#: ui/vm/dummystr.scm:94
+msgid "Operation not permitted"
+msgstr "Handling ikke tilladt"
+
+#: ui/vm/popup.scm:92
+msgid "Objects"
+msgstr "Objekter"
+
+#: ui/vm/popup.scm:100
+msgid "Next operation"
+msgstr "Næste handling"
+
+#: ui/vm/popup.scm:103
+msgid "Show extra options"
+msgstr "Vis ekstra muligheder"
+
+#: ui/vm/table.scm:86
+msgid "Congrats! You've found a secret level!"
+msgstr "Tillykke! Du har fundet et hemmeligt niveau!"
+
+#: ui/vm/table.scm:123
+msgid "Please assign \"/\" mount point"
+msgstr "Tildel venligst \"/\" monteringspunkt"
+
+#: ui/vm/table.scm:128
+msgid ""
+"To install grub-efi, ESP partition (FAT32, minimum 256 MiB, mountpoint /boot/"
+"efi) is required"
+msgstr ""
+"For at installere grub-efi kræves ESP partition (FAT32, minimum 256 MiB, "
+"monteringspunkt /boot/efi)"
+
+#: ui/vm/table.scm:147
+msgid "Multiple filesystems are assigned the same mountpoint ("
+msgstr "Flere filsystemer er tildelt det samme monteringspunkt ("
+
+#: ui/vm/table.scm:150
+msgid "Please fix this by changing duplicated mountpoints."
+msgstr "Løs dette ved at ændre duplikerede monteringspunkter."
+
+#: ui/vm/details.scm:39
+msgid "as "
+msgstr "som "
+
+#: ui/vm/details.scm:43
+msgid "mounted at "
+msgstr "monteret på "
+
+#: ui/vm/details.scm:43
+msgid "Partition"
+msgstr "Partition"
+
+#: ui/vm/details.scm:89
+msgid "Pending operations:"
+msgstr "Afventende operationer:"
+
+#: ui/vm/details.scm:95
+msgid "Apply requested changes?"
+msgstr "Vil du anvende de ønskede ændringer?"
+
+#: ui/vm/table.scm:141
+msgid "All data on following partitions will be lost:"
+msgstr "Alle data på følgende partitioner vil gå tabt:"
+
+#: ui/vm/table.scm:144
+msgid "Continue?"
+msgstr "Fortsæt?"
+
+#: ui/vm/table.scm:193
+msgid "   Name   "
+msgstr "   Navn   "
+
+#: ui/vm/table.scm:194
+msgid "Size [ free ]"
+msgstr "Størrelse [ledig]"
+
+#: ui/vm/table.scm:198
+msgid "Mounted on"
+msgstr "Monteret på"
+
+#: ui/vm/table.scm:199
+msgid "Mount options"
+msgstr "Monteringsmuligheder"
+
+#: ui/vm/table.scm:202
+msgid "Create RAID"
+msgstr "Opret RAID"
+
+#: ui/vm/table.scm:203 ui/vm/table.scm:208 ui/vm/table.scm:214
+#: ui/vm/table.scm:222 ui/vm/table.scm:227 ui/vm/table.scm:230
+msgid "Destroy"
+msgstr "Slet"
+
+#: ui/vm/table.scm:205
+msgid "Create Volume Group"
+msgstr "Opret volumengruppe"
+
+#: ui/vm/table.scm:206 ui/vm/table.scm:212 ui/vm/table.scm:220
+#: ui/vm/table.scm:225
+msgid "Expand"
+msgstr "Udvid"
+
+#: ui/vm/table.scm:207 ui/vm/table.scm:213 ui/vm/table.scm:221
+#: ui/vm/table.scm:226
+msgid "Shrink"
+msgstr "Krymp"
+
+#: ui/vm/table.scm:210 ui/vm/table.scm:224
+msgid "Create Volume"
+msgstr "Opret Volume"
+
+#: ui/vm/table.scm:211 ui/vm/table.scm:229
+msgid "Create Encrypted Volume"
+msgstr "Opret krypteret volume"
+
+#: ui/vm/table.scm:216 ui/vm/table.scm:218
+msgid "Create Partition"
+msgstr "Opret partition"
+
+#: ui/vm/table.scm:217
+msgid "Destroy Partition Table"
+msgstr "Slet partitionstabel"
+
+#: ui/vm/table.scm:219
+msgid "Create Encrypted Partition"
+msgstr "Opret krypteret partition"
+
+#: ui/vm/table.scm:233 ui/vm/table.scm:236
+msgid "Make Filesystem"
+msgstr "Lav filsystem"
+
+#: ui/vm/table.scm:234 ui/vm/table.scm:240
+msgid "Remove Filesystem"
+msgstr "Fjern filsystem"
+
+#: ui/vm/table.scm:235
+msgid "Edit Mountpoint"
+msgstr "Rediger monteringspunkt"
+
+#: ui/vm/table.scm:237
+msgid "Check Filesystem"
+msgstr "Tjek filsystem"
+
+#: ui/vm/table.scm:238
+msgid "Mount Filesystem"
+msgstr "Monter filsystem"
+
+#: ui/vm/table.scm:239
+msgid "Umount Filesystem"
+msgstr "Afmonter filsystem"
+
+#: ui/vm/table.scm:264
+msgid "Reset"
+msgstr "Nulstil"
+
+#: ui/vm/table.scm:269
+msgid "Apply"
+msgstr "Anvende"

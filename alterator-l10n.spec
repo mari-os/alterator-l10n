@@ -1,16 +1,16 @@
 Name: alterator-l10n
-Version: 2.9.100
+Version: 2.9.118
 Release: alt1
-
-Packager: Andrey Cherepanov <cas@altlinux.org>
-
-BuildArch:	noarch
-
-Source:%name-%version.tar
 
 Summary: translations for all alterator modules
 License: GPL
 Group: System/Configuration/Other
+
+Url: http://altlinux.org/alterator/l10n
+Source: %name-%version.tar
+Packager: Andrey Cherepanov <cas@altlinux.org>
+
+BuildArch: noarch
 
 Conflicts: alterator                      < 4.7-alt1
 Conflicts: alterator-ahttpd               < 0.5-alt4
@@ -62,7 +62,7 @@ Conflicts: alterator-gpupdate             < 1.3-alt1
 translations for all alterator modules
 
 %prep
-%setup -q
+%setup
 
 %build
 make check
@@ -87,6 +87,7 @@ make check
 %lang(es) %config(noreplace) %_sysconfdir/alterator/l10n/*-es_*
 %lang(kk) %config(noreplace) %_sysconfdir/alterator/l10n/*-kk_*
 %lang(de) %config(noreplace) %_sysconfdir/alterator/l10n/*-de_*
+%lang(da) %config(noreplace) %_sysconfdir/alterator/l10n/*-da_*
 
 %dir %_datadir/alterator/help/
 %lang(en) %dir %_datadir/alterator/help/en_US/
@@ -114,7 +115,76 @@ make check
 
 %lang(de) %_datadir/locale/de/LC_MESSAGES/*.mo
 
+%lang(da) %_datadir/locale/da/LC_MESSAGES/*.mo
+%lang(da) %dir %_datadir/alterator/help/da_DK/
+%lang(da) %_datadir/alterator/help/da_DK/*.html
+
 %changelog
+* Sun Oct 16 2022 Anton Midyukov <antohami@altlinux.org> 2.9.118-alt1
+- Add translate file for installer-livecd-install
+
+* Fri Oct 14 2022 Mikhail Efremov <sem@altlinux.org> 2.9.117-alt1
+- alterator-datetime: Update translation.
+- tzone: Update from tzdata-2022d.
+- tzone_extract: Use zone1970.tab.
+- tzone_extract: Add region names for translation.
+
+* Tue Jul 26 2022 Oleg Solovyov <mcpain@altlinux.org> 2.9.116-alt1
+- alterator-vm: translation for new profile
+
+* Wed Jul 13 2022 Oleg Solovyov <mcpain@altlinux.org> 2.9.115-alt1
+- alterator-vm: new translations
+
+* Thu Jun 09 2022 Ivan Savin <svn17@altlinux.org> 2.9.114-alt1
+- Updated translations for alterator-auth
+- Updated translations for alterator-net-domain
+
+* Thu May 05 2022 Oleg Solovyov <mcpain@altlinux.org> 2.9.113-alt1
+- alterator-vm: update translation
+
+* Sat Apr 23 2022 Michael Shigorin <mike@altlinux.org> 2.9.112-alt1
+- help: added Danish translations by Carl Andersen
+
+* Tue Apr 05 2022 Ivan Savin <svn17@altlinux.org> 2.9.111-alt1
+- Rename files for alterator-roles after its rename
+- Updated translations for alterator-roles
+
+* Mon Feb 28 2022 Paul Wolneykien <manowar@altlinux.org> 2.9.110-alt1
+- Updated translations for alterator-ports-access (v0.5).
+
+* Fri Feb 11 2022 Michael Shigorin <mike@altlinux.org> 2.9.109-alt1
+- twelve more Danish translations by Carl
+- alterator-auth: update Danish translation (ditto)
+
+* Mon Feb 07 2022 Michael Shigorin <mike@altlinux.org> 2.9.108-alt1
+- ten more translations to Danish by Carl Andersen
+
+* Thu Feb 03 2022 Ivan Savin <svn17@altlinux.org> 2.9.107-alt1
+- alterator-users: update translation
+- alterator-update-kernel: update translation
+- alterator-auth: update translation
+
+* Thu Feb 03 2022 Michael Shigorin <mike@altlinux.org> 2.9.106-alt1
+- added Danish translations by Carl Andersen
+- minor spec cleanup
+
+* Sat Jan 22 2022 Andrey Cherepanov <cas@altlinux.org> 2.9.105-alt1
+- alterator-datetime: update localization (ALT #41763).
+
+* Fri Dec 17 2021 Ivan Razzhivin <underwit@altlinux.org> 2.9.104-alt1
+- alterator-multiseat: update help
+
+* Thu Dec 16 2021 Ivan Savin <svn17@altlinux.org> 2.9.103-alt1
+- alterator-gpupdate: fix translation
+
+* Tue Nov 30 2021 Ivan Razzhivin <underwit@altlinux.org> 2.9.102-alt1
+- alterator-setup-welcome: add translation
+- alterator-setup-kworkstation: add help
+- alterator-setup-kworkstation: add translation
+
+* Tue Nov 09 2021 Ivan Razzhivin <underwit@altlinux.org> 2.9.101-alt1
+- alterator-multiseat: update translation
+
 * Tue Oct 26 2021 Andrey Cherepanov <cas@altlinux.org> 2.9.100-alt1
 - Update Russian help for alterator-limits (thanks Sergey Kazorin).
 
