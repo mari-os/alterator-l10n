@@ -6,10 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-04 15:00+0400\n"
-"PO-Revision-Date: 2012-04-04 15:10+0400\n"
-"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"POT-Creation-Date: 2022-12-13 15:08+0300\n"
+"PO-Revision-Date: 2022-12-13 15:08+0300\n"
+"Last-Translator: Paul Wolneykien <manowar@altlinux.org>\n"
+"Language-Team: Russian <devel@lists.altlinux.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,178 +19,286 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: standard input:1
-msgid "Web interface"
-msgstr "Веб-интерфейс"
-
-#: standard input:2
-msgid "Setup embedded web server"
-msgstr "Настройка встроенного веб-сервера"
-
-#: standard input:3
-msgid "Graphical interface"
-msgstr "Графический интерфейс"
-
-#: standard input:4
-msgid "Setup input/output devices"
-msgstr "Настройка устройств ввода-вывода"
-
-#: standard input:5
-msgid "Other"
-msgstr "Другие"
-
-#: standard input:6
-msgid "Other system settings"
-msgstr "Прочие параметры системы"
-
-#: standard input:7
-msgid "Mail"
-msgstr "Почта"
-
-#: standard input:8
-msgid "Setup e-mail service"
-msgstr "Настройка службы электронной почты"
-
-#: standard input:9
 msgid "Servers"
 msgstr "Серверы"
 
-#: standard input:10
+#: standard input:2
 msgid "Various network services"
 msgstr "Настройка различных сетевых служб"
 
-#: standard input:11
+#: standard input:3
+msgid "Web interface"
+msgstr "Веб-интерфейс"
+
+#: standard input:4
+msgid "Setup embedded web server"
+msgstr "Настройка встроенного веб-сервера"
+
+#: standard input:5
 msgid "Programs"
 msgstr "Программное обеспечение"
 
-#: standard input:12
+#: standard input:6
 msgid "Setup, remove and update programs"
 msgstr "Установка, удаление и обновление программ"
 
-#: standard input:13
-msgid "Network"
-msgstr "Сеть"
-
-#: standard input:14
-msgid "Setup network connections"
-msgstr "Настройка подключения к сети"
-
-#: standard input:15 input:16
+#: standard input:7 input:8
 msgid "Firewall"
 msgstr "Брандмауэр"
 
-#: standard input:17
-msgid "Statistics"
-msgstr "Статистика"
-
-#: standard input:18
-msgid "System statistics"
-msgstr "Статистика по компонентам системы"
-
-#: standard input:19
-msgid "Users"
-msgstr "Пользователи"
-
-#: standard input:20
-msgid "System users management"
-msgstr "Управление пользователями системы"
-
-#: standard input:21
-msgid "Accounting"
-msgstr "Учёт"
-
-#: standard input:22
-msgid "System accounting"
-msgstr "Учётная информация по системе"
-
-#: standard input:23
+#: standard input:9
 msgid "Date/Time"
 msgstr "Дата и время"
 
-#: standard input:24
+#: standard input:10
 msgid "System clock setup"
 msgstr "Настройка системных часов"
 
-#: standard input:25
+#: standard input:11
+msgid "Accounting"
+msgstr "Учёт"
+
+#: standard input:12
+msgid "System accounting"
+msgstr "Учётная информация по системе"
+
+#: standard input:13
+msgid "Statistics"
+msgstr "Статистика"
+
+#: standard input:14
+msgid "System statistics"
+msgstr "Статистика по компонентам системы"
+
+#: standard input:15
+msgid "Network"
+msgstr "Сеть"
+
+#: standard input:16
+msgid "Setup network connections"
+msgstr "Настройка подключения к сети"
+
+#: standard input:17
 msgid "System"
 msgstr "Система"
 
-#: standard input:26
+#: standard input:18
 msgid "Operating system information and setup"
 msgstr "Информация об установленной системе и её настройка"
+
+#: standard input:19
+msgid "Other"
+msgstr "Другие"
+
+#: standard input:20
+msgid "Other system settings"
+msgstr "Прочие параметры системы"
+
+#: standard input:21
+msgid "Graphical interface"
+msgstr "Графический интерфейс"
+
+#: standard input:22
+msgid "Setup input/output devices"
+msgstr "Настройка устройств ввода-вывода"
+
+#: standard input:23
+msgid "Mail"
+msgstr "Почта"
+
+#: standard input:24
+msgid "Setup e-mail service"
+msgstr "Настройка службы электронной почты"
+
+#: standard input:25
+msgid "Version control"
+msgstr "Управление версиями"
+
+#: standard input:26
+msgid "Configuration file version control"
+msgstr "Управление версиями конфигурационных файлов"
+
+#: standard input:27
+msgid "Users"
+msgstr "Пользователи"
+
+#: standard input:28
+msgid "System users management"
+msgstr "Управление пользователями системы"
+
+#: type/keyword.scm:13
+msgid ""
+"a key-word is one word of letters and digits (plus \"_\" and \"-\"), "
+"starting with a letter or \"_\""
+msgstr "ключевое слово — это одно слово, состоящее из букв и цифр (плюс \"_\" и \"-\"), начинающееся с буквы или \"_\""
+
+#: type/tcp-port.scm:12
+msgid "invalid TCP port"
+msgstr "недопустимый порт TCP"
+
+#: type/iso-3166-alpha-2.scm:258
+msgid "invalid ISO-3166-alpha-2 country code"
+msgstr "недопустимый код страны (по ISO-3166-alpha-2)"
+
+#: type/ip-proto.scm:9
+msgid "unknown IP protocol"
+msgstr "неизвестный IP-протокол"
+
+#: type/ip-address.scm:16 type/ipv4-address.scm:15
+msgid "invalid IP address"
+msgstr "недопустимый IP-адрес"
+
+#: type/ipv4-address-range.scm:25
+msgid "invalid IP address range"
+msgstr "неверный диапазон IP-адресов"
+
+#: type/system-computer-name.scm:12
+msgid "only latin letters, digits, '-' and '_' allowed"
+msgstr "допустимы только латинские буквы, цифры, символы '-' и '_'"
+
+#: type/tcp-port-list.scm:9
+msgid "invalid TCP port list"
+msgstr "недопустимый список TCP-портов"
 
 #: type/system-account-name.scm:12
 msgid ""
 "only small latin letters, digits, '-' and '_' allowed, starting with a small "
 "latin letter."
 msgstr ""
-"допустимы только маленькие латинские буквы, цифры, символы '-' и '_'; должно "
-"начинаться с маленькой латинской буквы "
+"допустимы только строчные латинские буквы, цифры, символы '-' и '_'; должно "
+"начинаться со строчной латинской буквы."
 
-#: type/ipv4-addrwmask-list.scm:14 test/api/type/ipv4-addrwmask-list.scm:14
-msgid "invalid IP with MASK list"
-msgstr "недопустимый адрес IP с маской подсети"
+#: type/mac-address.scm:12
+msgid "invalid MAC address"
+msgstr "недопустимый MAC-адрес"
 
-#: type/hostname-list.scm:14 test/api/type/hostname-list.scm:14
-msgid "invalid hostname list"
-msgstr "недопустимый список имён компьютеров"
+#: type/iface-name.scm:11
+msgid "invalid network interface name"
+msgstr "некорректное имя сетевого интерфейса"
 
-#: type/tcp-port.scm:12 test/api/type/tcp-port.scm:12
-msgid "invalid TCP port"
-msgstr "недопустимый порт TCP"
-
-#: type/e-mail.scm:12 test/api/type/e-mail.scm:12
-msgid "invalid e-mail address"
-msgstr "недопустимый адрес электронной почты"
-
-#: type/date.scm:11 test/api/type/date.scm:11
-msgid "date should be in YYYY-MM-DD format"
-msgstr "дата должна быть в формате ГГГГ-ММ-ДД"
-
-#: type/system-computer-name.scm:12 test/api/type/system-computer-name.scm:12
-msgid "only latin letters, digits, '-', and '_' allowed"
-msgstr "допустимы только латинские буквы, цифры, символы '-' и '_'"
-
-#: type/ipv4-addrwmask.scm:13 test/api/type/ipv4-addrwmask.scm:13
-msgid "invalid IP with MASK specification"
-msgstr "недопустимый адрес IP с маской подсети"
-
-#: type/ipv4-address-list.scm:14 test/api/type/ipv4-address-list.scm:14
-msgid "invalid IP address list"
-msgstr "недопустимый список адресов IP"
-
-#: type/iso-3166-alpha-2.scm:258 test/api/type/iso-3166-alpha-2.scm:258
-msgid "invalid ISO-3166-alpha-2 country code"
-msgstr "недопустимый код страны (по ISO-3166-alpha-2)"
-
-#: type/telephone-number.scm:12 test/api/type/telephone-number.scm:12
+#: type/telephone-number.scm:12
 msgid "invalid telephone number"
 msgstr "недопустимый номер телефона"
 
-#: type/ipv4-address.scm:16 test/api/type/ipv4-address.scm:16
-msgid "invalid IP address"
-msgstr "недопустимый адрес IP"
+#: type/number.scm:12
+msgid ""
+"number string should contain only the 0-9 digits and one optional decimal "
+"point"
+msgstr ""
+"число может состоять только из цифр 0-9 и одного разделителя дробной части"
 
-#: type/boolean.scm:8 test/api/type/boolean.scm:8
-msgid "invalid boolean value"
-msgstr "недопустимое логическое значение"
+#: type/ip-address-list.scm:9 type/ipv4-address-list.scm:9
+msgid "invalid IP address list"
+msgstr "недопустимый список адресов IP"
 
-#: type/ipv4-network.scm:13 test/api/type/ipv4-network.scm:13
-msgid "invalid IP network specification"
-msgstr "неверно указана подсеть IP"
+#: type/hostname.scm:17
+msgid ""
+"A host name should contain only latin letters, digits, '-', '.' and '_' and "
+"should start with a letter or '_'"
+msgstr ""
+"Имя узла может содержать только латинские буквы, цифры, символы '-', '.' и "
+"'_' и должно начинаться с латинской буквы или '_'"
 
-#: type/hostname.scm:14 test/api/type/hostname.scm:14
-msgid "only latin letters, digits, '-', '.', and '_' allowed"
-msgstr "допустимы только латинские буквы, цифры, символы '-', '.' и '_'"
+#: type/ipv4-addrwmask.scm:14
+msgid "invalid IP with MASK specification"
+msgstr "недопустимый адрес IP с маской подсети"
 
-#: type/ipv4-network-list.scm:14 test/api/type/ipv4-network-list.scm:14
-msgid "invalid IP network list"
-msgstr "недопустимый список подсетей IP"
+#: type/ipv4-address-range-list.scm:9
+msgid "invalid IP address range list"
+msgstr "недопустимый список адресов IP"
 
-#: type/time.scm:10 test/api/type/time.scm:10
+#: type/ipv6-network.scm:22
+msgid "invalid IPv6 network specification"
+msgstr "неверно указана подсеть IPv6"
+
+#: type/ipv6-address.scm:19
+msgid "invalid IPv6 address"
+msgstr "недопустимый адрес IPv6"
+
+#: type/ipv6-network-list.scm:9
+msgid "invalid IPv6 network list"
+msgstr "недопустимый список подсетей IPv6"
+
+#: type/mac-address-list.scm:9
+msgid "invalid MAC-address list"
+msgstr "недопустимый список MAC-адресов"
+
+#: type/hostname-list.scm:9
+msgid ""
+"Invalid hostname list (a host name should contain only latin letters, "
+"digits, '-', '.' and '_' and should start with a letter or '_')"
+msgstr ""
+"Недопустимый список имён узлов (имя узла может содержать только латинские "
+"буквы, цифры, символы '-', '.' и '_' и должно начинаться с латинской буквы "
+"или '_')"
+
+#: type/e-mail.scm:12
+msgid "invalid e-mail address"
+msgstr "недопустимый адрес электронной почты"
+
+#: type/hostname-or-ip-list.scm:9
+msgid ""
+"Invalid hostname/IP list (a host name should contain only latin letters, "
+"digits, '-', '.' and '_' and should start with a letter or '_')"
+msgstr ""
+"Недопустимый список IP-адресов или имён узлов (имя узла может содержать "
+"только латинские буквы, цифры, символы '-', '.' и '_' и должно начинаться с "
+"латинской буквы или '_')"
+
+#: type/time.scm:10
 msgid "time should be in HH:MM:SS format"
 msgstr "время должно быть указано в формате ЧЧ:ММ:CC"
 
-#: test/api/type/system-account-name.scm:12
-msgid "only small latin letters, digits and '_' allowed"
-msgstr "допустимы только маленькие латинские буквы, цифры и символ '_'"
+#: type/ipv6-address-list.scm:9
+msgid "invalid IPv6 address list"
+msgstr "недопустимый список адресов IPv6"
 
+#: type/boolean.scm:8
+msgid "invalid boolean value"
+msgstr "недопустимое логическое значение"
+
+#: type/keyword-list.scm:9
+msgid "invalid keyword list"
+msgstr "недопустимый список ключевых слов"
+
+#: type/integer.scm:12
+msgid "integer number string should contain only the 0-9 digits"
+msgstr "целое число должно состоять только из цифр 0-9"
+
+#: type/ipv4-network.scm:14
+msgid "invalid IP network specification"
+msgstr "неверно указана подсеть IP"
+
+#: type/iface-name-list.scm:9
+msgid "invalid network interface name list"
+msgstr "недопустимый список имён сетевых интерфейсов"
+
+#: type/hostname-or-ip.scm:16
+msgid ""
+"Only IP address or a hostname (a hostname should contain only latin letters, "
+"digits, '-', '.' and '_' starting with a letter or a '_') is allowed"
+msgstr ""
+"Допустим только IP-адрес или имя узла (имя может состоять только из строчных "
+"латинских букв, цифр, символов '-', '.' и '_' и должно начинаться со "
+"строчной буквы)"
+
+#: type/date.scm:11
+msgid "date should be in YYYY-MM-DD format"
+msgstr "дата должна быть в формате ГГГГ-ММ-ДД"
+
+#: type/ipv4-addrwmask-list.scm:9
+msgid "invalid IP with MASK list"
+msgstr "недопустимый адрес IP с маской подсети"
+
+#: type/ipv4-network-list.scm:9
+msgid "invalid IP network list"
+msgstr "недопустимый список подсетей IP"
+
+#~ msgid "invalid hostname list"
+#~ msgstr "недопустимый список имён компьютеров"
+
+#~ msgid "only latin letters, digits, '-', '.', and '_' allowed"
+#~ msgstr "допустимы только латинские буквы, цифры, символы '-', '.' и '_'"
+
+#~ msgid "only small latin letters, digits and '_' allowed"
+#~ msgstr "допустимы только маленькие латинские буквы, цифры и символ '_'"

@@ -12,7 +12,7 @@ Packager: Andrey Cherepanov <cas@altlinux.org>
 
 BuildArch: noarch
 
-Conflicts: alterator                      < 4.7-alt1
+Conflicts: alterator                      < 5.4.2
 Conflicts: alterator-ahttpd               < 0.5-alt4
 Conflicts: alterator-alternatives         < 1.1-alt1
 Conflicts: alterator-dhcp                 < 0.3-alt6
