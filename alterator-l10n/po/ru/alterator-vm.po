@@ -435,10 +435,13 @@ msgid "Invalid mountpoint: should start with /mnt"
 msgstr "Неверная точка монтирования: должна начинаться с /mnt"
 
 #: ui/vm/dummystr.scm:89
+msgid "Unable to reread partition table on "
+msgstr "Невозможно перечитать таблицу разделов на "
+
+#: ui/vm/dummystr.scm:89
 msgid " reboot, then continue installation."
 msgstr ""
-"Невозможно перечитать таблицу разделов.\n"
-"Перегрузитесь и начните инсталляцию заново"
+", перегрузитесь для продолжения установки."
 
 #: ui/vm/dummystr.scm:90 ui/vm/table.scm:197
 msgid "Mountpoint"
