@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Andrey Cherepanov <skull@kde.ru>, 2008, 2011, 2012, 2013, 2015, 2016, 2017, 2018.
+# Андрей Черепанов <cas@altlinux.ru>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-08 18:40+0400\n"
-"PO-Revision-Date: 2018-06-01 17:18+0300\n"
-"Last-Translator: Andrey Cherepanov <cas@altlinux.org>\n"
-"Language-Team: Russian <devel@lists.altlinux.org>\n"
+"POT-Creation-Date: 2023-02-20 14:56+0300\n"
+"PO-Revision-Date: 2023-02-20 15:02+0300\n"
+"Last-Translator: Андрей Черепанов <cas@altlinux.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 22.08.3\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -63,7 +64,7 @@ msgstr "Базовый DN:"
 msgid "Select"
 msgstr "Показать список"
 
-#: standard input:11 ui/auth/index.scm:117
+#: standard input:11 ui/auth/index.scm:120
 msgid "Current domain:"
 msgstr "Используется домен:"
 
@@ -71,17 +72,167 @@ msgstr "Используется домен:"
 msgid "Domain list:"
 msgstr "Выберите домен:"
 
-#: standard input:13 ui/auth/index.scm:195
+#: standard input:13 ui/auth/index.scm:208
 msgid "Attention: "
 msgstr "Внимание! "
 
-#: standard input:14 ui/auth/index.scm:196
+#: standard input:14 ui/auth/index.scm:209
 msgid "Domain change needs reboot for normal operation"
 msgstr "Изменение домена заработает только после перезагрузки компьютера"
 
-#: standard input:15 ui/auth/index.scm:206
+#: standard input:15 ui/auth/index.scm:219
 msgid "Apply"
 msgstr "Применить"
+
+#: ui/auth/admin-password.scm:53
+msgid "Enter the name and password of an account"
+msgstr "Введите пароль для учётной записи"
+
+#: ui/auth/admin-password.scm:53
+msgid "with permission to join the domain."
+msgstr "с правами подключения к домену."
+
+#: ui/auth/admin-password.scm:54
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: ui/auth/admin-password.scm:56
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ui/auth/admin-password.scm:60
+msgid "Enable Group Policy"
+msgstr "Включить групповые политики"
+
+#: ui/auth/admin-password.scm:64
+msgid "Use default kerberos credential cache"
+msgstr "Использовать уже полученный билет Kerberos"
+
+#: ui/auth/admin-password.scm:68 ui/auth/additional-settings.scm:134
+msgid "OK"
+msgstr "OK"
+
+#: ui/auth/admin-password.scm:69 ui/auth/additional-settings.scm:135
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ui/auth/index.scm:7
+msgid "Please, fill field "
+msgstr "Не заполнено поле "
+
+#: ui/auth/index.scm:12 backend3/auth:529
+msgid "Netbios name should not be more 15 chars"
+msgstr "Имя Netbios не должно быть более 15 символов"
+
+#: ui/auth/index.scm:14 backend3/auth:536
+msgid ""
+"Invalid characters in the name. Use letters, numbers and possibly separate "
+"them with a sign '-'"
+msgstr ""
+"Неверные символы в имени. Используйте латинские буквы, цифры и символ «-»"
+
+#: ui/auth/index.scm:20 ui/auth/index.scm:23 ui/auth/index.scm:28
+msgid "Domain"
+msgstr "Домен"
+
+#: ui/auth/index.scm:24
+msgid "Netbios name"
+msgstr "Имя Netbios"
+
+#: ui/auth/index.scm:29
+msgid "Host name"
+msgstr "Имя компьютера"
+
+#: ui/auth/index.scm:39
+msgid ""
+"Do you really want to restore configuration files to default (smb.conf, krb5."
+"conf, sssd.conf)?"
+msgstr ""
+"Вы действительно хотите восстановить файлы конфигурации по умолчанию (smb."
+"conf, krb5.conf, sssd.conf)?"
+
+#. Show welcome message for AD and FreeIPA
+#: ui/auth/index.scm:72
+msgid "Welcome to the "
+msgstr "Добро пожаловать в домен "
+
+#: ui/auth/index.scm:72
+msgid " domain."
+msgstr "."
+
+#. Local database
+#: ui/auth/index.scm:124
+msgid "Local database"
+msgstr "Локальная база пользователей"
+
+#. ALT domain
+#: ui/auth/index.scm:128
+msgid "ALT Linux domain or Astra Linux Directory"
+msgstr "Домен ALT Linux или Astra Linux Directory"
+
+#: ui/auth/index.scm:133 ui/auth/index.scm:155 ui/auth/index.scm:191
+msgid "Domain:"
+msgstr "Домен:"
+
+#: ui/auth/index.scm:142
+msgid "Use cached credentials for out of domain login"
+msgstr "Кэшировать аутентификацию при недоступности сервера домена"
+
+#. Active Directory
+#: ui/auth/index.scm:146
+msgid "Active Directory domain"
+msgstr "Домен Active Directory"
+
+#: ui/auth/index.scm:152 ui/auth/index.scm:188
+msgid "Warning: "
+msgstr "Внимание: "
+
+#: ui/auth/index.scm:152
+msgid ""
+"Package task-auth-ad-sssd or task-auth-ad-winbind is not installed. "
+"Authentication with Active Directory is not available."
+msgstr ""
+"Не установлен пакет task-auth-ad-sssd или task-auth-ad-winbind."
+"Аутентификация в домене Active Directory недоступна."
+
+#: ui/auth/index.scm:160
+msgid "Workgroup:"
+msgstr "Рабочая группа:"
+
+#: ui/auth/index.scm:165 ui/auth/index.scm:196
+msgid "Computer name:"
+msgstr "Имя компьютера:"
+
+#: ui/auth/index.scm:171
+msgid "SSSD (System Security Services Daemon)"
+msgstr "SSSD (в единственном домене)"
+
+#: ui/auth/index.scm:176
+msgid "Winbind (NSS daemon for NT servers)"
+msgstr "Winbind (в сложных доменах)"
+
+#. FreeIPA
+#: ui/auth/index.scm:182
+msgid "FreeIPA domain"
+msgstr "Домен FreeIPA"
+
+#: ui/auth/index.scm:188
+msgid ""
+"Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
+"not available."
+msgstr ""
+"Не установлен пакет task-auth-freeipa. Аутентификация в домене FreeIPA "
+"недоступна."
+
+#: ui/auth/index.scm:204
+msgid "SSSD settings..."
+msgstr "Настройки SSSD..."
+
+#: ui/auth/index.scm:212
+msgid "Restore default configuration files (smb.conf, krb5.conf, sssd.conf)."
+msgstr ""
+"Восстановить файлы конфигурации по умолчанию (smb.conf, krb5.conf, sssd."
+"conf)."
 
 #: ui/auth/additional-settings.scm:93
 msgid "Group Policy enforcement rules:"
@@ -153,137 +304,6 @@ msgstr "Обновлять PTR запись машины в DNS:"
 msgid "Automatically update DNS server with the PTR record using SSSD"
 msgstr "Автоматически обновлять PTR запись машины в DNS с помощью SSSD"
 
-#: ui/auth/additional-settings.scm:134 ui/auth/admin-password.scm:38
-msgid "OK"
-msgstr "OK"
-
-#: ui/auth/additional-settings.scm:135 ui/auth/admin-password.scm:39
-msgid "Cancel"
-msgstr "Отмена"
-
-#: ui/auth/admin-password.scm:27
-msgid "Enter the name and password of an account"
-msgstr "Введите пароль для учётной записи"
-
-#: ui/auth/admin-password.scm:27
-msgid "with permission to join the domain."
-msgstr "с правами подключения к домену."
-
-#: ui/auth/admin-password.scm:28
-msgid "Username:"
-msgstr "Имя пользователя:"
-
-#: ui/auth/admin-password.scm:30
-msgid "Password:"
-msgstr "Пароль:"
-
-#: ui/auth/admin-password.scm:34
-msgid "Enable Group Policy"
-msgstr "Включить групповые политики"
-
-#: ui/auth/index.scm:7
-msgid "Please, fill field "
-msgstr "Не заполнено поле "
-
-#: ui/auth/index.scm:12 backend3/auth:517
-msgid "Netbios name should not be more 15 chars"
-msgstr "Имя Netbios не должно быть более 15 символов"
-
-#: ui/auth/index.scm:18 ui/auth/index.scm:21 ui/auth/index.scm:26
-msgid "Domain"
-msgstr "Домен"
-
-#: ui/auth/index.scm:22
-msgid "Netbios name"
-msgstr "Имя Netbios"
-
-#: ui/auth/index.scm:27
-msgid "Host name"
-msgstr "Имя компьютера"
-
-#: ui/auth/index.scm:37
-msgid ""
-"Do you really want to restore configuration files to default (smb.conf, krb5."
-"conf, sssd.conf)?"
-msgstr "Вы действительно хотите восстановить файлы конфигурации по умолчанию"
-" (smb.conf, krb5.conf, sssd.conf)?"
-
-#. Show welcome message for AD and FreeIPA
-#: ui/auth/index.scm:69
-msgid "Welcome to the "
-msgstr "Добро пожаловать в домен "
-
-#: ui/auth/index.scm:69
-msgid " domain."
-msgstr "."
-
-#. Local database
-#: ui/auth/index.scm:121
-msgid "Local database"
-msgstr "Локальная база пользователей"
-
-#. ALT domain
-#: ui/auth/index.scm:125
-msgid "ALT Linux domain or Astra Linux Directory"
-msgstr "Домен ALT Linux или Astra Linux Directory"
-
-#: ui/auth/index.scm:130 ui/auth/index.scm:152 ui/auth/index.scm:178
-msgid "Domain:"
-msgstr "Домен:"
-
-#: ui/auth/index.scm:139
-msgid "Use cached credentials for out of domain login"
-msgstr "Кэшировать аутентификацию при недоступности сервера домена"
-
-#. Active Directory
-#: ui/auth/index.scm:143
-msgid "Active Directory domain"
-msgstr "Домен Active Directory"
-
-#: ui/auth/index.scm:149 ui/auth/index.scm:175
-msgid "Warning: "
-msgstr "Внимание: "
-
-#: ui/auth/index.scm:149
-msgid ""
-"Package task-auth-ad-sssd is not installed. Authentication with Active "
-"Directory is not available.<br />Package task-auth-ad is not enough because "
-"it uses non-recommended winbind."
-msgstr ""
-"Не установлен пакет task-auth-ad-sssd. Аутентификация в Active Directory "
-"недоступна.<br /> Установки пакета task-auth-ad недостаточно потому что он "
-"использует не рекомендованную службу winbind."
-
-#: ui/auth/index.scm:157
-msgid "Workgroup:"
-msgstr "Рабочая группа:"
-
-#: ui/auth/index.scm:162 ui/auth/index.scm:183
-msgid "Computer name:"
-msgstr "Имя компьютера:"
-
-#. FreeIPA
-#: ui/auth/index.scm:169
-msgid "FreeIPA domain"
-msgstr "Домен FreeIPA"
-
-#: ui/auth/index.scm:175
-msgid ""
-"Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
-"not available."
-msgstr ""
-"Не установлен пакет task-auth-freeipa. Аутентификация в домене FreeIPA "
-"недоступна."
-
-#: ui/auth/index.scm:191
-msgid "SSSD settings..."
-msgstr "Настройки SSSD..."
-
-#: ui/auth/index.scm:199
-msgid "Restore default configuration files (smb.conf, krb5.conf, sssd.conf)."
-msgstr "Восстановить файлы конфигурации по умолчанию (smb.conf, krb5.conf, "
-"sssd.conf)."
-
 #: backend3/auth:73
 msgid "local"
 msgstr "Не использовать домен"
@@ -292,49 +312,58 @@ msgstr "Не использовать домен"
 msgid "Kerberos domain is not used"
 msgstr "используется локальная база пользователей"
 
-#: backend3/auth:496 backend3/auth:518 backend3/auth:528
+#: backend3/auth:501 backend3/auth:530 backend3/auth:541
 msgid "Unable to find specified domain"
 msgstr "Невозможно найти указанный домен"
 
-#: backend3/auth:505
+#: backend3/auth:510
 msgid "Domain does not set:"
 msgstr "Не удалось подключиться к домену:"
 
-#: backend3/auth:519
+#: backend3/auth:531
 msgid "Cannot contact KDC for realm"
 msgstr "Невозможно найти KDC указанного домена"
 
-#: backend3/auth:520
+#: backend3/auth:532
 msgid "Unknown administrator name"
 msgstr "Неизвестное имя администратора"
 
-#: backend3/auth:521
+#: backend3/auth:533
 msgid "Preauthentication failed"
 msgstr "Не удалось выполнить предварительную проверку подлинности"
 
-#: backend3/auth:522
+#: backend3/auth:534
 msgid "Wrong password"
 msgstr "Неправильный пароль"
 
-#: backend3/auth:523
+#: backend3/auth:535
 msgid "Perhaps the password has expired"
 msgstr "Возможно, срок действия пароля истёк"
 
-#: backend3/auth:524
+#: backend3/auth:537
 msgid "Unable to join to Active Directory domain:"
 msgstr "Невозможно подключиться к домену Active Directory: "
 
-#: backend3/auth:529
+#: backend3/auth:542
 msgid "Unable to find IPA Server to join"
 msgstr "Невозможно найти сервер FreeIPA"
 
-#: backend3/auth:530
+#: backend3/auth:543
 msgid "Incorrect administrator password"
 msgstr "Указан неверный пароль администратора"
 
-#: backend3/auth:531
+#: backend3/auth:544
 msgid "Unable to join to FreeIPA domain:"
 msgstr "Невозможно подключиться к домену FreeIPA:"
+
+#~ msgid ""
+#~ "Package task-auth-ad-sssd is not installed. Authentication with Active "
+#~ "Directory is not available.<br />Package task-auth-ad is not enough "
+#~ "because it uses non-recommended winbind."
+#~ msgstr ""
+#~ "Не установлен пакет task-auth-ad-sssd. Аутентификация в Active Directory "
+#~ "недоступна.<br /> Установки пакета task-auth-ad недостаточно потому что "
+#~ "он использует не рекомендованную службу winbind."
 
 #~ msgid "ALT Linux domain"
 #~ msgstr "Домен ALT Linux "

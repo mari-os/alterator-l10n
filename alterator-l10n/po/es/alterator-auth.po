@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-08 18:40+0400\n"
+"POT-Creation-Date: 2023-02-20 14:56+0300\n"
 "PO-Revision-Date: 2009-03-19 15:17-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -68,7 +68,7 @@ msgstr "Base DN:"
 msgid "Select"
 msgstr "Seleccionar"
 
-#: standard input:11 ui/auth/index.scm:117
+#: standard input:11 ui/auth/index.scm:120
 #, fuzzy
 msgid "Current domain:"
 msgstr "Configurar la Fecha Actual:"
@@ -78,17 +78,178 @@ msgstr "Configurar la Fecha Actual:"
 msgid "Domain list:"
 msgstr "Accesso de Escrita"
 
-#: standard input:13 ui/auth/index.scm:195
+#: standard input:13 ui/auth/index.scm:208
 msgid "Attention: "
 msgstr ""
 
-#: standard input:14 ui/auth/index.scm:196
+#: standard input:14 ui/auth/index.scm:209
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:15 ui/auth/index.scm:206
+#: standard input:15 ui/auth/index.scm:219
 msgid "Apply"
 msgstr "Aplicar"
+
+#: ui/auth/admin-password.scm:53
+msgid "Enter the name and password of an account"
+msgstr ""
+
+#: ui/auth/admin-password.scm:53
+msgid "with permission to join the domain."
+msgstr ""
+
+#: ui/auth/admin-password.scm:54
+#, fuzzy
+msgid "Username:"
+msgstr "Nome de la carpeta"
+
+#: ui/auth/admin-password.scm:56
+#, fuzzy
+msgid "Password:"
+msgstr ""
+"#-#-#-#-#  alterator-ahttpd.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#\n"
+"Contraseña\n"
+"#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-sysconfig.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:\n"
+"#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
+"Contraseña:"
+
+#: ui/auth/admin-password.scm:60
+msgid "Enable Group Policy"
+msgstr "Habilitar políticas de grupo"
+
+#: ui/auth/admin-password.scm:64
+msgid "Use default kerberos credential cache"
+msgstr ""
+
+#: ui/auth/admin-password.scm:68 ui/auth/additional-settings.scm:134
+msgid "OK"
+msgstr "OK"
+
+#: ui/auth/admin-password.scm:69 ui/auth/additional-settings.scm:135
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ui/auth/index.scm:7
+msgid "Please, fill field "
+msgstr ""
+
+#: ui/auth/index.scm:12 backend3/auth:529
+msgid "Netbios name should not be more 15 chars"
+msgstr ""
+
+#: ui/auth/index.scm:14 backend3/auth:536
+msgid ""
+"Invalid characters in the name. Use letters, numbers and possibly separate "
+"them with a sign '-'"
+msgstr ""
+
+#: ui/auth/index.scm:20 ui/auth/index.scm:23 ui/auth/index.scm:28
+#, fuzzy
+msgid "Domain"
+msgstr "Procurar Dominios:"
+
+#: ui/auth/index.scm:24
+#, fuzzy
+msgid "Netbios name"
+msgstr "Nombre de la Rede:"
+
+#: ui/auth/index.scm:29
+#, fuzzy
+msgid "Host name"
+msgstr "hostname:"
+
+#: ui/auth/index.scm:39
+msgid ""
+"Do you really want to restore configuration files to default (smb.conf, krb5."
+"conf, sssd.conf)?"
+msgstr ""
+
+#. Show welcome message for AD and FreeIPA
+#: ui/auth/index.scm:72
+msgid "Welcome to the "
+msgstr ""
+
+#: ui/auth/index.scm:72
+#, fuzzy
+msgid " domain."
+msgstr "Adiccionar Cliente"
+
+#. Local database
+#: ui/auth/index.scm:124
+msgid "Local database"
+msgstr ""
+
+#. ALT domain
+#: ui/auth/index.scm:128
+msgid "ALT Linux domain or Astra Linux Directory"
+msgstr ""
+
+#: ui/auth/index.scm:133 ui/auth/index.scm:155 ui/auth/index.scm:191
+#, fuzzy
+msgid "Domain:"
+msgstr "Procurar Dominios:"
+
+#: ui/auth/index.scm:142
+msgid "Use cached credentials for out of domain login"
+msgstr ""
+
+#. Active Directory
+#: ui/auth/index.scm:146
+msgid "Active Directory domain"
+msgstr ""
+
+#: ui/auth/index.scm:152 ui/auth/index.scm:188
+#, fuzzy
+msgid "Warning: "
+msgstr "Aviso:"
+
+#: ui/auth/index.scm:152
+msgid ""
+"Package task-auth-ad-sssd or task-auth-ad-winbind is not installed. "
+"Authentication with Active Directory is not available."
+msgstr ""
+
+#: ui/auth/index.scm:160
+msgid "Workgroup:"
+msgstr "Grupo de trabajo"
+
+#: ui/auth/index.scm:165 ui/auth/index.scm:196
+msgid "Computer name:"
+msgstr "Nombre de la computadora:"
+
+#: ui/auth/index.scm:171
+msgid "SSSD (System Security Services Daemon)"
+msgstr ""
+
+#: ui/auth/index.scm:176
+msgid "Winbind (NSS daemon for NT servers)"
+msgstr ""
+
+#. FreeIPA
+#: ui/auth/index.scm:182
+#, fuzzy
+msgid "FreeIPA domain"
+msgstr "Adiccionar Cliente"
+
+#: ui/auth/index.scm:188
+msgid ""
+"Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
+"not available."
+msgstr ""
+
+#: ui/auth/index.scm:204
+#, fuzzy
+msgid "SSSD settings..."
+msgstr "Ajustes"
+
+#: ui/auth/index.scm:212
+msgid "Restore default configuration files (smb.conf, krb5.conf, sssd.conf)."
+msgstr ""
 
 #: ui/auth/additional-settings.scm:93
 msgid "Group Policy enforcement rules:"
@@ -155,150 +316,6 @@ msgstr ""
 msgid "Automatically update DNS server with the PTR record using SSSD"
 msgstr ""
 
-#: ui/auth/additional-settings.scm:134 ui/auth/admin-password.scm:38
-msgid "OK"
-msgstr "OK"
-
-#: ui/auth/additional-settings.scm:135 ui/auth/admin-password.scm:39
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: ui/auth/admin-password.scm:27
-msgid "Enter the name and password of an account"
-msgstr ""
-
-#: ui/auth/admin-password.scm:27
-msgid "with permission to join the domain."
-msgstr ""
-
-#: ui/auth/admin-password.scm:28
-#, fuzzy
-msgid "Username:"
-msgstr "Nome de la carpeta"
-
-#: ui/auth/admin-password.scm:30
-#, fuzzy
-msgid "Password:"
-msgstr ""
-"#-#-#-#-#  alterator-ahttpd.po (Alterator)  #-#-#-#-#\n"
-"Contraseña:\n"
-"#-#-#-#-#  alterator-net-pppoe.po (Alterator)  #-#-#-#-#\n"
-"Contraseña\n"
-"#-#-#-#-#  alterator-net-pptp.po (Alterator)  #-#-#-#-#\n"
-"Contraseña:\n"
-"#-#-#-#-#  alterator-sysconfig.po (Alterator)  #-#-#-#-#\n"
-"Contraseña:\n"
-"#-#-#-#-#  alterator-users.po (Alterator)  #-#-#-#-#\n"
-"Contraseña:"
-
-#: ui/auth/admin-password.scm:34
-msgid "Enable Group Policy"
-msgstr "Habilitar políticas de grupo"
-
-#: ui/auth/index.scm:7
-msgid "Please, fill field "
-msgstr ""
-
-#: ui/auth/index.scm:12 backend3/auth:517
-msgid "Netbios name should not be more 15 chars"
-msgstr ""
-
-#: ui/auth/index.scm:18 ui/auth/index.scm:21 ui/auth/index.scm:26
-#, fuzzy
-msgid "Domain"
-msgstr "Procurar Dominios:"
-
-#: ui/auth/index.scm:22
-#, fuzzy
-msgid "Netbios name"
-msgstr "Nombre de la Rede:"
-
-#: ui/auth/index.scm:27
-#, fuzzy
-msgid "Host name"
-msgstr "hostname:"
-
-#: ui/auth/index.scm:37
-msgid ""
-"Do you really want to restore configuration files to default (smb.conf, krb5."
-"conf, sssd.conf)?"
-msgstr ""
-
-#. Show welcome message for AD and FreeIPA
-#: ui/auth/index.scm:69
-msgid "Welcome to the "
-msgstr ""
-
-#: ui/auth/index.scm:69
-#, fuzzy
-msgid " domain."
-msgstr "Adiccionar Cliente"
-
-#. Local database
-#: ui/auth/index.scm:121
-msgid "Local database"
-msgstr ""
-
-#. ALT domain
-#: ui/auth/index.scm:125
-msgid "ALT Linux domain or Astra Linux Directory"
-msgstr ""
-
-#: ui/auth/index.scm:130 ui/auth/index.scm:152 ui/auth/index.scm:178
-#, fuzzy
-msgid "Domain:"
-msgstr "Procurar Dominios:"
-
-#: ui/auth/index.scm:139
-msgid "Use cached credentials for out of domain login"
-msgstr ""
-
-#. Active Directory
-#: ui/auth/index.scm:143
-msgid "Active Directory domain"
-msgstr ""
-
-#: ui/auth/index.scm:149 ui/auth/index.scm:175
-#, fuzzy
-msgid "Warning: "
-msgstr "Aviso:"
-
-#: ui/auth/index.scm:149
-msgid ""
-"Package task-auth-ad-sssd is not installed. Authentication with Active "
-"Directory is not available.<br />Package task-auth-ad is not enough because "
-"it uses non-recommended winbind."
-msgstr ""
-
-#: ui/auth/index.scm:157
-msgid "Workgroup:"
-msgstr "Grupo de trabajo"
-
-#: ui/auth/index.scm:162 ui/auth/index.scm:183
-msgid "Computer name:"
-msgstr "Nombre de la computadora:"
-
-#. FreeIPA
-#: ui/auth/index.scm:169
-#, fuzzy
-msgid "FreeIPA domain"
-msgstr "Adiccionar Cliente"
-
-#: ui/auth/index.scm:175
-msgid ""
-"Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
-"not available."
-msgstr ""
-
-#: ui/auth/index.scm:191
-#, fuzzy
-msgid "SSSD settings..."
-msgstr "Ajustes"
-
-#: ui/auth/index.scm:199
-msgid "Restore default configuration files (smb.conf, krb5.conf, sssd.conf)."
-msgstr ""
-
 #: backend3/auth:73
 msgid "local"
 msgstr ""
@@ -308,55 +325,55 @@ msgstr ""
 msgid "Kerberos domain is not used"
 msgstr "Borrar conección"
 
-#: backend3/auth:496 backend3/auth:518 backend3/auth:528
+#: backend3/auth:501 backend3/auth:530 backend3/auth:541
 #, fuzzy
 msgid "Unable to find specified domain"
 msgstr "No fue posible configurar el reloj"
 
-#: backend3/auth:505
+#: backend3/auth:510
 #, fuzzy
 msgid "Domain does not set:"
 msgstr "Accesso de Escrita"
 
-#: backend3/auth:519
+#: backend3/auth:531
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:520
+#: backend3/auth:532
 #, fuzzy
 msgid "Unknown administrator name"
 msgstr "Administrador DN:"
 
-#: backend3/auth:521
+#: backend3/auth:533
 #, fuzzy
 msgid "Preauthentication failed"
 msgstr "Atutenticación fracasó"
 
-#: backend3/auth:522
+#: backend3/auth:534
 #, fuzzy
 msgid "Wrong password"
 msgstr "Contraseña"
 
-#: backend3/auth:523
+#: backend3/auth:535
 msgid "Perhaps the password has expired"
 msgstr "La contraseña puede haber caducado"
 
-#: backend3/auth:524
+#: backend3/auth:537
 #, fuzzy
 msgid "Unable to join to Active Directory domain:"
 msgstr "No fue posible configurar el reloj"
 
-#: backend3/auth:529
+#: backend3/auth:542
 #, fuzzy
 msgid "Unable to find IPA Server to join"
 msgstr "No fue posible configurar el reloj"
 
-#: backend3/auth:530
+#: backend3/auth:543
 #, fuzzy
 msgid "Incorrect administrator password"
 msgstr "Administrador del Sistema"
 
-#: backend3/auth:531
+#: backend3/auth:544
 #, fuzzy
 msgid "Unable to join to FreeIPA domain:"
 msgstr "No fue posible configurar el reloj"

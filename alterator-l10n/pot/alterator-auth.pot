@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-08 18:40+0400\n"
+"POT-Creation-Date: 2023-02-20 14:56+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: standard input:11 ui/auth/index.scm:117
+#: standard input:11 ui/auth/index.scm:120
 msgid "Current domain:"
 msgstr ""
 
@@ -69,16 +69,157 @@ msgstr ""
 msgid "Domain list:"
 msgstr ""
 
-#: standard input:13 ui/auth/index.scm:195
+#: standard input:13 ui/auth/index.scm:208
 msgid "Attention: "
 msgstr ""
 
-#: standard input:14 ui/auth/index.scm:196
+#: standard input:14 ui/auth/index.scm:209
 msgid "Domain change needs reboot for normal operation"
 msgstr ""
 
-#: standard input:15 ui/auth/index.scm:206
+#: standard input:15 ui/auth/index.scm:219
 msgid "Apply"
+msgstr ""
+
+#: ui/auth/admin-password.scm:53
+msgid "Enter the name and password of an account"
+msgstr ""
+
+#: ui/auth/admin-password.scm:53
+msgid "with permission to join the domain."
+msgstr ""
+
+#: ui/auth/admin-password.scm:54
+msgid "Username:"
+msgstr ""
+
+#: ui/auth/admin-password.scm:56
+msgid "Password:"
+msgstr ""
+
+#: ui/auth/admin-password.scm:60
+msgid "Enable Group Policy"
+msgstr ""
+
+#: ui/auth/admin-password.scm:64
+msgid "Use default kerberos credential cache"
+msgstr ""
+
+#: ui/auth/admin-password.scm:68 ui/auth/additional-settings.scm:134
+msgid "OK"
+msgstr ""
+
+#: ui/auth/admin-password.scm:69 ui/auth/additional-settings.scm:135
+msgid "Cancel"
+msgstr ""
+
+#: ui/auth/index.scm:7
+msgid "Please, fill field "
+msgstr ""
+
+#: ui/auth/index.scm:12 backend3/auth:529
+msgid "Netbios name should not be more 15 chars"
+msgstr ""
+
+#: ui/auth/index.scm:14 backend3/auth:536
+msgid ""
+"Invalid characters in the name. Use letters, numbers and possibly separate "
+"them with a sign '-'"
+msgstr ""
+
+#: ui/auth/index.scm:20 ui/auth/index.scm:23 ui/auth/index.scm:28
+msgid "Domain"
+msgstr ""
+
+#: ui/auth/index.scm:24
+msgid "Netbios name"
+msgstr ""
+
+#: ui/auth/index.scm:29
+msgid "Host name"
+msgstr ""
+
+#: ui/auth/index.scm:39
+msgid ""
+"Do you really want to restore configuration files to default (smb.conf, krb5."
+"conf, sssd.conf)?"
+msgstr ""
+
+#. Show welcome message for AD and FreeIPA
+#: ui/auth/index.scm:72
+msgid "Welcome to the "
+msgstr ""
+
+#: ui/auth/index.scm:72
+msgid " domain."
+msgstr ""
+
+#. Local database
+#: ui/auth/index.scm:124
+msgid "Local database"
+msgstr ""
+
+#. ALT domain
+#: ui/auth/index.scm:128
+msgid "ALT Linux domain or Astra Linux Directory"
+msgstr ""
+
+#: ui/auth/index.scm:133 ui/auth/index.scm:155 ui/auth/index.scm:191
+msgid "Domain:"
+msgstr ""
+
+#: ui/auth/index.scm:142
+msgid "Use cached credentials for out of domain login"
+msgstr ""
+
+#. Active Directory
+#: ui/auth/index.scm:146
+msgid "Active Directory domain"
+msgstr ""
+
+#: ui/auth/index.scm:152 ui/auth/index.scm:188
+msgid "Warning: "
+msgstr ""
+
+#: ui/auth/index.scm:152
+msgid ""
+"Package task-auth-ad-sssd or task-auth-ad-winbind is not installed. "
+"Authentication with Active Directory is not available."
+msgstr ""
+
+#: ui/auth/index.scm:160
+msgid "Workgroup:"
+msgstr ""
+
+#: ui/auth/index.scm:165 ui/auth/index.scm:196
+msgid "Computer name:"
+msgstr ""
+
+#: ui/auth/index.scm:171
+msgid "SSSD (System Security Services Daemon)"
+msgstr ""
+
+#: ui/auth/index.scm:176
+msgid "Winbind (NSS daemon for NT servers)"
+msgstr ""
+
+#. FreeIPA
+#: ui/auth/index.scm:182
+msgid "FreeIPA domain"
+msgstr ""
+
+#: ui/auth/index.scm:188
+msgid ""
+"Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
+"not available."
+msgstr ""
+
+#: ui/auth/index.scm:204
+msgid "SSSD settings..."
+msgstr ""
+
+#: ui/auth/index.scm:212
+msgid "Restore default configuration files (smb.conf, krb5.conf, sssd.conf)."
 msgstr ""
 
 #: ui/auth/additional-settings.scm:93
@@ -146,130 +287,6 @@ msgstr ""
 msgid "Automatically update DNS server with the PTR record using SSSD"
 msgstr ""
 
-#: ui/auth/additional-settings.scm:134 ui/auth/admin-password.scm:38
-msgid "OK"
-msgstr ""
-
-#: ui/auth/additional-settings.scm:135 ui/auth/admin-password.scm:39
-msgid "Cancel"
-msgstr ""
-
-#: ui/auth/admin-password.scm:27
-msgid "Enter the name and password of an account"
-msgstr ""
-
-#: ui/auth/admin-password.scm:27
-msgid "with permission to join the domain."
-msgstr ""
-
-#: ui/auth/admin-password.scm:28
-msgid "Username:"
-msgstr ""
-
-#: ui/auth/admin-password.scm:30
-msgid "Password:"
-msgstr ""
-
-#: ui/auth/admin-password.scm:34
-msgid "Enable Group Policy"
-msgstr ""
-
-#: ui/auth/index.scm:7
-msgid "Please, fill field "
-msgstr ""
-
-#: ui/auth/index.scm:12 backend3/auth:517
-msgid "Netbios name should not be more 15 chars"
-msgstr ""
-
-#: ui/auth/index.scm:18 ui/auth/index.scm:21 ui/auth/index.scm:26
-msgid "Domain"
-msgstr ""
-
-#: ui/auth/index.scm:22
-msgid "Netbios name"
-msgstr ""
-
-#: ui/auth/index.scm:27
-msgid "Host name"
-msgstr ""
-
-#: ui/auth/index.scm:37
-msgid ""
-"Do you really want to restore configuration files to default (smb.conf, krb5."
-"conf, sssd.conf)?"
-msgstr ""
-
-#. Show welcome message for AD and FreeIPA
-#: ui/auth/index.scm:69
-msgid "Welcome to the "
-msgstr ""
-
-#: ui/auth/index.scm:69
-msgid " domain."
-msgstr ""
-
-#. Local database
-#: ui/auth/index.scm:121
-msgid "Local database"
-msgstr ""
-
-#. ALT domain
-#: ui/auth/index.scm:125
-msgid "ALT Linux domain or Astra Linux Directory"
-msgstr ""
-
-#: ui/auth/index.scm:130 ui/auth/index.scm:152 ui/auth/index.scm:178
-msgid "Domain:"
-msgstr ""
-
-#: ui/auth/index.scm:139
-msgid "Use cached credentials for out of domain login"
-msgstr ""
-
-#. Active Directory
-#: ui/auth/index.scm:143
-msgid "Active Directory domain"
-msgstr ""
-
-#: ui/auth/index.scm:149 ui/auth/index.scm:175
-msgid "Warning: "
-msgstr ""
-
-#: ui/auth/index.scm:149
-msgid ""
-"Package task-auth-ad-sssd is not installed. Authentication with Active "
-"Directory is not available.<br />Package task-auth-ad is not enough because "
-"it uses non-recommended winbind."
-msgstr ""
-
-#: ui/auth/index.scm:157
-msgid "Workgroup:"
-msgstr ""
-
-#: ui/auth/index.scm:162 ui/auth/index.scm:183
-msgid "Computer name:"
-msgstr ""
-
-#. FreeIPA
-#: ui/auth/index.scm:169
-msgid "FreeIPA domain"
-msgstr ""
-
-#: ui/auth/index.scm:175
-msgid ""
-"Package task-auth-freeipa is not installed. Authentication with FreeIPA is "
-"not available."
-msgstr ""
-
-#: ui/auth/index.scm:191
-msgid "SSSD settings..."
-msgstr ""
-
-#: ui/auth/index.scm:199
-msgid "Restore default configuration files (smb.conf, krb5.conf, sssd.conf)."
-msgstr ""
-
 #: backend3/auth:73
 msgid "local"
 msgstr ""
@@ -278,46 +295,46 @@ msgstr ""
 msgid "Kerberos domain is not used"
 msgstr ""
 
-#: backend3/auth:496 backend3/auth:518 backend3/auth:528
+#: backend3/auth:501 backend3/auth:530 backend3/auth:541
 msgid "Unable to find specified domain"
 msgstr ""
 
-#: backend3/auth:505
+#: backend3/auth:510
 msgid "Domain does not set:"
 msgstr ""
 
-#: backend3/auth:519
+#: backend3/auth:531
 msgid "Cannot contact KDC for realm"
 msgstr ""
 
-#: backend3/auth:520
+#: backend3/auth:532
 msgid "Unknown administrator name"
 msgstr ""
 
-#: backend3/auth:521
+#: backend3/auth:533
 msgid "Preauthentication failed"
 msgstr ""
 
-#: backend3/auth:522
+#: backend3/auth:534
 msgid "Wrong password"
 msgstr ""
 
-#: backend3/auth:523
+#: backend3/auth:535
 msgid "Perhaps the password has expired"
 msgstr ""
 
-#: backend3/auth:524
+#: backend3/auth:537
 msgid "Unable to join to Active Directory domain:"
 msgstr ""
 
-#: backend3/auth:529
+#: backend3/auth:542
 msgid "Unable to find IPA Server to join"
 msgstr ""
 
-#: backend3/auth:530
+#: backend3/auth:543
 msgid "Incorrect administrator password"
 msgstr ""
 
-#: backend3/auth:531
+#: backend3/auth:544
 msgid "Unable to join to FreeIPA domain:"
 msgstr ""
