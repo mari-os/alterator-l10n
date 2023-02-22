@@ -1,5 +1,5 @@
 Name: alterator-l10n
-Version: 2.9.122
+Version: 2.9.123
 Release: alt1
 
 Summary: translations for all alterator modules
@@ -120,6 +120,10 @@ make check
 %lang(da) %_datadir/alterator/help/da_DK/*.html
 
 %changelog
+* Wed Feb 22 2023 Paul Wolneykien <manowar@altlinux.org> 2.9.123-alt1
+- Updated base Alterator package Russian translations.
+- Added Russian translations for net-bridge.
+
 * Mon Feb 20 2023 Andrey Cherepanov <cas@altlinux.org> 2.9.122-alt1
 - alterator-auth: update translations.
 
