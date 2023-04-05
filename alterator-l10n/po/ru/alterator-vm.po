@@ -497,6 +497,18 @@ msgstr "Пожалуйста, назначьте какому-либо тому 
 
 #: ui/vm/table.scm:128
 msgid ""
+"/boot/efi on superblock 0.90 is supported for removable devices only"
+msgstr ""
+"Для размещения /boot/efi на суперблоке 0.90 выберите \"EFI (for removable device)\" при установке загрузчика"
+
+#: ui/vm/table.scm:128
+msgid ""
+"/boot/efi on superblock > 0.90 is not supported"
+msgstr ""
+"Размещение /boot/efi на суперблоке > 0.90 не поддерживается"
+
+#: ui/vm/table.scm:128
+msgid ""
 "To install grub-efi, ESP partition (FAT32, minimum 256 MiB, mountpoint /boot/efi) is required"
 msgstr ""
 "Для установки grub-efi требуется ESP-раздел (FAT32, 256 МиБ, точка монтирования /boot/efi)"
