@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Alterator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 17:00+0300\n"
+"POT-Creation-Date: 2023-05-07 19:32+0300\n"
 "PO-Revision-Date: 2009-03-20 17:37-0300\n"
 "Last-Translator: Daniel Nunes <dlnunes@altlinux.com.br>\n"
 "Language-Team: pt_BR <fmartini@altlinux.com.br>\n"
@@ -42,38 +42,51 @@ msgstr "Cuenta:"
 msgid "Password:"
 msgstr "Contraseña:"
 
-#: standard input:5 ui/sysconfig/proxy/index.scm:22
+#: standard input:5
+msgid ""
+"Attention! Account and password work only for curl and wget. If you use "
+"proxy for apt-get or any graphical web-browser, leave these fields empty."
+msgstr ""
+
+#: standard input:6 ui/sysconfig/proxy/index.scm:25
 #, fuzzy
 msgid "No Proxy for:"
 msgstr "Porta:"
 
-#: standard input:6 ui/sysconfig/proxy/index.scm:32
+#: standard input:7 ui/sysconfig/proxy/index.scm:35
 msgid "Apply"
 msgstr "Aplicar"
 
-#: standard input:7 ui/sysconfig/proxy/index.scm:33
+#: standard input:8 ui/sysconfig/proxy/index.scm:36
 msgid "Reset"
 msgstr "Resetar"
 
-#: ui/sysconfig/proxy/index.scm:24
+#: ui/sysconfig/proxy/index.scm:21
+msgid ""
+"<strong>Attention!</strong> Account and password work only for curl and "
+"wget. If you use proxy for apt-get or any graphical web-browser, leave these "
+"fields empty."
+msgstr ""
+
+#: ui/sysconfig/proxy/index.scm:27
 #, fuzzy
 msgid "(multiple values should be comma separated)"
 msgstr "multiplos valores com espacios vacíos"
 
-#: ui/sysconfig/base/index.scm:26
+#: ui/sysconfig/base/index.scm:30
 msgid "Help"
 msgstr "Ayuda"
 
-#: ui/sysconfig/base/index.scm:27
+#: ui/sysconfig/base/index.scm:31
 msgid "Next"
 msgstr "Siguiente"
 
-#: ui/sysconfig/base/index.scm:31
+#: ui/sysconfig/base/index.scm:41
 #, fuzzy
 msgid "Select your language:"
 msgstr "Selecione su Lenguage"
 
-#: ui/sysconfig/base/index.scm:32
+#: ui/sysconfig/base/index.scm:42
 #, fuzzy
 msgid "Please select keyboard switch type:"
 msgstr "Seleccione su país:"
