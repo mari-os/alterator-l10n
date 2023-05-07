@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 17:00+0300\n"
+"POT-Creation-Date: 2023-05-07 19:32+0300\n"
 "PO-Revision-Date: 2007-09-27 18:26+0400\n"
 "Last-Translator: Roman Savochenko <rom_as@fromru.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -38,37 +38,50 @@ msgstr "Обліковий запис:"
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:5 ui/sysconfig/proxy/index.scm:22
+#: standard input:5
+msgid ""
+"Attention! Account and password work only for curl and wget. If you use "
+"proxy for apt-get or any graphical web-browser, leave these fields empty."
+msgstr ""
+
+#: standard input:6 ui/sysconfig/proxy/index.scm:25
 #, fuzzy
 msgid "No Proxy for:"
 msgstr "Proxy сервер:"
 
-#: standard input:6 ui/sysconfig/proxy/index.scm:32
+#: standard input:7 ui/sysconfig/proxy/index.scm:35
 msgid "Apply"
 msgstr "Застосувати"
 
-#: standard input:7 ui/sysconfig/proxy/index.scm:33
+#: standard input:8 ui/sysconfig/proxy/index.scm:36
 msgid "Reset"
 msgstr "Скинути"
 
-#: ui/sysconfig/proxy/index.scm:24
+#: ui/sysconfig/proxy/index.scm:21
+msgid ""
+"<strong>Attention!</strong> Account and password work only for curl and "
+"wget. If you use proxy for apt-get or any graphical web-browser, leave these "
+"fields empty."
+msgstr ""
+
+#: ui/sysconfig/proxy/index.scm:27
 #, fuzzy
 msgid "(multiple values should be comma separated)"
 msgstr "(декілька значень мають бути розділені пробілами)"
 
-#: ui/sysconfig/base/index.scm:26
+#: ui/sysconfig/base/index.scm:30
 msgid "Help"
 msgstr "Довідка"
 
-#: ui/sysconfig/base/index.scm:27
+#: ui/sysconfig/base/index.scm:31
 msgid "Next"
 msgstr "Далі"
 
-#: ui/sysconfig/base/index.scm:31
+#: ui/sysconfig/base/index.scm:41
 msgid "Select your language:"
 msgstr "Оберіть Вашу мову:"
 
-#: ui/sysconfig/base/index.scm:32
+#: ui/sysconfig/base/index.scm:42
 msgid "Please select keyboard switch type:"
 msgstr "Оберіть варіант переключення розкладки клавіатури:"
 

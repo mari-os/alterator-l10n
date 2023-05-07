@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-11 17:00+0300\n"
+"POT-Creation-Date: 2023-05-07 19:32+0300\n"
 "PO-Revision-Date: 2008-09-01 18:01+0400\n"
 "Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -39,35 +39,54 @@ msgstr "Учётная запись:"
 msgid "Password:"
 msgstr "Пароль:"
 
-#: standard input:5 ui/sysconfig/proxy/index.scm:22
+#: standard input:5
+msgid ""
+"Attention! Account and password work only for curl and wget. If you use "
+"proxy for apt-get or any graphical web-browser, leave these fields empty."
+msgstr ""
+"Внимание! Учётная запись и пароль работают только для curl и wget. "
+"Если используете apt-get или любой графический веб-браузер, оставьте эти "
+"поля пустыми."
+
+#: standard input:6 ui/sysconfig/proxy/index.scm:25
 msgid "No Proxy for:"
 msgstr "Не использовать прокси для:"
 
-#: standard input:6 ui/sysconfig/proxy/index.scm:32
+#: standard input:7 ui/sysconfig/proxy/index.scm:35
 msgid "Apply"
 msgstr "Применить"
 
-#: standard input:7 ui/sysconfig/proxy/index.scm:33
+#: standard input:8 ui/sysconfig/proxy/index.scm:36
 msgid "Reset"
 msgstr "Сбросить"
 
-#: ui/sysconfig/proxy/index.scm:24
+#: ui/sysconfig/proxy/index.scm:21
+msgid ""
+"<strong>Attention!</strong> Account and password work only for curl and "
+"wget. If you use proxy for apt-get or any graphical web-browser, leave these "
+"fields empty."
+msgstr ""
+"<strong>Внимание!</strong> Учётная запись и пароль работают только для curl и wget. "
+"Если используете apt-get или любой графический веб-браузер, оставьте эти "
+"поля пустыми."
+
+#: ui/sysconfig/proxy/index.scm:27
 msgid "(multiple values should be comma separated)"
 msgstr "(несколько значений записываются через запятую)"
 
-#: ui/sysconfig/base/index.scm:26
+#: ui/sysconfig/base/index.scm:30
 msgid "Help"
 msgstr "Справка"
 
-#: ui/sysconfig/base/index.scm:27
+#: ui/sysconfig/base/index.scm:31
 msgid "Next"
 msgstr "Далее"
 
-#: ui/sysconfig/base/index.scm:31
+#: ui/sysconfig/base/index.scm:41
 msgid "Select your language:"
 msgstr "Выберите язык:"
 
-#: ui/sysconfig/base/index.scm:32
+#: ui/sysconfig/base/index.scm:42
 msgid "Please select keyboard switch type:"
 msgstr "Выберите вариант переключения раскладки клавиатуры:"
 
