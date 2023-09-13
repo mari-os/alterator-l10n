@@ -1,0 +1,331 @@
+# Copyright (C) 2012 ALT Linux Team
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <cas@altlinux.ru>, 2008, 2010-2012, 2014, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-20 16:51+0300\n"
+"PO-Revision-Date: 2016-10-20 17:02+0300\n"
+"Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
+"Language-Team: Russian <devel@lists.altlinux.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Ethernet interfaces"
+msgstr "Ethernet-интерфейсы"
+
+#.
+#: standard input:1 ui/net-eth/advanced/index.scm:35
+msgid "Interface:"
+msgstr "Интерфейс:"
+
+#.
+#: standard input:2 ui/net-eth/advanced/index.scm:39
+msgid "Network subsystem:"
+msgstr "Сетевая подсистема:"
+
+#.
+#: standard input:3 ui/net-eth/advanced/index.scm:42
+msgid "Startup this interface at boot"
+msgstr "Запускать интерфейс при загрузке системы"
+
+#: standard input:4 ui/net-eth/advanced/index.scm:49
+msgid "OK"
+msgstr "OK"
+
+#: standard input:5 ui/net-eth/advanced/index.scm:50
+msgid "Cancel"
+msgstr "Отмена"
+
+#.
+#: standard input:6 ui/net-eth/index.scm:195
+msgid "Computer name:"
+msgstr "Имя компьютера:"
+
+#: standard input:7 ui/net-eth/index.scm:202
+msgid "Interfaces"
+msgstr "Интерфейсы"
+
+#: standard input:8 ui/net-eth/index.scm:213
+msgid "Select IP version:"
+msgstr "Версия протокола IP:"
+
+#: standard input:9 ui/net-eth/index.scm:215
+msgid "Enable"
+msgstr "Включить"
+
+#.
+#: standard input:10 ui/net-eth/index.scm:217
+msgid "Configuration:"
+msgstr "Конфигурация:"
+
+#.
+#. (spacer)(separator)
+#.
+#: standard input:11 ui/net-eth/index.scm:224
+msgid "IP addresses:"
+msgstr "IP-адреса:"
+
+#: standard input:12 ui/net-eth/index.scm:227
+msgid "Delete"
+msgstr "Удалить"
+
+#: standard input:13 ui/net-eth/index.scm:231
+msgid "IP:"
+msgstr "IP:"
+
+#: standard input:13 ui/net-eth/index.scm:231
+msgid "Add ↑ IP:"
+msgstr "Добавить ↑ IP:"
+
+#: standard input:14 ui/net-eth/index.scm:234
+msgid "Add"
+msgstr "Добавить"
+
+#.
+#. (spacer)(separator)
+#.
+#: standard input:15 ui/net-eth/index.scm:241
+msgid "Default gateway:"
+msgstr "Шлюз по умолчанию:"
+
+#.
+#: standard input:16 ui/net-eth/index.scm:245
+msgid "DNS servers:"
+msgstr "DNS-серверы:"
+
+#.
+#: standard input:17 ui/net-eth/index.scm:249
+msgid "Search domains:"
+msgstr "Домены поиска:"
+
+#.
+#: standard input:18 ui/net-eth/index.scm:253
+msgid "(multiple values should be space separated)"
+msgstr "(несколько значений записываются через пробел)"
+
+#: standard input:19 ui/net-eth/index.scm:258
+msgid "Advanced..."
+msgstr "Дополнительно..."
+
+#.
+#: standard input:20 ui/net-eth/index.scm:256
+msgid "Wireless settings..."
+msgstr "Настройка беспроводной связи..."
+
+#: standard input:21 ui/net-eth/index.scm:259
+msgid "VLAN Configuration..."
+msgstr "Настройка VLAN..."
+
+#: standard input:22
+msgid "Create bond..."
+msgstr "Создать объединение..."
+
+#: standard input:23
+msgid "Delete bond..."
+msgstr "Удалить объединение..."
+
+#: standard input:24
+msgid "Configure bond..."
+msgstr "Настроить объединение..."
+
+#: standard input:25
+msgid "Create bridge..."
+msgstr "Создать сетевой мост..."
+
+#: standard input:26
+msgid "Delete bridge..."
+msgstr "Удалить сетевой мост..."
+
+#: standard input:27
+msgid "Configure bridge..."
+msgstr "Настроить сетевой мост..."
+
+#: standard input:28 ui/net-eth/index.scm:269
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:29 ui/net-eth/index.scm:270
+msgid "Reset"
+msgstr "Сбросить"
+
+#: backend3/net-eth:284
+msgid "Host name is too long"
+msgstr "Имя компьютера слишком длинное"
+
+#: backend3/net-eth:344
+msgid "IPv4"
+msgstr "IPv4"
+
+#: backend3/net-eth:346
+msgid "IPv6"
+msgstr "IPv6"
+
+#: backend3/net-eth:404
+msgid "not under control"
+msgstr "не контролируется"
+
+#: backend3/net-eth:410
+msgid "Use RA only"
+msgstr "Только RA"
+
+#: backend3/net-eth:411
+msgid "Use DHCP"
+msgstr "Использовать DHCP"
+
+#: backend3/net-eth:412
+msgid "Use Zeroconf"
+msgstr "Использовать Zeroconf"
+
+#: backend3/net-eth:413
+msgid "Manually"
+msgstr "Вручную"
+
+#: backend3/net-eth:429
+msgid "Network adaptor:"
+msgstr "Сетевая карта:"
+
+#: backend3/net-eth:433
+msgid "plugged"
+msgstr "провод подсоединён"
+
+#: backend3/net-eth:433
+msgid "unplugged"
+msgstr "провод отсоединён"
+
+#: backend3/net-eth:438
+msgid "VLAN: "
+msgstr "VLAN: "
+
+#: backend3/net-eth:441
+msgid "Bonding: "
+msgstr "Объедиение: "
+
+#: backend3/net-eth:444
+msgid "Bridge: "
+msgstr "Сетевой мост: "
+
+#: backend3/net-eth:451
+msgid "MAC:"
+msgstr "MAC:"
+
+#. Status
+#: backend3/net-eth:455
+msgid "UP"
+msgstr "ВКЛЮЧЕН"
+
+#: backend3/net-eth:455
+msgid "DOWN"
+msgstr "ВЫКЛЮЧЕН"
+
+#: backend3/net-eth:457
+msgid "Interface is "
+msgstr "Интерфейс "
+
+#: backend3/net-eth:682
+msgid "IPv4 and IPv6 configurations are incompatible:"
+msgstr "Конфигурации IPv4 и IPv6 несовместимы между собой:"
+
+#: backend3/net-eth:764
+msgid "Invalid default gateway"
+msgstr "Неверный шлюз по умолчанию"
+
+#: backend3/net-eth:770
+msgid "Invalid DNS list"
+msgstr "Неверный список серверов DNS"
+
+#: backend3/net-eth:812
+msgid "Invalid IP address:"
+msgstr "Недопустимый IP-адрес:"
+
+#~ msgid "Use interface as bridge"
+#~ msgstr "Использовать интерфейс как мост"
+
+#~ msgid "Host: "
+#~ msgstr "Базовый интерфейс: "
+
+#~ msgid "VID: "
+#~ msgstr "VID: "
+
+#~ msgid "VLAN Configuration for Interface "
+#~ msgstr "Настройка VLAN для интерфейса "
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Add VLAN"
+#~ msgstr "Добавить VLAN"
+
+#~ msgid "VLAN Name:"
+#~ msgstr "Название VLAN:"
+
+#~ msgid "VID (1-4095):"
+#~ msgstr "VID (1-4095):"
+
+#~ msgid "Host:"
+#~ msgstr "Базовый интерфейс:"
+
+#~ msgid "VID:"
+#~ msgstr "VID:"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "Vlan..."
+#~ msgstr "Настройка VLAN..."
+
+#~ msgid "New"
+#~ msgstr "Новая"
+
+#~ msgid "- remove infants to change"
+#~ msgstr "- изменение состояния возможно, только если нет VLAN"
+
+#~ msgid "Add new child VLAN interface"
+#~ msgstr "Добавить новый интерфейс VLAN"
+
+#~ msgid "Name for new interface:"
+#~ msgstr "Название нового интерфейса:"
+
+#~ msgid "List of infant VLAN interfaces"
+#~ msgstr "Список интерфейсов VLAN"
+
+#~ msgid "Infant interface name -- VLAN ID"
+#~ msgstr "Название интерфейса и VLAN ID"
+
+#~ msgid "Remove selected vlans"
+#~ msgstr "Удалить выделенные интерфейсы VLAN"
+
+#~ msgid "Rename to:"
+#~ msgstr "Переименовать в:"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "invalid IP with MASK list"
+#~ msgstr "недопустимый список IP-адресов с маской подсети"
+
+#~ msgid "(multiple values should be one per row)"
+#~ msgstr "(несколько значений указываются в отдельных строках)"
+
+#~ msgid "Netmask:"
+#~ msgstr "Маска сети:"
+
+#~ msgid "Hardware binding:"
+#~ msgstr "Привязка:"
+
+#~ msgid "by MAC address"
+#~ msgstr "по  аппаратному адресу (MAC)"
+
+#~ msgid "by bus location"
+#~ msgstr "по местоположению на шине"
+
+#~ msgid "missing"
+#~ msgstr "отсутствует"

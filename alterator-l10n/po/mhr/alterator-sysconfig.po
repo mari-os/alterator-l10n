@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: mhr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-07 19:32+0300\n"
+"PO-Revision-Date: 2008-09-01 18:01+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: mhr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Proxy settings"
+msgstr "Настройки proxy"
+
+#: standard input:1 ui/sysconfig/proxy/index.scm:7
+msgid "Proxy server:"
+msgstr "Прокси-сервер:"
+
+#: standard input:2 ui/sysconfig/proxy/index.scm:9
+msgid "Port:"
+msgstr "Порт:"
+
+#: standard input:3 ui/sysconfig/proxy/index.scm:14
+msgid "Account:"
+msgstr "Учётная запись:"
+
+#: standard input:4 ui/sysconfig/proxy/index.scm:17
+msgid "Password:"
+msgstr "Пароль:"
+
+#: standard input:5
+msgid ""
+"Attention! Account and password work only for curl and wget. If you use "
+"proxy for apt-get or any graphical web-browser, leave these fields empty."
+msgstr ""
+"Внимание! Учётная запись и пароль работают только для curl и wget. "
+"Если используете apt-get или любой графический веб-браузер, оставьте эти "
+"поля пустыми."
+
+#: standard input:6 ui/sysconfig/proxy/index.scm:25
+msgid "No Proxy for:"
+msgstr "Не использовать прокси для:"
+
+#: standard input:7 ui/sysconfig/proxy/index.scm:35
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:8 ui/sysconfig/proxy/index.scm:36
+msgid "Reset"
+msgstr "Сбросить"
+
+#: ui/sysconfig/proxy/index.scm:21
+msgid ""
+"<strong>Attention!</strong> Account and password work only for curl and "
+"wget. If you use proxy for apt-get or any graphical web-browser, leave these "
+"fields empty."
+msgstr ""
+"<strong>Внимание!</strong> Учётная запись и пароль работают только для curl и wget. "
+"Если используете apt-get или любой графический веб-браузер, оставьте эти "
+"поля пустыми."
+
+#: ui/sysconfig/proxy/index.scm:27
+msgid "(multiple values should be comma separated)"
+msgstr "(несколько значений записываются через запятую)"
+
+#: ui/sysconfig/base/index.scm:30
+msgid "Help"
+msgstr "Полыш"
+
+#: ui/sysconfig/base/index.scm:31
+msgid "Next"
+msgstr "Весе"
+
+#: ui/sysconfig/base/index.scm:41
+msgid "Select your language:"
+msgstr "Выберите язык:"
+
+#: ui/sysconfig/base/index.scm:42
+msgid "Please select keyboard switch type:"
+msgstr "Выберите вариант переключения раскладки клавиатуры:"
+
+#: backend3/sysconfig-base:31
+msgid "Alt+Shift key"
+msgstr "Клавиши Alt и Shift одновременно"
+
+#: backend3/sysconfig-base:32
+msgid "CapsLock key"
+msgstr "Клавиша CapsLock"
+
+#: backend3/sysconfig-base:33
+msgid "Control+Shift keys"
+msgstr "Клавиши Control и Shift одновременно"
+
+#: backend3/sysconfig-base:34
+msgid "Control key"
+msgstr "Клавиша Control"
+
+#: backend3/sysconfig-base:35
+msgid "Alt key"
+msgstr "Клавиша Alt"
+
+#: backend3/sysconfig-base:36
+msgid "Control+Shift keys (UK,RU,EN)"
+msgstr "Клавиши Control и Shift одновременно (UK, RU, EN)"
+
+#: backend3/sysconfig-base:37
+msgid "Default"
+msgstr "По умолчанию"
+
+#: backend3/sysconfig-base:38
+msgid "Without dead keys"
+msgstr "Без 'мёртвых' клавиш"

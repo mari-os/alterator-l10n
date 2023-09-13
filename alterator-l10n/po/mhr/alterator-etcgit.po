@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-13 16:25+0400\n"
+"PO-Revision-Date: 2008-09-01 18:01+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Configuration profiles"
+msgstr "Профили конфигурации"
+
+#: standard input:1 input:17 input:27
+msgid "Back"
+msgstr "Назад"
+
+#: standard input:2
+msgid "Repository management"
+msgstr "Управление репозиторием"
+
+#: standard input:3
+msgid "Remote repository URL:"
+msgstr "Адрес исходного репозитория (URL):"
+
+#: standard input:4
+msgid "Fetch"
+msgstr "Загрузить"
+
+#: standard input:5
+msgid "Publish repository"
+msgstr "Опубликовать репозиторий"
+
+#: standard input:6
+msgid "Public URL:"
+msgstr "Публичный адрес (URL):"
+
+#: standard input:7
+msgid "Profiles"
+msgstr "Профили"
+
+#: standard input:8
+msgid "Name"
+msgstr "Имя"
+
+#: standard input:9
+msgid "Remote/local status"
+msgstr "Статус исходный/локальный"
+
+#: standard input:10
+msgid "Publication status"
+msgstr "Статус публикации"
+
+#: standard input:11
+msgid "Update selected profiles"
+msgstr "Обновить выбранные профили"
+
+#: standard input:12
+msgid "Update all profiles"
+msgstr "Обновить все профили"
+
+#: standard input:13
+msgid "(Fetch new and outdated profiles from the remote repository)"
+msgstr "(Загрузить новые и обновить устаревшие копии профилей)"
+
+#: standard input:14
+msgid "Delete selected profiles"
+msgstr "Удалить выделенные профили"
+
+#: standard input:15
+msgid "(Delete the local copies of the profiles)"
+msgstr "(Удалить локальные копии профилей)"
+
+#: standard input:16
+msgid "The session is closed now."
+msgstr "Сеанс завершён."
+
+#: standard input:18
+msgid "Modification history"
+msgstr "История изменений"
+
+#: standard input:19 input:29 input:30
+msgid "Profile:"
+msgstr "Профиль:"
+
+#: standard input:20 input:25
+msgid "prev"
+msgstr "пред."
+
+#: standard input:21 input:26
+msgid "next"
+msgstr "след."
+
+#: standard input:22
+msgid "Date/Time"
+msgstr "Дата/время"
+
+#: standard input:23
+msgid "Comment"
+msgstr "Комментарий"
+
+#: standard input:24
+msgid "Hashcode"
+msgstr "Хеш-код"
+
+#: standard input:28
+msgid "Сurrent modifications for file:"
+msgstr "Изменения в файле:"
+
+#: standard input:31
+msgid "View log…"
+msgstr "Просмотр журнала…"
+
+#: standard input:32
+msgid "Reset to"
+msgstr "Сбросить на"
+
+#: standard input:33
+msgid "Update profile"
+msgstr "Обновить профиль"
+
+#: standard input:34
+msgid "New profile…"
+msgstr "Новый профиль…"
+
+#: standard input:35
+msgid "Manage repository…"
+msgstr "Управление репозиторием…"
+
+#: standard input:36
+msgid "Modified files"
+msgstr "Файлы с изменениями"
+
+#: standard input:37
+msgid "new"
+msgstr "новый"
+
+#: standard input:38
+msgid "modified"
+msgstr "изменён"
+
+#: standard input:39
+msgid "deleted"
+msgstr "удалён"
+
+#: standard input:40
+msgid "Filename"
+msgstr "Имя файла"
+
+#: standard input:41
+msgid "Status"
+msgstr "Статус"
+
+#: standard input:42
+msgid "Please, briefly describe the done modifications:"
+msgstr "Пожалуйста, кратко охарактеризуйте сделанные изменения"
+
+#: standard input:43
+msgid "Update selected profile"
+msgstr "Обновить выбранный профиль"
+
+#: standard input:44
+msgid "Create new profile, derived from current:"
+msgstr "Создать новый профиль на основе текущего"
+
+#: ui/etcgit/repo/ajax.scm:34
+msgid "remote only"
+msgstr "только исходный"
+
+#: ui/etcgit/repo/ajax.scm:35
+msgid "local only"
+msgstr "только локальный"
+
+#: ui/etcgit/repo/ajax.scm:36
+msgid "remote outdated"
+msgstr "локальный новее"
+
+#: ui/etcgit/repo/ajax.scm:37
+msgid "local outdated"
+msgstr "исходный новее"
+
+#: ui/etcgit/repo/ajax.scm:38
+msgid "equal"
+msgstr "равны"
+
+#: ui/etcgit/repo/ajax.scm:39 ui/etcgit/repo/ajax.scm:44
+#: ui/etcgit/repo/ajax.scm:45
+msgid "derived"
+msgstr "расхождение"
+
+#: ui/etcgit/repo/ajax.scm:40
+msgid "unknown"
+msgstr "неизвестно"
+
+#: ui/etcgit/repo/ajax.scm:42
+msgid "published"
+msgstr "опубликован"
+
+#: ui/etcgit/repo/ajax.scm:43
+msgid "outdated"
+msgstr "не обновлён"
+
+#: ui/etcgit/repo/ajax.scm:46
+msgid "public only"
+msgstr "только публикация"
+
+#: ui/etcgit/repo/ajax.scm:47 ui/etcgit/repo/ajax.scm:48
+msgid "unpublished"
+msgstr "не опубликован"
+
+#: ui/etcgit/repo/ajax.scm:76
+msgid "Successfully fetched the profile list"
+msgstr "Список профилей успешно получен"
+
+#: ui/etcgit/repo/ajax.scm:77
+msgid "No profiles are published at the given URL"
+msgstr "По заданному адресу не опубликовано ни одного профиля"
+
+#: ui/etcgit/repo/ajax.scm:79
+msgid "Unable to fetch profiles from the given URL"
+msgstr "Не удалось прочитать профили по указанному адресу"
+
+#: ui/etcgit/ajax.scm:81
+msgid ""
+"The System management center service will be restarted. The current session "
+"will be closed now."
+msgstr ""
+"Центр управления системой будет перезапущен. Текущий сеанс будет завершён"
+
+#: ui/etcgit/ajax.scm:96
+#, lisp-format
+msgid ""
+"Are you sure you want to reset the state of the configuration files to that "
+"of the <code><b>~a</b></code> profile?<br /><br /><b>The following services "
+"will be restarted:</b><br /><br /><code>~a</code>"
+msgstr ""
+"Вы уверены, что хотите вернуть все конфигурационные файлы в состояние, "
+"зафиксированное в профиле <code><b>~a</b></code>?<br /><br /><b>Будет "
+"произведён перезапуск следующих системных служб:</b><br /><br /><code>~a</"
+"code>"
+
+#: ui/etcgit/ajax.scm:99
+#, lisp-format
+msgid ""
+"Are you sure you want to reset the state of the configuration files to that "
+"of the <code><b>~a</b></code> profile?"
+msgstr ""
+"Вы уверены, что хотите вернуть все конфигурационные файлы в состояние, "
+"зафиксированное в профиле <code><b>~a</b></code>?"
+
+#: ui/etcgit/ajax.scm:101
+msgid "Configuration reset"
+msgstr "Сброс конфигурации"
+
+#: ui/etcgit/ajax.scm:111
+msgid "Commit changes"
+msgstr "Зафиксировать изменения"
+
+#: ui/etcgit/ajax.scm:111
+msgid "OK"
+msgstr "OK"
+
+#: ui/etcgit/ajax.scm:111
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ui/etcgit/ajax.scm:119
+msgid "Please, specify a comment for the commit"
+msgstr "Пожалуйста, введите комментарий для контрольной точки"
+
+#: ui/etcgit/ajax.scm:121
+msgid "Profile name should not be empty"
+msgstr "Имя профиля не должно быть пустым"
+
+#~ msgid "Configuration repository:"
+#~ msgstr "Репозиторий:"

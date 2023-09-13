@@ -1,0 +1,252 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-09 18:33+0300\n"
+"PO-Revision-Date: 2011-04-01 17:27+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <devel@lists.altlinux.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1 ui/printers/index.scm:222
+msgid "Printers"
+msgstr "Принтеры"
+
+#: ui/printers/sel.scm:7
+msgid "Connection type selection"
+msgstr "Выбор способа подсоединения"
+
+#: ui/printers/sel.scm:9
+msgid "Select connection type:"
+msgstr "Выберите способ соединения:"
+
+#: ui/printers/sel.scm:10
+msgid "Local printer"
+msgstr "Локальный принтер"
+
+#: ui/printers/sel.scm:12
+msgid "Remote Windows/Samba printer"
+msgstr "Удалённый Windows/Samba принтер"
+
+#: ui/printers/sel.scm:14
+msgid "Remote CUPS printer"
+msgstr "Удалённый CUPS принтер"
+
+#: ui/printers/sel.scm:16
+msgid "Network printer (Print server)"
+msgstr "Сетевой принтер (Принт-сервер)"
+
+#: ui/printers/sel.scm:18 ui/printers/ipp.scm:68 ui/printers/smb.scm:111
+#: ui/printers/skt.scm:54 ui/printers/lcl.scm:63
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ui/printers/index.scm:34 ui/printers/index.scm:257
+msgid "stop printer"
+msgstr "остановить принтер"
+
+#: ui/printers/index.scm:35
+msgid "start printer"
+msgstr "запустить принтер"
+
+#: ui/printers/index.scm:45 ui/printers/index.scm:57
+msgid "Unknown model"
+msgstr "Неизвестная модель"
+
+#: ui/printers/index.scm:51
+msgid "Samba"
+msgstr "Samba"
+
+#: ui/printers/index.scm:52
+msgid "Local"
+msgstr "Локальный"
+
+#: ui/printers/index.scm:53
+msgid "CUPS"
+msgstr ""
+
+#: ui/printers/index.scm:54
+msgid "Print Server"
+msgstr "Принт-Сервер"
+
+#: ui/printers/index.scm:55
+msgid "Unknown connection"
+msgstr "Неизвестное соединение"
+
+#: ui/printers/index.scm:116
+msgid "Create connection"
+msgstr "Создать соединение"
+
+#: ui/printers/index.scm:121
+msgid "NEW PRINTER"
+msgstr "НОВЫЙ"
+
+#: ui/printers/index.scm:172
+msgid "You should define printer name"
+msgstr "Следует задать имя принтера"
+
+#: ui/printers/index.scm:174
+msgid "Printer name doesn't match required pattern '[,.0-9a-zA-Z_-]'"
+msgstr "Имя принтера не удовлетворяет условию '[,.0-9a-zA-Z_-]'"
+
+#: ui/printers/index.scm:176
+msgid "You should define printer model"
+msgstr "Следует задать модель принтера"
+
+#: ui/printers/index.scm:178
+msgid "You shoud define printer connection"
+msgstr "Следует задать способ соединения"
+
+#: ui/printers/index.scm:180
+msgid "Generating printer driver..."
+msgstr "Создаётся драйвер принтера..."
+
+#: ui/printers/index.scm:196
+msgid "Are you really want to remove printer "
+msgstr "Вы действительно желаете удалить принтер "
+
+#: ui/printers/index.scm:211
+msgid "Generating drivers cache..."
+msgstr "Создаётся кэш драйверов..."
+
+#: ui/printers/index.scm:230
+msgid "Test page"
+msgstr "Тест"
+
+#: ui/printers/index.scm:233
+msgid "Made default"
+msgstr "По умолчанию"
+
+#: ui/printers/index.scm:236
+msgid "Generate drivers cache"
+msgstr "Создать кэш драйверов"
+
+#: ui/printers/index.scm:239
+msgid "Printer options"
+msgstr "Параметры принтера"
+
+#: ui/printers/index.scm:241
+msgid "Name:"
+msgstr "Имя"
+
+#: ui/printers/index.scm:249
+msgid "Description:"
+msgstr "Описание"
+
+#: ui/printers/index.scm:253
+msgid "Connection/Model"
+msgstr "Соединение/Модель"
+
+#: ui/printers/index.scm:267
+msgid "Edit"
+msgstr "Редактировать"
+
+#: ui/printers/index.scm:270
+msgid "New"
+msgstr "Новый"
+
+#: ui/printers/index.scm:272
+msgid "Delete"
+msgstr "Удалить"
+
+#: ui/printers/index.scm:277
+msgid "Accept"
+msgstr "Принять"
+
+#: ui/printers/index.scm:287
+msgid "Discard"
+msgstr "Отклонить"
+
+#: ui/printers/index.scm:306
+msgid "Service cupsd is stopped"
+msgstr "Служба cupsd не запущена"
+
+#: ui/printers/ipp.scm:7
+msgid "CUPS connection setup"
+msgstr "Настройка CUPS соединения"
+
+#: ui/printers/ipp.scm:52
+msgid "CUPS server:"
+msgstr "CUPS сервер:"
+
+#: ui/printers/ipp.scm:55
+msgid "Printer name:"
+msgstr "Имя принтера:"
+
+#: ui/printers/ipp.scm:61 ui/printers/smb.scm:103 ui/printers/skt.scm:48
+#: ui/printers/lcl.scm:59
+msgid "OK"
+msgstr "OK"
+
+#: ui/printers/smb.scm:7
+msgid "Samba connection setup"
+msgstr "Настройка Samba соединения"
+
+#: ui/printers/smb.scm:85
+msgid "SMB server group:"
+msgstr "SMB-группа сервера:"
+
+#: ui/printers/smb.scm:88
+msgid "SMB server host:"
+msgstr "SMB-имя сервера:"
+
+#: ui/printers/smb.scm:91
+msgid "SMB share name:"
+msgstr "SMB-имя принтера:"
+
+#: ui/printers/smb.scm:94
+msgid "User name:"
+msgstr "Пользователь:"
+
+#: ui/printers/smb.scm:97
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ui/printers/skt.scm:7
+msgid "Network printer (print server) connection setup"
+msgstr "Настройка соединения с сетевым принтером (принт-сервером)"
+
+#: ui/printers/skt.scm:41
+msgid "Printer ip address (or dns-name):"
+msgstr "ip-адрес принтера (или dns-имя):"
+
+#: ui/printers/lcl.scm:7
+msgid "Local connection setup"
+msgstr "Настройка локального соединения"
+
+#: ui/printers/lcl.scm:37
+msgid "Detected printer:"
+msgstr "Обнаруженный принтер"
+
+#: ui/printers/lcl.scm:38
+msgid "Devices"
+msgstr "Устройства"
+
+#: ui/printers/lcl.scm:54
+msgid "Bind to serial number"
+msgstr "Привязать к серийному номеру"
+
+#: ui/printers/mdl.scm:37
+msgid "Printer Model:"
+msgstr "Модель принтера:"
+
+#: ui/printers/mdl.scm:46
+msgid "Model Name"
+msgstr "Название модели"
+
+#~ msgid "Quit"
+#~ msgstr "Выход"
+
+#~ msgid ""
+#~ "Printer name contains illegal symbols (only small latin letters allowed)"
+#~ msgstr "Имя принтера может состоять только из маленьких латинских букв"

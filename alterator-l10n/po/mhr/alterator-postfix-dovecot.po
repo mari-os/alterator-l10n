@@ -1,0 +1,186 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-10 14:45+0300\n"
+"PO-Revision-Date: 2014-12-10 14:49+0300\n"
+"Last-Translator: Andrey Cherepanov <cas@altlinux.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Language: ru_RU\n"
+
+#: standard input:1
+msgid "Mail server"
+msgstr "Почтовый сервер"
+
+#: standard input:1
+msgid "You must create domain to setup mail server."
+msgstr "Вы должны настроить домен для настройки почтового сервера."
+
+#: standard input:2
+msgid "SMTP Server"
+msgstr "Сервер SMTP"
+
+#: standard input:3
+msgid "Enable SMTP server"
+msgstr "Включить службу SMTP"
+
+#: standard input:4
+msgid "Info: configure clients to use STARTTLS"
+msgstr "Программы-клиенты должны использовать STARTTLS"
+
+#: standard input:5
+msgid "Configuration"
+msgstr "Настройка"
+
+#: standard input:6
+msgid "Operational mode:"
+msgstr "Режим работы:"
+
+#: standard input:7
+msgid "Upstream SMTP host:"
+msgstr "Принимающий сервер SMTP:"
+
+#: standard input:8
+msgid "Domain list:"
+msgstr "Список доменов:"
+
+#: standard input:9
+msgid "(Send all outgoing mail to specified server)"
+msgstr "(Пересылать исходящую почту на указанный сервер)"
+
+#: standard input:10
+msgid "(Accept mail for these domains)"
+msgstr "(Принимать почту для этих доменов)"
+
+#: standard input:11
+msgid "Root mail alias:"
+msgstr "Псевдоним администратора:"
+
+#: standard input:12
+msgid "(Root mail goes to this mailbox)"
+msgstr "(Почта администратора кладётся в этот ящик)"
+
+#: standard input:13
+msgid "Maximum message size (MB):"
+msgstr "Максимальный размер сообщения (Мб):"
+
+#: standard input:14
+msgid "(Maximum message size in megabytes)"
+msgstr "(Максимальный размер сообщения в мегабайтах)"
+
+#: standard input:15
+msgid "Security"
+msgstr "Безопасность"
+
+#: standard input:16
+msgid "Filter spam"
+msgstr "Помечать спам"
+
+#: standard input:17
+msgid "Filter senders"
+msgstr "Фильтровать отправителей"
+
+#: standard input:18
+msgid "Local networks:"
+msgstr "Внутренние сети:"
+
+#: standard input:19
+msgid "Filter recipients"
+msgstr "Фильтровать получателей"
+
+#: standard input:20
+msgid "(Filtered recipients)"
+msgstr "(Отфильтрованные получатели)"
+
+#: standard input:21
+msgid "Use antivirus"
+msgstr "Проверять антивирусом"
+
+#: standard input:22
+msgid "ClamAV (ClamAV service must be active)"
+msgstr "ClamAV (служба ClamAV должна быть запущена)"
+
+#: standard input:23
+msgid "Dr.Web"
+msgstr "Dr.Web"
+
+#: standard input:24
+msgid "First Dr.Web, second ClamAV"
+msgstr "Сначала Dr.Web, потом ClamAV"
+
+#: standard input:25
+msgid "First ClamAV, second Dr.Web"
+msgstr "Сначала ClamAV, потом Dr.Web"
+
+#: standard input:26
+msgid "POP3/IMAP Server"
+msgstr "Сервер POP3/IMAP"
+
+#: standard input:27
+msgid "Enable POP3/IMAP server"
+msgstr "Включить службу POP3/IMAP"
+
+#: standard input:28
+msgid "Provide SASL/SMTP authentication"
+msgstr "Аутентификация SMTP через SASL"
+
+#: standard input:29
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:30
+msgid "Show debug"
+msgstr "Показать отладочную информацию"
+
+#: backend3/postfix-dovecot:342
+msgid "Clamav software is absent"
+msgstr "Антивирус ClamAV не установлен"
+
+#: backend3/postfix-dovecot:355
+msgid "Clamav software has wrong configuration"
+msgstr "Антивирус ClamAV неверно настроен"
+
+#: backend3/postfix-dovecot:393
+msgid "DrWeb software is absent"
+msgstr "Антивирус Dr.Web не установлен"
+
+#: backend3/postfix-dovecot:407
+msgid "DrWeb software has wrong configuration"
+msgstr "Антивирус Dr.Web неверно настроен"
+
+#: backend3/postfix-dovecot:751
+msgid "Relay"
+msgstr "Посредник"
+
+#: backend3/postfix-dovecot:752
+msgid "MX"
+msgstr "Сервер"
+
+#~ msgid "ClamAV"
+#~ msgstr "ClamAV"
+
+#~ msgid "Allow authentification"
+#~ msgstr "Разрешить аутентификацию"
+
+#~ msgid "Authentication server (dovecot) is not installed"
+#~ msgstr "Сервер аутентификации (dovecot) не установлен"
+
+#~ msgid "ClamAV antivirus daemon"
+#~ msgstr "Демон атнивируса ClamAV"
+
+#~ msgid "Dr.Web antivirus daemon"
+#~ msgstr "Демон антивируса Dr.Web"
+
+#~ msgid "Plain text authentification only over secure connection"
+#~ msgstr "Принимать незашифрованные пароли только через безопасные соединения"

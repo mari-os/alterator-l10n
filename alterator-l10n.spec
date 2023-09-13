@@ -1,6 +1,6 @@
 Name: alterator-l10n
 Version: 2.9.130
-Release: alt2
+Release: alt999
 
 Summary: translations for all alterator modules
 License: GPL
@@ -82,6 +82,7 @@ make check
 %lang(en) %config(noreplace) %_sysconfdir/alterator/l10n/*-en_*
 %lang(ru) %config(noreplace) %_sysconfdir/alterator/l10n/*-ru_*
 %lang(tt_RU) %config(noreplace) %_sysconfdir/alterator/l10n/*-tt_RU
+%lang(mhr_RU) %config(noreplace) %_sysconfdir/alterator/l10n/*-mhr_RU
 %lang(uk) %config(noreplace) %_sysconfdir/alterator/l10n/*-uk_*
 %lang(pt_BR) %config(noreplace) %_sysconfdir/alterator/l10n/*-pt_BR
 %lang(es) %config(noreplace) %_sysconfdir/alterator/l10n/*-es_*
@@ -100,6 +101,10 @@ make check
 %lang(tt_RU) %dir %_datadir/alterator/help/tt_RU/
 %lang(tt_RU) %_datadir/alterator/help/tt_RU/*.html
 %lang(tt_RU) %_datadir/locale/tt_RU/LC_MESSAGES/*.mo
+
+%lang(mhr) %dir %_datadir/alterator/help/mhr_RU/
+%lang(mhr) %_datadir/alterator/help/mhr_RU/*.html
+%lang(mhr) %_datadir/locale/mhr/LC_MESSAGES/*.mo
 
 %lang(uk) %dir %_datadir/alterator/help/uk_UA/
 %lang(uk) %_datadir/alterator/help/uk_UA/*.html

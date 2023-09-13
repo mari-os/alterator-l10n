@@ -1,0 +1,215 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-21 19:14+0400\n"
+"PO-Revision-Date: 2013-03-21 19:16+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "DHCP server"
+msgstr "DHCP-сервер"
+
+#: standard input:1 input:10
+msgid "Select IP version:"
+msgstr "Версия IP:"
+
+#: standard input:2 input:30
+msgid "MAC address:"
+msgstr "MAC-адрес:"
+
+#: standard input:3 input:29
+msgid "IP address:"
+msgstr "IP-адрес:"
+
+#: standard input:4 input:31
+msgid "Computer name:"
+msgstr "Имя компьютера:"
+
+#: standard input:5 input:21
+msgid "Apply"
+msgstr "Применить"
+
+#: standard input:6 input:22
+msgid "Reset"
+msgstr "Сбросить"
+
+#: standard input:7
+msgid ""
+"You must have statically configured ethernet interface to setup dhcp server."
+msgstr ""
+"Вы должны иметь хотя бы один статически сконфигурированный Ethernet-"
+"интерфейс, чтобы настраивать DHCP-сервер."
+
+#: standard input:8
+msgid "Reconfigure ethernet interfaces..."
+msgstr "Перенастроить Ethernet-интерфейсы..."
+
+#: standard input:9
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: standard input:11
+msgid "Enable DHCP server"
+msgstr "Включить службу DHCP"
+
+#: standard input:12
+msgid "Interface:"
+msgstr "Интерфейс:"
+
+#: standard input:13
+msgid "(maximum possible address range)"
+msgstr "(максимально допустимый диапазон адресов)"
+
+#: standard input:14
+msgid "Starting IP address:"
+msgstr "Начальный IP адрес:"
+
+#: standard input:15
+msgid "Ending IP address:"
+msgstr "Конечный IP адрес:"
+
+#: standard input:16
+msgid "Address  expiration time:"
+msgstr "Срок действия адреса:"
+
+#: standard input:17
+msgid "Information provided for clients"
+msgstr "Информация, предоставляемая клиентам"
+
+#: standard input:18
+msgid "DNS server:"
+msgstr "DNS-сервер:"
+
+#: standard input:19
+msgid "Search domain:"
+msgstr "Домен поиска:"
+
+#: standard input:20
+msgid "Default gateway:"
+msgstr "Шлюз по умолчанию:"
+
+#: standard input:23
+msgid "Static addresses"
+msgstr "Статические адреса"
+
+#: standard input:24 input:36
+msgid "IP address"
+msgstr "IP-адрес"
+
+#: standard input:25 input:35
+msgid "MAC address"
+msgstr "MAC-адрес"
+
+#: standard input:26 input:34
+msgid "Computer name"
+msgstr "Имя компьютера"
+
+#: standard input:27
+msgid "Remove selected"
+msgstr "Удалить выделенные"
+
+#: standard input:28
+msgid "New static address:"
+msgstr "Новый статический адрес:"
+
+#: standard input:32
+msgid "Add"
+msgstr "Добавить"
+
+#: standard input:33
+msgid "Current dynamically allocated addresses"
+msgstr "Текущие динамически выделенные адреса"
+
+#: standard input:37
+msgid "Expiration time"
+msgstr "Годен до"
+
+#: standard input:38
+msgid "Fix address for selected hosts"
+msgstr "Зафиксировать адрес для выбранных компьютеров"
+
+#: type/dhcp-mac-address.scm:12
+msgid "invalid MAC address"
+msgstr "недопустимый MAC-адрес"
+
+#: backend3/dhcp:115
+msgid "You should define network interface"
+msgstr "Вы должны назначить интерфейс"
+
+#: backend3/dhcp:118
+msgid "You should define address range"
+msgstr "Вы должны назначит диапазон адресов"
+
+#: backend3/dhcp:197
+msgid "IPv4"
+msgstr "IPv4"
+
+#: backend3/dhcp:198
+msgid "IPv6"
+msgstr "IPv6"
+
+#: backend3/dhcp:241
+msgid "1 hour"
+msgstr "1 час"
+
+#: backend3/dhcp:242
+msgid "2 hours"
+msgstr "2 часа"
+
+#: backend3/dhcp:243
+msgid "4 hours"
+msgstr "4 часа"
+
+#: backend3/dhcp:244
+msgid "8 hours"
+msgstr "8 часов"
+
+#: backend3/dhcp:245
+msgid "12 hours"
+msgstr "12 часов"
+
+#: backend3/dhcp:246
+msgid "1 day"
+msgstr "1 день"
+
+#: backend3/dhcp:247
+msgid "1 week"
+msgstr "1 неделя"
+
+#: backend3/dhcp:248
+msgid "2 weeks"
+msgstr "2 недели"
+
+#: backend3/dhcp:249
+msgid "1 month"
+msgstr "1 месяц"
+
+#: backend3/dhcp:295
+msgid "Radvd is not installed! DHCPv6 can't work properly"
+msgstr "Пакет radvd не установлен. DHCP по IPv6 не будет работать"
+
+#: backend3/dhcp:304
+msgid "Invalid address range"
+msgstr "Неверный диапазон адресов"
+
+#: backend3/dhcp:337
+msgid "Same entry already exists"
+msgstr "Подобный элемент уже существует"
+
+#: backend3/dhcp:340 backend3/dhcp:354
+msgid "This computer name is registered for internal purposes"
+msgstr "Подобное имя компьютера зарезервированно"
+

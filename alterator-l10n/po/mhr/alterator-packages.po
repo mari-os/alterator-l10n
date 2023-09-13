@@ -1,0 +1,451 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: alterator-packages 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-01 15:53+0400\n"
+"PO-Revision-Date: 2010-10-22 00:35+0400\n"
+"Last-Translator: Andrey Cherepanov <skull@kde.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Packages"
+msgstr "Пакеты"
+
+#: ui/packages/view-profile.scm:102
+msgid "Profiles"
+msgstr "Профили"
+
+#: ui/packages/update.scm:6 ui/packages/update.scm:51
+msgid "Updating Indices..."
+msgstr "Обновление индексов ..."
+
+#: ui/packages/update.scm:18 ui/packages/install.scm:31
+msgid "Preparing..."
+msgstr "Подготовка..."
+
+#: ui/packages/update.scm:22
+msgid "Updating..."
+msgstr "Обновление индексов ..."
+
+#: ui/packages/error.scm:6 ui/packages/error.scm:8
+msgid "Error during package installation"
+msgstr "Ошибка установки пакета"
+
+#: ui/packages/error.scm:17
+msgid "Unable to get"
+msgstr "Невозможно получить"
+
+#: ui/packages/error.scm:19
+msgid "Unable to locate"
+msgstr "Невозможно получить"
+
+#: ui/packages/error.scm:21
+msgid "Unable to download"
+msgstr "Невозможно получить"
+
+#: ui/packages/error.scm:23
+msgid "Unable to install"
+msgstr "Невозможно установить"
+
+#: ui/packages/error.scm:25
+msgid "Internal error"
+msgstr "Внутренняя ошибка"
+
+#: ui/packages/error.scm:29
+msgid "Close"
+msgstr "Закрыть"
+
+#: ui/packages/index.scm:17
+msgid "Packages Installation"
+msgstr "Установка программ"
+
+#: ui/packages/index.scm:26
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: ui/packages/index.scm:112
+msgid "View:"
+msgstr "Режим просмотра:"
+
+#: ui/packages/index.scm:137
+msgid "Keywords:"
+msgstr "Ключевые слова:"
+
+#: ui/packages/index.scm:233
+msgid "Show package description"
+msgstr "Показать описание пакета"
+
+#: ui/packages/index.scm:263
+msgid "Be freed on disk"
+msgstr "Будет освобождено"
+
+#: ui/packages/index.scm:264 ui/packages/index.scm:320
+msgid "Be used on disk"
+msgstr "Будет занято"
+
+#: ui/packages/index.scm:281
+msgid "Show statistics"
+msgstr "Показать статистику"
+
+#: ui/packages/index.scm:292
+msgid "Available"
+msgstr "Доступно"
+
+#: ui/packages/index.scm:296
+msgid "Installed"
+msgstr "Установлено"
+
+#: ui/packages/index.scm:300
+msgid "install"
+msgstr "Будет установлено"
+
+#: ui/packages/index.scm:304
+msgid "upgrade"
+msgstr "Будет обновлено"
+
+#: ui/packages/index.scm:308
+msgid "keep"
+msgstr "Будет сохранено"
+
+#: ui/packages/index.scm:312
+msgid "remove"
+msgstr "Будет удалено"
+
+#: ui/packages/index.scm:316
+msgid "Need to get"
+msgstr "Нужно получить"
+
+#: ui/packages/index.scm:366
+msgid "Update"
+msgstr "Обновить"
+
+#: ui/packages/index.scm:371
+msgid "Reset"
+msgstr "Сбросить"
+
+#: ui/packages/index.scm:377
+msgid "Undo"
+msgstr "Отменить"
+
+#: ui/packages/index.scm:383
+msgid "Redo"
+msgstr "Повторить"
+
+#: ui/packages/index.scm:389
+msgid "Apply"
+msgstr "Применить"
+
+#: ui/packages/install.scm:19 ui/packages/install.scm:125
+msgid "Applying changes..."
+msgstr "Производятся изменения..."
+
+#: ui/packages/install.scm:37
+msgid "Install"
+msgstr "Установка"
+
+#: ui/packages/install.scm:37
+msgid "Download"
+msgstr "Загрузка"
+
+#: ui/packages/install.scm:87
+msgid "Please insert CDROM, labeled as "
+msgstr "Пожалуйста, вставьте CD диск, помеченный как "
+
+#: ui/packages/view-search.scm:61
+msgid "Search"
+msgstr "Поиск"
+
+#: ui/packages/view-groups.scm:57
+msgid "Groups"
+msgstr "Группы"
+
+#: ui/packages/view-pending.scm:11
+msgid "Be Kept"
+msgstr "Будет сохранено"
+
+#: ui/packages/view-pending.scm:12
+msgid "Be Installed"
+msgstr "Будет установлено"
+
+#: ui/packages/view-pending.scm:13
+msgid "Be Removed"
+msgstr "Будет удалено"
+
+#: ui/packages/view-pending.scm:14
+msgid "Be Upgraded"
+msgstr "Будет обновлено"
+
+#: ui/packages/view-pending.scm:15
+msgid "Important"
+msgstr "Необходимые"
+
+#: ui/packages/view-pending.scm:92
+msgid "Pending"
+msgstr "Изменения"
+
+#~ msgid "<New entry>"
+#~ msgstr "<Новый источник>"
+
+#~ msgid "<not signed>"
+#~ msgstr "<без подписи>"
+
+#  GROUPS
+#~ msgid "Accessibility"
+#~ msgstr "Доступность"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "Adventure"
+#~ msgstr "Приключения"
+
+#~ msgid "Antivirus"
+#~ msgstr "Антивирус"
+
+#~ msgid "Arcade"
+#~ msgstr "Аркады"
+
+#~ msgid "Archiving"
+#~ msgstr "Архивирование"
+
+#~ msgid "Astronomy"
+#~ msgstr "Астрономия"
+
+#~ msgid "Backup"
+#~ msgstr "Резервное копирование"
+
+#~ msgid "Base"
+#~ msgstr "Основа"
+
+#~ msgid "Biology"
+#~ msgstr "Биология"
+
+#~ msgid "Boards"
+#~ msgstr "Настольные"
+
+#~ msgid "Books"
+#~ msgstr "Книги"
+
+#~ msgid "Boot and Init"
+#~ msgstr "Загрузка и инициализация"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Cards"
+#~ msgstr "Карты"
+
+#~ msgid "Cd burning"
+#~ msgstr "Создание CD"
+
+#~ msgid "Chemistry"
+#~ msgstr "Химия"
+
+#~ msgid "Communications"
+#~ msgstr "Коммуникации"
+
+#~ msgid "Compression"
+#~ msgstr "Сжатие"
+
+#~ msgid "Computer books"
+#~ msgstr "Компьютерная литература"
+
+#~ msgid "Computer science"
+#~ msgstr "Компьютерные науки"
+
+#~ msgid "Configuration"
+#~ msgstr "Настройка"
+
+#~ msgid "Console"
+#~ msgstr "Консоль"
+
+#~ msgid "Contains"
+#~ msgstr "Содержит"
+
+#~ msgid "Databases"
+#~ msgstr "Базы данных"
+
+#~ msgid "Debuggers"
+#~ msgstr "Отладчики"
+
+#~ msgid "Development"
+#~ msgstr "Разработка"
+
+#~ msgid "Documentation"
+#~ msgstr "Документация"
+
+#~ msgid "Editors"
+#~ msgstr "Редакторы"
+
+#~ msgid "Education"
+#~ msgstr "Обучение"
+
+#~ msgid "Educational"
+#~ msgstr "Обучение"
+
+#~ msgid "Emulators"
+#~ msgstr "Эмуляторы"
+
+#~ msgid "File tools"
+#~ msgstr "Работа с файлами"
+
+#~ msgid "File transfer"
+#~ msgstr "Передача файлов"
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифты"
+
+#~ msgid "Functional"
+#~ msgstr "Функциональные"
+
+#~ msgid "GNOME and GTK+"
+#~ msgstr "GNOME и GTK+"
+
+#~ msgid "Games"
+#~ msgstr "Игры"
+
+#~ msgid "Geosciences"
+#~ msgstr "Науки о земле"
+
+#~ msgid "Graphical desktop"
+#~ msgstr "Графические оболочки"
+
+#~ msgid "Graphics"
+#~ msgstr "Графика"
+
+#~ msgid "Hardware"
+#~ msgstr "Оборудование"
+
+#~ msgid "Identify"
+#~ msgstr "Опознать"
+
+#~ msgid "Internationalization"
+#~ msgstr "Интернационализация"
+
+#~ msgid "KDE and QT"
+#~ msgstr "KDE и QT"
+
+#~ msgid "Kernel"
+#~ msgstr "Ядро"
+
+#~ msgid "Kernel and hardware"
+#~ msgstr "Ядро и оборудование"
+
+#~ msgid "Libraries"
+#~ msgstr "Библиотеки"
+
+#~ msgid "Literature"
+#~ msgstr "Литература"
+
+#~ msgid "Mathematics"
+#~ msgstr "Математика"
+
+#~ msgid "Medicine"
+#~ msgstr "Медицина"
+
+#~ msgid "Monitoring"
+#~ msgstr "Мониторинг"
+
+#~ msgid "Mountpoint:"
+#~ msgstr "Точка монтирования"
+
+#~ msgid "Networking"
+#~ msgstr "Сети"
+
+#~ msgid "Office"
+#~ msgstr "Офис"
+
+#~ msgid "Other"
+#~ msgstr "Прочее"
+
+#~ msgid "Packages Sources"
+#~ msgstr "Источники программ"
+
+#~ msgid "Physics"
+#~ msgstr "Физика"
+
+#~ msgid "Printing"
+#~ msgstr "Печать"
+
+#~ msgid "Properties"
+#~ msgstr "Свойства"
+
+#~ msgid "Publishing"
+#~ msgstr "Издательство"
+
+#~ msgid "Puzzles"
+#~ msgstr "Головоломки"
+
+#~ msgid "Ready"
+#~ msgstr "Готово"
+
+#~ msgid "Remote access"
+#~ msgstr "Удаленный доступ"
+
+#~ msgid "Replace"
+#~ msgstr "Заменить"
+
+#~ msgid "Sciences"
+#~ msgstr "Науки"
+
+#~ msgid "Security"
+#~ msgstr "Безопасность"
+
+#~ msgid "Servers"
+#~ msgstr "Серверы"
+
+#~ msgid "Shells"
+#~ msgstr "Интерпретаторы команд"
+
+#~ msgid "Signed by"
+#~ msgstr "Подписано"
+
+#~ msgid "Sound"
+#~ msgstr "Звук"
+
+#~ msgid "Sports"
+#~ msgstr "Спорт"
+
+#~ msgid "Strategy"
+#~ msgstr "Стратегия"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Terminals"
+#~ msgstr "Терминалы"
+
+#~ msgid "Text tools"
+#~ msgstr "Работа с текстами"
+
+#~ msgid "Toys"
+#~ msgstr "Развлечения"
+
+#~ msgid "Video"
+#~ msgstr "Видео"
+
+#~ msgid "X11 bitmap"
+#~ msgstr "X11 растровые"
+
+#~ msgid "binary packages"
+#~ msgstr "бинарные пакеты"
+
+#~ msgid "essential"
+#~ msgstr "Необходимые"
+
+#~ msgid "labeled as"
+#~ msgstr "помеченный как"
+
+#~ msgid "source packages"
+#~ msgstr "исходные пакеты"

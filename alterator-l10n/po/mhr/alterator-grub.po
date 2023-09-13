@@ -1,0 +1,131 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrey Cherepanov <skull@kde.ru>, 2008, 2010, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-02 17:56+0300\n"
+"PO-Revision-Date: 2015-12-02 17:57+0300\n"
+"Last-Translator: Andrey Cherepanov <sibskull@mail.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: standard input:1
+msgid "Bootloader setup"
+msgstr "Настройка загрузчика"
+
+#: standard input:2
+msgid "Grub"
+msgstr "Grub"
+
+#: standard input:1 ui/grub/index.scm:32 ui/grub/index.html:11
+msgid "Device:"
+msgstr "Устройство:"
+
+#: standard input:2 ui/grub/index.scm:62 ui/grub/index.html:32
+msgid "Install"
+msgstr "Установить"
+
+#: standard input:3 ui/grub/index.scm:66 ui/grub/index.html:33
+msgid "Reset"
+msgstr "Сбросить"
+
+#: ui/grub/index.scm:37
+msgid "Boot options password"
+msgstr "Пароль на загрузчик"
+
+#: ui/grub/index.scm:37 (alterator-grub >= 0.12)
+msgid "Boot options password (username: boot)"
+msgstr "Пароль на загрузчик (имя пользователя: boot)"
+
+#: ui/grub/index.scm:38 ui/grub/index.html:16
+msgid "Set/reset password"
+msgstr "Установить или сбросить пароль"
+
+#: ui/grub/index.scm:45 ui/grub/index.html:19
+msgid "(enter passphrase)"
+msgstr "(введите фразу)"
+
+#: ui/grub/index.scm:50 ui/grub/index.html:23
+msgid "(repeat passphrase)"
+msgstr "(повторите фразу)"
+
+#: backend3/grub:35
+msgid "Can't create tempfile "
+msgstr "Невозможно создать временный файл "
+
+#: backend3/grub:43
+msgid "Can't create grub menu"
+msgstr "Невозможно создать меню загрузчика"
+
+#: backend3/grub:90
+msgid "Can't backup or/and clear NVRAM!"
+msgstr "Невозможно сохранить и/или очистить NVRAM!"
+
+#: backend3/grub:104
+msgid "Can't install grub into"
+msgstr "Невозможно установить загрузчик в"
+
+#: backend3/grub:116
+msgid "Internal error"
+msgstr "Внутренняя ошибка"
+
+#: backend3/grub:122
+msgid "You should define a password for boot with options"
+msgstr "Вы должны указать пароль на загрузчик"
+
+#: backend3/grub:124
+msgid "Passwords mismatch"
+msgstr "Введённые пароли не совпадают"
+
+#: backend3/grub:108 (alterator-grub < 0.12-alt4)
+msgid "EFI"
+msgstr "EFI"
+
+#: backend3/grub:165
+msgid "EFI (recommended)"
+msgstr "EFI (рекомендуемый)"
+
+#: backend3/grub:166
+msgid "EFI (clear NVRAM before)"
+msgstr "EFI (сначала очистить NVRAM)"
+
+#: backend3/grub:167
+msgid "EFI (disable write to NVRAM)"
+msgstr "EFI (запретить запись в NVRAM)"
+
+#: backend3/grub:168
+msgid "EFI (for removable device)"
+msgstr "EFI (для съёмных устройств)"
+
+#: backend3/grub:171
+msgid "Skip bootloader install"
+msgstr "Не устанавливать загрузчик"
+
+#: backend3/grub:186
+msgid "No device for install given!"
+msgstr "Не указано устройство для установки загрузчика!"
+
+#: backend3/grub:205
+msgid "Can't install grub on "
+msgstr "Невозможно установить загрузчик на "
+
+#: backend3/grub:210
+msgid " even using blocklists :"
+msgstr " даже используя списки :"
+
+#: bin/grub-disk:20
+msgid "Hard drive"
+msgstr "Жёсткий диск"
+
+#: bin/grub-disk:21
+msgid "Linux partition"
+msgstr "Раздел Linux"
